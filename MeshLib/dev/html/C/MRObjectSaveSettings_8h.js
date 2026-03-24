@@ -1,7 +1,6 @@
 var MRObjectSaveSettings_8h =
 [
     [ "MR_ObjectSave_Settings_AssignFromAnother", "MRObjectSaveSettings_8h.html#ab106a915978c0771fd327d77ae400b5f", null ],
-    [ "MR_ObjectSave_Settings_ConstructFrom", "MRObjectSaveSettings_8h.html#a2211839d2f9f368fc7189d61a2326a71", null ],
     [ "MR_ObjectSave_Settings_ConstructFromAnother", "MRObjectSaveSettings_8h.html#ad8c1080ab0ac60764ef001f3b3df49aa", null ],
     [ "MR_ObjectSave_Settings_DefaultConstruct", "MRObjectSaveSettings_8h.html#a2cf9f4a906c29fa3c9db3da5db6ae9c3", null ],
     [ "MR_ObjectSave_Settings_DefaultConstructArray", "MRObjectSaveSettings_8h.html#a9e69e30c7ca06f87d5708248d2704bb4", null ],
@@ -11,8 +10,27 @@ var MRObjectSaveSettings_8h =
     [ "MR_ObjectSave_Settings_Get_progress", "MRObjectSaveSettings_8h.html#a78782b40ed916bab64dc0cc3e9b687a9", null ],
     [ "MR_ObjectSave_Settings_GetMutable_lengthUnit", "MRObjectSaveSettings_8h.html#ae3b00a16a85b46d5fa4abab9252ed4b7", null ],
     [ "MR_ObjectSave_Settings_GetMutable_progress", "MRObjectSaveSettings_8h.html#aae1425c88ad4f2155de530af69041a29", null ],
+    [ "MR_ObjectSave_Settings_MutableStaticDowncastFrom_MR_SceneSave_Settings", "MRObjectSaveSettings_8h.html#ac65f0cfb22baeaff09f05a79bdd90b66", null ],
+    [ "MR_ObjectSave_Settings_MutableUpcastTo_MR_SceneSave_Settings", "MRObjectSaveSettings_8h.html#a6b9ef66f70660c629d82242964cc6535", null ],
     [ "MR_ObjectSave_Settings_OffsetMutablePtr", "MRObjectSaveSettings_8h.html#a37f2831a29d337d2571c5a03ff1c4868", null ],
     [ "MR_ObjectSave_Settings_OffsetPtr", "MRObjectSaveSettings_8h.html#abdf56d4bc878c5d99018e97fe4f7d6da", null ],
     [ "MR_ObjectSave_Settings_Set_lengthUnit", "MRObjectSaveSettings_8h.html#ae5077a81bb446c547ea6133f50e5b2ba", null ],
-    [ "MR_ObjectSave_Settings_Set_progress", "MRObjectSaveSettings_8h.html#a88850c2ebdd4eb704ef3d2dc6f5ec7d8", null ]
+    [ "MR_ObjectSave_Settings_Set_progress", "MRObjectSaveSettings_8h.html#a88850c2ebdd4eb704ef3d2dc6f5ec7d8", null ],
+    [ "MR_ObjectSave_Settings_StaticDowncastFrom_MR_SceneSave_Settings", "MRObjectSaveSettings_8h.html#ae9024025be47bc9af522270e77a3a369", null ],
+    [ "MR_ObjectSave_Settings_UpcastTo_MR_SceneSave_Settings", "MRObjectSaveSettings_8h.html#ae24d5092b266ee1d339750b4f5dc0327", null ],
+    [ "MR_SceneSave_Settings_AssignFromAnother", "MRObjectSaveSettings_8h.html#a7d8593e8a0f51bb2b11ad49514505ee1", null ],
+    [ "MR_SceneSave_Settings_ConstructFrom", "MRObjectSaveSettings_8h.html#a58eda2a187f11b452ae73daeaeaa1f19", null ],
+    [ "MR_SceneSave_Settings_ConstructFromAnother", "MRObjectSaveSettings_8h.html#aacad85130635d4b2d3e0300fde1e2000", null ],
+    [ "MR_SceneSave_Settings_DefaultConstruct", "MRObjectSaveSettings_8h.html#a80d27fa4a8d88b19b3aac70c65dda8a4", null ],
+    [ "MR_SceneSave_Settings_DefaultConstructArray", "MRObjectSaveSettings_8h.html#a8c37c2c49dc2ada48ddd6a5771ab1ecc", null ],
+    [ "MR_SceneSave_Settings_Destroy", "MRObjectSaveSettings_8h.html#a11a142bea8604051ddd36432550db85e", null ],
+    [ "MR_SceneSave_Settings_DestroyArray", "MRObjectSaveSettings_8h.html#aab824cd96316a357e275d6fa08dc85df", null ],
+    [ "MR_SceneSave_Settings_Get_lengthUnit", "MRObjectSaveSettings_8h.html#a011af96c0b269370f7f01deedb5d7c5f", null ],
+    [ "MR_SceneSave_Settings_Get_progress", "MRObjectSaveSettings_8h.html#a418fdf1b58f6d1eb633c246e9342dcad", null ],
+    [ "MR_SceneSave_Settings_GetMutable_lengthUnit", "MRObjectSaveSettings_8h.html#ae73978f35ecb92911d26c5450d412160", null ],
+    [ "MR_SceneSave_Settings_GetMutable_progress", "MRObjectSaveSettings_8h.html#a3372e74f7f6fb0ca76ca2a387cc76bb4", null ],
+    [ "MR_SceneSave_Settings_OffsetMutablePtr", "MRObjectSaveSettings_8h.html#a8552ae4bf04d6bbda41dcc2fc6bc17ea", null ],
+    [ "MR_SceneSave_Settings_OffsetPtr", "MRObjectSaveSettings_8h.html#a6d95cf5eb82cc32ac87a4ba182bd729d", null ],
+    [ "MR_SceneSave_Settings_Set_lengthUnit", "MRObjectSaveSettings_8h.html#a5a2888da54a86011c805800847132efb", null ],
+    [ "MR_SceneSave_Settings_Set_progress", "MRObjectSaveSettings_8h.html#a7b5121b85cb9555b16f3deac5b831d3c", null ]
 ];

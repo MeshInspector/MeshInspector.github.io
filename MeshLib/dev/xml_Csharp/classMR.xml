@@ -757,6 +757,7 @@
     <innerclass refid="classMR_1_1SceneLoad" prot="public">MR::SceneLoad</innerclass>
     <innerclass refid="classMR_1_1SceneRoot" prot="public">MR::SceneRoot</innerclass>
     <innerclass refid="classMR_1_1SceneRootObject" prot="public">MR::SceneRootObject</innerclass>
+    <innerclass refid="classMR_1_1SceneSave" prot="public">MR::SceneSave</innerclass>
     <innerclass refid="classMR_1_1SceneSettings" prot="public">MR::SceneSettings</innerclass>
     <innerclass refid="classMR_1_1SearchPathSettings" prot="public">MR::SearchPathSettings</innerclass>
     <innerclass refid="classMR_1_1SegmentSegmentIntersectResult" prot="public">MR::SegmentSegmentIntersectResult</innerclass>
@@ -4498,10 +4499,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRGltf.cs" line="8" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRGltf.cs" bodystart="8" bodyend="20"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a8857ea4f05fd383d91a99ed30036e7ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a508f5e435240bd997724cb93c20413c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.serializeObjectTreeToGltf</definition>
-        <argsstring>(MR.Const_Object root, string file, MR.ObjectSave.Const_Settings settings)</argsstring>
+        <argsstring>(MR.Const_Object root, string file, MR.SceneSave.Const_Settings settings)</argsstring>
         <name>serializeObjectTreeToGltf</name>
         <qualifiedname>MR.serializeObjectTreeToGltf</qualifiedname>
         <param>
@@ -4513,11 +4514,11 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.ObjectSave.Const_Settings</type>
+          <type>MR.SceneSave.Const_Settings</type>
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a8857ea4f05fd383d91a99ed30036e7ac" kindref="member">MR.serializeObjectTreeToGltf</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a508f5e435240bd997724cb93c20413c8" kindref="member">MR.serializeObjectTreeToGltf</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -27652,10 +27653,10 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectsAccess.cs" line="744" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectsAccess.cs" bodystart="744" bodyend="749"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a61549957b3b3b5ef92608591ea77b74c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a04460eee7f083926fa7ecdc5df358bbc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.serializeObjectTree</definition>
-        <argsstring>(MR.Const_Object object_, string path, MR.Std._ByValue_Function_VoidFuncFromConstStdFilesystemPathRef preCompress, MR.ObjectSave.Const_Settings? settings=null)</argsstring>
+        <argsstring>(MR.Const_Object object_, string path, MR.Std._ByValue_Function_VoidFuncFromConstStdFilesystemPathRef preCompress, MR.SceneSave.Const_Settings? settings=null)</argsstring>
         <name>serializeObjectTree</name>
         <qualifiedname>MR.serializeObjectTree</qualifiedname>
         <param>
@@ -27671,7 +27672,7 @@ element fields:<linebreak/>
           <declname>preCompress</declname>
         </param>
         <param>
-          <type>MR.ObjectSave.Const_Settings?</type>
+          <type>MR.SceneSave.Const_Settings?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -27679,16 +27680,16 @@ element fields:<linebreak/>
 <para>saves object subtree in given scene file (zip/mru) </para>
         </briefdescription>
         <detaileddescription>
-<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder if preCompress is set, it is called before compression saving is controlled with Object::serializeModel_ and Object::serializeFields_ Generated from function <computeroutput><ref refid="classMR_1a61549957b3b3b5ef92608591ea77b74c" kindref="member">MR.serializeObjectTree</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>format specification: children are saved under folder with name of their parent object all objects parameters are saved in one JSON file in the root folder if preCompress is set, it is called before compression saving is controlled with Object::serializeModel_ and Object::serializeFields_ Generated from function <computeroutput><ref refid="classMR_1a04460eee7f083926fa7ecdc5df358bbc" kindref="member">MR.serializeObjectTree</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" line="55" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSave.cs" bodystart="55" bodyend="66"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aa4d5d27056cdc8fba753f80f1a3cc57f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a91868bc1255b7cc4a0593bdb2b6747d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.serializeObjectTree</definition>
-        <argsstring>(MR.Const_Object object_, string path, MR.ObjectSave.Const_Settings? settings=null)</argsstring>
+        <argsstring>(MR.Const_Object object_, string path, MR.SceneSave.Const_Settings? settings=null)</argsstring>
         <name>serializeObjectTree</name>
         <qualifiedname>MR.serializeObjectTree</qualifiedname>
         <param>
@@ -27700,12 +27701,12 @@ element fields:<linebreak/>
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.ObjectSave.Const_Settings?</type>
+          <type>MR.SceneSave.Const_Settings?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a61549957b3b3b5ef92608591ea77b74c" kindref="member">MR.serializeObjectTree</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a04460eee7f083926fa7ecdc5df358bbc" kindref="member">MR.serializeObjectTree</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -50660,9 +50661,9 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ad0c75e19fdeb0f2b1455d00b6464d826" prot="public" virt="non-virtual"><scope>MR</scope><name>selfBoolean</name></member>
       <member refid="classMR_1ae386b79ef0c05dbddb2ddbf14fd303b5" prot="public" virt="non-virtual"><scope>MR</scope><name>separateClosedContour</name></member>
       <member refid="classMR_1ad02456448a04959c5b886d2dae32efad" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeMesh</name></member>
-      <member refid="classMR_1a61549957b3b3b5ef92608591ea77b74c" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeObjectTree</name></member>
-      <member refid="classMR_1aa4d5d27056cdc8fba753f80f1a3cc57f" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeObjectTree</name></member>
-      <member refid="classMR_1a8857ea4f05fd383d91a99ed30036e7ac" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeObjectTreeToGltf</name></member>
+      <member refid="classMR_1a04460eee7f083926fa7ecdc5df358bbc" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeObjectTree</name></member>
+      <member refid="classMR_1a91868bc1255b7cc4a0593bdb2b6747d2" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeObjectTree</name></member>
+      <member refid="classMR_1a508f5e435240bd997724cb93c20413c8" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeObjectTreeToGltf</name></member>
       <member refid="classMR_1a993531e2266c46f2928b7f763c13d345" prot="public" virt="non-virtual"><scope>MR</scope><name>setCurrentThreadName</name></member>
       <member refid="classMR_1aa01adb97f91261009ee2d0e53721b90a" prot="public" virt="non-virtual"><scope>MR</scope><name>setDefaultSerializeMeshFormat</name></member>
       <member refid="classMR_1abb490e3f859a3d3d9af14265094680ff" prot="public" virt="non-virtual"><scope>MR</scope><name>setDefaultSerializePointsFormat</name></member>

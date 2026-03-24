@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SceneSave_1_1Settings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SceneSave::Settings</compoundname>
+    <derivedcompoundref refid="structMR_1_1ObjectSave_1_1Settings" prot="public" virt="non-virtual">MR::ObjectSave::Settings</derivedcompoundref>
+    <includes refid="MRObjectSaveSettings_8h" local="no">MRMesh/MRObjectSaveSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SceneSave_1_1Settings_1abe24eb97f130222d8ab758179249597b" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="group__GeneralGroup_1ga754d4eb0500be08374f5c611d33b5cab" kindref="member">LengthUnit</ref> &gt;</type>
+        <definition>std::optional&lt;LengthUnit&gt; MR::SceneSave::Settings::lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>MR::SceneSave::Settings::lengthUnit</qualifiedname>
+        <briefdescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectSaveSettings.h" line="13" column="19" bodyfile="MRMesh/MRObjectSaveSettings.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SceneSave_1_1Settings_1a5eba607b1b31e9aa25865db38feea83b" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::SceneSave::Settings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::SceneSave::Settings::progress</qualifiedname>
+        <briefdescription>
+<para>to report loading progress and allow the user to cancel it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectSaveSettings.h" line="16" column="22" bodyfile="MRMesh/MRObjectSaveSettings.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ObjectSave::Settings</label>
+        <link refid="structMR_1_1ObjectSave_1_1Settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SceneSave::Settings</label>
+        <link refid="structMR_1_1SceneSave_1_1Settings"/>
+      </node>
+    </inheritancegraph>
+    <location file="MRMesh/MRObjectSaveSettings.h" line="10" column="1" bodyfile="MRMesh/MRObjectSaveSettings.h" bodystart="11" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SceneSave_1_1Settings_1abe24eb97f130222d8ab758179249597b" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>lengthUnit</name></member>
+      <member refid="structMR_1_1SceneSave_1_1Settings_1a5eba607b1b31e9aa25865db38feea83b" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

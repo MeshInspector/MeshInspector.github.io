@@ -1,15 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"classmrmeshpy_1_1PolylineProjectionResult2.html#a631690e11abdf46801c5d09b738b05bd":[6,1,0,0,2,728,0],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#a631690e11abdf46801c5d09b738b05bd":[6,1,1,0,1,728,0],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#a6a5c1b28bf808d4fb46db33444302fc8":[6,1,0,0,2,728,1],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#a6a5c1b28bf808d4fb46db33444302fc8":[6,1,1,0,1,728,1],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#a70c22c6b8a4ea4bc2785a83d4c85ad57":[6,1,0,0,2,728,5],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#a70c22c6b8a4ea4bc2785a83d4c85ad57":[6,1,1,0,1,728,5],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#aa75915bb28bcc032bfa062c279ecebea":[6,1,0,0,2,728,8],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#aa75915bb28bcc032bfa062c279ecebea":[6,1,1,0,1,728,8],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#ae611cade8375679848c3fa7bc53e3786":[6,1,0,0,2,728,4],
-"classmrmeshpy_1_1PolylineProjectionResult2.html#ae611cade8375679848c3fa7bc53e3786":[6,1,1,0,1,728,4],
 "classmrmeshpy_1_1PolylineProjectionResult2.html#aea22b5f8627b8a499f40c9f215af20c7":[6,1,0,0,2,728,2],
 "classmrmeshpy_1_1PolylineProjectionResult2.html#aea22b5f8627b8a499f40c9f215af20c7":[6,1,1,0,1,728,2],
 "classmrmeshpy_1_1PolylineProjectionResult2.html#aec635bab59d9c6f8d4bcf2441e2843dc":[6,1,0,0,2,728,10],
@@ -249,5 +239,15 @@ var NAVTREEINDEX75 =
 "classmrmeshpy_1_1PolylineTopology.html#afc1668b44813fd2e64a1891def24e8f5":[6,1,0,0,2,734,17],
 "classmrmeshpy_1_1PolylineTopology.html#afc1668b44813fd2e64a1891def24e8f5":[6,1,1,0,1,734,17],
 "classmrmeshpy_1_1PolylineTopology.html#afddbbb9a4d98c4c4b2eeb17a09b4a069":[6,1,0,0,2,734,8],
-"classmrmeshpy_1_1PolylineTopology.html#afddbbb9a4d98c4c4b2eeb17a09b4a069":[6,1,1,0,1,734,8]
+"classmrmeshpy_1_1PolylineTopology.html#afddbbb9a4d98c4c4b2eeb17a09b4a069":[6,1,1,0,1,734,8],
+"classmrmeshpy_1_1PolylineTopology.html#afddc6410e8a702df2a4ff54c20a3aed2":[6,1,0,0,2,734,30],
+"classmrmeshpy_1_1PolylineTopology.html#afddc6410e8a702df2a4ff54c20a3aed2":[6,1,1,0,1,734,30],
+"classmrmeshpy_1_1PolylineTraits__Vector2f.html":[6,1,0,0,2,736],
+"classmrmeshpy_1_1PolylineTraits__Vector2f.html":[6,1,1,0,1,736],
+"classmrmeshpy_1_1PolylineTraits__Vector2f.html#a0ee6cbf6265241d8a194eb374c8fa313":[6,1,0,0,2,736,1],
+"classmrmeshpy_1_1PolylineTraits__Vector2f.html#a0ee6cbf6265241d8a194eb374c8fa313":[6,1,1,0,1,736,1],
+"classmrmeshpy_1_1PolylineTraits__Vector2f.html#aba248374d6688979f2cf15a8a3345bd1":[6,1,0,0,2,736,0],
+"classmrmeshpy_1_1PolylineTraits__Vector2f.html#aba248374d6688979f2cf15a8a3345bd1":[6,1,0,0,2,736,2],
+"classmrmeshpy_1_1PolylineTraits__Vector2f.html#aba248374d6688979f2cf15a8a3345bd1":[6,1,1,0,1,736,0],
+"classmrmeshpy_1_1PolylineTraits__Vector2f.html#aba248374d6688979f2cf15a8a3345bd1":[6,1,1,0,1,736,2]
 };

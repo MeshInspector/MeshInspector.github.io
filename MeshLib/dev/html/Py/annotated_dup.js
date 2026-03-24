@@ -808,6 +808,7 @@ var annotated_dup =
       [ "SceneLoad", "classmrmeshpy_1_1SceneLoad.html", "classmrmeshpy_1_1SceneLoad" ],
       [ "SceneRoot", "classmrmeshpy_1_1SceneRoot.html", "classmrmeshpy_1_1SceneRoot" ],
       [ "SceneRootObject", "classmrmeshpy_1_1SceneRootObject.html", "classmrmeshpy_1_1SceneRootObject" ],
+      [ "SceneSave", "classmrmeshpy_1_1SceneSave.html", "classmrmeshpy_1_1SceneSave" ],
       [ "SceneSettings", "classmrmeshpy_1_1SceneSettings.html", "classmrmeshpy_1_1SceneSettings" ],
       [ "SearchPathSettings", "classmrmeshpy_1_1SearchPathSettings.html", "classmrmeshpy_1_1SearchPathSettings" ],
       [ "SegmentSegmentIntersectResult", "classmrmeshpy_1_1SegmentSegmentIntersectResult.html", "classmrmeshpy_1_1SegmentSegmentIntersectResult" ],

@@ -1011,6 +1011,7 @@ var hierarchy =
     [ "mrmeshpy.SceneColors", "classmrmeshpy_1_1SceneColors.html", null ],
     [ "mrmeshpy.SceneLoad", "classmrmeshpy_1_1SceneLoad.html", null ],
     [ "mrmeshpy.SceneRoot", "classmrmeshpy_1_1SceneRoot.html", null ],
+    [ "mrmeshpy.SceneSave", "classmrmeshpy_1_1SceneSave.html", null ],
     [ "mrmeshpy.SceneSettings", "classmrmeshpy_1_1SceneSettings.html", null ],
     [ "mrmeshpy.SearchPathSettings", "classmrmeshpy_1_1SearchPathSettings.html", null ],
     [ "mrmeshpy.VolumeSegmenter.SeedType", "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html", null ],
@@ -1021,8 +1022,10 @@ var hierarchy =
     [ "mrmeshpy.SeparationPointStorage", "classmrmeshpy_1_1SeparationPointStorage.html", null ],
     [ "mrmeshpy.Nesting.SequentialNester", "classmrmeshpy_1_1Nesting_1_1SequentialNester.html", null ],
     [ "mrmeshpy.SetNew", "classmrmeshpy_1_1SetNew.html", null ],
-    [ "mrmeshpy.ObjectSave.Settings", "classmrmeshpy_1_1ObjectSave_1_1Settings.html", null ],
     [ "mrmeshpy.SceneLoad.Settings", "classmrmeshpy_1_1SceneLoad_1_1Settings.html", null ],
+    [ "mrmeshpy.SceneSave.Settings", "classmrmeshpy_1_1SceneSave_1_1Settings.html", [
+      [ "mrmeshpy.ObjectSave.Settings", "classmrmeshpy_1_1ObjectSave_1_1Settings.html", null ]
+    ] ],
     [ "mrmeshpy.SelfIntersections.Settings", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html", null ],
     [ "mrmeshpy.TriangulationHelpers.Settings", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html", null ],
     [ "mrmeshpy.SceneSettings.ShadingMode", "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html", null ],

@@ -1,15 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"classmrmeshpy_1_1PixelBitSet.html#a17db0e4f534417a245541e4fe11da78a":[6,1,0,0,2,688,27],
-"classmrmeshpy_1_1PixelBitSet.html#a17db0e4f534417a245541e4fe11da78a":[6,1,1,0,1,688,27],
-"classmrmeshpy_1_1PixelBitSet.html#a180d0c36455caebdf8ef53db6000e9cf":[6,1,0,0,2,688,41],
-"classmrmeshpy_1_1PixelBitSet.html#a180d0c36455caebdf8ef53db6000e9cf":[6,1,1,0,1,688,41],
-"classmrmeshpy_1_1PixelBitSet.html#a24f4a9a782e907e21f11eac0e443b6c3":[6,1,0,0,2,688,35],
-"classmrmeshpy_1_1PixelBitSet.html#a24f4a9a782e907e21f11eac0e443b6c3":[6,1,1,0,1,688,35],
-"classmrmeshpy_1_1PixelBitSet.html#a2a2c074daa9b60bdbbc03f6d4ba3b6d3":[6,1,0,0,2,688,19],
-"classmrmeshpy_1_1PixelBitSet.html#a2a2c074daa9b60bdbbc03f6d4ba3b6d3":[6,1,1,0,1,688,19],
-"classmrmeshpy_1_1PixelBitSet.html#a2a42e5006e467482fc47e531e58b574d":[6,1,0,0,2,688,13],
-"classmrmeshpy_1_1PixelBitSet.html#a2a42e5006e467482fc47e531e58b574d":[6,1,1,0,1,688,13],
 "classmrmeshpy_1_1PixelBitSet.html#a2deb33a5d8429ef8a7f2f32f09f18877":[6,1,0,0,2,688,8],
 "classmrmeshpy_1_1PixelBitSet.html#a2deb33a5d8429ef8a7f2f32f09f18877":[6,1,1,0,1,688,8],
 "classmrmeshpy_1_1PixelBitSet.html#a3c375dd46253b798e337704f319a0487":[6,1,0,0,2,688,9],
@@ -249,5 +239,15 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#ae72f88ab0997816bc3123746fa6cdd06":[6,1,0,0,2,691,4,7],
 "classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#ae72f88ab0997816bc3123746fa6cdd06":[6,1,1,0,1,691,4,7],
 "classmrmeshpy_1_1Plane3d.html":[6,1,0,0,2,692],
-"classmrmeshpy_1_1Plane3d.html":[6,1,1,0,1,692]
+"classmrmeshpy_1_1Plane3d.html":[6,1,1,0,1,692],
+"classmrmeshpy_1_1Plane3d.html#a1afd3be37f3d287e5eda4ea62598f24c":[6,1,0,0,2,692,7],
+"classmrmeshpy_1_1Plane3d.html#a1afd3be37f3d287e5eda4ea62598f24c":[6,1,1,0,1,692,7],
+"classmrmeshpy_1_1Plane3d.html#a2012644425cecdf88da76cde809b9e0f":[6,1,0,0,2,692,6],
+"classmrmeshpy_1_1Plane3d.html#a2012644425cecdf88da76cde809b9e0f":[6,1,1,0,1,692,6],
+"classmrmeshpy_1_1Plane3d.html#a316e8647db15da17b4c40f36e0573f9f":[6,1,0,0,2,692,8],
+"classmrmeshpy_1_1Plane3d.html#a316e8647db15da17b4c40f36e0573f9f":[6,1,1,0,1,692,8],
+"classmrmeshpy_1_1Plane3d.html#a46b56cf9734a49537fa5bd347181cace":[6,1,0,0,2,692,9],
+"classmrmeshpy_1_1Plane3d.html#a46b56cf9734a49537fa5bd347181cace":[6,1,1,0,1,692,9],
+"classmrmeshpy_1_1Plane3d.html#a49bdd21570dad52482d66335477ab483":[6,1,0,0,2,692,0],
+"classmrmeshpy_1_1Plane3d.html#a49bdd21570dad52482d66335477ab483":[6,1,1,0,1,692,0]
 };

@@ -146,26 +146,39 @@ $(function(){initNavTree('MRObjectSaveSettings_8h_source.html','',''); });
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRUnitInfo_8h.html">MRUnitInfo.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1ObjectSave.html">MR::ObjectSave</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1SceneSave.html">MR::SceneSave</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectSave_1_1Settings.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ObjectSave_1_1Settings.html">Settings</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structMR_1_1SceneSave_1_1Settings.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1SceneSave_1_1Settings.html">Settings</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectSave_1_1Settings.html#a44959435e399e88f5fec4d1177913925">   13</a></span>    std::optional&lt;LengthUnit&gt; <a class="code hl_variable" href="structMR_1_1ObjectSave_1_1Settings.html#a44959435e399e88f5fec4d1177913925">lengthUnit</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b">   13</a></span>    std::optional&lt;LengthUnit&gt; <a class="code hl_variable" href="structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b">lengthUnit</a>;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectSave_1_1Settings.html#abaac448dc025a46f3ebc884adacb58ab">   16</a></span>    <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> <a class="code hl_variable" href="structMR_1_1ObjectSave_1_1Settings.html#abaac448dc025a46f3ebc884adacb58ab">progress</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b">   16</a></span>    <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> <a class="code hl_variable" href="structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b">progress</a>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
 </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>}</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1ObjectSave.html">MR::ObjectSave</a></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectSave_1_1Settings.html">   26</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ObjectSave_1_1Settings.html">Settings</a> : <span class="keyword">public</span> <a class="code hl_struct" href="structMR_1_1SceneSave_1_1Settings.html">SceneSave::Settings</a></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
+</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRUnitInfo_8h_html"><div class="ttname"><a href="MRUnitInfo_8h.html">MRUnitInfo.h</a></div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:752</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:753</div></div>
 <div class="ttc" id="anamespaceMR_1_1ObjectSave_html"><div class="ttname"><a href="namespaceMR_1_1ObjectSave.html">MR::ObjectSave</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:324</div></div>
-<div class="ttc" id="astructMR_1_1ObjectSave_1_1Settings_html"><div class="ttname"><a href="structMR_1_1ObjectSave_1_1Settings.html">MR::ObjectSave::Settings</a></div><div class="ttdef"><b>Definition</b> MRObjectSaveSettings.h:11</div></div>
-<div class="ttc" id="astructMR_1_1ObjectSave_1_1Settings_html_a44959435e399e88f5fec4d1177913925"><div class="ttname"><a href="structMR_1_1ObjectSave_1_1Settings.html#a44959435e399e88f5fec4d1177913925">MR::ObjectSave::Settings::lengthUnit</a></div><div class="ttdeci">std::optional&lt; LengthUnit &gt; lengthUnit</div><div class="ttdoc">units of input coordinates and transformation, to be serialized if the format supports it</div><div class="ttdef"><b>Definition</b> MRObjectSaveSettings.h:13</div></div>
-<div class="ttc" id="astructMR_1_1ObjectSave_1_1Settings_html_abaac448dc025a46f3ebc884adacb58ab"><div class="ttname"><a href="structMR_1_1ObjectSave_1_1Settings.html#abaac448dc025a46f3ebc884adacb58ab">MR::ObjectSave::Settings::progress</a></div><div class="ttdeci">ProgressCallback progress</div><div class="ttdoc">to report loading progress and allow the user to cancel it</div><div class="ttdef"><b>Definition</b> MRObjectSaveSettings.h:16</div></div>
+<div class="ttc" id="anamespaceMR_1_1SceneSave_html"><div class="ttname"><a href="namespaceMR_1_1SceneSave.html">MR::SceneSave</a></div><div class="ttdef"><b>Definition</b> MRIOFormatsRegistry.h:361</div></div>
+<div class="ttc" id="astructMR_1_1ObjectSave_1_1Settings_html"><div class="ttname"><a href="structMR_1_1ObjectSave_1_1Settings.html">MR::ObjectSave::Settings</a></div><div class="ttdef"><b>Definition</b> MRObjectSaveSettings.h:27</div></div>
+<div class="ttc" id="astructMR_1_1SceneSave_1_1Settings_html"><div class="ttname"><a href="structMR_1_1SceneSave_1_1Settings.html">MR::SceneSave::Settings</a></div><div class="ttdef"><b>Definition</b> MRObjectSaveSettings.h:11</div></div>
+<div class="ttc" id="astructMR_1_1SceneSave_1_1Settings_html_a5eba607b1b31e9aa25865db38feea83b"><div class="ttname"><a href="structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b">MR::SceneSave::Settings::progress</a></div><div class="ttdeci">ProgressCallback progress</div><div class="ttdoc">to report loading progress and allow the user to cancel it</div><div class="ttdef"><b>Definition</b> MRObjectSaveSettings.h:16</div></div>
+<div class="ttc" id="astructMR_1_1SceneSave_1_1Settings_html_abe24eb97f130222d8ab758179249597b"><div class="ttname"><a href="structMR_1_1SceneSave_1_1Settings.html#abe24eb97f130222d8ab758179249597b">MR::SceneSave::Settings::lengthUnit</a></div><div class="ttdeci">std::optional&lt; LengthUnit &gt; lengthUnit</div><div class="ttdoc">units of input coordinates and transformation, to be serialized if the format supports it</div><div class="ttdef"><b>Definition</b> MRObjectSaveSettings.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

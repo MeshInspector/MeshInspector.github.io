@@ -10249,14 +10249,16 @@
     <member refid="group__GeneralGroup_1ga3943dc4f528bc49722114379614e4c2e" kind="function"><name>size</name></member>
   </compound>
   <compound refid="structMR_1_1ObjectSave_1_1Settings" kind="struct"><name>MR::ObjectSave::Settings</name>
-    <member refid="structMR_1_1ObjectSave_1_1Settings_1a44959435e399e88f5fec4d1177913925" kind="variable"><name>lengthUnit</name></member>
-    <member refid="structMR_1_1ObjectSave_1_1Settings_1abaac448dc025a46f3ebc884adacb58ab" kind="variable"><name>progress</name></member>
   </compound>
   <compound refid="structMR_1_1SceneLoad_1_1Settings" kind="struct"><name>MR::SceneLoad::Settings</name>
     <member refid="structMR_1_1SceneLoad_1_1Settings_1a01397df55967ecaab97eaba28056aaf9" kind="typedef"><name>OpenFolder</name></member>
     <member refid="structMR_1_1SceneLoad_1_1Settings_1af5b8ca73e0491595900574e2c8ab17d8" kind="variable"><name>targetUnit</name></member>
     <member refid="structMR_1_1SceneLoad_1_1Settings_1ac5c932854de305eb8458df1d84eee28a" kind="variable"><name>progress</name></member>
     <member refid="structMR_1_1SceneLoad_1_1Settings_1aeefaeaf2dac0299fbdece77fe19bd751" kind="variable"><name>openFolder</name></member>
+  </compound>
+  <compound refid="structMR_1_1SceneSave_1_1Settings" kind="struct"><name>MR::SceneSave::Settings</name>
+    <member refid="structMR_1_1SceneSave_1_1Settings_1abe24eb97f130222d8ab758179249597b" kind="variable"><name>lengthUnit</name></member>
+    <member refid="structMR_1_1SceneSave_1_1Settings_1a5eba607b1b31e9aa25865db38feea83b" kind="variable"><name>progress</name></member>
   </compound>
   <compound refid="structMR_1_1SelfIntersections_1_1Settings" kind="struct"><name>MR::SelfIntersections::Settings</name>
     <member refid="group__GeneralGroup_1ga89959b4882d33598d9220db080145bc5" kind="enum"><name>Method</name></member>
@@ -14046,7 +14048,7 @@
     <member refid="group__GeneralGroup_1ga19050dd10a5949c79f3e19aeaff6466b" kind="function"><name>deserializeObjectTreeFrom3mf</name></member>
     <member refid="group__GeneralGroup_1ga58ca3a48e21d88de69dd699129025edb" kind="function"><name>deserializeObjectTreeFromModel</name></member>
     <member refid="group__GeneralGroup_1gae6fa636dd51f34ce2884fd560b05e1f4" kind="function"><name>deserializeObjectTreeFromGltf</name></member>
-    <member refid="group__GeneralGroup_1gac8803852ddb6015dc7720ef58908cd84" kind="function"><name>serializeObjectTreeToGltf</name></member>
+    <member refid="group__GeneralGroup_1ga01574256a10162ba5b6e30329e70503e" kind="function"><name>serializeObjectTreeToGltf</name></member>
     <member refid="group__GeneralGroup_1ga9da69906a8753c1bbec83769cf687367" kind="function"><name>loadIOExtras</name></member>
     <member refid="group__GeneralGroup_1ga391a2ecfeefaef70abbdbb81665886f5" kind="function"><name>zlibCompressStream</name></member>
     <member refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" kind="function"><name>zlibDecompressStream</name></member>
@@ -14806,8 +14808,8 @@
     <member refid="group__GeneralGroup_1ga2c6a78cd704061f23a26f39a7894d013" kind="function"><name>defaultSerializePointsFormat</name></member>
     <member refid="group__GeneralGroup_1ga7e504838577ed8995448cf04bf473df1" kind="function"><name>setDefaultSerializePointsFormat</name></member>
     <member refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kind="function"><name>objectHasSelectableChildren</name></member>
-    <member refid="group__GeneralGroup_1ga44180c985ce59605375de3a563f70117" kind="function"><name>serializeObjectTree</name></member>
-    <member refid="group__GeneralGroup_1gaf22dded395c05c3c4b797c7f1e760d4c" kind="function"><name>serializeObjectTree</name></member>
+    <member refid="group__GeneralGroup_1ga3fa67e9b2bffd51623fd22f0bc905c63" kind="function"><name>serializeObjectTree</name></member>
+    <member refid="group__GeneralGroup_1ga52f72eaec639a525805b33872f567ba2" kind="function"><name>serializeObjectTree</name></member>
     <member refid="group__GeneralGroup_1ga5ced9aa5aa8cabc02ac28c90b1ef782b" kind="function"><name>offsetContours</name></member>
     <member refid="group__GeneralGroup_1ga37d160a0ced942b7139aafba1321e8f0" kind="function"><name>offsetContours</name></member>
     <member refid="group__GeneralGroup_1ga132f18e77a51cf27dfa56d8b0101c6bb" kind="function"><name>offsetContours</name></member>
@@ -16104,7 +16106,7 @@
     <member refid="namespaceMR_1_1SceneLoad_1a2a4af1d8739f0881fc254c4f1aa18df0" kind="function"><name>asyncFromAnySupportedFormat</name></member>
   </compound>
   <compound refid="namespaceMR_1_1SceneSave" kind="namespace"><name>MR::SceneSave</name>
-    <member refid="namespaceMR_1_1SceneSave_1a608a6e40cd6fd4e4c380794e4f48e3cd" kind="typedef"><name>SceneSaver</name></member>
+    <member refid="namespaceMR_1_1SceneSave_1a2c6d3ab6c6b433b7958ebb92cb464f02" kind="typedef"><name>SceneSaver</name></member>
   </compound>
   <compound refid="namespaceMR_1_1SelfIntersections" kind="namespace"><name>MR::SelfIntersections</name>
     <member refid="group__GeneralGroup_1ga069e732f3fcc74e807a5de08736596cd" kind="function"><name>getFaces</name></member>
@@ -24395,7 +24397,7 @@
     <member refid="group__GeneralGroup_1ga898d2d11a740e4045732fea8bcaf73cd" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1gaf1f0368ea29bcc428bd7a55601155bd2" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1gae6fa636dd51f34ce2884fd560b05e1f4" kind="function"><name>deserializeObjectTreeFromGltf</name></member>
-    <member refid="group__GeneralGroup_1gac8803852ddb6015dc7720ef58908cd84" kind="function"><name>serializeObjectTreeToGltf</name></member>
+    <member refid="group__GeneralGroup_1ga01574256a10162ba5b6e30329e70503e" kind="function"><name>serializeObjectTreeToGltf</name></member>
     <member refid="group__GeneralGroup_1ga9da69906a8753c1bbec83769cf687367" kind="function"><name>loadIOExtras</name></member>
     <member refid="group__GeneralGroup_1ga445cd4a1d6a7aa55c242ef1fbfa44509" kind="function"><name>fromJpeg</name></member>
     <member refid="group__GeneralGroup_1ga0f43a454e97ee78fa473a9897582dbee" kind="function"><name>fromJpeg</name></member>
@@ -26710,8 +26712,8 @@
     <member refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kind="function"><name>objectHasSelectableChildren</name></member>
     <member refid="group__GeneralGroup_1gadd599c2ce208d307f45d847e255a38da" kind="function"><name>toAnySupportedSceneFormat</name></member>
     <member refid="group__GeneralGroup_1ga0608cdde2a887ca5a818ea80d05340ab" kind="function"><name>toAnySupportedFormat</name></member>
-    <member refid="group__GeneralGroup_1ga44180c985ce59605375de3a563f70117" kind="function"><name>serializeObjectTree</name></member>
-    <member refid="group__GeneralGroup_1gaf22dded395c05c3c4b797c7f1e760d4c" kind="function"><name>serializeObjectTree</name></member>
+    <member refid="group__GeneralGroup_1ga3fa67e9b2bffd51623fd22f0bc905c63" kind="function"><name>serializeObjectTree</name></member>
+    <member refid="group__GeneralGroup_1ga52f72eaec639a525805b33872f567ba2" kind="function"><name>serializeObjectTree</name></member>
     <member refid="group__GeneralGroup_1gae14906b90359ad1f7db1d1f5ad93901f" kind="function"><name>instance</name></member>
     <member refid="group__GeneralGroup_1gabcf0b87d23cf68d0142ef43db70cf1b0" kind="function"><name>ObjectTagEventDispatcher</name></member>
     <member refid="group__GeneralGroup_1gae382efff2f4e2a54df6db8e72d4c7420" kind="function"><name>valid</name></member>

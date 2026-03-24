@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="123" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="123" bodyend="123"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="420" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="420" bodyend="420"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ObjectSave_1_1Settings_1a4ab83bbb53de6611e6868e6dfbb699ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -32,7 +32,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="128" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="128" bodyend="128"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="425" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="425" bodyend="425"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Settings_1a14fef1f0f8a75ab781c091d18befbb48" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectSave.Settings.operator MR.SceneSave.Settings</definition>
+        <argsstring>(Settings self)</argsstring>
+        <name>operator MR.SceneSave.Settings</name>
+        <qualifiedname>MR.ObjectSave.Settings.operator MR.SceneSave.Settings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="408" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="408" bodyend="415"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="154" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="154" bodyend="158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="451" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="451" bodyend="455"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,30 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="164" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="164" bodyend="170"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Settings_1a0fbc73531866a00bdece2cba31ccf889" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.ObjectSave.Settings.Settings</definition>
-        <argsstring>(MR.LengthUnit? lengthUnit, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
-        <name>Settings</name>
-        <qualifiedname>MR.ObjectSave.Settings.Settings</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1ac25d360f4673587185736923888bcde1" kindref="member">MR.LengthUnit</ref>?</type>
-          <declname>lengthUnit</declname>
-        </param>
-        <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
-          <declname>progress</declname>
-        </param>
-        <briefdescription>
-<para>Constructs <computeroutput><ref refid="classMR_1_1ObjectSave_1_1Settings" kindref="compound">MR.ObjectSave.Settings</ref></computeroutput> elementwise. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="175" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="175" bodyend="183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="461" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="461" bodyend="467"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Settings_1a48b77ee3c7c045f6386616669ecbe2cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="188" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="188" bodyend="195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="472" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="472" bodyend="479"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Settings_1a9e8b2f4002d49df14c9519be26c45c08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -134,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="200" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="200" bodyend="200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="484" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="484" bodyend="484"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Settings_1abe27a917bbed37b1d441e6b0880eb061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -153,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="205" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="205" bodyend="205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="489" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="489" bodyend="489"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Settings_1aa695f1790e95659a34f55a1b7fda5d7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjectSave_1_1Settings" kindref="compound">MR.ObjectSave.Settings</ref></type>
@@ -172,11 +169,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="210" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="210" bodyend="217"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="494" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="494" bodyend="501"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="classMR_1_1ObjectSave_1_1Settings" kindref="compound">MR.ObjectSave.Settings</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ObjectSave_1_1Settings" kindref="compound">MR.ObjectSave.Settings</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SceneSave_1_1Settings" kindref="compound">MR.SceneSave.Settings</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -222,14 +219,14 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="118" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="119" bodyend="218"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="405" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="406" bodyend="502"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1aa695f1790e95659a34f55a1b7fda5d7c" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>assign</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a5c6e05d7daa5a16ddad366222d11db46" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>lengthUnit</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Settings_1a14fef1f0f8a75ab781c091d18befbb48" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>operator MR.SceneSave.Settings</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a4ab83bbb53de6611e6868e6dfbb699ef" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>progress</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a815f195da74a37d78a7f3e28f3af055a" prot="package" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a2282543d73724cbcd2f635a27e088564" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>
-      <member refid="classMR_1_1ObjectSave_1_1Settings_1a0fbc73531866a00bdece2cba31ccf889" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a48b77ee3c7c045f6386616669ecbe2cb" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1a9e8b2f4002d49df14c9519be26c45c08" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1ObjectSave_1_1Settings_1abe27a917bbed37b1d441e6b0880eb061" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Settings</scope><name>Settings</name></member>

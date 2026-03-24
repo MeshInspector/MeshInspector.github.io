@@ -55,6 +55,6 @@ var MRIOFormatsRegistry_8h =
     [ "MR::PointsSave::PointsStreamSaver", "namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab", null ],
     [ "MR::AsyncObjectLoad::PostLoadCallback", "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d", null ],
     [ "MR::SceneLoad::SceneLoader", "namespaceMR_1_1SceneLoad.html#a0b87b3918d63624f559f15d25ecb9c3a", null ],
-    [ "MR::SceneSave::SceneSaver", "namespaceMR_1_1SceneSave.html#a608a6e40cd6fd4e4c380794e4f48e3cd", null ],
+    [ "MR::SceneSave::SceneSaver", "namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02", null ],
     [ "MR::AllFilter", "namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd", null ]
 ];

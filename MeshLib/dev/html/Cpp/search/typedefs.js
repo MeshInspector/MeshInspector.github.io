@@ -371,7 +371,7 @@ var searchData=
   ['fullstate_28',['FullState',['../group__GeneralGroup.html#ga126f436cbe4bfa2339652d428159ad0b',1,'MR::PickPointManager']]],
   ['scalar_0',['Scalar',['../group__GeneralGroup.html#gaedc71caa1d99e08276a1064f710e7005',1,'MR::ConeFittingFunctor']]],
   ['sceneloader_1',['SceneLoader',['../namespaceMR_1_1SceneLoad.html#a0b87b3918d63624f559f15d25ecb9c3a',1,'MR::SceneLoad']]],
-  ['scenesaver_2',['SceneSaver',['../namespaceMR_1_1SceneSave.html#a608a6e40cd6fd4e4c380794e4f48e3cd',1,'MR::SceneSave']]],
+  ['scenesaver_2',['SceneSaver',['../namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02',1,'MR::SceneSave']]],
   ['selectfilesignal_3',['SelectFileSignal',['../group__GeneralGroup.html#gaf2edd6d3969959890c9d36abe0e8cfdf',1,'MR::FileDialogSignals']]],
   ['selectfilessignal_4',['SelectFilesSignal',['../group__GeneralGroup.html#gae5d54be77bfb8a87ce567e148a75c449',1,'MR::FileDialogSignals']]],
   ['selectfoldersignal_5',['SelectFolderSignal',['../group__GeneralGroup.html#ga4033cb051c8401a511ba06b57a3b1d7c',1,'MR::FileDialogSignals']]],

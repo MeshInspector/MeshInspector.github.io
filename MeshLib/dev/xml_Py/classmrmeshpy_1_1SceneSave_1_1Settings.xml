@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneSave_1_1Settings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneSave::Settings</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1ObjectSave_1_1Settings" prot="public" virt="non-virtual">mrmeshpy.ObjectSave.Settings</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSave_1_1Settings_1a7f976d5a61f8192e6e65c5621f3f5e41" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSave.Settings::_offsetof_lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lengthUnit</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings._offsetof_lengthUnit</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SceneSave_1_1Settings_1a72b347e82625a9d7edd73e89e2b352b6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SceneSave.Settings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings._offsetof_progress</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52353" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1ac674d08332cc592a1f46bcb412e3f7ca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSave.Settings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52356" bodyend="52357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1adee7a96c3b556417ba1691ab31f1aac8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneSave_1_1Settings" kindref="compound">SceneSave.Settings</ref></type>
+        <definition> SceneSave.Settings mrmeshpy.SceneSave.Settings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a6ae829dbf3f16f54e324bc2398c05183">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a6ae829dbf3f16f54e324bc2398c05183">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52360" bodyend="52361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1adee7a96c3b556417ba1691ab31f1aac8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneSave_1_1Settings" kindref="compound">SceneSave.Settings</ref></type>
+        <definition> SceneSave.Settings mrmeshpy.SceneSave.Settings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a6ae829dbf3f16f54e324bc2398c05183">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a6ae829dbf3f16f54e324bc2398c05183">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52364" bodyend="52365"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1aebc499946ac9a873cee8120307f673ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSave.Settings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52367" bodyend="52368"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1aa1ef2271a9dc05450a25ccaf9acf0dcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSave.Settings.__init__</definition>
+        <argsstring>(self, SceneSave.Settings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneSave_1_1Settings" kindref="compound">SceneSave.Settings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52370" bodyend="52373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1abe06e57ce9ced8af78e892e8cb4df133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSave.Settings.__init__</definition>
+        <argsstring>(self, std_optional_LengthUnit lengthUnit, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>lengthUnit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52375" bodyend="52378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1a484f73915d047d4156657f89c126a457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+        <definition> std_optional_LengthUnit mrmeshpy.SceneSave.Settings.lengthUnit</definition>
+        <argsstring>(self)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>units of input coordinates and transformation, to be serialized if the format supports it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52380" bodyend="52383"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1af2fb03f19f0191cd1226d7044143cdee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSave.Settings.lengthUnit</definition>
+        <argsstring>(self, std_optional_LengthUnit arg1)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52385" bodyend="52386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1a36839d179bc5efd019169c8a6ca3f1c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.SceneSave.Settings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report loading progress and allow the user to cancel it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52388" bodyend="52391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSave_1_1Settings_1a11ce025d443ba060c19e3be2354e9217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSave.Settings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.SceneSave.Settings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52393" bodyend="52394"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SceneSave::Settings
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.SceneSave.Settings</label>
+        <link refid="classmrmeshpy_1_1SceneSave_1_1Settings"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectSave.Settings</label>
+        <link refid="classmrmeshpy_1_1ObjectSave_1_1Settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52348" bodyend="52394"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1ac674d08332cc592a1f46bcb412e3f7ca" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1aebc499946ac9a873cee8120307f673ae" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1aa1ef2271a9dc05450a25ccaf9acf0dcb" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1abe06e57ce9ced8af78e892e8cb4df133" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1a7f976d5a61f8192e6e65c5621f3f5e41" prot="protected" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>_offsetof_lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1a72b347e82625a9d7edd73e89e2b352b6" prot="protected" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1a484f73915d047d4156657f89c126a457" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1af2fb03f19f0191cd1226d7044143cdee" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1adee7a96c3b556417ba1691ab31f1aac8" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1adee7a96c3b556417ba1691ab31f1aac8" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1a36839d179bc5efd019169c8a6ca3f1c8" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1SceneSave_1_1Settings_1a11ce025d443ba060c19e3be2354e9217" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSave::Settings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

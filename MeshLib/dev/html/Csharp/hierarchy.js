@@ -2757,6 +2757,9 @@ var hierarchy =
       [ "MR.SceneLoad.Const_Settings", null, [
         [ "MR.SceneLoad.Settings", "classMR_1_1SceneLoad_1_1Settings.html", null ]
       ] ],
+      [ "MR.SceneSave.Const_Settings", null, [
+        [ "MR.SceneSave.Settings", "classMR_1_1SceneSave_1_1Settings.html", null ]
+      ] ],
       [ "MR.SelfIntersections.Const_Settings", null, [
         [ "MR.SelfIntersections.Settings", "classMR_1_1SelfIntersections_1_1Settings.html", null ]
       ] ],
@@ -4218,6 +4221,7 @@ var hierarchy =
       [ "MR.PolylineComponents.Const_LargeByLengthComponentsSettings", null, null ],
       [ "MR.SceneLoad.Const_Result", null, null ],
       [ "MR.SceneLoad.Const_Settings", null, null ],
+      [ "MR.SceneSave.Const_Settings", null, null ],
       [ "MR.SelfIntersections.Const_Settings", null, null ],
       [ "MR.Std.Const_SharedPtr_MRCudaFastWindingNumber", null, null ],
       [ "MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector", null, null ],
@@ -4244,6 +4248,7 @@ var hierarchy =
     [ "MR.PolylineComponents", "classMR_1_1PolylineComponents.html", null ],
     [ "MR.Features.Primitives", "classMR_1_1Features_1_1Primitives.html", null ],
     [ "MR.SceneLoad", "classMR_1_1SceneLoad.html", null ],
+    [ "MR.SceneSave", "classMR_1_1SceneSave.html", null ],
     [ "MR.SelfIntersections", "classMR_1_1SelfIntersections.html", null ],
     [ "MR.Std", "classMR_1_1Std.html", null ],
     [ "MR.FillingSurface.TPMS", "classMR_1_1FillingSurface_1_1TPMS.html", null ],

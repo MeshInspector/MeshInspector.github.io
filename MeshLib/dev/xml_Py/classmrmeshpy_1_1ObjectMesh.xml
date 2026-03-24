@@ -326,7 +326,7 @@ it is inefficient to call this function for many rays, because it computes world
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::ObjectMesh
-Aliases:  ChangeMeshTopologyAction.Obj, ChangeMeshPointsAction.Obj, ChangeMeshCreasesAction.Obj, ChangeMeshFaceSelectionAction.Obj, VersatileChangeMeshPointsAction.Obj, ChangeMeshDataAction.Obj, ChangeMeshEdgeSelectionAction.Obj, std_shared_ptr_ObjectMesh, ChangeMeshAction.Obj
+Aliases:  ChangeMeshFaceSelectionAction.Obj, ChangeMeshAction.Obj, ChangeMeshPointsAction.Obj, ChangeMeshTopologyAction.Obj, std_shared_ptr_ObjectMesh, ChangeMeshEdgeSelectionAction.Obj, VersatileChangeMeshPointsAction.Obj, ChangeMeshDataAction.Obj, ChangeMeshCreasesAction.Obj
 
 an object that stores a mesh
 </verbatim> </para>

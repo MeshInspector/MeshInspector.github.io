@@ -11066,7 +11066,7 @@
     <member refid="classMR_1a7eb6c44b06114fddc0c2d6a34e8236ed" kind="function"><name>deserializeObjectTreeFrom3mf</name></member>
     <member refid="classMR_1a9373783f8d1a5d002c11a158999bb011" kind="function"><name>deserializeObjectTreeFromModel</name></member>
     <member refid="classMR_1ace335bbc372adc2189c1441d62b728a5" kind="function"><name>deserializeObjectTreeFromGltf</name></member>
-    <member refid="classMR_1a8857ea4f05fd383d91a99ed30036e7ac" kind="function"><name>serializeObjectTreeToGltf</name></member>
+    <member refid="classMR_1a508f5e435240bd997724cb93c20413c8" kind="function"><name>serializeObjectTreeToGltf</name></member>
     <member refid="classMR_1a669abe8ad0f3215e974cc605ea532251" kind="function"><name>loadIOExtras</name></member>
     <member refid="classMR_1a478cbe8c8edddd87533d0f9fd2eab015" kind="function"><name>zlibCompressStream</name></member>
     <member refid="classMR_1ad8eb0a0b54567d96b6469a71505c787c" kind="function"><name>zlibDecompressStream</name></member>
@@ -11902,8 +11902,8 @@
     <member refid="classMR_1af26a25692fb059194029a62fa0720bd8" kind="function"><name>appendObjectFromTreeRecursive</name></member>
     <member refid="classMR_1a425154b0774c50135d8b001643120f6d" kind="function"><name>appendObjectFromTreeRecursive</name></member>
     <member refid="classMR_1ab00ae1272a7c4800e58ee43ec7c8dfe0" kind="function"><name>appendObjectFromTreeRecursive</name></member>
-    <member refid="classMR_1a61549957b3b3b5ef92608591ea77b74c" kind="function"><name>serializeObjectTree</name></member>
-    <member refid="classMR_1aa4d5d27056cdc8fba753f80f1a3cc57f" kind="function"><name>serializeObjectTree</name></member>
+    <member refid="classMR_1a04460eee7f083926fa7ecdc5df358bbc" kind="function"><name>serializeObjectTree</name></member>
+    <member refid="classMR_1a91868bc1255b7cc4a0593bdb2b6747d2" kind="function"><name>serializeObjectTree</name></member>
     <member refid="classMR_1a8f80818732ef934288bcb3335ec8e1de" kind="function"><name>offsetContours</name></member>
     <member refid="classMR_1a35234be3ede150fd9fa4cd99b41e962a" kind="function"><name>offsetContours</name></member>
     <member refid="classMR_1afe02f4f48f23d4d3f6be78d31ef23f99" kind="function"><name>offsetContours</name></member>
@@ -16428,6 +16428,8 @@
     <member refid="classMR_1_1SceneRootObject_1acac7c9d4acd755d40779d07561b12e8e" kind="function"><name>addTag</name></member>
     <member refid="classMR_1_1SceneRootObject_1a7a8efcb0ae6f7bed148d50c1cf0e4e01" kind="function"><name>removeTag</name></member>
   </compound>
+  <compound refid="classMR_1_1SceneSave" kind="class"><name>MR::SceneSave</name>
+  </compound>
   <compound refid="classMR_1_1SceneSettings" kind="class"><name>MR::SceneSettings</name>
     <member refid="classMR_1_1SceneSettings_1aaf0e59244f773b5125062d7d7bc5293a" kind="function"><name>SceneSettings</name></member>
   </compound>
@@ -16608,9 +16610,9 @@
   <compound refid="classMR_1_1ObjectSave_1_1Settings" kind="class"><name>MR::ObjectSave::Settings</name>
     <member refid="classMR_1_1ObjectSave_1_1Settings_1a5c6e05d7daa5a16ddad366222d11db46" kind="property"><name>lengthUnit</name></member>
     <member refid="classMR_1_1ObjectSave_1_1Settings_1a4ab83bbb53de6611e6868e6dfbb699ef" kind="property"><name>progress</name></member>
+    <member refid="classMR_1_1ObjectSave_1_1Settings_1a14fef1f0f8a75ab781c091d18befbb48" kind="function"><name>operator MR.SceneSave.Settings</name></member>
     <member refid="classMR_1_1ObjectSave_1_1Settings_1a815f195da74a37d78a7f3e28f3af055a" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1ObjectSave_1_1Settings_1a2282543d73724cbcd2f635a27e088564" kind="function"><name>Settings</name></member>
-    <member refid="classMR_1_1ObjectSave_1_1Settings_1a0fbc73531866a00bdece2cba31ccf889" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1ObjectSave_1_1Settings_1a48b77ee3c7c045f6386616669ecbe2cb" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1ObjectSave_1_1Settings_1a9e8b2f4002d49df14c9519be26c45c08" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1ObjectSave_1_1Settings_1abe27a917bbed37b1d441e6b0880eb061" kind="function"><name>Settings</name></member>
@@ -16627,6 +16629,17 @@
     <member refid="classMR_1_1SceneLoad_1_1Settings_1af942ad7435f00d2a5f3292ee66cc3d5f" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1SceneLoad_1_1Settings_1a09ee222fc4b78c510099400ff128528a" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1SceneLoad_1_1Settings_1aa01bde15ff72db69df54ea78fed1e74c" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1SceneSave_1_1Settings" kind="class"><name>MR::SceneSave::Settings</name>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1a92cdd81059c452c151997518f31e7cff" kind="property"><name>lengthUnit</name></member>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1a5e595203147ecda13f226eb110e20d49" kind="property"><name>progress</name></member>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1a54f261f7f060a5ccff3343eb3bad71e7" kind="function"><name>Settings</name></member>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1af451139658d5d6f402b37added149e2e" kind="function"><name>Settings</name></member>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1a28002ad2e46bc87b1510f42700288918" kind="function"><name>Settings</name></member>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1ad1c1224d82ae055c70791a2b6d282a0a" kind="function"><name>Settings</name></member>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1a14d4cbe22728b139df609530c7124cf7" kind="function"><name>Settings</name></member>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1a74cae48fadbf58330ad9b08f9a51c932" kind="function"><name>Settings</name></member>
+    <member refid="classMR_1_1SceneSave_1_1Settings_1a2f6df54ebe971bab9016f6a4a599680f" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1SelfIntersections_1_1Settings" kind="class"><name>MR::SelfIntersections::Settings</name>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1a6a7b75403982314efbe4f9e584d400d3" kind="property"><name>touchIsIntersection</name></member>

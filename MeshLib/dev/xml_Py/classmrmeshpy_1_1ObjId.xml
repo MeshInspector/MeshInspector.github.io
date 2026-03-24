@@ -478,7 +478,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::ObjId
-Aliases:  Vector_ObjId_ObjId_reference, Vector_ObjId_Id_VoxelTag_reference, Vector_ObjId_ObjId_value_type, ObjTreeTraits.LeafId, AABBTreeBase_ObjTreeTraits.LeafId, Vector_ObjId_Id_VoxelTag_const_reference, Vector_ObjId_Id_VoxelTag_value_type, AABBTreeNode_ObjTreeTraits.LeafId, TypedBitSet_ObjId_IndexType, Vector_ObjId_ObjId_const_reference
+Aliases:  Vector_ObjId_ObjId_reference, Vector_ObjId_Id_VoxelTag_reference, Vector_ObjId_ObjId_value_type, ObjTreeTraits.LeafId, AABBTreeBase_ObjTreeTraits.LeafId, Vector_ObjId_Id_VoxelTag_value_type, TypedBitSet_ObjId_IndexType, AABBTreeNode_ObjTreeTraits.LeafId, Vector_ObjId_Id_VoxelTag_const_reference, Vector_ObjId_ObjId_const_reference
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

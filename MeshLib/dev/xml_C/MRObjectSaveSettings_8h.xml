@@ -49,13 +49,322 @@
       </node>
     </incdepgraph>
     <sectiondef kind="func">
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a011af96c0b269370f7f01deedb5d7c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_LengthUnit * MR_SceneSave_Settings_Get_lengthUnit</definition>
+        <argsstring>(const MR_SceneSave_Settings *_this)</argsstring>
+        <name>MR_SceneSave_Settings_Get_lengthUnit</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Returns a pointer to a member variable of class <computeroutput>MR::SceneSave::Settings</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="38" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="38" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a5a2888da54a86011c805800847132efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_SceneSave_Settings_Set_lengthUnit</definition>
+        <argsstring>(MR_SceneSave_Settings *_this, const MR_LengthUnit *value)</argsstring>
+        <name>MR_SceneSave_Settings_Set_lengthUnit</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Modifies a member variable of class <computeroutput>MR::SceneSave::Settings</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>lengthUnit</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>lengthUnit</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1ae73978f35ecb92911d26c5450d412160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_LengthUnit * MR_SceneSave_Settings_GetMutable_lengthUnit</definition>
+        <argsstring>(MR_SceneSave_Settings *_this)</argsstring>
+        <name>MR_SceneSave_Settings_GetMutable_lengthUnit</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneSave::Settings</computeroutput> named <computeroutput>lengthUnit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="53" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="53" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a418fdf1b58f6d1eb633c246e9342dcad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_SceneSave_Settings_Get_progress</definition>
+        <argsstring>(const MR_SceneSave_Settings *_this)</argsstring>
+        <name>MR_SceneSave_Settings_Get_progress</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report loading progress and allow the user to cancel it Returns a pointer to a member variable of class <computeroutput>MR::SceneSave::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="60" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="60" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a7b5121b85cb9555b16f3deac5b831d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_SceneSave_Settings_Set_progress</definition>
+        <argsstring>(MR_SceneSave_Settings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_SceneSave_Settings_Set_progress</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report loading progress and allow the user to cancel it Modifies a member variable of class <computeroutput>MR::SceneSave::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a3372e74f7f6fb0ca76ca2a387cc76bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_SceneSave_Settings_GetMutable_progress</definition>
+        <argsstring>(MR_SceneSave_Settings *_this)</argsstring>
+        <name>MR_SceneSave_Settings_GetMutable_progress</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report loading progress and allow the user to cancel it Returns a mutable pointer to a member variable of class <computeroutput>MR::SceneSave::Settings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="74" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="74" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a80d27fa4a8d88b19b3aac70c65dda8a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneSave_Settings * MR_SceneSave_Settings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SceneSave_Settings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRObjectSaveSettings_8h_1a11a142bea8604051ddd36432550db85e" kindref="member">MR_SceneSave_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="78" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="78" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a8c37c2c49dc2ada48ddd6a5771ab1ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneSave_Settings * MR_SceneSave_Settings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SceneSave_Settings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRObjectSaveSettings_8h_1aab824cd96316a357e275d6fa08dc85df" kindref="member">MR_SceneSave_Settings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRObjectSaveSettings_8h_1a8552ae4bf04d6bbda41dcc2fc6bc17ea" kindref="member">MR_SceneSave_Settings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRObjectSaveSettings_8h_1a6d95cf5eb82cc32ac87a4ba182bd729d" kindref="member">MR_SceneSave_Settings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="83" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="83" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a58eda2a187f11b452ae73daeaeaa1f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneSave_Settings * MR_SceneSave_Settings_ConstructFrom</definition>
+        <argsstring>(const MR_LengthUnit *lengthUnit, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_SceneSave_Settings_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
+          <declname>lengthUnit</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>progress_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SceneSave::Settings</computeroutput> elementwise. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRObjectSaveSettings_8h_1a11a142bea8604051ddd36432550db85e" kindref="member">MR_SceneSave_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="91" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="91" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a6d95cf5eb82cc32ac87a4ba182bd729d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API const MR_SceneSave_Settings * MR_SceneSave_Settings_OffsetPtr</definition>
+        <argsstring>(const MR_SceneSave_Settings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SceneSave_Settings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="95" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="95" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a8552ae4bf04d6bbda41dcc2fc6bc17ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneSave_Settings * MR_SceneSave_Settings_OffsetMutablePtr</definition>
+        <argsstring>(MR_SceneSave_Settings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SceneSave_Settings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="99" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="99" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1aacad85130635d4b2d3e0300fde1e2000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneSave_Settings * MR_SceneSave_Settings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_SceneSave_Settings *_other)</argsstring>
+        <name>MR_SceneSave_Settings_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SceneSave::Settings::Settings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRObjectSaveSettings_8h_1a11a142bea8604051ddd36432550db85e" kindref="member">MR_SceneSave_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="104" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="104" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a11a142bea8604051ddd36432550db85e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_SceneSave_Settings_Destroy</definition>
+        <argsstring>(const MR_SceneSave_Settings *_this)</argsstring>
+        <name>MR_SceneSave_Settings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1aab824cd96316a357e275d6fa08dc85df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_SceneSave_Settings_DestroyArray</definition>
+        <argsstring>(const MR_SceneSave_Settings *_this)</argsstring>
+        <name>MR_SceneSave_Settings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="110" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a7d8593e8a0f51bb2b11ad49514505ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneSave_Settings * MR_SceneSave_Settings_AssignFromAnother</definition>
+        <argsstring>(MR_SceneSave_Settings *_this, MR_PassBy _other_pass_by, MR_SceneSave_Settings *_other)</argsstring>
+        <name>MR_SceneSave_Settings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SceneSave::Settings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="117" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="117" declcolumn="31"/>
+      </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1ac4c086594e413557d043df2df2ad2261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
         <definition>MRC_API const MR_std_optional_MR_LengthUnit * MR_ObjectSave_Settings_Get_lengthUnit</definition>
         <argsstring>(const MR_ObjectSave_Settings *_this)</argsstring>
         <name>MR_ObjectSave_Settings_Get_lengthUnit</name>
         <param>
-          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type>const <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -65,7 +374,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="26" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="26" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="124" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="124" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1ae5077a81bb446c547ea6133f50e5b2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -73,7 +382,7 @@
         <argsstring>(MR_ObjectSave_Settings *_this, const MR_LengthUnit *value)</argsstring>
         <name>MR_ObjectSave_Settings_Set_lengthUnit</name>
         <param>
-          <type><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -87,7 +396,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="34" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="34" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="132" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1ae3b00a16a85b46d5fa4abab9252ed4b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
@@ -95,7 +404,7 @@
         <argsstring>(MR_ObjectSave_Settings *_this)</argsstring>
         <name>MR_ObjectSave_Settings_GetMutable_lengthUnit</name>
         <param>
-          <type><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -105,7 +414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="41" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="41" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="139" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="139" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1a78782b40ed916bab64dc0cc3e9b687a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -113,7 +422,7 @@
         <argsstring>(const MR_ObjectSave_Settings *_this)</argsstring>
         <name>MR_ObjectSave_Settings_Get_progress</name>
         <param>
-          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type>const <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -123,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="48" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="48" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="146" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="146" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1a88850c2ebdd4eb704ef3d2dc6f5ec7d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -131,7 +440,7 @@
         <argsstring>(MR_ObjectSave_Settings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_ObjectSave_Settings_Set_progress</name>
         <param>
-          <type><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -149,7 +458,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="55" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="153" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1aae1425c88ad4f2155de530af69041a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -157,7 +466,7 @@
         <argsstring>(MR_ObjectSave_Settings *_this)</argsstring>
         <name>MR_ObjectSave_Settings_GetMutable_progress</name>
         <param>
-          <type><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -167,10 +476,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="62" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="62" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="160" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="160" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1a2cf9f4a906c29fa3c9db3da5db6ae9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
         <definition>MRC_API MR_ObjectSave_Settings * MR_ObjectSave_Settings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_ObjectSave_Settings_DefaultConstruct</name>
@@ -184,10 +493,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="66" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="66" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="164" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="164" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1a9e69e30c7ca06f87d5708248d2704bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
         <definition>MRC_API MR_ObjectSave_Settings * MR_ObjectSave_Settings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_ObjectSave_Settings_DefaultConstructArray</name>
@@ -202,41 +511,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="71" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="71" declcolumn="32"/>
-      </memberdef>
-      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a2211839d2f9f368fc7189d61a2326a71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
-        <definition>MRC_API MR_ObjectSave_Settings * MR_ObjectSave_Settings_ConstructFrom</definition>
-        <argsstring>(const MR_LengthUnit *lengthUnit, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
-        <name>MR_ObjectSave_Settings_ConstructFrom</name>
-        <param>
-          <type>const <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref> *</type>
-          <declname>lengthUnit</declname>
-        </param>
-        <param>
-          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
-          <declname>progress_pass_by</declname>
-        </param>
-        <param>
-          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
-          <declname>progress</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Constructs <computeroutput>MR::ObjectSave::Settings</computeroutput> elementwise. Parameter <computeroutput>lengthUnit</computeroutput> is optional. To keep it empty, pass a null pointer. The reference to the parameter <computeroutput>lengthUnit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRObjectSaveSettings_8h_1a2db7846c6970a0b1f5eaadc224d9608a" kindref="member">MR_ObjectSave_Settings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="79" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="79" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="169" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="169" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1abdf56d4bc878c5d99018e97fe4f7d6da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
         <definition>MRC_API const MR_ObjectSave_Settings * MR_ObjectSave_Settings_OffsetPtr</definition>
         <argsstring>(const MR_ObjectSave_Settings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ObjectSave_Settings_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type>const <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -250,15 +533,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="83" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="83" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="173" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="173" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1a37f2831a29d337d2571c5a03ff1c4868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
         <definition>MRC_API MR_ObjectSave_Settings * MR_ObjectSave_Settings_OffsetMutablePtr</definition>
         <argsstring>(MR_ObjectSave_Settings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ObjectSave_Settings_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -272,10 +555,82 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="87" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="87" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="177" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="177" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1ae24d5092b266ee1d339750b4f5dc0327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API const MR_SceneSave_Settings * MR_ObjectSave_Settings_UpcastTo_MR_SceneSave_Settings</definition>
+        <argsstring>(const MR_ObjectSave_Settings *object)</argsstring>
+        <name>MR_ObjectSave_Settings_UpcastTo_MR_SceneSave_Settings</name>
+        <param>
+          <type>const <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ObjectSave::Settings</computeroutput> to its base class <computeroutput>MR::SceneSave::Settings</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="182" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="182" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1a6b9ef66f70660c629d82242964cc6535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+        <definition>MRC_API MR_SceneSave_Settings * MR_ObjectSave_Settings_MutableUpcastTo_MR_SceneSave_Settings</definition>
+        <argsstring>(MR_ObjectSave_Settings *object)</argsstring>
+        <name>MR_ObjectSave_Settings_MutableUpcastTo_MR_SceneSave_Settings</name>
+        <param>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ObjectSave::Settings</computeroutput> to its base class <computeroutput>MR::SceneSave::Settings</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="186" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="186" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1ae9024025be47bc9af522270e77a3a369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+        <definition>MRC_API const MR_ObjectSave_Settings * MR_ObjectSave_Settings_StaticDowncastFrom_MR_SceneSave_Settings</definition>
+        <argsstring>(const MR_SceneSave_Settings *object)</argsstring>
+        <name>MR_ObjectSave_Settings_StaticDowncastFrom_MR_SceneSave_Settings</name>
+        <param>
+          <type>const <ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SceneSave::Settings</computeroutput> to a derived class <computeroutput>MR::ObjectSave::Settings</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="192" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="192" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRObjectSaveSettings_8h_1ac65f0cfb22baeaff09f05a79bdd90b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+        <definition>MRC_API MR_ObjectSave_Settings * MR_ObjectSave_Settings_MutableStaticDowncastFrom_MR_SceneSave_Settings</definition>
+        <argsstring>(MR_SceneSave_Settings *object)</argsstring>
+        <name>MR_ObjectSave_Settings_MutableStaticDowncastFrom_MR_SceneSave_Settings</name>
+        <param>
+          <type><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SceneSave::Settings</computeroutput> to a derived class <computeroutput>MR::ObjectSave::Settings</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="197" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="197" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1ad8c1080ab0ac60764ef001f3b3df49aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
         <definition>MRC_API MR_ObjectSave_Settings * MR_ObjectSave_Settings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_ObjectSave_Settings *_other)</argsstring>
         <name>MR_ObjectSave_Settings_ConstructFromAnother</name>
@@ -284,7 +639,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -294,7 +649,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="92" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="92" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="202" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="202" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1a2db7846c6970a0b1f5eaadc224d9608a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -302,17 +657,17 @@
         <argsstring>(const MR_ObjectSave_Settings *_this)</argsstring>
         <name>MR_ObjectSave_Settings_Destroy</name>
         <param>
-          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type>const <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="95" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="205" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1a4e0817f4a5f41dc30f4ef1a1efc65556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -320,25 +675,25 @@
         <argsstring>(const MR_ObjectSave_Settings *_this)</argsstring>
         <name>MR_ObjectSave_Settings_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type>const <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="98" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="208" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRObjectSaveSettings_8h_1ab106a915978c0771fd327d77ae400b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
         <definition>MRC_API MR_ObjectSave_Settings * MR_ObjectSave_Settings_AssignFromAnother</definition>
         <argsstring>(MR_ObjectSave_Settings *_this, MR_PassBy _other_pass_by, MR_ObjectSave_Settings *_other)</argsstring>
         <name>MR_ObjectSave_Settings_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -346,7 +701,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
+          <type><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -356,7 +711,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="105" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="105" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" line="215" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h" declline="215" declcolumn="32"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -380,41 +735,81 @@
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_LengthUnit.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRObjectSaveSettings_8h_1ac4c086594e413557d043df2df2ad2261" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ac4c086594e413557d043df2df2ad2261" kindref="member">MR_ObjectSave_Settings_Get_lengthUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRObjectSaveSettings_8h_1ae5077a81bb446c547ea6133f50e5b2ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1ae5077a81bb446c547ea6133f50e5b2ba" kindref="member">MR_ObjectSave_Settings_Set_lengthUnit</ref>(<ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRObjectSaveSettings_8h_1ae3b00a16a85b46d5fa4abab9252ed4b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ae3b00a16a85b46d5fa4abab9252ed4b7" kindref="member">MR_ObjectSave_Settings_GetMutable_lengthUnit</ref>(<ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRObjectSaveSettings_8h_1a78782b40ed916bab64dc0cc3e9b687a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a78782b40ed916bab64dc0cc3e9b687a9" kindref="member">MR_ObjectSave_Settings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRObjectSaveSettings_8h_1a88850c2ebdd4eb704ef3d2dc6f5ec7d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a88850c2ebdd4eb704ef3d2dc6f5ec7d8" kindref="member">MR_ObjectSave_Settings_Set_progress</ref>(<ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRObjectSaveSettings_8h_1aae1425c88ad4f2155de530af69041a29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1aae1425c88ad4f2155de530af69041a29" kindref="member">MR_ObjectSave_Settings_GetMutable_progress</ref>(<ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRObjectSaveSettings_8h_1a2cf9f4a906c29fa3c9db3da5db6ae9c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a2cf9f4a906c29fa3c9db3da5db6ae9c3" kindref="member">MR_ObjectSave_Settings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRObjectSaveSettings_8h_1a9e69e30c7ca06f87d5708248d2704bb4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a9e69e30c7ca06f87d5708248d2704bb4" kindref="member">MR_ObjectSave_Settings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRObjectSaveSettings_8h_1a2211839d2f9f368fc7189d61a2326a71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a2211839d2f9f368fc7189d61a2326a71" kindref="member">MR_ObjectSave_Settings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*lengthUnit,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRObjectSaveSettings_8h_1abdf56d4bc878c5d99018e97fe4f7d6da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1abdf56d4bc878c5d99018e97fe4f7d6da" kindref="member">MR_ObjectSave_Settings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ObjectSave::Settings<sp/>and<sp/>SceneSave::Settings<sp/>must<sp/>be<sp/>distinct<sp/>classes<sp/>for</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ObjectSave::ObjectSaver<sp/>and<sp/>SceneSave::SceneSaver<sp/>be<sp/>distinct<sp/>types<sp/>and<sp/>MR_FORMAT_REGISTRY_DECL<sp/>does<sp/>not<sp/>mix<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRObjectSaveSettings_8h_1a011af96c0b269370f7f01deedb5d7c5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a011af96c0b269370f7f01deedb5d7c5f" kindref="member">MR_SceneSave_Settings_Get_lengthUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRObjectSaveSettings_8h_1a5a2888da54a86011c805800847132efb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a5a2888da54a86011c805800847132efb" kindref="member">MR_SceneSave_Settings_Set_lengthUnit</ref>(<ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRObjectSaveSettings_8h_1ae73978f35ecb92911d26c5450d412160" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ae73978f35ecb92911d26c5450d412160" kindref="member">MR_SceneSave_Settings_GetMutable_lengthUnit</ref>(<ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRObjectSaveSettings_8h_1a418fdf1b58f6d1eb633c246e9342dcad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a418fdf1b58f6d1eb633c246e9342dcad" kindref="member">MR_SceneSave_Settings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRObjectSaveSettings_8h_1a7b5121b85cb9555b16f3deac5b831d3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a7b5121b85cb9555b16f3deac5b831d3c" kindref="member">MR_SceneSave_Settings_Set_progress</ref>(<ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRObjectSaveSettings_8h_1a3372e74f7f6fb0ca76ca2a387cc76bb4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a3372e74f7f6fb0ca76ca2a387cc76bb4" kindref="member">MR_SceneSave_Settings_GetMutable_progress</ref>(<ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRObjectSaveSettings_8h_1a80d27fa4a8d88b19b3aac70c65dda8a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a80d27fa4a8d88b19b3aac70c65dda8a4" kindref="member">MR_SceneSave_Settings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRObjectSaveSettings_8h_1a8c37c2c49dc2ada48ddd6a5771ab1ecc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a8c37c2c49dc2ada48ddd6a5771ab1ecc" kindref="member">MR_SceneSave_Settings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRObjectSaveSettings_8h_1a37f2831a29d337d2571c5a03ff1c4868" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a37f2831a29d337d2571c5a03ff1c4868" kindref="member">MR_ObjectSave_Settings_OffsetMutablePtr</ref>(<ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRObjectSaveSettings_8h_1ad8c1080ab0ac60764ef001f3b3df49aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ad8c1080ab0ac60764ef001f3b3df49aa" kindref="member">MR_ObjectSave_Settings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRObjectSaveSettings_8h_1a2db7846c6970a0b1f5eaadc224d9608a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a2db7846c6970a0b1f5eaadc224d9608a" kindref="member">MR_ObjectSave_Settings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91" refid="MRObjectSaveSettings_8h_1a58eda2a187f11b452ae73daeaeaa1f19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a58eda2a187f11b452ae73daeaeaa1f19" kindref="member">MR_SceneSave_Settings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*lengthUnit,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRObjectSaveSettings_8h_1a6d95cf5eb82cc32ac87a4ba182bd729d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a6d95cf5eb82cc32ac87a4ba182bd729d" kindref="member">MR_SceneSave_Settings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRObjectSaveSettings_8h_1a4e0817f4a5f41dc30f4ef1a1efc65556" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a4e0817f4a5f41dc30f4ef1a1efc65556" kindref="member">MR_ObjectSave_Settings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRObjectSaveSettings_8h_1ab106a915978c0771fd327d77ae400b5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ab106a915978c0771fd327d77ae400b5f" kindref="member">MR_ObjectSave_Settings_AssignFromAnother</ref>(<ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRGltf_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="99" refid="MRObjectSaveSettings_8h_1a8552ae4bf04d6bbda41dcc2fc6bc17ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a8552ae4bf04d6bbda41dcc2fc6bc17ea" kindref="member">MR_SceneSave_Settings_OffsetMutablePtr</ref>(<ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRObjectSaveSettings_8h_1aacad85130635d4b2d3e0300fde1e2000" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1aacad85130635d4b2d3e0300fde1e2000" kindref="member">MR_SceneSave_Settings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRObjectSaveSettings_8h_1a11a142bea8604051ddd36432550db85e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a11a142bea8604051ddd36432550db85e" kindref="member">MR_SceneSave_Settings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRObjectSaveSettings_8h_1aab824cd96316a357e275d6fa08dc85df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1aab824cd96316a357e275d6fa08dc85df" kindref="member">MR_SceneSave_Settings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRObjectSaveSettings_8h_1a7d8593e8a0f51bb2b11ad49514505ee1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a7d8593e8a0f51bb2b11ad49514505ee1" kindref="member">MR_SceneSave_Settings_AssignFromAnother</ref>(<ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRObjectSaveSettings_8h_1ac4c086594e413557d043df2df2ad2261" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ac4c086594e413557d043df2df2ad2261" kindref="member">MR_ObjectSave_Settings_Get_lengthUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRObjectSaveSettings_8h_1ae5077a81bb446c547ea6133f50e5b2ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1ae5077a81bb446c547ea6133f50e5b2ba" kindref="member">MR_ObjectSave_Settings_Set_lengthUnit</ref>(<ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRObjectSaveSettings_8h_1ae3b00a16a85b46d5fa4abab9252ed4b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ae3b00a16a85b46d5fa4abab9252ed4b7" kindref="member">MR_ObjectSave_Settings_GetMutable_lengthUnit</ref>(<ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRObjectSaveSettings_8h_1a78782b40ed916bab64dc0cc3e9b687a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a78782b40ed916bab64dc0cc3e9b687a9" kindref="member">MR_ObjectSave_Settings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRObjectSaveSettings_8h_1a88850c2ebdd4eb704ef3d2dc6f5ec7d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a88850c2ebdd4eb704ef3d2dc6f5ec7d8" kindref="member">MR_ObjectSave_Settings_Set_progress</ref>(<ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRObjectSaveSettings_8h_1aae1425c88ad4f2155de530af69041a29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1aae1425c88ad4f2155de530af69041a29" kindref="member">MR_ObjectSave_Settings_GetMutable_progress</ref>(<ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRObjectSaveSettings_8h_1a2cf9f4a906c29fa3c9db3da5db6ae9c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a2cf9f4a906c29fa3c9db3da5db6ae9c3" kindref="member">MR_ObjectSave_Settings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRObjectSaveSettings_8h_1a9e69e30c7ca06f87d5708248d2704bb4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a9e69e30c7ca06f87d5708248d2704bb4" kindref="member">MR_ObjectSave_Settings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRObjectSaveSettings_8h_1abdf56d4bc878c5d99018e97fe4f7d6da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1abdf56d4bc878c5d99018e97fe4f7d6da" kindref="member">MR_ObjectSave_Settings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRObjectSaveSettings_8h_1a37f2831a29d337d2571c5a03ff1c4868" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a37f2831a29d337d2571c5a03ff1c4868" kindref="member">MR_ObjectSave_Settings_OffsetMutablePtr</ref>(<ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRObjectSaveSettings_8h_1ae24d5092b266ee1d339750b4f5dc0327" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ae24d5092b266ee1d339750b4f5dc0327" kindref="member">MR_ObjectSave_Settings_UpcastTo_MR_SceneSave_Settings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRObjectSaveSettings_8h_1a6b9ef66f70660c629d82242964cc6535" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1a6b9ef66f70660c629d82242964cc6535" kindref="member">MR_ObjectSave_Settings_MutableUpcastTo_MR_SceneSave_Settings</ref>(<ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="MRObjectSaveSettings_8h_1ae9024025be47bc9af522270e77a3a369" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ae9024025be47bc9af522270e77a3a369" kindref="member">MR_ObjectSave_Settings_StaticDowncastFrom_MR_SceneSave_Settings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRObjectSaveSettings_8h_1ac65f0cfb22baeaff09f05a79bdd90b66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ac65f0cfb22baeaff09f05a79bdd90b66" kindref="member">MR_ObjectSave_Settings_MutableStaticDowncastFrom_MR_SceneSave_Settings</ref>(<ref refid="MRGltf_8h_1a79b7b3af550c1fa290e3cdc1e94d092b" kindref="member">MR_SceneSave_Settings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRObjectSaveSettings_8h_1ad8c1080ab0ac60764ef001f3b3df49aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ad8c1080ab0ac60764ef001f3b3df49aa" kindref="member">MR_ObjectSave_Settings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRObjectSaveSettings_8h_1a2db7846c6970a0b1f5eaadc224d9608a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a2db7846c6970a0b1f5eaadc224d9608a" kindref="member">MR_ObjectSave_Settings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRObjectSaveSettings_8h_1a4e0817f4a5f41dc30f4ef1a1efc65556" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectSaveSettings_8h_1a4e0817f4a5f41dc30f4ef1a1efc65556" kindref="member">MR_ObjectSave_Settings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MRObjectSaveSettings_8h_1ab106a915978c0771fd327d77ae400b5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*<ref refid="MRObjectSaveSettings_8h_1ab106a915978c0771fd327d77ae400b5f" kindref="member">MR_ObjectSave_Settings_AssignFromAnother</ref>(<ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRObjectSave_8h_1a8ea0856fcd01d21e1d2d78a04eb46c1c" kindref="member">MR_ObjectSave_Settings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectSaveSettings.h"/>
   </compounddef>

@@ -2,10 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1SceneSave" kind="namespace" language="C++">
     <compoundname>MR::SceneSave</compoundname>
+    <innerclass refid="structMR_1_1SceneSave_1_1Settings" prot="public">MR::SceneSave::Settings</innerclass>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="namespaceMR_1_1SceneSave_1a608a6e40cd6fd4e4c380794e4f48e3cd" prot="public" static="no">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave::Settings</ref> &amp;)</type>
-        <definition>using MR::SceneSave::SceneSaver =  Expected&lt;void&gt;( * )( const Object&amp;, const std::filesystem::path&amp;, const ObjectSave::Settings&amp; )</definition>
+      <memberdef kind="typedef" id="namespaceMR_1_1SceneSave_1a2c6d3ab6c6b433b7958ebb92cb464f02" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1SceneSave_1_1Settings" kindref="compound">Settings</ref> &amp;)</type>
+        <definition>using MR::SceneSave::SceneSaver =  Expected&lt;void&gt;( * )( const Object&amp;, const std::filesystem::path&amp;, const Settings&amp; )</definition>
         <argsstring></argsstring>
         <name>SceneSaver</name>
         <qualifiedname>MR::SceneSave::SceneSaver</qualifiedname>

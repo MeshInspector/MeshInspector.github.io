@@ -155,7 +155,7 @@ var annotated_dup =
         [ "TetrisDensifyParams", "structMR_1_1Nesting_1_1TetrisDensifyParams.html", "structMR_1_1Nesting_1_1TetrisDensifyParams" ]
       ] ],
       [ "ObjectSave", "namespaceMR_1_1ObjectSave.html", [
-        [ "Settings", "structMR_1_1ObjectSave_1_1Settings.html", "structMR_1_1ObjectSave_1_1Settings" ]
+        [ "Settings", "structMR_1_1ObjectSave_1_1Settings.html", null ]
       ] ],
       [ "Parallel", "namespaceMR_1_1Parallel.html", [
         [ "CallSimply", "structMR_1_1Parallel_1_1CallSimply.html", "structMR_1_1Parallel_1_1CallSimply" ],
@@ -227,6 +227,9 @@ var annotated_dup =
       [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", [
         [ "Result", "structMR_1_1SceneLoad_1_1Result.html", "structMR_1_1SceneLoad_1_1Result" ],
         [ "Settings", "structMR_1_1SceneLoad_1_1Settings.html", "structMR_1_1SceneLoad_1_1Settings" ]
+      ] ],
+      [ "SceneSave", "namespaceMR_1_1SceneSave.html", [
+        [ "Settings", "structMR_1_1SceneSave_1_1Settings.html", "structMR_1_1SceneSave_1_1Settings" ]
       ] ],
       [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", [
         [ "Settings", "structMR_1_1SelfIntersections_1_1Settings.html", "structMR_1_1SelfIntersections_1_1Settings" ]

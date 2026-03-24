@@ -137,8 +137,10 @@
         <link refid="MRVoxelsSave_8h"/>
       </node>
     </invincdepgraph>
+    <innerclass refid="structMR_1_1SceneSave_1_1Settings" prot="public">MR::SceneSave::Settings</innerclass>
     <innerclass refid="structMR_1_1ObjectSave_1_1Settings" prot="public">MR::ObjectSave::Settings</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1SceneSave">MR::SceneSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1ObjectSave">MR::ObjectSave</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -151,17 +153,26 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRUnitInfo_8h" kindref="compound">MRUnitInfo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ObjectSave" kindref="compound">MR::ObjectSave</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1SceneSave" kindref="compound">MR::SceneSave</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="structMR_1_1ObjectSave_1_1Settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref></highlight></codeline>
+<codeline lineno="10" refid="structMR_1_1SceneSave_1_1Settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SceneSave_1_1Settings" kindref="compound">Settings</ref></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13" refid="structMR_1_1ObjectSave_1_1Settings_1a44959435e399e88f5fec4d1177913925" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="structMR_1_1ObjectSave_1_1Settings_1a44959435e399e88f5fec4d1177913925" kindref="member">lengthUnit</ref>;</highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1SceneSave_1_1Settings_1abe24eb97f130222d8ab758179249597b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;LengthUnit&gt;<sp/><ref refid="structMR_1_1SceneSave_1_1Settings_1abe24eb97f130222d8ab758179249597b" kindref="member">lengthUnit</ref>;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="structMR_1_1ObjectSave_1_1Settings_1abaac448dc025a46f3ebc884adacb58ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1ObjectSave_1_1Settings_1abaac448dc025a46f3ebc884adacb58ab" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1SceneSave_1_1Settings_1a5eba607b1b31e9aa25865db38feea83b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1SceneSave_1_1Settings_1a5eba607b1b31e9aa25865db38feea83b" kindref="member">progress</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ObjectSave" kindref="compound">MR::ObjectSave</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structMR_1_1ObjectSave_1_1Settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SceneSave_1_1Settings" kindref="compound">SceneSave::Settings</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRObjectSaveSettings.h"/>
   </compounddef>

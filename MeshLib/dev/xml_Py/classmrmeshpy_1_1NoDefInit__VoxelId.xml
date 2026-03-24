@@ -139,7 +139,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::NoDefInit&lt;MR::VoxelId&gt;
-Aliases:  NoDefInit_Id_VoxelTag, Buffer_Id_VoxelTag_Id_VoxelTag_const_iterator, Buffer_Id_VoxelTag_Id_VoxelTag_const_reference, NoCtor_Id_VoxelTag_type, Buffer_Id_VoxelTag_Id_VoxelTag_T, Buffer_Id_VoxelTag_Id_VoxelTag_T, Buffer_Id_VoxelTag_Id_VoxelTag_T, NoDefInit_Id_VoxelTag, NoDefInit_Id_VoxelTag, std_unique_ptr_NoDefInit_Id_VoxelTag_pointer, Buffer_Id_VoxelTag_Id_VoxelTag_iterator, Buffer_Id_VoxelTag_Id_VoxelTag_reference
+Aliases:  NoDefInit_Id_VoxelTag, Buffer_Id_VoxelTag_Id_VoxelTag_const_iterator, NoCtor_Id_VoxelTag_type, Buffer_Id_VoxelTag_Id_VoxelTag_const_reference, Buffer_Id_VoxelTag_Id_VoxelTag_T, Buffer_Id_VoxelTag_Id_VoxelTag_T, NoDefInit_Id_VoxelTag, Buffer_Id_VoxelTag_Id_VoxelTag_T, NoDefInit_Id_VoxelTag, std_unique_ptr_NoDefInit_Id_VoxelTag_pointer, Buffer_Id_VoxelTag_Id_VoxelTag_iterator, Buffer_Id_VoxelTag_Id_VoxelTag_reference
 
 this class is similar to T, but does not make default initialization of the fields for best performance
 </verbatim> </para>

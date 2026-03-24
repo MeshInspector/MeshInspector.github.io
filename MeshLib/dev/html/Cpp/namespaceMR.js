@@ -163,9 +163,7 @@ var namespaceMR =
     [ "RenderFeatures", "namespaceMR_1_1RenderFeatures.html", "namespaceMR_1_1RenderFeatures" ],
     [ "RenderWrapObject", "namespaceMR_1_1RenderWrapObject.html", "namespaceMR_1_1RenderWrapObject" ],
     [ "SceneLoad", "namespaceMR_1_1SceneLoad.html", "namespaceMR_1_1SceneLoad" ],
-    [ "SceneSave", "namespaceMR_1_1SceneSave.html", [
-      [ "SceneSaver", "namespaceMR_1_1SceneSave.html#a608a6e40cd6fd4e4c380794e4f48e3cd", null ]
-    ] ],
+    [ "SceneSave", "namespaceMR_1_1SceneSave.html", "namespaceMR_1_1SceneSave" ],
     [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", "namespaceMR_1_1SelfIntersections" ],
     [ "SpaceMouse", "namespaceMR_1_1SpaceMouse.html", "namespaceMR_1_1SpaceMouse" ],
     [ "StyleConsts", "namespaceMR_1_1StyleConsts.html", "namespaceMR_1_1StyleConsts" ],
@@ -3189,9 +3187,9 @@ var namespaceMR =
     [ "serializeJsonValue", "group__SerializerGroup.html#ga50539cfe8f960607feeace50210a0a16", null ],
     [ "serializeJsonValue", "group__SerializerGroup.html#gacbf16137ea3050956402665855f5b92f", null ],
     [ "serializeMesh", "group__SerializerGroup.html#ga90211e09abe3bf9ca2a52975a6595b7d", null ],
-    [ "serializeObjectTree", "group__GeneralGroup.html#gaf22dded395c05c3c4b797c7f1e760d4c", null ],
-    [ "serializeObjectTree", "group__GeneralGroup.html#ga44180c985ce59605375de3a563f70117", null ],
-    [ "serializeObjectTreeToGltf", "group__GeneralGroup.html#gac8803852ddb6015dc7720ef58908cd84", null ],
+    [ "serializeObjectTree", "group__GeneralGroup.html#ga52f72eaec639a525805b33872f567ba2", null ],
+    [ "serializeObjectTree", "group__GeneralGroup.html#ga3fa67e9b2bffd51623fd22f0bc905c63", null ],
+    [ "serializeObjectTreeToGltf", "group__GeneralGroup.html#ga01574256a10162ba5b6e30329e70503e", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga1f6407e1b88df7f3eac9f06c8a777f2e", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga895ec9f1543120b7620e5431d7ad37a6", null ],
     [ "serializeToJson", "group__SerializerGroup.html#ga38e49cd494076dbfbb8f0fcf554cde77", null ],
