@@ -276,7 +276,7 @@
 <para>adds connected line in this, passing progressively via points *[vs, vs+num) </para>
         </briefdescription>
         <detaileddescription>
-<para>if num &amp;gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1a7e17554134660c5a147645a7156f3702" kindref="member">MR.Polyline3.addFromPoints</ref></computeroutput>. </para>
+<para>if num &gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created <simplesect kind="return"><para>the edge from first new to second new vertex Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1a7e17554134660c5a147645a7156f3702" kindref="member">MR.Polyline3.addFromPoints</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -314,7 +314,7 @@
 <parametername>outEmap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>(optionally) returns mappings: from.id -&amp;gt; this.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1adcb44deb6ba9fa55ccf1273e017e3f96" kindref="member">MR.Polyline3.addPart</ref></computeroutput>. </para>
+<para>(optionally) returns mappings: from.id -&gt; this.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1adcb44deb6ba9fa55ccf1273e017e3f96" kindref="member">MR.Polyline3.addPart</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -374,7 +374,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&amp;gt; new.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1a4ae1f823f2768a98f1cd0924591b2bd6" kindref="member">MR.Polyline3.pack</ref></computeroutput>. </para>
+<para>tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&gt; new.id Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1a4ae1f823f2768a98f1cd0924591b2bd6" kindref="member">MR.Polyline3.pack</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -555,7 +555,7 @@
           <declname>plane</declname>
         </param>
         <briefdescription>
-<para>reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1aaa86f6430d09a0dbe3ecc160a9ea304b" kindref="member">MR.Polyline3.mirror</ref>&amp;amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;amp;gt;</computeroutput>. </para>
+<para>reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1aaa86f6430d09a0dbe3ecc160a9ea304b" kindref="member">MR.Polyline3.mirror</ref>&amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

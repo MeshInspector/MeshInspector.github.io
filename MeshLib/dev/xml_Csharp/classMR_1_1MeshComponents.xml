@@ -580,7 +580,7 @@
           <declname>maxComponentCount</declname>
         </param>
         <briefdescription>
-<para>gets all connected components from components map ( <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> =&amp;gt; <ref refid="structMR_1_1RegionId" kindref="compound">RegionId</ref> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap) </para>
+<para>gets all connected components from components map ( <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> =&gt; <ref refid="structMR_1_1RegionId" kindref="compound">RegionId</ref> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap) </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -625,7 +625,7 @@
         </briefdescription>
         <detaileddescription>
 <para><orderedlist>
-<listitem><para>the mapping: <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> -&amp;gt; Component ID in [0, 1, 2, ...)</para>
+<listitem><para>the mapping: <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> -&gt; Component ID in [0, 1, 2, ...)</para>
 </listitem><listitem><para>the total number of components Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1aa2bb6b3b50188dbce4a6b21881cd4a05" kindref="member">MR.MeshComponents.getAllComponentsMap</ref></computeroutput>. Parameter <computeroutput>incidence</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1MeshComponents_1a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" kindref="member">FaceIncidence.PerEdge</ref></computeroutput>. </para>
 </listitem></orderedlist>
 </para>
@@ -688,7 +688,7 @@
         </briefdescription>
         <detaileddescription>
 <para><orderedlist>
-<listitem><para>the union of all regions with area &amp;gt;= minArea</para>
+<listitem><para>the union of all regions with area &gt;= minArea</para>
 </listitem><listitem><para>the number of such regions Generated from function <computeroutput><ref refid="classMR_1_1MeshComponents_1a199fc88b00417d91bd653cdde4d0ca9b" kindref="member">MR.MeshComponents.getLargeByAreaRegions</ref></computeroutput>. </para>
 </listitem></orderedlist>
 </para>

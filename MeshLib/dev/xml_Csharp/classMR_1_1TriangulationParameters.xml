@@ -15,9 +15,9 @@
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>Too small value can make not optimal triangulation and additional holes<linebreak/>
-Too big value increases difficulty of optimization and decreases performance &amp;lt;table border=0&amp;gt; &amp;lt;caption id="TriangulationParameters::numNeighbours_examples"&amp;gt;&amp;lt;/caption&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;<image type="html" name="triangulate_3.png">"Good" width = 350cm &amp;lt;/td&amp;gt;</image>
- &amp;lt;td&amp;gt;<image type="html" name="triangulate_2.png">"Too small value" width = 350cm &amp;lt;/td&amp;gt;</image>
- &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; </para>
+Too big value increases difficulty of optimization and decreases performance &lt;table border=0&gt; &lt;caption id="TriangulationParameters::numNeighbours_examples"&gt;&lt;/caption&gt; &lt;tr&gt; &lt;td&gt;<image type="html" name="triangulate_3.png">"Good" width = 350cm &lt;/td&gt;</image>
+ &lt;td&gt;<image type="html" name="triangulate_2.png">"Too small value" width = 350cm &lt;/td&gt;</image>
+ &lt;/tr&gt; &lt;/table&gt; </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -47,12 +47,12 @@ Too big value increases difficulty of optimization and decreases performance &am
         <name>critAngle</name>
         <qualifiedname>MR.TriangulationParameters.critAngle</qualifiedname>
         <briefdescription>
-<para>Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) &amp;lt;table border=0&amp;gt; &amp;lt;caption id="TriangulationParameters::critAngle_examples"&amp;gt;&amp;lt;/caption&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;. </para>
+<para>Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) &lt;table border=0&gt; &lt;caption id="TriangulationParameters::critAngle_examples"&gt;&lt;/caption&gt; &lt;tr&gt; &lt;td&gt;. </para>
         </briefdescription>
         <detaileddescription>
-<para><image type="html" name="triangulate_3.png">"Good" width = 350cm &amp;lt;/td&amp;gt;</image>
- &amp;lt;td&amp;gt;<image type="html" name="triangulate_4.png">"Too small value" width = 350cm &amp;lt;/td&amp;gt;</image>
- &amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt; </para>
+<para><image type="html" name="triangulate_3.png">"Good" width = 350cm &lt;/td&gt;</image>
+ &lt;td&gt;<image type="html" name="triangulate_4.png">"Too small value" width = 350cm &lt;/td&gt;</image>
+ &lt;/tr&gt; &lt;/table&gt; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

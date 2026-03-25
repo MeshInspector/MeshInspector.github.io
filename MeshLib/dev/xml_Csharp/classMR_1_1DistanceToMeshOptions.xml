@@ -41,7 +41,7 @@
         <name>nullOutsideMinMax</name>
         <qualifiedname>MR.DistanceToMeshOptions.nullOutsideMinMax</qualifiedname>
         <briefdescription>
-<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&amp;lt;float&amp;gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

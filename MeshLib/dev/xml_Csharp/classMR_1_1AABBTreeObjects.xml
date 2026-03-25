@@ -169,7 +169,7 @@
           <declname>leafMap</declname>
         </param>
         <briefdescription>
-<para>fills map: LeafId -&amp;gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTreeObjects_1a5d3c677440b4b0fd7c6a03f7e81e4c62" kindref="member">MR.AABBTreeObjects.getLeafOrderAndReset</ref></computeroutput>. </para>
+<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTreeObjects_1a5d3c677440b4b0fd7c6a03f7e81e4c62" kindref="member">MR.AABBTreeObjects.getLeafOrderAndReset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -179,7 +179,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>tree containing world bounding boxes of individual objects having individual local-to-world transformations Generated from class <computeroutput><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">MR.AABBTreeObjects</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>tree containing world bounding boxes of individual objects having individual local-to-world transformations Generated from class <computeroutput><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">MR.AABBTreeObjects</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

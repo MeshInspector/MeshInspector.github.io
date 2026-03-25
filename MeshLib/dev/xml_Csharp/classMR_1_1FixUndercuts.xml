@@ -199,7 +199,7 @@
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>does not support wallAngle yet <hruler/>
- Top view: / __/ ---<ndash/>&amp;gt; maximum radial line <ref refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kindref="member">Side</ref> view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |<ndash/>|---<mdash/>|<ndash/>| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1abd8b1721231cb7ebaff5ab21d435a40c" kindref="member">MR.FixUndercuts.improveDirection</ref></computeroutput>. </para>
+ Top view: / __/ ---<ndash/>&gt; maximum radial line <ref refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kindref="member">Side</ref> view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |<ndash/>|---<mdash/>|<ndash/>| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1abd8b1721231cb7ebaff5ab21d435a40c" kindref="member">MR.FixUndercuts.improveDirection</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -222,7 +222,7 @@
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Score candidates with distance maps, lower resolution -&amp;gt; faster score. </para>
+<para>Score candidates with distance maps, lower resolution -&gt; faster score. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>does not support wallAngle yet Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1a3298ccc305ef370df07890656513eb12" kindref="member">MR.FixUndercuts.distMapImproveDirection</ref></computeroutput>. </para>

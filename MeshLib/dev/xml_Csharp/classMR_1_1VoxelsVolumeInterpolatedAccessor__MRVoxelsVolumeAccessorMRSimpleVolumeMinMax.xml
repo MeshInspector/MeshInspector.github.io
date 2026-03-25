@@ -43,7 +43,7 @@
           <declname>accessor</declname>
         </param>
         <briefdescription>
-<para>create an accessor instance that stores references to volume and its accessor the volume should not modified while it is accessed by this class Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;&amp;amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
+<para>create an accessor instance that stores references to volume and its accessor the volume should not modified while it is accessed by this class Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;lt;MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;&amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -66,7 +66,7 @@
           <declname>accessor</declname>
         </param>
         <briefdescription>
-<para>a copying-like constructor with explicitly provided accessor Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;&amp;amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
+<para>a copying-like constructor with explicitly provided accessor Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;lt;MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;&amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -76,7 +76,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>helper class for generalized access to voxel volume data with trilinear interpolation coordinate: 0 voxelSize | | I<mdash/>*<mdash/>I<mdash/>*<mdash/>I<mdash/> | | | value: [0] [1] [2] ... note: this class is as thread-safe as the underlying Accessor e.g. VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>&amp;gt; is not thread-safe (but several instances on same volume is thread-safe) Generated from class <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>helper class for generalized access to voxel volume data with trilinear interpolation coordinate: 0 voxelSize | | I<mdash/>*<mdash/>I<mdash/>*<mdash/>I<mdash/> | | | value: [0] [1] [2] ... note: this class is as thread-safe as the underlying Accessor e.g. VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>&gt; is not thread-safe (but several instances on same volume is thread-safe) Generated from class <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;lt;MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

@@ -11,7 +11,7 @@
         <name>region</name>
         <qualifiedname>MR.PositionVertsSmoothlyParams.region</qualifiedname>
         <briefdescription>
-<para>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &amp;gt; 0 </para>
+<para>which vertices on mesh are smoothed, nullptr means all vertices; it must not include all vertices of a mesh connected component unless stabilizer &gt; 0 </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

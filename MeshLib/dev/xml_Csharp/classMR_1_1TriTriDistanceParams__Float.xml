@@ -11,7 +11,7 @@
         <name>upDistLimitSq</name>
         <qualifiedname>MR.TriTriDistanceParams_Float.upDistLimitSq</qualifiedname>
         <briefdescription>
-<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &amp;gt;= upDistLimitSq and the points a and b can be arbitrary </para>
+<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89,7 +89,7 @@
           <declname>upLimitCheck</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -108,7 +108,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;::TriTriDistanceParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;::TriTriDistanceParams</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -127,7 +127,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;::TriTriDistanceParams</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;::TriTriDistanceParams</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,7 +146,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -156,7 +156,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::TriTriDistanceParams&amp;amp;lt;float&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::TriTriDistanceParams&amp;lt;float&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

@@ -26,7 +26,7 @@
         <name>minNormalDot</name>
         <qualifiedname>MR.UniformSamplingSettings.minNormalDot</qualifiedname>
         <briefdescription>
-<para>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &amp;lt;=0 means ignore normals; value &amp;gt;=1 means select all points (practically useless) </para>
+<para>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

@@ -417,7 +417,7 @@
         <name>subdivideParts</name>
         <qualifiedname>MR.DecimateSettings.subdivideParts</qualifiedname>
         <briefdescription>
-<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &amp;gt; 1, otherwise performance will be bad. </para>
+<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -462,7 +462,7 @@
         <name>minFacesInPart</name>
         <qualifiedname>MR.DecimateSettings.minFacesInPart</qualifiedname>
         <briefdescription>
-<para>minimum number of faces in one subdivision part for ( subdivideParts &amp;gt; 1 ) mode </para>
+<para>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

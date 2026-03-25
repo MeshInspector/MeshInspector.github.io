@@ -56,7 +56,7 @@
         <name>overlap</name>
         <qualifiedname>MR.TriTriDistanceResult_Double.overlap</qualifiedname>
         <briefdescription>
-<para>overlap==true means that the triangles are intersecting and not just touch one another =&amp;gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another </para>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>overlap</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147,7 +147,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;::TriTriDistanceResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;::TriTriDistanceResult</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;::TriTriDistanceResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;::TriTriDistanceResult</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,7 +185,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

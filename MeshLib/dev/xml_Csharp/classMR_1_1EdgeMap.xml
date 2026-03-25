@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -473,7 +473,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.EdgeMap.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::EdgeMap::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::EdgeMap::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,7 +598,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -608,7 +608,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>

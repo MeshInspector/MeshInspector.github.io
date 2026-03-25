@@ -209,7 +209,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aff1256cad28929e76abb10573de91d0b" id="r_aff1256cad28929e76abb10573de91d0b"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Pair_StdVectorMRFaceBitSet_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff1256cad28929e76abb10573de91d0b">getAllComponents</a> (MR.Const_MeshPart meshPart, int maxComponentCount, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</td></tr>
 <tr class="memdesc:aff1256cad28929e76abb10573de91d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components of mesh part \detail if components number more than the maxComponentCount, they will be combined into groups of the same size  <br /></td></tr>
 <tr class="memitem:ad62c0fb68093309e3cbcb38829bebc8e" id="r_ad62c0fb68093309e3cbcb38829bebc8e"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad62c0fb68093309e3cbcb38829bebc8e">getAllComponents</a> (<a class="el" href="classMR_1_1Face2RegionMap.html">MR.Face2RegionMap</a> componentsMap, int componentsCount, MR.Const_FaceBitSet region, int maxComponentCount)</td></tr>
-<tr class="memdesc:ad62c0fb68093309e3cbcb38829bebc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components from components map ( <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&amp;lt;MR....">FaceId</a> =&amp;gt; <a class="el" href="structMR_1_1RegionId.html" title="Generated from class MR.RegionId. Derived classes: Direct: (non-virtual) MR.NoDefInit&amp;lt;MR....">RegionId</a> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap)  <br /></td></tr>
+<tr class="memdesc:ad62c0fb68093309e3cbcb38829bebc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components from components map ( <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> =&gt; <a class="el" href="structMR_1_1RegionId.html" title="Generated from class MR.RegionId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">RegionId</a> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap)  <br /></td></tr>
 <tr class="memitem:aa2bb6b3b50188dbce4a6b21881cd4a05" id="r_aa2bb6b3b50188dbce4a6b21881cd4a05"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Pair_MRFace2RegionMap_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2bb6b3b50188dbce4a6b21881cd4a05">getAllComponentsMap</a> (MR.Const_MeshPart meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</td></tr>
 <tr class="memdesc:aa2bb6b3b50188dbce4a6b21881cd4a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components of mesh part as  <br /></td></tr>
 <tr class="memitem:aed02141179803d699651fdacf8f89eca" id="r_aed02141179803d699651fdacf8f89eca"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Vector__Double__MRRegionId.html">MR.Vector_Double_MRRegionId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed02141179803d699651fdacf8f89eca">getRegionAreas</a> (MR.Const_MeshPart meshPart, MR.Const_Face2RegionMap regionMap, int numRegions)</td></tr>
@@ -472,7 +472,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>gets all connected components from components map ( <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&amp;lt;MR....">FaceId</a> =&amp;gt; <a class="el" href="structMR_1_1RegionId.html" title="Generated from class MR.RegionId. Derived classes: Direct: (non-virtual) MR.NoDefInit&amp;lt;MR....">RegionId</a> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap) </p>
+<p>gets all connected components from components map ( <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> =&gt; <a class="el" href="structMR_1_1RegionId.html" title="Generated from class MR.RegionId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">RegionId</a> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">maxComponentCount</td><td>should be more then 1 </td></tr>
@@ -548,7 +548,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>gets all connected components of mesh part as </p>
 <ol type="1">
-<li>the mapping: <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&amp;lt;MR....">FaceId</a> -&amp;gt; Component ID in [0, 1, 2, ...)</li>
+<li>the mapping: <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> -&gt; Component ID in [0, 1, 2, ...)</li>
 <li>the total number of components Generated from function <span class="tt"><a class="el" href="#aa2bb6b3b50188dbce4a6b21881cd4a05" title="gets all connected components of mesh part as">MR.MeshComponents.getAllComponentsMap</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>. </li>
 </ol>
 
@@ -1025,7 +1025,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>returns </p>
 <ol type="1">
-<li>the union of all regions with area &amp;gt;= minArea</li>
+<li>the union of all regions with area &gt;= minArea</li>
 <li>the number of such regions Generated from function <span class="tt"><a class="el" href="#a199fc88b00417d91bd653cdde4d0ca9b" title="returns">MR.MeshComponents.getLargeByAreaRegions</a></span>. </li>
 </ol>
 

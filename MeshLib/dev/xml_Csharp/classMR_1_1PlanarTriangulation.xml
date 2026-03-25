@@ -276,7 +276,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>std::optional&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;gt; : if some contours intersect return false, otherwise return created mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
+<simplesect kind="return"><para>std::optional&lt;<ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref>&gt; : if some contours intersect return false, otherwise return created mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>

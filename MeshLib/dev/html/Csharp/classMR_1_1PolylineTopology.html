@@ -173,7 +173,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae3272c5e65afda3009d6c952038b2479" id="r_ae3272c5e65afda3009d6c952038b2479"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3272c5e65afda3009d6c952038b2479">makeEdge</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> a, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> b, MR._InOpt_EdgeId e=default)</td></tr>
 <tr class="memdesc:ae3272c5e65afda3009d6c952038b2479"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes an edge connecting vertices a and b  <br /></td></tr>
 <tr class="memitem:a361b778140f3b7d23582ec1b0b10a978" id="r_a361b778140f3b7d23582ec1b0b10a978"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a361b778140f3b7d23582ec1b0b10a978">makeEdges</a> (MR.Const_Edges edges)</td></tr>
-<tr class="memdesc:a361b778140f3b7d23582ec1b0b10a978"><td class="mdescLeft">&#160;</td><td class="mdescRight">for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &amp;lt;= undirectedEdgeSize() at the end  <br /></td></tr>
+<tr class="memdesc:a361b778140f3b7d23582ec1b0b10a978"><td class="mdescLeft">&#160;</td><td class="mdescRight">for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= undirectedEdgeSize() at the end  <br /></td></tr>
 <tr class="memitem:ac44da5250c03e87d8b001528d081f0cb" id="r_ac44da5250c03e87d8b001528d081f0cb"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac44da5250c03e87d8b001528d081f0cb">edgeReserve</a> (ulong newCapacity)</td></tr>
 <tr class="memdesc:ac44da5250c03e87d8b001528d081f0cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of half-edges vector Generated from method <span class="tt"><a class="el" href="#ac44da5250c03e87d8b001528d081f0cb" title="sets the capacity of half-edges vector Generated from method MR.PolylineTopology.edgeReserve.">MR.PolylineTopology.edgeReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a741a8dc6c74d1ea52e7a249fb96bc986" id="r_a741a8dc6c74d1ea52e7a249fb96bc986"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741a8dc6c74d1ea52e7a249fb96bc986">deleteEdge</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> ue)</td></tr>
@@ -358,7 +358,7 @@ Public Member Functions</h2></td></tr>
 <p>appends polyline topology (from) in addition to the current topology: creates new edges, verts; </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outVmap,outEmap</td><td>(optionally) returns mappings: from.id -&amp;gt; this.id Generated from method <span class="tt"><a class="el" href="#a7a57bb8298c5963b4c0cffc707423c71" title="appends polyline topology (from) in addition to the current topology: creates new edges,...">MR.PolylineTopology.addPart</a></span>. </td></tr>
+    <tr><td class="paramname">outVmap,outEmap</td><td>(optionally) returns mappings: from.id -&gt; this.id Generated from method <span class="tt"><a class="el" href="#a7a57bb8298c5963b4c0cffc707423c71" title="appends polyline topology (from) in addition to the current topology: creates new edges,...">MR.PolylineTopology.addPart</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -721,7 +721,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &amp;lt;= undirectedEdgeSize() at the end </p>
+<p>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= undirectedEdgeSize() at the end </p>
 <dl class="section return"><dt>Returns</dt><dd>the total number of edges created Generated from method <span class="tt"><a class="el" href="#a361b778140f3b7d23582ec1b0b10a978" title="for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edg...">MR.PolylineTopology.makeEdges</a></span>. </dd></dl>
 
 </div>
@@ -787,7 +787,7 @@ Public Member Functions</h2></td></tr>
 <p>tightly packs all arrays eliminating lone edges and invalid vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outVmap,outEmap</td><td>if given returns mappings: old.id -&amp;gt; new.id; Generated from method <span class="tt"><a class="el" href="#a03cb4bfb11d9bb7bdcd5762cec9f721f" title="tightly packs all arrays eliminating lone edges and invalid vertices">MR.PolylineTopology.pack</a></span>. </td></tr>
+    <tr><td class="paramname">outVmap,outEmap</td><td>if given returns mappings: old.id -&gt; new.id; Generated from method <span class="tt"><a class="el" href="#a03cb4bfb11d9bb7bdcd5762cec9f721f" title="tightly packs all arrays eliminating lone edges and invalid vertices">MR.PolylineTopology.pack</a></span>. </td></tr>
   </table>
   </dd>
 </dl>

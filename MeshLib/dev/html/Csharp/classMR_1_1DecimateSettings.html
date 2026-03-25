@@ -226,13 +226,13 @@ Properties</h2></td></tr>
 <tr class="memitem:a4984b848772dfb665350a9ba3696eec5" id="r_a4984b848772dfb665350a9ba3696eec5"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4984b848772dfb665350a9ba3696eec5">progressCallback</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a4984b848772dfb665350a9ba3696eec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 <tr class="memitem:a051e26d6cd8669e3ea6efd9397bd3f4d" id="r_a051e26d6cd8669e3ea6efd9397bd3f4d"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a051e26d6cd8669e3ea6efd9397bd3f4d">subdivideParts</a><code> [get]</code></td></tr>
-<tr class="memdesc:a051e26d6cd8669e3ea6efd9397bd3f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &amp;gt; 1, otherwise performance will be bad.  <br /></td></tr>
+<tr class="memdesc:a051e26d6cd8669e3ea6efd9397bd3f4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad.  <br /></td></tr>
 <tr class="memitem:a06306ed033b5ccfa3237dab3fb1c3a61" id="r_a06306ed033b5ccfa3237dab3fb1c3a61"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06306ed033b5ccfa3237dab3fb1c3a61">decimateBetweenParts</a><code> [get]</code></td></tr>
 <tr class="memdesc:a06306ed033b5ccfa3237dab3fb1c3a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts.  <br /></td></tr>
 <tr class="memitem:a492c1ffd1bc957984b1d0f955ad47706" id="r_a492c1ffd1bc957984b1d0f955ad47706"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_MRFaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492c1ffd1bc957984b1d0f955ad47706">partFaces</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a492c1ffd1bc957984b1d0f955ad47706"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not null, then it contains the faces of each subdivision part on input, which must not overlap, and after decimation of all parts, the region inside each part is put here; decimateBetweenParts=true or packMesh=true are not compatible with this option  <br /></td></tr>
 <tr class="memitem:a112b89ae894d191a8da473e6372dc580" id="r_a112b89ae894d191a8da473e6372dc580"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a112b89ae894d191a8da473e6372dc580">minFacesInPart</a><code> [get]</code></td></tr>
-<tr class="memdesc:a112b89ae894d191a8da473e6372dc580"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum number of faces in one subdivision part for ( subdivideParts &amp;gt; 1 ) mode  <br /></td></tr>
+<tr class="memdesc:a112b89ae894d191a8da473e6372dc580"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters structure for <a class="el" href="classMR.html#a5acec4e437ef0a28be3ff53f86661858" title="Performs mesh simplification in mesh region according to the settings.">MR.decimateMesh</a>. </p>
@@ -910,7 +910,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>minimum number of faces in one subdivision part for ( subdivideParts &amp;gt; 1 ) mode </p>
+<p>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode </p>
 
 </div>
 </div>
@@ -1173,7 +1173,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &amp;gt; 1, otherwise performance will be bad. </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad. </p>
 
 </div>
 </div>

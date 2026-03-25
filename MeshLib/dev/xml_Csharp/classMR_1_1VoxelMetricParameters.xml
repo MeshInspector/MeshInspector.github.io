@@ -41,7 +41,7 @@
         <name>maxDistRatio</name>
         <qualifiedname>MR.VoxelMetricParameters.maxDistRatio</qualifiedname>
         <briefdescription>
-<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &amp;gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </para>
+<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

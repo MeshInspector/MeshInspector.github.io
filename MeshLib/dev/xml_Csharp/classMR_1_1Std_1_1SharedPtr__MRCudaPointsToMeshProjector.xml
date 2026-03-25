@@ -264,7 +264,7 @@
           <declname>ptr</declname>
         </param>
         <briefdescription>
-<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;amp;lt;T&amp;amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;amp;lt;void&amp;amp;gt;</computeroutput>. </para>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;lt;T&amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;lt;void&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -291,7 +291,7 @@
           <declname>ptr</declname>
         </param>
         <briefdescription>
-<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;amp;lt;T&amp;amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;amp;lt;void&amp;amp;gt;</computeroutput>. </para>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;lt;T&amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;lt;void&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

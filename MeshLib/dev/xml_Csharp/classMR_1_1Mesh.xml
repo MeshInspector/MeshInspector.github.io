@@ -636,7 +636,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>tightly packs all arrays eliminating lone edges and invalid faces, vertices and points, reorder all faces, vertices and edges according to given maps, each containing old id -&amp;gt; new id mapping Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a8ca1dbf25d04ac66213956966250b872" kindref="member">MR.Mesh.pack</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>tightly packs all arrays eliminating lone edges and invalid faces, vertices and points, reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a8ca1dbf25d04ac66213956966250b872" kindref="member">MR.Mesh.pack</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

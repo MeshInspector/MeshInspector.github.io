@@ -242,7 +242,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&amp;lt;T&amp;gt;::perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&lt;T&gt;::perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

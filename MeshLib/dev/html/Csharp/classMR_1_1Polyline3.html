@@ -183,7 +183,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afb2e1ab90944752551cc4efc138f6e4b" id="r_afb2e1ab90944752551cc4efc138f6e4b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb2e1ab90944752551cc4efc138f6e4b">addPartByMask</a> (MR.Const_Polyline3 from, MR.Const_UndirectedEdgeBitSet mask, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1EdgeMap.html">MR.EdgeMap</a>? outEmap=null)</td></tr>
 <tr class="memdesc:afb2e1ab90944752551cc4efc138f6e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends polyline (from) in addition to this polyline: creates new edges, verts and points Generated from method <span class="tt"><a class="el" href="#afb2e1ab90944752551cc4efc138f6e4b" title="appends polyline (from) in addition to this polyline: creates new edges, verts and points Generated f...">MR.Polyline3.addPartByMask</a></span>.  <br /></td></tr>
 <tr class="memitem:a4ae1f823f2768a98f1cd0924591b2bd6" id="r_a4ae1f823f2768a98f1cd0924591b2bd6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ae1f823f2768a98f1cd0924591b2bd6">pack</a> (<a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null)</td></tr>
-<tr class="memdesc:a4ae1f823f2768a98f1cd0924591b2bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&amp;gt; new.id Generated from method <span class="tt"><a class="el" href="#a4ae1f823f2768a98f1cd0924591b2bd6" title="tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mapp...">MR.Polyline3.pack</a></span>.  <br /></td></tr>
+<tr class="memdesc:a4ae1f823f2768a98f1cd0924591b2bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&gt; new.id Generated from method <span class="tt"><a class="el" href="#a4ae1f823f2768a98f1cd0924591b2bd6" title="tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mapp...">MR.Polyline3.pack</a></span>.  <br /></td></tr>
 <tr class="memitem:af32b990635853ebb3915f6ba90eeff3e" id="r_af32b990635853ebb3915f6ba90eeff3e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af32b990635853ebb3915f6ba90eeff3e">transform</a> (in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> xf)</td></tr>
 <tr class="memdesc:af32b990635853ebb3915f6ba90eeff3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">applies given transformation to all valid polyline vertices Generated from method <span class="tt"><a class="el" href="#af32b990635853ebb3915f6ba90eeff3e" title="applies given transformation to all valid polyline vertices Generated from method MR....">MR.Polyline3.transform</a></span>.  <br /></td></tr>
 <tr class="memitem:a1f454ea832d6a43780d19b99b010c5cd" id="r_a1f454ea832d6a43780d19b99b010c5cd"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f454ea832d6a43780d19b99b010c5cd">splitEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> newVertPos)</td></tr>
@@ -199,7 +199,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a74093132d65d8c18845c75b2cc82a3ac" id="r_a74093132d65d8c18845c75b2cc82a3ac"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74093132d65d8c18845c75b2cc82a3ac">addFromGeneralSurfacePath</a> (MR.Const_Mesh mesh, MR.Const_MeshTriPoint start, MR.Std.Const_Vector_MREdgePoint path, MR.Const_MeshTriPoint <a class="el" href="classMR.html#a0c385f7a49af5e22d4df16e0367ee26f">end</a>)</td></tr>
 <tr class="memdesc:a74093132d65d8c18845c75b2cc82a3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds general path = start-path-end (where both start and end are optional) to this polyline  <br /></td></tr>
 <tr class="memitem:aaa86f6430d09a0dbe3ecc160a9ea304b" id="r_aaa86f6430d09a0dbe3ecc160a9ea304b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa86f6430d09a0dbe3ecc160a9ea304b">mirror</a> (MR.Const_Plane3f plane)</td></tr>
-<tr class="memdesc:aaa86f6430d09a0dbe3ecc160a9ea304b"><td class="mdescLeft">&#160;</td><td class="mdescRight">reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method <span class="tt"><a class="el" href="#aaa86f6430d09a0dbe3ecc160a9ea304b" title="reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method MR....">MR.Polyline3.mirror</a>&amp;amp;lt;<a class="el" href="structMR_1_1Vector3f.html" title="Generated from class MR.Vector3f. This is the by-value version of the struct.">MR.Vector3f</a>&amp;amp;gt;</span>.  <br /></td></tr>
+<tr class="memdesc:aaa86f6430d09a0dbe3ecc160a9ea304b"><td class="mdescLeft">&#160;</td><td class="mdescRight">reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method <span class="tt"><a class="el" href="#aaa86f6430d09a0dbe3ecc160a9ea304b" title="reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method MR....">MR.Polyline3.mirror</a>&amp;lt;<a class="el" href="structMR_1_1Vector3f.html" title="Generated from class MR.Vector3f. This is the by-value version of the struct.">MR.Vector3f</a>&amp;gt;</span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -519,7 +519,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>adds connected line in this, passing progressively via points *[vs, vs+num) </p>
-<p>if num &amp;gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created </p><dl class="section return"><dt>Returns</dt><dd>the edge from first new to second new vertex Generated from method <span class="tt"><a class="el" href="#a7e17554134660c5a147645a7156f3702" title="adds connected line in this, passing progressively via points *[vs, vs+num)">MR.Polyline3.addFromPoints</a></span>. </dd></dl>
+<p>if num &gt; 2 &amp;&amp; vs[0] == vs[num-1] then a closed line is created </p><dl class="section return"><dt>Returns</dt><dd>the edge from first new to second new vertex Generated from method <span class="tt"><a class="el" href="#a7e17554134660c5a147645a7156f3702" title="adds connected line in this, passing progressively via points *[vs, vs+num)">MR.Polyline3.addFromPoints</a></span>. </dd></dl>
 
 </div>
 </div>
@@ -627,7 +627,7 @@ Properties</h2></td></tr>
 <p>appends polyline (from) in addition to this polyline: creates new edges, verts and points; </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outVmap,outEmap</td><td>(optionally) returns mappings: from.id -&amp;gt; this.id Generated from method <span class="tt"><a class="el" href="#adcb44deb6ba9fa55ccf1273e017e3f96" title="appends polyline (from) in addition to this polyline: creates new edges, verts and points;">MR.Polyline3.addPart</a></span>. </td></tr>
+    <tr><td class="paramname">outVmap,outEmap</td><td>(optionally) returns mappings: from.id -&gt; this.id Generated from method <span class="tt"><a class="el" href="#adcb44deb6ba9fa55ccf1273e017e3f96" title="appends polyline (from) in addition to this polyline: creates new edges, verts and points;">MR.Polyline3.addPart</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -752,7 +752,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method <span class="tt"><a class="el" href="#aaa86f6430d09a0dbe3ecc160a9ea304b" title="reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method MR....">MR.Polyline3.mirror</a>&amp;amp;lt;<a class="el" href="structMR_1_1Vector3f.html" title="Generated from class MR.Vector3f. This is the by-value version of the struct.">MR.Vector3f</a>&amp;amp;gt;</span>. </p>
+<p>reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method <span class="tt"><a class="el" href="#aaa86f6430d09a0dbe3ecc160a9ea304b" title="reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method MR....">MR.Polyline3.mirror</a>&amp;lt;<a class="el" href="structMR_1_1Vector3f.html" title="Generated from class MR.Vector3f. This is the by-value version of the struct.">MR.Vector3f</a>&amp;gt;</span>. </p>
 
 </div>
 </div>
@@ -837,7 +837,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&amp;gt; new.id Generated from method <span class="tt"><a class="el" href="#a4ae1f823f2768a98f1cd0924591b2bd6" title="tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mapp...">MR.Polyline3.pack</a></span>. </p>
+<p>tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mappings: old.id -&gt; new.id Generated from method <span class="tt"><a class="el" href="#a4ae1f823f2768a98f1cd0924591b2bd6" title="tightly packs all arrays eliminating lone edges and invalid verts and points, optionally returns mapp...">MR.Polyline3.pack</a></span>. </p>
 
 </div>
 </div>

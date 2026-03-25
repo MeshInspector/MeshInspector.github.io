@@ -326,7 +326,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>tightly packs all arrays eliminating invalid points, but relative order of valid points is preserved; returns false if the cloud was packed before the call and nothing has been changed; if pack is done optionally returns mappings: new.id -&amp;gt; old.id Generated from method <computeroutput><ref refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kindref="member">MR.PointCloud.pack</ref></computeroutput>. </para>
+<para>tightly packs all arrays eliminating invalid points, but relative order of valid points is preserved; returns false if the cloud was packed before the call and nothing has been changed; if pack is done optionally returns mappings: new.id -&gt; old.id Generated from method <computeroutput><ref refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kindref="member">MR.PointCloud.pack</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -348,7 +348,7 @@
 <para>tightly packs all arrays eliminating invalid points, reorders valid points according to given strategy; </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>points mapping: old -&amp;gt; new Generated from method <computeroutput><ref refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kindref="member">MR.PointCloud.pack</ref></computeroutput>. </para>
+<para><simplesect kind="return"><para>points mapping: old -&gt; new Generated from method <computeroutput><ref refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kindref="member">MR.PointCloud.pack</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>

@@ -212,7 +212,7 @@ if 1) any of the vertices is invalid or not within the vertSize(), 2) or a==b, 3
           <declname>edges</declname>
         </param>
         <briefdescription>
-<para>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &amp;lt;= undirectedEdgeSize() at the end </para>
+<para>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= undirectedEdgeSize() at the end </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>the total number of edges created Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a361b778140f3b7d23582ec1b0b10a978" kindref="member">MR.PolylineTopology.makeEdges</ref></computeroutput>. </para>
@@ -474,7 +474,7 @@ if 1) any of the vertices is invalid or not within the vertSize(), 2) or a==b, 3
 <parametername>outEmap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>(optionally) returns mappings: from.id -&amp;gt; this.id Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a7a57bb8298c5963b4c0cffc707423c71" kindref="member">MR.PolylineTopology.addPart</ref></computeroutput>. </para>
+<para>(optionally) returns mappings: from.id -&gt; this.id Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a7a57bb8298c5963b4c0cffc707423c71" kindref="member">MR.PolylineTopology.addPart</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -543,7 +543,7 @@ if 1) any of the vertices is invalid or not within the vertSize(), 2) or a==b, 3
 <parametername>outEmap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if given returns mappings: old.id -&amp;gt; new.id; Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a03cb4bfb11d9bb7bdcd5762cec9f721f" kindref="member">MR.PolylineTopology.pack</ref></computeroutput>. </para>
+<para>if given returns mappings: old.id -&gt; new.id; Generated from method <computeroutput><ref refid="classMR_1_1PolylineTopology_1a03cb4bfb11d9bb7bdcd5762cec9f721f" kindref="member">MR.PolylineTopology.pack</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
