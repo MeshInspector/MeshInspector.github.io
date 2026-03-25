@@ -1803,7 +1803,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a205812c6a89d8f8dfc18315c6306ba3b" id="r_a205812c6a89d8f8dfc18315c6306ba3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a205812c6a89d8f8dfc18315c6306ba3b">eliminateDoubleTris</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
 <tr class="memitem:ad50670ba63f9867b2f54bdefdeb069b6" id="r_ad50670ba63f9867b2f54bdefdeb069b6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad50670ba63f9867b2f54bdefdeb069b6">eliminateDoubleTrisAround</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
 <tr class="memitem:ab079d03fae40f7b6273d0ce098f0bc3b" id="r_ab079d03fae40f7b6273d0ce098f0bc3b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab079d03fae40f7b6273d0ce098f0bc3b">eliminateTunnels</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region='{}', <a class="el" href="classmrmeshpy_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> settings=...)</td></tr>
-<tr class="memitem:ad80c6a167371b29015fb6a8637e7ea0c" id="r_ad80c6a167371b29015fb6a8637e7ea0c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad80c6a167371b29015fb6a8637e7ea0c">eliminateTunnels</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1FillHoleParams.html">FillHoleParams</a> fillHoleParams, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region='{}', <a class="el" href="classmrmeshpy_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> settings=...)</td></tr>
+<tr class="memitem:a3b6827b28df562c195f77997ccf83d11" id="r_a3b6827b28df562c195f77997ccf83d11"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b6827b28df562c195f77997ccf83d11">eliminateTunnels</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a> fillSettings, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region='{}', <a class="el" href="classmrmeshpy_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> detectSettings=...)</td></tr>
 <tr class="memitem:a10ef0174b6d41a12e0f624a50f28f4c8" id="r_a10ef0174b6d41a12e0f624a50f28f4c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ef0174b6d41a12e0f624a50f28f4c8">embedStructureToTerrain</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> terrain, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> structure, <a class="el" href="classmrmeshpy_1_1EmbeddedStructureParameters.html">EmbeddedStructureParameters</a> params)</td></tr>
 <tr class="memitem:ad1d8ba93fb50f6d9d5b9c89affa66138" id="r_ad1d8ba93fb50f6d9d5b9c89affa66138"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1d8ba93fb50f6d9d5b9c89affa66138">encode64</a> (int data, int size)</td></tr>
 <tr class="memitem:aa9ae34aafa0293dd0b3cec63fac3ddcc" id="r_aa9ae34aafa0293dd0b3cec63fac3ddcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ChunkIterator.html">ChunkIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9ae34aafa0293dd0b3cec63fac3ddcc">end</a> (<a class="el" href="classmrmeshpy_1_1IteratorRange__ChunkIterator.html">IteratorRange_ChunkIterator</a> range)</td></tr>
@@ -12979,12 +12979,12 @@ if region is provided then eliminated triangles are excluded from it
       </table>
 </div><div class="memdoc">
 <pre class="fragment">gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by
-1) detecting tunnels, 2) deleting tunnel faces, and 3) filling holes appeared
+1) detecting tunnels, 2) calling patchMesh, which 2a) deletes tunnel faces, and 2b) fills holes appeared
 </pre> 
 </div>
 </div>
-<a id="ad80c6a167371b29015fb6a8637e7ea0c" name="ad80c6a167371b29015fb6a8637e7ea0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad80c6a167371b29015fb6a8637e7ea0c">&#9670;&#160;</a></span>eliminateTunnels() <span class="overload">[2/2]</span></h2>
+<a id="a3b6827b28df562c195f77997ccf83d11" name="a3b6827b28df562c195f77997ccf83d11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b6827b28df562c195f77997ccf83d11">&#9670;&#160;</a></span>eliminateTunnels() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12997,7 +12997,7 @@ if region is provided then eliminated triangles are excluded from it
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FillHoleParams.html">FillHoleParams</a></td>          <td class="paramname"><span class="paramname"><em>fillHoleParams</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a></td>          <td class="paramname"><span class="paramname"><em>fillSettings</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -13007,7 +13007,7 @@ if region is provided then eliminated triangles are excluded from it
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> </td>          <td class="paramname"><span class="paramname"><em>detectSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -30470,7 +30470,7 @@ note: only OffsetParameters.signDetectionMode = SignDetectionMode::Unsigned will
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">removes \\param patchBS from \\param mesh and fills it with new triangulation using \\params settings
+<pre class="fragment">removes \\param patchBS from \\param mesh and fills every hole appeared with new triangles using \\ref fillHoleNicely and \\params settings;
 if 'settings.subdivideSettings.maxEdgeLen' &lt;= 0 uses patch boundary average edge length * 1.5f
 returns new faces
 </pre> 

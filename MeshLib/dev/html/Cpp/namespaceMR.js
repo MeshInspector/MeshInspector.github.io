@@ -2156,7 +2156,7 @@ var namespaceMR =
     [ "eliminateDoubleTris", "group__MeshFixerGroup.html#ga3c868d7f7706bea58f102f3218ffc524", null ],
     [ "eliminateDoubleTrisAround", "group__MeshFixerGroup.html#gae137c5e3de8e28fc5ff47caee9632c41", null ],
     [ "eliminateTunnels", "group__TunnelDetectorGroup.html#ga80214bb4772aca4e0dc6687b96d56758", null ],
-    [ "eliminateTunnels", "group__TunnelDetectorGroup.html#ga51d92977492b0778ff8c6a6512b893b4", null ],
+    [ "eliminateTunnels", "group__TunnelDetectorGroup.html#ga7149b047e2243e29ce78bff353b75189", null ],
     [ "embedStructureToTerrain", "group__GeneralGroup.html#ga69cec6f928a8d5e51752ad80d4b57a6b", null ],
     [ "encode64", "group__Base64Group.html#ga1c8b05a93792e0147c7b9a738af958be", null ],
     [ "end", "group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d", null ],

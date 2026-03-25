@@ -23689,7 +23689,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
 <parametername>mesh</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>and fills it with new triangulation using \params settings if 'settings.subdivideSettings.maxEdgeLen' &lt;= 0 uses patch boundary average edge length * 1.5f returns new faces Generated from function <computeroutput><ref refid="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" kindref="member">MR.patchMesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>and fills every hole appeared with new triangles using <ref refid="classMR_1a7ff588f0e066365a484a0e2c8c23b977" kindref="member">fillHoleNicely</ref> and \params settings; if 'settings.subdivideSettings.maxEdgeLen' &lt;= 0 uses patch boundary average edge length * 1.5f returns new faces Generated from function <computeroutput><ref refid="classMR_1ad577295ef33cf17ee466e4f4b3569ff2" kindref="member">MR.patchMesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -38099,7 +38099,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by 1) detecting tunnels, 2) deleting tunnel faces, and 3) filling holes appeared Generated from function <computeroutput><ref refid="classMR_1a38471281dabad7872a24e6e9eb6c75fc" kindref="member">MR.eliminateTunnels</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by 1) detecting tunnels, 2) calling patchMesh, which 2a) deletes tunnel faces, and 2b) fills holes appeared Generated from function <computeroutput><ref refid="classMR_1a38471281dabad7872a24e6e9eb6c75fc" kindref="member">MR.eliminateTunnels</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -38107,10 +38107,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="453" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="453" bodyend="460"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a34bab2faa39bdf07724aae8952f631af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a151b746a2372daa742c6061b05054af7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.eliminateTunnels</definition>
-        <argsstring>(MR.Mesh mesh, MR.Const_FillHoleParams fillHoleParams, MR.Const_FaceBitSet? region=null, MR.Const_DetectTunnelSettings? settings=null)</argsstring>
+        <argsstring>(MR.Mesh mesh, MR.Const_FillHoleNicelySettings fillSettings, MR.Const_FaceBitSet? region=null, MR.Const_DetectTunnelSettings? detectSettings=null)</argsstring>
         <name>eliminateTunnels</name>
         <qualifiedname>MR.eliminateTunnels</qualifiedname>
         <param>
@@ -38118,8 +38118,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_FillHoleParams</type>
-          <declname>fillHoleParams</declname>
+          <type>MR.Const_FillHoleNicelySettings</type>
+          <declname>fillSettings</declname>
         </param>
         <param>
           <type>MR.Const_FaceBitSet?</type>
@@ -38128,11 +38128,11 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </param>
         <param>
           <type>MR.Const_DetectTunnelSettings?</type>
-          <declname>settings</declname>
+          <declname>detectSettings</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a38471281dabad7872a24e6e9eb6c75fc" kindref="member">MR.eliminateTunnels</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a38471281dabad7872a24e6e9eb6c75fc" kindref="member">MR.eliminateTunnels</ref></computeroutput>. Parameter <computeroutput>detectSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -49630,7 +49630,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a1d76581e3b2dff62e442c8bb46802970" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateDoubleTris</name></member>
       <member refid="classMR_1a5f820df3bca9d4ae70609c8287619f6d" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateDoubleTrisAround</name></member>
       <member refid="classMR_1a38471281dabad7872a24e6e9eb6c75fc" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateTunnels</name></member>
-      <member refid="classMR_1a34bab2faa39bdf07724aae8952f631af" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateTunnels</name></member>
+      <member refid="classMR_1a151b746a2372daa742c6061b05054af7" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateTunnels</name></member>
       <member refid="classMR_1a3e60756545213ad61b23ebfde6ce0a5c" prot="public" virt="non-virtual"><scope>MR</scope><name>embedStructureToTerrain</name></member>
       <member refid="classMR_1aac2134c613fbb24a7e201c0ef3384e47" prot="public" virt="non-virtual"><scope>MR</scope><name>encode64</name></member>
       <member refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>

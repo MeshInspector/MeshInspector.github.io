@@ -20290,17 +20290,17 @@ if region is provided then eliminated triangles are excluded from it
         </briefdescription>
         <detaileddescription>
 <para><verbatim>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by
-1) detecting tunnels, 2) deleting tunnel faces, and 3) filling holes appeared
+1) detecting tunnels, 2) calling patchMesh, which 2a) deletes tunnel faces, and 2b) fills holes appeared
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="100264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="100264" bodyend="100269"/>
       </memberdef>
-      <memberdef kind="function" id="namespacemrmeshpy_1ad80c6a167371b29015fb6a8637e7ea0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacemrmeshpy_1a3b6827b28df562c195f77997ccf83d11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.eliminateTunnels</definition>
-        <argsstring>(Mesh mesh, FillHoleParams fillHoleParams, FaceBitSet region=&apos;{}&apos;, DetectTunnelSettings settings=...)</argsstring>
+        <argsstring>(Mesh mesh, FillHoleNicelySettings fillSettings, FaceBitSet region=&apos;{}&apos;, DetectTunnelSettings detectSettings=...)</argsstring>
         <name>eliminateTunnels</name>
         <qualifiedname>mrmeshpy.eliminateTunnels</qualifiedname>
         <param>
@@ -20308,8 +20308,8 @@ if region is provided then eliminated triangles are excluded from it
           <declname>mesh</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1FillHoleParams" kindref="compound">FillHoleParams</ref></type>
-          <declname>fillHoleParams</declname>
+          <type><ref refid="classmrmeshpy_1_1FillHoleNicelySettings" kindref="compound">FillHoleNicelySettings</ref></type>
+          <declname>fillSettings</declname>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -20318,7 +20318,7 @@ if region is provided then eliminated triangles are excluded from it
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1DetectTunnelSettings" kindref="compound">DetectTunnelSettings</ref></type>
-          <declname>settings</declname>
+          <declname>detectSettings</declname>
           <defval>...</defval>
         </param>
         <briefdescription>
@@ -38755,7 +38755,7 @@ note: only OffsetParameters.signDetectionMode = SignDetectionMode::Unsigned will
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>removes \\param patchBS from \\param mesh and fills it with new triangulation using \\params settings
+<para><verbatim>removes \\param patchBS from \\param mesh and fills every hole appeared with new triangles using \\ref fillHoleNicely and \\params settings;
 if &apos;settings.subdivideSettings.maxEdgeLen&apos; &lt;= 0 uses patch boundary average edge length * 1.5f
 returns new faces
 </verbatim> </para>

@@ -1814,7 +1814,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.eliminateDoubleTris", "namespacemrmeshpy.html#a205812c6a89d8f8dfc18315c6306ba3b", null ],
     [ "mrmeshpy.eliminateDoubleTrisAround", "namespacemrmeshpy.html#ad50670ba63f9867b2f54bdefdeb069b6", null ],
     [ "mrmeshpy.eliminateTunnels", "namespacemrmeshpy.html#ab079d03fae40f7b6273d0ce098f0bc3b", null ],
-    [ "mrmeshpy.eliminateTunnels", "namespacemrmeshpy.html#ad80c6a167371b29015fb6a8637e7ea0c", null ],
+    [ "mrmeshpy.eliminateTunnels", "namespacemrmeshpy.html#a3b6827b28df562c195f77997ccf83d11", null ],
     [ "mrmeshpy.embedStructureToTerrain", "namespacemrmeshpy.html#a10ef0174b6d41a12e0f624a50f28f4c8", null ],
     [ "mrmeshpy.encode64", "namespacemrmeshpy.html#ad1d8ba93fb50f6d9d5b9c89affa66138", null ],
     [ "mrmeshpy.end", "namespacemrmeshpy.html#ad2dabc0b6caa86d6f8b767a776130c8b", null ],

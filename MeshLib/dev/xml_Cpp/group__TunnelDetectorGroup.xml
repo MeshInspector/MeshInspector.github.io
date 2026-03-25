@@ -191,16 +191,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by 1) detecting tunnels, 2) deleting tunnel faces, and 3) filling holes appeared </para>
+<para>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by 1) detecting tunnels, 2) calling patchMesh, which 2a) deletes tunnel faces, and 2b) fills holes appeared </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRTunnelDetector.h" line="76" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="76" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__TunnelDetectorGroup_1ga51d92977492b0778ff8c6a6512b893b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__TunnelDetectorGroup_1ga7149b047e2243e29ce78bff353b75189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
         <definition>Expected&lt; void &gt; MR::eliminateTunnels</definition>
-        <argsstring>(Mesh &amp;mesh, const FillHoleParams &amp;fillHoleParams, const FaceBitSet *region={}, const DetectTunnelSettings &amp;settings={})</argsstring>
+        <argsstring>(Mesh &amp;mesh, const FillHoleNicelySettings &amp;fillSettings, const FaceBitSet *region={}, const DetectTunnelSettings &amp;detectSettings={})</argsstring>
         <name>eliminateTunnels</name>
         <qualifiedname>MR::eliminateTunnels</qualifiedname>
         <param>
@@ -208,8 +208,8 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>const FillHoleParams &amp;</type>
-          <declname>fillHoleParams</declname>
+          <type>const FillHoleNicelySettings &amp;</type>
+          <declname>fillSettings</declname>
         </param>
         <param>
           <type>const FaceBitSet *</type>
@@ -218,7 +218,7 @@
         </param>
         <param>
           <type>const DetectTunnelSettings &amp;</type>
-          <declname>settings</declname>
+          <declname>detectSettings</declname>
           <defval>{}</defval>
         </param>
         <briefdescription>
