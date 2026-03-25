@@ -1,7 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"MRSolarRadiation_8h.html#a64d8a4e88ee782e736635b57b5b7f93d":[6,2,1,0,0,0,0,1,315,9],
-"MRSolarRadiation_8h.html#a6a14607383b420ecd03c78e454f2695d":[6,2,1,0,0,0,0,1,315,18],
 "MRSolarRadiation_8h.html#a6bd20b8037df7f3a5125e03df3b8d147":[6,2,1,0,0,0,0,1,315,5],
 "MRSolarRadiation_8h.html#a7a3965342009fc9a5a05a1513e2ce36d":[6,2,1,0,0,0,0,1,315,12],
 "MRSolarRadiation_8h.html#a871d6f88c45ba11ce55155f87fdbe4c9":[6,2,1,0,0,0,0,1,315,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX95 =
 "MRSphere_8h.html#a8c29e4987b4f7ad68bc3354d4c4b4ada":[6,2,1,0,0,0,0,1,317,58],
 "MRSphere_8h.html#a91c55b5511647472d284472fc4721a22":[6,2,1,0,0,0,0,1,317,52],
 "MRSphere_8h.html#a92a664ce02cf7b3a3ad563fae0b46536":[6,2,1,0,0,0,0,1,317,65],
-"MRSphere_8h.html#a92e63cf0e4b297aa3b121ed652ffe3cd":[6,2,1,0,0,0,0,1,317,27]
+"MRSphere_8h.html#a92e63cf0e4b297aa3b121ed652ffe3cd":[6,2,1,0,0,0,0,1,317,27],
+"MRSphere_8h.html#a939051b95f1ce7c759e9eaf1013030dd":[6,2,1,0,0,0,0,1,317,54],
+"MRSphere_8h.html#a96673cd28c62edd4ae37b3cd6830e4a0":[6,2,1,0,0,0,0,1,317,41]
 };

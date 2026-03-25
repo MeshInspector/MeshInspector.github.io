@@ -1,7 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f.html#ad141bd7b64520deebcf49bc29936840e":[6,3,0,0,0,972,9],
-"classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f.html#ae1ca5d42881fee185c2b3f1353e53b88":[6,3,0,0,0,972,5],
 "classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f.html#ae5ac95dbcc0a40a07ec24caad14b0771":[6,3,0,0,0,972,12],
 "classMR_1_1ViewportProperty__UnsignedChar.html":[6,3,0,0,0,973],
 "classMR_1_1ViewportProperty__UnsignedChar.html#a0b5ed09702eaf611ba0c8f35d198d84b":[6,3,0,0,0,973,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX70 =
 "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#a7b54c6ee1b48e4efff8f082a8105ee89":[6,3,0,0,0,983,2,8],
 "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#aa007a6087ca1823d9e2ef4526608a4a1":[6,3,0,0,0,983,2,6],
 "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#aa1a3152e58dd2597cbe644d2279bb98e":[6,3,0,0,0,983,2,5],
-"classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#aca77a8d957a7fc4655efc8e153a90dfd":[6,3,0,0,0,983,2,7]
+"classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#aca77a8d957a7fc4655efc8e153a90dfd":[6,3,0,0,0,983,2,7],
+"classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#ae89000ce1587a22c321e927acfff4187":[6,3,0,0,0,983,2,3],
+"classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[6,3,0,0,0,983,3]
 };

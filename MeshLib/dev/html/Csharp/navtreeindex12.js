@@ -1,7 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"classMR_1_1BMap__MRTextureId__MRTextureId.html#a11c0619810a3ae57774455c7813809ce":[6,3,0,0,0,51,3],
-"classMR_1_1BMap__MRTextureId__MRTextureId.html#a2f7b6ed009e80634c24b1425bfb8eaed":[6,3,0,0,0,51,0],
 "classMR_1_1BMap__MRTextureId__MRTextureId.html#a8f3a39b181242975f5b71fd2aa0cd311":[6,3,0,0,0,51,2],
 "classMR_1_1BMap__MRTextureId__MRTextureId.html#a9065cb418967fdd44dd4f1ee64937a97":[6,3,0,0,0,51,1],
 "classMR_1_1BMap__MRTextureId__MRTextureId.html#ab15c3531e8230da69f9de4f842c0da6f":[6,3,0,0,0,51,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX12 =
 "classMR_1_1BooleanResultPoints.html#ac544a4e00693e46c412c2091a6c4b8b9":[6,3,0,0,0,60,6],
 "classMR_1_1BooleanResultPoints.html#aed097a5bf8b445a417b90a3a9759c0dd":[6,3,0,0,0,60,2],
 "classMR_1_1Box__AffineXf2d.html":[6,3,0,0,0,73],
-"classMR_1_1Box__AffineXf2d.html#a5e98d3f698c0985532303318767199e7":[6,3,0,0,0,73,6]
+"classMR_1_1Box__AffineXf2d.html#a5e98d3f698c0985532303318767199e7":[6,3,0,0,0,73,6],
+"classMR_1_1Box__AffineXf2d.html#a73c04668b421802c7506924c05b1cfc5":[6,3,0,0,0,73,3],
+"classMR_1_1Box__AffineXf2d.html#a8155a21e2b53e8b50792673f776e3c93":[6,3,0,0,0,73,0]
 };

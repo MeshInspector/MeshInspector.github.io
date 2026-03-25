@@ -4,11 +4,11 @@ var MRRegionBoundary_8h =
     [ "MR_extractAllLoops", "MRRegionBoundary_8h.html#a7838420826884263b1b49f0fd69a42f8", null ],
     [ "MR_extractPath", "MRRegionBoundary_8h.html#aa1a4570ee892b384f86f8fb9e7df5621", null ],
     [ "MR_findAllLeftBdEdges", "MRRegionBoundary_8h.html#a416b5acdb380aba0bc6a57a273701e73", null ],
-    [ "MR_findLeftBoundary", "MRRegionBoundary_8h.html#ad9dd0e2cebbf3d99015c50a0d47f1190", null ],
+    [ "MR_findLeftBoundary", "MRRegionBoundary_8h.html#ad15a791da40e468f95533774e684e459", null ],
     [ "MR_findLeftBoundaryInsideMesh", "MRRegionBoundary_8h.html#a4c48be4de5fd9bb6cd1c1cdfc214ebef", null ],
     [ "MR_findRegionBoundaryUndirectedEdgesInsideMesh", "MRRegionBoundary_8h.html#a3fc2c864f51739bc04f5c0c0441f20d0", null ],
     [ "MR_findRegionOuterFaces", "MRRegionBoundary_8h.html#a5e74514392a6d690b257c9532d2b9166", null ],
-    [ "MR_findRightBoundary", "MRRegionBoundary_8h.html#ada59b01910a3d0c96562ba29eb873d5c", null ],
+    [ "MR_findRightBoundary", "MRRegionBoundary_8h.html#a5798f7df019c3f15b751fdf7e508ae90", null ],
     [ "MR_getBoundaryVerts", "MRRegionBoundary_8h.html#a1da9b9cfff9aa16ba01a199d99096701", null ],
     [ "MR_getIncidentEdges_MR_FaceBitSet", "MRRegionBoundary_8h.html#ae9d09c1b257f748f176f475bffcee7b7", null ],
     [ "MR_getIncidentEdges_MR_UndirectedEdgeBitSet", "MRRegionBoundary_8h.html#af211e7bdfe425bcd2bcd20da58b0e069", null ],
@@ -26,8 +26,6 @@ var MRRegionBoundary_8h =
     [ "MR_getNeighborFaces", "MRRegionBoundary_8h.html#a9925fb85f523c534f2c493446a49224b", null ],
     [ "MR_getRegionBoundaryVerts", "MRRegionBoundary_8h.html#ae57ddc8ac6663dd6ff295ae87563894b", null ],
     [ "MR_getRegionEdges", "MRRegionBoundary_8h.html#a5a662031c498a11646473af948cb07cf", null ],
-    [ "MR_trackLeftBoundaryLoop_MR_EdgeId", "MRRegionBoundary_8h.html#ab30596ddc03ad05aa8db744656f03033", null ],
-    [ "MR_trackLeftBoundaryLoop_MR_FaceBitSet", "MRRegionBoundary_8h.html#aefb14d87f9ee965972b1e18fcedbe10b", null ],
-    [ "MR_trackRightBoundaryLoop_MR_EdgeId", "MRRegionBoundary_8h.html#a3c5c104492c5f050394cdf51afa7f25c", null ],
-    [ "MR_trackRightBoundaryLoop_MR_FaceBitSet", "MRRegionBoundary_8h.html#a9329e9c88bda9faafe1e425557dce5e6", null ]
+    [ "MR_trackLeftBoundaryLoop", "MRRegionBoundary_8h.html#a86de617edfcf7715d0e28d75adbdb913", null ],
+    [ "MR_trackRightBoundaryLoop", "MRRegionBoundary_8h.html#ad6056814ea5361e5bd0e6e03836ac0d1", null ]
 ];

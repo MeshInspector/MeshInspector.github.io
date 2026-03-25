@@ -1,7 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"MRVoxelsVolume_8h.html#a69fa104459d71c14f2e2d1f5e39b4aa7":[6,2,1,0,0,0,0,4,39,218],
-"MRVoxelsVolume_8h.html#a6b49e5e335d0aa119916091dd0cdd766":[6,2,1,0,0,0,0,4,39,63],
 "MRVoxelsVolume_8h.html#a6cb5605d9aad49dab03a96617e393fa1":[6,2,1,0,0,0,0,4,39,30],
 "MRVoxelsVolume_8h.html#a6f95075294dc09444229bbfec3c74ba0":[6,2,1,0,0,0,0,4,39,148],
 "MRVoxelsVolume_8h.html#a6fa81462e9c888d732a335d80b5b9e63":[6,2,1,0,0,0,0,4,39,242],
@@ -249,5 +247,7 @@ var NAVTREEINDEX127 =
 "MRWatershedGraph_8h.html#a844bc7144979f98975bb352597efd175":[6,2,1,0,0,0,0,1,362,34],
 "MRWatershedGraph_8h.html#a845f265f22fed0408f2a8d8e281c1a2b":[6,2,1,0,0,0,0,1,362,63],
 "MRWatershedGraph_8h.html#a87ade88c19340deb8b0338b0be61b615":[6,2,1,0,0,0,0,1,362,61],
-"MRWatershedGraph_8h.html#a891aeeb453ba4f8674de741dc585183f":[6,2,1,0,0,0,0,1,362,71]
+"MRWatershedGraph_8h.html#a891aeeb453ba4f8674de741dc585183f":[6,2,1,0,0,0,0,1,362,71],
+"MRWatershedGraph_8h.html#a8b596d28e0cfbe5ce93471ee0f462d62":[6,2,1,0,0,0,0,1,362,26],
+"MRWatershedGraph_8h.html#a8b7f3a6a327340a1bb84cda2f42b7d8c":[6,2,1,0,0,0,0,1,362,31]
 };

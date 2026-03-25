@@ -1,7 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"classMR_1_1QuadraticForm3f.html#acb2ac5410ce3dd94a3fa7251f68f4ed3":[6,3,0,0,0,728,9],
-"classMR_1_1QuadraticForm3f.html#adee74e959bc77036f4b7ec9a0e7d782a":[6,3,0,0,0,728,5],
 "classMR_1_1QuadraticForm3f.html#af1ec92cbb99e2a70a9c3735fa2e58b0f":[6,3,0,0,0,728,0],
 "classMR_1_1QuadricApprox.html":[6,3,0,0,0,729],
 "classMR_1_1QuadricApprox.html#a0069aeb6381b69537a768f43eddf44a0":[6,3,0,0,0,729,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX54 =
 "classMR_1_1RemeshSettings.html#af78776b58c6b4c3cf0dabf431e4b1329":[6,3,0,0,0,742,13],
 "classMR_1_1ResolveMeshDegenSettings.html":[6,3,0,0,0,743],
 "classMR_1_1ResolveMeshDegenSettings.html#a0294368c24611a2c006efd98b1a85faf":[6,3,0,0,0,743,9],
-"classMR_1_1ResolveMeshDegenSettings.html#a06bcbcd82ce77eb4819b61e7f008dfa3":[6,3,0,0,0,743,6]
+"classMR_1_1ResolveMeshDegenSettings.html#a06bcbcd82ce77eb4819b61e7f008dfa3":[6,3,0,0,0,743,6],
+"classMR_1_1ResolveMeshDegenSettings.html#a3022d733faa0739a33ab241c6b2b629c":[6,3,0,0,0,743,1],
+"classMR_1_1ResolveMeshDegenSettings.html#a3abb9fa0adc33a5697376862fb63ac20":[6,3,0,0,0,743,0]
 };

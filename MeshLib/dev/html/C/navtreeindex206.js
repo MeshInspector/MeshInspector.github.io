@@ -1,7 +1,5 @@
 var NAVTREEINDEX206 =
 {
-"structMR__Box2f.html#ae04ced1ae5b1691af13f185862f5e3c0":[6,2,0,0,9,1],
-"structMR__Box2i.html":[6,2,0,0,10],
 "structMR__Box2i.html#aaea1ac8add913d0cc061a52a26278b68":[6,2,0,0,10,1],
 "structMR__Box2i.html#ab1d9a27d3f96d258b9696b2694d82b31":[6,2,0,0,10,0],
 "structMR__Box2i64.html":[6,2,0,0,11],

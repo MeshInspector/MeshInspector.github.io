@@ -1208,7 +1208,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::UndirectedEdgeBitSet
-Aliases:  AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafBitSet, ColorMapAggregator_UndirectedEdgeTag_ElementBitSet, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafBitSet
+Aliases:  ColorMapAggregator_UndirectedEdgeTag_ElementBitSet, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafBitSet, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafBitSet
 
 Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
 with all bits after size() considered off during testing

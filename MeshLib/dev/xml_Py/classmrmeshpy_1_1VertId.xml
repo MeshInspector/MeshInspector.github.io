@@ -508,7 +508,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::VertId
-Aliases:  Vector_VertId_VertId_value_type, Vector_VertId_VertId_const_reference, Vector_VertId_Id_EdgeTag_value_type, Vector_VertId_Id_EdgeTag_const_reference, Vector_VertId_Id_EdgeTag_reference, TypedBitSet_VertId_IndexType, Vector_VertId_VertId_reference
+Aliases:  Vector_VertId_VertId_value_type, Vector_VertId_Id_EdgeTag_reference, Vector_VertId_Id_EdgeTag_const_reference, Vector_VertId_VertId_const_reference, TypedBitSet_VertId_IndexType, Vector_VertId_Id_EdgeTag_value_type, Vector_VertId_VertId_reference
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>
