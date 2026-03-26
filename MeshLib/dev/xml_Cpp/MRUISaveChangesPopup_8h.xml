@@ -5,7 +5,60 @@
     <includes local="no">string</includes>
     <includes local="no">functional</includes>
     <includes local="yes">exports.h</includes>
+    <includes refid="MRI18n_8h" local="yes">MRI18n.h</includes>
     <incdepgraph>
+      <node id="9">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="5">
+        <label>MRI18n.h</label>
+        <link refid="MRI18n_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRViewer/MRUISaveChangesPopup.h</label>
         <link refid="MRUISaveChangesPopup_8h"/>
@@ -15,6 +68,21 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+        <link refid="MRViewer_2config_8h"/>
+      </node>
+      <node id="11">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="12">
+        <label>array</label>
+      </node>
+      <node id="15">
+        <label>cassert</label>
       </node>
       <node id="4">
         <label>exports.h</label>
@@ -22,8 +90,17 @@
       <node id="3">
         <label>functional</label>
       </node>
+      <node id="14">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
       <node id="2">
         <label>string</label>
+      </node>
+      <node id="16">
+        <label>string_view</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1UI_1_1SaveChangesPopupSettings" prot="public">MR::UI::SaveChangesPopupSettings</innerclass>
@@ -40,29 +117,30 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRI18n_8h" kindref="compound">MRI18n.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref></highlight></codeline>
-<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structMR_1_1UI_1_1SaveChangesPopupSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1SaveChangesPopupSettings" kindref="compound">SaveChangesPopupSettings</ref></highlight></codeline>
-<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" kindref="member">shortCloseText</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Close&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" kindref="member">dontSaveText</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Don&apos;t<sp/>Save&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1ga5fb9895320349dc61434ad43c17fd24a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga5fb9895320349dc61434ad43c17fd24a" kindref="member">saveTooltip</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Save<sp/>current<sp/>scene&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="25" refid="group__GeneralGroup_1ga970fa69e216b42f681e9af3c57aee477" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga970fa69e216b42f681e9af3c57aee477" kindref="member">dontSaveTooltip</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Donh&apos;t<sp/>save<sp/>current<sp/>scene&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" kindref="member">cancelTooltip</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Cansel&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="28" refid="group__GeneralGroup_1ga229fd015ed069a04dae134c45b2ed91d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga229fd015ed069a04dae134c45b2ed91d" kindref="member">header</ref>;</highlight></codeline>
-<codeline lineno="30" refid="group__GeneralGroup_1gad890dd1aa255baed72ae0c64e0006c66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;void()&gt;<sp/><ref refid="group__GeneralGroup_1gad890dd1aa255baed72ae0c64e0006c66" kindref="member">onOk</ref><sp/>=<sp/>{};</highlight></codeline>
-<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1ga07b8484f3cb783f25cfba5964f6adc23" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga07b8484f3cb783f25cfba5964f6adc23" kindref="member">saveChangesPopup</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str_id,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UI_1_1SaveChangesPopupSettings" kindref="compound">SaveChangesPopupSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1UI_1_1SaveChangesPopupSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1UI_1_1SaveChangesPopupSettings" kindref="compound">SaveChangesPopupSettings</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" kindref="member">shortCloseText</ref><sp/>=<sp/><ref refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" kindref="member">_t</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Close&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" kindref="member">dontSaveText</ref><sp/>=<sp/><ref refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" kindref="member">_t</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Don&apos;t<sp/>Save&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga5fb9895320349dc61434ad43c17fd24a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga5fb9895320349dc61434ad43c17fd24a" kindref="member">saveTooltip</ref><sp/>=<sp/><ref refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" kindref="member">_t</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Save<sp/>current<sp/>scene&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga970fa69e216b42f681e9af3c57aee477" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga970fa69e216b42f681e9af3c57aee477" kindref="member">dontSaveTooltip</ref><sp/>=<sp/><ref refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" kindref="member">_t</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Don&apos;t<sp/>save<sp/>current<sp/>scene&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" kindref="member">cancelTooltip</ref><sp/>=<sp/><ref refid="MRMeshFwd_8h_1a9ffd0813b79cbb98d3f71fa5adb2a408" kindref="member">_t</ref>(<sp/></highlight><highlight class="stringliteral">&quot;Cancel&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ga229fd015ed069a04dae134c45b2ed91d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga229fd015ed069a04dae134c45b2ed91d" kindref="member">header</ref>;</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gad890dd1aa255baed72ae0c64e0006c66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::function&lt;void()&gt;<sp/><ref refid="group__GeneralGroup_1gad890dd1aa255baed72ae0c64e0006c66" kindref="member">onOk</ref><sp/>=<sp/>{};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga07b8484f3cb783f25cfba5964f6adc23" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga07b8484f3cb783f25cfba5964f6adc23" kindref="member">saveChangesPopup</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str_id,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1UI_1_1SaveChangesPopupSettings" kindref="compound">SaveChangesPopupSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRUISaveChangesPopup.h"/>
   </compounddef>

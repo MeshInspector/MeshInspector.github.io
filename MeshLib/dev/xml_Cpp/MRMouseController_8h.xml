@@ -195,6 +195,8 @@
       <node id="38">
         <label>MRMouse.h</label>
         <link refid="MRMouse_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
       </node>

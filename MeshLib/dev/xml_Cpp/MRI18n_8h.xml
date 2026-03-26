@@ -8,6 +8,7 @@
     <includes local="no">string</includes>
     <includes local="no">string_view</includes>
     <includes local="no">vector</includes>
+    <includedby refid="MRUISaveChangesPopup_8h" local="yes">MRViewer/MRUISaveChangesPopup.h</includedby>
     <incdepgraph>
       <node id="6">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -93,6 +94,18 @@
         <label>vector</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRViewer/MRI18n.h</label>
+        <link refid="MRI18n_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRViewer/MRUISaveChangesPopup.h</label>
+        <link refid="MRUISaveChangesPopup_8h"/>
+      </node>
+    </invincdepgraph>
     <innerclass refid="structMR_1_1Locale_1_1Domain" prot="public">MR::Locale::Domain</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <innernamespace refid="namespaceMR_1_1Locale">MR::Locale</innernamespace>
