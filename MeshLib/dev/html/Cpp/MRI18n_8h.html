@@ -138,6 +138,7 @@ $(function(){initNavTree('MRI18n_8h.html','',''); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -148,9 +149,15 @@ $(function(){initNavTree('MRI18n_8h.html','',''); });
 <code>#include &quot;exports.h&quot;</code><br />
 <code>#include &lt;<a class="el" href="MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;string_view&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="MRI18n_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:MR_3A_3ALocale_3A_3ADomain" id="r_MR_3A_3ALocale_3A_3ADomain"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Locale_1_1Domain.html">MR::Locale::Domain</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -160,18 +167,23 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:adc6632164911ac0de8387a9b13de000e" id="r_adc6632164911ac0de8387a9b13de000e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc6632164911ac0de8387a9b13de000e">_tr</a>(...)</td></tr>
+<tr class="memitem:ad186f1135eca2f5c984d81d38d6fde5e" id="r_ad186f1135eca2f5c984d81d38d6fde5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad186f1135eca2f5c984d81d38d6fde5e">s_tr</a>(...)</td></tr>
 <tr class="memitem:a33873d54d36dc3bf7a6a77bf40461701" id="r_a33873d54d36dc3bf7a6a77bf40461701"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33873d54d36dc3bf7a6a77bf40461701">f_tr</a>(...)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a405065abc400abdb5bd9910aa5aba3a5" id="r_a405065abc400abdb5bd9910aa5aba3a5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a405065abc400abdb5bd9910aa5aba3a5">MR::Locale::translate</a> (const char *msg, int domainId=0)</td></tr>
-<tr class="memdesc:a405065abc400abdb5bd9910aa5aba3a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message using the active locale.  <br /></td></tr>
-<tr class="memitem:a807b4f903a9a114f9115a41e14d45f61" id="r_a807b4f903a9a114f9115a41e14d45f61"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a807b4f903a9a114f9115a41e14d45f61">MR::Locale::translate</a> (const char *context, const char *msg, int domainId=0)</td></tr>
-<tr class="memdesc:a807b4f903a9a114f9115a41e14d45f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message in context using the active locale.  <br /></td></tr>
-<tr class="memitem:a16cad98007443a93cf1be4f3b53bddeb" id="r_a16cad98007443a93cf1be4f3b53bddeb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a16cad98007443a93cf1be4f3b53bddeb">MR::Locale::translate</a> (const char *single, const char *plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, int domainId=0)</td></tr>
-<tr class="memdesc:a16cad98007443a93cf1be4f3b53bddeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form using the active locale.  <br /></td></tr>
-<tr class="memitem:a2ef721b59151f775fafc0b7bc3e58124" id="r_a2ef721b59151f775fafc0b7bc3e58124"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a2ef721b59151f775fafc0b7bc3e58124">MR::Locale::translate</a> (const char *context, const char *single, const char *plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, int domainId=0)</td></tr>
-<tr class="memdesc:a2ef721b59151f775fafc0b7bc3e58124"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form in context using the active locale.  <br /></td></tr>
+<tr class="memitem:abd294cc6425b85e4a244919f22911e03" id="r_abd294cc6425b85e4a244919f22911e03"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#abd294cc6425b85e4a244919f22911e03">MR::Locale::translate</a> (std::string_view msg, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
+<tr class="memdesc:abd294cc6425b85e4a244919f22911e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message using the active locale.  <br /></td></tr>
+<tr class="memitem:a8c75689504190301b3ad36fd254e8227" id="r_a8c75689504190301b3ad36fd254e8227"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a8c75689504190301b3ad36fd254e8227">MR::Locale::translate</a> (std::string_view context, std::string_view msg, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
+<tr class="memdesc:a8c75689504190301b3ad36fd254e8227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message in context using the active locale.  <br /></td></tr>
+<tr class="memitem:a1fe086c1b792c0c518a870af52154d99" id="r_a1fe086c1b792c0c518a870af52154d99"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a1fe086c1b792c0c518a870af52154d99">MR::Locale::translate</a> (std::string_view single, std::string_view plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
+<tr class="memdesc:a1fe086c1b792c0c518a870af52154d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form using the active locale.  <br /></td></tr>
+<tr class="memitem:a28287d3e2eb5ea131d3467bc31d06c1c" id="r_a28287d3e2eb5ea131d3467bc31d06c1c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a28287d3e2eb5ea131d3467bc31d06c1c">MR::Locale::translate</a> (std::string_view context, std::string_view single, std::string_view plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
+<tr class="memdesc:a28287d3e2eb5ea131d3467bc31d06c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form in context using the active locale.  <br /></td></tr>
+<tr class="memitem:a49cf449f2002d0f7d1037b1cda5e2190" id="r_a49cf449f2002d0f7d1037b1cda5e2190"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a49cf449f2002d0f7d1037b1cda5e2190">MR::Locale::translateAll</a> (const std::vector&lt; std::string &gt; &amp;items, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
+<tr class="memdesc:a49cf449f2002d0f7d1037b1cda5e2190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates all strings in a vector using the active locale.  <br /></td></tr>
+<tr class="memitem:a0449f0b7296bc3ee46c5e3ac70e276b6" id="r_a0449f0b7296bc3ee46c5e3ac70e276b6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale.html#a0449f0b7296bc3ee46c5e3ac70e276b6">MR::Locale::translateAll</a> (const char *context, const std::vector&lt; std::string &gt; &amp;items, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
+<tr class="memdesc:a0449f0b7296bc3ee46c5e3ac70e276b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates all strings in a vector with context using the active locale.  <br /></td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="adc6632164911ac0de8387a9b13de000e" name="adc6632164911ac0de8387a9b13de000e"></a>
@@ -188,8 +200,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespaceMR_1_1Locale.html#a405065abc400abdb5bd9910aa5aba3a5">MR::Locale::translate</a>( __VA_ARGS__ ).c_str()</div>
-<div class="ttc" id="anamespaceMR_1_1Locale_html_a405065abc400abdb5bd9910aa5aba3a5"><div class="ttname"><a href="namespaceMR_1_1Locale.html#a405065abc400abdb5bd9910aa5aba3a5">MR::Locale::translate</a></div><div class="ttdeci">std::string translate(const char *msg, int domainId=0)</div><div class="ttdoc">Translates a message using the active locale.</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespaceMR_1_1Locale.html#abd294cc6425b85e4a244919f22911e03">MR::Locale::translate</a>( __VA_ARGS__ ).c_str()</div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_abd294cc6425b85e4a244919f22911e03"><div class="ttname"><a href="namespaceMR_1_1Locale.html#abd294cc6425b85e4a244919f22911e03">MR::Locale::translate</a></div><div class="ttdeci">std::string translate(std::string_view msg, Domain domain={})</div><div class="ttdoc">Translates a message using the active locale.</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -207,7 +219,25 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">fmt::runtime( <a class="code hl_function" href="namespaceMR_1_1Locale.html#a405065abc400abdb5bd9910aa5aba3a5">MR::Locale::translate</a>( __VA_ARGS__ ) )</div>
+<b>Value:</b><div class="fragment"><div class="line">fmt::runtime( <a class="code hl_function" href="namespaceMR_1_1Locale.html#abd294cc6425b85e4a244919f22911e03">MR::Locale::translate</a>( __VA_ARGS__ ) )</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad186f1135eca2f5c984d81d38d6fde5e" name="ad186f1135eca2f5c984d81d38d6fde5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad186f1135eca2f5c984d81d38d6fde5e">&#9670;&#160;</a></span>s_tr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define s_tr</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="namespaceMR_1_1Locale.html#abd294cc6425b85e4a244919f22911e03">MR::Locale::translate</a>( __VA_ARGS__ )</div>
 </div><!-- fragment -->
 </div>
 </div>

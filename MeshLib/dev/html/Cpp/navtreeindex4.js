@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRPointCloud_8h_source.html":[6,0,3,0,5,288],
 "MRPointInAllSpaces_8h.html":[6,0,3,0,9,67],
 "MRPointInAllSpaces_8h_source.html":[6,0,3,0,9,67],
 "MRPointMeasurementObject_8h.html":[6,0,3,0,5,297],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRSceneSelectionChange_8h_source.html":[6,0,3,0,9,110],
 "MRSceneSettings_8h.html":[6,0,3,0,5,357],
 "MRSceneSettings_8h_source.html":[6,0,3,0,5,357],
-"MRSceneStateCheck_8h.html":[6,0,3,0,9,111],
-"MRSceneStateCheck_8h_source.html":[6,0,3,0,9,111]
+"MRSceneStateCheck_8h.html":[6,0,3,0,9,111]
 };

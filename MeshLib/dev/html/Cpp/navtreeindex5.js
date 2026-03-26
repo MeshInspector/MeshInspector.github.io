@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"MRSceneStateCheck_8h_source.html":[6,0,3,0,9,111],
 "MRSceneTextureGL_8h.html":[6,0,3,0,9,112],
 "MRSceneTextureGL_8h_source.html":[6,0,3,0,9,112],
 "MRScopedValue_8h.html":[6,0,3,0,5,358],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "MRViewerPlugin_8h.html":[6,0,3,0,9,156],
 "MRViewerPlugin_8h_source.html":[6,0,3,0,9,156],
 "MRViewerSettingsManager_8h.html":[6,0,3,0,9,157],
-"MRViewerSettingsManager_8h_source.html":[6,0,3,0,9,157],
-"MRViewerSettingsPlugin_8h.html":[6,0,3,0,9,158]
+"MRViewerSettingsManager_8h_source.html":[6,0,3,0,9,157]
 };

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Locale_1_1Domain" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Locale::Domain</compoundname>
+    <includes refid="MRI18n_8h" local="no">MRViewer/MRI18n.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Locale_1_1Domain_1a10576dc0e5d69163a260c5aa11a7e431" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Locale::Domain::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR::Locale::Domain::id</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRI18n.h" line="21" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Information about locale domains. Contains the only field <computeroutput>id</computeroutput>. The purpose of the struct is to resolve an ambiguous overload <computeroutput>translate( &quot;str&quot;, &quot;str&quot;, 0 )</computeroutput> which otherwise could be treated as both &quot;context, message, domain id&quot; and &quot;single, plural, number&quot;. </para>
+    </detaileddescription>
+    <location file="MRViewer/MRI18n.h" line="19" column="1" bodyfile="MRViewer/MRI18n.h" bodystart="20" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Locale_1_1Domain_1a10576dc0e5d69163a260c5aa11a7e431" prot="public" virt="non-virtual"><scope>MR::Locale::Domain</scope><name>id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

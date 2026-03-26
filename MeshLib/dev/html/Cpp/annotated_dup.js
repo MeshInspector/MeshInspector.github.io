@@ -111,6 +111,9 @@ var annotated_dup =
       [ "LinesSave", "namespaceMR_1_1LinesSave.html", [
         [ "LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", "structMR_1_1LinesSave_1_1LinesSaver" ]
       ] ],
+      [ "Locale", "namespaceMR_1_1Locale.html", [
+        [ "Domain", "structMR_1_1Locale_1_1Domain.html", "structMR_1_1Locale_1_1Domain" ]
+      ] ],
       [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", [
         [ "BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", "structMR_1_1MeshBuilder_1_1BuildSettings" ],
         [ "equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", "structMR_1_1MeshBuilder_1_1equalVector3f" ],

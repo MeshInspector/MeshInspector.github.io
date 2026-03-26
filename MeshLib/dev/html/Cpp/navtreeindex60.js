@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,0,20,251],
+"structMR_1_1GeneralOffsetParameters.html":[6,0,0,20,822],
+"structMR_1_1GeodesicPath.html":[6,0,0,16,3,0],
+"structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d":[6,0,0,16,3,0,3],
 "structMR_1_1GeodesicPath.html#a500cd0125a04fdafa54081b9392409e4":[6,0,0,16,3,0,0],
 "structMR_1_1GeodesicPath.html#a8890c95d8a90898ea2d0898884bfa474":[6,0,0,16,3,0,1],
 "structMR_1_1GeodesicPath.html#af134007969afd8d9e0854c05ab72e99b":[6,0,0,16,3,0,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[6,0,1,0,1,16,10,14],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[6,0,2,0,2,7,10,14],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[6,0,1,0,1,16,10,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[6,0,2,0,2,7,10,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[6,0,1,0,1,16,10,17],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[6,0,2,0,2,7,10,17],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[6,0,1,0,1,16,10,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[6,0,2,0,2,7,10,3]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[6,0,2,0,2,7,10,19]
 };

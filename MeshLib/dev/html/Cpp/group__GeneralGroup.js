@@ -6575,6 +6575,7 @@ var group__GeneralGroup =
     ] ],
     [ "MR::RibbonTab", "structMR_1_1RibbonTab.html", [
       [ "experimental", "group__GeneralGroup.html#ga49c89a14fe5caa50d3bdb2faf511dcc0", null ],
+      [ "localeDomainId", "group__GeneralGroup.html#gad2ae76bfa89bde21a56e8bd68d650186", null ],
       [ "name", "group__GeneralGroup.html#ga675a7bce9775caa4a477370d2802bcbe", null ],
       [ "priority", "group__GeneralGroup.html#ga4ad8c190219bcd156fa5b9748ffb679c", null ]
     ] ],
@@ -6613,7 +6614,7 @@ var group__GeneralGroup =
       [ "loadSchema", "group__GeneralGroup.html#gaf359b2109f232bee18709542a5964825", null ],
       [ "readItemsJson_", "group__GeneralGroup.html#ga321e1aade11391a5c4db869cf8179fe9", null ],
       [ "readItemsJson_", "group__GeneralGroup.html#ga87d68013729492fa0e45dbee9a32317f", null ],
-      [ "readUIJson_", "group__GeneralGroup.html#ga7db76e8a4aa067c73e069e26c3d132b9", null ],
+      [ "readUIJson_", "group__GeneralGroup.html#ga70dd6b20369f09f59674ad7ec870913a", null ],
       [ "readUIJson_", "group__GeneralGroup.html#ga89c5d25b89eac58d6a7f0e1a09808c9b", null ],
       [ "sortFilesByOrder_", "group__GeneralGroup.html#gac6d1ad0e142487c7cb72a4b34a6935fd", null ]
     ] ],
@@ -14335,7 +14336,7 @@ var group__GeneralGroup =
     [ "MR::readRawTiff", "group__GeneralGroup.html#ga279ac3e2a1324201295c03e901942929", null ],
     [ "MR::readString", "group__GeneralGroup.html#ga23ec19000377b8cabadb8df9f781bc64", null ],
     [ "MR::readTiffParameters", "group__GeneralGroup.html#ga2d9f515a128f5399a3bb2d923eac2a0a", null ],
-    [ "MR::RibbonSchemaLoader::readUIJson_", "group__GeneralGroup.html#ga7db76e8a4aa067c73e069e26c3d132b9", null ],
+    [ "MR::RibbonSchemaLoader::readUIJson_", "group__GeneralGroup.html#ga70dd6b20369f09f59674ad7ec870913a", null ],
     [ "MR::RibbonSchemaLoader::readUIJson_", "group__GeneralGroup.html#ga89c5d25b89eac58d6a7f0e1a09808c9b", null ],
     [ "MR::SurfaceManipulationWidget::reallocData_", "group__GeneralGroup.html#ga6bf4b908832273c2d2b0dff19ba3eddc", null ],
     [ "MR::rearrangeVectorByMap", "group__GeneralGroup.html#gaaf3190c056e93a1b63f3643cef77443d", null ],
@@ -16948,6 +16949,7 @@ var group__GeneralGroup =
     [ "MR::MeshPointAndDistance::loc", "group__GeneralGroup.html#ga9b47aa3f3db622af71c97138bff74b58", null ],
     [ "MR::ImGuiMenu::Local", "group__GeneralGroup.html#ga96f0bc9450fbe39ac5e90abcbc52c36a", null ],
     [ "MR::MenuItemInfo::localeDomainId", "group__GeneralGroup.html#gaeb272c4d19fee08c880f250900aa2ad8", null ],
+    [ "MR::RibbonTab::localeDomainId", "group__GeneralGroup.html#gad2ae76bfa89bde21a56e8bd68d650186", null ],
     [ "LocalSelectable", "group__GeneralGroup.html#ga502be4569ebb4f92d7ce2f38551965f4", null ],
     [ "LocalSelected", "group__GeneralGroup.html#ga753ba03bf027d69237fecc008d1f0bec", null ],
     [ "MR::MeshProjectionParameters::loDistLimitSq", "group__GeneralGroup.html#ga1c122d1dc6393cbf06a33b2b7d33ef8e", null ],

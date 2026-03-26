@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1Object.html#a2f679f701887cee54069b81a45cc8ebc":[6,0,0,11,4,92],
 "classMR_1_1Object.html#a3079240f06bd4e66c5c10dbab8a824f6":[6,0,0,11,4,23],
 "classMR_1_1Object.html#a33afd7cea9523c3669d9d549f1ab53b4":[6,0,0,11,4,37],
 "classMR_1_1Object.html#a376cb1be36addec5afd14487533e6693":[6,0,0,11,4,38],
@@ -152,15 +153,15 @@ var NAVTREEINDEX9 =
 "classMR_1_1Pdf.html":[6,0,0,20,87],
 "classMR_1_1PickPointManager.html":[6,0,0,20,593],
 "classMR_1_1PlaneAccumulator.html":[6,0,1,0,1,531],
-"classMR_1_1PlaneAccumulator.html":[6,0,2,0,2,513],
+"classMR_1_1PlaneAccumulator.html":[6,0,2,0,2,514],
 "classMR_1_1PlaneAccumulator.html#a2b607f4cffd555b7c0cdaa488439a986":[6,0,1,0,1,531,0],
-"classMR_1_1PlaneAccumulator.html#a2b607f4cffd555b7c0cdaa488439a986":[6,0,2,0,2,513,0],
+"classMR_1_1PlaneAccumulator.html#a2b607f4cffd555b7c0cdaa488439a986":[6,0,2,0,2,514,0],
 "classMR_1_1PlaneAccumulator.html#ab243bb9c789a839af26cf2ed0972f49e":[6,0,1,0,1,531,3],
-"classMR_1_1PlaneAccumulator.html#ab243bb9c789a839af26cf2ed0972f49e":[6,0,2,0,2,513,3],
+"classMR_1_1PlaneAccumulator.html#ab243bb9c789a839af26cf2ed0972f49e":[6,0,2,0,2,514,3],
 "classMR_1_1PlaneAccumulator.html#ad21706d15535338144b96f1ec664146c":[6,0,1,0,1,531,2],
-"classMR_1_1PlaneAccumulator.html#ad21706d15535338144b96f1ec664146c":[6,0,2,0,2,513,2],
+"classMR_1_1PlaneAccumulator.html#ad21706d15535338144b96f1ec664146c":[6,0,2,0,2,514,2],
 "classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,1,0,1,531,1],
-"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,2,0,2,513,1],
+"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,2,0,2,514,1],
 "classMR_1_1PlaneObject.html":[6,0,0,11,0,4],
 "classMR_1_1PlaneObject.html":[6,0,0,20,412],
 "classMR_1_1PlaneWidget.html":[6,0,0,20,597],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1RectIndexer.html#a8b0ec43cbc6a8f0c9030fef34d620699":[6,0,0,5,8,10],
 "classMR_1_1RectIndexer.html#a8b4fcc40aa58630eebf389ef808451df":[6,0,0,5,8,5],
 "classMR_1_1RectIndexer.html#a95b4e703046a8706888f15f3bd4b7c3a":[6,0,0,5,8,2],
-"classMR_1_1RectIndexer.html#aa496c121195d5bad75ebb417cfb8c884":[6,0,0,5,8,11],
-"classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052":[6,0,0,5,8,13]
+"classMR_1_1RectIndexer.html#aa496c121195d5bad75ebb417cfb8c884":[6,0,0,5,8,11]
 };

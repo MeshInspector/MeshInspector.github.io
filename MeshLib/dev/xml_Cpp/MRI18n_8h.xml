@@ -6,6 +6,8 @@
     <includes local="yes">exports.h</includes>
     <includes refid="MRMeshFwd_8h" local="no">MRMesh/MRMeshFwd.h</includes>
     <includes local="no">string</includes>
+    <includes local="no">string_view</includes>
+    <includes local="no">vector</includes>
     <incdepgraph>
       <node id="6">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -54,6 +56,10 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>config.h</label>
@@ -80,36 +86,52 @@
       <node id="11">
         <label>string</label>
       </node>
+      <node id="15">
+        <label>string_view</label>
+      </node>
       <node id="10">
         <label>vector</label>
       </node>
     </incdepgraph>
+    <innerclass refid="structMR_1_1Locale_1_1Domain" prot="public">MR::Locale::Domain</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <innernamespace refid="namespaceMR_1_1Locale">MR::Locale</innernamespace>
     <sectiondef kind="define">
       <memberdef kind="define" id="MRI18n_8h_1adc6632164911ac0de8387a9b13de000e" prot="public" static="no">
         <name>_tr</name>
         <param><defname>...</defname></param>
-        <initializer><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ ).c_str()</initializer>
+        <initializer><ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ ).c_str()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRI18n.h" line="29" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="29" bodyend="-1"/>
+        <location file="MRViewer/MRI18n.h" line="59" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRI18n_8h_1ad186f1135eca2f5c984d81d38d6fde5e" prot="public" static="no">
+        <name>s_tr</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRI18n.h" line="60" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" prot="public" static="no">
         <name>f_tr</name>
         <param><defname>...</defname></param>
-        <initializer>fmt::runtime( <ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ ) )</initializer>
+        <initializer>fmt::runtime( <ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">MR::Locale::translate</ref>( __VA_ARGS__ ) )</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRI18n.h" line="30" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="30" bodyend="-1"/>
+        <location file="MRViewer/MRI18n.h" line="61" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="61" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -126,33 +148,60 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Locale" kindref="compound">MR::Locale</ref></highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domainId<sp/>=<sp/>0<sp/>);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="namespaceMR_1_1Locale_1a807b4f903a9a114f9115a41e14d45f61" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domainId<sp/>=<sp/>0<sp/>);</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="namespaceMR_1_1Locale_1a16cad98007443a93cf1be4f3b53bddeb" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domainId<sp/>=<sp/>0<sp/>);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="namespaceMR_1_1Locale_1a2ef721b59151f775fafc0b7bc3e58124" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>single,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>plural,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domainId<sp/>=<sp/>0<sp/>);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRI18n_8h_1adc6632164911ac0de8387a9b13de000e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>).c_str()</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string_view&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Locale" kindref="compound">MR::Locale</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1Locale_1_1Domain" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Locale_1_1Domain" kindref="compound">Domain</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1Locale_1_1Domain_1a10576dc0e5d69163a260c5aa11a7e431" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">translate</ref>(<sp/>std::string_view<sp/>msg,<sp/><ref refid="structMR_1_1Locale_1_1Domain" kindref="compound">Domain</ref><sp/>domain<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="namespaceMR_1_1Locale_1a8c75689504190301b3ad36fd254e8227" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">translate</ref>(<sp/>std::string_view<sp/>context,<sp/>std::string_view<sp/>msg,<sp/><ref refid="structMR_1_1Locale_1_1Domain" kindref="compound">Domain</ref><sp/>domain<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="namespaceMR_1_1Locale_1a1fe086c1b792c0c518a870af52154d99" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">translate</ref>(<sp/>std::string_view<sp/>single,<sp/>std::string_view<sp/>plural,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>n,<sp/><ref refid="structMR_1_1Locale_1_1Domain" kindref="compound">Domain</ref><sp/>domain<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="namespaceMR_1_1Locale_1a28287d3e2eb5ea131d3467bc31d06c1c" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::string<sp/><ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">translate</ref>(<sp/>std::string_view<sp/>context,<sp/>std::string_view<sp/>single,<sp/>std::string_view<sp/>plural,<sp/><ref refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kindref="member">Int64</ref><sp/>n,<sp/><ref refid="structMR_1_1Locale_1_1Domain" kindref="compound">Domain</ref><sp/>domain<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="namespaceMR_1_1Locale_1a49cf449f2002d0f7d1037b1cda5e2190" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1Locale_1a49cf449f2002d0f7d1037b1cda5e2190" kindref="member">translateAll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;&amp;<sp/>items,<sp/><ref refid="structMR_1_1Locale_1_1Domain" kindref="compound">Domain</ref><sp/>domain<sp/>=<sp/>{}<sp/>)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>result;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>result.reserve(<sp/>items.size()<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>s<sp/>:<sp/>items<sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.push_back(<sp/><ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">translate</ref>(<sp/>s,<sp/>domain<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="namespaceMR_1_1Locale_1a0449f0b7296bc3ee46c5e3ac70e276b6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="namespaceMR_1_1Locale_1a49cf449f2002d0f7d1037b1cda5e2190" kindref="member">translateAll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;&amp;<sp/>items,<sp/><ref refid="structMR_1_1Locale_1_1Domain" kindref="compound">Domain</ref><sp/>domain<sp/>=<sp/>{}<sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>result;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>result.reserve(<sp/>items.size()<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>s<sp/>:<sp/>items<sp/>)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result.push_back(<sp/><ref refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kindref="member">translate</ref>(<sp/>context,<sp/>s,<sp/>domain<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRI18n_8h_1adc6632164911ac0de8387a9b13de000e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>).c_str()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRI18n_8h_1ad186f1135eca2f5c984d81d38d6fde5e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>s_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>s_tr(<sp/>...<sp/>)<sp/>std::string(<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRI18n.h"/>
   </compounddef>

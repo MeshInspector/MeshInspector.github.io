@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[6,0,1,0,1,16,10,17],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[6,0,2,0,2,7,10,17],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[6,0,1,0,1,16,10,3],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[6,0,2,0,2,7,10,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[6,0,1,0,1,16,10,16],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[6,0,2,0,2,7,10,16],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html":[6,0,1,0,1,16,11],
@@ -169,6 +173,10 @@ var NAVTREEINDEX61 =
 "structMR_1_1LoadedMeshData.html":[6,0,0,20,295],
 "structMR_1_1LoadedObjectT.html":[6,0,0,20,296],
 "structMR_1_1LoadedObjects.html":[6,0,0,20,297],
+"structMR_1_1Locale_1_1Domain.html":[6,0,1,0,1,20,0],
+"structMR_1_1Locale_1_1Domain.html":[6,0,2,0,2,10,0],
+"structMR_1_1Locale_1_1Domain.html#a10576dc0e5d69163a260c5aa11a7e431":[6,0,1,0,1,20,0,0],
+"structMR_1_1Locale_1_1Domain.html#a10576dc0e5d69163a260c5aa11a7e431":[6,0,2,0,2,10,0,0],
 "structMR_1_1MakeBridgeResult.html":[6,0,0,9,3,4],
 "structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119":[6,0,0,9,3,4,0],
 "structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a":[6,0,0,9,3,4,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1Mesh.html#a4040ab24e115ea0cd68fef6a177882c7":[6,0,0,7,1,20],
 "structMR_1_1Mesh.html#a45cc8a4868a2671492e010d86cb408cd":[6,0,0,7,1,11],
 "structMR_1_1Mesh.html#a45e5bda99bca2001e2b7d947f1b16177":[6,0,0,7,1,109],
-"structMR_1_1Mesh.html#a47afb5a6c704c55128ab6c07680ebaf4":[6,0,0,7,1,73],
-"structMR_1_1Mesh.html#a49b0f8f91104ddf82ed708bac9fcaa15":[6,0,0,7,1,103],
-"structMR_1_1Mesh.html#a49da568d87acf71cf25460da1bd07d96":[6,0,0,7,1,1],
-"structMR_1_1Mesh.html#a4dda7695db1d721bc3cb64bb374c89c4":[6,0,0,7,1,39],
-"structMR_1_1Mesh.html#a504db229abc4375e45ea9b83ff9b3c6a":[6,0,0,7,1,34],
-"structMR_1_1Mesh.html#a55a31eccbae1dd87a464a0907aad14ce":[6,0,0,7,1,67],
-"structMR_1_1Mesh.html#a572820417c5fc8e867bbb2f078275222":[6,0,0,7,1,106],
-"structMR_1_1Mesh.html#a584a6ede1ccbc7e9568e03eb8abd4ed5":[6,0,0,7,1,41],
-"structMR_1_1Mesh.html#a587dd9a2bd990d58c6409c01b684553d":[6,0,0,7,1,63]
+"structMR_1_1Mesh.html#a47afb5a6c704c55128ab6c07680ebaf4":[6,0,0,7,1,73]
 };

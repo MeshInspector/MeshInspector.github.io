@@ -7,14 +7,16 @@
       <member refid="group__GeneralGroup_1ga675a7bce9775caa4a477370d2802bcbe" kind="variable"><name>name</name></member>
       <member refid="group__GeneralGroup_1ga4ad8c190219bcd156fa5b9748ffb679c" kind="variable"><name>priority</name></member>
       <member refid="group__GeneralGroup_1ga49c89a14fe5caa50d3bdb2faf511dcc0" kind="variable"><name>experimental</name></member>
+      <member refid="group__GeneralGroup_1gad2ae76bfa89bde21a56e8bd68d650186" kind="variable"><name>localeDomainId</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRRibbonSchema.h" line="56" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="57" bodyend="61"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="56" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="57" bodyend="62"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga49c89a14fe5caa50d3bdb2faf511dcc0" prot="public" virt="non-virtual"><scope>MR::RibbonTab</scope><name>experimental</name></member>
+      <member refid="group__GeneralGroup_1gad2ae76bfa89bde21a56e8bd68d650186" prot="public" virt="non-virtual"><scope>MR::RibbonTab</scope><name>localeDomainId</name></member>
       <member refid="group__GeneralGroup_1ga675a7bce9775caa4a477370d2802bcbe" prot="public" virt="non-virtual"><scope>MR::RibbonTab</scope><name>name</name></member>
       <member refid="group__GeneralGroup_1ga4ad8c190219bcd156fa5b9748ffb679c" prot="public" virt="non-virtual"><scope>MR::RibbonTab</scope><name>priority</name></member>
     </listofallmembers>

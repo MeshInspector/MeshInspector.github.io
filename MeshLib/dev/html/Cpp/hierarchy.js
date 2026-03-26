@@ -344,6 +344,7 @@ var hierarchy =
     [ "MR::DivideMeshWithPlaneParams", "structMR_1_1DivideMeshWithPlaneParams.html", null ],
     [ "MR::DividePointCloudOptionalOutput", "structMR_1_1DividePointCloudOptionalOutput.html", null ],
     [ "MR::DividePolylineParameters", "structMR_1_1DividePolylineParameters.html", null ],
+    [ "MR::Locale::Domain", "structMR_1_1Locale_1_1Domain.html", null ],
     [ "MR::DoubleOffsetSettings", "structMR_1_1DoubleOffsetSettings.html", null ],
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],

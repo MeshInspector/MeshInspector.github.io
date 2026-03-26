@@ -6,7 +6,7 @@ var classMR_1_1RibbonSchemaLoader =
     [ "loadSchema", "group__GeneralGroup.html#gaf359b2109f232bee18709542a5964825", null ],
     [ "readItemsJson_", "group__GeneralGroup.html#ga321e1aade11391a5c4db869cf8179fe9", null ],
     [ "readItemsJson_", "group__GeneralGroup.html#ga87d68013729492fa0e45dbee9a32317f", null ],
-    [ "readUIJson_", "group__GeneralGroup.html#ga7db76e8a4aa067c73e069e26c3d132b9", null ],
+    [ "readUIJson_", "group__GeneralGroup.html#ga70dd6b20369f09f59674ad7ec870913a", null ],
     [ "readUIJson_", "group__GeneralGroup.html#ga89c5d25b89eac58d6a7f0e1a09808c9b", null ],
     [ "sortFilesByOrder_", "group__GeneralGroup.html#gac6d1ad0e142487c7cb72a4b34a6935fd", null ]
 ];
