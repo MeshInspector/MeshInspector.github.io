@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1TriTriDistanceResult.html":[6,0,0,20,486],
+"structMR_1_1TriangleSegmentIntersectResult.html":[6,0,0,20,443],
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,0,1,0,1,45,0],
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,0,2,0,2,30,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[6,0,1,0,1,45,0,6],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[6,0,2,0,2,30,0,6],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a259f0dc748bf189fe876ca658509642e":[6,0,1,0,1,45,0,2],
@@ -214,7 +218,7 @@ var NAVTREEINDEX65 =
 "structMR_1_1Vector2.html#a8fc9699488aa3c7c5bde2d2b046e9f0c":[6,0,0,0,12,0,9],
 "structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0":[6,0,0,0,12,0,5],
 "structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517":[6,0,0,0,12,0,41],
-"structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517":[6,0,1,0,1,2700],
+"structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517":[6,0,1,0,1,2702],
 "structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb":[6,0,0,0,12,0,7],
 "structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[6,0,0,0,12,0,22],
 "structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[6,0,1,0,1,1552],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html":[6,0,0,20,504],
 "structMR_1_1VertDistance.html":[6,0,0,16,2,0],
 "structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[6,0,0,16,2,0,2],
-"structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[6,0,0,16,2,0,1],
-"structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145":[6,0,0,16,2,0,3],
-"structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[6,0,0,16,2,0,0],
-"structMR_1_1VertPathInfo.html":[6,0,0,16,5],
-"structMR_1_1VertPathInfo.html":[6,0,0,20,189]
+"structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[6,0,0,16,2,0,1]
 };

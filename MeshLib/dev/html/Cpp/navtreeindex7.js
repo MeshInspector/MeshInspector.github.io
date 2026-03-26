@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018":[6,0,0,4,45,3],
+"classMR_1_1ChangeLabelAction.html":[6,0,0,20,519],
 "classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,4,2],
 "classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,20,132],
 "classMR_1_1ChangeMeshAction.html":[6,0,0,4,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1DepthPeelingGL.html":[6,0,0,20,544],
 "classMR_1_1DirectionWidget.html":[6,0,0,20,545],
 "classMR_1_1DirectionWidget_1_1ChangeDirAction.html":[6,0,0,20,546],
-"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html":[6,0,0,20,547],
-"classMR_1_1DistanceMap.html":[6,0,0,5,0],
-"classMR_1_1DistanceMap.html#a084d1d6ef3e2528f9f8b449f676a11ac":[6,0,0,5,0,28]
+"classMR_1_1DirectionWidget_1_1ChangeVisibleAction.html":[6,0,0,20,547]
 };

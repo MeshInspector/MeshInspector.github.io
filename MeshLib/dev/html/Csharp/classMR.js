@@ -2920,6 +2920,8 @@ var classMR =
     [ "projectOnAll", "classMR.html#af54a0e37e35df2832ff2958e57f60c13", null ],
     [ "projectWorldPointOntoObject", "classMR.html#adf98ca5812a96f875f6b6233adc9545b", null ],
     [ "projectWorldPointOntoObjectsRecursive", "classMR.html#a7b9391cb6319cef7907cdbc0ec6e8b9a", null ],
+    [ "protectedFunc", "classMR.html#aad7880abe47b4c83e5ef8abe4e7df29e", null ],
+    [ "protectedRun", "classMR.html#a886161af20c3588eefac4fcc4b1be87b", null ],
     [ "pseudonormal", "classMR.html#ab0f39a1ffdf9cf20f5cd90d30b59f5fb", null ],
     [ "pseudonormal", "classMR.html#a2534b5344b204b97873e86a67eabf1e5", null ],
     [ "pseudonormal", "classMR.html#ad2388b5e03f55fbd6e9ed46f9827b874", null ],

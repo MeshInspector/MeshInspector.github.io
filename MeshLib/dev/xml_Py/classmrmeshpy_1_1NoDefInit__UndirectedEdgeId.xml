@@ -139,7 +139,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::NoDefInit&lt;MR::UndirectedEdgeId&gt;
-Aliases:  Buffer_UndirectedEdgeId_UndirectedEdgeId.const_reference, Buffer_UndirectedEdgeId.const_iterator, Buffer_UndirectedEdgeId.const_reference, Buffer_UndirectedEdgeId_UndirectedEdgeId.const_iterator, Buffer_UndirectedEdgeId.reference, Buffer_UndirectedEdgeId.iterator, Buffer_UndirectedEdgeId_UndirectedEdgeId.T, Buffer_UndirectedEdgeId.T, NoCtor_UndirectedEdgeId.type, Buffer_UndirectedEdgeId_UndirectedEdgeId.reference, Buffer_UndirectedEdgeId_UndirectedEdgeId.iterator
+Aliases:  Buffer_UndirectedEdgeId.const_reference, Buffer_UndirectedEdgeId.reference, Buffer_UndirectedEdgeId_UndirectedEdgeId.const_reference, Buffer_UndirectedEdgeId_UndirectedEdgeId.const_iterator, Buffer_UndirectedEdgeId.const_iterator, Buffer_UndirectedEdgeId.iterator, Buffer_UndirectedEdgeId_UndirectedEdgeId.T, Buffer_UndirectedEdgeId.T, NoCtor_UndirectedEdgeId.type, Buffer_UndirectedEdgeId_UndirectedEdgeId.reference, Buffer_UndirectedEdgeId_UndirectedEdgeId.iterator
 
 this class is similar to T, but does not make default initialization of the fields for best performance
 </verbatim> </para>

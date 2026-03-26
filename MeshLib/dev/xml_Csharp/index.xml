@@ -12053,6 +12053,8 @@
     <member refid="classMR_1a77883364ca7938ba85a1b6a6943f27f0" kind="function"><name>writeByBlocks</name></member>
     <member refid="classMR_1ab629b6461782e543f764c31cdc3d269e" kind="function"><name>readByBlocks</name></member>
     <member refid="classMR_1a7bee34310b3afb4c4843566ce7e28778" kind="function"><name>projectObjectMeshData</name></member>
+    <member refid="classMR_1a886161af20c3588eefac4fcc4b1be87b" kind="function"><name>protectedRun</name></member>
+    <member refid="classMR_1aad7880abe47b4c83e5ef8abe4e7df29e" kind="function"><name>protectedFunc</name></member>
     <member refid="classMR_1af5da93169ac1bfdbf073097307b26b2f" kind="function"><name>compensateRadius</name></member>
     <member refid="classMR_1a0cece22bde64185dedd4bba9110bf314" kind="function"><name>rayBoxIntersect</name></member>
     <member refid="classMR_1a21608ad3e8807e55a1ddd45bdca06064" kind="function"><name>rayBoxIntersect</name></member>
@@ -22426,6 +22428,8 @@
   <compound refid="MRProgressReadWrite_8cs" kind="file"><name>MRProgressReadWrite.cs</name>
   </compound>
   <compound refid="MRProjectionMeshAttribute_8cs" kind="file"><name>MRProjectionMeshAttribute.cs</name>
+  </compound>
+  <compound refid="MRProtectedRun_8cs" kind="file"><name>MRProtectedRun.cs</name>
   </compound>
   <compound refid="MRQuadraticForm_8cs" kind="file"><name>MRQuadraticForm.cs</name>
   </compound>

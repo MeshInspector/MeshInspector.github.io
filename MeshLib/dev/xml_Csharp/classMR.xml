@@ -33009,6 +33009,44 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="274" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="274" bodyend="281"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a886161af20c3588eefac4fcc4b1be87b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.protectedRun</definition>
+        <argsstring>(MR.Std.Const_Function_Void task)</argsstring>
+        <name>protectedRun</name>
+        <qualifiedname>MR.protectedRun</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Function_Void</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+<para>in Debug configuration: simply executes given task, returns no error; in Release configuration: executes given task inside C++ try-catch block, returns exception's info as error string; on Windows it also catches structured exceptions (SEH) Generated from function <computeroutput><ref refid="classMR_1a886161af20c3588eefac4fcc4b1be87b" kindref="member">MR.protectedRun</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProtectedRun.cs" line="9" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProtectedRun.cs" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aad7880abe47b4c83e5ef8abe4e7df29e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Function_Void</type>
+        <definition>static unsafe MR.Std.Function_Void MR.protectedFunc</definition>
+        <argsstring>(MR.Std._ByValue_Function_VoidFunc unprotectedFunc)</argsstring>
+        <name>protectedFunc</name>
+        <qualifiedname>MR.protectedFunc</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_VoidFunc</type>
+          <declname>unprotectedFunc</declname>
+        </param>
+        <briefdescription>
+<para>returns a function, which executes protectedRun( unprotectedFunc ), logging a possible exception but always returning For example, executing in Release configuration the following line does not terminate the program: std::thread( protectedFunc( []() { throw std::runtime_error( "Ops" ); } ) ).join(); Generated from function <computeroutput><ref refid="classMR_1aad7880abe47b4c83e5ef8abe4e7df29e" kindref="member">MR.protectedFunc</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProtectedRun.cs" line="24" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProtectedRun.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1af5da93169ac1bfdbf073097307b26b2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.compensateRadius</definition>
@@ -50544,6 +50582,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1af54a0e37e35df2832ff2958e57f60c13" prot="public" virt="non-virtual"><scope>MR</scope><name>projectOnAll</name></member>
       <member refid="classMR_1adf98ca5812a96f875f6b6233adc9545b" prot="public" virt="non-virtual"><scope>MR</scope><name>projectWorldPointOntoObject</name></member>
       <member refid="classMR_1a7b9391cb6319cef7907cdbc0ec6e8b9a" prot="public" virt="non-virtual"><scope>MR</scope><name>projectWorldPointOntoObjectsRecursive</name></member>
+      <member refid="classMR_1aad7880abe47b4c83e5ef8abe4e7df29e" prot="public" virt="non-virtual"><scope>MR</scope><name>protectedFunc</name></member>
+      <member refid="classMR_1a886161af20c3588eefac4fcc4b1be87b" prot="public" virt="non-virtual"><scope>MR</scope><name>protectedRun</name></member>
       <member refid="classMR_1ad2388b5e03f55fbd6e9ed46f9827b874" prot="public" virt="non-virtual"><scope>MR</scope><name>pseudonormal</name></member>
       <member refid="classMR_1a2534b5344b204b97873e86a67eabf1e5" prot="public" virt="non-virtual"><scope>MR</scope><name>pseudonormal</name></member>
       <member refid="classMR_1ab0f39a1ffdf9cf20f5cd90d30b59f5fb" prot="public" virt="non-virtual"><scope>MR</scope><name>pseudonormal</name></member>

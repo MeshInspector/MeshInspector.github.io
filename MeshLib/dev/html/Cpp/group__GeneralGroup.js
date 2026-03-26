@@ -14256,6 +14256,8 @@ var group__GeneralGroup =
     [ "MR::projectVertAttribute", "group__GeneralGroup.html#gaf2199fb84f92befa49011fd4f55f4f09", null ],
     [ "MR::projectWorldPointOntoObject", "group__GeneralGroup.html#ga1cee1396ff421f318ed16ffb3a40bcb3", null ],
     [ "MR::projectWorldPointOntoObjectsRecursive", "group__GeneralGroup.html#ga59ffc7bf41b2002b89e68d941a46b0c1", null ],
+    [ "MR::protectedFunc", "group__GeneralGroup.html#ga7b0557ba9010a35f8711edaeef9f1cb4", null ],
+    [ "MR::protectedRun", "group__GeneralGroup.html#gaefd90794b9e1a0a3b3c1fefd0a9139c4", null ],
     [ "MR::ProvidesViewportWidget::providedViewportWidgets", "group__GeneralGroup.html#gaf6cfff8dc7c5312c19f3e17602f0bfec", null ],
     [ "MR::ProvidesViewportWidget::ProvidesViewportWidget", "group__GeneralGroup.html#gaf041541f4016a8590a3c4aed86fd9fb5", null ],
     [ "MR::ProvidesViewportWidget::ProvidesViewportWidget", "group__GeneralGroup.html#ga109c919bd164ef9b221f3f71e6db2c41", null ],

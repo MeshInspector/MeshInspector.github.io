@@ -289,6 +289,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRProgressCallback.cs", "MRProgressCallback_8cs.html", "MRProgressCallback_8cs" ],
     [ "MRProgressReadWrite.cs", "MRProgressReadWrite_8cs.html", "MRProgressReadWrite_8cs" ],
     [ "MRProjectionMeshAttribute.cs", "MRProjectionMeshAttribute_8cs.html", "MRProjectionMeshAttribute_8cs" ],
+    [ "MRProtectedRun.cs", "MRProtectedRun_8cs.html", "MRProtectedRun_8cs" ],
     [ "MRQuadraticForm.cs", "MRQuadraticForm_8cs.html", "MRQuadraticForm_8cs" ],
     [ "MRQuaternion.cs", "MRQuaternion_8cs.html", "MRQuaternion_8cs" ],
     [ "MRRadiusCompensation.cs", "MRRadiusCompensation_8cs.html", "MRRadiusCompensation_8cs" ],

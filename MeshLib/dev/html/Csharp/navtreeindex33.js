@@ -1,5 +1,8 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1FaceNormals.html#af82348bd66b80232d702a8e747f51b8f":[6,3,0,0,0,354,12],
+"classMR_1_1FaceNormals.html#afe2da44fbe142635a8bef5a383a01561":[6,3,0,0,0,354,18],
+"classMR_1_1FaceNormals.html#aff33ee6dd5cc98797edcf672d504e14a":[6,3,0,0,0,354,27],
 "classMR_1_1FaceScalars.html":[6,3,0,0,0,355],
 "classMR_1_1FaceScalars.html#a000170016b307433926914a4e0e9b772":[6,3,0,0,0,355,10],
 "classMR_1_1FaceScalars.html#a0a73cf2569c040a302191fbf29f7d68c":[6,3,0,0,0,355,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f.html#afe59d3c787d29df08d737ca4ad58bec5":[6,3,0,0,0,363,3,5,1],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html":[6,3,0,0,0,363,3,6],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a4013cf1e7b00fcba726992d198593c7f":[6,3,0,0,0,363,3,6,3],
-"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a57e76b10aa53cb448c1fb4e9f9bc5cfd":[6,3,0,0,0,363,3,6,0],
-"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a8628a38f22d71ae52f6fbcb0080a5344":[6,3,0,0,0,363,3,6,2],
-"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#ac0b55cf884e6f6a81252808687c1e2a6":[6,3,0,0,0,363,3,6,1],
-"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane.html":[6,3,0,0,0,363,3,7]
+"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a57e76b10aa53cb448c1fb4e9f9bc5cfd":[6,3,0,0,0,363,3,6,0]
 };

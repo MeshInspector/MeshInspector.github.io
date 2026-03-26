@@ -2516,6 +2516,8 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.projectOnAll", "namespacemrmeshpy.html#ab6453d8dc4169e24dc00e77c10c9ba45", null ],
     [ "mrmeshpy.projectWorldPointOntoObject", "namespacemrmeshpy.html#a32812cb7ddca8dab597852c521b1db1c", null ],
     [ "mrmeshpy.projectWorldPointOntoObjectsRecursive", "namespacemrmeshpy.html#ae1cf03bee900a0bd94e2ec8fe0e95a6e", null ],
+    [ "mrmeshpy.protectedFunc", "namespacemrmeshpy.html#a38328942fff4dffd719da06eedbabbef", null ],
+    [ "mrmeshpy.protectedRun", "namespacemrmeshpy.html#a3862363130c1d08b18f9a1bd3995aafa", null ],
     [ "mrmeshpy.pseudonormal", "namespacemrmeshpy.html#af94492666ff27a8bce21007931b2fd96", null ],
     [ "mrmeshpy.pseudonormal", "namespacemrmeshpy.html#afb52eb800023323158a02a3c74524fe0", null ],
     [ "mrmeshpy.pseudonormal", "namespacemrmeshpy.html#a93b85f416167dc6f48c5d825767592c7", null ],

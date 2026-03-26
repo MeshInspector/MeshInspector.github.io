@@ -14959,6 +14959,8 @@
     <member refid="group__GeneralGroup_1gaf2199fb84f92befa49011fd4f55f4f09" kind="function"><name>projectVertAttribute</name></member>
     <member refid="group__GeneralGroup_1gafb43cdb85d285bf367875ed35c3d8d7a" kind="function"><name>projectFaceAttribute</name></member>
     <member refid="group__GeneralGroup_1ga16d0dc86e500cc6a776c4e6514847fcf" kind="function"><name>projectObjectMeshData</name></member>
+    <member refid="group__GeneralGroup_1gaefd90794b9e1a0a3b3c1fefd0a9139c4" kind="function"><name>protectedRun</name></member>
+    <member refid="group__GeneralGroup_1ga7b0557ba9010a35f8711edaeef9f1cb4" kind="function"><name>protectedFunc</name></member>
     <member refid="group__GeneralGroup_1ga3dd2fe92b7669c20647e3ff3405df52f" kind="function"><name>compensateRadius</name></member>
     <member refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kind="function"><name>rayBoxIntersect</name></member>
     <member refid="group__RayBoxIntersectionGroup_1ga710fb3f98b472e45efdd6c3671f90581" kind="function"><name>rayBoxIntersect</name></member>
@@ -17268,6 +17270,8 @@
   <compound refid="MRProgressReadWrite_8h" kind="file"><name>MRProgressReadWrite.h</name>
   </compound>
   <compound refid="MRProjectionMeshAttribute_8h" kind="file"><name>MRProjectionMeshAttribute.h</name>
+  </compound>
+  <compound refid="MRProtectedRun_8h" kind="file"><name>MRProtectedRun.h</name>
   </compound>
   <compound refid="MRQuadraticForm_8h" kind="file"><name>MRQuadraticForm.h</name>
   </compound>
@@ -27033,6 +27037,8 @@
     <member refid="group__GeneralGroup_1gaf2199fb84f92befa49011fd4f55f4f09" kind="function"><name>projectVertAttribute</name></member>
     <member refid="group__GeneralGroup_1gafb43cdb85d285bf367875ed35c3d8d7a" kind="function"><name>projectFaceAttribute</name></member>
     <member refid="group__GeneralGroup_1ga16d0dc86e500cc6a776c4e6514847fcf" kind="function"><name>projectObjectMeshData</name></member>
+    <member refid="group__GeneralGroup_1gaefd90794b9e1a0a3b3c1fefd0a9139c4" kind="function"><name>protectedRun</name></member>
+    <member refid="group__GeneralGroup_1ga7b0557ba9010a35f8711edaeef9f1cb4" kind="function"><name>protectedFunc</name></member>
     <member refid="group__GeneralGroup_1gab0c3bc061463b886469241c7c3b17cd2" kind="function"><name>eval</name></member>
     <member refid="group__GeneralGroup_1ga4612e1bf2a83cf9f8c04bcffd05b8be0" kind="function"><name>addDistToOrigin</name></member>
     <member refid="group__GeneralGroup_1gabd84de324207ec889e01f594968dd8a1" kind="function"><name>addDistToPlane</name></member>

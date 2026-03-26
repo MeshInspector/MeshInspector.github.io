@@ -335,6 +335,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRProgressCallback.h", "MRProgressCallback_8h.html", "MRProgressCallback_8h" ],
     [ "MRProgressReadWrite.h", "MRProgressReadWrite_8h.html", "MRProgressReadWrite_8h" ],
     [ "MRProjectionMeshAttribute.h", "MRProjectionMeshAttribute_8h.html", "MRProjectionMeshAttribute_8h" ],
+    [ "MRProtectedRun.h", "MRProtectedRun_8h.html", "MRProtectedRun_8h" ],
     [ "MRQuadraticForm.h", "MRQuadraticForm_8h.html", null ],
     [ "MRQuaternion.h", "MRQuaternion_8h.html", null ],
     [ "MRRadiusCompensation.h", "MRRadiusCompensation_8h.html", "MRRadiusCompensation_8h" ],

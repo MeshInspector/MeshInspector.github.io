@@ -3053,6 +3053,8 @@ var namespaceMR =
     [ "projectVertAttribute", "group__GeneralGroup.html#gaf2199fb84f92befa49011fd4f55f4f09", null ],
     [ "projectWorldPointOntoObject", "group__GeneralGroup.html#ga1cee1396ff421f318ed16ffb3a40bcb3", null ],
     [ "projectWorldPointOntoObjectsRecursive", "group__GeneralGroup.html#ga59ffc7bf41b2002b89e68d941a46b0c1", null ],
+    [ "protectedFunc", "group__GeneralGroup.html#ga7b0557ba9010a35f8711edaeef9f1cb4", null ],
+    [ "protectedRun", "group__GeneralGroup.html#gaefd90794b9e1a0a3b3c1fefd0a9139c4", null ],
     [ "pseudonormal", "group__GeneralGroup.html#ga9e65eaccd09882917adb4662e22ebd9c", null ],
     [ "pseudonormal", "group__GeneralGroup.html#ga1252493bc3bb4477de6520dbab98fe7a", null ],
     [ "pseudonormal", "group__GeneralGroup.html#gae114314b5aed7bba0a568a6265baa38f", null ],
