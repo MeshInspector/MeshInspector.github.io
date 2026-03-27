@@ -16469,6 +16469,16 @@
   </compound>
   <compound refid="MREmbeddedPython_8h" kind="file"><name>MREmbeddedPython.h</name>
   </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
+  </compound>
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
@@ -17448,6 +17458,10 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -17517,16 +17531,6 @@
   <compound refid="MRSymbolMeshFwd_8h" kind="file"><name>MRSymbolMeshFwd.h</name>
     <member refid="MRSymbolMeshFwd_8h_1a390b9f66fb03f4077f495bc88a5bbe3b" kind="define"><name>MRSYMBOLMESH_API</name></member>
     <member refid="MRSymbolMeshFwd_8h_1acd35d2ca8d20c30530e2d38a9295f009" kind="define"><name>MRSYMBOLMESH_CLASS</name></member>
-  </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="ImGuiHelpers_8h" kind="file"><name>ImGuiHelpers.h</name>
   </compound>
@@ -17852,10 +17856,6 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
