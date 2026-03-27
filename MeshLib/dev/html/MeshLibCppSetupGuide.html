@@ -278,8 +278,8 @@ Prerequisites</h4>
 <li><a href="https://git-scm.com/">Install Git</a> to manage repositories and submodules, which is also required to install <span class="tt">vcpkg</span>.</li>
 </ul>
 </li>
-<li><b>Visual Studio 2019 or 2022</b><ul>
-<li><a href="https://visualstudio.microsoft.com/">Download and install either Visual Studio 2019 or 2022</a>. During installation, make sure to:<ul>
+<li><b>Visual Studio 2019, 2022 or 2026</b><ul>
+<li><a href="https://visualstudio.microsoft.com/">Download and install either Visual Studio 2019, 2022 or 2026</a>. During installation, make sure to:<ul>
 <li>Select the "Desktop development with C++" workload.</li>
 <li>Include support for the C++ programming language.</li>
 <li>Ensure the English language pack is installed (required for <span class="tt">vcpkg</span>).</li>
@@ -289,20 +289,21 @@ Prerequisites</h4>
 </li>
 <li><b>CUDA Toolkit</b><ul>
 <li>For <b>Visual Studio 2019</b>: Install <a href="https://developer.nvidia.com/cuda-11-4-0-download-archive">CUDA v11.4</a></li>
-<li>For <b>Visual Studio 2022</b>: Install <a href="https://developer.nvidia.com/cuda-12-0-0-download-archive">CUDA v12.0</a> <br  />
+<li>For <b>Visual Studio 2022</b>: Install <a href="https://developer.nvidia.com/cuda-12-0-0-download-archive">CUDA v12.0</a></li>
+<li>For <b>Visual Studio 2026</b>: Install <a href="https://developer.nvidia.com/cuda-13-2-0-download-archive">CUDA v13.2</a> <br  />
  Choose the appropriate version based on your Visual Studio installation.</li>
 </ul>
 </li>
 <li><b>vcpkg</b><ul>
 <li>To install <span class="tt">vcpkg</span>, follow these steps:<ol type="a">
 <li><b>Open a command prompt (CMD) or PowerShell window</b>.</li>
-<li><b>Navigate to a directory where you want to install</b> <span class="tt">vcpkg</span>: <div class="fragment"><div class="line">cd C:\path\to\your\desired\directory</div>
+<li><b>Navigate to a directory where you want to install</b> <span class="tt">vcpkg</span> (please avoid using directories with special characters like <span class="tt">!</span> in full path): <div class="fragment"><div class="line">cd C:\path\to\your\desired\directory</div>
 </div><!-- fragment --></li>
 <li><b>Clone the</b> <span class="tt">vcpkg</span> <b>repository</b>: <div class="fragment"><div class="line">git clone https://github.com/microsoft/vcpkg.git</div>
 </div><!-- fragment --></li>
 <li><b>Navigate to the</b> <span class="tt">vcpkg</span> <b>directory</b>: <div class="fragment"><div class="line">cd vcpkg</div>
 <div class="line">git checkout 2024.10.21</div>
-</div><!-- fragment --> If you're using <b>Visual Studio 2022</b>, you can use the latest version of vcpkg: <div class="fragment"><div class="line">git checkout 2026.03.18</div>
+</div><!-- fragment --> If you're using Visual Studio 2022 or 2026, you can use the latest version of vcpkg: <div class="fragment"><div class="line">git checkout 2026.03.18</div>
 </div><!-- fragment --> The version <span class="tt">2024.10.21</span> is required only for compatibility with <b>Visual Studio 2019</b>.</li>
 <li><b>Run the bootstrap script to build the</b> <span class="tt">vcpkg</span> <b>executable</b>: <div class="fragment"><div class="line">bootstrap-vcpkg.bat</div>
 </div><!-- fragment --></li>
