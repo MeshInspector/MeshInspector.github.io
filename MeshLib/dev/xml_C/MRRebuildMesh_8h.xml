@@ -664,6 +664,64 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="250" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="MRRebuildMesh_8h_1a0b457f187d1b6bb186124e72514514d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_RebuildMeshSettings_Get_reduceAngleNumIters</definition>
+        <argsstring>(const MR_RebuildMeshSettings *_this)</argsstring>
+        <name>MR_RebuildMeshSettings_Get_reduceAngleNumIters</name>
+        <param>
+          <type>const <ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to minimizes summed deviation of triangle-triangle angles from plane; this mode highlights sharp edges; if decimation is on, this mode is performed before and after decimation and further reduces the number of triangles Returns a pointer to a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>reduceAngleNumIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="259" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="259" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRebuildMesh_8h_1abeab1fe8b9f67a5bddb3f1e0073ca156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RebuildMeshSettings_Set_reduceAngleNumIters</definition>
+        <argsstring>(MR_RebuildMeshSettings *_this, int value)</argsstring>
+        <name>MR_RebuildMeshSettings_Set_reduceAngleNumIters</name>
+        <param>
+          <type><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to minimizes summed deviation of triangle-triangle angles from plane; this mode highlights sharp edges; if decimation is on, this mode is performed before and after decimation and further reduces the number of triangles Modifies a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>reduceAngleNumIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>reduceAngleNumIters</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="267" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="267" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRebuildMesh_8h_1a073b7459b1d3f93bfbef208c906f5091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
+        <definition>MRC_API int * MR_RebuildMeshSettings_GetMutable_reduceAngleNumIters</definition>
+        <argsstring>(MR_RebuildMeshSettings *_this)</argsstring>
+        <name>MR_RebuildMeshSettings_GetMutable_reduceAngleNumIters</name>
+        <param>
+          <type><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations to minimizes summed deviation of triangle-triangle angles from plane; this mode highlights sharp edges; if decimation is on, this mode is performed before and after decimation and further reduces the number of triangles Returns a mutable pointer to a member variable of class <computeroutput>MR::RebuildMeshSettings</computeroutput> named <computeroutput>reduceAngleNumIters</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="276" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="276" declcolumn="13"/>
+      </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1ad4b5b9aed0a0f0510e9d1389ee545f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_RebuildMeshSettings_Get_tinyEdgeLength</definition>
@@ -680,7 +738,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="258" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="258" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="284" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="284" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a942c872ad88916feebf56c9b3384f686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -702,7 +760,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="265" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="265" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="291" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="291" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1ab71ccebdcbf03e51dec9e8b2ca0ec493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
@@ -720,7 +778,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="273" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="273" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="299" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="299" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1ab20f416b21447b69849821ea2c4beb2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -738,7 +796,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="280" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="280" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="306" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="306" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1af891f3ff4b42e8916b98ad796180282c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -764,7 +822,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="287" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="287" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="313" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="313" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1ab1b3c4f7e58cc3d0ea646811d02cf108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -782,7 +840,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="294" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="294" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="320" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="320" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a8c8610ab95a2e1d51cb1fa60199357d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref> *</type>
@@ -800,7 +858,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="302" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="302" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="328" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="328" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a0f9d6a42f3db33d5df60c62cd76da240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -826,7 +884,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="310" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="336" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="336" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a79f1c6a23bebabd63ae44efe4475b1ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref> *</type>
@@ -844,7 +902,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="318" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="318" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="344" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="344" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a00c111c6af95c4b172cc6eb5ece49224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
@@ -861,7 +919,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="322" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="322" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="348" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="348" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a461dee84577a1c9dd70728bfa4f4cb99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
@@ -879,12 +937,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="327" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="327" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="353" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="353" declcolumn="32"/>
       </memberdef>
-      <memberdef kind="function" id="MRRebuildMesh_8h_1a07660db8814483ade015658decb7d24c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRRebuildMesh_8h_1a7f174eade63999871c4a49696d64d5c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
         <definition>MRC_API MR_RebuildMeshSettings * MR_RebuildMeshSettings_ConstructFrom</definition>
-        <argsstring>(bool preSubdivide, float voxelSize, MR_SignDetectionModeShort signMode, bool closeHolesInHoleWindingNumber, MR_OffsetMode offsetMode, MR_UndirectedEdgeBitSet *outSharpEdges, float windingNumberThreshold, float windingNumberBeta, MR_PassBy fwn_pass_by, MR_std_shared_ptr_MR_IFastWindingNumber *fwn, bool decimate, float tinyEdgeLength, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress, MR_PassBy onSignDetectionModeSelected_pass_by, MR_std_function_void_from_MR_SignDetectionMode *onSignDetectionModeSelected)</argsstring>
+        <argsstring>(bool preSubdivide, float voxelSize, MR_SignDetectionModeShort signMode, bool closeHolesInHoleWindingNumber, MR_OffsetMode offsetMode, MR_UndirectedEdgeBitSet *outSharpEdges, float windingNumberThreshold, float windingNumberBeta, MR_PassBy fwn_pass_by, MR_std_shared_ptr_MR_IFastWindingNumber *fwn, bool decimate, int reduceAngleNumIters, float tinyEdgeLength, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress, MR_PassBy onSignDetectionModeSelected_pass_by, MR_std_function_void_from_MR_SignDetectionMode *onSignDetectionModeSelected)</argsstring>
         <name>MR_RebuildMeshSettings_ConstructFrom</name>
         <param>
           <type>bool</type>
@@ -931,6 +989,10 @@
           <declname>decimate</declname>
         </param>
         <param>
+          <type>int</type>
+          <declname>reduceAngleNumIters</declname>
+        </param>
+        <param>
           <type>float</type>
           <declname>tinyEdgeLength</declname>
         </param>
@@ -957,7 +1019,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="338" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="338" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="364" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="364" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1afff110bbd93f2d551432f4eb747ab2a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
@@ -979,7 +1041,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="342" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="342" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="368" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="368" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1ab884befa59ad674ed64a6116731a6b1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
@@ -1001,7 +1063,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="346" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="346" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="372" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="372" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1ae0f25594800d534d2715932ffa1f8e77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
@@ -1023,7 +1085,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="351" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="351" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="377" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="377" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1aea4b8b7c4ac8006b30c9a2b45840652e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1041,7 +1103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="354" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="354" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="380" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="380" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a7ae3e723e6f4ccc4c63249e4e4135996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1059,7 +1121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="357" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="357" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="383" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="383" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a2a2b123ccb8744363956f0f4e59a7417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref> *</type>
@@ -1085,7 +1147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="364" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="364" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="390" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="390" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRRebuildMesh_8h_1a21860dab1e858f0a70ebc66e20ec9c42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
@@ -1107,7 +1169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="372" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="372" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" line="398" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h" declline="398" declcolumn="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1199,47 +1261,53 @@
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
 <codeline lineno="250" refid="MRRebuildMesh_8h_1a35d4f9affdaf378a5304203cc62361df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRRebuildMesh_8h_1a35d4f9affdaf378a5304203cc62361df" kindref="member">MR_RebuildMeshSettings_GetMutable_decimate</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="258" refid="MRRebuildMesh_8h_1ad4b5b9aed0a0f0510e9d1389ee545f5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRebuildMesh_8h_1ad4b5b9aed0a0f0510e9d1389ee545f5b" kindref="member">MR_RebuildMeshSettings_Get_tinyEdgeLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265" refid="MRRebuildMesh_8h_1a942c872ad88916feebf56c9b3384f686" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1a942c872ad88916feebf56c9b3384f686" kindref="member">MR_RebuildMeshSettings_Set_tinyEdgeLength</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="MRRebuildMesh_8h_1ab71ccebdcbf03e51dec9e8b2ca0ec493" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRebuildMesh_8h_1ab71ccebdcbf03e51dec9e8b2ca0ec493" kindref="member">MR_RebuildMeshSettings_GetMutable_tinyEdgeLength</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="280" refid="MRRebuildMesh_8h_1ab20f416b21447b69849821ea2c4beb2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRebuildMesh_8h_1ab20f416b21447b69849821ea2c4beb2c" kindref="member">MR_RebuildMeshSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287" refid="MRRebuildMesh_8h_1af891f3ff4b42e8916b98ad796180282c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1af891f3ff4b42e8916b98ad796180282c" kindref="member">MR_RebuildMeshSettings_Set_progress</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="294" refid="MRRebuildMesh_8h_1ab1b3c4f7e58cc3d0ea646811d02cf108" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRebuildMesh_8h_1ab1b3c4f7e58cc3d0ea646811d02cf108" kindref="member">MR_RebuildMeshSettings_GetMutable_progress</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="302" refid="MRRebuildMesh_8h_1a8c8610ab95a2e1d51cb1fa60199357d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a8c8610ab95a2e1d51cb1fa60199357d2" kindref="member">MR_RebuildMeshSettings_Get_onSignDetectionModeSelected</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="310" refid="MRRebuildMesh_8h_1a0f9d6a42f3db33d5df60c62cd76da240" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1a0f9d6a42f3db33d5df60c62cd76da240" kindref="member">MR_RebuildMeshSettings_Set_onSignDetectionModeSelected</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="311"><highlight class="normal"></highlight></codeline>
-<codeline lineno="318" refid="MRRebuildMesh_8h_1a79f1c6a23bebabd63ae44efe4475b1ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a79f1c6a23bebabd63ae44efe4475b1ef" kindref="member">MR_RebuildMeshSettings_GetMutable_onSignDetectionModeSelected</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="319"><highlight class="normal"></highlight></codeline>
-<codeline lineno="322" refid="MRRebuildMesh_8h_1a00c111c6af95c4b172cc6eb5ece49224" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a00c111c6af95c4b172cc6eb5ece49224" kindref="member">MR_RebuildMeshSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="323"><highlight class="normal"></highlight></codeline>
-<codeline lineno="327" refid="MRRebuildMesh_8h_1a461dee84577a1c9dd70728bfa4f4cb99" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a461dee84577a1c9dd70728bfa4f4cb99" kindref="member">MR_RebuildMeshSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="328"><highlight class="normal"></highlight></codeline>
-<codeline lineno="338" refid="MRRebuildMesh_8h_1a07660db8814483ade015658decb7d24c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a07660db8814483ade015658decb7d24c" kindref="member">MR_RebuildMeshSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>preSubdivide,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" kindref="member">MR_SignDetectionModeShort</ref><sp/>signMode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>closeHolesInHoleWindingNumber,<sp/><ref refid="MREnums_8h_1ae3aefa13a6ad289eab7812593f65ae74" kindref="member">MR_OffsetMode</ref><sp/>offsetMode,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outSharpEdges,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>windingNumberThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>windingNumberBeta,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>fwn_pass_by,<sp/><ref refid="std__shared__ptr__MR__IFastWindingNumber_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref><sp/>*fwn,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>decimate,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>tinyEdgeLength,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>onSignDetectionModeSelected_pass_by,<sp/><ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref><sp/>*onSignDetectionModeSelected);</highlight></codeline>
-<codeline lineno="339"><highlight class="normal"></highlight></codeline>
-<codeline lineno="342" refid="MRRebuildMesh_8h_1afff110bbd93f2d551432f4eb747ab2a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1afff110bbd93f2d551432f4eb747ab2a0" kindref="member">MR_RebuildMeshSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="343"><highlight class="normal"></highlight></codeline>
-<codeline lineno="346" refid="MRRebuildMesh_8h_1ab884befa59ad674ed64a6116731a6b1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1ab884befa59ad674ed64a6116731a6b1f" kindref="member">MR_RebuildMeshSettings_OffsetMutablePtr</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="351" refid="MRRebuildMesh_8h_1ae0f25594800d534d2715932ffa1f8e77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1ae0f25594800d534d2715932ffa1f8e77" kindref="member">MR_RebuildMeshSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="354" refid="MRRebuildMesh_8h_1aea4b8b7c4ac8006b30c9a2b45840652e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aea4b8b7c4ac8006b30c9a2b45840652e" kindref="member">MR_RebuildMeshSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="355"><highlight class="normal"></highlight></codeline>
-<codeline lineno="357" refid="MRRebuildMesh_8h_1a7ae3e723e6f4ccc4c63249e4e4135996" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1a7ae3e723e6f4ccc4c63249e4e4135996" kindref="member">MR_RebuildMeshSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="358"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364" refid="MRRebuildMesh_8h_1a2a2b123ccb8744363956f0f4e59a7417" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a2a2b123ccb8744363956f0f4e59a7417" kindref="member">MR_RebuildMeshSettings_AssignFromAnother</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="259" refid="MRRebuildMesh_8h_1a0b457f187d1b6bb186124e72514514d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRebuildMesh_8h_1a0b457f187d1b6bb186124e72514514d4" kindref="member">MR_RebuildMeshSettings_Get_reduceAngleNumIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="MRRebuildMesh_8h_1abeab1fe8b9f67a5bddb3f1e0073ca156" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1abeab1fe8b9f67a5bddb3f1e0073ca156" kindref="member">MR_RebuildMeshSettings_Set_reduceAngleNumIters</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="MRRebuildMesh_8h_1a073b7459b1d3f93bfbef208c906f5091" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRebuildMesh_8h_1a073b7459b1d3f93bfbef208c906f5091" kindref="member">MR_RebuildMeshSettings_GetMutable_reduceAngleNumIters</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRRebuildMesh_8h_1ad4b5b9aed0a0f0510e9d1389ee545f5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRebuildMesh_8h_1ad4b5b9aed0a0f0510e9d1389ee545f5b" kindref="member">MR_RebuildMeshSettings_Get_tinyEdgeLength</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291" refid="MRRebuildMesh_8h_1a942c872ad88916feebf56c9b3384f686" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1a942c872ad88916feebf56c9b3384f686" kindref="member">MR_RebuildMeshSettings_Set_tinyEdgeLength</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="MRRebuildMesh_8h_1ab71ccebdcbf03e51dec9e8b2ca0ec493" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRebuildMesh_8h_1ab71ccebdcbf03e51dec9e8b2ca0ec493" kindref="member">MR_RebuildMeshSettings_GetMutable_tinyEdgeLength</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="MRRebuildMesh_8h_1ab20f416b21447b69849821ea2c4beb2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRebuildMesh_8h_1ab20f416b21447b69849821ea2c4beb2c" kindref="member">MR_RebuildMeshSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="MRRebuildMesh_8h_1af891f3ff4b42e8916b98ad796180282c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1af891f3ff4b42e8916b98ad796180282c" kindref="member">MR_RebuildMeshSettings_Set_progress</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="MRRebuildMesh_8h_1ab1b3c4f7e58cc3d0ea646811d02cf108" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRebuildMesh_8h_1ab1b3c4f7e58cc3d0ea646811d02cf108" kindref="member">MR_RebuildMeshSettings_GetMutable_progress</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="MRRebuildMesh_8h_1a8c8610ab95a2e1d51cb1fa60199357d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a8c8610ab95a2e1d51cb1fa60199357d2" kindref="member">MR_RebuildMeshSettings_Get_onSignDetectionModeSelected</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336" refid="MRRebuildMesh_8h_1a0f9d6a42f3db33d5df60c62cd76da240" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1a0f9d6a42f3db33d5df60c62cd76da240" kindref="member">MR_RebuildMeshSettings_Set_onSignDetectionModeSelected</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="MRRebuildMesh_8h_1a79f1c6a23bebabd63ae44efe4475b1ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a79f1c6a23bebabd63ae44efe4475b1ef" kindref="member">MR_RebuildMeshSettings_GetMutable_onSignDetectionModeSelected</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="MRRebuildMesh_8h_1a00c111c6af95c4b172cc6eb5ece49224" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a00c111c6af95c4b172cc6eb5ece49224" kindref="member">MR_RebuildMeshSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="MRRebuildMesh_8h_1a461dee84577a1c9dd70728bfa4f4cb99" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a461dee84577a1c9dd70728bfa4f4cb99" kindref="member">MR_RebuildMeshSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364" refid="MRRebuildMesh_8h_1a7f174eade63999871c4a49696d64d5c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a7f174eade63999871c4a49696d64d5c5" kindref="member">MR_RebuildMeshSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>preSubdivide,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/><ref refid="MRSignDetectionMode_8h_1aa5bd2d112ff162d30b64963883902bb6" kindref="member">MR_SignDetectionModeShort</ref><sp/>signMode,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>closeHolesInHoleWindingNumber,<sp/><ref refid="MREnums_8h_1ae3aefa13a6ad289eab7812593f65ae74" kindref="member">MR_OffsetMode</ref><sp/>offsetMode,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outSharpEdges,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>windingNumberThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>windingNumberBeta,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>fwn_pass_by,<sp/><ref refid="std__shared__ptr__MR__IFastWindingNumber_8h_1a264b5271a8409b6f782f8649cf34c164" kindref="member">MR_std_shared_ptr_MR_IFastWindingNumber</ref><sp/>*fwn,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>decimate,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>reduceAngleNumIters,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>tinyEdgeLength,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>onSignDetectionModeSelected_pass_by,<sp/><ref refid="std__function__void__from__MR__SignDetectionMode_8h_1a22d2ec9cd17ac887031de93b58b597b7" kindref="member">MR_std_function_void_from_MR_SignDetectionMode</ref><sp/>*onSignDetectionModeSelected);</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="372" refid="MRRebuildMesh_8h_1a21860dab1e858f0a70ebc66e20ec9c42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a21860dab1e858f0a70ebc66e20ec9c42" kindref="member">MR_rebuildMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="368" refid="MRRebuildMesh_8h_1afff110bbd93f2d551432f4eb747ab2a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1afff110bbd93f2d551432f4eb747ab2a0" kindref="member">MR_RebuildMeshSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="372" refid="MRRebuildMesh_8h_1ab884befa59ad674ed64a6116731a6b1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1ab884befa59ad674ed64a6116731a6b1f" kindref="member">MR_RebuildMeshSettings_OffsetMutablePtr</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="374"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="375"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="376"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="377" refid="MRRebuildMesh_8h_1ae0f25594800d534d2715932ffa1f8e77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1ae0f25594800d534d2715932ffa1f8e77" kindref="member">MR_RebuildMeshSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380" refid="MRRebuildMesh_8h_1aea4b8b7c4ac8006b30c9a2b45840652e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aea4b8b7c4ac8006b30c9a2b45840652e" kindref="member">MR_RebuildMeshSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383" refid="MRRebuildMesh_8h_1a7ae3e723e6f4ccc4c63249e4e4135996" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1a7ae3e723e6f4ccc4c63249e4e4135996" kindref="member">MR_RebuildMeshSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390" refid="MRRebuildMesh_8h_1a2a2b123ccb8744363956f0f4e59a7417" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a2a2b123ccb8744363956f0f4e59a7417" kindref="member">MR_RebuildMeshSettings_AssignFromAnother</ref>(<ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398" refid="MRRebuildMesh_8h_1a21860dab1e858f0a70ebc66e20ec9c42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRRebuildMesh_8h_1a21860dab1e858f0a70ebc66e20ec9c42" kindref="member">MR_rebuildMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRebuildMesh_8h_1aa2853cd7a55a4391d2d36fb2e810eedb" kindref="member">MR_RebuildMeshSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="401"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRRebuildMesh.h"/>
   </compounddef>

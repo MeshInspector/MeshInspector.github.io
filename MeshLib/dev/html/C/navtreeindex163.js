@@ -1,5 +1,8 @@
 var NAVTREEINDEX163 =
 {
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a481130874acc8d01446d352705937bae":[6,2,1,0,0,0,0,2,409,46],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a4ac991d33bf0a3652034181eb0e1741c":[6,2,1,0,0,0,0,2,409,2],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a5085e49488664b6d3ed9d76d20b15481":[6,2,1,0,0,0,0,2,409,64],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a565b9925783e6977900848281ebd9cdc":[6,2,1,0,0,0,0,2,409,14],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a5761bf4e672d1bafb841bccbf18af541":[6,2,1,0,0,0,0,2,409,1],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a58299b85aea431a958a5a413a29a634f":[6,2,1,0,0,0,0,2,409,61],
@@ -246,8 +249,5 @@ var NAVTREEINDEX163 =
 "std__vector__MR__Dipole_8h.html#a8006390eaa6e8184c644d5661d0368d6":[6,2,1,0,0,0,0,2,412,47],
 "std__vector__MR__Dipole_8h.html#a8563f21837529d6c99d5b0f262b8fb0e":[6,2,1,0,0,0,0,2,412,56],
 "std__vector__MR__Dipole_8h.html#a85f9803accf0f6af8064a82a278fd5d9":[6,2,1,0,0,0,0,2,412,17],
-"std__vector__MR__Dipole_8h.html#a95cbddcbfac263b8936198fbcfde9915":[6,2,1,0,0,0,0,2,412,65],
-"std__vector__MR__Dipole_8h.html#a96243fe63322f5f058a68cd1fddd68e8":[6,2,1,0,0,0,0,2,412,27],
-"std__vector__MR__Dipole_8h.html#a99927f0107a928324fcdd5b6dcb629fc":[6,2,1,0,0,0,0,2,412,66],
-"std__vector__MR__Dipole_8h.html#a9bd98a45e29aa1942755313252f001cf":[6,2,1,0,0,0,0,2,412,40]
+"std__vector__MR__Dipole_8h.html#a95cbddcbfac263b8936198fbcfde9915":[6,2,1,0,0,0,0,2,412,65]
 };

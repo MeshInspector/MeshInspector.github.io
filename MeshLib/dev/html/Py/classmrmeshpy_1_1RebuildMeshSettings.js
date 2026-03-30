@@ -2,7 +2,7 @@ var classmrmeshpy_1_1RebuildMeshSettings =
 [
     [ "__init__", "classmrmeshpy_1_1RebuildMeshSettings.html#a5c2ce0ca210f93b89e2c85449260f6b2", null ],
     [ "__init__", "classmrmeshpy_1_1RebuildMeshSettings.html#a298d9910175fb947f7ee85dd69ca7384", null ],
-    [ "__init__", "classmrmeshpy_1_1RebuildMeshSettings.html#a3271035a52047c2de7c3663312112152", null ],
+    [ "__init__", "classmrmeshpy_1_1RebuildMeshSettings.html#adb9a4b5dfb07686b7d0e5103fcffe97c", null ],
     [ "closeHolesInHoleWindingNumber", "classmrmeshpy_1_1RebuildMeshSettings.html#a06ff3ab78c3b8f295373987e3b9840a8", null ],
     [ "closeHolesInHoleWindingNumber", "classmrmeshpy_1_1RebuildMeshSettings.html#a9c4472d2f3b891240bd50d5d07e8ace0", null ],
     [ "decimate", "classmrmeshpy_1_1RebuildMeshSettings.html#a9fec20e66274e11e3170b86135324d03", null ],
@@ -17,6 +17,8 @@ var classmrmeshpy_1_1RebuildMeshSettings =
     [ "preSubdivide", "classmrmeshpy_1_1RebuildMeshSettings.html#a8f02f0125b440f928275daa62008448c", null ],
     [ "progress", "classmrmeshpy_1_1RebuildMeshSettings.html#a4ec4e4d3aaa027396135d26ea160731f", null ],
     [ "progress", "classmrmeshpy_1_1RebuildMeshSettings.html#a4be5194200af5897cb0a010567bc24ef", null ],
+    [ "reduceAngleNumIters", "classmrmeshpy_1_1RebuildMeshSettings.html#a680ea577211eed356e818f0cd2f06dba", null ],
+    [ "reduceAngleNumIters", "classmrmeshpy_1_1RebuildMeshSettings.html#aa52011491e003bbfa5b8968aecfb1e92", null ],
     [ "tinyEdgeLength", "classmrmeshpy_1_1RebuildMeshSettings.html#a30b5eee0aaf333fbce4bb2234bbcf0a3", null ],
     [ "tinyEdgeLength", "classmrmeshpy_1_1RebuildMeshSettings.html#a9dec9e84fdd4340564607eaca6c79e31", null ],
     [ "voxelSize", "classmrmeshpy_1_1RebuildMeshSettings.html#a7c3e2fccd4f1cbff0ce859de461ea4ac", null ],
