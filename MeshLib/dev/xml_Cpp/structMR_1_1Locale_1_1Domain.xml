@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRI18n.h" line="21" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="21" bodyend="-1"/>
+        <location file="MRViewer/MRI18n.h" line="20" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -25,7 +25,7 @@
     <detaileddescription>
 <para>Information about locale domains. Contains the only field <computeroutput>id</computeroutput>. The purpose of the struct is to resolve an ambiguous overload <computeroutput>translate( &quot;str&quot;, &quot;str&quot;, 0 )</computeroutput> which otherwise could be treated as both &quot;context, message, domain id&quot; and &quot;single, plural, number&quot;. </para>
     </detaileddescription>
-    <location file="MRViewer/MRI18n.h" line="19" column="1" bodyfile="MRViewer/MRI18n.h" bodystart="20" bodyend="22"/>
+    <location file="MRViewer/MRI18n.h" line="18" column="1" bodyfile="MRViewer/MRI18n.h" bodystart="19" bodyend="21"/>
     <listofallmembers>
       <member refid="structMR_1_1Locale_1_1Domain_1a10576dc0e5d69163a260c5aa11a7e431" prot="public" virt="non-virtual"><scope>MR::Locale::Domain</scope><name>id</name></member>
     </listofallmembers>
