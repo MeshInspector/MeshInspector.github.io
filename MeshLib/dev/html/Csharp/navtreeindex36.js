@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1GridSettings.html#ab9edc42ddf5c6bc26286e0f61060a90e":[6,3,0,0,0,397,5],
 "classMR_1_1GridToMeshSettings.html":[6,3,0,0,0,398],
 "classMR_1_1GridToMeshSettings.html#a121857b40909855ddf4e329cbb32055b":[6,3,0,0,0,398,6],
 "classMR_1_1GridToMeshSettings.html#a13fd596b0d9ec494985e6170d41d9372":[6,3,0,0,0,398,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1InflateSettings.html#aa29f1ff877af2710735a1cb800142425":[6,3,0,0,0,418,5],
 "classMR_1_1InflateSettings.html#abc80bd6e0aa2b20b3cc65a3f1f24fce4":[6,3,0,0,0,418,4],
 "classMR_1_1InflateSettings.html#ac5820bad398e1f9ebe220b6f066251b9":[6,3,0,0,0,418,8],
-"classMR_1_1InflateSettings.html#aca2bbbf70d69b99429ef8517e9204419":[6,3,0,0,0,418,6],
-"classMR_1_1InflateSettings.html#acd89a95a15f8846e897d05846e75ac5a":[6,3,0,0,0,418,0]
+"classMR_1_1InflateSettings.html#aca2bbbf70d69b99429ef8517e9204419":[6,3,0,0,0,418,6]
 };

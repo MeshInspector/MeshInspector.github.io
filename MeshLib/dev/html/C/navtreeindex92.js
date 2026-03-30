@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"MRReducePath_8h_source.html":[6,2,1,0,0,0,0,1,298],
 "MRRegionBoundary_8h.html":[6,2,1,0,0,0,0,1,299],
 "MRRegionBoundary_8h.html#a1da9b9cfff9aa16ba01a199d99096701":[6,2,1,0,0,0,0,1,299,9],
 "MRRegionBoundary_8h.html#a3cf2e4e5eb3d786d8fbd2e705041142d":[6,2,1,0,0,0,0,1,299,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "MRRingIterator_8h.html#ac0b6703a08bd574b3998d00c8d963afb":[6,2,1,0,0,0,0,1,306,31],
 "MRRingIterator_8h.html#ac4a068829a21d55b0f2e355c71adb36a":[6,2,1,0,0,0,0,1,306,2],
 "MRRingIterator_8h.html#ad0e19890ac11a401131c1d7ee671a947":[6,2,1,0,0,0,0,1,306,49],
-"MRRingIterator_8h.html#ad989ddc37bbf9de0109ca85af5ff728c":[6,2,1,0,0,0,0,1,306,20],
-"MRRingIterator_8h.html#adaa07b9aa725dc4d81543cb1c3e582f0":[6,2,1,0,0,0,0,1,306,24]
+"MRRingIterator_8h.html#ad989ddc37bbf9de0109ca85af5ff728c":[6,2,1,0,0,0,0,1,306,20]
 };

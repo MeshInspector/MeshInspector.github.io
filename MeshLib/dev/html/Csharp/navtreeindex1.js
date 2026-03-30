@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRMatrix2_8cs.html":[6,3,1,0,0,0,2,151],
 "MRMatrix3_8cs.html":[6,3,1,0,0,0,2,152],
 "MRMatrix4_8cs.html":[6,3,1,0,0,0,2,153],
 "MRMatrix_8cs.html":[6,3,1,0,0,0,2,150],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRVoxelsConversionsByParts_8cs.html":[6,3,1,0,0,0,4,36],
 "MRVoxelsLoad_8cs.html":[6,3,1,0,0,0,4,37],
 "MRVoxelsSave_8cs.html":[6,3,1,0,0,0,4,38],
-"MRVoxelsVolumeAccess_8cs.html":[6,3,1,0,0,0,4,40],
-"MRVoxelsVolume_8cs.html":[6,3,1,0,0,0,4,39]
+"MRVoxelsVolumeAccess_8cs.html":[6,3,1,0,0,0,4,40]
 };

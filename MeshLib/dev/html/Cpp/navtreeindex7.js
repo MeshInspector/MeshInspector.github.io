@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1ChangeIsoAction.html#a87c8f47bac3f2dd7b904a9d9497f7fb7":[6,0,0,4,45,0],
 "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e":[6,0,0,4,45,1],
 "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0":[6,0,0,4,45,2],
 "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018":[6,0,0,4,45,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1DefaultSplashWindow.html":[6,0,0,20,696],
 "classMR_1_1DemoPlugin.html":[6,0,0,20,544],
 "classMR_1_1DentalId.html":[6,0,0,20,840],
-"classMR_1_1DepthPeelingGL.html":[6,0,0,20,545],
-"classMR_1_1DirectionWidget.html":[6,0,0,20,546]
+"classMR_1_1DepthPeelingGL.html":[6,0,0,20,545]
 };

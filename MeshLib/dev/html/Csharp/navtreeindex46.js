@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1ObjectDistanceMap.html#af977c7ed500f3a841d4ecd825480b088":[6,3,0,0,0,604,6],
 "classMR_1_1ObjectDistanceMap.html#afd1db42af65e0d2693f57c197ab39451":[6,3,0,0,0,604,84],
 "classMR_1_1ObjectDistanceMap.html#aff15a16ca27cb7fded983b6e009e28e3":[6,3,0,0,0,604,67],
 "classMR_1_1ObjectDistanceMap.html#aff1e543e44c79ee7ebc2deb89a484081":[6,3,0,0,0,604,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1ObjectLinesHolder.html#ada3b4d2e2d5930cefd12eaeb18d4a183":[6,3,0,0,0,609,6],
 "classMR_1_1ObjectLinesHolder.html#ada9c0e8aa916adb6a4396dce053696f6":[6,3,0,0,0,609,45],
 "classMR_1_1ObjectLinesHolder.html#add4200bb273aa1ad688ee04e87dd7cab":[6,3,0,0,0,609,50],
-"classMR_1_1ObjectLinesHolder.html#add5a3039c1f2aa9b17621c652da9d807":[6,3,0,0,0,609,22],
-"classMR_1_1ObjectLinesHolder.html#ae26b5166b3e2840f1195276ae65c8787":[6,3,0,0,0,609,36]
+"classMR_1_1ObjectLinesHolder.html#add5a3039c1f2aa9b17621c652da9d807":[6,3,0,0,0,609,22]
 };

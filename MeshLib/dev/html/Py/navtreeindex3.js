@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"classmrmeshpy_1_1AngleMeasurementObject.html#ab3f5cf518233a4bc32df8c58c986e52e":[6,1,1,0,1,25,9],
 "classmrmeshpy_1_1AngleMeasurementObject.html#aca8b9bd9f8ce5672f4daecf15560aa88":[6,1,0,0,2,25,14],
 "classmrmeshpy_1_1AngleMeasurementObject.html#aca8b9bd9f8ce5672f4daecf15560aa88":[6,1,1,0,1,25,14],
 "classmrmeshpy_1_1AngleMeasurementObject.html#ae62583f8e8b4d989fe0a4a03fdc9bda7":[6,1,0,0,2,25,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html#a48c4e40e1c580b3594957d130b4db20e":[6,1,1,0,1,59,3],
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ab30fce9b41ebac5efda5e74047f9f039":[6,1,0,0,2,59,2],
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ab30fce9b41ebac5efda5e74047f9f039":[6,1,1,0,1,59,2],
-"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ad78aa145808090070ed7fea4086b1db5":[6,1,0,0,2,59,1],
-"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ad78aa145808090070ed7fea4086b1db5":[6,1,1,0,1,59,1]
+"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ad78aa145808090070ed7fea4086b1db5":[6,1,0,0,2,59,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"MRPolylineEdgeIterator_8h.html#a655d85f7473fdbd2878424413805f9f7":[6,2,1,0,0,0,0,1,275,5],
 "MRPolylineEdgeIterator_8h.html#a6af435bc62b265c4da455d6be120ee04":[6,2,1,0,0,0,0,1,275,3],
 "MRPolylineEdgeIterator_8h.html#a82f8183c570258c8f5f8fafda4916fed":[6,2,1,0,0,0,0,1,275,9],
 "MRPolylineEdgeIterator_8h.html#a9cc644edf21c91a0ca0d7b1080bbd9a0":[6,2,1,0,0,0,0,1,275,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "MRPolylineTopology_8h.html#a72af18825dffca85dee2ef93da0fdca4":[6,2,1,0,0,0,0,1,278,70],
 "MRPolylineTopology_8h.html#a76baea6fec3da93426a60c7eeb1a01ff":[6,2,1,0,0,0,0,1,278,26],
 "MRPolylineTopology_8h.html#a7a1a128243bd348d4290d457ad1083d8":[6,2,1,0,0,0,0,1,278,66],
-"MRPolylineTopology_8h.html#a7cc8aa1f390438494277e2c1014eca7c":[6,2,1,0,0,0,0,1,278,65],
-"MRPolylineTopology_8h.html#a817e3d34ab411c898c5ba02f6a92d0f0":[6,2,1,0,0,0,0,1,278,35]
+"MRPolylineTopology_8h.html#a7cc8aa1f390438494277e2c1014eca7c":[6,2,1,0,0,0,0,1,278,65]
 };

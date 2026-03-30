@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1ObjectPoints.html#a6f091b4fa2eeaa92bbeb7a6f0c08737d":[6,3,0,0,0,614,1],
 "classMR_1_1ObjectPoints.html#a78318ee01a77d1f1cef4c3f44c588284":[6,3,0,0,0,614,16],
 "classMR_1_1ObjectPoints.html#a78d46f75a7ad7ac7b4c87f962f766719":[6,3,0,0,0,614,49],
 "classMR_1_1ObjectPoints.html#a7b607d08d3c6a3b87828763e2c65ec7e":[6,3,0,0,0,614,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1OffsetContoursParams.html#a5fff2634a44584848ec97c55716ef0a4":[6,3,0,0,0,632,5],
 "classMR_1_1OffsetContoursParams.html#a7a4fe1599b6c9190d1a2384e70e52a4f":[6,3,0,0,0,632,1],
 "classMR_1_1OffsetContoursParams.html#a806fafefc98866b036e51e2074bb3f2e":[6,3,0,0,0,632,4],
-"classMR_1_1OffsetContoursParams.html#ab069a1f3d745512ff360e9249fb6eeb3":[6,3,0,0,0,632,2],
-"classMR_1_1OffsetContoursParams.html#ab471275ec374e91c82463c88815adb0b":[6,3,0,0,0,632,7]
+"classMR_1_1OffsetContoursParams.html#ab069a1f3d745512ff360e9249fb6eeb3":[6,3,0,0,0,632,2]
 };

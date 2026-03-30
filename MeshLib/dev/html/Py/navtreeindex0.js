@@ -52,6 +52,7 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[3,0],
 "../FloatVSDouble.html":[5,3],
 "../HowtoAddPluginOverview.html":[5,8],
+"../I18nGuide.html":[5,9],
 "../InstallationGuide.html":[1],
 "../License.html":[2],
 "../MeshLibCSetupGuide.html":[1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a5aaa062a9a1344f41c4b7ba08ed91275":[6,1,1,0,1,5,0],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a6a1b9f4f0bf91f0da502b09300837150":[6,1,0,0,2,5,2],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a6a1b9f4f0bf91f0da502b09300837150":[6,1,1,0,1,5,2],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ab3d1ae66dfcf0c0183bd881c7f4665ae":[6,1,0,0,2,5,9],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ab3d1ae66dfcf0c0183bd881c7f4665ae":[6,1,1,0,1,5,9]
+"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ab3d1ae66dfcf0c0183bd881c7f4665ae":[6,1,0,0,2,5,9]
 };
