@@ -785,6 +785,7 @@ var annotated_dup =
       [ "RayOrigin_float", "classmrmeshpy_1_1RayOrigin__float.html", "classmrmeshpy_1_1RayOrigin__float" ],
       [ "RebuildMeshSettings", "classmrmeshpy_1_1RebuildMeshSettings.html", "classmrmeshpy_1_1RebuildMeshSettings" ],
       [ "RectIndexer", "classmrmeshpy_1_1RectIndexer.html", "classmrmeshpy_1_1RectIndexer" ],
+      [ "ReduceTotalAngleParams", "classmrmeshpy_1_1ReduceTotalAngleParams.html", "classmrmeshpy_1_1ReduceTotalAngleParams" ],
       [ "RefineParameters", "classmrmeshpy_1_1RefineParameters.html", "classmrmeshpy_1_1RefineParameters" ],
       [ "RegionBitSet", "classmrmeshpy_1_1RegionBitSet.html", "classmrmeshpy_1_1RegionBitSet" ],
       [ "RegionId", "classmrmeshpy_1_1RegionId.html", "classmrmeshpy_1_1RegionId" ],

@@ -852,6 +852,7 @@ var annotated_dup =
       [ "RecentFilesStore", "classMR_1_1RecentFilesStore.html", "classMR_1_1RecentFilesStore" ],
       [ "RectIndexer", "classMR_1_1RectIndexer.html", "classMR_1_1RectIndexer" ],
       [ "RedoMenuItem", "classMR_1_1RedoMenuItem.html", "classMR_1_1RedoMenuItem" ],
+      [ "ReduceTotalAngleParams", "structMR_1_1ReduceTotalAngleParams.html", "structMR_1_1ReduceTotalAngleParams" ],
       [ "RefineParameters", "structMR_1_1RefineParameters.html", "structMR_1_1RefineParameters" ],
       [ "RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", "classMR_1_1RegisterRenderObjectConstructor" ],
       [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html", "classMR_1_1RegularMapMesher" ],

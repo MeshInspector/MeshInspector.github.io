@@ -1,5 +1,8 @@
 var NAVTREEINDEX30 =
 {
+"classMR_1_1Dipoles.html#ae0df76679e08e5b21cf7e498161b82a6":[6,3,0,0,0,306,10],
+"classMR_1_1Dipoles.html#ae5d1869c49be1dfaa073fdd555f34c97":[6,3,0,0,0,306,21],
+"classMR_1_1Dipoles.html#af2c42fcb85f5f1954b960ff95d855284":[6,3,0,0,0,306,0],
 "classMR_1_1Dipoles.html#afcec64e7155abe24b9938b32ea620069":[6,3,0,0,0,306,17],
 "classMR_1_1Dipoles.html#afd901e1747851db81ccfbc8bf78062cb":[6,3,0,0,0,306,6],
 "classMR_1_1Dirty.html":[6,3,0,0,0,307],
@@ -246,8 +249,5 @@ var NAVTREEINDEX30 =
 "classMR_1_1EdgeBMap.html#ad76173008c8f565f5ad87e6f5a913f3e":[6,3,0,0,0,324,5],
 "classMR_1_1EdgeBitSet.html":[6,3,0,0,0,323],
 "classMR_1_1EdgeBitSet.html#a02df75ca3a0c437ec1f7336efa8adf11":[6,3,0,0,0,323,33],
-"classMR_1_1EdgeBitSet.html#a065a4f3587f2989ebc1cc1a037968a6f":[6,3,0,0,0,323,35],
-"classMR_1_1EdgeBitSet.html#a0f778575d34c114cb2997df87d88f3d0":[6,3,0,0,0,323,15],
-"classMR_1_1EdgeBitSet.html#a160666dc327c809631fe0a16619c4517":[6,3,0,0,0,323,34],
-"classMR_1_1EdgeBitSet.html#a16fc628fb8e2d4d442d5887cd238066c":[6,3,0,0,0,323,3]
+"classMR_1_1EdgeBitSet.html#a065a4f3587f2989ebc1cc1a037968a6f":[6,3,0,0,0,323,35]
 };

@@ -1079,6 +1079,7 @@ var hierarchy =
       [ "MR::DistanceMap", "classMR_1_1DistanceMap.html", null ],
       [ "MR::Matrix< T >", "structMR_1_1Matrix.html", null ]
     ] ],
+    [ "MR::ReduceTotalAngleParams", "structMR_1_1ReduceTotalAngleParams.html", null ],
     [ "MR::RefineParameters", "structMR_1_1RefineParameters.html", null ],
     [ "MR::WeightedShell::ParametersRegions::Region", "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html", null ],
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", null ],

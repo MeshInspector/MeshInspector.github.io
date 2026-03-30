@@ -562,6 +562,7 @@
     <innerclass refid="classMR_1_1RecentFilesStore" prot="public">MR::RecentFilesStore</innerclass>
     <innerclass refid="classMR_1_1RectIndexer" prot="public">MR::RectIndexer</innerclass>
     <innerclass refid="classMR_1_1RedoMenuItem" prot="public">MR::RedoMenuItem</innerclass>
+    <innerclass refid="structMR_1_1ReduceTotalAngleParams" prot="public">MR::ReduceTotalAngleParams</innerclass>
     <innerclass refid="structMR_1_1RefineParameters" prot="public">MR::RefineParameters</innerclass>
     <innerclass refid="classMR_1_1RegisterRenderObjectConstructor" prot="public">MR::RegisterRenderObjectConstructor</innerclass>
     <innerclass refid="classMR_1_1RegularMapMesher" prot="public">MR::RegularMapMesher</innerclass>
@@ -2760,6 +2761,8 @@
       <member refid="group__GeneralGroup_1ga239cbc262f9cc0bda4d8b5bf928ee0d2" kind="function"><name>computeInSphereThicknessAtVertices</name></member>
       <member refid="group__MeshAlgorithmGroup_1gaff12e899a2fa7790b09853a93701515f" kind="function"><name>meshToPointCloud</name></member>
       <member refid="group__GeneralGroup_1gaaf3190c056e93a1b63f3643cef77443d" kind="function"><name>rearrangeVectorByMap</name></member>
+      <member refid="group__GeneralGroup_1ga19250559074367ec9c94fb269e4edbf0" kind="function"><name>reduceTotalAngle</name></member>
+      <member refid="group__GeneralGroup_1ga3fe97c1cb025727b2b2ee3ac20eccbcd" kind="function"><name>reduceTotalAngleInMesh</name></member>
       <member refid="group__GeneralGroup_1gabc65201be45a805494282264894b6016" kind="function"><name>subdivideWithPlane</name></member>
       <member refid="group__GeneralGroup_1ga0cd2c0e780fffc6aab36455960a67cf5" kind="function"><name>trimWithPlane</name></member>
       <member refid="group__GeneralGroup_1gae63869faad2d41ee91898e9a1dd37b64" kind="function"><name>trimWithPlane</name></member>

@@ -974,6 +974,7 @@ var hierarchy =
       [ "mrmeshpy.DistanceMap", "classmrmeshpy_1_1DistanceMap.html", null ],
       [ "mrmeshpy.Matrix_float", "classmrmeshpy_1_1Matrix__float.html", null ]
     ] ],
+    [ "mrmeshpy.ReduceTotalAngleParams", "classmrmeshpy_1_1ReduceTotalAngleParams.html", null ],
     [ "mrmeshpy.RefineParameters", "classmrmeshpy_1_1RefineParameters.html", null ],
     [ "mrmeshpy.WeightedShell.ParametersRegions.Region", "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region.html", null ],
     [ "mrmeshpy.RegionId", "classmrmeshpy_1_1RegionId.html", [

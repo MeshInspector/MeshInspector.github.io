@@ -202,6 +202,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRMeshToPointCloud.cs", "MRMeshToPointCloud_8cs.html", "MRMeshToPointCloud_8cs" ],
     [ "MRMeshTopology.cs", "MRMeshTopology_8cs.html", "MRMeshTopology_8cs" ],
     [ "MRMeshTopologyDiff.cs", "MRMeshTopologyDiff_8cs.html", "MRMeshTopologyDiff_8cs" ],
+    [ "MRMeshTotalAngle.cs", "MRMeshTotalAngle_8cs.html", "MRMeshTotalAngle_8cs" ],
     [ "MRMeshTrimWithPlane.cs", "MRMeshTrimWithPlane_8cs.html", "MRMeshTrimWithPlane_8cs" ],
     [ "MRMeshTriPoint.cs", "MRMeshTriPoint_8cs.html", "MRMeshTriPoint_8cs" ],
     [ "MRMinMaxArg.cs", "MRMinMaxArg_8cs.html", "MRMinMaxArg_8cs" ],

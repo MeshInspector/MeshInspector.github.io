@@ -239,6 +239,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRMeshToPointCloud.h", "MRMeshToPointCloud_8h.html", "MRMeshToPointCloud_8h" ],
     [ "MRMeshTopology.h", "MRMeshTopology_8h.html", "MRMeshTopology_8h" ],
     [ "MRMeshTopologyDiff.h", "MRMeshTopologyDiff_8h.html", null ],
+    [ "MRMeshTotalAngle.h", "MRMeshTotalAngle_8h.html", "MRMeshTotalAngle_8h" ],
     [ "MRMeshTrimWithPlane.h", "MRMeshTrimWithPlane_8h.html", "MRMeshTrimWithPlane_8h" ],
     [ "MRMeshTriPoint.h", "MRMeshTriPoint_8h.html", null ],
     [ "MRMeta.h", "MRMeta_8h.html", "MRMeta_8h" ],

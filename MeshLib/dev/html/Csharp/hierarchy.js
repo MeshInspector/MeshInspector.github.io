@@ -1830,6 +1830,9 @@ var hierarchy =
       [ "MR.Const_RectIndexer", null, [
         [ "MR.RectIndexer", "classMR_1_1RectIndexer.html", null ]
       ] ],
+      [ "MR.Const_ReduceTotalAngleParams", null, [
+        [ "MR.ReduceTotalAngleParams", "classMR_1_1ReduceTotalAngleParams.html", null ]
+      ] ],
       [ "MR.Const_RefineParameters", null, [
         [ "MR.RefineParameters", "classMR_1_1RefineParameters.html", null ]
       ] ],
@@ -3906,6 +3909,7 @@ var hierarchy =
       [ "MR.Const_RayOrigin_Float", null, null ],
       [ "MR.Const_RebuildMeshSettings", null, null ],
       [ "MR.Const_RectIndexer", null, null ],
+      [ "MR.Const_ReduceTotalAngleParams", null, null ],
       [ "MR.Const_RefineParameters", null, null ],
       [ "MR.Const_RegionBitSet", null, null ],
       [ "MR.Const_RegularMapMesher", null, null ],

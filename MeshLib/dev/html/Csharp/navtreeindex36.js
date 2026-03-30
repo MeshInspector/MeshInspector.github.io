@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1GridToMeshSettings.html":[6,3,0,0,0,398],
+"classMR_1_1GridToMeshSettings.html#a121857b40909855ddf4e329cbb32055b":[6,3,0,0,0,398,6],
+"classMR_1_1GridToMeshSettings.html#a13fd596b0d9ec494985e6170d41d9372":[6,3,0,0,0,398,7],
 "classMR_1_1GridToMeshSettings.html#a3755177020f1ce5d135b71304d7bae3d":[6,3,0,0,0,398,0],
 "classMR_1_1GridToMeshSettings.html#a397d334b2e3a61834e7cc09885cffa10":[6,3,0,0,0,398,9],
 "classMR_1_1GridToMeshSettings.html#a415d421a868191a95a566bb3e1cba079":[6,3,0,0,0,398,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1InflateSettings.html#abc80bd6e0aa2b20b3cc65a3f1f24fce4":[6,3,0,0,0,418,4],
 "classMR_1_1InflateSettings.html#ac5820bad398e1f9ebe220b6f066251b9":[6,3,0,0,0,418,8],
 "classMR_1_1InflateSettings.html#aca2bbbf70d69b99429ef8517e9204419":[6,3,0,0,0,418,6],
-"classMR_1_1InflateSettings.html#acd89a95a15f8846e897d05846e75ac5a":[6,3,0,0,0,418,0],
-"classMR_1_1IntersectionPrecomputes2__Double.html":[6,3,0,0,0,421],
-"classMR_1_1IntersectionPrecomputes2__Double.html#a02c65ae042c03f23e79b09e21330a8ed":[6,3,0,0,0,421,4],
-"classMR_1_1IntersectionPrecomputes2__Double.html#a1c6f377ae82f06071dfd565c082e8145":[6,3,0,0,0,421,9]
+"classMR_1_1InflateSettings.html#acd89a95a15f8846e897d05846e75ac5a":[6,3,0,0,0,418,0]
 };

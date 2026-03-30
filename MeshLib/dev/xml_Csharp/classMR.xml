@@ -739,6 +739,7 @@
     <innerclass refid="classMR_1_1RayOrigin__Float" prot="public">MR::RayOrigin_Float</innerclass>
     <innerclass refid="classMR_1_1RebuildMeshSettings" prot="public">MR::RebuildMeshSettings</innerclass>
     <innerclass refid="classMR_1_1RectIndexer" prot="public">MR::RectIndexer</innerclass>
+    <innerclass refid="classMR_1_1ReduceTotalAngleParams" prot="public">MR::ReduceTotalAngleParams</innerclass>
     <innerclass refid="classMR_1_1RefineParameters" prot="public">MR::RefineParameters</innerclass>
     <innerclass refid="classMR_1_1RegionBitSet" prot="public">MR::RegionBitSet</innerclass>
     <innerclass refid="structMR_1_1RegionId" prot="public">MR::RegionId</innerclass>
@@ -24920,6 +24921,76 @@ do not really keeps volume but tries hard </para>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="8" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" bodystart="8" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ae4171f5402c2383f24804f51074d6311" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>static unsafe int MR.reduceTotalAngle</definition>
+        <argsstring>(MR.MeshTopology topology, MR.Const_VertCoords points, int numIters, MR.Const_ReduceTotalAngleParams? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</argsstring>
+        <name>reduceTotalAngle</name>
+        <qualifiedname>MR.reduceTotalAngle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertCoords</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>MR.Const_ReduceTotalAngleParams?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>progressCallback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its length; performs the given number of iterations, during each the edges are flipped; returns the total number of flips done Generated from function <computeroutput><ref refid="classMR_1ae4171f5402c2383f24804f51074d6311" kindref="member">MR.reduceTotalAngle</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>progressCallback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="336" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="336" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1abcd3335b980057dbe48e9fa19efcc011" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>static unsafe int MR.reduceTotalAngleInMesh</definition>
+        <argsstring>(MR.Mesh mesh, int numIters, MR.Const_ReduceTotalAngleParams? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</argsstring>
+        <name>reduceTotalAngleInMesh</name>
+        <qualifiedname>MR.reduceTotalAngleInMesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>MR.Const_ReduceTotalAngleParams?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>progressCallback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1abcd3335b980057dbe48e9fa19efcc011" kindref="member">MR.reduceTotalAngleInMesh</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>progressCallback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="348" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="348" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3eb2ed737e47a339460e5a0e663024f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -50616,6 +50687,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a4b0db30e86821abcdb5d2d088f815556" prot="public" virt="non-virtual"><scope>MR</scope><name>rebuildMesh</name></member>
       <member refid="classMR_1adeae5acc35a0d8dafb0b07fa1e0d9daa" prot="public" virt="non-virtual"><scope>MR</scope><name>reducePath</name></member>
       <member refid="classMR_1a239348ff011a378fab46ae6b63fc97d7" prot="public" virt="non-virtual"><scope>MR</scope><name>reducePathViaVertex</name></member>
+      <member refid="classMR_1ae4171f5402c2383f24804f51074d6311" prot="public" virt="non-virtual"><scope>MR</scope><name>reduceTotalAngle</name></member>
+      <member refid="classMR_1abcd3335b980057dbe48e9fa19efcc011" prot="public" virt="non-virtual"><scope>MR</scope><name>reduceTotalAngleInMesh</name></member>
       <member refid="classMR_1af458009255a5f3944e21a6260796b2e0" prot="public" virt="non-virtual"><scope>MR</scope><name>refineFeatureObject</name></member>
       <member refid="classMR_1aea8ca8b3dd354780b2b9d5457211e175" prot="public" virt="non-virtual"><scope>MR</scope><name>refineFeatureObject</name></member>
       <member refid="classMR_1a4f624a3d51db277bb1739ec20a5af253" prot="public" virt="non-virtual"><scope>MR</scope><name>relax</name></member>

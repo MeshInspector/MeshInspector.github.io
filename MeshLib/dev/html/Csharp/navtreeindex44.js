@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1NoCtor__MRObjId.html":[6,3,0,0,0,571],
+"classMR_1_1NoCtor__MRObjId.html#a29d5e632c7b8a38e3741ebee510e94e6":[6,3,0,0,0,571,3],
+"classMR_1_1NoCtor__MRObjId.html#a5236fdeca15cab63e77751950f01b540":[6,3,0,0,0,571,0],
 "classMR_1_1NoCtor__MRObjId.html#a882c86579919f45e45415b16813e8e12":[6,3,0,0,0,571,1],
 "classMR_1_1NoCtor__MRObjId.html#aecd339042f4d5155f143e88339d6db6e":[6,3,0,0,0,571,2],
 "classMR_1_1NoCtor__MRPixelId.html":[6,3,0,0,0,572],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1NormalsToPoints.html#a8494e08025e7ab1667a2b16b0d14fead":[6,3,0,0,0,598,5],
 "classMR_1_1NormalsToPoints.html#ab504a2ac4cdbcfa35282cad8359543b6":[6,3,0,0,0,598,1],
 "classMR_1_1NormalsToPoints.html#af03296d2cbd0f68e37a04665b7d11824":[6,3,0,0,0,598,4],
-"classMR_1_1NormalsToPoints.html#af0ef4b1417f7e5fb4d3da37ed3bbd547":[6,3,0,0,0,598,0],
-"classMR_1_1NumSum.html":[6,3,0,0,0,599],
-"classMR_1_1NumSum.html#a1c7c11d244fd80153b9cccf795efd201":[6,3,0,0,0,599,0],
-"classMR_1_1NumSum.html#a2a8f969c81a89b7a90271eda1e5ae188":[6,3,0,0,0,599,6]
+"classMR_1_1NormalsToPoints.html#af0ef4b1417f7e5fb4d3da37ed3bbd547":[6,3,0,0,0,598,0]
 };

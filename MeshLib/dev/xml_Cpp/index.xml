@@ -8950,6 +8950,12 @@
     <member refid="group__GeneralGroup_1ga8de54e498c94d2adea1613dd73e9a818" kind="function"><name>getDynamicTooltip</name></member>
     <member refid="group__GeneralGroup_1ga5d748b82ae5325e076cc5dab6e2c2f56" kind="function"><name>updateRedoListCache_</name></member>
   </compound>
+  <compound refid="structMR_1_1ReduceTotalAngleParams" kind="struct"><name>MR::ReduceTotalAngleParams</name>
+    <member refid="group__GeneralGroup_1ga05e31fe898e5fd6f6d42d952fbc3991b" kind="variable"><name>factorDelone</name></member>
+    <member refid="group__GeneralGroup_1gaa25442f103cd80c149b33bc79eb64b0a" kind="variable"><name>region</name></member>
+    <member refid="group__GeneralGroup_1ga70c336170c2b3fd77e32ada0109f0e92" kind="variable"><name>notFlippable</name></member>
+    <member refid="group__GeneralGroup_1ga4026047e5b2606e85f6b474de3b015e3" kind="variable"><name>vertRegion</name></member>
+  </compound>
   <compound refid="structMR_1_1RefineParameters" kind="struct"><name>MR::RefineParameters</name>
     <member refid="group__GeneralGroup_1ga486a6518c80e8dcbf53b70b8870eaa6f" kind="variable"><name>distanceLimit</name></member>
     <member refid="group__GeneralGroup_1ga0550c06323ac687236b8994cbdef837c" kind="variable"><name>normalTolerance</name></member>
@@ -14786,6 +14792,8 @@
     <member refid="group__GeneralGroup_1ga239cbc262f9cc0bda4d8b5bf928ee0d2" kind="function"><name>computeInSphereThicknessAtVertices</name></member>
     <member refid="group__MeshAlgorithmGroup_1gaff12e899a2fa7790b09853a93701515f" kind="function"><name>meshToPointCloud</name></member>
     <member refid="group__GeneralGroup_1gaaf3190c056e93a1b63f3643cef77443d" kind="function"><name>rearrangeVectorByMap</name></member>
+    <member refid="group__GeneralGroup_1ga19250559074367ec9c94fb269e4edbf0" kind="function"><name>reduceTotalAngle</name></member>
+    <member refid="group__GeneralGroup_1ga3fe97c1cb025727b2b2ee3ac20eccbcd" kind="function"><name>reduceTotalAngleInMesh</name></member>
     <member refid="group__GeneralGroup_1gabc65201be45a805494282264894b6016" kind="function"><name>subdivideWithPlane</name></member>
     <member refid="group__GeneralGroup_1ga0cd2c0e780fffc6aab36455960a67cf5" kind="function"><name>trimWithPlane</name></member>
     <member refid="group__GeneralGroup_1gae63869faad2d41ee91898e9a1dd37b64" kind="function"><name>trimWithPlane</name></member>
@@ -17058,6 +17066,8 @@
   <compound refid="MRMeshTopology_8h" kind="file"><name>MRMeshTopology.h</name>
   </compound>
   <compound refid="MRMeshTopologyDiff_8h" kind="file"><name>MRMeshTopologyDiff.h</name>
+  </compound>
+  <compound refid="MRMeshTotalAngle_8h" kind="file"><name>MRMeshTotalAngle.h</name>
   </compound>
   <compound refid="MRMeshTrimWithPlane_8h" kind="file"><name>MRMeshTrimWithPlane.h</name>
   </compound>
@@ -21752,6 +21762,10 @@
     <member refid="group__GeneralGroup_1ga87e604fc7885293a1dbb7b4a89eed25f" kind="variable"><name>updateValids_</name></member>
     <member refid="group__GeneralGroup_1ga9f2e1e81b6a1f5328a10fb914ad88869" kind="variable"><name>toEdgesSize_</name></member>
     <member refid="group__GeneralGroup_1ga39b1649c247ac2e6e2c8364114912a1d" kind="variable"><name>changedEdges_</name></member>
+    <member refid="group__GeneralGroup_1ga05e31fe898e5fd6f6d42d952fbc3991b" kind="variable"><name>factorDelone</name></member>
+    <member refid="group__GeneralGroup_1gaa25442f103cd80c149b33bc79eb64b0a" kind="variable"><name>region</name></member>
+    <member refid="group__GeneralGroup_1ga70c336170c2b3fd77e32ada0109f0e92" kind="variable"><name>notFlippable</name></member>
+    <member refid="group__GeneralGroup_1ga4026047e5b2606e85f6b474de3b015e3" kind="variable"><name>vertRegion</name></member>
     <member refid="group__GeneralGroup_1gac31ec54e79c7c73e956dd8f91eb4e37c" kind="variable"><name>plane</name></member>
     <member refid="group__GeneralGroup_1ga21fbd4b8bfa38a079a62c8911d914b35" kind="variable"><name>eps</name></member>
     <member refid="group__GeneralGroup_1gaad3ace62ca2c0713d844f88dc24df14c" kind="variable"><name>onEdgeSplitCallback</name></member>
@@ -26239,6 +26253,8 @@
     <member refid="group__GeneralGroup_1ga2938cffd19b314aeae8e39ef7dc4df2e" kind="function"><name>applyAndSwap</name></member>
     <member refid="group__GeneralGroup_1gaeb15ef52dc9593c97da084a462456e23" kind="function"><name>any</name></member>
     <member refid="group__GeneralGroup_1gaa4a8e6c2de54156f11ab33a657c3c2d9" kind="function"><name>heapBytes</name></member>
+    <member refid="group__GeneralGroup_1ga19250559074367ec9c94fb269e4edbf0" kind="function"><name>reduceTotalAngle</name></member>
+    <member refid="group__GeneralGroup_1ga3fe97c1cb025727b2b2ee3ac20eccbcd" kind="function"><name>reduceTotalAngleInMesh</name></member>
     <member refid="group__GeneralGroup_1gabc65201be45a805494282264894b6016" kind="function"><name>subdivideWithPlane</name></member>
     <member refid="group__GeneralGroup_1ga0cd2c0e780fffc6aab36455960a67cf5" kind="function"><name>trimWithPlane</name></member>
     <member refid="group__GeneralGroup_1gae63869faad2d41ee91898e9a1dd37b64" kind="function"><name>trimWithPlane</name></member>

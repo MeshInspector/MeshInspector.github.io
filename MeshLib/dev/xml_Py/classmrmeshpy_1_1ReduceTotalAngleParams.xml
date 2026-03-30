@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ReduceTotalAngleParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ReduceTotalAngleParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a7fe1d3855e046ff068d944f454aee8d2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ReduceTotalAngleParams::_offsetof_factorDelone</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_factorDelone</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams._offsetof_factorDelone</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ReduceTotalAngleParams_1abb86a00d2b1313ca437bd3afb5480cc3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ReduceTotalAngleParams::_offsetof_notFlippable</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_notFlippable</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams._offsetof_notFlippable</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50532" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ReduceTotalAngleParams_1ad0fbd08babb3a12bb938a65c5748e208" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ReduceTotalAngleParams::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams._offsetof_region</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a3fb002425be75140dfb1e8432cd5e183" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ReduceTotalAngleParams::_offsetof_vertRegion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertRegion</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams._offsetof_vertRegion</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50534" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a3dd1d64558b11f8341c6e47217191c61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ReduceTotalAngleParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50537" bodyend="50538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a5e224f9b1703863c33e7d496313233e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ReduceTotalAngleParams" kindref="compound">ReduceTotalAngleParams</ref></type>
+        <definition> ReduceTotalAngleParams mrmeshpy.ReduceTotalAngleParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50541" bodyend="50542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a5e224f9b1703863c33e7d496313233e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ReduceTotalAngleParams" kindref="compound">ReduceTotalAngleParams</ref></type>
+        <definition> ReduceTotalAngleParams mrmeshpy.ReduceTotalAngleParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50545" bodyend="50546"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a6b64100f2116833b5b7df1c1fbd5e8dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ReduceTotalAngleParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50548" bodyend="50549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a51bc887f9b6980df175c65257fe34b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ReduceTotalAngleParams.__init__</definition>
+        <argsstring>(self, ReduceTotalAngleParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ReduceTotalAngleParams" kindref="compound">ReduceTotalAngleParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50551" bodyend="50554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a21f74cc8f9f85c20e8ba97de7e79e18c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ReduceTotalAngleParams.__init__</definition>
+        <argsstring>(self, float factorDelone, FaceBitSet region, UndirectedEdgeBitSet notFlippable, VertBitSet vertRegion)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>factorDelone</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>vertRegion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50556" bodyend="50559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a8b76cc029df051444bf02158ee315584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ReduceTotalAngleParams.factorDelone</definition>
+        <argsstring>(self)</argsstring>
+        <name>factorDelone</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.factorDelone</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This value must be in [0,1] range;
+factorDelone = 0 means that only dihedral angles are minimized, ignoring Delaunay criterion;
+factorDelone = 1 means that only Delaunay criterion is optimized ignoring dihedral angles;
+other values mean that a mixture of both criteria will be optimized
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50561" bodyend="50567"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a8710ace76e66a23fce639aad1fc2a677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ReduceTotalAngleParams.factorDelone</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>factorDelone</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.factorDelone</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50569" bodyend="50570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1ad87ffb824e0e0858d66eb2baa8e02c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.ReduceTotalAngleParams.notFlippable</definition>
+        <argsstring>(self)</argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.notFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Edges specified by this bit-set will never be flipped
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50572" bodyend="50575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a5bb78300be6d68ab76f2e00748e2dad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ReduceTotalAngleParams.notFlippable</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.notFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50577" bodyend="50578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1af94bf57d5234a262ba6682f466c1fddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.ReduceTotalAngleParams.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Only edges with left and right faces in this set can be flipped
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50580" bodyend="50583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1a155cf3b7108f0008894a0eba12217980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ReduceTotalAngleParams.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50585" bodyend="50586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1ac3ca65a77d04f9e10833b9cd1f6aaca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.ReduceTotalAngleParams.vertRegion</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertRegion</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.vertRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Only edges with origin or destination in this set before or after flip can be flipped
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50588" bodyend="50591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ReduceTotalAngleParams_1adc775e63076fc619972da012418d279d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ReduceTotalAngleParams.vertRegion</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>vertRegion</name>
+        <qualifiedname>mrmeshpy.ReduceTotalAngleParams.vertRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50593" bodyend="50594"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ReduceTotalAngleParams
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50527" bodyend="50594"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a3dd1d64558b11f8341c6e47217191c61" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a6b64100f2116833b5b7df1c1fbd5e8dd" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a51bc887f9b6980df175c65257fe34b41" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a21f74cc8f9f85c20e8ba97de7e79e18c" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a7fe1d3855e046ff068d944f454aee8d2" prot="protected" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>_offsetof_factorDelone</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1abb86a00d2b1313ca437bd3afb5480cc3" prot="protected" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>_offsetof_notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1ad0fbd08babb3a12bb938a65c5748e208" prot="protected" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a3fb002425be75140dfb1e8432cd5e183" prot="protected" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>_offsetof_vertRegion</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a8b76cc029df051444bf02158ee315584" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>factorDelone</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a8710ace76e66a23fce639aad1fc2a677" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>factorDelone</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1ad87ffb824e0e0858d66eb2baa8e02c10" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a5bb78300be6d68ab76f2e00748e2dad6" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a5e224f9b1703863c33e7d496313233e0" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a5e224f9b1703863c33e7d496313233e0" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1af94bf57d5234a262ba6682f466c1fddf" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1a155cf3b7108f0008894a0eba12217980" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1ac3ca65a77d04f9e10833b9cd1f6aaca3" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>vertRegion</name></member>
+      <member refid="classmrmeshpy_1_1ReduceTotalAngleParams_1adc775e63076fc619972da012418d279d" prot="public" virt="non-virtual"><scope>mrmeshpy::ReduceTotalAngleParams</scope><name>vertRegion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

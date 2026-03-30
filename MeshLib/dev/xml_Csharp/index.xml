@@ -11800,6 +11800,8 @@
     <member refid="classMR_1a315ecb2f225f55a3c049ecb61ad59d56" kind="function"><name>findInSphere</name></member>
     <member refid="classMR_1a159bb274260c010b34aff34f24dc590e" kind="function"><name>computeInSphereThicknessAtVertices</name></member>
     <member refid="classMR_1a6328cc48bc1be46ed3893c317cdf37eb" kind="function"><name>meshToPointCloud</name></member>
+    <member refid="classMR_1ae4171f5402c2383f24804f51074d6311" kind="function"><name>reduceTotalAngle</name></member>
+    <member refid="classMR_1abcd3335b980057dbe48e9fa19efcc011" kind="function"><name>reduceTotalAngleInMesh</name></member>
     <member refid="classMR_1a3eb2ed737e47a339460e5a0e663024f5" kind="function"><name>subdivideWithPlane</name></member>
     <member refid="classMR_1a6d27e0e8e30c6b9ec13029e9dcf4b289" kind="function"><name>trimWithPlane</name></member>
     <member refid="classMR_1a4f48c0f5cfa1a838b1857f3aa5d421d1" kind="function"><name>same</name></member>
@@ -16132,6 +16134,18 @@
     <member refid="classMR_1_1RectIndexer_1a320c5f45653d5d1ebff32d13ca5db2db" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1RectIndexer_1a1c86a4b8850368f0ce7e6b4ed448a6a8" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1RectIndexer_1a2fd9aeda7975cda737ca0af51abb31c1" kind="function"><name>operator RectIndexer</name></member>
+  </compound>
+  <compound refid="classMR_1_1ReduceTotalAngleParams" kind="class"><name>MR::ReduceTotalAngleParams</name>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1aa4fbedc47bc492a14531c4bc1635e8d8" kind="property"><name>factorDelone</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1a5d41804a8d8e6624a94e518d6f041943" kind="property"><name>region</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1ae109ddf97cb06466a3f3e9f14f4b4668" kind="property"><name>notFlippable</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1afe71b8d78ae7d29647b2ff5c9f8c67f2" kind="property"><name>vertRegion</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1a19eec9e88a13326741aeb6273015fc9c" kind="function"><name>ReduceTotalAngleParams</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1a26a60d6c81102d66f3e99cbf6532d29d" kind="function"><name>ReduceTotalAngleParams</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1a914df775b96523e5e8574adbedf21405" kind="function"><name>ReduceTotalAngleParams</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1a10f2bb6665d80699ca204e6259b0831b" kind="function"><name>ReduceTotalAngleParams</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1ac251e6d32068afd61c314d3e4b1c7e9a" kind="function"><name>ReduceTotalAngleParams</name></member>
+    <member refid="classMR_1_1ReduceTotalAngleParams_1a0d3717c4e63362acdbe4a9544bca2119" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1RefineParameters" kind="class"><name>MR::RefineParameters</name>
     <member refid="classMR_1_1RefineParameters_1a94153af25978f9bf365b09cb3fde4d69" kind="property"><name>distanceLimit</name></member>
@@ -22254,6 +22268,8 @@
   <compound refid="MRMeshTopology_8cs" kind="file"><name>MRMeshTopology.cs</name>
   </compound>
   <compound refid="MRMeshTopologyDiff_8cs" kind="file"><name>MRMeshTopologyDiff.cs</name>
+  </compound>
+  <compound refid="MRMeshTotalAngle_8cs" kind="file"><name>MRMeshTotalAngle.cs</name>
   </compound>
   <compound refid="MRMeshTrimWithPlane_8cs" kind="file"><name>MRMeshTrimWithPlane.cs</name>
   </compound>

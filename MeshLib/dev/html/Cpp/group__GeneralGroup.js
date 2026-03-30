@@ -2782,6 +2782,12 @@ var group__GeneralGroup =
       [ "applyAndSwap", "group__GeneralGroup.html#ga2938cffd19b314aeae8e39ef7dc4df2e", null ],
       [ "heapBytes", "group__GeneralGroup.html#gaa4a8e6c2de54156f11ab33a657c3c2d9", null ]
     ] ],
+    [ "MR::ReduceTotalAngleParams", "structMR_1_1ReduceTotalAngleParams.html", [
+      [ "factorDelone", "group__GeneralGroup.html#ga05e31fe898e5fd6f6d42d952fbc3991b", null ],
+      [ "notFlippable", "group__GeneralGroup.html#ga70c336170c2b3fd77e32ada0109f0e92", null ],
+      [ "region", "group__GeneralGroup.html#gaa25442f103cd80c149b33bc79eb64b0a", null ],
+      [ "vertRegion", "group__GeneralGroup.html#ga4026047e5b2606e85f6b474de3b015e3", null ]
+    ] ],
     [ "MR::TrimWithPlaneParams", "structMR_1_1TrimWithPlaneParams.html", [
       [ "eps", "group__GeneralGroup.html#ga21fbd4b8bfa38a079a62c8911d914b35", null ],
       [ "onEdgeSplitCallback", "group__GeneralGroup.html#gaad3ace62ca2c0713d844f88dc24df14c", null ],
@@ -14355,6 +14361,8 @@ var group__GeneralGroup =
     [ "MR::Viewport::recursiveDraw", "group__GeneralGroup.html#gaa1496cb43fc603cb4054ef3934ed2d61", null ],
     [ "MR::Color::red", "group__GeneralGroup.html#ga9f743712af5597ae9e55d338143d10c6", null ],
     [ "MR::RedoMenuItem::RedoMenuItem", "group__GeneralGroup.html#ga4899cc7ca225d5bc473aedd72f99b18b", null ],
+    [ "MR::reduceTotalAngle", "group__GeneralGroup.html#ga19250559074367ec9c94fb269e4edbf0", null ],
+    [ "MR::reduceTotalAngleInMesh", "group__GeneralGroup.html#ga3fe97c1cb025727b2b2ee3ac20eccbcd", null ],
     [ "MR::refineFeatureObject", "group__GeneralGroup.html#ga71f4f87aeb04a7832f4c700f4df504fc", null ],
     [ "MR::refineFeatureObject", "group__GeneralGroup.html#gac246984809a85c70e162665d1c5069f9", null ],
     [ "MR::Laplacian::region", "group__GeneralGroup.html#ga9ad9ba866f86e02979c7ad6b6af3331c", null ],
@@ -16684,6 +16692,7 @@ var group__GeneralGroup =
     [ "MR::RenderMeshObject::facesNormalsTex_", "group__GeneralGroup.html#ga5931d691ce4183252190a5357ead412a", null ],
     [ "MR::FaceTag", "group__GeneralGroup.html#ga7a4a96848eb4b1524be699a7adcd8017", null ],
     [ "MR::BaseFitParams::factor", "group__GeneralGroup.html#gae74aad8ea3ab5114c97b3b5cf02a6cd6", null ],
+    [ "MR::ReduceTotalAngleParams::factorDelone", "group__GeneralGroup.html#ga05e31fe898e5fd6f6d42d952fbc3991b", null ],
     [ "MR::ModelPointsData::fakeObjId", "group__GeneralGroup.html#gab1ca6825ddb7fe9e1937c74d1bed6625", null ],
     [ "MR::AllLocalTriangulations::fanRecords", "group__GeneralGroup.html#ga63033f3b2a1d4be33d6fc4e3d709a2cf", null ],
     [ "MR::SomeLocalTriangulations::fanRecords", "group__GeneralGroup.html#ga26d4e93a4bff3856092a522b80bd422e", null ],
@@ -17202,6 +17211,7 @@ var group__GeneralGroup =
     [ "MR::ThickenParams::normalsTrustFactor", "group__GeneralGroup.html#gac42c225e2b59dab20e2cbbea477458b1", null ],
     [ "MR::RefineParameters::normalTolerance", "group__GeneralGroup.html#ga0550c06323ac687236b8994cbdef837c", null ],
     [ "MR::ModelRenderParams::normMatrixPtr", "group__GeneralGroup.html#ga7055e460ef562d8825891c62abcd7f2e", null ],
+    [ "MR::ReduceTotalAngleParams::notFlippable", "group__GeneralGroup.html#ga70c336170c2b3fd77e32ada0109f0e92", null ],
     [ "MR::SubdivideFillingSettings::notFlippable", "group__GeneralGroup.html#ga873defafe8bd5f0ef51bd6d0c3f92f2d", null ],
     [ "MR::RibbonNotifier::NotificationWithTimer::notification", "group__GeneralGroup.html#gab2fc147b0fc24b68fb7294c37ef23e9e", null ],
     [ "MR::MeshPoint::notIncidentFaces", "group__GeneralGroup.html#gab79fe5ae069fdadbd3770bdfe85a1109", null ],
@@ -17584,6 +17594,7 @@ var group__GeneralGroup =
     [ "MR::MeshRegion::region", "group__GeneralGroup.html#ga020e8c1bd5c2c3c5186ff4680d8004b0", null ],
     [ "MR::PointCloudPart::region", "group__GeneralGroup.html#gadb49365fb60e376e6302ffa62d2b534a", null ],
     [ "MR::PositionVertsSmoothlyParams::region", "group__GeneralGroup.html#ga35aa8fa1280f405afeb9f43189843024", null ],
+    [ "MR::ReduceTotalAngleParams::region", "group__GeneralGroup.html#gaa25442f103cd80c149b33bc79eb64b0a", null ],
     [ "MR::RelaxParams::region", "group__GeneralGroup.html#gabeb08d7e70411cf9ef2826c0f058b909", null ],
     [ "MR::SpacingSettings::region", "group__GeneralGroup.html#gac011fc95d61ece99cc3358e1236104d9", null ],
     [ "MR::RegionTag", "group__GeneralGroup.html#gaf293d6c66d14a3940a1c5a5685a1b36f", null ],
@@ -18074,6 +18085,7 @@ var group__GeneralGroup =
     [ "MR::RenderMeshObject::vertNormalsSize_", "group__GeneralGroup.html#ga8e4c0f111508fd26331871247ad7e055", null ],
     [ "MR::RenderMeshObject::vertPosBuffer_", "group__GeneralGroup.html#ga8f3dc8d13b36124134b86d4e81519767", null ],
     [ "MR::RenderMeshObject::vertPosSize_", "group__GeneralGroup.html#gad8c179bd9f2914459146986ba590f4c2", null ],
+    [ "MR::ReduceTotalAngleParams::vertRegion", "group__GeneralGroup.html#ga4026047e5b2606e85f6b474de3b015e3", null ],
     [ "MR::RefineParameters::vertRegion", "group__GeneralGroup.html#ga528671040882a5d5982efd35a695f752", null ],
     [ "MR::UnorientedTriangle::verts", "group__GeneralGroup.html#ga6dc0b9d338593fc4fd8715ed4e11b9f8", null ],
     [ "MR::ObjectLinesHolder::vertsColorMap_", "group__GeneralGroup.html#gaebf8fd3ebbe9baca5e1890a03da63db7", null ],
