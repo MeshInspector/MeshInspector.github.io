@@ -3253,7 +3253,7 @@
     <member refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" kind="variable"><name>triangulateOnly</name></member>
     <member refid="group__GeneralGroup_1ga7b05b181968c758ebe172bd27457185b" kind="variable"><name>subdivideSettings</name></member>
     <member refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" kind="variable"><name>smoothCurvature</name></member>
-    <member refid="group__GeneralGroup_1gacefa7bb069740dbb24ec548f52178ecf" kind="variable"><name>smoothSeettings</name></member>
+    <member refid="group__GeneralGroup_1ga34a56d380f672046a965d5bcc6f66e06" kind="variable"><name>smoothSettings</name></member>
     <member refid="group__GeneralGroup_1gae228d6f67e070cb9c4323dd57a421c73" kind="variable"><name>outAttributes</name></member>
   </compound>
   <compound refid="structMR_1_1FillHoleParams" kind="struct"><name>MR::FillHoleParams</name>
@@ -10676,7 +10676,7 @@
     <member refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" kind="variable"><name>triangulateOnly</name></member>
     <member refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" kind="variable"><name>subdivideSettings</name></member>
     <member refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" kind="variable"><name>smoothCurvature</name></member>
-    <member refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" kind="variable"><name>smoothSeettings</name></member>
+    <member refid="group__GeneralGroup_1gad2e68e1f1a6709a037e454b3673663d2" kind="variable"><name>smoothSettings</name></member>
     <member refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" kind="variable"><name>outAttributes</name></member>
   </compound>
   <compound refid="structMR_1_1StitchHolesParams" kind="struct"><name>MR::StitchHolesParams</name>
@@ -21337,13 +21337,13 @@
     <member refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" kind="variable"><name>triangulateOnly</name></member>
     <member refid="group__GeneralGroup_1ga7b05b181968c758ebe172bd27457185b" kind="variable"><name>subdivideSettings</name></member>
     <member refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" kind="variable"><name>smoothCurvature</name></member>
-    <member refid="group__GeneralGroup_1gacefa7bb069740dbb24ec548f52178ecf" kind="variable"><name>smoothSeettings</name></member>
+    <member refid="group__GeneralGroup_1ga34a56d380f672046a965d5bcc6f66e06" kind="variable"><name>smoothSettings</name></member>
     <member refid="group__GeneralGroup_1gae228d6f67e070cb9c4323dd57a421c73" kind="variable"><name>outAttributes</name></member>
     <member refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" kind="variable"><name>triangulateParams</name></member>
     <member refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" kind="variable"><name>triangulateOnly</name></member>
     <member refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" kind="variable"><name>subdivideSettings</name></member>
     <member refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" kind="variable"><name>smoothCurvature</name></member>
-    <member refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" kind="variable"><name>smoothSeettings</name></member>
+    <member refid="group__GeneralGroup_1gad2e68e1f1a6709a037e454b3673663d2" kind="variable"><name>smoothSettings</name></member>
     <member refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" kind="variable"><name>outAttributes</name></member>
     <member refid="group__GeneralGroup_1gae5606c4ebbd1f6f3acf27a76862219b0" kind="variable"><name>touchIsIntersection</name></member>
     <member refid="group__GeneralGroup_1gaface1dd6cc60f50dd76186b73d130994" kind="variable"><name>method</name></member>

@@ -1611,7 +1611,7 @@ var group__GeneralGroup =
     [ "MR::FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", [
       [ "outAttributes", "group__GeneralGroup.html#gae228d6f67e070cb9c4323dd57a421c73", null ],
       [ "smoothCurvature", "group__GeneralGroup.html#gaac4ecae12eb97ad05b204ac14de42cb8", null ],
-      [ "smoothSeettings", "group__GeneralGroup.html#gacefa7bb069740dbb24ec548f52178ecf", null ],
+      [ "smoothSettings", "group__GeneralGroup.html#ga34a56d380f672046a965d5bcc6f66e06", null ],
       [ "subdivideSettings", "group__GeneralGroup.html#ga7b05b181968c758ebe172bd27457185b", null ],
       [ "triangulateOnly", "group__GeneralGroup.html#ga62e34964b014489a6f1d3f2e324759ff", null ],
       [ "triangulateParams", "group__GeneralGroup.html#ga2ead937ed1df084dc6a43160e17df2c2", null ]
@@ -1619,7 +1619,7 @@ var group__GeneralGroup =
     [ "MR::StitchHolesNicelySettings", "structMR_1_1StitchHolesNicelySettings.html", [
       [ "outAttributes", "group__GeneralGroup.html#gaa0918f73a5da8336e98604cadd4373b1", null ],
       [ "smoothCurvature", "group__GeneralGroup.html#ga45ec4f63aa8dff81d3ed1c6c8ac1fefd", null ],
-      [ "smoothSeettings", "group__GeneralGroup.html#ga574c3df036ce8c752e88ed337c0e06e2", null ],
+      [ "smoothSettings", "group__GeneralGroup.html#gad2e68e1f1a6709a037e454b3673663d2", null ],
       [ "subdivideSettings", "group__GeneralGroup.html#ga41a8d4e28e645afe297f2d7450ae6a3d", null ],
       [ "triangulateOnly", "group__GeneralGroup.html#ga4d6a2b64ba35e979aaf98098d6f34be3", null ],
       [ "triangulateParams", "group__GeneralGroup.html#ga83e24c3d8730be6202659fcb65549581", null ]
@@ -17754,8 +17754,8 @@ var group__GeneralGroup =
     [ "MR::ObjectLinesHolder::smoothConnections_", "group__GeneralGroup.html#ga5e2decefeb68afc04d745403e70da92f", null ],
     [ "MR::FillHoleNicelySettings::smoothCurvature", "group__GeneralGroup.html#gaac4ecae12eb97ad05b204ac14de42cb8", null ],
     [ "MR::StitchHolesNicelySettings::smoothCurvature", "group__GeneralGroup.html#ga45ec4f63aa8dff81d3ed1c6c8ac1fefd", null ],
-    [ "MR::FillHoleNicelySettings::smoothSeettings", "group__GeneralGroup.html#gacefa7bb069740dbb24ec548f52178ecf", null ],
-    [ "MR::StitchHolesNicelySettings::smoothSeettings", "group__GeneralGroup.html#ga574c3df036ce8c752e88ed337c0e06e2", null ],
+    [ "MR::FillHoleNicelySettings::smoothSettings", "group__GeneralGroup.html#ga34a56d380f672046a965d5bcc6f66e06", null ],
+    [ "MR::StitchHolesNicelySettings::smoothSettings", "group__GeneralGroup.html#gad2e68e1f1a6709a037e454b3673663d2", null ],
     [ "MR::BaseFitParams::snapView", "group__GeneralGroup.html#ga1ba0fadee2fc4bad0655f2b0f15211ab", null ],
     [ "MR::CurvePoint::snorm", "group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920", null ],
     [ "MR::SaveSettings::solidColor", "group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649", null ],

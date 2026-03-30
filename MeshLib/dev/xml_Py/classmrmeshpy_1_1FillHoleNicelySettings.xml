@@ -33,12 +33,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19349" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1adf6cc72dbab819309dcf074fbc915127" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleNicelySettings_1a9962e2052fc9be0fa640fb12fd9212e8" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_smoothSeettings</definition>
+        <definition>typing mrmeshpy.FillHoleNicelySettings::_offsetof_smoothSettings</definition>
         <argsstring></argsstring>
-        <name>_offsetof_smoothSeettings</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_smoothSeettings</qualifiedname>
+        <name>_offsetof_smoothSettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings._offsetof_smoothSettings</qualifiedname>
         <initializer>=  236</initializer>
         <briefdescription>
         </briefdescription>
@@ -205,10 +205,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19370" bodyend="19373"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a80cc442f1fd01f993f8c90b37cf69a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a8f73c7daa8eca700786cfd5fcd237c07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.FillHoleNicelySettings.__init__</definition>
-        <argsstring>(self, FillHoleParams triangulateParams, bool triangulateOnly, SubdivideFillingSettings subdivideSettings, bool smoothCurvature, SmoothFillingSettings smoothSeettings, OutAttributesFillingSettings outAttributes)</argsstring>
+        <argsstring>(self, FillHoleParams triangulateParams, bool triangulateOnly, SubdivideFillingSettings subdivideSettings, bool smoothCurvature, SmoothFillingSettings smoothSettings, OutAttributesFillingSettings outAttributes)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FillHoleNicelySettings.__init__</qualifiedname>
         <param>
@@ -233,7 +233,7 @@
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref></type>
-          <declname>smoothSeettings</declname>
+          <declname>smoothSettings</declname>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref></type>
@@ -333,12 +333,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19393" bodyend="19394"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a2b9b1d2ec94da18dc59b0589b91396f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1ac733db278a3968959b3a238c8ee6f42a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SmoothFillingSettings" kindref="compound">SmoothFillingSettings</ref></type>
-        <definition> SmoothFillingSettings mrmeshpy.FillHoleNicelySettings.smoothSeettings</definition>
+        <definition> SmoothFillingSettings mrmeshpy.FillHoleNicelySettings.smoothSettings</definition>
         <argsstring>(self)</argsstring>
-        <name>smoothSeettings</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.smoothSeettings</qualifiedname>
+        <name>smoothSettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings.smoothSettings</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -353,12 +353,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19396" bodyend="19399"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a23e1213db1c2571af9742a181430d88c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleNicelySettings_1a585c17cd108700c373f8557d1fa075c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.FillHoleNicelySettings.smoothSeettings</definition>
+        <definition> None mrmeshpy.FillHoleNicelySettings.smoothSettings</definition>
         <argsstring>(self, SmoothFillingSettings arg1)</argsstring>
-        <name>smoothSeettings</name>
-        <qualifiedname>mrmeshpy.FillHoleNicelySettings.smoothSeettings</qualifiedname>
+        <name>smoothSettings</name>
+        <qualifiedname>mrmeshpy.FillHoleNicelySettings.smoothSettings</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -513,10 +513,10 @@
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a98f5c34ccb8bca10d191c76a45cdba6e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ae6ea8ac79fa3e78fc50502640af68e2a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ac5e3498c40d977fe9fde7f527d77942b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a80cc442f1fd01f993f8c90b37cf69a22" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a8f73c7daa8eca700786cfd5fcd237c07" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a5b93505c7317ceae2ac93674cdb358ee" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_outAttributes</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a2fbe0c03266a5fdbf8949c0f27232986" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_smoothCurvature</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1adf6cc72dbab819309dcf074fbc915127" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_smoothSeettings</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a9962e2052fc9be0fa640fb12fd9212e8" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_smoothSettings</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a5c17df2d67ea8d7b0ff14f2cb42abfc9" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_subdivideSettings</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a488026c4090daa2db94609788871c4a9" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_triangulateOnly</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ab959619e95adc31a0002fb915d5f6969" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>_offsetof_triangulateParams</name></member>
@@ -526,8 +526,8 @@
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a1c868371abef0eb02374cd226abce0ba" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>outAttributes</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a72e52ea4b95f57b6395f38dbf4ab3e52" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothCurvature</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ab8957b49b65eaf94bed0b2b0c4ff4b23" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothCurvature</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a2b9b1d2ec94da18dc59b0589b91396f2" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothSeettings</name></member>
-      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a23e1213db1c2571af9742a181430d88c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothSeettings</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1ac733db278a3968959b3a238c8ee6f42a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothSettings</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a585c17cd108700c373f8557d1fa075c8" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>smoothSettings</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1abb2b54a1bd675ff806b33364bc82a514" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>subdivideSettings</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a2e954c55db042e237ee834c87c4e0a01" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>subdivideSettings</name></member>
       <member refid="classmrmeshpy_1_1FillHoleNicelySettings_1a9b6b87c63c230d483ff8874ec0b316ca" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleNicelySettings</scope><name>triangulateOnly</name></member>

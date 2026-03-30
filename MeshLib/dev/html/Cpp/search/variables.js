@@ -1724,7 +1724,7 @@ var searchData=
   ['smoothconnections_5f_119',['smoothConnections_',['../group__GeneralGroup.html#ga5e2decefeb68afc04d745403e70da92f',1,'MR::ObjectLinesHolder']]],
   ['smoothcurvature_120',['smoothCurvature',['../group__GeneralGroup.html#gaac4ecae12eb97ad05b204ac14de42cb8',1,'MR::FillHoleNicelySettings::smoothCurvature'],['../group__GeneralGroup.html#ga45ec4f63aa8dff81d3ed1c6c8ac1fefd',1,'MR::StitchHolesNicelySettings::smoothCurvature']]],
   ['smoothmode_121',['smoothMode',['../structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0',1,'MR::SubdivideSettings']]],
-  ['smoothseettings_122',['smoothSeettings',['../group__GeneralGroup.html#gacefa7bb069740dbb24ec548f52178ecf',1,'MR::FillHoleNicelySettings::smoothSeettings'],['../group__GeneralGroup.html#ga574c3df036ce8c752e88ed337c0e06e2',1,'MR::StitchHolesNicelySettings::smoothSeettings']]],
+  ['smoothsettings_122',['smoothSettings',['../group__GeneralGroup.html#ga34a56d380f672046a965d5bcc6f66e06',1,'MR::FillHoleNicelySettings::smoothSettings'],['../group__GeneralGroup.html#gad2e68e1f1a6709a037e454b3673663d2',1,'MR::StitchHolesNicelySettings::smoothSettings']]],
   ['snapview_123',['snapView',['../group__GeneralGroup.html#ga1ba0fadee2fc4bad0655f2b0f15211ab',1,'MR::BaseFitParams']]],
   ['snorm_124',['snorm',['../group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920',1,'MR::CurvePoint']]],
   ['solidcolor_125',['solidColor',['../group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649',1,'MR::SaveSettings']]],
