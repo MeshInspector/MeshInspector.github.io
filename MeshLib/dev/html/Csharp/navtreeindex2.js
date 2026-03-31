@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRVoxelsVolume_8cs.html":[6,3,1,0,0,0,4,39],
 "MRWatershedGraph_8cs.html":[6,3,1,0,0,0,2,364],
 "MRWeightedPointsShell_8cs.html":[6,3,1,0,0,0,4,41],
 "MRXfBasedCache_8cs.html":[6,3,1,0,0,0,2,365],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "classMR.html#a1e7386f7bd98058cc59ea61cdfa681f2":[6,3,0,0,0,1545],
 "classMR.html#a1e83c9b8aaf3fb05b62638cdaa7a64b5":[6,3,0,0,0,1269],
 "classMR.html#a1ec3a0c61637744e04283423759e6fb6":[6,3,0,0,0,1358],
-"classMR.html#a1ed8a929f63db46ccd8a9955a8344395":[6,3,0,0,0,1699],
-"classMR.html#a1eed36310b59ce1bb21e4a83331cc2a1":[6,3,0,0,0,1836]
+"classMR.html#a1ed8a929f63db46ccd8a9955a8344395":[6,3,0,0,0,1699]
 };

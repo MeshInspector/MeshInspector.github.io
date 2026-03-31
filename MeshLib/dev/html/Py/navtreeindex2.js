@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#afa5c3c5a8e505ef3375a8ebed4bcf3d3":[6,1,1,0,1,10,1,37],
 "classmrmeshpy_1_1AABBTreePoints_1_1Point.html":[6,1,0,0,2,10,2],
 "classmrmeshpy_1_1AABBTreePoints_1_1Point.html":[6,1,1,0,1,10,2],
 "classmrmeshpy_1_1AABBTreePoints_1_1Point.html#a1a8b9c66105186d1bfea28042afe6cf0":[6,1,0,0,2,10,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "classmrmeshpy_1_1AngleMeasurementObject.html#a994751fa19f3ba7ae85ac8bdb882610b":[6,1,1,0,1,25,10],
 "classmrmeshpy_1_1AngleMeasurementObject.html#a9e1456c4c2921726f58da20a91fffee0":[6,1,0,0,2,25,7],
 "classmrmeshpy_1_1AngleMeasurementObject.html#a9e1456c4c2921726f58da20a91fffee0":[6,1,1,0,1,25,7],
-"classmrmeshpy_1_1AngleMeasurementObject.html#ab3f5cf518233a4bc32df8c58c986e52e":[6,1,0,0,2,25,9],
-"classmrmeshpy_1_1AngleMeasurementObject.html#ab3f5cf518233a4bc32df8c58c986e52e":[6,1,1,0,1,25,9]
+"classmrmeshpy_1_1AngleMeasurementObject.html#ab3f5cf518233a4bc32df8c58c986e52e":[6,1,0,0,2,25,9]
 };

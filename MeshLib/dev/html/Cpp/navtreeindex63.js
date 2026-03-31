@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680":[6,0,0,17,1,0,0],
 "structMR_1_1MovementBuildBodyParams.html":[6,0,0,20,352],
 "structMR_1_1MruFormatParameters.html":[6,0,0,20,581],
 "structMR_1_1MultiListener.html":[6,0,0,20,738],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[6,0,0,15,0,1],
 "structMR_1_1PolylineToDistanceVolumeParams.html":[6,0,0,20,832],
 "structMR_1_1PolylineToVolumeParams.html":[6,0,0,20,833],
-"structMR_1_1PolylineTraits.html":[6,0,0,1,8],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9]
+"structMR_1_1PolylineTraits.html":[6,0,0,1,8]
 };

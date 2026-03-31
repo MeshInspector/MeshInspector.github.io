@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"namespaceImGui.html#a92b09b917f0685293d7605ed0b7986a8":[6,0,1,0,0,21],
 "namespaceImGui.html#a93fa3e9de8b15c2e3485a85ddd0dba44":[6,0,1,0,0,12],
 "namespaceImGui.html#ab25c23602d30180dfa6f02e4e59b0e54":[6,0,1,0,0,16],
 "namespaceImGui.html#aba3aedd4bc21e49dc028ea838c0a2146":[6,0,1,0,0,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1RenderDimensions.html":[6,0,1,0,1,37],
 "namespaceMR_1_1RenderFeatures.html":[6,0,1,0,1,38],
 "namespaceMR_1_1RenderFeatures_1_1detail.html":[6,0,1,0,1,38,0],
-"namespaceMR_1_1RenderWrapObject.html":[6,0,1,0,1,39],
-"namespaceMR_1_1RenderWrapObject_1_1detail.html":[6,0,1,0,1,39,0]
+"namespaceMR_1_1RenderWrapObject.html":[6,0,1,0,1,39]
 };

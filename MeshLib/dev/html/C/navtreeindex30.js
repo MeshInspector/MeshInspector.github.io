@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"MRCylinderObject_8h.html#a2ed34b4a4cdcfcb28ca25d5e79aebe6a":[6,2,1,0,0,0,0,1,65,11],
 "MRCylinderObject_8h.html#a2f74be07ee159a2263afc904bbdb1cc2":[6,2,1,0,0,0,0,1,65,132],
 "MRCylinderObject_8h.html#a31f088e20b05dd8681aca6d620d28d13":[6,2,1,0,0,0,0,1,65,24],
 "MRCylinderObject_8h.html#a333d3bcec5f6886d180e04b8a84d8810":[6,2,1,0,0,0,0,1,65,182],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "MRDipole_8h.html#a305a8b6f8cce6103281592229dd9b758":[6,2,1,0,0,0,0,1,67,8],
 "MRDipole_8h.html#a384a8827a4fdb8f1dfa0c1022f758408":[6,2,1,0,0,0,0,1,67,1],
 "MRDipole_8h.html#a3e2a2d5e584f6b4fb4dc226c155caf1b":[6,2,1,0,0,0,0,1,67,6],
-"MRDipole_8h.html#a59f8084ab85236d0ab8ceb27f22147a4":[6,2,1,0,0,0,0,1,67,16],
-"MRDipole_8h.html#a5e93bbf992538ef7f4e3ebd610bfceda":[6,2,1,0,0,0,0,1,67,25]
+"MRDipole_8h.html#a59f8084ab85236d0ab8ceb27f22147a4":[6,2,1,0,0,0,0,1,67,16]
 };

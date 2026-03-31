@@ -85,7 +85,8 @@ var menudata={children:[
 {text:"Spaces and Transformations",url:"../SpacesHelp.html"},
 {text:"How to use С++ Example Plugin",url:"../ExamplePluginOverview.html"},
 {text:"State Plugins Overview",url:"../StatePluginsHelp.html"},
-{text:"How to Add Plugin",url:"../HowtoAddPluginOverview.html"}]},
+{text:"How to Add Plugin",url:"../HowtoAddPluginOverview.html"},
+{text:"Internationalization Guide",url:"../I18nGuide.html"}]},
 {text:"API",url:"../APIPage.html",children:[
 {text:"C++",url:"../Cpp/APICppPage.html"},
 {text:"Python",url:"../Py/APIPyPage.html"},
