@@ -1,6 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f.html#afe59d3c787d29df08d737ca4ad58bec5":[6,3,0,0,0,363,3,5,1],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html":[6,3,0,0,0,363,3,6],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a4013cf1e7b00fcba726992d198593c7f":[6,3,0,0,0,363,3,6,3],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a57e76b10aa53cb448c1fb4e9f9bc5cfd":[6,3,0,0,0,363,3,6,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX34 =
 "classMR_1_1FixUndercuts_1_1FindParams.html#a2784d82fe08d93882f7b71dff687fb7e":[6,3,0,0,0,378,1,6],
 "classMR_1_1FixUndercuts_1_1FindParams.html#a2fbc4b736abef8f7378ed9ad6a718fdd":[6,3,0,0,0,378,1,5],
 "classMR_1_1FixUndercuts_1_1FindParams.html#a5954d007bbef6f0b4c3ac4df248feac9":[6,3,0,0,0,378,1,1],
-"classMR_1_1FixUndercuts_1_1FindParams.html#a6c79f36d4bc8d436d1fcaaaafd2e64c2":[6,3,0,0,0,378,1,4]
+"classMR_1_1FixUndercuts_1_1FindParams.html#a6c79f36d4bc8d436d1fcaaaafd2e64c2":[6,3,0,0,0,378,1,4],
+"classMR_1_1FixUndercuts_1_1FindParams.html#abe5f76872b951224e193cc50b0362f29":[6,3,0,0,0,378,1,3]
 };

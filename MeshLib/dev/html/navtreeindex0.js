@@ -52,7 +52,6 @@ var NAVTREEINDEX0 =
 "FirstPluginTutorial.html":[3,0],
 "FloatVSDouble.html":[5,3],
 "HowtoAddPluginOverview.html":[5,8],
-"I18nGuide.html":[5,9],
 "InstallationGuide.html":[1],
 "License.html":[2],
 "MeshLibCSetupGuide.html":[1,3],

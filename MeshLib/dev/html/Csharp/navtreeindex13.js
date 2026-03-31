@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"classMR_1_1BooleanResultPoints.html#abe1a4e0d1bc02dccc3d7f5afd08a3a7b":[6,3,0,0,0,60,5],
 "classMR_1_1BooleanResultPoints.html#ac544a4e00693e46c412c2091a6c4b8b9":[6,3,0,0,0,60,6],
 "classMR_1_1BooleanResultPoints.html#aed097a5bf8b445a417b90a3a9759c0dd":[6,3,0,0,0,60,2],
 "classMR_1_1Box__AffineXf2d.html":[6,3,0,0,0,73],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "classMR_1_1Box__GraphEdgeId.html#a024f003a7339b53285dc4f55b3b17498":[6,3,0,0,0,92,4],
 "classMR_1_1Box__GraphEdgeId.html#a1f4951cbccf286d03a8a69a1d4858337":[6,3,0,0,0,92,11],
 "classMR_1_1Box__GraphEdgeId.html#a334ffa7ede2cfd8a5ab4ef9f0f319e96":[6,3,0,0,0,92,10],
-"classMR_1_1Box__GraphEdgeId.html#a39661929ed60b66b25c17b3bc7e63ed5":[6,3,0,0,0,92,8]
+"classMR_1_1Box__GraphEdgeId.html#a39661929ed60b66b25c17b3bc7e63ed5":[6,3,0,0,0,92,8],
+"classMR_1_1Box__GraphEdgeId.html#a4c402adcde7fe45ed42388e9a9188a38":[6,3,0,0,0,92,5]
 };

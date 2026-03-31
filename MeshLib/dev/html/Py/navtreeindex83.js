@@ -1,6 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"classmrmeshpy_1_1SearchPathSettings.html#a0671cb33429d6b816a0831deedfd51c4":[6,1,1,0,1,804,0],
 "classmrmeshpy_1_1SearchPathSettings.html#a1d05f91ff54f0b11630ab3dd0ca7fb26":[6,1,0,0,2,804,2],
 "classmrmeshpy_1_1SearchPathSettings.html#a1d05f91ff54f0b11630ab3dd0ca7fb26":[6,1,1,0,1,804,2],
 "classmrmeshpy_1_1SearchPathSettings.html#a725961fe78cac92cf5601834c523199c":[6,1,0,0,2,804,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX83 =
 "classmrmeshpy_1_1ShellVertexInfo.html#a21430aef6dbe2062c076e1d22d4ef605":[6,1,1,0,1,813,6],
 "classmrmeshpy_1_1ShellVertexInfo.html#a366d62d1f90ced72e9c243c37cce93ac":[6,1,0,0,2,813,8],
 "classmrmeshpy_1_1ShellVertexInfo.html#a366d62d1f90ced72e9c243c37cce93ac":[6,1,1,0,1,813,8],
-"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[6,1,0,0,2,813,3]
+"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[6,1,0,0,2,813,3],
+"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[6,1,1,0,1,813,3]
 };

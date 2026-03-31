@@ -1,6 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"classMR_1_1ZeroOnMove__MRUint64T.html#a5bc69bca30a42f8985b0657bbd340288":[6,3,0,0,0,1008,0],
 "classMR_1_1ZeroOnMove__MRUint64T.html#a5e0179f3451e133a49d24c00451f1090":[6,3,0,0,0,1008,3],
 "classes.html":[6,3,0,1],
 "dir_09c9d9c9af2afc49490551b5ee30a1a8.html":[6,3,1,0,0,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX72 =
 "structMR_1_1Box1i.html#a3396b2c24b6ccab34c297ef80811324e":[6,3,0,0,0,63,6],
 "structMR_1_1Box1i.html#a3427014307f730c6d48c0a22d9102faf":[6,3,0,0,0,63,5],
 "structMR_1_1Box1i.html#a370a5b37818c8460e8e4745194874812":[6,3,0,0,0,63,31],
-"structMR_1_1Box1i.html#a3e4656fe388797ff09e217db7f8e4311":[6,3,0,0,0,63,23]
+"structMR_1_1Box1i.html#a3e4656fe388797ff09e217db7f8e4311":[6,3,0,0,0,63,23],
+"structMR_1_1Box1i.html#a3ff27a1c469d7fabc7dad75f5f2cfc9a":[6,3,0,0,0,63,25]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classMR_1_1Dipoles.html#ad6a5b8198df8ddd034d9a880044904d7":[6,3,0,0,0,306,22],
 "classMR_1_1Dipoles.html#ae0df76679e08e5b21cf7e498161b82a6":[6,3,0,0,0,306,10],
 "classMR_1_1Dipoles.html#ae5d1869c49be1dfaa073fdd555f34c97":[6,3,0,0,0,306,21],
 "classMR_1_1Dipoles.html#af2c42fcb85f5f1954b960ff95d855284":[6,3,0,0,0,306,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX30 =
 "classMR_1_1EdgeBMap.html#ad43401d8ef915291ada3d9058ea2663a":[6,3,0,0,0,324,3],
 "classMR_1_1EdgeBMap.html#ad76173008c8f565f5ad87e6f5a913f3e":[6,3,0,0,0,324,5],
 "classMR_1_1EdgeBitSet.html":[6,3,0,0,0,323],
-"classMR_1_1EdgeBitSet.html#a02df75ca3a0c437ec1f7336efa8adf11":[6,3,0,0,0,323,33]
+"classMR_1_1EdgeBitSet.html#a02df75ca3a0c437ec1f7336efa8adf11":[6,3,0,0,0,323,33],
+"classMR_1_1EdgeBitSet.html#a065a4f3587f2989ebc1cc1a037968a6f":[6,3,0,0,0,323,35]
 };

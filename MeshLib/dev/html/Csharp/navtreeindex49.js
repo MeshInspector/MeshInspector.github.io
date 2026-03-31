@@ -1,6 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"classMR_1_1OffsetContoursParams.html#ab471275ec374e91c82463c88815adb0b":[6,3,0,0,0,632,7],
 "classMR_1_1OffsetContoursParams.html#acb2c42c432bfbfa1db4cf77902f07e1e":[6,3,0,0,0,632,10],
 "classMR_1_1OffsetContoursParams.html#aef1df7bd12f90f809774a64c38931c22":[6,3,0,0,0,632,0],
 "classMR_1_1OffsetContoursRestoreZParams.html":[6,3,0,0,0,633],
@@ -249,5 +248,6 @@ var NAVTREEINDEX49 =
 "classMR_1_1PixelBitSet.html#a98795ce8a2a778eda7d7837e7ffb2e87":[6,3,0,0,0,654,4],
 "classMR_1_1PixelBitSet.html#a9cb5b50ca2e42abea6f98df66a68bd37":[6,3,0,0,0,654,25],
 "classMR_1_1PixelBitSet.html#aa38ed5f593b6c7efcf8865f97a49abbd":[6,3,0,0,0,654,21],
-"classMR_1_1PixelBitSet.html#ab5af784125852765e8d94c0e4f4f7c18":[6,3,0,0,0,654,7]
+"classMR_1_1PixelBitSet.html#ab5af784125852765e8d94c0e4f4f7c18":[6,3,0,0,0,654,7],
+"classMR_1_1PixelBitSet.html#ababfe4cbcb0326a1248aea5a1779f392":[6,3,0,0,0,654,33]
 };

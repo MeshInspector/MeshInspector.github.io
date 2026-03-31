@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"MRComputeBoundingBox_8h.html":[6,0,3,0,5,64],
 "MRComputeBoundingBox_8h_source.html":[6,0,3,0,5,64],
 "MRComputeVolume_8h.html":[6,0,3,0,10,5],
 "MRComputeVolume_8h_source.html":[6,0,3,0,10,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "MRHistogram_8h.html":[6,0,3,0,5,137],
 "MRHistogram_8h_source.html":[6,0,3,0,5,137],
 "MRHistoryAction_8h.html":[6,0,3,0,5,138],
-"MRHistoryAction_8h_source.html":[6,0,3,0,5,138]
+"MRHistoryAction_8h_source.html":[6,0,3,0,5,138],
+"MRHistoryStore_8h.html":[6,0,3,0,9,33]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"classMR_1_1InflateSettings.html#acd89a95a15f8846e897d05846e75ac5a":[6,3,0,0,0,418,0],
 "classMR_1_1IntersectionPrecomputes2__Double.html":[6,3,0,0,0,421],
 "classMR_1_1IntersectionPrecomputes2__Double.html#a02c65ae042c03f23e79b09e21330a8ed":[6,3,0,0,0,421,4],
 "classMR_1_1IntersectionPrecomputes2__Double.html#a1c6f377ae82f06071dfd565c082e8145":[6,3,0,0,0,421,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX37 =
 "classMR_1_1LineObject.html#a53add0f5e824910cd30576cf5ddbe3a7":[6,3,0,0,0,454,16],
 "classMR_1_1LineObject.html#a569cd7e47f04b70f0f0d7778f63cd590":[6,3,0,0,0,454,61],
 "classMR_1_1LineObject.html#a5923600190b6ac05431552ddf147ea7b":[6,3,0,0,0,454,28],
-"classMR_1_1LineObject.html#a5a3595a4984405743dd9e4a15b0568e7":[6,3,0,0,0,454,56]
+"classMR_1_1LineObject.html#a5a3595a4984405743dd9e4a15b0568e7":[6,3,0,0,0,454,56],
+"classMR_1_1LineObject.html#a672053e409c9aefb8ea98288fb1a0d94":[6,3,0,0,0,454,57]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,0,20,773],
 "structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,0,20,775],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html":[6,0,0,20,774],
-"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,0,20,586]
+"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,0,20,586],
+"structMR_1_1TransformVdbVolumeResult.html":[6,0,0,20,857]
 };

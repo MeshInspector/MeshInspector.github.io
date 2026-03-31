@@ -1,6 +1,5 @@
 var NAVTREEINDEX140 =
 {
-"std__function__MR__Vector3f__from__const__MR__Vector3f__ref_8h.html#a1272ba3b83888dd6ef090f121463afc9":[6,2,1,0,0,0,0,2,164,7],
 "std__function__MR__Vector3f__from__const__MR__Vector3f__ref_8h.html#a12ff0d47ac9ecdc9bf04f1c8608b50df":[6,2,1,0,0,0,0,2,164,0],
 "std__function__MR__Vector3f__from__const__MR__Vector3f__ref_8h.html#a319669b7e79bd04f6825c802bac3d8ad":[6,2,1,0,0,0,0,2,164,14],
 "std__function__MR__Vector3f__from__const__MR__Vector3f__ref_8h.html#a39068e9c0487b4e4b915e2ed2c4bf7ba":[6,2,1,0,0,0,0,2,164,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX140 =
 "std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a62f44af92ecc2488d2abf67bc90c6804":[6,2,1,0,0,0,0,2,117,0],
 "std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a718517007c058a614a3afab80a9eeec9":[6,2,1,0,0,0,0,2,117,12],
 "std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a8272fdd25538a173c651fb205e0e91b7":[6,2,1,0,0,0,0,2,117,8],
-"std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a8f94a4f26ed705c6ad8627e1af94f58c":[6,2,1,0,0,0,0,2,117,6]
+"std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#a8f94a4f26ed705c6ad8627e1af94f58c":[6,2,1,0,0,0,0,2,117,6],
+"std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h.html#abb2ff7e6d0bae3d6c670d84dbc6e6bcd":[6,2,1,0,0,0,0,2,117,11]
 };

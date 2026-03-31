@@ -1,6 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1TransformVdbVolumeResult.html":[6,0,0,20,857],
 "structMR_1_1TransformedMesh.html":[6,0,0,20,312],
 "structMR_1_1TransparencyMode.html":[6,0,0,20,454],
 "structMR_1_1TriIntersectResult.html":[6,0,0,0,10,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX65 =
 "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621":[6,0,1,0,1,1187],
 "structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3":[6,0,0,0,12,0,6],
 "structMR_1_1Vector3.html":[6,0,0,0,12,1],
-"structMR_1_1Vector3.html":[6,0,0,20,500]
+"structMR_1_1Vector3.html":[6,0,0,20,500],
+"structMR_1_1Vector4.html":[6,0,0,0,12,2]
 };
