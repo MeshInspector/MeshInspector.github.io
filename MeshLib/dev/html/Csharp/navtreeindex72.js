@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"classMR_1_1WeightedVertex.html#a8bdb0746711f904a283cacfb51fddf7c":[6,3,0,0,0,1002,1],
 "classMR_1_1WeightedVertex.html#aa080ce7f5f91bafe3a2e10fbd8cf0b60":[6,3,0,0,0,1002,5],
 "classMR_1_1WeightedVertex.html#ad40ed35d2f69ccbdbce7cbd855008150":[6,3,0,0,0,1002,0],
 "classMR_1_1WeightedVertex.html#af33a56c635ecca5917e6df42542cca0d":[6,3,0,0,0,1002,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1Box1d.html#a1fa8a9f44e9fd1dc21be011294a2e182":[6,3,0,0,0,61,12],
 "structMR_1_1Box1d.html#a29239a80f2401ee22b2b3b377c8bd02b":[6,3,0,0,0,61,16],
 "structMR_1_1Box1d.html#a34ac0fd90efe69a2aaa257d5a92b576c":[6,3,0,0,0,61,15],
-"structMR_1_1Box1d.html#a3d842d38df69f088a1afbf95393c9744":[6,3,0,0,0,61,33],
-"structMR_1_1Box1d.html#a621fde967c09cb94f858d698472dbdfb":[6,3,0,0,0,61,0]
+"structMR_1_1Box1d.html#a3d842d38df69f088a1afbf95393c9744":[6,3,0,0,0,61,33]
 };

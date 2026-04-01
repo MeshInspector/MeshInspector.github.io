@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ab3d1ae66dfcf0c0183bd881c7f4665ae":[6,1,1,0,1,5,9],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#abe4af2fe3ea175830d1f49a36561eece":[6,1,0,0,2,5,8],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#abe4af2fe3ea175830d1f49a36561eece":[6,1,1,0,1,5,8],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ad089b4a882b9f40f9e960f9bd10ac0db":[6,1,0,0,2,5,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ae182b4151e01ca0b0c5f5a80ae35dd4c":[6,1,1,0,1,10,1,42],
 "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af569a15a17f8cb80ef149d850a3b03cf":[6,1,0,0,2,10,1,31],
 "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af569a15a17f8cb80ef149d850a3b03cf":[6,1,1,0,1,10,1,31],
-"classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#afa5c3c5a8e505ef3375a8ebed4bcf3d3":[6,1,0,0,2,10,1,37],
-"classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#afa5c3c5a8e505ef3375a8ebed4bcf3d3":[6,1,1,0,1,10,1,37]
+"classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#afa5c3c5a8e505ef3375a8ebed4bcf3d3":[6,1,0,0,2,10,1,37]
 };

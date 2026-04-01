@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"MRMinMaxArg_8h.html#a9d64b64cce4cfefe7a20d3971b155038":[6,2,1,0,0,0,0,1,205,9],
 "MRMinMaxArg_8h.html#a9dc0899769c0925bd2650ce205b421d0":[6,2,1,0,0,0,0,1,205,11],
 "MRMinMaxArg_8h.html#aaae45ed988d074865116f13f80cf816b":[6,2,1,0,0,0,0,1,205,14],
 "MRMinMaxArg_8h.html#abf364d8ca84cab904359f1fd737fe613":[6,2,1,0,0,0,0,1,205,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "MRMultiwayAligningTransform_8h.html#a60825ddf39aadf7f088cf72330910ba5":[6,2,1,0,0,0,0,1,208,3],
 "MRMultiwayAligningTransform_8h.html#a60a473462f5b940404a7e2c47a1ce071":[6,2,1,0,0,0,0,1,208,30],
 "MRMultiwayAligningTransform_8h.html#a6a482adf3bdb7aa686de3df46004a19b":[6,2,1,0,0,0,0,1,208,27],
-"MRMultiwayAligningTransform_8h.html#a7a416b6faa8d79ad2886ea1703dc8d99":[6,2,1,0,0,0,0,1,208,15],
-"MRMultiwayAligningTransform_8h.html#a7f805cf4fbcb145b564086e0d7d4b8a3":[6,2,1,0,0,0,0,1,208,10]
+"MRMultiwayAligningTransform_8h.html#a7a416b6faa8d79ad2886ea1703dc8d99":[6,2,1,0,0,0,0,1,208,15]
 };

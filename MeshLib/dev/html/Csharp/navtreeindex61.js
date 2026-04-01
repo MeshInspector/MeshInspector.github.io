@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"classMR_1_1TrivialMetricToPenalty.html":[6,3,0,0,0,854],
 "classMR_1_1TrivialMetricToPenalty.html#a3bf50067170df2dde31d51c67c5027f3":[6,3,0,0,0,854,0],
 "classMR_1_1TrivialMetricToPenalty.html#a4733fe60e96fbfac00659287575f5317":[6,3,0,0,0,854,1],
 "classMR_1_1TrivialMetricToPenalty.html#a4f4f59add88cf4a2cc7b4ba2dc58f65e":[6,3,0,0,0,854,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "classMR_1_1UndirectedEdgeScalars.html#a625d13956db2f30e4cb9aa2990318072":[6,3,0,0,0,867,25],
 "classMR_1_1UndirectedEdgeScalars.html#a658b33bf2189d0abb734130ee4b79996":[6,3,0,0,0,867,22],
 "classMR_1_1UndirectedEdgeScalars.html#a6ea2433cc2b79d00af2174ebb5bf56fd":[6,3,0,0,0,867,7],
-"classMR_1_1UndirectedEdgeScalars.html#a72b10f93c65c6373a3e44f1e5d2f57ce":[6,3,0,0,0,867,14],
-"classMR_1_1UndirectedEdgeScalars.html#a72c33a6f096ab78de0c36414c473a326":[6,3,0,0,0,867,8]
+"classMR_1_1UndirectedEdgeScalars.html#a72b10f93c65c6373a3e44f1e5d2f57ce":[6,3,0,0,0,867,14]
 };

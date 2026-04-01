@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Polyline.html#acddfc9fe7193026b7c731a688f1dc478":[6,0,0,14,0,34],
 "structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[6,0,0,14,0,15],
 "structMR_1_1Polyline.html#ad4be3d0739eaf55a7156960a61d9b1e3":[6,0,0,14,0,28],
 "structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[6,0,0,14,0,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1SymMatrix3.html":[6,0,0,0,7,5],
 "structMR_1_1SymMatrix3.html":[6,0,0,20,476],
 "structMR_1_1SymMatrix4.html":[6,0,0,0,7,6],
-"structMR_1_1SymMatrix4.html":[6,0,0,20,477],
-"structMR_1_1SymbolMeshParams.html":[6,0,0,20,523]
+"structMR_1_1SymMatrix4.html":[6,0,0,20,477]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"MRUnionFind_8h.html#a3637adc471f4d2f80abf50d5321b8f3b":[6,2,1,0,0,0,0,1,349,43],
 "MRUnionFind_8h.html#a39dc1136d8bf1e8bc86ee8f523fbaf24":[6,2,1,0,0,0,0,1,349,57],
 "MRUnionFind_8h.html#a3ee38579f064afe9c87b1f899d3ecf4c":[6,2,1,0,0,0,0,1,349,21],
 "MRUnionFind_8h.html#a400fccbde13fc94189626be26968141f":[6,2,1,0,0,0,0,1,349,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "MRUnorientedTriangle_8h.html#aaa12a3a29005cedbc1f2f6aa5cab2119":[6,2,1,0,0,0,0,1,354,14],
 "MRUnorientedTriangle_8h.html#aac92566ba7db9f068c7228cd036bd9a6":[6,2,1,0,0,0,0,1,354,10],
 "MRUnorientedTriangle_8h.html#aaf5479349a6e173ce56d85aa3c432674":[6,2,1,0,0,0,0,1,354,7],
-"MRUnorientedTriangle_8h.html#ad782ee101f136d647eed2a41e55f6430":[6,2,1,0,0,0,0,1,354,8],
-"MRUnorientedTriangle_8h_source.html":[6,2,1,0,0,0,0,1,354]
+"MRUnorientedTriangle_8h.html#ad782ee101f136d647eed2a41e55f6430":[6,2,1,0,0,0,0,1,354,8]
 };

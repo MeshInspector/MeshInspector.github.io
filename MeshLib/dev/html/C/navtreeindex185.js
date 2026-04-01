@@ -1,5 +1,6 @@
 var NAVTREEINDEX185 =
 {
+"std__vector__MR__TriPointf_8h.html#a7d3f3aafe250bedd3d35db320402c9e8":[6,2,1,0,0,0,0,2,486,21],
 "std__vector__MR__TriPointf_8h.html#a88286274f47feea70457909ba4c65a69":[6,2,1,0,0,0,0,2,486,42],
 "std__vector__MR__TriPointf_8h.html#a9117c99a81def02c559101d02729a9e2":[6,2,1,0,0,0,0,2,486,69],
 "std__vector__MR__TriPointf_8h.html#a945b056f5f98cf67b86b3ed785e15852":[6,2,1,0,0,0,0,2,486,49],
@@ -248,6 +249,5 @@ var NAVTREEINDEX185 =
 "std__vector__MR__UndirectedEdgeUndirectedEdge_8h.html#af89dfad97721d2a06a4036bca328e437":[6,2,1,0,0,0,0,2,489,0],
 "std__vector__MR__UndirectedEdgeUndirectedEdge_8h.html#af8aea2f5241ad5eb120152a38aef1e41":[6,2,1,0,0,0,0,2,489,42],
 "std__vector__MR__UndirectedEdgeUndirectedEdge_8h.html#affce6cadf99643f85b8d65a2020566c5":[6,2,1,0,0,0,0,2,489,57],
-"std__vector__MR__UndirectedEdgeUndirectedEdge_8h_source.html":[6,2,1,0,0,0,0,2,489],
-"std__vector__MR__UnorientedTriangle_8h.html":[6,2,1,0,0,0,0,2,490]
+"std__vector__MR__UndirectedEdgeUndirectedEdge_8h_source.html":[6,2,1,0,0,0,0,2,489]
 };

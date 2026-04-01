@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"classmrmeshpy_1_1OffsetContoursParams_1_1EndType.html#a063786fea20412864e34f84a235fefc5":[6,1,1,0,1,639,1,7],
 "classmrmeshpy_1_1OffsetContoursParams_1_1EndType.html#a200a7d42d0fb8276a8360e9847a4ebcd":[6,1,0,0,2,639,1,2],
 "classmrmeshpy_1_1OffsetContoursParams_1_1EndType.html#a200a7d42d0fb8276a8360e9847a4ebcd":[6,1,1,0,1,639,1,2],
 "classmrmeshpy_1_1OffsetContoursParams_1_1EndType.html#a2d75c1ab36879ac04f9a5d7191c719d8":[6,1,0,0,2,639,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "classmrmeshpy_1_1OutEdge2.html#adb4eb0f21b7f19fc34ae86b30c2e2963":[6,1,1,0,1,650,7],
 "classmrmeshpy_1_1OutlierParams.html":[6,1,0,0,2,651],
 "classmrmeshpy_1_1OutlierParams.html":[6,1,1,0,1,651],
-"classmrmeshpy_1_1OutlierParams.html#a1592c8cdeb5f15a067028fa1f2ca2fbc":[6,1,0,0,2,651,0],
-"classmrmeshpy_1_1OutlierParams.html#a1592c8cdeb5f15a067028fa1f2ca2fbc":[6,1,1,0,1,651,0]
+"classmrmeshpy_1_1OutlierParams.html#a1592c8cdeb5f15a067028fa1f2ca2fbc":[6,1,0,0,2,651,0]
 };

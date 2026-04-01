@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1ConstBox__Vector4i64.html#a9e11e615d87eb68e6a88e75445fc6d1d":[6,3,0,0,0,272,12],
 "classMR_1_1ConstBox__Vector4i64.html#ab98e458d69ac47e8c4140b0776c6bbcd":[6,3,0,0,0,272,5],
 "classMR_1_1ConstBox__Vector4i64.html#abd19f0bbc7fe0c245d5ccdd8f5bd4b8a":[6,3,0,0,0,272,6],
 "classMR_1_1ConstBox__Vector4i64.html#ac3382ea55f892c1719f4c35692864cf4":[6,3,0,0,0,272,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a4ee5ea6f8afeac1d14ad67782e27c90a":[6,3,0,0,0,286,3,7],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a815104f321881eb9a84153195b94f856":[6,3,0,0,0,286,3,8],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a858ac968d4f39307c071fe428a6876b1":[6,3,0,0,0,286,3,3],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#aff11854bb53424e6474953913eb014bc":[6,3,0,0,0,286,3,4],
-"classMR_1_1CurveFunc.html":[6,3,0,0,0,287]
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#aff11854bb53424e6474953913eb014bc":[6,3,0,0,0,286,3,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1PointAccumulator.html#a4239c771afb18ec319cc8cb95cf319ec":[6,3,0,0,0,662,5],
 "classMR_1_1PointAccumulator.html#a82a382b601a6cba70a5ca98a3064f641":[6,3,0,0,0,662,1],
 "classMR_1_1PointAccumulator.html#a83d85286f7441e8e519cc9c6dd1ed2c9":[6,3,0,0,0,662,3],
 "classMR_1_1PointAccumulator.html#a85bffe3466166ba6c4a888e4ebfa805a":[6,3,0,0,0,662,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "classMR_1_1PointToPlaneAligningTransform.html#adf0ccc5bf8ba4a2664995b8df1966ea4":[6,3,0,0,0,683,0],
 "classMR_1_1PointToPlaneAligningTransform.html#ae3f2f0f271badb87ba3ba56bc7217398":[6,3,0,0,0,683,6],
 "classMR_1_1PointToPlaneAligningTransform.html#ae9ec4d7578223d98e25d47f15fe99417":[6,3,0,0,0,683,2],
-"classMR_1_1PointToPointAligningTransform.html":[6,3,0,0,0,684],
-"classMR_1_1PointToPointAligningTransform.html#a19f353571b95147e0abec848504d8b5c":[6,3,0,0,0,684,3]
+"classMR_1_1PointToPointAligningTransform.html":[6,3,0,0,0,684]
 };

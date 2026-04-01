@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRPointCloudTriangulation_8h.html":[6,0,3,0,5,296],
 "MRPointCloudTriangulation_8h_source.html":[6,0,3,0,5,296],
 "MRPointCloud_8h.html":[6,0,3,0,5,289],
 "MRPointCloud_8h_source.html":[6,0,3,0,5,289],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRSceneReorder_8h.html":[6,0,3,0,9,109],
 "MRSceneReorder_8h_source.html":[6,0,3,0,9,109],
 "MRSceneRoot_8h.html":[6,0,3,0,5,358],
-"MRSceneRoot_8h_source.html":[6,0,3,0,5,358],
-"MRSceneSelectionChange_8h.html":[6,0,3,0,9,110]
+"MRSceneRoot_8h_source.html":[6,0,3,0,5,358]
 };

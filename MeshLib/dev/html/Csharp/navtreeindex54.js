@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classMR_1_1PreciseVertCoord.html#a756c8bd884da3b2f4c83dd94bb70c8a7":[6,3,0,0,0,721,5],
 "classMR_1_1PreciseVertCoord.html#ab87d65139c10431f17b0e2890537c0ca":[6,3,0,0,0,721,4],
 "classMR_1_1PreciseVertCoord.html#ab8992d425f595fb5f3f48173474495cb":[6,3,0,0,0,721,0],
 "classMR_1_1PreciseVertCoord.html#abef2e017225d941402175a7fb3bb79aa":[6,3,0,0,0,721,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "classMR_1_1RefineParameters.html#a94153af25978f9bf365b09cb3fde4d69":[6,3,0,0,0,738,7],
 "classMR_1_1RefineParameters.html#a9726deb6c5675dfb14423c937cd2d7fa":[6,3,0,0,0,738,6],
 "classMR_1_1RefineParameters.html#a9d1d42433d6294dd61fd7b1836e2e2f1":[6,3,0,0,0,738,5],
-"classMR_1_1RefineParameters.html#aa0934a64cd02007afc18ced8d1a1e5a7":[6,3,0,0,0,738,3],
-"classMR_1_1RefineParameters.html#aa339ea784228e1f059eaaf663e269696":[6,3,0,0,0,738,2]
+"classMR_1_1RefineParameters.html#aa0934a64cd02007afc18ced8d1a1e5a7":[6,3,0,0,0,738,3]
 };

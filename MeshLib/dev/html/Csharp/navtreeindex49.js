@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1ObjectVoxels.html#a9598c1ff7708b5e5e56e0a418ba3d7c6":[6,3,0,0,0,618,14],
 "classMR_1_1ObjectVoxels.html#a99c0d498f63fb293a8492f42596f1760":[6,3,0,0,0,618,66],
 "classMR_1_1ObjectVoxels.html#a9a4b4b3ac79c82fdce42d3994a9898ac":[6,3,0,0,0,618,93],
 "classMR_1_1ObjectVoxels.html#a9c30dbd5a90c724c1a9b104b4297dd92":[6,3,0,0,0,618,65],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1PartialChangeMeshTopologyAction.html#a20fa5594fb46e2591d7f7747efa526a3":[6,3,0,0,0,650,6],
 "classMR_1_1PartialChangeMeshTopologyAction.html#a27810d00af6a60ed11a4cf40188649c2":[6,3,0,0,0,650,8],
 "classMR_1_1PartialChangeMeshTopologyAction.html#a52f036c5e111b16431f57f68a69fe733":[6,3,0,0,0,650,5],
-"classMR_1_1PartialChangeMeshTopologyAction.html#a8043deec05fdbc02155d8663d7c5520f":[6,3,0,0,0,650,1],
-"classMR_1_1PartialChangeMeshTopologyAction.html#a85f64f0d953387ce91753695433a78da":[6,3,0,0,0,650,7]
+"classMR_1_1PartialChangeMeshTopologyAction.html#a8043deec05fdbc02155d8663d7c5520f":[6,3,0,0,0,650,1]
 };

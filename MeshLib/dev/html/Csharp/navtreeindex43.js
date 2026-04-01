@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1MeshTriPoint.html#aa80421768c8988c69efd9311e64dd8c2":[6,3,0,0,0,544,3],
 "classMR_1_1MeshTriPoint.html#af073948c2a10ef3938ea0141707ec8a2":[6,3,0,0,0,544,1],
 "classMR_1_1MeshVertPart.html":[6,3,0,0,0,545],
 "classMR_1_1MeshVertPart.html#a019eade036696907d195fac1013f9091":[6,3,0,0,0,545,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Nesting_1_1TetrisDensifyOptions.html":[6,3,0,0,0,560,9],
 "classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a25a9e17a2ee233926e30b0049397a201":[6,3,0,0,0,560,9,8],
 "classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a4c8f0a086d0290c5a3cc96c944309056":[6,3,0,0,0,560,9,2],
-"classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a6b4588887d6fe86b61183fbf92b9c79d":[6,3,0,0,0,560,9,10],
-"classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a8284d9b5def6c026987ea26eb0169c81":[6,3,0,0,0,560,9,4]
+"classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a6b4588887d6fe86b61183fbf92b9c79d":[6,3,0,0,0,560,9,10]
 };

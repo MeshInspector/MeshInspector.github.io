@@ -1,5 +1,6 @@
 var NAVTREEINDEX139 =
 {
+"std__array__MR__WeightedVertex__3_8h.html#a79be81f5c42b605790233d581a983f6d":[6,2,1,0,0,0,0,2,111,13],
 "std__array__MR__WeightedVertex__3_8h.html#a7a4ae50b9ffe6452d2ec1b3035c77897":[6,2,1,0,0,0,0,2,111,12],
 "std__array__MR__WeightedVertex__3_8h.html#a7eceb0d2cac4f127497c142ac7f263e0":[6,2,1,0,0,0,0,2,111,4],
 "std__array__MR__WeightedVertex__3_8h.html#a868b6ce6c3a792dc652070c71273dfe2":[6,2,1,0,0,0,0,2,111,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX139 =
 "std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a4d89d85ee716ab7ba9ad2fa36dd4092c":[6,2,1,0,0,0,0,2,158,13],
 "std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a60bc670ddd168f7647b49eaa4b8156f2":[6,2,1,0,0,0,0,2,158,11],
 "std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a6eb45ba53b05b965af08d765f957f0ae":[6,2,1,0,0,0,0,2,158,5],
-"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a726d1585c616609606c639c4c5c55176":[6,2,1,0,0,0,0,2,158,2],
-"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a95a20f21715bce169ffdec4681ac1b71":[6,2,1,0,0,0,0,2,158,1]
+"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#a726d1585c616609606c639c4c5c55176":[6,2,1,0,0,0,0,2,158,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"classMR_1_1VoxelTraits__MRFloatGrid.html#ae2a2f3ca3b900e06e75dd77f717146ac":[6,3,0,0,0,994,3],
 "classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId.html":[6,3,0,0,0,995],
 "classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId.html#a34f19c76ac178f0499b661f1cdefa8a6":[6,3,0,0,0,995,0],
 "classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId.html#a4bf87530b6a4833cd86986992f2616c0":[6,3,0,0,0,995,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "classMR_1_1WeightedVertex.html":[6,3,0,0,0,1002],
 "classMR_1_1WeightedVertex.html#a1e4b6042d20115224af4d23b7711868a":[6,3,0,0,0,1002,3],
 "classMR_1_1WeightedVertex.html#a5f7f26324334752a9d6e361702c32e08":[6,3,0,0,0,1002,4],
-"classMR_1_1WeightedVertex.html#a61ad246cadfbeb422851bf26e20494bf":[6,3,0,0,0,1002,2],
-"classMR_1_1WeightedVertex.html#a8bdb0746711f904a283cacfb51fddf7c":[6,3,0,0,0,1002,1]
+"classMR_1_1WeightedVertex.html#a61ad246cadfbeb422851bf26e20494bf":[6,3,0,0,0,1002,2]
 };

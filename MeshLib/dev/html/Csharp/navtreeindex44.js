@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a8284d9b5def6c026987ea26eb0169c81":[6,3,0,0,0,560,9,4],
 "classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a880dbe2e2cd0828c52327f6b5c7fa5ed":[6,3,0,0,0,560,9,5],
 "classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a8b10a963bcbe82686806e7f0e2e62438":[6,3,0,0,0,560,9,0],
 "classMR_1_1Nesting_1_1TetrisDensifyOptions.html#a8fa101ec2beb7dab2951fa11d0d50db2":[6,3,0,0,0,560,9,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1NoInit.html#a63a0347586b1bc814fb494bdd035ab38":[6,3,0,0,0,595,3],
 "classMR_1_1NoInit.html#afa048ff14899d16f704149c217809299":[6,3,0,0,0,595,2],
 "classMR_1_1NoInit.html#afdf87d8d0a25a45f779c9dac26aa965d":[6,3,0,0,0,595,1],
-"classMR_1_1NoInitNodeId.html":[6,3,0,0,0,596],
-"classMR_1_1NoInitNodeId.html#a0f8a328e7d460698b46ebeba500e063a":[6,3,0,0,0,596,1]
+"classMR_1_1NoInitNodeId.html":[6,3,0,0,0,596]
 };

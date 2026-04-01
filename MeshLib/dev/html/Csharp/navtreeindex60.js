@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1TransformVdbVolumeResult.html#a89cc47c951b3cb6606949c568c78c3d8":[6,3,0,0,0,837,6],
 "classMR_1_1TransformVdbVolumeResult.html#aa32cea09e33c3761011fe0fa27bca1c5":[6,3,0,0,0,837,0],
 "classMR_1_1TransformVdbVolumeResult.html#ad610f4b3d37e45c42e724f70ddc5b481":[6,3,0,0,0,837,4],
 "classMR_1_1TransformVdbVolumeResult.html#ae628109293ce2ea7d1496445f5d8976f":[6,3,0,0,0,837,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1TrimWithPlaneParams.html#a83c436b07cf5583bb54ac607faa5cd93":[6,3,0,0,0,847,0],
 "classMR_1_1TrimWithPlaneParams.html#a99d8d589dbba19c3e1b11ff130b9af30":[6,3,0,0,0,847,6],
 "classMR_1_1TrimWithPlaneParams.html#ac6bda8d02678708d5cf85f108e53f742":[6,3,0,0,0,847,8],
-"classMR_1_1TrimWithPlaneParams.html#af3e5eb147cd03147b10d42fbbfef02a1":[6,3,0,0,0,847,4],
-"classMR_1_1TrivialMetricToPenalty.html":[6,3,0,0,0,854]
+"classMR_1_1TrimWithPlaneParams.html#af3e5eb147cd03147b10d42fbbfef02a1":[6,3,0,0,0,847,4]
 };

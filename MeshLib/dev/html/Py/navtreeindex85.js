@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"classmrmeshpy_1_1SmoothFillingSettings.html#abd56b1adb53cb2f36c4b06190ec8677b":[6,1,1,0,1,828,2],
 "classmrmeshpy_1_1SmoothFillingSettings.html#ac5ab1842b50d40c19c4ad41c9c6782e3":[6,1,0,0,2,828,4],
 "classmrmeshpy_1_1SmoothFillingSettings.html#ac5ab1842b50d40c19c4ad41c9c6782e3":[6,1,1,0,1,828,4],
 "classmrmeshpy_1_1SmoothFillingSettings.html#acea9a9af57fdb450dbbcc53f445a67d6":[6,1,0,0,2,828,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "classmrmeshpy_1_1StitchHolesParams.html#ae4581b0d9b9528fdf4399723d03c890e":[6,1,1,0,1,1053,0],
 "classmrmeshpy_1_1StitchHolesParams.html#af85f4d634a1bbe5619be4c72c3908edc":[6,1,0,0,2,1053,2],
 "classmrmeshpy_1_1StitchHolesParams.html#af85f4d634a1bbe5619be4c72c3908edc":[6,1,1,0,1,1053,2],
-"classmrmeshpy_1_1SubdivideFillingSettings.html":[6,1,0,0,2,1054],
-"classmrmeshpy_1_1SubdivideFillingSettings.html":[6,1,1,0,1,1054]
+"classmrmeshpy_1_1SubdivideFillingSettings.html":[6,1,0,0,2,1054]
 };

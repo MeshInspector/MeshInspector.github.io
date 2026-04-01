@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"classMR_1_1VertBMap.html#a69c2f48ad603b26d9d9c40c0462a4327":[6,3,0,0,0,953,2],
 "classMR_1_1VertBMap.html#abd3f56f9bee8d896c2b54bb19c7f74d5":[6,3,0,0,0,953,3],
 "classMR_1_1VertBMap.html#ac5727f7b120183490e1aa905dfb68efb":[6,3,0,0,0,953,5],
 "classMR_1_1VertBMap.html#ac8d788f99f698716451fd24b128c73a1":[6,3,0,0,0,953,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "classMR_1_1VertSetBitIterator.html#a65cb270a9b0fb59d2741cfcc894948aa":[6,3,0,0,0,965,2],
 "classMR_1_1VertSetBitIterator.html#a77918806d2fdc2b13b8825f97d9d2eff":[6,3,0,0,0,965,3],
 "classMR_1_1VertSetBitIterator.html#a786355d8a9820468f96e4eabc3dbf741":[6,3,0,0,0,965,4],
-"classMR_1_1VertSetBitIterator.html#a93fe6d3fb2a8e5de5d1b3615a0262493":[6,3,0,0,0,965,1],
-"classMR_1_1VertSetBitIterator.html#abb4e6f9ea63a0592b849d8159a2e0627":[6,3,0,0,0,965,0]
+"classMR_1_1VertSetBitIterator.html#a93fe6d3fb2a8e5de5d1b3615a0262493":[6,3,0,0,0,965,1]
 };

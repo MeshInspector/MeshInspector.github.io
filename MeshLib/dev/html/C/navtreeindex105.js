@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"MRUnorientedTriangle_8h_source.html":[6,2,1,0,0,0,0,1,354],
 "MRVDBConversions_8h.html":[6,2,1,0,0,0,0,4,28],
 "MRVDBConversions_8h.html#a093ec64365543a6749e32e09d694a457":[6,2,1,0,0,0,0,4,28,12],
 "MRVDBConversions_8h.html#a0955c716644a3afe8a2531f2f2e7165b":[6,2,1,0,0,0,0,4,28,128],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "MRVector2_8h.html#a7a1a7e1761f185d6187863cd6a867a5c":[6,2,1,0,0,0,0,1,356,140],
 "MRVector2_8h.html#a80865b03e10b22e9bf9d0de84e428582":[6,2,1,0,0,0,0,1,356,42],
 "MRVector2_8h.html#a80a054398c8b0c64bf3152fed7710878":[6,2,1,0,0,0,0,1,356,36],
-"MRVector2_8h.html#a81b8c93187fbc3b798cdd1e2414ec528":[6,2,1,0,0,0,0,1,356,176],
-"MRVector2_8h.html#a83c8dda8ef1ac47ad534f7260de928aa":[6,2,1,0,0,0,0,1,356,173]
+"MRVector2_8h.html#a81b8c93187fbc3b798cdd1e2414ec528":[6,2,1,0,0,0,0,1,356,176]
 };
