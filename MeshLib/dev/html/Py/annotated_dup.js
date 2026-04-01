@@ -519,6 +519,7 @@ var annotated_dup =
       [ "MeshComponents", "classmrmeshpy_1_1MeshComponents.html", "classmrmeshpy_1_1MeshComponents" ],
       [ "MeshDiff", "classmrmeshpy_1_1MeshDiff.html", "classmrmeshpy_1_1MeshDiff" ],
       [ "MeshEqualizeTriAreasParams", "classmrmeshpy_1_1MeshEqualizeTriAreasParams.html", "classmrmeshpy_1_1MeshEqualizeTriAreasParams" ],
+      [ "MeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams" ],
       [ "MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", "classmrmeshpy_1_1MeshIntersectionResult" ],
       [ "MeshLoad", "classmrmeshpy_1_1MeshLoad.html", "classmrmeshpy_1_1MeshLoad" ],
       [ "MeshLoadSettings", "classmrmeshpy_1_1MeshLoadSettings.html", "classmrmeshpy_1_1MeshLoadSettings" ],

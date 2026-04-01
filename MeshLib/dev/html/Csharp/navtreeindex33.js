@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1FaceDistancesSettings.html#aa5330b3c7597d23c10dfd5b07ff7f138":[6,3,0,0,0,349,3],
 "classMR_1_1FaceDistancesSettings.html#acdf5a30120f3135ef32e5971a88630e2":[6,3,0,0,0,349,0],
 "classMR_1_1FaceFace.html":[6,3,0,0,0,350],
 "classMR_1_1FaceFace.html#a1abd657335f7f2582706c2ffdbb21556":[6,3,0,0,0,350,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Features.html#ac06224376bb2a03c01c7c45829eec78b":[6,3,0,0,0,363,15],
 "classMR_1_1Features.html#ad485a26ea75e0dc5aba063db4babcc70":[6,3,0,0,0,363,21],
 "classMR_1_1Features.html#ae0c4b0a33a2306988bed3afd7b6e6530":[6,3,0,0,0,363,18],
-"classMR_1_1Features.html#ae6f2b52cd268f6acb93756796a552e52":[6,3,0,0,0,363,17],
-"classMR_1_1Features_1_1MeasureResult.html":[6,3,0,0,0,363,0]
+"classMR_1_1Features.html#ae6f2b52cd268f6acb93756796a552e52":[6,3,0,0,0,363,17]
 };

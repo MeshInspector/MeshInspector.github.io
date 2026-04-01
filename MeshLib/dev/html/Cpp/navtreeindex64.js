@@ -1,5 +1,12 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Polyline.html#ab39f63a5f068099aaa0ec1c5e025103e":[6,0,0,14,0,2],
+"structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97":[6,0,0,14,0,17],
+"structMR_1_1Polyline.html#ab5049b91b498ff6a3932bb2ee20cf2bf":[6,0,0,14,0,3],
+"structMR_1_1Polyline.html#ab5969e3da3e8deb772958e4855dc5b9c":[6,0,0,14,0,22],
+"structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[6,0,0,14,0,21],
+"structMR_1_1Polyline.html#abaaaf2e622a7df2fb5ef5492721109be":[6,0,0,14,0,13],
+"structMR_1_1Polyline.html#abe0cb6a927b49d813ccebab2cc70d7a7":[6,0,0,14,0,25],
 "structMR_1_1Polyline.html#acddfc9fe7193026b7c731a688f1dc478":[6,0,0,14,0,34],
 "structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[6,0,0,14,0,15],
 "structMR_1_1Polyline.html#ad4be3d0739eaf55a7156960a61d9b1e3":[6,0,0,14,0,28],
@@ -58,7 +65,7 @@ var NAVTREEINDEX64 =
 "structMR_1_1PreciseVertCoord.html":[6,0,0,20,439],
 "structMR_1_1PreciseVertCoords.html":[6,0,0,20,443],
 "structMR_1_1PreciseVertCoords2.html":[6,0,0,20,440],
-"structMR_1_1ProgressInterrupter.html":[6,0,0,20,855],
+"structMR_1_1ProgressInterrupter.html":[6,0,0,20,856],
 "structMR_1_1ProjectAttributeParams.html":[6,0,0,20,447],
 "structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[6,0,0,20,48],
 "structMR_1_1PythonExport_1_1ModuleData.html":[6,0,0,20,515],
@@ -183,8 +190,8 @@ var NAVTREEINDEX64 =
 "structMR_1_1SimpleTimeRecord.html#a5bc2244721bb50d4a1d54c4d3cedd459":[6,0,0,3,12,0],
 "structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e":[6,0,0,3,12,2],
 "structMR_1_1SkyPatch.html":[6,0,0,20,471],
-"structMR_1_1SliceInfo.html":[6,0,0,20,836],
-"structMR_1_1SliceInfoBase.html":[6,0,0,20,835],
+"structMR_1_1SliceInfo.html":[6,0,0,20,837],
+"structMR_1_1SliceInfoBase.html":[6,0,0,20,836],
 "structMR_1_1SmoothFillingSettings.html":[6,0,0,20,240],
 "structMR_1_1SomeLocalTriangulations.html":[6,0,0,20,300],
 "structMR_1_1SortIntersectionsData.html":[6,0,0,20,393],
@@ -242,12 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,13],
 "structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,7],
 "structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[6,0,0,20,708],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,0,20,707],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,0,20,710],
-"structMR_1_1SymMatrix2.html":[6,0,0,0,7,4],
-"structMR_1_1SymMatrix2.html":[6,0,0,20,475],
-"structMR_1_1SymMatrix3.html":[6,0,0,0,7,5],
-"structMR_1_1SymMatrix3.html":[6,0,0,20,476],
-"structMR_1_1SymMatrix4.html":[6,0,0,0,7,6],
-"structMR_1_1SymMatrix4.html":[6,0,0,20,477]
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,0,20,707]
 };

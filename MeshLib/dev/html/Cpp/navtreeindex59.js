@@ -1,5 +1,11 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce":[6,0,0,5,4,12],
+"structMR_1_1ContourToDistanceMapParams.html#afe723fbe249c8d2b51f599539ba3040d":[6,0,0,5,4,4],
+"structMR_1_1ContoursDistanceMapOffset.html":[6,0,0,5,1],
+"structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038":[6,0,0,5,1,2],
+"structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5":[6,0,0,5,1,1],
+"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178":[6,0,0,5,1,0],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[6,0,0,5,1,0,0],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30":[6,0,0,5,1,0,1],
 "structMR_1_1ContoursDistanceMapOptions.html":[6,0,0,5,2],
@@ -131,7 +137,7 @@ var NAVTREEINDEX59 =
 "structMR_1_1DivideMeshWithPlaneParams.html":[6,0,0,20,321],
 "structMR_1_1DividePointCloudOptionalOutput.html":[6,0,0,20,415],
 "structMR_1_1DividePolylineParameters.html":[6,0,0,20,432],
-"structMR_1_1DoubleOffsetSettings.html":[6,0,0,20,854],
+"structMR_1_1DoubleOffsetSettings.html":[6,0,0,20,855],
 "structMR_1_1DragDropListener.html":[6,0,0,20,755],
 "structMR_1_1DragEndListener.html":[6,0,0,20,745],
 "structMR_1_1DragEntranceListener.html":[6,0,0,20,756],
@@ -243,11 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html":[6,0,1,0,1,8,1,0],
 "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html":[6,0,2,0,2,4,1,0],
 "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a23e21cd3fa7230a5847e45b9d3d9c99a":[6,0,1,0,1,8,1,0,0],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a23e21cd3fa7230a5847e45b9d3d9c99a":[6,0,2,0,2,4,1,0,0],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a6124f92134e89389bcb88b08b0a0ca1b":[6,0,1,0,1,8,1,0,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a6124f92134e89389bcb88b08b0a0ca1b":[6,0,2,0,2,4,1,0,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html":[6,0,1,0,1,8,1,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html":[6,0,2,0,2,4,1,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#a99c86ed6bab979519ec1b5ce2410ee6c":[6,0,1,0,1,8,1,1,1],
-"structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#a99c86ed6bab979519ec1b5ce2410ee6c":[6,0,2,0,2,4,1,1,1]
+"structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a23e21cd3fa7230a5847e45b9d3d9c99a":[6,0,2,0,2,4,1,0,0]
 };

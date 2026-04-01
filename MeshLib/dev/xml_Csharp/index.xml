@@ -10096,6 +10096,19 @@
     <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a4fb112503135759cf22128f08bb4d23e" kind="function"><name>MeshEqualizeTriAreasParams</name></member>
     <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a9c5a13d2757c4512b378c0eab99ef4a1" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1MeshFromVoxelsPostProcessingParams" kind="class"><name>MR::MeshFromVoxelsPostProcessingParams</name>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1a1c8e78f27a745b5b7e78b64b4f47db54" kind="property"><name>voxelSize</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1a261477cc02e3b1c79fa14ec28c809e5b" kind="property"><name>reduceAngleNumIters</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1a5579b03b82a7d99276a7f417dbc517bd" kind="property"><name>decimate</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1a52c7b991ed652f98c0db6dda568e522d" kind="property"><name>tinyEdgeLength</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1ae1a43d234366ee8d8ae2f3f321c59d65" kind="property"><name>sharpEdges</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1aa084e2bd973a60086c2b4793754701b8" kind="function"><name>MeshFromVoxelsPostProcessingParams</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1ab63b124f35976f8e7c71bae542addd87" kind="function"><name>MeshFromVoxelsPostProcessingParams</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1a8b0ff69d652561c456fd311413e35695" kind="function"><name>MeshFromVoxelsPostProcessingParams</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1a09da04f0f1026028b10165ed29316737" kind="function"><name>MeshFromVoxelsPostProcessingParams</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1add06af1db8ac698c61cd281f67813d3a" kind="function"><name>MeshFromVoxelsPostProcessingParams</name></member>
+    <member refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1a17bda4461bebac9543e6f59700f5ed7d" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1MeshIntersectionResult" kind="class"><name>MR::MeshIntersectionResult</name>
     <member refid="classMR_1_1MeshIntersectionResult_1acd7189c3d953286ab4a54620e771f1db" kind="property"><name>proj</name></member>
     <member refid="classMR_1_1MeshIntersectionResult_1a03cb48bf74c78540570d751913d1f9e6" kind="property"><name>mtp</name></member>
@@ -12750,6 +12763,7 @@
     <member refid="classMR_1aae753505e1ec2f7ccaf47afeccceeb51" kind="function"><name>polylineToSimpleVolume</name></member>
     <member refid="classMR_1ae2e6d5867bb99b1020ccafd327d08177" kind="function"><name>polylineToFunctionVolume</name></member>
     <member refid="classMR_1a4b0db30e86821abcdb5d2d088f815556" kind="function"><name>rebuildMesh</name></member>
+    <member refid="classMR_1a6b377122641530f2431c891ac465fdde" kind="function"><name>postprocessMeshFromVoxels</name></member>
     <member refid="classMR_1a0e859584baa00f107283a3b92d0be19d" kind="function"><name>getTypeConverter</name></member>
     <member refid="classMR_1a47c347c1ea42e180b5d0e030c33fe450" kind="function"><name>sortScansByOrder</name></member>
     <member refid="classMR_1a508c0f9086c8dedaf73a53064b1b50ab" kind="function"><name>putScanFileNameInZ</name></member>
@@ -16185,14 +16199,14 @@
     <member refid="classMR_1_1RebuildMeshSettings_1af1e76cc18b9192228272bd52eda483e5" kind="property"><name>windingNumberThreshold</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1af049915213c1aba639b93ce800cd9ff8" kind="property"><name>windingNumberBeta</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1afeabe32f7ac89c253e74ebda8bf33b9d" kind="property"><name>fwn</name></member>
-    <member refid="classMR_1_1RebuildMeshSettings_1a49327eee56e82fb22ef3b02746f46e81" kind="property"><name>decimate</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1a4a8614126bd89ed12d2123c4582fdc13" kind="property"><name>reduceAngleNumIters</name></member>
+    <member refid="classMR_1_1RebuildMeshSettings_1a49327eee56e82fb22ef3b02746f46e81" kind="property"><name>decimate</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1a4970386a859f3aee311f5c91de77f57f" kind="property"><name>tinyEdgeLength</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1ab237acae8b1e668df00236fe5d4cfd2a" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1ad203d886815a40175d58c92989a41e3a" kind="property"><name>onSignDetectionModeSelected</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1a677436ac9f9e1c4cf243177346c022e9" kind="function"><name>RebuildMeshSettings</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" kind="function"><name>RebuildMeshSettings</name></member>
-    <member refid="classMR_1_1RebuildMeshSettings_1ac10fb847fe29a0126434977b209948ec" kind="function"><name>RebuildMeshSettings</name></member>
+    <member refid="classMR_1_1RebuildMeshSettings_1abfbad7f31b7d0e144696541d14d5c3da" kind="function"><name>RebuildMeshSettings</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1af06806f775b8df087dc97f31fb70b636" kind="function"><name>RebuildMeshSettings</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1a887b7a5438c0dd25e6a8d6da58868b5e" kind="function"><name>RebuildMeshSettings</name></member>
     <member refid="classMR_1_1RebuildMeshSettings_1a6ac8e2815e2501d6c33b81057844df92" kind="function"><name>RebuildMeshSettings</name></member>

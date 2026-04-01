@@ -350,6 +350,7 @@
     <innerclass refid="structMR_1_1MeshAttributesToUpdate" prot="public">MR::MeshAttributesToUpdate</innerclass>
     <innerclass refid="classMR_1_1MeshDiff" prot="public">MR::MeshDiff</innerclass>
     <innerclass refid="structMR_1_1MeshEqualizeTriAreasParams" prot="public">MR::MeshEqualizeTriAreasParams</innerclass>
+    <innerclass refid="structMR_1_1MeshFromVoxelsPostProcessingParams" prot="public">MR::MeshFromVoxelsPostProcessingParams</innerclass>
     <innerclass refid="structMR_1_1MeshIntersectionResult" prot="public">MR::MeshIntersectionResult</innerclass>
     <innerclass refid="structMR_1_1MeshLoadSettings" prot="public">MR::MeshLoadSettings</innerclass>
     <innerclass refid="structMR_1_1MeshMeshConverter" prot="public">MR::MeshMeshConverter</innerclass>
@@ -3498,6 +3499,7 @@
       <member refid="group__GeneralGroup_1gab3da4c164a8ae80e3e1f81e73216c67e" kind="function"><name>polylineToSimpleVolume</name></member>
       <member refid="group__GeneralGroup_1gadb4c3ea9d9fc385fecb015c1b41bec58" kind="function"><name>polylineToFunctionVolume</name></member>
       <member refid="group__GeneralGroup_1gaa920641fd86dd739a1409ad679445384" kind="function"><name>rebuildMesh</name></member>
+      <member refid="group__GeneralGroup_1ga2e8f972be7a04d60a5748945b06ff2a8" kind="function"><name>postprocessMeshFromVoxels</name></member>
       <member refid="group__GeneralGroup_1ga6fb38ee2f7f333262ea9c3b4a561489e" kind="function"><name>getTypeConverter</name></member>
       <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
       <member refid="group__GeneralGroup_1gaff91c68f41381e746ca7f806ee6e6fc8" kind="function"><name>sortScansByOrder</name></member>

@@ -1,5 +1,12 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1MeshToDistanceMapParams.html#a21d0cfe784245102024dfe44da9bf9de":[6,0,0,5,3,13],
+"structMR_1_1MeshToDistanceMapParams.html#a251bc8c963a3d914635b6ed3ab80a527":[6,0,0,5,3,12],
+"structMR_1_1MeshToDistanceMapParams.html#a2e2a5518e499f07ee236d0357ab3d1a8":[6,0,0,5,3,7],
+"structMR_1_1MeshToDistanceMapParams.html#a3273bae2c4c112688b441a6aa4d0e811":[6,0,0,5,3,19],
+"structMR_1_1MeshToDistanceMapParams.html#a482fe4d7560bd0ee7537f958da60f404":[6,0,0,5,3,8],
+"structMR_1_1MeshToDistanceMapParams.html#a54fc8759794af2258b2386c8bcdbe84b":[6,0,0,5,3,6],
+"structMR_1_1MeshToDistanceMapParams.html#a564c1336e2a73c39aed0b35f500f1ff6":[6,0,0,5,3,1],
 "structMR_1_1MeshToDistanceMapParams.html#a75bd2c39b7abd536c01547fccc4a18b1":[6,0,0,5,3,9],
 "structMR_1_1MeshToDistanceMapParams.html#a7f9d8b8e94b257b2bf65aa10104459c9":[6,0,0,5,3,16],
 "structMR_1_1MeshToDistanceMapParams.html#aa581e3154ca47d52f8cc418e27121f0f":[6,0,0,5,3,11],
@@ -12,7 +19,7 @@ var NAVTREEINDEX63 =
 "structMR_1_1MeshToDistanceMapParams.html#aee9b39f6d40e82b31a7ac6661925c1f1":[6,0,0,5,3,4],
 "structMR_1_1MeshToDistanceMapParams.html#af2eb0fe8049e968df27f68d2950bff6c":[6,0,0,5,3,5],
 "structMR_1_1MeshToDistanceVolumeParams.html":[6,0,0,20,815],
-"structMR_1_1MeshToVolumeParams.html":[6,0,0,20,851],
+"structMR_1_1MeshToVolumeParams.html":[6,0,0,20,852],
 "structMR_1_1MeshTriPoint.html":[6,0,0,7,3],
 "structMR_1_1MeshTriPoint.html":[6,0,0,20,351],
 "structMR_1_1MeshVoxelsConverter.html":[6,0,0,20,804],
@@ -64,8 +71,8 @@ var NAVTREEINDEX63 =
 "structMR_1_1Nesting_1_1Nesting3mfParams.html":[6,0,0,20,85],
 "structMR_1_1Nesting_1_1NestingBaseParams.html":[6,0,0,20,361],
 "structMR_1_1Nesting_1_1NestingResult.html":[6,0,0,20,359],
-"structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[6,0,0,20,843],
-"structMR_1_1Nesting_1_1TetrisDensifyParams.html":[6,0,0,20,844],
+"structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[6,0,0,20,844],
+"structMR_1_1Nesting_1_1TetrisDensifyParams.html":[6,0,0,20,845],
 "structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
 "structMR_1_1NewEdgesMap.html":[6,0,0,20,168],
 "structMR_1_1NoCtor.html":[6,0,0,20,125],
@@ -242,12 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Polyline.html#a92d855c680b2d29a825203463bd926fe":[6,0,0,14,0,40],
 "structMR_1_1Polyline.html#a97fea45a4170313a719a900d98a1ee7d":[6,0,0,14,0,8],
 "structMR_1_1Polyline.html#aada00d7c9df4877d4326b22a4ec91d08":[6,0,0,14,0,5],
-"structMR_1_1Polyline.html#ab0cfcd3178240f3bb9b8346a5d063464":[6,0,0,14,0,12],
-"structMR_1_1Polyline.html#ab39f63a5f068099aaa0ec1c5e025103e":[6,0,0,14,0,2],
-"structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97":[6,0,0,14,0,17],
-"structMR_1_1Polyline.html#ab5049b91b498ff6a3932bb2ee20cf2bf":[6,0,0,14,0,3],
-"structMR_1_1Polyline.html#ab5969e3da3e8deb772958e4855dc5b9c":[6,0,0,14,0,22],
-"structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[6,0,0,14,0,21],
-"structMR_1_1Polyline.html#abaaaf2e622a7df2fb5ef5492721109be":[6,0,0,14,0,13],
-"structMR_1_1Polyline.html#abe0cb6a927b49d813ccebab2cc70d7a7":[6,0,0,14,0,25]
+"structMR_1_1Polyline.html#ab0cfcd3178240f3bb9b8346a5d063464":[6,0,0,14,0,12]
 };

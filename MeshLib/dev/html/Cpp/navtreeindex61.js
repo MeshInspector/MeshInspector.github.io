@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af359c4c5fd8028e39166af8ee8b23736":[6,0,2,0,2,7,7,21],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[6,0,1,0,1,16,8],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[6,0,2,0,2,7,8],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9":[6,0,1,0,1,16,8,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9":[6,0,2,0,2,7,8,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[6,0,1,0,1,16,8,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[6,0,2,0,2,7,8,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b":[6,0,1,0,1,16,8,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b":[6,0,2,0,2,7,8,3],
@@ -208,7 +214,7 @@ var NAVTREEINDEX61 =
 "structMR_1_1Line3Mesh.html#a2324f26e0f3e5d41d2b5c9ab95f50fca":[6,0,0,1,22,3],
 "structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e":[6,0,0,1,22,4],
 "structMR_1_1Line3Mesh.html#aa5ec1978556ce126db464bc744212937":[6,0,0,1,22,2],
-"structMR_1_1LineInterpolationParams.html":[6,0,0,20,847],
+"structMR_1_1LineInterpolationParams.html":[6,0,0,20,848],
 "structMR_1_1LineSegm.html":[6,0,0,20,293],
 "structMR_1_1LinesLoadSettings.html":[6,0,0,20,294],
 "structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,1,0,1,18,0],
@@ -236,18 +242,12 @@ var NAVTREEINDEX61 =
 "structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f":[6,0,0,9,3,4,1],
 "structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495":[6,0,0,9,3,4,2],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,0,20,322],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,0,20,853],
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,0,20,854],
 "structMR_1_1MapOrHashMap.html":[6,0,0,20,303],
 "structMR_1_1MarchingCubesParams.html":[6,0,0,20,813],
 "structMR_1_1MarkedContour3f.html":[6,0,0,20,304],
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html":[6,0,0,20,570],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,0,20,571],
 "structMR_1_1Matrix.html":[6,0,0,0,7,0],
-"structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[6,0,0,0,7,0,1],
-"structMR_1_1Matrix.html#a354da291fab3037516b4802e24177529":[6,0,0,0,7,0,13],
-"structMR_1_1Matrix.html#a72f839037b43011a56b0f8624c2df0dd":[6,0,0,0,7,0,4],
-"structMR_1_1Matrix.html#a76e03ab6e259da469989ca91e6c1dd3d":[6,0,0,0,7,0,2],
-"structMR_1_1Matrix.html#a806891030ce95bf1c8f30915a0068e98":[6,0,0,0,7,0,8],
-"structMR_1_1Matrix.html#a969b7d6345630cad2fa560cfc8f69965":[6,0,0,0,7,0,0],
-"structMR_1_1Matrix.html#a9732eb2252ae08face0de86a534e7102":[6,0,0,0,7,0,12]
+"structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[6,0,0,0,7,0,1]
 };

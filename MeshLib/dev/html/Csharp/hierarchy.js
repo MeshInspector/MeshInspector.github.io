@@ -1200,6 +1200,9 @@ var hierarchy =
       [ "MR.Const_MeshEqualizeTriAreasParams", null, [
         [ "MR.MeshEqualizeTriAreasParams", "classMR_1_1MeshEqualizeTriAreasParams.html", null ]
       ] ],
+      [ "MR.Const_MeshFromVoxelsPostProcessingParams", null, [
+        [ "MR.MeshFromVoxelsPostProcessingParams", "classMR_1_1MeshFromVoxelsPostProcessingParams.html", null ]
+      ] ],
       [ "MR.Const_MeshIntersectionResult", null, [
         [ "MR.MeshIntersectionResult", "classMR_1_1MeshIntersectionResult.html", null ]
       ] ],
@@ -3699,6 +3702,7 @@ var hierarchy =
       [ "MR.Const_MeshAttributesToUpdate", null, null ],
       [ "MR.Const_MeshDiff", null, null ],
       [ "MR.Const_MeshEqualizeTriAreasParams", null, null ],
+      [ "MR.Const_MeshFromVoxelsPostProcessingParams", null, null ],
       [ "MR.Const_MeshIntersectionResult", null, null ],
       [ "MR.Const_MeshLoadSettings", null, null ],
       [ "MR.Const_MeshMeshConverter", null, null ],

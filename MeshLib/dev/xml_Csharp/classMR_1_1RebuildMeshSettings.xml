@@ -137,6 +137,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="339" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="339" bodyend="339"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a4a8614126bd89ed12d2123c4582fdc13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.RebuildMeshSettings.reduceAngleNumIters</definition>
+        <argsstring></argsstring>
+        <name>reduceAngleNumIters</name>
+        <qualifiedname>MR.RebuildMeshSettings.reduceAngleNumIters</qualifiedname>
+        <briefdescription>
+<para>the number of iterations to minimize summed deviation of triangle-triangle angles from plane; this mode highlights sharp edges; if decimation is on, this mode is performed before and after decimation and further reduces the number of triangles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="346" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="346" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a49327eee56e82fb22ef3b02746f46e81" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
         <definition>new unsafe ref bool MR.RebuildMeshSettings.decimate</definition>
@@ -150,22 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="344" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="344" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a4a8614126bd89ed12d2123c4582fdc13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref int</type>
-        <definition>new unsafe ref int MR.RebuildMeshSettings.reduceAngleNumIters</definition>
-        <argsstring></argsstring>
-        <name>reduceAngleNumIters</name>
-        <qualifiedname>MR.RebuildMeshSettings.reduceAngleNumIters</qualifiedname>
-        <briefdescription>
-<para>the number of iterations to minimizes summed deviation of triangle-triangle angles from plane; this mode highlights sharp edges; if decimation is on, this mode is performed before and after decimation and further reduces the number of triangles </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="351" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="351" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="351" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="351" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1a4970386a859f3aee311f5c91de77f57f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -253,10 +253,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="411" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="411" bodyend="417"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RebuildMeshSettings_1ac10fb847fe29a0126434977b209948ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RebuildMeshSettings_1abfbad7f31b7d0e144696541d14d5c3da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.RebuildMeshSettings.RebuildMeshSettings</definition>
-        <argsstring>(bool preSubdivide, float voxelSize, MR.SignDetectionModeShort signMode, bool closeHolesInHoleWindingNumber, MR.OffsetMode offsetMode, MR.UndirectedEdgeBitSet? outSharpEdges, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, bool decimate, int reduceAngleNumIters, float tinyEdgeLength, MR.Std._ByValue_Function_BoolFuncFromFloat progress, MR.Std._ByValue_Function_VoidFuncFromMRSignDetectionMode onSignDetectionModeSelected)</argsstring>
+        <argsstring>(bool preSubdivide, float voxelSize, MR.SignDetectionModeShort signMode, bool closeHolesInHoleWindingNumber, MR.OffsetMode offsetMode, MR.UndirectedEdgeBitSet? outSharpEdges, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, int reduceAngleNumIters, bool decimate, float tinyEdgeLength, MR.Std._ByValue_Function_BoolFuncFromFloat progress, MR.Std._ByValue_Function_VoidFuncFromMRSignDetectionMode onSignDetectionModeSelected)</argsstring>
         <name>RebuildMeshSettings</name>
         <qualifiedname>MR.RebuildMeshSettings.RebuildMeshSettings</qualifiedname>
         <param>
@@ -296,12 +296,12 @@
           <declname>fwn</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>decimate</declname>
-        </param>
-        <param>
           <type>int</type>
           <declname>reduceAngleNumIters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>decimate</declname>
         </param>
         <param>
           <type>float</type>
@@ -461,7 +461,7 @@
       <member refid="classMR_1_1RebuildMeshSettings_1ab237acae8b1e668df00236fe5d4cfd2a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>progress</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a677436ac9f9e1c4cf243177346c022e9" prot="package" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a507d23963b1a2cb1d4d9c73a8b9b83f0" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
-      <member refid="classMR_1_1RebuildMeshSettings_1ac10fb847fe29a0126434977b209948ec" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
+      <member refid="classMR_1_1RebuildMeshSettings_1abfbad7f31b7d0e144696541d14d5c3da" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1af06806f775b8df087dc97f31fb70b636" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a887b7a5438c0dd25e6a8d6da58868b5e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a6ac8e2815e2501d6c33b81057844df92" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>RebuildMeshSettings</name></member>

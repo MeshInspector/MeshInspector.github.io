@@ -660,6 +660,7 @@ var hierarchy =
     [ "mrmeshpy.MeshComponents", "classmrmeshpy_1_1MeshComponents.html", null ],
     [ "mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression", "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression.html", null ],
     [ "mrmeshpy.MeshDiff", "classmrmeshpy_1_1MeshDiff.html", null ],
+    [ "mrmeshpy.MeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html", null ],
     [ "mrmeshpy.MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", [
       [ "mrmeshpy.MultiMeshIntersectionResult", "classmrmeshpy_1_1MultiMeshIntersectionResult.html", null ]
     ] ],

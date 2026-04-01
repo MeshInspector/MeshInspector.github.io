@@ -796,6 +796,7 @@ var hierarchy =
     [ "MR::Mesh", "structMR_1_1Mesh.html", null ],
     [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
     [ "MR::MeshDiff", "classMR_1_1MeshDiff.html", null ],
+    [ "MR::MeshFromVoxelsPostProcessingParams", "structMR_1_1MeshFromVoxelsPostProcessingParams.html", null ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
     ] ],

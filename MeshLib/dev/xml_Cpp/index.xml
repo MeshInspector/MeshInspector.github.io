@@ -5375,6 +5375,13 @@
   <compound refid="structMR_1_1MeshEqualizeTriAreasParams" kind="struct"><name>MR::MeshEqualizeTriAreasParams</name>
     <member refid="structMR_1_1MeshEqualizeTriAreasParams_1a7a54f93ce9d16e271b34554e4b0bd4f0" kind="variable"><name>noShrinkage</name></member>
   </compound>
+  <compound refid="structMR_1_1MeshFromVoxelsPostProcessingParams" kind="struct"><name>MR::MeshFromVoxelsPostProcessingParams</name>
+    <member refid="group__GeneralGroup_1ga4667a0c5821308543fc4bb22fe0b5a75" kind="variable"><name>voxelSize</name></member>
+    <member refid="group__GeneralGroup_1gab54c7eea81e00c39b9abb9df575d6d7f" kind="variable"><name>reduceAngleNumIters</name></member>
+    <member refid="group__GeneralGroup_1ga68c5ac664611ddc71939e4e09e549fde" kind="variable"><name>decimate</name></member>
+    <member refid="group__GeneralGroup_1ga3a49bffc03d6fbcb0a6205cc05c89873" kind="variable"><name>tinyEdgeLength</name></member>
+    <member refid="group__GeneralGroup_1gad1e312886fdda5bff521039d292c760c" kind="variable"><name>sharpEdges</name></member>
+  </compound>
   <compound refid="structMR_1_1MeshIntersectionResult" kind="struct"><name>MR::MeshIntersectionResult</name>
     <member refid="structMR_1_1MeshIntersectionResult_1a59e06434bac0180ffaac80a2fb3041d1" kind="variable"><name>proj</name></member>
     <member refid="structMR_1_1MeshIntersectionResult_1aa6767f8fee0dd3f9883b1657e2d9fcb2" kind="variable"><name>mtp</name></member>
@@ -8901,8 +8908,8 @@
     <member refid="group__GeneralGroup_1ga0fd939665ae442e058cb11d7cc52ac20" kind="variable"><name>windingNumberThreshold</name></member>
     <member refid="group__GeneralGroup_1ga0181b2c8cfb6a6a1788807fd5b6a5d1c" kind="variable"><name>windingNumberBeta</name></member>
     <member refid="group__GeneralGroup_1gaea6b7ba0f04e938fe48d66bb6f336a79" kind="variable"><name>fwn</name></member>
-    <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" kind="variable"><name>decimate</name></member>
     <member refid="group__GeneralGroup_1ga951726066765f74bb3cb752878c21ec2" kind="variable"><name>reduceAngleNumIters</name></member>
+    <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" kind="variable"><name>decimate</name></member>
     <member refid="group__GeneralGroup_1gac305c46895a7bfd2a0af7ccfe1b5cb2e" kind="variable"><name>tinyEdgeLength</name></member>
     <member refid="group__GeneralGroup_1ga03a98a1c9695b0ef4243961f9ad3b59e" kind="variable"><name>progress</name></member>
     <member refid="group__GeneralGroup_1gaef34909f1adee996217b09204c89d4ec" kind="variable"><name>onSignDetectionModeSelected</name></member>
@@ -15530,6 +15537,7 @@
     <member refid="group__GeneralGroup_1gab3da4c164a8ae80e3e1f81e73216c67e" kind="function"><name>polylineToSimpleVolume</name></member>
     <member refid="group__GeneralGroup_1gadb4c3ea9d9fc385fecb015c1b41bec58" kind="function"><name>polylineToFunctionVolume</name></member>
     <member refid="group__GeneralGroup_1gaa920641fd86dd739a1409ad679445384" kind="function"><name>rebuildMesh</name></member>
+    <member refid="group__GeneralGroup_1ga2e8f972be7a04d60a5748945b06ff2a8" kind="function"><name>postprocessMeshFromVoxels</name></member>
     <member refid="group__GeneralGroup_1ga6fb38ee2f7f333262ea9c3b4a561489e" kind="function"><name>getTypeConverter</name></member>
     <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
     <member refid="group__GeneralGroup_1gaff91c68f41381e746ca7f806ee6e6fc8" kind="function"><name>sortScansByOrder</name></member>
@@ -24013,11 +24021,16 @@
     <member refid="group__GeneralGroup_1ga0fd939665ae442e058cb11d7cc52ac20" kind="variable"><name>windingNumberThreshold</name></member>
     <member refid="group__GeneralGroup_1ga0181b2c8cfb6a6a1788807fd5b6a5d1c" kind="variable"><name>windingNumberBeta</name></member>
     <member refid="group__GeneralGroup_1gaea6b7ba0f04e938fe48d66bb6f336a79" kind="variable"><name>fwn</name></member>
-    <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" kind="variable"><name>decimate</name></member>
     <member refid="group__GeneralGroup_1ga951726066765f74bb3cb752878c21ec2" kind="variable"><name>reduceAngleNumIters</name></member>
+    <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" kind="variable"><name>decimate</name></member>
     <member refid="group__GeneralGroup_1gac305c46895a7bfd2a0af7ccfe1b5cb2e" kind="variable"><name>tinyEdgeLength</name></member>
     <member refid="group__GeneralGroup_1ga03a98a1c9695b0ef4243961f9ad3b59e" kind="variable"><name>progress</name></member>
     <member refid="group__GeneralGroup_1gaef34909f1adee996217b09204c89d4ec" kind="variable"><name>onSignDetectionModeSelected</name></member>
+    <member refid="group__GeneralGroup_1ga4667a0c5821308543fc4bb22fe0b5a75" kind="variable"><name>voxelSize</name></member>
+    <member refid="group__GeneralGroup_1gab54c7eea81e00c39b9abb9df575d6d7f" kind="variable"><name>reduceAngleNumIters</name></member>
+    <member refid="group__GeneralGroup_1ga68c5ac664611ddc71939e4e09e549fde" kind="variable"><name>decimate</name></member>
+    <member refid="group__GeneralGroup_1ga3a49bffc03d6fbcb0a6205cc05c89873" kind="variable"><name>tinyEdgeLength</name></member>
+    <member refid="group__GeneralGroup_1gad1e312886fdda5bff521039d292c760c" kind="variable"><name>sharpEdges</name></member>
     <member refid="group__GeneralGroup_1gae54aec5158705c1e248f53879d6639cf" kind="variable"><name>instanceNum</name></member>
     <member refid="group__GeneralGroup_1ga1c860dd386f07581661cc74f394a1470" kind="variable"><name>z</name></member>
     <member refid="group__GeneralGroup_1ga0f4b29a9c38aac83de066f74ddc95c4d" kind="variable"><name>fileNum</name></member>
@@ -30299,6 +30312,7 @@
     <member refid="group__GeneralGroup_1gab3da4c164a8ae80e3e1f81e73216c67e" kind="function"><name>polylineToSimpleVolume</name></member>
     <member refid="group__GeneralGroup_1gadb4c3ea9d9fc385fecb015c1b41bec58" kind="function"><name>polylineToFunctionVolume</name></member>
     <member refid="group__GeneralGroup_1gaa920641fd86dd739a1409ad679445384" kind="function"><name>rebuildMesh</name></member>
+    <member refid="group__GeneralGroup_1ga2e8f972be7a04d60a5748945b06ff2a8" kind="function"><name>postprocessMeshFromVoxels</name></member>
     <member refid="group__GeneralGroup_1ga6fb38ee2f7f333262ea9c3b4a561489e" kind="function"><name>getTypeConverter</name></member>
     <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
     <member refid="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" kind="function"><name>operator&lt;=&gt;</name></member>

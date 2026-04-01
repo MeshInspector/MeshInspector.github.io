@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1ComputeSweptVolumeParameters.html#ad113ea9d77d68cdd31fd3e5d73b2f68f":[6,3,0,0,0,209,7],
 "classMR_1_1Cone3ApproximationParams.html":[6,3,0,0,0,210],
 "classMR_1_1Cone3ApproximationParams.html#a08fb1aba947b3c16af42b407a34e3809":[6,3,0,0,0,210,6],
 "classMR_1_1Cone3ApproximationParams.html#a3d861b89efa71b8718f2d275c96fa0b3":[6,3,0,0,0,210,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ConstBox__Box1f.html#a5e3bd9c55419b7ae006e5d1d0164b3b1":[6,3,0,0,0,220,1],
 "classMR_1_1ConstBox__Box1f.html#a6263169d82078aa4485cade9bdd2ed70":[6,3,0,0,0,220,35],
 "classMR_1_1ConstBox__Box1f.html#a78aa1b606198a5faf4f5ce57073ec942":[6,3,0,0,0,220,12],
-"classMR_1_1ConstBox__Box1f.html#a81970a775aaf9ec1114a34e76f0a035d":[6,3,0,0,0,220,7],
-"classMR_1_1ConstBox__Box1f.html#a89ae86ea895f45e04c61ce339dd4fcec":[6,3,0,0,0,220,4]
+"classMR_1_1ConstBox__Box1f.html#a81970a775aaf9ec1114a34e76f0a035d":[6,3,0,0,0,220,7]
 };

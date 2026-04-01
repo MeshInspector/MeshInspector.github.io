@@ -515,6 +515,7 @@
     <innerclass refid="classMR_1_1MeshComponents" prot="public">MR::MeshComponents</innerclass>
     <innerclass refid="classMR_1_1MeshDiff" prot="public">MR::MeshDiff</innerclass>
     <innerclass refid="classMR_1_1MeshEqualizeTriAreasParams" prot="public">MR::MeshEqualizeTriAreasParams</innerclass>
+    <innerclass refid="classMR_1_1MeshFromVoxelsPostProcessingParams" prot="public">MR::MeshFromVoxelsPostProcessingParams</innerclass>
     <innerclass refid="classMR_1_1MeshIntersectionResult" prot="public">MR::MeshIntersectionResult</innerclass>
     <innerclass refid="classMR_1_1MeshLoad" prot="public">MR::MeshLoad</innerclass>
     <innerclass refid="classMR_1_1MeshLoadSettings" prot="public">MR::MeshLoadSettings</innerclass>
@@ -49445,7 +49446,35 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="530" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="530" bodyend="538"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="824" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="824" bodyend="832"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a6b377122641530f2431c891ac465fdde" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.postprocessMeshFromVoxels</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_MeshFromVoxelsPostProcessingParams params_, MR.Std.Const_Function_Bool_From_Float? progress=null)</argsstring>
+        <name>postprocessMeshFromVoxels</name>
+        <qualifiedname>MR.postprocessMeshFromVoxels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshFromVoxelsPostProcessingParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>progress</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>improves mesh received from a marching cubes algorithm by 1) flipping some edges to reduce total angle on the surface (optional) 2) decimating the mesh with a possible error smaller than voxel size (optional) Generated from function <computeroutput><ref refid="classMR_1a6b377122641530f2431c891ac465fdde" kindref="member">MR.postprocessMeshFromVoxels</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="841" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="841" bodyend="848"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0e859584baa00f107283a3b92d0be19d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_ConstCharPtr</type>
@@ -52646,6 +52675,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a48f226bd68da4f8b448bba2297e47ed9" prot="public" virt="non-virtual"><scope>MR</scope><name>positionVertsSmoothlySharpBd</name></member>
       <member refid="classMR_1a33feea88fc81b4c4c4fa00a17b7d1ad8" prot="public" virt="non-virtual"><scope>MR</scope><name>positionVertsWithSpacing</name></member>
       <member refid="classMR_1aa512cd9ddb74ba663f526b55c0089878" prot="public" virt="non-virtual"><scope>MR</scope><name>positionVertsWithSpacing</name></member>
+      <member refid="classMR_1a6b377122641530f2431c891ac465fdde" prot="public" virt="non-virtual"><scope>MR</scope><name>postprocessMeshFromVoxels</name></member>
       <member refid="classMR_1a4c19c43b7bd5f0e99539690384965459" prot="public" virt="non-virtual"><scope>MR</scope><name>printCurrentTimerBranch</name></member>
       <member refid="classMR_1a5892108c7de4bafdce13783fffaba482" prot="public" virt="non-virtual"><scope>MR</scope><name>printTimingTree</name></member>
       <member refid="classMR_1ae8c3bac76eeb631b137e36573f8baa92" prot="public" virt="non-virtual"><scope>MR</scope><name>printTimingTreeAtEnd</name></member>

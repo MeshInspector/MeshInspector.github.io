@@ -640,6 +640,7 @@ var annotated_dup =
       [ "MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", "structMR_1_1MeshAttributesToUpdate" ],
       [ "MeshDiff", "classMR_1_1MeshDiff.html", "classMR_1_1MeshDiff" ],
       [ "MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", "structMR_1_1MeshEqualizeTriAreasParams" ],
+      [ "MeshFromVoxelsPostProcessingParams", "structMR_1_1MeshFromVoxelsPostProcessingParams.html", "structMR_1_1MeshFromVoxelsPostProcessingParams" ],
       [ "MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", "structMR_1_1MeshIntersectionResult" ],
       [ "MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", "structMR_1_1MeshLoadSettings" ],
       [ "MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", "structMR_1_1MeshMeshConverter" ],
