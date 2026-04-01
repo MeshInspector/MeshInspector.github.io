@@ -51,7 +51,6 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[3,0],
 "../FloatVSDouble.html":[5,3],
 "../HowtoAddPluginOverview.html":[5,8],
-"../I18nGuide.html":[5,9],
 "../InstallationGuide.html":[1],
 "../License.html":[2],
 "../MeshLibCSetupGuide.html":[1,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "MRAABBTreeBase_8h.html#ab704556d0911ac86460fdd4769866ca5":[6,2,1,0,0,0,0,1,2,36],
 "MRAABBTreeBase_8h.html#ab8ab85105e33c89ad87612eed235c7d2":[6,2,1,0,0,0,0,1,2,2],
 "MRAABBTreeBase_8h.html#abfb1c0f3bc7cc55111264ddcfb384283":[6,2,1,0,0,0,0,1,2,37],
-"MRAABBTreeBase_8h.html#ac154a9f16c11665de8850ba5477bbb30":[6,2,1,0,0,0,0,1,2,47]
+"MRAABBTreeBase_8h.html#ac154a9f16c11665de8850ba5477bbb30":[6,2,1,0,0,0,0,1,2,47],
+"MRAABBTreeBase_8h.html#ac2dd42bff10622460acceb780cee7d98":[6,2,1,0,0,0,0,1,2,81]
 };

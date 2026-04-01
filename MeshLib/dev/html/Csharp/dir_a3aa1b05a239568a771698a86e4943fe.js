@@ -342,6 +342,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRTorus.cs", "MRTorus_8cs.html", "MRTorus_8cs" ],
     [ "MRTriangleIntersection.cs", "MRTriangleIntersection_8cs.html", "MRTriangleIntersection_8cs" ],
     [ "MRTriDist.cs", "MRTriDist_8cs.html", "MRTriDist_8cs" ],
+    [ "MRTriMath.cs", "MRTriMath_8cs.html", "MRTriMath_8cs" ],
     [ "MRTriMesh.cs", "MRTriMesh_8cs.html", "MRTriMesh_8cs" ],
     [ "MRTripleFaceIntersections.cs", "MRTripleFaceIntersections_8cs.html", "MRTripleFaceIntersections_8cs" ],
     [ "MRTriPoint.cs", "MRTriPoint_8cs.html", "MRTriPoint_8cs" ],

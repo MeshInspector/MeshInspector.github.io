@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"MRMeshEigen_8h.html":[6,0,3,0,5,209],
 "MRMeshEigen_8h_source.html":[6,0,3,0,5,209],
 "MRMeshExtrude_8h.html":[6,0,3,0,5,210],
 "MRMeshExtrude_8h_source.html":[6,0,3,0,5,210],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "MRPointCloudRelax_8h.html":[6,0,3,0,5,295],
 "MRPointCloudRelax_8h_source.html":[6,0,3,0,5,295],
 "MRPointCloudTriangulationHelpers_8h.html":[6,0,3,0,5,297],
-"MRPointCloudTriangulationHelpers_8h_source.html":[6,0,3,0,5,297]
+"MRPointCloudTriangulationHelpers_8h_source.html":[6,0,3,0,5,297],
+"MRPointCloudTriangulation_8h.html":[6,0,3,0,5,296]
 };

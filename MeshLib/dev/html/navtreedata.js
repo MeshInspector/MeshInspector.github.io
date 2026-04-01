@@ -93,8 +93,7 @@ var NAVTREE =
       [ "Spaces and Transformations", "SpacesHelp.html", null ],
       [ "How to use С++ Example Plugin", "ExamplePluginOverview.html", null ],
       [ "State Plugins Overview", "StatePluginsHelp.html", null ],
-      [ "How to Add Plugin", "HowtoAddPluginOverview.html", null ],
-      [ "Internationalization Guide", "I18nGuide.html", null ]
+      [ "How to Add Plugin", "HowtoAddPluginOverview.html", null ]
     ] ],
     [ "API", "APIPage.html", [
       [ "C++", "Cpp/APICppPage.html", null ],

@@ -3193,14 +3193,25 @@
       <member refid="group__GeneralGroup_1gac1bad3906fe116bb8f0ecdd2cb9063bf" kind="function"><name>triDist</name></member>
       <member refid="group__GeneralGroup_1ga973831babbbe4c9395f8304e8b980d8a" kind="function"><name>segPoints</name></member>
       <member refid="group__MathGroup_1ga97b0c226492f4561c1a2c13831433bed" kind="function"><name>circumcircleDiameterSq</name></member>
+      <member refid="group__GeneralGroup_1ga90f6bce33bc894bbb05eacce88a464c4" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga330cc38296885d29be925e2ab7d97eef" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__MathGroup_1gaba44f8d705d9bc1b98f635bdabe488ae" kind="function"><name>circumcircleDiameter</name></member>
+      <member refid="group__MathGroup_1ga4d722517a95582901be4599a6042e273" kind="function"><name>mincircleDiameterSq</name></member>
       <member refid="group__GeneralGroup_1ga3c69736e96e47e3a27bc8f47ba40c448" kind="function"><name>circumcircleCenter</name></member>
+      <member refid="group__GeneralGroup_1ga0a24e798a815764a1cf25f24578fd258" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga526b964eceeec8892f414aa26de9c095" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1gafebaea1321bcf85ccd6401870196c3fd" kind="function"><name>circumcircleCenter</name></member>
+      <member refid="group__GeneralGroup_1ga0854a14162f975ebde756fa21aa5487f" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga2055a109c5005504d37ab6a78ea49413" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1gab848f1f42c702c20acbcac33a7e53649" kind="function"><name>circumballCenters</name></member>
+      <member refid="group__GeneralGroup_1ga0e6770dd10b896ddba325c8454562dc4" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga25bafbd3341c364a5c32c0a7057e85ca" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__MathGroup_1gaf5af7058ce54bba6fc77a344d28b9826" kind="function"><name>minTriangleAngleSin</name></member>
       <member refid="group__GeneralGroup_1gac317aae7fbe013869599d57c76389e8b" kind="function"><name>minTriangleAngle</name></member>
       <member refid="group__MathGroup_1ga2fbcc5b76ec7e12da86bc99895ac6fc9" kind="function"><name>triangleAspectRatio</name></member>
       <member refid="group__GeneralGroup_1gabd21148656ed4ba11554e5d2639ede14" kind="function"><name>dirDblArea</name></member>
+      <member refid="group__GeneralGroup_1ga7738888f33fbd27e1f9457e6ec55b574" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga19d4218b3418d6a333105211730f0e42" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga85339d82a7293f1fa56e51dd84cff4ee" kind="function"><name>dirDblArea</name></member>
       <member refid="group__GeneralGroup_1gaea846c80de2eaff70b419ad4095d958c" kind="function"><name>dirDblArea</name></member>
       <member refid="group__GeneralGroup_1gaca6757bf3fe6058264ac14a06fbb616e" kind="function"><name>normal</name></member>
@@ -3208,25 +3219,53 @@
       <member refid="group__GeneralGroup_1gab8a336bd7f4d118f0875b242298c3f68" kind="function"><name>normal</name></member>
       <member refid="group__GeneralGroup_1gaf848b7a93acc5e03bfea1f8bcc3ffdb7" kind="function"><name>dblAreaSq</name></member>
       <member refid="group__GeneralGroup_1ga2609ca5846a4d9851c66bd4df5e7a4f8" kind="function"><name>dblArea</name></member>
+      <member refid="group__GeneralGroup_1gafeefa0b28b0ea7e6b4310f244f5e6247" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga575300bf18023db7c263321471d4946e" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga8cf43b097e552b51cea5e2fa012eb286" kind="function"><name>dblArea</name></member>
       <member refid="group__GeneralGroup_1gad0da44181dd40e142f6e464e276c6c03" kind="function"><name>area</name></member>
       <member refid="group__GeneralGroup_1gae3bb1f96cee445baf5867b057f5d6b73" kind="function"><name>dblArea</name></member>
+      <member refid="group__GeneralGroup_1gab59ee803b8fc42b96024b6925801f0c4" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1gac5c2ebd710387e7d14137a765cdcfff7" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga5db5640e628bfb98d046695d1bf378af" kind="function"><name>area</name></member>
       <member refid="group__GeneralGroup_1ga57ff21b97318676241102c87bc9fe9b3" kind="function"><name>makeDegenerate</name></member>
+      <member refid="group__GeneralGroup_1gacbb62e7a7d77b4bc1f0310a6dc4186d1" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1gaba5b9b1e44fc69111786b7a2b103c6ad" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga5b210182919ce9a4fe5cdce5115f4cc3" kind="function"><name>triangleWithNormal</name></member>
+      <member refid="group__GeneralGroup_1ga8af89350ae0f6af753eece5fd70d0826" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1gacf51fa85febba88c8b3cad25cad223ae" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__MathGroup_1ga92b796fca017138671758654b2838d56" kind="function"><name>dihedralAngleSin</name></member>
+      <member refid="group__GeneralGroup_1ga64be5d6880db20e2e2b4f61f8b34b805" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga731b4ee1cc01c1387afcc5479543d746" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__MathGroup_1gaa45975718eae0ae8c5500147ee8c27d1" kind="function"><name>dihedralAngleCos</name></member>
+      <member refid="group__GeneralGroup_1gaa6e13956f2fb48731cdaee400efdc08f" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga2e64c6180e314d6e45a7b5e9da422aab" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__MathGroup_1ga84b1b2dc1c73856fecb9b8617c174b04" kind="function"><name>dihedralAngle</name></member>
       <member refid="group__GeneralGroup_1gadb201ccd9ee730c7d901673288740ce6" kind="function"><name>posFromTriEdgeLengths</name></member>
+      <member refid="group__GeneralGroup_1ga3ff1367c106ce7a890a7cfb8a5104549" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1gaf6691e401954ecd56a331360618215a6" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga5297fdab91151bf439ef0099926fc204" kind="function"><name>quadrangleOtherDiagonal</name></member>
+      <member refid="group__GeneralGroup_1ga5098e228d046d3577efea655c8256d7e" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga9dc8593052c99741bb2ef447da29d0f1" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga58d651ce07dc2f9fd98bdf7366183861" kind="function"><name>tanSqOfHalfAngle</name></member>
+      <member refid="group__GeneralGroup_1ga1b958b94803f7f813338b0b885e3d579" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1gafdaaf83380c31aac680f8acf624c758d" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga35d02c57a4241c1e57cf96d982bc9cc3" kind="function"><name>cotan</name></member>
+      <member refid="group__GeneralGroup_1ga440c22245ef3ef1efda4f3c68c3f13b4" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1gaad4fba2794a02e98613c7f586f093a20" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga66e1bd83c47751c3265e376c45b67b29" kind="function"><name>cotan</name></member>
       <member refid="group__GeneralGroup_1ga90bd3627b4b9ad81f7519392eb4fdc56" kind="function"><name>gradientInTri</name></member>
+      <member refid="group__GeneralGroup_1gac522b7bce7660d27b932b3a93acdfb07" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga9ced26e3fc44b2ddad2ce20b6916c6b7" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1gad96edb1d2f888b3550b04cb5c5d423cf" kind="function"><name>gradientInTri</name></member>
+      <member refid="group__GeneralGroup_1ga6c94b070dca00514b1637e92b1713b9d" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga7634790980e1de18f54d6ff7f3e341e3" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga50ad07fcc0f878c660e360bb5e342d0a" kind="function"><name>findTriExitPos</name></member>
+      <member refid="group__GeneralGroup_1ga6d267bfbb03b0421435fcf10bd632b5d" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1ga1c3699a51ddef4f3921ea67617cc1ccf" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1gabaf47dc289648ef63121a1fcf174d80b" kind="function"><name>tangentPlaneNormalToSpheres</name></member>
       <member refid="group__GeneralGroup_1ga9d52e943714d673d29e28fcb67d1e72d" kind="function"><name>tangentPlaneToSpheres</name></member>
+      <member refid="group__GeneralGroup_1gac400f45e6e10e9ce613b3632b3dcb2f4" kind="function"><name>MR_BIND_TEMPLATE</name></member>
+      <member refid="group__GeneralGroup_1gaefbe67a8b132a7cadcc4b5df1f372fce" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga4c8a5717e585b662ba95f0a28e8cdf49" kind="function"><name>findTripleFaceIntersections</name></member>
       <member refid="group__TunnelDetectorGroup_1gad80f5e7adc96e38d732502162f37feb8" kind="function"><name>detectBasisTunnels</name></member>
       <member refid="group__TunnelDetectorGroup_1ga135a3163af766566666c69ac52f98a9d" kind="function"><name>findSmallestMetricCoLoop</name></member>

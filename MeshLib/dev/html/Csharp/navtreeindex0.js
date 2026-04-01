@@ -51,7 +51,6 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[3,0],
 "../FloatVSDouble.html":[5,3],
 "../HowtoAddPluginOverview.html":[5,8],
-"../I18nGuide.html":[5,9],
 "../InstallationGuide.html":[1],
 "../License.html":[2],
 "../MeshLibCSetupGuide.html":[1,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "MRMapEdge_8cs.html":[6,3,1,0,0,0,2,147],
 "MRMapOrHashMap_8cs.html":[6,3,1,0,0,0,2,148],
 "MRMarchingCubes_8cs.html":[6,3,1,0,0,0,4,11],
-"MRMarkedContour_8cs.html":[6,3,1,0,0,0,2,149]
+"MRMarkedContour_8cs.html":[6,3,1,0,0,0,2,149],
+"MRMatrix2_8cs.html":[6,3,1,0,0,0,2,151]
 };

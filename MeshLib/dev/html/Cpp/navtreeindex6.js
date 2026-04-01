@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"MRViewerInstance_8h_source.html":[6,0,3,0,9,155],
 "MRViewerPlugin_8h.html":[6,0,3,0,9,156],
 "MRViewerPlugin_8h_source.html":[6,0,3,0,9,156],
 "MRViewerSettingsManager_8h.html":[6,0,3,0,9,157],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "classMR_1_1ChangeGridAction.html#ac2009abf4b8a560744458f59f5bc9328":[6,0,0,4,49,3],
 "classMR_1_1ChangeGridAction.html#ad7d5725801275be74a08469ec04b18ca":[6,0,0,4,49,0],
 "classMR_1_1ChangeIsoAction.html":[6,0,0,4,45],
-"classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f":[6,0,0,4,45,4]
+"classMR_1_1ChangeIsoAction.html#a2a614036297c1082f74843b12d425b0f":[6,0,0,4,45,4],
+"classMR_1_1ChangeIsoAction.html#a87c8f47bac3f2dd7b904a9d9497f7fb7":[6,0,0,4,45,0]
 };

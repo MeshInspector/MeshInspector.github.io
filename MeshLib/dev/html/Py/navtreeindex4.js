@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ad78aa145808090070ed7fea4086b1db5":[6,1,1,0,1,59,1],
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html#adadc30d4e7a504a882c236b85c8d4b6b":[6,1,0,0,2,59,0],
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html#adadc30d4e7a504a882c236b85c8d4b6b":[6,1,1,0,1,59,0],
 "classmrmeshpy_1_1BMap__VoxelId__VoxelId.html":[6,1,0,0,2,60],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[6,1,1,0,1,41,0],
 "classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a2cc58396ac77ba0f5eee1517f838aa05":[6,1,0,0,2,41,0,5],
 "classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a2cc58396ac77ba0f5eee1517f838aa05":[6,1,1,0,1,41,0,5],
-"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a54c7d5c0c775c1df9663c71265ba72a7":[6,1,0,0,2,41,0,0]
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a54c7d5c0c775c1df9663c71265ba72a7":[6,1,0,0,2,41,0,0],
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a54c7d5c0c775c1df9663c71265ba72a7":[6,1,1,0,1,41,0,0]
 };

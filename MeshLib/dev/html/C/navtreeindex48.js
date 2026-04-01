@@ -1,6 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"MRLinesLoadSettings_8h.html#a26ee40277f4136387b2c78189011b0f2":[6,2,1,0,0,0,0,1,139,6],
 "MRLinesLoadSettings_8h.html#a3a953f66ccf04fbc14b68fe3965ca07f":[6,2,1,0,0,0,0,1,139,14],
 "MRLinesLoadSettings_8h.html#a50412fec6a6b564fce6064800529c3a2":[6,2,1,0,0,0,0,1,139,2],
 "MRLinesLoadSettings_8h.html#a7107c5b45d02baf9180fa8311390ebcc":[6,2,1,0,0,0,0,1,139,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX48 =
 "MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153":[6,2,1,0,0,0,0,1,143,8],
 "MRLocalTriangulations_8h.html#a7459afd42a1de149072396ac5e997941":[6,2,1,0,0,0,0,1,143,73],
 "MRLocalTriangulations_8h.html#a88109063ff41bde1c7f2b622e90c0624":[6,2,1,0,0,0,0,1,143,43],
-"MRLocalTriangulations_8h.html#a881090836b1d8252c226e06363a47787":[6,2,1,0,0,0,0,1,143,48]
+"MRLocalTriangulations_8h.html#a881090836b1d8252c226e06363a47787":[6,2,1,0,0,0,0,1,143,48],
+"MRLocalTriangulations_8h.html#a8b1e166f3c38df27ad3fa8b08db33137":[6,2,1,0,0,0,0,1,143,23]
 };

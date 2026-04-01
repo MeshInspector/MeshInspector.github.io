@@ -36,6 +36,7 @@
     <includedby refid="std__array__MR__Vector2f__3_8h" local="no">std_array_MR_Vector2f_3.h</includedby>
     <includedby refid="std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h" local="no">std_function_MR_Vector2f_from_const_MR_Vector2i_ref.h</includedby>
     <includedby refid="std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h" local="no">std_function_MR_Vector2i_from_const_MR_Vector2f_ref.h</includedby>
+    <includedby refid="std__optional__MR__Vector2d_8h" local="no">std_optional_MR_Vector2d.h</includedby>
     <includedby refid="std__optional__MR__Vector2f_8h" local="no">std_optional_MR_Vector2f.h</includedby>
     <includedby refid="std__vector__MR__Vector2d_8h" local="no">std_vector_MR_Vector2d.h</includedby>
     <includedby refid="std__vector__MR__Vector2f_8h" local="no">std_vector_MR_Vector2f.h</includedby>
@@ -656,6 +657,8 @@
         </childnode>
         <childnode refid="107" relation="include">
         </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
       </node>
       <node id="54">
         <label>MRViewportProperty.h</label>
@@ -706,6 +709,10 @@
         <link refid="std__optional__MR__Box3f_8h"/>
       </node>
       <node id="105">
+        <label>std_optional_MR_Vector2d.h</label>
+        <link refid="std__optional__MR__Vector2d_8h"/>
+      </node>
+      <node id="106">
         <label>std_optional_MR_Vector2f.h</label>
         <link refid="std__optional__MR__Vector2f_8h"/>
       </node>
@@ -733,11 +740,11 @@
         <label>std_vector_MR_CNCMachineSettings_RotationAxisName.h</label>
         <link refid="std__vector__MR__CNCMachineSettings__RotationAxisName_8h"/>
       </node>
-      <node id="106">
+      <node id="107">
         <label>std_vector_MR_Vector2d.h</label>
         <link refid="std__vector__MR__Vector2d_8h"/>
       </node>
-      <node id="107">
+      <node id="108">
         <label>std_vector_MR_Vector2f.h</label>
         <link refid="std__vector__MR__Vector2f_8h"/>
       </node>

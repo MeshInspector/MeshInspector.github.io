@@ -38001,6 +38001,1950 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="1084" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="1084" bodyend="1110"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a3017cdb0f3d77900759a55a876e16583" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.circumcircleDiameterSq</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c)</argsstring>
+        <name>circumcircleDiameterSq</name>
+        <qualifiedname>MR.circumcircleDiameterSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes the squared diameter of the triangle's ABC circumcircle; Generated from function <computeroutput><ref refid="classMR_1a753d11e93b5506fccb3f2a1c3e5129a7" kindref="member">MR.circumcircleDiameterSq</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="7" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="7" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a438ad1d8404cbb6c2eb142c5a62e6924" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.circumcircleDiameterSq</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c)</argsstring>
+        <name>circumcircleDiameterSq</name>
+        <qualifiedname>MR.circumcircleDiameterSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes the squared diameter of the triangle's ABC circumcircle; Generated from function <computeroutput><ref refid="classMR_1a753d11e93b5506fccb3f2a1c3e5129a7" kindref="member">MR.circumcircleDiameterSq</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="27" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="27" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a6f764fa84fd2d6b933553d003835719d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.circumcircleDiameter</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c)</argsstring>
+        <name>circumcircleDiameter</name>
+        <qualifiedname>MR.circumcircleDiameter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes the diameter of the triangle's ABC circumcircle Generated from function <computeroutput><ref refid="classMR_1a6236e1738d2998dc319cb101db727535" kindref="member">MR.circumcircleDiameter</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="47" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="47" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aafb9493fa5fc2b1e39e2f71b3b461316" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.circumcircleDiameter</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c)</argsstring>
+        <name>circumcircleDiameter</name>
+        <qualifiedname>MR.circumcircleDiameter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes the diameter of the triangle's ABC circumcircle Generated from function <computeroutput><ref refid="classMR_1a6236e1738d2998dc319cb101db727535" kindref="member">MR.circumcircleDiameter</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="67" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="67" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aca8deb6f32e3e4907eca107b240b643a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.mincircleDiameterSq</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c)</argsstring>
+        <name>mincircleDiameterSq</name>
+        <qualifiedname>MR.mincircleDiameterSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes the squared diameter of the smallest enclosed circle around ABC; For acute triangles it is the same as circumcircle, for obtuse triangles - the circle with the longest triangle's edge as a diameter Generated from function <computeroutput><ref refid="classMR_1aca8deb6f32e3e4907eca107b240b643a" kindref="member">MR.mincircleDiameterSq</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="88" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="88" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a389a1cc6f097e216f0eb85031a25c7d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.mincircleDiameterSq</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c)</argsstring>
+        <name>mincircleDiameterSq</name>
+        <qualifiedname>MR.mincircleDiameterSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes the squared diameter of the smallest enclosed circle around ABC; For acute triangles it is the same as circumcircle, for obtuse triangles - the circle with the longest triangle's edge as a diameter Generated from function <computeroutput><ref refid="classMR_1aca8deb6f32e3e4907eca107b240b643a" kindref="member">MR.mincircleDiameterSq</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="109" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="109" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a44d96060c6c84db0b51686581c89ed37" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.circumcircleCenter</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b)</argsstring>
+        <name>circumcircleCenter</name>
+        <qualifiedname>MR.circumcircleCenter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Computes the center of the the triangle's 0AB circumcircle Generated from function <computeroutput><ref refid="classMR_1a44d96060c6c84db0b51686581c89ed37" kindref="member">MR.circumcircleCenter</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="129" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="129" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ab907dc6b71e8f36720b724083df16e6a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.circumcircleCenter</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b)</argsstring>
+        <name>circumcircleCenter</name>
+        <qualifiedname>MR.circumcircleCenter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Computes the center of the the triangle's 0AB circumcircle Generated from function <computeroutput><ref refid="classMR_1a44d96060c6c84db0b51686581c89ed37" kindref="member">MR.circumcircleCenter</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="146" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="146" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a106439ad51344f3306af799914a832e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.circumcircleCenter</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c)</argsstring>
+        <name>circumcircleCenter</name>
+        <qualifiedname>MR.circumcircleCenter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes the center of the the triangle's ABC circumcircle Generated from function <computeroutput><ref refid="classMR_1a44d96060c6c84db0b51686581c89ed37" kindref="member">MR.circumcircleCenter</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="163" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="163" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a59d5f6dc25750ec1ef965b08011c8643" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.circumcircleCenter</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c)</argsstring>
+        <name>circumcircleCenter</name>
+        <qualifiedname>MR.circumcircleCenter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes the center of the the triangle's ABC circumcircle Generated from function <computeroutput><ref refid="classMR_1a44d96060c6c84db0b51686581c89ed37" kindref="member">MR.circumcircleCenter</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="183" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="183" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ae2f2ffcbcbfb3abc78b9828ae0bc04e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.circumballCenters</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c, float radius, ref MR.Vector3f centerPos, ref MR.Vector3f centerNeg)</argsstring>
+        <name>circumballCenters</name>
+        <qualifiedname>MR.circumballCenters</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>centerPos</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>centerNeg</declname>
+        </param>
+        <briefdescription>
+<para>Given triangle ABC and ball radius, finds two centers of balls each touching all 3 triangle's vertices;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>false if such balls do not exist (radius is smaller that circumcircle radius) Generated from function <computeroutput><ref refid="classMR_1ae2f2ffcbcbfb3abc78b9828ae0bc04e8" kindref="member">MR.circumballCenters</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="204" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="204" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a4db1116e025280ca8d5e6dd3307848c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.circumballCenters</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c, double radius, ref MR.Vector3d centerPos, ref MR.Vector3d centerNeg)</argsstring>
+        <name>circumballCenters</name>
+        <qualifiedname>MR.circumballCenters</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>centerPos</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>centerNeg</declname>
+        </param>
+        <briefdescription>
+<para>Given triangle ABC and ball radius, finds two centers of balls each touching all 3 triangle's vertices;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>false if such balls do not exist (radius is smaller that circumcircle radius) Generated from function <computeroutput><ref refid="classMR_1ae2f2ffcbcbfb3abc78b9828ae0bc04e8" kindref="member">MR.circumballCenters</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="231" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="231" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a31fccdef90a11e3ac8b251de3f815957" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.minTriangleAngleSin</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c)</argsstring>
+        <name>minTriangleAngleSin</name>
+        <qualifiedname>MR.minTriangleAngleSin</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes sine of minimal angle in ABC triangle, which is equal to ratio of minimal edge length to circumcircle diameter Generated from function <computeroutput><ref refid="classMR_1a31fccdef90a11e3ac8b251de3f815957" kindref="member">MR.minTriangleAngleSin</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="257" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="257" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a1302b215c53a2b0de629a4f1c5730cd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.minTriangleAngleSin</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c)</argsstring>
+        <name>minTriangleAngleSin</name>
+        <qualifiedname>MR.minTriangleAngleSin</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Computes sine of minimal angle in ABC triangle, which is equal to ratio of minimal edge length to circumcircle diameter Generated from function <computeroutput><ref refid="classMR_1a31fccdef90a11e3ac8b251de3f815957" kindref="member">MR.minTriangleAngleSin</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="277" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="277" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a5ae6f4551ba7f2eef42271445c7b6e47" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.minTriangleAngle</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c)</argsstring>
+        <name>minTriangleAngle</name>
+        <qualifiedname>MR.minTriangleAngle</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a5ae6f4551ba7f2eef42271445c7b6e47" kindref="member">MR.minTriangleAngle</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="296" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="296" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a6a9e8d8832cf7f7d22d9ffb2b65a3956" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.minTriangleAngle</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c)</argsstring>
+        <name>minTriangleAngle</name>
+        <qualifiedname>MR.minTriangleAngle</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a5ae6f4551ba7f2eef42271445c7b6e47" kindref="member">MR.minTriangleAngle</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="315" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="315" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9ced4cd45647f9ddbf071a92b398e42a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.triangleAspectRatio</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c)</argsstring>
+        <name>triangleAspectRatio</name>
+        <qualifiedname>MR.triangleAspectRatio</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Aspect ratio of a triangle is the ratio of the circum-radius to twice its in-radius Generated from function <computeroutput><ref refid="classMR_1a0235706bacd47ec3d639e31500758d0d" kindref="member">MR.triangleAspectRatio</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="335" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="335" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9deb2526f36496a18d8266e6beb062a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.triangleAspectRatio</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c)</argsstring>
+        <name>triangleAspectRatio</name>
+        <qualifiedname>MR.triangleAspectRatio</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Aspect ratio of a triangle is the ratio of the circum-radius to twice its in-radius Generated from function <computeroutput><ref refid="classMR_1a0235706bacd47ec3d639e31500758d0d" kindref="member">MR.triangleAspectRatio</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="355" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="355" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a57aa15990cabd7e72c282abcf153fea3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.dirDblArea</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 t)</argsstring>
+        <name>dirDblArea</name>
+        <qualifiedname>MR.dirDblArea</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>computes directed double area of given triangle Generated from function <computeroutput><ref refid="classMR_1a4afd8bdbb1d90e1e157354d9a5b32270" kindref="member">MR.dirDblArea</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="375" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="375" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8b83e462c272c83b6c878e8e2701e614" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.dirDblArea</definition>
+        <argsstring>(in MR.Std.Array_MRVector3d_3 t)</argsstring>
+        <name>dirDblArea</name>
+        <qualifiedname>MR.dirDblArea</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3d_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>computes directed double area of given triangle Generated from function <computeroutput><ref refid="classMR_1a4afd8bdbb1d90e1e157354d9a5b32270" kindref="member">MR.dirDblArea</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="389" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="389" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ab01e18af973d0e616f7e1d7809934562" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.dirDblArea</definition>
+        <argsstring>(in MR.Vector3f q, in MR.Vector3f r)</argsstring>
+        <name>dirDblArea</name>
+        <qualifiedname>MR.dirDblArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes directed double area of triangle 0QR Generated from function <computeroutput><ref refid="classMR_1a4afd8bdbb1d90e1e157354d9a5b32270" kindref="member">MR.dirDblArea</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="403" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="403" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a7def5d57da0b696d2e74a1cb2832fe86" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.dirDblArea</definition>
+        <argsstring>(in MR.Vector3d q, in MR.Vector3d r)</argsstring>
+        <name>dirDblArea</name>
+        <qualifiedname>MR.dirDblArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes directed double area of triangle 0QR Generated from function <computeroutput><ref refid="classMR_1a4afd8bdbb1d90e1e157354d9a5b32270" kindref="member">MR.dirDblArea</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="420" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="420" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ae50b00ca8bbf313580c70b8c08cd6b5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.dirDblArea</definition>
+        <argsstring>(in MR.Vector3f p, in MR.Vector3f q, in MR.Vector3f r)</argsstring>
+        <name>dirDblArea</name>
+        <qualifiedname>MR.dirDblArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes directed double area of triangle PQR Generated from function <computeroutput><ref refid="classMR_1a4afd8bdbb1d90e1e157354d9a5b32270" kindref="member">MR.dirDblArea</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="437" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="437" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a96b47324e62224812971c018d9b9945a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.dirDblArea</definition>
+        <argsstring>(in MR.Vector3d p, in MR.Vector3d q, in MR.Vector3d r)</argsstring>
+        <name>dirDblArea</name>
+        <qualifiedname>MR.dirDblArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes directed double area of triangle PQR Generated from function <computeroutput><ref refid="classMR_1a4afd8bdbb1d90e1e157354d9a5b32270" kindref="member">MR.dirDblArea</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="457" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="457" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a0298e93f848e8e28028a04ba8c0a5db8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.normal</definition>
+        <argsstring>(in MR.Vector3f q, in MR.Vector3f r)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.normal</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes unit normal of triangle 0QR Generated from function <computeroutput><ref refid="classMR_1a01e25ff53effd03122fa769db4e2a4b2" kindref="member">MR.normal</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="477" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="477" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ac395293e4577b2f0bbba0e0cc4a5e596" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.normal</definition>
+        <argsstring>(in MR.Vector3d q, in MR.Vector3d r)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.normal</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes unit normal of triangle 0QR Generated from function <computeroutput><ref refid="classMR_1a01e25ff53effd03122fa769db4e2a4b2" kindref="member">MR.normal</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="494" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="494" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1abf7c277db3b79717e9a5e4e32fac32e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.normal</definition>
+        <argsstring>(in MR.Vector3f p, in MR.Vector3f q, in MR.Vector3f r)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.normal</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes unit normal of triangle PQR Generated from function <computeroutput><ref refid="classMR_1a01e25ff53effd03122fa769db4e2a4b2" kindref="member">MR.normal</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="511" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="511" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a65d09470fa82e7cdad88d7d5de56eed6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.normal</definition>
+        <argsstring>(in MR.Vector3d p, in MR.Vector3d q, in MR.Vector3d r)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.normal</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes unit normal of triangle PQR Generated from function <computeroutput><ref refid="classMR_1a01e25ff53effd03122fa769db4e2a4b2" kindref="member">MR.normal</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="531" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="531" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a686a5dd54600161cde58827a87f64bae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.normal</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 t)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.normal</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>computes unit normal of the given triangle Generated from function <computeroutput><ref refid="classMR_1a01e25ff53effd03122fa769db4e2a4b2" kindref="member">MR.normal</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="551" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="551" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ab128fa94398cfcf3f0a1b29639d7de6f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.normal</definition>
+        <argsstring>(in MR.Std.Array_MRVector3d_3 t)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.normal</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3d_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>computes unit normal of the given triangle Generated from function <computeroutput><ref refid="classMR_1a01e25ff53effd03122fa769db4e2a4b2" kindref="member">MR.normal</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="565" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="565" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aa35d625433f3440cbfc27ba2bedc431b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.dblAreaSq</definition>
+        <argsstring>(in MR.Vector3f p, in MR.Vector3f q, in MR.Vector3f r)</argsstring>
+        <name>dblAreaSq</name>
+        <qualifiedname>MR.dblAreaSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes the square of double area of given triangle Generated from function <computeroutput><ref refid="classMR_1aa35d625433f3440cbfc27ba2bedc431b" kindref="member">MR.dblAreaSq</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="579" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="579" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ada8cb09e625bea1e4415ddbad863d855" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.dblAreaSq</definition>
+        <argsstring>(in MR.Vector3d p, in MR.Vector3d q, in MR.Vector3d r)</argsstring>
+        <name>dblAreaSq</name>
+        <qualifiedname>MR.dblAreaSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes the square of double area of given triangle Generated from function <computeroutput><ref refid="classMR_1aa35d625433f3440cbfc27ba2bedc431b" kindref="member">MR.dblAreaSq</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="599" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="599" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a5cefc7daf9a3e0a2f718a1ea9a5384bc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.dblArea</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 t)</argsstring>
+        <name>dblArea</name>
+        <qualifiedname>MR.dblArea</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a7871dc2d28699a2b31acb7e113849505" kindref="member">MR.dblArea</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="619" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="619" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aa3df6682c35c10d70c910740fd1df6fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.dblArea</definition>
+        <argsstring>(in MR.Std.Array_MRVector3d_3 t)</argsstring>
+        <name>dblArea</name>
+        <qualifiedname>MR.dblArea</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3d_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a7871dc2d28699a2b31acb7e113849505" kindref="member">MR.dblArea</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="633" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="633" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ab6221145dcdd3b9bc34cec9fb414ff33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.dblArea</definition>
+        <argsstring>(in MR.Vector3f p, in MR.Vector3f q, in MR.Vector3f r)</argsstring>
+        <name>dblArea</name>
+        <qualifiedname>MR.dblArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a7871dc2d28699a2b31acb7e113849505" kindref="member">MR.dblArea</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="647" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="647" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a3f666af76cc1f3797f516484d3e5c554" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.dblArea</definition>
+        <argsstring>(in MR.Vector3d p, in MR.Vector3d q, in MR.Vector3d r)</argsstring>
+        <name>dblArea</name>
+        <qualifiedname>MR.dblArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a7871dc2d28699a2b31acb7e113849505" kindref="member">MR.dblArea</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="667" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="667" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a996c96904caa6bfaadadb9070040269f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.area</definition>
+        <argsstring>(in MR.Vector3f p, in MR.Vector3f q, in MR.Vector3f r)</argsstring>
+        <name>area</name>
+        <qualifiedname>MR.area</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a3b681b00f68dc26ba2b242b9dd330be8" kindref="member">MR.area</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="687" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="687" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8b21f7dd3f32e9dbe5c764d939e4f7aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.area</definition>
+        <argsstring>(in MR.Vector3d p, in MR.Vector3d q, in MR.Vector3d r)</argsstring>
+        <name>area</name>
+        <qualifiedname>MR.area</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a3b681b00f68dc26ba2b242b9dd330be8" kindref="member">MR.area</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="707" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="707" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a39bd118b6abd0babd88cdfcd3087985f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.dblArea</definition>
+        <argsstring>(in MR.Vector2f p, in MR.Vector2f q, in MR.Vector2f r)</argsstring>
+        <name>dblArea</name>
+        <qualifiedname>MR.dblArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a7871dc2d28699a2b31acb7e113849505" kindref="member">MR.dblArea</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="727" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="727" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a008bc9c538f811027eb8eccb74205374" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.dblArea</definition>
+        <argsstring>(in MR.Vector2d p, in MR.Vector2d q, in MR.Vector2d r)</argsstring>
+        <name>dblArea</name>
+        <qualifiedname>MR.dblArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a7871dc2d28699a2b31acb7e113849505" kindref="member">MR.dblArea</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="747" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="747" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a25393d6c8a322234838c6c15112e3cf1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.area</definition>
+        <argsstring>(in MR.Vector2f p, in MR.Vector2f q, in MR.Vector2f r)</argsstring>
+        <name>area</name>
+        <qualifiedname>MR.area</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a3b681b00f68dc26ba2b242b9dd330be8" kindref="member">MR.area</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="767" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="767" bodyend="781"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ad3c997dbda7173a4100bc43a5a6e7d4a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.area</definition>
+        <argsstring>(in MR.Vector2d p, in MR.Vector2d q, in MR.Vector2d r)</argsstring>
+        <name>area</name>
+        <qualifiedname>MR.area</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>computes twice the area of given triangle Generated from function <computeroutput><ref refid="classMR_1a3b681b00f68dc26ba2b242b9dd330be8" kindref="member">MR.area</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="787" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="787" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1afb790ba26788ff7a169547a0e3bbddea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Array_MRVector3f_3</type>
+        <definition>static unsafe MR.Std.Array_MRVector3f_3 MR.makeDegenerate</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 t)</argsstring>
+        <name>makeDegenerate</name>
+        <qualifiedname>MR.makeDegenerate</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>make degenerate triangle (all 3 points on a line) that maximally resembles the input one and has the same centroid Generated from function <computeroutput><ref refid="classMR_1afb790ba26788ff7a169547a0e3bbddea" kindref="member">MR.makeDegenerate</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="807" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="807" bodyend="815"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a4fbaeff4c12e24b8d8d27a7973b57dfa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Array_MRVector3d_3</type>
+        <definition>static unsafe MR.Std.Array_MRVector3d_3 MR.makeDegenerate</definition>
+        <argsstring>(in MR.Std.Array_MRVector3d_3 t)</argsstring>
+        <name>makeDegenerate</name>
+        <qualifiedname>MR.makeDegenerate</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3d_3</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>make degenerate triangle (all 3 points on a line) that maximally resembles the input one and has the same centroid Generated from function <computeroutput><ref refid="classMR_1afb790ba26788ff7a169547a0e3bbddea" kindref="member">MR.makeDegenerate</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="821" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="821" bodyend="829"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ad25c8190ebb5b37b736dc4c406e31993" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Array_MRVector3f_3</type>
+        <definition>static unsafe MR.Std.Array_MRVector3f_3 MR.triangleWithNormal</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 t, in MR.Vector3f n)</argsstring>
+        <name>triangleWithNormal</name>
+        <qualifiedname>MR.triangleWithNormal</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>project given triangle on a plane passing via its centroid and having unit normal (n); if after projection triangle normal turns out to be inversed, then collapses the triangle into degenerate line segment Generated from function <computeroutput><ref refid="classMR_1ad25c8190ebb5b37b736dc4c406e31993" kindref="member">MR.triangleWithNormal</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="836" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="836" bodyend="847"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a5be97ba97709b4d74418ac1003fc32b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Array_MRVector3d_3</type>
+        <definition>static unsafe MR.Std.Array_MRVector3d_3 MR.triangleWithNormal</definition>
+        <argsstring>(in MR.Std.Array_MRVector3d_3 t, in MR.Vector3d n)</argsstring>
+        <name>triangleWithNormal</name>
+        <qualifiedname>MR.triangleWithNormal</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3d_3</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>project given triangle on a plane passing via its centroid and having unit normal (n); if after projection triangle normal turns out to be inversed, then collapses the triangle into degenerate line segment Generated from function <computeroutput><ref refid="classMR_1ad25c8190ebb5b37b736dc4c406e31993" kindref="member">MR.triangleWithNormal</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="854" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="854" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ac347309beee6d78dff552e9ca750f07a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.dihedralAngleSin</definition>
+        <argsstring>(in MR.Vector3f leftNorm, in MR.Vector3f rightNorm, in MR.Vector3f edgeVec)</argsstring>
+        <name>dihedralAngleSin</name>
+        <qualifiedname>MR.dihedralAngleSin</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>rightNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>edgeVec</declname>
+        </param>
+        <briefdescription>
+<para>given an edge direction between two faces with given normals, computes sine of dihedral angle between the faces: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface Generated from function <computeroutput><ref refid="classMR_1a5bc12744a9114ec0c865974528b67d07" kindref="member">MR.dihedralAngleSin</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="874" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="874" bodyend="888"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1af7242509e273758b98cf093bacf0fdd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.dihedralAngleSin</definition>
+        <argsstring>(in MR.Vector3d leftNorm, in MR.Vector3d rightNorm, in MR.Vector3d edgeVec)</argsstring>
+        <name>dihedralAngleSin</name>
+        <qualifiedname>MR.dihedralAngleSin</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>rightNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>edgeVec</declname>
+        </param>
+        <briefdescription>
+<para>given an edge direction between two faces with given normals, computes sine of dihedral angle between the faces: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface Generated from function <computeroutput><ref refid="classMR_1a5bc12744a9114ec0c865974528b67d07" kindref="member">MR.dihedralAngleSin</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="897" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="897" bodyend="911"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ac71d6fa04baeff3dfff81e54b22412ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.dihedralAngleCos</definition>
+        <argsstring>(in MR.Vector3f leftNorm, in MR.Vector3f rightNorm)</argsstring>
+        <name>dihedralAngleCos</name>
+        <qualifiedname>MR.dihedralAngleCos</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>rightNorm</declname>
+        </param>
+        <briefdescription>
+<para>given two face normals, computes cosine of dihedral angle between the faces: 1 if both faces are in the same plane, 0 if the surface makes right angle turn at the edge, -1 if the faces overlap one another Generated from function <computeroutput><ref refid="classMR_1a460448cb1399041bda892a5dfb11dd4b" kindref="member">MR.dihedralAngleCos</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="920" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="920" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ac01354e47b55f87ae9cd100ca9ec1a73" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.dihedralAngleCos</definition>
+        <argsstring>(in MR.Vector3d leftNorm, in MR.Vector3d rightNorm)</argsstring>
+        <name>dihedralAngleCos</name>
+        <qualifiedname>MR.dihedralAngleCos</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>rightNorm</declname>
+        </param>
+        <briefdescription>
+<para>given two face normals, computes cosine of dihedral angle between the faces: 1 if both faces are in the same plane, 0 if the surface makes right angle turn at the edge, -1 if the faces overlap one another Generated from function <computeroutput><ref refid="classMR_1a460448cb1399041bda892a5dfb11dd4b" kindref="member">MR.dihedralAngleCos</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="940" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="940" bodyend="951"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a7c57d95f93a0ee7aa57fcbf10b491428" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.dihedralAngle</definition>
+        <argsstring>(in MR.Vector3f leftNorm, in MR.Vector3f rightNorm, in MR.Vector3f edgeVec)</argsstring>
+        <name>dihedralAngle</name>
+        <qualifiedname>MR.dihedralAngle</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>rightNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>edgeVec</declname>
+        </param>
+        <briefdescription>
+<para>given an edge direction between two faces with given normals (not necessary of unit length), computes the dihedral angle between the faces: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface; please consider the usage of faster dihedralAngleSin(e) and dihedralAngleCos(e) Generated from function <computeroutput><ref refid="classMR_1a6cb0f089f52389186d1fabe743d53ed5" kindref="member">MR.dihedralAngle</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="961" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="961" bodyend="975"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a6025fc650c82ae57e6e731ed55911a36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.dihedralAngle</definition>
+        <argsstring>(in MR.Vector3d leftNorm, in MR.Vector3d rightNorm, in MR.Vector3d edgeVec)</argsstring>
+        <name>dihedralAngle</name>
+        <qualifiedname>MR.dihedralAngle</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>rightNorm</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>edgeVec</declname>
+        </param>
+        <briefdescription>
+<para>given an edge direction between two faces with given normals (not necessary of unit length), computes the dihedral angle between the faces: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface; please consider the usage of faster dihedralAngleSin(e) and dihedralAngleCos(e) Generated from function <computeroutput><ref refid="classMR_1a6cb0f089f52389186d1fabe743d53ed5" kindref="member">MR.dihedralAngle</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="985" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="985" bodyend="999"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a02fbdaabe2967d63f97558bdab740302" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector2f</type>
+        <definition>static unsafe MR.Std.Optional_MRVector2f MR.posFromTriEdgeLengths</definition>
+        <argsstring>(float a, float b, float c)</argsstring>
+        <name>posFromTriEdgeLengths</name>
+        <qualifiedname>MR.posFromTriEdgeLengths</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>given the lengths of 3 edges of triangle ABC, and assuming that point B has coordinates (0,0); point A - (0,c); computes the coordinates of point C (where c.x &gt;= 0) or returns std::nullopt if input lengths are invalid for a triangle Generated from function <computeroutput><ref refid="classMR_1a02fbdaabe2967d63f97558bdab740302" kindref="member">MR.posFromTriEdgeLengths</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1007" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1007" bodyend="1012"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a90a31a63b1d083c3f08ed5823fe88845" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector2d</type>
+        <definition>static unsafe MR.Std.Optional_MRVector2d MR.posFromTriEdgeLengths</definition>
+        <argsstring>(double a, double b, double c)</argsstring>
+        <name>posFromTriEdgeLengths</name>
+        <qualifiedname>MR.posFromTriEdgeLengths</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>given the lengths of 3 edges of triangle ABC, and assuming that point B has coordinates (0,0); point A - (0,c); computes the coordinates of point C (where c.x &gt;= 0) or returns std::nullopt if input lengths are invalid for a triangle Generated from function <computeroutput><ref refid="classMR_1a02fbdaabe2967d63f97558bdab740302" kindref="member">MR.posFromTriEdgeLengths</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1020" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1020" bodyend="1025"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a581e354a84548b92ab1e00f64b47e2a8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_Float</type>
+        <definition>static unsafe MR.Std.Optional_Float MR.quadrangleOtherDiagonal</definition>
+        <argsstring>(float a, float b, float c, float a1, float b1)</argsstring>
+        <name>quadrangleOtherDiagonal</name>
+        <qualifiedname>MR.quadrangleOtherDiagonal</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b1</declname>
+        </param>
+        <briefdescription>
+<para>given two triangles on same plane sharing one side, with edge lengths in same order: (a, b, c) and (b1, a1, c); they can be considered as a quadrangle with a diagonal of length (c); and the lengths of consecutive edges (a, b, b1, a1); returns the length of the other quadrangle's diagonal if the quadrangle is valid and convex or std::nullopt otherwise Generated from function <computeroutput><ref refid="classMR_1a581e354a84548b92ab1e00f64b47e2a8" kindref="member">MR.quadrangleOtherDiagonal</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1033" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1033" bodyend="1038"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a446a38aeff591eed307c97c0b91ace61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_Double</type>
+        <definition>static unsafe MR.Std.Optional_Double MR.quadrangleOtherDiagonal</definition>
+        <argsstring>(double a, double b, double c, double a1, double b1)</argsstring>
+        <name>quadrangleOtherDiagonal</name>
+        <qualifiedname>MR.quadrangleOtherDiagonal</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b1</declname>
+        </param>
+        <briefdescription>
+<para>given two triangles on same plane sharing one side, with edge lengths in same order: (a, b, c) and (b1, a1, c); they can be considered as a quadrangle with a diagonal of length (c); and the lengths of consecutive edges (a, b, b1, a1); returns the length of the other quadrangle's diagonal if the quadrangle is valid and convex or std::nullopt otherwise Generated from function <computeroutput><ref refid="classMR_1a581e354a84548b92ab1e00f64b47e2a8" kindref="member">MR.quadrangleOtherDiagonal</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1046" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1046" bodyend="1051"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a35e9979291be171d49f3e7255b856d17" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float MR.tanSqOfHalfAngle</definition>
+        <argsstring>(float a, float b, float c)</argsstring>
+        <name>tanSqOfHalfAngle</name>
+        <qualifiedname>MR.tanSqOfHalfAngle</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>given (a, b, c) - the side lengths of a triangle, returns the squared tangent of half angle opposite the side with length (a) see "An Algorithm for the Construction of Intrinsic Delaunay Triangulations with Applications to Digital Geometry <ref refid="classMR_1a2e141c1c8c46db7665c0466e70b3917c" kindref="member">Processing</ref>". <ulink url="https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf">https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf</ulink> Generated from function <computeroutput><ref refid="classMR_1a35e9979291be171d49f3e7255b856d17" kindref="member">MR.tanSqOfHalfAngle</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1059" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1059" bodyend="1064"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a03cda6eeb5f1f1377a3e8ddd86deaf0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double MR.tanSqOfHalfAngle</definition>
+        <argsstring>(double a, double b, double c)</argsstring>
+        <name>tanSqOfHalfAngle</name>
+        <qualifiedname>MR.tanSqOfHalfAngle</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>given (a, b, c) - the side lengths of a triangle, returns the squared tangent of half angle opposite the side with length (a) see "An Algorithm for the Construction of Intrinsic Delaunay Triangulations with Applications to Digital Geometry <ref refid="classMR_1a2e141c1c8c46db7665c0466e70b3917c" kindref="member">Processing</ref>". <ulink url="https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf">https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf</ulink> Generated from function <computeroutput><ref refid="classMR_1a35e9979291be171d49f3e7255b856d17" kindref="member">MR.tanSqOfHalfAngle</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1072" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1072" bodyend="1077"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a2fe1f6555ba9a1b7b5e68c294efa1c25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.cotan</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 t, float? absMaxVal=null)</argsstring>
+        <name>cotan</name>
+        <qualifiedname>MR.cotan</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>absMaxVal</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>given triangle by its three vertices: t[0], t[1], t[2], returns the cotangent of the angle at t[2], but not larger by magnitude than absMaxVal Generated from function <computeroutput><ref refid="classMR_1a31f83a0dd4afa558cf678b618017a770" kindref="member">MR.cotan</ref>&amp;lt;float&amp;gt;</computeroutput>. Parameter <computeroutput>absMaxVal</computeroutput> defaults to <computeroutput>std::numeric_limits&amp;lt;float&amp;gt;::max()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1085" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1085" bodyend="1094"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aed498070893e6b0cfff488763470f027" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.cotan</definition>
+        <argsstring>(in MR.Std.Array_MRVector3d_3 t, double? absMaxVal=null)</argsstring>
+        <name>cotan</name>
+        <qualifiedname>MR.cotan</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3d_3</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>double?</type>
+          <declname>absMaxVal</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>given triangle by its three vertices: t[0], t[1], t[2], returns the cotangent of the angle at t[2], but not larger by magnitude than absMaxVal Generated from function <computeroutput><ref refid="classMR_1a31f83a0dd4afa558cf678b618017a770" kindref="member">MR.cotan</ref>&amp;lt;double&amp;gt;</computeroutput>. Parameter <computeroutput>absMaxVal</computeroutput> defaults to <computeroutput>std::numeric_limits&amp;lt;double&amp;gt;::max()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1102" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1102" bodyend="1111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a7aa24849d138511992a1eec844c8e4ad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float MR.cotan</definition>
+        <argsstring>(float a, float b, float c)</argsstring>
+        <name>cotan</name>
+        <qualifiedname>MR.cotan</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>given (a, b, c) - the side lengths of a triangle, returns the cotangent of the angle opposite the side with length a see "An Algorithm for the Construction of Intrinsic Delaunay Triangulations with Applications to Digital Geometry <ref refid="classMR_1a2e141c1c8c46db7665c0466e70b3917c" kindref="member">Processing</ref>". <ulink url="https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf">https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf</ulink> Generated from function <computeroutput><ref refid="classMR_1a31f83a0dd4afa558cf678b618017a770" kindref="member">MR.cotan</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1119" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1119" bodyend="1124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9022ba6c27fcbb2cbe5fb92088476119" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double MR.cotan</definition>
+        <argsstring>(double a, double b, double c)</argsstring>
+        <name>cotan</name>
+        <qualifiedname>MR.cotan</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>given (a, b, c) - the side lengths of a triangle, returns the cotangent of the angle opposite the side with length a see "An Algorithm for the Construction of Intrinsic Delaunay Triangulations with Applications to Digital Geometry <ref refid="classMR_1a2e141c1c8c46db7665c0466e70b3917c" kindref="member">Processing</ref>". <ulink url="https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf">https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf</ulink> Generated from function <computeroutput><ref refid="classMR_1a31f83a0dd4afa558cf678b618017a770" kindref="member">MR.cotan</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1132" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1132" bodyend="1137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1af64a34a02153cdc398ba99fdabd819af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3f</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3f MR.gradientInTri</definition>
+        <argsstring>(in MR.Vector3f b, in MR.Vector3f c, float vb, float vc)</argsstring>
+        <name>gradientInTri</name>
+        <qualifiedname>MR.gradientInTri</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vb</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vc</declname>
+        </param>
+        <briefdescription>
+<para>Consider triangle 0BC, where a linear scalar field is defined in all 3 vertices: v(0) = 0, v(b) = vb, v(c) = vc; returns field gradient in the triangle or std::nullopt if the triangle is degenerate Generated from function <computeroutput><ref refid="classMR_1af64a34a02153cdc398ba99fdabd819af" kindref="member">MR.gradientInTri</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1144" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1144" bodyend="1155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a184c77f02ba2c0439d7955c8b531f3e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3d</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3d MR.gradientInTri</definition>
+        <argsstring>(in MR.Vector3d b, in MR.Vector3d c, double vb, double vc)</argsstring>
+        <name>gradientInTri</name>
+        <qualifiedname>MR.gradientInTri</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vb</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vc</declname>
+        </param>
+        <briefdescription>
+<para>Consider triangle 0BC, where a linear scalar field is defined in all 3 vertices: v(0) = 0, v(b) = vb, v(c) = vc; returns field gradient in the triangle or std::nullopt if the triangle is degenerate Generated from function <computeroutput><ref refid="classMR_1af64a34a02153cdc398ba99fdabd819af" kindref="member">MR.gradientInTri</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1162" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1162" bodyend="1173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a7efbac7eb04ec1d9a84218e6e5854b82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3f</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3f MR.gradientInTri</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c, float va, float vb, float vc)</argsstring>
+        <name>gradientInTri</name>
+        <qualifiedname>MR.gradientInTri</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>va</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vb</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vc</declname>
+        </param>
+        <briefdescription>
+<para>Consider triangle ABC, where a linear scalar field is defined in all 3 vertices: v(a) = va, v(b) = vb, v(c) = vc; returns field gradient in the triangle or std::nullopt if the triangle is degenerate Generated from function <computeroutput><ref refid="classMR_1af64a34a02153cdc398ba99fdabd819af" kindref="member">MR.gradientInTri</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1180" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1180" bodyend="1194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ac96351a95c5d63316257f6b8c607429d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3d</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3d MR.gradientInTri</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c, double va, double vb, double vc)</argsstring>
+        <name>gradientInTri</name>
+        <qualifiedname>MR.gradientInTri</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>va</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vb</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vc</declname>
+        </param>
+        <briefdescription>
+<para>Consider triangle ABC, where a linear scalar field is defined in all 3 vertices: v(a) = va, v(b) = vb, v(c) = vc; returns field gradient in the triangle or std::nullopt if the triangle is degenerate Generated from function <computeroutput><ref refid="classMR_1af64a34a02153cdc398ba99fdabd819af" kindref="member">MR.gradientInTri</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1201" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1201" bodyend="1215"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ac88efe688502564a054578f599f59322" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_Float</type>
+        <definition>static unsafe MR.Std.Optional_Float MR.findTriExitPos</definition>
+        <argsstring>(in MR.Vector3f b, in MR.Vector3f c, in MR.Vector3f grad)</argsstring>
+        <name>findTriExitPos</name>
+        <qualifiedname>MR.findTriExitPos</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>grad</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ac88efe688502564a054578f599f59322" kindref="member">MR.findTriExitPos</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1222" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1222" bodyend="1236"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8d96a4f3543974831c8fc6cf4406ee39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_Double</type>
+        <definition>static unsafe MR.Std.Optional_Double MR.findTriExitPos</definition>
+        <argsstring>(in MR.Vector3d b, in MR.Vector3d c, in MR.Vector3d grad)</argsstring>
+        <name>findTriExitPos</name>
+        <qualifiedname>MR.findTriExitPos</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>grad</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ac88efe688502564a054578f599f59322" kindref="member">MR.findTriExitPos</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1243" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1243" bodyend="1257"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8d368d21a1695f7f6f82dd2e4b37d665" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3f</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3f MR.tangentPlaneNormalToSpheres</definition>
+        <argsstring>(in MR.Vector3f b, in MR.Vector3f c, float rb, float rc)</argsstring>
+        <name>tangentPlaneNormalToSpheres</name>
+        <qualifiedname>MR.tangentPlaneNormalToSpheres</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rb</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rc</declname>
+        </param>
+        <briefdescription>
+<para>Given 3 spheres: 1) sphere with center at b and radius rb 2) sphere with center at c and radius rc 3) sphere with center at the origin and zero radius (actually point); finds the plane touching all 3 spheres: dot(n,x) = 0, such that cross( n, b, c ) &gt; 0 (to select one of two planes) returns n or std::nullopt if no touch plane exists Generated from function <computeroutput><ref refid="classMR_1a8d368d21a1695f7f6f82dd2e4b37d665" kindref="member">MR.tangentPlaneNormalToSpheres</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1268" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1268" bodyend="1279"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aab2a62886626faaed369509ad2f938b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3d</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3d MR.tangentPlaneNormalToSpheres</definition>
+        <argsstring>(in MR.Vector3d b, in MR.Vector3d c, double rb, double rc)</argsstring>
+        <name>tangentPlaneNormalToSpheres</name>
+        <qualifiedname>MR.tangentPlaneNormalToSpheres</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rb</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rc</declname>
+        </param>
+        <briefdescription>
+<para>Given 3 spheres: 1) sphere with center at b and radius rb 2) sphere with center at c and radius rc 3) sphere with center at the origin and zero radius (actually point); finds the plane touching all 3 spheres: dot(n,x) = 0, such that cross( n, b, c ) &gt; 0 (to select one of two planes) returns n or std::nullopt if no touch plane exists Generated from function <computeroutput><ref refid="classMR_1a8d368d21a1695f7f6f82dd2e4b37d665" kindref="member">MR.tangentPlaneNormalToSpheres</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1290" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1290" bodyend="1301"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a01cafcc669024f121a2008d55c7739c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRPlane3f</type>
+        <definition>static unsafe MR.Std.Optional_MRPlane3f MR.tangentPlaneToSpheres</definition>
+        <argsstring>(in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c, float ra, float rb, float rc)</argsstring>
+        <name>tangentPlaneToSpheres</name>
+        <qualifiedname>MR.tangentPlaneToSpheres</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ra</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rb</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rc</declname>
+        </param>
+        <briefdescription>
+<para>Given 3 spheres: 1) sphere with center at a and radius ra 2) sphere with center at b and radius rb 3) sphere with center at c and radius rc finds the plane touching all 3 spheres: dot(n,x) = d, such that cross( n, b-a, c-a ) &gt; 0 (to select one of two planes) returns found plane or std::nullopt if no touch plane exists Generated from function <computeroutput><ref refid="classMR_1a01cafcc669024f121a2008d55c7739c1" kindref="member">MR.tangentPlaneToSpheres</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1312" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1312" bodyend="1326"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9105743182c6e89a227c1d986536cfc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRPlane3d</type>
+        <definition>static unsafe MR.Std.Optional_MRPlane3d MR.tangentPlaneToSpheres</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c, double ra, double rb, double rc)</argsstring>
+        <name>tangentPlaneToSpheres</name>
+        <qualifiedname>MR.tangentPlaneToSpheres</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ra</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rb</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rc</declname>
+        </param>
+        <briefdescription>
+<para>Given 3 spheres: 1) sphere with center at a and radius ra 2) sphere with center at b and radius rb 3) sphere with center at c and radius rc finds the plane touching all 3 spheres: dot(n,x) = d, such that cross( n, b-a, c-a ) &gt; 0 (to select one of two planes) returns found plane or std::nullopt if no touch plane exists Generated from function <computeroutput><ref refid="classMR_1a01cafcc669024f121a2008d55c7739c1" kindref="member">MR.tangentPlaneToSpheres</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" line="1337" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMath.cs" bodystart="1337" bodyend="1351"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a353cb88f7b6c29b24f5e398a978b8e96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRFaceFaceFace</type>
         <definition>static unsafe MR.Std.Vector_MRFaceFaceFace MR.findTripleFaceIntersections</definition>
@@ -49173,6 +51117,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1afd36e700e6c3e32c350de8faa2cc7b37" prot="public" virt="non-virtual"><scope>MR</scope><name>ArcPlane</name></member>
       <member refid="classMR_1a3b681b00f68dc26ba2b242b9dd330be8" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
       <member refid="classMR_1ac2ad2f63e42deeddcc88f962b637328a" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
+      <member refid="classMR_1a996c96904caa6bfaadadb9070040269f" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
+      <member refid="classMR_1a8b21f7dd3f32e9dbe5c764d939e4f7aa" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
+      <member refid="classMR_1a25393d6c8a322234838c6c15112e3cf1" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
+      <member refid="classMR_1ad3c997dbda7173a4100bc43a5a6e7d4a" prot="public" virt="non-virtual"><scope>MR</scope><name>area</name></member>
       <member refid="classMR_1ad11b46fb32fbec07e2e208e6e457b810" prot="public" virt="non-virtual"><scope>MR</scope><name>AreaUnit</name></member>
       <member refid="classMR_1a452d6218563d5a3f7bed445c962984e5" prot="public" virt="non-virtual"><scope>MR</scope><name>asSelectivityType_MRObject</name></member>
       <member refid="classMR_1ae2e1c2a632dc9a920e9f52b8d469a545" prot="public" virt="non-virtual"><scope>MR</scope><name>asSelectivityType_MRObjectDistanceMap</name></member>
@@ -49478,8 +51426,18 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a5211f9962e68c168e3cab2f5af91d622" prot="public" virt="non-virtual"><scope>MR</scope><name>checkDeloneQuadrangleInMesh</name></member>
       <member refid="classMR_1a0f7a7d17c265b60a8012d118878c3f8f" prot="public" virt="non-virtual"><scope>MR</scope><name>checkDeloneQuadrangleInMesh</name></member>
       <member refid="classMR_1a1975667872ef3ab1a7caefbae7ea5585" prot="public" virt="non-virtual"><scope>MR</scope><name>chunkCount</name></member>
+      <member refid="classMR_1ae2f2ffcbcbfb3abc78b9828ae0bc04e8" prot="public" virt="non-virtual"><scope>MR</scope><name>circumballCenters</name></member>
+      <member refid="classMR_1a4db1116e025280ca8d5e6dd3307848c1" prot="public" virt="non-virtual"><scope>MR</scope><name>circumballCenters</name></member>
+      <member refid="classMR_1a44d96060c6c84db0b51686581c89ed37" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleCenter</name></member>
+      <member refid="classMR_1ab907dc6b71e8f36720b724083df16e6a" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleCenter</name></member>
+      <member refid="classMR_1a106439ad51344f3306af799914a832e3" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleCenter</name></member>
+      <member refid="classMR_1a59d5f6dc25750ec1ef965b08011c8643" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleCenter</name></member>
       <member refid="classMR_1a6236e1738d2998dc319cb101db727535" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleDiameter</name></member>
+      <member refid="classMR_1a6f764fa84fd2d6b933553d003835719d" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleDiameter</name></member>
+      <member refid="classMR_1aafb9493fa5fc2b1e39e2f71b3b461316" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleDiameter</name></member>
       <member refid="classMR_1a753d11e93b5506fccb3f2a1c3e5129a7" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleDiameterSq</name></member>
+      <member refid="classMR_1a3017cdb0f3d77900759a55a876e16583" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleDiameterSq</name></member>
+      <member refid="classMR_1a438ad1d8404cbb6c2eb142c5a62e6924" prot="public" virt="non-virtual"><scope>MR</scope><name>circumcircleDiameterSq</name></member>
       <member refid="classMR_1a3614c4bae635d1b8bc8e7f2a2749015c" prot="public" virt="non-virtual"><scope>MR</scope><name>classifyShellVert</name></member>
       <member refid="classMR_1abf2d3995a2b5da287f097a77c54dea8d" prot="public" virt="non-virtual"><scope>MR</scope><name>cloneRegion</name></member>
       <member refid="classMR_1ad30a324f52715859e7f266ece2b81b41" prot="public" virt="non-virtual"><scope>MR</scope><name>cloneRegion</name></member>
@@ -49581,6 +51539,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a66f7e08b31c052563f7e2f794fd3b4fc" prot="public" virt="non-virtual"><scope>MR</scope><name>convertSurfacePathWithEndsToMeshContour</name></member>
       <member refid="classMR_1ab3c747ea96dae2944c4882b7e6c8e5f9" prot="public" virt="non-virtual"><scope>MR</scope><name>copySubdividePackMesh</name></member>
       <member refid="classMR_1a31f83a0dd4afa558cf678b618017a770" prot="public" virt="non-virtual"><scope>MR</scope><name>cotan</name></member>
+      <member refid="classMR_1a2fe1f6555ba9a1b7b5e68c294efa1c25" prot="public" virt="non-virtual"><scope>MR</scope><name>cotan</name></member>
+      <member refid="classMR_1aed498070893e6b0cfff488763470f027" prot="public" virt="non-virtual"><scope>MR</scope><name>cotan</name></member>
+      <member refid="classMR_1a7aa24849d138511992a1eec844c8e4ad" prot="public" virt="non-virtual"><scope>MR</scope><name>cotan</name></member>
+      <member refid="classMR_1a9022ba6c27fcbb2cbe5fb92088476119" prot="public" virt="non-virtual"><scope>MR</scope><name>cotan</name></member>
       <member refid="classMR_1a91f759637281f8e2247d158eb7c383e2" prot="public" virt="non-virtual"><scope>MR</scope><name>countVoxelsWithValueGreater</name></member>
       <member refid="classMR_1a93884347e1dc577704a777f254778e52" prot="public" virt="non-virtual"><scope>MR</scope><name>countVoxelsWithValueLess</name></member>
       <member refid="classMR_1a2a447e8bae623108a740fee48551fb3e" prot="public" virt="non-virtual"><scope>MR</scope><name>countVoxelsWithValuePred</name></member>
@@ -49606,6 +51568,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aae21063cd33c482aadbe57a6738bd8d6" prot="public" virt="non-virtual"><scope>MR</scope><name>cutMeshByProjection</name></member>
       <member refid="classMR_1a7871dc2d28699a2b31acb7e113849505" prot="public" virt="non-virtual"><scope>MR</scope><name>dblArea</name></member>
       <member refid="classMR_1a1ba5bd72c525015c3ae00285b9bb3d6c" prot="public" virt="non-virtual"><scope>MR</scope><name>dblArea</name></member>
+      <member refid="classMR_1a5cefc7daf9a3e0a2f718a1ea9a5384bc" prot="public" virt="non-virtual"><scope>MR</scope><name>dblArea</name></member>
+      <member refid="classMR_1aa3df6682c35c10d70c910740fd1df6fe" prot="public" virt="non-virtual"><scope>MR</scope><name>dblArea</name></member>
+      <member refid="classMR_1ab6221145dcdd3b9bc34cec9fb414ff33" prot="public" virt="non-virtual"><scope>MR</scope><name>dblArea</name></member>
+      <member refid="classMR_1a3f666af76cc1f3797f516484d3e5c554" prot="public" virt="non-virtual"><scope>MR</scope><name>dblArea</name></member>
+      <member refid="classMR_1a39bd118b6abd0babd88cdfcd3087985f" prot="public" virt="non-virtual"><scope>MR</scope><name>dblArea</name></member>
+      <member refid="classMR_1a008bc9c538f811027eb8eccb74205374" prot="public" virt="non-virtual"><scope>MR</scope><name>dblArea</name></member>
+      <member refid="classMR_1aa35d625433f3440cbfc27ba2bedc431b" prot="public" virt="non-virtual"><scope>MR</scope><name>dblAreaSq</name></member>
+      <member refid="classMR_1ada8cb09e625bea1e4415ddbad863d855" prot="public" virt="non-virtual"><scope>MR</scope><name>dblAreaSq</name></member>
       <member refid="classMR_1ae128fea0b17fbe1e588affccf0dcf51c" prot="public" virt="non-virtual"><scope>MR</scope><name>deactivateFarPairs</name></member>
       <member refid="classMR_1ae1d08fcfaafea04fc9e6b51e7b9c187b" prot="public" virt="non-virtual"><scope>MR</scope><name>decimateContour</name></member>
       <member refid="classMR_1ada2324ff8c50136471a253eae77241f4" prot="public" virt="non-virtual"><scope>MR</scope><name>decimateContour</name></member>
@@ -49635,8 +51605,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a0f39c18a23b71f04adcd246b072fcee5" prot="public" virt="non-virtual"><scope>MR</scope><name>detectLoneContours</name></member>
       <member refid="classMR_1aeb2c051d5fe722dc318afb98df86962b" prot="public" virt="non-virtual"><scope>MR</scope><name>detectTunnelFaces</name></member>
       <member refid="classMR_1a6cb0f089f52389186d1fabe743d53ed5" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngle</name></member>
+      <member refid="classMR_1a7c57d95f93a0ee7aa57fcbf10b491428" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngle</name></member>
+      <member refid="classMR_1a6025fc650c82ae57e6e731ed55911a36" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngle</name></member>
       <member refid="classMR_1a460448cb1399041bda892a5dfb11dd4b" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngleCos</name></member>
+      <member refid="classMR_1ac71d6fa04baeff3dfff81e54b22412ae" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngleCos</name></member>
+      <member refid="classMR_1ac01354e47b55f87ae9cd100ca9ec1a73" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngleCos</name></member>
       <member refid="classMR_1a5bc12744a9114ec0c865974528b67d07" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngleSin</name></member>
+      <member refid="classMR_1ac347309beee6d78dff552e9ca750f07a" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngleSin</name></member>
+      <member refid="classMR_1af7242509e273758b98cf093bacf0fdd9" prot="public" virt="non-virtual"><scope>MR</scope><name>dihedralAngleSin</name></member>
       <member refid="classMR_1af6cf4dce654a790d57b740030f1c11c6" prot="public" virt="non-virtual"><scope>MR</scope><name>dilateRegion</name></member>
       <member refid="classMR_1a0f623dd9083701a0b3e3df41ec560932" prot="public" virt="non-virtual"><scope>MR</scope><name>dilateRegion</name></member>
       <member refid="classMR_1a45d2a41a511ccb01165a5b50d6566b12" prot="public" virt="non-virtual"><scope>MR</scope><name>dilateRegion</name></member>
@@ -49651,6 +51627,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a112548bf1f0e1c4050852bd001c4fbf1" prot="public" virt="non-virtual"><scope>MR</scope><name>dirArea</name></member>
       <member refid="classMR_1a4afd8bdbb1d90e1e157354d9a5b32270" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblArea</name></member>
       <member refid="classMR_1a87c57fb1cdf96c70c8c219463646b77f" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1a57aa15990cabd7e72c282abcf153fea3" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1a8b83e462c272c83b6c878e8e2701e614" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1ab01e18af973d0e616f7e1d7809934562" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1a7def5d57da0b696d2e74a1cb2832fe86" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1ae50b00ca8bbf313580c70b8c08cd6b5b" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1a96b47324e62224812971c018d9b9945a" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblArea</name></member>
       <member refid="classMR_1a5bb0891784ebb2529646c0b52b208e49" prot="public" virt="non-virtual"><scope>MR</scope><name>dirDblAreas</name></member>
       <member refid="classMR_1afdc8eb214c61d43e8ef39575a19d0e29" prot="public" virt="non-virtual"><scope>MR</scope><name>DirtyFlags</name></member>
       <member refid="classMR_1aba761feb92d92e37f2594988907bcd39" prot="public" virt="non-virtual"><scope>MR</scope><name>discreteAbsMeanCurvatureMetric</name></member>
@@ -50139,6 +52121,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aac3d6d58d25b16699fed9e2501360681" prot="public" virt="non-virtual"><scope>MR</scope><name>findSubstringCaseInsensitive</name></member>
       <member refid="classMR_1a579c511bc2373a0f450d09e4a00fa5dd" prot="public" virt="non-virtual"><scope>MR</scope><name>findTriangleSectionsByXYPlane</name></member>
       <member refid="classMR_1a71bd685704076ae2dd9392400a27ec8d" prot="public" virt="non-virtual"><scope>MR</scope><name>findTriangleSegmentIntersectionPrecise</name></member>
+      <member refid="classMR_1ac88efe688502564a054578f599f59322" prot="public" virt="non-virtual"><scope>MR</scope><name>findTriExitPos</name></member>
+      <member refid="classMR_1a8d96a4f3543974831c8fc6cf4406ee39" prot="public" virt="non-virtual"><scope>MR</scope><name>findTriExitPos</name></member>
       <member refid="classMR_1a353cb88f7b6c29b24f5e398a978b8e96" prot="public" virt="non-virtual"><scope>MR</scope><name>findTripleFaceIntersections</name></member>
       <member refid="classMR_1aeb6d2551956a040b0b6ccc2fe502872b" prot="public" virt="non-virtual"><scope>MR</scope><name>findTrisInBall</name></member>
       <member refid="classMR_1a9864b29e25f20ea5182730fac7e6a2b4" prot="public" virt="non-virtual"><scope>MR</scope><name>findTriTriDistance</name></member>
@@ -50318,6 +52302,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aa683ca1ca7dd0862bdf9e3f286e7c4a9" prot="public" virt="non-virtual"><scope>MR</scope><name>getVerticalStitchMetricEdgeBased</name></member>
       <member refid="classMR_1a025b21916135fedc41203bd96add9132" prot="public" virt="non-virtual"><scope>MR</scope><name>getXfFromOxyPlane</name></member>
       <member refid="classMR_1a111aa6fde349ac423d4946e6273e0705" prot="public" virt="non-virtual"><scope>MR</scope><name>getXfFromOxyPlane</name></member>
+      <member refid="classMR_1af64a34a02153cdc398ba99fdabd819af" prot="public" virt="non-virtual"><scope>MR</scope><name>gradientInTri</name></member>
+      <member refid="classMR_1a184c77f02ba2c0439d7955c8b531f3e0" prot="public" virt="non-virtual"><scope>MR</scope><name>gradientInTri</name></member>
+      <member refid="classMR_1a7efbac7eb04ec1d9a84218e6e5854b82" prot="public" virt="non-virtual"><scope>MR</scope><name>gradientInTri</name></member>
+      <member refid="classMR_1ac96351a95c5d63316257f6b8c607429d" prot="public" virt="non-virtual"><scope>MR</scope><name>gradientInTri</name></member>
       <member refid="classMR_1a101617f48e0ab6bbf55fca30abefd480" prot="public" virt="non-virtual"><scope>MR</scope><name>gridToMesh</name></member>
       <member refid="classMR_1ad2a00c8e7fc64c0c15799f37b7e21f5e" prot="public" virt="non-virtual"><scope>MR</scope><name>gridToMesh</name></member>
       <member refid="classMR_1a912a5f6a40037273d9e0740c296acc72" prot="public" virt="non-virtual"><scope>MR</scope><name>hardSmoothTetrahedrons</name></member>
@@ -50435,6 +52423,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aba9773a5df9ecf18755eafb4544d02ec" prot="public" virt="non-virtual"><scope>MR</scope><name>makeCylinder</name></member>
       <member refid="classMR_1a40615f7945e27eae8640975e947c7703" prot="public" virt="non-virtual"><scope>MR</scope><name>makeCylinderAdvanced</name></member>
       <member refid="classMR_1afae00f00c650a31e74069bcd833d5dbb" prot="public" virt="non-virtual"><scope>MR</scope><name>makeDecimatedObjectMeshData</name></member>
+      <member refid="classMR_1afb790ba26788ff7a169547a0e3bbddea" prot="public" virt="non-virtual"><scope>MR</scope><name>makeDegenerate</name></member>
+      <member refid="classMR_1a4fbaeff4c12e24b8d8d27a7973b57dfa" prot="public" virt="non-virtual"><scope>MR</scope><name>makeDegenerate</name></member>
       <member refid="classMR_1a019372015ec5fb5ea763149f71dc2c7a" prot="public" virt="non-virtual"><scope>MR</scope><name>makeDegenerateBandAroundHole</name></member>
       <member refid="classMR_1a092fce2d448c0d374f0fe8a33aab5947" prot="public" virt="non-virtual"><scope>MR</scope><name>makeDegenerateBandAroundRegion</name></member>
       <member refid="classMR_1a110ee675ca5439144d5639cb7bc37739" prot="public" virt="non-virtual"><scope>MR</scope><name>makeDeloneEdgeFlips</name></member>
@@ -50535,6 +52525,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a6328cc48bc1be46ed3893c317cdf37eb" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToPointCloud</name></member>
       <member refid="classMR_1a9fd082f1c1027b0a10b4e1358358f1d5" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToVolume</name></member>
       <member refid="classMR_1a31e10e554566804ad375d43e4bf7f4a8" prot="public" virt="non-virtual"><scope>MR</scope><name>MeshVisualizePropertyType</name></member>
+      <member refid="classMR_1aca8deb6f32e3e4907eca107b240b643a" prot="public" virt="non-virtual"><scope>MR</scope><name>mincircleDiameterSq</name></member>
+      <member refid="classMR_1a389a1cc6f097e216f0eb85031a25c7d6" prot="public" virt="non-virtual"><scope>MR</scope><name>mincircleDiameterSq</name></member>
+      <member refid="classMR_1a5ae6f4551ba7f2eef42271445c7b6e47" prot="public" virt="non-virtual"><scope>MR</scope><name>minTriangleAngle</name></member>
+      <member refid="classMR_1a6a9e8d8832cf7f7d22d9ffb2b65a3956" prot="public" virt="non-virtual"><scope>MR</scope><name>minTriangleAngle</name></member>
+      <member refid="classMR_1a31fccdef90a11e3ac8b251de3f815957" prot="public" virt="non-virtual"><scope>MR</scope><name>minTriangleAngleSin</name></member>
+      <member refid="classMR_1a1302b215c53a2b0de629a4f1c5730cd6" prot="public" virt="non-virtual"><scope>MR</scope><name>minTriangleAngleSin</name></member>
       <member refid="classMR_1a6d737f1c655f6b7c6f5e9f551fb0d205" prot="public" virt="non-virtual"><scope>MR</scope><name>mixed</name></member>
       <member refid="classMR_1aaa3b10d81945e84626abf10ca035719d" prot="public" virt="non-virtual"><scope>MR</scope><name>mixed</name></member>
       <member refid="classMR_1a37426af028c7495ec2e11f48894876c8" prot="public" virt="non-virtual"><scope>MR</scope><name>mixed</name></member>
@@ -50571,6 +52567,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a01e25ff53effd03122fa769db4e2a4b2" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
       <member refid="classMR_1a345edba27c56a55e092c6266449c78a1" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
       <member refid="classMR_1ae23908f60ac4528abd35db9ef9cd8f72" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
+      <member refid="classMR_1a0298e93f848e8e28028a04ba8c0a5db8" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
+      <member refid="classMR_1ac395293e4577b2f0bbba0e0cc4a5e596" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
+      <member refid="classMR_1abf7c277db3b79717e9a5e4e32fac32e5" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
+      <member refid="classMR_1a65d09470fa82e7cdad88d7d5de56eed6" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
+      <member refid="classMR_1a686a5dd54600161cde58827a87f64bae" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
+      <member refid="classMR_1ab128fa94398cfcf3f0a1b29639d7de6f" prot="public" virt="non-virtual"><scope>MR</scope><name>normal</name></member>
       <member refid="classMR_1a4ed8e209955ad5735d2a5b2bda15628a" prot="public" virt="non-virtual"><scope>MR</scope><name>NoUnit</name></member>
       <member refid="classMR_1a8c0f2275b73d1efcce06028a61466f6b" prot="public" virt="non-virtual"><scope>MR</scope><name>objectHasSelectableChildren</name></member>
       <member refid="classMR_1a3ad7cc53394ab7689120b9c1627e53ad" prot="public" virt="non-virtual"><scope>MR</scope><name>ObjectSelectivityType</name></member>
@@ -50635,6 +52637,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ae2e6d5867bb99b1020ccafd327d08177" prot="public" virt="non-virtual"><scope>MR</scope><name>polylineToFunctionVolume</name></member>
       <member refid="classMR_1aae753505e1ec2f7ccaf47afeccceeb51" prot="public" virt="non-virtual"><scope>MR</scope><name>polylineToSimpleVolume</name></member>
       <member refid="classMR_1aa15d559e0e2cb93ecd48d1dd1a302b30" prot="public" virt="non-virtual"><scope>MR</scope><name>polylineToVdbVolume</name></member>
+      <member refid="classMR_1a02fbdaabe2967d63f97558bdab740302" prot="public" virt="non-virtual"><scope>MR</scope><name>posFromTriEdgeLengths</name></member>
+      <member refid="classMR_1a90a31a63b1d083c3f08ed5823fe88845" prot="public" virt="non-virtual"><scope>MR</scope><name>posFromTriEdgeLengths</name></member>
       <member refid="classMR_1a7f0dd18f5fee9e1e312a21bd143fd9a4" prot="public" virt="non-virtual"><scope>MR</scope><name>positionVertsSmoothly</name></member>
       <member refid="classMR_1a130f95e238ec63d758cd3c2deb094eab" prot="public" virt="non-virtual"><scope>MR</scope><name>positionVertsSmoothly</name></member>
       <member refid="classMR_1adb33db9d579185e060bbfa65980f43b1" prot="public" virt="non-virtual"><scope>MR</scope><name>positionVertsSmoothlySharpBd</name></member>
@@ -50659,6 +52663,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a2534b5344b204b97873e86a67eabf1e5" prot="public" virt="non-virtual"><scope>MR</scope><name>pseudonormal</name></member>
       <member refid="classMR_1ab0f39a1ffdf9cf20f5cd90d30b59f5fb" prot="public" virt="non-virtual"><scope>MR</scope><name>pseudonormal</name></member>
       <member refid="classMR_1a508c0f9086c8dedaf73a53064b1b50ab" prot="public" virt="non-virtual"><scope>MR</scope><name>putScanFileNameInZ</name></member>
+      <member refid="classMR_1a581e354a84548b92ab1e00f64b47e2a8" prot="public" virt="non-virtual"><scope>MR</scope><name>quadrangleOtherDiagonal</name></member>
+      <member refid="classMR_1a446a38aeff591eed307c97c0b91ace61" prot="public" virt="non-virtual"><scope>MR</scope><name>quadrangleOtherDiagonal</name></member>
       <member refid="classMR_1a71a7085695abea2d74eafdb506574962" prot="public" virt="non-virtual"><scope>MR</scope><name>quadraticForm</name></member>
       <member refid="classMR_1ab7b877f1fa2b50085aa247d41bbfed19" prot="public" virt="non-virtual"><scope>MR</scope><name>QuarterBit</name></member>
       <member refid="classMR_1a6afe1b71d4f7627e504f66bb747ed4cd" prot="public" virt="non-virtual"><scope>MR</scope><name>RatioUnit</name></member>
@@ -50808,6 +52814,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a7df21fe87f902d367a36764129b79653" prot="public" virt="non-virtual"><scope>MR</scope><name>surroundingContour</name></member>
       <member refid="classMR_1a5491185e0b3c7a1c2b8ae62f3b2a1d2e" prot="public" virt="non-virtual"><scope>MR</scope><name>surroundingContour</name></member>
       <member refid="classMR_1a9a6124d052a6082bcb43c1ead011ecbe" prot="public" virt="non-virtual"><scope>MR</scope><name>systemToUtf8</name></member>
+      <member refid="classMR_1a8d368d21a1695f7f6f82dd2e4b37d665" prot="public" virt="non-virtual"><scope>MR</scope><name>tangentPlaneNormalToSpheres</name></member>
+      <member refid="classMR_1aab2a62886626faaed369509ad2f938b6" prot="public" virt="non-virtual"><scope>MR</scope><name>tangentPlaneNormalToSpheres</name></member>
+      <member refid="classMR_1a01cafcc669024f121a2008d55c7739c1" prot="public" virt="non-virtual"><scope>MR</scope><name>tangentPlaneToSpheres</name></member>
+      <member refid="classMR_1a9105743182c6e89a227c1d986536cfc7" prot="public" virt="non-virtual"><scope>MR</scope><name>tangentPlaneToSpheres</name></member>
+      <member refid="classMR_1a35e9979291be171d49f3e7255b856d17" prot="public" virt="non-virtual"><scope>MR</scope><name>tanSqOfHalfAngle</name></member>
+      <member refid="classMR_1a03cda6eeb5f1f1377a3e8ddd86deaf0d" prot="public" virt="non-virtual"><scope>MR</scope><name>tanSqOfHalfAngle</name></member>
       <member refid="classMR_1a243e10210f7e6ab86cd3f27bc827b5e9" prot="public" virt="non-virtual"><scope>MR</scope><name>teethMaskToDirectionVolume</name></member>
       <member refid="classMR_1a2cd1cb06095f4b41afe2fa7b597f0c9b" prot="public" virt="non-virtual"><scope>MR</scope><name>terrainTriangulation</name></member>
       <member refid="classMR_1a54bef7af1348a860bc491f2f317c5e6e" prot="public" virt="non-virtual"><scope>MR</scope><name>thickenMesh</name></member>
@@ -50826,6 +52838,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a46d0a16a6fbb84371e7beca7802c93a3" prot="public" virt="non-virtual"><scope>MR</scope><name>transformPoints</name></member>
       <member refid="classMR_1a5c49697fa9a160fc9315f84ae00423e6" prot="public" virt="non-virtual"><scope>MR</scope><name>transformVdbVolume</name></member>
       <member refid="classMR_1a0235706bacd47ec3d639e31500758d0d" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleAspectRatio</name></member>
+      <member refid="classMR_1a9ced4cd45647f9ddbf071a92b398e42a" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleAspectRatio</name></member>
+      <member refid="classMR_1a9deb2526f36496a18d8266e6beb062a2" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleAspectRatio</name></member>
+      <member refid="classMR_1ad25c8190ebb5b37b736dc4c406e31993" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleWithNormal</name></member>
+      <member refid="classMR_1a5be97ba97709b4d74418ac1003fc32b3" prot="public" virt="non-virtual"><scope>MR</scope><name>triangleWithNormal</name></member>
       <member refid="classMR_1a3cdd62f00020dd257c7ba0d90e6b5d5f" prot="public" virt="non-virtual"><scope>MR</scope><name>triangulatePointCloud</name></member>
       <member refid="classMR_1a51f0a36c806d7447cac24a7a299f8074" prot="public" virt="non-virtual"><scope>MR</scope><name>triCenter</name></member>
       <member refid="classMR_1a5deabeac137235334a845dd615a7a43c" prot="public" virt="non-virtual"><scope>MR</scope><name>triDist</name></member>

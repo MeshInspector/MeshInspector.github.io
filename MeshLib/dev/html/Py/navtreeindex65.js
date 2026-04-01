@@ -1,6 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"classmrmeshpy_1_1ObjectMeshHolder.html#ae0814c2c450dc71340ad2c63febe9a71":[6,1,1,0,1,618,68],
 "classmrmeshpy_1_1ObjectMeshHolder.html#ae0e7868715bbb9606cad718a72eb8bd0":[6,1,0,0,2,618,66],
 "classmrmeshpy_1_1ObjectMeshHolder.html#ae0e7868715bbb9606cad718a72eb8bd0":[6,1,1,0,1,618,66],
 "classmrmeshpy_1_1ObjectMeshHolder.html#aef43054cf4c656b003d29f636d92feec":[6,1,0,0,2,618,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1ObjectVoxels.html#aa0d21fe40c3500260b2c73c657d871b7":[6,1,1,0,1,625,41],
 "classmrmeshpy_1_1ObjectVoxels.html#aa25a73432cb63ccf01905a0cb9214437":[6,1,0,0,2,625,48],
 "classmrmeshpy_1_1ObjectVoxels.html#aa25a73432cb63ccf01905a0cb9214437":[6,1,1,0,1,625,48],
-"classmrmeshpy_1_1ObjectVoxels.html#aa471d990dbd0cd65d8b0b7960f53e269":[6,1,0,0,2,625,16]
+"classmrmeshpy_1_1ObjectVoxels.html#aa471d990dbd0cd65d8b0b7960f53e269":[6,1,0,0,2,625,16],
+"classmrmeshpy_1_1ObjectVoxels.html#aa471d990dbd0cd65d8b0b7960f53e269":[6,1,1,0,1,625,16]
 };

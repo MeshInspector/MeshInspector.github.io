@@ -202,6 +202,7 @@ var group__MathGroup =
     [ "MR::fromEigen", "group__MathGroup.html#ga628c148ec917a4f0bf1398a814476dde", null ],
     [ "MR::lookAt", "group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da", null ],
     [ "MR::makeRigidXf", "group__MathGroup.html#ga9a3e0f5e3441afd311bdaca50e3edf16", null ],
+    [ "MR::mincircleDiameterSq", "group__MathGroup.html#ga4d722517a95582901be4599a6042e273", null ],
     [ "MR::minTriangleAngleSin", "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826", null ],
     [ "MR::orient3d", "group__GeneralGroup.html#ga343b0de4b65432a92901c76af4024b57", null ],
     [ "MR::toEigen", "group__MathGroup.html#ga8888d3eb79b0414fbc4855426d85cf9c", null ],

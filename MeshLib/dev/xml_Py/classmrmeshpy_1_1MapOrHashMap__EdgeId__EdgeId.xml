@@ -431,7 +431,7 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::MapOrHashMap&lt;MR::EdgeId, MR::EdgeId&gt;
-Aliases:  MapOrHashMap_Id_EdgeTag_Id_EdgeTag, MapOrHashMap_Id_EdgeTag_Id_EdgeTag, EdgeMapOrHashMap, MapOrHashMap_Id_EdgeTag_Id_EdgeTag
+Aliases:  MapOrHashMap_Id_EdgeTag_Id_EdgeTag, EdgeMapOrHashMap, MapOrHashMap_Id_EdgeTag_Id_EdgeTag, MapOrHashMap_Id_EdgeTag_Id_EdgeTag
 
 stores a mapping from keys K to values V in one of two forms:
 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey)

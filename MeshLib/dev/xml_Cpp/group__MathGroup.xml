@@ -676,7 +676,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="21" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="21" bodyend="36"/>
+        <location file="MRMesh/MRTriMath.h" line="22" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="22" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaba44f8d705d9bc1b98f635bdabe488ae" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -708,7 +708,39 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="41" column="11" bodyfile="MRMesh/MRTriMath.h" bodystart="41" bodyend="44"/>
+        <location file="MRMesh/MRTriMath.h" line="45" column="11" bodyfile="MRMesh/MRTriMath.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga4d722517a95582901be4599a6042e273" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::mincircleDiameterSq</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>mincircleDiameterSq</name>
+        <qualifiedname>MR::mincircleDiameterSq</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the squared diameter of the smallest enclosed circle around ABC; For acute triangles it is the same as circumcircle, for obtuse triangles - the circle with the longest triangle&apos;s edge as a diameter </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTriMath.h" line="57" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="57" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaf5af7058ce54bba6fc77a344d28b9826" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -740,7 +772,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="95" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="95" bodyend="104"/>
+        <location file="MRMesh/MRTriMath.h" line="134" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="134" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga2fbcc5b76ec7e12da86bc99895ac6fc9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -772,7 +804,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="115" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="115" bodyend="126"/>
+        <location file="MRMesh/MRTriMath.h" line="160" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="160" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga92b796fca017138671758654b2838d56" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -804,7 +836,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="257" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="257" bodyend="261"/>
+        <location file="MRMesh/MRTriMath.h" line="347" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="347" bodyend="351"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaa45975718eae0ae8c5500147ee8c27d1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -832,7 +864,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="269" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="269" bodyend="272"/>
+        <location file="MRMesh/MRTriMath.h" line="362" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="362" bodyend="365"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga84b1b2dc1c73856fecb9b8617c174b04" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -864,7 +896,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="281" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="281" bodyend="286"/>
+        <location file="MRMesh/MRTriMath.h" line="377" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="377" bodyend="382"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

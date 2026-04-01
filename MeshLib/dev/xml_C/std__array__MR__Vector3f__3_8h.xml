@@ -6,6 +6,7 @@
     <includedby refid="MRBasinVolume_8h" local="no">MRBasinVolume.h</includedby>
     <includedby refid="MRMesh_8h" local="no">MRMesh.h</includedby>
     <includedby refid="MRMeshMath_8h" local="no">MRMeshMath.h</includedby>
+    <includedby refid="MRTriMath_8h" local="no">MRTriMath.h</includedby>
     <includedby refid="MRVector_8h" local="no">MRVector.h</includedby>
     <includedby refid="std__vector__std__array__MR__Vector3f__3_8h" local="no">std_vector_std_array_MR_Vector3f_3.h</includedby>
     <incdepgraph>
@@ -65,6 +66,10 @@
         <link refid="MRMeshMath_8h"/>
       </node>
       <node id="5">
+        <label>MRTriMath.h</label>
+        <link refid="MRTriMath_8h"/>
+      </node>
+      <node id="6">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
       </node>
@@ -81,8 +86,10 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="6">
+      <node id="7">
         <label>std_vector_std_array_MR_Vector3f_3.h</label>
         <link refid="std__vector__std__array__MR__Vector3f__3_8h"/>
       </node>

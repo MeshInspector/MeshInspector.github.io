@@ -12229,6 +12229,78 @@
     <member refid="classMR_1a1178d5e06c4bdb7a87eae228f079ce68" kind="function"><name>findTriTriDistance</name></member>
     <member refid="classMR_1a5deabeac137235334a845dd615a7a43c" kind="function"><name>triDist</name></member>
     <member refid="classMR_1a2c3c348aed536bce85261fa0f7822725" kind="function"><name>segPoints</name></member>
+    <member refid="classMR_1a3017cdb0f3d77900759a55a876e16583" kind="function"><name>circumcircleDiameterSq</name></member>
+    <member refid="classMR_1a438ad1d8404cbb6c2eb142c5a62e6924" kind="function"><name>circumcircleDiameterSq</name></member>
+    <member refid="classMR_1a6f764fa84fd2d6b933553d003835719d" kind="function"><name>circumcircleDiameter</name></member>
+    <member refid="classMR_1aafb9493fa5fc2b1e39e2f71b3b461316" kind="function"><name>circumcircleDiameter</name></member>
+    <member refid="classMR_1aca8deb6f32e3e4907eca107b240b643a" kind="function"><name>mincircleDiameterSq</name></member>
+    <member refid="classMR_1a389a1cc6f097e216f0eb85031a25c7d6" kind="function"><name>mincircleDiameterSq</name></member>
+    <member refid="classMR_1a44d96060c6c84db0b51686581c89ed37" kind="function"><name>circumcircleCenter</name></member>
+    <member refid="classMR_1ab907dc6b71e8f36720b724083df16e6a" kind="function"><name>circumcircleCenter</name></member>
+    <member refid="classMR_1a106439ad51344f3306af799914a832e3" kind="function"><name>circumcircleCenter</name></member>
+    <member refid="classMR_1a59d5f6dc25750ec1ef965b08011c8643" kind="function"><name>circumcircleCenter</name></member>
+    <member refid="classMR_1ae2f2ffcbcbfb3abc78b9828ae0bc04e8" kind="function"><name>circumballCenters</name></member>
+    <member refid="classMR_1a4db1116e025280ca8d5e6dd3307848c1" kind="function"><name>circumballCenters</name></member>
+    <member refid="classMR_1a31fccdef90a11e3ac8b251de3f815957" kind="function"><name>minTriangleAngleSin</name></member>
+    <member refid="classMR_1a1302b215c53a2b0de629a4f1c5730cd6" kind="function"><name>minTriangleAngleSin</name></member>
+    <member refid="classMR_1a5ae6f4551ba7f2eef42271445c7b6e47" kind="function"><name>minTriangleAngle</name></member>
+    <member refid="classMR_1a6a9e8d8832cf7f7d22d9ffb2b65a3956" kind="function"><name>minTriangleAngle</name></member>
+    <member refid="classMR_1a9ced4cd45647f9ddbf071a92b398e42a" kind="function"><name>triangleAspectRatio</name></member>
+    <member refid="classMR_1a9deb2526f36496a18d8266e6beb062a2" kind="function"><name>triangleAspectRatio</name></member>
+    <member refid="classMR_1a57aa15990cabd7e72c282abcf153fea3" kind="function"><name>dirDblArea</name></member>
+    <member refid="classMR_1a8b83e462c272c83b6c878e8e2701e614" kind="function"><name>dirDblArea</name></member>
+    <member refid="classMR_1ab01e18af973d0e616f7e1d7809934562" kind="function"><name>dirDblArea</name></member>
+    <member refid="classMR_1a7def5d57da0b696d2e74a1cb2832fe86" kind="function"><name>dirDblArea</name></member>
+    <member refid="classMR_1ae50b00ca8bbf313580c70b8c08cd6b5b" kind="function"><name>dirDblArea</name></member>
+    <member refid="classMR_1a96b47324e62224812971c018d9b9945a" kind="function"><name>dirDblArea</name></member>
+    <member refid="classMR_1a0298e93f848e8e28028a04ba8c0a5db8" kind="function"><name>normal</name></member>
+    <member refid="classMR_1ac395293e4577b2f0bbba0e0cc4a5e596" kind="function"><name>normal</name></member>
+    <member refid="classMR_1abf7c277db3b79717e9a5e4e32fac32e5" kind="function"><name>normal</name></member>
+    <member refid="classMR_1a65d09470fa82e7cdad88d7d5de56eed6" kind="function"><name>normal</name></member>
+    <member refid="classMR_1a686a5dd54600161cde58827a87f64bae" kind="function"><name>normal</name></member>
+    <member refid="classMR_1ab128fa94398cfcf3f0a1b29639d7de6f" kind="function"><name>normal</name></member>
+    <member refid="classMR_1aa35d625433f3440cbfc27ba2bedc431b" kind="function"><name>dblAreaSq</name></member>
+    <member refid="classMR_1ada8cb09e625bea1e4415ddbad863d855" kind="function"><name>dblAreaSq</name></member>
+    <member refid="classMR_1a5cefc7daf9a3e0a2f718a1ea9a5384bc" kind="function"><name>dblArea</name></member>
+    <member refid="classMR_1aa3df6682c35c10d70c910740fd1df6fe" kind="function"><name>dblArea</name></member>
+    <member refid="classMR_1ab6221145dcdd3b9bc34cec9fb414ff33" kind="function"><name>dblArea</name></member>
+    <member refid="classMR_1a3f666af76cc1f3797f516484d3e5c554" kind="function"><name>dblArea</name></member>
+    <member refid="classMR_1a996c96904caa6bfaadadb9070040269f" kind="function"><name>area</name></member>
+    <member refid="classMR_1a8b21f7dd3f32e9dbe5c764d939e4f7aa" kind="function"><name>area</name></member>
+    <member refid="classMR_1a39bd118b6abd0babd88cdfcd3087985f" kind="function"><name>dblArea</name></member>
+    <member refid="classMR_1a008bc9c538f811027eb8eccb74205374" kind="function"><name>dblArea</name></member>
+    <member refid="classMR_1a25393d6c8a322234838c6c15112e3cf1" kind="function"><name>area</name></member>
+    <member refid="classMR_1ad3c997dbda7173a4100bc43a5a6e7d4a" kind="function"><name>area</name></member>
+    <member refid="classMR_1afb790ba26788ff7a169547a0e3bbddea" kind="function"><name>makeDegenerate</name></member>
+    <member refid="classMR_1a4fbaeff4c12e24b8d8d27a7973b57dfa" kind="function"><name>makeDegenerate</name></member>
+    <member refid="classMR_1ad25c8190ebb5b37b736dc4c406e31993" kind="function"><name>triangleWithNormal</name></member>
+    <member refid="classMR_1a5be97ba97709b4d74418ac1003fc32b3" kind="function"><name>triangleWithNormal</name></member>
+    <member refid="classMR_1ac347309beee6d78dff552e9ca750f07a" kind="function"><name>dihedralAngleSin</name></member>
+    <member refid="classMR_1af7242509e273758b98cf093bacf0fdd9" kind="function"><name>dihedralAngleSin</name></member>
+    <member refid="classMR_1ac71d6fa04baeff3dfff81e54b22412ae" kind="function"><name>dihedralAngleCos</name></member>
+    <member refid="classMR_1ac01354e47b55f87ae9cd100ca9ec1a73" kind="function"><name>dihedralAngleCos</name></member>
+    <member refid="classMR_1a7c57d95f93a0ee7aa57fcbf10b491428" kind="function"><name>dihedralAngle</name></member>
+    <member refid="classMR_1a6025fc650c82ae57e6e731ed55911a36" kind="function"><name>dihedralAngle</name></member>
+    <member refid="classMR_1a02fbdaabe2967d63f97558bdab740302" kind="function"><name>posFromTriEdgeLengths</name></member>
+    <member refid="classMR_1a90a31a63b1d083c3f08ed5823fe88845" kind="function"><name>posFromTriEdgeLengths</name></member>
+    <member refid="classMR_1a581e354a84548b92ab1e00f64b47e2a8" kind="function"><name>quadrangleOtherDiagonal</name></member>
+    <member refid="classMR_1a446a38aeff591eed307c97c0b91ace61" kind="function"><name>quadrangleOtherDiagonal</name></member>
+    <member refid="classMR_1a35e9979291be171d49f3e7255b856d17" kind="function"><name>tanSqOfHalfAngle</name></member>
+    <member refid="classMR_1a03cda6eeb5f1f1377a3e8ddd86deaf0d" kind="function"><name>tanSqOfHalfAngle</name></member>
+    <member refid="classMR_1a2fe1f6555ba9a1b7b5e68c294efa1c25" kind="function"><name>cotan</name></member>
+    <member refid="classMR_1aed498070893e6b0cfff488763470f027" kind="function"><name>cotan</name></member>
+    <member refid="classMR_1a7aa24849d138511992a1eec844c8e4ad" kind="function"><name>cotan</name></member>
+    <member refid="classMR_1a9022ba6c27fcbb2cbe5fb92088476119" kind="function"><name>cotan</name></member>
+    <member refid="classMR_1af64a34a02153cdc398ba99fdabd819af" kind="function"><name>gradientInTri</name></member>
+    <member refid="classMR_1a184c77f02ba2c0439d7955c8b531f3e0" kind="function"><name>gradientInTri</name></member>
+    <member refid="classMR_1a7efbac7eb04ec1d9a84218e6e5854b82" kind="function"><name>gradientInTri</name></member>
+    <member refid="classMR_1ac96351a95c5d63316257f6b8c607429d" kind="function"><name>gradientInTri</name></member>
+    <member refid="classMR_1ac88efe688502564a054578f599f59322" kind="function"><name>findTriExitPos</name></member>
+    <member refid="classMR_1a8d96a4f3543974831c8fc6cf4406ee39" kind="function"><name>findTriExitPos</name></member>
+    <member refid="classMR_1a8d368d21a1695f7f6f82dd2e4b37d665" kind="function"><name>tangentPlaneNormalToSpheres</name></member>
+    <member refid="classMR_1aab2a62886626faaed369509ad2f938b6" kind="function"><name>tangentPlaneNormalToSpheres</name></member>
+    <member refid="classMR_1a01cafcc669024f121a2008d55c7739c1" kind="function"><name>tangentPlaneToSpheres</name></member>
+    <member refid="classMR_1a9105743182c6e89a227c1d986536cfc7" kind="function"><name>tangentPlaneToSpheres</name></member>
     <member refid="classMR_1a353cb88f7b6c29b24f5e398a978b8e96" kind="function"><name>findTripleFaceIntersections</name></member>
     <member refid="classMR_1a32bcc8e0215d7456390936de2837227b" kind="function"><name>detectBasisTunnels</name></member>
     <member refid="classMR_1ad4185304e302b4d6bf266499b177b2a6" kind="function"><name>findSmallestMetricCoLoop</name></member>
@@ -22549,6 +22621,8 @@
   <compound refid="MRTriangleIntersection_8cs" kind="file"><name>MRTriangleIntersection.cs</name>
   </compound>
   <compound refid="MRTriDist_8cs" kind="file"><name>MRTriDist.cs</name>
+  </compound>
+  <compound refid="MRTriMath_8cs" kind="file"><name>MRTriMath.cs</name>
   </compound>
   <compound refid="MRTriMesh_8cs" kind="file"><name>MRTriMesh.cs</name>
   </compound>

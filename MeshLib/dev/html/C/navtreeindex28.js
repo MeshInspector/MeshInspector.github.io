@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"MRContoursCut_8h.html#a3c7ed4f09a3b322fd09c30ea9ab00731":[6,2,1,0,0,0,0,1,57,25],
 "MRContoursCut_8h.html#a3fbb9f74a2e0d04787e5fa2a86864b78":[6,2,1,0,0,0,0,1,57,38],
 "MRContoursCut_8h.html#a400a0892dcba681cf7884b4f40e7f2f4":[6,2,1,0,0,0,0,1,57,85],
 "MRContoursCut_8h.html#a40cf1dd6bf4954cd7f8d4ef605210688":[6,2,1,0,0,0,0,1,57,33],
@@ -249,5 +248,6 @@ var NAVTREEINDEX28 =
 "MRCudaBasic_8h.html#ae4dd980c10eba05d79e236207a7d2e9a":[6,2,1,0,0,1,0,0,1,1],
 "MRCudaBasic_8h.html#aec0c5afef3814cdf557260b8eaf64851":[6,2,1,0,0,1,0,0,1,4],
 "MRCudaBasic_8h.html#afd1fe52d99e326865fb105b2b42767a3":[6,2,1,0,0,1,0,0,1,3],
-"MRCudaBasic_8h_source.html":[6,2,1,0,0,1,0,0,1]
+"MRCudaBasic_8h_source.html":[6,2,1,0,0,1,0,0,1],
+"MRCudaContoursDistanceMap_8h.html":[6,2,1,0,0,1,0,0,2]
 };
