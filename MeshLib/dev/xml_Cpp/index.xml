@@ -5656,6 +5656,8 @@
     <member refid="group__GeneralGroup_1ga0a695c10309ce43745b1a873a3dca83c" kind="function"><name>fromSameLeftRing</name></member>
     <member refid="group__GeneralGroup_1ga438a70cf73b4cfd4789c28a7fc72b459" kind="function"><name>getOrgDegree</name></member>
     <member refid="group__GeneralGroup_1ga2ffcbfff3f1140a0a80025377ee26f13" kind="function"><name>getVertDegree</name></member>
+    <member refid="group__GeneralGroup_1ga0da48b7563fc9bae440855ac0527ac49" kind="function"><name>isOrgInnerAndHasDegree</name></member>
+    <member refid="group__GeneralGroup_1gad6771eb4fb1587b4de73b9346da40119" kind="function"><name>isVertInnerAndHasDegree</name></member>
     <member refid="group__GeneralGroup_1ga4aa04323ba343ed5b50dfaf554d47ccb" kind="function"><name>getLeftDegree</name></member>
     <member refid="group__GeneralGroup_1ga6c8db8bf93e14dfbacb28ff9a388e9e1" kind="function"><name>getFaceDegree</name></member>
     <member refid="group__GeneralGroup_1gad4973cce49632ce5051a46b9b194e8ec" kind="function"><name>isLeftTri</name></member>
@@ -14520,7 +14522,7 @@
     <member refid="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" kind="function"><name>findNotSmoothFaces</name></member>
     <member refid="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" kind="function"><name>findShortEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kind="function"><name>fixMeshDegeneracies</name></member>
-    <member refid="group__MeshFixerGroup_1gab3e33b4f1705544b8e8c4d465f7af784" kind="function"><name>findNRingVerts</name></member>
+    <member refid="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" kind="function"><name>findInnerVertsOfDegree</name></member>
     <member refid="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
     <member refid="group__MeshFixerGroup_1ga3c868d7f7706bea58f102f3218ffc524" kind="function"><name>eliminateDoubleTris</name></member>
     <member refid="group__MeshFixerGroup_1gae137c5e3de8e28fc5ff47caee9632c41" kind="function"><name>eliminateDoubleTrisAround</name></member>
@@ -18716,7 +18718,7 @@
     <member refid="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" kind="function"><name>findNotSmoothFaces</name></member>
     <member refid="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" kind="function"><name>findShortEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kind="function"><name>fixMeshDegeneracies</name></member>
-    <member refid="group__MeshFixerGroup_1gab3e33b4f1705544b8e8c4d465f7af784" kind="function"><name>findNRingVerts</name></member>
+    <member refid="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" kind="function"><name>findInnerVertsOfDegree</name></member>
     <member refid="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
     <member refid="group__MeshFixerGroup_1ga3c868d7f7706bea58f102f3218ffc524" kind="function"><name>eliminateDoubleTris</name></member>
     <member refid="group__MeshFixerGroup_1gae137c5e3de8e28fc5ff47caee9632c41" kind="function"><name>eliminateDoubleTrisAround</name></member>
@@ -26179,6 +26181,8 @@
     <member refid="group__GeneralGroup_1ga0a695c10309ce43745b1a873a3dca83c" kind="function"><name>fromSameLeftRing</name></member>
     <member refid="group__GeneralGroup_1ga438a70cf73b4cfd4789c28a7fc72b459" kind="function"><name>getOrgDegree</name></member>
     <member refid="group__GeneralGroup_1ga2ffcbfff3f1140a0a80025377ee26f13" kind="function"><name>getVertDegree</name></member>
+    <member refid="group__GeneralGroup_1ga0da48b7563fc9bae440855ac0527ac49" kind="function"><name>isOrgInnerAndHasDegree</name></member>
+    <member refid="group__GeneralGroup_1gad6771eb4fb1587b4de73b9346da40119" kind="function"><name>isVertInnerAndHasDegree</name></member>
     <member refid="group__GeneralGroup_1ga4aa04323ba343ed5b50dfaf554d47ccb" kind="function"><name>getLeftDegree</name></member>
     <member refid="group__GeneralGroup_1ga6c8db8bf93e14dfbacb28ff9a388e9e1" kind="function"><name>getFaceDegree</name></member>
     <member refid="group__GeneralGroup_1gad4973cce49632ce5051a46b9b194e8ec" kind="function"><name>isLeftTri</name></member>

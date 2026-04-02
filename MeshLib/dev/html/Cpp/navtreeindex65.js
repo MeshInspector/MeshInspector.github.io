@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[6,0,0,20,708],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,0,20,707],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,0,20,710],
 "structMR_1_1SymMatrix2.html":[6,0,0,0,7,4],
 "structMR_1_1SymMatrix2.html":[6,0,0,20,475],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[6,0,0,0,12,0,21],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[6,0,1,0,1,1535],
 "structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff":[6,0,0,0,12,0,18],
-"structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff":[6,0,1,0,1,1405],
-"structMR_1_1Vector2.html#a0951427bd63b33bfd7c4ae388753d319":[6,0,0,0,12,0,26],
-"structMR_1_1Vector2.html#a0e1305674b24cfc7ac3054b3e9561b44":[6,0,0,0,12,0,24]
+"structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff":[6,0,1,0,1,1405]
 };

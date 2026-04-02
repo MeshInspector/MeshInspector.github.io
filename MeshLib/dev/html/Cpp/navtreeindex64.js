@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Polyline.html#aada00d7c9df4877d4326b22a4ec91d08":[6,0,0,14,0,5],
+"structMR_1_1Polyline.html#ab0cfcd3178240f3bb9b8346a5d063464":[6,0,0,14,0,12],
 "structMR_1_1Polyline.html#ab39f63a5f068099aaa0ec1c5e025103e":[6,0,0,14,0,2],
 "structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97":[6,0,0,14,0,17],
 "structMR_1_1Polyline.html#ab5049b91b498ff6a3932bb2ee20cf2bf":[6,0,0,14,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1SubdivideSettings.html#ae48504fe6f54fb67dee57969d77efc43":[6,0,0,9,7,0,2],
 "structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[6,0,0,9,7,0,11],
 "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,13],
-"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,7],
-"structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[6,0,0,20,708],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,0,20,707]
+"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,7]
 };

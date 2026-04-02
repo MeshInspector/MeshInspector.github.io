@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"MRSequentialNester_8h.html#af291d21bb0863baa7cced145cec21dc2":[6,2,1,0,0,0,0,4,23,0],
+"MRSequentialNester_8h_source.html":[6,2,1,0,0,0,0,4,23],
 "MRSerializer_8h.html":[6,2,1,0,0,0,0,1,314],
 "MRSerializer_8h.html#a895707f9a2070530708c9ecd4182d5a3":[6,2,1,0,0,0,0,1,314,0],
 "MRSerializer_8h_source.html":[6,2,1,0,0,0,0,1,314],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "MRSphereObject_8h.html#af1d9d3884c14feefbeb66a1dcaf17e06":[6,2,1,0,0,0,0,1,320,99],
 "MRSphereObject_8h.html#af21ccc5342a5342a734e88b33b9af24c":[6,2,1,0,0,0,0,1,320,144],
 "MRSphereObject_8h.html#af59d3fb7e97aa3fc76371bbeea86d7b7":[6,2,1,0,0,0,0,1,320,56],
-"MRSphereObject_8h.html#af606ea3e54d7f60529bb323f3dd6c8cd":[6,2,1,0,0,0,0,1,320,36],
-"MRSphereObject_8h.html#af63fc097053b7021e4ccb87d97805975":[6,2,1,0,0,0,0,1,320,55],
-"MRSphereObject_8h.html#af8278339b213d00babe6c2d237cf05d6":[6,2,1,0,0,0,0,1,320,77]
+"MRSphereObject_8h.html#af606ea3e54d7f60529bb323f3dd6c8cd":[6,2,1,0,0,0,0,1,320,36]
 };

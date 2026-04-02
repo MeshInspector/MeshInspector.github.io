@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"namespacemembers_type_t.html":[6,0,1,1,3,17],
+"namespacemembers_type_u.html":[6,0,1,1,3,18],
 "namespacemembers_type_v.html":[6,0,1,1,3,19],
 "namespacemembers_type_w.html":[6,0,1,1,3,20],
 "namespacemembers_u.html":[6,0,1,1,0,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7":[6,0,0,5,4,0],
 "structMR_1_1ContourToDistanceMapParams.html#aab02976e948f14539479e1305e319e3d":[6,0,0,5,4,7],
 "structMR_1_1ContourToDistanceMapParams.html#abaa30b78ecde6f6ef4bc8f92ca454a4c":[6,0,0,5,4,6],
-"structMR_1_1ContourToDistanceMapParams.html#acdbc1cd1931b8df3a7afe4d8500aa9e8":[6,0,0,5,4,1],
-"structMR_1_1ContourToDistanceMapParams.html#add2590dd84c6394ddff0b70568c92767":[6,0,0,5,4,5],
-"structMR_1_1ContourToDistanceMapParams.html#af6e89dcef8c3cd2419a4cd2dbb77015f":[6,0,0,5,4,10]
+"structMR_1_1ContourToDistanceMapParams.html#acdbc1cd1931b8df3a7afe4d8500aa9e8":[6,0,0,5,4,1]
 };

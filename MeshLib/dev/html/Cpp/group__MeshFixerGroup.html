@@ -175,8 +175,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga3d72f926edb3f593c53583fba7398538"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds edges having length &lt;= criticalLength  <br /></td></tr>
 <tr class="memitem:ga1e63ddf91205ab34304a9ff3b2b550a2" id="r_ga1e63ddf91205ab34304a9ff3b2b550a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e63ddf91205ab34304a9ff3b2b550a2">MR::fixMeshDegeneracies</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ga1e63ddf91205ab34304a9ff3b2b550a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes degenerate faces and short edges in mesh (changes topology)  <br /></td></tr>
-<tr class="memitem:gab3e33b4f1705544b8e8c4d465f7af784" id="r_gab3e33b4f1705544b8e8c4d465f7af784"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab3e33b4f1705544b8e8c4d465f7af784">MR::findNRingVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, int n, const VertBitSet *region=nullptr)</td></tr>
-<tr class="memdesc:gab3e33b4f1705544b8e8c4d465f7af784"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds vertices in region with complete ring of N edges  <br /></td></tr>
+<tr class="memitem:ga83684a28016ea3e3feadd7c643905e6d" id="r_ga83684a28016ea3e3feadd7c643905e6d"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83684a28016ea3e3feadd7c643905e6d">MR::findInnerVertsOfDegree</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, int n, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memdesc:ga83684a28016ea3e3feadd7c643905e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all inner vertices in region with the given number of incident edges each  <br /></td></tr>
 <tr class="memitem:ga754a74fa515375b32aee32394abe05f6" id="r_ga754a74fa515375b32aee32394abe05f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga754a74fa515375b32aee32394abe05f6">MR::isEdgeBetweenDoubleTris</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e)</td></tr>
 <tr class="memdesc:ga754a74fa515375b32aee32394abe05f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the edge e has both left and right triangular faces and the degree of dest( e ) is 2  <br /></td></tr>
 <tr class="memitem:ga3c868d7f7706bea58f102f3218ffc524" id="r_ga3c868d7f7706bea58f102f3218ffc524"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c868d7f7706bea58f102f3218ffc524">MR::eliminateDoubleTris</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e, FaceBitSet *region=nullptr)</td></tr>
@@ -457,6 +457,44 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga83684a28016ea3e3feadd7c643905e6d" name="ga83684a28016ea3e3feadd7c643905e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83684a28016ea3e3feadd7c643905e6d">&#9670;&#160;</a></span>findInnerVertsOfDegree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertBitSet MR::findInnerVertsOfDegree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshFixer_8h.html">MRMesh/MRMeshFixer.h</a>&gt;</code></p>
+
+<p>finds all inner vertices in region with the given number of incident edges each </p>
+
+</div>
+</div>
 <a id="ga81e1fcab0f64d4bdb4ccf19d7e67bae1" name="ga81e1fcab0f64d4bdb4ccf19d7e67bae1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga81e1fcab0f64d4bdb4ccf19d7e67bae1">&#9670;&#160;</a></span>findMultipleEdges()</h2>
 
@@ -527,44 +565,6 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="gab3e33b4f1705544b8e8c4d465f7af784" name="gab3e33b4f1705544b8e8c4d465f7af784"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab3e33b4f1705544b8e8c4d465f7af784">&#9670;&#160;</a></span>findNRingVerts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">VertBitSet MR::findNRingVerts </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRMeshFixer_8h.html">MRMesh/MRMeshFixer.h</a>&gt;</code></p>
-
-<p>finds vertices in region with complete ring of N edges </p>
 
 </div>
 </div>

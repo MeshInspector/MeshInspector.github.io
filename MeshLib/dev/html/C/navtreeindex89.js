@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"MRPositionVertsSmoothly_8h.html#ac30af6e75758740cec8e8be0ad9181fa":[6,2,1,0,0,0,0,1,281,10],
+"MRPositionVertsSmoothly_8h.html#ac444da328e74fb710b5e5164798bff02":[6,2,1,0,0,0,0,1,281,68],
 "MRPositionVertsSmoothly_8h.html#ac55a0262e31c6f95983b14c637eaf4f0":[6,2,1,0,0,0,0,1,281,81],
 "MRPositionVertsSmoothly_8h.html#acbe1cc8b68372b33dd2718a5a6c5a109":[6,2,1,0,0,0,0,1,281,3],
 "MRPositionVertsSmoothly_8h.html#acf3f3ddc432299bbc04f12f57031029f":[6,2,1,0,0,0,0,1,281,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "MRProgressCallback_8h.html#adb17b2985897270f5160edbc5924a1c5":[6,2,1,0,0,0,0,1,287,3],
 "MRProgressCallback_8h_source.html":[6,2,1,0,0,0,0,1,287],
 "MRProgressReadWrite_8h.html":[6,2,1,0,0,0,0,1,288],
-"MRProgressReadWrite_8h.html#a4751947e02c8323fdad515661414d007":[6,2,1,0,0,0,0,1,288,0],
-"MRProgressReadWrite_8h.html#a89ad8ff1f49745769476cde3c647b493":[6,2,1,0,0,0,0,1,288,1],
-"MRProgressReadWrite_8h_source.html":[6,2,1,0,0,0,0,1,288]
+"MRProgressReadWrite_8h.html#a4751947e02c8323fdad515661414d007":[6,2,1,0,0,0,0,1,288,0]
 };

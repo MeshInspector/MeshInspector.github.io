@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af0499c1167b1f999c50abcda597a5133":[6,0,2,0,2,7,7,13],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af359c4c5fd8028e39166af8ee8b23736":[6,0,1,0,1,16,7,21],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af359c4c5fd8028e39166af8ee8b23736":[6,0,2,0,2,7,7,21],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[6,0,1,0,1,16,8],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[6,0,2,0,2,7,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1MarchingCubesParams.html":[6,0,0,20,813],
 "structMR_1_1MarkedContour3f.html":[6,0,0,20,304],
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html":[6,0,0,20,570],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,0,20,571],
-"structMR_1_1Matrix.html":[6,0,0,0,7,0],
-"structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[6,0,0,0,7,0,1]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,0,20,571]
 };

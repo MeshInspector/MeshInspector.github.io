@@ -19674,12 +19674,12 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="1030" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="1030" bodyend="1037"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a23039389de154996fb3f6ecb7153b481" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a60605fefa0bd7baed1a7039973ed4488" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
-        <definition>static unsafe MR.VertBitSet MR.findNRingVerts</definition>
+        <definition>static unsafe MR.VertBitSet MR.findInnerVertsOfDegree</definition>
         <argsstring>(MR.Const_MeshTopology topology, int n, MR.Const_VertBitSet? region=null)</argsstring>
-        <name>findNRingVerts</name>
-        <qualifiedname>MR.findNRingVerts</qualifiedname>
+        <name>findInnerVertsOfDegree</name>
+        <qualifiedname>MR.findInnerVertsOfDegree</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology</type>
           <declname>topology</declname>
@@ -19694,7 +19694,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>finds vertices in region with complete ring of N edges Generated from function <computeroutput><ref refid="classMR_1a23039389de154996fb3f6ecb7153b481" kindref="member">MR.findNRingVerts</ref></computeroutput>. </para>
+<para>finds all inner vertices in region with the given number of incident edges each Generated from function <computeroutput><ref refid="classMR_1a60605fefa0bd7baed1a7039973ed4488" kindref="member">MR.findInnerVertsOfDegree</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -52075,6 +52075,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1affd314e05844616b16c9fcca2dd95f65" prot="public" virt="non-virtual"><scope>MR</scope><name>findHoleComplicatingFaces</name></member>
       <member refid="classMR_1aa8e0156a33a192e52b36125a60dae1d3" prot="public" virt="non-virtual"><scope>MR</scope><name>findInnerShellFacesWithSplits</name></member>
       <member refid="classMR_1ada7892802b6d4db1ad8adb72070f513b" prot="public" virt="non-virtual"><scope>MR</scope><name>findInnerShellVerts</name></member>
+      <member refid="classMR_1a60605fefa0bd7baed1a7039973ed4488" prot="public" virt="non-virtual"><scope>MR</scope><name>findInnerVertsOfDegree</name></member>
       <member refid="classMR_1a356b6688a9b3e256531dbf0da42bbb36" prot="public" virt="non-virtual"><scope>MR</scope><name>findInSphere</name></member>
       <member refid="classMR_1a315ecb2f225f55a3c049ecb61ad59d56" prot="public" virt="non-virtual"><scope>MR</scope><name>findInSphere</name></member>
       <member refid="classMR_1a5d2dd1a7f0b9d450f6da372ac294d92b" prot="public" virt="non-virtual"><scope>MR</scope><name>findIntersectionContours</name></member>
@@ -52090,7 +52091,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a185020c82b0426d0ac69008669539403" prot="public" virt="non-virtual"><scope>MR</scope><name>findNClosestPointsPerPoint</name></member>
       <member refid="classMR_1a64d627e6d2681808ead70f8b32a15afd" prot="public" virt="non-virtual"><scope>MR</scope><name>findNeighborVerts</name></member>
       <member refid="classMR_1ab1a9b124562facdd3c527a35edf937ec" prot="public" virt="non-virtual"><scope>MR</scope><name>findNotSmoothFaces</name></member>
-      <member refid="classMR_1a23039389de154996fb3f6ecb7153b481" prot="public" virt="non-virtual"><scope>MR</scope><name>findNRingVerts</name></member>
       <member refid="classMR_1af48f37249e20cece262e6dcf85e069be" prot="public" virt="non-virtual"><scope>MR</scope><name>findOuterLayer</name></member>
       <member refid="classMR_1a27bf2c0b9934d2e218338a55977b4acd" prot="public" virt="non-virtual"><scope>MR</scope><name>findOutliers</name></member>
       <member refid="classMR_1a03492207be6dbd76f7eab7d2a2c4a08f" prot="public" virt="non-virtual"><scope>MR</scope><name>findOverhangs</name></member>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a33ead78e387059d92f11ef82e01b47c3":[6,1,1,0,1,634,2],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a3d92045444422dda4c5808d7e14dea81":[6,1,0,0,2,634,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a3d92045444422dda4c5808d7e14dea81":[6,1,1,0,1,634,1],
+"classmrmeshpy_1_1ObjMap.html":[6,1,0,0,2,635],
 "classmrmeshpy_1_1ObjMap.html":[6,1,1,0,1,635],
 "classmrmeshpy_1_1ObjMap.html#a02a19e87624178c3ea21e30a7387c5a5":[6,1,0,0,2,635,5],
 "classmrmeshpy_1_1ObjMap.html#a02a19e87624178c3ea21e30a7387c5a5":[6,1,1,0,1,635,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "classmrmeshpy_1_1ObjectComparableWithReference.html#a1ec3f866f2d40e2210b362875b63f0af":[6,1,1,0,1,610,6],
 "classmrmeshpy_1_1ObjectComparableWithReference.html#a449cb6f1b760e736ce355c53f23b312e":[6,1,0,0,2,610,4],
 "classmrmeshpy_1_1ObjectComparableWithReference.html#a449cb6f1b760e736ce355c53f23b312e":[6,1,1,0,1,610,4],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7":[6,1,0,0,2,610,12],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7":[6,1,1,0,1,610,12],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a46aa797b7e6526af86e7398d59518d4d":[6,1,0,0,2,610,7],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a46aa797b7e6526af86e7398d59518d4d":[6,1,1,0,1,610,7],
-"classmrmeshpy_1_1ObjectComparableWithReference.html#a6d0dd1c5733292e7a823b22d5caaf9a3":[6,1,0,0,2,610,8]
+"classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7":[6,1,0,0,2,610,12]
 };
