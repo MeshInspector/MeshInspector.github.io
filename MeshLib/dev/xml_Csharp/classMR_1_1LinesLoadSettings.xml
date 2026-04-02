@@ -90,10 +90,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="196" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="196" bodyend="202"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1LinesLoadSettings_1afedd0cc463e23ac127fa4029e9b2b851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1LinesLoadSettings_1a34ca3d8215ab3ac2177641183dcfc5ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.LinesLoadSettings.LinesLoadSettings</definition>
-        <argsstring>(MR.VertColors? colors, MR.Std._ByValue_Function_BoolFuncFromFloat callback, bool telemetrySignal)</argsstring>
+        <argsstring>(MR.VertColors? colors, MR.Std._ByValue_Function_Bool_From_Float callback, bool telemetrySignal)</argsstring>
         <name>LinesLoadSettings</name>
         <qualifiedname>MR.LinesLoadSettings.LinesLoadSettings</qualifiedname>
         <param>
@@ -101,7 +101,7 @@
           <declname>colors</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callback</declname>
         </param>
         <param>
@@ -248,7 +248,7 @@
       <member refid="classMR_1_1LinesLoadSettings_1a0acf612ddc27150b5038c8055faaf034" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>colors</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1afb4afc94b49f25f246e16ad77ab13e25" prot="package" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1ad784a907c794e9c084afa95fefbb47c5" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
-      <member refid="classMR_1_1LinesLoadSettings_1afedd0cc463e23ac127fa4029e9b2b851" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
+      <member refid="classMR_1_1LinesLoadSettings_1a34ca3d8215ab3ac2177641183dcfc5ba" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1a59f90ec0634d67083357c9562dbf5ba8" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1a6b7b3a4d254440c55739374d07faf38c" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1acd2d7b5802a3fe929e864c7efb1ea4a3" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>

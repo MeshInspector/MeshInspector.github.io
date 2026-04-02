@@ -1,7 +1,7 @@
 var NAVTREEINDEX33 =
 {
-"classMR_1_1FaceDistancesSettings.html#aa5330b3c7597d23c10dfd5b07ff7f138":[6,3,0,0,0,349,3],
 "classMR_1_1FaceDistancesSettings.html#acdf5a30120f3135ef32e5971a88630e2":[6,3,0,0,0,349,0],
+"classMR_1_1FaceDistancesSettings.html#ad2f2774aee9bb7b22139adfc389c8ac7":[6,3,0,0,0,349,1],
 "classMR_1_1FaceFace.html":[6,3,0,0,0,350],
 "classMR_1_1FaceFace.html#a1abd657335f7f2582706c2ffdbb21556":[6,3,0,0,0,350,5],
 "classMR_1_1FaceFace.html#a7125dba4d66444f4f3ea58c7ac718629":[6,3,0,0,0,350,4],

@@ -182,10 +182,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="323" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="323" bodyend="329"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniteManyMeshesParams_1a4499e693cec0a3aa637a76feeecee3f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UniteManyMeshesParams_1aff34c9d84cdf0fc2cfff7f6e1b2ba3ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.UniteManyMeshesParams.UniteManyMeshesParams</definition>
-        <argsstring>(bool useRandomShifts, bool fixDegenerations, float maxAllowedError, uint randomShiftsSeed, MR.FaceBitSet? newFaces, MR.NestedComponenetsMode nestedComponentsMode, bool mergeOnFail, bool forceCut, MR.Std._ByValue_Function_BoolFuncFromFloat progressCb)</argsstring>
+        <argsstring>(bool useRandomShifts, bool fixDegenerations, float maxAllowedError, uint randomShiftsSeed, MR.FaceBitSet? newFaces, MR.NestedComponenetsMode nestedComponentsMode, bool mergeOnFail, bool forceCut, MR.Std._ByValue_Function_Bool_From_Float progressCb)</argsstring>
         <name>UniteManyMeshesParams</name>
         <qualifiedname>MR.UniteManyMeshesParams.UniteManyMeshesParams</qualifiedname>
         <param>
@@ -221,7 +221,7 @@
           <declname>forceCut</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCb</declname>
         </param>
         <briefdescription>
@@ -370,7 +370,7 @@
       <member refid="classMR_1_1UniteManyMeshesParams_1a668909b2d53ed0fad4957214adb83e45" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>randomShiftsSeed</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1ad571777e46a424457c6361622fffff0a" prot="package" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1afa81deffca82f58a806d5086eb3d60f8" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>
-      <member refid="classMR_1_1UniteManyMeshesParams_1a4499e693cec0a3aa637a76feeecee3f7" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>
+      <member refid="classMR_1_1UniteManyMeshesParams_1aff34c9d84cdf0fc2cfff7f6e1b2ba3ae" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1aa12e1ae1c6766e3f88a784b07c049492" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1ae00a3f9f613a35c9b53418babe9a5143" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1a4541155fa6132f2952efff306bb3f84f" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>UniteManyMeshesParams</name></member>

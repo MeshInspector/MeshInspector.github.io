@@ -195,10 +195,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="313" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="313" bodyend="319"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DenoiseViaNormalsSettings_1a94ddf14ac7e79a1a0c2bc8126015862a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DenoiseViaNormalsSettings_1a07b9360cfc55d04883f2f72b2b875fad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DenoiseViaNormalsSettings.DenoiseViaNormalsSettings</definition>
-        <argsstring>(bool fastIndicatorComputation, float beta, float gamma, int normalIters, int pointIters, float guideWeight, bool limitNearInitial, float maxInitialDist, MR.UndirectedEdgeBitSet? outCreases, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(bool fastIndicatorComputation, float beta, float gamma, int normalIters, int pointIters, float guideWeight, bool limitNearInitial, float maxInitialDist, MR.UndirectedEdgeBitSet? outCreases, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>DenoiseViaNormalsSettings</name>
         <qualifiedname>MR.DenoiseViaNormalsSettings.DenoiseViaNormalsSettings</qualifiedname>
         <param>
@@ -238,7 +238,7 @@
           <declname>outCreases</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -381,7 +381,7 @@
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a08b4fe0295f03cbb4498ce4a78dd8478" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>cb</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a75052624bf05c14971df0f58c7087053" prot="package" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a25627dcab94d4cd126e432a1b9d8e469" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
-      <member refid="classMR_1_1DenoiseViaNormalsSettings_1a94ddf14ac7e79a1a0c2bc8126015862a" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
+      <member refid="classMR_1_1DenoiseViaNormalsSettings_1a07b9360cfc55d04883f2f72b2b875fad" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a4ac896a87625b20513873e18fdefc76b" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a4e7f82a601045c2809557bab8bb7adcf" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1aa969bb3f8ab3f04e2bce245b7133f138" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>

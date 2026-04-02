@@ -135,10 +135,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="253" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="253" bodyend="259"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1ae9d9d58deaa9658956b648bc91fc5e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SubdivideFillingSettings_1a7fc6f9f352c3686c9f28635faa795998" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.SubdivideFillingSettings.SubdivideFillingSettings</definition>
-        <argsstring>(MR.UndirectedEdgeBitSet? notFlippable, float maxEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, MR.Std._ByValue_Function_BoolFuncFromMREdgeId beforeEdgeSplit, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeSplit)</argsstring>
+        <argsstring>(MR.UndirectedEdgeBitSet? notFlippable, float maxEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, MR.Std._ByValue_Function_Bool_From_MREdgeId beforeEdgeSplit, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit)</argsstring>
         <name>SubdivideFillingSettings</name>
         <qualifiedname>MR.SubdivideFillingSettings.SubdivideFillingSettings</qualifiedname>
         <param>
@@ -158,11 +158,11 @@
           <declname>maxAngleChangeAfterFlip</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Bool_From_MREdgeId</type>
           <declname>beforeEdgeSplit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeSplit</declname>
         </param>
         <briefdescription>
@@ -309,7 +309,7 @@
       <member refid="classMR_1_1SubdivideFillingSettings_1a48d0d24b185f64c0b4195ecaa9c1f240" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>onEdgeSplit</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1a535699b88de7b3f9d2f5ea0f5c94be19" prot="package" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1af69827c382127e3347680100dd6bbf5a" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
-      <member refid="classMR_1_1SubdivideFillingSettings_1ae9d9d58deaa9658956b648bc91fc5e2a" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1SubdivideFillingSettings_1a7fc6f9f352c3686c9f28635faa795998" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1a1beb1c0ae651ebc3d9e9da2490f79f3a" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1a8d8c0bba6de94b70c2086943b4d89c23" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1a2b8514466cdae97290aa4222f649347d" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>SubdivideFillingSettings</name></member>

@@ -1,7 +1,7 @@
 var classMR_1_1DetectTunnelSettings =
 [
     [ "DetectTunnelSettings", "classMR_1_1DetectTunnelSettings.html#a4eb9d16445155cd8a7d77dd01d2d1655", null ],
-    [ "DetectTunnelSettings", "classMR_1_1DetectTunnelSettings.html#a6a6a66a8b10c0a546b005e3d79ef3b8d", null ],
+    [ "DetectTunnelSettings", "classMR_1_1DetectTunnelSettings.html#a7e084d9ac429a86056509d377e7792bc", null ],
     [ "DetectTunnelSettings", "classMR_1_1DetectTunnelSettings.html#a467dc1cbc289ea1265d84dffbf2c55df", null ],
     [ "DetectTunnelSettings", "classMR_1_1DetectTunnelSettings.html#abbf27ef540bc596c47dfe83b9e461e61", null ],
     [ "DetectTunnelSettings", "classMR_1_1DetectTunnelSettings.html#aba83cb19b184c573ebceb9f84063547a", null ],

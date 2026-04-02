@@ -1,7 +1,7 @@
 var classMR_1_1SelfIntersections_1_1Settings =
 [
     [ "Settings", "classMR_1_1SelfIntersections_1_1Settings.html#a33587e0f3e2a390c18b3621bd5978499", null ],
-    [ "Settings", "classMR_1_1SelfIntersections_1_1Settings.html#ad3f726fcdd59dc02f8096b573c47f826", null ],
+    [ "Settings", "classMR_1_1SelfIntersections_1_1Settings.html#a11764c58c14925ea71503c876c9c1fd4", null ],
     [ "Settings", "classMR_1_1SelfIntersections_1_1Settings.html#a3a8f4708faf69d4208911c7172dc10d8", null ],
     [ "Settings", "classMR_1_1SelfIntersections_1_1Settings.html#a0dd270fa2278f28a856a2b4ef8d23b5a", null ],
     [ "Settings", "classMR_1_1SelfIntersections_1_1Settings.html#ac993fa3cd74d0cef09e91c0108e51d30", null ],

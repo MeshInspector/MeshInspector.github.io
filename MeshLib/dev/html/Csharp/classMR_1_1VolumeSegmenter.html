@@ -171,8 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1a656944440414b0aab1aad3ca1aa741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset seeds with given ones Generated from method <span class="tt"><a class="el" href="#a1a656944440414b0aab1aad3ca1aa741" title="Reset seeds with given ones Generated from method MR.VolumeSegmenter.setSeeds.">MR.VolumeSegmenter.setSeeds</a></span>.  <br /></td></tr>
 <tr class="memitem:a52e42c1f2611d2737f4df69b42a66ed0" id="r_a52e42c1f2611d2737f4df69b42a66ed0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52e42c1f2611d2737f4df69b42a66ed0">addSeeds</a> (MR.Std.Const_Vector_MRVector3i seeds, MR.VolumeSegmenter.SeedType seedType)</td></tr>
 <tr class="memdesc:a52e42c1f2611d2737f4df69b42a66ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds new seeds to stored Generated from method <span class="tt"><a class="el" href="#a52e42c1f2611d2737f4df69b42a66ed0" title="Adds new seeds to stored Generated from method MR.VolumeSegmenter.addSeeds.">MR.VolumeSegmenter.addSeeds</a></span>.  <br /></td></tr>
-<tr class="memitem:a27eb2853adc27edac76053d61b96bc13" id="r_a27eb2853adc27edac76053d61b96bc13"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VoxelBitSet.html">MR.VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27eb2853adc27edac76053d61b96bc13">segmentVolume</a> (float? segmentationExponentModifier=null, int? voxelsExpansion=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:a27eb2853adc27edac76053d61b96bc13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments volume, return inside part segmentation (<a class="el" href="classMR_1_1VoxelBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">VoxelBitSet</a> in space of VolumePart) Generated from method <span class="tt"><a class="el" href="#a27eb2853adc27edac76053d61b96bc13" title="Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) Generated from ...">MR.VolumeSegmenter.segmentVolume</a></span>. Parameter <span class="tt">segmentationExponentModifier</span> defaults to <span class="tt">3000.0f</span>. Parameter <span class="tt">voxelsExpansion</span> defaults to <span class="tt">25</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a04d16dcdfb30aa222e40e8bb8a4e5b0e" id="r_a04d16dcdfb30aa222e40e8bb8a4e5b0e"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VoxelBitSet.html">MR.VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d16dcdfb30aa222e40e8bb8a4e5b0e">segmentVolume</a> (float? segmentationExponentModifier=null, int? voxelsExpansion=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:a04d16dcdfb30aa222e40e8bb8a4e5b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments volume, return inside part segmentation (<a class="el" href="classMR_1_1VoxelBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">VoxelBitSet</a> in space of VolumePart) Generated from method <span class="tt"><a class="el" href="#a04d16dcdfb30aa222e40e8bb8a4e5b0e" title="Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) Generated from ...">MR.VolumeSegmenter.segmentVolume</a></span>. Parameter <span class="tt">segmentationExponentModifier</span> defaults to <span class="tt">3000.0f</span>. Parameter <span class="tt">voxelsExpansion</span> defaults to <span class="tt">25</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -398,8 +398,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a27eb2853adc27edac76053d61b96bc13" name="a27eb2853adc27edac76053d61b96bc13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27eb2853adc27edac76053d61b96bc13">&#9670;&#160;</a></span>segmentVolume()</h2>
+<a id="a04d16dcdfb30aa222e40e8bb8a4e5b0e" name="a04d16dcdfb30aa222e40e8bb8a4e5b0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d16dcdfb30aa222e40e8bb8a4e5b0e">&#9670;&#160;</a></span>segmentVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +420,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -430,7 +430,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Segments volume, return inside part segmentation (<a class="el" href="classMR_1_1VoxelBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">VoxelBitSet</a> in space of VolumePart) Generated from method <span class="tt"><a class="el" href="#a27eb2853adc27edac76053d61b96bc13" title="Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) Generated from ...">MR.VolumeSegmenter.segmentVolume</a></span>. Parameter <span class="tt">segmentationExponentModifier</span> defaults to <span class="tt">3000.0f</span>. Parameter <span class="tt">voxelsExpansion</span> defaults to <span class="tt">25</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
+<p>Segments volume, return inside part segmentation (<a class="el" href="classMR_1_1VoxelBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">VoxelBitSet</a> in space of VolumePart) Generated from method <span class="tt"><a class="el" href="#a04d16dcdfb30aa222e40e8bb8a4e5b0e" title="Segments volume, return inside part segmentation (VoxelBitSet in space of VolumePart) Generated from ...">MR.VolumeSegmenter.segmentVolume</a></span>. Parameter <span class="tt">segmentationExponentModifier</span> defaults to <span class="tt">3000.0f</span>. Parameter <span class="tt">voxelsExpansion</span> defaults to <span class="tt">25</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>

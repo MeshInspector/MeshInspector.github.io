@@ -1,7 +1,7 @@
 var classMR_1_1SaveSettings =
 [
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ae4cf7617b98c26fe584e4f7594cc49d6", null ],
-    [ "SaveSettings", "classMR_1_1SaveSettings.html#a2951e0502a87ba12ff3eeb86659415f0", null ],
+    [ "SaveSettings", "classMR_1_1SaveSettings.html#ae8c30d82a5a96800b911546ae4039b55", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#a9ef910af319f987f5ac113a74802ced3", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ab4bbb1235275abac6d3bdb8595450a3f", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ad16752a9c1c605e496c0c05f990c7000", null ],

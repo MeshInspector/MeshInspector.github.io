@@ -89,10 +89,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="185" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="185" bodyend="191"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Settings_1a18c8a5c17549e5cf3e812f20530ca255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SceneLoad_1_1Settings_1ac9f65ab3eea714e6eee3e956cac53b7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.SceneLoad.Settings.Settings</definition>
-        <argsstring>(MR.LengthUnit? targetUnit, MR.Std._ByValue_Function_BoolFuncFromFloat progress, MR.Std._ByValue_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFromFloatRef openFolder)</argsstring>
+        <argsstring>(MR.LengthUnit? targetUnit, MR.Std._ByValue_Function_Bool_From_Float progress, MR.Std._ByValue_Function_ExpectedMRLoadedObjectsStdString_From_ConstStdFilesystemPathRef_ConstStdFunctionBoolFromFloatRef openFolder)</argsstring>
         <name>Settings</name>
         <qualifiedname>MR.SceneLoad.Settings.Settings</qualifiedname>
         <param>
@@ -100,11 +100,11 @@
           <declname>targetUnit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_ExpectedMRLoadedObjectsStdStringFuncFromConstStdFilesystemPathRefConstStdFunctionBoolFromFloatRef</type>
+          <type>MR.Std._ByValue_Function_ExpectedMRLoadedObjectsStdString_From_ConstStdFilesystemPathRef_ConstStdFunctionBoolFromFloatRef</type>
           <declname>openFolder</declname>
         </param>
         <briefdescription>
@@ -247,7 +247,7 @@
       <member refid="classMR_1_1SceneLoad_1_1Settings_1a2c1bfc7f4068995138b8bd6fad728953" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>progress</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1aa5dce7799b76500abc6183846914f749" prot="package" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1ab645bde17dfeeaa045d69ebe647d01f8" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
-      <member refid="classMR_1_1SceneLoad_1_1Settings_1a18c8a5c17549e5cf3e812f20530ca255" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Settings_1ac9f65ab3eea714e6eee3e956cac53b7e" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1ab6a517bdff5a2f0324f8188c16b7854b" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1af942ad7435f00d2a5f3292ee66cc3d5f" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1a09ee222fc4b78c510099400ff128528a" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>

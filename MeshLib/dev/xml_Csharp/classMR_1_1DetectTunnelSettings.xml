@@ -135,10 +135,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="242" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="242" bodyend="248"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1a6a6a66a8b10c0a546b005e3d79ef3b8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1a7e084d9ac429a86056509d377e7792bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DetectTunnelSettings.DetectTunnelSettings</definition>
-        <argsstring>(float maxTunnelLength, int maxIters, MR.Std._ByValue_Function_FloatFuncFromMREdgeId metric, bool buildCoLoops, bool filterEquivalentCoLoops, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(float maxTunnelLength, int maxIters, MR.Std._ByValue_Function_Float_From_MREdgeId metric, bool buildCoLoops, bool filterEquivalentCoLoops, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>DetectTunnelSettings</name>
         <qualifiedname>MR.DetectTunnelSettings.DetectTunnelSettings</qualifiedname>
         <param>
@@ -150,7 +150,7 @@
           <declname>maxIters</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_FloatFuncFromMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Float_From_MREdgeId</type>
           <declname>metric</declname>
         </param>
         <param>
@@ -162,7 +162,7 @@
           <declname>filterEquivalentCoLoops</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -304,7 +304,7 @@
       <member refid="classMR_1_1DetectTunnelSettings_1ab53170b70a40416d5373a5b135d2febe" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>buildCoLoops</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1aa649750de9bf5092ec161cf3dd6988d6" prot="package" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a4eb9d16445155cd8a7d77dd01d2d1655" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
-      <member refid="classMR_1_1DetectTunnelSettings_1a6a6a66a8b10c0a546b005e3d79ef3b8d" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a7e084d9ac429a86056509d377e7792bc" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a467dc1cbc289ea1265d84dffbf2c55df" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1abbf27ef540bc596c47dfe83b9e461e61" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1aba83cb19b184c573ebceb9f84063547a" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>

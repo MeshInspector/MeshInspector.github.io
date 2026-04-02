@@ -73,18 +73,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="801" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="801" bodyend="807"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1CoordinateConverters2_1a7e55b6885353608a53658ae54b2ba1f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1CoordinateConverters2_1a2b5b86de3eb22e3d0d5ac2cfdb3a4a15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.CoordinateConverters2.CoordinateConverters2</definition>
-        <argsstring>(MR.Std._ByValue_Function_MRVector2iFuncFromConstMRVector2fRef toInt, MR.Std._ByValue_Function_MRVector2fFuncFromConstMRVector2iRef toFloat)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_MRVector2i_From_ConstMRVector2fRef toInt, MR.Std._ByValue_Function_MRVector2f_From_ConstMRVector2iRef toFloat)</argsstring>
         <name>CoordinateConverters2</name>
         <qualifiedname>MR.CoordinateConverters2.CoordinateConverters2</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_MRVector2iFuncFromConstMRVector2fRef</type>
+          <type>MR.Std._ByValue_Function_MRVector2i_From_ConstMRVector2fRef</type>
           <declname>toInt</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_MRVector2fFuncFromConstMRVector2iRef</type>
+          <type>MR.Std._ByValue_Function_MRVector2f_From_ConstMRVector2iRef</type>
           <declname>toFloat</declname>
         </param>
         <briefdescription>
@@ -225,7 +225,7 @@
       <member refid="classMR_1_1CoordinateConverters2_1a09f91864697f63bbb46698445b81ac61" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>assign</name></member>
       <member refid="classMR_1_1CoordinateConverters2_1abb369377eebbf4dbc69f0783e8b72b46" prot="package" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
       <member refid="classMR_1_1CoordinateConverters2_1ab6ef1e77c254fc308636e18be54c347d" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
-      <member refid="classMR_1_1CoordinateConverters2_1a7e55b6885353608a53658ae54b2ba1f5" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
+      <member refid="classMR_1_1CoordinateConverters2_1a2b5b86de3eb22e3d0d5ac2cfdb3a4a15" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
       <member refid="classMR_1_1CoordinateConverters2_1a9f038d0ac09112745df950bd8ca57da1" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
       <member refid="classMR_1_1CoordinateConverters2_1af3ef995252aface23f403583f5fd03a0" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>
       <member refid="classMR_1_1CoordinateConverters2_1add609e9043cdaa4eb9fd7894d85083e2" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>CoordinateConverters2</name></member>

@@ -23,7 +23,7 @@ var classMR_1_1Pdf =
     [ "setColumnValuesFormat", "classMR_1_1Pdf.html#ac931f08e01533327142426ef99808a3a", null ],
     [ "setCursorPosX", "classMR_1_1Pdf.html#a51a4723334e0f898d86529510e497398", null ],
     [ "setCursorPosY", "classMR_1_1Pdf.html#a4fad0bc269b79679f87134abb1153da7", null ],
-    [ "setNewPageAction", "classMR_1_1Pdf.html#aa1444104fb141136e12cd5d8a78b9906", null ],
+    [ "setNewPageAction", "classMR_1_1Pdf.html#ae762f1c932d432feb0c7f70760057ca3", null ],
     [ "setTableColumnWidths", "classMR_1_1Pdf.html#ae4d317d6077128773c47585a9ed4eec9", null ],
-    [ "setTableCustomRule", "classMR_1_1Pdf.html#a0daf769118ccd6ca5debdb21db5ed213", null ]
+    [ "setTableCustomRule", "classMR_1_1Pdf.html#a982dd5305707fa8f8f80299f6cbb76c2", null ]
 ];

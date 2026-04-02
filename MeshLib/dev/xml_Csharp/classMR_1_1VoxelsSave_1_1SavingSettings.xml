@@ -101,10 +101,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="198" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="198" bodyend="204"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1_1SavingSettings_1ab3ab677d03242ed05312d7c7a1df8493" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1_1SavingSettings_1aa41b8878c39920807683e9c499c9a65e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.VoxelsSave.SavingSettings.SavingSettings</definition>
-        <argsstring>(string path, string format, MR.SlicePlane slicePlane, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(string path, string format, MR.SlicePlane slicePlane, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>SavingSettings</name>
         <qualifiedname>MR.VoxelsSave.SavingSettings.SavingSettings</qualifiedname>
         <param>
@@ -120,7 +120,7 @@
           <declname>slicePlane</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -264,7 +264,7 @@
       <member refid="classMR_1_1VoxelsSave_1_1SavingSettings_1a423096d9510b557c8c2b6094f999fd5b" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>path</name></member>
       <member refid="classMR_1_1VoxelsSave_1_1SavingSettings_1ac647558a33b5460eac07636da5e51ed4" prot="package" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>SavingSettings</name></member>
       <member refid="classMR_1_1VoxelsSave_1_1SavingSettings_1addc73467fa8c5d45998b2523031205cf" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>SavingSettings</name></member>
-      <member refid="classMR_1_1VoxelsSave_1_1SavingSettings_1ab3ab677d03242ed05312d7c7a1df8493" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>SavingSettings</name></member>
+      <member refid="classMR_1_1VoxelsSave_1_1SavingSettings_1aa41b8878c39920807683e9c499c9a65e" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>SavingSettings</name></member>
       <member refid="classMR_1_1VoxelsSave_1_1SavingSettings_1ae211ac06c46860c4303e9529b49d2695" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>SavingSettings</name></member>
       <member refid="classMR_1_1VoxelsSave_1_1SavingSettings_1accebe62b1f675fef2dfd069715929c8d" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>SavingSettings</name></member>
       <member refid="classMR_1_1VoxelsSave_1_1SavingSettings_1ae1974ff282d64427a17ebce868604a9f" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>SavingSettings</name></member>

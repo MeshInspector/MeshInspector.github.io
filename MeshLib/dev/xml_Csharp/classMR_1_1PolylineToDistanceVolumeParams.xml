@@ -116,10 +116,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="209" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="209" bodyend="215"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineToDistanceVolumeParams_1a88c4fc4ce54fc06fd0a02030d58eabec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PolylineToDistanceVolumeParams_1a81feb3eeacbac8aeac9f05cfab5f1291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PolylineToDistanceVolumeParams.PolylineToDistanceVolumeParams</definition>
-        <argsstring>(MR.Vector3f voxelSize, float offsetCount, MR.AffineXf3f worldXf, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? outXf, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR.Vector3f voxelSize, float offsetCount, MR.AffineXf3f worldXf, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? outXf, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>PolylineToDistanceVolumeParams</name>
         <qualifiedname>MR.PolylineToDistanceVolumeParams.PolylineToDistanceVolumeParams</qualifiedname>
         <param>
@@ -139,7 +139,7 @@
           <declname>outXf</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -283,7 +283,7 @@
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a35d765f5d91360073e9a9b36c7e91548" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>outXf</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a3c979019c7e5106f34bf4f56a7f0382c" prot="package" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>PolylineToDistanceVolumeParams</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a3c1b6915cf1ea6dbfddca7f15a55269a" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>PolylineToDistanceVolumeParams</name></member>
-      <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a88c4fc4ce54fc06fd0a02030d58eabec" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>PolylineToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a81feb3eeacbac8aeac9f05cfab5f1291" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>PolylineToDistanceVolumeParams</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1afbe4536e28136b87d32c76fd960bd06a" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>PolylineToDistanceVolumeParams</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a384203b6ac878104e88a466f53360a49" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>PolylineToDistanceVolumeParams</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a4501e00ac1d4cb29b189eed01374d0bd" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>PolylineToDistanceVolumeParams</name></member>

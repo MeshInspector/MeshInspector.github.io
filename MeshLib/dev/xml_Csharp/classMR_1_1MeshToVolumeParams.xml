@@ -129,10 +129,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="227" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="227" bodyend="233"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshToVolumeParams_1a284c1bb6cbd251ecaefb0d22b377b8bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshToVolumeParams_1abb76352ff15d8ad3094244bd3190e953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshToVolumeParams.MeshToVolumeParams</definition>
-        <argsstring>(MR.MeshToVolumeParams.Type type, float surfaceOffset, MR.Vector3f voxelSize, MR.AffineXf3f worldXf, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? outXf, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR.MeshToVolumeParams.Type type, float surfaceOffset, MR.Vector3f voxelSize, MR.AffineXf3f worldXf, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? outXf, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>MeshToVolumeParams</name>
         <qualifiedname>MR.MeshToVolumeParams.MeshToVolumeParams</qualifiedname>
         <param>
@@ -156,7 +156,7 @@
           <declname>outXf</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -298,7 +298,7 @@
       <member refid="classMR_1_1MeshToVolumeParams_1a4a506b9fe551bb02b00c5c3f67755e64" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>cb</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1af754e7597a122895f53cf4a9f68682c1" prot="package" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1ae50f914bd319606a2aeec82bba2f9f35" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
-      <member refid="classMR_1_1MeshToVolumeParams_1a284c1bb6cbd251ecaefb0d22b377b8bc" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
+      <member refid="classMR_1_1MeshToVolumeParams_1abb76352ff15d8ad3094244bd3190e953" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1a4c6e42456d01a1f1a28b4fe68950719d" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1a266dbc604485e4811df8446e9620f235" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1aeaa3dee1e5f3cd47feaec80ce8e54d56" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>

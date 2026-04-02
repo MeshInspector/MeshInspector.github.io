@@ -120,14 +120,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="789" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="789" bodyend="795"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceFromWeightedPointsParams_1a9241c58cb98df0d8469f051c2657b507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DistanceFromWeightedPointsParams_1aefb44a12e7094e4a1bb5e334affb715e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DistanceFromWeightedPointsParams.DistanceFromWeightedPointsParams</definition>
-        <argsstring>(MR.Std._ByValue_Function_FloatFuncFromMRVertId pointWeight, float minWeight, float maxWeight, float maxWeightGrad, bool bidirectionalMode)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_Float_From_MRVertId pointWeight, float minWeight, float maxWeight, float maxWeightGrad, bool bidirectionalMode)</argsstring>
         <name>DistanceFromWeightedPointsParams</name>
         <qualifiedname>MR.DistanceFromWeightedPointsParams.DistanceFromWeightedPointsParams</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_FloatFuncFromMRVertId</type>
+          <type>MR.Std._ByValue_Function_Float_From_MRVertId</type>
           <declname>pointWeight</declname>
         </param>
         <param>
@@ -285,7 +285,7 @@
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a64db16a580c1ff65fd51c0da05ca1687" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>bidirectionalMode</name></member>
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a3a54b2fe9793c3664a46e8ae98d72ae2" prot="package" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>DistanceFromWeightedPointsParams</name></member>
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a96188ebf306435a55b659202539742ff" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>DistanceFromWeightedPointsParams</name></member>
-      <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a9241c58cb98df0d8469f051c2657b507" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>DistanceFromWeightedPointsParams</name></member>
+      <member refid="classMR_1_1DistanceFromWeightedPointsParams_1aefb44a12e7094e4a1bb5e334affb715e" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>DistanceFromWeightedPointsParams</name></member>
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a09c6b1e913e89992a040d8607e4e711b" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>DistanceFromWeightedPointsParams</name></member>
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1ace31d883bb8d4dc6b2d464a52d0ba433" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>DistanceFromWeightedPointsParams</name></member>
       <member refid="classMR_1_1DistanceFromWeightedPointsParams_1a509e33eff17cab61bfd25bf7171a5302" prot="public" virt="non-virtual"><scope>MR::DistanceFromWeightedPointsParams</scope><name>DistanceFromWeightedPointsParams</name></member>

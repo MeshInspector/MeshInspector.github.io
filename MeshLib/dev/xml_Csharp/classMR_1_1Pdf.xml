@@ -255,18 +255,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2509" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2509" bodyend="2514"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Pdf_1aa1444104fb141136e12cd5d8a78b9906" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Pdf_1ae762f1c932d432feb0c7f70760057ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Pdf.setNewPageAction</definition>
-        <argsstring>(MR.Std._ByValue_Function_VoidFuncFromMRPdfRef action)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_Void_From_MRPdfRef action)</argsstring>
         <name>setNewPageAction</name>
         <qualifiedname>MR.Pdf.setNewPageAction</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMRPdfRef</type>
+          <type>MR.Std._ByValue_Function_Void_From_MRPdfRef</type>
           <declname>action</declname>
         </param>
         <briefdescription>
-<para>set function to customize new page after creation Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1aa1444104fb141136e12cd5d8a78b9906" kindref="member">MR.Pdf.setNewPageAction</ref></computeroutput>. </para>
+<para>set function to customize new page after creation Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1ae762f1c932d432feb0c7f70760057ca3" kindref="member">MR.Pdf.setNewPageAction</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -445,18 +445,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2630" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2630" bodyend="2639"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Pdf_1a0daf769118ccd6ca5debdb21db5ed213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Pdf_1a982dd5305707fa8f8f80299f6cbb76c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Pdf.setTableCustomRule</definition>
-        <argsstring>(MR.Std._ByValue_Function_MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef rule)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_MRPdfCellCustomParams_From_Int_Int_ConstStdStringRef rule)</argsstring>
         <name>setTableCustomRule</name>
         <qualifiedname>MR.Pdf.setTableCustomRule</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef</type>
+          <type>MR.Std._ByValue_Function_MRPdfCellCustomParams_From_Int_Int_ConstStdStringRef</type>
           <declname>rule</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a0daf769118ccd6ca5debdb21db5ed213" kindref="member">MR.Pdf.setTableCustomRule</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a982dd5305707fa8f8f80299f6cbb76c2" kindref="member">MR.Pdf.setTableCustomRule</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -636,9 +636,9 @@
       <member refid="classMR_1_1Pdf_1ac931f08e01533327142426ef99808a3a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setColumnValuesFormat</name></member>
       <member refid="classMR_1_1Pdf_1a51a4723334e0f898d86529510e497398" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setCursorPosX</name></member>
       <member refid="classMR_1_1Pdf_1a4fad0bc269b79679f87134abb1153da7" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setCursorPosY</name></member>
-      <member refid="classMR_1_1Pdf_1aa1444104fb141136e12cd5d8a78b9906" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setNewPageAction</name></member>
+      <member refid="classMR_1_1Pdf_1ae762f1c932d432feb0c7f70760057ca3" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setNewPageAction</name></member>
       <member refid="classMR_1_1Pdf_1ae4d317d6077128773c47585a9ed4eec9" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableColumnWidths</name></member>
-      <member refid="classMR_1_1Pdf_1a0daf769118ccd6ca5debdb21db5ed213" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableCustomRule</name></member>
+      <member refid="classMR_1_1Pdf_1a982dd5305707fa8f8f80299f6cbb76c2" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableCustomRule</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

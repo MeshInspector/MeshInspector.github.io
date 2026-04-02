@@ -7,6 +7,6 @@ var classMR_1_1VolumeSegmenter =
     [ "addPathSeeds", "classMR_1_1VolumeSegmenter.html#adc0bd50d7fa7c1bd55a15e014bd98633", null ],
     [ "addSeeds", "classMR_1_1VolumeSegmenter.html#a52e42c1f2611d2737f4df69b42a66ed0", null ],
     [ "operator VolumeSegmenter", "classMR_1_1VolumeSegmenter.html#aca5e093ace0c9beeeb2ac827ed76d8df", null ],
-    [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a27eb2853adc27edac76053d61b96bc13", null ],
+    [ "segmentVolume", "classMR_1_1VolumeSegmenter.html#a04d16dcdfb30aa222e40e8bb8a4e5b0e", null ],
     [ "setSeeds", "classMR_1_1VolumeSegmenter.html#a1a656944440414b0aab1aad3ca1aa741", null ]
 ];

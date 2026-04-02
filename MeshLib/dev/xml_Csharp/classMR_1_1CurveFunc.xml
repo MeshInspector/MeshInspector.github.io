@@ -75,14 +75,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="384" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="384" bodyend="390"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1CurveFunc_1aa35a896c0e6068650ed47533c1272e0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1CurveFunc_1aac0a6ca921b22654c6da675b6138ac19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.CurveFunc.CurveFunc</definition>
-        <argsstring>(MR.Std._ByValue_Function_MRCurvePointFuncFromFloat func, float totalLength)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_MRCurvePoint_From_Float func, float totalLength)</argsstring>
         <name>CurveFunc</name>
         <qualifiedname>MR.CurveFunc.CurveFunc</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_MRCurvePointFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_MRCurvePoint_From_Float</type>
           <declname>func</declname>
         </param>
         <param>
@@ -227,7 +227,7 @@
       <member refid="classMR_1_1CurveFunc_1a76b17395cd3a071a0055416ed73f2020" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>assign</name></member>
       <member refid="classMR_1_1CurveFunc_1a81f0144eb5ebef305c7321578f057197" prot="package" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
       <member refid="classMR_1_1CurveFunc_1a290197024936880f5ce3e6de526a215a" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
-      <member refid="classMR_1_1CurveFunc_1aa35a896c0e6068650ed47533c1272e0c" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
+      <member refid="classMR_1_1CurveFunc_1aac0a6ca921b22654c6da675b6138ac19" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
       <member refid="classMR_1_1CurveFunc_1a98ba63d4540a07f5f1e900ac0b48dd0c" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
       <member refid="classMR_1_1CurveFunc_1a706d08d76ca3a0fd221e81e3b78876ce" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>
       <member refid="classMR_1_1CurveFunc_1a5e48b80dc984b796576473d52408c806" prot="public" virt="non-virtual"><scope>MR::CurveFunc</scope><name>CurveFunc</name></member>

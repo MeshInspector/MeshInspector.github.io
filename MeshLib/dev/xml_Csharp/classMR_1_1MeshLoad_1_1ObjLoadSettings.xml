@@ -105,10 +105,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="190" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="190" bodyend="196"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1_1ObjLoadSettings_1af27311be9776bc1d61fe156d006bf545" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a7b9c5697c135e7b11554101cfdfe8d0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshLoad.ObjLoadSettings.ObjLoadSettings</definition>
-        <argsstring>(bool customXf, bool countSkippedFaces, MR.Std._ByValue_Function_BoolFuncFromFloat callback, bool telemetrySignal)</argsstring>
+        <argsstring>(bool customXf, bool countSkippedFaces, MR.Std._ByValue_Function_Bool_From_Float callback, bool telemetrySignal)</argsstring>
         <name>ObjLoadSettings</name>
         <qualifiedname>MR.MeshLoad.ObjLoadSettings.ObjLoadSettings</qualifiedname>
         <param>
@@ -120,7 +120,7 @@
           <declname>countSkippedFaces</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callback</declname>
         </param>
         <param>
@@ -268,7 +268,7 @@
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1ab8ca00422df92b23690491c8596939f5" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>customXf</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a140a31777d9800339bb996b516c98b15" prot="package" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1aacf4640ed66356a1e5d76800bb2f864d" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>
-      <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1af27311be9776bc1d61fe156d006bf545" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a7b9c5697c135e7b11554101cfdfe8d0d" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1ac6a778556259a507d3df3ecc312b35f9" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a17fff62a7d725b1f6cadcca9b301f883" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1ae2f99913a41cb21c9adc81925cf98ea5" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>

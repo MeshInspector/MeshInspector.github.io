@@ -135,10 +135,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="483" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="483" bodyend="489"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1a99dc2a7d9a715f087c42a8baa67491fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1abb60a27acf66c938fc50a52bda2eb266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</definition>
-        <argsstring>(MR.Const_BitSet? valid, MR.AffineXf3f? xf, float upDistLimitSq, float loDistLimitSq, bool skipSameIndex, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR.Const_BitSet? valid, MR.AffineXf3f? xf, float upDistLimitSq, float loDistLimitSq, bool skipSameIndex, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>FindProjectionOnPointsSettings</name>
         <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
         <param>
@@ -162,7 +162,7 @@
           <declname>skipSameIndex</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -304,7 +304,7 @@
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a17b406f9dd2aac6ba9f0b7ae38292a82" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>cb</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a9834066b76b6cffd2a1d95aeabfe35c7" prot="package" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a8e4de168dc26fe7e4710894323b55cb8" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
-      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a99dc2a7d9a715f087c42a8baa67491fc" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1abb60a27acf66c938fc50a52bda2eb266" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1ae3192751bc405bc750438702ff6d3f85" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a7836daddb0ae8a4e7912b77e26f7afe8" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1ae7e68ebe84cce6921c62907010ceda5a" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>

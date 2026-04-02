@@ -202,8 +202,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a763a6fe685b45f4558b004904cd284eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">interpolate set of regions and assign weight to each vertex of the mesh Generated from function <span class="tt"><a class="el" href="#a763a6fe685b45f4558b004904cd284eb" title="interpolate set of regions and assign weight to each vertex of the mesh Generated from function MR....">MR.WeightedShell.calculateShellWeightsFromRegions</a></span>.  <br /></td></tr>
 <tr class="memitem:a06e94717e57a00157fcde0c34721f6dc" id="r_a06e94717e57a00157fcde0c34721f6dc"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06e94717e57a00157fcde0c34721f6dc">meshShell</a> (MR.Const_Mesh mesh, MR.WeightedShell.Const_ParametersRegions params_)</td></tr>
 <tr class="memdesc:a06e94717e57a00157fcde0c34721f6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">this overload supports linear interpolation between the regions with different weight Generated from function <span class="tt"><a class="el" href="#a8760db9d0c498327bdb200da4b78de33" title="consider a mesh where each vertex has additive weight (taken from vertWeights and not from params),...">MR.WeightedShell.meshShell</a></span>.  <br /></td></tr>
-<tr class="memitem:ae3595b4bcd950272f4aa52f03f698052" id="r_ae3595b4bcd950272f4aa52f03f698052"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3595b4bcd950272f4aa52f03f698052">meshShell</a> (MR.Const_Mesh mesh, MR.WeightedShell.Const_ParametersRegions params_, MR.Std._ByValue_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef volumeBuilder)</td></tr>
-<tr class="memdesc:ae3595b4bcd950272f4aa52f03f698052"><td class="mdescLeft">&#160;</td><td class="mdescRight">this overload allows to control how distance volume is build during the offset Generated from function <span class="tt"><a class="el" href="#a8760db9d0c498327bdb200da4b78de33" title="consider a mesh where each vertex has additive weight (taken from vertWeights and not from params),...">MR.WeightedShell.meshShell</a></span>.  <br /></td></tr>
+<tr class="memitem:ad6ca04c27d7c4365abb15752feb103b5" id="r_ad6ca04c27d7c4365abb15752feb103b5"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6ca04c27d7c4365abb15752feb103b5">meshShell</a> (MR.Const_Mesh mesh, MR.WeightedShell.Const_ParametersRegions params_, MR.Std._ByValue_Function_MRFunctionVolume_From_ConstMRMeshRef_ConstMRWeightedShellDistanceVolumeCreationParamsRef volumeBuilder)</td></tr>
+<tr class="memdesc:ad6ca04c27d7c4365abb15752feb103b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">this overload allows to control how distance volume is build during the offset Generated from function <span class="tt"><a class="el" href="#a8760db9d0c498327bdb200da4b78de33" title="consider a mesh where each vertex has additive weight (taken from vertWeights and not from params),...">MR.WeightedShell.meshShell</a></span>.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a763a6fe685b45f4558b004904cd284eb" name="a763a6fe685b45f4558b004904cd284eb"></a>
@@ -309,8 +309,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae3595b4bcd950272f4aa52f03f698052" name="ae3595b4bcd950272f4aa52f03f698052"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3595b4bcd950272f4aa52f03f698052">&#9670;&#160;</a></span>meshShell() <span class="overload">[3/3]</span></h2>
+<a id="ad6ca04c27d7c4365abb15752feb103b5" name="ad6ca04c27d7c4365abb15752feb103b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6ca04c27d7c4365abb15752feb103b5">&#9670;&#160;</a></span>meshShell() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -331,7 +331,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std._ByValue_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef</td>          <td class="paramname"><span class="paramname"><em>volumeBuilder</em></span>&#160;)</td>
+          <td class="paramtype">MR.Std._ByValue_Function_MRFunctionVolume_From_ConstMRMeshRef_ConstMRWeightedShellDistanceVolumeCreationParamsRef</td>          <td class="paramname"><span class="paramname"><em>volumeBuilder</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

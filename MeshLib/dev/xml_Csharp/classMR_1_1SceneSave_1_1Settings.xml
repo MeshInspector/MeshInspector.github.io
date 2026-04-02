@@ -75,10 +75,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="170" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="170" bodyend="176"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SceneSave_1_1Settings_1a28002ad2e46bc87b1510f42700288918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SceneSave_1_1Settings_1ac4ca19a3a0d8ce3343c3e8f48f32417c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.SceneSave.Settings.Settings</definition>
-        <argsstring>(MR.LengthUnit? lengthUnit, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(MR.LengthUnit? lengthUnit, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>Settings</name>
         <qualifiedname>MR.SceneSave.Settings.Settings</qualifiedname>
         <param>
@@ -86,7 +86,7 @@
           <declname>lengthUnit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -229,7 +229,7 @@
       <member refid="classMR_1_1SceneSave_1_1Settings_1a5e595203147ecda13f226eb110e20d49" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>progress</name></member>
       <member refid="classMR_1_1SceneSave_1_1Settings_1a54f261f7f060a5ccff3343eb3bad71e7" prot="package" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneSave_1_1Settings_1af451139658d5d6f402b37added149e2e" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>Settings</name></member>
-      <member refid="classMR_1_1SceneSave_1_1Settings_1a28002ad2e46bc87b1510f42700288918" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>Settings</name></member>
+      <member refid="classMR_1_1SceneSave_1_1Settings_1ac4ca19a3a0d8ce3343c3e8f48f32417c" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneSave_1_1Settings_1ad1c1224d82ae055c70791a2b6d282a0a" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneSave_1_1Settings_1a14d4cbe22728b139df609530c7124cf7" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>Settings</name></member>
       <member refid="classMR_1_1SceneSave_1_1Settings_1a74cae48fadbf58330ad9b08f9a51c932" prot="public" virt="non-virtual"><scope>MR::SceneSave::Settings</scope><name>Settings</name></member>

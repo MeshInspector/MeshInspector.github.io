@@ -225,10 +225,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="487" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="487" bodyend="493"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SaveSettings_1a2951e0502a87ba12ff3eeb86659415f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SaveSettings_1ae8c30d82a5a96800b911546ae4039b55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.SaveSettings.SaveSettings</definition>
-        <argsstring>(bool onlyValidPoints, bool packPrimitives, MR.Const_VertColors? colors, MR.Std.Const_Vector_MRColor? primitiveColors, MR.Const_VertCoords2? uvMap, bool saveTriCornerUVCoords, MR.Const_MeshTexture? texture, string materialName, MR.AffineXf3d? xf, MR.LengthUnit? lengthUnit, MR._InOpt_Color solidColor, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(bool onlyValidPoints, bool packPrimitives, MR.Const_VertColors? colors, MR.Std.Const_Vector_MRColor? primitiveColors, MR.Const_VertCoords2? uvMap, bool saveTriCornerUVCoords, MR.Const_MeshTexture? texture, string materialName, MR.AffineXf3d? xf, MR.LengthUnit? lengthUnit, MR._InOpt_Color solidColor, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>SaveSettings</name>
         <qualifiedname>MR.SaveSettings.SaveSettings</qualifiedname>
         <param>
@@ -276,7 +276,7 @@
           <declname>solidColor</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -424,7 +424,7 @@
       <member refid="classMR_1_1SaveSettings_1a2db28e4449528ee19634a01d654f48f0" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>progress</name></member>
       <member refid="classMR_1_1SaveSettings_1a2f5e24d892d881bfa7bd426e646e54b6" prot="package" virt="non-virtual"><scope>MR::SaveSettings</scope><name>SaveSettings</name></member>
       <member refid="classMR_1_1SaveSettings_1ae4cf7617b98c26fe584e4f7594cc49d6" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>SaveSettings</name></member>
-      <member refid="classMR_1_1SaveSettings_1a2951e0502a87ba12ff3eeb86659415f0" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>SaveSettings</name></member>
+      <member refid="classMR_1_1SaveSettings_1ae8c30d82a5a96800b911546ae4039b55" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>SaveSettings</name></member>
       <member refid="classMR_1_1SaveSettings_1a9ef910af319f987f5ac113a74802ced3" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>SaveSettings</name></member>
       <member refid="classMR_1_1SaveSettings_1ab4bbb1235275abac6d3bdb8595450a3f" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>SaveSettings</name></member>
       <member refid="classMR_1_1SaveSettings_1ad16752a9c1c605e496c0c05f990c7000" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>SaveSettings</name></member>

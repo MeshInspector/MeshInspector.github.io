@@ -87,10 +87,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1378" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1378" bodyend="1384"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1LineInterpolationParams_1ad58d5041af0292b2e94768aee71ac797" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1LineInterpolationParams_1a6f71284ea9cbf151fd2f080b276407ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.LineInterpolationParams.LineInterpolationParams</definition>
-        <argsstring>(float eps, float maxLength, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(float eps, float maxLength, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>LineInterpolationParams</name>
         <qualifiedname>MR.LineInterpolationParams.LineInterpolationParams</qualifiedname>
         <param>
@@ -102,7 +102,7 @@
           <declname>maxLength</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -245,7 +245,7 @@
       <member refid="classMR_1_1LineInterpolationParams_1a1db43807bc61db1747fdf2d0997c44c9" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>eps</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a1f59ae9ebb9faf8b1af0ef778b79864c" prot="package" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a36dfa8dcd527827dc4c466d5ae8c50a7" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>
-      <member refid="classMR_1_1LineInterpolationParams_1ad58d5041af0292b2e94768aee71ac797" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>
+      <member refid="classMR_1_1LineInterpolationParams_1a6f71284ea9cbf151fd2f080b276407ea" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a6a1603558e9b20dc89a6ae51985c47a9" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a15748ee228b576deda252e989f130318" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a54f92e20bec3faec22b801afcd531eee" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>

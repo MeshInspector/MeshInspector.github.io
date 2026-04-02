@@ -243,10 +243,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2017" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2017" bodyend="2022"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a2240b24cf28b12200e928d36ca76d2d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjectVoxels.construct</definition>
-        <argsstring>(MR.Const_SimpleVolume simpleVolume, MR.Std.Const_Optional_MRVector2f? minmax=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, bool? normalPlusGrad=null)</argsstring>
+        <argsstring>(MR.Const_SimpleVolume simpleVolume, MR.Std.Const_Optional_MRVector2f? minmax=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null, bool? normalPlusGrad=null)</argsstring>
         <name>construct</name>
         <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
         <param>
@@ -259,7 +259,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
@@ -269,7 +269,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">updateHistogramAndSurface</ref>) </para>
+<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1a691fc957bca12c778dcdc89ea594ce46" kindref="member">updateHistogramAndSurface</ref>) </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -285,7 +285,7 @@
 <parametername>minmax</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional data about known min and max values set a new background for the <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>, if normalPlusGrad = true, use the maximum value, otherwise the minimum value Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>minmax</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>normalPlusGrad</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>optional data about known min and max values set a new background for the <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>, if normalPlusGrad = true, use the maximum value, otherwise the minimum value Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a2240b24cf28b12200e928d36ca76d2d5" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>minmax</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>normalPlusGrad</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -295,10 +295,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2034" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2034" bodyend="2040"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a8ede9abe426bc91d70f35385bbe613bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a1cc31155a4fdd8b2e08970d376871b68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjectVoxels.construct</definition>
-        <argsstring>(MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, bool? normalPlusGrad=null)</argsstring>
+        <argsstring>(MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, MR.Std._ByValue_Function_Bool_From_Float? cb=null, bool? normalPlusGrad=null)</argsstring>
         <name>construct</name>
         <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
         <param>
@@ -306,7 +306,7 @@
           <declname>simpleVolumeMinMax</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
@@ -316,7 +316,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">updateHistogramAndSurface</ref>) </para>
+<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1a691fc957bca12c778dcdc89ea594ce46" kindref="member">updateHistogramAndSurface</ref>) </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -324,7 +324,7 @@
 <parametername>normalPlusGrad</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>true means that iso-surface normals will be along gradient, false means opposite direction set a new background for the <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>, if normalPlusGrad = true, use the maximum value, otherwise the minimum value Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>normalPlusGrad</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>true means that iso-surface normals will be along gradient, false means opposite direction set a new background for the <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>, if normalPlusGrad = true, use the maximum value, otherwise the minimum value Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a2240b24cf28b12200e928d36ca76d2d5" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>normalPlusGrad</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -354,7 +354,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Clears all internal data and then remembers grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">updateHistogramAndSurface</ref>) </para>
+<para>Clears all internal data and then remembers grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1a691fc957bca12c778dcdc89ea594ce46" kindref="member">updateHistogramAndSurface</ref>) </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -362,7 +362,7 @@
 <parametername>minmax</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional data about known min and max values Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>minmax</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>optional data about known min and max values Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a2240b24cf28b12200e928d36ca76d2d5" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>minmax</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -383,7 +383,7 @@
           <declname>vdbVolume</declname>
         </param>
         <briefdescription>
-<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">updateHistogramAndSurface</ref>) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. </para>
+<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1a691fc957bca12c778dcdc89ea594ce46" kindref="member">updateHistogramAndSurface</ref>) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a2240b24cf28b12200e928d36ca76d2d5" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -391,19 +391,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2078" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2078" bodyend="2083"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a691fc957bca12c778dcdc89ea594ce46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjectVoxels.updateHistogramAndSurface</definition>
-        <argsstring>(MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
         <name>updateHistogramAndSurface</name>
         <qualifiedname>MR.ObjectVoxels.updateHistogramAndSurface</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Updates histogram, by stored grid (evals min and max values from grid) rebuild iso surface if it is present Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">MR.ObjectVoxels.updateHistogramAndSurface</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Updates histogram, by stored grid (evals min and max values from grid) rebuild iso surface if it is present Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691fc957bca12c778dcdc89ea594ce46" kindref="member">MR.ObjectVoxels.updateHistogramAndSurface</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -411,10 +411,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2091" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2091" bodyend="2096"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aaf9a032157efafec4dcf89e0f8efcc30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae2b23b570459096b813f3ea448f3ccee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.ObjectVoxels.setIsoValue</definition>
-        <argsstring>(float iso, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, bool? updateSurface=null)</argsstring>
+        <argsstring>(float iso, MR.Std._ByValue_Function_Bool_From_Float? cb=null, bool? updateSurface=null)</argsstring>
         <name>setIsoValue</name>
         <qualifiedname>MR.ObjectVoxels.setIsoValue</qualifiedname>
         <param>
@@ -422,7 +422,7 @@
           <declname>iso</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
@@ -432,7 +432,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Sets iso value and updates iso-surfaces if needed: Returns true if iso-value was updated, false - otherwise Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aaf9a032157efafec4dcf89e0f8efcc30" kindref="member">MR.ObjectVoxels.setIsoValue</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Sets iso value and updates iso-surfaces if needed: Returns true if iso-value was updated, false - otherwise Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ae2b23b570459096b813f3ea448f3ccee" kindref="member">MR.ObjectVoxels.setIsoValue</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -497,10 +497,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2145" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2145" bodyend="2150"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0cec88291cd7bbccbf094c2e1313a6e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a858a26f59a8e78df73a52f986e823071" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjectVoxels.setDualMarchingCubes</definition>
-        <argsstring>(bool on, bool? updateSurface=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(bool on, bool? updateSurface=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
         <name>setDualMarchingCubes</name>
         <qualifiedname>MR.ObjectVoxels.setDualMarchingCubes</qualifiedname>
         <param>
@@ -513,7 +513,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
@@ -526,7 +526,7 @@
 <parametername>updateSurface</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>forces immediate update Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a0cec88291cd7bbccbf094c2e1313a6e7" kindref="member">MR.ObjectVoxels.setDualMarchingCubes</ref></computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>forces immediate update Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a858a26f59a8e78df73a52f986e823071" kindref="member">MR.ObjectVoxels.setDualMarchingCubes</ref></computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -536,18 +536,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2159" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2159" bodyend="2165"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac995d8f7d863649da26f69e6525f6296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1affc9d3bfb11126ab09d0da2b707dbe98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjectVoxels.setVoxelPointPositioner</definition>
-        <argsstring>(MR.Std._ByValue_Function_MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat positioner)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_MRVector3f_From_ConstMRVector3fRef_ConstMRVector3fRef_Float_Float_Float positioner)</argsstring>
         <name>setVoxelPointPositioner</name>
         <qualifiedname>MR.ObjectVoxels.setVoxelPointPositioner</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat</type>
+          <type>MR.Std._ByValue_Function_MRVector3f_From_ConstMRVector3fRef_ConstMRVector3fRef_Float_Float_Float</type>
           <declname>positioner</declname>
         </param>
         <briefdescription>
-<para>set voxel point positioner for Marching Cubes (only for Standard Marching Cubes) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac995d8f7d863649da26f69e6525f6296" kindref="member">MR.ObjectVoxels.setVoxelPointPositioner</ref></computeroutput>. </para>
+<para>set voxel point positioner for Marching Cubes (only for Standard Marching Cubes) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1affc9d3bfb11126ab09d0da2b707dbe98" kindref="member">MR.ObjectVoxels.setVoxelPointPositioner</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -555,10 +555,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2171" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2171" bodyend="2176"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a1c1e61ae6acd1084be96b12008474aea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ObjectVoxels.setActiveBounds</definition>
-        <argsstring>(in MR.Box3i activeBox, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, bool? updateSurface=null)</argsstring>
+        <argsstring>(in MR.Box3i activeBox, MR.Std._ByValue_Function_Bool_From_Float? cb=null, bool? updateSurface=null)</argsstring>
         <name>setActiveBounds</name>
         <qualifiedname>MR.ObjectVoxels.setActiveBounds</qualifiedname>
         <param>
@@ -566,7 +566,7 @@
           <declname>activeBox</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
@@ -576,7 +576,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Sets active bounds for some simplifications (max excluded) active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty NOTE: don't forget to call <computeroutput>invalidateActiveBoundsCaches</computeroutput> if you call this function from progress bar thread Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" kindref="member">MR.ObjectVoxels.setActiveBounds</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>Sets active bounds for some simplifications (max excluded) active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty NOTE: don't forget to call <computeroutput>invalidateActiveBoundsCaches</computeroutput> if you call this function from progress bar thread Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a1c1e61ae6acd1084be96b12008474aea" kindref="member">MR.ObjectVoxels.setActiveBounds</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2402,8 +2402,8 @@
       <member refid="classMR_1_1ObjectVoxels_1a13e160ed71d95f8d98dbbe266004a355" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>applyScale</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a7d7ba1490d733ab1c422364744826086" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>assign</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a4fd43601ab313a7d1e487b6e193459d6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>clearAncillaryTexture</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1a8ede9abe426bc91d70f35385bbe613bf" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a2240b24cf28b12200e928d36ca76d2d5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a1cc31155a4fdd8b2e08970d376871b68" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a432cb2f602b4ce1e2e5f74f20eb60a3a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a2d03a7d3b51d428ff08fa88c1ae48ba8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
       <member refid="classMR_1_1ObjectVoxels_1abdffc516a5cc8605bc75a2549680d544" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyAllSolidColors</name></member>
@@ -2432,7 +2432,7 @@
       <member refid="classMR_1_1ObjectVoxels_1ae0f5652cee6e98e704d4bab0f2b949fd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectEdges</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ab5a47ddcf157ad1b85e01f3777915d20" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectFaces</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a39b3ed431e1187aaf40908330a936c7f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectVoxels</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setActiveBounds</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a1c1e61ae6acd1084be96b12008474aea" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setActiveBounds</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a0ae554c8b7aa3eebf18de52e3051bbbc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a88d40fae4d1e6d5cf795c08d5d7d7cd0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a00ae5c8b25dec05562a32aff4805b73e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAncillary</name></member>
@@ -2447,7 +2447,7 @@
       <member refid="classMR_1_1ObjectVoxels_1ae32511d490f54444a7d38e4e4a8408e1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setData</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ab8ca35f2f513042ac78c7560340df81c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlags</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ac32ead35108a81fb27835011e87aa120" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlagsFast</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1a0cec88291cd7bbccbf094c2e1313a6e7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDualMarchingCubes</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a858a26f59a8e78df73a52f986e823071" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDualMarchingCubes</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a50bfebe6148c0efaa7d9a4ab4ce398b9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColor</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a099422db020209fffd63f32648fbf489" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColorsForAllViewports</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a4ff3f999e6ea27f1faf51eb024283006" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setEdgeWidth</name></member>
@@ -2459,7 +2459,7 @@
       <member refid="classMR_1_1ObjectVoxels_1a9c873dde4e686986bb9adeda5769a801" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalAlphaForAllViewports</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a5301487737def832e4f44919e3afc584" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalClippedByPlane</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ab7a3af94f6bfeff877b6a4794c246e22" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalVisibility</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1aaf9a032157efafec4dcf89e0f8efcc30" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setIsoValue</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ae2b23b570459096b813f3ea448f3ccee" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setIsoValue</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a59944cb8de8c874094e23173b9e169da" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setLocked</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a9c30dbd5a90c724c1a9b104b4297dd92" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setMaxSurfaceVertices</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a99c0d498f63fb293a8492f42596f1760" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setName</name></member>
@@ -2486,7 +2486,7 @@
       <member refid="classMR_1_1ObjectVoxels_1a89c150d0fab3afd1a4d670a3da097ead" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisualizePropertyMask</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ac24e41d9f665448d7977a773932f36f4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVolumeRenderActiveVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1aceca829fc191d565de8981dd3da80036" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVolumeRenderingParams</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1ac995d8f7d863649da26f69e6525f6296" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVoxelPointPositioner</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1affc9d3bfb11126ab09d0da2b707dbe98" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVoxelPointPositioner</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a4792e8aa7d89ed99718199c8707afea9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a30497797a77587b6df745ceea11ab625" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setXf</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a9a4b4b3ac79c82fdce42d3994a9898ac" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setXfsForAllViewports</name></member>
@@ -2497,7 +2497,7 @@
       <member refid="classMR_1_1ObjectVoxels_1a2538d3726615879122d5cf7136c88102" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateData</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a4e12ee42228f2186aefe99fc9998edf3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateFacesColorMap</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a523887b6548d75c307b30cea16a53afa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogram</name></member>
-      <member refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogramAndSurface</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a691fc957bca12c778dcdc89ea594ce46" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogramAndSurface</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a5daf637080131e23cdc6e000f1f1642d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateIsoSurface</name></member>
       <member refid="classMR_1_1ObjectVoxels_1abd1b03136e67cd244c359393e6439c20" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateTexturePerFace</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a25d0cb6d4caf17ff5381a1bc742259d0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateTextures</name></member>

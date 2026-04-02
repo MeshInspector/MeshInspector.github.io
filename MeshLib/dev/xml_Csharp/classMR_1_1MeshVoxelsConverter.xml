@@ -115,10 +115,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" line="217" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRBoolean.cs" bodystart="217" bodyend="223"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshVoxelsConverter_1a7270a257497f48e8c5e9a778c3cb65cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshVoxelsConverter_1a433e31d33d2836b170ad548e668a0794" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshVoxelsConverter.MeshVoxelsConverter</definition>
-        <argsstring>(float voxelSize, float surfaceOffset, MR.Std._ByValue_Function_BoolFuncFromFloat callBack, float offsetVoxels, float adaptivity)</argsstring>
+        <argsstring>(float voxelSize, float surfaceOffset, MR.Std._ByValue_Function_Bool_From_Float callBack, float offsetVoxels, float adaptivity)</argsstring>
         <name>MeshVoxelsConverter</name>
         <qualifiedname>MR.MeshVoxelsConverter.MeshVoxelsConverter</qualifiedname>
         <param>
@@ -130,7 +130,7 @@
           <declname>surfaceOffset</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callBack</declname>
         </param>
         <param>
@@ -281,7 +281,7 @@
       <member refid="classMR_1_1MeshVoxelsConverter_1a25ae5f24eb08261bf9317e2806a5ae15" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>callBack</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1abb55d6c7fa31aaa6a27ce5bf0f68bef1" prot="package" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1a1be27fd8c9a34397cf458660a684a06e" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>
-      <member refid="classMR_1_1MeshVoxelsConverter_1a7270a257497f48e8c5e9a778c3cb65cf" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>
+      <member refid="classMR_1_1MeshVoxelsConverter_1a433e31d33d2836b170ad548e668a0794" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1a0e9a61395f943f86a61773da6b286463" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1aa2c0b58f31a2168372252fd49c0ac6e7" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>
       <member refid="classMR_1_1MeshVoxelsConverter_1ada051c275f99fa4c60f4fefab09390c4" prot="public" virt="non-virtual"><scope>MR::MeshVoxelsConverter</scope><name>MeshVoxelsConverter</name></member>

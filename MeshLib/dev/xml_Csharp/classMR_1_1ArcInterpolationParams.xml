@@ -87,10 +87,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1645" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1645" bodyend="1651"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ArcInterpolationParams_1a789dc798f5e71150410e8bc69e2c1c89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ArcInterpolationParams_1a36c3727ea3ddfbdc73c8ed9fd0b16308" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ArcInterpolationParams.ArcInterpolationParams</definition>
-        <argsstring>(float eps, float maxRadius, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(float eps, float maxRadius, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>ArcInterpolationParams</name>
         <qualifiedname>MR.ArcInterpolationParams.ArcInterpolationParams</qualifiedname>
         <param>
@@ -102,7 +102,7 @@
           <declname>maxRadius</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -242,7 +242,7 @@
     <listofallmembers>
       <member refid="classMR_1_1ArcInterpolationParams_1a56275122fab5c59f96f0776a5665390b" prot="package" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a32c219d9906b1344bf8ac1d3751a7a87" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
-      <member refid="classMR_1_1ArcInterpolationParams_1a789dc798f5e71150410e8bc69e2c1c89" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
+      <member refid="classMR_1_1ArcInterpolationParams_1a36c3727ea3ddfbdc73c8ed9fd0b16308" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a32c635d7b5d9c2b86b73ff4ce528fe0b" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a4b5fb7cfbd1de755fe1414b25090c0ba" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1ad06499cf2e874e125456b92cf2d73894" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>

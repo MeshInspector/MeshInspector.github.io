@@ -245,9 +245,9 @@ var NAVTREEINDEX32 =
 "classMR_1_1FaceDistancesSettings.html":[6,3,0,0,0,349],
 "classMR_1_1FaceDistancesSettings.html#a10655db51c0721652b4d91fe30ff8ec3":[6,3,0,0,0,349,8],
 "classMR_1_1FaceDistancesSettings.html#a25d0db10c99903c8c3b4381820bed608":[6,3,0,0,0,349,6],
-"classMR_1_1FaceDistancesSettings.html#a3e503c3fe2921e809db89478b317e55c":[6,3,0,0,0,349,1],
 "classMR_1_1FaceDistancesSettings.html#a44041639ed770fa7098639bc3a5b3b3d":[6,3,0,0,0,349,2],
 "classMR_1_1FaceDistancesSettings.html#a4432ed7f82b1aeabf03a300484de12dc":[6,3,0,0,0,349,5],
 "classMR_1_1FaceDistancesSettings.html#a56c525691d6073b793ca78b36d2b7a35":[6,3,0,0,0,349,7],
-"classMR_1_1FaceDistancesSettings.html#a99bf1a5a726ff8cae98616b686a9b58d":[6,3,0,0,0,349,4]
+"classMR_1_1FaceDistancesSettings.html#a99bf1a5a726ff8cae98616b686a9b58d":[6,3,0,0,0,349,4],
+"classMR_1_1FaceDistancesSettings.html#aa5330b3c7597d23c10dfd5b07ff7f138":[6,3,0,0,0,349,3]
 };

@@ -511,10 +511,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="907" bodyend="913"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DecimateSettings_1aa56e196e71352498aecc43522f18a8b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1a626117acb5f02241e19b472323d6ee39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DecimateSettings.DecimateSettings</definition>
-        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, float maxAngleChange, MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef adjustCollapse, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_BoolFuncFromFloat progressCallback, int subdivideParts, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
+        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, float maxAngleChange, MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef adjustCollapse, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_Bool_From_Float progressCallback, int subdivideParts, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
         <name>DecimateSettings</name>
         <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
         <param>
@@ -602,15 +602,15 @@
           <declname>maxAngleChange</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef</type>
+          <type>MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef</type>
           <declname>preCollapse</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef</type>
+          <type>MR.Std._ByValue_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef</type>
           <declname>adjustCollapse</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeDel</declname>
         </param>
         <param>
@@ -622,7 +622,7 @@
           <declname>packMesh</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCallback</declname>
         </param>
         <param>
@@ -790,7 +790,7 @@
       <member refid="classMR_1_1DecimateSettings_1a06306ed033b5ccfa3237dab3fb1c3a61" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>decimateBetweenParts</name></member>
       <member refid="classMR_1_1DecimateSettings_1a29c5319a7e8deee2d7f4a7ae75c69233" prot="package" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
-      <member refid="classMR_1_1DecimateSettings_1aa56e196e71352498aecc43522f18a8b3" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a626117acb5f02241e19b472323d6ee39" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1a99a889cfdc331349b8e18b3b2fc5d088" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1aa705d47a48108e8562a3cd9a12128b6d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1a07505c08c620c736e4f5041c08418e2d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>

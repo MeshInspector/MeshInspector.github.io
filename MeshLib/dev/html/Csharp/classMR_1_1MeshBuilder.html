@@ -218,8 +218,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad8a9a667962897c424be5b3d633d9cae" id="r_ad8a9a667962897c424be5b3d633d9cae"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a9a667962897c424be5b3d633d9cae">fromTriangles</a> (MR.Const_Triangulation t, MR.MeshBuilder.Const_BuildSettings? settings=null, MR.Std._ByValue_Function_BoolFuncFromFloat? progressCb=null)</td></tr>
-<tr class="memdesc:ad8a9a667962897c424be5b3d633d9cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh topology from a set of triangles with given ids; if skippedTris is given then it receives all input triangles not added in the resulting topology Generated from function <span class="tt"><a class="el" href="#ad8a9a667962897c424be5b3d633d9cae" title="construct mesh topology from a set of triangles with given ids; if skippedTris is given then it recei...">MR.MeshBuilder.fromTriangles</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a3ec6b97dff43c9678dbbc4e82897fdf9" id="r_a3ec6b97dff43c9678dbbc4e82897fdf9"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ec6b97dff43c9678dbbc4e82897fdf9">fromTriangles</a> (MR.Const_Triangulation t, MR.MeshBuilder.Const_BuildSettings? settings=null, MR.Std._ByValue_Function_Bool_From_Float? progressCb=null)</td></tr>
+<tr class="memdesc:a3ec6b97dff43c9678dbbc4e82897fdf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh topology from a set of triangles with given ids; if skippedTris is given then it receives all input triangles not added in the resulting topology Generated from function <span class="tt"><a class="el" href="#a3ec6b97dff43c9678dbbc4e82897fdf9" title="construct mesh topology from a set of triangles with given ids; if skippedTris is given then it recei...">MR.MeshBuilder.fromTriangles</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a5bc8d7a3bdf916552aba9f5bc2ce397c" id="r_a5bc8d7a3bdf916552aba9f5bc2ce397c"><td class="memItemLeft" align="right" valign="top">static unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bc8d7a3bdf916552aba9f5bc2ce397c">duplicateNonManifoldVertices</a> (<a class="el" href="classMR_1_1Triangulation.html">MR.Triangulation</a> t, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null, MR._InOpt_VertId lastValidVert=default)</td></tr>
 <tr class="memdesc:a5bc8d7a3bdf916552aba9f5bc2ce397c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a5bc8d7a3bdf916552aba9f5bc2ce397c" title="Generated from function MR.MeshBuilder.duplicateNonManifoldVertices. Parameter lastValidVert defaults...">MR.MeshBuilder.duplicateNonManifoldVertices</a></span>. Parameter <span class="tt">lastValidVert</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a428386b924c62be15266d1467f2a17cb" id="r_a428386b924c62be15266d1467f2a17cb"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a428386b924c62be15266d1467f2a17cb">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="classMR_1_1Triangulation.html">MR.Triangulation</a> t, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null, MR.MeshBuilder.Const_BuildSettings? settings=null)</td></tr>
@@ -232,8 +232,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3df6156c3f0891edd28bd041f94d692e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a3df6156c3f0891edd28bd041f94d692e" title="Generated from function MR.MeshBuilder.addTriangles. Parameter settings defaults to {}...">MR.MeshBuilder.addTriangles</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a8f56c81fc69887e45243cc752e0707e3" id="r_a8f56c81fc69887e45243cc752e0707e3"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f56c81fc69887e45243cc752e0707e3">addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a> res, MR.Std.Vector_MRVertId vertTriples, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? createdFaces=null)</td></tr>
 <tr class="memdesc:a8f56c81fc69887e45243cc752e0707e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a3df6156c3f0891edd28bd041f94d692e" title="Generated from function MR.MeshBuilder.addTriangles. Parameter settings defaults to {}...">MR.MeshBuilder.addTriangles</a></span>.  <br /></td></tr>
-<tr class="memitem:a2fa23032c12816994aad18f2935072b1" id="r_a2fa23032c12816994aad18f2935072b1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fa23032c12816994aad18f2935072b1">fromFaceSoup</a> (MR.Std.Const_Vector_MRVertId verts, MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId faces, MR.MeshBuilder.Const_BuildSettings? settings=null, MR.Std._ByValue_Function_BoolFuncFromFloat? progressCb=null)</td></tr>
-<tr class="memdesc:a2fa23032c12816994aad18f2935072b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles) Generated from function <span class="tt"><a class="el" href="#a2fa23032c12816994aad18f2935072b1" title="construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles...">MR.MeshBuilder.fromFaceSoup</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a2e1a26edc35b2f5afdb45bef247a2483" id="r_a2e1a26edc35b2f5afdb45bef247a2483"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e1a26edc35b2f5afdb45bef247a2483">fromFaceSoup</a> (MR.Std.Const_Vector_MRVertId verts, MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId faces, MR.MeshBuilder.Const_BuildSettings? settings=null, MR.Std._ByValue_Function_Bool_From_Float? progressCb=null)</td></tr>
+<tr class="memdesc:a2e1a26edc35b2f5afdb45bef247a2483"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles) Generated from function <span class="tt"><a class="el" href="#a2e1a26edc35b2f5afdb45bef247a2483" title="construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles...">MR.MeshBuilder.fromFaceSoup</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a4a8977a3bc39772181faaed54cd1693e" id="r_a4a8977a3bc39772181faaed54cd1693e"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a8977a3bc39772181faaed54cd1693e">uniteCloseVertices</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, float closeDist, bool? uniteOnlyBd=null, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? optionalVertOldToNew=null)</td></tr>
 <tr class="memdesc:a4a8977a3bc39772181faaed54cd1693e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the function finds groups of mesh vertices located closer to each other than  <br /></td></tr>
 <tr class="memitem:a1ea8116ebcdc36112c22567b002ad81a" id="r_a1ea8116ebcdc36112c22567b002ad81a"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ea8116ebcdc36112c22567b002ad81a">uniteCloseVertices</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, MR.MeshBuilder.Const_UniteCloseParams? params_=null)</td></tr>
@@ -394,8 +394,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2fa23032c12816994aad18f2935072b1" name="a2fa23032c12816994aad18f2935072b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fa23032c12816994aad18f2935072b1">&#9670;&#160;</a></span>fromFaceSoup()</h2>
+<a id="a2e1a26edc35b2f5afdb45bef247a2483" name="a2e1a26edc35b2f5afdb45bef247a2483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e1a26edc35b2f5afdb45bef247a2483">&#9670;&#160;</a></span>fromFaceSoup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,7 +421,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -431,7 +431,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles) Generated from function <span class="tt"><a class="el" href="#a2fa23032c12816994aad18f2935072b1" title="construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles...">MR.MeshBuilder.fromFaceSoup</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>. </p>
+<p>construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles) Generated from function <span class="tt"><a class="el" href="#a2e1a26edc35b2f5afdb45bef247a2483" title="construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles...">MR.MeshBuilder.fromFaceSoup</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -462,8 +462,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8a9a667962897c424be5b3d633d9cae" name="ad8a9a667962897c424be5b3d633d9cae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8a9a667962897c424be5b3d633d9cae">&#9670;&#160;</a></span>fromTriangles()</h2>
+<a id="a3ec6b97dff43c9678dbbc4e82897fdf9" name="a3ec6b97dff43c9678dbbc4e82897fdf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ec6b97dff43c9678dbbc4e82897fdf9">&#9670;&#160;</a></span>fromTriangles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,7 +484,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -494,7 +494,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>construct mesh topology from a set of triangles with given ids; if skippedTris is given then it receives all input triangles not added in the resulting topology Generated from function <span class="tt"><a class="el" href="#ad8a9a667962897c424be5b3d633d9cae" title="construct mesh topology from a set of triangles with given ids; if skippedTris is given then it recei...">MR.MeshBuilder.fromTriangles</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>. </p>
+<p>construct mesh topology from a set of triangles with given ids; if skippedTris is given then it receives all input triangles not added in the resulting topology Generated from function <span class="tt"><a class="el" href="#a3ec6b97dff43c9678dbbc4e82897fdf9" title="construct mesh topology from a set of triangles with given ids; if skippedTris is given then it recei...">MR.MeshBuilder.fromTriangles</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>

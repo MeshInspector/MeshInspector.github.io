@@ -73,10 +73,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="152" bodyend="158"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1a87931817869fb0b1d17efdc0a1410b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ProjectAttributeParams_1addbca1bfc6d62f8b813b52757b451320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ProjectAttributeParams.ProjectAttributeParams</definition>
-        <argsstring>(MR.Const_MeshProjectionTransforms xfs, MR.Std._ByValue_Function_BoolFuncFromFloat progressCb)</argsstring>
+        <argsstring>(MR.Const_MeshProjectionTransforms xfs, MR.Std._ByValue_Function_Bool_From_Float progressCb)</argsstring>
         <name>ProjectAttributeParams</name>
         <qualifiedname>MR.ProjectAttributeParams.ProjectAttributeParams</qualifiedname>
         <param>
@@ -84,7 +84,7 @@
           <declname>xfs</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCb</declname>
         </param>
         <briefdescription>
@@ -226,7 +226,7 @@
       <member refid="classMR_1_1ProjectAttributeParams_1a0f66c279cc9e9b41055a785a7ea01f68" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>progressCb</name></member>
       <member refid="classMR_1_1ProjectAttributeParams_1a4dd9869847118e2a58071a0d42c15d24" prot="package" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
       <member refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
-      <member refid="classMR_1_1ProjectAttributeParams_1a87931817869fb0b1d17efdc0a1410b28" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1ProjectAttributeParams_1addbca1bfc6d62f8b813b52757b451320" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
       <member refid="classMR_1_1ProjectAttributeParams_1ad34b6a556754b0bdbb6ba57dbd0208e5" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
       <member refid="classMR_1_1ProjectAttributeParams_1afe5ce7b16eed1d97890e462dab0492cd" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>
       <member refid="classMR_1_1ProjectAttributeParams_1a6ee38240f2db4be1ab7f8f6b49969ede" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>ProjectAttributeParams</name></member>

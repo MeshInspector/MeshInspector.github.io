@@ -162,10 +162,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="263" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="263" bodyend="263"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ComputeSweptVolumeParameters_1ac0ef4174d4b5074cf9bf75371d1d29b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ComputeSweptVolumeParameters_1ac91063b0ddec457936dfef6a89315498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ComputeSweptVolumeParameters.ComputeSweptVolumeParameters</definition>
-        <argsstring>(MR.Const_Polyline3 path, MR.Const_MeshPart toolMesh, MR.Const_EndMillTool? toolSpec, float voxelSize, ulong memoryLimit, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR.Const_Polyline3 path, MR.Const_MeshPart toolMesh, MR.Const_EndMillTool? toolSpec, float voxelSize, ulong memoryLimit, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>ComputeSweptVolumeParameters</name>
         <qualifiedname>MR.ComputeSweptVolumeParameters.ComputeSweptVolumeParameters</qualifiedname>
         <param>
@@ -189,7 +189,7 @@
           <declname>memoryLimit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -256,7 +256,7 @@
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a327e218959c40195b90c642c98ddd0c1" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1accc2f049a061f7d438262bc61786ad3c" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a3393ab91aff2f8818a55c4df98b5a691" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
-      <member refid="classMR_1_1ComputeSweptVolumeParameters_1ac0ef4174d4b5074cf9bf75371d1d29b3" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
+      <member refid="classMR_1_1ComputeSweptVolumeParameters_1ac91063b0ddec457936dfef6a89315498" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a7a41156017b054a3d8938aaa7b19257a" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>memoryLimit</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a57449756da3dd6cd99667c118be4a7ff" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>toolMesh</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1ad113ea9d77d68cdd31fd3e5d73b2f68f" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>toolSpec</name></member>

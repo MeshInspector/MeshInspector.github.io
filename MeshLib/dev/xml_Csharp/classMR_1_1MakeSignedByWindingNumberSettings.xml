@@ -120,10 +120,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="895" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="895" bodyend="901"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MakeSignedByWindingNumberSettings_1af759ee7fa3ef395940873e00d507e843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MakeSignedByWindingNumberSettings_1acfba3154eb043f5d1c2fa648b1c74f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MakeSignedByWindingNumberSettings.MakeSignedByWindingNumberSettings</definition>
-        <argsstring>(MR.AffineXf3f meshToGridXf, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(MR.AffineXf3f meshToGridXf, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>MakeSignedByWindingNumberSettings</name>
         <qualifiedname>MR.MakeSignedByWindingNumberSettings.MakeSignedByWindingNumberSettings</qualifiedname>
         <param>
@@ -143,7 +143,7 @@
           <declname>windingNumberBeta</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -285,7 +285,7 @@
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a22b5c2cd99c76ab74edc29206220d3ac" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>fwn</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a56103787b445bd0495bc629c6d8ae534" prot="package" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a99eb76059a021ad2082beddffdd4158d" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
-      <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1af759ee7fa3ef395940873e00d507e843" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1acfba3154eb043f5d1c2fa648b1c74f8f" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1adc5f73cb8d983e84c53e7a71d4e4b0c7" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a99c2b44447ddebb7cbb2612e52c77295" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a62b2d2d604184d6578ee01aae960bd2b" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>

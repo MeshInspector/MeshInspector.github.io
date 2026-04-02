@@ -89,10 +89,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="201" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="201" bodyend="207"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceDistancesSettings_1a3e503c3fe2921e809db89478b317e55c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceDistancesSettings_1ad2f2774aee9bb7b22139adfc389c8ac7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FaceDistancesSettings.FaceDistancesSettings</definition>
-        <argsstring>(MR.FaceDistancesSettings.OutputFaceValues out_, MR.Misc.InOut&lt; float &gt;? maxDist, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(MR.FaceDistancesSettings.OutputFaceValues out_, MR.Misc.InOut&lt; float &gt;? maxDist, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>FaceDistancesSettings</name>
         <qualifiedname>MR.FaceDistancesSettings.FaceDistancesSettings</qualifiedname>
         <param>
@@ -104,7 +104,7 @@
           <declname>maxDist</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -245,7 +245,7 @@
       <member refid="classMR_1_1FaceDistancesSettings_1a4432ed7f82b1aeabf03a300484de12dc" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a8d1f05ac08f2df06957f58602be3eced" prot="package" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1acdf5a30120f3135ef32e5971a88630e2" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
-      <member refid="classMR_1_1FaceDistancesSettings_1a3e503c3fe2921e809db89478b317e55c" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1FaceDistancesSettings_1ad2f2774aee9bb7b22139adfc389c8ac7" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a44041639ed770fa7098639bc3a5b3b3d" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1aa5330b3c7597d23c10dfd5b07ff7f138" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a99bf1a5a726ff8cae98616b686a9b58d" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>

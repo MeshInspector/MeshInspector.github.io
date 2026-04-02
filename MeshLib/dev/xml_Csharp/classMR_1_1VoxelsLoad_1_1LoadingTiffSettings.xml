@@ -101,10 +101,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="415" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="415" bodyend="421"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ae0543c4f8bc75bcc21d44d4c14646a1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a50548edb580b1f1828f3aff6ec25b51e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.VoxelsLoad.LoadingTiffSettings.LoadingTiffSettings</definition>
-        <argsstring>(string dir, MR.Vector3f voxelSize, MR.VoxelsLoad.GridType gridType, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(string dir, MR.Vector3f voxelSize, MR.VoxelsLoad.GridType gridType, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>LoadingTiffSettings</name>
         <qualifiedname>MR.VoxelsLoad.LoadingTiffSettings.LoadingTiffSettings</qualifiedname>
         <param>
@@ -120,7 +120,7 @@
           <declname>gridType</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -264,7 +264,7 @@
       <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a7becbe7a84bbab41f97873542f0f8d25" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>gridType</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a1757e3a56e12d551f362ea04226584c9" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>LoadingTiffSettings</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a51489fc121733819cb1f07474cb9ef55" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>LoadingTiffSettings</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ae0543c4f8bc75bcc21d44d4c14646a1d" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>LoadingTiffSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a50548edb580b1f1828f3aff6ec25b51e" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>LoadingTiffSettings</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a704b365a64b724c7822d14bad578aea1" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>LoadingTiffSettings</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1aa2e1369f72a29e505200df374f82568e" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>LoadingTiffSettings</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ab4b516916f9b7426cd679e11126f87a9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::LoadingTiffSettings</scope><name>LoadingTiffSettings</name></member>

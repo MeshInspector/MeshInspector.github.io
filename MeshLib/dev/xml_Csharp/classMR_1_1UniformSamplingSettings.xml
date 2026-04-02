@@ -120,10 +120,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="236" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="236" bodyend="242"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UniformSamplingSettings_1a7ea098a4ad321de43a48932fa31910df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1UniformSamplingSettings_1adcacd788d4fe7af894e7c98019451289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.UniformSamplingSettings.UniformSamplingSettings</definition>
-        <argsstring>(float distance, float minNormalDot, bool lexicographicalOrder, MR.Const_VertCoords? pNormals, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(float distance, float minNormalDot, bool lexicographicalOrder, MR.Const_VertCoords? pNormals, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>UniformSamplingSettings</name>
         <qualifiedname>MR.UniformSamplingSettings.UniformSamplingSettings</qualifiedname>
         <param>
@@ -143,7 +143,7 @@
           <declname>pNormals</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -289,7 +289,7 @@
       <member refid="classMR_1_1UniformSamplingSettings_1a1d6d33be1f4e3d2c57b68c6798093559" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>progress</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1a792fd6776e3351102fa2bf846c2f7d1d" prot="package" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1a3045ea3f4884c106ab5978240bf0bf52" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>
-      <member refid="classMR_1_1UniformSamplingSettings_1a7ea098a4ad321de43a48932fa31910df" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>
+      <member refid="classMR_1_1UniformSamplingSettings_1adcacd788d4fe7af894e7c98019451289" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1a46e36c9d4563b436a5fc0be098341235" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1ad42a137be78f767cdf663bbf2a85554c" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>
       <member refid="classMR_1_1UniformSamplingSettings_1aa0c0eda46a317c18cb9ab86933962358" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>UniformSamplingSettings</name></member>

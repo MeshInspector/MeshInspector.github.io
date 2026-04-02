@@ -345,10 +345,10 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="588" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="588" bodyend="594"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SubdivideSettings_1aa61ce8019cfff91839ab6e34b700f406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SubdivideSettings_1aaa7f5834055aa050171ec156870830c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.SubdivideSettings.SubdivideSettings</definition>
-        <argsstring>(float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, MR.FaceBitSet? region, MR.FaceBitSet? maintainRegion, MR.UndirectedEdgeBitSet? notFlippable, MR.VertBitSet? newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, MR.Std._ByValue_Function_BoolFuncFromMREdgeId beforeEdgeSplit, MR.Std._ByValue_Function_VoidFuncFromMRVertId onVertCreated, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeSplit, MR.Std._ByValue_Function_BoolFuncFromFloat progressCallback)</argsstring>
+        <argsstring>(float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, MR.FaceBitSet? region, MR.FaceBitSet? maintainRegion, MR.UndirectedEdgeBitSet? notFlippable, MR.VertBitSet? newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, MR.Std._ByValue_Function_Bool_From_MREdgeId beforeEdgeSplit, MR.Std._ByValue_Function_Void_From_MRVertId onVertCreated, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit, MR.Std._ByValue_Function_Bool_From_Float progressCallback)</argsstring>
         <name>SubdivideSettings</name>
         <qualifiedname>MR.SubdivideSettings.SubdivideSettings</qualifiedname>
         <param>
@@ -416,19 +416,19 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
           <declname>projectOnOriginalMesh</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Bool_From_MREdgeId</type>
           <declname>beforeEdgeSplit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMRVertId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MRVertId</type>
           <declname>onVertCreated</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeSplit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCallback</declname>
         </param>
         <briefdescription>
@@ -589,7 +589,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
       <member refid="classMR_1_1SubdivideSettings_1aad4ac8496e56009514d91ed76ed5f65a" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>subdivideBorder</name></member>
       <member refid="classMR_1_1SubdivideSettings_1ad77a58af18d28d90ba42a55e50fac55f" prot="package" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>SubdivideSettings</name></member>
       <member refid="classMR_1_1SubdivideSettings_1afab9ec8867cf7ea966aca70cd693d026" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>SubdivideSettings</name></member>
-      <member refid="classMR_1_1SubdivideSettings_1aa61ce8019cfff91839ab6e34b700f406" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>SubdivideSettings</name></member>
+      <member refid="classMR_1_1SubdivideSettings_1aaa7f5834055aa050171ec156870830c2" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>SubdivideSettings</name></member>
       <member refid="classMR_1_1SubdivideSettings_1a77e5fc9232369309ce10093b3e9a59cd" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>SubdivideSettings</name></member>
       <member refid="classMR_1_1SubdivideSettings_1ae4cbe5558e198bc0824fb591d201b2dc" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>SubdivideSettings</name></member>
       <member refid="classMR_1_1SubdivideSettings_1a73f6656f15457ff261608dca9bde93b0" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>SubdivideSettings</name></member>

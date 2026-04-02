@@ -105,10 +105,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="459" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="459" bodyend="465"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1ParametersBase_1a4611fd9961726ce2bdd824a684e701f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1ParametersBase_1ab6267f2ded7c77a959e8a2e9039cccea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.WeightedShell.ParametersBase.ParametersBase</definition>
-        <argsstring>(float offset, float voxelSize, float numLayers, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(float offset, float voxelSize, float numLayers, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>ParametersBase</name>
         <qualifiedname>MR.WeightedShell.ParametersBase.ParametersBase</qualifiedname>
         <param>
@@ -124,7 +124,7 @@
           <declname>numLayers</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -267,7 +267,7 @@
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a6f22d6d3a4e93b126d07995814fe7f9b" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>offset</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1ada8e9e4e187ff771e1cc699e71b78836" prot="package" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a6bf14ad3436535e394f2094d049cac08" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
-      <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a4611fd9961726ce2bdd824a684e701f0" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1ab6267f2ded7c77a959e8a2e9039cccea" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1af05a6c82bbe36efac22fd6c6b5e16de0" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a76f371ba4ee6c8f6db954f9afe97643b" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersBase_1a2e35f96d3d5ca6df739ed8fe5cbf1956" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>ParametersBase</name></member>

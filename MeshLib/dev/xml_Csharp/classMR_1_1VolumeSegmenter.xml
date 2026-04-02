@@ -178,10 +178,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="438" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="438" bodyend="443"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a27eb2853adc27edac76053d61b96bc13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1a04d16dcdfb30aa222e40e8bb8a4e5b0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
         <definition>unsafe MR.VoxelBitSet MR.VolumeSegmenter.segmentVolume</definition>
-        <argsstring>(float? segmentationExponentModifier=null, int? voxelsExpansion=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(float? segmentationExponentModifier=null, int? voxelsExpansion=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
         <name>segmentVolume</name>
         <qualifiedname>MR.VolumeSegmenter.segmentVolume</qualifiedname>
         <param>
@@ -195,12 +195,12 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Segments volume, return inside part segmentation (<ref refid="classMR_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref> in space of VolumePart) Generated from method <computeroutput><ref refid="classMR_1_1VolumeSegmenter_1a27eb2853adc27edac76053d61b96bc13" kindref="member">MR.VolumeSegmenter.segmentVolume</ref></computeroutput>. Parameter <computeroutput>segmentationExponentModifier</computeroutput> defaults to <computeroutput>3000.0f</computeroutput>. Parameter <computeroutput>voxelsExpansion</computeroutput> defaults to <computeroutput>25</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Segments volume, return inside part segmentation (<ref refid="classMR_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref> in space of VolumePart) Generated from method <computeroutput><ref refid="classMR_1_1VolumeSegmenter_1a04d16dcdfb30aa222e40e8bb8a4e5b0e" kindref="member">MR.VolumeSegmenter.segmentVolume</ref></computeroutput>. Parameter <computeroutput>segmentationExponentModifier</computeroutput> defaults to <computeroutput>3000.0f</computeroutput>. Parameter <computeroutput>voxelsExpansion</computeroutput> defaults to <computeroutput>25</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -286,7 +286,7 @@
       <member refid="classMR_1_1VolumeSegmenter_1adc0bd50d7fa7c1bd55a15e014bd98633" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>addPathSeeds</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1a52e42c1f2611d2737f4df69b42a66ed0" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>addSeeds</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1aca5e093ace0c9beeeb2ac827ed76d8df" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>operator VolumeSegmenter</name></member>
-      <member refid="classMR_1_1VolumeSegmenter_1a27eb2853adc27edac76053d61b96bc13" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>segmentVolume</name></member>
+      <member refid="classMR_1_1VolumeSegmenter_1a04d16dcdfb30aa222e40e8bb8a4e5b0e" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>segmentVolume</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1a1a656944440414b0aab1aad3ca1aa741" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>setSeeds</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1ae43dc152ee4f41859d0384993ed0473e" prot="package" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>VolumeSegmenter</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1a557f727dbad7061d2d7f56635a3ad5da" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>VolumeSegmenter</name></member>

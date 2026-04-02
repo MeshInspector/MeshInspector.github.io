@@ -311,10 +311,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="500" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="500" bodyend="506"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ToolPathParams_1a72f56ed84a37585da38e9fb031d2382d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ToolPathParams_1a6e1cfc4b7dc1a3ed309259b36bc170c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ToolPathParams.ToolPathParams</definition>
-        <argsstring>(float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, MR.BypassDirection bypassDir, MR.AffineXf3f? xf, bool flatTool, MR.Std._ByValue_Function_BoolFuncFromFloat cb, float toolpathExpansion, MR.Std.Vector_StdVectorMRVector3f? isolines, MR.Std.Vector_StdVectorMRVector3f? startContours, MR.Std.Vector_MRVector3f? startVertices, MR.MeshPart? offsetMesh)</argsstring>
+        <argsstring>(float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, MR.BypassDirection bypassDir, MR.AffineXf3f? xf, bool flatTool, MR.Std._ByValue_Function_Bool_From_Float cb, float toolpathExpansion, MR.Std.Vector_StdVectorMRVector3f? isolines, MR.Std.Vector_StdVectorMRVector3f? startContours, MR.Std.Vector_MRVector3f? startVertices, MR.MeshPart? offsetMesh)</argsstring>
         <name>ToolPathParams</name>
         <qualifiedname>MR.ToolPathParams.ToolPathParams</qualifiedname>
         <param>
@@ -370,7 +370,7 @@
           <declname>flatTool</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <param>
@@ -548,7 +548,7 @@
       <member refid="classMR_1_1ToolPathParams_1a543238597e8d8ac1e9ec18c66ee5a34d" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>toolpathExpansion</name></member>
       <member refid="classMR_1_1ToolPathParams_1ad7be082f2d5f7c3615a1cb91d0c930ef" prot="package" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1a86ed3fd7077e03118a68c4c1ec191a85" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
-      <member refid="classMR_1_1ToolPathParams_1a72f56ed84a37585da38e9fb031d2382d" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
+      <member refid="classMR_1_1ToolPathParams_1a6e1cfc4b7dc1a3ed309259b36bc170c9" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1afac28b4f9a5f9d745336f2ecb07bcc81" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1adfc6d6c6e88d23266ba8afa61d22aa8b" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1aafb94740bc944e48a8891108e8be5416" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>

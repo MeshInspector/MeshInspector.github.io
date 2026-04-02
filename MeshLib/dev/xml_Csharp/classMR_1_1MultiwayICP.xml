@@ -193,18 +193,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="1331" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="1331" bodyend="1336"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a891cf06bf2a92a57ec2a28c34b7389f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MultiwayICP_1a7bc6d78b1eddc91e0179fb73ddcacb64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.MultiwayICP.setPerIterationCallback</definition>
-        <argsstring>(MR.Std._ByValue_Function_VoidFuncFromInt callback)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_Void_From_Int callback)</argsstring>
         <name>setPerIterationCallback</name>
         <qualifiedname>MR.MultiwayICP.setPerIterationCallback</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromInt</type>
+          <type>MR.Std._ByValue_Function_Void_From_Int</type>
           <declname>callback</declname>
         </param>
         <briefdescription>
-<para>sets callback that will be called for each iteration Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a891cf06bf2a92a57ec2a28c34b7389f2" kindref="member">MR.MultiwayICP.setPerIterationCallback</ref></computeroutput>. </para>
+<para>sets callback that will be called for each iteration Generated from method <computeroutput><ref refid="classMR_1_1MultiwayICP_1a7bc6d78b1eddc91e0179fb73ddcacb64" kindref="member">MR.MultiwayICP.setPerIterationCallback</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -291,7 +291,7 @@
       <member refid="classMR_1_1MultiwayICP_1a1db2b849c2514e2d54b344b6a96fc3dc" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>MultiwayICP</name></member>
       <member refid="classMR_1_1MultiwayICP_1adc72d721bc443d2a5386600ac02245db" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>resamplePoints</name></member>
       <member refid="classMR_1_1MultiwayICP_1a18c8e783f38a8339216447e687db7af1" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setParams</name></member>
-      <member refid="classMR_1_1MultiwayICP_1a891cf06bf2a92a57ec2a28c34b7389f2" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setPerIterationCallback</name></member>
+      <member refid="classMR_1_1MultiwayICP_1a7bc6d78b1eddc91e0179fb73ddcacb64" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>setPerIterationCallback</name></member>
       <member refid="classMR_1_1MultiwayICP_1ab40ecc7d1988d56294a3198330064ec1" prot="public" virt="non-virtual"><scope>MR::MultiwayICP</scope><name>updateAllPointPairs</name></member>
     </listofallmembers>
   </compounddef>

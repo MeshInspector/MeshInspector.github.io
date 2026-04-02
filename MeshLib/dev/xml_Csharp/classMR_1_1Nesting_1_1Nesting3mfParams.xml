@@ -149,10 +149,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" line="312" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRNesting3mfExport.cs" bodystart="312" bodyend="318"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Nesting_1_1Nesting3mfParams_1a5986717370853c9394f1e3ea76777ae1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Nesting3mfParams_1ab6703c5ff5c44b7933f19e96e8a56f2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Nesting.Nesting3mfParams.Nesting3mfParams</definition>
-        <argsstring>(MR._ByValue_Vector_MRNestingMeshXf_MRObjId meshes, float zStep, bool decimateSlices, MR.Const_Image? image, MR.Std.Const_Vector_MRImage? meshImages, MR.Std.Const_Vector_StdString? meshNames, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR._ByValue_Vector_MRNestingMeshXf_MRObjId meshes, float zStep, bool decimateSlices, MR.Const_Image? image, MR.Std.Const_Vector_MRImage? meshImages, MR.Std.Const_Vector_StdString? meshNames, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>Nesting3mfParams</name>
         <qualifiedname>MR.Nesting.Nesting3mfParams.Nesting3mfParams</qualifiedname>
         <param>
@@ -180,7 +180,7 @@
           <declname>meshNames</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -327,7 +327,7 @@
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a8ee01cbf443d3fd3b226bbbe7310c13b" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>meshNames</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a8a982cb62cac653adb9481272f6d835d" prot="package" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ad0ac7e2e5304078811b990bafd6c7796" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
-      <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a5986717370853c9394f1e3ea76777ae1" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ab6703c5ff5c44b7933f19e96e8a56f2c" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1ab8d8b2134a7a5e36ff599cfc9f193068" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a17d7884dd2ba1cceb93370035efd8082" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>
       <member refid="classMR_1_1Nesting_1_1Nesting3mfParams_1a45627d19aee17d50a504eee70c941058" prot="public" virt="non-virtual"><scope>MR::Nesting::Nesting3mfParams</scope><name>Nesting3mfParams</name></member>

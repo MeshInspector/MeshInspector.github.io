@@ -142,10 +142,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="462" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="462" bodyend="467"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Graph_1af3da9df463c2f8617a7bdc3d8172e32a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Graph_1ae686215337242b8e30ae8aa85c3514f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Graph.merge</definition>
-        <argsstring>(MR.GraphVertId remnant, MR.GraphVertId dead, MR.Std._ByValue_Function_VoidFuncFromMRGraphEdgeIdMRGraphEdgeId onMergeEdges)</argsstring>
+        <argsstring>(MR.GraphVertId remnant, MR.GraphVertId dead, MR.Std._ByValue_Function_Void_From_MRGraphEdgeId_MRGraphEdgeId onMergeEdges)</argsstring>
         <name>merge</name>
         <qualifiedname>MR.Graph.merge</qualifiedname>
         <param>
@@ -157,11 +157,11 @@
           <declname>dead</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMRGraphEdgeIdMRGraphEdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MRGraphEdgeId_MRGraphEdgeId</type>
           <declname>onMergeEdges</declname>
         </param>
         <briefdescription>
-<para>unites two vertices into one (deleting the second one), which leads to deletion and merge of some edges, for which callback is called Generated from method <computeroutput><ref refid="classMR_1_1Graph_1af3da9df463c2f8617a7bdc3d8172e32a" kindref="member">MR.Graph.merge</ref></computeroutput>. </para>
+<para>unites two vertices into one (deleting the second one), which leads to deletion and merge of some edges, for which callback is called Generated from method <computeroutput><ref refid="classMR_1_1Graph_1ae686215337242b8e30ae8aa85c3514f8" kindref="member">MR.Graph.merge</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -226,7 +226,7 @@
       <member refid="classMR_1_1Graph_1a2d8a6bfa2beb3fac553dd930eb973e9c" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1ad2aa3bd387124a9b08188ba484a40811" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1aa1f730e5fd495318789eca6a3ab840dd" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
-      <member refid="classMR_1_1Graph_1af3da9df463c2f8617a7bdc3d8172e32a" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>merge</name></member>
+      <member refid="classMR_1_1Graph_1ae686215337242b8e30ae8aa85c3514f8" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>merge</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

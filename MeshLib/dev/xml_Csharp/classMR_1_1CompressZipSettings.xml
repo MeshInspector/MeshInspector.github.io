@@ -105,10 +105,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="209" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="209" bodyend="215"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1CompressZipSettings_1a97001e48609ca314cca279cfb43355d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1CompressZipSettings_1a9c6bac0e78b2c6d42e9060bd629a156c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.CompressZipSettings.CompressZipSettings</definition>
-        <argsstring>(MR.Std._ByValue_Vector_StdFilesystemPath excludeFiles, int compressionLevel, string password, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR.Std._ByValue_Vector_StdFilesystemPath excludeFiles, int compressionLevel, string password, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>CompressZipSettings</name>
         <qualifiedname>MR.CompressZipSettings.CompressZipSettings</qualifiedname>
         <param>
@@ -124,7 +124,7 @@
           <declname>password</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -267,7 +267,7 @@
       <member refid="classMR_1_1CompressZipSettings_1aabec1ee43236cd7635fc23efaca93406" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>compressionLevel</name></member>
       <member refid="classMR_1_1CompressZipSettings_1a78814704874080d78cb312d24488cf15" prot="package" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>
       <member refid="classMR_1_1CompressZipSettings_1a2370266c1b9a1ce42ed0ce8e989950fe" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>
-      <member refid="classMR_1_1CompressZipSettings_1a97001e48609ca314cca279cfb43355d4" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>
+      <member refid="classMR_1_1CompressZipSettings_1a9c6bac0e78b2c6d42e9060bd629a156c" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>
       <member refid="classMR_1_1CompressZipSettings_1aac691065fc09f3eb043ad42266207745" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>
       <member refid="classMR_1_1CompressZipSettings_1aed19ef0bd8a95c646e3f20bc2c2818de" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>
       <member refid="classMR_1_1CompressZipSettings_1a16e4c20b03f1bf4b1973f81e860a2609" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>CompressZipSettings</name></member>

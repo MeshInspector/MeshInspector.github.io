@@ -199,18 +199,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="227" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="227" bodyend="232"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a7198d283a3b62d0fbafe42a05443108f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a90fd5fe8930164bcbb34442c2905749e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.CombinedHistoryAction.filter</definition>
-        <argsstring>(MR.Std._ByValue_Function_BoolFuncFromConstStdSharedPtrMRHistoryActionRef filteringCondition)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_Bool_From_ConstStdSharedPtrMRHistoryActionRef filteringCondition)</argsstring>
         <name>filter</name>
         <qualifiedname>MR.CombinedHistoryAction.filter</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromConstStdSharedPtrMRHistoryActionRef</type>
+          <type>MR.Std._ByValue_Function_Bool_From_ConstStdSharedPtrMRHistoryActionRef</type>
           <declname>filteringCondition</declname>
         </param>
         <briefdescription>
-<para>Remove some actions according to condition inside combined actions. Do deep filtering. Generated from method <computeroutput><ref refid="classMR_1_1CombinedHistoryAction_1a7198d283a3b62d0fbafe42a05443108f" kindref="member">MR.CombinedHistoryAction.filter</ref></computeroutput>. </para>
+<para>Remove some actions according to condition inside combined actions. Do deep filtering. Generated from method <computeroutput><ref refid="classMR_1_1CombinedHistoryAction_1a90fd5fe8930164bcbb34442c2905749e" kindref="member">MR.CombinedHistoryAction.filter</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -275,7 +275,7 @@
       <member refid="classMR_1_1CombinedHistoryAction_1a2c7d0e924364b90b431fd3ab200657aa" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a021de2ac1529160ed4f49e1d82e581ca" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1aee0c2b74bb5b1590616ea67a38a34884" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
-      <member refid="classMR_1_1CombinedHistoryAction_1a7198d283a3b62d0fbafe42a05443108f" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>filter</name></member>
+      <member refid="classMR_1_1CombinedHistoryAction_1a90fd5fe8930164bcbb34442c2905749e" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>filter</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a85b30407745962bc5a2675fb77325ef9" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>getStack</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a2938f49edeee08cfe10804d89af8d3f9" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator CombinedHistoryAction?</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a0d3a6d4cefc8d1d0490713cf45ecfbd5" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator MR.HistoryAction</name></member>

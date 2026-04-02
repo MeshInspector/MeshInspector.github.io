@@ -120,10 +120,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="261" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="261" bodyend="267"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PositionVertsSmoothlyParams_1ab576d0b7aced2845f7acf6bde48a01bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PositionVertsSmoothlyParams_1af79f30b03e760294a0523211e92da9fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</definition>
-        <argsstring>(MR.Const_VertBitSet? region, MR.Const_VertCoords? vertShifts, float stabilizer, MR.Std._ByValue_Function_FloatFuncFromMRVertId vertStabilizers, MR.Std._ByValue_Function_FloatFuncFromMRUndirectedEdgeId edgeWeights)</argsstring>
+        <argsstring>(MR.Const_VertBitSet? region, MR.Const_VertCoords? vertShifts, float stabilizer, MR.Std._ByValue_Function_Float_From_MRVertId vertStabilizers, MR.Std._ByValue_Function_Float_From_MRUndirectedEdgeId edgeWeights)</argsstring>
         <name>PositionVertsSmoothlyParams</name>
         <qualifiedname>MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</qualifiedname>
         <param>
@@ -139,11 +139,11 @@
           <declname>stabilizer</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_FloatFuncFromMRVertId</type>
+          <type>MR.Std._ByValue_Function_Float_From_MRVertId</type>
           <declname>vertStabilizers</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_FloatFuncFromMRUndirectedEdgeId</type>
+          <type>MR.Std._ByValue_Function_Float_From_MRUndirectedEdgeId</type>
           <declname>edgeWeights</declname>
         </param>
         <briefdescription>
@@ -285,7 +285,7 @@
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1afc58b8fcc01b785976e635a0f6b578c0" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>edgeWeights</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1aa0ecb126c66507e33033927a6c4c6cd0" prot="package" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1a9eb281de4ec9a415a1c706cbb38549b9" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
-      <member refid="classMR_1_1PositionVertsSmoothlyParams_1ab576d0b7aced2845f7acf6bde48a01bb" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
+      <member refid="classMR_1_1PositionVertsSmoothlyParams_1af79f30b03e760294a0523211e92da9fc" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1a0ab443d9ad1c058d4d3cc3d81a18d294" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1ad0c5b73d80850ef6937e90bea62d6656" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1ade85b258bd77f31c55d75d448bfc0145" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>

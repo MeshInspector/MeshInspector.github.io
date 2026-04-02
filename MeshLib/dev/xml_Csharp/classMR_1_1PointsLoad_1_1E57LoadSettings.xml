@@ -90,10 +90,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="173" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="173" bodyend="179"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a089a3eadcfa25ec3b9848a83708c0528" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1ae1383fd7ebada916758930cca6df665e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PointsLoad.E57LoadSettings.E57LoadSettings</definition>
-        <argsstring>(bool combineAllObjects, bool identityXf, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(bool combineAllObjects, bool identityXf, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>E57LoadSettings</name>
         <qualifiedname>MR.PointsLoad.E57LoadSettings.E57LoadSettings</qualifiedname>
         <param>
@@ -105,7 +105,7 @@
           <declname>identityXf</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -247,7 +247,7 @@
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a8bafbe80e2489d0df62df79696df2574" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>combineAllObjects</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a6b432bf27761ea4e45bbec12fc0ad28a" prot="package" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a2a7b4284ac938087d0e8e0dec0b6b796" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
-      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a089a3eadcfa25ec3b9848a83708c0528" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1ae1383fd7ebada916758930cca6df665e" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a87dec0d9c8b299770db52298d4ad4380" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a08480788429e31262956bb1b0d539ed8" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1accbe2616798eafeddd7f45a81f044326" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>

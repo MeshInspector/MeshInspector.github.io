@@ -119,10 +119,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="209" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="209" bodyend="215"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FindOverlappingSettings_1a7d3b936d6df29134589b6c79cd07e2aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FindOverlappingSettings_1a19704b35707c206ce1b5cfb9fa0f4397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FindOverlappingSettings.FindOverlappingSettings</definition>
-        <argsstring>(float maxDistSq, float maxNormalDot, float minAreaFraction, MR.Std._ByValue_Function_BoolFuncFromMRFaceIdMRFaceId pred, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(float maxDistSq, float maxNormalDot, float minAreaFraction, MR.Std._ByValue_Function_Bool_From_MRFaceId_MRFaceId pred, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>FindOverlappingSettings</name>
         <qualifiedname>MR.FindOverlappingSettings.FindOverlappingSettings</qualifiedname>
         <param>
@@ -138,11 +138,11 @@
           <declname>minAreaFraction</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromMRFaceIdMRFaceId</type>
+          <type>MR.Std._ByValue_Function_Bool_From_MRFaceId_MRFaceId</type>
           <declname>pred</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -284,7 +284,7 @@
       <member refid="classMR_1_1FindOverlappingSettings_1a3d5f0e2f904e8b8f1bcc65752219ff94" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>cb</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1abf48777fdb7ed6b094e746de26a5ec5a" prot="package" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1af2341a3a1fd62d71b5932f6253dfac17" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>
-      <member refid="classMR_1_1FindOverlappingSettings_1a7d3b936d6df29134589b6c79cd07e2aa" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1FindOverlappingSettings_1a19704b35707c206ce1b5cfb9fa0f4397" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1a1c275f2be1c66defff5566910641bccd" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1a076185b3212448d6951e8f04f3d7800f" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1a76c37e6e5b96ffb1d0dabe5ae527e111" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>

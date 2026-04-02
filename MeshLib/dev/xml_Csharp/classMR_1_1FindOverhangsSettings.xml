@@ -134,10 +134,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="241" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="241" bodyend="247"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1a20ab788b0cb0f559a201601bcc08cd2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1ad367385bc0ab90c434afe38185e57912" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FindOverhangsSettings.FindOverhangsSettings</definition>
-        <argsstring>(MR.Vector3f axis, float layerHeight, float maxOverhangDistance, int hops, MR.AffineXf3f? xf, MR.Std._ByValue_Function_BoolFuncFromFloat progressCb)</argsstring>
+        <argsstring>(MR.Vector3f axis, float layerHeight, float maxOverhangDistance, int hops, MR.AffineXf3f? xf, MR.Std._ByValue_Function_Bool_From_Float progressCb)</argsstring>
         <name>FindOverhangsSettings</name>
         <qualifiedname>MR.FindOverhangsSettings.FindOverhangsSettings</qualifiedname>
         <param>
@@ -161,7 +161,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCb</declname>
         </param>
         <briefdescription>
@@ -303,7 +303,7 @@
       <member refid="classMR_1_1FindOverhangsSettings_1aea130257b78e8d7044701e45f8b1ccbb" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>axis</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1a66cac7e4844da9178ae4905cd7382534" prot="package" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1af4e93c106a07fbaa569be135e17299e1" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
-      <member refid="classMR_1_1FindOverhangsSettings_1a20ab788b0cb0f559a201601bcc08cd2d" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1ad367385bc0ab90c434afe38185e57912" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1a6b84ac5e0a67cbb7a8ff4db4a69bcb8f" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1a43348d2d89c3fcc7b0b3ad4ba6f27b29" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1ab15a3258192bcf4a07e57420fb94ef85" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>

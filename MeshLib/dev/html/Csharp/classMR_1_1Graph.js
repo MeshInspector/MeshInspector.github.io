@@ -6,5 +6,5 @@ var classMR_1_1Graph =
     [ "Graph", "classMR_1_1Graph.html#aa1f730e5fd495318789eca6a3ab840dd", null ],
     [ "assign", "classMR_1_1Graph.html#af30df5b9d12c67bde3e201bc0f7b4c0d", null ],
     [ "construct", "classMR_1_1Graph.html#aa914a46f9c4bf15627aa5b912341a47b", null ],
-    [ "merge", "classMR_1_1Graph.html#af3da9df463c2f8617a7bdc3d8172e32a", null ]
+    [ "merge", "classMR_1_1Graph.html#ae686215337242b8e30ae8aa85c3514f8", null ]
 ];

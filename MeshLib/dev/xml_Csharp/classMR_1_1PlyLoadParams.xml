@@ -210,10 +210,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="504" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="504" bodyend="510"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1ab8b43c6dcc4eb59f2cca159f40193ff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1afbf4b92bd5f2279ee9ab92dd293e35d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PlyLoadParams.PlyLoadParams</definition>
-        <argsstring>(MR.Std.Optional_MRTriangulation? tris, MR.Std.Optional_MREdges? edges, MR.VertColors? colors, MR.FaceColors? faceColors, MR.VertCoords2? uvCoords, MR.TriCornerUVCoords? triCornerUvCoords, MR.VertCoords? normals, MR.MeshTexture? texture, string dir, MR.Std._ByValue_Function_BoolFuncFromFloat callback, bool telemetrySignal)</argsstring>
+        <argsstring>(MR.Std.Optional_MRTriangulation? tris, MR.Std.Optional_MREdges? edges, MR.VertColors? colors, MR.FaceColors? faceColors, MR.VertCoords2? uvCoords, MR.TriCornerUVCoords? triCornerUvCoords, MR.VertCoords? normals, MR.MeshTexture? texture, string dir, MR.Std._ByValue_Function_Bool_From_Float callback, bool telemetrySignal)</argsstring>
         <name>PlyLoadParams</name>
         <qualifiedname>MR.PlyLoadParams.PlyLoadParams</qualifiedname>
         <param>
@@ -253,7 +253,7 @@
           <declname>dir</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callback</declname>
         </param>
         <param>
@@ -404,7 +404,7 @@
       <member refid="classMR_1_1PlyLoadParams_1a804504cf8bd835c33150c3e30893d7ff" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>normals</name></member>
       <member refid="classMR_1_1PlyLoadParams_1afbb9ffb0cfb14c51a1c1ec8297bebb90" prot="package" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a85113be70f575948ee1e8c733070f18f" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
-      <member refid="classMR_1_1PlyLoadParams_1ab8b43c6dcc4eb59f2cca159f40193ff3" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1afbf4b92bd5f2279ee9ab92dd293e35d7" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a2db581dbc04d57735301ebf7d941b12a" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a70d681fd17e7210e83c4ed60de0b926a" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a2e7fb64b1a53bbae49c9a5d516c8150a" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>

@@ -1,7 +1,7 @@
 var classMR_1_1MarchingCubesParams =
 [
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a15d6e688fd4603a9a111efc6042725f1", null ],
-    [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#ac96b403c3bd30586434ba6752a1306d1", null ],
+    [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#ad562943e27aef5e9a239d825b4a6f4ff", null ],
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a68291e1a22cff0bbc299fee7eeec7cc9", null ],
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a4a8137f87a73ae034bf713acebe199c6", null ],
     [ "MarchingCubesParams", "classMR_1_1MarchingCubesParams.html#a7798be64c0a77fc70da302be877ce912", null ],

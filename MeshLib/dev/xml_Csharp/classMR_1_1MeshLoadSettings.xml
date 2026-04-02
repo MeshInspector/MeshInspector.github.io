@@ -210,10 +210,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadSettings.cs" line="519" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadSettings.cs" bodystart="519" bodyend="525"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoadSettings_1abae18b3fa3a51b932f35a2e2f3a3fbb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoadSettings_1aea5bb293007b1e5b3de4277dc8276c6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshLoadSettings.MeshLoadSettings</definition>
-        <argsstring>(MR.Std.Optional_MREdges? edges, MR.VertColors? colors, MR.FaceColors? faceColors, MR.VertCoords2? uvCoords, MR.VertCoords? normals, MR.MeshTexture? texture, MR.Misc.InOut&lt; int &gt;? skippedFaceCount, MR.Misc.InOut&lt; int &gt;? duplicatedVertexCount, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? xf, MR.Std._ByValue_Function_BoolFuncFromFloat callback, bool telemetrySignal)</argsstring>
+        <argsstring>(MR.Std.Optional_MREdges? edges, MR.VertColors? colors, MR.FaceColors? faceColors, MR.VertCoords2? uvCoords, MR.VertCoords? normals, MR.MeshTexture? texture, MR.Misc.InOut&lt; int &gt;? skippedFaceCount, MR.Misc.InOut&lt; int &gt;? duplicatedVertexCount, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? xf, MR.Std._ByValue_Function_Bool_From_Float callback, bool telemetrySignal)</argsstring>
         <name>MeshLoadSettings</name>
         <qualifiedname>MR.MeshLoadSettings.MeshLoadSettings</qualifiedname>
         <param>
@@ -253,7 +253,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callback</declname>
         </param>
         <param>
@@ -403,7 +403,7 @@
       <member refid="classMR_1_1MeshLoadSettings_1ab4be2241a96959be436b266c95f2c6b9" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>faceColors</name></member>
       <member refid="classMR_1_1MeshLoadSettings_1ad1e999e12e9620a47d93f98aab98e982" prot="package" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>MeshLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoadSettings_1abd83e9914d86877993a3292b2987ecf1" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>MeshLoadSettings</name></member>
-      <member refid="classMR_1_1MeshLoadSettings_1abae18b3fa3a51b932f35a2e2f3a3fbb5" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>MeshLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoadSettings_1aea5bb293007b1e5b3de4277dc8276c6f" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>MeshLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoadSettings_1ab40a8d370993e6bc2aeebe59257d5790" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>MeshLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoadSettings_1ac27a1bda46c309a47a07c35b17afe3ae" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>MeshLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoadSettings_1a55718ce0cd40d1249724c7d353c58111" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>MeshLoadSettings</name></member>

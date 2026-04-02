@@ -105,10 +105,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="709" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="709" bodyend="715"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1a07218ce97b877e3857da52ad933cbe54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FindOutliersParams_1a26da76238da983db6540f7eb1bdc678f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FindOutliersParams.FindOutliersParams</definition>
-        <argsstring>(MR.Const_OutlierParams finderParams, float radius, MR.OutlierTypeMask mask, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(MR.Const_OutlierParams finderParams, float radius, MR.OutlierTypeMask mask, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>FindOutliersParams</name>
         <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
         <param>
@@ -124,7 +124,7 @@
           <declname>mask</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -266,7 +266,7 @@
       <member refid="classMR_1_1FindOutliersParams_1a0a63ee3aba2a9eb01995a74cf11f7879" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>finderParams</name></member>
       <member refid="classMR_1_1FindOutliersParams_1a5456fda11b96280335149d5e754402aa" prot="package" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
       <member refid="classMR_1_1FindOutliersParams_1a8e9974176d7f400b34e863ba309cf1b4" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
-      <member refid="classMR_1_1FindOutliersParams_1a07218ce97b877e3857da52ad933cbe54" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
+      <member refid="classMR_1_1FindOutliersParams_1a26da76238da983db6540f7eb1bdc678f" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
       <member refid="classMR_1_1FindOutliersParams_1acbaaa933910fe18e1988d9c736f63435" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
       <member refid="classMR_1_1FindOutliersParams_1ab5779e70a072d5933d3c346f4306ac81" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
       <member refid="classMR_1_1FindOutliersParams_1a84eaed57a6b327e3e13f4f89151271cb" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>

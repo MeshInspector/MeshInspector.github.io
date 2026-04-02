@@ -105,10 +105,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDistanceVolumeParams.cs" line="194" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDistanceVolumeParams.cs" bodystart="194" bodyend="200"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceVolumeParams_1aafba592ce404d449341ea7d38b36849c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DistanceVolumeParams_1a10faf60457b3bf97c6188d0132ad3a2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DistanceVolumeParams.DistanceVolumeParams</definition>
-        <argsstring>(MR.Vector3f origin, MR.Std._ByValue_Function_BoolFuncFromFloat cb, MR.Vector3f voxelSize, MR.Vector3i dimensions)</argsstring>
+        <argsstring>(MR.Vector3f origin, MR.Std._ByValue_Function_Bool_From_Float cb, MR.Vector3f voxelSize, MR.Vector3i dimensions)</argsstring>
         <name>DistanceVolumeParams</name>
         <qualifiedname>MR.DistanceVolumeParams.DistanceVolumeParams</qualifiedname>
         <param>
@@ -116,7 +116,7 @@
           <declname>origin</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <param>
@@ -267,7 +267,7 @@
       <member refid="classMR_1_1DistanceVolumeParams_1a6273959cdabb5dd19cda5f3f8f677263" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>dimensions</name></member>
       <member refid="classMR_1_1DistanceVolumeParams_1a720b0d3f5261f81027453425fd06a482" prot="package" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>DistanceVolumeParams</name></member>
       <member refid="classMR_1_1DistanceVolumeParams_1a35cddf4279d7226d0bc04f44be8bb927" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>DistanceVolumeParams</name></member>
-      <member refid="classMR_1_1DistanceVolumeParams_1aafba592ce404d449341ea7d38b36849c" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>DistanceVolumeParams</name></member>
+      <member refid="classMR_1_1DistanceVolumeParams_1a10faf60457b3bf97c6188d0132ad3a2b" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>DistanceVolumeParams</name></member>
       <member refid="classMR_1_1DistanceVolumeParams_1aa9796e61d8843d6ca604183bc8ac1ca9" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>DistanceVolumeParams</name></member>
       <member refid="classMR_1_1DistanceVolumeParams_1a12e758d0b53a7d97f85df65283043c2d" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>DistanceVolumeParams</name></member>
       <member refid="classMR_1_1DistanceVolumeParams_1a95107a0e3e5bf1fece46b4a3fa25e320" prot="public" virt="non-virtual"><scope>MR::DistanceVolumeParams</scope><name>DistanceVolumeParams</name></member>

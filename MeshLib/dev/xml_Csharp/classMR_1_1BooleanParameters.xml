@@ -167,10 +167,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1038" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1038" bodyend="1044"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1BooleanParameters_1a3fa28dddefb945bc5b6803d4c77febf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1BooleanParameters_1a94fff11c1150a6c8bc5c13a60d644c09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.BooleanParameters.BooleanParameters</definition>
-        <argsstring>(MR.AffineXf3f? rigidB2A, MR.BooleanResultMapper? mapper, MR.BooleanPreCutResult? outPreCutA, MR.BooleanPreCutResult? outPreCutB, MR.Std.Vector_StdVectorMREdgeId? outCutEdges, bool mergeAllNonIntersectingComponents, bool forceCut, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR.AffineXf3f? rigidB2A, MR.BooleanResultMapper? mapper, MR.BooleanPreCutResult? outPreCutA, MR.BooleanPreCutResult? outPreCutB, MR.Std.Vector_StdVectorMREdgeId? outCutEdges, bool mergeAllNonIntersectingComponents, bool forceCut, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>BooleanParameters</name>
         <qualifiedname>MR.BooleanParameters.BooleanParameters</qualifiedname>
         <param>
@@ -202,7 +202,7 @@
           <declname>forceCut</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -342,7 +342,7 @@
       <member refid="classMR_1_1BooleanParameters_1ad5e497e4879c97fd381f589e89690655" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1BooleanParameters_1a03423851ae0f41809a64b45269390eeb" prot="package" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
       <member refid="classMR_1_1BooleanParameters_1abf3789d887f8bff27ed3d65be8b2f7d6" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
-      <member refid="classMR_1_1BooleanParameters_1a3fa28dddefb945bc5b6803d4c77febf9" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a94fff11c1150a6c8bc5c13a60d644c09" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
       <member refid="classMR_1_1BooleanParameters_1a607c522b1dca425875024d2562aaa023" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
       <member refid="classMR_1_1BooleanParameters_1aa575bb722008b6b8734d6f5dff719a32" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
       <member refid="classMR_1_1BooleanParameters_1a30a38c2c80f6057fa5c047c264da2651" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>

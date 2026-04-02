@@ -87,10 +87,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="169" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="169" bodyend="175"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1a76878c8d8b9fc42af06ab1a4cdcb4665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TrimWithPlaneParams_1a286de18c8220724a1bc7b664be24c913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.TrimWithPlaneParams.TrimWithPlaneParams</definition>
-        <argsstring>(MR.Const_Plane3f plane, float eps, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeIdFloat onEdgeSplitCallback)</argsstring>
+        <argsstring>(MR.Const_Plane3f plane, float eps, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId_Float onEdgeSplitCallback)</argsstring>
         <name>TrimWithPlaneParams</name>
         <qualifiedname>MR.TrimWithPlaneParams.TrimWithPlaneParams</qualifiedname>
         <param>
@@ -102,7 +102,7 @@
           <declname>eps</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeIdFloat</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId_Float</type>
           <declname>onEdgeSplitCallback</declname>
         </param>
         <briefdescription>
@@ -246,7 +246,7 @@
       <member refid="classMR_1_1TrimWithPlaneParams_1ac6bda8d02678708d5cf85f108e53f742" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>plane</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1a5090c34a8eebcf82030fe6746403dfa3" prot="package" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1a83c436b07cf5583bb54ac607faa5cd93" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
-      <member refid="classMR_1_1TrimWithPlaneParams_1a76878c8d8b9fc42af06ab1a4cdcb4665" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
+      <member refid="classMR_1_1TrimWithPlaneParams_1a286de18c8220724a1bc7b664be24c913" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1a219020ab2b983b93484a0aad01dce02d" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1a1456d7a08c4946124be679c913730858" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>
       <member refid="classMR_1_1TrimWithPlaneParams_1af3e5eb147cd03147b10d42fbbfef02a1" prot="public" virt="non-virtual"><scope>MR::TrimWithPlaneParams</scope><name>TrimWithPlaneParams</name></member>

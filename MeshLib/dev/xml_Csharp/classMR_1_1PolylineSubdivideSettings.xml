@@ -165,10 +165,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="322" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="322" bodyend="328"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1aeccd3a98e71d8c7303b519e6f03d012d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a6570393cbb871a875ff7f118728ddeab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PolylineSubdivideSettings.PolylineSubdivideSettings</definition>
-        <argsstring>(float maxEdgeLen, int maxEdgeSplits, MR.VertBitSet? region, MR.VertBitSet? newVerts, bool useCurvature, MR.Std._ByValue_Function_VoidFuncFromMRVertId onVertCreated, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeSplit, MR.Std._ByValue_Function_BoolFuncFromFloat progressCallback)</argsstring>
+        <argsstring>(float maxEdgeLen, int maxEdgeSplits, MR.VertBitSet? region, MR.VertBitSet? newVerts, bool useCurvature, MR.Std._ByValue_Function_Void_From_MRVertId onVertCreated, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit, MR.Std._ByValue_Function_Bool_From_Float progressCallback)</argsstring>
         <name>PolylineSubdivideSettings</name>
         <qualifiedname>MR.PolylineSubdivideSettings.PolylineSubdivideSettings</qualifiedname>
         <param>
@@ -192,15 +192,15 @@
           <declname>useCurvature</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMRVertId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MRVertId</type>
           <declname>onVertCreated</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeSplit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCallback</declname>
         </param>
         <briefdescription>
@@ -346,7 +346,7 @@
       <member refid="classMR_1_1PolylineSubdivideSettings_1a424395adb75ae28f558b47069a29ac5b" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>onVertCreated</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1ad863815acd9b76360141e370f42a7b2e" prot="package" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a806445da71b7f999727cc7334bf43a63" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1aeccd3a98e71d8c7303b519e6f03d012d" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
+      <member refid="classMR_1_1PolylineSubdivideSettings_1a6570393cbb871a875ff7f118728ddeab" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a51b96e0fe17f39e563356c6fcbd3c091" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a44be99991118c72da7973d3e929d045c" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a67b27dba0d8ddf024b62bc500faa595a" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>

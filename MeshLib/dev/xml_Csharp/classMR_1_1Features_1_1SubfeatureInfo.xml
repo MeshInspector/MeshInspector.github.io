@@ -87,10 +87,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" line="176" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSubfeatures.cs" bodystart="176" bodyend="182"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Features_1_1SubfeatureInfo_1a59d7721252653767ecd45a234b6e7c35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Features_1_1SubfeatureInfo_1a91b1ef19bbde40251cc9f2d1b551dc76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Features.SubfeatureInfo.SubfeatureInfo</definition>
-        <argsstring>(string name, bool isInfinite, MR.Std._ByValue_Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneFuncFromConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef create)</argsstring>
+        <argsstring>(string name, bool isInfinite, MR.Std._ByValue_Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane_From_ConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef create)</argsstring>
         <name>SubfeatureInfo</name>
         <qualifiedname>MR.Features.SubfeatureInfo.SubfeatureInfo</qualifiedname>
         <param>
@@ -102,7 +102,7 @@
           <declname>isInfinite</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneFuncFromConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef</type>
+          <type>MR.Std._ByValue_Function_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane_From_ConstStdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlaneRef</type>
           <declname>create</declname>
         </param>
         <briefdescription>
@@ -246,7 +246,7 @@
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1ad7e64904888a46e50cd5658ddd230371" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>name</name></member>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a4521c5576b1e496811925883327fda38" prot="package" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>SubfeatureInfo</name></member>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1ad833d153aeb65c2dc8c9db5e7c004b7c" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>SubfeatureInfo</name></member>
-      <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a59d7721252653767ecd45a234b6e7c35" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>SubfeatureInfo</name></member>
+      <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a91b1ef19bbde40251cc9f2d1b551dc76" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>SubfeatureInfo</name></member>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a50a9b497150c392432d7e2464f7f025c" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>SubfeatureInfo</name></member>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1ad3a22e41d8136b315b3f7cf59bff18ea" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>SubfeatureInfo</name></member>
       <member refid="classMR_1_1Features_1_1SubfeatureInfo_1a33fcd27959d16fd3c7618e0578b26cf3" prot="public" virt="non-virtual"><scope>MR::Features::SubfeatureInfo</scope><name>SubfeatureInfo</name></member>

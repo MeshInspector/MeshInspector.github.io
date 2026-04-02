@@ -134,10 +134,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="296" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="296" bodyend="302"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Nesting_1_1TetrisDensifyOptions_1aa083fc7f11b13f1c64bf40fcf37895ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a8c848477c61a1d36d8e422a22a89551e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Nesting.TetrisDensifyOptions.TetrisDensifyOptions</definition>
-        <argsstring>(float voxelSize, MR.Std._ByValue_Vector_MROutEdge densificationSequence, MR.Std._ByValue_Function_BoolFuncFromFloat cb, MR.Vector_MRObjId_MRVoxelId? nestVoxelsCache, MR.Misc.InOut&lt; MR.Vector3i &gt;? nestDimensionsCache, MR.VoxelBitSet? occupiedVoxelsCache)</argsstring>
+        <argsstring>(float voxelSize, MR.Std._ByValue_Vector_MROutEdge densificationSequence, MR.Std._ByValue_Function_Bool_From_Float cb, MR.Vector_MRObjId_MRVoxelId? nestVoxelsCache, MR.Misc.InOut&lt; MR.Vector3i &gt;? nestDimensionsCache, MR.VoxelBitSet? occupiedVoxelsCache)</argsstring>
         <name>TetrisDensifyOptions</name>
         <qualifiedname>MR.Nesting.TetrisDensifyOptions.TetrisDensifyOptions</qualifiedname>
         <param>
@@ -149,7 +149,7 @@
           <declname>densificationSequence</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <param>
@@ -307,7 +307,7 @@
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a6b4588887d6fe86b61183fbf92b9c79d" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>occupiedVoxelsCache</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a0e8e229474c051e1f4578c0606eb41e9" prot="package" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>TetrisDensifyOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a8b10a963bcbe82686806e7f0e2e62438" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>TetrisDensifyOptions</name></member>
-      <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1aa083fc7f11b13f1c64bf40fcf37895ca" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>TetrisDensifyOptions</name></member>
+      <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a8c848477c61a1d36d8e422a22a89551e" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>TetrisDensifyOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a4c8f0a086d0290c5a3cc96c944309056" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>TetrisDensifyOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1ac6661725b6bee4d0f9c1cb590d406b48" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>TetrisDensifyOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a8284d9b5def6c026987ea26eb0169c81" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>TetrisDensifyOptions</name></member>

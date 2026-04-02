@@ -192,8 +192,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:af7fdf6c94c9cdaf3e023ab4d4d84809f"><td class="mdescLeft">&#160;</td><td class="mdescRight">/ computes local triangulations of all points in the cloud united in one struct Generated from function <span class="tt"><a class="el" href="#af7fdf6c94c9cdaf3e023ab4d4d84809f" title="/ computes local triangulations of all points in the cloud united in one struct Generated from functi...">MR.TriangulationHelpers.buildUnitedLocalTriangulations</a></span>. Parameter <span class="tt">progress</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:af106aeb5ff99e4e6d0e2b9a7051e9ae8" id="r_af106aeb5ff99e4e6d0e2b9a7051e9ae8"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af106aeb5ff99e4e6d0e2b9a7051e9ae8">isBoundaryPoint</a> (MR.Const_PointCloud cloud, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, MR.TriangulationHelpers.Const_Settings settings, <a class="el" href="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html">MR.TriangulationHelpers.TriangulatedFanData</a> fanData)</td></tr>
 <tr class="memdesc:af106aeb5ff99e4e6d0e2b9a7051e9ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if given vertex is on boundary of the point cloud, by constructing local triangulation around it.  <br /></td></tr>
-<tr class="memitem:adfd9a5944e27db56c7d31f6adf213cc8" id="r_adfd9a5944e27db56c7d31f6adf213cc8"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfd9a5944e27db56c7d31f6adf213cc8">findBoundaryPoints</a> (MR.Const_PointCloud pointCloud, MR.TriangulationHelpers.Const_Settings settings, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</td></tr>
-<tr class="memdesc:adfd9a5944e27db56c7d31f6adf213cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generated from function <span class="tt"><a class="el" href="#adfd9a5944e27db56c7d31f6adf213cc8" title="Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generate...">MR.TriangulationHelpers.findBoundaryPoints</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:abeb1c0c4cba3fe0b6e853c3f9544ca79" id="r_abeb1c0c4cba3fe0b6e853c3f9544ca79"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeb1c0c4cba3fe0b6e853c3f9544ca79">findBoundaryPoints</a> (MR.Const_PointCloud pointCloud, MR.TriangulationHelpers.Const_Settings settings, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:abeb1c0c4cba3fe0b6e853c3f9544ca79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generated from function <span class="tt"><a class="el" href="#abeb1c0c4cba3fe0b6e853c3f9544ca79" title="Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generate...">MR.TriangulationHelpers.findBoundaryPoints</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a067db0d0c4f2cd689c1b22c603788030" name="a067db0d0c4f2cd689c1b22c603788030"></a>
@@ -350,8 +350,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adfd9a5944e27db56c7d31f6adf213cc8" name="adfd9a5944e27db56c7d31f6adf213cc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfd9a5944e27db56c7d31f6adf213cc8">&#9670;&#160;</a></span>findBoundaryPoints()</h2>
+<a id="abeb1c0c4cba3fe0b6e853c3f9544ca79" name="abeb1c0c4cba3fe0b6e853c3f9544ca79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeb1c0c4cba3fe0b6e853c3f9544ca79">&#9670;&#160;</a></span>findBoundaryPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +372,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -382,7 +382,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generated from function <span class="tt"><a class="el" href="#adfd9a5944e27db56c7d31f6adf213cc8" title="Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generate...">MR.TriangulationHelpers.findBoundaryPoints</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
+<p>Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generated from function <span class="tt"><a class="el" href="#abeb1c0c4cba3fe0b6e853c3f9544ca79" title="Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each Generate...">MR.TriangulationHelpers.findBoundaryPoints</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>

@@ -87,10 +87,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="155" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="155" bodyend="161"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1NoiseSettings_1a0305f45a9f15680baabefbfc945d36c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1NoiseSettings_1a654b0895e5461498191e40f2f3365dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.NoiseSettings.NoiseSettings</definition>
-        <argsstring>(float sigma, uint seed, MR.Std._ByValue_Function_BoolFuncFromFloat callback)</argsstring>
+        <argsstring>(float sigma, uint seed, MR.Std._ByValue_Function_Bool_From_Float callback)</argsstring>
         <name>NoiseSettings</name>
         <qualifiedname>MR.NoiseSettings.NoiseSettings</qualifiedname>
         <param>
@@ -102,7 +102,7 @@
           <declname>seed</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callback</declname>
         </param>
         <briefdescription>
@@ -244,7 +244,7 @@
       <member refid="classMR_1_1NoiseSettings_1a6dc72fb6a22a91c6e0c5427c19542399" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>callback</name></member>
       <member refid="classMR_1_1NoiseSettings_1a181b3bf223770448dfaa9c93eac0fa9e" prot="package" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>NoiseSettings</name></member>
       <member refid="classMR_1_1NoiseSettings_1a08280435649fa38ec5b537310df39ab3" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>NoiseSettings</name></member>
-      <member refid="classMR_1_1NoiseSettings_1a0305f45a9f15680baabefbfc945d36c2" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>NoiseSettings</name></member>
+      <member refid="classMR_1_1NoiseSettings_1a654b0895e5461498191e40f2f3365dfc" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>NoiseSettings</name></member>
       <member refid="classMR_1_1NoiseSettings_1aa518770679f621eafbe1265883dbb044" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>NoiseSettings</name></member>
       <member refid="classMR_1_1NoiseSettings_1ad43d12140ce837098a3834b2421698c8" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>NoiseSettings</name></member>
       <member refid="classMR_1_1NoiseSettings_1ac9a82ef3c2c6032e05871bb4a98f2193" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>NoiseSettings</name></member>

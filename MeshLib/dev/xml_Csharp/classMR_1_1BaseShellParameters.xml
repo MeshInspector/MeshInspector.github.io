@@ -75,10 +75,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="168" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="168" bodyend="174"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1afa579d7940801df5c21d06f6b74d90ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a21147cf96193687086577ce1f644c101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.BaseShellParameters.BaseShellParameters</definition>
-        <argsstring>(float voxelSize, MR.Std._ByValue_Function_BoolFuncFromFloat callBack)</argsstring>
+        <argsstring>(float voxelSize, MR.Std._ByValue_Function_Bool_From_Float callBack)</argsstring>
         <name>BaseShellParameters</name>
         <qualifiedname>MR.BaseShellParameters.BaseShellParameters</qualifiedname>
         <param>
@@ -86,7 +86,7 @@
           <declname>voxelSize</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callBack</declname>
         </param>
         <briefdescription>
@@ -227,7 +227,7 @@
       <member refid="classMR_1_1BaseShellParameters_1ac648f6b557eb23825cd17ce101329683" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1BaseShellParameters_1a83dd5aac969b067fc635f3e7956b4f8e" prot="package" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
       <member refid="classMR_1_1BaseShellParameters_1acc9c2f01782d8623b620c73b988b29ff" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
-      <member refid="classMR_1_1BaseShellParameters_1afa579d7940801df5c21d06f6b74d90ad" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1a21147cf96193687086577ce1f644c101" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
       <member refid="classMR_1_1BaseShellParameters_1a9b1b0517c195047c0ebdb8eee7b87553" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
       <member refid="classMR_1_1BaseShellParameters_1a8fa47c1084037d2a12e260b647d70408" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
       <member refid="classMR_1_1BaseShellParameters_1a6596f06f73ea940d7ef9aa895e7f5371" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>

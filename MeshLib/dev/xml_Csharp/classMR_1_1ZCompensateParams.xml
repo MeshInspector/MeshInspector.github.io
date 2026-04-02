@@ -105,10 +105,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="424" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="424" bodyend="430"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ZCompensateParams_1ad7dcaa9e3a31703d004ddaa199ae5735" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ZCompensateParams_1a48e999dd952836f0b1abf7e52d610be8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ZCompensateParams.ZCompensateParams</definition>
-        <argsstring>(float maxShift, bool reduceSelfIntersections, float minThickness, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(float maxShift, bool reduceSelfIntersections, float minThickness, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>ZCompensateParams</name>
         <qualifiedname>MR.ZCompensateParams.ZCompensateParams</qualifiedname>
         <param>
@@ -124,7 +124,7 @@
           <declname>minThickness</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -269,7 +269,7 @@
       <member refid="classMR_1_1ZCompensateParams_1a7151ed5110bf1981af95debb4d3f9c04" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>reduceSelfIntersections</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a57321c23bcefb28ef0799ab23fd9e6d6" prot="package" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a78417a5d20ab8cf7989c8d53005e18a9" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>
-      <member refid="classMR_1_1ZCompensateParams_1ad7dcaa9e3a31703d004ddaa199ae5735" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>
+      <member refid="classMR_1_1ZCompensateParams_1a48e999dd952836f0b1abf7e52d610be8" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>
       <member refid="classMR_1_1ZCompensateParams_1acaf0bd91a5aa01d32777bc585ae3ec7a" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a4b5bf5e96693a295db34a12482033d1d" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>
       <member refid="classMR_1_1ZCompensateParams_1a87a6b614fdb3f8b49b3f691dfb4609d9" prot="public" virt="non-virtual"><scope>MR::ZCompensateParams</scope><name>ZCompensateParams</name></member>

@@ -195,10 +195,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="693" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="693" bodyend="699"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingOptions_1afba6a6f77b83a1f6e98f8ac7fa206d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1BoxNestingOptions_1ad39c8a83223f3007dc04008d00f037c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Nesting.BoxNestingOptions.BoxNestingOptions</definition>
-        <argsstring>(bool allow3dNesting, bool allowRotation, bool volumeBasedOrder, bool checkLessCombinations, int iterationLimit, MR.Std._ByValue_SharedPtr_MRNestingIBoxNestingPriority priorityMetric, MR.Vector3f? expansionFactor, MR.Std.Const_Vector_MRBox3f? preNestedVolumes, MR.Std.Const_Vector_MRNestingBoxNestingCorner? additinalSocketCorners, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(bool allow3dNesting, bool allowRotation, bool volumeBasedOrder, bool checkLessCombinations, int iterationLimit, MR.Std._ByValue_SharedPtr_MRNestingIBoxNestingPriority priorityMetric, MR.Vector3f? expansionFactor, MR.Std.Const_Vector_MRBox3f? preNestedVolumes, MR.Std.Const_Vector_MRNestingBoxNestingCorner? additinalSocketCorners, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>BoxNestingOptions</name>
         <qualifiedname>MR.Nesting.BoxNestingOptions.BoxNestingOptions</qualifiedname>
         <param>
@@ -238,7 +238,7 @@
           <declname>additinalSocketCorners</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -382,7 +382,7 @@
       <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a72382f41b83b7fd3cde31f6984f65c8e" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingOptions</scope><name>assign</name></member>
       <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a91afeb0bbf222e9310025cde89407fe4" prot="package" virt="non-virtual"><scope>MR::Nesting::BoxNestingOptions</scope><name>BoxNestingOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a5464d05635829d36ec7fac300c7e4079" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingOptions</scope><name>BoxNestingOptions</name></member>
-      <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1afba6a6f77b83a1f6e98f8ac7fa206d9a" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingOptions</scope><name>BoxNestingOptions</name></member>
+      <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1ad39c8a83223f3007dc04008d00f037c8" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingOptions</scope><name>BoxNestingOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a6f76ff18661c3e111968f2ce9d126b41" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingOptions</scope><name>BoxNestingOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a591095f4d7d50a20aba411218da0bd3e" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingOptions</scope><name>BoxNestingOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1BoxNestingOptions_1a1552832b08071314ffbfaaa175095384" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingOptions</scope><name>BoxNestingOptions</name></member>

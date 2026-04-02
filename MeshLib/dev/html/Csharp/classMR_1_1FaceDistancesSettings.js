@@ -1,7 +1,7 @@
 var classMR_1_1FaceDistancesSettings =
 [
     [ "FaceDistancesSettings", "classMR_1_1FaceDistancesSettings.html#acdf5a30120f3135ef32e5971a88630e2", null ],
-    [ "FaceDistancesSettings", "classMR_1_1FaceDistancesSettings.html#a3e503c3fe2921e809db89478b317e55c", null ],
+    [ "FaceDistancesSettings", "classMR_1_1FaceDistancesSettings.html#ad2f2774aee9bb7b22139adfc389c8ac7", null ],
     [ "FaceDistancesSettings", "classMR_1_1FaceDistancesSettings.html#a44041639ed770fa7098639bc3a5b3b3d", null ],
     [ "FaceDistancesSettings", "classMR_1_1FaceDistancesSettings.html#aa5330b3c7597d23c10dfd5b07ff7f138", null ],
     [ "FaceDistancesSettings", "classMR_1_1FaceDistancesSettings.html#a99bf1a5a726ff8cae98616b686a9b58d", null ],
