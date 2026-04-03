@@ -4,6 +4,8 @@
     <compoundname>MR::ReduceTotalAngleParams</compoundname>
     <includes refid="MRMeshTotalAngle_8h" local="no">MRMesh/MRMeshTotalAngle.h</includes>
     <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga5dade62f56abf556b1857f9a9feb7bdc" kind="variable"><name>maxAngleChange</name></member>
+      <member refid="group__GeneralGroup_1gace64fccf341d37315ad4d9ac7af391bd" kind="variable"><name>criticalTriAspectRatio</name></member>
       <member refid="group__GeneralGroup_1ga05e31fe898e5fd6f6d42d952fbc3991b" kind="variable"><name>factorDelone</name></member>
       <member refid="group__GeneralGroup_1gaa25442f103cd80c149b33bc79eb64b0a" kind="variable"><name>region</name></member>
       <member refid="group__GeneralGroup_1ga70c336170c2b3fd77e32ada0109f0e92" kind="variable"><name>notFlippable</name></member>
@@ -13,9 +15,11 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshTotalAngle.h" line="11" column="1" bodyfile="MRMesh/MRMeshTotalAngle.h" bodystart="12" bodyend="27"/>
+    <location file="MRMesh/MRMeshTotalAngle.h" line="12" column="1" bodyfile="MRMesh/MRMeshTotalAngle.h" bodystart="13" bodyend="35"/>
     <listofallmembers>
+      <member refid="group__GeneralGroup_1gace64fccf341d37315ad4d9ac7af391bd" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>criticalTriAspectRatio</name></member>
       <member refid="group__GeneralGroup_1ga05e31fe898e5fd6f6d42d952fbc3991b" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>factorDelone</name></member>
+      <member refid="group__GeneralGroup_1ga5dade62f56abf556b1857f9a9feb7bdc" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>maxAngleChange</name></member>
       <member refid="group__GeneralGroup_1ga70c336170c2b3fd77e32ada0109f0e92" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>notFlippable</name></member>
       <member refid="group__GeneralGroup_1gaa25442f103cd80c149b33bc79eb64b0a" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>region</name></member>
       <member refid="group__GeneralGroup_1ga4026047e5b2606e85f6b474de3b015e3" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>vertRegion</name></member>

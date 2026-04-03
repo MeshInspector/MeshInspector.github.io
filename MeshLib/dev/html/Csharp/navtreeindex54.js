@@ -247,7 +247,7 @@ var NAVTREEINDEX54 =
 "classMR_1_1ReduceTotalAngleParams.html#a0d3717c4e63362acdbe4a9544bca2119":[6,3,0,0,0,738,4],
 "classMR_1_1ReduceTotalAngleParams.html#a10f2bb6665d80699ca204e6259b0831b":[6,3,0,0,0,738,2],
 "classMR_1_1ReduceTotalAngleParams.html#a26a60d6c81102d66f3e99cbf6532d29d":[6,3,0,0,0,738,0],
-"classMR_1_1ReduceTotalAngleParams.html#a5d41804a8d8e6624a94e518d6f041943":[6,3,0,0,0,738,7],
-"classMR_1_1ReduceTotalAngleParams.html#a914df775b96523e5e8574adbedf21405":[6,3,0,0,0,738,1],
-"classMR_1_1ReduceTotalAngleParams.html#aa4fbedc47bc492a14531c4bc1635e8d8":[6,3,0,0,0,738,5]
+"classMR_1_1ReduceTotalAngleParams.html#a5d41804a8d8e6624a94e518d6f041943":[6,3,0,0,0,738,9],
+"classMR_1_1ReduceTotalAngleParams.html#a709f6e0843bbb4f88db931edc185fc51":[6,3,0,0,0,738,1],
+"classMR_1_1ReduceTotalAngleParams.html#a94c6e31579bf0c669014716b940be6e0":[6,3,0,0,0,738,7]
 };

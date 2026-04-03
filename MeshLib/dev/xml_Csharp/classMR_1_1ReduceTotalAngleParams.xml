@@ -4,6 +4,36 @@
     <compoundname>MR::ReduceTotalAngleParams</compoundname>
     <basecompoundref prot="public" virt="non-virtual">MR.Const_ReduceTotalAngleParams</basecompoundref>
     <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1a94c6e31579bf0c669014716b940be6e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ReduceTotalAngleParams.maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR.ReduceTotalAngleParams.maxAngleChange</qualifiedname>
+        <briefdescription>
+<para>Maximal allowed dihedral angle change (in radians) over the flipped edge. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="205" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1acce5d68435309024c53144954dc7336a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ReduceTotalAngleParams.criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>MR.ReduceTotalAngleParams.criticalTriAspectRatio</qualifiedname>
+        <briefdescription>
+<para>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="211" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1aa4fbedc47bc492a14531c4bc1635e8d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
         <definition>new unsafe ref float MR.ReduceTotalAngleParams.factorDelone</definition>
@@ -17,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="183" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="183" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="219" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="219" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1a5d41804a8d8e6624a94e518d6f041943" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_FaceBitSet</type>
@@ -32,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="188" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="189" bodyend="198"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="224" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="225" bodyend="234"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1ae109ddf97cb06466a3f3e9f14f4b4668" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_UndirectedEdgeBitSet</type>
@@ -47,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="203" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="204" bodyend="213"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="239" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="240" bodyend="249"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1afe71b8d78ae7d29647b2ff5c9f8c67f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? Const_VertBitSet</type>
@@ -62,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="218" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="219" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="254" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="255" bodyend="264"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -86,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="232" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="232" bodyend="236"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="268" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="268" bodyend="272"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -103,14 +133,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="242" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="242" bodyend="248"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="278" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="278" bodyend="284"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ReduceTotalAngleParams_1a914df775b96523e5e8574adbedf21405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ReduceTotalAngleParams_1a709f6e0843bbb4f88db931edc185fc51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ReduceTotalAngleParams.ReduceTotalAngleParams</definition>
-        <argsstring>(float factorDelone, MR.Const_FaceBitSet? region, MR.Const_UndirectedEdgeBitSet? notFlippable, MR.Const_VertBitSet? vertRegion)</argsstring>
+        <argsstring>(float maxAngleChange, float criticalTriAspectRatio, float factorDelone, MR.Const_FaceBitSet? region, MR.Const_UndirectedEdgeBitSet? notFlippable, MR.Const_VertBitSet? vertRegion)</argsstring>
         <name>ReduceTotalAngleParams</name>
         <qualifiedname>MR.ReduceTotalAngleParams.ReduceTotalAngleParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalTriAspectRatio</declname>
+        </param>
         <param>
           <type>float</type>
           <declname>factorDelone</declname>
@@ -134,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="253" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="253" bodyend="262"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="289" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="289" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ReduceTotalAngleParams_1a10f2bb6665d80699ca204e6259b0831b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -153,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="267" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="267" bodyend="274"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="303" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="303" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ReduceTotalAngleParams_1ac251e6d32068afd61c314d3e4b1c7e9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -172,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="279" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="279" bodyend="279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="315" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="315" bodyend="315"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ReduceTotalAngleParams_1a0d3717c4e63362acdbe4a9544bca2119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ReduceTotalAngleParams" kindref="compound">MR.ReduceTotalAngleParams</ref></type>
@@ -191,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="284" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="284" bodyend="291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="320" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="320" bodyend="327"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -241,14 +279,16 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="175" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="176" bodyend="292"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="200" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="201" bodyend="328"/>
     <listofallmembers>
       <member refid="classMR_1_1ReduceTotalAngleParams_1a0d3717c4e63362acdbe4a9544bca2119" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1ReduceTotalAngleParams_1acce5d68435309024c53144954dc7336a" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>criticalTriAspectRatio</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1aa4fbedc47bc492a14531c4bc1635e8d8" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>factorDelone</name></member>
+      <member refid="classMR_1_1ReduceTotalAngleParams_1a94c6e31579bf0c669014716b940be6e0" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>maxAngleChange</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1ae109ddf97cb06466a3f3e9f14f4b4668" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>notFlippable</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1a19eec9e88a13326741aeb6273015fc9c" prot="package" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>ReduceTotalAngleParams</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1a26a60d6c81102d66f3e99cbf6532d29d" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>ReduceTotalAngleParams</name></member>
-      <member refid="classMR_1_1ReduceTotalAngleParams_1a914df775b96523e5e8574adbedf21405" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>ReduceTotalAngleParams</name></member>
+      <member refid="classMR_1_1ReduceTotalAngleParams_1a709f6e0843bbb4f88db931edc185fc51" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>ReduceTotalAngleParams</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1a10f2bb6665d80699ca204e6259b0831b" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>ReduceTotalAngleParams</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1ac251e6d32068afd61c314d3e4b1c7e9a" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>ReduceTotalAngleParams</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1a5d41804a8d8e6624a94e518d6f041943" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>region</name></member>

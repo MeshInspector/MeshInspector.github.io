@@ -1,5 +1,13 @@
 var NAVTREEINDEX120 =
 {
+"classmrmeshpy_1_1VertColors.html#a6f6b65fc8ca58ca24974c2a552e58309":[6,1,1,0,1,1212,4],
+"classmrmeshpy_1_1VertColors.html#a784748201173e131a42e0d5782caab59":[6,1,0,0,2,1212,37],
+"classmrmeshpy_1_1VertColors.html#a784748201173e131a42e0d5782caab59":[6,1,1,0,1,1212,37],
+"classmrmeshpy_1_1VertColors.html#a7a3c9bf67c549a3877c605c80414f65f":[6,1,0,0,2,1212,35],
+"classmrmeshpy_1_1VertColors.html#a7a3c9bf67c549a3877c605c80414f65f":[6,1,1,0,1,1212,35],
+"classmrmeshpy_1_1VertColors.html#a7c1886b0020c2badbf46afd05d29ee17":[6,1,0,0,2,1212,40],
+"classmrmeshpy_1_1VertColors.html#a7c1886b0020c2badbf46afd05d29ee17":[6,1,1,0,1,1212,40],
+"classmrmeshpy_1_1VertColors.html#a854579e79c86dfc912f180e3ae918a18":[6,1,0,0,2,1212,36],
 "classmrmeshpy_1_1VertColors.html#a854579e79c86dfc912f180e3ae918a18":[6,1,1,0,1,1212,36],
 "classmrmeshpy_1_1VertColors.html#a8a35a054064b6d16a10694e9ac0359eb":[6,1,0,0,2,1212,8],
 "classmrmeshpy_1_1VertColors.html#a8a35a054064b6d16a10694e9ac0359eb":[6,1,1,0,1,1212,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX120 =
 "classmrmeshpy_1_1VertId.html":[6,1,1,0,1,1218],
 "classmrmeshpy_1_1VertId.html#a2adc9ea3ac695cb8fa03188ed82ae4bd":[6,1,0,0,2,1218,6],
 "classmrmeshpy_1_1VertId.html#a2adc9ea3ac695cb8fa03188ed82ae4bd":[6,1,1,0,1,1218,6],
-"classmrmeshpy_1_1VertId.html#a380ce2ef5984a745dd126efb9168c610":[6,1,0,0,2,1218,5],
-"classmrmeshpy_1_1VertId.html#a380ce2ef5984a745dd126efb9168c610":[6,1,1,0,1,1218,5],
-"classmrmeshpy_1_1VertId.html#a40eec90d50498908a29d4c1ec34fc4d2":[6,1,0,0,2,1218,11],
-"classmrmeshpy_1_1VertId.html#a40eec90d50498908a29d4c1ec34fc4d2":[6,1,1,0,1,1218,11],
-"classmrmeshpy_1_1VertId.html#a744db58167c39b5b94a1c2eaf8ca86ae":[6,1,0,0,2,1218,1],
-"classmrmeshpy_1_1VertId.html#a744db58167c39b5b94a1c2eaf8ca86ae":[6,1,0,0,2,1218,2],
-"classmrmeshpy_1_1VertId.html#a744db58167c39b5b94a1c2eaf8ca86ae":[6,1,1,0,1,1218,1],
-"classmrmeshpy_1_1VertId.html#a744db58167c39b5b94a1c2eaf8ca86ae":[6,1,1,0,1,1218,2],
-"classmrmeshpy_1_1VertId.html#a7e772bd93c4e4d1989e28ccc5091518a":[6,1,0,0,2,1218,7]
+"classmrmeshpy_1_1VertId.html#a380ce2ef5984a745dd126efb9168c610":[6,1,0,0,2,1218,5]
 };

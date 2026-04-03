@@ -1,5 +1,11 @@
 var NAVTREEINDEX147 =
 {
+"std__optional__MR__VertMap_8h.html#a7a7f6d5f60edbc665cc25d46c28208ed":[6,2,1,0,0,0,0,2,231,4],
+"std__optional__MR__VertMap_8h.html#a86fa00ba57498e25acd97e908f067aee":[6,2,1,0,0,0,0,2,231,8],
+"std__optional__MR__VertMap_8h.html#a93f8077cde7d642468b94bff99cb89b1":[6,2,1,0,0,0,0,2,231,10],
+"std__optional__MR__VertMap_8h.html#aa01fd9cecca3efa452b61bc96283e40d":[6,2,1,0,0,0,0,2,231,9],
+"std__optional__MR__VertMap_8h.html#aa1fc693b30c5f2a22c8fbc4326700714":[6,2,1,0,0,0,0,2,231,11],
+"std__optional__MR__VertMap_8h.html#aa29512d264744c3b4a11728541905cd7":[6,2,1,0,0,0,0,2,231,0],
 "std__optional__MR__VertMap_8h.html#af24304159b3df782b2fbdd7c0a633cdb":[6,2,1,0,0,0,0,2,231,1],
 "std__optional__MR__VertMap_8h_source.html":[6,2,1,0,0,0,0,2,231],
 "std__optional__MR__VertScalars_8h.html":[6,2,1,0,0,0,0,2,232],
@@ -243,11 +249,5 @@ var NAVTREEINDEX147 =
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#ad4802cacbf31a995e9a7a3ff55d1efc9":[6,2,1,0,0,0,0,2,270,2],
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#ae4660aca9fe4dfa638fc069a13a56eb9":[6,2,1,0,0,0,0,2,270,1],
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h_source.html":[6,2,1,0,0,0,0,2,270],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html":[6,2,1,0,0,0,0,2,271],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a17fb8fa50998464e23bfb38fe3587e3f":[6,2,1,0,0,0,0,2,271,11],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a5b82c26bbadc4cd5f5759fe30d593dfb":[6,2,1,0,0,0,0,2,271,4],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a6013399c0ddf4dff3dbefba7f08822ac":[6,2,1,0,0,0,0,2,271,6],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a645921abd647d1c35f23a578ad7550dc":[6,2,1,0,0,0,0,2,271,5],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a788800d3ec16434aa0e1a333c7e15dbc":[6,2,1,0,0,0,0,2,271,8],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a78cf80e9c1e4d7195721c3acc14d5daa":[6,2,1,0,0,0,0,2,271,7]
+"std__pair__MR__UndirectedEdgeId__bool_8h.html":[6,2,1,0,0,0,0,2,271]
 };

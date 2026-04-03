@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1MarkedVoxelSlice_1_1Mark.html":[6,0,0,20,570],
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,0,20,571],
 "structMR_1_1Matrix.html":[6,0,0,0,7,0],
 "structMR_1_1Matrix.html#a2ad7f900e6b01f0617767997c6b9b640":[6,0,0,0,7,0,1],
 "structMR_1_1Matrix.html#a354da291fab3037516b4802e24177529":[6,0,0,0,7,0,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1MeshSave_1_1NamedXfMesh.html#ac966a0534972ef8bcc25ee2d926a5703":[6,0,0,2,13,0,2],
 "structMR_1_1MeshTexture.html":[6,0,0,18,1],
 "structMR_1_1MeshTexture.html#a624eb3f0792caeac64bd958de43405ba":[6,0,0,18,1,0],
-"structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc":[6,0,0,18,1,1],
-"structMR_1_1MeshToDirectionVolumeParams.html":[6,0,0,20,817],
-"structMR_1_1MeshToDistanceMapParams.html":[6,0,0,5,3]
+"structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc":[6,0,0,18,1,1]
 };

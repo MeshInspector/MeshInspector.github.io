@@ -2785,7 +2785,9 @@ var group__GeneralGroup =
       [ "heapBytes", "group__GeneralGroup.html#gaa4a8e6c2de54156f11ab33a657c3c2d9", null ]
     ] ],
     [ "MR::ReduceTotalAngleParams", "structMR_1_1ReduceTotalAngleParams.html", [
+      [ "criticalTriAspectRatio", "group__GeneralGroup.html#gace64fccf341d37315ad4d9ac7af391bd", null ],
       [ "factorDelone", "group__GeneralGroup.html#ga05e31fe898e5fd6f6d42d952fbc3991b", null ],
+      [ "maxAngleChange", "group__GeneralGroup.html#ga5dade62f56abf556b1857f9a9feb7bdc", null ],
       [ "notFlippable", "group__GeneralGroup.html#ga70c336170c2b3fd77e32ada0109f0e92", null ],
       [ "region", "group__GeneralGroup.html#gaa25442f103cd80c149b33bc79eb64b0a", null ],
       [ "vertRegion", "group__GeneralGroup.html#ga4026047e5b2606e85f6b474de3b015e3", null ]
@@ -16508,6 +16510,7 @@ var group__GeneralGroup =
     [ "MR::cRibbonButtonWindowPaddingY", "group__GeneralGroup.html#ga502df3899fddea88b5d81bacebed7b2e", null ],
     [ "MR::cRibbonItemInterval", "group__GeneralGroup.html#gad2e6e25a903280bb16257d5eade3d674", null ],
     [ "MR::cRibbonItemMinWidth", "group__GeneralGroup.html#gadbae2e800a57d6abde1fb15532241615", null ],
+    [ "MR::ReduceTotalAngleParams::criticalTriAspectRatio", "group__GeneralGroup.html#gace64fccf341d37315ad4d9ac7af391bd", null ],
     [ "MR::ToolPathParams::critTransitionLength", "group__GeneralGroup.html#ga24c0b4801961990c4c8e6b4003bf2bb2", null ],
     [ "MR::cScrollBarSize", "group__GeneralGroup.html#ga617cd90c338d4e739823f0bf7bc42ee4", null ],
     [ "MR::cSeparateBlocksSpacing", "group__GeneralGroup.html#ga3111d6c67340775339a2b320ca618a6a", null ],
@@ -17050,6 +17053,7 @@ var group__GeneralGroup =
     [ "MR::ObjectVoxels::VolumeRenderingParams::max", "group__GeneralGroup.html#ga0b2551180d44dd12a9dd8b6f79cbd010", null ],
     [ "MR::RawTiffOutput::max", "group__GeneralGroup.html#gab63212231c28e54f0070c1283711a98a", null ],
     [ "MR::UniteManyMeshesParams::maxAllowedError", "group__GeneralGroup.html#ga87d0c6c71297df5ccba6efb599d35f57", null ],
+    [ "MR::ReduceTotalAngleParams::maxAngleChange", "group__GeneralGroup.html#ga5dade62f56abf556b1857f9a9feb7bdc", null ],
     [ "MR::SubdivideFillingSettings::maxAngleChangeAfterFlip", "group__GeneralGroup.html#gadf8a3a24d258da848836a556b3b42e34", null ],
     [ "MR::MinMaxArg::maxArg", "group__GeneralGroup.html#ga75db557e8a12f05d71ffa11c5ea9919e", null ],
     [ "MR::FixUndercuts::ImproveDirectionParameters::maxBaseAngle", "group__GeneralGroup.html#ga6822b43f8eb010ed7b72c8159db3f7a6", null ],

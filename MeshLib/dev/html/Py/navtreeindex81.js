@@ -1,5 +1,13 @@
 var NAVTREEINDEX81 =
 {
+"classmrmeshpy_1_1RemeshSettings.html#a749943d87fd59c35bed10e6f246cc33f":[6,1,1,0,1,787,35],
+"classmrmeshpy_1_1RemeshSettings.html#a779d8462fefb3fabdeab18a8fa1f22e6":[6,1,0,0,2,787,6],
+"classmrmeshpy_1_1RemeshSettings.html#a779d8462fefb3fabdeab18a8fa1f22e6":[6,1,1,0,1,787,6],
+"classmrmeshpy_1_1RemeshSettings.html#a7f588f169cfab3f2d2af9be61a920c32":[6,1,0,0,2,787,0],
+"classmrmeshpy_1_1RemeshSettings.html#a7f588f169cfab3f2d2af9be61a920c32":[6,1,1,0,1,787,0],
+"classmrmeshpy_1_1RemeshSettings.html#a861fff4f5f8b4b8388da80eb3ff9ff22":[6,1,0,0,2,787,17],
+"classmrmeshpy_1_1RemeshSettings.html#a861fff4f5f8b4b8388da80eb3ff9ff22":[6,1,1,0,1,787,17],
+"classmrmeshpy_1_1RemeshSettings.html#a8c836065b2949dcd23a96f6fc837f223":[6,1,0,0,2,787,21],
 "classmrmeshpy_1_1RemeshSettings.html#a8c836065b2949dcd23a96f6fc837f223":[6,1,1,0,1,787,21],
 "classmrmeshpy_1_1RemeshSettings.html#a8f3825d4ea637de04b92efdf0f22f5ef":[6,1,0,0,2,787,5],
 "classmrmeshpy_1_1RemeshSettings.html#a8f3825d4ea637de04b92efdf0f22f5ef":[6,1,1,0,1,787,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#abbb22a2822cdf7a570181583195b2861":[6,1,1,0,1,795,0],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#ac71797176508f6b96e6454c8aa9d283e":[6,1,0,0,2,795,1],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#ac71797176508f6b96e6454c8aa9d283e":[6,1,1,0,1,795,1],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html":[6,1,0,0,2,796],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html":[6,1,1,0,1,796],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a1bccc9ddc0cc3c50f0f7448597ed0c7b":[6,1,0,0,2,796,4],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a1bccc9ddc0cc3c50f0f7448597ed0c7b":[6,1,1,0,1,796,4],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a3bc4d5f4c89e589ec1e6bed98f169c79":[6,1,0,0,2,796,3],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a3bc4d5f4c89e589ec1e6bed98f169c79":[6,1,1,0,1,796,3],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a75b4abc8c8e878b53acb295c8fab4436":[6,1,0,0,2,796,2],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a75b4abc8c8e878b53acb295c8fab4436":[6,1,1,0,1,796,2],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#a88dfc67c20ff5cdc3067a9497a636794":[6,1,0,0,2,796,1]
+"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html":[6,1,0,0,2,796]
 };

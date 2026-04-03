@@ -1,5 +1,11 @@
 var NAVTREEINDEX192 =
 {
+"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#af8c383f07bd301f4655707fe1579125c":[6,2,1,0,0,0,0,2,509,13],
+"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#afaae87dafa2599d89db0989fef14d5f9":[6,2,1,0,0,0,0,2,509,71],
+"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#afd2aa66ea3990896a1b3f07e8acb8e8c":[6,2,1,0,0,0,0,2,509,20],
+"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#affbc166600c3b5c29069b02032afb483":[6,2,1,0,0,0,0,2,509,37],
+"std__vector__MR__WeightedShell__ParametersRegions__Region_8h_source.html":[6,2,1,0,0,0,0,2,509],
+"std__vector__char_8h.html":[6,2,1,0,0,0,0,2,398],
 "std__vector__char_8h.html#a007a334c574198315778e63f579a770c":[6,2,1,0,0,0,0,2,398,38],
 "std__vector__char_8h.html#a00f583d0b9a05eb2dd0f28d20cd9998c":[6,2,1,0,0,0,0,2,398,32],
 "std__vector__char_8h.html#a0191617741df9e5e8b95df82c3431713":[6,2,1,0,0,0,0,2,398,52],
@@ -243,11 +249,5 @@ var NAVTREEINDEX192 =
 "std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a2c65513d87c564fee8cdd3d0a08479be":[6,2,1,0,0,0,0,2,402,44],
 "std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a2dc34734c3bc4ef7f21d9964d6e202ea":[6,2,1,0,0,0,0,2,402,48],
 "std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a317ffe2864d0c50155a3cfe852e6f067":[6,2,1,0,0,0,0,2,402,32],
-"std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a33619fb14713d5820518a0e8a97a631d":[6,2,1,0,0,0,0,2,402,25],
-"std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a3e4b716bd82f4c26959270b72e4aa5ce":[6,2,1,0,0,0,0,2,402,43],
-"std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a43cc5bffd009c4e87cacc8e4dc25b9a7":[6,2,1,0,0,0,0,2,402,51],
-"std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a45650a3f4eec9ec6422f92430e241d45":[6,2,1,0,0,0,0,2,402,0],
-"std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a4578b61c19c476de23c8768f4da37639":[6,2,1,0,0,0,0,2,402,40],
-"std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a48af6244feb9d80056491a1df4f98f2a":[6,2,1,0,0,0,0,2,402,55],
-"std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a49d1618a8af3b53b55b9e832a0c71bf0":[6,2,1,0,0,0,0,2,402,68]
+"std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a33619fb14713d5820518a0e8a97a631d":[6,2,1,0,0,0,0,2,402,25]
 };

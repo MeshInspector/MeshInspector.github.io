@@ -1,5 +1,13 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a21eb22ee2aaeffa6334e829f1aa282e7":[6,1,1,0,1,1053,9],
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a3abfd10df1baf06efaed58e0bd8dd9f5":[6,1,0,0,2,1053,11],
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a3abfd10df1baf06efaed58e0bd8dd9f5":[6,1,1,0,1,1053,11],
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a55a2eea8023a7910cd1266195456b693":[6,1,0,0,2,1053,7],
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a55a2eea8023a7910cd1266195456b693":[6,1,1,0,1,1053,7],
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a69aab75317fa95567bff0088a4f6f2e2":[6,1,0,0,2,1053,1],
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a69aab75317fa95567bff0088a4f6f2e2":[6,1,1,0,1,1053,1],
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a72505b74ce793f6f656bbf7ad57ee22d":[6,1,0,0,2,1053,8],
 "classmrmeshpy_1_1StitchHolesNicelySettings.html#a72505b74ce793f6f656bbf7ad57ee22d":[6,1,1,0,1,1053,8],
 "classmrmeshpy_1_1StitchHolesNicelySettings.html#a73881c0eb335e5c72011999600e3b269":[6,1,0,0,2,1053,14],
 "classmrmeshpy_1_1StitchHolesNicelySettings.html#a73881c0eb335e5c72011999600e3b269":[6,1,1,0,1,1053,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1SymMatrix2d.html#aa7edb7e02cd4e23ce1c3c0880cd57d58":[6,1,1,0,1,1060,11],
 "classmrmeshpy_1_1SymMatrix2d.html#aa8506330eb3b82c53e6a780c2301edf9":[6,1,0,0,2,1060,2],
 "classmrmeshpy_1_1SymMatrix2d.html#aa8506330eb3b82c53e6a780c2301edf9":[6,1,1,0,1,1060,2],
-"classmrmeshpy_1_1SymMatrix2d.html#aca151e3e557956763939adedd2a216df":[6,1,0,0,2,1060,3],
-"classmrmeshpy_1_1SymMatrix2d.html#aca151e3e557956763939adedd2a216df":[6,1,1,0,1,1060,3],
-"classmrmeshpy_1_1SymMatrix2d.html#ad4c6c33d6492b6ad4cc00e07c4ed40ef":[6,1,0,0,2,1060,7],
-"classmrmeshpy_1_1SymMatrix2d.html#ad4c6c33d6492b6ad4cc00e07c4ed40ef":[6,1,1,0,1,1060,7],
-"classmrmeshpy_1_1SymMatrix2d.html#ad8e7ac11cc4d63c958625ea9130d06d6":[6,1,0,0,2,1060,9],
-"classmrmeshpy_1_1SymMatrix2d.html#ad8e7ac11cc4d63c958625ea9130d06d6":[6,1,1,0,1,1060,9],
-"classmrmeshpy_1_1SymMatrix2d.html#adc7a0d1178d56e9b366e6f874cde1afc":[6,1,0,0,2,1060,14],
-"classmrmeshpy_1_1SymMatrix2d.html#adc7a0d1178d56e9b366e6f874cde1afc":[6,1,1,0,1,1060,14],
-"classmrmeshpy_1_1SymMatrix2d.html#ae1dafc0580e38f73c1cf2fb06bee48ef":[6,1,0,0,2,1060,19]
+"classmrmeshpy_1_1SymMatrix2d.html#aca151e3e557956763939adedd2a216df":[6,1,0,0,2,1060,3]
 };

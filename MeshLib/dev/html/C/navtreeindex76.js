@@ -1,5 +1,11 @@
 var NAVTREEINDEX76 =
 {
+"MRObjectSaveSettings_8h.html#a78782b40ed916bab64dc0cc3e9b687a9":[6,2,1,0,0,0,0,1,231,7],
+"MRObjectSaveSettings_8h.html#a7b5121b85cb9555b16f3deac5b831d3c":[6,2,1,0,0,0,0,1,231,32],
+"MRObjectSaveSettings_8h.html#a7d8593e8a0f51bb2b11ad49514505ee1":[6,2,1,0,0,0,0,1,231,18],
+"MRObjectSaveSettings_8h.html#a80d27fa4a8d88b19b3aac70c65dda8a4":[6,2,1,0,0,0,0,1,231,21],
+"MRObjectSaveSettings_8h.html#a8552ae4bf04d6bbda41dcc2fc6bc17ea":[6,2,1,0,0,0,0,1,231,29],
+"MRObjectSaveSettings_8h.html#a88850c2ebdd4eb704ef3d2dc6f5ec7d8":[6,2,1,0,0,0,0,1,231,15],
 "MRObjectSaveSettings_8h.html#a8c37c2c49dc2ada48ddd6a5771ab1ecc":[6,2,1,0,0,0,0,1,231,22],
 "MRObjectSaveSettings_8h.html#a9e69e30c7ca06f87d5708248d2704bb4":[6,2,1,0,0,0,0,1,231,3],
 "MRObjectSaveSettings_8h.html#aab824cd96316a357e275d6fa08dc85df":[6,2,1,0,0,0,0,1,231,24],
@@ -243,11 +249,5 @@ var NAVTREEINDEX76 =
 "MRObjectsAccess_8h.html#a5a9229d11df8f70cd6034b5cd64f4652a411320681287d08ff511d1f332c94047":[6,2,1,0,0,0,0,1,229,7,2],
 "MRObjectsAccess_8h.html#a5a9229d11df8f70cd6034b5cd64f4652a76ee1aca7822eba291ddc29a19bdc249":[6,2,1,0,0,0,0,1,229,7,3],
 "MRObjectsAccess_8h.html#a5a9229d11df8f70cd6034b5cd64f4652a8a1f0769baaa377e2fa561b566fcd6fe":[6,2,1,0,0,0,0,1,229,7,4],
-"MRObjectsAccess_8h.html#a5a9229d11df8f70cd6034b5cd64f4652aa948bb8e20a9f9d73031a6180d86beb2":[6,2,1,0,0,0,0,1,229,7,1],
-"MRObjectsAccess_8h.html#a5a9229d11df8f70cd6034b5cd64f4652aed5e6b9147a2f6c83541563dc5c18c7d":[6,2,1,0,0,0,0,1,229,7,0],
-"MRObjectsAccess_8h.html#a5bab704707f5f5ccbae7d398b4310cbc":[6,2,1,0,0,0,0,1,229,4],
-"MRObjectsAccess_8h.html#a743c6acc0ba3c42669ae068aa03628e2":[6,2,1,0,0,0,0,1,229,17],
-"MRObjectsAccess_8h.html#a77158fe16b4c0c6de676920b75f04e29":[6,2,1,0,0,0,0,1,229,13],
-"MRObjectsAccess_8h.html#a8b574e213ab95b5f369f9ea820205e53":[6,2,1,0,0,0,0,1,229,15],
-"MRObjectsAccess_8h.html#a9a3bde7539329e99c0ca4a5bc4291d36":[6,2,1,0,0,0,0,1,229,6]
+"MRObjectsAccess_8h.html#a5a9229d11df8f70cd6034b5cd64f4652aa948bb8e20a9f9d73031a6180d86beb2":[6,2,1,0,0,0,0,1,229,7,1]
 };

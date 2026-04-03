@@ -8961,6 +8961,8 @@
     <member refid="group__GeneralGroup_1ga5d748b82ae5325e076cc5dab6e2c2f56" kind="function"><name>updateRedoListCache_</name></member>
   </compound>
   <compound refid="structMR_1_1ReduceTotalAngleParams" kind="struct"><name>MR::ReduceTotalAngleParams</name>
+    <member refid="group__GeneralGroup_1ga5dade62f56abf556b1857f9a9feb7bdc" kind="variable"><name>maxAngleChange</name></member>
+    <member refid="group__GeneralGroup_1gace64fccf341d37315ad4d9ac7af391bd" kind="variable"><name>criticalTriAspectRatio</name></member>
     <member refid="group__GeneralGroup_1ga05e31fe898e5fd6f6d42d952fbc3991b" kind="variable"><name>factorDelone</name></member>
     <member refid="group__GeneralGroup_1gaa25442f103cd80c149b33bc79eb64b0a" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga70c336170c2b3fd77e32ada0109f0e92" kind="variable"><name>notFlippable</name></member>
@@ -21813,6 +21815,8 @@
     <member refid="group__GeneralGroup_1ga87e604fc7885293a1dbb7b4a89eed25f" kind="variable"><name>updateValids_</name></member>
     <member refid="group__GeneralGroup_1ga9f2e1e81b6a1f5328a10fb914ad88869" kind="variable"><name>toEdgesSize_</name></member>
     <member refid="group__GeneralGroup_1ga39b1649c247ac2e6e2c8364114912a1d" kind="variable"><name>changedEdges_</name></member>
+    <member refid="group__GeneralGroup_1ga5dade62f56abf556b1857f9a9feb7bdc" kind="variable"><name>maxAngleChange</name></member>
+    <member refid="group__GeneralGroup_1gace64fccf341d37315ad4d9ac7af391bd" kind="variable"><name>criticalTriAspectRatio</name></member>
     <member refid="group__GeneralGroup_1ga05e31fe898e5fd6f6d42d952fbc3991b" kind="variable"><name>factorDelone</name></member>
     <member refid="group__GeneralGroup_1gaa25442f103cd80c149b33bc79eb64b0a" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga70c336170c2b3fd77e32ada0109f0e92" kind="variable"><name>notFlippable</name></member>
