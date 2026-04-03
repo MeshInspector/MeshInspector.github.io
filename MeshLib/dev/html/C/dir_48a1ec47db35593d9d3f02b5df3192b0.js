@@ -46,6 +46,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRChangeXfAction.h", "MRChangeXfAction_8h.html", "MRChangeXfAction_8h" ],
     [ "MRChunkIterator.h", "MRChunkIterator_8h.html", "MRChunkIterator_8h" ],
     [ "MRCircleObject.h", "MRCircleObject_8h.html", "MRCircleObject_8h" ],
+    [ "MRClosestPointInTriangle.h", "MRClosestPointInTriangle_8h.html", "MRClosestPointInTriangle_8h" ],
     [ "MRClosestWeightedPoint.h", "MRClosestWeightedPoint_8h.html", "MRClosestWeightedPoint_8h" ],
     [ "MRCloseVertices.h", "MRCloseVertices_8h.html", "MRCloseVertices_8h" ],
     [ "MRCloudPartMapping.h", "MRCloudPartMapping_8h.html", "MRCloudPartMapping_8h" ],

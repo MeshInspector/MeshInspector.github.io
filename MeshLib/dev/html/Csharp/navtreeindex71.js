@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"classMR_1_1VoxelLocation.html#af95e910678fb350530bfef2df17a9d6d":[6,3,0,0,0,983,1],
+"classMR_1_1VoxelLocation.html#affb2b57503ac3e10c48ed5f6fd912b1f":[6,3,0,0,0,983,6],
+"classMR_1_1VoxelMetricParameters.html":[6,3,0,0,0,984],
 "classMR_1_1VoxelMetricParameters.html#a013f27dd734136065c748ce751630b90":[6,3,0,0,0,984,9],
 "classMR_1_1VoxelMetricParameters.html#a240cdee4d23eea612d6c1b00907afcd4":[6,3,0,0,0,984,4],
 "classMR_1_1VoxelMetricParameters.html#a319d35a08b2da31a6788f8c2b428be31":[6,3,0,0,0,984,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "classMR_1_1WeightedShell_1_1ParametersMetric.html#ac84edd9957b85c5628d8227863afb45a":[6,3,0,0,0,1002,2,9],
 "classMR_1_1WeightedShell_1_1ParametersMetric.html#aed23b668a2f6acf1cbcb446ce2c047c6":[6,3,0,0,0,1002,2,8],
 "classMR_1_1WeightedShell_1_1ParametersMetric.html#afe986ada87964990d7046bc7312d2a42":[6,3,0,0,0,1002,2,4],
-"classMR_1_1WeightedShell_1_1ParametersRegions.html":[6,3,0,0,0,1002,3],
-"classMR_1_1WeightedShell_1_1ParametersRegions.html#a03863c078de19ae327c2267bf49b1eea":[6,3,0,0,0,1002,3,12],
-"classMR_1_1WeightedShell_1_1ParametersRegions.html#a0ccaa4089b390f1d51deddee4d00808f":[6,3,0,0,0,1002,3,10],
-"classMR_1_1WeightedShell_1_1ParametersRegions.html#a15cf974de31ac65eb620225f6a17f918":[6,3,0,0,0,1002,3,1]
+"classMR_1_1WeightedShell_1_1ParametersRegions.html":[6,3,0,0,0,1002,3]
 };

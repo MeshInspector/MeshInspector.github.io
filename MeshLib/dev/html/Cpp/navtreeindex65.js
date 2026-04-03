@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[6,0,0,9,7,0,5],
+"structMR_1_1SubdivideSettings.html#ae48504fe6f54fb67dee57969d77efc43":[6,0,0,9,7,0,2],
+"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[6,0,0,9,7,0,11],
 "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,13],
 "structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,7],
 "structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[6,0,0,20,708],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a408a18646248d1d57deb6e7546ec9716":[6,0,0,1,18,0,0],
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace":[6,0,0,1,18,0,1],
 "structMR_1_1Vector2.html":[6,0,0,0,12,0],
-"structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[6,0,0,0,12,0,42],
-"structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[6,0,0,0,12,0,4],
-"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[6,0,0,0,12,0,21],
-"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[6,0,1,0,1,1535]
+"structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[6,0,0,0,12,0,42]
 };

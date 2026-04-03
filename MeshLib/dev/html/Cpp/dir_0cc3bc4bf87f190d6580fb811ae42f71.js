@@ -56,7 +56,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRChrono.h", "MRChrono_8h.html", "MRChrono_8h" ],
     [ "MRChunkIterator.h", "MRChunkIterator_8h.html", "MRChunkIterator_8h" ],
     [ "MRCircleObject.h", "MRCircleObject_8h.html", null ],
-    [ "MRClosestPointInTriangle.h", "MRClosestPointInTriangle_8h.html", null ],
+    [ "MRClosestPointInTriangle.h", "MRClosestPointInTriangle_8h.html", "MRClosestPointInTriangle_8h" ],
     [ "MRClosestWeightedPoint.h", "MRClosestWeightedPoint_8h.html", "MRClosestWeightedPoint_8h" ],
     [ "MRCloseVertices.h", "MRCloseVertices_8h.html", "MRCloseVertices_8h" ],
     [ "MRCloudPartMapping.h", "MRCloudPartMapping_8h.html", null ],

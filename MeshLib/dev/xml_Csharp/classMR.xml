@@ -7546,6 +7546,68 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="539" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="539" bodyend="545"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a5767e083088fd6530fb606001a7132ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_MRVector3f_MRTriPointf</type>
+        <definition>static unsafe MR.Std.Pair_MRVector3f_MRTriPointf MR.closestPointInTriangle</definition>
+        <argsstring>(in MR.Vector3f p, in MR.Vector3f a, in MR.Vector3f b, in MR.Vector3f c)</argsstring>
+        <name>closestPointInTriangle</name>
+        <qualifiedname>MR.closestPointInTriangle</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a5767e083088fd6530fb606001a7132ac" kindref="member">MR.closestPointInTriangle</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestPointInTriangle.cs" line="6" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestPointInTriangle.cs" bodystart="6" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a1bfe35c17ecd4b54ef05e10292ca10f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_MRVector3d_MRTriPointd</type>
+        <definition>static unsafe MR.Std.Pair_MRVector3d_MRTriPointd MR.closestPointInTriangle</definition>
+        <argsstring>(in MR.Vector3d p, in MR.Vector3d a, in MR.Vector3d b, in MR.Vector3d c)</argsstring>
+        <name>closestPointInTriangle</name>
+        <qualifiedname>MR.closestPointInTriangle</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a5767e083088fd6530fb606001a7132ac" kindref="member">MR.closestPointInTriangle</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestPointInTriangle.cs" line="28" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestPointInTriangle.cs" bodystart="28" bodyend="45"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a7ce53e08192f387450752c7521d51f12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointAndDistance" kindref="compound">MR.PointAndDistance</ref></type>
         <definition>static unsafe MR.PointAndDistance MR.findClosestWeightedPoint</definition>
@@ -51471,6 +51533,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1abf2d3995a2b5da287f097a77c54dea8d" prot="public" virt="non-virtual"><scope>MR</scope><name>cloneRegion</name></member>
       <member refid="classMR_1ad30a324f52715859e7f266ece2b81b41" prot="public" virt="non-virtual"><scope>MR</scope><name>cloneRegion</name></member>
       <member refid="classMR_1ad4683de75981e3263a1f2cd0dbc7abd8" prot="public" virt="non-virtual"><scope>MR</scope><name>cloneRegion</name></member>
+      <member refid="classMR_1a5767e083088fd6530fb606001a7132ac" prot="public" virt="non-virtual"><scope>MR</scope><name>closestPointInTriangle</name></member>
+      <member refid="classMR_1a1bfe35c17ecd4b54ef05e10292ca10f7" prot="public" virt="non-virtual"><scope>MR</scope><name>closestPointInTriangle</name></member>
       <member refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" prot="public" virt="non-virtual"><scope>MR</scope><name>ColoringType</name></member>
       <member refid="classMR_1a57974ce9a8dc4b75481184983fcf57b9" prot="public" virt="non-virtual"><scope>MR</scope><name>combineXYderivativeMaps</name></member>
       <member refid="classMR_1a981698522f51ec8f191c6af820fc53c1" prot="public" virt="non-virtual"><scope>MR</scope><name>commonFilesName</name></member>

@@ -46,6 +46,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRChangeXfAction.cs", "MRChangeXfAction_8cs.html", "MRChangeXfAction_8cs" ],
     [ "MRChunkIterator.cs", "MRChunkIterator_8cs.html", "MRChunkIterator_8cs" ],
     [ "MRCircleObject.cs", "MRCircleObject_8cs.html", "MRCircleObject_8cs" ],
+    [ "MRClosestPointInTriangle.cs", "MRClosestPointInTriangle_8cs.html", "MRClosestPointInTriangle_8cs" ],
     [ "MRClosestWeightedPoint.cs", "MRClosestWeightedPoint_8cs.html", "MRClosestWeightedPoint_8cs" ],
     [ "MRCloseVertices.cs", "MRCloseVertices_8cs.html", "MRCloseVertices_8cs" ],
     [ "MRCloudPartMapping.cs", "MRCloudPartMapping_8cs.html", "MRCloudPartMapping_8cs" ],

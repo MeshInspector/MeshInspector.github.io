@@ -1,5 +1,8 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a4ee5ea6f8afeac1d14ad67782e27c90a":[6,3,0,0,0,286,3,7],
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a815104f321881eb9a84153195b94f856":[6,3,0,0,0,286,3,8],
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a858ac968d4f39307c071fe428a6876b1":[6,3,0,0,0,286,3,3],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#aff11854bb53424e6474953913eb014bc":[6,3,0,0,0,286,3,4],
 "classMR_1_1CurveFunc.html":[6,3,0,0,0,287],
 "classMR_1_1CurveFunc.html#a290197024936880f5ce3e6de526a215a":[6,3,0,0,0,287,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1DenoiseViaNormalsSettings.html":[6,3,0,0,0,301],
 "classMR_1_1DenoiseViaNormalsSettings.html#a07b9360cfc55d04883f2f72b2b875fad":[6,3,0,0,0,301,1],
 "classMR_1_1DenoiseViaNormalsSettings.html#a08b4fe0295f03cbb4498ce4a78dd8478":[6,3,0,0,0,301,7],
-"classMR_1_1DenoiseViaNormalsSettings.html#a0917a9764b86db2266ddab1c0901f180":[6,3,0,0,0,301,9],
-"classMR_1_1DenoiseViaNormalsSettings.html#a1469aa8ace65ead884e64786b07d43a1":[6,3,0,0,0,301,5],
-"classMR_1_1DenoiseViaNormalsSettings.html#a25627dcab94d4cd126e432a1b9d8e469":[6,3,0,0,0,301,0],
-"classMR_1_1DenoiseViaNormalsSettings.html#a276f1682546966a08329b768ac50870c":[6,3,0,0,0,301,8]
+"classMR_1_1DenoiseViaNormalsSettings.html#a0917a9764b86db2266ddab1c0901f180":[6,3,0,0,0,301,9]
 };

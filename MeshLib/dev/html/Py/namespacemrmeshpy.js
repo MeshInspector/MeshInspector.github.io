@@ -1420,6 +1420,8 @@ var namespacemrmeshpy =
     [ "cloneRegion", "namespacemrmeshpy.html#a07a27e02cbb10c2b0dd83ea1ec5f12ce", null ],
     [ "cloneRegion", "namespacemrmeshpy.html#a27922d0e318bff356c04f28ebf635e8b", null ],
     [ "cloneRegion", "namespacemrmeshpy.html#a29619f933fc4b061e384717e30ca64b9", null ],
+    [ "closestPointInTriangle", "namespacemrmeshpy.html#a72d318c37a5467deba66d23cad43c50f", null ],
+    [ "closestPointInTriangle", "namespacemrmeshpy.html#afcc7699d0a18740e05e2044504d3c768", null ],
     [ "combineXYderivativeMaps", "namespacemrmeshpy.html#a52ac8fa7ccde5d18a88961797b770764", null ],
     [ "commonFilesName", "namespacemrmeshpy.html#ab4cbce8f356dd6cd4117357b3d2607a7", null ],
     [ "compensateRadius", "namespacemrmeshpy.html#a61d8e7fc6267648656aae4210a493e8a", null ],

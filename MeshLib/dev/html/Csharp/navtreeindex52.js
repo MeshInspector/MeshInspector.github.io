@@ -1,5 +1,8 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1PointPairs.html#add1c49adf029f3c2086aae4e5b033354":[6,3,0,0,0,675,2],
+"classMR_1_1PointPairs.html#aea3166e368e83993ebe908f337ee6298":[6,3,0,0,0,675,3],
+"classMR_1_1PointPairs.html#aeb644af5db03be0cb53dca3e65eae769":[6,3,0,0,0,675,6],
 "classMR_1_1PointPairs.html#af501e322f15a781b21bd1e30b3010f0f":[6,3,0,0,0,675,5],
 "classMR_1_1PointToPlaneAligningTransform.html":[6,3,0,0,0,684],
 "classMR_1_1PointToPlaneAligningTransform.html#a036de5fed1bedcf27a8f0fe039d49d4b":[6,3,0,0,0,684,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a7ce73fe024d3be89ebba7fe69658f5fd":[6,3,0,0,0,689,0,0],
 "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#ab65c0522f3b9cfbb2a69cde87e08607b":[6,3,0,0,0,689,0,1],
 "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#ac7b4a61c5d1878ea86a7ac3a213ac39d":[6,3,0,0,0,689,0,6],
-"classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#ad75cebc20d131c7b736b50703ec58648":[6,3,0,0,0,689,0,2],
-"classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#af3df12d0919213baf0a23d18238f4e87":[6,3,0,0,0,689,0,4],
-"classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#af65a6b869a1cfa8c8bd65b1ac4f9b74c":[6,3,0,0,0,689,0,3],
-"classMR_1_1PolylineIntersectionResult2.html":[6,3,0,0,0,690]
+"classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#ad75cebc20d131c7b736b50703ec58648":[6,3,0,0,0,689,0,2]
 };

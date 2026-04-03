@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"classMR_1_1StitchHolesParams.html#af1b91d94e597fe8ee14c178e094e718c":[6,3,0,0,0,802,7],
+"classMR_1_1StitchHolesParams.html#af856cd6e44234f201f8737a7090fc796":[6,3,0,0,0,802,5],
+"classMR_1_1SubdivideFillingSettings.html":[6,3,0,0,0,803],
 "classMR_1_1SubdivideFillingSettings.html#a1beb1c0ae651ebc3d9e9da2490f79f3a":[6,3,0,0,0,803,2],
 "classMR_1_1SubdivideFillingSettings.html#a2b8514466cdae97290aa4222f649347d":[6,3,0,0,0,803,4],
 "classMR_1_1SubdivideFillingSettings.html#a48d0d24b185f64c0b4195ecaa9c1f240":[6,3,0,0,0,803,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "classMR_1_1SymMatrix4d.html#a37417905ade2a3fcf62b59a3eeb384f9":[6,3,0,0,0,820,3],
 "classMR_1_1SymMatrix4d.html#a407496e14a84e95e595f61a7fb162f30":[6,3,0,0,0,820,1],
 "classMR_1_1SymMatrix4d.html#a422d8594cde9287d8426391469516250":[6,3,0,0,0,820,2],
-"classMR_1_1SymMatrix4d.html#a49eea3a2760d9035b65245a27c84289f":[6,3,0,0,0,820,6],
-"classMR_1_1SymMatrix4d.html#a6a78f2e5f23646d997a80b3002bc935a":[6,3,0,0,0,820,10],
-"classMR_1_1SymMatrix4d.html#a6e3159826f0eb3ee4431c64ef9f90484":[6,3,0,0,0,820,15],
-"classMR_1_1SymMatrix4d.html#a7bedaba4244262719d0fe6163ca5fe74":[6,3,0,0,0,820,7]
+"classMR_1_1SymMatrix4d.html#a49eea3a2760d9035b65245a27c84289f":[6,3,0,0,0,820,6]
 };

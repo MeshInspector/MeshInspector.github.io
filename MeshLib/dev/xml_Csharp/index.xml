@@ -11220,6 +11220,8 @@
     <member refid="classMR_1aec17d2c8eb20c148fa1951f0e2cd5be8" kind="function"><name>getAt</name></member>
     <member refid="classMR_1a1975667872ef3ab1a7caefbae7ea5585" kind="function"><name>chunkCount</name></member>
     <member refid="classMR_1a26450a29708c986dbb534fcb24e051f4" kind="function"><name>splitByChunks</name></member>
+    <member refid="classMR_1a5767e083088fd6530fb606001a7132ac" kind="function"><name>closestPointInTriangle</name></member>
+    <member refid="classMR_1a1bfe35c17ecd4b54ef05e10292ca10f7" kind="function"><name>closestPointInTriangle</name></member>
     <member refid="classMR_1a7ce53e08192f387450752c7521d51f12" kind="function"><name>findClosestWeightedPoint</name></member>
     <member refid="classMR_1af7e1b03da62f65cf4756fb9f3141d15b" kind="function"><name>findClosestWeightedMeshPoint</name></member>
     <member refid="classMR_1ad0a5dc2f1f0f4159707af2d7b75a2384" kind="function"><name>findSmallestCloseVertices</name></member>
@@ -22045,6 +22047,8 @@
   <compound refid="MRChunkIterator_8cs" kind="file"><name>MRChunkIterator.cs</name>
   </compound>
   <compound refid="MRCircleObject_8cs" kind="file"><name>MRCircleObject.cs</name>
+  </compound>
+  <compound refid="MRClosestPointInTriangle_8cs" kind="file"><name>MRClosestPointInTriangle.cs</name>
   </compound>
   <compound refid="MRClosestWeightedPoint_8cs" kind="file"><name>MRClosestWeightedPoint.cs</name>
   </compound>

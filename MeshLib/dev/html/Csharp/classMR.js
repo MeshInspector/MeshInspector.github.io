@@ -1810,6 +1810,8 @@ var classMR =
     [ "cloneRegion", "classMR.html#abf2d3995a2b5da287f097a77c54dea8d", null ],
     [ "cloneRegion", "classMR.html#ad30a324f52715859e7f266ece2b81b41", null ],
     [ "cloneRegion", "classMR.html#ad4683de75981e3263a1f2cd0dbc7abd8", null ],
+    [ "closestPointInTriangle", "classMR.html#a1bfe35c17ecd4b54ef05e10292ca10f7", null ],
+    [ "closestPointInTriangle", "classMR.html#a5767e083088fd6530fb606001a7132ac", null ],
     [ "combineXYderivativeMaps", "classMR.html#a57974ce9a8dc4b75481184983fcf57b9", null ],
     [ "commonFilesName", "classMR.html#a981698522f51ec8f191c6af820fc53c1", null ],
     [ "compensateRadius", "classMR.html#af5da93169ac1bfdbf073097307b26b2f", null ],
