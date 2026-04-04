@@ -370,12 +370,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>rotationAxis length will be more then 0.01
-</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7411" bodyend="7414"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7411" bodyend="7412"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1afe00915df7f95ba9f5601d083ebbdadb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -404,7 +402,7 @@ valid range -180 &lt;= min &lt; max &lt;= 180
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7415" bodyend="7419"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7413" bodyend="7417"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1a47283a9c21500279a005541cb668f6d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -428,7 +426,7 @@ valid range -180 &lt;= min &lt; max &lt;= 180
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7420" bodyend="7423"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7418" bodyend="7421"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -439,7 +437,7 @@ valid range -180 &lt;= min &lt; max &lt;= 180
 class with CNC machine emulation settings
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7318" bodyend="7423"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7318" bodyend="7421"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1CNCMachineSettings_1a9887638126755af3ff7e31b8702371ea" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1CNCMachineSettings_1acf662411589ef570d30d8ebfe9627033" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings</scope><name>__init__</name></member>
