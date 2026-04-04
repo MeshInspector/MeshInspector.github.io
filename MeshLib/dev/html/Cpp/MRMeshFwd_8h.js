@@ -160,7 +160,7 @@ var MRMeshFwd_8h =
     [ "MR::Locale::translate_noop", "group__GeneralGroup.html#ga022f7ba55e1f7b995ca4ec47fe14bbbd", null ],
     [ "MR::Locale::translate_noop", "group__GeneralGroup.html#ga58d357faefc457685d44349ecf1db539", null ],
     [ "MR::Locale::translate_noop", "group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe", null ],
-    [ "MR::TriPoint< float >", "group__GeneralGroup.html#gab119da1bda1a0c995cae0268b4519e41", null ],
+    [ "MR::TriPoint< float >", "group__GeneralGroup.html#ga8554dff48c157c37bb29bdf97fb1a148", null ],
     [ "MR::TypedBitSet", "group__GeneralGroup.html#gae67a16ed6e3c5f9cdb00642abdeb19cc", null ],
     [ "MR::TypedBitSet< NodeId >", "group__GeneralGroup.html#gacb9fd1f47a0a027e98702e9082980f59", null ],
     [ "MR::TypedBitSet< TextureId >", "group__GeneralGroup.html#gaa6699373dcdfa66a4e055fed91e0cd3c", null ],

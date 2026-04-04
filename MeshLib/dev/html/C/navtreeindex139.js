@@ -1,5 +1,6 @@
 var NAVTREEINDEX139 =
 {
+"std__array__MR__PreciseVertCoords__8_8h_source.html":[6,2,1,0,0,0,0,2,104],
 "std__array__MR__SimpleVolumeMinMax__3_8h.html":[6,2,1,0,0,0,0,2,105],
 "std__array__MR__SimpleVolumeMinMax__3_8h.html#a08f0056e0c04911e150d639cbb2e9be9":[6,2,1,0,0,0,0,2,105,3],
 "std__array__MR__SimpleVolumeMinMax__3_8h.html#a147ae9e374cab9ef338fccfe87f848c4":[6,2,1,0,0,0,0,2,105,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX139 =
 "std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref_8h.html#ae5e4feb451f82b37916d39920114a072":[6,2,1,0,0,0,0,2,160,9],
 "std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref_8h_source.html":[6,2,1,0,0,0,0,2,160],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html":[6,2,1,0,0,0,0,2,156],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#a12b385b75f8455584e58b1b7488674a6":[6,2,1,0,0,0,0,2,156,10],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#a1dc4e42869898ecdacc4e0222b5377fd":[6,2,1,0,0,0,0,2,156,6]
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#a12b385b75f8455584e58b1b7488674a6":[6,2,1,0,0,0,0,2,156,10]
 };

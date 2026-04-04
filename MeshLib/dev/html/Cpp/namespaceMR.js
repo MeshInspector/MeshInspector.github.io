@@ -3401,7 +3401,7 @@ var namespaceMR =
     [ "trimWithPlane", "group__GeneralGroup.html#gab018b6d685c56efa2193ac95a1104abb", null ],
     [ "trimWithPlane", "group__GeneralGroup.html#gaf89b1475080f66872e6f39a76810daf6", null ],
     [ "triPoint", "group__GeneralGroup.html#ga7c12c9c3062c6a3785c360bb69a8cc0e", null ],
-    [ "TriPoint< float >", "group__GeneralGroup.html#gab119da1bda1a0c995cae0268b4519e41", null ],
+    [ "TriPoint< float >", "group__GeneralGroup.html#ga8554dff48c157c37bb29bdf97fb1a148", null ],
     [ "TypedBitSet", "group__GeneralGroup.html#gae67a16ed6e3c5f9cdb00642abdeb19cc", null ],
     [ "TypedBitSet< NodeId >", "group__GeneralGroup.html#gacb9fd1f47a0a027e98702e9082980f59", null ],
     [ "TypedBitSet< TextureId >", "group__GeneralGroup.html#gaa6699373dcdfa66a4e055fed91e0cd3c", null ],

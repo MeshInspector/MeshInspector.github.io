@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1ToolPathParams.html#adfc6d6c6e88d23266ba8afa61d22aa8b":[6,3,0,0,0,835,3],
 "classMR_1_1ToolPathParams.html#aed6c08d09f3c0117b0dc971b599306c2":[6,3,0,0,0,835,7],
 "classMR_1_1ToolPathParams.html#afac28b4f9a5f9d745336f2ecb07bcc81":[6,3,0,0,0,835,2],
 "classMR_1_1ToolPathResult.html":[6,3,0,0,0,836],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1TrimOptionalOutput.html":[6,3,0,0,0,847],
 "classMR_1_1TrimOptionalOutput.html#a19e694dde0aa176e2b6b48fb7ffb8300":[6,3,0,0,0,847,2],
 "classMR_1_1TrimOptionalOutput.html#a1d902491a5bfd553857cba4384e33dcc":[6,3,0,0,0,847,7],
-"classMR_1_1TrimOptionalOutput.html#a4300079dc2621798f27bdbec499c853d":[6,3,0,0,0,847,1],
-"classMR_1_1TrimOptionalOutput.html#a4467f960e9ea495226c48319a4b7a9bf":[6,3,0,0,0,847,4]
+"classMR_1_1TrimOptionalOutput.html#a4300079dc2621798f27bdbec499c853d":[6,3,0,0,0,847,1]
 };

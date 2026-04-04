@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#ad75cebc20d131c7b736b50703ec58648":[6,3,0,0,0,689,0,2],
 "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#af3df12d0919213baf0a23d18238f4e87":[6,3,0,0,0,689,0,4],
 "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#af65a6b869a1cfa8c8bd65b1ac4f9b74c":[6,3,0,0,0,689,0,3],
 "classMR_1_1PolylineIntersectionResult2.html":[6,3,0,0,0,690],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "classMR_1_1PositionedText.html":[6,3,0,0,0,719],
 "classMR_1_1PositionedText.html#a17e01f8edf7881f031ab0ce245768d4c":[6,3,0,0,0,719,3],
 "classMR_1_1PositionedText.html#a3789eedc65ad7613429de1005ad5bc3c":[6,3,0,0,0,719,1],
-"classMR_1_1PositionedText.html#a39d4e8f3fa3a1fb1595cbf6a5e30e304":[6,3,0,0,0,719,4],
-"classMR_1_1PositionedText.html#a695c93813d9653fca5f94e3127da2f34":[6,3,0,0,0,719,0]
+"classMR_1_1PositionedText.html#a39d4e8f3fa3a1fb1595cbf6a5e30e304":[6,3,0,0,0,719,4]
 };

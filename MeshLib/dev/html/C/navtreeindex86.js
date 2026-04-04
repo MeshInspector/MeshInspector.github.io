@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"MRPointsToMeshFusion_8h.html#a5cd95bd71114234f0d3cc58e5c3e4ebe":[6,2,1,0,0,0,0,4,18,20],
 "MRPointsToMeshFusion_8h.html#a5da710d4d2d91f3b99696dd43d69b467":[6,2,1,0,0,0,0,4,18,33],
 "MRPointsToMeshFusion_8h.html#a610b4d73529880adec7ca7f208d35953":[6,2,1,0,0,0,0,4,18,42],
 "MRPointsToMeshFusion_8h.html#a627f5e82808d322bad56bfa9316b2081":[6,2,1,0,0,0,0,4,18,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "MRPolylineDecimate_8h.html#ae072557a407d48a81c5e61f418e7db91":[6,2,1,0,0,0,0,1,275,16],
 "MRPolylineDecimate_8h.html#ae4dec180168cf6481f21ed3e8ac33f02":[6,2,1,0,0,0,0,1,275,65],
 "MRPolylineDecimate_8h.html#ae4ed21b0004b918c5cccb25abf779662":[6,2,1,0,0,0,0,1,275,36],
-"MRPolylineDecimate_8h.html#ae6befdbc5f4b9d7d6a7e4f8e3af2c255":[6,2,1,0,0,0,0,1,275,40],
-"MRPolylineDecimate_8h.html#ae9cd767da01215a6f6333b55937bcb50":[6,2,1,0,0,0,0,1,275,41]
+"MRPolylineDecimate_8h.html#ae6befdbc5f4b9d7d6a7e4f8e3af2c255":[6,2,1,0,0,0,0,1,275,40]
 };

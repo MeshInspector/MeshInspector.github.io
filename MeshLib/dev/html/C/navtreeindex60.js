@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"MRMeshMath_8h.html#aea367b75e8791f695df17391af69ce6c":[6,2,1,0,0,0,0,1,182,19],
 "MRMeshMath_8h.html#aea9f9f85e29e665e2c6bedfdbb5cf5cf":[6,2,1,0,0,0,0,1,182,57],
 "MRMeshMath_8h.html#af1c6acfa1be5d84789a52a05068714df":[6,2,1,0,0,0,0,1,182,62],
 "MRMeshMath_8h.html#af3e509e3c50da85afe47d712af5683cd":[6,2,1,0,0,0,0,1,182,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "MRMeshOverhangs_8h.html#a8311b151fe74bd6a81ed0c4487c93cdf":[6,2,1,0,0,0,0,1,188,13],
 "MRMeshOverhangs_8h.html#a91d19ebdbcd046e9e23cc5861d28ad6b":[6,2,1,0,0,0,0,1,188,6],
 "MRMeshOverhangs_8h.html#a964f2503a78087e140bf61fde6b10727":[6,2,1,0,0,0,0,1,188,7],
-"MRMeshOverhangs_8h.html#a9aeb02109878b8096243a1c6b4b390b2":[6,2,1,0,0,0,0,1,188,20],
-"MRMeshOverhangs_8h.html#abec162200c1ad771afb9c0bb1b2211f8":[6,2,1,0,0,0,0,1,188,24]
+"MRMeshOverhangs_8h.html#a9aeb02109878b8096243a1c6b4b390b2":[6,2,1,0,0,0,0,1,188,20]
 };

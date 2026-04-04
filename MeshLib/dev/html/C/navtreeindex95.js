@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"MRSeparationPoint_8h.html#af518135d3d01aa481d98ea7887d696f3":[6,2,1,0,0,0,0,1,314,45],
 "MRSeparationPoint_8h.html#afac80823d87336da4c065c4672e648c9":[6,2,1,0,0,0,0,1,314,35],
 "MRSeparationPoint_8h_source.html":[6,2,1,0,0,0,0,1,314],
 "MRSequentialNester_8h.html":[6,2,1,0,0,0,0,4,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "MRSphereObject_8h.html#add1f6100f6fdf13c6cb971247dbb48be":[6,2,1,0,0,0,0,1,321,97],
 "MRSphereObject_8h.html#ade24d2e5b95534b9ba90e2ec4f555c7c":[6,2,1,0,0,0,0,1,321,134],
 "MRSphereObject_8h.html#adeb51813e5ddd39bab29ba8dd374e41c":[6,2,1,0,0,0,0,1,321,68],
-"MRSphereObject_8h.html#adf5b1b36729a88d92fe0166527fb27dc":[6,2,1,0,0,0,0,1,321,34],
-"MRSphereObject_8h.html#ae3a4d5c1d7b0ecbe9136a13d7d6e19f9":[6,2,1,0,0,0,0,1,321,18]
+"MRSphereObject_8h.html#adf5b1b36729a88d92fe0166527fb27dc":[6,2,1,0,0,0,0,1,321,34]
 };

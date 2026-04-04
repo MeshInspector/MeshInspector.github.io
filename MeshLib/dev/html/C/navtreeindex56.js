@@ -1,15 +1,16 @@
 var NAVTREEINDEX56 =
 {
-"MRMeshComponents_8h.html#ae45531e60a29144a67d3d42b143938a9":[6,2,1,0,0,0,0,1,165,88],
-"MRMeshComponents_8h.html#ae68344fd87e5a5d7ac38d3c8750a019f":[6,2,1,0,0,0,0,1,165,60],
-"MRMeshComponents_8h.html#ae805b3dadb7014ad20674192a1e8db9e":[6,2,1,0,0,0,0,1,165,96],
+"MRMeshComponents_8h.html#add829ce020c923b9e70b619aba17a671":[6,2,1,0,0,0,0,1,165,46],
+"MRMeshComponents_8h.html#ae45531e60a29144a67d3d42b143938a9":[6,2,1,0,0,0,0,1,165,89],
+"MRMeshComponents_8h.html#ae68344fd87e5a5d7ac38d3c8750a019f":[6,2,1,0,0,0,0,1,165,61],
+"MRMeshComponents_8h.html#ae805b3dadb7014ad20674192a1e8db9e":[6,2,1,0,0,0,0,1,165,97],
 "MRMeshComponents_8h.html#ae891b4d7fc4b7958322f4b547470f073":[6,2,1,0,0,0,0,1,165,28],
 "MRMeshComponents_8h.html#aeb09ac7e08d30a0595b10e3510311e52":[6,2,1,0,0,0,0,1,165,16],
-"MRMeshComponents_8h.html#af3097b474f0a6b69d5a02051f53314d5":[6,2,1,0,0,0,0,1,165,55],
-"MRMeshComponents_8h.html#af46c0ca955b4d11ee8a6a06e204877e8":[6,2,1,0,0,0,0,1,165,61],
+"MRMeshComponents_8h.html#af3097b474f0a6b69d5a02051f53314d5":[6,2,1,0,0,0,0,1,165,56],
+"MRMeshComponents_8h.html#af46c0ca955b4d11ee8a6a06e204877e8":[6,2,1,0,0,0,0,1,165,62],
 "MRMeshComponents_8h.html#af889488c447569938ce6b021d200e919":[6,2,1,0,0,0,0,1,165,6],
-"MRMeshComponents_8h.html#afdf9f11696d14d7f9339c6ab2037a078":[6,2,1,0,0,0,0,1,165,93],
-"MRMeshComponents_8h.html#afe373adc65ed3218d7f0c2260b1b0c51":[6,2,1,0,0,0,0,1,165,97],
+"MRMeshComponents_8h.html#afdf9f11696d14d7f9339c6ab2037a078":[6,2,1,0,0,0,0,1,165,94],
+"MRMeshComponents_8h.html#afe373adc65ed3218d7f0c2260b1b0c51":[6,2,1,0,0,0,0,1,165,98],
 "MRMeshComponents_8h_source.html":[6,2,1,0,0,0,0,1,165],
 "MRMeshDecimateCallbacks_8h.html":[6,2,1,0,0,0,0,1,167],
 "MRMeshDecimateCallbacks_8h.html#aa158734c19917699ae7d07031d2a1d8f":[6,2,1,0,0,0,0,1,167,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "MRMeshDecimate_8h_source.html":[6,2,1,0,0,0,0,1,166],
 "MRMeshDelete_8h.html":[6,2,1,0,0,0,0,1,168],
 "MRMeshDelete_8h.html#a72df7ee0063785df0546d40cb68141fb":[6,2,1,0,0,0,0,1,168,0],
-"MRMeshDelete_8h.html#aa83c8faa03d648c2b877744b20966346":[6,2,1,0,0,0,0,1,168,1],
-"MRMeshDelete_8h_source.html":[6,2,1,0,0,0,0,1,168]
+"MRMeshDelete_8h.html#aa83c8faa03d648c2b877744b20966346":[6,2,1,0,0,0,0,1,168,1]
 };

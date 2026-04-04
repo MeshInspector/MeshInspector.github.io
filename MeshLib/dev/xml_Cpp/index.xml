@@ -14602,7 +14602,7 @@
     <member refid="group__GeneralGroup_1ga69fe14dc984335904595108e5caaec9a" kind="function"><name>QuadraticForm&lt; Vector3&lt; float &gt; &gt;</name></member>
     <member refid="group__GeneralGroup_1ga38aebbf79d171f4f7b22798a3bcc59b5" kind="function"><name>Quaternion&lt; float &gt;</name></member>
     <member refid="group__GeneralGroup_1ga3b86c0635148207af3c42589fb521b93" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
-    <member refid="group__GeneralGroup_1gab119da1bda1a0c995cae0268b4519e41" kind="function"><name>TriPoint&lt; float &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga8554dff48c157c37bb29bdf97fb1a148" kind="function"><name>TriPoint&lt; float &gt;</name></member>
     <member refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kind="function"><name>Vector</name></member>
     <member refid="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" kind="function"><name>Vector&lt; ThreeVertIds, FaceId &gt;</name></member>
     <member refid="group__GeneralGroup_1ga937386adcc94bddd2ad6e08e67913e56" kind="function"><name>Vector&lt; Dipole, NodeId &gt;</name></member>
@@ -15951,6 +15951,7 @@
     <member refid="group__MeshComponentsGroup_1gaa93eb46b6c87bd17060bee960111398c" kind="function"><name>getAllComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga97b195864ae6464fc4af8dbbfbf12c25" kind="function"><name>getAllComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga2aab1963ab19bf9523812ac0264c0841" kind="function"><name>getAllComponentsMap</name></member>
+    <member refid="group__MeshComponentsGroup_1ga87fa009d5a9b64c256cd45780378d1fb" kind="function"><name>getFacePairRegionMap</name></member>
     <member refid="group__MeshComponentsGroup_1gabb9aee33af237e8ace6daa0b6b7ba783" kind="function"><name>getRegionAreas</name></member>
     <member refid="group__MeshComponentsGroup_1gaf0690687907bc23ce3b2772500238124" kind="function"><name>getLargeByAreaRegions</name></member>
     <member refid="group__MeshComponentsGroup_1gac3f08916e38c544b82948eebe0ad7927" kind="function"><name>getAllComponentsVerts</name></member>
@@ -18600,6 +18601,7 @@
     <member refid="group__MeshComponentsGroup_1gaa93eb46b6c87bd17060bee960111398c" kind="function"><name>getAllComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga97b195864ae6464fc4af8dbbfbf12c25" kind="function"><name>getAllComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga2aab1963ab19bf9523812ac0264c0841" kind="function"><name>getAllComponentsMap</name></member>
+    <member refid="group__MeshComponentsGroup_1ga87fa009d5a9b64c256cd45780378d1fb" kind="function"><name>getFacePairRegionMap</name></member>
     <member refid="group__MeshComponentsGroup_1gabb9aee33af237e8ace6daa0b6b7ba783" kind="function"><name>getRegionAreas</name></member>
     <member refid="group__MeshComponentsGroup_1gaf0690687907bc23ce3b2772500238124" kind="function"><name>getLargeByAreaRegions</name></member>
     <member refid="group__MeshComponentsGroup_1gac3f08916e38c544b82948eebe0ad7927" kind="function"><name>getAllComponentsVerts</name></member>
@@ -25995,7 +25997,7 @@
     <member refid="group__GeneralGroup_1ga69fe14dc984335904595108e5caaec9a" kind="function"><name>QuadraticForm&lt; Vector3&lt; float &gt; &gt;</name></member>
     <member refid="group__GeneralGroup_1ga38aebbf79d171f4f7b22798a3bcc59b5" kind="function"><name>Quaternion&lt; float &gt;</name></member>
     <member refid="group__GeneralGroup_1ga3b86c0635148207af3c42589fb521b93" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
-    <member refid="group__GeneralGroup_1gab119da1bda1a0c995cae0268b4519e41" kind="function"><name>TriPoint&lt; float &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga8554dff48c157c37bb29bdf97fb1a148" kind="function"><name>TriPoint&lt; float &gt;</name></member>
     <member refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kind="function"><name>Vector</name></member>
     <member refid="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" kind="function"><name>Vector&lt; ThreeVertIds, FaceId &gt;</name></member>
     <member refid="group__GeneralGroup_1ga937386adcc94bddd2ad6e08e67913e56" kind="function"><name>Vector&lt; Dipole, NodeId &gt;</name></member>

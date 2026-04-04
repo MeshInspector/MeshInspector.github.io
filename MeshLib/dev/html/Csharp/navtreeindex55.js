@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"classMR_1_1ReduceTotalAngleParams.html#a26a60d6c81102d66f3e99cbf6532d29d":[6,3,0,0,0,738,0],
 "classMR_1_1ReduceTotalAngleParams.html#a5d41804a8d8e6624a94e518d6f041943":[6,3,0,0,0,738,9],
 "classMR_1_1ReduceTotalAngleParams.html#a709f6e0843bbb4f88db931edc185fc51":[6,3,0,0,0,738,1],
 "classMR_1_1ReduceTotalAngleParams.html#a94c6e31579bf0c669014716b940be6e0":[6,3,0,0,0,738,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "classMR_1_1SceneSave_1_1Settings.html#a5e595203147ecda13f226eb110e20d49":[6,3,0,0,0,757,0,7],
 "classMR_1_1SceneSave_1_1Settings.html#a74cae48fadbf58330ad9b08f9a51c932":[6,3,0,0,0,757,0,4],
 "classMR_1_1SceneSave_1_1Settings.html#a92cdd81059c452c151997518f31e7cff":[6,3,0,0,0,757,0,6],
-"classMR_1_1SceneSave_1_1Settings.html#ac4ca19a3a0d8ce3343c3e8f48f32417c":[6,3,0,0,0,757,0,1],
-"classMR_1_1SceneSave_1_1Settings.html#ad1c1224d82ae055c70791a2b6d282a0a":[6,3,0,0,0,757,0,2]
+"classMR_1_1SceneSave_1_1Settings.html#ac4ca19a3a0d8ce3343c3e8f48f32417c":[6,3,0,0,0,757,0,1]
 };

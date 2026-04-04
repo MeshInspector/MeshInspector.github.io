@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1NoDefInit__MRVoxelId.html":[6,3,0,0,0,593],
 "classMR_1_1NoDefInit__MRVoxelId.html#a0dec1f010e4da33ca9b27dc750c1ed23":[6,3,0,0,0,593,8],
 "classMR_1_1NoDefInit__MRVoxelId.html#a50c965d5a8c422830fb9d1bc136e37d2":[6,3,0,0,0,593,6],
 "classMR_1_1NoDefInit__MRVoxelId.html#a5d2c4248a6de87ed3358eb1dfa5b1e07":[6,3,0,0,0,593,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1ObjectComparableWithReference.html":[6,3,0,0,0,604],
 "classMR_1_1ObjectComparableWithReference.html#a1dca124dd78a343860a1589adba8838a":[6,3,0,0,0,604,0],
 "classMR_1_1ObjectComparableWithReference.html#abaa91c8bb970f5caadfd11d0d60efd32":[6,3,0,0,0,604,2],
-"classMR_1_1ObjectComparableWithReference.html#adae4a238832b6a3602da40cfdc9068df":[6,3,0,0,0,604,1],
-"classMR_1_1ObjectDistanceMap.html":[6,3,0,0,0,605]
+"classMR_1_1ObjectComparableWithReference.html#adae4a238832b6a3602da40cfdc9068df":[6,3,0,0,0,604,1]
 };

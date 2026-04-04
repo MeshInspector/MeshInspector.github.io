@@ -15670,7 +15670,7 @@ var group__GeneralGroup =
     [ "MR::TriPoint::TriPoint", "group__GeneralGroup.html#gab5b9f73c3a043a47d8d279a89d744c5d", null ],
     [ "MR::TriPoint::TriPoint", "group__GeneralGroup.html#ga3665ef8bed664d4374515106f2128c58", null ],
     [ "MR::triPoint", "group__GeneralGroup.html#ga7c12c9c3062c6a3785c360bb69a8cc0e", null ],
-    [ "MR::TriPoint< float >", "group__GeneralGroup.html#gab119da1bda1a0c995cae0268b4519e41", null ],
+    [ "MR::TriPoint< float >", "group__GeneralGroup.html#ga8554dff48c157c37bb29bdf97fb1a148", null ],
     [ "MR::BasicUiRenderTask::BackwardPassParams::tryConsumeMouseHover", "group__GeneralGroup.html#ga7664329c16a19590708d5686044a648a", null ],
     [ "MR::TbbThreadMutex::tryLock", "group__GeneralGroup.html#gaf62d178d9fee21afe07b33f021a5a3e2", null ],
     [ "MR::ImGuiMenu::tryRenameSelectedObject", "group__GeneralGroup.html#ga46994fb4141726f726f8e903e0ebdd3b", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classMR_1_1PositionedText.html#a695c93813d9653fca5f94e3127da2f34":[6,3,0,0,0,719,0],
 "classMR_1_1PositionedText.html#a80bc1e820ef920546477e1070e75a12a":[6,3,0,0,0,719,7],
 "classMR_1_1PositionedText.html#a874d4faac3e88cd7637e77d17dfee868":[6,3,0,0,0,719,6],
 "classMR_1_1PositionedText.html#ab5062226fda0570ea408212fbf306e1d":[6,3,0,0,0,719,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "classMR_1_1RectIndexer.html#acf8fa4cfb8a7330e6a5182113284bfd3":[6,3,0,0,0,737,1],
 "classMR_1_1ReduceTotalAngleParams.html":[6,3,0,0,0,738],
 "classMR_1_1ReduceTotalAngleParams.html#a0d3717c4e63362acdbe4a9544bca2119":[6,3,0,0,0,738,4],
-"classMR_1_1ReduceTotalAngleParams.html#a10f2bb6665d80699ca204e6259b0831b":[6,3,0,0,0,738,2],
-"classMR_1_1ReduceTotalAngleParams.html#a26a60d6c81102d66f3e99cbf6532d29d":[6,3,0,0,0,738,0]
+"classMR_1_1ReduceTotalAngleParams.html#a10f2bb6665d80699ca204e6259b0831b":[6,3,0,0,0,738,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,0,20,854],
 "structMR_1_1MapOrHashMap.html":[6,0,0,20,303],
 "structMR_1_1MarchingCubesParams.html":[6,0,0,20,813],
 "structMR_1_1MarkedContour3f.html":[6,0,0,20,304],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1MeshSave_1_1MeshSaverCapabilities.html#aa4b2b579cd71f458759433d38a543ad4":[6,0,2,0,2,14,3,0],
 "structMR_1_1MeshSave_1_1NamedXfMesh.html":[6,0,0,2,13,0],
 "structMR_1_1MeshSave_1_1NamedXfMesh.html#a29db5926f11ff21b3d1cb3b4162e228a":[6,0,0,2,13,0,0],
-"structMR_1_1MeshSave_1_1NamedXfMesh.html#a8075df44d9587ee2fd2ee32f18d22f0b":[6,0,0,2,13,0,1],
-"structMR_1_1MeshSave_1_1NamedXfMesh.html#ac966a0534972ef8bcc25ee2d926a5703":[6,0,0,2,13,0,2]
+"structMR_1_1MeshSave_1_1NamedXfMesh.html#a8075df44d9587ee2fd2ee32f18d22f0b":[6,0,0,2,13,0,1]
 };

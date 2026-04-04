@@ -212,6 +212,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad62c0fb68093309e3cbcb38829bebc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components from components map ( <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> =&gt; <a class="el" href="structMR_1_1RegionId.html" title="Generated from class MR.RegionId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">RegionId</a> ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap)  <br /></td></tr>
 <tr class="memitem:aa2bb6b3b50188dbce4a6b21881cd4a05" id="r_aa2bb6b3b50188dbce4a6b21881cd4a05"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Pair_MRFace2RegionMap_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2bb6b3b50188dbce4a6b21881cd4a05">getAllComponentsMap</a> (MR.Const_MeshPart meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</td></tr>
 <tr class="memdesc:aa2bb6b3b50188dbce4a6b21881cd4a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components of mesh part as  <br /></td></tr>
+<tr class="memitem:aafdabcaa815838f1e6dff9fa434dfda6" id="r_aafdabcaa815838f1e6dff9fa434dfda6"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Pair_MRFace2RegionMap_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafdabcaa815838f1e6dff9fa434dfda6">getFacePairRegionMap</a> (MR.Const_Mesh mesh, MR.Std.Const_Vector_MRFaceFace facePairs, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, MR.Const_UndirectedEdgeBitSet? isCompBd=null)</td></tr>
+<tr class="memdesc:aafdabcaa815838f1e6dff9fa434dfda6"><td class="mdescLeft">&#160;</td><td class="mdescRight">given some face pairs, collects them in regions, where for each face in a region its pair face and its incident faces from other pairs are also attributed to that region; returns 1. the mapping: <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> -&gt; <a class="el" href="structMR_1_1RegionId.html" title="Generated from class MR.RegionId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">RegionId</a>, 2. the total number of regions Generated from function <span class="tt"><a class="el" href="#aafdabcaa815838f1e6dff9fa434dfda6" title="given some face pairs, collects them in regions, where for each face in a region its pair face and it...">MR.MeshComponents.getFacePairRegionMap</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:aed02141179803d699651fdacf8f89eca" id="r_aed02141179803d699651fdacf8f89eca"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Vector__Double__MRRegionId.html">MR.Vector_Double_MRRegionId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed02141179803d699651fdacf8f89eca">getRegionAreas</a> (MR.Const_MeshPart meshPart, MR.Const_Face2RegionMap regionMap, int numRegions)</td></tr>
 <tr class="memdesc:aed02141179803d699651fdacf8f89eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the area of each region given via the map Generated from function <span class="tt"><a class="el" href="#aed02141179803d699651fdacf8f89eca" title="computes the area of each region given via the map Generated from function MR.MeshComponents....">MR.MeshComponents.getRegionAreas</a></span>.  <br /></td></tr>
 <tr class="memitem:a199fc88b00417d91bd653cdde4d0ca9b" id="r_a199fc88b00417d91bd653cdde4d0ca9b"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Pair_MRFaceBitSet_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a199fc88b00417d91bd653cdde4d0ca9b">getLargeByAreaRegions</a> (MR.Const_MeshPart meshPart, MR.Const_Face2RegionMap regionMap, int numRegions, float minArea)</td></tr>
@@ -906,6 +908,47 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns one connected component containing given vertex, not effective to call more than once, if several components are needed use getAllComponentsVerts Generated from function <span class="tt"><a class="el" href="#a7ffcd23e1cfec8742a9c957167fa2309" title="returns one connected component containing given vertex, not effective to call more than once,...">MR.MeshComponents.getComponentVerts</a></span>. </p>
+
+</div>
+</div>
+<a id="aafdabcaa815838f1e6dff9fa434dfda6" name="aafdabcaa815838f1e6dff9fa434dfda6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafdabcaa815838f1e6dff9fa434dfda6">&#9670;&#160;</a></span>getFacePairRegionMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Pair_MRFace2RegionMap_Int MR.MeshComponents.getFacePairRegionMap </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MRFaceFace</td>          <td class="paramname"><span class="paramname"><em>facePairs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>?</td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_UndirectedEdgeBitSet?</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>given some face pairs, collects them in regions, where for each face in a region its pair face and its incident faces from other pairs are also attributed to that region; returns 1. the mapping: <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> -&gt; <a class="el" href="structMR_1_1RegionId.html" title="Generated from class MR.RegionId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">RegionId</a>, 2. the total number of regions Generated from function <span class="tt"><a class="el" href="#aafdabcaa815838f1e6dff9fa434dfda6" title="given some face pairs, collects them in regions, where for each face in a region its pair face and it...">MR.MeshComponents.getFacePairRegionMap</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>. </p>
 
 </div>
 </div>

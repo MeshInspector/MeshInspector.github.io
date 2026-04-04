@@ -23,6 +23,7 @@ var classMR_1_1MeshComponents =
     [ "getComponentsUndirectedEdges", "classMR_1_1MeshComponents.html#a848142f2974fa51ba99153efe3ccdfd7", null ],
     [ "getComponentsVerts", "classMR_1_1MeshComponents.html#a8647cc2019144552f51a6d3992e76196", null ],
     [ "getComponentVerts", "classMR_1_1MeshComponents.html#a7ffcd23e1cfec8742a9c957167fa2309", null ],
+    [ "getFacePairRegionMap", "classMR_1_1MeshComponents.html#aafdabcaa815838f1e6dff9fa434dfda6", null ],
     [ "getLargeByAreaComponents", "classMR_1_1MeshComponents.html#a2769cc1bbe61c2a15813033e795f068b", null ],
     [ "getLargeByAreaComponents", "classMR_1_1MeshComponents.html#a9c1c9e6ca528c52d4bee3628219808d9", null ],
     [ "getLargeByAreaRegions", "classMR_1_1MeshComponents.html#a199fc88b00417d91bd653cdde4d0ca9b", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1SimpleVolumeMinMaxU16.html#a35aec0cd59065ab05ccff493f4d95094":[6,3,0,0,0,784,2],
 "classMR_1_1SimpleVolumeMinMaxU16.html#a457605d7ddf8a8702fd9d467e43d66ec":[6,3,0,0,0,784,6],
 "classMR_1_1SimpleVolumeMinMaxU16.html#a47a7be706a36e96fb2d26cc9c049afca":[6,3,0,0,0,784,11],
 "classMR_1_1SimpleVolumeMinMaxU16.html#a69c55af1b2425fc2e906863c5616e748":[6,3,0,0,0,784,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1StitchHolesParams.html#a864057f59341c6c201d82b91b4d9c482":[6,3,0,0,0,802,2],
 "classMR_1_1StitchHolesParams.html#a960ec243807f948040f26d5a634e5dc8":[6,3,0,0,0,802,4],
 "classMR_1_1StitchHolesParams.html#a97509e6b095df58502fc3e0c700cc625":[6,3,0,0,0,802,6],
-"classMR_1_1StitchHolesParams.html#ab0de2c800261b87f7ea4435f0fe117c0":[6,3,0,0,0,802,1],
-"classMR_1_1StitchHolesParams.html#ad228199df1b8233da99a3f3b9318e5ff":[6,3,0,0,0,802,3]
+"classMR_1_1StitchHolesParams.html#ab0de2c800261b87f7ea4435f0fe117c0":[6,3,0,0,0,802,1]
 };
