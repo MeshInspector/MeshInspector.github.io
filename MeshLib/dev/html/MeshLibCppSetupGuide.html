@@ -380,7 +380,10 @@ Prerequisites</h4>
 </ul>
 </li>
 <li><b>CUDA Toolkit</b><ul>
-<li>Install <a href="https://developer.nvidia.com/cuda-12-0-0-download-archive">CUDA v12.0</a> from the official website. Follow the Linux installation instructions provided on the CUDA page.</li>
+<li>Install <a href="https://developer.nvidia.com/cuda-12-0-0-download-archive">CUDA v12.0</a>/<a href="https://developer.nvidia.com/cuda-12-6-3-download-archive">CUDA v12.6 (for Ubuntu 24.04)</a> from the official website. Follow the Linux installation instructions provided on the CUDA page. <dl class="section note"><dt>Note</dt><dd>You might need to execute &lsquo;export PATH=$(echo $PATH | tr &rsquo;:' '<br  />
+' | grep -v '/mnt' | tr '<br  />
+' ':' | sed 's/:$//')` if you are on WSL to prevent interfearing with host machine CUDA Toolkit (this command will filter host machine paths from PATH enviroment)</dd></dl>
+</li>
 </ul>
 </li>
 </ol>
