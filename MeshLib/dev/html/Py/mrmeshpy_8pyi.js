@@ -2296,6 +2296,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.isEdgeBetweenDoubleTris", "namespacemrmeshpy.html#aab0260a8d9a199fc6d4d0082917d943d", null ],
     [ "mrmeshpy.isEdgeLoop", "namespacemrmeshpy.html#a44e72b12f4225b0ac6abd826cbd96572", null ],
     [ "mrmeshpy.isEdgePath", "namespacemrmeshpy.html#a1dedef00c445794538d8b4d629a229d3", null ],
+    [ "mrmeshpy.isFillingMultipleEdgeFree", "namespacemrmeshpy.html#ad0f2e4977a147a93811a27fa8292949a", null ],
     [ "mrmeshpy.isHoleBd", "namespacemrmeshpy.html#a2f6b9543d9b79fbd064ca2ae73eff2bd", null ],
     [ "mrmeshpy.isInside", "namespacemrmeshpy.html#a66b146c38f4af235db6c943b38b162fe", null ],
     [ "mrmeshpy.isInside", "namespacemrmeshpy.html#ad51b4c716c02c11805a8d2877b968c58", null ],

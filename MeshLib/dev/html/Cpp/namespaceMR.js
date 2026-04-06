@@ -2643,6 +2643,7 @@ var namespaceMR =
     [ "isEdgeBetweenDoubleTris", "group__MeshFixerGroup.html#ga754a74fa515375b32aee32394abe05f6", null ],
     [ "isEdgeLoop", "group__SurfacePathGroup.html#gac69eac289f7c94aff94e7e9db7ed8a62", null ],
     [ "isEdgePath", "group__SurfacePathGroup.html#gaa19748400735de370a91b932989ff0f0", null ],
+    [ "isFillingMultipleEdgeFree", "group__FillHoleGroup.html#ga4ac05f89e820abf374a81235ddda0750", null ],
     [ "isHoleBd", "group__FillHoleGroup.html#ga3e708a001bfa14982547301df2e42e83", null ],
     [ "isInside", "group__AABBTreeGroup.html#ga7892dab0d0fdaed07c3c16c0b4ccc6e9", null ],
     [ "isInside", "group__AABBTreeGroup.html#gaf5614c6f47e495a7aa4513078b1b2ecb", null ],

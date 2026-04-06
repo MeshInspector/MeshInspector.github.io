@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1EdgeScalars.html#a359f1613434f51ea703f19ea84253fd9":[6,3,0,0,0,335,9],
 "classMR_1_1EdgeScalars.html#a368678fe1ad71c11803dc769ff3cd4fe":[6,3,0,0,0,335,2],
 "classMR_1_1EdgeScalars.html#a3bcb491ca909954a16321b9b7f1b0672":[6,3,0,0,0,335,24],
 "classMR_1_1EdgeScalars.html#a424fde3b08c314aef2cfde4888699873":[6,3,0,0,0,335,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1FaceDistancesSettings.html":[6,3,0,0,0,349],
 "classMR_1_1FaceDistancesSettings.html#a10655db51c0721652b4d91fe30ff8ec3":[6,3,0,0,0,349,8],
 "classMR_1_1FaceDistancesSettings.html#a25d0db10c99903c8c3b4381820bed608":[6,3,0,0,0,349,6],
-"classMR_1_1FaceDistancesSettings.html#a44041639ed770fa7098639bc3a5b3b3d":[6,3,0,0,0,349,2],
-"classMR_1_1FaceDistancesSettings.html#a4432ed7f82b1aeabf03a300484de12dc":[6,3,0,0,0,349,5]
+"classMR_1_1FaceDistancesSettings.html#a44041639ed770fa7098639bc3a5b3b3d":[6,3,0,0,0,349,2]
 };

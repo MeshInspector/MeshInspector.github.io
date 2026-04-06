@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"MRPrimitiveMapsComposition_8h.html#ac60c29479af26f6a357c4a44fe86fc4a":[6,2,1,0,0,0,0,1,286,4],
 "MRPrimitiveMapsComposition_8h.html#ae313f7f1980caebbc86739865a368095":[6,2,1,0,0,0,0,1,286,0],
 "MRPrimitiveMapsComposition_8h_source.html":[6,2,1,0,0,0,0,1,286],
 "MRPrism_8h.html":[6,2,1,0,0,0,0,1,287],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "MRRadiusCompensation_8h.html#a8cb7a197abd6c34c5cb5a75b4e988b6a":[6,2,1,0,0,0,0,1,294,30],
 "MRRadiusCompensation_8h.html#a9bda45c6401321692836dd31bd72f413":[6,2,1,0,0,0,0,1,294,0],
 "MRRadiusCompensation_8h.html#a9ca209bc23a4b4db898f67043a2d770f":[6,2,1,0,0,0,0,1,294,12],
-"MRRadiusCompensation_8h.html#aa15869816b7e17408ed68152c5347138":[6,2,1,0,0,0,0,1,294,3],
-"MRRadiusCompensation_8h.html#aa66c4ef94a775004bab6d4396121dadb":[6,2,1,0,0,0,0,1,294,34]
+"MRRadiusCompensation_8h.html#aa15869816b7e17408ed68152c5347138":[6,2,1,0,0,0,0,1,294,3]
 };

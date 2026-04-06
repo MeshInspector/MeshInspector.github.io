@@ -2703,6 +2703,7 @@ var classMR =
     [ "isEdgeBetweenDoubleTris", "classMR.html#a2aad8cde3ad7daeae5ea6ed7e582e657", null ],
     [ "isEdgeLoop", "classMR.html#a9430b9f1dc7aa3c95d210209f7db116f", null ],
     [ "isEdgePath", "classMR.html#a9bc46ac9a7351f9747cc7e39205a63dd", null ],
+    [ "isFillingMultipleEdgeFree", "classMR.html#a7ea8a5bf0cbfab64a32a2c43a731f580", null ],
     [ "isHoleBd", "classMR.html#aaf41aa6eedb3581448c50f528aa4b88d", null ],
     [ "isInside", "classMR.html#a288b19dd95692c9a3dbec7c07f9ddf7c", null ],
     [ "isInside", "classMR.html#a9db4e30a56a12fef93111c28021fe572", null ],

@@ -194,6 +194,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa4f6f304ac87174ff7ad7b84c9c8400e" id="r_gaa4f6f304ac87174ff7ad7b84c9c8400e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa4f6f304ac87174ff7ad7b84c9c8400e">MR::getPlanarHoleFillPlans</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</td></tr>
 <tr class="memitem:ga9c0d16866c22ddd9f9a804ceaafa6def" id="r_ga9c0d16866c22ddd9f9a804ceaafa6def"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c0d16866c22ddd9f9a804ceaafa6def">MR::executeHoleFillPlan</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId a0, <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &amp;plan, FaceBitSet *outNewFaces=nullptr)</td></tr>
 <tr class="memdesc:ga9c0d16866c22ddd9f9a804ceaafa6def"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly triangulates the face or hole to the left of (e) given the plan (quickly compared to fillHole function)  <br /></td></tr>
+<tr class="memitem:ga4ac05f89e820abf374a81235ddda0750" id="r_ga4ac05f89e820abf374a81235ddda0750"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ac05f89e820abf374a81235ddda0750">MR::isFillingMultipleEdgeFree</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &amp;plan)</td></tr>
 <tr class="memitem:ga4cf35e5d941d2017efa3dbf1d9ac0c2f" id="r_ga4cf35e5d941d2017efa3dbf1d9ac0c2f"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4cf35e5d941d2017efa3dbf1d9ac0c2f">MR::fillHoleTrivially</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId a, FaceBitSet *outNewFaces=nullptr)</td></tr>
 <tr class="memdesc:ga4cf35e5d941d2017efa3dbf1d9ac0c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triangulates face of hole in mesh trivially<br  />
 .  <br /></td></tr>
@@ -813,6 +814,9 @@ Simple metric minimizing edge length </p>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> MR::getHoleFillPlan </td>
@@ -830,6 +834,11 @@ Simple metric minimizing edge length </p>
           <td class="paramtype">const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFillHole_8h.html">MRMesh/MRMeshFillHole.h</a>&gt;</code></p>
@@ -842,6 +851,9 @@ Simple metric minimizing edge length </p>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt; MR::getHoleFillPlans </td>
@@ -859,6 +871,11 @@ Simple metric minimizing edge length </p>
           <td class="paramtype">const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFillHole_8h.html">MRMesh/MRMeshFillHole.h</a>&gt;</code></p>
@@ -962,6 +979,9 @@ Simple metric minimizing edge length </p>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> MR::getPlanarHoleFillPlan </td>
@@ -974,6 +994,11 @@ Simple metric minimizing edge length </p>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFillHole_8h.html">MRMesh/MRMeshFillHole.h</a>&gt;</code></p>
@@ -986,6 +1011,9 @@ Simple metric minimizing edge length </p>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt; MR::getPlanarHoleFillPlans </td>
@@ -998,6 +1026,11 @@ Simple metric minimizing edge length </p>
           <td class="paramtype">const std::vector&lt; EdgeId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>holeRepresentativeEdges</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFillHole_8h.html">MRMesh/MRMeshFillHole.h</a>&gt;</code></p>
@@ -1122,6 +1155,38 @@ All new faces should be parallel to given direction </p>
 <p>Forbids connecting vertices from the same hole <br  />
 penalize for long edges and its deviation from upDir <br  />
 All new faces should be parallel to given direction </p>
+
+</div>
+</div>
+<a id="ga4ac05f89e820abf374a81235ddda0750" name="ga4ac05f89e820abf374a81235ddda0750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ac05f89e820abf374a81235ddda0750">&#9670;&#160;</a></span>isFillingMultipleEdgeFree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::isFillingMultipleEdgeFree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>plan</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshFillHole_8h.html">MRMesh/MRMeshFillHole.h</a>&gt;</code></p>
+<p>returns true if <a class="el" href="#ga9c0d16866c22ddd9f9a804ceaafa6def" title="quickly triangulates the face or hole to the left of (e) given the plan (quickly compared to fillHole...">executeHoleFillPlan()</a> with the same topology and plan does not introduce any edge with the same end-vertices as any existed edge in the mesh; note: this function can be used for checking a fill plan that was generated before filling other holes </p>
 
 </div>
 </div>

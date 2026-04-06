@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html#abca6f6675d2124d335ae4357ed4d1dc7":[6,3,0,0,0,13,0],
 "classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html#af2b904e6c5af812aeb080bb9aef8d15b":[6,3,0,0,0,13,1],
 "classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html":[6,3,0,0,0,14],
 "classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html#a3768aaa39044923b2b23cbdb01bfce1c":[6,3,0,0,0,14,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1AngleMeasurementObject.html#acb640cf9586b1b9be483c194fa810982":[6,3,0,0,0,24,19],
 "classMR_1_1AngleMeasurementObject.html#acfa9bb846d637f4e32411dc1e4302035":[6,3,0,0,0,24,0],
 "classMR_1_1AngleMeasurementObject.html#ad3b4ee3c17de77f1dc14afc96c522d0a":[6,3,0,0,0,24,52],
-"classMR_1_1AngleMeasurementObject.html#ad4561dad529be9e6054b961735c206f6":[6,3,0,0,0,24,23],
-"classMR_1_1AngleMeasurementObject.html#addf8e8e93f39514238b0f08ffe117a1d":[6,3,0,0,0,24,7]
+"classMR_1_1AngleMeasurementObject.html#ad4561dad529be9e6054b961735c206f6":[6,3,0,0,0,24,23]
 };

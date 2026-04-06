@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"classMR_1_1SceneSave_1_1Settings.html#ac4ca19a3a0d8ce3343c3e8f48f32417c":[6,3,0,0,0,757,0,1],
 "classMR_1_1SceneSave_1_1Settings.html#ad1c1224d82ae055c70791a2b6d282a0a":[6,3,0,0,0,757,0,2],
 "classMR_1_1SceneSave_1_1Settings.html#af451139658d5d6f402b37added149e2e":[6,3,0,0,0,757,0,0],
 "classMR_1_1SceneSettings.html":[6,3,0,0,0,758],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "classMR_1_1SimpleVolumeMinMaxU16.html":[6,3,0,0,0,784],
 "classMR_1_1SimpleVolumeMinMaxU16.html#a0cdd99fa9e49bfe773d1799d88046ab5":[6,3,0,0,0,784,0],
 "classMR_1_1SimpleVolumeMinMaxU16.html#a1f602347fc50113add668e246fc91397":[6,3,0,0,0,784,8],
-"classMR_1_1SimpleVolumeMinMaxU16.html#a21248d3d5cb2c6ab1f27b5fd46e4184b":[6,3,0,0,0,784,4],
-"classMR_1_1SimpleVolumeMinMaxU16.html#a2e110ce530967d9ebf8768c19f0bb2dc":[6,3,0,0,0,784,3]
+"classMR_1_1SimpleVolumeMinMaxU16.html#a21248d3d5cb2c6ab1f27b5fd46e4184b":[6,3,0,0,0,784,4]
 };

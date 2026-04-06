@@ -69,6 +69,7 @@ var group__FillHoleGroup =
     [ "MR::getUniversalMetric", "group__FillHoleGroup.html#gaf752f0a8245805123dc73f5c6a1088b7", null ],
     [ "MR::getVerticalStitchMetric", "group__FillHoleGroup.html#ga7dc0107c190f70b0ab3a4e084cf298ef", null ],
     [ "MR::getVerticalStitchMetricEdgeBased", "group__FillHoleGroup.html#gabbdbb890c942e76051b284e249608eed", null ],
+    [ "MR::isFillingMultipleEdgeFree", "group__FillHoleGroup.html#ga4ac05f89e820abf374a81235ddda0750", null ],
     [ "MR::isHoleBd", "group__FillHoleGroup.html#ga3e708a001bfa14982547301df2e42e83", null ],
     [ "MR::makeBridge", "group__FillHoleGroup.html#gab3e60c9de18875e78ea96106adbacc8a", null ],
     [ "MR::makeBridgeEdge", "group__FillHoleGroup.html#ga22925ca42a37db6c68a9101867744a31", null ],

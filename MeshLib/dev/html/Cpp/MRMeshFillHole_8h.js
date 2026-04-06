@@ -14,6 +14,7 @@ var MRMeshFillHole_8h =
     [ "MR::getHoleFillPlans", "group__FillHoleGroup.html#ga4d08e81c1e94219012fdb2a30693f11d", null ],
     [ "MR::getPlanarHoleFillPlan", "group__FillHoleGroup.html#ga115c55acfde4c7d5a7829c8871546539", null ],
     [ "MR::getPlanarHoleFillPlans", "group__FillHoleGroup.html#gaa4f6f304ac87174ff7ad7b84c9c8400e", null ],
+    [ "MR::isFillingMultipleEdgeFree", "group__FillHoleGroup.html#ga4ac05f89e820abf374a81235ddda0750", null ],
     [ "MR::isHoleBd", "group__FillHoleGroup.html#ga3e708a001bfa14982547301df2e42e83", null ],
     [ "MR::makeBridge", "group__FillHoleGroup.html#gab3e60c9de18875e78ea96106adbacc8a", null ],
     [ "MR::makeBridgeEdge", "group__FillHoleGroup.html#ga22925ca42a37db6c68a9101867744a31", null ],

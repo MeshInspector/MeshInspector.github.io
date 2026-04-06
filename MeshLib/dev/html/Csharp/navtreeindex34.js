@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1Features.html#ac06224376bb2a03c01c7c45829eec78b":[6,3,0,0,0,363,15],
 "classMR_1_1Features.html#ad485a26ea75e0dc5aba063db4babcc70":[6,3,0,0,0,363,21],
 "classMR_1_1Features.html#ae0c4b0a33a2306988bed3afd7b6e6530":[6,3,0,0,0,363,18],
 "classMR_1_1Features.html#ae6f2b52cd268f6acb93756796a552e52":[6,3,0,0,0,363,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1FindOverhangsSettings.html#a6b84ac5e0a67cbb7a8ff4db4a69bcb8f":[6,3,0,0,0,373,2],
 "classMR_1_1FindOverhangsSettings.html#aa59a13d235fa5ab20d2bc64563534ea6":[6,3,0,0,0,373,9],
 "classMR_1_1FindOverhangsSettings.html#ab15a3258192bcf4a07e57420fb94ef85":[6,3,0,0,0,373,4],
-"classMR_1_1FindOverhangsSettings.html#ad367385bc0ab90c434afe38185e57912":[6,3,0,0,0,373,1],
-"classMR_1_1FindOverhangsSettings.html#aea130257b78e8d7044701e45f8b1ccbb":[6,3,0,0,0,373,6]
+"classMR_1_1FindOverhangsSettings.html#ad367385bc0ab90c434afe38185e57912":[6,3,0,0,0,373,1]
 };

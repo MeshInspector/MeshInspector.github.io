@@ -87,6 +87,7 @@ var MRMeshFillHole_8h =
     [ "MR_HoleFillPlan_OffsetPtr", "MRMeshFillHole_8h.html#a8e6ef629978cfec194660bd3ff4e25da", null ],
     [ "MR_HoleFillPlan_Set_items", "MRMeshFillHole_8h.html#a4ce6abc6c0bc80ae55c9883c25474e2b", null ],
     [ "MR_HoleFillPlan_Set_numTris", "MRMeshFillHole_8h.html#ad933d33cfd5bde160ffbd8936faacb51", null ],
+    [ "MR_isFillingMultipleEdgeFree", "MRMeshFillHole_8h.html#a6212ddd3a0e794cbb7b10f4f4ab72887", null ],
     [ "MR_isHoleBd", "MRMeshFillHole_8h.html#affa45fe0dfbca359e1b85fc2f70b67d8", null ],
     [ "MR_makeBridge", "MRMeshFillHole_8h.html#a21e7e1182cf705347c75c87c5582c157", null ],
     [ "MR_makeBridgeEdge", "MRMeshFillHole_8h.html#ab3bac0844d3f86cba1e0152bdd8c9aeb", null ],

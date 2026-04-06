@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"MRMinMaxArg_8h.html#a20cba3cd2365ac883f74faee6d8f8d59":[6,2,1,0,0,0,0,1,206,5],
 "MRMinMaxArg_8h.html#a311870aae1f4a1fce6a4e45ff3d47d61":[6,2,1,0,0,0,0,1,206,22],
 "MRMinMaxArg_8h.html#a38cd19576b254c46b64c61a71df823a8":[6,2,1,0,0,0,0,1,206,26],
 "MRMinMaxArg_8h.html#a47e4327f47e0a2ff9736f11d158bd7f8":[6,2,1,0,0,0,0,1,206,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "MRMovementBuildBody_8h_source.html":[6,2,1,0,0,0,0,1,208],
 "MRMultiwayAligningTransform_8h.html":[6,2,1,0,0,0,0,1,209],
 "MRMultiwayAligningTransform_8h.html#a052a3477d845269928a28731402b0d1a":[6,2,1,0,0,0,0,1,209,20],
-"MRMultiwayAligningTransform_8h.html#a0b07f164f45d823b1fdf19542501783e":[6,2,1,0,0,0,0,1,209,1],
-"MRMultiwayAligningTransform_8h.html#a0c88126490b41f115a6af3edab8769e7":[6,2,1,0,0,0,0,1,209,34]
+"MRMultiwayAligningTransform_8h.html#a0b07f164f45d823b1fdf19542501783e":[6,2,1,0,0,0,0,1,209,1]
 };
