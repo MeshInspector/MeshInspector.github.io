@@ -280,20 +280,19 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFacePairs.size(); i++) {</div>
 <div class="line">            var pair = collidingFacePairs[i];</div>
-<div class="line">            Console.WriteLine(<a class="code hl_function" href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a><span class="stringliteral">&quot;FaceA: {pair.aFace.id} FaceB: {pair.bFace.id}&quot;</span>);</div>
+<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;FaceA: {pair.aFace.id} FaceB: {pair.bFace.id}&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line"> </div>
 <div class="line">        var collidingFaceBitSet = MR.findCollidingTriangleBitsets(meshPartA, meshPartB);</div>
 <div class="line">        var bitSet = collidingFaceBitSet.first();</div>
-<div class="line">        Console.WriteLine(<a class="code hl_function" href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a><span class="stringliteral">&quot;Colliding faces on MeshA: {bitSet.count()}&quot;</span>);</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshA: {bitSet.count()}&quot;</span>);</div>
 <div class="line">        bitSet = collidingFaceBitSet.second();</div>
-<div class="line">        Console.WriteLine(<a class="code hl_function" href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a><span class="stringliteral">&quot;Colliding faces on MeshB: {bitSet.count()}&quot;</span>);</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshB: {bitSet.count()}&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">        var isColliding = !MR.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).empty();</div>
-<div class="line">        Console.WriteLine(<a class="code hl_function" href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a><span class="stringliteral">&quot;Meshes are colliding: {isColliding}\n&quot;</span>);</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Meshes are colliding: {isColliding}\n&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="aI18nGuide_8dox_html_ae36b3067763c521801b5dc0c152dff01"><div class="ttname"><a href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a></div><div class="ttdeci">*po file Creates $(OutDir) locale&lt; lang &gt;\LC_MESSAGES\` output directories. 3. Calls `msgfmt --check` on each `.po` to produce the corresponding `.mo`. If `msgfmt` is not found</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

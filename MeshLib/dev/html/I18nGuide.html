@@ -170,14 +170,72 @@ $(function(){initNavTree('I18nGuide.html','',''); });
       </li>
       <li class="level2">
         <a href="#autotoc_md106">MSBuild integration </a>
-        <ul>
-          <li class="level3">
-            <a href="#autotoc_md107">Setup </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md108">How it works </a>
-          </li>
-        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="level1">
+    <a href="#I18nInit">In-app initialization and configuration </a>
+    <ul>
+      <li class="level2">
+        <a href="#autotoc_md107">Automatic initialization </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md108">Registering a custom domain </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md109">Registering a custom catalog path </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md110">Switching locale at runtime </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md111">Reacting to locale changes </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md112">Defining human-readable locale names </a>
+      </li>
+    </ul>
+  </li>
+  <li class="level1">
+    <a href="#I18nAPI">Translation functions and macros </a>
+    <ul>
+      <li class="level2">
+        <a href="#autotoc_md113">Macros </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md114">Direct translate functions </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md115">Static arrays and deferred translation </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md116">Context disambiguation </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md117">Plural forms </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md118">TRANSLATORS comments </a>
+      </li>
+      <li class="level2">
+        <a href="#I18nCustomHeader">Custom header file for your domain </a>
+      </li>
+    </ul>
+  </li>
+  <li class="level1">
+    <a href="#I18nJSON">Translating JSON menu files </a>
+    <ul>
+      <li class="level2">
+        <a href="#autotoc_md119">.items.json </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md120">.ui.json </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md121">Domain auto-registration </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md122">Extracting JSON strings </a>
       </li>
     </ul>
   </li>
@@ -265,10 +323,7 @@ CMake integration</h2>
 <p>If <span class="tt">msgfmt</span> is not found, the function silently does nothing and no target is created. This is why the <span class="tt">if(TARGET ...)</span> guard is needed before <span class="tt">add_dependencies</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md106"></a>
 MSBuild integration</h2>
-<p><span class="tt">source/CompileTranslations.targets</span> provides an equivalent build-time <span class="tt">.po</span> → <span class="tt">.mo</span> compilation step for Visual Studio projects.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md107"></a>
-Setup</h3>
-<p>Import the targets file and declare one or more <span class="tt">TranslationLocaleDir</span> items pointing at your <span class="tt">locale/</span> root directories:</p>
+<p><span class="tt">source/CompileTranslations.targets</span> provides an equivalent build-time <span class="tt">.po</span> → <span class="tt">.mo</span> compilation step for Visual Studio projects. Import the targets file and declare one or more <span class="tt">TranslationLocaleDir</span> items pointing at your <span class="tt">locale/</span> root directories:</p>
 <div class="fragment"><div class="line">&lt;<span class="keywordtype">Project</span>&gt;</div>
 <div class="line">  <span class="comment">&lt;!-- Tell CompileTranslations where your .po files live. --&gt;</span></div>
 <div class="line">  &lt;<span class="keywordtype">ItemGroup</span>&gt;</div>
@@ -278,12 +333,192 @@ Setup</h3>
 <div class="line">  &lt;<span class="keywordtype">Import</span> <span class="keyword">Project</span>=<span class="stringliteral">&quot;$(MeshLibDir)\source\CompileTranslations.targets&quot;</span> /&gt;</div>
 <div class="line">&lt;/<span class="keywordtype">Project</span>&gt;</div>
 </div><!-- fragment --><p>MeshLib's own <span class="tt">common.props</span> already adds <span class="tt">$(MeshLibDir)\locale</span> to <span class="tt">TranslationLocaleDir</span>, so projects that import <span class="tt">common.props</span> inherit MeshLib's translations automatically.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md108"></a>
-How it works</h3>
 <p>The <span class="tt">CompileTranslations</span> target runs before <span class="tt">Build</span> and:</p>
 <ol type="1">
-<li>Globs every `&lt;TranslationLocaleDir&gt;/* </li>
+<li>Globs every *.po file in specified locale dirs.</li>
+<li>Creates <span class="tt">$(OutDir)locale\&lt;lang&gt;\LC_MESSAGES\</span> output directories.</li>
+<li>Calls <span class="tt">msgfmt --check</span> on each <span class="tt">.po</span> to produce the corresponding <span class="tt">.mo</span>.</li>
 </ol>
+<p>If <span class="tt">msgfmt</span> is not found, the target is silently skipped and the build continues without compiling translations.</p>
+<h1 class="doxsection"><a class="anchor" id="I18nInit"></a>
+In-app initialization and configuration</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md107"></a>
+Automatic initialization</h2>
+<p>Some configuration is performed automatically during the MRViewer library loading:</p><ol type="1">
+<li>Registration of the default domain <span class="tt">"MeshLib"</span>.</li>
+<li>Adding the default catalog path: <span class="tt">SystemPath::getResourcesDirectory() / "locale"</span>.</li>
+</ol>
+<p>The initial locale is <span class="tt">"en"</span> (i.e. no translations applied).</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md108"></a>
+Registering a custom domain</h2>
+<p>Call <span class="tt">addDomain()</span> once and use a returned value from <span class="tt">findDomain()</span>, before any translations from that domain are needed:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRViewer/MRLocale.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line">MR::Locale::addDomain( <span class="stringliteral">&quot;MyPlugin&quot;</span> );</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> kMyDomainId = MR::Locale::findDomain( <span class="stringliteral">&quot;MyPlugin&quot;</span> );</div>
+</div><!-- fragment --><p>The returned integer is stable for the process lifetime. You can pass it to <span class="tt">translate()</span> via <span class="tt">MR::Locale::Domain{ kMyDomainId }</span>.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md109"></a>
+Registering a custom catalog path</h2>
+<p>If your plugin stores <span class="tt">.mo</span> files outside the standard resources directory, register the path before any UI is shown:</p>
+<div class="fragment"><div class="line">MR::Locale::addCatalogPath( myPlugin.resourceDir() / <span class="stringliteral">&quot;locale&quot;</span> );</div>
+</div><!-- fragment --><p>Paths are deduplicated. Every call to <span class="tt">addCatalogPath</span> or <span class="tt">addDomain</span> regenerates the active locale object, so new catalogs are available immediately.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md110"></a>
+Switching locale at runtime</h2>
+<div class="fragment"><div class="line">MR::Locale::set( <span class="stringliteral">&quot;ko&quot;</span> );   <span class="comment">// switch to Korean</span></div>
+<div class="line">MR::Locale::set( <span class="stringliteral">&quot;en&quot;</span> );   <span class="comment">// back to English</span></div>
+</div><!-- fragment --><p><span class="tt">set()</span> fires the <span class="tt">onChanged</span> signal synchronously before returning.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md111"></a>
+Reacting to locale changes</h2>
+<div class="fragment"><div class="line">boost::signals2::connection conn = MR::Locale::onChanged( [&amp;]( <span class="keyword">const</span> std::string&amp; localeName )</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">// rebuild cached translated strings, tooltips, etc.</span></div>
+<div class="line">    rebuildUI();</div>
+<div class="line">} );</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md112"></a>
+Defining human-readable locale names</h2>
+<p>Many common languages and regions already have a pre-loaded human-readable name provided by CLDR. If your locale is not in the list, you can add it in runtime.</p>
+<div class="fragment"><div class="line">MR::Locale::setDisplayName( <span class="stringliteral">&quot;my_variant&quot;</span>, <span class="stringliteral">&quot;My Language (Special)&quot;</span> );</div>
+</div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="I18nAPI"></a>
+Translation functions and macros</h1>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md113"></a>
+Macros</h2>
+<p>All macros are defined in <span class="tt">MRViewer/MRI18n.h</span>, except <span class="tt">_t</span>, which is in <span class="tt">MRMesh/MRMeshFwd.h</span>:</p>
+<ul>
+<li><span class="tt">_tr("text")</span> - UI labels passed directly to ImGui/UI functions.</li>
+<li><span class="tt">s_tr("text")</span> - When you need an owning string (storage, concatenation).</li>
+<li><span class="tt">f_tr("text {}")</span> - Format strings for <span class="tt">fmt::format()</span>.</li>
+<li><span class="tt">_t("text")</span> - Marking strings for extraction in contexts where the original value must be returned (see an example below).</li>
+</ul>
+<dl class="section warning"><dt>Warning</dt><dd><span class="tt">_tr()</span> returns a pointer into a <b>temporary</b> <span class="tt">std::string</span> that is destroyed at the end of the full expression. Always consume <span class="tt">_tr()</span> in the same expression, or use <span class="tt">s_tr()</span> / <span class="tt">MR::Locale::translate()</span> to store the result.</dd></dl>
+<div class="fragment"><div class="line"><span class="comment">// CORRECT: consumed in the same expression</span></div>
+<div class="line">UI::button( _tr( <span class="stringliteral">&quot;Save&quot;</span> ), size );</div>
+<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, _tr( <span class="stringliteral">&quot;Label&quot;</span> ) );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// WRONG: dangling pointer</span></div>
+<div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> label = _tr( <span class="stringliteral">&quot;Save&quot;</span> );</div>
+<div class="line">UI::button( label, size );              <span class="comment">// undefined behavior</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// CORRECT: store as std::string</span></div>
+<div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> label = s_tr( <span class="stringliteral">&quot;Save&quot;</span> );</div>
+<div class="line">UI::button( label.c_str(), size );</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md114"></a>
+Direct translate functions</h2>
+<p><span class="tt">MR::Locale::translate()</span> accepts an optional <span class="tt">Domain</span> parameter:</p>
+<div class="fragment"><div class="line"><span class="comment">// simple message (default MeshLib domain)</span></div>
+<div class="line">std::string t = MR::Locale::translate( <span class="stringliteral">&quot;Open&quot;</span> );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// with explicit domain</span></div>
+<div class="line">std::string t = MR::Locale::translate( <span class="stringliteral">&quot;Open&quot;</span>, MR::Locale::Domain{ kMyDomainId } );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// context disambiguation</span></div>
+<div class="line">std::string t = MR::Locale::translate( <span class="stringliteral">&quot;Camera&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// plural form</span></div>
+<div class="line">std::string t = MR::Locale::translate( <span class="stringliteral">&quot;%d item&quot;</span>, <span class="stringliteral">&quot;%d items&quot;</span>, count );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// batch translation for combo lists</span></div>
+<div class="line"><span class="keyword">auto</span> items = MR::Locale::translateAll( kModeNames );</div>
+<div class="line"><span class="keyword">auto</span> items = MR::Locale::translateAll( <span class="stringliteral">&quot;context&quot;</span>, kModeNames );</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md115"></a>
+Static arrays and deferred translation</h2>
+<p>Mark strings with <span class="tt">_t()</span> at declaration time so <span class="tt">xgettext</span> extracts them, then translate at display time:</p>
+<div class="fragment"><div class="line"><span class="comment">// declaration: _t() is a no-op, strings are stored untranslated</span></div>
+<div class="line"><span class="keyword">static</span> <span class="keyword">const</span> std::vector&lt;std::string&gt; kModeNames {</div>
+<div class="line">    _t( <span class="stringliteral">&quot;Append&quot;</span> ),</div>
+<div class="line">    _t( <span class="stringliteral">&quot;Replace&quot;</span> ),</div>
+<div class="line">};</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// display: translate on every frame</span></div>
+<div class="line">UI::combo( _tr( <span class="stringliteral">&quot;Mode&quot;</span> ), &amp;idx, MR::Locale::translateAll( kModeNames ) );</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md116"></a>
+Context disambiguation</h2>
+<p>When the same English string has different meanings, use the context overload:</p>
+<div class="fragment"><div class="line"><span class="comment">// &quot;View&quot; as a noun (saved camera view) vs. verb (to view something)</span></div>
+<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, _tr( <span class="stringliteral">&quot;Camera&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> ) );</div>
+<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, _tr( <span class="stringliteral">&quot;Action&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> ) );</div>
+</div><!-- fragment --><p>In the <span class="tt">.po</span> file these appear as separate entries with different <span class="tt">msgctxt</span> values.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md117"></a>
+Plural forms</h2>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> label = MR::Locale::translate( <span class="stringliteral">&quot;%d item&quot;</span>, <span class="stringliteral">&quot;%d items&quot;</span>, count );</div>
+</div><!-- fragment --><p>The correct form is selected by Boost.Locale based on the <span class="tt">Plural-Forms:</span> rule in the <span class="tt">.po</span> header.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md118"></a>
+TRANSLATORS comments</h2>
+<p>Place a <span class="tt">// TRANSLATORS:</span> comment on the line immediately before a translatable string to give translators context. <span class="tt">xgettext</span> picks these up and includes them as <span class="tt">#.</span> comment lines in the <span class="tt">.pot</span> file:</p>
+<div class="fragment"><div class="line"><span class="comment">// TRANSLATORS: Shown when the mesh has no faces after repair</span></div>
+<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, _tr( <span class="stringliteral">&quot;Empty result&quot;</span> ) );</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="I18nCustomHeader"></a>
+Custom header file for your domain</h2>
+<p>When building a plugin with its own translation domain, create a project-local header file that redefines the macros to use your domain automatically. This way, every <span class="tt">_tr()</span> call in your plugin looks up the correct catalog without passing domain IDs explicitly.</p>
+<p>Copy and adapt the following template (also available at <span class="tt">examples/cpp-samples/MRI18nDomainExample.h</span>):</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#pragma once</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;MRViewer/MRI18n.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// forward declaration from MRLocale.h</span></div>
+<div class="line"><span class="keyword">namespace </span>MR::Locale { MRVIEWER_API <span class="keywordtype">int</span> findDomain( <span class="keyword">const</span> <span class="keywordtype">char</span>* domainName ); }</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// replace &quot;MyPlugin&quot; with your actual domain name</span></div>
+<div class="line"><span class="comment">// (must match the .pot/.po filename stem)</span></div>
+<div class="line"><span class="keyword">inline</span> <span class="keyword">constexpr</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* MY_PLUGIN_I18N_DOMAIN = <span class="stringliteral">&quot;MyPlugin&quot;</span>;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// redefine the i18n macros to use your domain by default</span></div>
+<div class="line"><span class="preprocessor">#undef _tr</span></div>
+<div class="line"><span class="preprocessor">#undef s_tr</span></div>
+<div class="line"><span class="preprocessor">#undef f_tr</span></div>
+<div class="line"><span class="preprocessor">#define _tr( ... ) MR::Locale::translate( __VA_ARGS__, MR::Locale::Domain{ MR::Locale::findDomain( MY_PLUGIN_I18N_DOMAIN ) } ).c_str()</span></div>
+<div class="line"><span class="preprocessor">#define s_tr( ... ) MR::Locale::translate( __VA_ARGS__, MR::Locale::Domain{ MR::Locale::findDomain( MY_PLUGIN_I18N_DOMAIN ) } )</span></div>
+<div class="line"><span class="preprocessor">#define f_tr( ... ) fmt::runtime( MR::Locale::translate( __VA_ARGS__, MR::Locale::Domain{ MR::Locale::findDomain( MY_PLUGIN_I18N_DOMAIN ) } ) )</span></div>
+</div><!-- fragment --><p>To use this header in your plugin:</p>
+<ol type="1">
+<li>Include your local header file instead of <span class="tt">&lt;MRViewer/MRI18n.h&gt;</span> in every <span class="tt">.cpp</span> file.</li>
+<li>Register the domain at startup: <span class="tt">MR::Locale::addDomain( MY_PLUGIN_I18N_DOMAIN );</span></li>
+<li>All <span class="tt">_tr()</span>, <span class="tt">s_tr()</span>, and <span class="tt">f_tr()</span> calls will now use your domain.</li>
+</ol>
+<dl class="section note"><dt>Note</dt><dd><span class="tt">findDomain()</span> performs a cache lookup by pointer address for <span class="tt">const char*</span> literals, so the runtime cost is minimal.</dd></dl>
+<h1 class="doxsection"><a class="anchor" id="I18nJSON"></a>
+Translating JSON menu files</h1>
+<p>MeshLib's ribbon menu system loads tool definitions from <span class="tt">.items.json</span> and UI layout from <span class="tt">.ui.json</span> files. Both formats contain translatable strings.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md119"></a>
+.items.json</h2>
+<p>Each entry in the <span class="tt">"Items"</span> array may contain:</p><ul>
+<li><b>"Caption"</b> - the display label (falls back to <b>"Name"</b> if absent).</li>
+<li><b>"Tooltip"</b> - the tooltip text.</li>
+</ul>
+<div class="fragment"><div class="line">{</div>
+<div class="line">  &quot;Items&quot;: [</div>
+<div class="line">    {</div>
+<div class="line">      &quot;Name&quot;: &quot;My Tool&quot;,</div>
+<div class="line">      &quot;Caption&quot;: &quot;My Custom Tool&quot;,</div>
+<div class="line">      &quot;Tooltip&quot;: &quot;Performs a custom operation on the mesh&quot;</div>
+<div class="line">    }</div>
+<div class="line">  ]</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>See <a class="el" href="ExamplePluginOverview.html">C++ Example Plugin Overview</a> for a complete plugin JSON example.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md120"></a>
+.ui.json</h2>
+<p>Tab names in the <span class="tt">"Tabs"</span> array are extracted with the context <span class="tt">"Tab name"</span>:</p>
+<div class="fragment"><div class="line">{</div>
+<div class="line">  &quot;Order&quot;: 10,</div>
+<div class="line">  &quot;LibName&quot;: &quot;MyPlugin&quot;,</div>
+<div class="line">  &quot;Tabs&quot;: [</div>
+<div class="line">    {</div>
+<div class="line">      &quot;Name&quot;: &quot;Analysis&quot;,</div>
+<div class="line">      &quot;Groups&quot;: [ ... ]</div>
+<div class="line">    }</div>
+<div class="line">  ]</div>
+<div class="line">}</div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md121"></a>
+Domain auto-registration</h2>
+<p>When the ribbon schema loader reads a <span class="tt">.items.json</span> file, it automatically registers a domain from the filename stem. For example, loading <span class="tt">MRRibbonMyMenu.items.json</span> calls <span class="tt">Locale::addDomain( "MRRibbonMyMenu" )</span> and stores the returned domain ID in each <span class="tt">MenuItemInfo</span>. The matching <span class="tt">.ui.json</span> then uses <span class="tt">Locale::findDomain()</span> with the same stem.</p>
+<p>This means ribbon menu strings are translated from their own domain catalog, separate from your C++ code strings.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md122"></a>
+Extracting JSON strings</h2>
+<p>Run <span class="tt">update_json_translations.py</span> for each JSON pair:</p>
+<div class="fragment"><div class="line">python3 scripts/gettext/update_json_translations.py \</div>
+<div class="line">    locale/MRRibbonMyMenu.pot \</div>
+<div class="line">    source/MyPlugin/MRRibbonMyMenu.items.json</div>
+</div><!-- fragment --><p>The script extracts <span class="tt">"Caption"</span> (or <span class="tt">"Name"</span>) and <span class="tt">"Tooltip"</span> from <span class="tt">.items.json</span>, and tab <span class="tt">"Name"</span> fields (with context <span class="tt">"Tab name"</span>) from the matching <span class="tt">.ui.json</span>. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

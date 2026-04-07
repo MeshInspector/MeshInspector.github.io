@@ -486,18 +486,18 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats(MR.MultiwayICP icp)</div>
 <div class="line">    {</div>
 <div class="line">        ulong numActivePairs = icp.getNumActivePairs();</div>
-<div class="line">        Console.WriteLine(<a class="code hl_function" href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a><span class="stringliteral">&quot;Number of samples: {icp.getNumSamples()}&quot;</span>);</div>
-<div class="line">        Console.WriteLine(<a class="code hl_function" href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a><span class="stringliteral">&quot;Number of active pairs: {numActivePairs}&quot;</span>);</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of samples: {icp.getNumSamples()}&quot;</span>);</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of active pairs: {numActivePairs}&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">if</span> (numActivePairs &gt; 0)</div>
 <div class="line">        {</div>
 <div class="line">            <span class="keywordtype">double</span> p2ptMetric = icp.getMeanSqDistToPoint();</div>
 <div class="line">            <span class="keywordtype">double</span> p2ptInaccuracy = icp.getMeanSqDistToPoint(p2ptMetric);</div>
-<div class="line">            Console.WriteLine(<a class="code hl_function" href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a><span class="stringliteral">&quot;RMS point-to-point distance: {p2ptMetric} ± {p2ptInaccuracy}&quot;</span>);</div>
+<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-point distance: {p2ptMetric} ± {p2ptInaccuracy}&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="keywordtype">double</span> p2plMetric = icp.getMeanSqDistToPlane();</div>
 <div class="line">            <span class="keywordtype">double</span> p2plInaccuracy = icp.getMeanSqDistToPlane(p2ptMetric);</div>
-<div class="line">            Console.WriteLine(<a class="code hl_function" href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a><span class="stringliteral">&quot;RMS point-to-plane distance: {p2plMetric} ± {p2plInaccuracy}&quot;</span>);</div>
+<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-plane distance: {p2plMetric} ± {p2plInaccuracy}&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
@@ -550,7 +550,6 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="aI18nGuide_8dox_html_ae36b3067763c521801b5dc0c152dff01"><div class="ttname"><a href="I18nGuide_8dox.html#ae36b3067763c521801b5dc0c152dff01">$</a></div><div class="ttdeci">*po file Creates $(OutDir) locale&lt; lang &gt;\LC_MESSAGES\` output directories. 3. Calls `msgfmt --check` on each `.po` to produce the corresponding `.mo`. If `msgfmt` is not found</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
