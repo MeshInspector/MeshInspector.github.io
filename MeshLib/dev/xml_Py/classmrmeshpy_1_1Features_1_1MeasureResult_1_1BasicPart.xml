@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18324" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18328" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18325" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18329" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -45,32 +45,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.__init__</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18328" bodyend="18329"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a2ca623b0c07745ad011f8a04d32a04e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" kindref="compound">Features.MeasureResult.BasicPart</ref></type>
-        <definition> Features.MeasureResult.BasicPart mrmeshpy.Features.MeasureResult.BasicPart.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.operator</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14">operator</reimplementedby>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -113,6 +87,32 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18336" bodyend="18337"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a2ca623b0c07745ad011f8a04d32a04e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" kindref="compound">Features.MeasureResult.BasicPart</ref></type>
+        <definition> Features.MeasureResult.BasicPart mrmeshpy.Features.MeasureResult.BasicPart.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.BasicPart.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle_1aa03b1c7af9431f9a6249e6a886db6f49">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance_1a582684351b34f5c0cb955c83646d0e14">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18340" bodyend="18341"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4ca12ccf28289ce7db9a791101cf196b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18338" bodyend="18339"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18342" bodyend="18343"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4c26ec8d177bc5361b1b953576fce9dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18341" bodyend="18342"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18345" bodyend="18346"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ae0263dea450f7789caa2b67a2a0ede36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18344" bodyend="18347"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18348" bodyend="18351"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a1863038b55294a28f23ba5cefd3771d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18349" bodyend="18352"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18353" bodyend="18356"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1ac3ee1998322bd737c04046d286ba1120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18353" bodyend="18355"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18357" bodyend="18359"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -255,7 +255,7 @@
         <link refid="classmrmeshpy_1_1Features"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18320" bodyend="18354"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18324" bodyend="18358"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a4ca12ccf28289ce7db9a791101cf196b" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>__bool__</name></member>
       <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart_1a8ea5580560746c5935e3d719f737e753" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult::BasicPart</scope><name>__init__</name></member>

@@ -11,12 +11,13 @@
         <name>modifiedMesh</name>
         <qualifiedname>MR.ToolPathResult.modifiedMesh</qualifiedname>
         <briefdescription>
+<para>mesh after fixing undercuts and offset </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2162" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2162" bodyend="2162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2424" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2424" bodyend="2424"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathResult_1ae5ab3f685c93ea5c455b370d77bc1da0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -25,12 +26,13 @@
         <name>modifiedRegion</name>
         <qualifiedname>MR.ToolPathResult.modifiedRegion</qualifiedname>
         <briefdescription>
+<para>selected region projected from the original mesh to the offset </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2165" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2165" bodyend="2165"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2429" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2429" bodyend="2429"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathResult_1ac06ea1507435f9cab5d0cc83b95dd890" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRGCommand</type>
@@ -39,12 +41,13 @@
         <name>commands</name>
         <qualifiedname>MR.ToolPathResult.commands</qualifiedname>
         <briefdescription>
+<para>contains type of movement and its feed </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2168" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2168" bodyend="2168"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2434" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2434" bodyend="2434"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -68,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2201" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2201" bodyend="2205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2467" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2467" bodyend="2471"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2211" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2211" bodyend="2217"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2477" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2477" bodyend="2483"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathResult_1a7cfb739271d901859bbdbeb00b185ce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -112,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2222" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2222" bodyend="2231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2488" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2488" bodyend="2497"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathResult_1a46c0ad4561aba33b9b798676689e6899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -131,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2236" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2236" bodyend="2243"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2502" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2502" bodyend="2509"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathResult_1a1ccd2c3307f4b9adb0b17818d55d8f43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -150,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2248" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2248" bodyend="2248"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2514" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2514" bodyend="2514"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathResult_1afa54f105c896428b17de4618a816712b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -169,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2253" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2253" bodyend="2253"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2519" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2519" bodyend="2519"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathResult_1ac072a453d6b0a0188de628bd5bcb0419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ToolPathResult" kindref="compound">MR.ToolPathResult</ref></type>
@@ -188,11 +191,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2258" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2258" bodyend="2265"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2524" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2524" bodyend="2531"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="classMR_1_1ToolPathResult" kindref="compound">MR.ToolPathResult</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>Result of a tool path computation Generated from class <computeroutput><ref refid="classMR_1_1ToolPathResult" kindref="compound">MR.ToolPathResult</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -238,7 +241,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2159" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2160" bodyend="2266"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2419" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2420" bodyend="2532"/>
     <listofallmembers>
       <member refid="classMR_1_1ToolPathResult_1ac072a453d6b0a0188de628bd5bcb0419" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>assign</name></member>
       <member refid="classMR_1_1ToolPathResult_1ac06ea1507435f9cab5d0cc83b95dd890" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>commands</name></member>

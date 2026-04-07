@@ -1,5 +1,9 @@
 var NAVTREEINDEX142 =
 {
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a6b1f83eb47e318f1ac13512ea74cce20":[6,1,1,0,1,905,24],
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a6b88ee86db2bc4938d96b41ba6cc55c8":[6,1,0,0,2,905,26],
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a6b88ee86db2bc4938d96b41ba6cc55c8":[6,1,1,0,1,905,26],
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e64df43e781f2f15f621fe750ba1a4c":[6,1,0,0,2,905,22],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e64df43e781f2f15f621fe750ba1a4c":[6,1,1,0,1,905,22],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e740fd8fd6635546a63492661a4a77b":[6,1,0,0,2,905,27],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e740fd8fd6635546a63492661a4a77b":[6,1,1,0,1,905,27],
@@ -245,9 +249,5 @@ var NAVTREEINDEX142 =
 "classmrmeshpy_1_1std__vector__DistanceMap.html#adbb0b6a7c3299ec46941cde080cd906d":[6,1,1,0,1,909,22],
 "classmrmeshpy_1_1std__vector__DistanceMap.html#afeca0de9df96963d46530f246c49b2da":[6,1,0,0,2,909,10],
 "classmrmeshpy_1_1std__vector__DistanceMap.html#afeca0de9df96963d46530f246c49b2da":[6,1,1,0,1,909,10],
-"classmrmeshpy_1_1std__vector__EdgePoint.html":[6,1,0,0,2,911],
-"classmrmeshpy_1_1std__vector__EdgePoint.html":[6,1,1,0,1,911],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#a017a1590aeb2545e9caab730ec92eb31":[6,1,0,0,2,911,25],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#a017a1590aeb2545e9caab730ec92eb31":[6,1,1,0,1,911,25],
-"classmrmeshpy_1_1std__vector__EdgePoint.html#a02091d3e432a0007ac1f641e287ef1b2":[6,1,0,0,2,911,26]
+"classmrmeshpy_1_1std__vector__EdgePoint.html":[6,1,0,0,2,911]
 };

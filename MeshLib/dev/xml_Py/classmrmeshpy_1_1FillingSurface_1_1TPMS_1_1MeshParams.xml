@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19869" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19873" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a7bfc736682bf917cad2628bf3b519b64" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19870" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19874" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -42,29 +42,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FillingSurface.TPMS.MeshParams.__init__</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19875" bodyend="19876"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1afcc57ea4156360d1912bff44dcb96a10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">FillingSurface.TPMS.MeshParams</ref></type>
-        <definition> FillingSurface.TPMS.MeshParams mrmeshpy.FillingSurface.TPMS.MeshParams.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.FillingSurface.TPMS.MeshParams.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a9a5d7ab7eb8860227ee9f025cda7e5c7">operator</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -104,6 +81,29 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19883" bodyend="19884"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1afcc57ea4156360d1912bff44dcb96a10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">FillingSurface.TPMS.MeshParams</ref></type>
+        <definition> FillingSurface.TPMS.MeshParams mrmeshpy.FillingSurface.TPMS.MeshParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.MeshParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a9a5d7ab7eb8860227ee9f025cda7e5c7">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19887" bodyend="19888"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19886" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19886" bodyend="19887"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19890" bodyend="19891"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad864facb1021d68f65e098a5ccef2d3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19889" bodyend="19893"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19893" bodyend="19897"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -179,7 +179,7 @@
         <link refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19865" bodyend="19892"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19869" bodyend="19896"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4ea7d32c5ad7e525785f308d8bb8707f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::MeshParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a8b4f0b707c9cbb86957643e9357805a1" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS::MeshParams</scope><name>__init__</name></member>

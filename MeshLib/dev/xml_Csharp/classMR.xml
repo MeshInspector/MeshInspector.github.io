@@ -4175,6 +4175,7 @@
           <name>Clockwise</name>
           <initializer>= 0</initializer>
           <briefdescription>
+<para>Tool moves clockwise around the section. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -4183,17 +4184,19 @@
           <name>CounterClockwise</name>
           <initializer>= 1</initializer>
           <briefdescription>
+<para>Tool moves counter-clockwise around the section. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
+<para>Direction in which the tool traverses each contour. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="3" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="4" bodyend="7"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="7" bodyend="16"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1ae8b6d4808fb530b2853f712a381e2fee" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -4203,6 +4206,7 @@
           <name>None</name>
           <initializer>= -1</initializer>
           <briefdescription>
+<para>No movement. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -4211,6 +4215,7 @@
           <name>FastLinear</name>
           <initializer>= 0</initializer>
           <briefdescription>
+<para>G0 rapid positioning. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -4219,6 +4224,7 @@
           <name>Linear</name>
           <initializer>= 1</initializer>
           <briefdescription>
+<para>G1 linear interpolation at feed rate. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -4227,6 +4233,7 @@
           <name>ArcCW</name>
           <initializer>= 2</initializer>
           <briefdescription>
+<para>G2 circular interpolation, clockwise. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -4235,17 +4242,19 @@
           <name>ArcCCW</name>
           <initializer>= 3</initializer>
           <briefdescription>
+<para>G3 circular interpolation, counter-clockwise. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
+<para>G-code move command type. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1756" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1757" bodyend="1763"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1956" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1957" bodyend="1978"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1afd36e700e6c3e32c350de8faa2cc7b37" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -4255,6 +4264,7 @@
           <name>None</name>
           <initializer>= -1</initializer>
           <briefdescription>
+<para>No plane selected. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -4263,6 +4273,7 @@
           <name>XY</name>
           <initializer>= 17</initializer>
           <briefdescription>
+<para>G17 — XY plane. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -4271,6 +4282,7 @@
           <name>XZ</name>
           <initializer>= 18</initializer>
           <briefdescription>
+<para>G18 — XZ plane. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -4279,17 +4291,19 @@
           <name>YZ</name>
           <initializer>= 19</initializer>
           <briefdescription>
+<para>G19 — YZ plane. </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
+<para>G-code arc plane selection. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1765" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1766" bodyend="1771"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1983" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1984" bodyend="2001"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a8e520c62ea91e9695f96c3e9340d730a" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -49933,13 +49947,33 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1addbd667c6c7af1794ed6f2bdab4e011b" kindref="member">MR.constantZToolPath</ref></computeroutput>. </para>
+<para>Computes a Z-level (constant-Z) milling tool path for the given mesh. Sections are built along the Z-axis from top to bottom. The mesh can be transformed using params.xf. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input mesh part to mill </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>milling parameters (offsets, feeds, voxel size, etc.) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tool path result, or an error string on failure Generated from function <computeroutput><ref refid="classMR_1addbd667c6c7af1794ed6f2bdab4e011b" kindref="member">MR.constantZToolPath</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2330" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2330" bodyend="2338"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2599" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2599" bodyend="2607"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af1c763a87791ebec3633372d81b775ea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ToolPathResult" kindref="compound">MR.ToolPathResult</ref></type>
@@ -49960,13 +49994,41 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>cutDirection</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1af1c763a87791ebec3633372d81b775ea" kindref="member">MR.lacingToolPath</ref></computeroutput>. </para>
+<para>Computes a lacing (raster) milling tool path for the given mesh. This is a traditional lace-roughing toolpath; slices are built along the axis defined by cutDirection. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input mesh part to mill </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>milling parameters (offsets, feeds, voxel size, etc.) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cutDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>axis along which slices are built (<ref refid="classMR_1a1b103cac58fd24f8cfbe546774a9b5e1a02129bb861061d1a052c592e2dc6b383" kindref="member">Axis.X</ref> or <ref refid="classMR_1a1b103cac58fd24f8cfbe546774a9b5e1a57cec4137b614c87cb4e24a3d003a3e0" kindref="member">Axis.Y</ref>) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tool path result, or an error string on failure Generated from function <computeroutput><ref refid="classMR_1af1c763a87791ebec3633372d81b775ea" kindref="member">MR.lacingToolPath</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2344" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2344" bodyend="2352"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2618" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2618" bodyend="2626"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a238ead4bf748530795ea2db8abbebd5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ToolPathResult" kindref="compound">MR.ToolPathResult</ref></type>
@@ -49983,13 +50045,33 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a238ead4bf748530795ea2db8abbebd5c" kindref="member">MR.constantCuspToolPath</ref></computeroutput>. </para>
+<para>Computes a constant-cusp milling tool path for the given mesh. The toolpath is built from geodesic parallels diverging from a given start point or from the boundaries of selected areas. If neither is specified, the lowest section by XY plane will be used as a start contour. The mesh can be transformed using params.xf. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input mesh part to mill </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>milling and cusp parameters </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tool path result, or an error string on failure Generated from function <computeroutput><ref refid="classMR_1a238ead4bf748530795ea2db8abbebd5c" kindref="member">MR.constantCuspToolPath</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2361" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2361" bodyend="2369"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2638" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2638" bodyend="2646"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a01cef1e274ea7c99238c00017fba2b82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObjectGcode</type>
@@ -50002,13 +50084,25 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>commands</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a01cef1e274ea7c99238c00017fba2b82" kindref="member">MR.exportToolPathToGCode</ref></computeroutput>. </para>
+<para>Generates a G-Code object from a list of G-code commands. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commands</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of G-code move commands to export </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>shared pointer to the resulting G-code object Generated from function <computeroutput><ref refid="classMR_1a01cef1e274ea7c99238c00017fba2b82" kindref="member">MR.exportToolPathToGCode</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2375" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2375" bodyend="2380"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2654" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2654" bodyend="2659"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9dec6805b39c94e9e51511945b4d2671" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -50029,13 +50123,41 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>axis</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a9dec6805b39c94e9e51511945b4d2671" kindref="member">MR.interpolateLines</ref></computeroutput>. </para>
+<para>Interpolates runs of collinear points with a single linear move. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commands</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>G-code command list to simplify in place </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>line interpolation tolerance parameters </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>axis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>principal axis used for interpolation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>error string on failure Generated from function <computeroutput><ref refid="classMR_1a9dec6805b39c94e9e51511945b4d2671" kindref="member">MR.interpolateLines</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2386" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2386" bodyend="2393"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2669" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2669" bodyend="2676"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a34a6ea2c67931d38bb4b06bd5186954c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -50056,13 +50178,41 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>axis</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a34a6ea2c67931d38bb4b06bd5186954c" kindref="member">MR.interpolateArcs</ref></computeroutput>. </para>
+<para>Interpolates the given path with circular arc moves. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commands</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>G-code command list to simplify in place </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>arc interpolation tolerance parameters </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>axis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>principal axis used for interpolation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>error string on failure Generated from function <computeroutput><ref refid="classMR_1a34a6ea2c67931d38bb4b06bd5186954c" kindref="member">MR.interpolateArcs</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2399" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2399" bodyend="2406"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2686" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2686" bodyend="2693"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a275724b35da7e9db0f52c0ea40ffb18a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -50087,13 +50237,49 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>shrinkOffset</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a275724b35da7e9db0f52c0ea40ffb18a" kindref="member">MR.smoothSelection</ref></computeroutput>. </para>
+<para>Smooths the given face selection by expanding the boundary outward and then shrinking it back. The input mesh is modified because new edges are cut along the new boundaries. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input mesh, modified in place </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>face selection to smooth </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>expandOffset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>distance by which the boundary is expanded outward </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shrinkOffset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>distance by which the boundary is shrunk back inward </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the smoothed face selection Generated from function <computeroutput><ref refid="classMR_1a275724b35da7e9db0f52c0ea40ffb18a" kindref="member">MR.smoothSelection</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2414" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2414" bodyend="2419"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2705" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2705" bodyend="2710"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a42ce950d8e8cf6b6c14d01c0e7485a6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>

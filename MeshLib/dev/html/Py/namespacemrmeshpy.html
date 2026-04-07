@@ -8546,10 +8546,13 @@ Builds mesh for each tool movement and joins them using voxel boolean
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">compute path of the milling tool for the given mesh with parameters ( direction of milling is from up to down along Z-direction )
-this toolpath is built from geodesic parallels divercing from the given start point or from the bounaries of selected areas
-if neither is specified, the lowest section by XY plane will be used as a start contour
-mesh can be transformed using xf parameter
+<pre class="fragment">Computes a constant-cusp milling tool path for the given mesh.
+The toolpath is built from geodesic parallels diverging from a given start point or from the boundaries of selected areas.
+If neither is specified, the lowest section by XY plane will be used as a start contour.
+The mesh can be transformed using params.xf.
+\\param mp input mesh part to mill
+\\param params milling and cusp parameters
+\\return tool path result, or an error string on failure
 </pre> 
 </div>
 </div>
@@ -8571,9 +8574,12 @@ mesh can be transformed using xf parameter
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">compute path of the milling tool for the given mesh with parameters ( direction of milling is from up to down along Z-direction )
-this toolpath is built from the parallel sections along Z-axis
-mesh can be transformed using xf parameter
+<pre class="fragment">Computes a Z-level (constant-Z) milling tool path for the given mesh.
+Sections are built along the Z-axis from top to bottom.
+The mesh can be transformed using params.xf.
+\\param mp input mesh part to mill
+\\param params milling parameters (offsets, feeds, voxel size, etc.)
+\\return tool path result, or an error string on failure
 </pre> 
 </div>
 </div>
@@ -15372,7 +15378,9 @@ structure - mesh with one open contour and +Z normal, that will be embedded in t
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">generates G-Code for milling tool
+<pre class="fragment">Generates a G-Code object from a list of G-code commands
+\\param commands list of G-code move commands to export
+\\return shared pointer to the resulting G-code object
 </pre> 
 </div>
 </div>
@@ -25470,7 +25478,11 @@ this function makes just 1 iteration of inflation and is used inside inflate(...
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">interpolates given path with arcs
+<pre class="fragment">Interpolates the given path with circular arc moves
+\\param commands G-code command list to simplify in place
+\\param params arc interpolation tolerance parameters
+\\param axis principal axis used for interpolation
+\\return error string on failure
 </pre> 
 </div>
 </div>
@@ -25497,7 +25509,11 @@ this function makes just 1 iteration of inflation and is used inside inflate(...
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">interpolates several points lying on the same straight line with one move
+<pre class="fragment">Interpolates runs of collinear points with a single linear move
+\\param commands G-code command list to simplify in place
+\\param params line interpolation tolerance parameters
+\\param axis principal axis used for interpolation
+\\return error string on failure
 </pre> 
 </div>
 </div>
@@ -26304,7 +26320,12 @@ returns invalid edge otherwise (not a boundary vertex, or it is present only onc
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Slices are built along the axis defined by cutDirection argument (can be Axis::X or Axis::Y)
+<pre class="fragment">Computes a lacing (raster) milling tool path for the given mesh.
+This is a traditional lace-roughing toolpath; slices are built along the axis defined by cutDirection.
+\\param mp input mesh part to mill
+\\param params milling parameters (offsets, feeds, voxel size, etc.)
+\\param cutDirection axis along which slices are built (Axis::X or Axis::Y)
+\\return tool path result, or an error string on failure
 </pre> 
 </div>
 </div>
@@ -36978,9 +36999,13 @@ solution is typically oscillates back and forth so even number of iterations is 
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">makes the given selection more smooth with shifthing a boundary of the selection outside and back. Input mesh is changed because we have to cut new edges along the new boundaries
-\\param expandOffset defines how much the boundary is expanded
-\\param expandOffset defines how much the boundary is shrinked after that
+<pre class="fragment">Smooths the given face selection by expanding the boundary outward and then shrinking it back.
+The input mesh is modified because new edges are cut along the new boundaries.
+\\param mesh input mesh, modified in place
+\\param region face selection to smooth
+\\param expandOffset distance by which the boundary is expanded outward
+\\param shrinkOffset distance by which the boundary is shrunk back inward
+\\return the smoothed face selection
 </pre> 
 </div>
 </div>

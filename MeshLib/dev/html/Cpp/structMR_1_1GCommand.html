@@ -144,6 +144,9 @@ $(function(){initNavTree('structMR_1_1GCommand.html','','structMR_1_1GCommand-me
 </div><!--header-->
 <div class="contents">
 
+<p>A single G-code move command.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRToolPath_8h_source.html">MRVoxels/MRToolPath.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -151,7 +154,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:gaaf3da1692be265b849e66df425724a1b" id="r_gaaf3da1692be265b849e66df425724a1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga88f1fdd848610bc41226918baa28e601">MoveType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaaf3da1692be265b849e66df425724a1b">type</a> = <a class="el" href="group__GeneralGroup.html#gga88f1fdd848610bc41226918baa28e601a32a843da6ea40ab3b17a3421ccdf671b">MoveType::Linear</a></td></tr>
 <tr class="memdesc:gaaf3da1692be265b849e66df425724a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of command GX (G0, G1, etc). By default - G1  <br /></td></tr>
 <tr class="memitem:ga46bdc412f995f806c9a1cbb17969eb3a" id="r_ga46bdc412f995f806c9a1cbb17969eb3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gae1af7aec8f28c8e85182ca94f5802435">ArcPlane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga46bdc412f995f806c9a1cbb17969eb3a">arcPlane</a> = <a class="el" href="group__GeneralGroup.html#ggae1af7aec8f28c8e85182ca94f5802435a6adf97f83acf6453d4a6a4b1070f3754">ArcPlane::None</a></td></tr>
-<tr class="memdesc:ga46bdc412f995f806c9a1cbb17969eb3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Place for comment.  <br /></td></tr>
+<tr class="memdesc:ga46bdc412f995f806c9a1cbb17969eb3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">plane of the arc; only relevant when type is ArcCW or ArcCCW  <br /></td></tr>
 <tr class="memitem:gad006b4b0a0cbf74a8cedc89dd7fc1df8" id="r_gad006b4b0a0cbf74a8cedc89dd7fc1df8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad006b4b0a0cbf74a8cedc89dd7fc1df8">feed</a> = std::numeric_limits&lt;float&gt;::quiet_NaN()</td></tr>
 <tr class="memdesc:gad006b4b0a0cbf74a8cedc89dd7fc1df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">feedrate for move  <br /></td></tr>
 <tr class="memitem:ga3f8b88883ebac5b476b7a042edd30d65" id="r_ga3f8b88883ebac5b476b7a042edd30d65"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3f8b88883ebac5b476b7a042edd30d65">x</a> = std::numeric_limits&lt;float&gt;::quiet_NaN()</td></tr>
@@ -159,9 +162,11 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ga153e73394a743e67aaeaeefb04deac21" id="r_ga153e73394a743e67aaeaeefb04deac21"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga153e73394a743e67aaeaeefb04deac21">y</a> = std::numeric_limits&lt;float&gt;::quiet_NaN()</td></tr>
 <tr class="memitem:gaec5c0f6069885854d6838a98f1bacae3" id="r_gaec5c0f6069885854d6838a98f1bacae3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaec5c0f6069885854d6838a98f1bacae3">z</a> = std::numeric_limits&lt;float&gt;::quiet_NaN()</td></tr>
 <tr class="memitem:gacaf374ee91304204bb3990d59a7d32fc" id="r_gacaf374ee91304204bb3990d59a7d32fc"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gacaf374ee91304204bb3990d59a7d32fc">arcCenter</a> = Vector3f::diagonal( std::numeric_limits&lt;float&gt;::quiet_NaN() )</td></tr>
-<tr class="memdesc:gacaf374ee91304204bb3990d59a7d32fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">if moveType is ArcCW or ArcCCW center of the arc shoult be specified  <br /></td></tr>
+<tr class="memdesc:gacaf374ee91304204bb3990d59a7d32fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">if type is ArcCW or ArcCCW center of the arc should be specified  <br /></td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A single G-code move command. </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>MRVoxels/<a class="el" href="MRToolPath_8h_source.html">MRToolPath.h</a></li>
 </ul>
 </div><!-- contents -->

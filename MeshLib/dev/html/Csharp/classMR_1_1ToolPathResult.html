@@ -145,7 +145,7 @@ $(function(){initNavTree('classMR_1_1ToolPathResult.html','','classMR_1_1ToolPat
 </div><!--header-->
 <div class="contents">
 
-<p>Generated from class <span class="tt"><a class="el" href="classMR_1_1ToolPathResult.html" title="Generated from class MR.ToolPathResult. This is the non-const half of the class.">MR.ToolPathResult</a></span>. This is the non-const half of the class.  
+<p>Result of a tool path computation Generated from class <span class="tt"><a class="el" href="classMR_1_1ToolPathResult.html" title="Result of a tool path computation Generated from class MR.ToolPathResult. This is the non-const half ...">MR.ToolPathResult</a></span>. This is the non-const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.ToolPathResult:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb111f5de13b52544fd507efafe86860" id="r_aeb111f5de13b52544fd507efafe86860"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb111f5de13b52544fd507efafe86860">ToolPathResult</a> ()</td></tr>
 <tr class="memdesc:aeb111f5de13b52544fd507efafe86860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="memitem:a7cfb739271d901859bbdbeb00b185ce3" id="r_a7cfb739271d901859bbdbeb00b185ce3"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cfb739271d901859bbdbeb00b185ce3">ToolPathResult</a> (MR._ByValue_Mesh <a class="el" href="#a167287ee16c313cf9cd4d83144a5552c">modifiedMesh</a>, MR._ByValue_FaceBitSet <a class="el" href="#ae5ab3f685c93ea5c455b370d77bc1da0">modifiedRegion</a>, MR.Std._ByValue_Vector_MRGCommand <a class="el" href="#ac06ea1507435f9cab5d0cc83b95dd890">commands</a>)</td></tr>
-<tr class="memdesc:a7cfb739271d901859bbdbeb00b185ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1ToolPathResult.html" title="Generated from class MR.ToolPathResult. This is the non-const half of the class.">MR.ToolPathResult</a></span> elementwise.  <br /></td></tr>
+<tr class="memdesc:a7cfb739271d901859bbdbeb00b185ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1ToolPathResult.html" title="Result of a tool path computation Generated from class MR.ToolPathResult. This is the non-const half ...">MR.ToolPathResult</a></span> elementwise.  <br /></td></tr>
 <tr class="memitem:a46c0ad4561aba33b9b798676689e6899" id="r_a46c0ad4561aba33b9b798676689e6899"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46c0ad4561aba33b9b798676689e6899">ToolPathResult</a> (MR._ByValue_ToolPathResult _other)</td></tr>
 <tr class="memdesc:a46c0ad4561aba33b9b798676689e6899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#aeb111f5de13b52544fd507efafe86860" title="Constructs an empty (default-constructed) instance.">MR.ToolPathResult.ToolPathResult</a></span>.  <br /></td></tr>
 <tr class="memitem:a1ccd2c3307f4b9adb0b17818d55d8f43" id="r_a1ccd2c3307f4b9adb0b17818d55d8f43"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ccd2c3307f4b9adb0b17818d55d8f43">ToolPathResult</a> (Const_ToolPathResult _other)</td></tr>
@@ -173,11 +173,14 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a167287ee16c313cf9cd4d83144a5552c" id="r_a167287ee16c313cf9cd4d83144a5552c"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a167287ee16c313cf9cd4d83144a5552c">modifiedMesh</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a167287ee16c313cf9cd4d83144a5552c"><td class="mdescLeft">&#160;</td><td class="mdescRight">mesh after fixing undercuts and offset  <br /></td></tr>
 <tr class="memitem:ae5ab3f685c93ea5c455b370d77bc1da0" id="r_ae5ab3f685c93ea5c455b370d77bc1da0"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5ab3f685c93ea5c455b370d77bc1da0">modifiedRegion</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ae5ab3f685c93ea5c455b370d77bc1da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">selected region projected from the original mesh to the offset  <br /></td></tr>
 <tr class="memitem:ac06ea1507435f9cab5d0cc83b95dd890" id="r_ac06ea1507435f9cab5d0cc83b95dd890"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_MRGCommand&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac06ea1507435f9cab5d0cc83b95dd890">commands</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ac06ea1507435f9cab5d0cc83b95dd890"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains type of movement and its feed  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Generated from class <span class="tt"><a class="el" href="classMR_1_1ToolPathResult.html" title="Generated from class MR.ToolPathResult. This is the non-const half of the class.">MR.ToolPathResult</a></span>. This is the non-const half of the class. </p>
+<div class="textblock"><p>Result of a tool path computation Generated from class <span class="tt"><a class="el" href="classMR_1_1ToolPathResult.html" title="Result of a tool path computation Generated from class MR.ToolPathResult. This is the non-const half ...">MR.ToolPathResult</a></span>. This is the non-const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeb111f5de13b52544fd507efafe86860" name="aeb111f5de13b52544fd507efafe86860"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb111f5de13b52544fd507efafe86860">&#9670;&#160;</a></span>ToolPathResult() <span class="overload">[1/5]</span></h2>
@@ -238,7 +241,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs <span class="tt"><a class="el" href="classMR_1_1ToolPathResult.html" title="Generated from class MR.ToolPathResult. This is the non-const half of the class.">MR.ToolPathResult</a></span> elementwise. </p>
+<p>Constructs <span class="tt"><a class="el" href="classMR_1_1ToolPathResult.html" title="Result of a tool path computation Generated from class MR.ToolPathResult. This is the non-const half ...">MR.ToolPathResult</a></span> elementwise. </p>
 
 </div>
 </div>
@@ -372,6 +375,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>contains type of movement and its feed </p>
+
 </div>
 </div>
 <a id="a167287ee16c313cf9cd4d83144a5552c" name="a167287ee16c313cf9cd4d83144a5552c"></a>
@@ -394,6 +399,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>mesh after fixing undercuts and offset </p>
+
 </div>
 </div>
 <a id="ae5ab3f685c93ea5c455b370d77bc1da0" name="ae5ab3f685c93ea5c455b370d77bc1da0"></a>
@@ -415,6 +422,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>selected region projected from the original mesh to the offset </p>
 
 </div>
 </div>

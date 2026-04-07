@@ -13,10 +13,11 @@
       <member refid="group__GeneralGroup_1gacaf374ee91304204bb3990d59a7d32fc" kind="variable"><name>arcCenter</name></member>
     </sectiondef>
     <briefdescription>
+<para>A single G-code move command. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRVoxels/MRToolPath.h" line="113" column="1" bodyfile="MRVoxels/MRToolPath.h" bodystart="114" bodyend="127"/>
+    <location file="MRVoxels/MRToolPath.h" line="121" column="1" bodyfile="MRVoxels/MRToolPath.h" bodystart="122" bodyend="135"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gacaf374ee91304204bb3990d59a7d32fc" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>arcCenter</name></member>
       <member refid="group__GeneralGroup_1ga46bdc412f995f806c9a1cbb17969eb3a" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>arcPlane</name></member>

@@ -17,6 +17,8 @@ var classmrmeshpy_1_1ToolPathParams =
     [ "isolines", "classmrmeshpy_1_1ToolPathParams.html#a40e41f971441a27dd14027241b408168", null ],
     [ "millRadius", "classmrmeshpy_1_1ToolPathParams.html#ac4a0e8d52eee9597ef3cd88cc7e336bc", null ],
     [ "millRadius", "classmrmeshpy_1_1ToolPathParams.html#a5e00ff059cc36d2c8355bffcf9f79455", null ],
+    [ "offsetMesh", "classmrmeshpy_1_1ToolPathParams.html#a2e4d16fc68687b25a024140a9b175b61", null ],
+    [ "offsetMesh", "classmrmeshpy_1_1ToolPathParams.html#a97e640e50b426e4d2c2076870c7ef755", null ],
     [ "plungeFeed", "classmrmeshpy_1_1ToolPathParams.html#af72efd3e8094008630f50c23bde11f29", null ],
     [ "plungeFeed", "classmrmeshpy_1_1ToolPathParams.html#a41496f7ea5f3d56f44fe92bde905cd8a", null ],
     [ "plungeLength", "classmrmeshpy_1_1ToolPathParams.html#a15cd75aae45f0abc4640badedea12287", null ],

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10605" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10609" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -27,29 +27,6 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.ConstantCuspParams.__init__</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10608" bodyend="10609"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ConstantCuspParams" kindref="compound">ConstantCuspParams</ref></type>
-        <definition> ConstantCuspParams mrmeshpy.ConstantCuspParams.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ConstantCuspParams.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1ToolPathParams_1a8e5f03cbf2a187b5a2272e4184af0e34">operator</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -89,6 +66,29 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10616" bodyend="10617"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ConstantCuspParams" kindref="compound">ConstantCuspParams</ref></type>
+        <definition> ConstantCuspParams mrmeshpy.ConstantCuspParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ConstantCuspParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ToolPathParams_1a8e5f03cbf2a187b5a2272e4184af0e34">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10620" bodyend="10621"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10619" bodyend="10620"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10623" bodyend="10624"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10622" bodyend="10625"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10626" bodyend="10629"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1a8de46eda060abb9490806a87e15dadf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10627" bodyend="10630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10631" bodyend="10634"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ConstantCuspParams_1a2f2e389c65cb3d01d3576ec76d884af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -173,13 +173,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10632" bodyend="10633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10636" bodyend="10637"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::ConstantCuspParams
+
+Tool path parameters specific to the constant-cusp strategy
 </verbatim> </para>
     </detaileddescription>
     <inheritancegraph>
@@ -206,7 +208,7 @@
         <link refid="classmrmeshpy_1_1ToolPathParams"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10601" bodyend="10633"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10603" bodyend="10637"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>__init__</name></member>
@@ -247,6 +249,8 @@
       <member refid="classmrmeshpy_1_1ToolPathParams_1a40e41f971441a27dd14027241b408168" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>isolines</name></member>
       <member refid="classmrmeshpy_1_1ToolPathParams_1ac4a0e8d52eee9597ef3cd88cc7e336bc" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>millRadius</name></member>
       <member refid="classmrmeshpy_1_1ToolPathParams_1a5e00ff059cc36d2c8355bffcf9f79455" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>millRadius</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a2e4d16fc68687b25a024140a9b175b61" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>offsetMesh</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a97e640e50b426e4d2c2076870c7ef755" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>offsetMesh</name></member>
       <member refid="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ToolPathParams_1af72efd3e8094008630f50c23bde11f29" prot="public" virt="non-virtual"><scope>mrmeshpy::ConstantCuspParams</scope><name>plungeFeed</name></member>
