@@ -195,9 +195,9 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">    memcpy( vertexData, vertices, <span class="keyword">sizeof</span>( MR_Vector3f ) * verticesNum );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// extract faces</span></div>
-<div class="line">    MR_Triangulation* t = MR_MeshTopology_getTriangulation( MR_Mesh_Get_topology( mesh ) );</div>
-<div class="line">    <span class="keyword">const</span> MR_std_array_MR_VertId_3 *faces = MR_Triangulation_data( t );</div>
-<div class="line">    <span class="keywordtype">size_t</span> facesNum = MR_Triangulation_size( t );</div>
+<div class="line">    MR_Triangulation* <a class="code hl_variable" href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a> = MR_MeshTopology_getTriangulation( MR_Mesh_Get_topology( mesh ) );</div>
+<div class="line">    <span class="keyword">const</span> MR_std_array_MR_VertId_3 *faces = MR_Triangulation_data( <a class="code hl_variable" href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a> );</div>
+<div class="line">    <span class="keywordtype">size_t</span> facesNum = MR_Triangulation_size( <a class="code hl_variable" href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a> );</div>
 <div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
 <div class="line">    printf( <span class="stringliteral">&quot;Face vertex IDs:\n&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; verticesNum; ++i )</div>
@@ -206,12 +206,13 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">    <span class="keywordtype">int</span>* faceData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">int</span> ) * 3 * facesNum );</div>
 <div class="line">    memcpy( faceData, faces, <span class="keyword">sizeof</span>( MR_std_array_MR_VertId_3 ) * facesNum );</div>
 <div class="line"> </div>
-<div class="line">    MR_Triangulation_Destroy( t );</div>
+<div class="line">    MR_Triangulation_Destroy( <a class="code hl_variable" href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a> );</div>
 <div class="line">    MR_Mesh_Destroy( mesh );</div>
 <div class="line">    free( vertexData );</div>
 <div class="line">    free( faceData );</div>
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
+<div class="ttc" id="aI18nGuide_8dox_html_a7abbae5ae4a4c8aedeab10b3d6ab4ca7"><div class="ttname"><a href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a></div><div class="ttdeci">endcode MR::Locale::translate()` accepts an optional `Domain` parameter std::string t</div><div class="ttdef"><b>Definition</b> I18nGuide.dox:247</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshExportExample</div>
 <div class="line">{</div>
@@ -231,8 +232,8 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line"> </div>
 <div class="line">            <span class="keywordflow">for</span> (ulong i = 0; i &lt; tri.size(); ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var t = tri[<span class="keyword">new</span> MR.FaceId(i)];</div>
-<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Triangle {0} vertices: {1}; {2}; {3}&quot;</span>, i, t.elems._0.id, t.elems._1.id, t.elems._2.id);</div>
+<div class="line">                var <a class="code hl_variable" href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a> = tri[<span class="keyword">new</span> MR.FaceId(i)];</div>
+<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Triangle {0} vertices: {1}; {2}; {3}&quot;</span>, i, <a class="code hl_variable" href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a>.elems._0.id, <a class="code hl_variable" href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a>.elems._1.id, <a class="code hl_variable" href="I18nGuide_8dox.html#a7abbae5ae4a4c8aedeab10b3d6ab4ca7">t</a>.elems._2.id);</div>
 <div class="line">            }</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
