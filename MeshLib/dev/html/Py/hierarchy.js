@@ -231,6 +231,7 @@ var hierarchy =
     [ "mrmeshpy.VoxelsLoad.DicomStatusEnum", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum.html", null ],
     [ "mrmeshpy.VoxelsLoad.DicomVolume", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume.html", null ],
     [ "mrmeshpy.VoxelsLoad.DicomVolumeAsVdb", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", null ],
+    [ "mrmeshpy.DihedralAngleProcessParams", "classmrmeshpy_1_1DihedralAngleProcessParams.html", null ],
     [ "mrmeshpy.DimensionsVisualizePropertyType", "classmrmeshpy_1_1DimensionsVisualizePropertyType.html", null ],
     [ "mrmeshpy.Dipole", "classmrmeshpy_1_1Dipole.html", null ],
     [ "mrmeshpy.Dipoles", "classmrmeshpy_1_1Dipoles.html", null ],

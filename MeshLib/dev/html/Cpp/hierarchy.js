@@ -317,6 +317,7 @@ var hierarchy =
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
     [ "MR::VoxelsLoad::DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", null ],
     [ "MR::VoxelsLoad::DicomVolumeT< T >", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", null ],
+    [ "MR::DihedralAngleProcessParams", "structMR_1_1DihedralAngleProcessParams.html", null ],
     [ "MR::Dipole", "structMR_1_1Dipole.html", null ],
     [ "MR::Directory", "structMR_1_1Directory.html", null ],
     [ "MR::DirectoryIterator", "structMR_1_1DirectoryIterator.html", null ],

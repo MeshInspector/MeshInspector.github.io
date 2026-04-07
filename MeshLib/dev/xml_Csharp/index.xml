@@ -6340,6 +6340,17 @@
     <member refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb_1a0f438afea011a2e92a9001fa49368d56" kind="function"><name>DicomVolumeAsVdb</name></member>
     <member refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb_1aa1a3152e58dd2597cbe644d2279bb98e" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1DihedralAngleProcessParams" kind="class"><name>MR::DihedralAngleProcessParams</name>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1a5e63a1b53e07d1e668b629ea51f9af86" kind="property"><name>convexFactor</name></member>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1a59bb44c37f27bce2f1e1231ac78ce17d" kind="property"><name>concaveFactor</name></member>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1aa00e9ff6c218c75bce20ef40d489436a" kind="property"><name>boundaryValue</name></member>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1a0e403beb61586a26541410897c28a371" kind="function"><name>DihedralAngleProcessParams</name></member>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1a8db664eafd1c06fbfd8d573e3ce397a2" kind="function"><name>DihedralAngleProcessParams</name></member>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1aa634526513b47c405c3adfb78cfc04b3" kind="function"><name>DihedralAngleProcessParams</name></member>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1ab8ba17315adcebdfbb1ba120429df30e" kind="function"><name>DihedralAngleProcessParams</name></member>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1a9a0783894b207f8b6d3084984df0a282" kind="function"><name>DihedralAngleProcessParams</name></member>
+    <member refid="classMR_1_1DihedralAngleProcessParams_1a92de62a7cd3442657b8d297ac11e38ef" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1Dipole" kind="class"><name>MR::Dipole</name>
     <member refid="classMR_1_1Dipole_1a8a5ecdaacb9d43b4d1ec1d5ce6a31248" kind="property"><name>pos</name></member>
     <member refid="classMR_1_1Dipole_1a91297c3509a06a99ba29e9038203f612" kind="property"><name>area</name></member>
@@ -7945,6 +7956,7 @@
     <member refid="classMR_1_1Graph_1aa1f730e5fd495318789eca6a3ab840dd" kind="function"><name>Graph</name></member>
     <member refid="classMR_1_1Graph_1af30df5b9d12c67bde3e201bc0f7b4c0d" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1Graph_1aa914a46f9c4bf15627aa5b912341a47b" kind="function"><name>construct</name></member>
+    <member refid="classMR_1_1Graph_1a6713cff0d540df99b36c9055e0fe22a5" kind="function"><name>construct</name></member>
     <member refid="classMR_1_1Graph_1ae686215337242b8e30ae8aa85c3514f8" kind="function"><name>merge</name></member>
   </compound>
   <compound refid="classMR_1_1GraphEdgeBitSet" kind="class"><name>MR::GraphEdgeBitSet</name>
@@ -8104,6 +8116,7 @@
   </compound>
   <compound refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat" kind="class"><name>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</name>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a3fbe114684f1ff3daf06ff5f31077e42" kind="function"><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+    <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ab8c000b0edb4d95dbaaee4291abcb772" kind="function"><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ab7cece5cd109109e1dd8b498a7f331d7" kind="function"><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a73bac387d7bef105473f71ccabb45d6f" kind="function"><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1aed450093e07c9c1c8df7a0cba6a93c6f" kind="function"><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
@@ -8115,6 +8128,7 @@
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a008d083ebc2a143e0de24d0270059851" kind="function"><name>setLargerValue</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a8fd04c9800747aca8fcfc44e649bb837" kind="function"><name>setSmallerValue</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ac7f401c8f7877773be0370c1062b0278" kind="function"><name>setTopValue</name></member>
+    <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a27aefb96c9473ddf8097478adfd67c8a" kind="function"><name>operator Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
   </compound>
   <compound refid="classMR_1_1Histogram" kind="class"><name>MR::Histogram</name>
     <member refid="classMR_1_1Histogram_1a565e985b42d190c40aaa497ff7c0de21" kind="function"><name>Histogram</name></member>
@@ -11357,6 +11371,8 @@
     <member refid="classMR_1a0499ea765f7d6b74fcaa68aa5cdb5fbc" kind="function"><name>edgeCurvMetric</name></member>
     <member refid="classMR_1a3cb11f8b08ececa5e937ee79db54d689" kind="function"><name>edgeAbsCurvMetric</name></member>
     <member refid="classMR_1a2f6b8af066c66ee5b1ccacb88b1bcee7" kind="function"><name>edgeAbsCurvMetric</name></member>
+    <member refid="classMR_1ab2612dbe5b7b4f1fcf42e19352f5309b" kind="function"><name>edgeDihedralAngleMetric</name></member>
+    <member refid="classMR_1a740a8fd2f81c5bdd5ce89966375e14be" kind="function"><name>edgeDihedralAngleMetric</name></member>
     <member refid="classMR_1a773ac4f11ec70105055628ac00e2085a" kind="function"><name>edgeTableSymMetric</name></member>
     <member refid="classMR_1a9bc46ac9a7351f9747cc7e39205a63dd" kind="function"><name>isEdgePath</name></member>
     <member refid="classMR_1a9430b9f1dc7aa3c95d210209f7db116f" kind="function"><name>isEdgeLoop</name></member>
@@ -12134,6 +12150,8 @@
     <member refid="classMR_1a46d0a16a6fbb84371e7beca7802c93a3" kind="function"><name>transformPoints</name></member>
     <member refid="classMR_1ab23727f7c05d87866e6883be23ca73d0" kind="function"><name>transformNormals</name></member>
     <member refid="classMR_1a287bed0de1310a19fb1f0e70310fc1a5" kind="function"><name>createRootFormObject</name></member>
+    <member refid="classMR_1a2892a429fcca8d796d18aaa4487030c8" kind="function"><name>segmentMesh</name></member>
+    <member refid="classMR_1ae8e6ebd6e800531759eb8242b074309b" kind="function"><name>findSegmentBoundaries</name></member>
     <member refid="classMR_1ad02456448a04959c5b886d2dae32efad" kind="function"><name>serializeMesh</name></member>
     <member refid="classMR_1ab23f22a433e21b6db77c54416580f6d6" kind="function"><name>sharpenMarchingCubesMesh</name></member>
     <member refid="classMR_1a802492630bb6f8d449f1b3acf184bbde" kind="function"><name>asString</name></member>
@@ -22583,6 +22601,8 @@
   <compound refid="MRSceneRoot_8cs" kind="file"><name>MRSceneRoot.cs</name>
   </compound>
   <compound refid="MRSceneSettings_8cs" kind="file"><name>MRSceneSettings.cs</name>
+  </compound>
+  <compound refid="MRSegmentMesh_8cs" kind="file"><name>MRSegmentMesh.cs</name>
   </compound>
   <compound refid="MRSegmPoint_8cs" kind="file"><name>MRSegmPoint.cs</name>
   </compound>

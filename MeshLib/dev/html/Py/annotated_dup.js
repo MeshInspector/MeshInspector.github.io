@@ -206,6 +206,7 @@ var annotated_dup =
       [ "DentalId", "classmrmeshpy_1_1DentalId.html", "classmrmeshpy_1_1DentalId" ],
       [ "DepthFunction", "classmrmeshpy_1_1DepthFunction.html", "classmrmeshpy_1_1DepthFunction" ],
       [ "DetectTunnelSettings", "classmrmeshpy_1_1DetectTunnelSettings.html", "classmrmeshpy_1_1DetectTunnelSettings" ],
+      [ "DihedralAngleProcessParams", "classmrmeshpy_1_1DihedralAngleProcessParams.html", "classmrmeshpy_1_1DihedralAngleProcessParams" ],
       [ "DimensionsVisualizePropertyType", "classmrmeshpy_1_1DimensionsVisualizePropertyType.html", "classmrmeshpy_1_1DimensionsVisualizePropertyType" ],
       [ "Dipole", "classmrmeshpy_1_1Dipole.html", "classmrmeshpy_1_1Dipole" ],
       [ "Dipoles", "classmrmeshpy_1_1Dipoles.html", "classmrmeshpy_1_1Dipoles" ],

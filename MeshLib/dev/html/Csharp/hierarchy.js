@@ -693,6 +693,9 @@ var hierarchy =
       [ "MR.Const_DetectTunnelSettings", null, [
         [ "MR.DetectTunnelSettings", "classMR_1_1DetectTunnelSettings.html", null ]
       ] ],
+      [ "MR.Const_DihedralAngleProcessParams", null, [
+        [ "MR.DihedralAngleProcessParams", "classMR_1_1DihedralAngleProcessParams.html", null ]
+      ] ],
       [ "MR.Const_Dipole", null, [
         [ "MR.Dipole", "classMR_1_1Dipole.html", null ]
       ] ],
@@ -3533,6 +3536,7 @@ var hierarchy =
       [ "MR.Const_DenseBox", null, null ],
       [ "MR.Const_DentalId", null, null ],
       [ "MR.Const_DetectTunnelSettings", null, null ],
+      [ "MR.Const_DihedralAngleProcessParams", null, null ],
       [ "MR.Const_Dipole", null, null ],
       [ "MR.Const_Dipoles", null, null ],
       [ "MR.Const_Dirty", null, null ],

@@ -154,6 +154,7 @@
     <innerclass refid="classMR_1_1DentalId" prot="public">MR::DentalId</innerclass>
     <innerclass refid="classMR_1_1DepthPeelingGL" prot="public">MR::DepthPeelingGL</innerclass>
     <innerclass refid="structMR_1_1DetectTunnelSettings" prot="public">MR::DetectTunnelSettings</innerclass>
+    <innerclass refid="structMR_1_1DihedralAngleProcessParams" prot="public">MR::DihedralAngleProcessParams</innerclass>
     <innerclass refid="structMR_1_1Dipole" prot="public">MR::Dipole</innerclass>
     <innerclass refid="classMR_1_1DirectionWidget" prot="public">MR::DirectionWidget</innerclass>
     <innerclass refid="structMR_1_1Directory" prot="public">MR::Directory</innerclass>
@@ -1142,6 +1143,8 @@
       <member refid="group__SurfacePathGroup_1ga4d28c28ac45bd44a6f3711fd55891011" kind="function"><name>edgeCurvMetric</name></member>
       <member refid="group__SurfacePathGroup_1ga713795832c35e26e930a0e509d3e3439" kind="function"><name>edgeAbsCurvMetric</name></member>
       <member refid="group__SurfacePathGroup_1ga83d18b35a657e690d099626020c05e78" kind="function"><name>edgeAbsCurvMetric</name></member>
+      <member refid="group__SurfacePathGroup_1gaa2a5b359dace91a4b35c9874d04a7931" kind="function"><name>edgeDihedralAngleMetric</name></member>
+      <member refid="group__SurfacePathGroup_1ga5d38c69469719f54826d15925625b6c8" kind="function"><name>edgeDihedralAngleMetric</name></member>
       <member refid="group__SurfacePathGroup_1ga4e42be093ad0a3c2093cbfe41a7fc8e4" kind="function"><name>edgeTableSymMetric</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -1809,6 +1812,7 @@
       <member refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" kind="typedef"><name>RegularGridMeshFaceValidator</name></member>
       <member refid="group__GeneralGroup_1ga1ba9e876bd033bc6803332bb875ee138" kind="typedef"><name>OrgRingIterator</name></member>
       <member refid="group__GeneralGroup_1gad2baece747803d447531075a0e80a2c3" kind="typedef"><name>LeftRingIterator</name></member>
+      <member refid="group__GeneralGroup_1ga13c6625ef2ade2be056564a39a8474d2" kind="typedef"><name>GroupOrder</name></member>
       <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
       <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
       <member refid="group__GeneralGroup_1ga9b40642439b0e49df514a79a4cc26a55" kind="typedef"><name>TriTriDistanceResultf</name></member>
@@ -3007,6 +3011,8 @@
       <member refid="group__GeneralGroup_1gab047e224fb3353ad1723fd634e961af5" kind="function"><name>transformPoints</name></member>
       <member refid="group__GeneralGroup_1ga452464952a46f9611ea150f4851a9202" kind="function"><name>transformNormals</name></member>
       <member refid="group__GeneralGroup_1gad5ae7a8d3bd6824999f6568bffa233ad" kind="function"><name>createRootFormObject</name></member>
+      <member refid="group__GeneralGroup_1gaabda96d9384f3d5e65c51a7147840ab1" kind="function"><name>segmentMesh</name></member>
+      <member refid="group__GeneralGroup_1ga4ca7b09440ce510d7ea9348b1feb4af4" kind="function"><name>findSegmentBoundaries</name></member>
       <member refid="group__SerializerGroup_1ga1edcbab8181af7aca7d614a91965677c" kind="function"><name>serializeJsonValue</name></member>
       <member refid="group__SerializerGroup_1gacbf16137ea3050956402665855f5b92f" kind="function"><name>serializeJsonValue</name></member>
       <member refid="group__SerializerGroup_1ga50539cfe8f960607feeace50210a0a16" kind="function"><name>serializeJsonValue</name></member>

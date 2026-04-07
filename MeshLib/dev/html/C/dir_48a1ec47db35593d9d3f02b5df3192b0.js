@@ -313,6 +313,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRSceneLoad.h", "MRSceneLoad_8h.html", "MRSceneLoad_8h" ],
     [ "MRSceneRoot.h", "MRSceneRoot_8h.html", "MRSceneRoot_8h" ],
     [ "MRSceneSettings.h", "MRSceneSettings_8h.html", "MRSceneSettings_8h" ],
+    [ "MRSegmentMesh.h", "MRSegmentMesh_8h.html", "MRSegmentMesh_8h" ],
     [ "MRSegmPoint.h", "MRSegmPoint_8h.html", "MRSegmPoint_8h" ],
     [ "MRSeparationPoint.h", "MRSeparationPoint_8h.html", "MRSeparationPoint_8h" ],
     [ "MRSerializer.h", "MRSerializer_8h.html", "MRSerializer_8h" ],

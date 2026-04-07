@@ -1,5 +1,10 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1AABBTreePolyline3.html#ae7a5a9ae560eae461f3414ae2ae2bff3":[6,3,0,0,0,12,0],
+"classMR_1_1AABBTreePolyline3.html#af8e334e25eac39ca6370cb928d81d980":[6,3,0,0,0,12,2],
+"classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html":[6,3,0,0,0,13],
+"classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html#a3ba394d412447a4efcef62c9200141d6":[6,3,0,0,0,13,2],
+"classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html#a54a74dbb7178b5a49b70e26c05cba6b8":[6,3,0,0,0,13,3],
 "classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html#abca6f6675d2124d335ae4357ed4d1dc7":[6,3,0,0,0,13,0],
 "classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html#af2b904e6c5af812aeb080bb9aef8d15b":[6,3,0,0,0,13,1],
 "classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html":[6,3,0,0,0,14],
@@ -244,10 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1AngleMeasurementObject.html#abe8aafe6a9c1c418196844389bbcb47b":[6,3,0,0,0,24,48],
 "classMR_1_1AngleMeasurementObject.html#abf8ef887b0d1351940df9251aab60d96":[6,3,0,0,0,24,15],
 "classMR_1_1AngleMeasurementObject.html#ac54ca798bc169acacadd8d0b1f840aa4":[6,3,0,0,0,24,49],
-"classMR_1_1AngleMeasurementObject.html#ac972342a6850b62d88781386644e1fab":[6,3,0,0,0,24,27],
-"classMR_1_1AngleMeasurementObject.html#ac9cbf9c9450320ba3c6a34bea0daee35":[6,3,0,0,0,24,17],
-"classMR_1_1AngleMeasurementObject.html#acb640cf9586b1b9be483c194fa810982":[6,3,0,0,0,24,19],
-"classMR_1_1AngleMeasurementObject.html#acfa9bb846d637f4e32411dc1e4302035":[6,3,0,0,0,24,0],
-"classMR_1_1AngleMeasurementObject.html#ad3b4ee3c17de77f1dc14afc96c522d0a":[6,3,0,0,0,24,52],
-"classMR_1_1AngleMeasurementObject.html#ad4561dad529be9e6054b961735c206f6":[6,3,0,0,0,24,23]
+"classMR_1_1AngleMeasurementObject.html#ac972342a6850b62d88781386644e1fab":[6,3,0,0,0,24,27]
 };

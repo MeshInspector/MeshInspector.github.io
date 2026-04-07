@@ -144,12 +144,14 @@ $(function(){initNavTree('MREdgeMetric_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MREdgeMetric_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:abe08d8d5c70c2a7fb9600f5a1dfd1687" id="r_abe08d8d5c70c2a7fb9600f5a1dfd1687"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a></td></tr>
+<tr class="memitem:a5cf1e8653b08487d4ba88ae18032c02a" id="r_a5cf1e8653b08487d4ba88ae18032c02a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -164,9 +166,46 @@ Functions</h2></td></tr>
 <tr class="memitem:a8d41aec1f1b35733b8c9b2c5fe2531cd" id="r_a8d41aec1f1b35733b8c9b2c5fe2531cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d41aec1f1b35733b8c9b2c5fe2531cd">MR_edgeCurvMetric_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const float *angleSinFactor, const float *angleSinForBoundary)</td></tr>
 <tr class="memitem:aa4b47a7fa8abdeb7e881ee21548d17f3" id="r_aa4b47a7fa8abdeb7e881ee21548d17f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4b47a7fa8abdeb7e881ee21548d17f3">MR_edgeAbsCurvMetric_3</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const float *angleSinFactor, const float *angleSinForBoundary)</td></tr>
 <tr class="memitem:a567337961e7274de6d273f739f2b341d" id="r_a567337961e7274de6d273f739f2b341d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a567337961e7274de6d273f739f2b341d">MR_edgeAbsCurvMetric_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const float *angleSinFactor, const float *angleSinForBoundary)</td></tr>
+<tr class="memitem:a36d9cb29cc03ddf8c734ac0b50106688" id="r_a36d9cb29cc03ddf8c734ac0b50106688"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d9cb29cc03ddf8c734ac0b50106688">MR_DihedralAngleProcessParams_Get_convexFactor</a> (const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this)</td></tr>
+<tr class="memitem:aa29dde4fe046ac356aca5178af522f37" id="r_aa29dde4fe046ac356aca5178af522f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa29dde4fe046ac356aca5178af522f37">MR_DihedralAngleProcessParams_Set_convexFactor</a> (<a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a29e49f0c9ac866b8dc5a33996db0b00a" id="r_a29e49f0c9ac866b8dc5a33996db0b00a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29e49f0c9ac866b8dc5a33996db0b00a">MR_DihedralAngleProcessParams_GetMutable_convexFactor</a> (<a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this)</td></tr>
+<tr class="memitem:ae63578d88facffcbc47e9e04a34efa76" id="r_ae63578d88facffcbc47e9e04a34efa76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae63578d88facffcbc47e9e04a34efa76">MR_DihedralAngleProcessParams_Get_concaveFactor</a> (const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this)</td></tr>
+<tr class="memitem:ace532a0af061ab2200624115061a91b5" id="r_ace532a0af061ab2200624115061a91b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace532a0af061ab2200624115061a91b5">MR_DihedralAngleProcessParams_Set_concaveFactor</a> (<a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a7008f0811f411768a4fac4ce34a27f09" id="r_a7008f0811f411768a4fac4ce34a27f09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7008f0811f411768a4fac4ce34a27f09">MR_DihedralAngleProcessParams_GetMutable_concaveFactor</a> (<a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this)</td></tr>
+<tr class="memitem:a09e1db7ac6c01c8e9de1ea020d4eb767" id="r_a09e1db7ac6c01c8e9de1ea020d4eb767"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09e1db7ac6c01c8e9de1ea020d4eb767">MR_DihedralAngleProcessParams_Get_boundaryValue</a> (const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this)</td></tr>
+<tr class="memitem:a8ce4136ffcd7385c9f9ed37cdee29a81" id="r_a8ce4136ffcd7385c9f9ed37cdee29a81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ce4136ffcd7385c9f9ed37cdee29a81">MR_DihedralAngleProcessParams_Set_boundaryValue</a> (<a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a1b40a4ec9998d433073a0939237e1888" id="r_a1b40a4ec9998d433073a0939237e1888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b40a4ec9998d433073a0939237e1888">MR_DihedralAngleProcessParams_GetMutable_boundaryValue</a> (<a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this)</td></tr>
+<tr class="memitem:a7ab3171aa9b808234b70659c52684764" id="r_a7ab3171aa9b808234b70659c52684764"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ab3171aa9b808234b70659c52684764">MR_DihedralAngleProcessParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a24d90ab9e7059cc0dfe24a55036ab66a" id="r_a24d90ab9e7059cc0dfe24a55036ab66a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24d90ab9e7059cc0dfe24a55036ab66a">MR_DihedralAngleProcessParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:acee280b31889db99232a080eb0d90be7" id="r_acee280b31889db99232a080eb0d90be7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acee280b31889db99232a080eb0d90be7">MR_DihedralAngleProcessParams_ConstructFrom</a> (float convexFactor, float concaveFactor, float boundaryValue)</td></tr>
+<tr class="memitem:a5a5cd2016f721851585b6359ab647c8b" id="r_a5a5cd2016f721851585b6359ab647c8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a5cd2016f721851585b6359ab647c8b">MR_DihedralAngleProcessParams_OffsetPtr</a> (const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ab1e2b81658326a8cb1ae895a24c7f33b" id="r_ab1e2b81658326a8cb1ae895a24c7f33b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1e2b81658326a8cb1ae895a24c7f33b">MR_DihedralAngleProcessParams_OffsetMutablePtr</a> (<a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a2a725522dd3d864f0ca72bc64f0bf9ea" id="r_a2a725522dd3d864f0ca72bc64f0bf9ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a725522dd3d864f0ca72bc64f0bf9ea">MR_DihedralAngleProcessParams_ConstructFromAnother</a> (const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_other)</td></tr>
+<tr class="memitem:ad33a1f43331968409a9a7385aac1ab5b" id="r_ad33a1f43331968409a9a7385aac1ab5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad33a1f43331968409a9a7385aac1ab5b">MR_DihedralAngleProcessParams_Destroy</a> (const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this)</td></tr>
+<tr class="memdesc:ad33a1f43331968409a9a7385aac1ab5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:aaf38932cf46a3487c34b760f5a65f4df" id="r_aaf38932cf46a3487c34b760f5a65f4df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf38932cf46a3487c34b760f5a65f4df">MR_DihedralAngleProcessParams_DestroyArray</a> (const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this)</td></tr>
+<tr class="memdesc:aaf38932cf46a3487c34b760f5a65f4df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a1c221375982ebae1f47980c88e6c43ea" id="r_a1c221375982ebae1f47980c88e6c43ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c221375982ebae1f47980c88e6c43ea">MR_DihedralAngleProcessParams_AssignFromAnother</a> (<a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_this, const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *_other)</td></tr>
+<tr class="memitem:a0203beb57693430634a4a69c31db669b" id="r_a0203beb57693430634a4a69c31db669b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0203beb57693430634a4a69c31db669b">MR_edgeDihedralAngleMetric_2</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *params)</td></tr>
+<tr class="memitem:a2097c06b6f4e3dc1f80930700b2183ac" id="r_a2097c06b6f4e3dc1f80930700b2183ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2097c06b6f4e3dc1f80930700b2183ac">MR_edgeDihedralAngleMetric_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *params)</td></tr>
 <tr class="memitem:a7db0f0148b6743675178f1c534091390" id="r_a7db0f0148b6743675178f1c534091390"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db0f0148b6743675178f1c534091390">MR_edgeTableSymMetric</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a5cf1e8653b08487d4ba88ae18032c02a" name="a5cf1e8653b08487d4ba88ae18032c02a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf1e8653b08487d4ba88ae18032c02a">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <span class="tt">MR::DihedralAngleProcessParams</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
 <a id="abe08d8d5c70c2a7fb9600f5a1dfd1687" name="abe08d8d5c70c2a7fb9600f5a1dfd1687"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId</h2>
 
@@ -183,6 +222,364 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a1c221375982ebae1f47980c88e6c43ea" name="a1c221375982ebae1f47980c88e6c43ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c221375982ebae1f47980c88e6c43ea">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> * MR_DihedralAngleProcessParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::DihedralAngleProcessParams::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="acee280b31889db99232a080eb0d90be7" name="acee280b31889db99232a080eb0d90be7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee280b31889db99232a080eb0d90be7">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> * MR_DihedralAngleProcessParams_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>convexFactor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>concaveFactor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>boundaryValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::DihedralAngleProcessParams</span> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ad33a1f43331968409a9a7385aac1ab5b" title="Destroys a heap-allocated instance of MR_DihedralAngleProcessParams. Does nothing if the pointer is n...">MR_DihedralAngleProcessParams_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a2a725522dd3d864f0ca72bc64f0bf9ea" name="a2a725522dd3d864f0ca72bc64f0bf9ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a725522dd3d864f0ca72bc64f0bf9ea">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> * MR_DihedralAngleProcessParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::DihedralAngleProcessParams::DihedralAngleProcessParams</span>. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ad33a1f43331968409a9a7385aac1ab5b" title="Destroys a heap-allocated instance of MR_DihedralAngleProcessParams. Does nothing if the pointer is n...">MR_DihedralAngleProcessParams_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7ab3171aa9b808234b70659c52684764" name="a7ab3171aa9b808234b70659c52684764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab3171aa9b808234b70659c52684764">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> * MR_DihedralAngleProcessParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ad33a1f43331968409a9a7385aac1ab5b" title="Destroys a heap-allocated instance of MR_DihedralAngleProcessParams. Does nothing if the pointer is n...">MR_DihedralAngleProcessParams_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a24d90ab9e7059cc0dfe24a55036ab66a" name="a24d90ab9e7059cc0dfe24a55036ab66a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d90ab9e7059cc0dfe24a55036ab66a">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> * MR_DihedralAngleProcessParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#aaf38932cf46a3487c34b760f5a65f4df" title="Destroys a heap-allocated array of MR_DihedralAngleProcessParams. Does nothing if the pointer is null...">MR_DihedralAngleProcessParams_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#ab1e2b81658326a8cb1ae895a24c7f33b">MR_DihedralAngleProcessParams_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a5a5cd2016f721851585b6359ab647c8b">MR_DihedralAngleProcessParams_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ad33a1f43331968409a9a7385aac1ab5b" name="ad33a1f43331968409a9a7385aac1ab5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33a1f43331968409a9a7385aac1ab5b">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DihedralAngleProcessParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aaf38932cf46a3487c34b760f5a65f4df" name="aaf38932cf46a3487c34b760f5a65f4df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf38932cf46a3487c34b760f5a65f4df">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DihedralAngleProcessParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a09e1db7ac6c01c8e9de1ea020d4eb767" name="a09e1db7ac6c01c8e9de1ea020d4eb767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09e1db7ac6c01c8e9de1ea020d4eb767">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_Get_boundaryValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_DihedralAngleProcessParams_Get_boundaryValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this value will be returned as dihedral angle for boundary edges Modifies a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">boundaryValue</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">boundaryValue</span>. </p>
+
+</div>
+</div>
+<a id="ae63578d88facffcbc47e9e04a34efa76" name="ae63578d88facffcbc47e9e04a34efa76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae63578d88facffcbc47e9e04a34efa76">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_Get_concaveFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_DihedralAngleProcessParams_Get_concaveFactor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>positive convex dihedral angles are returned multiplied on this factor Modifies a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">concaveFactor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">concaveFactor</span>. </p>
+
+</div>
+</div>
+<a id="a36d9cb29cc03ddf8c734ac0b50106688" name="a36d9cb29cc03ddf8c734ac0b50106688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d9cb29cc03ddf8c734ac0b50106688">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_Get_convexFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_DihedralAngleProcessParams_Get_convexFactor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>positive convex dihedral angles are returned multiplied on this factor Modifies a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">convexFactor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">convexFactor</span>. </p>
+
+</div>
+</div>
+<a id="a1b40a4ec9998d433073a0939237e1888" name="a1b40a4ec9998d433073a0939237e1888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b40a4ec9998d433073a0939237e1888">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_GetMutable_boundaryValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_DihedralAngleProcessParams_GetMutable_boundaryValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7008f0811f411768a4fac4ce34a27f09" name="a7008f0811f411768a4fac4ce34a27f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7008f0811f411768a4fac4ce34a27f09">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_GetMutable_concaveFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_DihedralAngleProcessParams_GetMutable_concaveFactor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this value will be returned as dihedral angle for boundary edges Returns a pointer to a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">boundaryValue</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a29e49f0c9ac866b8dc5a33996db0b00a" name="a29e49f0c9ac866b8dc5a33996db0b00a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29e49f0c9ac866b8dc5a33996db0b00a">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_GetMutable_convexFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_DihedralAngleProcessParams_GetMutable_convexFactor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>positive convex dihedral angles are returned multiplied on this factor Returns a pointer to a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">concaveFactor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab1e2b81658326a8cb1ae895a24c7f33b" name="ab1e2b81658326a8cb1ae895a24c7f33b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1e2b81658326a8cb1ae895a24c7f33b">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> * MR_DihedralAngleProcessParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a5a5cd2016f721851585b6359ab647c8b" name="a5a5cd2016f721851585b6359ab647c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a5cd2016f721851585b6359ab647c8b">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> * MR_DihedralAngleProcessParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a8ce4136ffcd7385c9f9ed37cdee29a81" name="a8ce4136ffcd7385c9f9ed37cdee29a81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce4136ffcd7385c9f9ed37cdee29a81">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_Set_boundaryValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DihedralAngleProcessParams_Set_boundaryValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this value will be returned as dihedral angle for boundary edges Returns a mutable pointer to a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">boundaryValue</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ace532a0af061ab2200624115061a91b5" name="ace532a0af061ab2200624115061a91b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace532a0af061ab2200624115061a91b5">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_Set_concaveFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DihedralAngleProcessParams_Set_concaveFactor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>positive convex dihedral angles are returned multiplied on this factor Returns a mutable pointer to a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">concaveFactor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aa29dde4fe046ac356aca5178af522f37" name="aa29dde4fe046ac356aca5178af522f37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa29dde4fe046ac356aca5178af522f37">&#9670;&#160;</a></span>MR_DihedralAngleProcessParams_Set_convexFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DihedralAngleProcessParams_Set_convexFactor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>positive convex dihedral angles are returned multiplied on this factor Returns a mutable pointer to a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">convexFactor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a01484edb3833aa62274791bd46b8ed17" name="a01484edb3833aa62274791bd46b8ed17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01484edb3833aa62274791bd46b8ed17">&#9670;&#160;</a></span>MR_discreteAbsMeanCurvatureMetric_1()</h2>
 
@@ -324,7 +721,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::edgeAbsCurvMetric</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">angleSinFactor</span> has a default argument: <span class="tt">2</span>, pass a null pointer to use it. Parameter <span class="tt">angleSinForBoundary</span> has a default argument: <span class="tt">0</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::edgeAbsCurvMetric</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">angleSinFactor</span> has a default argument: <span class="tt">2</span>, pass a null pointer to use it. Parameter <span class="tt">angleSinForBoundary</span> has a default argument: <span class="tt">0</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></span> to free it when you're done using it. positive convex dihedral angles are returned multiplied on this factor Returns a pointer to a member variable of class <span class="tt">MR::DihedralAngleProcessParams</span> named <span class="tt">convexFactor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -390,6 +787,55 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <span class="tt">MR::edgeCurvMetric</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">angleSinFactor</span> has a default argument: <span class="tt">2</span>, pass a null pointer to use it. Parameter <span class="tt">angleSinForBoundary</span> has a default argument: <span class="tt">0</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0203beb57693430634a4a69c31db669b" name="a0203beb57693430634a4a69c31db669b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0203beb57693430634a4a69c31db669b">&#9670;&#160;</a></span>MR_edgeDihedralAngleMetric_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_edgeDihedralAngleMetric_2 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this metric returns edge's dihedral angle computed by MR::dihedralAngle and post-processed based on the given parameters; returned value is NOT multiplied on edge's length as in other metrics; this metric is symmetric: m(e) == m(e.sym()) Generated from function <span class="tt">MR::edgeDihedralAngleMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2097c06b6f4e3dc1f80930700b2183ac" name="a2097c06b6f4e3dc1f80930700b2183ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2097c06b6f4e3dc1f80930700b2183ac">&#9670;&#160;</a></span>MR_edgeDihedralAngleMetric_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_edgeDihedralAngleMetric_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a5cf1e8653b08487d4ba88ae18032c02a">MR_DihedralAngleProcessParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::edgeDihedralAngleMetric</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

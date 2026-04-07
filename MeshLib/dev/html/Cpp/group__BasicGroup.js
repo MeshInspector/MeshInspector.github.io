@@ -166,6 +166,7 @@ var group__BasicGroup =
         [ "id", "structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b", null ],
         [ "val", "structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563", null ]
       ] ],
+      [ "Heap", "classMR_1_1Heap.html#ab8bbd747f281327e89c095c86983f177", null ],
       [ "Heap", "group__BasicGroup.html#ga9313e4c55061c6256011bd32a616752e", null ],
       [ "Heap", "group__BasicGroup.html#ga26381c3d0e45502caae2e269f988a3f8", null ],
       [ "increaseValue", "classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d", null ],

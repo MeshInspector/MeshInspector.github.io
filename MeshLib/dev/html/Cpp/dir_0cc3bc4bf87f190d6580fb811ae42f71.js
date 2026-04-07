@@ -361,6 +361,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRSceneRoot.h", "MRSceneRoot_8h.html", "MRSceneRoot_8h" ],
     [ "MRSceneSettings.h", "MRSceneSettings_8h.html", null ],
     [ "MRScopedValue.h", "MRScopedValue_8h.html", "MRScopedValue_8h" ],
+    [ "MRSegmentMesh.h", "MRSegmentMesh_8h.html", "MRSegmentMesh_8h" ],
     [ "MRSegmPoint.h", "MRSegmPoint_8h.html", null ],
     [ "MRSeparationPoint.h", "MRSeparationPoint_8h.html", "MRSeparationPoint_8h" ],
     [ "MRSerializer.h", "MRSerializer_8h.html", "MRSerializer_8h" ],

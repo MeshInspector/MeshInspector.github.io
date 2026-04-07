@@ -304,6 +304,57 @@
         </inbodydescription>
         <location file="MRMesh/MREdgeMetric.h" line="48" column="14" declfile="MRMesh/MREdgeMetric.h" declline="48" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaa2a5b359dace91a4b35c9874d04a7931" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeMetric</type>
+        <definition>EdgeMetric MR::edgeDihedralAngleMetric</definition>
+        <argsstring>(const Mesh &amp;mesh, const DihedralAngleProcessParams &amp;params={})</argsstring>
+        <name>edgeDihedralAngleMetric</name>
+        <qualifiedname>MR::edgeDihedralAngleMetric</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const DihedralAngleProcessParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this metric returns edge&apos;s dihedral angle computed by <ref refid="group__GeneralGroup_1gaf638aabbfacdad04a67c4be5dee8d85d" kindref="member">MR::dihedralAngle</ref> and post-processed based on the given parameters; returned value is NOT multiplied on edge&apos;s length as in other metrics; this metric is symmetric: m(e) == m(e.sym()) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgeMetric.h" line="60" column="14" declfile="MRMesh/MREdgeMetric.h" declline="60" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga5d38c69469719f54826d15925625b6c8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeMetric</type>
+        <definition>EdgeMetric MR::edgeDihedralAngleMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, const DihedralAngleProcessParams &amp;params={})</argsstring>
+        <name>edgeDihedralAngleMetric</name>
+        <qualifiedname>MR::edgeDihedralAngleMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const DihedralAngleProcessParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgeMetric.h" line="61" column="14" declfile="MRMesh/MREdgeMetric.h" declline="61" declcolumn="14"/>
+      </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga4e42be093ad0a3c2093cbfe41a7fc8e4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeMetric</type>
         <definition>EdgeMetric MR::edgeTableSymMetric</definition>
@@ -325,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgeMetric.h" line="52" column="14" declfile="MRMesh/MREdgeMetric.h" declline="52" declcolumn="14"/>
+        <location file="MRMesh/MREdgeMetric.h" line="65" column="14" declfile="MRMesh/MREdgeMetric.h" declline="65" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">

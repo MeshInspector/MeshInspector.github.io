@@ -2458,6 +2458,11 @@
     <member refid="group__GeneralGroup_1ga41a585b4f3781b67e22daa8ff5b9479d" kind="variable"><name>name</name></member>
     <member refid="group__GeneralGroup_1ga5159934791ea7584f07b333cd28777b3" kind="variable"><name>xf</name></member>
   </compound>
+  <compound refid="structMR_1_1DihedralAngleProcessParams" kind="struct"><name>MR::DihedralAngleProcessParams</name>
+    <member refid="group__GeneralGroup_1gac5be006d2871232ebdac4d91e32d1264" kind="variable"><name>convexFactor</name></member>
+    <member refid="group__GeneralGroup_1ga02f9a36cc38f075c05945cd1d672a9b4" kind="variable"><name>concaveFactor</name></member>
+    <member refid="group__GeneralGroup_1gaf8d91d7986ad0925066b5e8c5f79b96e" kind="variable"><name>boundaryValue</name></member>
+  </compound>
   <compound refid="structMR_1_1Dipole" kind="struct"><name>MR::Dipole</name>
     <member refid="group__GeneralGroup_1gae70faa532d5372a7fa0e32336cc6df35" kind="variable"><name>pos</name></member>
     <member refid="group__GeneralGroup_1gaae5226baaa9fd2fef60b3940f4d0951f" kind="variable"><name>area</name></member>
@@ -3774,6 +3779,7 @@
     <member refid="group__GeneralGroup_1ga81ebc39b9f1034cb329a04b4e8ffc74b" kind="variable"><name>neighboursPerVertex_</name></member>
     <member refid="group__GeneralGroup_1gafc6e669b11365ec3aa8af178cb853bec" kind="variable"><name>endsPerEdge_</name></member>
     <member refid="group__GeneralGroup_1ga59a709d25b047768d7e7ce781f08cda1" kind="function"><name>construct</name></member>
+    <member refid="group__GeneralGroup_1ga7c360c48e97cbb1393e1a1f39e2013b9" kind="function"><name>construct</name></member>
     <member refid="group__GeneralGroup_1gac31feb99fa40a7a7fee0c9806f676b11" kind="function"><name>vertSize</name></member>
     <member refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" kind="function"><name>validVerts</name></member>
     <member refid="group__GeneralGroup_1ga46ac2204a29916d4c70d8902b0a21868" kind="function"><name>valid</name></member>
@@ -3862,6 +3868,7 @@
     <member refid="classMR_1_1Heap_1aeae6302fc85941aabe1b0162258851b4" kind="variable"><name>heap_</name></member>
     <member refid="classMR_1_1Heap_1a9eb358dc5a4f0d0907ebf1397be937f6" kind="variable"><name>id2PosInHeap_</name></member>
     <member refid="classMR_1_1Heap_1a1a9506e21e2b8f84d7c4f23873e5fe8b" kind="variable"><name>pred_</name></member>
+    <member refid="classMR_1_1Heap_1ab8bbd747f281327e89c095c86983f177" kind="function"><name>Heap</name></member>
     <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" kind="function"><name>Heap</name></member>
     <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" kind="function"><name>Heap</name></member>
     <member refid="classMR_1_1Heap_1a516d00eb9620f9cdb1f5c43c0810f744" kind="function"><name>size</name></member>
@@ -13458,6 +13465,8 @@
     <member refid="group__SurfacePathGroup_1ga4d28c28ac45bd44a6f3711fd55891011" kind="function"><name>edgeCurvMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga713795832c35e26e930a0e509d3e3439" kind="function"><name>edgeAbsCurvMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga83d18b35a657e690d099626020c05e78" kind="function"><name>edgeAbsCurvMetric</name></member>
+    <member refid="group__SurfacePathGroup_1gaa2a5b359dace91a4b35c9874d04a7931" kind="function"><name>edgeDihedralAngleMetric</name></member>
+    <member refid="group__SurfacePathGroup_1ga5d38c69469719f54826d15925625b6c8" kind="function"><name>edgeDihedralAngleMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga4e42be093ad0a3c2093cbfe41a7fc8e4" kind="function"><name>edgeTableSymMetric</name></member>
     <member refid="group__SurfacePathGroup_1gaa19748400735de370a91b932989ff0f0" kind="function"><name>isEdgePath</name></member>
     <member refid="group__SurfacePathGroup_1gac69eac289f7c94aff94e7e9db7ed8a62" kind="function"><name>isEdgeLoop</name></member>
@@ -13868,6 +13877,7 @@
     <member refid="group__GeneralGroup_1ga972aa33f2723ecfd1a0f7b41ff77a113" kind="typedef"><name>RegularGridMeshFaceValidator</name></member>
     <member refid="group__GeneralGroup_1ga1ba9e876bd033bc6803332bb875ee138" kind="typedef"><name>OrgRingIterator</name></member>
     <member refid="group__GeneralGroup_1gad2baece747803d447531075a0e80a2c3" kind="typedef"><name>LeftRingIterator</name></member>
+    <member refid="group__GeneralGroup_1ga13c6625ef2ade2be056564a39a8474d2" kind="typedef"><name>GroupOrder</name></member>
     <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
     <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
     <member refid="group__GeneralGroup_1ga9b40642439b0e49df514a79a4cc26a55" kind="typedef"><name>TriTriDistanceResultf</name></member>
@@ -15049,6 +15059,8 @@
     <member refid="group__GeneralGroup_1gab047e224fb3353ad1723fd634e961af5" kind="function"><name>transformPoints</name></member>
     <member refid="group__GeneralGroup_1ga452464952a46f9611ea150f4851a9202" kind="function"><name>transformNormals</name></member>
     <member refid="group__GeneralGroup_1gad5ae7a8d3bd6824999f6568bffa233ad" kind="function"><name>createRootFormObject</name></member>
+    <member refid="group__GeneralGroup_1gaabda96d9384f3d5e65c51a7147840ab1" kind="function"><name>segmentMesh</name></member>
+    <member refid="group__GeneralGroup_1ga4ca7b09440ce510d7ea9348b1feb4af4" kind="function"><name>findSegmentBoundaries</name></member>
     <member refid="group__SerializerGroup_1ga1edcbab8181af7aca7d614a91965677c" kind="function"><name>serializeJsonValue</name></member>
     <member refid="group__SerializerGroup_1gacbf16137ea3050956402665855f5b92f" kind="function"><name>serializeJsonValue</name></member>
     <member refid="group__SerializerGroup_1ga50539cfe8f960607feeace50210a0a16" kind="function"><name>serializeJsonValue</name></member>
@@ -17398,6 +17410,8 @@
   <compound refid="MRScopedValue_8h" kind="file"><name>MRScopedValue.h</name>
     <member refid="MRScopedValue_8h_1a1351f3ee7d9ca8f0a3eef6e8c5da5fac" kind="define"><name>MR_SCOPED_VALUE</name></member>
   </compound>
+  <compound refid="MRSegmentMesh_8h" kind="file"><name>MRSegmentMesh.h</name>
+  </compound>
   <compound refid="MRSegmPoint_8h" kind="file"><name>MRSegmPoint.h</name>
   </compound>
   <compound refid="MRSeparationPoint_8h" kind="file"><name>MRSeparationPoint.h</name>
@@ -18993,6 +19007,8 @@
     <member refid="group__SurfacePathGroup_1ga4d28c28ac45bd44a6f3711fd55891011" kind="function"><name>edgeCurvMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga713795832c35e26e930a0e509d3e3439" kind="function"><name>edgeAbsCurvMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga83d18b35a657e690d099626020c05e78" kind="function"><name>edgeAbsCurvMetric</name></member>
+    <member refid="group__SurfacePathGroup_1gaa2a5b359dace91a4b35c9874d04a7931" kind="function"><name>edgeDihedralAngleMetric</name></member>
+    <member refid="group__SurfacePathGroup_1ga5d38c69469719f54826d15925625b6c8" kind="function"><name>edgeDihedralAngleMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga4e42be093ad0a3c2093cbfe41a7fc8e4" kind="function"><name>edgeTableSymMetric</name></member>
     <member refid="group__SurfacePathGroup_1gaa19748400735de370a91b932989ff0f0" kind="function"><name>isEdgePath</name></member>
     <member refid="group__SurfacePathGroup_1gac69eac289f7c94aff94e7e9db7ed8a62" kind="function"><name>isEdgeLoop</name></member>
@@ -19362,6 +19378,8 @@
     <member refid="group__SurfacePathGroup_1ga4d28c28ac45bd44a6f3711fd55891011" kind="function"><name>edgeCurvMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga713795832c35e26e930a0e509d3e3439" kind="function"><name>edgeAbsCurvMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga83d18b35a657e690d099626020c05e78" kind="function"><name>edgeAbsCurvMetric</name></member>
+    <member refid="group__SurfacePathGroup_1gaa2a5b359dace91a4b35c9874d04a7931" kind="function"><name>edgeDihedralAngleMetric</name></member>
+    <member refid="group__SurfacePathGroup_1ga5d38c69469719f54826d15925625b6c8" kind="function"><name>edgeDihedralAngleMetric</name></member>
     <member refid="group__SurfacePathGroup_1ga4e42be093ad0a3c2093cbfe41a7fc8e4" kind="function"><name>edgeTableSymMetric</name></member>
     <member refid="group__SurfacePathGroup_1gac69eac289f7c94aff94e7e9db7ed8a62" kind="function"><name>isEdgeLoop</name></member>
     <member refid="group__SurfacePathGroup_1ga49b1ba597792f69ce9ff43247589abdc" kind="function"><name>splitOnSimpleLoops</name></member>
@@ -20674,6 +20692,7 @@
     <member refid="group__GeneralGroup_1ga6a1ef2de2a1f13787a3b231f9ce3b4a4" kind="typedef"><name>difference_type</name></member>
     <member refid="group__GeneralGroup_1ga1ba9e876bd033bc6803332bb875ee138" kind="typedef"><name>OrgRingIterator</name></member>
     <member refid="group__GeneralGroup_1gad2baece747803d447531075a0e80a2c3" kind="typedef"><name>LeftRingIterator</name></member>
+    <member refid="group__GeneralGroup_1ga13c6625ef2ade2be056564a39a8474d2" kind="typedef"><name>GroupOrder</name></member>
     <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
     <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
     <member refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kind="typedef"><name>T</name></member>
@@ -21281,6 +21300,9 @@
     <member refid="group__GeneralGroup_1ga502040275695ad7cdb51a568c7018fa2" kind="variable"><name>edge_</name></member>
     <member refid="group__GeneralGroup_1ga8354d05ed17b358631b7af8e742c2773" kind="variable"><name>topology</name></member>
     <member refid="group__GeneralGroup_1gae600eca420be35f1622258bf5830453c" kind="variable"><name>edgeLengths</name></member>
+    <member refid="group__GeneralGroup_1gac5be006d2871232ebdac4d91e32d1264" kind="variable"><name>convexFactor</name></member>
+    <member refid="group__GeneralGroup_1ga02f9a36cc38f075c05945cd1d672a9b4" kind="variable"><name>concaveFactor</name></member>
+    <member refid="group__GeneralGroup_1gaf8d91d7986ad0925066b5e8c5f79b96e" kind="variable"><name>boundaryValue</name></member>
     <member refid="group__GeneralGroup_1gae7c419aebb40aa7937984ceba3489254" kind="variable"><name>v</name></member>
     <member refid="group__GeneralGroup_1gab851f9e73d6568c7bda22cae8c669238" kind="variable"><name>metric</name></member>
     <member refid="group__GeneralGroup_1ga7a3153da84d3b829b564f595cd7d7a7e" kind="variable"><name>back</name></member>
@@ -25469,6 +25491,7 @@
     <member refid="group__GeneralGroup_1gacdf8c4e8411247e361733ddd467cd8bb" kind="function"><name>replaceEnd</name></member>
     <member refid="group__GeneralGroup_1gafe146d825ed418eab8e42d1bdb2f7a43" kind="function"><name>operator&lt;=&gt;</name></member>
     <member refid="group__GeneralGroup_1ga59a709d25b047768d7e7ce781f08cda1" kind="function"><name>construct</name></member>
+    <member refid="group__GeneralGroup_1ga7c360c48e97cbb1393e1a1f39e2013b9" kind="function"><name>construct</name></member>
     <member refid="group__GeneralGroup_1gac31feb99fa40a7a7fee0c9806f676b11" kind="function"><name>vertSize</name></member>
     <member refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" kind="function"><name>validVerts</name></member>
     <member refid="group__GeneralGroup_1ga46ac2204a29916d4c70d8902b0a21868" kind="function"><name>valid</name></member>
@@ -27329,6 +27352,8 @@
     <member refid="group__GeneralGroup_1ga833e6c4ea6089cdfa4dbddf1706b3016" kind="function"><name>~SceneSettings</name></member>
     <member refid="group__GeneralGroup_1gaab309373a5f3f1cdf32c93bcc6fc34f9" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1ga287f581fbd80098de7734314b41e28c1" kind="function"><name>instance_</name></member>
+    <member refid="group__GeneralGroup_1gaabda96d9384f3d5e65c51a7147840ab1" kind="function"><name>segmentMesh</name></member>
+    <member refid="group__GeneralGroup_1ga4ca7b09440ce510d7ea9348b1feb4af4" kind="function"><name>findSegmentBoundaries</name></member>
     <member refid="group__GeneralGroup_1gaa9b427c351c923636029040aa207f718" kind="function"><name>SegmPoint</name></member>
     <member refid="group__GeneralGroup_1ga852616535cc51c188a52c77b3f324a6e" kind="function"><name>SegmPoint</name></member>
     <member refid="group__GeneralGroup_1ga87266fccf15374e6dc7587544c028d63" kind="function"><name>operator T</name></member>

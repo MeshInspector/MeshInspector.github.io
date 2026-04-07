@@ -5,6 +5,7 @@ var classmrmeshpy_1_1Graph =
     [ "__init__", "classmrmeshpy_1_1Graph.html#a92cf845cfa15987573293a70fabd90e1", null ],
     [ "areNeighbors", "classmrmeshpy_1_1Graph.html#adb850399916f589182a5218d4eb1757c", null ],
     [ "checkValidity", "classmrmeshpy_1_1Graph.html#a6f6dce4ccfffbea903b65ba66c7b871e", null ],
+    [ "construct", "classmrmeshpy_1_1Graph.html#ab0728a82472240d2e0571c00d5d99241", null ],
     [ "construct", "classmrmeshpy_1_1Graph.html#a62e8dc7f72748f0636e1169d05a889b8", null ],
     [ "edgeSize", "classmrmeshpy_1_1Graph.html#a3cc955f4bcec3c630f6f52d3e07a941c", null ],
     [ "ends", "classmrmeshpy_1_1Graph.html#a7b035752f2df85f3d4634e5e961d3e10", null ],

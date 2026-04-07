@@ -41,6 +41,8 @@ var group__SurfacePathGroup =
     [ "MR::edgeAbsCurvMetric", "group__SurfacePathGroup.html#ga83d18b35a657e690d099626020c05e78", null ],
     [ "MR::edgeCurvMetric", "group__SurfacePathGroup.html#ga1ece8d5a89783d3e595cca38da33738a", null ],
     [ "MR::edgeCurvMetric", "group__SurfacePathGroup.html#ga4d28c28ac45bd44a6f3711fd55891011", null ],
+    [ "MR::edgeDihedralAngleMetric", "group__SurfacePathGroup.html#gaa2a5b359dace91a4b35c9874d04a7931", null ],
+    [ "MR::edgeDihedralAngleMetric", "group__SurfacePathGroup.html#ga5d38c69469719f54826d15925625b6c8", null ],
     [ "MR::edgeLengthMetric", "group__SurfacePathGroup.html#gaf83c9126c3fe5eb80121ed4fb5bbdcbf", null ],
     [ "MR::edgeLengthMetric", "group__SurfacePathGroup.html#ga1359bd15f1fd1d1702be9174dbd1f91e", null ],
     [ "MR::edgeTableSymMetric", "group__SurfacePathGroup.html#ga4e42be093ad0a3c2093cbfe41a7fc8e4", null ],

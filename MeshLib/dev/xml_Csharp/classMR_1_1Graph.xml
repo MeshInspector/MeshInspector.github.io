@@ -142,6 +142,37 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="462" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="462" bodyend="467"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Graph_1a6713cff0d540df99b36c9055e0fe22a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Graph.construct</definition>
+        <argsstring>(MR._ByValue_Vector_StdVectorMRGraphEdgeId_MRGraphVertId neighboursPerVertex, MR._ByValue_GraphVertBitSet validVerts, MR._ByValue_Vector_MRGraphEndVertices_MRGraphEdgeId endsPerEdge, MR._ByValue_GraphEdgeBitSet validEdges)</argsstring>
+        <name>construct</name>
+        <qualifiedname>MR.Graph.construct</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_StdVectorMRGraphEdgeId_MRGraphVertId</type>
+          <declname>neighboursPerVertex</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_GraphVertBitSet</type>
+          <declname>validVerts</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_Vector_MRGraphEndVertices_MRGraphEdgeId</type>
+          <declname>endsPerEdge</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_GraphEdgeBitSet</type>
+          <declname>validEdges</declname>
+        </param>
+        <briefdescription>
+<para>constructs the graph from given data that can contain invalid vertices and edges Generated from method <computeroutput><ref refid="classMR_1_1Graph_1aa914a46f9c4bf15627aa5b912341a47b" kindref="member">MR.Graph.construct</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="473" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="473" bodyend="478"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Graph_1ae686215337242b8e30ae8aa85c3514f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Graph.merge</definition>
@@ -167,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="474" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="474" bodyend="479"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="485" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="485" bodyend="490"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -217,10 +248,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="411" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="412" bodyend="480"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="411" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="412" bodyend="491"/>
     <listofallmembers>
       <member refid="classMR_1_1Graph_1af30df5b9d12c67bde3e201bc0f7b4c0d" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>assign</name></member>
       <member refid="classMR_1_1Graph_1aa914a46f9c4bf15627aa5b912341a47b" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
+      <member refid="classMR_1_1Graph_1a6713cff0d540df99b36c9055e0fe22a5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
       <member refid="classMR_1_1Graph_1aeb5ffcb2f2f66f2a8e026c5c9f13885d" prot="package" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1a0c4502a8250c814fe00a4a4767d8b2a5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1a2d8a6bfa2beb3fac553dd930eb973e9c" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>

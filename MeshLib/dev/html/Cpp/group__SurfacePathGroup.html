@@ -168,6 +168,8 @@ Classes</h2></td></tr>
 <tr class="memitem:ga4d28c28ac45bd44a6f3711fd55891011" id="r_ga4d28c28ac45bd44a6f3711fd55891011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4d28c28ac45bd44a6f3711fd55891011">MR::edgeCurvMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, float angleSinFactor=2, float angleSinForBoundary=0)</td></tr>
 <tr class="memitem:ga713795832c35e26e930a0e509d3e3439" id="r_ga713795832c35e26e930a0e509d3e3439"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga713795832c35e26e930a0e509d3e3439">MR::edgeAbsCurvMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float angleSinFactor=2, float angleSinForBoundary=0)</td></tr>
 <tr class="memitem:ga83d18b35a657e690d099626020c05e78" id="r_ga83d18b35a657e690d099626020c05e78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83d18b35a657e690d099626020c05e78">MR::edgeAbsCurvMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, float angleSinFactor=2, float angleSinForBoundary=0)</td></tr>
+<tr class="memitem:gaa2a5b359dace91a4b35c9874d04a7931" id="r_gaa2a5b359dace91a4b35c9874d04a7931"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa2a5b359dace91a4b35c9874d04a7931">MR::edgeDihedralAngleMetric</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DihedralAngleProcessParams.html">DihedralAngleProcessParams</a> &amp;params={})</td></tr>
+<tr class="memitem:ga5d38c69469719f54826d15925625b6c8" id="r_ga5d38c69469719f54826d15925625b6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d38c69469719f54826d15925625b6c8">MR::edgeDihedralAngleMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, const <a class="el" href="structMR_1_1DihedralAngleProcessParams.html">DihedralAngleProcessParams</a> &amp;params={})</td></tr>
 <tr class="memitem:ga4e42be093ad0a3c2093cbfe41a7fc8e4" id="r_ga4e42be093ad0a3c2093cbfe41a7fc8e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e42be093ad0a3c2093cbfe41a7fc8e4">MR::edgeTableSymMetric</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
 <tr class="memitem:gaa19748400735de370a91b932989ff0f0" id="r_gaa19748400735de370a91b932989ff0f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa19748400735de370a91b932989ff0f0">MR::isEdgePath</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; EdgeId &gt; &amp;edges)</td></tr>
 <tr class="memdesc:gaa19748400735de370a91b932989ff0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if every next edge starts where previous edge ends  <br /></td></tr>
@@ -1471,6 +1473,74 @@ Classes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>angleSinForBoundary</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MREdgeMetric_8h.html">MRMesh/MREdgeMetric.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaa2a5b359dace91a4b35c9874d04a7931" name="gaa2a5b359dace91a4b35c9874d04a7931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa2a5b359dace91a4b35c9874d04a7931">&#9670;&#160;</a></span>edgeDihedralAngleMetric() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> MR::edgeDihedralAngleMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DihedralAngleProcessParams.html">DihedralAngleProcessParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MREdgeMetric_8h.html">MRMesh/MREdgeMetric.h</a>&gt;</code></p>
+<p>this metric returns edge's dihedral angle computed by <a class="el" href="group__GeneralGroup.html#gaf638aabbfacdad04a67c4be5dee8d85d">MR::dihedralAngle</a> and post-processed based on the given parameters; returned value is NOT multiplied on edge's length as in other metrics; this metric is symmetric: m(e) == m(e.sym()) </p>
+
+</div>
+</div>
+<a id="ga5d38c69469719f54826d15925625b6c8" name="ga5d38c69469719f54826d15925625b6c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5d38c69469719f54826d15925625b6c8">&#9670;&#160;</a></span>edgeDihedralAngleMetric() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> MR::edgeDihedralAngleMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DihedralAngleProcessParams.html">DihedralAngleProcessParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>

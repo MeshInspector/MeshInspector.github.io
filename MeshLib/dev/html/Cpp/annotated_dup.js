@@ -444,6 +444,7 @@ var annotated_dup =
       [ "DentalId", "classMR_1_1DentalId.html", "classMR_1_1DentalId" ],
       [ "DepthPeelingGL", "classMR_1_1DepthPeelingGL.html", "classMR_1_1DepthPeelingGL" ],
       [ "DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", "structMR_1_1DetectTunnelSettings" ],
+      [ "DihedralAngleProcessParams", "structMR_1_1DihedralAngleProcessParams.html", "structMR_1_1DihedralAngleProcessParams" ],
       [ "Dipole", "structMR_1_1Dipole.html", "structMR_1_1Dipole" ],
       [ "DirectionWidget", "classMR_1_1DirectionWidget.html", "classMR_1_1DirectionWidget" ],
       [ "Directory", "structMR_1_1Directory.html", "structMR_1_1Directory" ],

@@ -313,6 +313,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRSceneLoad.cs", "MRSceneLoad_8cs.html", "MRSceneLoad_8cs" ],
     [ "MRSceneRoot.cs", "MRSceneRoot_8cs.html", "MRSceneRoot_8cs" ],
     [ "MRSceneSettings.cs", "MRSceneSettings_8cs.html", "MRSceneSettings_8cs" ],
+    [ "MRSegmentMesh.cs", "MRSegmentMesh_8cs.html", "MRSegmentMesh_8cs" ],
     [ "MRSegmPoint.cs", "MRSegmPoint_8cs.html", "MRSegmPoint_8cs" ],
     [ "MRSeparationPoint.cs", "MRSeparationPoint_8cs.html", "MRSeparationPoint_8cs" ],
     [ "MRSerializer.cs", "MRSerializer_8cs.html", "MRSerializer_8cs" ],

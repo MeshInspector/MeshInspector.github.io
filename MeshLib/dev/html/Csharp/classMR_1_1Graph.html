@@ -168,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af30df5b9d12c67bde3e201bc0f7b4c0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Graph::operator=</span>.  <br /></td></tr>
 <tr class="memitem:aa914a46f9c4bf15627aa5b912341a47b" id="r_aa914a46f9c4bf15627aa5b912341a47b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa914a46f9c4bf15627aa5b912341a47b">construct</a> (MR._ByValue_Vector_StdVectorMRGraphEdgeId_MRGraphVertId neighboursPerVertex, MR._ByValue_Vector_MRGraphEndVertices_MRGraphEdgeId endsPerEdge)</td></tr>
 <tr class="memdesc:aa914a46f9c4bf15627aa5b912341a47b"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs the graph from all valid vertices and edges Generated from method <span class="tt"><a class="el" href="#aa914a46f9c4bf15627aa5b912341a47b" title="constructs the graph from all valid vertices and edges Generated from method MR.Graph....">MR.Graph.construct</a></span>.  <br /></td></tr>
+<tr class="memitem:a6713cff0d540df99b36c9055e0fe22a5" id="r_a6713cff0d540df99b36c9055e0fe22a5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6713cff0d540df99b36c9055e0fe22a5">construct</a> (MR._ByValue_Vector_StdVectorMRGraphEdgeId_MRGraphVertId neighboursPerVertex, MR._ByValue_GraphVertBitSet validVerts, MR._ByValue_Vector_MRGraphEndVertices_MRGraphEdgeId endsPerEdge, MR._ByValue_GraphEdgeBitSet validEdges)</td></tr>
+<tr class="memdesc:a6713cff0d540df99b36c9055e0fe22a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs the graph from given data that can contain invalid vertices and edges Generated from method <span class="tt"><a class="el" href="#aa914a46f9c4bf15627aa5b912341a47b" title="constructs the graph from all valid vertices and edges Generated from method MR.Graph....">MR.Graph.construct</a></span>.  <br /></td></tr>
 <tr class="memitem:ae686215337242b8e30ae8aa85c3514f8" id="r_ae686215337242b8e30ae8aa85c3514f8"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae686215337242b8e30ae8aa85c3514f8">merge</a> (<a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> remnant, <a class="el" href="structMR_1_1GraphVertId.html">MR.GraphVertId</a> dead, MR.Std._ByValue_Function_Void_From_MRGraphEdgeId_MRGraphEdgeId onMergeEdges)</td></tr>
 <tr class="memdesc:ae686215337242b8e30ae8aa85c3514f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">unites two vertices into one (deleting the second one), which leads to deletion and merge of some edges, for which callback is called Generated from method <span class="tt"><a class="el" href="#ae686215337242b8e30ae8aa85c3514f8" title="unites two vertices into one (deleting the second one), which leads to deletion and merge of some edg...">MR.Graph.merge</a></span>.  <br /></td></tr>
 </table>
@@ -310,8 +312,49 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6713cff0d540df99b36c9055e0fe22a5" name="a6713cff0d540df99b36c9055e0fe22a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6713cff0d540df99b36c9055e0fe22a5">&#9670;&#160;</a></span>construct() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Graph.construct </td>
+          <td>(</td>
+          <td class="paramtype">MR._ByValue_Vector_StdVectorMRGraphEdgeId_MRGraphVertId</td>          <td class="paramname"><span class="paramname"><em>neighboursPerVertex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR._ByValue_GraphVertBitSet</td>          <td class="paramname"><span class="paramname"><em>validVerts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR._ByValue_Vector_MRGraphEndVertices_MRGraphEdgeId</td>          <td class="paramname"><span class="paramname"><em>endsPerEdge</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR._ByValue_GraphEdgeBitSet</td>          <td class="paramname"><span class="paramname"><em>validEdges</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs the graph from given data that can contain invalid vertices and edges Generated from method <span class="tt"><a class="el" href="#aa914a46f9c4bf15627aa5b912341a47b" title="constructs the graph from all valid vertices and edges Generated from method MR.Graph....">MR.Graph.construct</a></span>. </p>
+
+</div>
+</div>
 <a id="aa914a46f9c4bf15627aa5b912341a47b" name="aa914a46f9c4bf15627aa5b912341a47b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa914a46f9c4bf15627aa5b912341a47b">&#9670;&#160;</a></span>construct()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa914a46f9c4bf15627aa5b912341a47b">&#9670;&#160;</a></span>construct() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

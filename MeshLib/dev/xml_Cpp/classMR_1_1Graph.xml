@@ -21,6 +21,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga59a709d25b047768d7e7ce781f08cda1" kind="function"><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga7c360c48e97cbb1393e1a1f39e2013b9" kind="function"><name>construct</name></member>
       <member refid="group__GeneralGroup_1gac31feb99fa40a7a7fee0c9806f676b11" kind="function"><name>vertSize</name></member>
       <member refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" kind="function"><name>validVerts</name></member>
       <member refid="group__GeneralGroup_1ga46ac2204a29916d4c70d8902b0a21868" kind="function"><name>valid</name></member>
@@ -39,11 +40,12 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRGraph.h" line="16" column="1" bodyfile="MRMesh/MRGraph.h" bodystart="17" bodyend="97"/>
+    <location file="MRMesh/MRGraph.h" line="16" column="1" bodyfile="MRMesh/MRGraph.h" bodystart="17" bodyend="101"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gac3097672a81dda206c80984a7fdb0806" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>areNeighbors</name></member>
       <member refid="group__GeneralGroup_1gab26fbb915c93b782e599cf1a768fab63" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>checkValidity</name></member>
       <member refid="group__GeneralGroup_1ga59a709d25b047768d7e7ce781f08cda1" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
+      <member refid="group__GeneralGroup_1ga7c360c48e97cbb1393e1a1f39e2013b9" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
       <member refid="group__GeneralGroup_1ga8479c33a6ee26f007a35cab71ba0f2b5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EdgeBitSet</name></member>
       <member refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>EdgeId</name></member>
       <member refid="group__GeneralGroup_1ga0c5f4eae690cb57f429c9656db0e2dad" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>edgeSize</name></member>

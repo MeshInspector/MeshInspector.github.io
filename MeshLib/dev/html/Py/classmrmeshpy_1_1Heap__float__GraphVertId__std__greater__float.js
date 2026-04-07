@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float =
 [
     [ "Element", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element" ],
+    [ "__init__", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html#a98463341f533cb785400c58e794e9140", null ],
     [ "__init__", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html#a264fcacfb5756485b2da39926febbc4c", null ],
     [ "__init__", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html#a5cd63c396db7cda95927773c62119401", null ],
     [ "__init__", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html#a51d716a2bceac3fc9ec00eae0015f282", null ],

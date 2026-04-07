@@ -307,6 +307,7 @@
     <innerclass refid="classMR_1_1DenseBox" prot="public">MR::DenseBox</innerclass>
     <innerclass refid="classMR_1_1DentalId" prot="public">MR::DentalId</innerclass>
     <innerclass refid="classMR_1_1DetectTunnelSettings" prot="public">MR::DetectTunnelSettings</innerclass>
+    <innerclass refid="classMR_1_1DihedralAngleProcessParams" prot="public">MR::DihedralAngleProcessParams</innerclass>
     <innerclass refid="classMR_1_1Dipole" prot="public">MR::Dipole</innerclass>
     <innerclass refid="classMR_1_1Dipoles" prot="public">MR::Dipoles</innerclass>
     <innerclass refid="classMR_1_1Dirty" prot="public">MR::Dirty</innerclass>
@@ -10935,7 +10936,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="7" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="7" bodyend="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="237" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="237" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a837011012aa7d9c63983d2c363a5be9e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -10954,7 +10955,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="19" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="19" bodyend="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="249" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="249" bodyend="254"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a07a3e29269c35c35359c178eefe9dea4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -10977,7 +10978,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="29" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="29" bodyend="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="259" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="259" bodyend="264"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aba761feb92d92e37f2594988907bcd39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -10996,7 +10997,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="42" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="42" bodyend="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="272" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="272" bodyend="277"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a54b828890b7e8929b9605b3c2a96c80c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -11019,7 +11020,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="52" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="52" bodyend="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="282" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="282" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a198b7dff6cc9520885a8196a300c20cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -11038,7 +11039,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="65" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="65" bodyend="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="295" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="295" bodyend="300"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a48a92060536345d70ac4ccebef7e155b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -11061,7 +11062,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="75" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="75" bodyend="80"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="305" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="305" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7b04ef2696755b53911ca7fd55d159e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -11108,7 +11109,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="91" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="91" bodyend="98"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="321" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="321" bodyend="328"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0499ea765f7d6b74fcaa68aa5cdb5fbc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -11141,7 +11142,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="105" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="105" bodyend="112"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="335" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="335" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3cb11f8b08ececa5e937ee79db54d689" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -11188,7 +11189,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="123" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="123" bodyend="130"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="353" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="353" bodyend="360"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2f6b8af066c66ee5b1ccacb88b1bcee7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -11221,7 +11222,59 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="137" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="137" bodyend="144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="367" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="367" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ab2612dbe5b7b4f1fcf42e19352f5309b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
+        <definition>static unsafe MR.Std.Function_Float_From_MREdgeId MR.edgeDihedralAngleMetric</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_DihedralAngleProcessParams? params_=null)</argsstring>
+        <name>edgeDihedralAngleMetric</name>
+        <qualifiedname>MR.edgeDihedralAngleMetric</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_DihedralAngleProcessParams?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this metric returns edge's dihedral angle computed by <ref refid="classMR_1a6cb0f089f52389186d1fabe743d53ed5" kindref="member">MR.dihedralAngle</ref> and post-processed based on the given parameters; returned value is NOT multiplied on edge's length as in other metrics; this metric is symmetric: m(e) == m(e.sym()) Generated from function <computeroutput><ref refid="classMR_1ab2612dbe5b7b4f1fcf42e19352f5309b" kindref="member">MR.edgeDihedralAngleMetric</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="383" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="383" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a740a8fd2f81c5bdd5ce89966375e14be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
+        <definition>static unsafe MR.Std.Function_Float_From_MREdgeId MR.edgeDihedralAngleMetric</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_VertCoords points, MR.Const_DihedralAngleProcessParams? params_=null)</argsstring>
+        <name>edgeDihedralAngleMetric</name>
+        <qualifiedname>MR.edgeDihedralAngleMetric</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertCoords</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Const_DihedralAngleProcessParams?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1ab2612dbe5b7b4f1fcf42e19352f5309b" kindref="member">MR.edgeDihedralAngleMetric</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="394" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="394" bodyend="399"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a773ac4f11ec70105055628ac00e2085a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MREdgeId</type>
@@ -11244,7 +11297,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="151" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="151" bodyend="156"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="406" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="406" bodyend="411"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9bc46ac9a7351f9747cc7e39205a63dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -34812,6 +34865,61 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1124" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1124" bodyend="1129"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a2892a429fcca8d796d18aaa4487030c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFaceFace</type>
+        <definition>static unsafe MR.Std.Vector_MRFaceFace MR.segmentMesh</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Function_Float_From_MREdgeId curvMetric, MR.Std.Const_Function_Bool_From_Float? progress=null)</argsstring>
+        <name>segmentMesh</name>
+        <qualifiedname>MR.segmentMesh</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Float_From_MREdgeId</type>
+          <declname>curvMetric</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>progress</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>starting from individual faces, merge them in progressively larger segments until every connected component contains only 1 segment; merge order is guided by the preferences: 1) prefer merging smaller by area segments, 2) prefer merging two segment with long common boundary, 3) prefer merging two segments with low average value of the given curvMetric on the common boundary; take e.g. <ref refid="classMR_1ab2612dbe5b7b4f1fcf42e19352f5309b" kindref="member">edgeDihedralAngleMetric()</ref> as curvMetric Generated from function <computeroutput><ref refid="classMR_1a2892a429fcca8d796d18aaa4487030c8" kindref="member">MR.segmentMesh</ref></computeroutput>. Parameter <computeroutput>progress</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmentMesh.cs" line="13" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmentMesh.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ae8e6ebd6e800531759eb8242b074309b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>static unsafe MR.UndirectedEdgeBitSet MR.findSegmentBoundaries</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Std.Const_Vector_MRFaceFace groupOrder, int numSegments)</argsstring>
+        <name>findSegmentBoundaries</name>
+        <qualifiedname>MR.findSegmentBoundaries</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRFaceFace</type>
+          <declname>groupOrder</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numSegments</declname>
+        </param>
+        <briefdescription>
+<para>executes grouping of segments till desired number of segments is reached, then returns the boundary edges in between the segments Generated from function <computeroutput><ref refid="classMR_1ae8e6ebd6e800531759eb8242b074309b" kindref="member">MR.findSegmentBoundaries</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmentMesh.cs" line="28" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmentMesh.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1ad02456448a04959c5b886d2dae32efad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.serializeMesh</definition>
@@ -51817,6 +51925,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ad1e68b9ff1948a814bf42cda0bd42606" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeCenter</name></member>
       <member refid="classMR_1a7b04ef2696755b53911ca7fd55d159e4" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeCurvMetric</name></member>
       <member refid="classMR_1a0499ea765f7d6b74fcaa68aa5cdb5fbc" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeCurvMetric</name></member>
+      <member refid="classMR_1ab2612dbe5b7b4f1fcf42e19352f5309b" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeDihedralAngleMetric</name></member>
+      <member refid="classMR_1a740a8fd2f81c5bdd5ce89966375e14be" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeDihedralAngleMetric</name></member>
       <member refid="classMR_1aa02741fad5760db0fa7e25b89a669b2d" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeLength</name></member>
       <member refid="classMR_1a837011012aa7d9c63983d2c363a5be9e" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeLengthMetric</name></member>
       <member refid="classMR_1a07a3e29269c35c35359c178eefe9dea4" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeLengthMetric</name></member>
@@ -52207,6 +52317,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a759987b63137a4b9f970d2446c0fed56" prot="public" virt="non-virtual"><scope>MR</scope><name>findRepeatedUnorientedTriangles</name></member>
       <member refid="classMR_1adfd960cc1ba0feee6837db6affd1d596" prot="public" virt="non-virtual"><scope>MR</scope><name>findRepeatedVertsOnHoleBd</name></member>
       <member refid="classMR_1a826dbfac119851fb6577c238c61da01d" prot="public" virt="non-virtual"><scope>MR</scope><name>findRightBoundary</name></member>
+      <member refid="classMR_1ae8e6ebd6e800531759eb8242b074309b" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentBoundaries</name></member>
       <member refid="classMR_1a1aa54c9fce82fbdccc295172f24d78e9" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentSegmentIntersectionPrecise</name></member>
       <member refid="classMR_1a0c2ba32fe262070485fc5cd5aacc5cbe" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentSegmentIntersectionPrecise</name></member>
       <member refid="classMR_1ac6d5bb1b5d876ebfeeee9b3158321c7c" prot="public" virt="non-virtual"><scope>MR</scope><name>findSelfCollidingEdgePairs</name></member>
@@ -52857,6 +52968,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a8c87e6cc97c23cccbec5782dcef91840" prot="public" virt="non-virtual"><scope>MR</scope><name>segmentByGraphCut</name></member>
       <member refid="classMR_1af0364b794d86be0aa6b00bff95f7e1cd" prot="public" virt="non-virtual"><scope>MR</scope><name>segmentIntersectionOrder</name></member>
       <member refid="classMR_1a405d33389ff7a3ce25f375f986d51a41" prot="public" virt="non-virtual"><scope>MR</scope><name>segmentIntersectionOrder</name></member>
+      <member refid="classMR_1a2892a429fcca8d796d18aaa4487030c8" prot="public" virt="non-virtual"><scope>MR</scope><name>segmentMesh</name></member>
       <member refid="classMR_1a570164c9fa738330e4096fc83af4e60d" prot="public" virt="non-virtual"><scope>MR</scope><name>segmentVolume</name></member>
       <member refid="classMR_1a923cb919bc0ecb481be1168e2e016228" prot="public" virt="non-virtual"><scope>MR</scope><name>segmentVolumeByGraphCut</name></member>
       <member refid="classMR_1a13985c0dcb7c41989411283e8cd1f81a" prot="public" virt="non-virtual"><scope>MR</scope><name>segmentVoxelMaskToInstances</name></member>
