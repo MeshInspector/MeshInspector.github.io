@@ -387,7 +387,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>positive convex dihedral angles are returned multiplied on this factor Returns a pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>negative concave dihedral angles are returned multiplied on this factor Returns a pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -405,7 +405,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>positive convex dihedral angles are returned multiplied on this factor Modifies a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>concaveFactor</computeroutput>. </para>
+<para>negative concave dihedral angles are returned multiplied on this factor Modifies a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>concaveFactor</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -427,7 +427,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>positive convex dihedral angles are returned multiplied on this factor Returns a mutable pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>negative concave dihedral angles are returned multiplied on this factor Returns a mutable pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

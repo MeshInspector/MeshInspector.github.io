@@ -32634,7 +32634,7 @@ element fields:<linebreak/>
           <declname>vs</declname>
         </param>
         <briefdescription>
-<para>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] segments ta and tb can have at most two shared points, all other points must be unique Generated from function <computeroutput><ref refid="classMR_1af0364b794d86be0aa6b00bff95f7e1cd" kindref="member">MR.segmentIntersectionOrder</ref></computeroutput>. </para>
+<para>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] triangles ta and tb can have at most two shared points, all other points must be unique Generated from function <computeroutput><ref refid="classMR_1af0364b794d86be0aa6b00bff95f7e1cd" kindref="member">MR.segmentIntersectionOrder</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
