@@ -696,6 +696,7 @@
     <member refid="structMR_1_1BooleanInternalParameters_1a2733395f91f3ed00b0e61ccae13ce37d" kind="variable"><name>originalMeshA</name></member>
     <member refid="structMR_1_1BooleanInternalParameters_1a9564c4edb40ecc90fa59bfc7a9342bc5" kind="variable"><name>originalMeshB</name></member>
     <member refid="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" kind="variable"><name>optionalOutCut</name></member>
+    <member refid="structMR_1_1BooleanInternalParameters_1ac286ffae84a7480b081c9bb06413cb79" kind="variable"><name>graphCutSeparation</name></member>
   </compound>
   <compound refid="structMR_1_1BooleanParameters" kind="struct"><name>MR::BooleanParameters</name>
     <member refid="structMR_1_1BooleanParameters_1aa7d29b950e89579308197da903b43d92" kind="variable"><name>rigidB2A</name></member>
@@ -13518,6 +13519,7 @@
     <member refid="group__BooleanGroup_1ga39d92839525374ba15a2557ed8f93b8f" kind="function"><name>boolean</name></member>
     <member refid="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" kind="function"><name>boolean</name></member>
     <member refid="group__BooleanGroup_1ga6ed597bf8c9350700adae2b23fed4f74" kind="function"><name>boolean</name></member>
+    <member refid="group__BooleanGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
     <member refid="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
     <member refid="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
     <member refid="group__BooleanGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
@@ -16511,6 +16513,10 @@
   </compound>
   <compound refid="MRRibbonSceneButtons_8h" kind="file"><name>MRRibbonSceneButtons.h</name>
   </compound>
+  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
   <compound refid="MRBinaryOperationsPlugin_8h" kind="file"><name>MRBinaryOperationsPlugin.h</name>
   </compound>
   <compound refid="MROpenRawVoxelsPlugin_8h" kind="file"><name>MROpenRawVoxelsPlugin.h</name>
@@ -17538,6 +17544,10 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -17841,10 +17851,6 @@
   </compound>
   <compound refid="MRSceneCache_8h" kind="file"><name>MRSceneCache.h</name>
   </compound>
-  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
   <compound refid="MRSceneObjectsListDrawer_8h" kind="file"><name>MRSceneObjectsListDrawer.h</name>
   </compound>
   <compound refid="MRSceneOperations_8h" kind="file"><name>MRSceneOperations.h</name>
@@ -17938,10 +17944,6 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
@@ -18572,6 +18574,7 @@
     <member refid="group__BooleanGroup_1ga39d92839525374ba15a2557ed8f93b8f" kind="function"><name>boolean</name></member>
     <member refid="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" kind="function"><name>boolean</name></member>
     <member refid="group__BooleanGroup_1ga6ed597bf8c9350700adae2b23fed4f74" kind="function"><name>boolean</name></member>
+    <member refid="group__BooleanGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
     <member refid="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
     <member refid="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
     <member refid="group__BooleanGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>

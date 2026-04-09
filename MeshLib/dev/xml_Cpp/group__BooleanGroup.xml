@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="137" column="12" declfile="MRMesh/MRMeshBoolean.h" declline="137" declcolumn="12"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="144" column="12" declfile="MRMesh/MRMeshBoolean.h" declline="144" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1ga39d92839525374ba15a2557ed8f93b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>BooleanResult</type>
@@ -266,6 +266,42 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshBoolean.h" line="109" column="16" declfile="MRMesh/MRMeshBoolean.h" declline="109" declcolumn="16"/>
       </memberdef>
+      <memberdef kind="function" id="group__BooleanGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BooleanResult</type>
+        <definition>BooleanResult MR::forceBoolean</definition>
+        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const BooleanParameters &amp;params={})</argsstring>
+        <name>forceBoolean</name>
+        <qualifiedname>MR::forceBoolean</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>BooleanOperation</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const BooleanParameters &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calls boolean in force mode, also unites close vertices and fills holes afterwards <simplesect kind="note"><para>expects closed mesh on input, and fills all holes </para>
+</simplesect>
+<simplesect kind="warning"><para>params.mapper might be not correctly updated when new holes are filled </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="115" column="16" declfile="MRMesh/MRMeshBoolean.h" declline="115" declcolumn="16"/>
+      </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
         <definition>Expected&lt; Mesh &gt; MR::selfBoolean</definition>
@@ -283,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="114" column="11" declfile="MRMesh/MRMeshBoolean.h" declline="114" declcolumn="11"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="121" column="11" declfile="MRMesh/MRMeshBoolean.h" declline="121" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Contours3f</type>
@@ -311,7 +347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="117" column="13" declfile="MRMesh/MRMeshBoolean.h" declline="117" declcolumn="13"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="124" column="13" declfile="MRMesh/MRMeshBoolean.h" declline="124" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -334,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="145" column="7" declfile="MRMesh/MRMeshBoolean.h" declline="145" declcolumn="7"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="152" column="7" declfile="MRMesh/MRMeshBoolean.h" declline="152" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="enum">
@@ -512,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="115" column="11" declfile="MRMesh/MRBooleanOperation.h" declline="115" declcolumn="11"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="117" column="11" declfile="MRMesh/MRBooleanOperation.h" declline="117" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>CutMeshResult</type>

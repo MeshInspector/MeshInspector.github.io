@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"classmrmeshpy_1_1PartialChangeMeshDataAction.html#a7cc32cb545443063b619a3745d3f1457":[6,1,1,0,1,662,2],
+"classmrmeshpy_1_1PartialChangeMeshDataAction.html#a96a9c87af286f280df260484be753562":[6,1,0,0,2,662,1],
+"classmrmeshpy_1_1PartialChangeMeshDataAction.html#a96a9c87af286f280df260484be753562":[6,1,1,0,1,662,1],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[6,1,0,0,2,663],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[6,1,1,0,1,663],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[6,1,0,0,2,663,1],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[6,1,1,0,1,663,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a1aad422fee6ee4d669ae83106bfe5319":[6,1,1,0,1,667,3,1,4],
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a64d1f7b248c9f30c449044bd30bf7fc6":[6,1,0,0,2,667,3,1,6],
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a64d1f7b248c9f30c449044bd30bf7fc6":[6,1,1,0,1,667,3,1,6],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a6ae640414ba4ba23e3b2c25856a21427":[6,1,0,0,2,667,3,1,2],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a6ae640414ba4ba23e3b2c25856a21427":[6,1,1,0,1,667,3,1,2],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a727ef9cba36e0f66345332a176e54d52":[6,1,0,0,2,667,3,1,5],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a727ef9cba36e0f66345332a176e54d52":[6,1,1,0,1,667,3,1,5],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a958609b18f377e080309217cc089dd2d":[6,1,0,0,2,667,3,1,1]
+"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a6ae640414ba4ba23e3b2c25856a21427":[6,1,0,0,2,667,3,1,2]
 };

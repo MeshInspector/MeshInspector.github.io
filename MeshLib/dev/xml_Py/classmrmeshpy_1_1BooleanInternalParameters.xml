@@ -3,6 +3,21 @@
   <compounddef id="classmrmeshpy_1_1BooleanInternalParameters" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::BooleanInternalParameters</compoundname>
     <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanInternalParameters_1ac9e87f31f033b4c1b77806d1e0e99843" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanInternalParameters::_offsetof_graphCutSeparation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_graphCutSeparation</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters._offsetof_graphCutSeparation</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3397" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1BooleanInternalParameters_1a805fdcf0bd88b1f170f4ff43ab22ce6b" prot="protected" static="yes" mutable="no">
         <type>typing</type>
         <definition>typing mrmeshpy.BooleanInternalParameters::_offsetof_optionalOutCut</definition>
@@ -16,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3397" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3398" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1BooleanInternalParameters_1ab1cf412d41d8afbadd7666425e9ffed1" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -31,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3398" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3399" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1BooleanInternalParameters_1ae73a5b5f9889d56a4629eeed17efb820" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -46,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3399" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3400" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -70,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3402" bodyend="3403"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3403" bodyend="3404"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1aa7f8182dec53647460633665099831a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BooleanInternalParameters" kindref="compound">BooleanInternalParameters</ref></type>
@@ -92,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3406" bodyend="3407"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3407" bodyend="3408"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1aa7f8182dec53647460633665099831a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BooleanInternalParameters" kindref="compound">BooleanInternalParameters</ref></type>
@@ -114,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3410" bodyend="3411"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3411" bodyend="3412"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -134,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3413" bodyend="3414"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3414" bodyend="3415"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1ae32b8ed464532c4f9fbf29f1e0fa57c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -158,12 +173,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3416" bodyend="3419"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3417" bodyend="3420"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a0cc30482f5ad11ad53a4b53c6ba26f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1af751490f4ea4139cbe45f4b6714c07b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.BooleanInternalParameters.__init__</definition>
-        <argsstring>(self, Mesh originalMeshA, Mesh originalMeshB, std_vector_std_vector_Id_EdgeTag optionalOutCut)</argsstring>
+        <argsstring>(self, Mesh originalMeshA, Mesh originalMeshB, std_vector_std_vector_Id_EdgeTag optionalOutCut, bool graphCutSeparation)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.BooleanInternalParameters.__init__</qualifiedname>
         <param>
@@ -182,6 +197,10 @@
           <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
           <declname>optionalOutCut</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>graphCutSeparation</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -190,7 +209,49 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3421" bodyend="3424"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3422" bodyend="3425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1aea06f612e2baad0b29ae8dc824311bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BooleanInternalParameters.graphCutSeparation</definition>
+        <argsstring>(self)</argsstring>
+        <name>graphCutSeparation</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.graphCutSeparation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If true uses graphcut for inside/outside separation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3427" bodyend="3430"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1ae9ba4007048981155492a321def2cd77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanInternalParameters.graphCutSeparation</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>graphCutSeparation</name>
+        <qualifiedname>mrmeshpy.BooleanInternalParameters.graphCutSeparation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3432" bodyend="3433"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a73a830543c9d1792956a035145ef7c5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag" kindref="compound">std_vector_std_vector_Id_EdgeTag</ref></type>
@@ -210,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3426" bodyend="3429"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3435" bodyend="3438"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a81c507f0f0766afbe5acb6caa99cad17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -232,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3431" bodyend="3432"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3440" bodyend="3441"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a57b853fb450802122fe92844091a96b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -252,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3434" bodyend="3437"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3443" bodyend="3446"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a5018e5be1eae148d5fdb650e15fffb07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -274,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3439" bodyend="3440"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3448" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3448" bodyend="3449"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1aec5945ac6973c86728758344fcfacc22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -294,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3442" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3442" bodyend="3445"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3451" bodyend="3454"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BooleanInternalParameters_1a23aeeba898a13aa7fafafdc104af2347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -316,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3447" bodyend="3448"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3456" bodyend="3457"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -327,15 +388,18 @@
 Parameters will be useful if specified
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3391" bodyend="3448"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3391" bodyend="3457"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a6c8e2f48f9b27d6d126b7303f449ca43" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a9938bb21641dd814c42556f09808370b" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1ae32b8ed464532c4f9fbf29f1e0fa57c3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a0cc30482f5ad11ad53a4b53c6ba26f21" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1af751490f4ea4139cbe45f4b6714c07b3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1ac9e87f31f033b4c1b77806d1e0e99843" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>_offsetof_graphCutSeparation</name></member>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a805fdcf0bd88b1f170f4ff43ab22ce6b" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>_offsetof_optionalOutCut</name></member>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1ab1cf412d41d8afbadd7666425e9ffed1" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>_offsetof_originalMeshA</name></member>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1ae73a5b5f9889d56a4629eeed17efb820" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>_offsetof_originalMeshB</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1aea06f612e2baad0b29ae8dc824311bbf" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>graphCutSeparation</name></member>
+      <member refid="classmrmeshpy_1_1BooleanInternalParameters_1ae9ba4007048981155492a321def2cd77" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>graphCutSeparation</name></member>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1aa7f8182dec53647460633665099831a9" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1aa7f8182dec53647460633665099831a9" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1BooleanInternalParameters_1a73a830543c9d1792956a035145ef7c5b" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanInternalParameters</scope><name>optionalOutCut</name></member>

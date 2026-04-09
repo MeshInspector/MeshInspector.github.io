@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Sphere.html":[6,0,0,20,474],
+"structMR_1_1SphereParams.html":[6,0,0,20,303],
 "structMR_1_1SplineSettings.html":[6,0,0,20,306],
 "structMR_1_1StitchHolesNicelySettings.html":[6,0,0,20,244],
 "structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6":[6,0,0,1,13,4],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524":[6,0,0,1,13,0],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a86370e0ca44ce18760320f63faac8aa1":[6,0,0,1,13,2],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a":[6,0,0,1,13,3],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0":[6,0,0,1,13,1],
-"structMR_1_1UniformSamplingSettings.html":[6,0,0,20,494]
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a":[6,0,0,1,13,3]
 };

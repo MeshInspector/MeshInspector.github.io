@@ -1,5 +1,8 @@
 var NAVTREEINDEX25 =
 {
+"MRCircleObject_8h.html#a9856e8bdf608ae945bd4ff806c24c90f":[6,2,1,0,0,0,0,1,45,175],
+"MRCircleObject_8h.html#a9d83a50fb1df70e4d5f80d33e926da33":[6,2,1,0,0,0,0,1,45,50],
+"MRCircleObject_8h.html#a9f9eb08f6dc998b813254f6be83c195d":[6,2,1,0,0,0,0,1,45,147],
 "MRCircleObject_8h.html#a9fb3c4df22aff0bd8de9f086b48d2a99":[6,2,1,0,0,0,0,1,45,168],
 "MRCircleObject_8h.html#aa34e376c91ac48022859444c8e0b9f33":[6,2,1,0,0,0,0,1,45,41],
 "MRCircleObject_8h.html#aa3bf782970ac05719dee7e3eb5e17d9d":[6,2,1,0,0,0,0,1,45,52],
@@ -246,8 +249,5 @@ var NAVTREEINDEX25 =
 "MRColorMapAggregator_8h.html#a306235954ef8983c77e60064db02a64b":[6,2,1,0,0,0,0,1,52,104],
 "MRColorMapAggregator_8h.html#a3086805a6c959448e66239d2dc530408":[6,2,1,0,0,0,0,1,52,84],
 "MRColorMapAggregator_8h.html#a3201bc53016d10f34c140a762fd4b28c":[6,2,1,0,0,0,0,1,52,6],
-"MRColorMapAggregator_8h.html#a3206f3b45981adfc5f48dfb807bbc918":[6,2,1,0,0,0,0,1,52,99],
-"MRColorMapAggregator_8h.html#a321495a24b6ff841ddb9a076f785345e":[6,2,1,0,0,0,0,1,52,62],
-"MRColorMapAggregator_8h.html#a32afcff97adc768c796b3d6ab9c076a6":[6,2,1,0,0,0,0,1,52,36],
-"MRColorMapAggregator_8h.html#a331b31c7660c9fa815467a4694241dda":[6,2,1,0,0,0,0,1,52,91]
+"MRColorMapAggregator_8h.html#a3206f3b45981adfc5f48dfb807bbc918":[6,2,1,0,0,0,0,1,52,99]
 };

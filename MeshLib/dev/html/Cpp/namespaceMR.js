@@ -2382,6 +2382,7 @@ var namespaceMR =
     [ "fixMultipleEdges", "group__MeshFixerGroup.html#ga4b6baaa619201e7e4c135ec4200d38ce", null ],
     [ "floatGridToVdbVolume", "group__GeneralGroup.html#ga6990fc5bf97c16d19053123be5959798", null ],
     [ "fopen", "group__GeneralGroup.html#ga705160b3fb7d06e50bb362bfe5683e24", null ],
+    [ "forceBoolean", "group__BooleanGroup.html#ga52bfb35f8321bd4301244ba7f839bbdc", null ],
     [ "forEachObjectKind", "group__GeneralGroup.html#ga5c9fd829c3ac9510359b4250c4afa70b", null ],
     [ "formatNoTrailingZeros", "group__BasicGroup.html#gadbca00999f687670e8df99bd12699bc1", null ],
     [ "fromEigen", "group__MathGroup.html#ga3f97fcf1b362e9c60d8a596aa8d1de68", null ],

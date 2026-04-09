@@ -159,8 +159,8 @@ $(function(){initNavTree('classMR_1_1BooleanInternalParameters.html','','classMR
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad2883b0992b59d222f1157ace89dd4ef" id="r_ad2883b0992b59d222f1157ace89dd4ef"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2883b0992b59d222f1157ace89dd4ef">BooleanInternalParameters</a> ()</td></tr>
 <tr class="memdesc:ad2883b0992b59d222f1157ace89dd4ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
-<tr class="memitem:a5423bc6d9385efe02231a7b3e89cbd72" id="r_a5423bc6d9385efe02231a7b3e89cbd72"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5423bc6d9385efe02231a7b3e89cbd72">BooleanInternalParameters</a> (MR.Const_Mesh? <a class="el" href="#aa53b1edbd97c6cd9e657eff0c7bf484f">originalMeshA</a>, MR.Const_Mesh? <a class="el" href="#ad159d3c04fa90a979e44c70f419922d6">originalMeshB</a>, MR.Std.Vector_StdVectorMREdgeId? <a class="el" href="#a559037667f33f13759dd15407667f9e1">optionalOutCut</a>)</td></tr>
-<tr class="memdesc:a5423bc6d9385efe02231a7b3e89cbd72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1BooleanInternalParameters.html" title="Parameters will be useful if specified Generated from class MR.BooleanInternalParameters....">MR.BooleanInternalParameters</a></span> elementwise.  <br /></td></tr>
+<tr class="memitem:a6b411890780f96f2a98f755e3e398e35" id="r_a6b411890780f96f2a98f755e3e398e35"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b411890780f96f2a98f755e3e398e35">BooleanInternalParameters</a> (MR.Const_Mesh? <a class="el" href="#aa53b1edbd97c6cd9e657eff0c7bf484f">originalMeshA</a>, MR.Const_Mesh? <a class="el" href="#ad159d3c04fa90a979e44c70f419922d6">originalMeshB</a>, MR.Std.Vector_StdVectorMREdgeId? <a class="el" href="#a559037667f33f13759dd15407667f9e1">optionalOutCut</a>, bool <a class="el" href="#aa9cf8f8d10ebc8167b089d0250d05dc2">graphCutSeparation</a>)</td></tr>
+<tr class="memdesc:a6b411890780f96f2a98f755e3e398e35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1BooleanInternalParameters.html" title="Parameters will be useful if specified Generated from class MR.BooleanInternalParameters....">MR.BooleanInternalParameters</a></span> elementwise.  <br /></td></tr>
 <tr class="memitem:a833c0f6ee14231909d415891b69a7851" id="r_a833c0f6ee14231909d415891b69a7851"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a833c0f6ee14231909d415891b69a7851">BooleanInternalParameters</a> (MR.Const_BooleanInternalParameters _other)</td></tr>
 <tr class="memdesc:a833c0f6ee14231909d415891b69a7851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ad2883b0992b59d222f1157ace89dd4ef" title="Constructs an empty (default-constructed) instance.">MR.BooleanInternalParameters.BooleanInternalParameters</a></span>.  <br /></td></tr>
 <tr class="memitem:a2d47ecf9fd1f635559cdf74cc7600cb6" id="r_a2d47ecf9fd1f635559cdf74cc7600cb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d47ecf9fd1f635559cdf74cc7600cb6">BooleanInternalParameters</a> (<a class="el" href="classMR_1_1BooleanInternalParameters.html">BooleanInternalParameters</a> _other)</td></tr>
@@ -176,6 +176,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:ad159d3c04fa90a979e44c70f419922d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instance of original mesh with tree for better speed.  <br /></td></tr>
 <tr class="memitem:a559037667f33f13759dd15407667f9e1" id="r_a559037667f33f13759dd15407667f9e1"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_StdVectorMREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559037667f33f13759dd15407667f9e1">optionalOutCut</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a559037667f33f13759dd15407667f9e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional output cut edges of booleaned meshes.  <br /></td></tr>
+<tr class="memitem:aa9cf8f8d10ebc8167b089d0250d05dc2" id="r_aa9cf8f8d10ebc8167b089d0250d05dc2"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9cf8f8d10ebc8167b089d0250d05dc2">graphCutSeparation</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa9cf8f8d10ebc8167b089d0250d05dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true uses graphcut for inside/outside separation.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters will be useful if specified Generated from class <span class="tt"><a class="el" href="classMR_1_1BooleanInternalParameters.html" title="Parameters will be useful if specified Generated from class MR.BooleanInternalParameters....">MR.BooleanInternalParameters</a></span>. This is the non-const half of the class. </p>
@@ -207,8 +209,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5423bc6d9385efe02231a7b3e89cbd72" name="a5423bc6d9385efe02231a7b3e89cbd72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5423bc6d9385efe02231a7b3e89cbd72">&#9670;&#160;</a></span>BooleanInternalParameters() <span class="overload">[2/4]</span></h2>
+<a id="a6b411890780f96f2a98f755e3e398e35" name="a6b411890780f96f2a98f755e3e398e35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b411890780f96f2a98f755e3e398e35">&#9670;&#160;</a></span>BooleanInternalParameters() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +231,12 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Vector_StdVectorMREdgeId?</td>          <td class="paramname"><span class="paramname"><em>optionalOutCut</em></span>&#160;)</td>
+          <td class="paramtype">MR.Std.Vector_StdVectorMREdgeId?</td>          <td class="paramname"><span class="paramname"><em>optionalOutCut</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>graphCutSeparation</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -326,6 +333,30 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="aa9cf8f8d10ebc8167b089d0250d05dc2" name="aa9cf8f8d10ebc8167b089d0250d05dc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9cf8f8d10ebc8167b089d0250d05dc2">&#9670;&#160;</a></span>graphCutSeparation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">new unsafe ref bool MR.BooleanInternalParameters.graphCutSeparation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If true uses graphcut for inside/outside separation. </p>
+
+</div>
+</div>
 <a id="a559037667f33f13759dd15407667f9e1" name="a559037667f33f13759dd15407667f9e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a559037667f33f13759dd15407667f9e1">&#9670;&#160;</a></span>optionalOutCut</h2>
 

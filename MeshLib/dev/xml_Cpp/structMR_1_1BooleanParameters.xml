@@ -110,7 +110,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases </para>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area if enabled returned meshes will not be stitched but merged, consider <ref refid="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" kindref="member">MR::MeshBuilder::uniteCloseVertices</ref> and <ref refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" kindref="member">MR::fillHoles</ref> afterwards <simplesect kind="warning"><para>not recommended in most cases </para>
 </simplesect>
 </para>
         </detaileddescription>

@@ -101,7 +101,7 @@
         <name>forceCut</name>
         <qualifiedname>MR.BooleanParameters.forceCut</qualifiedname>
         <briefdescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way. </para>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area if enabled returned meshes will not be stitched but merged, consider <ref refid="classMR_1_1MeshBuilder_1a4a8977a3bc39772181faaed54cd1693e" kindref="member">MR.MeshBuilder.uniteCloseVertices</ref> and <ref refid="classMR_1aafdbcb6bfd3bddc8323daa12c59f4e39" kindref="member">MR.fillHoles</ref> afterwards. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="warning"><para>not recommended in most cases </para>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1Cuda_1_1PointsProjector.html#ab7500e9afbdc90e21f0dffc4d0d3aef1":[6,3,0,0,0,286,2,0],
+"classMR_1_1Cuda_1_1PointsProjector.html#acd3c4cbb3aa5663760ede1e6b7cd537c":[6,3,0,0,0,286,2,7],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[6,3,0,0,0,286,3],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a010f47e518381d390ef0f4f3a26425d0":[6,3,0,0,0,286,3,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a263e55037a7f445f7b9f05a94241789a":[6,3,0,0,0,286,3,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1DeloneSettings.html#a4f0b04d0586bb31b8526ff1d07293e16":[6,3,0,0,0,300,10],
 "classMR_1_1DeloneSettings.html#a611fe9f326c99b1bf4f6c2fce16a5a98":[6,3,0,0,0,300,8],
 "classMR_1_1DeloneSettings.html#a6df8d567d4bf7314b65fedde6fc8009e":[6,3,0,0,0,300,5],
-"classMR_1_1DeloneSettings.html#adb69bac74bb385015b463084b5c3bcbd":[6,3,0,0,0,300,7],
-"classMR_1_1DeloneSettings.html#ae4f3c99af90bd740d245f2fedee68fd5":[6,3,0,0,0,300,6],
-"classMR_1_1DeloneSettings.html#af16cdb23fce67a0a260b39ebae85f8ca":[6,3,0,0,0,300,2]
+"classMR_1_1DeloneSettings.html#adb69bac74bb385015b463084b5c3bcbd":[6,3,0,0,0,300,7]
 };

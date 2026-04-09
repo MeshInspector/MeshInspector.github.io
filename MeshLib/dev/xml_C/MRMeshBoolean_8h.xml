@@ -1518,7 +1518,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Returns a pointer to a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area if enabled returned meshes will not be stitched but merged, consider MR::MeshBuilder::uniteCloseVertices and MR::fillHoles afterwards <simplesect kind="warning"><para>not recommended in most cases Returns a pointer to a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1542,7 +1542,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>forceCut</computeroutput>. </para>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area if enabled returned meshes will not be stitched but merged, consider MR::MeshBuilder::uniteCloseVertices and MR::fillHoles afterwards <simplesect kind="warning"><para>not recommended in most cases Modifies a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>forceCut</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1562,7 +1562,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases Returns a mutable pointer to a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area if enabled returned meshes will not be stitched but merged, consider MR::MeshBuilder::uniteCloseVertices and MR::fillHoles afterwards <simplesect kind="warning"><para>not recommended in most cases Returns a mutable pointer to a member variable of class <computeroutput>MR::BooleanParameters</computeroutput> named <computeroutput>forceCut</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -1905,6 +1905,40 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="567" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="567" declcolumn="26"/>
       </memberdef>
+      <memberdef kind="function" id="MRMeshBoolean_8h_1a45e52e348c4d8ff59d32b478989f4d63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBoolean_8h_1aac6c23cacaf5f96e13501fde30d1c95e" kindref="member">MR_BooleanResult</ref> *</type>
+        <definition>MRC_API MR_BooleanResult * MR_forceBoolean</definition>
+        <argsstring>(const MR_Mesh *meshA, const MR_Mesh *meshB, MR_BooleanOperation operation, const MR_BooleanParameters *params)</argsstring>
+        <name>MR_forceBoolean</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBooleanOperation_8h_1a251062e1161744270ec7b749518f75c5" kindref="member">MR_BooleanOperation</ref></type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBoolean_8h_1aa07e15a41ee4329505dc93bc343e1a73" kindref="member">MR_BooleanParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calls boolean in force mode, also unites close vertices and fills holes afterwards <simplesect kind="note"><para>expects closed mesh on input, and fills all holes </para>
+</simplesect>
+<simplesect kind="warning"><para>params.mapper might be not correctly updated when new holes are filled Generated from function <computeroutput>MR::forceBoolean</computeroutput>. Parameter <computeroutput>meshA</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshB</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBoolean_8h_1a3b9c761f0eea4cbe5cc080324d19b602" kindref="member">MR_BooleanResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="578" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="578" declcolumn="26"/>
+      </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a29b6f563c5d3e460ce7e5132ff71aeb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_selfBoolean</definition>
@@ -1921,7 +1955,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="574" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="574" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="585" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="585" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1abe313812b7b3040f87baa7ed8cdfd06b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
@@ -1947,7 +1981,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="582" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="582" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="593" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="593" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1ab2bc37de207155ded24a4513b70ff289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
@@ -1965,7 +1999,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="588" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="588" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="599" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="599" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a9ac0faac6613cf63f905198701d2b2b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1991,7 +2025,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="594" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="594" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="605" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="605" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1af44b6bc26400c08f878c0834b887719a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
@@ -2009,7 +2043,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="600" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="600" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="611" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="611" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1aec83b35cca0948eb1ce3367aeb0960fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
@@ -2027,7 +2061,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="606" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="606" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="617" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="617" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a8915cc9561523b5ff25e920cc0033ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2053,7 +2087,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="612" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="612" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="623" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="623" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1ac74b9cfe7a8335311b1d85d4f3409c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
@@ -2071,7 +2105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="618" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="618" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="629" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="629" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a75c9599f316e3b75f2757ae0675549da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
@@ -2089,7 +2123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="624" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="624" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="635" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="635" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a5ed02e7daceca432782a519a06d78afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2115,7 +2149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="630" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="630" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="641" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="641" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a1c4f4c3fe0824e8e31467ba1f0a8ed8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
@@ -2133,7 +2167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="636" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="636" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="647" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="647" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1abf7a2512b5ceffce3b10d4bd2a102a6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref> *</type>
@@ -2150,7 +2184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="640" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="640" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="651" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="651" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a32057ff01706372f12e9b76bd15d2c43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref> *</type>
@@ -2168,7 +2202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="645" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="645" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="656" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="656" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1ad8f190804bda689f7d9833552a4f7a82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref> *</type>
@@ -2206,7 +2240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="653" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="653" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="664" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="664" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a8325876f7ae35eb1ba0ee7db5331bf03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref> *</type>
@@ -2228,7 +2262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="657" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="657" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="668" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="668" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1ab1c67c686e5213d8af79572893d93053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref> *</type>
@@ -2250,7 +2284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="661" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="661" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="672" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="672" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a83229d4f25c8ad181c12fa193a0124ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref> *</type>
@@ -2272,7 +2306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="666" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="666" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="677" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="677" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1ad7d8d494b66ac1a197ff3257ba507414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2290,7 +2324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="669" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="669" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="680" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="680" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1aae2973e416f279744479616ebbbc13da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2308,7 +2342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="672" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="672" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="683" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="683" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a45d06b8ba71a3a1bc90c5d3f6943114c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref> *</type>
@@ -2334,7 +2368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="679" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="679" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="690" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="690" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a8e06e92a6a7297d6b5cb3e52db71bfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBoolean_8h_1af7f7ea1a320c24c6e4922bc0b5a41edf" kindref="member">MR_expected_MR_BooleanResultPoints_std_string</ref> *</type>
@@ -2398,7 +2432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="696" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="696" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="707" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="707" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBoolean_8h_1a6872bb68cc18867e8d09f56a811689d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2420,7 +2454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="705" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="705" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" line="716" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h" declline="716" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2623,53 +2657,55 @@
 <codeline lineno="556"><highlight class="normal"></highlight></codeline>
 <codeline lineno="567" refid="MRMeshBoolean_8h_1a22782fb1432d16c9cd3bc3a6e91bdb29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aac6c23cacaf5f96e13501fde30d1c95e" kindref="member">MR_BooleanResult</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a22782fb1432d16c9cd3bc3a6e91bdb29" kindref="member">MR_boolean_4_MR_Mesh_rvalue_ref</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshA,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshB,<sp/><ref refid="MRBooleanOperation_8h_1a251062e1161744270ec7b749518f75c5" kindref="member">MR_BooleanOperation</ref><sp/>operation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aa07e15a41ee4329505dc93bc343e1a73" kindref="member">MR_BooleanParameters</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="568"><highlight class="normal"></highlight></codeline>
-<codeline lineno="574" refid="MRMeshBoolean_8h_1a29b6f563c5d3e460ce7e5132ff71aeb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a29b6f563c5d3e460ce7e5132ff71aeb2" kindref="member">MR_selfBoolean</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="575"><highlight class="normal"></highlight></codeline>
-<codeline lineno="582" refid="MRMeshBoolean_8h_1abe313812b7b3040f87baa7ed8cdfd06b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMeshBoolean_8h_1abe313812b7b3040f87baa7ed8cdfd06b" kindref="member">MR_findIntersectionContours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
-<codeline lineno="583"><highlight class="normal"></highlight></codeline>
-<codeline lineno="588" refid="MRMeshBoolean_8h_1ab2bc37de207155ded24a4513b70ff289" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshBoolean_8h_1ab2bc37de207155ded24a4513b70ff289" kindref="member">MR_BooleanResultPoints_Get_meshAVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="589"><highlight class="normal"></highlight></codeline>
-<codeline lineno="594" refid="MRMeshBoolean_8h_1a9ac0faac6613cf63f905198701d2b2b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a9ac0faac6613cf63f905198701d2b2b2" kindref="member">MR_BooleanResultPoints_Set_meshAVerts</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="595"><highlight class="normal"></highlight></codeline>
-<codeline lineno="600" refid="MRMeshBoolean_8h_1af44b6bc26400c08f878c0834b887719a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshBoolean_8h_1af44b6bc26400c08f878c0834b887719a" kindref="member">MR_BooleanResultPoints_GetMutable_meshAVerts</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="601"><highlight class="normal"></highlight></codeline>
-<codeline lineno="606" refid="MRMeshBoolean_8h_1aec83b35cca0948eb1ce3367aeb0960fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshBoolean_8h_1aec83b35cca0948eb1ce3367aeb0960fb" kindref="member">MR_BooleanResultPoints_Get_meshBVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="607"><highlight class="normal"></highlight></codeline>
-<codeline lineno="612" refid="MRMeshBoolean_8h_1a8915cc9561523b5ff25e920cc0033ea3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a8915cc9561523b5ff25e920cc0033ea3" kindref="member">MR_BooleanResultPoints_Set_meshBVerts</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="613"><highlight class="normal"></highlight></codeline>
-<codeline lineno="618" refid="MRMeshBoolean_8h_1ac74b9cfe7a8335311b1d85d4f3409c6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshBoolean_8h_1ac74b9cfe7a8335311b1d85d4f3409c6c" kindref="member">MR_BooleanResultPoints_GetMutable_meshBVerts</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="619"><highlight class="normal"></highlight></codeline>
-<codeline lineno="624" refid="MRMeshBoolean_8h_1a75c9599f316e3b75f2757ae0675549da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a75c9599f316e3b75f2757ae0675549da" kindref="member">MR_BooleanResultPoints_Get_intersectionPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="625"><highlight class="normal"></highlight></codeline>
-<codeline lineno="630" refid="MRMeshBoolean_8h_1a5ed02e7daceca432782a519a06d78afe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a5ed02e7daceca432782a519a06d78afe" kindref="member">MR_BooleanResultPoints_Set_intersectionPoints</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="631"><highlight class="normal"></highlight></codeline>
-<codeline lineno="636" refid="MRMeshBoolean_8h_1a1c4f4c3fe0824e8e31467ba1f0a8ed8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a1c4f4c3fe0824e8e31467ba1f0a8ed8c" kindref="member">MR_BooleanResultPoints_GetMutable_intersectionPoints</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="637"><highlight class="normal"></highlight></codeline>
-<codeline lineno="640" refid="MRMeshBoolean_8h_1abf7a2512b5ceffce3b10d4bd2a102a6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1abf7a2512b5ceffce3b10d4bd2a102a6a" kindref="member">MR_BooleanResultPoints_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="641"><highlight class="normal"></highlight></codeline>
-<codeline lineno="645" refid="MRMeshBoolean_8h_1a32057ff01706372f12e9b76bd15d2c43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a32057ff01706372f12e9b76bd15d2c43" kindref="member">MR_BooleanResultPoints_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="646"><highlight class="normal"></highlight></codeline>
-<codeline lineno="653" refid="MRMeshBoolean_8h_1ad8f190804bda689f7d9833552a4f7a82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1ad8f190804bda689f7d9833552a4f7a82" kindref="member">MR_BooleanResultPoints_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>meshAVerts_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*meshAVerts,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>meshBVerts_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*meshBVerts,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>intersectionPoints_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*intersectionPoints);</highlight></codeline>
-<codeline lineno="654"><highlight class="normal"></highlight></codeline>
-<codeline lineno="657" refid="MRMeshBoolean_8h_1a8325876f7ae35eb1ba0ee7db5331bf03" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a8325876f7ae35eb1ba0ee7db5331bf03" kindref="member">MR_BooleanResultPoints_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="658"><highlight class="normal"></highlight></codeline>
-<codeline lineno="661" refid="MRMeshBoolean_8h_1ab1c67c686e5213d8af79572893d93053" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1ab1c67c686e5213d8af79572893d93053" kindref="member">MR_BooleanResultPoints_OffsetMutablePtr</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="662"><highlight class="normal"></highlight></codeline>
-<codeline lineno="666" refid="MRMeshBoolean_8h_1a83229d4f25c8ad181c12fa193a0124ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a83229d4f25c8ad181c12fa193a0124ef" kindref="member">MR_BooleanResultPoints_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="667"><highlight class="normal"></highlight></codeline>
-<codeline lineno="669" refid="MRMeshBoolean_8h_1ad7d8d494b66ac1a197ff3257ba507414" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1ad7d8d494b66ac1a197ff3257ba507414" kindref="member">MR_BooleanResultPoints_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="670"><highlight class="normal"></highlight></codeline>
-<codeline lineno="672" refid="MRMeshBoolean_8h_1aae2973e416f279744479616ebbbc13da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aae2973e416f279744479616ebbbc13da" kindref="member">MR_BooleanResultPoints_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="578" refid="MRMeshBoolean_8h_1a45e52e348c4d8ff59d32b478989f4d63" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aac6c23cacaf5f96e13501fde30d1c95e" kindref="member">MR_BooleanResult</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a45e52e348c4d8ff59d32b478989f4d63" kindref="member">MR_forceBoolean</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshB,<sp/><ref refid="MRBooleanOperation_8h_1a251062e1161744270ec7b749518f75c5" kindref="member">MR_BooleanOperation</ref><sp/>operation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aa07e15a41ee4329505dc93bc343e1a73" kindref="member">MR_BooleanParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="579"><highlight class="normal"></highlight></codeline>
+<codeline lineno="585" refid="MRMeshBoolean_8h_1a29b6f563c5d3e460ce7e5132ff71aeb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a29b6f563c5d3e460ce7e5132ff71aeb2" kindref="member">MR_selfBoolean</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="586"><highlight class="normal"></highlight></codeline>
+<codeline lineno="593" refid="MRMeshBoolean_8h_1abe313812b7b3040f87baa7ed8cdfd06b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMeshBoolean_8h_1abe313812b7b3040f87baa7ed8cdfd06b" kindref="member">MR_findIntersectionContours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="594"><highlight class="normal"></highlight></codeline>
+<codeline lineno="599" refid="MRMeshBoolean_8h_1ab2bc37de207155ded24a4513b70ff289" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshBoolean_8h_1ab2bc37de207155ded24a4513b70ff289" kindref="member">MR_BooleanResultPoints_Get_meshAVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="600"><highlight class="normal"></highlight></codeline>
+<codeline lineno="605" refid="MRMeshBoolean_8h_1a9ac0faac6613cf63f905198701d2b2b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a9ac0faac6613cf63f905198701d2b2b2" kindref="member">MR_BooleanResultPoints_Set_meshAVerts</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="606"><highlight class="normal"></highlight></codeline>
+<codeline lineno="611" refid="MRMeshBoolean_8h_1af44b6bc26400c08f878c0834b887719a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshBoolean_8h_1af44b6bc26400c08f878c0834b887719a" kindref="member">MR_BooleanResultPoints_GetMutable_meshAVerts</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"></highlight></codeline>
+<codeline lineno="617" refid="MRMeshBoolean_8h_1aec83b35cca0948eb1ce3367aeb0960fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshBoolean_8h_1aec83b35cca0948eb1ce3367aeb0960fb" kindref="member">MR_BooleanResultPoints_Get_meshBVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="618"><highlight class="normal"></highlight></codeline>
+<codeline lineno="623" refid="MRMeshBoolean_8h_1a8915cc9561523b5ff25e920cc0033ea3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a8915cc9561523b5ff25e920cc0033ea3" kindref="member">MR_BooleanResultPoints_Set_meshBVerts</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="624"><highlight class="normal"></highlight></codeline>
+<codeline lineno="629" refid="MRMeshBoolean_8h_1ac74b9cfe7a8335311b1d85d4f3409c6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MRMeshBoolean_8h_1ac74b9cfe7a8335311b1d85d4f3409c6c" kindref="member">MR_BooleanResultPoints_GetMutable_meshBVerts</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="630"><highlight class="normal"></highlight></codeline>
+<codeline lineno="635" refid="MRMeshBoolean_8h_1a75c9599f316e3b75f2757ae0675549da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a75c9599f316e3b75f2757ae0675549da" kindref="member">MR_BooleanResultPoints_Get_intersectionPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="636"><highlight class="normal"></highlight></codeline>
+<codeline lineno="641" refid="MRMeshBoolean_8h_1a5ed02e7daceca432782a519a06d78afe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a5ed02e7daceca432782a519a06d78afe" kindref="member">MR_BooleanResultPoints_Set_intersectionPoints</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"></highlight></codeline>
+<codeline lineno="647" refid="MRMeshBoolean_8h_1a1c4f4c3fe0824e8e31467ba1f0a8ed8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a1c4f4c3fe0824e8e31467ba1f0a8ed8c" kindref="member">MR_BooleanResultPoints_GetMutable_intersectionPoints</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="648"><highlight class="normal"></highlight></codeline>
+<codeline lineno="651" refid="MRMeshBoolean_8h_1abf7a2512b5ceffce3b10d4bd2a102a6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1abf7a2512b5ceffce3b10d4bd2a102a6a" kindref="member">MR_BooleanResultPoints_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="652"><highlight class="normal"></highlight></codeline>
+<codeline lineno="656" refid="MRMeshBoolean_8h_1a32057ff01706372f12e9b76bd15d2c43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a32057ff01706372f12e9b76bd15d2c43" kindref="member">MR_BooleanResultPoints_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="657"><highlight class="normal"></highlight></codeline>
+<codeline lineno="664" refid="MRMeshBoolean_8h_1ad8f190804bda689f7d9833552a4f7a82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1ad8f190804bda689f7d9833552a4f7a82" kindref="member">MR_BooleanResultPoints_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>meshAVerts_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*meshAVerts,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>meshBVerts_pass_by,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*meshBVerts,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>intersectionPoints_pass_by,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*intersectionPoints);</highlight></codeline>
+<codeline lineno="665"><highlight class="normal"></highlight></codeline>
+<codeline lineno="668" refid="MRMeshBoolean_8h_1a8325876f7ae35eb1ba0ee7db5331bf03" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a8325876f7ae35eb1ba0ee7db5331bf03" kindref="member">MR_BooleanResultPoints_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="669"><highlight class="normal"></highlight></codeline>
+<codeline lineno="672" refid="MRMeshBoolean_8h_1ab1c67c686e5213d8af79572893d93053" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1ab1c67c686e5213d8af79572893d93053" kindref="member">MR_BooleanResultPoints_OffsetMutablePtr</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="673"><highlight class="normal"></highlight></codeline>
-<codeline lineno="679" refid="MRMeshBoolean_8h_1a45d06b8ba71a3a1bc90c5d3f6943114c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a45d06b8ba71a3a1bc90c5d3f6943114c" kindref="member">MR_BooleanResultPoints_AssignFromAnother</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="680"><highlight class="normal"></highlight></codeline>
-<codeline lineno="696" refid="MRMeshBoolean_8h_1a8e06e92a6a7297d6b5cb3e52db71bfd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1af7f7ea1a320c24c6e4922bc0b5a41edf" kindref="member">MR_expected_MR_BooleanResultPoints_std_string</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a8e06e92a6a7297d6b5cb3e52db71bfd7" kindref="member">MR_getBooleanPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshB,<sp/><ref refid="MRBooleanOperation_8h_1a251062e1161744270ec7b749518f75c5" kindref="member">MR_BooleanOperation</ref><sp/>operation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
-<codeline lineno="697"><highlight class="normal"></highlight></codeline>
-<codeline lineno="705" refid="MRMeshBoolean_8h_1a6872bb68cc18867e8d09f56a811689d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a6872bb68cc18867e8d09f56a811689d1" kindref="member">MR_convertIntFloatAllVerts</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*conv);</highlight></codeline>
-<codeline lineno="706"><highlight class="normal"></highlight></codeline>
-<codeline lineno="707"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="708"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="709"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="677" refid="MRMeshBoolean_8h_1a83229d4f25c8ad181c12fa193a0124ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a83229d4f25c8ad181c12fa193a0124ef" kindref="member">MR_BooleanResultPoints_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="678"><highlight class="normal"></highlight></codeline>
+<codeline lineno="680" refid="MRMeshBoolean_8h_1ad7d8d494b66ac1a197ff3257ba507414" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1ad7d8d494b66ac1a197ff3257ba507414" kindref="member">MR_BooleanResultPoints_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="681"><highlight class="normal"></highlight></codeline>
+<codeline lineno="683" refid="MRMeshBoolean_8h_1aae2973e416f279744479616ebbbc13da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aae2973e416f279744479616ebbbc13da" kindref="member">MR_BooleanResultPoints_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="684"><highlight class="normal"></highlight></codeline>
+<codeline lineno="690" refid="MRMeshBoolean_8h_1a45d06b8ba71a3a1bc90c5d3f6943114c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a45d06b8ba71a3a1bc90c5d3f6943114c" kindref="member">MR_BooleanResultPoints_AssignFromAnother</ref>(<ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshBoolean_8h_1aebda7bbc5ab64dcfb7c88d85db91d203" kindref="member">MR_BooleanResultPoints</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="691"><highlight class="normal"></highlight></codeline>
+<codeline lineno="707" refid="MRMeshBoolean_8h_1a8e06e92a6a7297d6b5cb3e52db71bfd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBoolean_8h_1af7f7ea1a320c24c6e4922bc0b5a41edf" kindref="member">MR_expected_MR_BooleanResultPoints_std_string</ref><sp/>*<ref refid="MRMeshBoolean_8h_1a8e06e92a6a7297d6b5cb3e52db71bfd7" kindref="member">MR_getBooleanPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*meshB,<sp/><ref refid="MRBooleanOperation_8h_1a251062e1161744270ec7b749518f75c5" kindref="member">MR_BooleanOperation</ref><sp/>operation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="708"><highlight class="normal"></highlight></codeline>
+<codeline lineno="716" refid="MRMeshBoolean_8h_1a6872bb68cc18867e8d09f56a811689d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a6872bb68cc18867e8d09f56a811689d1" kindref="member">MR_convertIntFloatAllVerts</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBoolean_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*conv);</highlight></codeline>
+<codeline lineno="717"><highlight class="normal"></highlight></codeline>
+<codeline lineno="718"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="719"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="720"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBoolean.h"/>
   </compounddef>

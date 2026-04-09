@@ -884,9 +884,10 @@
     <member refid="classMR_1_1BooleanInternalParameters_1aa53b1edbd97c6cd9e657eff0c7bf484f" kind="property"><name>originalMeshA</name></member>
     <member refid="classMR_1_1BooleanInternalParameters_1ad159d3c04fa90a979e44c70f419922d6" kind="property"><name>originalMeshB</name></member>
     <member refid="classMR_1_1BooleanInternalParameters_1a559037667f33f13759dd15407667f9e1" kind="property"><name>optionalOutCut</name></member>
+    <member refid="classMR_1_1BooleanInternalParameters_1aa9cf8f8d10ebc8167b089d0250d05dc2" kind="property"><name>graphCutSeparation</name></member>
     <member refid="classMR_1_1BooleanInternalParameters_1a7c7e1e92e247f07389e06325187b0925" kind="function"><name>BooleanInternalParameters</name></member>
     <member refid="classMR_1_1BooleanInternalParameters_1ad2883b0992b59d222f1157ace89dd4ef" kind="function"><name>BooleanInternalParameters</name></member>
-    <member refid="classMR_1_1BooleanInternalParameters_1a5423bc6d9385efe02231a7b3e89cbd72" kind="function"><name>BooleanInternalParameters</name></member>
+    <member refid="classMR_1_1BooleanInternalParameters_1a6b411890780f96f2a98f755e3e398e35" kind="function"><name>BooleanInternalParameters</name></member>
     <member refid="classMR_1_1BooleanInternalParameters_1a833c0f6ee14231909d415891b69a7851" kind="function"><name>BooleanInternalParameters</name></member>
     <member refid="classMR_1_1BooleanInternalParameters_1a2d47ecf9fd1f635559cdf74cc7600cb6" kind="function"><name>BooleanInternalParameters</name></member>
     <member refid="classMR_1_1BooleanInternalParameters_1a40469601d1e1f038cac4f91f99c02d3f" kind="function"><name>assign</name></member>
@@ -11579,6 +11580,7 @@
     <member refid="classMR_1ab3b905ac90d8b03198d11eda559fb667" kind="function"><name>boolean</name></member>
     <member refid="classMR_1af57997e97fb2201478c93d6b6592b772" kind="function"><name>boolean</name></member>
     <member refid="classMR_1a631bac54cdc6217f4e5aaa1f65a92a52" kind="function"><name>boolean</name></member>
+    <member refid="classMR_1a3111b23641d917bcea29b413a78b4dec" kind="function"><name>forceBoolean</name></member>
     <member refid="classMR_1ad0c75e19fdeb0f2b1455d00b6464d826" kind="function"><name>selfBoolean</name></member>
     <member refid="classMR_1a5d2dd1a7f0b9d450f6da372ac294d92b" kind="function"><name>findIntersectionContours</name></member>
     <member refid="classMR_1a364d394f9479def1e09031deca28ac58" kind="function"><name>getBooleanPoints</name></member>

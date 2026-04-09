@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1CloudPartMapping.html":[6,0,0,20,156],
+"structMR_1_1CmpOld.html":[6,0,0,4,38],
 "structMR_1_1Color.html":[6,0,0,20,158],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,0,20,160],
 "structMR_1_1CompensateRadiusParams.html":[6,0,0,20,451],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1FillHoleParams.html#a2fd7e4eb05eb26aa28ba98a886d22ce9":[6,0,0,9,3,0,2],
 "structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a":[6,0,0,9,3,0,1],
 "structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e":[6,0,0,9,3,0,7],
-"structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d":[6,0,0,9,3,0,3],
-"structMR_1_1FillHoleParams.html#abf9a5efac84779d01fd72d9f3d75dbc5":[6,0,0,9,3,0,6],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301":[6,0,0,9,3,0,0]
+"structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d":[6,0,0,9,3,0,3]
 };

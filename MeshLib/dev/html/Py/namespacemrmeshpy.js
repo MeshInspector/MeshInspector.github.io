@@ -1929,6 +1929,7 @@ var namespacemrmeshpy =
     [ "fixMultipleEdges", "namespacemrmeshpy.html#a34d71a4f029f030cc8af42cf6153d25c", null ],
     [ "fixSelfIntersections", "namespacemrmeshpy.html#a25fb1933edd66c926cd7b579fa191826", null ],
     [ "floatGridToVdbVolume", "namespacemrmeshpy.html#ab79f8912e46127b9c17d65df98d35c9c", null ],
+    [ "forceBoolean", "namespacemrmeshpy.html#af6dbf7e8f2e0fecfb0b841ab58ad47d3", null ],
     [ "fromSameTriangle", "namespacemrmeshpy.html#a9742c799c64faa670a927175c04a8473", null ],
     [ "fromSameTriangle", "namespacemrmeshpy.html#a7877308d7896451a0dd5cf18775336d5", null ],
     [ "fromSceneMison", "namespacemrmeshpy.html#ac97bbbecf13c947b7a751d3b646b06a4", null ],

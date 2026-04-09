@@ -6031,7 +6031,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="1015" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="1015" bodyend="1025"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="1032" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="1032" bodyend="1042"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8415f48b4f26376f0fbd33175b4fe17d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.PtrNoDefInitMRUndirectedEdgeId</type>
@@ -17126,6 +17126,43 @@ this function must be faster than extractXYPlaneSections function when connectin
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1484" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1484" bodyend="1489"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a3111b23641d917bcea29b413a78b4dec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BooleanResult" kindref="compound">MR.BooleanResult</ref></type>
+        <definition>static unsafe MR.BooleanResult MR.forceBoolean</definition>
+        <argsstring>(MR.Const_Mesh meshA, MR.Const_Mesh meshB, MR.BooleanOperation operation, MR.Const_BooleanParameters? params_=null)</argsstring>
+        <name>forceBoolean</name>
+        <qualifiedname>MR.forceBoolean</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1ad89c5fb7af9da0df04973fb2cd54e934" kindref="member">MR.BooleanOperation</ref></type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>MR.Const_BooleanParameters?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>calls boolean in force mode, also unites close vertices and fills holes afterwards </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>expects closed mesh on input, and fills all holes </para>
+</simplesect>
+<simplesect kind="warning"><para>params.mapper might be not correctly updated when new holes are filled Generated from function <computeroutput><ref refid="classMR_1a3111b23641d917bcea29b413a78b4dec" kindref="member">MR.forceBoolean</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1498" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1498" bodyend="1503"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1ad0c75e19fdeb0f2b1455d00b6464d826" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.selfBoolean</definition>
@@ -17143,7 +17180,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1496" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1496" bodyend="1504"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1510" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1510" bodyend="1518"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5d2dd1a7f0b9d450f6da372ac294d92b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
@@ -17171,7 +17208,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1510" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1510" bodyend="1516"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1524" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1524" bodyend="1530"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a364d394f9479def1e09031deca28ac58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BooleanResultPoints" kindref="compound">MR.BooleanResultPoints</ref></type>
@@ -17237,7 +17274,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1528" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1528" bodyend="1537"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1542" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1542" bodyend="1551"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a181368416536931a6072d942d0353438" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -17260,7 +17297,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1546" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1546" bodyend="1551"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1560" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1560" bodyend="1565"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad29f8f9047cd986f316b90af7cc09c25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -52561,6 +52598,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a64dee20b9b67716171533280263e3a3b" prot="public" virt="non-virtual"><scope>MR</scope><name>fixMultipleEdges</name></member>
       <member refid="classMR_1aa3ebc28a0c17a0a5fc0c9b90a97bfc95" prot="public" virt="non-virtual"><scope>MR</scope><name>FlipEdge</name></member>
       <member refid="classMR_1a62ff6152633f18c3a1d4c7512a0b067d" prot="public" virt="non-virtual"><scope>MR</scope><name>floatGridToVdbVolume</name></member>
+      <member refid="classMR_1a3111b23641d917bcea29b413a78b4dec" prot="public" virt="non-virtual"><scope>MR</scope><name>forceBoolean</name></member>
       <member refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
       <member refid="classMR_1a850a2064fa3c92e73ff78e630eb2b642" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
       <member refid="classMR_1a12dbb182e1a977dba7fc0b5c948ae83d" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>

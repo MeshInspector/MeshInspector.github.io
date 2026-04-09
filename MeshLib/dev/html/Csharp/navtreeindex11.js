@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1AABBTreePolyline3.html#ae5388c7e36de97720df9e8f1cf920107":[6,3,0,0,0,12,6],
 "classMR_1_1AABBTreePolyline3.html#ae7a5a9ae560eae461f3414ae2ae2bff3":[6,3,0,0,0,12,0],
 "classMR_1_1AABBTreePolyline3.html#af8e334e25eac39ca6370cb928d81d980":[6,3,0,0,0,12,2],
 "classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html":[6,3,0,0,0,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1AngleMeasurementObject.html#abbf62b0bd98a61db5e6cb73133e90f40":[6,3,0,0,0,24,45],
 "classMR_1_1AngleMeasurementObject.html#abe8aafe6a9c1c418196844389bbcb47b":[6,3,0,0,0,24,48],
 "classMR_1_1AngleMeasurementObject.html#abf8ef887b0d1351940df9251aab60d96":[6,3,0,0,0,24,15],
-"classMR_1_1AngleMeasurementObject.html#ac54ca798bc169acacadd8d0b1f840aa4":[6,3,0,0,0,24,49],
-"classMR_1_1AngleMeasurementObject.html#ac972342a6850b62d88781386644e1fab":[6,3,0,0,0,24,27]
+"classMR_1_1AngleMeasurementObject.html#ac54ca798bc169acacadd8d0b1f840aa4":[6,3,0,0,0,24,49]
 };

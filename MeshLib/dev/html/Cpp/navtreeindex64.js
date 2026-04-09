@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,2,21,1],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,33,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,2,21,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,33,1,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,2,21,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[6,0,1,0,1,43,5,0],
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[6,0,2,0,2,29,5,0],
 "structMR_1_1SpacingSettings.html":[6,0,0,20,436],
-"structMR_1_1Sphere.html":[6,0,0,0,23],
-"structMR_1_1Sphere.html":[6,0,0,20,474],
-"structMR_1_1SphereParams.html":[6,0,0,20,303]
+"structMR_1_1Sphere.html":[6,0,0,0,23]
 };

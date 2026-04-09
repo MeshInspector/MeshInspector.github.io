@@ -1,5 +1,9 @@
 var NAVTREEINDEX177 =
 {
+"classmrviewerpy_1_1ViewerLaunchParamsMode.html#ad3a41f35329efc57865b82fc5edff5f1":[6,1,1,0,2,10,9],
+"classmrviewerpy_1_1ViewerSetup.html":[6,1,0,0,3,11],
+"classmrviewerpy_1_1ViewerSetup.html":[6,1,1,0,2,11],
+"classmrviewerpy_1_1ViewerSetup.html#a3c8f3c359be1f83010a91b7f9c5e6a34":[6,1,0,0,3,11,0],
 "classmrviewerpy_1_1ViewerSetup.html#a3c8f3c359be1f83010a91b7f9c5e6a34":[6,1,1,0,2,11,0],
 "classmrviewerpy_1_1Viewport.html":[6,1,0,0,3,12],
 "classmrviewerpy_1_1Viewport.html":[6,1,1,0,2,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX177 =
 "namespacemrmeshnumpy.html#a1c3d6c72018281ed51f66dc03c8da6bf":[6,1,0,0,1,15],
 "namespacemrmeshnumpy.html#a30039e3551018d198a5a42bd480744cd":[6,1,0,0,1,3],
 "namespacemrmeshnumpy.html#a31711773ee51c2175497e8f31b786ad0":[6,1,0,0,1,19],
-"namespacemrmeshnumpy.html#a436f15df78cab87872b198370b097c0e":[6,1,0,0,1,2],
-"namespacemrmeshnumpy.html#a4c856fa3511daab45f4c4996e4d48f62":[6,1,0,0,1,0],
-"namespacemrmeshnumpy.html#a4ecdf081b92fedf910fcd4fecfe617c8":[6,1,0,0,1,16],
-"namespacemrmeshnumpy.html#a4ff4013d8f081b6e4ad1c3c9a4631fa2":[6,1,0,0,1,5],
-"namespacemrmeshnumpy.html#a67c605242104534bf522a0f72ef88db5":[6,1,0,0,1,12]
+"namespacemrmeshnumpy.html#a436f15df78cab87872b198370b097c0e":[6,1,0,0,1,2]
 };

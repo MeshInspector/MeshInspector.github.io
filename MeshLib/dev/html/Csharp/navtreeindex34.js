@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1Features.html#a0080c8c5bd50fbbc8f2865e9863a2fba":[6,3,0,0,0,364,20],
+"classMR_1_1Features.html#a031e403055c1ed84cd1cc88f501c75b3":[6,3,0,0,0,364,16],
 "classMR_1_1Features.html#a1098f41c952afd1d5d0663fbe434e3fc":[6,3,0,0,0,364,19],
 "classMR_1_1Features.html#a179386bd1ff72d51a5e218035f9a1fd8":[6,3,0,0,0,364,8],
 "classMR_1_1Features.html#a1c5f932dd15cda81055c653726a8f370":[6,3,0,0,0,364,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1FindOutliersParams.html#a0a63ee3aba2a9eb01995a74cf11f7879":[6,3,0,0,0,373,6],
 "classMR_1_1FindOutliersParams.html#a26da76238da983db6540f7eb1bdc678f":[6,3,0,0,0,373,1],
 "classMR_1_1FindOutliersParams.html#a84eaed57a6b327e3e13f4f89151271cb":[6,3,0,0,0,373,4],
-"classMR_1_1FindOutliersParams.html#a8e9974176d7f400b34e863ba309cf1b4":[6,3,0,0,0,373,0],
-"classMR_1_1FindOutliersParams.html#aa3cd77a83bc17aa334c98eb7ecff44c6":[6,3,0,0,0,373,5],
-"classMR_1_1FindOutliersParams.html#aa603fcda68b76482ab300b2d27701348":[6,3,0,0,0,373,7]
+"classMR_1_1FindOutliersParams.html#a8e9974176d7f400b34e863ba309cf1b4":[6,3,0,0,0,373,0]
 };

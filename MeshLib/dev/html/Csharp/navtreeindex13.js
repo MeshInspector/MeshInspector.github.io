@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1BitSet.html#a393d688bdc659b0fb2106c7f3023761e":[6,3,0,0,0,42,20],
 "classMR_1_1BitSet.html#a41b00e3180848ee00f309ec1505e8971":[6,3,0,0,0,42,31],
 "classMR_1_1BitSet.html#a424ed97aa4d4e8efb30e0ef89e34e4ec":[6,3,0,0,0,42,23],
 "classMR_1_1BitSet.html#a460920fbb8047f2577555318785dbc22":[6,3,0,0,0,42,19],
@@ -26,11 +27,12 @@ var NAVTREEINDEX13 =
 "classMR_1_1BooleanInternalParameters.html":[6,3,0,0,0,55],
 "classMR_1_1BooleanInternalParameters.html#a2d47ecf9fd1f635559cdf74cc7600cb6":[6,3,0,0,0,55,3],
 "classMR_1_1BooleanInternalParameters.html#a40469601d1e1f038cac4f91f99c02d3f":[6,3,0,0,0,55,4],
-"classMR_1_1BooleanInternalParameters.html#a5423bc6d9385efe02231a7b3e89cbd72":[6,3,0,0,0,55,1],
-"classMR_1_1BooleanInternalParameters.html#a559037667f33f13759dd15407667f9e1":[6,3,0,0,0,55,5],
+"classMR_1_1BooleanInternalParameters.html#a559037667f33f13759dd15407667f9e1":[6,3,0,0,0,55,6],
+"classMR_1_1BooleanInternalParameters.html#a6b411890780f96f2a98f755e3e398e35":[6,3,0,0,0,55,1],
 "classMR_1_1BooleanInternalParameters.html#a833c0f6ee14231909d415891b69a7851":[6,3,0,0,0,55,2],
-"classMR_1_1BooleanInternalParameters.html#aa53b1edbd97c6cd9e657eff0c7bf484f":[6,3,0,0,0,55,6],
-"classMR_1_1BooleanInternalParameters.html#ad159d3c04fa90a979e44c70f419922d6":[6,3,0,0,0,55,7],
+"classMR_1_1BooleanInternalParameters.html#aa53b1edbd97c6cd9e657eff0c7bf484f":[6,3,0,0,0,55,7],
+"classMR_1_1BooleanInternalParameters.html#aa9cf8f8d10ebc8167b089d0250d05dc2":[6,3,0,0,0,55,5],
+"classMR_1_1BooleanInternalParameters.html#ad159d3c04fa90a979e44c70f419922d6":[6,3,0,0,0,55,8],
 "classMR_1_1BooleanInternalParameters.html#ad2883b0992b59d222f1157ace89dd4ef":[6,3,0,0,0,55,0],
 "classMR_1_1BooleanParameters.html":[6,3,0,0,0,56],
 "classMR_1_1BooleanParameters.html#a0b4d64485461751a76dc6da72fc3f7b3":[6,3,0,0,0,56,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1Box__Box3f.html#ab9a520c53b4bfebbaa4c8bdf84380a93":[6,3,0,0,0,86,2],
 "classMR_1_1Box__Box3f.html#abbe82b14095f99910bae5ca53080d0f4":[6,3,0,0,0,86,11],
 "classMR_1_1Box__Box3f.html#abc32e7af09e34ca1384627d7cbc85c22":[6,3,0,0,0,86,10],
-"classMR_1_1Box__Box3f.html#ad8760566038b0a0284912467700bb1b5":[6,3,0,0,0,86,0],
-"classMR_1_1Box__Box3f.html#ae0b710338741caf8a1ae5c227e96e61d":[6,3,0,0,0,86,8],
-"classMR_1_1Box__Box3i.html":[6,3,0,0,0,87]
+"classMR_1_1Box__Box3f.html#ad8760566038b0a0284912467700bb1b5":[6,3,0,0,0,86,0]
 };

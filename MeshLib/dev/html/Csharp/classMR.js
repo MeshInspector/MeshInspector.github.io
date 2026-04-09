@@ -2509,6 +2509,7 @@ var classMR =
     [ "fixMultipleEdges", "classMR.html#a64dee20b9b67716171533280263e3a3b", null ],
     [ "fixMultipleEdges", "classMR.html#a1b9a76c089e00152cd6c8718b5098cd8", null ],
     [ "floatGridToVdbVolume", "classMR.html#a62ff6152633f18c3a1d4c7512a0b067d", null ],
+    [ "forceBoolean", "classMR.html#a3111b23641d917bcea29b413a78b4dec", null ],
     [ "fromSameTriangle", "classMR.html#a12dbb182e1a977dba7fc0b5c948ae83d", null ],
     [ "fromSameTriangle", "classMR.html#aa688cfa70f5974944c15be6578715ced", null ],
     [ "fromSceneMison", "classMR.html#a617762670500c61440346833df074371", null ],

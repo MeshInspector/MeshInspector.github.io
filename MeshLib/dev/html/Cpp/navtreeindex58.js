@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"namespacemembers_k.html":[6,0,1,1,0,9],
 "namespacemembers_l.html":[6,0,1,1,0,10],
 "namespacemembers_m.html":[6,0,1,1,0,11],
 "namespacemembers_n.html":[6,0,1,1,0,12],
@@ -135,9 +136,10 @@ var NAVTREEINDEX58 =
 "structMR_1_1BendTextAlongCurveParams.html":[6,0,0,20,520],
 "structMR_1_1BindVertexAttribArraySettings.html":[6,0,0,20,618],
 "structMR_1_1BooleanInternalParameters.html":[6,0,0,8,1],
-"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[6,0,0,8,1,1],
-"structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[6,0,0,8,1,0],
-"structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,2],
+"structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[6,0,0,8,1,2],
+"structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[6,0,0,8,1,1],
+"structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,3],
+"structMR_1_1BooleanInternalParameters.html#ac286ffae84a7480b081c9bb06413cb79":[6,0,0,8,1,0],
 "structMR_1_1BooleanParameters.html":[6,0,1,0,1,92],
 "structMR_1_1BooleanParameters.html":[6,0,2,0,2,75],
 "structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,1,0,1,92,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1CharPressedListener.html":[6,0,0,20,748],
 "structMR_1_1Chunk.html":[6,0,0,20,150],
 "structMR_1_1ChunkIterator.html":[6,0,0,20,151],
-"structMR_1_1CloseToMeshVolumeParams.html":[6,0,0,20,817],
-"structMR_1_1CloudPartMapping.html":[6,0,0,20,156],
-"structMR_1_1CmpOld.html":[6,0,0,4,38]
+"structMR_1_1CloseToMeshVolumeParams.html":[6,0,0,20,817]
 };
