@@ -1,5 +1,10 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1SplineSettings.html":[6,0,0,20,306],
+"structMR_1_1StitchHolesNicelySettings.html":[6,0,0,20,244],
+"structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
+"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
+"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
 "structMR_1_1StopOnTrueCombiner.html":[6,0,0,20,695],
 "structMR_1_1SubdivideFillingSettings.html":[6,0,0,20,240],
 "structMR_1_1SubdivideSettings.html":[6,0,0,9,7,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a86370e0ca44ce18760320f63faac8aa1":[6,0,0,1,13,2],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a":[6,0,0,1,13,3],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0":[6,0,0,1,13,1],
-"structMR_1_1UniformSamplingSettings.html":[6,0,0,20,494],
-"structMR_1_1UniquePtr.html":[6,0,0,20,495],
-"structMR_1_1UnitInfo.html":[6,0,0,20,498],
-"structMR_1_1UnitToStringParams.html":[6,0,0,20,731],
-"structMR_1_1UniteManyMeshesParams.html":[6,0,0,20,497],
-"structMR_1_1UnorientedTriangle.html":[6,0,0,20,499]
+"structMR_1_1UniformSamplingSettings.html":[6,0,0,20,494]
 };

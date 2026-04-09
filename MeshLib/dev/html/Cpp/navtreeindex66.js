@@ -1,5 +1,10 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1UniquePtr.html":[6,0,0,20,495],
+"structMR_1_1UnitInfo.html":[6,0,0,20,498],
+"structMR_1_1UnitToStringParams.html":[6,0,0,20,731],
+"structMR_1_1UniteManyMeshesParams.html":[6,0,0,20,497],
+"structMR_1_1UnorientedTriangle.html":[6,0,0,20,499],
 "structMR_1_1VarEdgeTri.html":[6,0,0,1,18],
 "structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[6,0,0,1,18,6],
 "structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[6,0,0,1,18,4],

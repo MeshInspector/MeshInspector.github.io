@@ -3,6 +3,7 @@
   <compounddef id="namespaceMR_1_1Locale" kind="namespace" language="C++">
     <compoundname>MR::Locale</compoundname>
     <innerclass refid="structMR_1_1Locale_1_1Domain" prot="public">MR::Locale::Domain</innerclass>
+    <innernamespace refid="namespaceMR_1_1Locale_1_1detail">MR::Locale::detail</innernamespace>
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
       <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
@@ -261,13 +262,13 @@
         <name>getAvailableLocales</name>
         <qualifiedname>MR::Locale::getAvailableLocales</qualifiedname>
         <briefdescription>
-<para>Returns the list of the names of locales with available .mo files. &quot;en&quot; is always included as the default locale. </para>
+<para>Returns the list of the names of locales with available .mo files. &quot;en&quot; is always included as the default locale. The returned list is always sorted alphabetically. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="28" column="14" declfile="MRViewer/MRLocale.h" declline="28" declcolumn="14"/>
+        <location file="MRViewer/MRLocale.h" line="29" column="14" declfile="MRViewer/MRLocale.h" declline="29" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -286,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="34" column="7" declfile="MRViewer/MRLocale.h" declline="34" declcolumn="7"/>
+        <location file="MRViewer/MRLocale.h" line="35" column="7" declfile="MRViewer/MRLocale.h" declline="35" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a2874347c63d49c868fb6c5e8e86fd07f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -310,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="39" column="6" declfile="MRViewer/MRLocale.h" declline="39" declcolumn="6"/>
+        <location file="MRViewer/MRLocale.h" line="40" column="6" declfile="MRViewer/MRLocale.h" declline="40" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a49e0c33a146baded505327802433fb50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -332,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="43" column="6" declfile="MRViewer/MRLocale.h" declline="43" declcolumn="6"/>
+        <location file="MRViewer/MRLocale.h" line="44" column="6" declfile="MRViewer/MRLocale.h" declline="44" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a74cb3cfc68c30759be2deee569d04b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -356,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="48" column="6" declfile="MRViewer/MRLocale.h" declline="48" declcolumn="6"/>
+        <location file="MRViewer/MRLocale.h" line="49" column="6" declfile="MRViewer/MRLocale.h" declline="49" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1abd162ed1ab4e598c7719e678ec8dff2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -378,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="52" column="6" declfile="MRViewer/MRLocale.h" declline="52" declcolumn="6"/>
+        <location file="MRViewer/MRLocale.h" line="53" column="6" declfile="MRViewer/MRLocale.h" declline="53" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -405,7 +406,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="60" column="14" declfile="MRViewer/MRLocale.h" declline="60" declcolumn="14"/>
+        <location file="MRViewer/MRLocale.h" line="61" column="14" declfile="MRViewer/MRLocale.h" declline="61" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -428,7 +429,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="62" column="7" declfile="MRViewer/MRLocale.h" declline="62" declcolumn="7"/>
+        <location file="MRViewer/MRLocale.h" line="63" column="7" declfile="MRViewer/MRLocale.h" declline="63" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1af02f569db95efdd23e2994620a42b98c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; MR::Locale::getSystemLocales</definition>
+        <argsstring>()</argsstring>
+        <name>getSystemLocales</name>
+        <qualifiedname>MR::Locale::getSystemLocales</qualifiedname>
+        <briefdescription>
+<para>Returns a list of system locales. The first one in the list is always the active system locale. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="67" column="14" declfile="MRViewer/MRLocale.h" declline="67" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

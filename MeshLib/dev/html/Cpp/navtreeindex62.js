@@ -1,5 +1,10 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,2,0,2,8,0,0],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,1,0,1,18,0,1],
+"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,2,0,2,8,0,1],
+"structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,1,0,1,19,0],
+"structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,2,0,2,9,0],
 "structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,1,0,1,19,0,1],
 "structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,2,0,2,9,0,1],
 "structMR_1_1LinesSave_1_1LinesSaver.html#ad73141f50545fb8920f07f75132ec6ec":[6,0,1,0,1,19,0,0],
@@ -7,9 +12,9 @@ var NAVTREEINDEX62 =
 "structMR_1_1LoadedMeshData.html":[6,0,0,20,296],
 "structMR_1_1LoadedObjectT.html":[6,0,0,20,297],
 "structMR_1_1LoadedObjects.html":[6,0,0,20,298],
-"structMR_1_1Locale_1_1Domain.html":[6,0,1,0,1,20,0],
+"structMR_1_1Locale_1_1Domain.html":[6,0,1,0,1,20,1],
 "structMR_1_1Locale_1_1Domain.html":[6,0,2,0,2,10,0],
-"structMR_1_1Locale_1_1Domain.html#a10576dc0e5d69163a260c5aa11a7e431":[6,0,1,0,1,20,0,0],
+"structMR_1_1Locale_1_1Domain.html#a10576dc0e5d69163a260c5aa11a7e431":[6,0,1,0,1,20,1,0],
 "structMR_1_1Locale_1_1Domain.html#a10576dc0e5d69163a260c5aa11a7e431":[6,0,2,0,2,10,0,0],
 "structMR_1_1MakeBridgeResult.html":[6,0,0,9,3,4],
 "structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119":[6,0,0,9,3,4,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1":[6,0,0,1,25,3],
 "structMR_1_1MeshProjectionResult.html#ad1465eeb2296933daf2de86872a2ba28":[6,0,0,1,25,4],
 "structMR_1_1MeshProjectionTransforms.html":[6,0,0,1,26],
-"structMR_1_1MeshProjectionTransforms.html#a8cbd1dfcea56dc62de55af9d1fd30497":[6,0,0,1,26,1],
-"structMR_1_1MeshProjectionTransforms.html#ac7e30a3a60e0e50ecf202b7761b16e8d":[6,0,0,1,26,0],
-"structMR_1_1MeshRegion.html":[6,0,0,9,9],
-"structMR_1_1MeshRegion.html":[6,0,0,20,342],
-"structMR_1_1MeshRelaxParams.html":[6,0,0,9,6,0],
-"structMR_1_1MeshRelaxParams.html#a41780c569c9092f50274655744456aea":[6,0,0,9,6,0,1]
+"structMR_1_1MeshProjectionTransforms.html#a8cbd1dfcea56dc62de55af9d1fd30497":[6,0,0,1,26,1]
 };

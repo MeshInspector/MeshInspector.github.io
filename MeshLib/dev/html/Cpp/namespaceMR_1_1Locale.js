@@ -1,5 +1,8 @@
 var namespaceMR_1_1Locale =
 [
+    [ "detail", "namespaceMR_1_1Locale_1_1detail.html", [
+      [ "getMacosLocales", "namespaceMR_1_1Locale_1_1detail.html#affe80668a699064bb90515126c515b53", null ]
+    ] ],
     [ "Domain", "structMR_1_1Locale_1_1Domain.html", "structMR_1_1Locale_1_1Domain" ],
     [ "addCatalogPath", "namespaceMR_1_1Locale.html#a2b32ebd2b8467813962ef412cc56a1f3", null ],
     [ "addDomain", "namespaceMR_1_1Locale.html#a2874347c63d49c868fb6c5e8e86fd07f", null ],
@@ -10,6 +13,7 @@ var namespaceMR_1_1Locale =
     [ "getAvailableLocales", "namespaceMR_1_1Locale.html#a56715982039eac569ef53b82b086b1e3", null ],
     [ "getDisplayName", "namespaceMR_1_1Locale.html#a8d1947c7d967dbc42a857466e79550e7", null ],
     [ "getName", "namespaceMR_1_1Locale.html#a3fde71105ef842bfaaf870498be9222d", null ],
+    [ "getSystemLocales", "namespaceMR_1_1Locale.html#af02f569db95efdd23e2994620a42b98c", null ],
     [ "onChanged", "namespaceMR_1_1Locale.html#a9a635779fb2e857a50dd1e60b10b6f52", null ],
     [ "set", "namespaceMR_1_1Locale.html#aa3caed4adf5ab7e7489b6c3cc97040a4", null ],
     [ "setDisplayName", "namespaceMR_1_1Locale.html#a1a90862fe2d6cda7d213d3683715e1cc", null ],

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Locale_1_1detail" kind="namespace" language="C++">
+    <compoundname>MR::Locale::detail</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1_1detail_1affe80668a699064bb90515126c515b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; MR::Locale::detail::getMacosLocales</definition>
+        <argsstring>()</argsstring>
+        <name>getMacosLocales</name>
+        <qualifiedname>MR::Locale::detail::getMacosLocales</qualifiedname>
+        <briefdescription>
+<para>Returns a list of preferred locales on macOS. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>The locales are in the BCP 47 format. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocaleMacos.h" line="11" column="13" declfile="MRViewer/MRLocaleMacos.h" declline="11" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRLocaleMacos.h" line="6" column="1"/>
+  </compounddef>
+</doxygen>

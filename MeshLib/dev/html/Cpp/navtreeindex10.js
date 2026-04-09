@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1RangeProgress.html":[6,0,0,20,827],
+"classMR_1_1RecentFilesStore.html":[6,0,0,20,601],
 "classMR_1_1RectIndexer.html":[6,0,0,5,8],
 "classMR_1_1RectIndexer.html#a3405e1ad7d3f9cb6d72845e41f3232bc":[6,0,0,5,8,6],
 "classMR_1_1RectIndexer.html#a3ad518f3ebe31196088da356bd7646cb":[6,0,0,5,8,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1SharedThreadSafeOwner.html#a539aba600891956dd407c17ef5590620":[6,0,0,20,333,2],
 "classMR_1_1SharedThreadSafeOwner.html#a59808e5b40263fceaf8962c1346ea9f5":[6,0,0,1,36,10],
 "classMR_1_1SharedThreadSafeOwner.html#a59808e5b40263fceaf8962c1346ea9f5":[6,0,0,20,333,10],
-"classMR_1_1SharedThreadSafeOwner.html#a5e3f86e91882b6b1f32c3bff31d263a6":[6,0,0,1,36,6],
-"classMR_1_1SharedThreadSafeOwner.html#a5e3f86e91882b6b1f32c3bff31d263a6":[6,0,0,20,333,6],
-"classMR_1_1SharedThreadSafeOwner.html#a6681c209342e7945e42dc74be2378488":[6,0,0,1,36,9]
+"classMR_1_1SharedThreadSafeOwner.html#a5e3f86e91882b6b1f32c3bff31d263a6":[6,0,0,1,36,6]
 };

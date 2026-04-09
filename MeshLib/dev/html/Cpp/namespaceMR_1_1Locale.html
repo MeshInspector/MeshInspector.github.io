@@ -138,12 +138,17 @@ $(function(){initNavTree('namespaceMR_1_1Locale.html','',''); });
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::Locale Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:detail" id="r_detail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale_1_1detail.html">detail</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:Domain" id="r_Domain"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a></td></tr>
@@ -176,7 +181,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a9a635779fb2e857a50dd1e60b10b6f52" id="r_a9a635779fb2e857a50dd1e60b10b6f52"><td class="memItemLeft" align="right" valign="top">boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a635779fb2e857a50dd1e60b10b6f52">onChanged</a> (const std::function&lt; void(const std::string &amp;)&gt; &amp;cb)</td></tr>
 <tr class="memdesc:a9a635779fb2e857a50dd1e60b10b6f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to a signal emitted every time the active locale is changed.  <br /></td></tr>
 <tr class="memitem:a56715982039eac569ef53b82b086b1e3" id="r_a56715982039eac569ef53b82b086b1e3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56715982039eac569ef53b82b086b1e3">getAvailableLocales</a> ()</td></tr>
-<tr class="memdesc:a56715982039eac569ef53b82b086b1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of the names of locales with available .mo files. "en" is always included as the default locale.  <br /></td></tr>
+<tr class="memdesc:a56715982039eac569ef53b82b086b1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of the names of locales with available .mo files. "en" is always included as the default locale. The returned list is always sorted alphabetically.  <br /></td></tr>
 <tr class="memitem:a2b32ebd2b8467813962ef412cc56a1f3" id="r_a2b32ebd2b8467813962ef412cc56a1f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b32ebd2b8467813962ef412cc56a1f3">addCatalogPath</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:a2b32ebd2b8467813962ef412cc56a1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a path to .mo files. The path is expected to have the following directory structure: &lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo The active locale is reloaded on every call.  <br /></td></tr>
 <tr class="memitem:a2874347c63d49c868fb6c5e8e86fd07f" id="r_a2874347c63d49c868fb6c5e8e86fd07f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2874347c63d49c868fb6c5e8e86fd07f">addDomain</a> (const char *domainName)</td></tr>
@@ -191,6 +196,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a8d1947c7d967dbc42a857466e79550e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a display name for the given locale.  <br /></td></tr>
 <tr class="memitem:a1a90862fe2d6cda7d213d3683715e1cc" id="r_a1a90862fe2d6cda7d213d3683715e1cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a90862fe2d6cda7d213d3683715e1cc">setDisplayName</a> (const std::string &amp;localeName, const std::string &amp;displayName)</td></tr>
 <tr class="memdesc:a1a90862fe2d6cda7d213d3683715e1cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds or updates a display name for the given locale.  <br /></td></tr>
+<tr class="memitem:af02f569db95efdd23e2994620a42b98c" id="r_af02f569db95efdd23e2994620a42b98c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af02f569db95efdd23e2994620a42b98c">getSystemLocales</a> ()</td></tr>
+<tr class="memdesc:af02f569db95efdd23e2994620a42b98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of system locales. The first one in the list is always the active system locale.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a2b32ebd2b8467813962ef412cc56a1f3" name="a2b32ebd2b8467813962ef412cc56a1f3"></a>
@@ -328,7 +335,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the list of the names of locales with available .mo files. "en" is always included as the default locale. </p>
+<p>Returns the list of the names of locales with available .mo files. "en" is always included as the default locale. The returned list is always sorted alphabetically. </p>
 
 </div>
 </div>
@@ -374,6 +381,25 @@ Functions</h2></td></tr>
 
 <p>Returns the active locale's name. </p>
 <dl class="section note"><dt>Note</dt><dd>If the locale was set manually, this function will return its name as is, without any normalization. </dd></dl>
+
+</div>
+</div>
+<a id="af02f569db95efdd23e2994620a42b98c" name="af02f569db95efdd23e2994620a42b98c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af02f569db95efdd23e2994620a42b98c">&#9670;&#160;</a></span>getSystemLocales()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; MR::Locale::getSystemLocales </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a list of system locales. The first one in the list is always the active system locale. </p>
 
 </div>
 </div>

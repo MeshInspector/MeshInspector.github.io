@@ -46,6 +46,7 @@ var dir_9f7f527b3d798641b224411d64f042be =
     [ "MRLambdaRibbonItem.h", "MRLambdaRibbonItem_8h.html", null ],
     [ "MRLinesShader.h", "MRLinesShader_8h.html", "MRLinesShader_8h" ],
     [ "MRLocale.h", "MRLocale_8h.html", "MRLocale_8h" ],
+    [ "MRLocaleMacos.h", "MRLocaleMacos_8h.html", "MRLocaleMacos_8h" ],
     [ "MRMacOSOpenDocumentsHandler.h", "MRMacOSOpenDocumentsHandler_8h.html", null ],
     [ "MRMakeSlot.h", "MRMakeSlot_8h.html", "MRMakeSlot_8h" ],
     [ "MRMarkedVoxelSlice.h", "MRMarkedVoxelSlice_8h.html", null ],

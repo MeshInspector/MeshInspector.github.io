@@ -15931,6 +15931,10 @@
     <member refid="namespaceMR_1_1Locale_1abd162ed1ab4e598c7719e678ec8dff2f" kind="function"><name>findDomain</name></member>
     <member refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kind="function"><name>getDisplayName</name></member>
     <member refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kind="function"><name>setDisplayName</name></member>
+    <member refid="namespaceMR_1_1Locale_1af02f569db95efdd23e2994620a42b98c" kind="function"><name>getSystemLocales</name></member>
+  </compound>
+  <compound refid="namespaceMR_1_1Locale_1_1detail" kind="namespace"><name>MR::Locale::detail</name>
+    <member refid="namespaceMR_1_1Locale_1_1detail_1affe80668a699064bb90515126c515b53" kind="function"><name>getMacosLocales</name></member>
   </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
@@ -16506,10 +16510,6 @@
   <compound refid="MRIOFilesMenuItems_8h" kind="file"><name>MRIOFilesMenuItems.h</name>
   </compound>
   <compound refid="MRRibbonSceneButtons_8h" kind="file"><name>MRRibbonSceneButtons.h</name>
-  </compound>
-  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
   </compound>
   <compound refid="MRBinaryOperationsPlugin_8h" kind="file"><name>MRBinaryOperationsPlugin.h</name>
   </compound>
@@ -17538,10 +17538,6 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -17719,6 +17715,8 @@
   </compound>
   <compound refid="MRLocale_8h" kind="file"><name>MRLocale.h</name>
   </compound>
+  <compound refid="MRLocaleMacos_8h" kind="file"><name>MRLocaleMacos.h</name>
+  </compound>
   <compound refid="MRMacOSOpenDocumentsHandler_8h" kind="file"><name>MRMacOSOpenDocumentsHandler.h</name>
   </compound>
   <compound refid="MRMakeSlot_8h" kind="file"><name>MRMakeSlot.h</name>
@@ -17843,6 +17841,10 @@
   </compound>
   <compound refid="MRSceneCache_8h" kind="file"><name>MRSceneCache.h</name>
   </compound>
+  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
   <compound refid="MRSceneObjectsListDrawer_8h" kind="file"><name>MRSceneObjectsListDrawer.h</name>
   </compound>
   <compound refid="MRSceneOperations_8h" kind="file"><name>MRSceneOperations.h</name>
@@ -17936,6 +17938,10 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>

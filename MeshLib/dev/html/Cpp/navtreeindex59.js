@@ -1,5 +1,10 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1Color.html":[6,0,0,20,158],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,0,20,160],
+"structMR_1_1CompensateRadiusParams.html":[6,0,0,20,451],
+"structMR_1_1CompressZipSettings.html":[6,0,0,2,15,0],
+"structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d":[6,0,0,2,15,0,3],
 "structMR_1_1CompressZipSettings.html#a0fff83332c3dd033ccd3f5bb5dbb8a5d":[6,0,0,2,15,0,2],
 "structMR_1_1CompressZipSettings.html#a8e2307f6f06661b56c44492f4ca4a54a":[6,0,0,2,15,0,1],
 "structMR_1_1CompressZipSettings.html#a9796435e6a3ca7ed636ac9c0c3121a42":[6,0,0,2,15,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e":[6,0,0,9,3,0,7],
 "structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d":[6,0,0,9,3,0,3],
 "structMR_1_1FillHoleParams.html#abf9a5efac84779d01fd72d9f3d75dbc5":[6,0,0,9,3,0,6],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301":[6,0,0,9,3,0,0],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780":[6,0,0,9,3,0,0,1],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,9,3,0,0,0],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9":[6,0,0,9,3,0,0,2],
-"structMR_1_1FillHolesWithExtraPointsParams.html":[6,0,0,13,2],
-"structMR_1_1FillHolesWithExtraPointsParams.html#aa413702c40e0c7216a9137543e25d8a5":[6,0,0,13,2,0]
+"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301":[6,0,0,9,3,0,0]
 };

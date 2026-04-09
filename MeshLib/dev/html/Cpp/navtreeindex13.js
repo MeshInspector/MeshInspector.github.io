@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"functions_type_d.html":[6,0,2,3,3,3],
+"functions_type_e.html":[6,0,2,3,3,4],
 "functions_type_f.html":[6,0,2,3,3,5],
 "functions_type_g.html":[6,0,2,3,3,6],
 "functions_type_h.html":[6,0,2,3,3,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "group__BasicGroup.html#gaa7dfbd8929d54cde238ceb82f7836fcc":[6,0,0,3,20],
 "group__BasicGroup.html#gaad7a9b6adc1871df7a0c6a3b34b22ba1":[6,0,0,3,71],
 "group__BasicGroup.html#gaada9bbf0cb2bbb2d2c272f82ff9f9e00":[6,0,0,3,88],
-"group__BasicGroup.html#gaaf7db2c19eab5cb5d5a7d91d8ae03dc9":[6,0,0,3,52],
-"group__BasicGroup.html#gabb251db9705506c0578f5d14e6f4b3a7":[6,0,0,3,87],
-"group__BasicGroup.html#gabcd2fb63d421c0032f7bf3137e782982":[6,0,0,3,93]
+"group__BasicGroup.html#gaaf7db2c19eab5cb5d5a7d91d8ae03dc9":[6,0,0,3,52]
 };

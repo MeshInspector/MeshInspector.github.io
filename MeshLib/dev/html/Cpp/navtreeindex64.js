@@ -1,5 +1,10 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,2,21,1,0],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,33,1,1],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,2,21,1,1],
+"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,0,20,831],
+"structMR_1_1PointsToMeshParameters.html":[6,0,0,20,832],
 "structMR_1_1Polyline.html":[6,0,0,14,0],
 "structMR_1_1Polyline.html#a0127bea8e352025d57d7b71fccf78b15":[6,0,0,14,0,18],
 "structMR_1_1Polyline.html#a02d7af7baeeefe1859077fcfaf778763":[6,0,0,14,0,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1SpacingSettings.html":[6,0,0,20,436],
 "structMR_1_1Sphere.html":[6,0,0,0,23],
 "structMR_1_1Sphere.html":[6,0,0,20,474],
-"structMR_1_1SphereParams.html":[6,0,0,20,303],
-"structMR_1_1SplineSettings.html":[6,0,0,20,306],
-"structMR_1_1StitchHolesNicelySettings.html":[6,0,0,20,244],
-"structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
-"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
-"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0]
+"structMR_1_1SphereParams.html":[6,0,0,20,303]
 };
