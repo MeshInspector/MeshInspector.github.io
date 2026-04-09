@@ -187,7 +187,7 @@ Properties</h2></td></tr>
 <tr class="memitem:ae93092130f5b30c67d6c629d540f154c" id="r_ae93092130f5b30c67d6c629d540f154c"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae93092130f5b30c67d6c629d540f154c">mergeOnFail</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae93092130f5b30c67d6c629d540f154c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set - merges meshes instead of booleaning it if boolean operation fails.  <br /></td></tr>
 <tr class="memitem:ab85360fc04e5214a35a95f729e284611" id="r_ab85360fc04e5214a35a95f729e284611"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab85360fc04e5214a35a95f729e284611">forceCut</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab85360fc04e5214a35a95f729e284611"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way.  <br /></td></tr>
+<tr class="memdesc:ab85360fc04e5214a35a95f729e284611"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this option is enabled boolean will cut meshes even if there are self-intersections in intersecting area also applying <a class="el" href="classMR_1_1MeshBuilder.html#a4a8977a3bc39772181faaed54cd1693e">MR.MeshBuilder.uniteCloseVertices</a> and <a class="el" href="classMR.html#aafdbcb6bfd3bddc8323daa12c59f4e39">MR.fillHoles</a> afterwards.  <br /></td></tr>
 <tr class="memitem:a889b5c11505f7b0c1df647f60880b9f9" id="r_a889b5c11505f7b0c1df647f60880b9f9"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a889b5c11505f7b0c1df647f60880b9f9">progressCb</a><code> [get, protected set]</code></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -440,8 +440,10 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way. </p>
-<dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
+<p>If this option is enabled boolean will cut meshes even if there are self-intersections in intersecting area also applying <a class="el" href="classMR_1_1MeshBuilder.html#a4a8977a3bc39772181faaed54cd1693e">MR.MeshBuilder.uniteCloseVertices</a> and <a class="el" href="classMR.html#aafdbcb6bfd3bddc8323daa12c59f4e39">MR.fillHoles</a> afterwards. </p>
+<dl class="section warning"><dt>Warning</dt><dd>if enabled - closed meshes expected on input </dd>
+<dd>
+not recommended in most cases </dd></dl>
 
 </div>
 </div>

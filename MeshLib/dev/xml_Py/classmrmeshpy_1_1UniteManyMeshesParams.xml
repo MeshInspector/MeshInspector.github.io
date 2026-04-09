@@ -363,14 +363,15 @@ useful on meshes with many coincident surfaces
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area
-it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way
+<para><verbatim>If this option is enabled boolean will cut meshes even if there are self-intersections in intersecting area
+also applying \\ref MR::MeshBuilder::uniteCloseVertices and \\ref MR::fillHoles afterwards
+\\warning if enabled - closed meshes expected on input
 \\warning not recommended in most cases
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62283" bodyend="62288"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62283" bodyend="62289"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1ad91345e9442b4ac82a64c0d1e3ad23ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -392,7 +393,7 @@ it might work in some cases, but in general it might prevent fast error report a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62290" bodyend="62291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62291" bodyend="62292"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1a867eb68bbfd79c37bd2c7a335b01dcf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -413,7 +414,7 @@ not used if both flags (useRandomShifts,fixDegenerations) are false
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62293" bodyend="62297"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62294" bodyend="62298"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1aa439289f797288a8ed7ac43914a96a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -435,7 +436,7 @@ not used if both flags (useRandomShifts,fixDegenerations) are false
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62299" bodyend="62300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62300" bodyend="62301"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1a3622a4cabbcd7025e25ecfaaf43de014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -455,7 +456,7 @@ not used if both flags (useRandomShifts,fixDegenerations) are false
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62302" bodyend="62305"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62303" bodyend="62306"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1ae5c55ef79564ef80bdff99439b841e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -477,7 +478,7 @@ not used if both flags (useRandomShifts,fixDegenerations) are false
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62307" bodyend="62308"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62308" bodyend="62309"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1a9bcaab05e5e183de6d1444411d3f574c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1NestedComponenetsMode" kindref="compound">NestedComponenetsMode</ref></type>
@@ -498,7 +499,7 @@ read comment of NestedComponenetsMode enum for more information
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62310" bodyend="62314"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62311" bodyend="62315"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1a6c6b2ef23b8cec74942f4adb9ae42c1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -520,7 +521,7 @@ read comment of NestedComponenetsMode enum for more information
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62316" bodyend="62317"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62317" bodyend="62318"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1ad23bb9eb36f427fe3f1c3edaaea63333" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -540,7 +541,7 @@ read comment of NestedComponenetsMode enum for more information
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62319" bodyend="62322"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62320" bodyend="62323"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1a4606440a0734244c65464ee482d1d345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -562,7 +563,7 @@ read comment of NestedComponenetsMode enum for more information
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62324" bodyend="62325"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62325" bodyend="62326"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1a167d892b25047c038e75a7b8f58e4d0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -582,7 +583,7 @@ read comment of NestedComponenetsMode enum for more information
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62327" bodyend="62330"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62328" bodyend="62331"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1ae0e6220ccd610b99a46cd0d98e9ab071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -604,7 +605,7 @@ read comment of NestedComponenetsMode enum for more information
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62332" bodyend="62333"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62333" bodyend="62334"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1aa424dd4095fadf179f258dad8bf8eefa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -624,7 +625,7 @@ read comment of NestedComponenetsMode enum for more information
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62335" bodyend="62338"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62336" bodyend="62339"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UniteManyMeshesParams_1af10bfe5869f186fb3092c3ad575afb88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -646,7 +647,7 @@ read comment of NestedComponenetsMode enum for more information
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62340" bodyend="62341"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62341" bodyend="62342"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -657,7 +658,7 @@ read comment of NestedComponenetsMode enum for more information
 Parameters structure for uniteManyMeshes function
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62231" bodyend="62341"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62231" bodyend="62342"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UniteManyMeshesParams_1a47c476cad029ca21b564d8d8a5aa6fae" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteManyMeshesParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UniteManyMeshesParams_1a6b75470354ab2c84f4fd8ad042102fc4" prot="public" virt="non-virtual"><scope>mrmeshpy::UniteManyMeshesParams</scope><name>__init__</name></member>
