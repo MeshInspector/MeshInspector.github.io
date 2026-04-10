@@ -2075,6 +2075,8 @@ var classMR =
     [ "edgeLengthSq", "classMR.html#a67ba1141a330b29f84f9d3207f160a6b", null ],
     [ "edgeMapsComposition", "classMR.html#a88604117154cd7952aeeaea879d6cc6e", null ],
     [ "edgeMapsComposition", "classMR.html#a1c7fcbc46b0140ab62da2ea6fafa28ab", null ],
+    [ "edgePathsToContours3f", "classMR.html#a3affce5365732394bfd1e7aa026a84a5", null ],
+    [ "edgePathToContour3f", "classMR.html#a74cae6c4fcf29296f59d360fb31bf0dc", null ],
     [ "edgePoint", "classMR.html#a28e98c68cc98b2e9123f00ab2de09252", null ],
     [ "edgePoint", "classMR.html#a6fc109ed4daf2bf0075e3b566ed34fb6", null ],
     [ "edgePointsFromContours", "classMR.html#ac2d23933af3ecb6d0c43fe8fc00a7853", null ],

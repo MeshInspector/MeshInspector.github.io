@@ -1,5 +1,7 @@
 var NAVTREEINDEX152 =
 {
+"std__shared__ptr__MR__ChangeMeshDataAction_8h_source.html":[6,2,1,0,0,0,0,2,305],
+"std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html":[6,2,1,0,0,0,0,2,306],
 "std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a052e1bbc5049bb1d7c270634d6542f56":[6,2,1,0,0,0,0,2,306,15],
 "std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a05e8caff725b2f22525f83afb3f42857":[6,2,1,0,0,0,0,2,306,12],
 "std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a1bbdc0832a10799df5c3b243fccf1895":[6,2,1,0,0,0,0,2,306,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX152 =
 "std__shared__ptr__MR__ChangeObjectVisibilityAction_8h.html#a244744fe4acece12ca096c73c2cfcc13":[6,2,1,0,0,0,0,2,316,11],
 "std__shared__ptr__MR__ChangeObjectVisibilityAction_8h.html#a266d08906841d6faf2f744488f1a8010":[6,2,1,0,0,0,0,2,316,16],
 "std__shared__ptr__MR__ChangeObjectVisibilityAction_8h.html#a43b2bee08a256777e470c35b74ed2527":[6,2,1,0,0,0,0,2,316,8],
-"std__shared__ptr__MR__ChangeObjectVisibilityAction_8h.html#a50202ebba5588cda8ff4080dfee2a8ef":[6,2,1,0,0,0,0,2,316,15],
-"std__shared__ptr__MR__ChangeObjectVisibilityAction_8h.html#a58815a7be62f4d91090656ce2754bfe8":[6,2,1,0,0,0,0,2,316,0],
-"std__shared__ptr__MR__ChangeObjectVisibilityAction_8h.html#a5a4b66f3dfb11b12d4f0841fd88b9f7f":[6,2,1,0,0,0,0,2,316,3]
+"std__shared__ptr__MR__ChangeObjectVisibilityAction_8h.html#a50202ebba5588cda8ff4080dfee2a8ef":[6,2,1,0,0,0,0,2,316,15]
 };

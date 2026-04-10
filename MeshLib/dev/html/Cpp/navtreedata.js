@@ -203,17 +203,17 @@ var NAVTREEINDEX =
 "group__GeneralGroup.html#ggafb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d",
 "group__MeshGroup.html",
 "group__SurfacePathGroup.html#ga2f7c1aea16986258c61ae83c1541d3f6",
-"group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74",
-"namespaceMR_1_1Locale.html#a28287d3e2eb5ea131d3467bc31d06c1c",
-"namespacemembers_k.html",
-"structMR_1_1CloudPartMapping.html",
-"structMR_1_1FillHoleParams.html#abf9a5efac84779d01fd72d9f3d75dbc5",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a4eafe647658b794d1c77e649b424ffda",
-"structMR_1_1LinesLoad_1_1LinesLoader.html",
-"structMR_1_1MeshProjectionTransforms.html",
-"structMR_1_1PointsSave_1_1PointsSaver.html",
-"structMR_1_1Sphere.html",
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0"
+"group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79",
+"namespaceMR_1_1Locale.html",
+"namespacemembers_func_z.html",
+"structMR_1_1CharPressedListener.html",
+"structMR_1_1FillHoleParams.html#a2fd7e4eb05eb26aa28ba98a886d22ce9",
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3c33808729b011c55c757f4aec823465",
+"structMR_1_1LineInterpolationParams.html",
+"structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29",
+"structMR_1_1PointsProjectionResult.html#aac972c9152f1d040824f6ce8998b7cf7",
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294",
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -222,6 +222,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ad8df4b6eedb86bfb52294281edb83155" id="r_ad8df4b6eedb86bfb52294281edb83155"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8df4b6eedb86bfb52294281edb83155">MR_getPathPlaneIntersections</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *path, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane, <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *outIntersections)</td></tr>
 <tr class="memitem:a88cfaf296b525f0c5db3a2c0b673a396" id="r_a88cfaf296b525f0c5db3a2c0b673a396"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88cfaf296b525f0c5db3a2c0b673a396">MR_getContourPlaneIntersections</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *path, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *outIntersections)</td></tr>
 <tr class="memitem:a09ca3bfc026457bf6a83b17c1695db20" id="r_a09ca3bfc026457bf6a83b17c1695db20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09ca3bfc026457bf6a83b17c1695db20">MR_getPathEdgesInPlane</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *path, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane, const float *tolerance, <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *outInPlaneEdges)</td></tr>
+<tr class="memitem:a416d65992fa4b38a28e1596272289b2c" id="r_a416d65992fa4b38a28e1596272289b2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a416d65992fa4b38a28e1596272289b2c">MR_edgePathToContour3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *line)</td></tr>
+<tr class="memitem:a197d013874325af01fcc43ba5b2ac245" id="r_a197d013874325af01fcc43ba5b2ac245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a197d013874325af01fcc43ba5b2ac245">MR_edgePathsToContours3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *lines)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a954949e1753f6a2063d09e91b23d252d" name="a954949e1753f6a2063d09e91b23d252d"></a>
@@ -1093,6 +1095,50 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <span class="tt">MR::dilateRegionByMetric</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">metric</span> can not be null. It is a single object. Parameter <span class="tt">region</span> can not be null. It is a single object. Parameter <span class="tt">callback</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a197d013874325af01fcc43ba5b2ac245" name="a197d013874325af01fcc43ba5b2ac245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a197d013874325af01fcc43ba5b2ac245">&#9670;&#160;</a></span>MR_edgePathsToContours3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_edgePathsToContours3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>lines</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::edgePathsToContours3f</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">lines</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__vector__MR__Vector3f_8h.html#a08f11bac5424cae534d0a451b6f8568a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3f_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a416d65992fa4b38a28e1596272289b2c" name="a416d65992fa4b38a28e1596272289b2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416d65992fa4b38a28e1596272289b2c">&#9670;&#160;</a></span>MR_edgePathToContour3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_edgePathToContour3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>line</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>converts lines on mesh in 3D contours by computing coordinate of each point Generated from function <span class="tt">MR::edgePathToContour3f</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">line</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

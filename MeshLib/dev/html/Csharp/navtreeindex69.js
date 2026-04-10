@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"classMR_1_1Vector__UnsignedShort__MRVoxelId.html#af7f491f5a8442da50a518a2c5cd21bee":[6,3,0,0,0,951,12],
+"classMR_1_1VersatileChangeMeshPointsAction.html":[6,3,0,0,0,952],
 "classMR_1_1VersatileChangeMeshPointsAction.html#a31e058e6d8e9478b1c72815b7efb8ee4":[6,3,0,0,0,952,2],
 "classMR_1_1VersatileChangeMeshPointsAction.html#a3bd00672e3fbb2371459062896bbe8c6":[6,3,0,0,0,952,1],
 "classMR_1_1VersatileChangeMeshPointsAction.html#a812edd62366011c2e2fb3f0f1261ed74":[6,3,0,0,0,952,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "classMR_1_1VertPathInfo.html#af7a066be5ced20b7b5f0e3a72fd15b67":[6,3,0,0,0,964,1],
 "classMR_1_1VertRenumber.html":[6,3,0,0,0,965],
 "classMR_1_1VertRenumber.html#a8e3374a5cb5764bb78512c8ac571f1c3":[6,3,0,0,0,965,1],
-"classMR_1_1VertRenumber.html#a9e94f668782c3f28619bb3f6b06a26c0":[6,3,0,0,0,965,4],
-"classMR_1_1VertRenumber.html#aaf48f76b31c9a3fecf9272ecf5a3bbd8":[6,3,0,0,0,965,2],
-"classMR_1_1VertRenumber.html#ae83d02049622d130ff89fc1b6751877e":[6,3,0,0,0,965,3]
+"classMR_1_1VertRenumber.html#a9e94f668782c3f28619bb3f6b06a26c0":[6,3,0,0,0,965,4]
 };

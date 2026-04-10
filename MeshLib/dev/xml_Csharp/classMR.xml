@@ -12754,6 +12754,52 @@ input contours must be closed within the area of distance map and be consistentl
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" line="760" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" bodystart="760" bodyend="766"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a74cae6c4fcf29296f59d360fb31bf0dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVector3f</type>
+        <definition>static unsafe MR.Std.Vector_MRVector3f MR.edgePathToContour3f</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MREdgeId line)</argsstring>
+        <name>edgePathToContour3f</name>
+        <qualifiedname>MR.edgePathToContour3f</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgeId</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+<para>converts lines on mesh in 3D contours by computing coordinate of each point Generated from function <computeroutput><ref refid="classMR_1a74cae6c4fcf29296f59d360fb31bf0dc" kindref="member">MR.edgePathToContour3f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" line="772" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" bodystart="772" bodyend="777"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a3affce5365732394bfd1e7aa026a84a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
+        <definition>static unsafe MR.Std.Vector_StdVectorMRVector3f MR.edgePathsToContours3f</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgeId lines)</argsstring>
+        <name>edgePathsToContours3f</name>
+        <qualifiedname>MR.edgePathsToContours3f</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a3affce5365732394bfd1e7aa026a84a5" kindref="member">MR.edgePathsToContours3f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" line="782" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" bodystart="782" bodyend="787"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>static unsafe bool MR.same</definition>
@@ -52157,6 +52203,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a67ba1141a330b29f84f9d3207f160a6b" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeLengthSq</name></member>
       <member refid="classMR_1a1c7fcbc46b0140ab62da2ea6fafa28ab" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeMapsComposition</name></member>
       <member refid="classMR_1a88604117154cd7952aeeaea879d6cc6e" prot="public" virt="non-virtual"><scope>MR</scope><name>edgeMapsComposition</name></member>
+      <member refid="classMR_1a3affce5365732394bfd1e7aa026a84a5" prot="public" virt="non-virtual"><scope>MR</scope><name>edgePathsToContours3f</name></member>
+      <member refid="classMR_1a74cae6c4fcf29296f59d360fb31bf0dc" prot="public" virt="non-virtual"><scope>MR</scope><name>edgePathToContour3f</name></member>
       <member refid="classMR_1a6fc109ed4daf2bf0075e3b566ed34fb6" prot="public" virt="non-virtual"><scope>MR</scope><name>edgePoint</name></member>
       <member refid="classMR_1a28e98c68cc98b2e9123f00ab2de09252" prot="public" virt="non-virtual"><scope>MR</scope><name>edgePoint</name></member>
       <member refid="classMR_1ac2d23933af3ecb6d0c43fe8fc00a7853" prot="public" virt="non-virtual"><scope>MR</scope><name>edgePointsFromContours</name></member>

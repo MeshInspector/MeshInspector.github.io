@@ -236,6 +236,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:gacb71fc9052e9e4c153a7016b45e70a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all intersection points between given contour and plane, adds them in outIntersections and returns their number  <br /></td></tr>
 <tr class="memitem:gaba6bba9899b4b1a78c2c711d73b92ecd" id="r_gaba6bba9899b4b1a78c2c711d73b92ecd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba6bba9899b4b1a78c2c711d73b92ecd">MR::getPathEdgesInPlane</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;path, const <a class="el" href="group__GeneralGroup.html#ga6b8606e6618471611100352ed5a178a7">Plane3f</a> &amp;plane, float tolerance=0.0f, std::vector&lt; EdgeId &gt; *outInPlaneEdges=nullptr)</td></tr>
 <tr class="memdesc:gaba6bba9899b4b1a78c2c711d73b92ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all path edges located in given plane with given tolerance, adds them in outInPlaneEdges and returns their number  <br /></td></tr>
+<tr class="memitem:gacbfadb233d804c66b6968368fcca05f0" id="r_gacbfadb233d804c66b6968368fcca05f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga19c0568c2b8f7fe1df67adc9cf370bc0">Contour3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacbfadb233d804c66b6968368fcca05f0">MR::edgePathToContour3f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;line)</td></tr>
+<tr class="memdesc:gacbfadb233d804c66b6968368fcca05f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts lines on mesh in 3D contours by computing coordinate of each point  <br /></td></tr>
+<tr class="memitem:ga6af8590fd17b0f605429dfd96564cb83" id="r_ga6af8590fd17b0f605429dfd96564cb83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6af8590fd17b0f605429dfd96564cb83">MR::edgePathsToContours3f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;lines)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -1610,6 +1613,70 @@ Classes</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MREdgeMetric_8h.html">MRMesh/MREdgeMetric.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga6af8590fd17b0f605429dfd96564cb83" name="ga6af8590fd17b0f605429dfd96564cb83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6af8590fd17b0f605429dfd96564cb83">&#9670;&#160;</a></span>edgePathsToContours3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> MR::edgePathsToContours3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>lines</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MREdgePaths_8h.html">MRMesh/MREdgePaths.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gacbfadb233d804c66b6968368fcca05f0" name="gacbfadb233d804c66b6968368fcca05f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacbfadb233d804c66b6968368fcca05f0">&#9670;&#160;</a></span>edgePathToContour3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga19c0568c2b8f7fe1df67adc9cf370bc0">Contour3f</a> MR::edgePathToContour3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MREdgePaths_8h.html">MRMesh/MREdgePaths.h</a>&gt;</code></p>
+
+<p>converts lines on mesh in 3D contours by computing coordinate of each point </p>
 
 </div>
 </div>

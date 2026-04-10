@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ae6d939d19e60def089133853e31f0706":[6,3,0,0,0,802,0,10],
+"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html":[6,3,0,0,0,802,1],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a020e2180cb8de6a869bf6dc49a1fd880":[6,3,0,0,0,802,1,1],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a14016d11635cf0feaabecd0d8913bbde":[6,3,0,0,0,802,1,6],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a1b7f8e5fae4078aa9f9a7d94a4c9067c":[6,3,0,0,0,802,1,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "classMR_1_1SymMatrix4b.html":[6,3,0,0,0,820],
 "classMR_1_1SymMatrix4b.html#a092fccc6c2cc1061675d6a0ec8158e68":[6,3,0,0,0,820,16],
 "classMR_1_1SymMatrix4b.html#a1620eb3be76e866ab59130356a162a55":[6,3,0,0,0,820,7],
-"classMR_1_1SymMatrix4b.html#a1b2e260826a03370037deea55cf4acf0":[6,3,0,0,0,820,14],
-"classMR_1_1SymMatrix4b.html#a1ffc8cd79d81ced02fc7e916a04c26e6":[6,3,0,0,0,820,15],
-"classMR_1_1SymMatrix4b.html#a44fba93ca1429fa61e2883416e8fe313":[6,3,0,0,0,820,6]
+"classMR_1_1SymMatrix4b.html#a1b2e260826a03370037deea55cf4acf0":[6,3,0,0,0,820,14]
 };

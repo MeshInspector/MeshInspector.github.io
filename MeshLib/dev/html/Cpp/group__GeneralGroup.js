@@ -11485,6 +11485,8 @@ var group__GeneralGroup =
     [ "MR::EdgePathsAStarBuilder::EdgePathsAStarBuilder", "group__GeneralGroup.html#ga4e018ac01b06bc74b3f4de5e064041a0", null ],
     [ "MR::EdgePathsBuilderT::EdgePathsBuilderT", "group__GeneralGroup.html#ga5d9175cad8bf58c494f9f65aafff8cde", null ],
     [ "MR::EdgePathsBuilderT::EdgePathsBuilderT", "group__GeneralGroup.html#gaa58748ee3e1ceb34e2ff8b8d2ab58d6b", null ],
+    [ "MR::edgePathsToContours3f", "group__SurfacePathGroup.html#ga6af8590fd17b0f605429dfd96564cb83", null ],
+    [ "MR::edgePathToContour3f", "group__SurfacePathGroup.html#gacbfadb233d804c66b6968368fcca05f0", null ],
     [ "MR::MeshTopology::edgePerFace", "group__GeneralGroup.html#gadf1bd2c727b615b99908a7a3d4464bee", null ],
     [ "MR::MeshTopology::edgePerVertex", "group__GeneralGroup.html#ga32f0aeb4415b1d5b7e5176ea6051bdc3", null ],
     [ "MR::PolylineTopology::edgePerVertex", "group__GeneralGroup.html#ga838e6a01b85575bf999c154f00ba9a90", null ],

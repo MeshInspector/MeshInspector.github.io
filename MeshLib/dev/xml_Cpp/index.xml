@@ -13515,6 +13515,8 @@
     <member refid="group__SurfacePathGroup_1ga073f5968db04089e69a7b40abc1aaf1e" kind="function"><name>getPathPlaneIntersections</name></member>
     <member refid="group__SurfacePathGroup_1gacb71fc9052e9e4c153a7016b45e70a83" kind="function"><name>getContourPlaneIntersections</name></member>
     <member refid="group__SurfacePathGroup_1gaba6bba9899b4b1a78c2c711d73b92ecd" kind="function"><name>getPathEdgesInPlane</name></member>
+    <member refid="group__SurfacePathGroup_1gacbfadb233d804c66b6968368fcca05f0" kind="function"><name>edgePathToContour3f</name></member>
+    <member refid="group__SurfacePathGroup_1ga6af8590fd17b0f605429dfd96564cb83" kind="function"><name>edgePathsToContours3f</name></member>
     <member refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kind="function"><name>boolean</name></member>
     <member refid="group__BooleanGroup_1ga39d92839525374ba15a2557ed8f93b8f" kind="function"><name>boolean</name></member>
     <member refid="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" kind="function"><name>boolean</name></member>
@@ -19065,6 +19067,8 @@
     <member refid="group__SurfacePathGroup_1ga073f5968db04089e69a7b40abc1aaf1e" kind="function"><name>getPathPlaneIntersections</name></member>
     <member refid="group__SurfacePathGroup_1gacb71fc9052e9e4c153a7016b45e70a83" kind="function"><name>getContourPlaneIntersections</name></member>
     <member refid="group__SurfacePathGroup_1gaba6bba9899b4b1a78c2c711d73b92ecd" kind="function"><name>getPathEdgesInPlane</name></member>
+    <member refid="group__SurfacePathGroup_1gacbfadb233d804c66b6968368fcca05f0" kind="function"><name>edgePathToContour3f</name></member>
+    <member refid="group__SurfacePathGroup_1ga6af8590fd17b0f605429dfd96564cb83" kind="function"><name>edgePathsToContours3f</name></member>
   </compound>
   <compound refid="group__SurfaceDistanceGroup" kind="group"><name>SurfaceDistanceGroup</name>
     <member refid="group__SurfaceDistanceGroup_1gaf58156e69b850162dc3d0a6ea29fae72" kind="function"><name>computeSurfaceDistances</name></member>
@@ -19435,6 +19439,8 @@
     <member refid="group__SurfacePathGroup_1ga073f5968db04089e69a7b40abc1aaf1e" kind="function"><name>getPathPlaneIntersections</name></member>
     <member refid="group__SurfacePathGroup_1gacb71fc9052e9e4c153a7016b45e70a83" kind="function"><name>getContourPlaneIntersections</name></member>
     <member refid="group__SurfacePathGroup_1gaba6bba9899b4b1a78c2c711d73b92ecd" kind="function"><name>getPathEdgesInPlane</name></member>
+    <member refid="group__SurfacePathGroup_1gacbfadb233d804c66b6968368fcca05f0" kind="function"><name>edgePathToContour3f</name></member>
+    <member refid="group__SurfacePathGroup_1ga6af8590fd17b0f605429dfd96564cb83" kind="function"><name>edgePathsToContours3f</name></member>
     <member refid="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" kind="function"><name>makeObjectFromMeshFile</name></member>
     <member refid="group__DataModelGroup_1gac9dd077808aa46ace7e81ce139b9059a" kind="function"><name>makeObjectLinesFromFile</name></member>
     <member refid="group__DataModelGroup_1gae9ee60bba4a2913ac489fd27115fdd5b" kind="function"><name>makeObjectPointsFromFile</name></member>

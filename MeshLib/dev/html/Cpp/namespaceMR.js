@@ -2130,6 +2130,8 @@ var namespaceMR =
     [ "edgeLengthSq", "group__GeneralGroup.html#ga8375bb81ce2308e9b03e2e0d5792dcd9", null ],
     [ "edgeMapsComposition", "group__BasicGroup.html#ga81e9669d61837dd60dd6c7c5f1e1ff75", null ],
     [ "edgeMapsComposition", "group__BasicGroup.html#ga6960104faf9ba5240b17b414e029bbe8", null ],
+    [ "edgePathsToContours3f", "group__SurfacePathGroup.html#ga6af8590fd17b0f605429dfd96564cb83", null ],
+    [ "edgePathToContour3f", "group__SurfacePathGroup.html#gacbfadb233d804c66b6968368fcca05f0", null ],
     [ "edgePoint", "group__GeneralGroup.html#ga537cde697d7f35e3370cd46156a03646", null ],
     [ "edgePoint", "group__GeneralGroup.html#ga7d641e99aa4679047a71ff850e614f60", null ],
     [ "edgePointsFromContours", "group__DistanceMapGroup.html#ga9ee4d06d74d77a647a2858fba8cebdb3", null ],

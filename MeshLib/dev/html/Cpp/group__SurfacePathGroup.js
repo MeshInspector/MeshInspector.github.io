@@ -45,6 +45,8 @@ var group__SurfacePathGroup =
     [ "MR::edgeDihedralAngleMetric", "group__SurfacePathGroup.html#ga5d38c69469719f54826d15925625b6c8", null ],
     [ "MR::edgeLengthMetric", "group__SurfacePathGroup.html#gaf83c9126c3fe5eb80121ed4fb5bbdcbf", null ],
     [ "MR::edgeLengthMetric", "group__SurfacePathGroup.html#ga1359bd15f1fd1d1702be9174dbd1f91e", null ],
+    [ "MR::edgePathsToContours3f", "group__SurfacePathGroup.html#ga6af8590fd17b0f605429dfd96564cb83", null ],
+    [ "MR::edgePathToContour3f", "group__SurfacePathGroup.html#gacbfadb233d804c66b6968368fcca05f0", null ],
     [ "MR::edgeTableSymMetric", "group__SurfacePathGroup.html#ga4e42be093ad0a3c2093cbfe41a7fc8e4", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#ga4d9b525e2a13c59a961a8c19c0241cf5", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#gab8e36e0d087fbd88e882ffcf90a7d5c5", null ],

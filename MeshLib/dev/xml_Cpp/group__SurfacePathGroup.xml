@@ -1815,6 +1815,51 @@
         </inbodydescription>
         <location file="MRMesh/MREdgePaths.h" line="154" column="6" declfile="MRMesh/MREdgePaths.h" declline="154" declcolumn="6"/>
       </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gacbfadb233d804c66b6968368fcca05f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Contour3f</type>
+        <definition>Contour3f MR::edgePathToContour3f</definition>
+        <argsstring>(const Mesh &amp;mesh, const EdgePath &amp;line)</argsstring>
+        <name>edgePathToContour3f</name>
+        <qualifiedname>MR::edgePathToContour3f</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const EdgePath &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+<para>converts lines on mesh in 3D contours by computing coordinate of each point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgePaths.h" line="158" column="13" declfile="MRMesh/MREdgePaths.h" declline="158" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga6af8590fd17b0f605429dfd96564cb83" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Contours3f</type>
+        <definition>Contours3f MR::edgePathsToContours3f</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; EdgePath &gt; &amp;lines)</argsstring>
+        <name>edgePathsToContours3f</name>
+        <qualifiedname>MR::edgePathsToContours3f</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgePaths.h" line="159" column="14" declfile="MRMesh/MREdgePaths.h" declline="159" declcolumn="14"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
