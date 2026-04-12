@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1IPointPairs.html#af8bf3c1f87d9be39210356c794329ad3":[6,3,0,0,0,429,0],
+"classMR_1_1IPointsProjector.html":[6,3,0,0,0,430],
 "classMR_1_1IPointsProjector.html#ab4cea324b92dc9e302d471437c3630f6":[6,3,0,0,0,430,0],
 "classMR_1_1IPointsToMeshProjector.html":[6,3,0,0,0,431],
 "classMR_1_1IPointsToMeshProjector.html#a082e1c63993f0db3e6f7b0545b3b386e":[6,3,0,0,0,431,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#afae5e7db1ed4840c13736c23e0425de2":[6,3,0,0,0,446,0],
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#afc743d87baeb9d9ed503fa69d8ee55b7":[6,3,0,0,0,446,5],
 "classMR_1_1Laplacian.html":[6,3,0,0,0,447],
-"classMR_1_1Laplacian.html#a11962dd32eeeb55c9aa2dbb3ea05db65":[6,3,0,0,0,447,0],
-"classMR_1_1Laplacian.html#a465de937f70863f60a48bdc752533568":[6,3,0,0,0,447,9],
-"classMR_1_1Laplacian.html#a479045a960528acf02d857b5d88a13e5":[6,3,0,0,0,447,7]
+"classMR_1_1Laplacian.html#a11962dd32eeeb55c9aa2dbb3ea05db65":[6,3,0,0,0,447,0]
 };

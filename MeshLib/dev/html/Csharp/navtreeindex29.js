@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1Cuda_1_1PointsProjector.html#a166217b21a96549dfd354e35616680f0":[6,3,0,0,0,286,2,4],
+"classMR_1_1Cuda_1_1PointsProjector.html#a2c38207bc994ab88ce6947c75fa2d286":[6,3,0,0,0,286,2,1],
 "classMR_1_1Cuda_1_1PointsProjector.html#a526fefc1ce55ab3078decd7fb0bfcada":[6,3,0,0,0,286,2,5],
 "classMR_1_1Cuda_1_1PointsProjector.html#aa9f52d5cbc95260813ee5d1523609a71":[6,3,0,0,0,286,2,3],
 "classMR_1_1Cuda_1_1PointsProjector.html#ab7500e9afbdc90e21f0dffc4d0d3aef1":[6,3,0,0,0,286,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1DeloneSettings.html":[6,3,0,0,0,300],
 "classMR_1_1DeloneSettings.html#a0513d524a457fa113f2c55b8b858f7df":[6,3,0,0,0,300,1],
 "classMR_1_1DeloneSettings.html#a08b2035a40c6d51db419b28ea11756b2":[6,3,0,0,0,300,9],
-"classMR_1_1DeloneSettings.html#a1bf7856a12c25cc5216742445d65ccc6":[6,3,0,0,0,300,3],
-"classMR_1_1DeloneSettings.html#a4f0b04d0586bb31b8526ff1d07293e16":[6,3,0,0,0,300,10],
-"classMR_1_1DeloneSettings.html#a611fe9f326c99b1bf4f6c2fce16a5a98":[6,3,0,0,0,300,8]
+"classMR_1_1DeloneSettings.html#a1bf7856a12c25cc5216742445d65ccc6":[6,3,0,0,0,300,3]
 };

@@ -3,6 +3,8 @@ var MRRegionBoundary_8h =
     [ "MR::delRegionKeepBd", "group__GeneralGroup.html#ga9a3ca5fbd5ec0dba1668bc17602b04e1", null ],
     [ "MR::delRegionKeepBd", "group__GeneralGroup.html#ga12fdc014447563e6a694a7f9bae39a7e", null ],
     [ "MR::extractAllLoops", "group__GeneralGroup.html#ga450d72fb8dad81d37aeffe117b711181", null ],
+    [ "MR::extractAllPaths", "group__GeneralGroup.html#gaa8a5f1ea687b1c566475d7937b572e59", null ],
+    [ "MR::extractOppositePath", "group__GeneralGroup.html#gaa56b00c588c98e6db3c24cc2ae303cc5", null ],
     [ "MR::extractPath", "group__GeneralGroup.html#gab7a687178b1a5c17baab0681ea164891", null ],
     [ "MR::findAllLeftBdEdges", "group__GeneralGroup.html#gadd28d98a7af68d535a291b9a77b84a1d", null ],
     [ "MR::findLeftBoundary", "group__GeneralGroup.html#ga8904bf9f155b4c701884399ce5d8743d", null ],

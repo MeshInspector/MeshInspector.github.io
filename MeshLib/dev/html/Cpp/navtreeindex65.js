@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[6,0,1,0,1,43,5,2],
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[6,0,2,0,2,29,5,2],
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[6,0,1,0,1,43,5,0],
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[6,0,2,0,2,29,5,0],
 "structMR_1_1SpacingSettings.html":[6,0,0,20,436],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#ad64f2e2f9194fde2222f1ecc5cb37a47":[6,0,2,0,2,31,0,0,0,2],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html":[6,0,1,0,1,46,2,0,1],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html":[6,0,2,0,2,31,0,0,1],
-"structMR_1_1UiRenderManager.html":[6,0,0,20,286],
-"structMR_1_1UiRenderParams.html":[6,0,0,20,285],
-"structMR_1_1UndirectedEdgeUndirectedEdge.html":[6,0,0,1,13]
+"structMR_1_1UiRenderManager.html":[6,0,0,20,286]
 };

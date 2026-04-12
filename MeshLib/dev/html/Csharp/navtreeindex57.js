@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1SimpleVolume.html#a6d6d0ccff508adc68a2284af438e6e74":[6,3,0,0,0,783,8],
+"classMR_1_1SimpleVolume.html#a78adfff75f4a273143dac90b0f0f4cf1":[6,3,0,0,0,783,6],
 "classMR_1_1SimpleVolume.html#a87d017616f9f4750765b94f17808d596":[6,3,0,0,0,783,5],
 "classMR_1_1SimpleVolume.html#a9debf4241e9385903aaca2fd1c6d3935":[6,3,0,0,0,783,4],
 "classMR_1_1SimpleVolume.html#aa2c6c69e71b24d06211365f85d68a997":[6,3,0,0,0,783,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a6b3159d41df396dc66e419f0e3be0b12":[6,3,0,0,0,802,0,6],
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a89ec56aa9a31d5b061a7915e7efb1199":[6,3,0,0,0,802,0,8],
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a97d04a117d6d49dd1c7fc9cc3e59ddcd":[6,3,0,0,0,802,0,2],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#aa21e1f81cef7cc9f7507cd20fd69a00e":[6,3,0,0,0,802,0,11],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ace112ee2636b4c56f8018ec4b1f807d9":[6,3,0,0,0,802,0,4],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ae287341475fb4c6cf9f8ba294a5624d6":[6,3,0,0,0,802,0,0]
+"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#aa21e1f81cef7cc9f7507cd20fd69a00e":[6,3,0,0,0,802,0,11]
 };

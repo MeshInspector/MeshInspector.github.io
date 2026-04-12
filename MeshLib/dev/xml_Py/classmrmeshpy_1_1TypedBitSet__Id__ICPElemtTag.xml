@@ -1240,7 +1240,7 @@
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::TypedBitSet&lt;MR::Id&lt;MR::ICPElemtTag&gt;&gt;
-Aliases:  ICPElementBitSet, TaggedBitSet_ICPElemtTag
+Aliases:  TaggedBitSet_ICPElemtTag, ICPElementBitSet
 
 Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
 with all bits after size() considered off during testing

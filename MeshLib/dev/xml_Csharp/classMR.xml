@@ -33747,7 +33747,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>turn</declname>
         </param>
         <briefdescription>
-<para>track the path of edges with set bits in (edges) starting from (e0); </para>
+<para>tracks the path of edges with set bits in (edges) starting from (e0); </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>the last edge of the path or invalid edge if e0's bit in (edge) was reset; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on</para>
@@ -33766,6 +33766,53 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="41" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a74496b6e65c0cda55e29ebf38bc4edb6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>static unsafe MR.EdgeId MR.extractOppositePath</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.EdgeId e0, MR.EdgeBitSet edges, MR.Std.Vector_MREdgeId? outPath, MR.Turn turn)</argsstring>
+        <name>extractOppositePath</name>
+        <qualifiedname>MR.extractOppositePath</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e0</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></type>
+          <declname>edges</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MREdgeId?</type>
+          <declname>outPath</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13ead" kindref="member">MR.Turn</ref></type>
+          <declname>turn</declname>
+        </param>
+        <briefdescription>
+<para>tracks the path of oppositely oriented edges to the edges with set bits in (edges), starting from (but not including) e0; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the last edge of the path or e0 if backward path is empty; </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>turn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is treated as for forward paths, so the actual selection is reversed; the bits in (edges) for the opposites of tracked path edges are reset Generated from function <computeroutput><ref refid="classMR_1a74496b6e65c0cda55e29ebf38bc4edb6" kindref="member">MR.extractOppositePath</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="56" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="56" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a451406457011cbd3eade54ec90d15acb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMREdgeId</type>
@@ -33786,7 +33833,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <declname>turn</declname>
         </param>
         <briefdescription>
-<para>tracks are returns all closed loops of edges from the given bit set; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on </para>
+<para>tracks and returns all closed loops of edges from the given bit set; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -33802,7 +33849,44 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="56" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="56" bodyend="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="71" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9a7464d7260b844c9c10b7a59bfa87d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdVectorMREdgeId</type>
+        <definition>static unsafe MR.Std.Vector_StdVectorMREdgeId MR.extractAllPaths</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.EdgeBitSet edges, MR.Turn turn)</argsstring>
+        <name>extractAllPaths</name>
+        <qualifiedname>MR.extractAllPaths</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></type>
+          <declname>edges</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a8e14dd18b0dc9305caffdd32f1a13ead" kindref="member">MR.Turn</ref></type>
+          <declname>turn</declname>
+        </param>
+        <briefdescription>
+<para>tracks and returns all closed and not-closed paths of edges from the given bit set; if at some reached vertex there are two or more edges originate with set bits in (edges), the path selects the leftmost or the rightmost option depending on </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>turn;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>on return all bits in (edges) are reset Generated from function <computeroutput><ref refid="classMR_1a9a7464d7260b844c9c10b7a59bfa87d8" kindref="member">MR.extractAllPaths</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="86" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="86" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a52f299aae0b2eb2301fbdd434fe335d5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMREdgeId</type>
@@ -33831,7 +33915,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="70" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="70" bodyend="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="100" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="100" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a826dbfac119851fb6577c238c61da01d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMREdgeId</type>
@@ -33860,7 +33944,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="85" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="85" bodyend="92"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="115" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="115" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad56fdd3f5cef465728cf70ad07362093" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></type>
@@ -33898,7 +33982,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="100" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="100" bodyend="106"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="130" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="130" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4239fd9cc6a065405e0fa4b4b80e7f36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMREdgeId</type>
@@ -33927,7 +34011,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="116" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="116" bodyend="122"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="146" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="146" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2068f51f9c0f6ebdce2dab7be06193db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMREdgeId</type>
@@ -33950,7 +34034,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="129" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="129" bodyend="134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="159" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="159" bodyend="164"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae4e3073b2f41d0d3fb8195ee72801721" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -33973,7 +34057,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="140" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="140" bodyend="145"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="170" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="170" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3e05831f9b45095b91e0481c0955ed4d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -33998,7 +34082,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="151" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="151" bodyend="156"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="181" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="181" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae32d60d3897ff5ec2c780887da0a5b96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -34021,7 +34105,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="162" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="162" bodyend="167"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="192" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="192" bodyend="197"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a725f623e65f65ffff5809b6a6df5f31c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Const_VertBitSet</type>
@@ -34048,7 +34132,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="174" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="174" bodyend="179"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="204" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="204" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9a9648b2eab1964cfec6b76d195477ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -34072,7 +34156,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="185" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="185" bodyend="190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="215" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="215" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac33bd77ed4b213b607c2ece4ce796255" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -34096,7 +34180,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="196" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="196" bodyend="201"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="226" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="226" bodyend="231"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a20968573b76cd2e53ad1cf152e0e1212" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -34119,7 +34203,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="208" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="208" bodyend="213"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="238" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="238" bodyend="243"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ade5be76cf361a0d74b50cf1723b2d8dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -34142,7 +34226,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="219" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="219" bodyend="224"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="249" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="249" bodyend="254"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1b2dfa87aa13491ab43e57691964271f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -34165,7 +34249,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="230" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="230" bodyend="235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="260" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="260" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a196f2a04b1c76f0a0f268e9c5f54c234" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></type>
@@ -34188,7 +34272,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="241" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="241" bodyend="246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="271" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="271" bodyend="276"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9898ba9101f0621f70a49d1cc9f21bdd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -34211,7 +34295,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="252" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="252" bodyend="257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="282" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="282" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a919cedaf0cf513c6024a4ea05de96ea3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -34234,7 +34318,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="263" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="263" bodyend="268"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="293" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="293" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1fc8a5be6b08b07d8b77a47c79c98df0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -34257,7 +34341,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="274" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="274" bodyend="279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="304" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="304" bodyend="309"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a375f6e63b09b9751918d43e44e2b2a99" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -34280,7 +34364,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="285" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="285" bodyend="290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="315" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="315" bodyend="320"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1acff666205920260ed0e18c6101499709" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -34303,7 +34387,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="296" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="296" bodyend="301"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="326" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="326" bodyend="331"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ab5b351ef087b7486dc12e3c0fe295b96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -34326,7 +34410,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="307" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="307" bodyend="312"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="337" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="337" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abbd7362ba827c444226cafd8b0ec079b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -34349,7 +34433,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="318" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="318" bodyend="323"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="348" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="348" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5581889e4c931e99bc132a1b5d127d71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Const_VertBitSet</type>
@@ -34376,7 +34460,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="330" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="330" bodyend="335"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="360" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="360" bodyend="365"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aeb87fe44ab912638655cbe33d64e1470" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -34399,7 +34483,7 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="341" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="341" bodyend="346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="371" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" bodystart="371" bodyend="376"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ace921cf34855dc6970463c6330430f58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -52455,12 +52539,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a0281f07abce8bc79dc9b58cbd8ebf256" prot="public" virt="non-virtual"><scope>MR</scope><name>extendHole</name></member>
       <member refid="classMR_1a7c9528f2678888595642473e0602ca82" prot="public" virt="non-virtual"><scope>MR</scope><name>extendHole</name></member>
       <member refid="classMR_1a451406457011cbd3eade54ec90d15acb" prot="public" virt="non-virtual"><scope>MR</scope><name>extractAllLoops</name></member>
+      <member refid="classMR_1a9a7464d7260b844c9c10b7a59bfa87d8" prot="public" virt="non-virtual"><scope>MR</scope><name>extractAllPaths</name></member>
       <member refid="classMR_1ab7277e70f299c5f0f50e544cafc3ff4c" prot="public" virt="non-virtual"><scope>MR</scope><name>extractClosedLoops</name></member>
       <member refid="classMR_1a5300365ddffa07f8247d8753b47d2dd9" prot="public" virt="non-virtual"><scope>MR</scope><name>extractClosedLoops</name></member>
       <member refid="classMR_1a16173bb2195fb1680ea6f40a0e475fd0" prot="public" virt="non-virtual"><scope>MR</scope><name>extractIsolines</name></member>
       <member refid="classMR_1afec7c6c3443f1bf29044ca6e1a623199" prot="public" virt="non-virtual"><scope>MR</scope><name>extractIsolines</name></member>
       <member refid="classMR_1af3cba735a49dc70464d88702342d83b3" prot="public" virt="non-virtual"><scope>MR</scope><name>extractLongestClosedLoop</name></member>
       <member refid="classMR_1a1d9fdf5da92c823204e0528bba1e98d4" prot="public" virt="non-virtual"><scope>MR</scope><name>extractMeshContours</name></member>
+      <member refid="classMR_1a74496b6e65c0cda55e29ebf38bc4edb6" prot="public" virt="non-virtual"><scope>MR</scope><name>extractOppositePath</name></member>
       <member refid="classMR_1a20bd5b1dda9985eef5f03c31d7000efa" prot="public" virt="non-virtual"><scope>MR</scope><name>extractPath</name></member>
       <member refid="classMR_1ab0efd041327bc7e9c98bc4db1910e6a6" prot="public" virt="non-virtual"><scope>MR</scope><name>extractPlaneSections</name></member>
       <member refid="classMR_1a0e458a2f8fa7f03be3fa1dbfbd5392c2" prot="public" virt="non-virtual"><scope>MR</scope><name>extractSectionsFromPolyline</name></member>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1AngleMeasurementObject.html#abbf62b0bd98a61db5e6cb73133e90f40":[6,3,0,0,0,24,45],
+"classMR_1_1AngleMeasurementObject.html#abe8aafe6a9c1c418196844389bbcb47b":[6,3,0,0,0,24,48],
 "classMR_1_1AngleMeasurementObject.html#abf8ef887b0d1351940df9251aab60d96":[6,3,0,0,0,24,15],
 "classMR_1_1AngleMeasurementObject.html#ac54ca798bc169acacadd8d0b1f840aa4":[6,3,0,0,0,24,49],
 "classMR_1_1AngleMeasurementObject.html#ac972342a6850b62d88781386644e1fab":[6,3,0,0,0,24,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1BitSet.html#a080895da5751a312ecacfd41528d37d4":[6,3,0,0,0,42,24],
 "classMR_1_1BitSet.html#a0c4e2027e4ac77fcc1b56eaf6909f2ff":[6,3,0,0,0,42,9],
 "classMR_1_1BitSet.html#a0db32d794751115b8870bb93a92150e1":[6,3,0,0,0,42,33],
-"classMR_1_1BitSet.html#a0ed1425e8c8f77110aec294e78486276":[6,3,0,0,0,42,21],
-"classMR_1_1BitSet.html#a21211d083a2e6eb1329b5414f84a7f62":[6,3,0,0,0,42,6],
-"classMR_1_1BitSet.html#a2ad37fba8d5afd1f0d3c58022d14bbcd":[6,3,0,0,0,42,3]
+"classMR_1_1BitSet.html#a0ed1425e8c8f77110aec294e78486276":[6,3,0,0,0,42,21]
 };

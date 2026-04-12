@@ -2,6 +2,8 @@ var MRRegionBoundary_8h =
 [
     [ "MR_delRegionKeepBd", "MRRegionBoundary_8h.html#a48f6a76a7ce40849c5a7ee2e3247e11f", null ],
     [ "MR_extractAllLoops", "MRRegionBoundary_8h.html#a7838420826884263b1b49f0fd69a42f8", null ],
+    [ "MR_extractAllPaths", "MRRegionBoundary_8h.html#ae7ac2f5548f80de7a0379102d5090af3", null ],
+    [ "MR_extractOppositePath", "MRRegionBoundary_8h.html#a71cea971340e4e6e6385262965eeb077", null ],
     [ "MR_extractPath", "MRRegionBoundary_8h.html#aa1a4570ee892b384f86f8fb9e7df5621", null ],
     [ "MR_findAllLeftBdEdges", "MRRegionBoundary_8h.html#a416b5acdb380aba0bc6a57a273701e73", null ],
     [ "MR_findLeftBoundary", "MRRegionBoundary_8h.html#ad15a791da40e468f95533774e684e459", null ],

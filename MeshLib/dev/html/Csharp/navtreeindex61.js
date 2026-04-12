@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a0e27e047c18ba46627311a09c5d183c7":[6,3,0,0,0,843,2,0],
+"classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a113f814c1af5754d6a308964d54b2dc8":[6,3,0,0,0,843,2,1],
 "classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a4f80eff245ab3f22226296012f2a83c1":[6,3,0,0,0,843,2,3],
 "classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a68e81ce6baf35ada71a5d069b4fb964a":[6,3,0,0,0,843,2,6],
 "classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a7193966f50a2444576822cc1e2bbb57f":[6,3,0,0,0,843,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "classMR_1_1UndirectedEdgeIterator.html#a168f1a55364f062dd2cd5e122ff6309c":[6,3,0,0,0,867,4],
 "classMR_1_1UndirectedEdgeIterator.html#a9e1f81ee6baf3189b15421033f6930f1":[6,3,0,0,0,867,0],
 "classMR_1_1UndirectedEdgeIterator.html#aa86fb3f350eaadcc6f0f76c17e1873ec":[6,3,0,0,0,867,6],
-"classMR_1_1UndirectedEdgeIterator.html#ad1ac3fd4dcd0948ce2c62ed878e6e15e":[6,3,0,0,0,867,3],
-"classMR_1_1UndirectedEdgeIterator.html#ad5dbb51bf3442bd4bfef2460c4592be1":[6,3,0,0,0,867,2],
-"classMR_1_1UndirectedEdgeMap.html":[6,3,0,0,0,868]
+"classMR_1_1UndirectedEdgeIterator.html#ad1ac3fd4dcd0948ce2c62ed878e6e15e":[6,3,0,0,0,867,3]
 };

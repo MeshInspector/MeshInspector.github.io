@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ChangeLinesColorMapAction.html":[6,3,0,0,0,161],
+"classMR_1_1ChangeLinesColorMapAction.html#a0ab8d35480b7eb69f9cd7c630a4fee39":[6,3,0,0,0,161,2],
 "classMR_1_1ChangeLinesColorMapAction.html#a23aa373dabe7a51b693db16e5c98fd27":[6,3,0,0,0,161,5],
 "classMR_1_1ChangeLinesColorMapAction.html#a4b73c067ecdf4c85e6968c022f3e275d":[6,3,0,0,0,161,4],
 "classMR_1_1ChangeLinesColorMapAction.html#a6cf01ebe9bc06ed61d94193aad88d3a3":[6,3,0,0,0,161,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangeScaleAction.html#a1f8540ec2ba3a44f5ff3d27547c13a16":[6,3,0,0,0,186,2],
 "classMR_1_1ChangeScaleAction.html#a2764e98ddb249e87b5c613fd806460af":[6,3,0,0,0,186,0],
 "classMR_1_1ChangeScaleAction.html#a37cd5443fb3803538d7818697e7106f7":[6,3,0,0,0,186,5],
-"classMR_1_1ChangeScaleAction.html#ab1674053823891c4410791c50ec58af2":[6,3,0,0,0,186,4],
-"classMR_1_1ChangeScaleAction.html#ad62f19e63b761e0a213e6e6f1e7eda3c":[6,3,0,0,0,186,1],
-"classMR_1_1ChangeScaleAction.html#adfaf609a1eb37bd2a4b66985d486bc61":[6,3,0,0,0,186,3]
+"classMR_1_1ChangeScaleAction.html#ab1674053823891c4410791c50ec58af2":[6,3,0,0,0,186,4]
 };
