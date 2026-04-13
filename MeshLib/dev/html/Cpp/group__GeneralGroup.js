@@ -13029,6 +13029,7 @@ var group__GeneralGroup =
     [ "MR::Viewer::isSceneTextureBound", "group__GeneralGroup.html#gaaa475c7f105117c594fd13388464d297", null ],
     [ "MR::Viewer::isSceneTextureEnabled", "group__GeneralGroup.html#gaac7aff085cfd616d6c21273ff18c0293", null ],
     [ "MR::VertPathInfo::isStart", "group__GeneralGroup.html#gaac45d884489c1a6b158869ce2fa4e940", null ],
+    [ "MR::isSubdivision", "group__GeneralGroup.html#ga91b89a35df8dec290ebe5d2b9d1faa6b", null ],
     [ "MR::isSupportedFileInSubfolders", "group__DataModelGroup.html#gad2d1bf6f777a42936fe7f20f86a7afa7", null ],
     [ "MR::Viewer::isSupportedFormat", "group__GeneralGroup.html#ga243d3a269442edb970a8b2f440c26ce2", null ],
     [ "MR::Features::MeasureResult::Angle::isSurfaceNormalFor", "group__GeneralGroup.html#gaca66ca9ce428b369a304aca13a2cd25c", null ],

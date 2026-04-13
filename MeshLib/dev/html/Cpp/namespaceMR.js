@@ -2671,6 +2671,7 @@ var namespaceMR =
     [ "isPointInTriangle", "group__TriangleIntersectionGroup.html#ga746d797c724c3644c060dec600b7a05a", null ],
     [ "isProhibitedChar", "group__BasicGroup.html#gaaf7db2c19eab5cb5d5a7d91d8ae03dc9", null ],
     [ "isRigid", "group__GeneralGroup.html#gabfe7262e1e5d80122b05aa8e68fc0545", null ],
+    [ "isSubdivision", "group__GeneralGroup.html#ga91b89a35df8dec290ebe5d2b9d1faa6b", null ],
     [ "isSupportedFileInSubfolders", "group__DataModelGroup.html#gad2d1bf6f777a42936fe7f20f86a7afa7", null ],
     [ "isTIFFFile", "group__GeneralGroup.html#ga82a781ae507923635d45a1044e8983bb", null ],
     [ "isUnfoldQuadrangleConvex", "group__PlanarPathGroup.html#gaf1dd390e537cb9342ced1b65ad2b29d6", null ],
