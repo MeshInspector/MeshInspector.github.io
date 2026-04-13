@@ -819,6 +819,36 @@
         </inbodydescription>
         <location file="MRMesh/MRParallelFor.h" line="17" column="7" declfile="MRMesh/MRParallelFor.h" declline="17" declcolumn="7"/>
       </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1ga1ad43c8c0718e27ba01d6e807509b470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::parallelFor</definition>
+        <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t)&gt; f, tbb::task_group_context &amp;tgc)</argsstring>
+        <name>parallelFor</name>
+        <qualifiedname>MR::parallelFor</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>FunctionRef&lt; void(size_t)&gt;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>tbb::task_group_context &amp;</type>
+          <declname>tgc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRParallelFor.h" line="19" column="7" declfile="MRMesh/MRParallelFor.h" declline="19" declcolumn="7"/>
+      </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gaad7a9b6adc1871df7a0c6a3b34b22ba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::parallelFor</definition>
@@ -847,7 +877,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRParallelFor.h" line="19" column="7" declfile="MRMesh/MRParallelFor.h" declline="19" declcolumn="7"/>
+        <location file="MRMesh/MRParallelFor.h" line="21" column="7" declfile="MRMesh/MRParallelFor.h" declline="21" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga71dd68bc7a3e31a4779d51ec181066ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -886,7 +916,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRParallelFor.h" line="21" column="7" declfile="MRMesh/MRParallelFor.h" declline="21" declcolumn="7"/>
+        <location file="MRMesh/MRParallelFor.h" line="23" column="7" declfile="MRMesh/MRParallelFor.h" declline="23" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gaf184f372f735726148d7a07cbbbb29af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -932,7 +962,46 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRParallelFor.h" line="28" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="28" bodyend="47"/>
+        <location file="MRMesh/MRParallelFor.h" line="30" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="30" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicGroup_1gad9736253077ba527ea5fce36aa132c04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename I</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::ParallelFor</definition>
+        <argsstring>(I begin, I end, F &amp;&amp;f, tbb::task_group_context &amp;tgc)</argsstring>
+        <name>ParallelFor</name>
+        <qualifiedname>MR::ParallelFor</qualifiedname>
+        <param>
+          <type>I</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>I</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>tbb::task_group_context &amp;</type>
+          <declname>tgc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executes given function f for each span element [begin, end); tbb::task_group_context can be used to interrupt execution prematurely </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRParallelFor.h" line="54" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="54" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga0c614e9741ba95e4cce86eb98d9d64b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -985,7 +1054,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRParallelFor.h" line="54" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="54" bodyend="63"/>
+        <location file="MRMesh/MRParallelFor.h" line="67" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="67" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga97e8749c8a61bfc6c81edcebdcebbdd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1020,7 +1089,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRParallelFor.h" line="69" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="69" bodyend="72"/>
+        <location file="MRMesh/MRParallelFor.h" line="82" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="82" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga465ce65b82d1fa8749312b1b6de8ede6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1058,7 +1127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRParallelFor.h" line="78" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="78" bodyend="81"/>
+        <location file="MRMesh/MRParallelFor.h" line="91" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="91" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1gaa664be0d4a143c7d20d57678d5903669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1096,7 +1165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRParallelFor.h" line="87" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="87" bodyend="90"/>
+        <location file="MRMesh/MRParallelFor.h" line="100" column="13" bodyfile="MRMesh/MRParallelFor.h" bodystart="100" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="group__BasicGroup_1ga9827d849d71487bb58386782fb69e80d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

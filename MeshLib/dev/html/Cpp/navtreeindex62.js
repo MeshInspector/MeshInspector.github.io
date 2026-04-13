@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Line3Mesh.html#a13bcc7a7757286de5b44e0d5157828d2":[6,0,0,1,22,1],
+"structMR_1_1Line3Mesh.html#a2324f26e0f3e5d41d2b5c9ab95f50fca":[6,0,0,1,22,3],
 "structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e":[6,0,0,1,22,4],
 "structMR_1_1Line3Mesh.html#aa5ec1978556ce126db464bc744212937":[6,0,0,1,22,2],
 "structMR_1_1LineInterpolationParams.html":[6,0,0,20,849],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27":[6,0,0,9,5,0,1],
 "structMR_1_1MeshOrPointsXf.html":[6,0,0,20,339],
 "structMR_1_1MeshOrPoints_1_1ProjectionResult.html":[6,0,0,20,338],
-"structMR_1_1MeshPoint.html":[6,0,0,20,343],
-"structMR_1_1MeshPointAndDistance.html":[6,0,0,20,153],
-"structMR_1_1MeshProjectionParameters.html":[6,0,0,20,425]
+"structMR_1_1MeshPoint.html":[6,0,0,20,343]
 };
