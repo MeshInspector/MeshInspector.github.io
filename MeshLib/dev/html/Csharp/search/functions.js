@@ -1384,7 +1384,7 @@ var searchData=
   ['findrepeatedunorientedtriangles_126',['findRepeatedUnorientedTriangles',['../classMR.html#a759987b63137a4b9f970d2446c0fed56',1,'MR']]],
   ['findrepeatedvertsonholebd_127',['findRepeatedVertsOnHoleBd',['../classMR.html#adfd960cc1ba0feee6837db6affd1d596',1,'MR']]],
   ['findrightboundary_128',['findRightBoundary',['../classMR.html#a826dbfac119851fb6577c238c61da01d',1,'MR']]],
-  ['findsegmentboundaries_129',['findSegmentBoundaries',['../classMR.html#ae8e6ebd6e800531759eb8242b074309b',1,'MR']]],
+  ['findsegmentboundaries_129',['findSegmentBoundaries',['../classMR.html#a650432941efed7583f03292e595e1040',1,'MR']]],
   ['findsegmentsegmentintersectionprecise_130',['findSegmentSegmentIntersectionPrecise',['../classMR.html#a1aa54c9fce82fbdccc295172f24d78e9',1,'MR.findSegmentSegmentIntersectionPrecise(in MR.Vector2i a, in MR.Vector2i b, in MR.Vector2i c, in MR.Vector2i d)'],['../classMR.html#a0c2ba32fe262070485fc5cd5aacc5cbe',1,'MR.findSegmentSegmentIntersectionPrecise(in MR.Vector2f a, in MR.Vector2f b, in MR.Vector2f c, in MR.Vector2f d, MR._ByValue_CoordinateConverters2 converters)']]],
   ['findselfcollidingedgepairs_131',['findSelfCollidingEdgePairs',['../classMR.html#ac6d5bb1b5d876ebfeeee9b3158321c7c',1,'MR']]],
   ['findselfcollidingedges_132',['findSelfCollidingEdges',['../classMR.html#a28cc63ec86a2cdf8b2b668e8d442acba',1,'MR']]],

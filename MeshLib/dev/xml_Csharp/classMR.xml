@@ -35131,10 +35131,10 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmentMesh.cs" line="13" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmentMesh.cs" bodystart="13" bodyend="21"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ae8e6ebd6e800531759eb8242b074309b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a650432941efed7583f03292e595e1040" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
         <definition>static unsafe MR.UndirectedEdgeBitSet MR.findSegmentBoundaries</definition>
-        <argsstring>(MR.Const_MeshTopology topology, MR.Std.Const_Vector_MRFaceFace groupOrder, int numSegments)</argsstring>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Std.Const_Vector_MRFaceFace groupOrder, int numSegments, MR.FaceColors? outFaceColors=null)</argsstring>
         <name>findSegmentBoundaries</name>
         <qualifiedname>MR.findSegmentBoundaries</qualifiedname>
         <param>
@@ -35149,8 +35149,13 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
           <type>int</type>
           <declname>numSegments</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref>?</type>
+          <declname>outFaceColors</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>executes grouping of segments till desired number of segments is reached, then returns the boundary edges in between the segments Generated from function <computeroutput><ref refid="classMR_1ae8e6ebd6e800531759eb8242b074309b" kindref="member">MR.findSegmentBoundaries</ref></computeroutput>. </para>
+<para>executes grouping of segments till desired number of segments is reached, then returns the boundary edges in between the segments Generated from function <computeroutput><ref refid="classMR_1a650432941efed7583f03292e595e1040" kindref="member">MR.findSegmentBoundaries</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -52731,7 +52736,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a759987b63137a4b9f970d2446c0fed56" prot="public" virt="non-virtual"><scope>MR</scope><name>findRepeatedUnorientedTriangles</name></member>
       <member refid="classMR_1adfd960cc1ba0feee6837db6affd1d596" prot="public" virt="non-virtual"><scope>MR</scope><name>findRepeatedVertsOnHoleBd</name></member>
       <member refid="classMR_1a826dbfac119851fb6577c238c61da01d" prot="public" virt="non-virtual"><scope>MR</scope><name>findRightBoundary</name></member>
-      <member refid="classMR_1ae8e6ebd6e800531759eb8242b074309b" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentBoundaries</name></member>
+      <member refid="classMR_1a650432941efed7583f03292e595e1040" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentBoundaries</name></member>
       <member refid="classMR_1a1aa54c9fce82fbdccc295172f24d78e9" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentSegmentIntersectionPrecise</name></member>
       <member refid="classMR_1a0c2ba32fe262070485fc5cd5aacc5cbe" prot="public" virt="non-virtual"><scope>MR</scope><name>findSegmentSegmentIntersectionPrecise</name></member>
       <member refid="classMR_1ac6d5bb1b5d876ebfeeee9b3158321c7c" prot="public" virt="non-virtual"><scope>MR</scope><name>findSelfCollidingEdgePairs</name></member>

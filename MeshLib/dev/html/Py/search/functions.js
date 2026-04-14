@@ -2167,7 +2167,7 @@ var searchData=
   ['findrepeatedunorientedtriangles_142',['findRepeatedUnorientedTriangles',['../namespacemrmeshpy.html#aae36e2d60b99116f21297e41459c6fd2',1,'mrmeshpy']]],
   ['findrepeatedvertsonholebd_143',['findRepeatedVertsOnHoleBd',['../namespacemrmeshpy.html#a7482d186c3fb84d395018ca3a94033f9',1,'mrmeshpy']]],
   ['findrightboundary_144',['findRightBoundary',['../namespacemrmeshpy.html#a1d7e42d6c10b30374645cb16adbdc3e4',1,'mrmeshpy']]],
-  ['findsegmentboundaries_145',['findSegmentBoundaries',['../namespacemrmeshpy.html#adccad3100fb58c9b8cf808c230a7f8a2',1,'mrmeshpy']]],
+  ['findsegmentboundaries_145',['findSegmentBoundaries',['../namespacemrmeshpy.html#a6bfa1debf7b293b26dc3847f8549a17f',1,'mrmeshpy']]],
   ['findsegmentsegmentintersectionprecise_146',['findSegmentSegmentIntersectionPrecise',['../namespacemrmeshpy.html#a96cb060db82d30211bd054ea230d1210',1,'mrmeshpy.findSegmentSegmentIntersectionPrecise(Vector2i a, Vector2i b, Vector2i c, Vector2i d)'],['../namespacemrmeshpy.html#aaa354acee25fe1947c98070ee4546790',1,'mrmeshpy.findSegmentSegmentIntersectionPrecise(Vector2f a, Vector2f b, Vector2f c, Vector2f d, CoordinateConverters2 converters)']]],
   ['findselfcollidingedgepairs_147',['findSelfCollidingEdgePairs',['../namespacemrmeshpy.html#a3ef4ea91638d461d59f38620982006d9',1,'mrmeshpy']]],
   ['findselfcollidingedges_148',['findSelfCollidingEdges',['../namespacemrmeshpy.html#a39636e0b61a36e6b6b993138b7742ce4',1,'mrmeshpy']]],

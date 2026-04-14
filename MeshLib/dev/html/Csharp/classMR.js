@@ -2459,7 +2459,7 @@ var classMR =
     [ "findRepeatedUnorientedTriangles", "classMR.html#a759987b63137a4b9f970d2446c0fed56", null ],
     [ "findRepeatedVertsOnHoleBd", "classMR.html#adfd960cc1ba0feee6837db6affd1d596", null ],
     [ "findRightBoundary", "classMR.html#a826dbfac119851fb6577c238c61da01d", null ],
-    [ "findSegmentBoundaries", "classMR.html#ae8e6ebd6e800531759eb8242b074309b", null ],
+    [ "findSegmentBoundaries", "classMR.html#a650432941efed7583f03292e595e1040", null ],
     [ "findSegmentSegmentIntersectionPrecise", "classMR.html#a0c2ba32fe262070485fc5cd5aacc5cbe", null ],
     [ "findSegmentSegmentIntersectionPrecise", "classMR.html#a1aa54c9fce82fbdccc295172f24d78e9", null ],
     [ "findSelfCollidingEdgePairs", "classMR.html#ac6d5bb1b5d876ebfeeee9b3158321c7c", null ],
