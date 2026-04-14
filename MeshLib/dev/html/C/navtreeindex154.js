@@ -1,5 +1,7 @@
 var NAVTREEINDEX154 =
 {
+"std__shared__ptr__MR__ChangePolylineTopologyAction_8h.html#a91b5be361cf538cc90b57cdde321a154":[6,2,1,0,0,0,0,2,326,2],
+"std__shared__ptr__MR__ChangePolylineTopologyAction_8h.html#ace48b0e92f6cefb86f633693eb9da95b":[6,2,1,0,0,0,0,2,326,0],
 "std__shared__ptr__MR__ChangePolylineTopologyAction_8h.html#ad21d4aaba8fc9dbf47973fa0a155406c":[6,2,1,0,0,0,0,2,326,6],
 "std__shared__ptr__MR__ChangePolylineTopologyAction_8h.html#ae5fd8bdf175793f93f144c7d1d5f1a12":[6,2,1,0,0,0,0,2,326,9],
 "std__shared__ptr__MR__ChangePolylineTopologyAction_8h.html#ae6cab5d799ad12b74535ce03d34a414d":[6,2,1,0,0,0,0,2,326,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX154 =
 "std__shared__ptr__MR__ConeObject_8h.html#ad00d8cda9fb006fb2c71a18f6d6b573e":[6,2,1,0,0,0,0,2,337,3],
 "std__shared__ptr__MR__ConeObject_8h.html#ad404bbc0e48af3c67eae37ef08ae46a5":[6,2,1,0,0,0,0,2,337,1],
 "std__shared__ptr__MR__ConeObject_8h.html#ad4c29f99cd2ad7cf6058abd1760f0e08":[6,2,1,0,0,0,0,2,337,14],
-"std__shared__ptr__MR__ConeObject_8h_source.html":[6,2,1,0,0,0,0,2,337],
-"std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html":[6,2,1,0,0,1,0,0,11],
-"std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#a0e551a24150953a56f5b6b84e53de6ce":[6,2,1,0,0,1,0,0,11,15]
+"std__shared__ptr__MR__ConeObject_8h_source.html":[6,2,1,0,0,0,0,2,337]
 };

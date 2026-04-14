@@ -10310,6 +10310,7 @@
     <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kind="variable"><name>vmass</name></member>
     <member refid="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" kind="variable"><name>laplacianBasedAddRemove</name></member>
     <member refid="group__GeneralGroup_1ga3ef41c990eabe59d5dbc874d00accf52" kind="variable"><name>subdivideGrooves</name></member>
+    <member refid="group__GeneralGroup_1ga4c7f8ee88493130e68016e2b7fc658c6" kind="variable"><name>mimicPatch</name></member>
   </compound>
   <compound refid="structMR_1_1TriangulationHelpers_1_1Settings" kind="struct"><name>MR::TriangulationHelpers::Settings</name>
     <member refid="structMR_1_1TriangulationHelpers_1_1Settings_1aeadcc460fdb58725f5fd22d6457ea9b2" kind="variable"><name>radius</name></member>
@@ -14768,6 +14769,8 @@
     <member refid="group__FillHoleGroup_1gaf752f0a8245805123dc73f5c6a1088b7" kind="function"><name>getUniversalMetric</name></member>
     <member refid="group__FillHoleGroup_1gada97d0f756cdd818f749f7cb31043586" kind="function"><name>getMinTriAngleMetric</name></member>
     <member refid="group__FillHoleGroup_1ga202cf2363d92c6bb9820b0726c95a52f" kind="function"><name>getMinAreaMetric</name></member>
+    <member refid="group__FillHoleGroup_1ga72e5fd74157ece0e3c7cc5869bf952ca" kind="function"><name>getCloseSurfaceFillMetric</name></member>
+    <member refid="group__FillHoleGroup_1gabd1aad2d1ac85e32159ea366bf234d78" kind="function"><name>mixMetrics</name></member>
     <member refid="group__MeshNormalsGroup_1ga825d07f824fb53d09c6b1bef59a494fa" kind="function"><name>computePerFaceNormals</name></member>
     <member refid="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" kind="function"><name>computePerFaceNormals4</name></member>
     <member refid="group__MeshNormalsGroup_1ga7b42ab138289c2be7e30986671f2a773" kind="function"><name>computePerVertNormals</name></member>
@@ -18746,6 +18749,8 @@
     <member refid="group__FillHoleGroup_1gaf752f0a8245805123dc73f5c6a1088b7" kind="function"><name>getUniversalMetric</name></member>
     <member refid="group__FillHoleGroup_1gada97d0f756cdd818f749f7cb31043586" kind="function"><name>getMinTriAngleMetric</name></member>
     <member refid="group__FillHoleGroup_1ga202cf2363d92c6bb9820b0726c95a52f" kind="function"><name>getMinAreaMetric</name></member>
+    <member refid="group__FillHoleGroup_1ga72e5fd74157ece0e3c7cc5869bf952ca" kind="function"><name>getCloseSurfaceFillMetric</name></member>
+    <member refid="group__FillHoleGroup_1gabd1aad2d1ac85e32159ea366bf234d78" kind="function"><name>mixMetrics</name></member>
   </compound>
   <compound refid="group__MeshFixerGroup" kind="group"><name>MeshFixerGroup</name>
     <member refid="group__MeshFixerGroup_1gac8fc9cf58c37989c9d8ff982e8e378dc" kind="typedef"><name>MultipleEdge</name></member>
@@ -23496,6 +23501,7 @@
     <member refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kind="variable"><name>vmass</name></member>
     <member refid="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" kind="variable"><name>laplacianBasedAddRemove</name></member>
     <member refid="group__GeneralGroup_1ga3ef41c990eabe59d5dbc874d00accf52" kind="variable"><name>subdivideGrooves</name></member>
+    <member refid="group__GeneralGroup_1ga4c7f8ee88493130e68016e2b7fc658c6" kind="variable"><name>mimicPatch</name></member>
     <member refid="group__GeneralGroup_1ga1470ce9a66bc6a7554b36d69c81102e1" kind="variable"><name>settings_</name></member>
     <member refid="group__GeneralGroup_1ga83f58ee4ef74ddd5127a9de59ad0658e" kind="variable"><name>obj_</name></member>
     <member refid="group__GeneralGroup_1gaa0fd16498ab8c5a8415556c1e670724b" kind="variable"><name>unchangeableVerts_</name></member>

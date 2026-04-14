@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,6],
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,7],
+"structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[6,0,0,0,2,0,26],
 "structMR_1_1BoxedLeaf.html":[6,0,0,1,2],
 "structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[6,0,0,1,2,0],
 "structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[6,0,0,1,2,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1FileParameters.html":[6,0,0,20,553],
 "structMR_1_1FillHoleItem.html":[6,0,0,9,3,2],
 "structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[6,0,0,9,3,2,1],
-"structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[6,0,0,9,3,2,0],
-"structMR_1_1FillHoleMetric.html":[6,0,0,9,3,5],
-"structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[6,0,0,9,3,5,1],
-"structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[6,0,0,9,3,5,0]
+"structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[6,0,0,9,3,2,0]
 };

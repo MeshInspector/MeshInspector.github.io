@@ -23295,13 +23295,13 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>This metric minimizes the sum of circumcircle radii for all triangles in the triangulation. It is rather fast to calculate, and it results in typically good triangulations. Generated from function <computeroutput><ref refid="classMR_1a8fbee874f996a1a36ee398f58a90bb42" kindref="member">MR.getCircumscribedMetric</ref></computeroutput>. </para>
+<para>This metric minimizes the sum of circumcircle radii for all triangles in the triangulation. It is rather fast to calculate, and it results in typically good triangulations. It is measured in length units. Generated from function <computeroutput><ref refid="classMR_1a8fbee874f996a1a36ee398f58a90bb42" kindref="member">MR.getCircumscribedMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="336" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="336" bodyend="341"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="337" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="337" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af74ffc70a5f961941d7c8abcc87cc003" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23318,13 +23318,13 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Same as getCircumscribedFillMetric, but with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e). Generated from function <computeroutput><ref refid="classMR_1af74ffc70a5f961941d7c8abcc87cc003" kindref="member">MR.getPlaneFillMetric</ref></computeroutput>. </para>
+<para>Same as getCircumscribedFillMetric, but with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e). It is measured in length units. Generated from function <computeroutput><ref refid="classMR_1af74ffc70a5f961941d7c8abcc87cc003" kindref="member">MR.getPlaneFillMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="348" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="348" bodyend="353"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="350" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="350" bodyend="355"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa700c2a0ab5340fa456d054a40f02809" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23341,13 +23341,13 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
           <declname>e</declname>
         </param>
         <briefdescription>
-<para>Similar to getPlaneFillMetric with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e), but the metric minimizes the sum of circumcircle radius times aspect ratio for all triangles in the triangulation. Generated from function <computeroutput><ref refid="classMR_1aa700c2a0ab5340fa456d054a40f02809" kindref="member">MR.getPlaneNormalizedFillMetric</ref></computeroutput>. </para>
+<para>Similar to getPlaneFillMetric with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e), but the metric minimizes the sum of circumcircle radius times aspect ratio for all triangles in the triangulation. It is measured in length units. Generated from function <computeroutput><ref refid="classMR_1aa700c2a0ab5340fa456d054a40f02809" kindref="member">MR.getPlaneNormalizedFillMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="361" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="361" bodyend="366"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="364" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="364" bodyend="369"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a220fd4f2abab2b937a04306cddfacac5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23363,13 +23363,13 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <para>This metric minimizes the sum of triangleMetric for all triangles in the triangulation plus the sum edgeMetric for all edges inside and on the boundary of the triangulation.<linebreak/>
 Where<linebreak/>
 triangleMetric is proportional to triangle aspect ratio<linebreak/>
-edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <computeroutput><ref refid="classMR_1a220fd4f2abab2b937a04306cddfacac5" kindref="member">MR.getComplexStitchMetric</ref></computeroutput>. </para>
+edgeMetric is proportional to ( 1 - dihedralAngleCos ) It is unitless. Generated from function <computeroutput><ref refid="classMR_1a220fd4f2abab2b937a04306cddfacac5" kindref="member">MR.getComplexStitchMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="376" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="376" bodyend="381"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="380" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="380" bodyend="385"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adf8de1271aad691eac3b73dad5c7e86b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23382,13 +23382,13 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>Simple metric minimizing the sum of all edge lengths Generated from function <computeroutput><ref refid="classMR_1adf8de1271aad691eac3b73dad5c7e86b" kindref="member">MR.getEdgeLengthFillMetric</ref></computeroutput>. </para>
+<para>Simple metric minimizing the sum of all edge lengths It is measured in length units. Generated from function <computeroutput><ref refid="classMR_1adf8de1271aad691eac3b73dad5c7e86b" kindref="member">MR.getEdgeLengthFillMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="387" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="387" bodyend="392"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="392" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="392" bodyend="397"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8a84e07ec60470849a66ab8d748b5fac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23402,13 +23402,13 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <
         </param>
         <briefdescription>
 <para>Forbids connecting vertices from the same hole <linebreak/>
-Simple metric minimizing edge length Generated from function <computeroutput><ref refid="classMR_1a8a84e07ec60470849a66ab8d748b5fac" kindref="member">MR.getEdgeLengthStitchMetric</ref></computeroutput>. </para>
+Simple metric minimizing edge length It is measured in length units. Generated from function <computeroutput><ref refid="classMR_1a8a84e07ec60470849a66ab8d748b5fac" kindref="member">MR.getEdgeLengthStitchMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="399" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="399" bodyend="404"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="405" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="405" bodyend="410"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad337fcaa983d4cb4913ab63886f49242" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23427,13 +23427,13 @@ Simple metric minimizing edge length Generated from function <computeroutput><re
         <briefdescription>
 <para>Forbids connecting vertices from the same hole <linebreak/>
 penalize for large area and face normal deviation from upDir <linebreak/>
-All new faces should be parallel to given direction Generated from function <computeroutput><ref refid="classMR_1ad337fcaa983d4cb4913ab63886f49242" kindref="member">MR.getVerticalStitchMetric</ref></computeroutput>. </para>
+All new faces should be parallel to given direction It is measured in power 4 length units (e.g. meters^4). Generated from function <computeroutput><ref refid="classMR_1ad337fcaa983d4cb4913ab63886f49242" kindref="member">MR.getVerticalStitchMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="412" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="412" bodyend="420"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="419" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="419" bodyend="427"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa683ca1ca7dd0862bdf9e3f286e7c4a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23452,13 +23452,13 @@ All new faces should be parallel to given direction Generated from function <com
         <briefdescription>
 <para>Forbids connecting vertices from the same hole <linebreak/>
 penalize for long edges and its deviation from upDir <linebreak/>
-All new faces should be parallel to given direction Generated from function <computeroutput><ref refid="classMR_1aa683ca1ca7dd0862bdf9e3f286e7c4a9" kindref="member">MR.getVerticalStitchMetricEdgeBased</ref></computeroutput>. </para>
+All new faces should be parallel to given direction It is measured in squared length units. Generated from function <computeroutput><ref refid="classMR_1aa683ca1ca7dd0862bdf9e3f286e7c4a9" kindref="member">MR.getVerticalStitchMetricEdgeBased</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="428" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="428" bodyend="436"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="436" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="436" bodyend="444"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af900067d68be41208a35ea3452bf356d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23478,13 +23478,13 @@ All new faces should be parallel to given direction Generated from function <com
 <para>This metric minimizes the sum of triangleMetric for all triangles in the triangulation plus the sum edgeMetric for all edges inside and on the boundary of the triangulation.<linebreak/>
 Where<linebreak/>
 triangleMetric is proportional to weighted triangle area and triangle aspect ratio<linebreak/>
-edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos( x ) ) ) ^ 4. Generated from function <computeroutput><ref refid="classMR_1af900067d68be41208a35ea3452bf356d" kindref="member">MR.getComplexFillMetric</ref></computeroutput>. </para>
+edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos( x ) ) ) ^ 4. It is unitless. Generated from function <computeroutput><ref refid="classMR_1af900067d68be41208a35ea3452bf356d" kindref="member">MR.getComplexFillMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="446" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="446" bodyend="451"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="455" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="455" bodyend="460"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9b4011e9f88aa129c8062ffeaa7f2b2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23506,13 +23506,13 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane) Generated from function <computeroutput><ref refid="classMR_1a9b4011e9f88aa129c8062ffeaa7f2b2c" kindref="member">MR.getParallelPlaneFillMetric</ref></computeroutput>. </para>
+<para>This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane) It is measured in length units. Generated from function <computeroutput><ref refid="classMR_1a9b4011e9f88aa129c8062ffeaa7f2b2c" kindref="member">MR.getParallelPlaneFillMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="457" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="457" bodyend="462"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="467" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="467" bodyend="472"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1de6e106ee6ac51fda400b64db85971c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23525,13 +23525,13 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary Generated from function <computeroutput><ref refid="classMR_1a1de6e106ee6ac51fda400b64db85971c" kindref="member">MR.getMaxDihedralAngleMetric</ref></computeroutput>. </para>
+<para>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary It is measured in angle units. Generated from function <computeroutput><ref refid="classMR_1a1de6e106ee6ac51fda400b64db85971c" kindref="member">MR.getMaxDihedralAngleMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="469" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="469" bodyend="474"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="480" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="480" bodyend="485"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3479dc8ba670cd660f8b297c1c36a9bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23544,13 +23544,13 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. For planar holes it is the same as getCircumscribedMetric. Generated from function <computeroutput><ref refid="classMR_1a3479dc8ba670cd660f8b297c1c36a9bb" kindref="member">MR.getUniversalMetric</ref></computeroutput>. </para>
+<para>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. It is measured in length units. For planar holes it is the same as getCircumscribedMetric. Generated from function <computeroutput><ref refid="classMR_1a3479dc8ba670cd660f8b297c1c36a9bb" kindref="member">MR.getUniversalMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="486" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="486" bodyend="491"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="498" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="498" bodyend="503"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a03d1d7e6fcc023f661495831c0d2a489" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23569,7 +23569,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="497" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="497" bodyend="502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="509" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="509" bodyend="514"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3576233ca1bf6287e2c6e8fddd4f70be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -23582,13 +23582,67 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>This metric is for triangulation construction with minimal summed area of triangles. Warning: this metric can produce degenerated triangles Generated from function <computeroutput><ref refid="classMR_1a3576233ca1bf6287e2c6e8fddd4f70be" kindref="member">MR.getMinAreaMetric</ref></computeroutput>. </para>
+<para>This metric is for triangulation construction with minimal summed area of triangles. It is measured in squared length units. Warning: this metric can produce degenerated triangles Generated from function <computeroutput><ref refid="classMR_1a3576233ca1bf6287e2c6e8fddd4f70be" kindref="member">MR.getMinAreaMetric</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="509" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="509" bodyend="514"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="522" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="522" bodyend="527"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ad1e336aaf321e43eac9f93bd958c9f04" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
+        <definition>static unsafe MR.FillHoleMetric MR.getCloseSurfaceFillMetric</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_Mesh closeSurface)</argsstring>
+        <name>getCloseSurfaceFillMetric</name>
+        <qualifiedname>MR.getCloseSurfaceFillMetric</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>closeSurface</declname>
+        </param>
+        <briefdescription>
+<para>This metric penalizes new triangles for getting far from <computeroutput>closeSurface</computeroutput> by projecting candidate face center on <computeroutput>closeSurfce</computeroutput>. While slower - it can produce better quality results for patching It is measured in squared length units. Generated from function <computeroutput><ref refid="classMR_1ad1e336aaf321e43eac9f93bd958c9f04" kindref="member">MR.getCloseSurfaceFillMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="535" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="535" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a92546622fe193e743b16f52ad843ba00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
+        <definition>static unsafe MR.FillHoleMetric MR.mixMetrics</definition>
+        <argsstring>(MR.Const_FillHoleMetric f, MR.Const_FillHoleMetric g, MR.Std.Const_Function_Double_From_Double_Double? mix=null)</argsstring>
+        <name>mixMetrics</name>
+        <qualifiedname>MR.mixMetrics</qualifiedname>
+        <param>
+          <type>MR.Const_FillHoleMetric</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>MR.Const_FillHoleMetric</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Double_From_Double_Double?</type>
+          <declname>mix</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Compose two metrics together: return metrics are <computeroutput>mix(f.metric,g.metric)</computeroutput>. Default <computeroutput>mix</computeroutput> is sum. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>It is recommended to both metrics to be in same measure e.g. both meters or both meters^2 etc. So scaling input meshes won't lead to different results. Generated from function <computeroutput><ref refid="classMR_1a92546622fe193e743b16f52ad843ba00" kindref="member">MR.mixMetrics</ref></computeroutput>. Parameter <computeroutput>mix</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="550" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="550" bodyend="555"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6deb434cbfe62369cd9e2dd4b17dab09" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceNormals" kindref="compound">MR.FaceNormals</ref></type>
@@ -52769,6 +52823,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1af2fb1efd336eb388af81cc5c89897b3f" prot="public" virt="non-virtual"><scope>MR</scope><name>getClosestEdge</name></member>
       <member refid="classMR_1a112ff827673f67c415bd91f3d37c39ee" prot="public" virt="non-virtual"><scope>MR</scope><name>getClosestVertex</name></member>
       <member refid="classMR_1ae77764dcc0ad1b251804854987dd356d" prot="public" virt="non-virtual"><scope>MR</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1ad1e336aaf321e43eac9f93bd958c9f04" prot="public" virt="non-virtual"><scope>MR</scope><name>getCloseSurfaceFillMetric</name></member>
       <member refid="classMR_1af900067d68be41208a35ea3452bf356d" prot="public" virt="non-virtual"><scope>MR</scope><name>getComplexFillMetric</name></member>
       <member refid="classMR_1a220fd4f2abab2b937a04306cddfacac5" prot="public" virt="non-virtual"><scope>MR</scope><name>getComplexStitchMetric</name></member>
       <member refid="classMR_1aaf42830c63da9b327f8a71c3948b374b" prot="public" virt="non-virtual"><scope>MR</scope><name>getContourPlaneIntersections</name></member>
@@ -53120,6 +53175,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a6d737f1c655f6b7c6f5e9f551fb0d205" prot="public" virt="non-virtual"><scope>MR</scope><name>mixed</name></member>
       <member refid="classMR_1aaa3b10d81945e84626abf10ca035719d" prot="public" virt="non-virtual"><scope>MR</scope><name>mixed</name></member>
       <member refid="classMR_1a37426af028c7495ec2e11f48894876c8" prot="public" virt="non-virtual"><scope>MR</scope><name>mixed</name></member>
+      <member refid="classMR_1a92546622fe193e743b16f52ad843ba00" prot="public" virt="non-virtual"><scope>MR</scope><name>mixMetrics</name></member>
       <member refid="classMR_1a57729cf594ff35f4e6253a8927aecbd1" prot="public" virt="non-virtual"><scope>MR</scope><name>MovementSpeedUnit</name></member>
       <member refid="classMR_1a34da633ecbc9915a55a30116ba2b08c2" prot="public" virt="non-virtual"><scope>MR</scope><name>moveMeshToVoxelMaxDeriv</name></member>
       <member refid="classMR_1ac2767a6c33c9934aaf4ca9630d021f81" prot="public" virt="non-virtual"><scope>MR</scope><name>moveMeshToVoxelMaxDeriv</name></member>

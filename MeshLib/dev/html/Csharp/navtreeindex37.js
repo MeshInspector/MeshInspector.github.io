@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1IPointPairs.html":[6,3,0,0,0,429],
+"classMR_1_1IPointPairs.html#a600879d87e9ed117bcc0038a9a1b7fbf":[6,3,0,0,0,429,1],
 "classMR_1_1IPointPairs.html#af8bf3c1f87d9be39210356c794329ad3":[6,3,0,0,0,429,0],
 "classMR_1_1IPointsProjector.html":[6,3,0,0,0,430],
 "classMR_1_1IPointsProjector.html#ab4cea324b92dc9e302d471437c3630f6":[6,3,0,0,0,430,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#a8c6ef976af753f1c2859a5458d0ab871":[6,3,0,0,0,446,1],
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#ae0b98b1503d23b7056e95f606844bd67":[6,3,0,0,0,446,2],
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#afae5e7db1ed4840c13736c23e0425de2":[6,3,0,0,0,446,0],
-"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#afc743d87baeb9d9ed503fa69d8ee55b7":[6,3,0,0,0,446,5],
-"classMR_1_1Laplacian.html":[6,3,0,0,0,447],
-"classMR_1_1Laplacian.html#a11962dd32eeeb55c9aa2dbb3ea05db65":[6,3,0,0,0,447,0]
+"classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#afc743d87baeb9d9ed503fa69d8ee55b7":[6,3,0,0,0,446,5]
 };
