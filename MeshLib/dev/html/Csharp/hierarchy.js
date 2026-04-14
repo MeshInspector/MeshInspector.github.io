@@ -87,6 +87,9 @@ var hierarchy =
       [ "MR.ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html", [
         [ "MR.Box_GraphVertId", "classMR_1_1Box__GraphVertId.html", null ]
       ] ],
+      [ "MR.ConstBox_LocaleDomainId", "classMR_1_1ConstBox__LocaleDomainId.html", [
+        [ "MR.Box_LocaleDomainId", "classMR_1_1Box__LocaleDomainId.html", null ]
+      ] ],
       [ "MR.ConstBox_Matrix2b", "classMR_1_1ConstBox__Matrix2b.html", [
         [ "MR.Box_Matrix2b", "classMR_1_1Box__Matrix2b.html", null ]
       ] ],
@@ -3068,6 +3071,7 @@ var hierarchy =
       [ "MR.ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html", null ],
       [ "MR.ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html", null ],
       [ "MR.ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html", null ],
+      [ "MR.ConstBox_LocaleDomainId", "classMR_1_1ConstBox__LocaleDomainId.html", null ],
       [ "MR.ConstBox_Matrix2b", "classMR_1_1ConstBox__Matrix2b.html", null ],
       [ "MR.ConstBox_Matrix2d", "classMR_1_1ConstBox__Matrix2d.html", null ],
       [ "MR.ConstBox_Matrix2f", "classMR_1_1ConstBox__Matrix2f.html", null ],
@@ -3248,6 +3252,7 @@ var hierarchy =
       [ "MR.Features.Primitives.Const_Plane", null, null ],
       [ "MR.GraphEdgeId", "structMR_1_1GraphEdgeId.html", null ],
       [ "MR.GraphVertId", "structMR_1_1GraphVertId.html", null ],
+      [ "MR.LocaleDomainId", "structMR_1_1LocaleDomainId.html", null ],
       [ "MR.Matrix2b", "structMR_1_1Matrix2b.html", null ],
       [ "MR.Matrix2d", "structMR_1_1Matrix2d.html", null ],
       [ "MR.Matrix2f", "structMR_1_1Matrix2f.html", null ],
@@ -3334,6 +3339,7 @@ var hierarchy =
       [ "MR.ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html", null ],
       [ "MR.ConstBox_GraphEdgeId", "classMR_1_1ConstBox__GraphEdgeId.html", null ],
       [ "MR.ConstBox_GraphVertId", "classMR_1_1ConstBox__GraphVertId.html", null ],
+      [ "MR.ConstBox_LocaleDomainId", "classMR_1_1ConstBox__LocaleDomainId.html", null ],
       [ "MR.ConstBox_Matrix2b", "classMR_1_1ConstBox__Matrix2b.html", null ],
       [ "MR.ConstBox_Matrix2d", "classMR_1_1ConstBox__Matrix2d.html", null ],
       [ "MR.ConstBox_Matrix2f", "classMR_1_1ConstBox__Matrix2f.html", null ],

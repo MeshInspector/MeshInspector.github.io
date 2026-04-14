@@ -2738,9 +2738,6 @@
     <member refid="group__GeneralGroup_1gac9aa163bbc5ba58ba30ce0dc8ba7a644" kind="variable"><name>otherOutVmap</name></member>
     <member refid="group__GeneralGroup_1ga60aae2de01f58e5dfacacd1fc3e0f59c" kind="variable"><name>otherOutEmap</name></member>
   </compound>
-  <compound refid="structMR_1_1Locale_1_1Domain" kind="struct"><name>MR::Locale::Domain</name>
-    <member refid="structMR_1_1Locale_1_1Domain_1a10576dc0e5d69163a260c5aa11a7e431" kind="variable"><name>id</name></member>
-  </compound>
   <compound refid="structMR_1_1DoubleOffsetSettings" kind="struct"><name>MR::DoubleOffsetSettings</name>
     <member refid="group__GeneralGroup_1ga2ea174fec10de72e248dbb0a5e1073d8" kind="variable"><name>voxelSize</name></member>
     <member refid="group__GeneralGroup_1gab41301545b4f7cbc6d8c531442b1965c" kind="variable"><name>offsetA</name></member>
@@ -5214,7 +5211,7 @@
     <member refid="group__GeneralGroup_1ga7ae92cc9abaa72fdd49fb11994a79ecb" kind="variable"><name>icon</name></member>
     <member refid="group__GeneralGroup_1gae677c83b3387bfadf5f8bdd53f77ab9f" kind="variable"><name>captionSize</name></member>
     <member refid="group__GeneralGroup_1ga4a18cee73e324a82d8e83c0849ee1c16" kind="variable"><name>helpLink</name></member>
-    <member refid="group__GeneralGroup_1gaeb272c4d19fee08c880f250900aa2ad8" kind="variable"><name>localeDomainId</name></member>
+    <member refid="group__GeneralGroup_1ga7fb5cde33fc99b1ed5ef203ab985cffb" kind="variable"><name>localeDomainId</name></member>
     <member refid="group__GeneralGroup_1ga803bb16ee34f64fc4ccd1b50d7e78535" kind="function"><name>getCaption</name></member>
   </compound>
   <compound refid="structMR_1_1MergeVolumePartSettings" kind="struct"><name>MR::MergeVolumePartSettings</name>
@@ -9836,7 +9833,7 @@
     <member refid="group__GeneralGroup_1ga87d68013729492fa0e45dbee9a32317f" kind="function"><name>readItemsJson_</name></member>
     <member refid="group__GeneralGroup_1ga321e1aade11391a5c4db869cf8179fe9" kind="function"><name>readItemsJson_</name></member>
     <member refid="group__GeneralGroup_1ga89c5d25b89eac58d6a7f0e1a09808c9b" kind="function"><name>readUIJson_</name></member>
-    <member refid="group__GeneralGroup_1ga70dd6b20369f09f59674ad7ec870913a" kind="function"><name>readUIJson_</name></member>
+    <member refid="group__GeneralGroup_1ga0bafab31a852ec1285072f7e1f9eff15" kind="function"><name>readUIJson_</name></member>
   </compound>
   <compound refid="classMR_1_1RibbonSchemaLoadListener" kind="class"><name>MR::RibbonSchemaLoadListener</name>
     <member refid="group__GeneralGroup_1ga246ba9e59dd5b36be0e8b8144ff30b86" kind="friend"><name>RibbonSchemaLoader</name></member>
@@ -9847,7 +9844,7 @@
     <member refid="group__GeneralGroup_1ga675a7bce9775caa4a477370d2802bcbe" kind="variable"><name>name</name></member>
     <member refid="group__GeneralGroup_1ga4ad8c190219bcd156fa5b9748ffb679c" kind="variable"><name>priority</name></member>
     <member refid="group__GeneralGroup_1ga49c89a14fe5caa50d3bdb2faf511dcc0" kind="variable"><name>experimental</name></member>
-    <member refid="group__GeneralGroup_1gad2ae76bfa89bde21a56e8bd68d650186" kind="variable"><name>localeDomainId</name></member>
+    <member refid="group__GeneralGroup_1ga95385a994b5e54e71a51670a5e951aba" kind="variable"><name>localeDomainId</name></member>
   </compound>
   <compound refid="structMR_1_1RigidScaleXf3" kind="struct"><name>MR::RigidScaleXf3</name>
     <member refid="group__GeneralGroup_1ga6c4d0f89f0f64deb44bea0f257bbf755" kind="typedef"><name>V</name></member>
@@ -13942,8 +13939,8 @@
     <member refid="group__GeneralGroup_1ga7d62b7c394a1e0ed5d376fcb130fafb9" kind="variable"><name>TextureTag</name></member>
     <member refid="group__GeneralGroup_1gaf83fca934e3cfaee4d5a825d215a698c" kind="variable"><name>GraphVertTag</name></member>
     <member refid="group__GeneralGroup_1gafa8211ed28ab87c4d0055c34f65e8e2f" kind="variable"><name>GraphEdgeTag</name></member>
-    <member refid="group__GeneralGroup_1gaec5bf815279642173b68dbb50e38667a" kind="variable"><name>Id&lt; EdgeTag &gt;</name></member>
-    <member refid="group__GeneralGroup_1ga683a2f4c70271c7479bc4c03b1b4dd42" kind="variable"><name>Id&lt; VoxelTag &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga9727abe1742c2b5ba1ee8e8f7fecd6eb" kind="variable"><name>LocaleDomainTag</name></member>
+    <member refid="group__GeneralGroup_1ga61f568a8f460c3ac4540cf730d158b14" kind="variable"><name>Id&lt; VoxelTag &gt;</name></member>
     <member refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kind="variable"><name>I</name></member>
     <member refid="group__GeneralGroup_1ga0644533afbeab941be3a4178a8feb4fe" kind="variable"><name>BitSet</name></member>
     <member refid="group__GeneralGroup_1ga14a2b0f304716de7247bc521bb0f4b8b" kind="variable"><name>struct</name></member>
@@ -15921,26 +15918,27 @@
     <member refid="group__LinesSaveGroup_1ga898bea8515e1d001f42894ee4fb6c304" kind="function"><name>toAnySupportedFormat</name></member>
   </compound>
   <compound refid="namespaceMR_1_1Locale" kind="namespace"><name>MR::Locale</name>
+    <member refid="namespaceMR_1_1Locale_1acf9ab5a5678259059e0f2cdfcbfc24a3" kind="variable"><name>cDefaultDomainId</name></member>
     <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1ga58d357faefc457685d44349ecf1db539" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1ga08fd05e62fb11a0f42dd91e5095d72e2" kind="function"><name>translate_noop</name></member>
-    <member refid="namespaceMR_1_1Locale_1abd294cc6425b85e4a244919f22911e03" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1a8c75689504190301b3ad36fd254e8227" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1a1fe086c1b792c0c518a870af52154d99" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1a28287d3e2eb5ea131d3467bc31d06c1c" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1a49cf449f2002d0f7d1037b1cda5e2190" kind="function"><name>translateAll</name></member>
-    <member refid="namespaceMR_1_1Locale_1a0449f0b7296bc3ee46c5e3ac70e276b6" kind="function"><name>translateAll</name></member>
+    <member refid="namespaceMR_1_1Locale_1abc1a2b241d95e6d292c2e996f3a93abc" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a836b5186324e726ed77eac3e5d8bef59" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a82172733339865e25e09115a53405c8b" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1af1d4ca7e2ddfd6c99f792037f85e8e9f" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a1a08f46a406ffa1177f0bc7ddc256420" kind="function"><name>translateAll</name></member>
+    <member refid="namespaceMR_1_1Locale_1ae7778d2b90b8fa306b88bb2838b03f4b" kind="function"><name>translateAll</name></member>
     <member refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kind="function"><name>get</name></member>
     <member refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" kind="function"><name>getName</name></member>
     <member refid="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" kind="function"><name>set</name></member>
     <member refid="namespaceMR_1_1Locale_1a9a635779fb2e857a50dd1e60b10b6f52" kind="function"><name>onChanged</name></member>
     <member refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" kind="function"><name>getAvailableLocales</name></member>
     <member refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" kind="function"><name>addCatalogPath</name></member>
-    <member refid="namespaceMR_1_1Locale_1a2874347c63d49c868fb6c5e8e86fd07f" kind="function"><name>addDomain</name></member>
-    <member refid="namespaceMR_1_1Locale_1a49e0c33a146baded505327802433fb50" kind="function"><name>addDomain</name></member>
-    <member refid="namespaceMR_1_1Locale_1a74cb3cfc68c30759be2deee569d04b69" kind="function"><name>findDomain</name></member>
-    <member refid="namespaceMR_1_1Locale_1abd162ed1ab4e598c7719e678ec8dff2f" kind="function"><name>findDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a1cd729fd79614986437db0277cb4abe1" kind="function"><name>addDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1acd9ed6845405949b57a5290a008d1726" kind="function"><name>addDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a88410b6d8ce80e2193cc71cb7bacaffb" kind="function"><name>findDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1aa62b1ef17f1f450e22f59737f0c9beb4" kind="function"><name>findDomain</name></member>
     <member refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kind="function"><name>getDisplayName</name></member>
     <member refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kind="function"><name>setDisplayName</name></member>
     <member refid="namespaceMR_1_1Locale_1af02f569db95efdd23e2994620a42b98c" kind="function"><name>getSystemLocales</name></member>
@@ -21738,8 +21736,8 @@
     <member refid="group__GeneralGroup_1ga7d62b7c394a1e0ed5d376fcb130fafb9" kind="variable"><name>TextureTag</name></member>
     <member refid="group__GeneralGroup_1gaf83fca934e3cfaee4d5a825d215a698c" kind="variable"><name>GraphVertTag</name></member>
     <member refid="group__GeneralGroup_1gafa8211ed28ab87c4d0055c34f65e8e2f" kind="variable"><name>GraphEdgeTag</name></member>
-    <member refid="group__GeneralGroup_1gaec5bf815279642173b68dbb50e38667a" kind="variable"><name>Id&lt; EdgeTag &gt;</name></member>
-    <member refid="group__GeneralGroup_1ga683a2f4c70271c7479bc4c03b1b4dd42" kind="variable"><name>Id&lt; VoxelTag &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga9727abe1742c2b5ba1ee8e8f7fecd6eb" kind="variable"><name>LocaleDomainTag</name></member>
+    <member refid="group__GeneralGroup_1ga61f568a8f460c3ac4540cf730d158b14" kind="variable"><name>Id&lt; VoxelTag &gt;</name></member>
     <member refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kind="variable"><name>I</name></member>
     <member refid="group__GeneralGroup_1ga0644533afbeab941be3a4178a8feb4fe" kind="variable"><name>BitSet</name></member>
     <member refid="group__GeneralGroup_1ga14a2b0f304716de7247bc521bb0f4b8b" kind="variable"><name>struct</name></member>
@@ -23378,11 +23376,11 @@
     <member refid="group__GeneralGroup_1ga7ae92cc9abaa72fdd49fb11994a79ecb" kind="variable"><name>icon</name></member>
     <member refid="group__GeneralGroup_1gae677c83b3387bfadf5f8bdd53f77ab9f" kind="variable"><name>captionSize</name></member>
     <member refid="group__GeneralGroup_1ga4a18cee73e324a82d8e83c0849ee1c16" kind="variable"><name>helpLink</name></member>
-    <member refid="group__GeneralGroup_1gaeb272c4d19fee08c880f250900aa2ad8" kind="variable"><name>localeDomainId</name></member>
+    <member refid="group__GeneralGroup_1ga7fb5cde33fc99b1ed5ef203ab985cffb" kind="variable"><name>localeDomainId</name></member>
     <member refid="group__GeneralGroup_1ga675a7bce9775caa4a477370d2802bcbe" kind="variable"><name>name</name></member>
     <member refid="group__GeneralGroup_1ga4ad8c190219bcd156fa5b9748ffb679c" kind="variable"><name>priority</name></member>
     <member refid="group__GeneralGroup_1ga49c89a14fe5caa50d3bdb2faf511dcc0" kind="variable"><name>experimental</name></member>
-    <member refid="group__GeneralGroup_1gad2ae76bfa89bde21a56e8bd68d650186" kind="variable"><name>localeDomainId</name></member>
+    <member refid="group__GeneralGroup_1ga95385a994b5e54e71a51670a5e951aba" kind="variable"><name>localeDomainId</name></member>
     <member refid="group__GeneralGroup_1ga5773b44f78b9e6a2610bf2260a1891bd" kind="variable"><name>tabsOrder</name></member>
     <member refid="group__GeneralGroup_1ga21a3586ebedfeb4b958b58b82d741fb8" kind="variable"><name>tabsMap</name></member>
     <member refid="group__GeneralGroup_1ga55e0334c55b2b6a85bc323a85f88ea10" kind="variable"><name>groupsMap</name></member>
@@ -29081,7 +29079,7 @@
     <member refid="group__GeneralGroup_1ga87d68013729492fa0e45dbee9a32317f" kind="function"><name>readItemsJson_</name></member>
     <member refid="group__GeneralGroup_1ga321e1aade11391a5c4db869cf8179fe9" kind="function"><name>readItemsJson_</name></member>
     <member refid="group__GeneralGroup_1ga89c5d25b89eac58d6a7f0e1a09808c9b" kind="function"><name>readUIJson_</name></member>
-    <member refid="group__GeneralGroup_1ga70dd6b20369f09f59674ad7ec870913a" kind="function"><name>readUIJson_</name></member>
+    <member refid="group__GeneralGroup_1ga0bafab31a852ec1285072f7e1f9eff15" kind="function"><name>readUIJson_</name></member>
     <member refid="group__GeneralGroup_1ga8b802da7db541f512179ff3c432ac662" kind="function"><name>RibbonMenuItemCall</name></member>
     <member refid="group__GeneralGroup_1gaab9fa332237b77530d49e4712f168e4f" kind="function"><name>~RibbonMenuItemCall</name></member>
     <member refid="group__GeneralGroup_1ga71d690bb4825ea3e74e3ae4cd864bc0f" kind="function"><name>saveObjectToFile</name></member>

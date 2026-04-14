@@ -54,8 +54,10 @@
     <includedby refid="MRUnorientedTriangle_8h" local="yes">MRMesh/MRUnorientedTriangle.h</includedby>
     <includedby refid="MRVolumeIndexer_8h" local="yes">MRMesh/MRVolumeIndexer.h</includedby>
     <includedby refid="MRAlignTextToMesh_8h" local="yes">MRSymbolMesh/MRAlignTextToMesh.h</includedby>
+    <includedby refid="MRI18n_8h" local="yes">MRViewer/MRI18n.h</includedby>
     <includedby refid="MRPickHoleBorderElement_8h" local="yes">MRViewer/MRPickHoleBorderElement.h</includedby>
     <includedby refid="MRRenderLinesObject_8h" local="no">MRViewer/MRRenderLinesObject.h</includedby>
+    <includedby refid="MRRibbonSchema_8h" local="yes">MRViewer/MRRibbonSchema.h</includedby>
     <includedby refid="MRViewportCornerController_8h" local="yes">MRViewer/MRViewportCornerController.h</includedby>
     <includedby refid="MRTetrisNesting_8h" local="yes">MRVoxels/MRTetrisNesting.h</includedby>
     <incdepgraph>
@@ -784,11 +786,15 @@
         </childnode>
         <childnode refid="208" relation="include">
         </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
         <childnode refid="210" relation="include">
         </childnode>
         <childnode refid="188" relation="include">
         </childnode>
-        <childnode refid="254" relation="include">
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
         </childnode>
         <childnode refid="253" relation="include">
         </childnode>
@@ -1619,6 +1625,12 @@
         <childnode refid="190" relation="include">
         </childnode>
       </node>
+      <node id="254">
+        <label>MRViewer/MRI18n.h</label>
+        <link refid="MRI18n_8h"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
       <node id="161">
         <label>MRViewer/MRMarkedVoxelSlice.h</label>
         <link refid="MRMarkedVoxelSlice_8h"/>
@@ -1713,6 +1725,24 @@
         <childnode refid="100" relation="include">
         </childnode>
       </node>
+      <node id="257">
+        <label>MRViewer/MRRibbonMenu.h</label>
+        <link refid="MRRibbonMenu_8h"/>
+      </node>
+      <node id="258">
+        <label>MRViewer/MRRibbonMenuSearch.h</label>
+        <link refid="MRRibbonMenuSearch_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>MRViewer/MRRibbonSchema.h</label>
+        <link refid="MRRibbonSchema_8h"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+      </node>
       <node id="78">
         <label>MRViewer/MRSceneCache.h</label>
         <link refid="MRSceneCache_8h"/>
@@ -1767,6 +1797,10 @@
         <label>MRViewer/MRTouchpadController.h</label>
         <link refid="MRTouchpadController_8h"/>
       </node>
+      <node id="255">
+        <label>MRViewer/MRUISaveChangesPopup.h</label>
+        <link refid="MRUISaveChangesPopup_8h"/>
+      </node>
       <node id="138">
         <label>MRViewer/MRViewerSettingsPlugin.h</label>
         <link refid="MRViewerSettingsPlugin_8h"/>
@@ -1781,7 +1815,7 @@
         <childnode refid="206" relation="include">
         </childnode>
       </node>
-      <node id="254">
+      <node id="259">
         <label>MRViewer/MRViewportCornerController.h</label>
         <link refid="MRViewportCornerController_8h"/>
       </node>

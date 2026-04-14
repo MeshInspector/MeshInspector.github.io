@@ -139,8 +139,8 @@ $(function(){initNavTree('namespaceMR_1_1Locale.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MR::Locale Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -149,10 +149,6 @@ $(function(){initNavTree('namespaceMR_1_1Locale.html','',''); });
 Namespaces</h2></td></tr>
 <tr class="memitem:detail" id="r_detail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Locale_1_1detail.html">detail</a></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:Domain" id="r_Domain"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gac7ce006afd832c88e2d6e538a89162fe" id="r_gac7ce006afd832c88e2d6e538a89162fe"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac7ce006afd832c88e2d6e538a89162fe">translate_noop</a> (const char *str) noexcept</td></tr>
@@ -160,18 +156,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga022f7ba55e1f7b995ca4ec47fe14bbbd" id="r_ga022f7ba55e1f7b995ca4ec47fe14bbbd"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga022f7ba55e1f7b995ca4ec47fe14bbbd">translate_noop</a> (const char *ctx, const char *str) noexcept</td></tr>
 <tr class="memitem:ga58d357faefc457685d44349ecf1db539" id="r_ga58d357faefc457685d44349ecf1db539"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga58d357faefc457685d44349ecf1db539">translate_noop</a> (const char *single, const char *plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n) noexcept</td></tr>
 <tr class="memitem:ga08fd05e62fb11a0f42dd91e5095d72e2" id="r_ga08fd05e62fb11a0f42dd91e5095d72e2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga08fd05e62fb11a0f42dd91e5095d72e2">translate_noop</a> (const char *ctx, const char *single, const char *plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n) noexcept</td></tr>
-<tr class="memitem:abd294cc6425b85e4a244919f22911e03" id="r_abd294cc6425b85e4a244919f22911e03"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd294cc6425b85e4a244919f22911e03">translate</a> (std::string_view msg, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
-<tr class="memdesc:abd294cc6425b85e4a244919f22911e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message using the active locale.  <br /></td></tr>
-<tr class="memitem:a8c75689504190301b3ad36fd254e8227" id="r_a8c75689504190301b3ad36fd254e8227"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c75689504190301b3ad36fd254e8227">translate</a> (std::string_view context, std::string_view msg, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
-<tr class="memdesc:a8c75689504190301b3ad36fd254e8227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message in context using the active locale.  <br /></td></tr>
-<tr class="memitem:a1fe086c1b792c0c518a870af52154d99" id="r_a1fe086c1b792c0c518a870af52154d99"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fe086c1b792c0c518a870af52154d99">translate</a> (std::string_view single, std::string_view plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
-<tr class="memdesc:a1fe086c1b792c0c518a870af52154d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form using the active locale.  <br /></td></tr>
-<tr class="memitem:a28287d3e2eb5ea131d3467bc31d06c1c" id="r_a28287d3e2eb5ea131d3467bc31d06c1c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28287d3e2eb5ea131d3467bc31d06c1c">translate</a> (std::string_view context, std::string_view single, std::string_view plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
-<tr class="memdesc:a28287d3e2eb5ea131d3467bc31d06c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form in context using the active locale.  <br /></td></tr>
-<tr class="memitem:a49cf449f2002d0f7d1037b1cda5e2190" id="r_a49cf449f2002d0f7d1037b1cda5e2190"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49cf449f2002d0f7d1037b1cda5e2190">translateAll</a> (const std::vector&lt; std::string &gt; &amp;items, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
-<tr class="memdesc:a49cf449f2002d0f7d1037b1cda5e2190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates all strings in a vector using the active locale.  <br /></td></tr>
-<tr class="memitem:a0449f0b7296bc3ee46c5e3ac70e276b6" id="r_a0449f0b7296bc3ee46c5e3ac70e276b6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0449f0b7296bc3ee46c5e3ac70e276b6">translateAll</a> (const char *context, const std::vector&lt; std::string &gt; &amp;items, <a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a> domain={})</td></tr>
-<tr class="memdesc:a0449f0b7296bc3ee46c5e3ac70e276b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates all strings in a vector with context using the active locale.  <br /></td></tr>
+<tr class="memitem:abc1a2b241d95e6d292c2e996f3a93abc" id="r_abc1a2b241d95e6d292c2e996f3a93abc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc1a2b241d95e6d292c2e996f3a93abc">translate</a> (std::string_view msg, LocaleDomainId domainId=<a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a>)</td></tr>
+<tr class="memdesc:abc1a2b241d95e6d292c2e996f3a93abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message using the active locale.  <br /></td></tr>
+<tr class="memitem:a836b5186324e726ed77eac3e5d8bef59" id="r_a836b5186324e726ed77eac3e5d8bef59"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a836b5186324e726ed77eac3e5d8bef59">translate</a> (std::string_view context, std::string_view msg, LocaleDomainId domainId=<a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a>)</td></tr>
+<tr class="memdesc:a836b5186324e726ed77eac3e5d8bef59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a message in context using the active locale.  <br /></td></tr>
+<tr class="memitem:a82172733339865e25e09115a53405c8b" id="r_a82172733339865e25e09115a53405c8b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82172733339865e25e09115a53405c8b">translate</a> (std::string_view single, std::string_view plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, LocaleDomainId domainId=<a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a>)</td></tr>
+<tr class="memdesc:a82172733339865e25e09115a53405c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form using the active locale.  <br /></td></tr>
+<tr class="memitem:af1d4ca7e2ddfd6c99f792037f85e8e9f" id="r_af1d4ca7e2ddfd6c99f792037f85e8e9f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1d4ca7e2ddfd6c99f792037f85e8e9f">translate</a> (std::string_view context, std::string_view single, std::string_view plural, <a class="el" href="group__GeneralGroup.html#gab37325fd02c5c38e75d9e18b8218e840">Int64</a> n, LocaleDomainId domainId=<a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a>)</td></tr>
+<tr class="memdesc:af1d4ca7e2ddfd6c99f792037f85e8e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates a plural message form in context using the active locale.  <br /></td></tr>
+<tr class="memitem:a1a08f46a406ffa1177f0bc7ddc256420" id="r_a1a08f46a406ffa1177f0bc7ddc256420"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a08f46a406ffa1177f0bc7ddc256420">translateAll</a> (const std::vector&lt; std::string &gt; &amp;items, LocaleDomainId domainId=<a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a>)</td></tr>
+<tr class="memdesc:a1a08f46a406ffa1177f0bc7ddc256420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates all strings in a vector using the active locale.  <br /></td></tr>
+<tr class="memitem:ae7778d2b90b8fa306b88bb2838b03f4b" id="r_ae7778d2b90b8fa306b88bb2838b03f4b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7778d2b90b8fa306b88bb2838b03f4b">translateAll</a> (const char *context, const std::vector&lt; std::string &gt; &amp;items, LocaleDomainId domainId=<a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a>)</td></tr>
+<tr class="memdesc:ae7778d2b90b8fa306b88bb2838b03f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates all strings in a vector with context using the active locale.  <br /></td></tr>
 <tr class="memitem:ac59a56d895488411e12e18eda9077a20" id="r_ac59a56d895488411e12e18eda9077a20"><td class="memItemLeft" align="right" valign="top">const std::locale &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac59a56d895488411e12e18eda9077a20">get</a> ()</td></tr>
 <tr class="memdesc:ac59a56d895488411e12e18eda9077a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the active locale.  <br /></td></tr>
 <tr class="memitem:a3fde71105ef842bfaaf870498be9222d" id="r_a3fde71105ef842bfaaf870498be9222d"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fde71105ef842bfaaf870498be9222d">getName</a> ()</td></tr>
@@ -184,20 +180,25 @@ Functions</h2></td></tr>
 <tr class="memdesc:a56715982039eac569ef53b82b086b1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of the names of locales with available .mo files. "en" is always included as the default locale. The returned list is always sorted alphabetically.  <br /></td></tr>
 <tr class="memitem:a2b32ebd2b8467813962ef412cc56a1f3" id="r_a2b32ebd2b8467813962ef412cc56a1f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b32ebd2b8467813962ef412cc56a1f3">addCatalogPath</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:a2b32ebd2b8467813962ef412cc56a1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a path to .mo files. The path is expected to have the following directory structure: &lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo The active locale is reloaded on every call.  <br /></td></tr>
-<tr class="memitem:a2874347c63d49c868fb6c5e8e86fd07f" id="r_a2874347c63d49c868fb6c5e8e86fd07f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2874347c63d49c868fb6c5e8e86fd07f">addDomain</a> (const char *domainName)</td></tr>
-<tr class="memdesc:a2874347c63d49c868fb6c5e8e86fd07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new domain. The active locale is reloaded on every call.  <br /></td></tr>
-<tr class="memitem:a49e0c33a146baded505327802433fb50" id="r_a49e0c33a146baded505327802433fb50"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49e0c33a146baded505327802433fb50">addDomain</a> (const std::string &amp;domainName)</td></tr>
-<tr class="memdesc:a49e0c33a146baded505327802433fb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new domain. The active locale is reloaded on every call.  <br /></td></tr>
-<tr class="memitem:a74cb3cfc68c30759be2deee569d04b69" id="r_a74cb3cfc68c30759be2deee569d04b69"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74cb3cfc68c30759be2deee569d04b69">findDomain</a> (const char *domainName)</td></tr>
-<tr class="memdesc:a74cb3cfc68c30759be2deee569d04b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions.  <br /></td></tr>
-<tr class="memitem:abd162ed1ab4e598c7719e678ec8dff2f" id="r_abd162ed1ab4e598c7719e678ec8dff2f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd162ed1ab4e598c7719e678ec8dff2f">findDomain</a> (const std::string &amp;domainName)</td></tr>
-<tr class="memdesc:abd162ed1ab4e598c7719e678ec8dff2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions.  <br /></td></tr>
+<tr class="memitem:a1cd729fd79614986437db0277cb4abe1" id="r_a1cd729fd79614986437db0277cb4abe1"><td class="memItemLeft" align="right" valign="top">LocaleDomainId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cd729fd79614986437db0277cb4abe1">addDomain</a> (const char *domainName)</td></tr>
+<tr class="memdesc:a1cd729fd79614986437db0277cb4abe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new domain. The active locale is reloaded on every call.  <br /></td></tr>
+<tr class="memitem:acd9ed6845405949b57a5290a008d1726" id="r_acd9ed6845405949b57a5290a008d1726"><td class="memItemLeft" align="right" valign="top">LocaleDomainId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd9ed6845405949b57a5290a008d1726">addDomain</a> (const std::string &amp;domainName)</td></tr>
+<tr class="memdesc:acd9ed6845405949b57a5290a008d1726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new domain. The active locale is reloaded on every call.  <br /></td></tr>
+<tr class="memitem:a88410b6d8ce80e2193cc71cb7bacaffb" id="r_a88410b6d8ce80e2193cc71cb7bacaffb"><td class="memItemLeft" align="right" valign="top">LocaleDomainId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88410b6d8ce80e2193cc71cb7bacaffb">findDomain</a> (const char *domainName)</td></tr>
+<tr class="memdesc:a88410b6d8ce80e2193cc71cb7bacaffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions.  <br /></td></tr>
+<tr class="memitem:aa62b1ef17f1f450e22f59737f0c9beb4" id="r_aa62b1ef17f1f450e22f59737f0c9beb4"><td class="memItemLeft" align="right" valign="top">LocaleDomainId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa62b1ef17f1f450e22f59737f0c9beb4">findDomain</a> (const std::string &amp;domainName)</td></tr>
+<tr class="memdesc:aa62b1ef17f1f450e22f59737f0c9beb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions.  <br /></td></tr>
 <tr class="memitem:a8d1947c7d967dbc42a857466e79550e7" id="r_a8d1947c7d967dbc42a857466e79550e7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d1947c7d967dbc42a857466e79550e7">getDisplayName</a> (const std::string &amp;localeName)</td></tr>
 <tr class="memdesc:a8d1947c7d967dbc42a857466e79550e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a display name for the given locale.  <br /></td></tr>
 <tr class="memitem:a1a90862fe2d6cda7d213d3683715e1cc" id="r_a1a90862fe2d6cda7d213d3683715e1cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a90862fe2d6cda7d213d3683715e1cc">setDisplayName</a> (const std::string &amp;localeName, const std::string &amp;displayName)</td></tr>
 <tr class="memdesc:a1a90862fe2d6cda7d213d3683715e1cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds or updates a display name for the given locale.  <br /></td></tr>
 <tr class="memitem:af02f569db95efdd23e2994620a42b98c" id="r_af02f569db95efdd23e2994620a42b98c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af02f569db95efdd23e2994620a42b98c">getSystemLocales</a> ()</td></tr>
 <tr class="memdesc:af02f569db95efdd23e2994620a42b98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of system locales. The first one in the list is always the active system locale.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:acf9ab5a5678259059e0f2cdfcbfc24a3" id="r_acf9ab5a5678259059e0f2cdfcbfc24a3"><td class="memItemLeft" align="right" valign="top">constexpr LocaleDomainId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a> { 0 }</td></tr>
+<tr class="memdesc:acf9ab5a5678259059e0f2cdfcbfc24a3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceMR_1_1Locale.html">Locale</a> domain internal identifier for MeshLib's own translations.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a2b32ebd2b8467813962ef412cc56a1f3" name="a2b32ebd2b8467813962ef412cc56a1f3"></a>
@@ -219,14 +220,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2874347c63d49c868fb6c5e8e86fd07f" name="a2874347c63d49c868fb6c5e8e86fd07f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2874347c63d49c868fb6c5e8e86fd07f">&#9670;&#160;</a></span>addDomain() <span class="overload">[1/2]</span></h2>
+<a id="a1cd729fd79614986437db0277cb4abe1" name="a1cd729fd79614986437db0277cb4abe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd729fd79614986437db0277cb4abe1">&#9670;&#160;</a></span>addDomain() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::Locale::addDomain </td>
+          <td class="memname">LocaleDomainId MR::Locale::addDomain </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>domainName</em></span></td><td>)</td>
           <td></td>
@@ -240,14 +241,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a49e0c33a146baded505327802433fb50" name="a49e0c33a146baded505327802433fb50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49e0c33a146baded505327802433fb50">&#9670;&#160;</a></span>addDomain() <span class="overload">[2/2]</span></h2>
+<a id="acd9ed6845405949b57a5290a008d1726" name="acd9ed6845405949b57a5290a008d1726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd9ed6845405949b57a5290a008d1726">&#9670;&#160;</a></span>addDomain() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::Locale::addDomain </td>
+          <td class="memname">LocaleDomainId MR::Locale::addDomain </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>domainName</em></span></td><td>)</td>
           <td></td>
@@ -260,14 +261,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a74cb3cfc68c30759be2deee569d04b69" name="a74cb3cfc68c30759be2deee569d04b69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74cb3cfc68c30759be2deee569d04b69">&#9670;&#160;</a></span>findDomain() <span class="overload">[1/2]</span></h2>
+<a id="a88410b6d8ce80e2193cc71cb7bacaffb" name="a88410b6d8ce80e2193cc71cb7bacaffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88410b6d8ce80e2193cc71cb7bacaffb">&#9670;&#160;</a></span>findDomain() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::Locale::findDomain </td>
+          <td class="memname">LocaleDomainId MR::Locale::findDomain </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>domainName</em></span></td><td>)</td>
           <td></td>
@@ -276,19 +277,19 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions. </p>
-<dl class="section return"><dt>Returns</dt><dd>The domain id if the domain is previously added and 0 (the default domain id) otherwise. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>This overload is meant to be used with string literals for faster lookups. <a class="el" href="#abd294cc6425b85e4a244919f22911e03">translate</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The domain id if the domain is previously added and invalid id otherwise. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This overload is meant to be used with string literals for faster lookups. <a class="el" href="#abc1a2b241d95e6d292c2e996f3a93abc">translate</a> </dd></dl>
 
 </div>
 </div>
-<a id="abd162ed1ab4e598c7719e678ec8dff2f" name="abd162ed1ab4e598c7719e678ec8dff2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd162ed1ab4e598c7719e678ec8dff2f">&#9670;&#160;</a></span>findDomain() <span class="overload">[2/2]</span></h2>
+<a id="aa62b1ef17f1f450e22f59737f0c9beb4" name="aa62b1ef17f1f450e22f59737f0c9beb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa62b1ef17f1f450e22f59737f0c9beb4">&#9670;&#160;</a></span>findDomain() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::Locale::findDomain </td>
+          <td class="memname">LocaleDomainId MR::Locale::findDomain </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>domainName</em></span></td><td>)</td>
           <td></td>
@@ -297,7 +298,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions. </p>
-<dl class="section return"><dt>Returns</dt><dd>The domain id if the domain is previously added and 0 (the default domain id) otherwise. <a class="el" href="#abd294cc6425b85e4a244919f22911e03">translate</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The domain id if the domain is previously added and invalid id otherwise. <a class="el" href="#abc1a2b241d95e6d292c2e996f3a93abc">translate</a> </dd></dl>
 
 </div>
 </div>
@@ -465,8 +466,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c75689504190301b3ad36fd254e8227" name="a8c75689504190301b3ad36fd254e8227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c75689504190301b3ad36fd254e8227">&#9670;&#160;</a></span>translate() <span class="overload">[1/4]</span></h2>
+<a id="a836b5186324e726ed77eac3e5d8bef59" name="a836b5186324e726ed77eac3e5d8bef59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836b5186324e726ed77eac3e5d8bef59">&#9670;&#160;</a></span>translate() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,7 +485,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a></td>          <td class="paramname"><span class="paramname"><em>domain</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">LocaleDomainId</td>          <td class="paramname"><span class="paramname"><em>domainId</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -493,8 +494,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a28287d3e2eb5ea131d3467bc31d06c1c" name="a28287d3e2eb5ea131d3467bc31d06c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28287d3e2eb5ea131d3467bc31d06c1c">&#9670;&#160;</a></span>translate() <span class="overload">[2/4]</span></h2>
+<a id="af1d4ca7e2ddfd6c99f792037f85e8e9f" name="af1d4ca7e2ddfd6c99f792037f85e8e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1d4ca7e2ddfd6c99f792037f85e8e9f">&#9670;&#160;</a></span>translate() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -522,7 +523,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a></td>          <td class="paramname"><span class="paramname"><em>domain</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">LocaleDomainId</td>          <td class="paramname"><span class="paramname"><em>domainId</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -531,8 +532,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abd294cc6425b85e4a244919f22911e03" name="abd294cc6425b85e4a244919f22911e03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd294cc6425b85e4a244919f22911e03">&#9670;&#160;</a></span>translate() <span class="overload">[3/4]</span></h2>
+<a id="abc1a2b241d95e6d292c2e996f3a93abc" name="abc1a2b241d95e6d292c2e996f3a93abc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc1a2b241d95e6d292c2e996f3a93abc">&#9670;&#160;</a></span>translate() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -545,7 +546,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a></td>          <td class="paramname"><span class="paramname"><em>domain</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">LocaleDomainId</td>          <td class="paramname"><span class="paramname"><em>domainId</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -554,8 +555,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1fe086c1b792c0c518a870af52154d99" name="a1fe086c1b792c0c518a870af52154d99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fe086c1b792c0c518a870af52154d99">&#9670;&#160;</a></span>translate() <span class="overload">[4/4]</span></h2>
+<a id="a82172733339865e25e09115a53405c8b" name="a82172733339865e25e09115a53405c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82172733339865e25e09115a53405c8b">&#9670;&#160;</a></span>translate() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,7 +579,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a></td>          <td class="paramname"><span class="paramname"><em>domain</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">LocaleDomainId</td>          <td class="paramname"><span class="paramname"><em>domainId</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -587,8 +588,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0449f0b7296bc3ee46c5e3ac70e276b6" name="a0449f0b7296bc3ee46c5e3ac70e276b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0449f0b7296bc3ee46c5e3ac70e276b6">&#9670;&#160;</a></span>translateAll() <span class="overload">[1/2]</span></h2>
+<a id="ae7778d2b90b8fa306b88bb2838b03f4b" name="ae7778d2b90b8fa306b88bb2838b03f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7778d2b90b8fa306b88bb2838b03f4b">&#9670;&#160;</a></span>translateAll() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -609,7 +610,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a></td>          <td class="paramname"><span class="paramname"><em>domain</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">LocaleDomainId</td>          <td class="paramname"><span class="paramname"><em>domainId</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -623,8 +624,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a49cf449f2002d0f7d1037b1cda5e2190" name="a49cf449f2002d0f7d1037b1cda5e2190"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49cf449f2002d0f7d1037b1cda5e2190">&#9670;&#160;</a></span>translateAll() <span class="overload">[2/2]</span></h2>
+<a id="a1a08f46a406ffa1177f0bc7ddc256420" name="a1a08f46a406ffa1177f0bc7ddc256420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a08f46a406ffa1177f0bc7ddc256420">&#9670;&#160;</a></span>translateAll() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -640,7 +641,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Locale_1_1Domain.html">Domain</a></td>          <td class="paramname"><span class="paramname"><em>domain</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">LocaleDomainId</td>          <td class="paramname"><span class="paramname"><em>domainId</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#acf9ab5a5678259059e0f2cdfcbfc24a3">cDefaultDomainId</a></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -651,6 +652,31 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Translates all strings in a vector using the active locale. </p>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="acf9ab5a5678259059e0f2cdfcbfc24a3" name="acf9ab5a5678259059e0f2cdfcbfc24a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf9ab5a5678259059e0f2cdfcbfc24a3">&#9670;&#160;</a></span>cDefaultDomainId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LocaleDomainId MR::Locale::cDefaultDomainId { 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespaceMR_1_1Locale.html">Locale</a> domain internal identifier for MeshLib's own translations. </p>
 
 </div>
 </div>

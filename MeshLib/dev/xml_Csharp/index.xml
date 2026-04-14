@@ -1712,6 +1712,21 @@
     <member refid="classMR_1_1Box__GraphVertId_1a370119303b12347b8536efb893e29e22" kind="function"><name>addAssign</name></member>
     <member refid="classMR_1_1Box__GraphVertId_1a2a38ae1da4e248d2d456b9b094fb88d7" kind="function"><name>Box_GraphVertId</name></member>
   </compound>
+  <compound refid="classMR_1_1Box__LocaleDomainId" kind="class"><name>MR::Box_LocaleDomainId</name>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a88fd12c78b97962f9983d4e585ed37d4" kind="property"><name>id</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1adb9d37e0aad41a833b549b71371591b6" kind="function"><name>Box_LocaleDomainId</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1aa9162901cdb59ba7512ab5b018567c06" kind="function"><name>Box_LocaleDomainId</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a57f4371f6945be97f55f6158236a1858" kind="function"><name>Assign</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a3fc15c6b500b7a387c2d970f972534da" kind="function"><name>Box_LocaleDomainId</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a77bb37507b3b8039058019eda8c78fba" kind="function"><name>Box_LocaleDomainId</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a3eb9cb8989c1753f5e910ecece8c9c3e" kind="function"><name>Box_LocaleDomainId</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1af5d470fcef8e4352c9e212412b438780" kind="function"><name>get</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a580c6a7735b607a332dde3d360bc3e38" kind="function"><name>decr</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a4b5d39d15e57c108c1eb01cadbda4f2e" kind="function"><name>incr</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a46ea448cd240a6cf7ea1f4cb334bdef4" kind="function"><name>subAssign</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1adf50058b407ead1983db3c48bf89762b" kind="function"><name>addAssign</name></member>
+    <member refid="classMR_1_1Box__LocaleDomainId_1a6fb1f7812e7b1b4288c332a7d673f2aa" kind="function"><name>Box_LocaleDomainId</name></member>
+  </compound>
   <compound refid="classMR_1_1Box__Matrix2b" kind="class"><name>MR::Box_Matrix2b</name>
     <member refid="classMR_1_1Box__Matrix2b_1ae5f920cf0d06f247ef4ddf6b3abc069a" kind="property"><name>x</name></member>
     <member refid="classMR_1_1Box__Matrix2b_1aa863ad67d2297d8497ba594181f6b301" kind="property"><name>y</name></member>
@@ -4367,6 +4382,29 @@
     <member refid="classMR_1_1ConstBox__GraphVertId_1aadcdcdf2a0f9bcee38e651d77d81a362" kind="function"><name>operator--</name></member>
     <member refid="classMR_1_1ConstBox__GraphVertId_1aa7e4944395cd01b147b403d86e104156" kind="function"><name>operator++</name></member>
     <member refid="classMR_1_1ConstBox__GraphVertId_1a680ca807f4109ca6b9fea19b9b3b0f72" kind="function"><name>ConstBox_GraphVertId</name></member>
+  </compound>
+  <compound refid="classMR_1_1ConstBox__LocaleDomainId" kind="class"><name>MR::ConstBox_LocaleDomainId</name>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a7161b3b3bc2bb1425dbdee187f443708" kind="property"><name>id</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a8b1e86a68ab1defaa0334d38e0587b0a" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1aaaf63b8f415622489b8a9a5285ec3982" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a1b407918c0ee25b6240268747f1368e8" kind="function"><name>ConstBox_LocaleDomainId</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1af040615b14073a114ab160fb642791f9" kind="function"><name>ConstBox_LocaleDomainId</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a967e81704204d386db69dc239b364fd7" kind="function"><name>ConstBox_LocaleDomainId</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1ac5ce4a03e776422c88e5ca0650b50729" kind="function"><name>ConstBox_LocaleDomainId</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a1fc2e43c62e912e387c55c8317ee808f" kind="function"><name>ConstBox_LocaleDomainId</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a05873384ef5412b83b1ee9b4b3369241" kind="function"><name>valid</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a21010896c95fa77ca0250c5c345f1c22" kind="function"><name>less</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a128ab30a6d56f2cd7f9d6bf39c48b98e" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a3de1789d9ef5b73fe2176209ebf3cb3a" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a35fec09fc65c081ea1fc7f913dc2ac65" kind="function"><name>~ConstBox_LocaleDomainId</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a851aa9b2c8473e551c169f5fe86b1e14" kind="function"><name>operator ConstBox_LocaleDomainId</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a9259f2829017027f1d95745a89439109" kind="function"><name>operator int</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1af04e90119f47ef4d3ce728f522a2a4bb" kind="function"><name>operator bool</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a0cad1b45ed8045db73819c6ccc2f8ccd" kind="function"><name>operator==</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a4083b2c2aa0d745a0973c6d01f687f98" kind="function"><name>operator!=</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1abed813dae20ce33879b55280424905b1" kind="function"><name>operator--</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1ac68d12123c771bc736e2542659ca5074" kind="function"><name>operator++</name></member>
+    <member refid="classMR_1_1ConstBox__LocaleDomainId_1a1ab9577b62a6cef5688b51381a2d2b1a" kind="function"><name>ConstBox_LocaleDomainId</name></member>
   </compound>
   <compound refid="classMR_1_1ConstBox__Matrix2b" kind="class"><name>MR::ConstBox_Matrix2b</name>
     <member refid="classMR_1_1ConstBox__Matrix2b_1ab3dcc6c2e6793ff6708e6be5195512ac" kind="property"><name>x</name></member>
@@ -9010,6 +9048,29 @@
     <member refid="classMR_1_1Locale_1ae0fbe9f0bf9015df54267a2baf25407e" kind="function"><name>translateNoop</name></member>
     <member refid="classMR_1_1Locale_1acfab57f5bc1bb5b953a2f4d42ddbd7b7" kind="function"><name>translateNoop</name></member>
     <member refid="classMR_1_1Locale_1a718460254723cf216265271cb8b85d90" kind="function"><name>translateNoop</name></member>
+  </compound>
+  <compound refid="structMR_1_1LocaleDomainId" kind="struct"><name>MR::LocaleDomainId</name>
+    <member refid="structMR_1_1LocaleDomainId_1aecb0eac991ac122b9a125197d8a1756e" kind="variable"><name>id</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1ad03ec1d79b2be9d352c2014fbd14cc17" kind="function"><name>operator LocaleDomainId</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1aadcbeb2dc7a9eb8ce757564ab4c63ede" kind="function"><name>operator int</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1af9b5dfb8007976853d8afdf72f63f291" kind="function"><name>operator bool</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a94e9e9331a6e6f13a6f5fdb5b7cfb32f" kind="function"><name>operator==</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1ae86c5bd09bfea1c89b5488844cee26b4" kind="function"><name>operator!=</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a7c1520be38e25c26dad824b6d6df8bf2" kind="function"><name>LocaleDomainId</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1ad4ddc28b8fda3b72821b09f61d3ecd9c" kind="function"><name>LocaleDomainId</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a3983f354bd9fc9c7ab7833c428fb274b" kind="function"><name>LocaleDomainId</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a060be9e876b483f1554c56a420cc631c" kind="function"><name>LocaleDomainId</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1aafef54cda8bcd19daf08f83bd876ee7c" kind="function"><name>valid</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a33f876113411101cced1acff83635d5d" kind="function"><name>get</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1ad0027501c736476314c5e55288a37d82" kind="function"><name>less</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a65ec31fc476972c3d71ee459a11cfbc8" kind="function"><name>decr</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1aaf4bf18551989ed73054ffb7b045abb3" kind="function"><name>decr</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a4cb816705f0f9ee23f21c4e16f84fb61" kind="function"><name>incr</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1ad536f7ea3de69dafa8caf891438765fc" kind="function"><name>incr</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a203f62397cf90a19379073e1a25669e7" kind="function"><name>subAssign</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1ad5473698167b8d4aa1ec760ee01f28f2" kind="function"><name>addAssign</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1a1c6e3062120d4a601cc5baf6bf6bad49" kind="function"><name>Equals</name></member>
+    <member refid="structMR_1_1LocaleDomainId_1ae67495bfc04ed6f163e5d341c3376d2d" kind="function"><name>Equals</name></member>
   </compound>
   <compound refid="classMR_1_1MakeBridgeResult" kind="class"><name>MR::MakeBridgeResult</name>
     <member refid="classMR_1_1MakeBridgeResult_1abc534380bccfe8c92250391a9680fdbf" kind="property"><name>newFaces</name></member>

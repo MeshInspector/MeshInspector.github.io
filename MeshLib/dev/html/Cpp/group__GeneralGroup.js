@@ -6582,7 +6582,7 @@ var group__GeneralGroup =
       [ "helpLink", "group__GeneralGroup.html#ga4a18cee73e324a82d8e83c0849ee1c16", null ],
       [ "icon", "group__GeneralGroup.html#ga7ae92cc9abaa72fdd49fb11994a79ecb", null ],
       [ "item", "group__GeneralGroup.html#ga926a6449190c31f77c5b88b8c236958e", null ],
-      [ "localeDomainId", "group__GeneralGroup.html#gaeb272c4d19fee08c880f250900aa2ad8", null ],
+      [ "localeDomainId", "group__GeneralGroup.html#ga7fb5cde33fc99b1ed5ef203ab985cffb", null ],
       [ "tooltip", "group__GeneralGroup.html#ga9a40f27aa0f9195b23043223e671187f", null ]
     ] ],
     [ "MR::RibbonSchemaLoadListener", "classMR_1_1RibbonSchemaLoadListener.html", [
@@ -6592,7 +6592,7 @@ var group__GeneralGroup =
     ] ],
     [ "MR::RibbonTab", "structMR_1_1RibbonTab.html", [
       [ "experimental", "group__GeneralGroup.html#ga49c89a14fe5caa50d3bdb2faf511dcc0", null ],
-      [ "localeDomainId", "group__GeneralGroup.html#gad2ae76bfa89bde21a56e8bd68d650186", null ],
+      [ "localeDomainId", "group__GeneralGroup.html#ga95385a994b5e54e71a51670a5e951aba", null ],
       [ "name", "group__GeneralGroup.html#ga675a7bce9775caa4a477370d2802bcbe", null ],
       [ "priority", "group__GeneralGroup.html#ga4ad8c190219bcd156fa5b9748ffb679c", null ]
     ] ],
@@ -6631,7 +6631,7 @@ var group__GeneralGroup =
       [ "loadSchema", "group__GeneralGroup.html#gaf359b2109f232bee18709542a5964825", null ],
       [ "readItemsJson_", "group__GeneralGroup.html#ga321e1aade11391a5c4db869cf8179fe9", null ],
       [ "readItemsJson_", "group__GeneralGroup.html#ga87d68013729492fa0e45dbee9a32317f", null ],
-      [ "readUIJson_", "group__GeneralGroup.html#ga70dd6b20369f09f59674ad7ec870913a", null ],
+      [ "readUIJson_", "group__GeneralGroup.html#ga0bafab31a852ec1285072f7e1f9eff15", null ],
       [ "readUIJson_", "group__GeneralGroup.html#ga89c5d25b89eac58d6a7f0e1a09808c9b", null ],
       [ "sortFilesByOrder_", "group__GeneralGroup.html#gac6d1ad0e142487c7cb72a4b34a6935fd", null ]
     ] ],
@@ -14418,7 +14418,7 @@ var group__GeneralGroup =
     [ "MR::readRawTiff", "group__GeneralGroup.html#ga279ac3e2a1324201295c03e901942929", null ],
     [ "MR::readString", "group__GeneralGroup.html#ga23ec19000377b8cabadb8df9f781bc64", null ],
     [ "MR::readTiffParameters", "group__GeneralGroup.html#ga2d9f515a128f5399a3bb2d923eac2a0a", null ],
-    [ "MR::RibbonSchemaLoader::readUIJson_", "group__GeneralGroup.html#ga70dd6b20369f09f59674ad7ec870913a", null ],
+    [ "MR::RibbonSchemaLoader::readUIJson_", "group__GeneralGroup.html#ga0bafab31a852ec1285072f7e1f9eff15", null ],
     [ "MR::RibbonSchemaLoader::readUIJson_", "group__GeneralGroup.html#ga89c5d25b89eac58d6a7f0e1a09808c9b", null ],
     [ "MR::SurfaceManipulationWidget::reallocData_", "group__GeneralGroup.html#ga6bf4b908832273c2d2b0dff19ba3eddc", null ],
     [ "MR::rearrangeVectorByMap", "group__GeneralGroup.html#gaaf3190c056e93a1b63f3643cef77443d", null ],
@@ -16904,8 +16904,7 @@ var group__GeneralGroup =
     [ "MR::RibbonSceneObjectsListDrawer::LastDepthInfo::id", "group__GeneralGroup.html#gad780242bd07f5443e169a2dd593d1187", null ],
     [ "MR::TouchesController::Info::id", "group__GeneralGroup.html#gae00077737e87f4f3c0abcaba59668721", null ],
     [ "MR::Viewport::id", "group__GeneralGroup.html#gaf4af07c3784f0a14e16153397b0becde", null ],
-    [ "MR::Id< EdgeTag >", "group__GeneralGroup.html#gaec5bf815279642173b68dbb50e38667a", null ],
-    [ "MR::Id< VoxelTag >", "group__GeneralGroup.html#ga683a2f4c70271c7479bc4c03b1b4dd42", null ],
+    [ "MR::Id< VoxelTag >", "group__GeneralGroup.html#ga61f568a8f460c3ac4540cf730d158b14", null ],
     [ "MR::GcodeProcessor::MoveAction::idle", "group__GeneralGroup.html#ga31e8f3ca925b988d46df24c5b5bf8ddd", null ],
     [ "MR::TouchpadParameters::ignoreKineticMoves", "group__GeneralGroup.html#ga9ae8b021b03e91d547e512ba94391092", null ],
     [ "MR::SurfaceManipulationWidget::ignoreOcclusion_", "group__GeneralGroup.html#ga8c958ed29a4e3f960ce7aab676126adb", null ],
@@ -17039,8 +17038,9 @@ var group__GeneralGroup =
     [ "MR::FileLoadOptions::loadedCallback", "group__GeneralGroup.html#ga4f4d8061842e6e46c5aab4e281bf1ad4", null ],
     [ "MR::MeshPointAndDistance::loc", "group__GeneralGroup.html#ga9b47aa3f3db622af71c97138bff74b58", null ],
     [ "MR::ImGuiMenu::Local", "group__GeneralGroup.html#ga96f0bc9450fbe39ac5e90abcbc52c36a", null ],
-    [ "MR::MenuItemInfo::localeDomainId", "group__GeneralGroup.html#gaeb272c4d19fee08c880f250900aa2ad8", null ],
-    [ "MR::RibbonTab::localeDomainId", "group__GeneralGroup.html#gad2ae76bfa89bde21a56e8bd68d650186", null ],
+    [ "MR::MenuItemInfo::localeDomainId", "group__GeneralGroup.html#ga7fb5cde33fc99b1ed5ef203ab985cffb", null ],
+    [ "MR::RibbonTab::localeDomainId", "group__GeneralGroup.html#ga95385a994b5e54e71a51670a5e951aba", null ],
+    [ "MR::LocaleDomainTag", "group__GeneralGroup.html#ga9727abe1742c2b5ba1ee8e8f7fecd6eb", null ],
     [ "LocalSelectable", "group__GeneralGroup.html#ga502be4569ebb4f92d7ce2f38551965f4", null ],
     [ "LocalSelected", "group__GeneralGroup.html#ga753ba03bf027d69237fecc008d1f0bec", null ],
     [ "MR::MeshProjectionParameters::loDistLimitSq", "group__GeneralGroup.html#ga1c122d1dc6393cbf06a33b2b7d33ef8e", null ],

@@ -77,7 +77,7 @@ var NAVTREEINDEX8 =
 "classMR_1_1FloatGrid.html#af8d34216336615815311c279c1f5ea36":[6,0,0,18,4,1],
 "classMR_1_1FlowAggregator.html":[6,0,0,20,107],
 "classMR_1_1FormatRegistry.html":[6,0,1,0,1,284],
-"classMR_1_1FormatRegistry.html":[6,0,2,0,2,267],
+"classMR_1_1FormatRegistry.html":[6,0,2,0,2,266],
 "classMR_1_1FrameCounter.html":[6,0,0,20,559],
 "classMR_1_1FrameRedrawRequest.html":[6,0,0,20,560],
 "classMR_1_1FramebufferData.html":[6,0,0,20,620],

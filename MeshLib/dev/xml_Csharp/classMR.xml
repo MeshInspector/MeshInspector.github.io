@@ -96,6 +96,7 @@
     <innerclass refid="classMR_1_1Box__FaceId" prot="public">MR::Box_FaceId</innerclass>
     <innerclass refid="classMR_1_1Box__GraphEdgeId" prot="public">MR::Box_GraphEdgeId</innerclass>
     <innerclass refid="classMR_1_1Box__GraphVertId" prot="public">MR::Box_GraphVertId</innerclass>
+    <innerclass refid="classMR_1_1Box__LocaleDomainId" prot="public">MR::Box_LocaleDomainId</innerclass>
     <innerclass refid="classMR_1_1Box__Matrix2b" prot="public">MR::Box_Matrix2b</innerclass>
     <innerclass refid="classMR_1_1Box__Matrix2d" prot="public">MR::Box_Matrix2d</innerclass>
     <innerclass refid="classMR_1_1Box__Matrix2f" prot="public">MR::Box_Matrix2f</innerclass>
@@ -238,6 +239,7 @@
     <innerclass refid="classMR_1_1ConstBox__FaceId" prot="public">MR::ConstBox_FaceId</innerclass>
     <innerclass refid="classMR_1_1ConstBox__GraphEdgeId" prot="public">MR::ConstBox_GraphEdgeId</innerclass>
     <innerclass refid="classMR_1_1ConstBox__GraphVertId" prot="public">MR::ConstBox_GraphVertId</innerclass>
+    <innerclass refid="classMR_1_1ConstBox__LocaleDomainId" prot="public">MR::ConstBox_LocaleDomainId</innerclass>
     <innerclass refid="classMR_1_1ConstBox__Matrix2b" prot="public">MR::ConstBox_Matrix2b</innerclass>
     <innerclass refid="classMR_1_1ConstBox__Matrix2d" prot="public">MR::ConstBox_Matrix2d</innerclass>
     <innerclass refid="classMR_1_1ConstBox__Matrix2f" prot="public">MR::ConstBox_Matrix2f</innerclass>
@@ -473,6 +475,7 @@
     <innerclass refid="classMR_1_1LoadedObjectT__MRObjectPoints" prot="public">MR::LoadedObjectT_MRObjectPoints</innerclass>
     <innerclass refid="classMR_1_1LoadedObjectT__MRObjectVoxels" prot="public">MR::LoadedObjectT_MRObjectVoxels</innerclass>
     <innerclass refid="classMR_1_1Locale" prot="public">MR::Locale</innerclass>
+    <innerclass refid="structMR_1_1LocaleDomainId" prot="public">MR::LocaleDomainId</innerclass>
     <innerclass refid="classMR_1_1MakeBridgeResult" prot="public">MR::MakeBridgeResult</innerclass>
     <innerclass refid="classMR_1_1MakeDegenerateBandAroundRegionParams" prot="public">MR::MakeDegenerateBandAroundRegionParams</innerclass>
     <innerclass refid="classMR_1_1MakeSignedByWindingNumberSettings" prot="public">MR::MakeSignedByWindingNumberSettings</innerclass>

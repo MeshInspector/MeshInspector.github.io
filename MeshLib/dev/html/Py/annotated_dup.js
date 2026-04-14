@@ -477,6 +477,7 @@ var annotated_dup =
       [ "LoadedObjectT_ObjectPoints", "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html", "classmrmeshpy_1_1LoadedObjectT__ObjectPoints" ],
       [ "LoadedObjectT_ObjectVoxels", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels" ],
       [ "Locale", "classmrmeshpy_1_1Locale.html", null ],
+      [ "LocaleDomainId", "classmrmeshpy_1_1LocaleDomainId.html", "classmrmeshpy_1_1LocaleDomainId" ],
       [ "MakeBridgeResult", "classmrmeshpy_1_1MakeBridgeResult.html", "classmrmeshpy_1_1MakeBridgeResult" ],
       [ "MakeDegenerateBandAroundRegionParams", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams" ],
       [ "MakeSignedByWindingNumberSettings", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings" ],

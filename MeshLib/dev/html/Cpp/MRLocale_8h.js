@@ -1,10 +1,10 @@
 var MRLocale_8h =
 [
     [ "MR::Locale::addCatalogPath", "namespaceMR_1_1Locale.html#a2b32ebd2b8467813962ef412cc56a1f3", null ],
-    [ "MR::Locale::addDomain", "namespaceMR_1_1Locale.html#a2874347c63d49c868fb6c5e8e86fd07f", null ],
-    [ "MR::Locale::addDomain", "namespaceMR_1_1Locale.html#a49e0c33a146baded505327802433fb50", null ],
-    [ "MR::Locale::findDomain", "namespaceMR_1_1Locale.html#a74cb3cfc68c30759be2deee569d04b69", null ],
-    [ "MR::Locale::findDomain", "namespaceMR_1_1Locale.html#abd162ed1ab4e598c7719e678ec8dff2f", null ],
+    [ "MR::Locale::addDomain", "namespaceMR_1_1Locale.html#a1cd729fd79614986437db0277cb4abe1", null ],
+    [ "MR::Locale::addDomain", "namespaceMR_1_1Locale.html#acd9ed6845405949b57a5290a008d1726", null ],
+    [ "MR::Locale::findDomain", "namespaceMR_1_1Locale.html#a88410b6d8ce80e2193cc71cb7bacaffb", null ],
+    [ "MR::Locale::findDomain", "namespaceMR_1_1Locale.html#aa62b1ef17f1f450e22f59737f0c9beb4", null ],
     [ "MR::Locale::get", "namespaceMR_1_1Locale.html#ac59a56d895488411e12e18eda9077a20", null ],
     [ "MR::Locale::getAvailableLocales", "namespaceMR_1_1Locale.html#a56715982039eac569ef53b82b086b1e3", null ],
     [ "MR::Locale::getDisplayName", "namespaceMR_1_1Locale.html#a8d1947c7d967dbc42a857466e79550e7", null ],
