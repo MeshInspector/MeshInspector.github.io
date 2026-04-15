@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[6,0,0,9,3,2,1],
 "structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[6,0,0,9,3,2,0],
 "structMR_1_1FillHoleMetric.html":[6,0,0,9,3,5],
 "structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[6,0,0,9,3,5,1],
@@ -81,18 +82,19 @@ var NAVTREEINDEX60 =
 "structMR_1_1FixCreasesParams.html#a3c47008ac5a83366788b6b52976b5e4c":[6,0,0,9,4,1,2],
 "structMR_1_1FixCreasesParams.html#a6921929310773c0b26398debbe0ee1f7":[6,0,0,9,4,1,0],
 "structMR_1_1FixMeshDegeneraciesParams.html":[6,0,0,9,4,0],
-"structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce":[6,0,0,9,4,0,5],
+"structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce":[6,0,0,9,4,0,6],
 "structMR_1_1FixMeshDegeneraciesParams.html#a0eff7987d6820ff165e578fac210c66e":[6,0,0,9,4,0,1],
 "structMR_1_1FixMeshDegeneraciesParams.html#a1288492f43aeb3ebd3709f7eaed006ec":[6,0,0,9,4,0,4],
 "structMR_1_1FixMeshDegeneraciesParams.html#a27e58d6d674f40a1d627ba6f034ef140":[6,0,0,9,4,0,3],
-"structMR_1_1FixMeshDegeneraciesParams.html#a53fef689c0014c588a5990ec1626c5a7":[6,0,0,9,4,0,6],
+"structMR_1_1FixMeshDegeneraciesParams.html#a39c6c7eb9bf8c2a75b88975d8f434101":[6,0,0,9,4,0,5],
+"structMR_1_1FixMeshDegeneraciesParams.html#a53fef689c0014c588a5990ec1626c5a7":[6,0,0,9,4,0,7],
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42":[6,0,0,9,4,0,0],
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10":[6,0,0,9,4,0,0,1],
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a4e891fd0a3fb80f7f59fe0f768d95554":[6,0,0,9,4,0,0,0],
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7":[6,0,0,9,4,0,0,2],
 "structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980":[6,0,0,9,4,0,2],
-"structMR_1_1FixMeshDegeneraciesParams.html#a7fb7943cde7ab98ddfd5ffe1d1f4170e":[6,0,0,9,4,0,8],
-"structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01":[6,0,0,9,4,0,7],
+"structMR_1_1FixMeshDegeneraciesParams.html#a7fb7943cde7ab98ddfd5ffe1d1f4170e":[6,0,0,9,4,0,9],
+"structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01":[6,0,0,9,4,0,8],
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,0,20,813],
 "structMR_1_1FixUndercuts_1_1FindParams.html":[6,0,0,20,810],
 "structMR_1_1FixUndercuts_1_1FixParams.html":[6,0,0,20,811],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[6,0,1,0,1,16,7,19],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[6,0,2,0,2,7,7,19],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[6,0,1,0,1,16,7,20],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[6,0,2,0,2,7,7,20],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[6,0,1,0,1,16,7,26],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[6,0,2,0,2,7,7,26]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[6,0,2,0,2,7,7,20]
 };

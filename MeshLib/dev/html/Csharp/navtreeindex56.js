@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"classMR_1_1SceneLoad_1_1Result.html#a195d709f0483e8cede6dbdc493278f7f":[6,3,0,0,0,758,0,2],
 "classMR_1_1SceneLoad_1_1Result.html#a32191d5271f243e2d8d4c92dd4df9406":[6,3,0,0,0,758,0,3],
 "classMR_1_1SceneLoad_1_1Result.html#a5879070fd2d8ec0c30ae5525b6e6f2d5":[6,3,0,0,0,758,0,4],
 "classMR_1_1SceneLoad_1_1Result.html#a5c38a8722f96aa00a3534df8b92f2e8f":[6,3,0,0,0,758,0,1],
@@ -101,17 +102,18 @@ var NAVTREEINDEX56 =
 "classMR_1_1SelfIntersections.html#a3f0c054fbf98ac86587b94f1a322faf4":[6,3,0,0,0,767,2],
 "classMR_1_1SelfIntersections_1_1Settings.html":[6,3,0,0,0,767,0],
 "classMR_1_1SelfIntersections_1_1Settings.html#a0dd270fa2278f28a856a2b4ef8d23b5a":[6,3,0,0,0,767,0,3],
-"classMR_1_1SelfIntersections_1_1Settings.html#a11764c58c14925ea71503c876c9c1fd4":[6,3,0,0,0,767,0,1],
 "classMR_1_1SelfIntersections_1_1Settings.html#a33587e0f3e2a390c18b3621bd5978499":[6,3,0,0,0,767,0,0],
 "classMR_1_1SelfIntersections_1_1Settings.html#a3a8f4708faf69d4208911c7172dc10d8":[6,3,0,0,0,767,0,2],
 "classMR_1_1SelfIntersections_1_1Settings.html#a3f1808353d0c3fb3fd149c5be4bb393b":[6,3,0,0,0,767,0,7],
-"classMR_1_1SelfIntersections_1_1Settings.html#a6a7b75403982314efbe4f9e584d400d3":[6,3,0,0,0,767,0,11],
+"classMR_1_1SelfIntersections_1_1Settings.html#a6a7b75403982314efbe4f9e584d400d3":[6,3,0,0,0,767,0,12],
 "classMR_1_1SelfIntersections_1_1Settings.html#ab5d37ca0ef1d537761afc2ef1ff6541f":[6,3,0,0,0,767,0,5],
+"classMR_1_1SelfIntersections_1_1Settings.html#ac257e2fb2a2cff1d12140c1ed50022fd":[6,3,0,0,0,767,0,9],
 "classMR_1_1SelfIntersections_1_1Settings.html#ac993fa3cd74d0cef09e91c0108e51d30":[6,3,0,0,0,767,0,4],
 "classMR_1_1SelfIntersections_1_1Settings.html#aca027ac4e4873596c80ec488fe3bc2b9":[6,3,0,0,0,767,0,8],
-"classMR_1_1SelfIntersections_1_1Settings.html#ad7465e182463e34befdd374819b08e2c":[6,3,0,0,0,767,0,9],
+"classMR_1_1SelfIntersections_1_1Settings.html#ad7465e182463e34befdd374819b08e2c":[6,3,0,0,0,767,0,10],
+"classMR_1_1SelfIntersections_1_1Settings.html#aeb583c32541bbf1c2cfc791021f8313f":[6,3,0,0,0,767,0,1],
 "classMR_1_1SelfIntersections_1_1Settings.html#aec99a28a17b6b1eb0dd0939ae2f96d60":[6,3,0,0,0,767,0,6],
-"classMR_1_1SelfIntersections_1_1Settings.html#aef2e41a1aa236f2510cd5add2c1d89f4":[6,3,0,0,0,767,0,10],
+"classMR_1_1SelfIntersections_1_1Settings.html#aef2e41a1aa236f2510cd5add2c1d89f4":[6,3,0,0,0,767,0,11],
 "classMR_1_1SeparationPointStorage.html":[6,3,0,0,0,768],
 "classMR_1_1SeparationPointStorage.html#a0b5d2e9b5571d12624ca842f19e870ca":[6,3,0,0,0,768,2],
 "classMR_1_1SeparationPointStorage.html#a3f9724cd5a1a2baba78dd4a3208a7de7":[6,3,0,0,0,768,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "classMR_1_1ShellVertexInfo.html#a54791d3b610c18423ccdfc5cb8cdf01e":[6,3,0,0,0,782,7],
 "classMR_1_1ShellVertexInfo.html#a5bc16f741e350ed1fcb2925ab0d68640":[6,3,0,0,0,782,2],
 "classMR_1_1ShellVertexInfo.html#aca9cc2ddd7f032a8f961c23a63bcc9db":[6,3,0,0,0,782,5],
-"classMR_1_1ShellVertexInfo.html#adb81a03e579833c96ec39a703b96e723":[6,3,0,0,0,782,0],
-"classMR_1_1ShellVertexInfo.html#afb436060e4924e982bfa05d14b595141":[6,3,0,0,0,782,1],
-"classMR_1_1SignedDistanceToMeshOptions.html":[6,3,0,0,0,783]
+"classMR_1_1ShellVertexInfo.html#adb81a03e579833c96ec39a703b96e723":[6,3,0,0,0,782,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1MeshBuilder_1_1VertDuplication.html#a94e2937289e578a0434d2abac502e3a6":[6,3,0,0,0,513,5,3],
 "classMR_1_1MeshBuilder_1_1VertDuplication.html#aa00bbb6eee3fbbe14cbeb66a6db78d43":[6,3,0,0,0,513,5,6],
 "classMR_1_1MeshBuilder_1_1VertDuplication.html#afeef8e5a7fc5521ef04b4ec7618de3e9":[6,3,0,0,0,513,5,1],
 "classMR_1_1MeshBuilder_1_1VertSpan.html":[6,3,0,0,0,513,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1MeshNormals.html#a9eec72fcf8b61c312be85d1a1c76fad1":[6,3,0,0,0,524,4],
 "classMR_1_1MeshNormals.html#aa6402b2077c7f27da6bfa51a6714cd85":[6,3,0,0,0,524,7],
 "classMR_1_1MeshNormals.html#afcb68eb452371dec9aadddbc84df6be7":[6,3,0,0,0,524,1],
-"classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html":[6,3,0,0,0,525],
-"classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html#a3dcea5f4fcf80303c0c54052920099af":[6,3,0,0,0,525,0]
+"classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html":[6,3,0,0,0,525]
 };

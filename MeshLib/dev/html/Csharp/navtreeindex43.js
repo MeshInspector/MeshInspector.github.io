@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1MeshToDistanceVolumeParams.html#af69189155f6dc7755238114ce6f4b730":[6,3,0,0,0,545,0],
 "classMR_1_1MeshToDistanceVolumeParams.html#afba65aedcfffeb530fddbd2b6d7ef381":[6,3,0,0,0,545,2],
 "classMR_1_1MeshToVolumeParams.html":[6,3,0,0,0,548],
 "classMR_1_1MeshToVolumeParams.html#a266dbc604485e4811df8446e9620f235":[6,3,0,0,0,548,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Nesting_1_1BoxNestingCorner.html#ade789d7c67b5ade73b4b6304320606e6":[6,3,0,0,0,565,0,3],
 "classMR_1_1Nesting_1_1BoxNestingOptions.html":[6,3,0,0,0,565,1],
 "classMR_1_1Nesting_1_1BoxNestingOptions.html#a074f1b241e8162317257aabf288696f2":[6,3,0,0,0,565,1,6],
-"classMR_1_1Nesting_1_1BoxNestingOptions.html#a1552832b08071314ffbfaaa175095384":[6,3,0,0,0,565,1,4],
-"classMR_1_1Nesting_1_1BoxNestingOptions.html#a3c0402a8f3297fdd8b70bf1a24066ac8":[6,3,0,0,0,565,1,10]
+"classMR_1_1Nesting_1_1BoxNestingOptions.html#a1552832b08071314ffbfaaa175095384":[6,3,0,0,0,565,1,4]
 };

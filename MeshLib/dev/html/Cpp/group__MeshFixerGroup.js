@@ -10,6 +10,7 @@ var group__MeshFixerGroup =
       [ "criticalTriAspectRatio", "structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980", null ],
       [ "maxAngleChange", "structMR_1_1FixMeshDegeneraciesParams.html#a27e58d6d674f40a1d627ba6f034ef140", null ],
       [ "maxDeviation", "structMR_1_1FixMeshDegeneraciesParams.html#a1288492f43aeb3ebd3709f7eaed006ec", null ],
+      [ "mimicPatch", "structMR_1_1FixMeshDegeneraciesParams.html#a39c6c7eb9bf8c2a75b88975d8f434101", null ],
       [ "region", "structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce", null ],
       [ "Remesh", "structMR_1_1FixMeshDegeneraciesParams.html#a53fef689c0014c588a5990ec1626c5a7", null ],
       [ "stabilizer", "structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01", null ],

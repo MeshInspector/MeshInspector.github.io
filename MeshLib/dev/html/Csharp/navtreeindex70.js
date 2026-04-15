@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"classMR_1_1VertMap.html#a1a76c24b74b17ebb629748dd71753fb3":[6,3,0,0,0,966,16],
+"classMR_1_1VertMap.html#a2aabd5f873785a837ec77317c8c23bc7":[6,3,0,0,0,966,17],
 "classMR_1_1VertMap.html#a2f679f99894bd3b6888478bd3020c66f":[6,3,0,0,0,966,28],
 "classMR_1_1VertMap.html#a3cb8aa9ca69934300c683ca4efedee9b":[6,3,0,0,0,966,24],
 "classMR_1_1VertMap.html#a43dbe5c336da2871e78a7bc6903cbad4":[6,3,0,0,0,966,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "classMR_1_1VolumeSegmentationParameters.html#ac5d32997b3f626808fc0dff68bd9f7fa":[6,3,0,0,0,982,0],
 "classMR_1_1VolumeSegmentationParameters.html#ac96c01f9c0867e8c8002c39fbb00fa80":[6,3,0,0,0,982,2],
 "classMR_1_1VolumeSegmentationParameters.html#acf727cadf0ed6650e11d30225f45d1db":[6,3,0,0,0,982,3],
-"classMR_1_1VolumeSegmentationParameters.html#ad1a6e3794ca8ec9882f5128ac93c68e9":[6,3,0,0,0,982,6],
-"classMR_1_1VolumeSegmenter.html":[6,3,0,0,0,983],
-"classMR_1_1VolumeSegmenter.html#a04d16dcdfb30aa222e40e8bb8a4e5b0e":[6,3,0,0,0,983,7]
+"classMR_1_1VolumeSegmentationParameters.html#ad1a6e3794ca8ec9882f5128ac93c68e9":[6,3,0,0,0,982,6]
 };

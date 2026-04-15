@@ -152,6 +152,22 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshFixer.h" line="67" column="22"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a39c6c7eb9bf8c2a75b88975d8f434101" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FixMeshDegeneraciesParams::mimicPatch</definition>
+        <argsstring></argsstring>
+        <name>mimicPatch</name>
+        <qualifiedname>MR::FixMeshDegeneraciesParams::mimicPatch</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>trying to stay close to initial surface when patching also disables smoothing on patch </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFixer.h" line="71" column="10" bodyfile="MRMesh/MRMeshFixer.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::FixMeshDegeneraciesParams::cb</definition>
@@ -164,19 +180,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="69" column="22" bodyfile="MRMesh/MRMeshFixer.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="73" column="22" bodyfile="MRMesh/MRMeshFixer.h" bodystart="73" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshFixer.h" line="40" column="1" bodyfile="MRMesh/MRMeshFixer.h" bodystart="41" bodyend="70"/>
+    <location file="MRMesh/MRMeshFixer.h" line="40" column="1" bodyfile="MRMesh/MRMeshFixer.h" bodystart="41" bodyend="74"/>
     <listofallmembers>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>cb</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a78bb997d121e9c191fabce84d8f05980" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a27e58d6d674f40a1d627ba6f034ef140" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxAngleChange</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a1288492f43aeb3ebd3709f7eaed006ec" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxDeviation</name></member>
+      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a39c6c7eb9bf8c2a75b88975d8f434101" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>mimicPatch</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Mode</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a03fabfe38c70165440f7eaf7677e07ce" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>region</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a53fef689c0014c588a5990ec1626c5a7" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Remesh</name></member>

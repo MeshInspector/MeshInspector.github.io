@@ -7796,10 +7796,11 @@
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1aa23e1ba06c41baafef0c214a06ca2adc" kind="property"><name>stabilizer</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a90621e659cd5be3a26daa4cfbd577895" kind="property"><name>region</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a25aacc89ccb14968d6cd430e6548dd96" kind="property"><name>mode</name></member>
+    <member refid="classMR_1_1FixMeshDegeneraciesParams_1af56263c3a1a1183678e4e39be3507721" kind="property"><name>mimicPatch</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a9b4f190d07dd759f7eaa047c7520aad5" kind="property"><name>cb</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1ac6400b423961dedd5e93ab4ef4a0345c" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" kind="function"><name>FixMeshDegeneraciesParams</name></member>
-    <member refid="classMR_1_1FixMeshDegeneraciesParams_1a5053a4f43bbf877edbb0a37a039f1685" kind="function"><name>FixMeshDegeneraciesParams</name></member>
+    <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3a6b16ace20842364e8050ea4978b4f2" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a2ad2ea9e85e256bcffb91c9e3bc93519" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1aed491e9ef17151bea847c24357ad295b" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3d7bb50a9f36d671b303d52ef31423a7" kind="function"><name>FixMeshDegeneraciesParams</name></member>
@@ -16841,10 +16842,11 @@
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1ad7465e182463e34befdd374819b08e2c" kind="property"><name>relaxIterations</name></member>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1a3f1808353d0c3fb3fd149c5be4bb393b" kind="property"><name>maxExpand</name></member>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1aef2e41a1aa236f2510cd5add2c1d89f4" kind="property"><name>subdivideEdgeLen</name></member>
+    <member refid="classMR_1_1SelfIntersections_1_1Settings_1ac257e2fb2a2cff1d12140c1ed50022fd" kind="property"><name>mimicPatch</name></member>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1aec99a28a17b6b1eb0dd0939ae2f96d60" kind="property"><name>callback</name></member>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1aa4aca779ae001cf7ea72fb254792ad27" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1a33587e0f3e2a390c18b3621bd5978499" kind="function"><name>Settings</name></member>
-    <member refid="classMR_1_1SelfIntersections_1_1Settings_1a11764c58c14925ea71503c876c9c1fd4" kind="function"><name>Settings</name></member>
+    <member refid="classMR_1_1SelfIntersections_1_1Settings_1aeb583c32541bbf1c2cfc791021f8313f" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1a3a8f4708faf69d4208911c7172dc10d8" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1a0dd270fa2278f28a856a2b4ef8d23b5a" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1SelfIntersections_1_1Settings_1ac993fa3cd74d0cef09e91c0108e51d30" kind="function"><name>Settings</name></member>

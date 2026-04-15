@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1PointObject.html#abbada2fa0410518e80e851338e7559db":[6,3,0,0,0,675,35],
 "classMR_1_1PointObject.html#abd9b8c9d921b763b51c90935376a7c74":[6,3,0,0,0,675,57],
 "classMR_1_1PointObject.html#abdddf192cbc04dc0391b8b1317a9d9f0":[6,3,0,0,0,675,52],
 "classMR_1_1PointObject.html#ac13b32d438f7a8e24a78cce286f7a657":[6,3,0,0,0,675,55],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Polyline2.html#a677bdd45ae24a9ad121304b49547cc38":[6,3,0,0,0,690,1],
 "classMR_1_1Polyline2.html#a7388f336a18862b246d698318db85117":[6,3,0,0,0,690,8],
 "classMR_1_1Polyline2.html#a7bbbaddce877bb1a804987c224b46e96":[6,3,0,0,0,690,9],
-"classMR_1_1Polyline2.html#a7f9fd7c58138e969e9d33573eb56139d":[6,3,0,0,0,690,0],
-"classMR_1_1Polyline2.html#a89bcfd98b68973c6be897541eb95ee63":[6,3,0,0,0,690,22]
+"classMR_1_1Polyline2.html#a7f9fd7c58138e969e9d33573eb56139d":[6,3,0,0,0,690,0]
 };

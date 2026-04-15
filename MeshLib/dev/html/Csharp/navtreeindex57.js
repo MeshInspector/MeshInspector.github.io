@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1ShellVertexInfo.html#afb436060e4924e982bfa05d14b595141":[6,3,0,0,0,782,1],
+"classMR_1_1SignedDistanceToMeshOptions.html":[6,3,0,0,0,783],
 "classMR_1_1SignedDistanceToMeshOptions.html#a0469a2464b85620a6fc06a4e491e0897":[6,3,0,0,0,783,2],
 "classMR_1_1SignedDistanceToMeshOptions.html#a0a4e7c5bb6500c615a37415bb59feea7":[6,3,0,0,0,783,1],
 "classMR_1_1SignedDistanceToMeshOptions.html#a37149ba598cb2327ffcb803d6e56d75d":[6,3,0,0,0,783,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1SphereObject.html#aef322125c2c40e8044229046a1cf9401":[6,3,0,0,0,801,46],
 "classMR_1_1SphereObject.html#af3ec5464c6d8cd549b392476dcdb7156":[6,3,0,0,0,801,36],
 "classMR_1_1SphereObject.html#af538694e11445e88b401ff899c066ae2":[6,3,0,0,0,801,52],
-"classMR_1_1SphereParams.html":[6,3,0,0,0,802],
-"classMR_1_1SphereParams.html#a2ca6bbf3a073011a91f4c2d24540469e":[6,3,0,0,0,802,2],
-"classMR_1_1SphereParams.html#a448e2507fd5f069eecdf425248f6c7d2":[6,3,0,0,0,802,3]
+"classMR_1_1SphereParams.html":[6,3,0,0,0,802]
 };

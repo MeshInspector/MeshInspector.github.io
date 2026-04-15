@@ -3371,6 +3371,7 @@
     <member refid="structMR_1_1FixMeshDegeneraciesParams_1adbf34724488c4de119231db46448de01" kind="variable"><name>stabilizer</name></member>
     <member refid="structMR_1_1FixMeshDegeneraciesParams_1a03fabfe38c70165440f7eaf7677e07ce" kind="variable"><name>region</name></member>
     <member refid="structMR_1_1FixMeshDegeneraciesParams_1a53fef689c0014c588a5990ec1626c5a7" kind="variable"><name>Remesh</name></member>
+    <member refid="structMR_1_1FixMeshDegeneraciesParams_1a39c6c7eb9bf8c2a75b88975d8f434101" kind="variable"><name>mimicPatch</name></member>
     <member refid="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" kind="variable"><name>cb</name></member>
   </compound>
   <compound refid="structMR_1_1FixUndercuts_1_1FixParams" kind="struct"><name>MR::FixUndercuts::FixParams</name>
@@ -10294,6 +10295,7 @@
     <member refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" kind="variable"><name>relaxIterations</name></member>
     <member refid="group__GeneralGroup_1ga7798ca5ce166d10f94b4f994252918f8" kind="variable"><name>maxExpand</name></member>
     <member refid="group__GeneralGroup_1ga27581dba0d20048070937e95346b4224" kind="variable"><name>subdivideEdgeLen</name></member>
+    <member refid="group__GeneralGroup_1ga7bfc384755edd125c08bc81a9f993114" kind="variable"><name>mimicPatch</name></member>
     <member refid="group__GeneralGroup_1gad3d19d62f4659d2ff0a0415ffecba3c4" kind="variable"><name>callback</name></member>
   </compound>
   <compound refid="structMR_1_1SurfaceManipulationWidget_1_1Settings" kind="struct"><name>MR::SurfaceManipulationWidget::Settings</name>
@@ -21466,6 +21468,7 @@
     <member refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" kind="variable"><name>relaxIterations</name></member>
     <member refid="group__GeneralGroup_1ga7798ca5ce166d10f94b4f994252918f8" kind="variable"><name>maxExpand</name></member>
     <member refid="group__GeneralGroup_1ga27581dba0d20048070937e95346b4224" kind="variable"><name>subdivideEdgeLen</name></member>
+    <member refid="group__GeneralGroup_1ga7bfc384755edd125c08bc81a9f993114" kind="variable"><name>mimicPatch</name></member>
     <member refid="group__GeneralGroup_1gad3d19d62f4659d2ff0a0415ffecba3c4" kind="variable"><name>callback</name></member>
     <member refid="group__GeneralGroup_1gae9e198e37ff9d6fec538e18e26a573c7" kind="variable"><name>coords_</name></member>
     <member refid="group__GeneralGroup_1gaa7f116e854ce66ac7138cdccc6749844" kind="variable"><name>validPoints_</name></member>

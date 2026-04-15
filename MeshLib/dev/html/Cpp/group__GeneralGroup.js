@@ -1637,6 +1637,7 @@ var group__GeneralGroup =
       [ "callback", "group__GeneralGroup.html#gad3d19d62f4659d2ff0a0415ffecba3c4", null ],
       [ "maxExpand", "group__GeneralGroup.html#ga7798ca5ce166d10f94b4f994252918f8", null ],
       [ "method", "group__GeneralGroup.html#gaface1dd6cc60f50dd76186b73d130994", null ],
+      [ "mimicPatch", "group__GeneralGroup.html#ga7bfc384755edd125c08bc81a9f993114", null ],
       [ "relaxIterations", "group__GeneralGroup.html#gaca7a5619c15bc97f529b69737ac12bb6", null ],
       [ "subdivideEdgeLen", "group__GeneralGroup.html#ga27581dba0d20048070937e95346b4224", null ],
       [ "touchIsIntersection", "group__GeneralGroup.html#gae5606c4ebbd1f6f3acf27a76862219b0", null ]
@@ -17166,6 +17167,7 @@ var group__GeneralGroup =
     [ "MR::VertPathInfo::metric", "group__GeneralGroup.html#ga2530c5bd3051baea96398e09ade9e59e", null ],
     [ "MR::EdgePathsBuilderT::metricToPenalty_", "group__GeneralGroup.html#ga8bee648da3c920541672f288460c659c", null ],
     [ "MR::ToolPathParams::millRadius", "group__GeneralGroup.html#gab01ce27f18a97921bbeb33127a0412a5", null ],
+    [ "MR::SelfIntersections::Settings::mimicPatch", "group__GeneralGroup.html#ga7bfc384755edd125c08bc81a9f993114", null ],
     [ "MR::SurfaceManipulationWidget::Settings::mimicPatch", "group__GeneralGroup.html#ga4c7f8ee88493130e68016e2b7fc658c6", null ],
     [ "MR::MarkedVoxelSlice::Parameters::min", "group__GeneralGroup.html#gaa1adf8bb92d44c2f71e211d90450d693", null ],
     [ "MR::MinMaxArg::min", "group__GeneralGroup.html#ga26258462e8f6cb5ad553b6060188c941", null ],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX164 =
 {
+"std__vector__MR__Box3f_8h.html#aff07c9d7b9c7d709ccaba8ab4b5ad502":[6,2,1,0,0,0,0,2,414,48],
+"std__vector__MR__Box3f_8h.html#aff3a1c6a01d6a54fe22c1ef36908d9b9":[6,2,1,0,0,0,0,2,414,51],
+"std__vector__MR__Box3f_8h_source.html":[6,2,1,0,0,0,0,2,414],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html":[6,2,1,0,0,0,0,2,415],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a025f6de537582b111b034ef6f2d04364":[6,2,1,0,0,0,0,2,415,42],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a0d45a9d61e858b9564f477e955ce80e1":[6,2,1,0,0,0,0,2,415,32],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a101adde84881fc4dc03307a916102c67":[6,2,1,0,0,0,0,2,415,74],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a1250786631c2caa79e348a2813f67ee6":[6,2,1,0,0,0,0,2,415,30],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a1307b94ca85d47fb55640e55444ba05d":[6,2,1,0,0,0,0,2,415,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX164 =
 "std__vector__MR__Dipole_8h.html#a362745fca7e162743930074510e803ea":[6,2,1,0,0,0,0,2,418,49],
 "std__vector__MR__Dipole_8h.html#a3907eaeff17837820db3cafb0db779c0":[6,2,1,0,0,0,0,2,418,54],
 "std__vector__MR__Dipole_8h.html#a4058b4979c668523d373b04f80f4640d":[6,2,1,0,0,0,0,2,418,16],
-"std__vector__MR__Dipole_8h.html#a43cdf6362e6f280a22ecf16612f00b14":[6,2,1,0,0,0,0,2,418,45],
-"std__vector__MR__Dipole_8h.html#a43f21df8a97388f53c6b702e37c8a72c":[6,2,1,0,0,0,0,2,418,41],
-"std__vector__MR__Dipole_8h.html#a46359bffa7e0f15abf0af068690c5893":[6,2,1,0,0,0,0,2,418,43],
-"std__vector__MR__Dipole_8h.html#a4646cb29f69c0c9d453a3e7c4c789b3b":[6,2,1,0,0,0,0,2,418,25],
-"std__vector__MR__Dipole_8h.html#a4a20017da7951817700b06a45143d4a6":[6,2,1,0,0,0,0,2,418,34],
-"std__vector__MR__Dipole_8h.html#a548d097b3874f2abaa8ac5445cecf25e":[6,2,1,0,0,0,0,2,418,33],
-"std__vector__MR__Dipole_8h.html#a54f4a2627f4cd946be45b94caf786904":[6,2,1,0,0,0,0,2,418,39]
+"std__vector__MR__Dipole_8h.html#a43cdf6362e6f280a22ecf16612f00b14":[6,2,1,0,0,0,0,2,418,45]
 };
