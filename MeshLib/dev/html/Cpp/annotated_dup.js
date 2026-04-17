@@ -111,6 +111,17 @@ var annotated_dup =
       [ "LinesSave", "namespaceMR_1_1LinesSave.html", [
         [ "LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", "structMR_1_1LinesSave_1_1LinesSaver" ]
       ] ],
+      [ "Mcp", "namespaceMR_1_1Mcp.html", [
+        [ "Schema", "namespaceMR_1_1Mcp_1_1Schema.html", [
+          [ "Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", "structMR_1_1Mcp_1_1Schema_1_1Array" ],
+          [ "Base", "structMR_1_1Mcp_1_1Schema_1_1Base.html", "structMR_1_1Mcp_1_1Schema_1_1Base" ],
+          [ "Empty", "structMR_1_1Mcp_1_1Schema_1_1Empty.html", "structMR_1_1Mcp_1_1Schema_1_1Empty" ],
+          [ "Number", "structMR_1_1Mcp_1_1Schema_1_1Number.html", "structMR_1_1Mcp_1_1Schema_1_1Number" ],
+          [ "Object", "structMR_1_1Mcp_1_1Schema_1_1Object.html", "structMR_1_1Mcp_1_1Schema_1_1Object" ],
+          [ "String", "structMR_1_1Mcp_1_1Schema_1_1String.html", "structMR_1_1Mcp_1_1Schema_1_1String" ]
+        ] ],
+        [ "Server", "classMR_1_1Mcp_1_1Server.html", "classMR_1_1Mcp_1_1Server" ]
+      ] ],
       [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", [
         [ "BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", "structMR_1_1MeshBuilder_1_1BuildSettings" ],
         [ "equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", "structMR_1_1MeshBuilder_1_1equalVector3f" ],
@@ -249,6 +260,10 @@ var annotated_dup =
       ] ],
       [ "UI", "namespaceMR_1_1UI.html", [
         [ "TestEngine", "namespaceMR_1_1UI_1_1TestEngine.html", [
+          [ "Control", "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html", [
+            [ "TypedEntry", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry" ],
+            [ "Value", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" ]
+          ] ],
           [ "detail", "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html", [
             [ "BoundedValue", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" ],
             [ "UnderlyingValueTypeHelper", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html", null ]

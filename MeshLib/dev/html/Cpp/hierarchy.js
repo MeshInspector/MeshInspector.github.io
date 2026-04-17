@@ -31,6 +31,13 @@ var hierarchy =
     [ "MR::Laplacian::Attractor", "structMR_1_1Laplacian_1_1Attractor.html", null ],
     [ "MR::BasicUiRenderTask::BackwardPassParams", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html", null ],
     [ "MR::Ball< V >", "structMR_1_1Ball.html", null ],
+    [ "MR::Mcp::Schema::Base", "structMR_1_1Mcp_1_1Schema_1_1Base.html", [
+      [ "MR::Mcp::Schema::Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", null ],
+      [ "MR::Mcp::Schema::Empty", "structMR_1_1Mcp_1_1Schema_1_1Empty.html", null ],
+      [ "MR::Mcp::Schema::Number", "structMR_1_1Mcp_1_1Schema_1_1Number.html", null ],
+      [ "MR::Mcp::Schema::Object", "structMR_1_1Mcp_1_1Schema_1_1Object.html", null ],
+      [ "MR::Mcp::Schema::String", "structMR_1_1Mcp_1_1Schema_1_1String.html", null ]
+    ] ],
     [ "spdlog::sinks::base_sink", null, [
       [ "MR::RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", null ]
     ] ],
@@ -985,6 +992,7 @@ var hierarchy =
     ] ],
     [ "MR::FillingSurface::CellularSurface::Params", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", null ],
+    [ "MR::Mcp::Server::Params", "structMR_1_1Mcp_1_1Server_1_1Params.html", null ],
     [ "MR::PickPointManager::Params", "structMR_1_1PickPointManager_1_1Params.html", null ],
     [ "MR::UI::NonOverlappingLabelTask::Params", "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html", null ],
     [ "MR::FillingSurface::ParamsFacade< T >", "structMR_1_1FillingSurface_1_1ParamsFacade.html", null ],
@@ -1170,6 +1178,7 @@ var hierarchy =
     [ "MR::SeparationPointStorage", "classMR_1_1SeparationPointStorage.html", null ],
     [ "MR::UI::SeparatorParams", "structMR_1_1UI_1_1SeparatorParams.html", null ],
     [ "MR::Nesting::SequentialNester", "classMR_1_1Nesting_1_1SequentialNester.html", null ],
+    [ "MR::Mcp::Server", "classMR_1_1Mcp_1_1Server.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
     [ "MR::GlTexture::Settings", "structMR_1_1GlTexture_1_1Settings.html", null ],
@@ -1300,6 +1309,7 @@ var hierarchy =
       [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ]
     ] ],
     [ "MR::TwoLineSegmClosestPoints< T >", "structMR_1_1TwoLineSegmClosestPoints.html", null ],
+    [ "MR::UI::TestEngine::Control::TypedEntry", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html", null ],
     [ "MR::TypedFlatTree", "structMR_1_1TypedFlatTree.html", null ],
     [ "MR::UiRenderManager", "structMR_1_1UiRenderManager.html", [
       [ "MR::ImGuiMenu::UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", null ]
@@ -1329,6 +1339,7 @@ var hierarchy =
     [ "Updates...", null, [
       [ "MR::PluginUpdateOr< Updates >", "classMR_1_1PluginUpdateOr.html", null ]
     ] ],
+    [ "MR::UI::TestEngine::Control::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html", null ],
     [ "MR::UI::TestEngine::ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", null ],

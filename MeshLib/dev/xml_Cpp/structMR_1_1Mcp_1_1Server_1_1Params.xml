@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Mcp_1_1Server_1_1Params" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Mcp::Server::Params</compoundname>
+    <includes refid="MRMcp_8h" local="no">MRMcp/MRMcp.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Mcp_1_1Server_1_1Params_1a1b10c4eacad93eb635abd96e90d589a3" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::Mcp::Server::Params::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <qualifiedname>MR::Mcp::Server::Params::address</qualifiedname>
+        <initializer>= &quot;127.0.0.1&quot;</initializer>
+        <briefdescription>
+<para>You don&apos;t need to change this, unless you want to accept connections from the outside world. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="112" column="21" bodyfile="MRMcp/MRMcp.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mcp_1_1Server_1_1Params_1acaf116a4e061c5d70d4b14aa4790a368" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Mcp::Server::Params::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <qualifiedname>MR::Mcp::Server::Params::port</qualifiedname>
+        <initializer>= 7887</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="113" column="13" bodyfile="MRMcp/MRMcp.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mcp_1_1Server_1_1Params_1a625291c626b9b11ba1bb9f26bf16b096" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::Mcp::Server::Params::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::Mcp::Server::Params::name</qualifiedname>
+        <briefdescription>
+<para>A default string is set in the constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="114" column="21" bodyfile="MRMcp/MRMcp.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mcp_1_1Server_1_1Params_1a8ffc749a3e333b5f1eb3a02f21c78c30" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::Mcp::Server::Params::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <qualifiedname>MR::Mcp::Server::Params::version</qualifiedname>
+        <briefdescription>
+<para>A default string is set in the constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="115" column="21" bodyfile="MRMcp/MRMcp.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structMR_1_1Mcp_1_1Server_1_1Params_1a0e68cc6febfbc4ba9d3476926b5a0b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Params &amp;, const Params &amp;)=default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Mcp::Server::Params::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="117" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Server_1_1Params_1aed25300f1cd5c8f887d17e5f49656d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API</type>
+        <definition>MRMCP_API MR::Mcp::Server::Params::Params</definition>
+        <argsstring>()</argsstring>
+        <name>Params</name>
+        <qualifiedname>MR::Mcp::Server::Params::Params</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="119" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMcp/MRMcp.h" line="110" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="111" bodyend="120"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1a1b10c4eacad93eb635abd96e90d589a3" prot="public" virt="non-virtual"><scope>MR::Mcp::Server::Params</scope><name>address</name></member>
+      <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1a625291c626b9b11ba1bb9f26bf16b096" prot="public" virt="non-virtual"><scope>MR::Mcp::Server::Params</scope><name>name</name></member>
+      <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1a0e68cc6febfbc4ba9d3476926b5a0b9e" prot="public" virt="non-virtual"><scope>MR::Mcp::Server::Params</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1aed25300f1cd5c8f887d17e5f49656d51" prot="public" virt="non-virtual"><scope>MR::Mcp::Server::Params</scope><name>Params</name></member>
+      <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1acaf116a4e061c5d70d4b14aa4790a368" prot="public" virt="non-virtual"><scope>MR::Mcp::Server::Params</scope><name>port</name></member>
+      <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1a8ffc749a3e333b5f1eb3a02f21c78c30" prot="public" virt="non-virtual"><scope>MR::Mcp::Server::Params</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

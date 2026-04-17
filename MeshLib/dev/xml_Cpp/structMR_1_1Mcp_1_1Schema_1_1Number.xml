@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Mcp_1_1Schema_1_1Number" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Mcp::Schema::Number</compoundname>
+    <basecompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Base" prot="public" virt="non-virtual">MR::Mcp::Schema::Base</basecompoundref>
+    <includes refid="MRMcp_8h" local="no">MRMcp/MRMcp.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Number_1a45136972f310c0f3d455ad7a147b44c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mcp::Schema::Number::Number</definition>
+        <argsstring>()</argsstring>
+        <name>Number</name>
+        <qualifiedname>MR::Mcp::Schema::Number::Number</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="37" column="9" bodyfile="MRMcp/MRMcp.h" bodystart="37" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A schema describing a scalar. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::Mcp::Schema::Base</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Base"/>
+      </node>
+      <node id="1">
+        <label>MR::Mcp::Schema::Number</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Number"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mcp::Schema::Base</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Base"/>
+      </node>
+      <node id="1">
+        <label>MR::Mcp::Schema::Number</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Number"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMcp/MRMcp.h" line="35" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="36" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad07a4f144fbb2f526abdfdd787ebff20" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Number</scope><name>asJson</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1a7d669690e5854d01f79f9d2da549f059" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Number</scope><name>asJson</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ab3722df7873d35858a407287f4bad904" prot="protected" virt="non-virtual"><scope>MR::Mcp::Schema::Number</scope><name>Base</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad8d4f52c560bc15c39cc7651fe3d6319" prot="protected" virt="non-virtual"><scope>MR::Mcp::Schema::Number</scope><name>json</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Number_1a45136972f310c0f3d455ad7a147b44c0" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Number</scope><name>Number</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

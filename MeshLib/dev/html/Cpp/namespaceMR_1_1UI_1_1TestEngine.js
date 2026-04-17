@@ -1,5 +1,6 @@
 var namespaceMR_1_1UI_1_1TestEngine =
 [
+    [ "Control", "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html", "namespaceMR_1_1UI_1_1TestEngine_1_1Control" ],
     [ "detail", "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html", "namespaceMR_1_1UI_1_1TestEngine_1_1detail" ],
     [ "ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" ],
     [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],

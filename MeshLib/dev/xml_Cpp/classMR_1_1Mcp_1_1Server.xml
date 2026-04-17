@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Mcp_1_1Server" kind="class" language="C++" prot="public">
+    <compoundname>MR::Mcp::Server</compoundname>
+    <includes refid="MRMcp_8h" local="no">MRMcp/MRMcp.h</includes>
+    <innerclass refid="structMR_1_1Mcp_1_1Server_1_1Params" prot="public">MR::Mcp::Server::Params</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1Mcp_1_1Server_1a164bc1306aece3be615549925d7c373e" prot="public" static="no">
+        <type>std::function&lt; nlohmann::json(const nlohmann::json &amp;args)&gt;</type>
+        <definition>using MR::Mcp::Server::ToolFunc =  std::function&lt;nlohmann::json( const nlohmann::json&amp; args )&gt;</definition>
+        <argsstring></argsstring>
+        <name>ToolFunc</name>
+        <qualifiedname>MR::Mcp::Server::ToolFunc</qualifiedname>
+        <briefdescription>
+<para>Those functions are allowed to throw, that&apos;s how you report errors to the MCP. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="128" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Mcp_1_1Server_1aeac424a5f5999bfab01e107a3bf4e518" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; State &gt;</type>
+        <definition>std::unique_ptr&lt;State&gt; MR::Mcp::Server::state_</definition>
+        <argsstring></argsstring>
+        <name>state_</name>
+        <qualifiedname>MR::Mcp::Server::state_</qualifiedname>
+        <briefdescription>
+<para>This is null until either <computeroutput><ref refid="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" kindref="member">setParams()</ref></computeroutput> or <computeroutput>setRunning(true)</computeroutput> is called for the first time. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="156" column="21" bodyfile="MRMcp/MRMcp.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Mcp_1_1Server_1aefa602d0cb3430ca900aa93f14dbbec5" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref></type>
+        <definition>Params MR::Mcp::Server::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>MR::Mcp::Server::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="158" column="12" bodyfile="MRMcp/MRMcp.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a49208ffdadda99d167e31e81d612aeaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API</type>
+        <definition>MRMCP_API MR::Mcp::Server::Server</definition>
+        <argsstring>()</argsstring>
+        <name>Server</name>
+        <qualifiedname>MR::Mcp::Server::Server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="122" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a21adb00773f87573f304159088264091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API</type>
+        <definition>MRMCP_API MR::Mcp::Server::Server</definition>
+        <argsstring>(Server &amp;&amp;)</argsstring>
+        <name>Server</name>
+        <qualifiedname>MR::Mcp::Server::Server</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mcp_1_1Server" kindref="compound">Server</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="123" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a385c1838112eca9f739077cd5faa037b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API <ref refid="classMR_1_1Mcp_1_1Server" kindref="compound">Server</ref> &amp;</type>
+        <definition>MRMCP_API Server &amp; MR::Mcp::Server::operator=</definition>
+        <argsstring>(Server &amp;&amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::Mcp::Server::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mcp_1_1Server" kindref="compound">Server</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="124" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a650af3bd0595e9dbd5c6d93d8399688e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API</type>
+        <definition>MRMCP_API MR::Mcp::Server::~Server</definition>
+        <argsstring>()</argsstring>
+        <name>~Server</name>
+        <qualifiedname>MR::Mcp::Server::~Server</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="125" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a106b80d97449274a1de2bf8d0b3b1d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API bool</type>
+        <definition>MRMCP_API bool MR::Mcp::Server::addTool</definition>
+        <argsstring>(std::string id, std::string name, std::string desc, Schema::Base inputSchema, Schema::Base outputSchema, ToolFunc func)</argsstring>
+        <name>addTool</name>
+        <qualifiedname>MR::Mcp::Server::addTool</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Base" kindref="compound">Schema::Base</ref></type>
+          <declname>inputSchema</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Base" kindref="compound">Schema::Base</ref></type>
+          <declname>outputSchema</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Mcp_1_1Server_1a164bc1306aece3be615549925d7c373e" kindref="member">ToolFunc</ref></type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Registers a new tool. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An arbitrary function name, e.g. <computeroutput>foo.bar</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A human/ai-readable name. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>desc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A human/ai-readable explanation of what the tool does. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputSchema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Describes the arguments. Normally it should be <computeroutput><ref refid="structMR_1_1Mcp_1_1Schema_1_1Object" kindref="compound">Schema::Object</ref>{}</computeroutput> with some fields added. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outputSchema</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Describes the returned JSON. Fails if the tool with this <computeroutput>id</computeroutput> already exists. Must be called early, before <computeroutput>setRunning(true)</computeroutput> is called for the first time, otherwise fails. Returns true on success. Asserts when returning false, so you don&apos;t have to check the return value. NOTE: Consult <computeroutput>docs/testing_mcp.md</computeroutput> for how to test your tool. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="140" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a41546549ccdb8ff6e04c5940af5c450d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API const <ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref> &amp;</type>
+        <definition>MRMCP_API const Params &amp; MR::Mcp::Server::getParams</definition>
+        <argsstring>() const</argsstring>
+        <name>getParams</name>
+        <qualifiedname>MR::Mcp::Server::getParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="142" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API void</type>
+        <definition>MRMCP_API void MR::Mcp::Server::setParams</definition>
+        <argsstring>(Params params)</argsstring>
+        <name>setParams</name>
+        <qualifiedname>MR::Mcp::Server::setParams</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>This restarts the server if necessary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="145" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API bool</type>
+        <definition>MRMCP_API bool MR::Mcp::Server::isRunning</definition>
+        <argsstring>() const</argsstring>
+        <name>isRunning</name>
+        <qualifiedname>MR::Mcp::Server::isRunning</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="147" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1ae6008d565f2f5a971a3694f196f7ebe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API bool</type>
+        <definition>MRMCP_API bool MR::Mcp::Server::setRunning</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>setRunning</name>
+        <qualifiedname>MR::Mcp::Server::setRunning</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true on success, including if the server is already running and you&apos;re trying to start it again. Stopping always returns true. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="150" column="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Owns a HTTP MCP server (using the SSE protocol). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMcp/MRMcp.h" line="107" column="1" bodyfile="MRMcp/MRMcp.h" bodystart="108" bodyend="159"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Mcp_1_1Server_1a106b80d97449274a1de2bf8d0b3b1d52" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>addTool</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1a41546549ccdb8ff6e04c5940af5c450d" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>getParams</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>isRunning</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1a385c1838112eca9f739077cd5faa037b" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1aefa602d0cb3430ca900aa93f14dbbec5" prot="private" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>params_</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1a49208ffdadda99d167e31e81d612aeaf" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>Server</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1a21adb00773f87573f304159088264091" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>Server</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>setParams</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1ae6008d565f2f5a971a3694f196f7ebe9" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>setRunning</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1aeac424a5f5999bfab01e107a3bf4e518" prot="private" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>state_</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1a164bc1306aece3be615549925d7c373e" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>ToolFunc</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1a650af3bd0595e9dbd5c6d93d8399688e" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>~Server</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

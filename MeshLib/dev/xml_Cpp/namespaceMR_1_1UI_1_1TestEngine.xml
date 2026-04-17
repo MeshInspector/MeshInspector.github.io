@@ -6,6 +6,7 @@
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1Entry" prot="public">MR::UI::TestEngine::Entry</innerclass>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry" prot="public">MR::UI::TestEngine::GroupEntry</innerclass>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" prot="public">MR::UI::TestEngine::ValueEntry</innerclass>
+    <innernamespace refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control">MR::UI::TestEngine::Control</innernamespace>
     <innernamespace refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail">MR::UI::TestEngine::detail</innernamespace>
     <sectiondef kind="func">
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a118660fc12e6dbfbfc628692acf8c9b2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">

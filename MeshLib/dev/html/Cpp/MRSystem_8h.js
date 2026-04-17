@@ -10,6 +10,7 @@ var MRSystem_8h =
     [ "MR::GetLibsDirectory", "group__GeneralGroup.html#ga0d95c8a2d32514d4af5c9b86a4a03d89", null ],
     [ "MR::GetMRVersionString", "group__GeneralGroup.html#ga343fc892898b015c184b43cac5b57252", null ],
     [ "MR::getOSNoSpaces", "group__GeneralGroup.html#gaf97917cdaf8f4b86b0ec6e9dddc55cbf", null ],
+    [ "MR::getProductName", "group__GeneralGroup.html#gadc1d56b4558307eb71c27eb346bdfd1c", null ],
     [ "MR::GetResourcesDirectory", "group__GeneralGroup.html#gacbcf76720f1f257b107cbd0d2b92769d", null ],
     [ "MR::getSystemMemory", "group__GeneralGroup.html#ga7b96790a3e5d5239dec152d5121bf39a", null ],
     [ "MR::GetTempDirectory", "group__GeneralGroup.html#ga532aae14c0815f4430c440f4b9b940cd", null ],

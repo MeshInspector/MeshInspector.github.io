@@ -328,6 +328,9 @@
     <member refid="group__GeneralGroup_1ga527c4937cd106bad1847ff7adc254bea" kind="variable"><name>maxRadius</name></member>
     <member refid="group__GeneralGroup_1gab7cd8db5e72fb6cad7702d8de23622fe" kind="variable"><name>cb</name></member>
   </compound>
+  <compound refid="structMR_1_1Mcp_1_1Schema_1_1Array" kind="struct"><name>MR::Mcp::Schema::Array</name>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Array_1a80a4e6ffb1a7ec7fddabf00b31a7c2b5" kind="function"><name>Array</name></member>
+  </compound>
   <compound refid="structMR_1_1DirectionWidget_1_1Arrow" kind="struct"><name>MR::DirectionWidget::Arrow</name>
     <member refid="group__GeneralGroup_1ga0ecb81851105a8eb427a1f270b7659a2" kind="variable"><name>dir</name></member>
     <member refid="group__GeneralGroup_1ga2f55bff335dea2ab2a6b581fe070bef4" kind="variable"><name>base</name></member>
@@ -384,6 +387,12 @@
     <member refid="group__GeneralGroup_1ga954cef52a073087f7bfdb9555e9584a3" kind="variable"><name>radiusSq</name></member>
     <member refid="group__GeneralGroup_1gab893ec6d092032257b91b7fcbcb6a58a" kind="function"><name>inside</name></member>
     <member refid="group__GeneralGroup_1ga18bd851f9c63fe2f529f8ef586a5ea69" kind="function"><name>outside</name></member>
+  </compound>
+  <compound refid="structMR_1_1Mcp_1_1Schema_1_1Base" kind="struct"><name>MR::Mcp::Schema::Base</name>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad8d4f52c560bc15c39cc7651fe3d6319" kind="variable"><name>json</name></member>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ab3722df7873d35858a407287f4bad904" kind="function"><name>Base</name></member>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad07a4f144fbb2f526abdfdd787ebff20" kind="function"><name>asJson</name></member>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1a7d669690e5854d01f79f9d2da549f059" kind="function"><name>asJson</name></member>
   </compound>
   <compound refid="structMR_1_1GcodeProcessor_1_1BaseAction" kind="struct"><name>MR::GcodeProcessor::BaseAction</name>
     <member refid="group__GeneralGroup_1ga3c7b474aeb8051a9fb1afb927f011f45" kind="variable"><name>path</name></member>
@@ -2978,6 +2987,9 @@
     <member refid="group__GeneralGroup_1ga4c436c958ad19cd19e927c74c26329f5" kind="variable"><name>new2oldFaces</name></member>
   </compound>
   <compound refid="structMR_1_1detail_1_1Units_1_1Empty" kind="struct"><name>MR::detail::Units::Empty</name>
+  </compound>
+  <compound refid="structMR_1_1Mcp_1_1Schema_1_1Empty" kind="struct"><name>MR::Mcp::Schema::Empty</name>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Empty_1a50e1fc9f7b38d8b430a78685dd6a0a92" kind="function"><name>Empty</name></member>
   </compound>
   <compound refid="structMR_1_1Pdf_1_1Cell_1_1Empty" kind="struct"><name>MR::Pdf::Cell::Empty</name>
   </compound>
@@ -6322,11 +6334,21 @@
   </compound>
   <compound refid="structMR_1_1NoVisualRepresentationCheck" kind="struct"><name>MR::NoVisualRepresentationCheck</name>
   </compound>
+  <compound refid="structMR_1_1Mcp_1_1Schema_1_1Number" kind="struct"><name>MR::Mcp::Schema::Number</name>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Number_1a45136972f310c0f3d455ad7a147b44c0" kind="function"><name>Number</name></member>
+  </compound>
   <compound refid="structMR_1_1NumSum" kind="struct"><name>MR::NumSum</name>
     <member refid="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" kind="variable"><name>num</name></member>
     <member refid="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" kind="variable"><name>sum</name></member>
     <member refid="group__GeneralGroup_1ga0fe6b707b49d42eb921bab61a351f02f" kind="friend"><name>operator+</name></member>
     <member refid="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" kind="function"><name>rootMeanSqF</name></member>
+  </compound>
+  <compound refid="structMR_1_1Mcp_1_1Schema_1_1Object" kind="struct"><name>MR::Mcp::Schema::Object</name>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1af8a3b8c253103a26e99faba8a133745f" kind="function"><name>Object</name></member>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1aaecf9812313d1c213d098bf8b98d8504" kind="function"><name>addMember</name></member>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1a53963c4c37e0f59f3594e240089b3cc0" kind="function"><name>addMemberOpt</name></member>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1a879f4210a350ca91962e32da897aedbe" kind="function"><name>addMember</name></member>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1a8ec8a47414c378c8ad44aa51aee8650b" kind="function"><name>addMemberOpt</name></member>
   </compound>
   <compound refid="classMR_1_1Object" kind="class"><name>MR::Object</name>
     <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" kind="typedef"><name>XfChangedSignal</name></member>
@@ -7603,6 +7625,14 @@
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a3cdfa3eaf63c23dbb300d2b66cd90930" kind="variable"><name>notchHalfLen</name></member>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0ce71acf2dfa183f8f1ac48a132d2978" kind="variable"><name>stippleDashed</name></member>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a266a11f43c921340974f365092339f39" kind="function"><name>Params</name></member>
+  </compound>
+  <compound refid="structMR_1_1Mcp_1_1Server_1_1Params" kind="struct"><name>MR::Mcp::Server::Params</name>
+    <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1a1b10c4eacad93eb635abd96e90d589a3" kind="variable"><name>address</name></member>
+    <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1acaf116a4e061c5d70d4b14aa4790a368" kind="variable"><name>port</name></member>
+    <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1a625291c626b9b11ba1bb9f26bf16b096" kind="variable"><name>name</name></member>
+    <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1a8ffc749a3e333b5f1eb3a02f21c78c30" kind="variable"><name>version</name></member>
+    <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1a0e68cc6febfbc4ba9d3476926b5a0b9e" kind="friend"><name>operator==</name></member>
+    <member refid="structMR_1_1Mcp_1_1Server_1_1Params_1aed25300f1cd5c8f887d17e5f49656d51" kind="function"><name>Params</name></member>
   </compound>
   <compound refid="structMR_1_1PickPointManager_1_1Params" kind="struct"><name>MR::PickPointManager::Params</name>
     <member refid="group__GeneralGroup_1ga5fea1d890a42ca21cec4e297bf2ae7ed" kind="variable"><name>widgetContourCloseMod</name></member>
@@ -10248,6 +10278,20 @@
     <member refid="group__GeneralGroup_1gadd6d11f91cd7c2f23476723ec6d9bccf" kind="function"><name>nestMesh</name></member>
     <member refid="group__GeneralGroup_1ga956a20ce168470b2508f2e52ec9fcf2b" kind="function"><name>nestMeshes</name></member>
   </compound>
+  <compound refid="classMR_1_1Mcp_1_1Server" kind="class"><name>MR::Mcp::Server</name>
+    <member refid="classMR_1_1Mcp_1_1Server_1a164bc1306aece3be615549925d7c373e" kind="typedef"><name>ToolFunc</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1aeac424a5f5999bfab01e107a3bf4e518" kind="variable"><name>state_</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1aefa602d0cb3430ca900aa93f14dbbec5" kind="variable"><name>params_</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a49208ffdadda99d167e31e81d612aeaf" kind="function"><name>Server</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a21adb00773f87573f304159088264091" kind="function"><name>Server</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a385c1838112eca9f739077cd5faa037b" kind="function"><name>operator=</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a650af3bd0595e9dbd5c6d93d8399688e" kind="function"><name>~Server</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a106b80d97449274a1de2bf8d0b3b1d52" kind="function"><name>addTool</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a41546549ccdb8ff6e04c5940af5c450d" kind="function"><name>getParams</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" kind="function"><name>setParams</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" kind="function"><name>isRunning</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1ae6008d565f2f5a971a3694f196f7ebe9" kind="function"><name>setRunning</name></member>
+  </compound>
   <compound refid="classMR_1_1SetBitIteratorT" kind="class"><name>MR::SetBitIteratorT</name>
     <member refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kind="typedef"><name>IndexType</name></member>
     <member refid="classMR_1_1SetBitIteratorT_1a3ead9e2691fedc1c67d1212721d3a157" kind="typedef"><name>iterator_category</name></member>
@@ -10712,6 +10756,9 @@
   <compound refid="structMR_1_1StopOnTrueCombiner" kind="struct"><name>MR::StopOnTrueCombiner</name>
     <member refid="group__GeneralGroup_1gae157bdf17a7f295d510dd732d523f78f" kind="typedef"><name>result_type</name></member>
     <member refid="group__GeneralGroup_1gac4c7b58291a1f9e59adb38ee87fca271" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structMR_1_1Mcp_1_1Schema_1_1String" kind="struct"><name>MR::Mcp::Schema::String</name>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1String_1aa45a18330dacd8ed1bd9b4af38bed320" kind="function"><name>String</name></member>
   </compound>
   <compound refid="structMR_1_1SubdivideFillingSettings" kind="struct"><name>MR::SubdivideFillingSettings</name>
     <member refid="group__GeneralGroup_1ga873defafe8bd5f0ef51bd6d0c3f92f2d" kind="variable"><name>notFlippable</name></member>
@@ -11604,6 +11651,10 @@
     <member refid="classMR_1_1TypedBitSet_1a46316815dacca975fffa963f1041957a" kind="friend"><name>end</name></member>
     <member refid="classMR_1_1TypedBitSet_1a14519da8a9492a4f7bfa687489218f29" kind="function"><name>beginId</name></member>
   </compound>
+  <compound refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry" kind="struct"><name>MR::UI::TestEngine::Control::TypedEntry</name>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1a4e3cc6eede4e75192082ff04395854a1" kind="variable"><name>name</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1ad9e38d8846b1d30eae0a44704076f315" kind="variable"><name>type</name></member>
+  </compound>
   <compound refid="structMR_1_1TypedFlatTree" kind="struct"><name>MR::TypedFlatTree</name>
     <member refid="group__GeneralGroup_1gaa04d404e0e698980823e763537ad5250" kind="variable"><name>root</name></member>
     <member refid="group__GeneralGroup_1ga3d41bfc0c348f8d528cde43bb62dbcde" kind="variable"><name>objsMesh</name></member>
@@ -11785,6 +11836,11 @@
     <member refid="group__GeneralGroup_1ga3def19a0ec6d9b753da75d05825e1d0b" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" kind="friend"><name>operator==</name></member>
+  </compound>
+  <compound refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kind="struct"><name>MR::UI::TestEngine::Control::Value</name>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value_1a4ffa9727b330021d13456e1ef6905bad" kind="variable"><name>value</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value_1a419c2080df58d6e1bc2fa5d52d79c75d" kind="variable"><name>min</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value_1affcd9764ad6ba24f2ee596553516b599" kind="variable"><name>max</name></member>
   </compound>
   <compound refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value" kind="struct"><name>MR::UI::TestEngine::ValueEntry::Value</name>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1aaa2f88e1c672ce3881f126bcb168693b" kind="variable"><name>value</name></member>
@@ -12481,6 +12537,7 @@
     <member refid="group__GeneralGroup_1ga401738f95d6edbb1474a51c84ddb63f1" kind="function"><name>setupConfiguration</name></member>
     <member refid="group__GeneralGroup_1ga7af550b06bca5828017818c0fd0f41ce" kind="function"><name>setupExtendedLibraries</name></member>
     <member refid="group__GeneralGroup_1ga2c129133dc78a903ad58f466bb4bd591" kind="function"><name>unloadExtendedLibraries</name></member>
+    <member refid="group__GeneralGroup_1gaf6506d80121763c6d296ced7af498180" kind="function"><name>setupMcp</name></member>
   </compound>
   <compound refid="structMR_1_1ViewerSignals" kind="struct"><name>MR::ViewerSignals</name>
     <member refid="group__GeneralGroup_1ga1eda89f251264fcd4a837e688fdd8f85" kind="typedef"><name>SignalStopHandler</name></member>
@@ -15196,6 +15253,7 @@
     <member refid="group__SurfacePathSubgroup_1ga21cf317952d09d64b66f7adbb3003bbb" kind="function"><name>geodesicPathToContour3f</name></member>
     <member refid="group__MeshSegmentationGroup_1ga523c39ef67221263d3946ae1621fa9e4" kind="function"><name>surroundingContour</name></member>
     <member refid="group__MeshSegmentationGroup_1ga46d905801bbc9f1713086eceb50f7799" kind="function"><name>surroundingContour</name></member>
+    <member refid="group__GeneralGroup_1gadc1d56b4558307eb71c27eb346bdfd1c" kind="function"><name>getProductName</name></member>
     <member refid="group__GeneralGroup_1ga0ff4e521ce66f8d5f5cf13febff39797" kind="function"><name>SetCurrentThreadName</name></member>
     <member refid="group__GeneralGroup_1ga8e20dfb03738a16f05bed84c41fa1738" kind="function"><name>GetExeDirectory</name></member>
     <member refid="group__GeneralGroup_1gacbcf76720f1f257b107cbd0d2b92769d" kind="function"><name>GetResourcesDirectory</name></member>
@@ -15949,6 +16007,11 @@
   <compound refid="namespaceMR_1_1Locale_1_1detail" kind="namespace"><name>MR::Locale::detail</name>
     <member refid="namespaceMR_1_1Locale_1_1detail_1affe80668a699064bb90515126c515b53" kind="function"><name>getMacosLocales</name></member>
   </compound>
+  <compound refid="namespaceMR_1_1Mcp" kind="namespace"><name>MR::Mcp</name>
+    <member refid="namespaceMR_1_1Mcp_1a255c34dcc4e67f496bea3c6daef7bdba" kind="function"><name>getDefaultServer</name></member>
+  </compound>
+  <compound refid="namespaceMR_1_1Mcp_1_1Schema" kind="namespace"><name>MR::Mcp::Schema</name>
+  </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
     <member refid="group__GeneralGroup_1gae702434806379331a4d7a6e4bf12a859" kind="function"><name>duplicateNonManifoldVertices</name></member>
@@ -16394,6 +16457,30 @@
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" kind="function"><name>popTree</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1a0b6a21c2491075e840bb5fa053992dc9" kind="function"><name>getRootEntry</name></member>
   </compound>
+  <compound refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control" kind="namespace"><name>MR::UI::TestEngine::Control</name>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2" kind="enum"><name>EntryType</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2ace50a09343724eb82df11390e2c1de18" kind="enumvalue"><name>button</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2adb0f6f37ebeb6ea09489124345af2a45" kind="enumvalue"><name>group</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2ac90003a36daf39c1f43bb3af3689cd92" kind="enumvalue"><name>valueInt</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2ac5b6efbcca1f43b59969a46a5d29cca8" kind="enumvalue"><name>valueUint</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2af02c10344a98c7dcc797ccc308953387" kind="enumvalue"><name>valueReal</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2abdf2e8bb433e2d884bd053d6c86ca415" kind="enumvalue"><name>valueString</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ab1f16adb97ad78831d0adc98001d159c" kind="typedef"><name>ValueInt</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a5914bec5adb87dabb4f941019a148954" kind="typedef"><name>ValueUint</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ad456dfdc303cbbde03795fdc758349ea" kind="typedef"><name>ValueReal</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a42e73a6648ccc701e3e2db8e6699e65a" kind="typedef"><name>ValueString</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af5fdf7810e48bc37be0ad0931e5afc26" kind="function"><name>toString</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a7959c4b617a6e856c2fe10e56443708d" kind="function"><name>pathToString</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ac7d2dff4d7a1de92dc5a2bfe5fab872e" kind="function"><name>listEntries</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af1983bd5d3b6cb49c8856dab3970cf88" kind="function"><name>pressButton</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a5a111c148d2eb627a399fde7f449d8e3" kind="function"><name>readValue</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1aecf4fc0a614180fc9054d35d369e126d" kind="function"><name>readValue</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a98aa8ea615046831943a857d5ede271e" kind="function"><name>writeValue</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ac9f7517c70abef7744da064d09234ac7" kind="function"><name>writeValue</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a3ae0319bbff320d95e0b82979c2fe2fb" kind="function"><name>writeValue</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a4a281d619b459aaed29301c7de856d0f" kind="function"><name>writeValue</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a05ff5d106f5323584a002f5f692d2d04" kind="function"><name>writeValue</name></member>
+  </compound>
   <compound refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail" kind="namespace"><name>MR::UI::TestEngine::detail</name>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1ab897ec83d6544cb895ed73a8330cfe6e" kind="typedef"><name>UnderlyingValueType</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a028265a06dcf0d5ed01bd801f6fc7314" kind="function"><name>createValueLow</name></member>
@@ -16595,6 +16682,8 @@
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
   </compound>
   <compound refid="MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMcp_8h" kind="file"><name>MRMcp.h</name>
   </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>
@@ -17937,6 +18026,8 @@
   <compound refid="MRUIStyle_8h" kind="file"><name>MRUIStyle.h</name>
   </compound>
   <compound refid="MRUITestEngine_8h" kind="file"><name>MRUITestEngine.h</name>
+  </compound>
+  <compound refid="MRUITestEngineControl_8h" kind="file"><name>MRUITestEngineControl.h</name>
   </compound>
   <compound refid="MRUnits_8h" kind="file"><name>MRUnits.h</name>
     <member refid="group__GeneralGroup_1ga0bd0e9453da08815bd042baada75c822" kind="define"><name>MR_X</name></member>
@@ -27504,6 +27595,7 @@
     <member refid="group__GeneralGroup_1gaa5a2bc6b458e7890d92c6220fbd4b2c8" kind="function"><name>operator*=</name></member>
     <member refid="group__GeneralGroup_1gae0f862cb58c64e35b3da4f2f0698f466" kind="function"><name>operator/=</name></member>
     <member refid="group__GeneralGroup_1ga8ddbb2995c7659e3cc15a4e925ee3ca8" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1gadc1d56b4558307eb71c27eb346bdfd1c" kind="function"><name>getProductName</name></member>
     <member refid="group__GeneralGroup_1ga0ff4e521ce66f8d5f5cf13febff39797" kind="function"><name>SetCurrentThreadName</name></member>
     <member refid="group__GeneralGroup_1ga8e20dfb03738a16f05bed84c41fa1738" kind="function"><name>GetExeDirectory</name></member>
     <member refid="group__GeneralGroup_1gacbcf76720f1f257b107cbd0d2b92769d" kind="function"><name>GetResourcesDirectory</name></member>
@@ -29195,6 +29287,7 @@
     <member refid="group__GeneralGroup_1ga401738f95d6edbb1474a51c84ddb63f1" kind="function"><name>setupConfiguration</name></member>
     <member refid="group__GeneralGroup_1ga7af550b06bca5828017818c0fd0f41ce" kind="function"><name>setupExtendedLibraries</name></member>
     <member refid="group__GeneralGroup_1ga2c129133dc78a903ad58f466bb4bd591" kind="function"><name>unloadExtendedLibraries</name></member>
+    <member refid="group__GeneralGroup_1gaf6506d80121763c6d296ced7af498180" kind="function"><name>setupMcp</name></member>
     <member refid="group__GeneralGroup_1ga8d0c35a10cb3d303e56387880f7a8e76" kind="function"><name>getPickerFragmentShader</name></member>
     <member refid="group__GeneralGroup_1ga97e752a49fe4e2e3b65e9f915b122aca" kind="function"><name>getFragmentShaderClippingBlock</name></member>
     <member refid="group__GeneralGroup_1ga78665c9b4ad78ff98be332b9dc1d7d9f" kind="function"><name>getFragmentShaderPointSizeBlock</name></member>
@@ -30522,6 +30615,8 @@
   <compound refid="dir_1e46fd58d70d8ee979256a72e2e6760c" kind="dir"><name>MREmbeddedPython</name>
   </compound>
   <compound refid="dir_30f37b35737589035d1f84e9f207764c" kind="dir"><name>MRIOExtras</name>
+  </compound>
+  <compound refid="dir_c4ac7cffb61691f4da7a791af467628a" kind="dir"><name>MRMcp</name>
   </compound>
   <compound refid="dir_0cc3bc4bf87f190d6580fb811ae42f71" kind="dir"><name>MRMesh</name>
   </compound>

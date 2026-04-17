@@ -849,6 +849,7 @@
     <innernamespace refid="namespaceMR_1_1LinesLoad">MR::LinesLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1LinesSave">MR::LinesSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1Locale">MR::Locale</innernamespace>
+    <innernamespace refid="namespaceMR_1_1Mcp">MR::Mcp</innernamespace>
     <innernamespace refid="namespaceMR_1_1MeshBuilder">MR::MeshBuilder</innernamespace>
     <innernamespace refid="namespaceMR_1_1MeshComponents">MR::MeshComponents</innernamespace>
     <innernamespace refid="namespaceMR_1_1MeshLoad">MR::MeshLoad</innernamespace>
@@ -3146,6 +3147,7 @@
       <member refid="group__SurfacePathSubgroup_1ga21cf317952d09d64b66f7adbb3003bbb" kind="function"><name>geodesicPathToContour3f</name></member>
       <member refid="group__MeshSegmentationGroup_1ga523c39ef67221263d3946ae1621fa9e4" kind="function"><name>surroundingContour</name></member>
       <member refid="group__MeshSegmentationGroup_1ga46d905801bbc9f1713086eceb50f7799" kind="function"><name>surroundingContour</name></member>
+      <member refid="group__GeneralGroup_1gadc1d56b4558307eb71c27eb346bdfd1c" kind="function"><name>getProductName</name></member>
       <member refid="group__GeneralGroup_1ga0ff4e521ce66f8d5f5cf13febff39797" kind="function"><name>SetCurrentThreadName</name></member>
       <member refid="group__GeneralGroup_1ga8e20dfb03738a16f05bed84c41fa1738" kind="function"><name>GetExeDirectory</name></member>
       <member refid="group__GeneralGroup_1gacbcf76720f1f257b107cbd0d2b92769d" kind="function"><name>GetResourcesDirectory</name></member>

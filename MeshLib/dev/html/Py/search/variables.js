@@ -1917,7 +1917,7 @@ var searchData=
   ['options_12',['options',['../classmrmeshpy_1_1Nesting_1_1BoxNestingParams.html#a22379a8ae59ba53ec46ccc5aa05e741f',1,'mrmeshpy.Nesting.BoxNestingParams.options'],['../classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams.html#a18a744ac033ecbd96dfd32f96eeabef8',1,'mrmeshpy.Nesting.TetrisDensifyParams.options']]],
   ['orgringiterator_13',['OrgRingIterator',['../namespacemrmeshpy.html#aaa71d492d5a55083e32327e9f502850f',1,'mrmeshpy']]],
   ['orthogonalaxis_14',['OrthogonalAxis',['../classmrmeshpy_1_1ICPMode.html#a2a817b0e3541c1172382e29cfc6adbf6',1,'mrmeshpy::ICPMode']]],
-  ['other_15',['other',['../classmrmeshpy_1_1FeaturePropertyKind.html#a4ff0d1cb12388ff8004a4e2112fb8cc7',1,'mrmeshpy.FeaturePropertyKind.other'],['../classmrviewerpy_1_1UiEntryType.html#a456defb86e0d103446a670b201f30de4',1,'mrviewerpy.UiEntryType.other']]],
+  ['other_15',['other',['../classmrmeshpy_1_1FeaturePropertyKind.html#a4ff0d1cb12388ff8004a4e2112fb8cc7',1,'mrmeshpy::FeaturePropertyKind']]],
   ['out_16',['out',['../classmrmeshpy_1_1FaceDistancesSettings.html#aac877e569242acb56de0ca44d2f4cd19',1,'mrmeshpy::FaceDistancesSettings']]],
   ['outside_17',['Outside',['../classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#ae8aaddea35c2d8870fde351e97ba3757',1,'mrmeshpy::VolumeSegmenter::SeedType']]],
   ['outsidea_18',['OutsideA',['../classmrmeshpy_1_1BooleanOperation.html#a2faa4c545f5d0dbf3176d6ed1a08e6d6',1,'mrmeshpy::BooleanOperation']]],

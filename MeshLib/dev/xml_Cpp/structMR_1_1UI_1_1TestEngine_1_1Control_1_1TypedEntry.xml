@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::TestEngine::Control::TypedEntry</compoundname>
+    <includes refid="MRUITestEngineControl_8h" local="no">MRViewer/MRUITestEngineControl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1a4e3cc6eede4e75192082ff04395854a1" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::UI::TestEngine::Control::TypedEntry::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR::UI::TestEngine::Control::TypedEntry::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="48" column="17" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1ad9e38d8846b1d30eae0a44704076f315" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2" kindref="member">EntryType</ref></type>
+        <definition>EntryType MR::UI::TestEngine::Control::TypedEntry::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR::UI::TestEngine::Control::TypedEntry::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="49" column="15" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRUITestEngineControl.h" line="46" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="47" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1a4e3cc6eede4e75192082ff04395854a1" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Control::TypedEntry</scope><name>name</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1ad9e38d8846b1d30eae0a44704076f315" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Control::TypedEntry</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

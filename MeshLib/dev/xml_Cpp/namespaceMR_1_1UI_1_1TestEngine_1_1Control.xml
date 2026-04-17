@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1UI_1_1TestEngine_1_1Control" kind="namespace" language="C++">
+    <compoundname>MR::UI::TestEngine::Control</compoundname>
+    <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry" prot="public">MR::UI::TestEngine::Control::TypedEntry</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" prot="public">MR::UI::TestEngine::Control::Value</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>EntryType</name>
+        <qualifiedname>MR::UI::TestEngine::Control::EntryType</qualifiedname>
+        <enumvalue id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2ace50a09343724eb82df11390e2c1de18" prot="public">
+          <name>button</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2adb0f6f37ebeb6ea09489124345af2a45" prot="public">
+          <name>group</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2ac90003a36daf39c1f43bb3af3689cd92" prot="public">
+          <name>valueInt</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2ac5b6efbcca1f43b59969a46a5d29cca8" prot="public">
+          <name>valueUint</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2af02c10344a98c7dcc797ccc308953387" prot="public">
+          <name>valueReal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2abdf2e8bb433e2d884bd053d6c86ca415" prot="public">
+          <name>valueString</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Most changes in this file must be synced with:<itemizedlist>
+<listitem><para>Python: <computeroutput>source/mrviewerpy/MRPythonUiInteraction.cpp</computeroutput>.</para>
+</listitem><listitem><para>MCP: <computeroutput>source/MRViewer/MRViewerMcp.cpp</computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="18" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="19" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ab1f16adb97ad78831d0adc98001d159c" prot="public" static="no">
+        <type><ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; std::int64_t &gt;</type>
+        <definition>using MR::UI::TestEngine::Control::ValueInt =  Value&lt;std::int64_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>ValueInt</name>
+        <qualifiedname>MR::UI::TestEngine::Control::ValueInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="77" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a5914bec5adb87dabb4f941019a148954" prot="public" static="no">
+        <type><ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; std::uint64_t &gt;</type>
+        <definition>using MR::UI::TestEngine::Control::ValueUint =  Value&lt;std::uint64_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>ValueUint</name>
+        <qualifiedname>MR::UI::TestEngine::Control::ValueUint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="78" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ad456dfdc303cbbde03795fdc758349ea" prot="public" static="no">
+        <type><ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; double &gt;</type>
+        <definition>using MR::UI::TestEngine::Control::ValueReal =  Value&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>ValueReal</name>
+        <qualifiedname>MR::UI::TestEngine::Control::ValueReal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="79" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a42e73a6648ccc701e3e2db8e6699e65a" prot="public" static="no">
+        <type><ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; std::string &gt;</type>
+        <definition>using MR::UI::TestEngine::Control::ValueString =  Value&lt;std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>ValueString</name>
+        <qualifiedname>MR::UI::TestEngine::Control::ValueString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="80" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af5fdf7810e48bc37be0ad0931e5afc26" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string_view</type>
+        <definition>std::string_view MR::UI::TestEngine::Control::toString</definition>
+        <argsstring>(EntryType type)</argsstring>
+        <name>toString</name>
+        <qualifiedname>MR::UI::TestEngine::Control::toString</qualifiedname>
+        <param>
+          <type><ref refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2" kindref="member">EntryType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="28" column="26" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="28" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a7959c4b617a6e856c2fe10e56443708d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::UI::TestEngine::Control::pathToString</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path)</argsstring>
+        <name>pathToString</name>
+        <qualifiedname>MR::UI::TestEngine::Control::pathToString</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Returns the elements of <computeroutput>path</computeroutput> combined into a single string. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="53" column="15" declfile="MRViewer/MRUITestEngineControl.h" declline="53" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ac7d2dff4d7a1de92dc5a2bfe5fab872e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry" kindref="compound">TypedEntry</ref> &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; TypedEntry &gt; &gt; MR::UI::TestEngine::Control::listEntries</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path)</argsstring>
+        <name>listEntries</name>
+        <qualifiedname>MR::UI::TestEngine::Control::listEntries</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Returns the contents of <computeroutput>path</computeroutput>, or an error if the path is wrong. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="56" column="12" declfile="MRViewer/MRUITestEngineControl.h" declline="56" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af1983bd5d3b6cb49c8856dab3970cf88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::UI::TestEngine::Control::pressButton</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path)</argsstring>
+        <name>pressButton</name>
+        <qualifiedname>MR::UI::TestEngine::Control::pressButton</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Presses the button at this path, or returns an error. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="59" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="59" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a5a111c148d2eb627a399fde7f449d8e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; T &gt; &gt;</type>
+        <definition>template Expected&lt; Value&lt; std::string &gt; &gt; MR::UI::TestEngine::Control::readValue</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path)</argsstring>
+        <name>readValue</name>
+        <qualifiedname>MR::UI::TestEngine::Control::readValue</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Returns the value at the <computeroutput>path</computeroutput>, or returns an error if the path or type is wrong. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="84" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="84" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1aecf4fc0a614180fc9054d35d369e126d" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; std::int64_t &gt; &gt;</type>
+        <definition>template Expected&lt; Value&lt; std::int64_t &gt; &gt; MR::UI::TestEngine::Control::readValue</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path)</argsstring>
+        <name>readValue</name>
+        <qualifiedname>MR::UI::TestEngine::Control::readValue</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="86" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="86" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a98aa8ea615046831943a857d5ede271e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::UI::TestEngine::Control::writeValue</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path, T value)</argsstring>
+        <name>writeValue</name>
+        <qualifiedname>MR::UI::TestEngine::Control::writeValue</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Modifies the value at the <computeroutput>path</computeroutput>, or returns an error if the path, type or value are wrong. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="93" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="93" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ac9f7517c70abef7744da064d09234ac7" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>template Expected&lt; void &gt; MR::UI::TestEngine::Control::writeValue</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path, std::int64_t value)</argsstring>
+        <name>writeValue</name>
+        <qualifiedname>MR::UI::TestEngine::Control::writeValue</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="95" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="95" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a3ae0319bbff320d95e0b82979c2fe2fb" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>template Expected&lt; void &gt; MR::UI::TestEngine::Control::writeValue</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path, std::uint64_t value)</argsstring>
+        <name>writeValue</name>
+        <qualifiedname>MR::UI::TestEngine::Control::writeValue</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>std::uint64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="96" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="96" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a4a281d619b459aaed29301c7de856d0f" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>template Expected&lt; void &gt; MR::UI::TestEngine::Control::writeValue</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path, double value)</argsstring>
+        <name>writeValue</name>
+        <qualifiedname>MR::UI::TestEngine::Control::writeValue</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="97" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="97" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a05ff5d106f5323584a002f5f692d2d04" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>template Expected&lt; void &gt; MR::UI::TestEngine::Control::writeValue</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;path, std::string value)</argsstring>
+        <name>writeValue</name>
+        <qualifiedname>MR::UI::TestEngine::Control::writeValue</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="98" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="98" declcolumn="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRUITestEngineControl.h" line="11" column="1"/>
+  </compounddef>
+</doxygen>

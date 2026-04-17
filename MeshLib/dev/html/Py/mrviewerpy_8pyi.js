@@ -47,9 +47,5 @@ var mrviewerpy_8pyi =
     [ "mrviewerpy.uiWriteValue", "namespacemrviewerpy.html#a650078ff8a62bab8e093fae78e06e038", null ],
     [ "mrviewerpy.uiWriteValue", "namespacemrviewerpy.html#a30b8fcbad852a022e76e4e06a670475e", null ],
     [ "mrviewerpy.uiWriteValue", "namespacemrviewerpy.html#a58ad745bf2be021726077e06fef0f7f9", null ],
-    [ "mrviewerpy.uiWriteValueInt", "namespacemrviewerpy.html#a6bfe9b7df9f135d662c86bfb1f6007d4", null ],
-    [ "mrviewerpy.uiWriteValueReal", "namespacemrviewerpy.html#a13b0728e00264a60ad58ba1de9f875cd", null ],
-    [ "mrviewerpy.uiWriteValueString", "namespacemrviewerpy.html#a3d84542d70879e971877e14255a8255b", null ],
-    [ "mrviewerpy.uiWriteValueUint", "namespacemrviewerpy.html#a8be26b5f21b4c456d590c4f801f56896", null ],
     [ "mrviewerpy.unselectAll", "namespacemrviewerpy.html#ad965015c4901e460f6bd40a4b2f70f8d", null ]
 ];

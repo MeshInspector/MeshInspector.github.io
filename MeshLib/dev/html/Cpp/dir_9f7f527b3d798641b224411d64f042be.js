@@ -148,6 +148,7 @@ var dir_9f7f527b3d798641b224411d64f042be =
     [ "MRUISaveChangesPopup.h", "MRUISaveChangesPopup_8h.html", "MRUISaveChangesPopup_8h" ],
     [ "MRUIStyle.h", "MRUIStyle_8h.html", "MRUIStyle_8h" ],
     [ "MRUITestEngine.h", "MRUITestEngine_8h.html", "MRUITestEngine_8h" ],
+    [ "MRUITestEngineControl.h", "MRUITestEngineControl_8h.html", "MRUITestEngineControl_8h" ],
     [ "MRUnits.h", "MRUnits_8h.html", "MRUnits_8h" ],
     [ "MRUnitSettings.h", "MRUnitSettings_8h.html", "MRUnitSettings_8h" ],
     [ "MRVectorTraits.h", "MRViewer_2MRVectorTraits_8h.html", null ],

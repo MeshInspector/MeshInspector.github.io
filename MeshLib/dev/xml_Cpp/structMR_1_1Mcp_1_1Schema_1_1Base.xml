@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Mcp_1_1Schema_1_1Base" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Mcp::Schema::Base</compoundname>
+    <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Array" prot="public" virt="non-virtual">MR::Mcp::Schema::Array</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Empty" prot="public" virt="non-virtual">MR::Mcp::Schema::Empty</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Number" prot="public" virt="non-virtual">MR::Mcp::Schema::Number</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Object" prot="public" virt="non-virtual">MR::Mcp::Schema::Object</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1String" prot="public" virt="non-virtual">MR::Mcp::Schema::String</derivedcompoundref>
+    <includes refid="MRMcp_8h" local="no">MRMcp/MRMcp.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="structMR_1_1Mcp_1_1Schema_1_1Base_1ad8d4f52c560bc15c39cc7651fe3d6319" prot="protected" static="no" mutable="no">
+        <type>nlohmann::json</type>
+        <definition>nlohmann::json MR::Mcp::Schema::Base::json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <qualifiedname>MR::Mcp::Schema::Base::json</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="20" column="24" bodyfile="MRMcp/MRMcp.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Base_1ab3722df7873d35858a407287f4bad904" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mcp::Schema::Base::Base</definition>
+        <argsstring>(nlohmann::json json)</argsstring>
+        <name>Base</name>
+        <qualifiedname>MR::Mcp::Schema::Base::Base</qualifiedname>
+        <param>
+          <type>nlohmann::json</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="21" column="9" bodyfile="MRMcp/MRMcp.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Base_1ad07a4f144fbb2f526abdfdd787ebff20" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <type>const nlohmann::json &amp;</type>
+        <definition>const nlohmann::json &amp; MR::Mcp::Schema::Base::asJson</definition>
+        <argsstring>() const &amp;</argsstring>
+        <name>asJson</name>
+        <qualifiedname>MR::Mcp::Schema::Base::asJson</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="24" column="31" bodyfile="MRMcp/MRMcp.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Base_1a7d669690e5854d01f79f9d2da549f059" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
+        <type>nlohmann::json &amp;&amp;</type>
+        <definition>nlohmann::json &amp;&amp; MR::Mcp::Schema::Base::asJson</definition>
+        <argsstring>() &amp;&amp;</argsstring>
+        <name>asJson</name>
+        <qualifiedname>MR::Mcp::Schema::Base::asJson</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="25" column="25" bodyfile="MRMcp/MRMcp.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A common base class for the different schemas. Functions can accept this by value, it&apos;s fine to slice it. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::Mcp::Schema::Array</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Array"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::Mcp::Schema::Base</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Base"/>
+      </node>
+      <node id="3">
+        <label>MR::Mcp::Schema::Empty</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Empty"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::Mcp::Schema::Number</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Number"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Mcp::Schema::Object</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Object"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::Mcp::Schema::String</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1String"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="MRMcp/MRMcp.h" line="17" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="18" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad07a4f144fbb2f526abdfdd787ebff20" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Base</scope><name>asJson</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1a7d669690e5854d01f79f9d2da549f059" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Base</scope><name>asJson</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ab3722df7873d35858a407287f4bad904" prot="protected" virt="non-virtual"><scope>MR::Mcp::Schema::Base</scope><name>Base</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad8d4f52c560bc15c39cc7651fe3d6319" prot="protected" virt="non-virtual"><scope>MR::Mcp::Schema::Base</scope><name>json</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
