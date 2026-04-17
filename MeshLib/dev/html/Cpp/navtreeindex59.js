@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[6,0,0,0,2,0,10],
 "structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[6,0,0,0,2,0,21],
 "structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[6,0,0,0,2,0,30],
 "structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1FileDialogSignals.html":[6,0,0,20,552],
 "structMR_1_1FileDialog_1_1Parameters.html":[6,0,0,20,554],
 "structMR_1_1FileLoadOptions.html":[6,0,0,20,555],
-"structMR_1_1FileParameters.html":[6,0,0,20,553],
-"structMR_1_1FillHoleItem.html":[6,0,0,9,3,2]
+"structMR_1_1FileParameters.html":[6,0,0,20,553]
 };

@@ -2,7 +2,46 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ViewportProperty__Color" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ViewportProperty_Color</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ViewportProperty__Color_1a698b15f1ab8b3312ebe0a9ed10583ba2" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ViewportProperty_Color::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74289" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a2e453b331b67b3892bde4aa126195aec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_Color.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.__eq__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74291" bodyend="74292"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a76e5e9650a6c07ed829d7645f9b3d3e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.ViewportProperty_Color.__init__</definition>
@@ -23,51 +62,51 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74287" bodyend="74288"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1ae309fefa1ce7eac73f679197b32f1eeb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
-        <definition> ViewportProperty_Color mrmeshpy.ViewportProperty_Color.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ViewportProperty_Color.operator</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74291" bodyend="74292"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1ae309fefa1ce7eac73f679197b32f1eeb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
-        <definition> ViewportProperty_Color mrmeshpy.ViewportProperty_Color.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ViewportProperty_Color.operator</qualifiedname>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74295" bodyend="74296"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1ae309fefa1ce7eac73f679197b32f1eeb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.ViewportProperty_Color.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74299" bodyend="74300"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1ae309fefa1ce7eac73f679197b32f1eeb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.ViewportProperty_Color.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Color.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74303" bodyend="74304"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -93,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74297" bodyend="74300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74305" bodyend="74308"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a46a3b997c04b42dcc602fb584967b20a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -111,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74302" bodyend="74303"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74310" bodyend="74311"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a984f502d63d48c9c4047cf755905e1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -133,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74305" bodyend="74306"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74313" bodyend="74314"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a643bc71b8eeccb2d5beacc1d8f2e9ba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -157,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74308" bodyend="74311"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74316" bodyend="74319"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a529e45c3f8f4f019dc7ffd794ef95ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -183,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74312" bodyend="74313"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74320" bodyend="74321"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a47efba2c766934ccadf095d1f4733e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
@@ -203,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74315" bodyend="74318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74323" bodyend="74326"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a47efba2c766934ccadf095d1f4733e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
@@ -221,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74320" bodyend="74321"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74328" bodyend="74329"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a28484d58889b7211de1fcbdca3f328c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
@@ -251,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74323" bodyend="74327"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74331" bodyend="74335"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a1f93016de552edcee7baa2265e2f6bf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -276,7 +315,7 @@ returns true if any specific value was removed
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74329" bodyend="74333"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74337" bodyend="74341"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a50749151772ace4fae93cfe70792d261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -297,7 +336,7 @@ returns true if any specific value was removed
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74335" bodyend="74339"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74343" bodyend="74347"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a46fa7a16dc22cb0ff7f947ac718a9981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -321,7 +360,7 @@ returns true if any specific value was removed
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74341" bodyend="74344"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74349" bodyend="74352"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Color_1a11814459aa362b878cd8527a331c994c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -349,7 +388,7 @@ returns true if any specific value was removed
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74346" bodyend="74349"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74354" bodyend="74357"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -361,9 +400,11 @@ storage of some viewport-dependent property,
 which has some default value for all viewports and special values for some specific viewports
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74278" bodyend="74349"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74282" bodyend="74357"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a2e453b331b67b3892bde4aa126195aec" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1ViewportProperty__Color_1ae5eaef0cf481ad7fc07a7da76a4cbcb9" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a698b15f1ab8b3312ebe0a9ed10583ba2" prot="private" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__hash__</name></member>
       <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a76e5e9650a6c07ed829d7645f9b3d3e3" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a46a3b997c04b42dcc602fb584967b20a" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ViewportProperty__Color_1a984f502d63d48c9c4047cf755905e1a8" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Color</scope><name>__init__</name></member>

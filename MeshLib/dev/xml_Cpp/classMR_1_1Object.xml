@@ -591,7 +591,7 @@
         </inbodydescription>
         <location file="MRMesh/MRObject.h" line="113" column="29" bodyfile="MRMesh/MRObject.h" bodystart="113" bodyend="113"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void MR::Object::setXfsForAllViewports</definition>
         <argsstring>(ViewportProperty&lt; AffineXf3f &gt; xf)</argsstring>
@@ -608,7 +608,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObject.h" line="115" column="18" bodyfile="MRMesh/MRObject.h" bodystart="115" bodyend="115"/>
+        <location file="MRMesh/MRObject.h" line="115" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Object_1a2b84ff3669616f30ffec70c763993f12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3f</type>

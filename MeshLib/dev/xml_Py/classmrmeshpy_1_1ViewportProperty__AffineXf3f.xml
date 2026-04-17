@@ -2,13 +2,30 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1ViewportProperty__AffineXf3f" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::ViewportProperty_AffineXf3f</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a33966debab905c9a259873718c9e3aac" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ViewportProperty_AffineXf3f::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74213" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a50d4aebb0f24113b0dc52f216929f6de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.__init__</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a61457992de7aeb1829096a0b7ef2cd18" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_AffineXf3f.__eq__</definition>
         <argsstring>(*args, **kwargs)</argsstring>
-        <name>__init__</name>
-        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__init__</qualifiedname>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__eq__</qualifiedname>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -25,12 +42,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74215" bodyend="74216"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a71175cf216cc1e4c9c043e3e0c616e81" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f" kindref="compound">ViewportProperty_AffineXf3f</ref></type>
-        <definition> ViewportProperty_AffineXf3f mrmeshpy.ViewportProperty_AffineXf3f.operator</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a50d4aebb0f24113b0dc52f216929f6de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_AffineXf3f.__init__</definition>
         <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.operator</qualifiedname>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.__init__</qualifiedname>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -69,6 +86,28 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74223" bodyend="74224"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a71175cf216cc1e4c9c043e3e0c616e81" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f" kindref="compound">ViewportProperty_AffineXf3f</ref></type>
+        <definition> ViewportProperty_AffineXf3f mrmeshpy.ViewportProperty_AffineXf3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_AffineXf3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74227" bodyend="74228"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ac5de8cafc1e11ae3331868e7b7c3c5df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -93,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74225" bodyend="74228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74229" bodyend="74232"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a3ac38884065fca472ff6e7f43161fcec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -111,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74230" bodyend="74231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74234" bodyend="74235"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a3c27107e4a14a48aa23db22c958f4e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -133,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74233" bodyend="74234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74237" bodyend="74238"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ab285716921fd2eda73f95d99e09ef8c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -157,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74236" bodyend="74239"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74240" bodyend="74243"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a6e455159f39e3d845d7adfa3d61fab63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -183,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74240" bodyend="74241"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74244" bodyend="74245"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ad051529b746ca35ad333689307272ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -203,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74243" bodyend="74246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74247" bodyend="74250"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ad051529b746ca35ad333689307272ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -221,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74248" bodyend="74249"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74252" bodyend="74253"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a7adef732f03223e0d390bbb151497cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -251,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74251" bodyend="74255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74255" bodyend="74259"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a608dbc9ff3e9d0ca97dfecb33ba3e7f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -276,7 +315,7 @@ returns true if any specific value was removed
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74257" bodyend="74261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74261" bodyend="74265"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a80e3e632fab76fdde008134d62bfcb54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -297,7 +336,7 @@ returns true if any specific value was removed
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74263" bodyend="74267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74267" bodyend="74271"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ab91e3ff0b39a727254b0e52e4645c9fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -321,7 +360,7 @@ returns true if any specific value was removed
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74269" bodyend="74272"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74273" bodyend="74276"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ae89467dfbaeca3645f2af12b050b78d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -349,7 +388,7 @@ returns true if any specific value was removed
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74274" bodyend="74277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74278" bodyend="74281"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -361,9 +400,11 @@ storage of some viewport-dependent property,
 which has some default value for all viewports and special values for some specific viewports
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74206" bodyend="74277"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74206" bodyend="74281"/>
     <listofallmembers>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a61457992de7aeb1829096a0b7ef2cd18" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1ac5de8cafc1e11ae3331868e7b7c3c5df" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a33966debab905c9a259873718c9e3aac" prot="private" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__hash__</name></member>
       <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a50d4aebb0f24113b0dc52f216929f6de" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a3ac38884065fca472ff6e7f43161fcec" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ViewportProperty__AffineXf3f_1a3c27107e4a14a48aa23db22c958f4e7e" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_AffineXf3f</scope><name>__init__</name></member>
