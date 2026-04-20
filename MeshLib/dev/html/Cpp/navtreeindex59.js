@@ -1,5 +1,10 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1BooleanResult.html#ad2591d2b1ef80f9dc169034f419d83e4":[6,0,0,8,5,4],
+"structMR_1_1BooleanResultMapper.html":[6,0,0,8,0],
+"structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9":[6,0,0,8,0,2],
+"structMR_1_1BooleanResultMapper.html#a2afc6594c031077012caba95a2ba2672":[6,0,0,8,0,5],
+"structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f":[6,0,0,8,0,11],
 "structMR_1_1BooleanResultMapper.html#a3c9521a76c9f0ff1327150e75980e48f":[6,0,0,8,0,6],
 "structMR_1_1BooleanResultMapper.html#a4025520e93584d2b0b95e661d513df2b":[6,0,0,8,0,8],
 "structMR_1_1BooleanResultMapper.html#a49d9476b91391ce052bbd2b26db33be5":[6,0,0,8,0,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1DragDropListener.html":[6,0,0,20,756],
 "structMR_1_1DragEndListener.html":[6,0,0,20,746],
 "structMR_1_1DragEntranceListener.html":[6,0,0,20,757],
-"structMR_1_1DragListener.html":[6,0,0,20,747],
-"structMR_1_1DragOverListener.html":[6,0,0,20,758],
-"structMR_1_1DragStartListener.html":[6,0,0,20,745],
-"structMR_1_1DrawButtonParams.html":[6,0,0,20,635],
-"structMR_1_1DrawListener.html":[6,0,0,20,754],
-"structMR_1_1DrawSceneUiListener.html":[6,0,0,20,566]
+"structMR_1_1DragListener.html":[6,0,0,20,747]
 };

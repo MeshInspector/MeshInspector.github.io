@@ -4266,7 +4266,7 @@
     <member refid="group__GeneralGroup_1ga493d46d4f1ecabb263dc5528086e2660" kind="variable"><name>searchPluginsString_</name></member>
     <member refid="group__GeneralGroup_1ga870366d79164cd2f0909a5d12d551eea" kind="variable"><name>modifiers_</name></member>
     <member refid="group__GeneralGroup_1ga4235036156971a18b7ef3ad2e50c0291" kind="variable"><name>Single</name></member>
-    <member refid="group__GeneralGroup_1gaca4f11387f1bcb127e2e9dfd5eef27fa" kind="variable"><name>selectionChangedToSingleObj_</name></member>
+    <member refid="group__GeneralGroup_1ga49c19c2fdda8a6285c1a30c8018a8538" kind="variable"><name>transformBlockShown_</name></member>
     <member refid="group__GeneralGroup_1ga25d70db427b76e61497c7fe1c62ac778" kind="variable"><name>selectedViewport_</name></member>
     <member refid="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" kind="variable"><name>editedFeatureObject_</name></member>
     <member refid="group__GeneralGroup_1ga6afa105ae1f7116d82db1d5068aef0ef" kind="variable"><name>editedFeatureObjectOldXf_</name></member>
@@ -4312,7 +4312,10 @@
     <member refid="group__GeneralGroup_1gaa2da5750de4e13ca0344018028ab6d0c" kind="function"><name>draw_custom_selection_properties</name></member>
     <member refid="group__GeneralGroup_1ga67a662b0fa0e5169bae00962c8ba2675" kind="function"><name>drawTagInformation_</name></member>
     <member refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" kind="function"><name>drawTransform_</name></member>
-    <member refid="group__GeneralGroup_1ga688017f6a29a7758add50c7070c2a9af" kind="function"><name>drawTransformContextMenu_</name></member>
+    <member refid="group__GeneralGroup_1ga3c93b3198a82123abaaf9619c58277cb" kind="function"><name>drawMixedTransformField_</name></member>
+    <member refid="group__GeneralGroup_1ga65cb9f9b2313e78e999658565fa015c1" kind="function"><name>makeObjectsXfHistoryAction_</name></member>
+    <member refid="group__GeneralGroup_1ga20f37af023e4aded4584a7858e7c3092" kind="function"><name>applyXfToObjects_</name></member>
+    <member refid="group__GeneralGroup_1gae4c26f4c30442c915cba470b1bd73bf4" kind="function"><name>drawTransformContextMenu_</name></member>
     <member refid="group__GeneralGroup_1ga9acbbe6962c9c3658461ad306bf41e7a" kind="function"><name>drawShortcutsWindow_</name></member>
     <member refid="group__GeneralGroup_1gaf1877fc755762a20d997b8f1a9742043" kind="function"><name>getSceneInfoItemWidth_</name></member>
     <member refid="group__GeneralGroup_1gab64a0169c2ce828e50018e9e77a7efde" kind="function"><name>instance</name></member>
@@ -9629,7 +9632,7 @@
     <member refid="group__GeneralGroup_1gacb89c437b79fea69c14fef598c252f1e" kind="function"><name>drawRibbonViewportsLabels_</name></member>
     <member refid="group__GeneralGroup_1ga6f64b502d9c3db06776ce08541d30171" kind="function"><name>drawRibbonSceneInformation_</name></member>
     <member refid="group__GeneralGroup_1gaf44199b5b50359aea5672a4fe6fc15b6" kind="function"><name>drawCollapsingHeaderTransform_</name></member>
-    <member refid="group__GeneralGroup_1ga41939a653321459fbe74ca2681d1018b" kind="function"><name>drawTransformContextMenu_</name></member>
+    <member refid="group__GeneralGroup_1gaa2726e1e9c7a515f4e7d7bb6ab68a8bd" kind="function"><name>drawTransformContextMenu_</name></member>
     <member refid="group__GeneralGroup_1ga79d934454b70a10bf9d496eac45c9444" kind="function"><name>addRibbonItemShortcut_</name></member>
     <member refid="group__GeneralGroup_1gaeb41176e7a133b557b1a998b93368f61" kind="function"><name>setupShortcuts_</name></member>
     <member refid="group__GeneralGroup_1gada14d714cf73f7b3a65778f2f5a991e0" kind="function"><name>drawShortcutsWindow_</name></member>
@@ -9989,6 +9992,7 @@
     <member refid="group__GeneralGroup_1ga8dc1a7e0d229b3e79f0bced413a9b2eb" kind="variable"><name>cachedData_</name></member>
     <member refid="group__GeneralGroup_1gaab9628f3354b6169fbf7eaba4827b94a" kind="function"><name>invalidateAll</name></member>
     <member refid="group__GeneralGroup_1gaf66e451d5cc1d0246d98bb3700a0b82c" kind="function"><name>getAllObjects</name></member>
+    <member refid="group__GeneralGroup_1ga2a37c5b318156ba616f5da6279e5dbb8" kind="function"><name>getAllTopmostObjects</name></member>
     <member refid="group__GeneralGroup_1gab93260d19565ceecb9a28f584dd102fc" kind="function"><name>instance_</name></member>
     <member refid="group__GeneralGroup_1gaab04433c59956d678e5cbf5fe5ec657c" kind="function"><name>SceneCache</name></member>
   </compound>
@@ -11337,6 +11341,9 @@
     <member refid="group__GeneralGroup_1gae495a5fc24540b7eaf1210872ac5fb3e" kind="variable"><name>modifiedMesh</name></member>
     <member refid="group__GeneralGroup_1ga98b818ec1b422fbe35f5efd57ff37a44" kind="variable"><name>modifiedRegion</name></member>
     <member refid="group__GeneralGroup_1ga327bcaceb046cef6859ddc1293a47e35" kind="variable"><name>commands</name></member>
+  </compound>
+  <compound refid="structMR_1_1SceneCache_1_1TopmostVectorHolder" kind="struct"><name>MR::SceneCache::TopmostVectorHolder</name>
+    <member refid="group__GeneralGroup_1ga59a56a9cd42bd996e0743126cfba1b33" kind="variable"><name>value</name></member>
   </compound>
   <compound refid="structMR_1_1TouchEndListener" kind="struct"><name>MR::TouchEndListener</name>
     <member refid="group__GeneralGroup_1gad4f9cdfb229f3a5fd00c8412b90506ef" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
@@ -22679,7 +22686,7 @@
     <member refid="group__GeneralGroup_1ga493d46d4f1ecabb263dc5528086e2660" kind="variable"><name>searchPluginsString_</name></member>
     <member refid="group__GeneralGroup_1ga870366d79164cd2f0909a5d12d551eea" kind="variable"><name>modifiers_</name></member>
     <member refid="group__GeneralGroup_1ga4235036156971a18b7ef3ad2e50c0291" kind="variable"><name>Single</name></member>
-    <member refid="group__GeneralGroup_1gaca4f11387f1bcb127e2e9dfd5eef27fa" kind="variable"><name>selectionChangedToSingleObj_</name></member>
+    <member refid="group__GeneralGroup_1ga49c19c2fdda8a6285c1a30c8018a8538" kind="variable"><name>transformBlockShown_</name></member>
     <member refid="group__GeneralGroup_1ga25d70db427b76e61497c7fe1c62ac778" kind="variable"><name>selectedViewport_</name></member>
     <member refid="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" kind="variable"><name>editedFeatureObject_</name></member>
     <member refid="group__GeneralGroup_1ga6afa105ae1f7116d82db1d5068aef0ef" kind="variable"><name>editedFeatureObjectOldXf_</name></member>
@@ -23501,6 +23508,7 @@
     <member refid="group__GeneralGroup_1gae4139c3222b09a562333caf459d7e055" kind="variable"><name>showCloseModal_</name></member>
     <member refid="group__GeneralGroup_1ga3b7539c88a24677b7bad805b0965fd03" kind="variable"><name>activeModalHighlightTimer_</name></member>
     <member refid="group__GeneralGroup_1ga298b1987dbe5d8d598ab8a165c6c6e61" kind="variable"><name>value</name></member>
+    <member refid="group__GeneralGroup_1ga59a56a9cd42bd996e0743126cfba1b33" kind="variable"><name>value</name></member>
     <member refid="group__GeneralGroup_1ga8dc1a7e0d229b3e79f0bced413a9b2eb" kind="variable"><name>cachedData_</name></member>
     <member refid="group__GeneralGroup_1gaa7398f0bbd20f0632bffb15fdd7b9697" kind="variable"><name>historyStoreConnection_</name></member>
     <member refid="group__GeneralGroup_1ga8c653d61ba6079f4d97d9299f3a8cbe8" kind="variable"><name>historyStoreConnection_</name></member>
@@ -28097,7 +28105,10 @@
     <member refid="group__GeneralGroup_1gaa2da5750de4e13ca0344018028ab6d0c" kind="function"><name>draw_custom_selection_properties</name></member>
     <member refid="group__GeneralGroup_1ga67a662b0fa0e5169bae00962c8ba2675" kind="function"><name>drawTagInformation_</name></member>
     <member refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" kind="function"><name>drawTransform_</name></member>
-    <member refid="group__GeneralGroup_1ga688017f6a29a7758add50c7070c2a9af" kind="function"><name>drawTransformContextMenu_</name></member>
+    <member refid="group__GeneralGroup_1ga3c93b3198a82123abaaf9619c58277cb" kind="function"><name>drawMixedTransformField_</name></member>
+    <member refid="group__GeneralGroup_1ga65cb9f9b2313e78e999658565fa015c1" kind="function"><name>makeObjectsXfHistoryAction_</name></member>
+    <member refid="group__GeneralGroup_1ga20f37af023e4aded4584a7858e7c3092" kind="function"><name>applyXfToObjects_</name></member>
+    <member refid="group__GeneralGroup_1gae4c26f4c30442c915cba470b1bd73bf4" kind="function"><name>drawTransformContextMenu_</name></member>
     <member refid="group__GeneralGroup_1ga9acbbe6962c9c3658461ad306bf41e7a" kind="function"><name>drawShortcutsWindow_</name></member>
     <member refid="group__GeneralGroup_1gaf1877fc755762a20d997b8f1a9742043" kind="function"><name>getSceneInfoItemWidth_</name></member>
     <member refid="group__GeneralGroup_1ga393e611425f8e0700c6a66af14fc700b" kind="function"><name>preRenderViewport</name></member>
@@ -29071,7 +29082,7 @@
     <member refid="group__GeneralGroup_1gacb89c437b79fea69c14fef598c252f1e" kind="function"><name>drawRibbonViewportsLabels_</name></member>
     <member refid="group__GeneralGroup_1ga6f64b502d9c3db06776ce08541d30171" kind="function"><name>drawRibbonSceneInformation_</name></member>
     <member refid="group__GeneralGroup_1gaf44199b5b50359aea5672a4fe6fc15b6" kind="function"><name>drawCollapsingHeaderTransform_</name></member>
-    <member refid="group__GeneralGroup_1ga41939a653321459fbe74ca2681d1018b" kind="function"><name>drawTransformContextMenu_</name></member>
+    <member refid="group__GeneralGroup_1gaa2726e1e9c7a515f4e7d7bb6ab68a8bd" kind="function"><name>drawTransformContextMenu_</name></member>
     <member refid="group__GeneralGroup_1ga79d934454b70a10bf9d496eac45c9444" kind="function"><name>addRibbonItemShortcut_</name></member>
     <member refid="group__GeneralGroup_1gaeb41176e7a133b557b1a998b93368f61" kind="function"><name>setupShortcuts_</name></member>
     <member refid="group__GeneralGroup_1gada14d714cf73f7b3a65778f2f5a991e0" kind="function"><name>drawShortcutsWindow_</name></member>
@@ -29185,6 +29196,7 @@
     <member refid="group__GeneralGroup_1gacc8cf95e0293dc70c367f87fab3910dc" kind="function"><name>interruptClose_</name></member>
     <member refid="group__GeneralGroup_1gaab9628f3354b6169fbf7eaba4827b94a" kind="function"><name>invalidateAll</name></member>
     <member refid="group__GeneralGroup_1gaf66e451d5cc1d0246d98bb3700a0b82c" kind="function"><name>getAllObjects</name></member>
+    <member refid="group__GeneralGroup_1ga2a37c5b318156ba616f5da6279e5dbb8" kind="function"><name>getAllTopmostObjects</name></member>
     <member refid="group__GeneralGroup_1gab93260d19565ceecb9a28f584dd102fc" kind="function"><name>instance_</name></member>
     <member refid="group__GeneralGroup_1gaab04433c59956d678e5cbf5fe5ec657c" kind="function"><name>SceneCache</name></member>
     <member refid="group__GeneralGroup_1ga51511322a9bddec9642def76493870ca" kind="function"><name>BasicVectorHolder</name></member>

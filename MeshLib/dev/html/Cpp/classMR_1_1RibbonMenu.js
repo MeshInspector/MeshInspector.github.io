@@ -35,7 +35,7 @@ var classMR_1_1RibbonMenu =
     [ "drawShortcutsWindow_", "group__GeneralGroup.html#gada14d714cf73f7b3a65778f2f5a991e0", null ],
     [ "drawSmallButtonsSet_", "group__GeneralGroup.html#gadfe6488e12a17503ecb61646d6d1ffee", null ],
     [ "drawTopPanel_", "group__GeneralGroup.html#gac7a1a5baa47db0d568892e7b60194373", null ],
-    [ "drawTransformContextMenu_", "group__GeneralGroup.html#ga41939a653321459fbe74ca2681d1018b", null ],
+    [ "drawTransformContextMenu_", "group__GeneralGroup.html#gaa2726e1e9c7a515f4e7d7bb6ab68a8bd", null ],
     [ "drawViewerWindow", "group__GeneralGroup.html#gaa6d1d3e8affb38a83e3f44dd7818ca26", null ],
     [ "fixViewportsSize_", "group__GeneralGroup.html#gae9a5dc4a0c9205ada1c5d61dc3da470a", null ],
     [ "getActiveTabIndex", "group__GeneralGroup.html#gaf87aa13ddadb0bc96103d7ce892a88b9", null ],

@@ -118,7 +118,7 @@
       <member refid="group__GeneralGroup_1gacb89c437b79fea69c14fef598c252f1e" kind="function"><name>drawRibbonViewportsLabels_</name></member>
       <member refid="group__GeneralGroup_1ga6f64b502d9c3db06776ce08541d30171" kind="function"><name>drawRibbonSceneInformation_</name></member>
       <member refid="group__GeneralGroup_1gaf44199b5b50359aea5672a4fe6fc15b6" kind="function"><name>drawCollapsingHeaderTransform_</name></member>
-      <member refid="group__GeneralGroup_1ga41939a653321459fbe74ca2681d1018b" kind="function"><name>drawTransformContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1gaa2726e1e9c7a515f4e7d7bb6ab68a8bd" kind="function"><name>drawTransformContextMenu_</name></member>
       <member refid="group__GeneralGroup_1ga79d934454b70a10bf9d496eac45c9444" kind="function"><name>addRibbonItemShortcut_</name></member>
       <member refid="group__GeneralGroup_1gaeb41176e7a133b557b1a998b93368f61" kind="function"><name>setupShortcuts_</name></member>
       <member refid="group__GeneralGroup_1gada14d714cf73f7b3a65778f2f5a991e0" kind="function"><name>drawShortcutsWindow_</name></member>
@@ -287,6 +287,7 @@
       <member refid="group__GeneralGroup_1gacda74258f75623378ed69b6cf60a5711" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowSceneReorder</name></member>
       <member refid="group__GeneralGroup_1gad2a64141eea7543d77763acf46e5674b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>anyImGuiWindowIsHovered</name></member>
       <member refid="group__GeneralGroup_1ga398dc624768fd545202eabec71edca08" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>anyUiObjectIsHovered</name></member>
+      <member refid="group__GeneralGroup_1ga20f37af023e4aded4584a7858e7c3092" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>applyXfToObjects_</name></member>
       <member refid="group__GeneralGroup_1ga094dbe3390138c463d3267a16e4c4486" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>asyncRequest_</name></member>
       <member refid="group__GeneralGroup_1gad2a4931d55215f901548e8c7a7fabf48" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>autoCloseBlockingPlugins_</name></member>
       <member refid="group__GeneralGroup_1ga507633033ab9a43b99eadcd8df8aac7e" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>beginTopPanel_</name></member>
@@ -345,6 +346,7 @@
       <member refid="group__GeneralGroup_1ga3950b826a8f691b3eff7774404b542fe" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemsGroup_</name></member>
       <member refid="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawLabelsWindow</name></member>
       <member refid="group__GeneralGroup_1gad91246c3334e9c7beaf92098272f9e4b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawMergeSubtreeButton</name></member>
+      <member refid="group__GeneralGroup_1ga3c93b3198a82123abaaf9619c58277cb" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawMixedTransformField_</name></member>
       <member refid="group__GeneralGroup_1ga21152bd2815ab436059f46df9596c137" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawModalMessage_</name></member>
       <member refid="group__GeneralGroup_1ga7f1b5f4fa4b7b3a7fd3b7db9d719c06e" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawNotifications_</name></member>
       <member refid="group__GeneralGroup_1gaa9ae19f72e7141f60d4bc7c556816678" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawRemoveButton</name></member>
@@ -365,7 +367,7 @@
       <member refid="group__GeneralGroup_1gac7a1a5baa47db0d568892e7b60194373" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawTopPanel_</name></member>
       <member refid="group__GeneralGroup_1ga74de55fb9baffb8d206a32782cf194b2" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTopPanelOpened_</name></member>
       <member refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTransform_</name></member>
-      <member refid="group__GeneralGroup_1ga41939a653321459fbe74ca2681d1018b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawTransformContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1gaa2726e1e9c7a515f4e7d7bb6ab68a8bd" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawTransformContextMenu_</name></member>
       <member refid="group__GeneralGroup_1gaa6d1d3e8affb38a83e3f44dd7818ca26" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawViewerWindow</name></member>
       <member refid="group__GeneralGroup_1ga8f6ca8682ef4d9fffeccf9ed20fefd48" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawViewerWindowContent</name></member>
       <member refid="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>editedFeatureObject_</name></member>
@@ -426,6 +428,7 @@
       <member refid="group__GeneralGroup_1ga0b9508550f2dc503c7e8bfe4d20c6756" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_slider</name></member>
       <member refid="group__GeneralGroup_1ga2cde4a8f3fa825bbab90240c16545c1a" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_visualize_checkbox</name></member>
       <member refid="group__GeneralGroup_1ga2a967e9c0fa0dcd8845ce52d4b5bb065" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_width</name></member>
+      <member refid="group__GeneralGroup_1ga65cb9f9b2313e78e999658565fa015c1" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>makeObjectsXfHistoryAction_</name></member>
       <member refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menu_scaling</name></member>
       <member refid="group__GeneralGroup_1gab3c93f6a675fe3bd4c9d3e738fe30173" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menuScaling</name></member>
       <member refid="group__GeneralGroup_1ga031dbe6db3d3a3fb49fae05710bc724a" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menuUIConfig_</name></member>
@@ -478,7 +481,6 @@
       <member refid="group__GeneralGroup_1gac86c4630adf085f601be813f0d81b827" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>searcher_</name></member>
       <member refid="group__GeneralGroup_1ga493d46d4f1ecabb263dc5528086e2660" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>searchPluginsString_</name></member>
       <member refid="group__GeneralGroup_1ga25d70db427b76e61497c7fe1c62ac778" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectedViewport_</name></member>
-      <member refid="group__GeneralGroup_1gaca4f11387f1bcb127e2e9dfd5eef27fa" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionChangedToSingleObj_</name></member>
       <member refid="group__GeneralGroup_1ga53309002abe5f491c36f5ef71490a8e9" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionLocalBox_</name></member>
       <member refid="group__GeneralGroup_1gac8a4b5b373c2e5ab3e633a34fd148f12" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionWorldBox_</name></member>
       <member refid="group__GeneralGroup_1ga175b4ff452a54f2c42cf45767732d435" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setActiveListPos</name></member>
@@ -531,6 +533,7 @@
       <member refid="group__GeneralGroup_1ga6be0f0e930aff8b721e952068edd177d" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureBegin_</name></member>
       <member refid="group__GeneralGroup_1ga9ae9318994ff4c3a45ae8addd49d473d" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureEnd_</name></member>
       <member refid="group__GeneralGroup_1gae8c54fb0b0f263c36ef11aeccf8e2fde" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga49c19c2fdda8a6285c1a30c8018a8538" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>transformBlockShown_</name></member>
       <member refid="group__GeneralGroup_1ga230fe187c275ff7b61d5ca8f40d2088e" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>transformClipboardText_</name></member>
       <member refid="group__GeneralGroup_1gadd021abfb6808482ea3aa86a8db32522" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>transformHeight_</name></member>
       <member refid="group__GeneralGroup_1ga46994fb4141726f726f8e903e0ebdd3b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tryRenameSelectedObject</name></member>

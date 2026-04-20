@@ -58,7 +58,7 @@
       <member refid="group__GeneralGroup_1ga493d46d4f1ecabb263dc5528086e2660" kind="variable"><name>searchPluginsString_</name></member>
       <member refid="group__GeneralGroup_1ga870366d79164cd2f0909a5d12d551eea" kind="variable"><name>modifiers_</name></member>
       <member refid="group__GeneralGroup_1ga4235036156971a18b7ef3ad2e50c0291" kind="variable"><name>Single</name></member>
-      <member refid="group__GeneralGroup_1gaca4f11387f1bcb127e2e9dfd5eef27fa" kind="variable"><name>selectionChangedToSingleObj_</name></member>
+      <member refid="group__GeneralGroup_1ga49c19c2fdda8a6285c1a30c8018a8538" kind="variable"><name>transformBlockShown_</name></member>
       <member refid="group__GeneralGroup_1ga25d70db427b76e61497c7fe1c62ac778" kind="variable"><name>selectedViewport_</name></member>
       <member refid="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" kind="variable"><name>editedFeatureObject_</name></member>
       <member refid="group__GeneralGroup_1ga6afa105ae1f7116d82db1d5068aef0ef" kind="variable"><name>editedFeatureObjectOldXf_</name></member>
@@ -108,7 +108,10 @@
       <member refid="group__GeneralGroup_1gaa2da5750de4e13ca0344018028ab6d0c" kind="function"><name>draw_custom_selection_properties</name></member>
       <member refid="group__GeneralGroup_1ga67a662b0fa0e5169bae00962c8ba2675" kind="function"><name>drawTagInformation_</name></member>
       <member refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" kind="function"><name>drawTransform_</name></member>
-      <member refid="group__GeneralGroup_1ga688017f6a29a7758add50c7070c2a9af" kind="function"><name>drawTransformContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1ga3c93b3198a82123abaaf9619c58277cb" kind="function"><name>drawMixedTransformField_</name></member>
+      <member refid="group__GeneralGroup_1ga65cb9f9b2313e78e999658565fa015c1" kind="function"><name>makeObjectsXfHistoryAction_</name></member>
+      <member refid="group__GeneralGroup_1ga20f37af023e4aded4584a7858e7c3092" kind="function"><name>applyXfToObjects_</name></member>
+      <member refid="group__GeneralGroup_1gae4c26f4c30442c915cba470b1bd73bf4" kind="function"><name>drawTransformContextMenu_</name></member>
       <member refid="group__GeneralGroup_1ga9acbbe6962c9c3658461ad306bf41e7a" kind="function"><name>drawShortcutsWindow_</name></member>
       <member refid="group__GeneralGroup_1gaf1877fc755762a20d997b8f1a9742043" kind="function"><name>getSceneInfoItemWidth_</name></member>
     </sectiondef>
@@ -270,7 +273,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/ImGuiMenu.h" line="44" column="1" bodyfile="MRViewer/ImGuiMenu.h" bodystart="53" bodyend="441"/>
+    <location file="MRViewer/ImGuiMenu.h" line="45" column="1" bodyfile="MRViewer/ImGuiMenu.h" bodystart="54" bodyend="464"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2839644d95083c59b3090076cb25f5b9" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>add_modifier</name></member>
       <member refid="group__GeneralGroup_1ga611b911703b3f2680587e49eae9cdafc" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>allowObjectsRemoval</name></member>
@@ -278,6 +281,7 @@
       <member refid="group__GeneralGroup_1gacda74258f75623378ed69b6cf60a5711" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>allowSceneReorder</name></member>
       <member refid="group__GeneralGroup_1gad2a64141eea7543d77763acf46e5674b" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>anyImGuiWindowIsHovered</name></member>
       <member refid="group__GeneralGroup_1ga398dc624768fd545202eabec71edca08" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>anyUiObjectIsHovered</name></member>
+      <member refid="group__GeneralGroup_1ga20f37af023e4aded4584a7858e7c3092" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>applyXfToObjects_</name></member>
       <member refid="group__GeneralGroup_1gacf0c50c3142b19530e99510238d76d9c" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>calcSelectedTypesMask</name></member>
       <member refid="group__GeneralGroup_1ga70e1b99ed1657729d0a89c8c8bd00e59" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>capturedMouse_</name></member>
       <member refid="group__GeneralGroup_1ga8da06f115c5429d5c17a35ba02da2eb4" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>checkPossibilityObjectRemoval</name></member>
@@ -308,6 +312,7 @@
       <member refid="group__GeneralGroup_1gaa95362cbaedec95d47487198b49e72ee" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawFeaturePropertiesEditor_</name></member>
       <member refid="group__GeneralGroup_1ga0e8c9335d9129dab0ac3f428f4f9afe1" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawGeneralOptions</name></member>
       <member refid="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawLabelsWindow</name></member>
+      <member refid="group__GeneralGroup_1ga3c93b3198a82123abaaf9619c58277cb" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawMixedTransformField_</name></member>
       <member refid="group__GeneralGroup_1ga21152bd2815ab436059f46df9596c137" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawModalMessage_</name></member>
       <member refid="group__GeneralGroup_1gaa9ae19f72e7141f60d4bc7c556816678" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawRemoveButton</name></member>
       <member refid="group__GeneralGroup_1ga942483ecfa0154d8246586de1560c3eb" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>DrawSceneUiSignal</name></member>
@@ -316,7 +321,7 @@
       <member refid="group__GeneralGroup_1ga9acbbe6962c9c3658461ad306bf41e7a" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawShortcutsWindow_</name></member>
       <member refid="group__GeneralGroup_1ga67a662b0fa0e5169bae00962c8ba2675" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawTagInformation_</name></member>
       <member refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawTransform_</name></member>
-      <member refid="group__GeneralGroup_1ga688017f6a29a7758add50c7070c2a9af" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawTransformContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1gae4c26f4c30442c915cba470b1bd73bf4" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawTransformContextMenu_</name></member>
       <member refid="group__GeneralGroup_1gaad9c69dddc39d4febd3531d3ea252ab3" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawViewerWindow</name></member>
       <member refid="group__GeneralGroup_1ga8f6ca8682ef4d9fffeccf9ed20fefd48" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawViewerWindowContent</name></member>
       <member refid="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>editedFeatureObject_</name></member>
@@ -357,6 +362,7 @@
       <member refid="group__GeneralGroup_1ga0b9508550f2dc503c7e8bfe4d20c6756" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>make_slider</name></member>
       <member refid="group__GeneralGroup_1ga2cde4a8f3fa825bbab90240c16545c1a" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>make_visualize_checkbox</name></member>
       <member refid="group__GeneralGroup_1ga2a967e9c0fa0dcd8845ce52d4b5bb065" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>make_width</name></member>
+      <member refid="group__GeneralGroup_1ga65cb9f9b2313e78e999658565fa015c1" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>makeObjectsXfHistoryAction_</name></member>
       <member refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>menu_scaling</name></member>
       <member refid="group__GeneralGroup_1gab3c93f6a675fe3bd4c9d3e738fe30173" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>menuScaling</name></member>
       <member refid="group__GeneralGroup_1gafea5ae3d33013ab15abbe5747b71e139" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>modalMessageType_</name></member>
@@ -394,7 +400,6 @@
       <member refid="group__GeneralGroup_1ga1995588bf4401620b33e1a4e6ed8c15d" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>sceneWindowSize_</name></member>
       <member refid="group__GeneralGroup_1ga493d46d4f1ecabb263dc5528086e2660" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>searchPluginsString_</name></member>
       <member refid="group__GeneralGroup_1ga25d70db427b76e61497c7fe1c62ac778" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>selectedViewport_</name></member>
-      <member refid="group__GeneralGroup_1gaca4f11387f1bcb127e2e9dfd5eef27fa" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>selectionChangedToSingleObj_</name></member>
       <member refid="group__GeneralGroup_1ga53309002abe5f491c36f5ef71490a8e9" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>selectionLocalBox_</name></member>
       <member refid="group__GeneralGroup_1gac8a4b5b373c2e5ab3e633a34fd148f12" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>selectionWorldBox_</name></member>
       <member refid="group__GeneralGroup_1ga42624abdfcdda719a37176eb1053d605" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>setDrawTimeMillisecThreshold</name></member>
@@ -430,6 +435,7 @@
       <member refid="group__GeneralGroup_1ga6be0f0e930aff8b721e952068edd177d" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>touchpadZoomGestureBegin_</name></member>
       <member refid="group__GeneralGroup_1ga9ae9318994ff4c3a45ae8addd49d473d" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>touchpadZoomGestureEnd_</name></member>
       <member refid="group__GeneralGroup_1gae8c54fb0b0f263c36ef11aeccf8e2fde" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>touchpadZoomGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga49c19c2fdda8a6285c1a30c8018a8538" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>transformBlockShown_</name></member>
       <member refid="group__GeneralGroup_1ga46994fb4141726f726f8e903e0ebdd3b" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>tryRenameSelectedObject</name></member>
       <member refid="group__GeneralGroup_1gac676c6482bdbd381c6a69ec47774f8eb" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>uiRenderManager_</name></member>
       <member refid="group__GeneralGroup_1gafd9b841be73749d7e6b9ccbd81ba5afd" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>uniformScale_</name></member>
