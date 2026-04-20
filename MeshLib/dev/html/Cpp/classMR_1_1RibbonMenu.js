@@ -23,6 +23,7 @@ var classMR_1_1RibbonMenu =
     [ "drawHelpButton_", "group__GeneralGroup.html#gaf68270516c99906cb35ed45c977fd2cd", null ],
     [ "drawItemDialog_", "group__GeneralGroup.html#ga119617e36f901716754f5ab0ed69d477", null ],
     [ "drawItemsGroup_", "group__GeneralGroup.html#ga3950b826a8f691b3eff7774404b542fe", null ],
+    [ "drawLanguageButton_", "group__GeneralGroup.html#ga1e16f5cce1dd7483c7ad9a0dc0b1bf5a", null ],
     [ "drawMergeSubtreeButton", "group__GeneralGroup.html#gad91246c3334e9c7beaf92098272f9e4b", null ],
     [ "drawNotifications_", "group__GeneralGroup.html#ga7f1b5f4fa4b7b3a7fd3b7db9d719c06e", null ],
     [ "drawRibbonSceneInformation_", "group__GeneralGroup.html#ga6f64b502d9c3db06776ce08541d30171", null ],

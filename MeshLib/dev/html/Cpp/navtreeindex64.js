@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,0,20,211],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,0,20,209],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,0,20,213],
 "structMR_1_1ObjTreeTraits.html":[6,0,0,20,100],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1RemeshSettings.html#a535de126a9bef655d8a832a7bba54e46":[6,0,0,10,3,5],
 "structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8":[6,0,0,10,3,16],
 "structMR_1_1RemeshSettings.html#a6a29eef43f96e620bbdc1a55778d04b4":[6,0,0,10,3,13],
-"structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1":[6,0,0,10,3,3],
-"structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a":[6,0,0,10,3,14]
+"structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1":[6,0,0,10,3,3]
 };

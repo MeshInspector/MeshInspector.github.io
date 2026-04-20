@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[6,0,2,0,2,30,1,9],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[6,0,1,0,1,46,1,0],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[6,0,2,0,2,30,1,0],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[6,0,1,0,1,46,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[6,0,0,17,2,0,1],
 "structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[6,0,0,17,2,0,0],
 "structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,17,5],
-"structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,20,861],
-"structMR_1_1VoxelLocation.html":[6,0,0,17,0,0]
+"structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,20,861]
 };

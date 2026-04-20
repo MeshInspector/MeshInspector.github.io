@@ -136,6 +136,7 @@
       <member refid="group__GeneralGroup_1ga7c4b296fb57d379496cd27b1601fb170" kind="function"><name>drawSearchButton_</name></member>
       <member refid="group__GeneralGroup_1gaf04c88a23791c49ad47705242104035f" kind="function"><name>drawCollapseButton_</name></member>
       <member refid="group__GeneralGroup_1gaf68270516c99906cb35ed45c977fd2cd" kind="function"><name>drawHelpButton_</name></member>
+      <member refid="group__GeneralGroup_1ga1e16f5cce1dd7483c7ad9a0dc0b1bf5a" kind="function"><name>drawLanguageButton_</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gae0bfe34e5c35fc0de2da68e440ccc904" kind="function"><name>changeTab_</name></member>
@@ -273,7 +274,7 @@
         <label>boost::signals2::signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;) &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="316"/>
+    <location file="MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="318"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2f639a83635dfb22ba89545a6dc9d85e" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeBlockingItem_</name></member>
       <member refid="group__GeneralGroup_1ga9de4fc9facc10e4a60cdd6140d8128b6" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeListPos_</name></member>
@@ -345,6 +346,7 @@
       <member refid="group__GeneralGroup_1ga119617e36f901716754f5ab0ed69d477" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemDialog_</name></member>
       <member refid="group__GeneralGroup_1ga3950b826a8f691b3eff7774404b542fe" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemsGroup_</name></member>
       <member refid="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawLabelsWindow</name></member>
+      <member refid="group__GeneralGroup_1ga1e16f5cce1dd7483c7ad9a0dc0b1bf5a" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawLanguageButton_</name></member>
       <member refid="group__GeneralGroup_1gad91246c3334e9c7beaf92098272f9e4b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawMergeSubtreeButton</name></member>
       <member refid="group__GeneralGroup_1ga3c93b3198a82123abaaf9619c58277cb" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawMixedTransformField_</name></member>
       <member refid="group__GeneralGroup_1ga21152bd2815ab436059f46df9596c137" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawModalMessage_</name></member>
