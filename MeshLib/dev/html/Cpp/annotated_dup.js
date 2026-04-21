@@ -1130,6 +1130,7 @@ var annotated_dup =
       [ "ZCompensateParams", "structMR_1_1ZCompensateParams.html", "structMR_1_1ZCompensateParams" ],
       [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ],
       [ "ZlibCompressParams", "structMR_1_1ZlibCompressParams.html", "structMR_1_1ZlibCompressParams" ],
+      [ "ZlibCompressStats", "structMR_1_1ZlibCompressStats.html", "structMR_1_1ZlibCompressStats" ],
       [ "ZlibParams", "structMR_1_1ZlibParams.html", "structMR_1_1ZlibParams" ]
     ] ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ]

@@ -1273,6 +1273,7 @@ var namespacemrmeshpy =
     [ "ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", "classmrmeshpy_1_1ZCompensateParams" ],
     [ "ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", "classmrmeshpy_1_1ZeroOnMove__unsigned__long" ],
     [ "ZlibCompressParams", "classmrmeshpy_1_1ZlibCompressParams.html", "classmrmeshpy_1_1ZlibCompressParams" ],
+    [ "ZlibCompressStats", "classmrmeshpy_1_1ZlibCompressStats.html", "classmrmeshpy_1_1ZlibCompressStats" ],
     [ "ZlibParams", "classmrmeshpy_1_1ZlibParams.html", "classmrmeshpy_1_1ZlibParams" ],
     [ "accumulateFaceCenters", "namespacemrmeshpy.html#a9e6527fe8ac02cd2e0f2c1d43007e42a", null ],
     [ "accumulateLineCenters", "namespacemrmeshpy.html#a7133273610941dbaa41ffd8ce2c01304", null ],

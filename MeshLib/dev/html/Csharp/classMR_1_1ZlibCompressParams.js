@@ -6,5 +6,6 @@ var classMR_1_1ZlibCompressParams =
     [ "assign", "classMR_1_1ZlibCompressParams.html#a014da28c3e6e66f13f3ba5e1180ba2ac", null ],
     [ "operator MR.ZlibParams", "classMR_1_1ZlibCompressParams.html#a99aaa36257bff2997597a788e5b93e84", null ],
     [ "level", "classMR_1_1ZlibCompressParams.html#a3760542dc197e6688e3674f1ae2907dc", null ],
-    [ "rawDeflate", "classMR_1_1ZlibCompressParams.html#aa1e161dc2d19a9ddfa6c5e39aef30309", null ]
+    [ "rawDeflate", "classMR_1_1ZlibCompressParams.html#aa1e161dc2d19a9ddfa6c5e39aef30309", null ],
+    [ "stats", "classMR_1_1ZlibCompressParams.html#a10dead263b76029ca5ca5e60f99f3658", null ]
 ];

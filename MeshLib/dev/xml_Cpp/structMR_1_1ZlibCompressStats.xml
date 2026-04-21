@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ZlibCompressStats" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ZlibCompressStats</compoundname>
+    <includes refid="MRMesh_2MRZlib_8h" local="no">MRMesh/MRZlib.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaf32477db29522e159768dadeadd63b23" kind="variable"><name>crc32</name></member>
+      <member refid="group__GeneralGroup_1gaf7f3f951698b348e01d3c87dc194b7b5" kind="variable"><name>uncompressedSize</name></member>
+      <member refid="group__GeneralGroup_1ga3b123979b23f61a29fcb9a14b33c4a3d" kind="variable"><name>compressedSize</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>statistics gathered during compression: CRC-32 of the uncompressed input and the total numbers of bytes read from / written to the streams </para>
+    </detaileddescription>
+    <location file="MRMesh/MRZlib.h" line="26" column="1" bodyfile="MRMesh/MRZlib.h" bodystart="27" bodyend="31"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3b123979b23f61a29fcb9a14b33c4a3d" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>compressedSize</name></member>
+      <member refid="group__GeneralGroup_1gaf32477db29522e159768dadeadd63b23" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>crc32</name></member>
+      <member refid="group__GeneralGroup_1gaf7f3f951698b348e01d3c87dc194b7b5" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>uncompressedSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

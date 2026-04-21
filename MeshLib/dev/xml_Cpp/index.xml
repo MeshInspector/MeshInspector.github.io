@@ -13376,6 +13376,12 @@
   </compound>
   <compound refid="structMR_1_1ZlibCompressParams" kind="struct"><name>MR::ZlibCompressParams</name>
     <member refid="group__GeneralGroup_1ga07efb01c2ca421042eac45a5e6ffeb64" kind="variable"><name>level</name></member>
+    <member refid="group__GeneralGroup_1ga8fc9151d9754c30cbc5c5ebfb26d0a1d" kind="variable"><name>stats</name></member>
+  </compound>
+  <compound refid="structMR_1_1ZlibCompressStats" kind="struct"><name>MR::ZlibCompressStats</name>
+    <member refid="group__GeneralGroup_1gaf32477db29522e159768dadeadd63b23" kind="variable"><name>crc32</name></member>
+    <member refid="group__GeneralGroup_1gaf7f3f951698b348e01d3c87dc194b7b5" kind="variable"><name>uncompressedSize</name></member>
+    <member refid="group__GeneralGroup_1ga3b123979b23f61a29fcb9a14b33c4a3d" kind="variable"><name>compressedSize</name></member>
   </compound>
   <compound refid="structMR_1_1ZlibParams" kind="struct"><name>MR::ZlibParams</name>
     <member refid="group__GeneralGroup_1ga6369002a01e5fff0c1683af9cd4a3276" kind="variable"><name>rawDeflate</name></member>
@@ -22606,7 +22612,11 @@
     <member refid="group__GeneralGroup_1ga0a7b066a543aef13ca56e872b81744fd" kind="variable"><name>xf_</name></member>
     <member refid="group__GeneralGroup_1ga89a2235f9a91e43fb9da57b8416450e1" kind="variable"><name>cache_</name></member>
     <member refid="group__GeneralGroup_1ga6369002a01e5fff0c1683af9cd4a3276" kind="variable"><name>rawDeflate</name></member>
+    <member refid="group__GeneralGroup_1gaf32477db29522e159768dadeadd63b23" kind="variable"><name>crc32</name></member>
+    <member refid="group__GeneralGroup_1gaf7f3f951698b348e01d3c87dc194b7b5" kind="variable"><name>uncompressedSize</name></member>
+    <member refid="group__GeneralGroup_1ga3b123979b23f61a29fcb9a14b33c4a3d" kind="variable"><name>compressedSize</name></member>
     <member refid="group__GeneralGroup_1ga07efb01c2ca421042eac45a5e6ffeb64" kind="variable"><name>level</name></member>
+    <member refid="group__GeneralGroup_1ga8fc9151d9754c30cbc5c5ebfb26d0a1d" kind="variable"><name>stats</name></member>
     <member refid="group__GeneralGroup_1ga190cf30264de3002c79d0b715ed6697a" kind="variable"><name>initFncPointer</name></member>
     <member refid="group__GeneralGroup_1ga0fe7a81962a7cace96c7ec89855e1064" kind="variable"><name>functions</name></member>
     <member refid="group__GeneralGroup_1ga2553f1d2794ce1fdfaa893e69cc64836" kind="variable"><name>moduleData_</name></member>

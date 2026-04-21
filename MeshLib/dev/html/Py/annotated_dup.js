@@ -1280,6 +1280,7 @@ var annotated_dup =
       [ "ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", "classmrmeshpy_1_1ZCompensateParams" ],
       [ "ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", "classmrmeshpy_1_1ZeroOnMove__unsigned__long" ],
       [ "ZlibCompressParams", "classmrmeshpy_1_1ZlibCompressParams.html", "classmrmeshpy_1_1ZlibCompressParams" ],
+      [ "ZlibCompressStats", "classmrmeshpy_1_1ZlibCompressStats.html", "classmrmeshpy_1_1ZlibCompressStats" ],
       [ "ZlibParams", "classmrmeshpy_1_1ZlibParams.html", "classmrmeshpy_1_1ZlibParams" ]
     ] ],
     [ "mrviewerpy", "namespacemrviewerpy.html", [

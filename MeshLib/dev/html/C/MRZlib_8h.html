@@ -143,7 +143,8 @@ $(function(){initNavTree('MRZlib_8h.html','',''); });
   <div class="headertitle"><div class="title">MRZlib.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -152,6 +153,7 @@ $(function(){initNavTree('MRZlib_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a37345dd77092a846551d5d390c367969" id="r_a37345dd77092a846551d5d390c367969"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a37345dd77092a846551d5d390c367969">MR_ZlibParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37345dd77092a846551d5d390c367969">MR_ZlibParams</a></td></tr>
+<tr class="memitem:a47dc30cb37461d91a3c74c64beb4c5d1" id="r_a47dc30cb37461d91a3c74c64beb4c5d1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a></td></tr>
 <tr class="memitem:aaa593586c35340ca5d54c52383bccbfa" id="r_aaa593586c35340ca5d54c52383bccbfa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -170,9 +172,32 @@ Functions</h2></td></tr>
 <tr class="memitem:a056bd9e7b374606d01fdf5f7f10a964a" id="r_a056bd9e7b374606d01fdf5f7f10a964a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a056bd9e7b374606d01fdf5f7f10a964a">MR_ZlibParams_DestroyArray</a> (const <a class="el" href="#a37345dd77092a846551d5d390c367969">MR_ZlibParams</a> *_this)</td></tr>
 <tr class="memdesc:a056bd9e7b374606d01fdf5f7f10a964a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a37345dd77092a846551d5d390c367969">MR_ZlibParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a121a1870cd6c3cb7ccebf2b1240bd95c" id="r_a121a1870cd6c3cb7ccebf2b1240bd95c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a37345dd77092a846551d5d390c367969">MR_ZlibParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a121a1870cd6c3cb7ccebf2b1240bd95c">MR_ZlibParams_AssignFromAnother</a> (<a class="el" href="#a37345dd77092a846551d5d390c367969">MR_ZlibParams</a> *_this, const <a class="el" href="#a37345dd77092a846551d5d390c367969">MR_ZlibParams</a> *_other)</td></tr>
+<tr class="memitem:a7dff8988ac61eb37269c623968e5dbb1" id="r_a7dff8988ac61eb37269c623968e5dbb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const unsigned int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dff8988ac61eb37269c623968e5dbb1">MR_ZlibCompressStats_Get_crc32</a> (const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this)</td></tr>
+<tr class="memitem:a64e06a3f257e5dbccd04457abe08e7d6" id="r_a64e06a3f257e5dbccd04457abe08e7d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64e06a3f257e5dbccd04457abe08e7d6">MR_ZlibCompressStats_Set_crc32</a> (<a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this, unsigned int value)</td></tr>
+<tr class="memitem:af95d919d8dc3155f77a8d52ee50cc3bb" id="r_af95d919d8dc3155f77a8d52ee50cc3bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af95d919d8dc3155f77a8d52ee50cc3bb">MR_ZlibCompressStats_GetMutable_crc32</a> (<a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this)</td></tr>
+<tr class="memitem:ab17a9c75ab4302f34af26db18ad3d145" id="r_ab17a9c75ab4302f34af26db18ad3d145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab17a9c75ab4302f34af26db18ad3d145">MR_ZlibCompressStats_Get_uncompressedSize</a> (const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this)</td></tr>
+<tr class="memitem:a35f39c3b60eee5ee99ad6bc1fc212a19" id="r_a35f39c3b60eee5ee99ad6bc1fc212a19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35f39c3b60eee5ee99ad6bc1fc212a19">MR_ZlibCompressStats_Set_uncompressedSize</a> (<a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="memitem:a4b87631edbfd24c6f3b1e3acadb761a4" id="r_a4b87631edbfd24c6f3b1e3acadb761a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b87631edbfd24c6f3b1e3acadb761a4">MR_ZlibCompressStats_GetMutable_uncompressedSize</a> (<a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this)</td></tr>
+<tr class="memitem:a1f13a652a68d1c877fb4471176ebfdfe" id="r_a1f13a652a68d1c877fb4471176ebfdfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f13a652a68d1c877fb4471176ebfdfe">MR_ZlibCompressStats_Get_compressedSize</a> (const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this)</td></tr>
+<tr class="memitem:a76fa6b1e0cebec50b4bac73d1ba973e2" id="r_a76fa6b1e0cebec50b4bac73d1ba973e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76fa6b1e0cebec50b4bac73d1ba973e2">MR_ZlibCompressStats_Set_compressedSize</a> (<a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="memitem:a81600bb312444ff049ff29a3b370b410" id="r_a81600bb312444ff049ff29a3b370b410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81600bb312444ff049ff29a3b370b410">MR_ZlibCompressStats_GetMutable_compressedSize</a> (<a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this)</td></tr>
+<tr class="memitem:af36d6b15d17cb7a7080df8132481082d" id="r_af36d6b15d17cb7a7080df8132481082d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af36d6b15d17cb7a7080df8132481082d">MR_ZlibCompressStats_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a211edd42a739f24bcc372c13b51e0a82" id="r_a211edd42a739f24bcc372c13b51e0a82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a211edd42a739f24bcc372c13b51e0a82">MR_ZlibCompressStats_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a2ede3e6e2a7e32976daeb6b3cc1f05c3" id="r_a2ede3e6e2a7e32976daeb6b3cc1f05c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ede3e6e2a7e32976daeb6b3cc1f05c3">MR_ZlibCompressStats_ConstructFrom</a> (unsigned int crc32, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> uncompressedSize, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> compressedSize)</td></tr>
+<tr class="memitem:a15035e4d5e8f986135af791c5d795bb8" id="r_a15035e4d5e8f986135af791c5d795bb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15035e4d5e8f986135af791c5d795bb8">MR_ZlibCompressStats_OffsetPtr</a> (const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:acedd1f3891f2c89ac64801e3d65ee6c2" id="r_acedd1f3891f2c89ac64801e3d65ee6c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acedd1f3891f2c89ac64801e3d65ee6c2">MR_ZlibCompressStats_OffsetMutablePtr</a> (<a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:af297e06e6e914c0dde0c30464300730c" id="r_af297e06e6e914c0dde0c30464300730c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af297e06e6e914c0dde0c30464300730c">MR_ZlibCompressStats_ConstructFromAnother</a> (const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_other)</td></tr>
+<tr class="memitem:aad3895e4fe235f78b471cbd2e2d33d35" id="r_aad3895e4fe235f78b471cbd2e2d33d35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3895e4fe235f78b471cbd2e2d33d35">MR_ZlibCompressStats_Destroy</a> (const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this)</td></tr>
+<tr class="memdesc:aad3895e4fe235f78b471cbd2e2d33d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a361d0d11eb1f11967992f1d933a89e7a" id="r_a361d0d11eb1f11967992f1d933a89e7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a361d0d11eb1f11967992f1d933a89e7a">MR_ZlibCompressStats_DestroyArray</a> (const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this)</td></tr>
+<tr class="memdesc:a361d0d11eb1f11967992f1d933a89e7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a4e5b9f0ccab1128ed8166d387c20274e" id="r_a4e5b9f0ccab1128ed8166d387c20274e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e5b9f0ccab1128ed8166d387c20274e">MR_ZlibCompressStats_AssignFromAnother</a> (<a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_this, const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *_other)</td></tr>
 <tr class="memitem:af266866471be24c884595ad16138c89a" id="r_af266866471be24c884595ad16138c89a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af266866471be24c884595ad16138c89a">MR_ZlibCompressParams_Get_level</a> (const <a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this)</td></tr>
 <tr class="memitem:a0c79d1a74da1fbebec657a31ec94104c" id="r_a0c79d1a74da1fbebec657a31ec94104c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c79d1a74da1fbebec657a31ec94104c">MR_ZlibCompressParams_Set_level</a> (<a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this, int value)</td></tr>
 <tr class="memitem:a0e633a3fc6a117e4a7e65b1877d44862" id="r_a0e633a3fc6a117e4a7e65b1877d44862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e633a3fc6a117e4a7e65b1877d44862">MR_ZlibCompressParams_GetMutable_level</a> (<a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this)</td></tr>
+<tr class="memitem:a85a1c344168b7c36a31ac79e6002f97a" id="r_a85a1c344168b7c36a31ac79e6002f97a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85a1c344168b7c36a31ac79e6002f97a">MR_ZlibCompressParams_Get_stats</a> (const <a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this)</td></tr>
+<tr class="memitem:a268944571aedf722cf134c36d0d03e98" id="r_a268944571aedf722cf134c36d0d03e98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268944571aedf722cf134c36d0d03e98">MR_ZlibCompressParams_Set_stats</a> (<a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this, <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *value)</td></tr>
+<tr class="memitem:a38a0b0b720ac4dfad8fe19cf69df5027" id="r_a38a0b0b720ac4dfad8fe19cf69df5027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38a0b0b720ac4dfad8fe19cf69df5027">MR_ZlibCompressParams_GetMutable_stats</a> (<a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this)</td></tr>
 <tr class="memitem:a6e622b160132dc128b08f8f725d44b21" id="r_a6e622b160132dc128b08f8f725d44b21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e622b160132dc128b08f8f725d44b21">MR_ZlibCompressParams_Get_rawDeflate</a> (const <a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this)</td></tr>
 <tr class="memitem:abc91ff8f3a1fbb5eaef166ee42c13e5f" id="r_abc91ff8f3a1fbb5eaef166ee42c13e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc91ff8f3a1fbb5eaef166ee42c13e5f">MR_ZlibCompressParams_Set_rawDeflate</a> (<a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this, bool value)</td></tr>
 <tr class="memitem:a8be522b0737900633c012d612fec12b8" id="r_a8be522b0737900633c012d612fec12b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be522b0737900633c012d612fec12b8">MR_ZlibCompressParams_GetMutable_rawDeflate</a> (<a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *_this)</td></tr>
@@ -212,6 +237,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>parameters for zlibCompressStream (adds a compression level on top of ZlibParams) Generated from class <span class="tt">MR::ZlibCompressParams</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::ZlibParams</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a47dc30cb37461d91a3c74c64beb4c5d1" name="a47dc30cb37461d91a3c74c64beb4c5d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47dc30cb37461d91a3c74c64beb4c5d1">&#9670;&#160;</a></span>MR_ZlibCompressStats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>statistics gathered during compression: CRC-32 of the uncompressed input and the total numbers of bytes read from / written to the streams Generated from class <span class="tt">MR::ZlibCompressStats</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -381,6 +421,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a85a1c344168b7c36a31ac79e6002f97a" name="a85a1c344168b7c36a31ac79e6002f97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85a1c344168b7c36a31ac79e6002f97a">&#9670;&#160;</a></span>MR_ZlibCompressParams_Get_stats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *const  * MR_ZlibCompressParams_Get_stats </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output; if non-null, the pointed-to object is populated with CRC-32 of the input and the uncompressed / compressed byte totals Returns a pointer to a member variable of class <span class="tt">MR::ZlibCompressParams</span> named <span class="tt">stats</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a0e633a3fc6a117e4a7e65b1877d44862" name="a0e633a3fc6a117e4a7e65b1877d44862"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e633a3fc6a117e4a7e65b1877d44862">&#9670;&#160;</a></span>MR_ZlibCompressParams_GetMutable_level()</h2>
 
@@ -414,6 +472,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) Returns a mutable pointer to a member variable of class <span class="tt">MR::ZlibCompressParams</span> named <span class="tt">rawDeflate</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a38a0b0b720ac4dfad8fe19cf69df5027" name="a38a0b0b720ac4dfad8fe19cf69df5027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38a0b0b720ac4dfad8fe19cf69df5027">&#9670;&#160;</a></span>MR_ZlibCompressParams_GetMutable_stats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> ** MR_ZlibCompressParams_GetMutable_stats </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output; if non-null, the pointed-to object is populated with CRC-32 of the input and the uncompressed / compressed byte totals Returns a mutable pointer to a member variable of class <span class="tt">MR::ZlibCompressParams</span> named <span class="tt">stats</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -541,6 +617,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a268944571aedf722cf134c36d0d03e98" name="a268944571aedf722cf134c36d0d03e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268944571aedf722cf134c36d0d03e98">&#9670;&#160;</a></span>MR_ZlibCompressParams_Set_stats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZlibCompressParams_Set_stats </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aaa593586c35340ca5d54c52383bccbfa">MR_ZlibCompressParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output; if non-null, the pointed-to object is populated with CRC-32 of the input and the uncompressed / compressed byte totals Modifies a member variable of class <span class="tt">MR::ZlibCompressParams</span> named <span class="tt">stats</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">stats</span>. When this function is called, this object will drop object references it held previously in <span class="tt">stats</span>. </p>
+
+</div>
+</div>
 <a id="acb28419b8a14c4c7dc42b5a61fe09a97" name="acb28419b8a14c4c7dc42b5a61fe09a97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb28419b8a14c4c7dc42b5a61fe09a97">&#9670;&#160;</a></span>MR_ZlibCompressParams_StaticDowncastFrom_MR_ZlibParams()</h2>
 
@@ -574,6 +672,364 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Upcasts an instance of <span class="tt">MR::ZlibCompressParams</span> to its base class <span class="tt">MR::ZlibParams</span>. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a4e5b9f0ccab1128ed8166d387c20274e" name="a4e5b9f0ccab1128ed8166d387c20274e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e5b9f0ccab1128ed8166d387c20274e">&#9670;&#160;</a></span>MR_ZlibCompressStats_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> * MR_ZlibCompressStats_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::ZlibCompressStats::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a2ede3e6e2a7e32976daeb6b3cc1f05c3" name="a2ede3e6e2a7e32976daeb6b3cc1f05c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ede3e6e2a7e32976daeb6b3cc1f05c3">&#9670;&#160;</a></span>MR_ZlibCompressStats_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> * MR_ZlibCompressStats_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>crc32</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>uncompressedSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>compressedSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::ZlibCompressStats</span> elementwise. The reference to the parameter <span class="tt">crc32</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">uncompressedSize</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">compressedSize</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aad3895e4fe235f78b471cbd2e2d33d35" title="Destroys a heap-allocated instance of MR_ZlibCompressStats. Does nothing if the pointer is null.">MR_ZlibCompressStats_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="af297e06e6e914c0dde0c30464300730c" name="af297e06e6e914c0dde0c30464300730c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af297e06e6e914c0dde0c30464300730c">&#9670;&#160;</a></span>MR_ZlibCompressStats_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> * MR_ZlibCompressStats_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::ZlibCompressStats::ZlibCompressStats</span>. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aad3895e4fe235f78b471cbd2e2d33d35" title="Destroys a heap-allocated instance of MR_ZlibCompressStats. Does nothing if the pointer is null.">MR_ZlibCompressStats_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af36d6b15d17cb7a7080df8132481082d" name="af36d6b15d17cb7a7080df8132481082d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af36d6b15d17cb7a7080df8132481082d">&#9670;&#160;</a></span>MR_ZlibCompressStats_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> * MR_ZlibCompressStats_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aad3895e4fe235f78b471cbd2e2d33d35" title="Destroys a heap-allocated instance of MR_ZlibCompressStats. Does nothing if the pointer is null.">MR_ZlibCompressStats_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a211edd42a739f24bcc372c13b51e0a82" name="a211edd42a739f24bcc372c13b51e0a82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a211edd42a739f24bcc372c13b51e0a82">&#9670;&#160;</a></span>MR_ZlibCompressStats_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> * MR_ZlibCompressStats_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#a361d0d11eb1f11967992f1d933a89e7a" title="Destroys a heap-allocated array of MR_ZlibCompressStats. Does nothing if the pointer is null.">MR_ZlibCompressStats_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#acedd1f3891f2c89ac64801e3d65ee6c2">MR_ZlibCompressStats_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a15035e4d5e8f986135af791c5d795bb8">MR_ZlibCompressStats_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aad3895e4fe235f78b471cbd2e2d33d35" name="aad3895e4fe235f78b471cbd2e2d33d35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3895e4fe235f78b471cbd2e2d33d35">&#9670;&#160;</a></span>MR_ZlibCompressStats_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZlibCompressStats_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a361d0d11eb1f11967992f1d933a89e7a" name="a361d0d11eb1f11967992f1d933a89e7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a361d0d11eb1f11967992f1d933a89e7a">&#9670;&#160;</a></span>MR_ZlibCompressStats_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZlibCompressStats_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1f13a652a68d1c877fb4471176ebfdfe" name="a1f13a652a68d1c877fb4471176ebfdfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f13a652a68d1c877fb4471176ebfdfe">&#9670;&#160;</a></span>MR_ZlibCompressStats_Get_compressedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_ZlibCompressStats_Get_compressedSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total bytes written to the output stream Modifies a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">compressedSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">compressedSize</span>. When this function is called, this object will drop object references it held previously in <span class="tt">compressedSize</span>. </p>
+
+</div>
+</div>
+<a id="a7dff8988ac61eb37269c623968e5dbb1" name="a7dff8988ac61eb37269c623968e5dbb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dff8988ac61eb37269c623968e5dbb1">&#9670;&#160;</a></span>MR_ZlibCompressStats_Get_crc32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const unsigned int * MR_ZlibCompressStats_Get_crc32 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CRC-32 of the uncompressed input Modifies a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">crc32</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">crc32</span>. When this function is called, this object will drop object references it held previously in <span class="tt">crc32</span>. </p>
+
+</div>
+</div>
+<a id="ab17a9c75ab4302f34af26db18ad3d145" name="ab17a9c75ab4302f34af26db18ad3d145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab17a9c75ab4302f34af26db18ad3d145">&#9670;&#160;</a></span>MR_ZlibCompressStats_Get_uncompressedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_ZlibCompressStats_Get_uncompressedSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total bytes read from the input stream Modifies a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">uncompressedSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">uncompressedSize</span>. When this function is called, this object will drop object references it held previously in <span class="tt">uncompressedSize</span>. </p>
+
+</div>
+</div>
+<a id="a81600bb312444ff049ff29a3b370b410" name="a81600bb312444ff049ff29a3b370b410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81600bb312444ff049ff29a3b370b410">&#9670;&#160;</a></span>MR_ZlibCompressStats_GetMutable_compressedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_ZlibCompressStats_GetMutable_compressedSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af95d919d8dc3155f77a8d52ee50cc3bb" name="af95d919d8dc3155f77a8d52ee50cc3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af95d919d8dc3155f77a8d52ee50cc3bb">&#9670;&#160;</a></span>MR_ZlibCompressStats_GetMutable_crc32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int * MR_ZlibCompressStats_GetMutable_crc32 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total bytes read from the input stream Returns a pointer to a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">uncompressedSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a4b87631edbfd24c6f3b1e3acadb761a4" name="a4b87631edbfd24c6f3b1e3acadb761a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b87631edbfd24c6f3b1e3acadb761a4">&#9670;&#160;</a></span>MR_ZlibCompressStats_GetMutable_uncompressedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_ZlibCompressStats_GetMutable_uncompressedSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total bytes written to the output stream Returns a pointer to a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">compressedSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="acedd1f3891f2c89ac64801e3d65ee6c2" name="acedd1f3891f2c89ac64801e3d65ee6c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acedd1f3891f2c89ac64801e3d65ee6c2">&#9670;&#160;</a></span>MR_ZlibCompressStats_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> * MR_ZlibCompressStats_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a15035e4d5e8f986135af791c5d795bb8" name="a15035e4d5e8f986135af791c5d795bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15035e4d5e8f986135af791c5d795bb8">&#9670;&#160;</a></span>MR_ZlibCompressStats_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> * MR_ZlibCompressStats_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a76fa6b1e0cebec50b4bac73d1ba973e2" name="a76fa6b1e0cebec50b4bac73d1ba973e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76fa6b1e0cebec50b4bac73d1ba973e2">&#9670;&#160;</a></span>MR_ZlibCompressStats_Set_compressedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZlibCompressStats_Set_compressedSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total bytes written to the output stream Returns a mutable pointer to a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">compressedSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a64e06a3f257e5dbccd04457abe08e7d6" name="a64e06a3f257e5dbccd04457abe08e7d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64e06a3f257e5dbccd04457abe08e7d6">&#9670;&#160;</a></span>MR_ZlibCompressStats_Set_crc32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZlibCompressStats_Set_crc32 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CRC-32 of the uncompressed input Returns a mutable pointer to a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">crc32</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a35f39c3b60eee5ee99ad6bc1fc212a19" name="a35f39c3b60eee5ee99ad6bc1fc212a19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f39c3b60eee5ee99ad6bc1fc212a19">&#9670;&#160;</a></span>MR_ZlibCompressStats_Set_uncompressedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZlibCompressStats_Set_uncompressedSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a47dc30cb37461d91a3c74c64beb4c5d1">MR_ZlibCompressStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total bytes read from the input stream Returns a mutable pointer to a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">uncompressedSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -728,7 +1184,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::ZlibParams::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Generated from method <span class="tt">MR::ZlibParams::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. CRC-32 of the uncompressed input Returns a pointer to a member variable of class <span class="tt">MR::ZlibCompressStats</span> named <span class="tt">crc32</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

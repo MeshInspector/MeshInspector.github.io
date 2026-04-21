@@ -1015,6 +1015,7 @@ var classMR =
     [ "ZCompensateParams", "classMR_1_1ZCompensateParams.html", "classMR_1_1ZCompensateParams" ],
     [ "ZeroOnMove_MRUint64T", "classMR_1_1ZeroOnMove__MRUint64T.html", "classMR_1_1ZeroOnMove__MRUint64T" ],
     [ "ZlibCompressParams", "classMR_1_1ZlibCompressParams.html", "classMR_1_1ZlibCompressParams" ],
+    [ "ZlibCompressStats", "classMR_1_1ZlibCompressStats.html", "classMR_1_1ZlibCompressStats" ],
     [ "ZlibParams", "classMR_1_1ZlibParams.html", "classMR_1_1ZlibParams" ],
     [ "AlignType", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4", [
       [ "Left", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4a945d5e233cf7d6240f6b783b36a374ff", null ],

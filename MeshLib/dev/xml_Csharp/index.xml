@@ -21995,6 +21995,7 @@
   </compound>
   <compound refid="classMR_1_1ZlibCompressParams" kind="class"><name>MR::ZlibCompressParams</name>
     <member refid="classMR_1_1ZlibCompressParams_1a3760542dc197e6688e3674f1ae2907dc" kind="property"><name>level</name></member>
+    <member refid="classMR_1_1ZlibCompressParams_1a10dead263b76029ca5ca5e60f99f3658" kind="property"><name>stats</name></member>
     <member refid="classMR_1_1ZlibCompressParams_1aa1e161dc2d19a9ddfa6c5e39aef30309" kind="property"><name>rawDeflate</name></member>
     <member refid="classMR_1_1ZlibCompressParams_1a99aaa36257bff2997597a788e5b93e84" kind="function"><name>operator MR.ZlibParams</name></member>
     <member refid="classMR_1_1ZlibCompressParams_1a395da2bfff7ff404b93efcf0c4cbea15" kind="function"><name>ZlibCompressParams</name></member>
@@ -22002,6 +22003,17 @@
     <member refid="classMR_1_1ZlibCompressParams_1a2d5c56289ccae9d6d98a7f89705c2dde" kind="function"><name>ZlibCompressParams</name></member>
     <member refid="classMR_1_1ZlibCompressParams_1a9e32b005f302d10b22187bb77dfac79d" kind="function"><name>ZlibCompressParams</name></member>
     <member refid="classMR_1_1ZlibCompressParams_1a014da28c3e6e66f13f3ba5e1180ba2ac" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1ZlibCompressStats" kind="class"><name>MR::ZlibCompressStats</name>
+    <member refid="classMR_1_1ZlibCompressStats_1a50ff071fee6130ad90e1b360753e7cba" kind="property"><name>crc32</name></member>
+    <member refid="classMR_1_1ZlibCompressStats_1a22335a201e3435ada23e55a3583d4c7a" kind="property"><name>uncompressedSize</name></member>
+    <member refid="classMR_1_1ZlibCompressStats_1ab89f0f9f1328b552962bc6a64fdf4bac" kind="property"><name>compressedSize</name></member>
+    <member refid="classMR_1_1ZlibCompressStats_1adac6d6a37121518b24dcebfd7a80a1c7" kind="function"><name>ZlibCompressStats</name></member>
+    <member refid="classMR_1_1ZlibCompressStats_1aeff13ed3df9ea17067e802de3aa6cb03" kind="function"><name>ZlibCompressStats</name></member>
+    <member refid="classMR_1_1ZlibCompressStats_1a595252081a34cd9a7e6198684900ede8" kind="function"><name>ZlibCompressStats</name></member>
+    <member refid="classMR_1_1ZlibCompressStats_1a83b45dab611d40a293bd7d5ccd4d2964" kind="function"><name>ZlibCompressStats</name></member>
+    <member refid="classMR_1_1ZlibCompressStats_1a1d0c78709014d090b9aafae5d5c497bb" kind="function"><name>ZlibCompressStats</name></member>
+    <member refid="classMR_1_1ZlibCompressStats_1a3a40db9de9a2df98ef64250d6aa5490a" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1ZlibParams" kind="class"><name>MR::ZlibParams</name>
     <member refid="classMR_1_1ZlibParams_1a5fefe564d79937f989f146af63614b17" kind="property"><name>rawDeflate</name></member>

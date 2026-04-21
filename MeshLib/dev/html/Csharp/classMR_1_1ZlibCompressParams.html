@@ -175,6 +175,8 @@ Static Public Member Functions</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:a3760542dc197e6688e3674f1ae2907dc" id="r_a3760542dc197e6688e3674f1ae2907dc"><td class="memItemLeft" align="right" valign="top">new unsafe ref int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3760542dc197e6688e3674f1ae2907dc">level</a><code> [get]</code></td></tr>
 <tr class="memdesc:a3760542dc197e6688e3674f1ae2907dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">compression level: 0 = no compression, 1 = the fastest but the most inefficient, 9 = the most efficient but the slowest; -1 = zlib's default  <br /></td></tr>
+<tr class="memitem:a10dead263b76029ca5ca5e60f99f3658" id="r_a10dead263b76029ca5ca5e60f99f3658"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1ZlibCompressStats.html">ZlibCompressStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10dead263b76029ca5ca5e60f99f3658">stats</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a10dead263b76029ca5ca5e60f99f3658"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output; if non-null, the pointed-to object is populated with CRC-32 of the input and the uncompressed / compressed byte totals  <br /></td></tr>
 <tr class="memitem:aa1e161dc2d19a9ddfa6c5e39aef30309" id="r_aa1e161dc2d19a9ddfa6c5e39aef30309"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e161dc2d19a9ddfa6c5e39aef30309">rawDeflate</a><code> [get]</code></td></tr>
 <tr class="memdesc:aa1e161dc2d19a9ddfa6c5e39aef30309"><td class="mdescLeft">&#160;</td><td class="mdescRight">wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950)  <br /></td></tr>
 </table>
@@ -361,6 +363,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) </p>
+
+</div>
+</div>
+<a id="a10dead263b76029ca5ca5e60f99f3658" name="a10dead263b76029ca5ca5e60f99f3658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10dead263b76029ca5ca5e60f99f3658">&#9670;&#160;</a></span>stats</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">new unsafe MR.? <a class="el" href="classMR_1_1ZlibCompressStats.html">ZlibCompressStats</a> MR.ZlibCompressParams.stats</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>optional output; if non-null, the pointed-to object is populated with CRC-32 of the input and the uncompressed / compressed byte totals </p>
 
 </div>
 </div>

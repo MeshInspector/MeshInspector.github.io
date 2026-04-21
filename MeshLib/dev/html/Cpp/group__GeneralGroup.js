@@ -4786,8 +4786,14 @@ var group__GeneralGroup =
     [ "MR::ZlibParams", "structMR_1_1ZlibParams.html", [
       [ "rawDeflate", "group__GeneralGroup.html#ga6369002a01e5fff0c1683af9cd4a3276", null ]
     ] ],
+    [ "MR::ZlibCompressStats", "structMR_1_1ZlibCompressStats.html", [
+      [ "compressedSize", "group__GeneralGroup.html#ga3b123979b23f61a29fcb9a14b33c4a3d", null ],
+      [ "crc32", "group__GeneralGroup.html#gaf32477db29522e159768dadeadd63b23", null ],
+      [ "uncompressedSize", "group__GeneralGroup.html#gaf7f3f951698b348e01d3c87dc194b7b5", null ]
+    ] ],
     [ "MR::ZlibCompressParams", "structMR_1_1ZlibCompressParams.html", [
-      [ "level", "group__GeneralGroup.html#ga07efb01c2ca421042eac45a5e6ffeb64", null ]
+      [ "level", "group__GeneralGroup.html#ga07efb01c2ca421042eac45a5e6ffeb64", null ],
+      [ "stats", "group__GeneralGroup.html#ga8fc9151d9754c30cbc5c5ebfb26d0a1d", null ]
     ] ],
     [ "MR::PythonExport", "classMR_1_1PythonExport.html", [
       [ "PythonRegisterFuncton", "group__GeneralGroup.html#ga001e362a5ed99ee391fd182df4571f9c", null ],
@@ -16505,6 +16511,7 @@ var group__GeneralGroup =
     [ "MR::RenderDimensions::PointParams::common", "group__GeneralGroup.html#gaea6f31dfb7d778a350dfcabd1315dbce", null ],
     [ "MR::RenderDimensions::RadiusParams::common", "group__GeneralGroup.html#ga840dbe12e26001840b6e0464356dce72", null ],
     [ "MR::Viewport::Parameters::compensateRotation", "group__GeneralGroup.html#gad62b164cd614da4c2dcf2d2c45b82326", null ],
+    [ "MR::ZlibCompressStats::compressedSize", "group__GeneralGroup.html#ga3b123979b23f61a29fcb9a14b33c4a3d", null ],
     [ "MR::MeshSave::CtmSaveOptions::compressionLevel", "group__GeneralGroup.html#ga09f020b5c907033a5e7b25073effacf5", null ],
     [ "MR::PointsSave::CtmSavePointsOptions::compressionLevel", "group__GeneralGroup.html#ga93bcbf8ddd9c5a89210bf3cf9f8acbef", null ],
     [ "MR::DihedralAngleProcessParams::concaveFactor", "group__GeneralGroup.html#ga02f9a36cc38f075c05945cd1d672a9b4", null ],
@@ -16548,6 +16555,7 @@ var group__GeneralGroup =
     [ "MR::cQuietNanBits", "group__GeneralGroup.html#ga8f3c9f088f6a284e579d9042826fccd6", null ],
     [ "MR::cRadioButtonSize", "group__GeneralGroup.html#ga5e91f2b6e23986c1b6506a29afbc961c", null ],
     [ "MR::cRadioInnerSpacingX", "group__GeneralGroup.html#gafe49e137af70c8aaef17a39366b4bd32", null ],
+    [ "MR::ZlibCompressStats::crc32", "group__GeneralGroup.html#gaf32477db29522e159768dadeadd63b23", null ],
     [ "MR::ObjectMeshData::creases", "group__GeneralGroup.html#ga3a3a9e8e30929bf38302f1e9c6176c35", null ],
     [ "MR::ObjectMeshHolder::creasesChangedSignal", "group__GeneralGroup.html#gaf852a5542908bb08f0eecec630ba0ef8", null ],
     [ "MR::PointsToMeshParameters::createVolumeCallback", "group__GeneralGroup.html#ga79ea998979bc61c402e801d6a82b292d", null ],
@@ -17917,6 +17925,7 @@ var group__GeneralGroup =
     [ "MR::ToolPathParams::startVertices", "group__GeneralGroup.html#gadf1fc52d9134c621ba9630531ee2c99d", null ],
     [ "MR::CommandLoop::Command::state", "group__GeneralGroup.html#ga739535ad2c8198dd5cdc5b804b4d20c2", null ],
     [ "MR::Viewport::Parameters::staticRotationPivot", "group__GeneralGroup.html#gaba40f3c99bf1294e53abdd88d21278e8", null ],
+    [ "MR::ZlibCompressParams::stats", "group__GeneralGroup.html#ga8fc9151d9754c30cbc5c5ebfb26d0a1d", null ],
     [ "MR::Features::MeasureResult::BasicPart::status", "group__GeneralGroup.html#ga86193b4dbe9a464e56ff2fe272c46486", null ],
     [ "MR::VoxelsLoad::DicomStatus::status", "group__GeneralGroup.html#ga69fabaf9380693815d99277fda43022f", null ],
     [ "MR::ImGuiMenu::storedColor_", "group__GeneralGroup.html#ga42944b2f8a7080c6a06c93633f97cb4c", null ],
@@ -18114,6 +18123,7 @@ var group__GeneralGroup =
     [ "MR::GridSettings::uedgeIds", "group__GeneralGroup.html#gaeb3dd9e9c7f4ea93ddd4aea1b4afc61c", null ],
     [ "MR::ImGuiMenu::uiRenderManager_", "group__GeneralGroup.html#gac676c6482bdbd381c6a69ec47774f8eb", null ],
     [ "MR::SurfaceManipulationWidget::unchangeableVerts_", "group__GeneralGroup.html#gaa0fd16498ab8c5a8415556c1e670724b", null ],
+    [ "MR::ZlibCompressStats::uncompressedSize", "group__GeneralGroup.html#gaf7f3f951698b348e01d3c87dc194b7b5", null ],
     [ "MR::Pdf::TextParams::underline", "group__GeneralGroup.html#ga7d18ee945388f340f174e73ce3ff798a", null ],
     [ "MR::UI::ButtonCustomizationParams::underlineFirstLetter", "group__GeneralGroup.html#gaa05d1e76244fb6b4afc1122ad02e1d5e", null ],
     [ "MR::UndirectedEdgeTag", "group__GeneralGroup.html#ga1bbe6aa7d7136f740286af86f591c19b", null ],

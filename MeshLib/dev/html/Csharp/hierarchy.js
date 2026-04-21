@@ -2565,6 +2565,9 @@ var hierarchy =
       [ "MR.Const_ZlibCompressParams", null, [
         [ "MR.ZlibCompressParams", "classMR_1_1ZlibCompressParams.html", null ]
       ] ],
+      [ "MR.Const_ZlibCompressStats", null, [
+        [ "MR.ZlibCompressStats", "classMR_1_1ZlibCompressStats.html", null ]
+      ] ],
       [ "MR.Const_ZlibParams", null, [
         [ "MR.ZlibParams", "classMR_1_1ZlibParams.html", null ]
       ] ],
@@ -4182,6 +4185,7 @@ var hierarchy =
       [ "MR.Const_ZCompensateParams", null, null ],
       [ "MR.Const_ZeroOnMove_MRUint64T", null, null ],
       [ "MR.Const_ZlibCompressParams", null, null ],
+      [ "MR.Const_ZlibCompressStats", null, null ],
       [ "MR.Const_ZlibParams", null, null ],
       [ "MR.Cuda.Const_ComputeToolDistance", null, null ],
       [ "MR.Cuda.Const_FastWindingNumber", null, null ],

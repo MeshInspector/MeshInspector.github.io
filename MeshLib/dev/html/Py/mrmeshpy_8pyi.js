@@ -1118,6 +1118,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", "classmrmeshpy_1_1ZCompensateParams" ],
     [ "mrmeshpy.ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", "classmrmeshpy_1_1ZeroOnMove__unsigned__long" ],
     [ "mrmeshpy.ZlibCompressParams", "classmrmeshpy_1_1ZlibCompressParams.html", "classmrmeshpy_1_1ZlibCompressParams" ],
+    [ "mrmeshpy.ZlibCompressStats", "classmrmeshpy_1_1ZlibCompressStats.html", "classmrmeshpy_1_1ZlibCompressStats" ],
     [ "mrmeshpy.ZlibParams", "classmrmeshpy_1_1ZlibParams.html", "classmrmeshpy_1_1ZlibParams" ],
     [ "mrmeshpy.bool_output", "classmrmeshpy_1_1bool__output.html", "classmrmeshpy_1_1bool__output" ],
     [ "mrmeshpy.char_output", "classmrmeshpy_1_1char__output.html", "classmrmeshpy_1_1char__output" ],
