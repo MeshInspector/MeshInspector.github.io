@@ -13374,6 +13374,12 @@
     <member refid="group__GeneralGroup_1gac3bc0c5c28107a3a11a89d8b43373be0" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1ga51e46bdba8b867ecd3c48d42a29c6aac" kind="function"><name>operator=</name></member>
   </compound>
+  <compound refid="structMR_1_1ZlibCompressParams" kind="struct"><name>MR::ZlibCompressParams</name>
+    <member refid="group__GeneralGroup_1ga07efb01c2ca421042eac45a5e6ffeb64" kind="variable"><name>level</name></member>
+  </compound>
+  <compound refid="structMR_1_1ZlibParams" kind="struct"><name>MR::ZlibParams</name>
+    <member refid="group__GeneralGroup_1ga6369002a01e5fff0c1683af9cd4a3276" kind="variable"><name>rawDeflate</name></member>
+  </compound>
   <compound refid="conceptMR_1_1AnyVisualizeMaskEnumType" kind="concept"><name>MR::AnyVisualizeMaskEnumType</name>
   </compound>
   <compound refid="conceptMR_1_1detail_1_1Units_1_1Scalar" kind="concept"><name>MR::detail::Units::Scalar</name>
@@ -14152,8 +14158,6 @@
     <member refid="group__GeneralGroup_1gae6fa636dd51f34ce2884fd560b05e1f4" kind="function"><name>deserializeObjectTreeFromGltf</name></member>
     <member refid="group__GeneralGroup_1ga01574256a10162ba5b6e30329e70503e" kind="function"><name>serializeObjectTreeToGltf</name></member>
     <member refid="group__GeneralGroup_1ga9da69906a8753c1bbec83769cf687367" kind="function"><name>loadIOExtras</name></member>
-    <member refid="group__GeneralGroup_1ga391a2ecfeefaef70abbdbb81665886f5" kind="function"><name>zlibCompressStream</name></member>
-    <member refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" kind="function"><name>zlibDecompressStream</name></member>
     <member refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kind="function"><name>to3dim</name></member>
     <member refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kind="function"><name>to2dim</name></member>
     <member refid="group__ConversionBetween2and3dimGroup_1gaec12159443820ad007ef070ec329a5bd" kind="function"><name>to3dim</name></member>
@@ -15438,6 +15442,10 @@
     <member refid="group__SerializerGroup_1gaeb9ec7f1149bdc406b6d901c2bc1986f" kind="function"><name>decompressZip</name></member>
     <member refid="group__SerializerGroup_1gaaeb1d5f0f783381f2285fd4d7fbd1c6b" kind="function"><name>compressZip</name></member>
     <member refid="group__SerializerGroup_1ga4466031d05f4eb56868dc88105bc5248" kind="function"><name>compressZip</name></member>
+    <member refid="group__GeneralGroup_1gab5809f4005176091dab5888398265a1e" kind="function"><name>zlibCompressStream</name></member>
+    <member refid="group__GeneralGroup_1ga391a2ecfeefaef70abbdbb81665886f5" kind="function"><name>zlibCompressStream</name></member>
+    <member refid="group__GeneralGroup_1ga821dbf6faccece72904317f7a7af0c43" kind="function"><name>zlibDecompressStream</name></member>
+    <member refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" kind="function"><name>zlibDecompressStream</name></member>
     <member refid="group__GeneralGroup_1ga396596cb5cea6d2f8fec7b7838ae2bc5" kind="function"><name>throwExceptionFromExpected</name></member>
     <member refid="group__GeneralGroup_1gac95039057559bedc6c5786b29e42d974" kind="function"><name>expectedValueOrThrow</name></member>
     <member refid="group__GeneralGroup_1gaa60c1177452c69cf5b8cdab61296d1ce" kind="function"><name>decorateExpected</name></member>
@@ -16689,7 +16697,9 @@
   </compound>
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
   </compound>
-  <compound refid="MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRMcp_8h" kind="file"><name>MRMcp.h</name>
   </compound>
@@ -22595,6 +22605,8 @@
     <member refid="group__GeneralGroup_1ga1ff0e2daeb475fb1edc47380d8255f59" kind="variable"><name>obj</name></member>
     <member refid="group__GeneralGroup_1ga0a7b066a543aef13ca56e872b81744fd" kind="variable"><name>xf_</name></member>
     <member refid="group__GeneralGroup_1ga89a2235f9a91e43fb9da57b8416450e1" kind="variable"><name>cache_</name></member>
+    <member refid="group__GeneralGroup_1ga6369002a01e5fff0c1683af9cd4a3276" kind="variable"><name>rawDeflate</name></member>
+    <member refid="group__GeneralGroup_1ga07efb01c2ca421042eac45a5e6ffeb64" kind="variable"><name>level</name></member>
     <member refid="group__GeneralGroup_1ga190cf30264de3002c79d0b715ed6697a" kind="variable"><name>initFncPointer</name></member>
     <member refid="group__GeneralGroup_1ga0fe7a81962a7cace96c7ec89855e1064" kind="variable"><name>functions</name></member>
     <member refid="group__GeneralGroup_1ga2553f1d2794ce1fdfaa893e69cc64836" kind="variable"><name>moduleData_</name></member>
@@ -24698,8 +24710,6 @@
     <member refid="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" kind="function"><name>fromTiff</name></member>
     <member refid="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" kind="function"><name>toTiff</name></member>
     <member refid="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" kind="function"><name>toTiff</name></member>
-    <member refid="group__GeneralGroup_1ga391a2ecfeefaef70abbdbb81665886f5" kind="function"><name>zlibCompressStream</name></member>
-    <member refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" kind="function"><name>zlibDecompressStream</name></member>
     <member refid="group__GeneralGroup_1gab8aeb3b0d7bff8697dd824538020153b" kind="function"><name>findHoleVertIdsByHoleEdges</name></member>
     <member refid="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" kind="function"><name>isIntersection</name></member>
     <member refid="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" kind="function"><name>getOutlineMesh</name></member>
@@ -27921,6 +27931,10 @@
     <member refid="group__GeneralGroup_1ga4cb9593831740a31e6a6933644435799" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1ga3b3e82656a92381f41f435da52178562" kind="function"><name>set</name></member>
     <member refid="group__GeneralGroup_1ga6341f3c9b4f6ccb5bcf18cc28ccf5efc" kind="function"><name>reset</name></member>
+    <member refid="group__GeneralGroup_1gab5809f4005176091dab5888398265a1e" kind="function"><name>zlibCompressStream</name></member>
+    <member refid="group__GeneralGroup_1ga391a2ecfeefaef70abbdbb81665886f5" kind="function"><name>zlibCompressStream</name></member>
+    <member refid="group__GeneralGroup_1ga821dbf6faccece72904317f7a7af0c43" kind="function"><name>zlibDecompressStream</name></member>
+    <member refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" kind="function"><name>zlibDecompressStream</name></member>
     <member refid="group__GeneralGroup_1gabfb182152c405649c53c0c632868b0c2" kind="function"><name>instance</name></member>
     <member refid="group__GeneralGroup_1ga595ac26b1d2a27a14a95bbc5a1963532" kind="function"><name>addFunc</name></member>
     <member refid="group__GeneralGroup_1ga1105f4987df7b1b8d9d469115a831880" kind="function"><name>setInitFuncPtr</name></member>

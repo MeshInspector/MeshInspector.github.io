@@ -1,5 +1,9 @@
 var NAVTREEINDEX4 =
 {
+"MRPointCloudPart_8h.html":[6,0,3,0,6,293],
+"MRPointCloudPart_8h_source.html":[6,0,3,0,6,293],
+"MRPointCloudRadius_8h.html":[6,0,3,0,6,294],
+"MRPointCloudRadius_8h_source.html":[6,0,3,0,6,294],
 "MRPointCloudRelax_8h.html":[6,0,3,0,6,295],
 "MRPointCloudRelax_8h_source.html":[6,0,3,0,6,295],
 "MRPointCloudTriangulationHelpers_8h.html":[6,0,3,0,6,297],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "MRSceneColors_8h.html":[6,0,3,0,6,356],
 "MRSceneColors_8h_source.html":[6,0,3,0,6,356],
 "MRSceneLoad_8h.html":[6,0,3,0,6,357],
-"MRSceneLoad_8h_source.html":[6,0,3,0,6,357],
-"MRSceneObjectsListDrawer_8h.html":[6,0,3,0,10,108],
-"MRSceneObjectsListDrawer_8h_source.html":[6,0,3,0,10,108],
-"MRSceneOperations_8h.html":[6,0,3,0,10,109],
-"MRSceneOperations_8h_source.html":[6,0,3,0,10,109]
+"MRSceneLoad_8h_source.html":[6,0,3,0,6,357]
 };

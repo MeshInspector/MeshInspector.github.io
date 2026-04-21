@@ -152,31 +152,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76195" bodyend="76198"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
-        <definition> VdbVolume mrmeshpy.VoxelsLoad.fromRaw</definition>
-        <argsstring>(os.PathLike|str|bytes file, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
-        <name>fromRaw</name>
-        <qualifiedname>mrmeshpy.VoxelsLoad.fromRaw</qualifiedname>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
-          <declname>cb</declname>
-          <defval>&apos;{}&apos;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Load raw voxels file, parsing parameters from name
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76201" bodyend="76204"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ab1b0fcbab4e8b0fe8394684afd36f3ca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
         <definition> VdbVolume mrmeshpy.VoxelsLoad.fromRaw</definition>
@@ -200,6 +175,31 @@
         </briefdescription>
         <detaileddescription>
 <para><verbatim>Load raw voxels from file with provided parameters
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76201" bodyend="76204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+        <definition> VdbVolume mrmeshpy.VoxelsLoad.fromRaw</definition>
+        <argsstring>(os.PathLike|str|bytes file, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.fromRaw</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Load raw voxels file, parsing parameters from name
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -724,8 +724,8 @@ important on Windows: in stream must be open in binary mode
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a26c0fbfe3f9ad30fd2cb3e8cb0368226" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromAnySupportedFormat</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a0e9e549b8230f0ad53a1703d96dc4008" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromGav</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a2b7ae1ac3589ee79b1be1086e9a4e095" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromGav</name></member>
-      <member refid="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromRaw</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1ab1b0fcbab4e8b0fe8394684afd36f3ca" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromRaw</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromRaw</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a8c129066ec57b924bbd7e1ecd49f9634" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromRaw</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a239472762712a6d742940866d9c12df3" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>fromVdb</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>gridFromRaw</name></member>

@@ -3,24 +3,640 @@
   <compounddef id="MRZlib_8h" kind="file" language="C++">
     <compoundname>MRZlib.h</compoundname>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRZlib.h</label>
         <link refid="MRZlib_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
     </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRZlib_8h_1a37345dd77092a846551d5d390c367969" prot="public" static="no">
+        <type>struct <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref></type>
+        <definition>typedef struct MR_ZlibParams MR_ZlibParams</definition>
+        <argsstring></argsstring>
+        <name>MR_ZlibParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parameters shared by zlibCompressStream and zlibDecompressStream Generated from class <computeroutput>MR::ZlibParams</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::ZlibCompressParams</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="23" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" prot="public" static="no">
+        <type>struct <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref></type>
+        <definition>typedef struct MR_ZlibCompressParams MR_ZlibCompressParams</definition>
+        <argsstring></argsstring>
+        <name>MR_ZlibCompressParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parameters for zlibCompressStream (adds a compression level on top of ZlibParams) Generated from class <computeroutput>MR::ZlibCompressParams</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ZlibParams</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="31" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="MRZlib_8h_1a79cbd292ea901c8733120b7ec1a0019e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRZlib_8h_1a8a9fbfc8ccb4e846c1a71b821be45939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
+        <definition>MRC_API const bool * MR_ZlibParams_Get_rawDeflate</definition>
+        <argsstring>(const MR_ZlibParams *_this)</argsstring>
+        <name>MR_ZlibParams_Get_rawDeflate</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) Returns a pointer to a member variable of class <computeroutput>MR::ZlibParams</computeroutput> named <computeroutput>rawDeflate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="40" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="40" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a046122ef4059f33e4fb1f1790b4901b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ZlibParams_Set_rawDeflate</definition>
+        <argsstring>(MR_ZlibParams *_this, bool value)</argsstring>
+        <name>MR_ZlibParams_Set_rawDeflate</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) Modifies a member variable of class <computeroutput>MR::ZlibParams</computeroutput> named <computeroutput>rawDeflate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>rawDeflate</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a97c71c1b7adcdcc38f9af4b5402d641c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
+        <definition>MRC_API bool * MR_ZlibParams_GetMutable_rawDeflate</definition>
+        <argsstring>(MR_ZlibParams *_this)</argsstring>
+        <name>MR_ZlibParams_GetMutable_rawDeflate</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) Returns a mutable pointer to a member variable of class <computeroutput>MR::ZlibParams</computeroutput> named <computeroutput>rawDeflate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1af45344bfdd0eba0c82c789a857fc1c26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API MR_ZlibParams * MR_ZlibParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ZlibParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" kindref="member">MR_ZlibParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="61" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="61" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1ac50c3141e46d65ffc9c5f325ffbeb4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API MR_ZlibParams * MR_ZlibParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ZlibParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" kindref="member">MR_ZlibParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" kindref="member">MR_ZlibParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" kindref="member">MR_ZlibParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="66" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="66" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1ad6f780eafea7671c865c381eec12897f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API MR_ZlibParams * MR_ZlibParams_ConstructFrom</definition>
+        <argsstring>(bool rawDeflate)</argsstring>
+        <name>MR_ZlibParams_ConstructFrom</name>
+        <param>
+          <type>bool</type>
+          <declname>rawDeflate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::ZlibParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" kindref="member">MR_ZlibParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="71" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="71" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API const MR_ZlibParams * MR_ZlibParams_OffsetPtr</definition>
+        <argsstring>(const MR_ZlibParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ZlibParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="75" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="75" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API MR_ZlibParams * MR_ZlibParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_ZlibParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ZlibParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="79" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="79" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a71e3e9f274a2e7029f3ab587c2f6c44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API MR_ZlibParams * MR_ZlibParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_ZlibParams *_other)</argsstring>
+        <name>MR_ZlibParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ZlibParams::ZlibParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" kindref="member">MR_ZlibParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="85" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="85" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ZlibParams_Destroy</definition>
+        <argsstring>(const MR_ZlibParams *_this)</argsstring>
+        <name>MR_ZlibParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="88" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ZlibParams_DestroyArray</definition>
+        <argsstring>(const MR_ZlibParams *_this)</argsstring>
+        <name>MR_ZlibParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a121a1870cd6c3cb7ccebf2b1240bd95c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API MR_ZlibParams * MR_ZlibParams_AssignFromAnother</definition>
+        <argsstring>(MR_ZlibParams *_this, const MR_ZlibParams *_other)</argsstring>
+        <name>MR_ZlibParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ZlibParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="99" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="99" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1af266866471be24c884595ad16138c89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_ZlibCompressParams_Get_level</definition>
+        <argsstring>(const MR_ZlibCompressParams *_this)</argsstring>
+        <name>MR_ZlibCompressParams_Get_level</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compression level: 0 = no compression, 1 = the fastest but the most inefficient, 9 = the most efficient but the slowest; -1 = zlib&apos;s default Returns a pointer to a member variable of class <computeroutput>MR::ZlibCompressParams</computeroutput> named <computeroutput>level</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="107" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="107" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a0c79d1a74da1fbebec657a31ec94104c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ZlibCompressParams_Set_level</definition>
+        <argsstring>(MR_ZlibCompressParams *_this, int value)</argsstring>
+        <name>MR_ZlibCompressParams_Set_level</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compression level: 0 = no compression, 1 = the fastest but the most inefficient, 9 = the most efficient but the slowest; -1 = zlib&apos;s default Modifies a member variable of class <computeroutput>MR::ZlibCompressParams</computeroutput> named <computeroutput>level</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>level</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a0e633a3fc6a117e4a7e65b1877d44862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
+        <definition>MRC_API int * MR_ZlibCompressParams_GetMutable_level</definition>
+        <argsstring>(MR_ZlibCompressParams *_this)</argsstring>
+        <name>MR_ZlibCompressParams_GetMutable_level</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compression level: 0 = no compression, 1 = the fastest but the most inefficient, 9 = the most efficient but the slowest; -1 = zlib&apos;s default Returns a mutable pointer to a member variable of class <computeroutput>MR::ZlibCompressParams</computeroutput> named <computeroutput>level</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="122" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="122" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a6e622b160132dc128b08f8f725d44b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
+        <definition>MRC_API const bool * MR_ZlibCompressParams_Get_rawDeflate</definition>
+        <argsstring>(const MR_ZlibCompressParams *_this)</argsstring>
+        <name>MR_ZlibCompressParams_Get_rawDeflate</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) Returns a pointer to a member variable of class <computeroutput>MR::ZlibCompressParams</computeroutput> named <computeroutput>rawDeflate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="131" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="131" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1abc91ff8f3a1fbb5eaef166ee42c13e5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ZlibCompressParams_Set_rawDeflate</definition>
+        <argsstring>(MR_ZlibCompressParams *_this, bool value)</argsstring>
+        <name>MR_ZlibCompressParams_Set_rawDeflate</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) Modifies a member variable of class <computeroutput>MR::ZlibCompressParams</computeroutput> named <computeroutput>rawDeflate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>rawDeflate</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a8be522b0737900633c012d612fec12b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
+        <definition>MRC_API bool * MR_ZlibCompressParams_GetMutable_rawDeflate</definition>
+        <argsstring>(MR_ZlibCompressParams *_this)</argsstring>
+        <name>MR_ZlibCompressParams_GetMutable_rawDeflate</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) Returns a mutable pointer to a member variable of class <computeroutput>MR::ZlibCompressParams</computeroutput> named <computeroutput>rawDeflate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="148" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="148" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1ab2d34cb4db9280b4b87e3422070f660e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+        <definition>MRC_API MR_ZlibCompressParams * MR_ZlibCompressParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ZlibCompressParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" kindref="member">MR_ZlibCompressParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="152" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="152" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a4d684d9477e4bb3fa5dd04ce173c8f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+        <definition>MRC_API MR_ZlibCompressParams * MR_ZlibCompressParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ZlibCompressParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" kindref="member">MR_ZlibCompressParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" kindref="member">MR_ZlibCompressParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" kindref="member">MR_ZlibCompressParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="157" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="157" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+        <definition>MRC_API const MR_ZlibCompressParams * MR_ZlibCompressParams_OffsetPtr</definition>
+        <argsstring>(const MR_ZlibCompressParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ZlibCompressParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="161" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="161" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+        <definition>MRC_API MR_ZlibCompressParams * MR_ZlibCompressParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_ZlibCompressParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ZlibCompressParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="165" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="165" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1aee0c55957cbd2a4de54e273dd110a3b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API const MR_ZlibParams * MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</definition>
+        <argsstring>(const MR_ZlibCompressParams *object)</argsstring>
+        <name>MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ZlibCompressParams</computeroutput> to its base class <computeroutput>MR::ZlibParams</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="170" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="170" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a99c83c9f35aba721ce3b3ada40caeb95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+        <definition>MRC_API MR_ZlibParams * MR_ZlibCompressParams_MutableUpcastTo_MR_ZlibParams</definition>
+        <argsstring>(MR_ZlibCompressParams *object)</argsstring>
+        <name>MR_ZlibCompressParams_MutableUpcastTo_MR_ZlibParams</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ZlibCompressParams</computeroutput> to its base class <computeroutput>MR::ZlibParams</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="174" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="174" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1acb28419b8a14c4c7dc42b5a61fe09a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+        <definition>MRC_API const MR_ZlibCompressParams * MR_ZlibCompressParams_StaticDowncastFrom_MR_ZlibParams</definition>
+        <argsstring>(const MR_ZlibParams *object)</argsstring>
+        <name>MR_ZlibCompressParams_StaticDowncastFrom_MR_ZlibParams</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::ZlibParams</computeroutput> to a derived class <computeroutput>MR::ZlibCompressParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="180" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="180" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a7559fd6d3e54cbf908dad18f2ba732b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+        <definition>MRC_API MR_ZlibCompressParams * MR_ZlibCompressParams_MutableStaticDowncastFrom_MR_ZlibParams</definition>
+        <argsstring>(MR_ZlibParams *object)</argsstring>
+        <name>MR_ZlibCompressParams_MutableStaticDowncastFrom_MR_ZlibParams</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::ZlibParams</computeroutput> to a derived class <computeroutput>MR::ZlibCompressParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="185" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="185" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a2fc603de4c0599e1c878ac4ca68db035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+        <definition>MRC_API MR_ZlibCompressParams * MR_ZlibCompressParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_ZlibCompressParams *_other)</argsstring>
+        <name>MR_ZlibCompressParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ZlibCompressParams::ZlibCompressParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" kindref="member">MR_ZlibCompressParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="191" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="191" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ZlibCompressParams_Destroy</definition>
+        <argsstring>(const MR_ZlibCompressParams *_this)</argsstring>
+        <name>MR_ZlibCompressParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="194" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ZlibCompressParams_DestroyArray</definition>
+        <argsstring>(const MR_ZlibCompressParams *_this)</argsstring>
+        <name>MR_ZlibCompressParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="197" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1ae2489d89fe91daa721fdef92a5b03258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+        <definition>MRC_API MR_ZlibCompressParams * MR_ZlibCompressParams_AssignFromAnother</definition>
+        <argsstring>(MR_ZlibCompressParams *_this, const MR_ZlibCompressParams *_other)</argsstring>
+        <name>MR_ZlibCompressParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ZlibCompressParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="205" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="205" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1ac62b0b17528a00c9835704fb3c6e741b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
-        <definition>MRC_API MR_expected_void_std_string * MR_zlibCompressStream</definition>
-        <argsstring>(MR_std_istream *in, MR_std_ostream *out, const int *level)</argsstring>
-        <name>MR_zlibCompressStream</name>
+        <definition>MRC_API MR_expected_void_std_string * MR_zlibCompressStream_MR_ZlibCompressParams</definition>
+        <argsstring>(MR_std_istream *in, MR_std_ostream *out, const MR_ZlibCompressParams *params)</argsstring>
+        <name>MR_zlibCompressStream_MR_ZlibCompressParams</name>
         <param>
           <type><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
           <declname>in</declname>
@@ -30,8 +646,8 @@
           <declname>out</declname>
         </param>
         <param>
-          <type>const int *</type>
-          <declname>level</declname>
+          <type>const <ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref> *</type>
+          <declname>params</declname>
         </param>
         <briefdescription>
 <para>compress the input data using the Deflate algorithm </para>
@@ -55,26 +671,26 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>level</parametername>
+<parametername>params</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- compression level (0 - no compression, 1 - the fastest but the most inefficient compression, 9 - the most efficient but the slowest compression) </para>
+<para>- compression parameters (wire format, level) </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>nothing or error string Generated from function <computeroutput>MR::zlibCompressStream</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>level</computeroutput> has a default argument: <computeroutput>-1</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<simplesect kind="return"><para>nothing or error string Generated from function <computeroutput>MR::zlibCompressStream</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRZlib.h" line="26" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRZlib.h" declline="26" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="219" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="219" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRZlib_8h_1a499a87f072c24e3c153c72fed3c020c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRZlib_8h_1a234cb26c6604e4a12207011f1c9a8839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
-        <definition>MRC_API MR_expected_void_std_string * MR_zlibDecompressStream</definition>
-        <argsstring>(MR_std_istream *in, MR_std_ostream *out)</argsstring>
-        <name>MR_zlibDecompressStream</name>
+        <definition>MRC_API MR_expected_void_std_string * MR_zlibCompressStream_int</definition>
+        <argsstring>(MR_std_istream *in, MR_std_ostream *out, const int *level)</argsstring>
+        <name>MR_zlibCompressStream_int</name>
         <param>
           <type><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
           <declname>in</declname>
@@ -83,10 +699,53 @@
           <type><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
           <declname>out</declname>
         </param>
+        <param>
+          <type>const int *</type>
+          <declname>level</declname>
+        </param>
         <briefdescription>
+<para>compress the input data using the Deflate algorithm (zlib-wrapped, RFC 1950) </para>
         </briefdescription>
         <detaileddescription>
-<para>/brief decompress the input data compressed using the Deflate algorithm <parameterlist kind="param"><parameteritem>
+<para><simplesect kind="note"><para>convenience overload; equivalent to <computeroutput>zlibCompressStream(in, out, { .level = level })</computeroutput> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- compression level (see ZlibCompressParams::level) Generated from function <computeroutput>MR::zlibCompressStream</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>level</computeroutput> has a default argument: <computeroutput>-1</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="231" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="231" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a6c95d7ff0b8ce23edded36aaa3e5acc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_zlibDecompressStream_3</definition>
+        <argsstring>(MR_std_istream *in, MR_std_ostream *out, const MR_ZlibParams *params)</argsstring>
+        <name>MR_zlibDecompressStream_3</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>decompress the input data compressed with the Deflate algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>in</parametername>
 </parameternamelist>
@@ -102,14 +761,47 @@
 <para>- output data stream </para>
 </parameterdescription>
 </parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- decompression parameters (wire format) </para>
+</parameterdescription>
+</parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>nothing or error string Generated from function <computeroutput>MR::zlibDecompressStream</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<simplesect kind="return"><para>nothing or error string Generated from function <computeroutput>MR::zlibDecompressStream</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRZlib.h" line="38" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRZlib.h" declline="38" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="245" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="245" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRZlib_8h_1a5049f6fce925541f6db76719459c2862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_zlibDecompressStream_2</definition>
+        <argsstring>(MR_std_istream *in, MR_std_ostream *out)</argsstring>
+        <name>MR_zlibDecompressStream_2</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref> *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref> *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+<para>decompress the input data compressed with the Deflate algorithm (zlib-wrapped, RFC 1950) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>convenience overload; equivalent to <computeroutput>zlibDecompressStream(in, out, {})</computeroutput> Generated from function <computeroutput>MR::zlibDecompressStream</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>out</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" line="255" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h" declline="255" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -121,23 +813,94 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRZlib_8h_1a79cbd292ea901c8733120b7ec1a0019e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a79cbd292ea901c8733120b7ec1a0019e" kindref="member">MR_zlibCompressStream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*level);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRZlib_8h_1a499a87f072c24e3c153c72fed3c020c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a499a87f072c24e3c153c72fed3c020c3" kindref="member">MR_zlibDecompressStream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRZlib_8h_1a8a9fbfc8ccb4e846c1a71b821be45939" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a8a9fbfc8ccb4e846c1a71b821be45939" kindref="member">MR_ZlibParams_Get_rawDeflate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRZlib_8h_1a046122ef4059f33e4fb1f1790b4901b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a046122ef4059f33e4fb1f1790b4901b7" kindref="member">MR_ZlibParams_Set_rawDeflate</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRZlib_8h_1a97c71c1b7adcdcc38f9af4b5402d641c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a97c71c1b7adcdcc38f9af4b5402d641c" kindref="member">MR_ZlibParams_GetMutable_rawDeflate</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRZlib_8h_1af45344bfdd0eba0c82c789a857fc1c26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1af45344bfdd0eba0c82c789a857fc1c26" kindref="member">MR_ZlibParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRZlib_8h_1ac50c3141e46d65ffc9c5f325ffbeb4cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ac50c3141e46d65ffc9c5f325ffbeb4cf" kindref="member">MR_ZlibParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRZlib_8h_1ad6f780eafea7671c865c381eec12897f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ad6f780eafea7671c865c381eec12897f" kindref="member">MR_ZlibParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rawDeflate);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1ab130b16e26b6f9b3235cb02440ea2459" kindref="member">MR_ZlibParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a171d26fe4cf375e60ce93842a3e2cc3e" kindref="member">MR_ZlibParams_OffsetMutablePtr</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRZlib_8h_1a71e3e9f274a2e7029f3ab587c2f6c44d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a71e3e9f274a2e7029f3ab587c2f6c44d" kindref="member">MR_ZlibParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1ad2212e8780a5762ebc193771281b6b59" kindref="member">MR_ZlibParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a056bd9e7b374606d01fdf5f7f10a964a" kindref="member">MR_ZlibParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRZlib_8h_1a121a1870cd6c3cb7ccebf2b1240bd95c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a121a1870cd6c3cb7ccebf2b1240bd95c" kindref="member">MR_ZlibParams_AssignFromAnother</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRZlib_8h_1af266866471be24c884595ad16138c89a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1af266866471be24c884595ad16138c89a" kindref="member">MR_ZlibCompressParams_Get_level</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRZlib_8h_1a0c79d1a74da1fbebec657a31ec94104c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a0c79d1a74da1fbebec657a31ec94104c" kindref="member">MR_ZlibCompressParams_Set_level</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRZlib_8h_1a0e633a3fc6a117e4a7e65b1877d44862" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a0e633a3fc6a117e4a7e65b1877d44862" kindref="member">MR_ZlibCompressParams_GetMutable_level</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRZlib_8h_1a6e622b160132dc128b08f8f725d44b21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a6e622b160132dc128b08f8f725d44b21" kindref="member">MR_ZlibCompressParams_Get_rawDeflate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRZlib_8h_1abc91ff8f3a1fbb5eaef166ee42c13e5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1abc91ff8f3a1fbb5eaef166ee42c13e5f" kindref="member">MR_ZlibCompressParams_Set_rawDeflate</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRZlib_8h_1a8be522b0737900633c012d612fec12b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRZlib_8h_1a8be522b0737900633c012d612fec12b8" kindref="member">MR_ZlibCompressParams_GetMutable_rawDeflate</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRZlib_8h_1ab2d34cb4db9280b4b87e3422070f660e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1ab2d34cb4db9280b4b87e3422070f660e" kindref="member">MR_ZlibCompressParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRZlib_8h_1a4d684d9477e4bb3fa5dd04ce173c8f28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a4d684d9477e4bb3fa5dd04ce173c8f28" kindref="member">MR_ZlibCompressParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a9ec492c7a88e7b1879835dd8ec713074" kindref="member">MR_ZlibCompressParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a06cdfeaaa319d96880aff9f4a7f1d0be" kindref="member">MR_ZlibCompressParams_OffsetMutablePtr</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRZlib_8h_1aee0c55957cbd2a4de54e273dd110a3b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1aee0c55957cbd2a4de54e273dd110a3b3" kindref="member">MR_ZlibCompressParams_UpcastTo_MR_ZlibParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRZlib_8h_1a99c83c9f35aba721ce3b3ada40caeb95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*<ref refid="MRZlib_8h_1a99c83c9f35aba721ce3b3ada40caeb95" kindref="member">MR_ZlibCompressParams_MutableUpcastTo_MR_ZlibParams</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRZlib_8h_1acb28419b8a14c4c7dc42b5a61fe09a97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1acb28419b8a14c4c7dc42b5a61fe09a97" kindref="member">MR_ZlibCompressParams_StaticDowncastFrom_MR_ZlibParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRZlib_8h_1a7559fd6d3e54cbf908dad18f2ba732b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a7559fd6d3e54cbf908dad18f2ba732b8" kindref="member">MR_ZlibCompressParams_MutableStaticDowncastFrom_MR_ZlibParams</ref>(<ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRZlib_8h_1a2fc603de4c0599e1c878ac4ca68db035" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1a2fc603de4c0599e1c878ac4ca68db035" kindref="member">MR_ZlibCompressParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a0f9067266de06a3e204e2818c245eb92" kindref="member">MR_ZlibCompressParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aa60f211f1e2576d8abe6eaf4b4ac7833" kindref="member">MR_ZlibCompressParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRZlib_8h_1ae2489d89fe91daa721fdef92a5b03258" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*<ref refid="MRZlib_8h_1ae2489d89fe91daa721fdef92a5b03258" kindref="member">MR_ZlibCompressParams_AssignFromAnother</ref>(<ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRZlib_8h_1ac62b0b17528a00c9835704fb3c6e741b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1ac62b0b17528a00c9835704fb3c6e741b" kindref="member">MR_zlibCompressStream_MR_ZlibCompressParams</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1aaa593586c35340ca5d54c52383bccbfa" kindref="member">MR_ZlibCompressParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRZlib_8h_1a234cb26c6604e4a12207011f1c9a8839" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a234cb26c6604e4a12207011f1c9a8839" kindref="member">MR_zlibCompressStream_int</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*level);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRZlib_8h_1a6c95d7ff0b8ce23edded36aaa3e5acc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a6c95d7ff0b8ce23edded36aaa3e5acc3" kindref="member">MR_zlibDecompressStream_3</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRZlib_8h_1a37345dd77092a846551d5d390c367969" kindref="member">MR_ZlibParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MRZlib_8h_1a5049f6fce925541f6db76719459c2862" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRZlib_8h_1a5049f6fce925541f6db76719459c2862" kindref="member">MR_zlibDecompressStream_2</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRZlib.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRZlib.h"/>
   </compounddef>
 </doxygen>

@@ -1014,6 +1014,8 @@ var classMR =
     [ "XfBasedCache_MRBox3f", "classMR_1_1XfBasedCache__MRBox3f.html", "classMR_1_1XfBasedCache__MRBox3f" ],
     [ "ZCompensateParams", "classMR_1_1ZCompensateParams.html", "classMR_1_1ZCompensateParams" ],
     [ "ZeroOnMove_MRUint64T", "classMR_1_1ZeroOnMove__MRUint64T.html", "classMR_1_1ZeroOnMove__MRUint64T" ],
+    [ "ZlibCompressParams", "classMR_1_1ZlibCompressParams.html", "classMR_1_1ZlibCompressParams" ],
+    [ "ZlibParams", "classMR_1_1ZlibParams.html", "classMR_1_1ZlibParams" ],
     [ "AlignType", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4", [
       [ "Left", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4a945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Center", "classMR.html#a26510111e54c3ec0cf6367dc91c7c0f4a4f1f6016fc9f3f2353c0cc7c67b292bd", null ],
@@ -3216,7 +3218,9 @@ var classMR =
     [ "xyPlaneMeshIntersect", "classMR.html#a17b0c4cf6bc9f815d3b23492a8f8760b", null ],
     [ "zCompensate", "classMR.html#aa6028afa6429245715170f4866837425", null ],
     [ "zlibCompressStream", "classMR.html#a478cbe8c8edddd87533d0f9fd2eab015", null ],
+    [ "zlibCompressStream", "classMR.html#ac2656817676b706754685c099497a5d1", null ],
     [ "zlibDecompressStream", "classMR.html#ad8eb0a0b54567d96b6469a71505c787c", null ],
+    [ "zlibDecompressStream", "classMR.html#a39a8c04ca458d839b7e765cdd5b54e61", null ],
     [ "fromSameTriangle", "classMR.html#a81da99b61b4a57fd9176bac92b0507d2", null ],
     [ "fromSameTriangle", "classMR.html#a850a2064fa3c92e73ff78e630eb2b642", null ]
 ];

@@ -515,6 +515,8 @@ var searchData=
   ['doubleoffsetsettings_33',['DoubleOffsetSettings',['../classMR_1_1DoubleOffsetSettings.html',1,'MR']]],
   ['zcompensateparams_0',['ZCompensateParams',['../classMR_1_1ZCompensateParams.html',1,'MR']]],
   ['zeroonmove_5fmruint64t_1',['ZeroOnMove_MRUint64T',['../classMR_1_1ZeroOnMove__MRUint64T.html',1,'MR']]],
+  ['zlibcompressparams_2',['ZlibCompressParams',['../classMR_1_1ZlibCompressParams.html',1,'MR']]],
+  ['zlibparams_3',['ZlibParams',['../classMR_1_1ZlibParams.html',1,'MR']]],
   ['ball1d_0',['Ball1d',['../classMR_1_1Ball1d.html',1,'MR']]],
   ['ball1f_1',['Ball1f',['../classMR_1_1Ball1f.html',1,'MR']]],
   ['ball2d_2',['Ball2d',['../classMR_1_1Ball2d.html',1,'MR']]],

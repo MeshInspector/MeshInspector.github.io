@@ -1,5 +1,9 @@
 var NAVTREEINDEX5 =
 {
+"MRSceneObjectsListDrawer_8h.html":[6,0,3,0,10,108],
+"MRSceneObjectsListDrawer_8h_source.html":[6,0,3,0,10,108],
+"MRSceneOperations_8h.html":[6,0,3,0,10,109],
+"MRSceneOperations_8h_source.html":[6,0,3,0,10,109],
 "MRSceneReorder_8h.html":[6,0,3,0,10,110],
 "MRSceneReorder_8h_source.html":[6,0,3,0,10,110],
 "MRSceneRoot_8h.html":[6,0,3,0,6,358],
@@ -245,9 +249,5 @@ var NAVTREEINDEX5 =
 "MRVector4_8h_source.html":[6,0,3,0,6,421],
 "MRVector_8h.html":[6,0,3,0,6,418],
 "MRVector_8h_source.html":[6,0,3,0,6,418],
-"MRVersatileChangeMeshAction_8h.html":[6,0,3,0,6,423],
-"MRVersatileChangeMeshAction_8h_source.html":[6,0,3,0,6,423],
-"MRVertCoordsDiff_8h.html":[6,0,3,0,6,424],
-"MRVertCoordsDiff_8h_source.html":[6,0,3,0,6,424],
-"MRViewerConfigConstants_8h.html":[6,0,3,0,10,153]
+"MRVersatileChangeMeshAction_8h.html":[6,0,3,0,6,423]
 };

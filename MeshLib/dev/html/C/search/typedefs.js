@@ -2008,4 +2008,6 @@ var searchData=
   ['mr_5fxfbasedcache_5fmr_5fbox3f_2005',['MR_XfBasedCache_MR_Box3f',['../MRViewportProperty_8h.html#afd809241b98e686da37ea296a946c1ee',1,'MRViewportProperty.h']]],
   ['mr_5fzcompensateparams_2006',['MR_ZCompensateParams',['../MROffsetVerts_8h.html#aba5e4bdfdaae2b4eb0af6f4aec7f933a',1,'MROffsetVerts.h']]],
   ['mr_5fzeroonmove_5fuint64_5ft_2007',['MR_ZeroOnMove_uint64_t',['../MRBuffer_8h.html#a06cb46fdafae5c03d22cdc54e0ce660a',1,'MRBuffer.h']]],
+  ['mr_5fzlibcompressparams_2008',['MR_ZlibCompressParams',['../MRZlib_8h.html#aaa593586c35340ca5d54c52383bccbfa',1,'MRZlib.h']]],
+  ['mr_5fzlibparams_2009',['MR_ZlibParams',['../MRZlib_8h.html#a37345dd77092a846551d5d390c367969',1,'MRZlib.h']]],
 ];

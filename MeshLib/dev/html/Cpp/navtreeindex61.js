@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[6,0,2,0,2,6,0,4,0],
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[6,0,1,0,1,15,0,5],
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[6,0,2,0,2,6,0,5],
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[6,0,1,0,1,15,0,6],
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[6,0,2,0,2,6,0,6],
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,1,0,1,15,0,7],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,2,0,2,6,0,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,1,0,1,16,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,2,7,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#abfeb6efd5bdf621269261c95bde32f02":[6,0,2,0,2,7,10,1,4],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#ad87040dbc57933ec415d89e0feff15be":[6,0,1,0,1,16,10,1,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#ad87040dbc57933ec415d89e0feff15be":[6,0,2,0,2,7,10,1,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html":[6,0,1,0,1,16,10,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html":[6,0,2,0,2,7,10,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#a1f9b56c3c57b99d7ca83ffa11d48d205":[6,0,1,0,1,16,10,2,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#a1f9b56c3c57b99d7ca83ffa11d48d205":[6,0,2,0,2,7,10,2,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#a98fced506eacf9ded80b6497e6caed21":[6,0,1,0,1,16,10,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#a98fced506eacf9ded80b6497e6caed21":[6,0,2,0,2,7,10,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#aac1e5fc1a4852b760eada1d33248608e":[6,0,1,0,1,16,10,2,4]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html":[6,0,1,0,1,16,10,2]
 };

@@ -2562,6 +2562,12 @@ var hierarchy =
       [ "MR.Const_ZeroOnMove_MRUint64T", null, [
         [ "MR.ZeroOnMove_MRUint64T", "classMR_1_1ZeroOnMove__MRUint64T.html", null ]
       ] ],
+      [ "MR.Const_ZlibCompressParams", null, [
+        [ "MR.ZlibCompressParams", "classMR_1_1ZlibCompressParams.html", null ]
+      ] ],
+      [ "MR.Const_ZlibParams", null, [
+        [ "MR.ZlibParams", "classMR_1_1ZlibParams.html", null ]
+      ] ],
       [ "MR.Cuda.Const_ComputeToolDistance", null, [
         [ "MR.Cuda.ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", null ]
       ] ],
@@ -4175,6 +4181,8 @@ var hierarchy =
       [ "MR.Const_XfBasedCache_MRBox3f", null, null ],
       [ "MR.Const_ZCompensateParams", null, null ],
       [ "MR.Const_ZeroOnMove_MRUint64T", null, null ],
+      [ "MR.Const_ZlibCompressParams", null, null ],
+      [ "MR.Const_ZlibParams", null, null ],
       [ "MR.Cuda.Const_ComputeToolDistance", null, null ],
       [ "MR.Cuda.Const_FastWindingNumber", null, null ],
       [ "MR.Cuda.Const_PointsProjector", null, null ],

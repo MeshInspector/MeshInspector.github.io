@@ -432,5 +432,6 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRWatershedGraph.h", "MRWatershedGraph_8h.html", null ],
     [ "MRWriter.h", "MRWriter_8h.html", "MRWriter_8h" ],
     [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", null ],
-    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ]
+    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ],
+    [ "MRZlib.h", "MRMesh_2MRZlib_8h.html", "MRMesh_2MRZlib_8h" ]
 ];

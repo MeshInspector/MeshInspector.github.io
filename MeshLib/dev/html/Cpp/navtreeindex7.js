@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1ChangeFacesColorMapAction.html":[6,0,0,4,1],
+"classMR_1_1ChangeFacesColorMapAction.html":[6,0,0,20,131],
 "classMR_1_1ChangeGridAction.html":[6,0,0,4,49],
 "classMR_1_1ChangeGridAction.html#a09423374eaa05f95dd0af7575fe17e62":[6,0,0,4,49,2],
 "classMR_1_1ChangeGridAction.html#a1f23e5db03c650766a3e405f207e32ba":[6,0,0,4,49,1],
@@ -12,7 +14,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e":[6,0,0,4,45,1],
 "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0":[6,0,0,4,45,2],
 "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018":[6,0,0,4,45,3],
-"classMR_1_1ChangeLabelAction.html":[6,0,0,20,521],
+"classMR_1_1ChangeLabelAction.html":[6,0,0,20,523],
 "classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,4,2],
 "classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,20,132],
 "classMR_1_1ChangeMeshAction.html":[6,0,0,4,4],
@@ -191,17 +193,17 @@ var NAVTREEINDEX7 =
 "classMR_1_1CircleObject.html#af40b5dfb76c6edd2bff5609e1beb14e2":[6,0,0,11,0,0,1],
 "classMR_1_1CircleObject.html#af6a4f0cbede7af795365ea5250edb8c4":[6,0,0,11,0,0,19],
 "classMR_1_1ColorMapAggregator.html":[6,0,0,20,159],
-"classMR_1_1ColorTheme.html":[6,0,0,20,541],
+"classMR_1_1ColorTheme.html":[6,0,0,20,543],
 "classMR_1_1CombinedHistoryAction.html":[6,0,0,4,36],
 "classMR_1_1CombinedHistoryAction.html":[6,0,0,20,161],
-"classMR_1_1CommandLoop.html":[6,0,0,20,542],
+"classMR_1_1CommandLoop.html":[6,0,0,20,544],
 "classMR_1_1Cone3.html":[6,0,0,20,162],
 "classMR_1_1Cone3Approximation.html":[6,0,0,20,165],
 "classMR_1_1ConeObject.html":[6,0,0,11,0,1],
 "classMR_1_1ConeObject.html":[6,0,0,20,166],
 "classMR_1_1Config.html":[6,0,0,20,167],
-"classMR_1_1CornerControllerObject.html":[6,0,0,20,791],
-"classMR_1_1CudaAccessor.html":[6,0,0,20,544],
+"classMR_1_1CornerControllerObject.html":[6,0,0,20,793],
+"classMR_1_1CudaAccessor.html":[6,0,0,20,546],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html":[6,0,1,0,1,2,0],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html":[6,0,2,0,2,0,0],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html#a09b54489f5a1017c30273a0bede20f08":[6,0,1,0,1,2,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1Cuda_1_1Polyline3DataHolder.html#a04f15619513a940e7cacfbe557fc1e33":[6,0,1,0,1,2,5,0],
 "classMR_1_1Cuda_1_1Polyline3DataHolder.html#a04f15619513a940e7cacfbe557fc1e33":[6,0,2,0,2,0,5,0],
 "classMR_1_1Cuda_1_1Polyline3DataHolder.html#adc41414a7dc000e8e67b69071b46b5be":[6,0,1,0,1,2,5,1],
-"classMR_1_1Cuda_1_1Polyline3DataHolder.html#adc41414a7dc000e8e67b69071b46b5be":[6,0,2,0,2,0,5,1],
-"classMR_1_1Cuda_1_1Polyline3DataHolder.html#aecfc59333194330bf7ae00e311c04315":[6,0,1,0,1,2,5,2],
-"classMR_1_1Cuda_1_1Polyline3DataHolder.html#aecfc59333194330bf7ae00e311c04315":[6,0,2,0,2,0,5,2]
+"classMR_1_1Cuda_1_1Polyline3DataHolder.html#adc41414a7dc000e8e67b69071b46b5be":[6,0,2,0,2,0,5,1]
 };

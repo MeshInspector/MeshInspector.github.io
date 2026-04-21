@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"MRMeshDistance_8h.html":[6,0,3,0,6,206],
+"MRMeshDistance_8h_source.html":[6,0,3,0,6,206],
 "MRMeshDivideWithPlane_8h.html":[6,0,3,0,6,207],
 "MRMeshDivideWithPlane_8h_source.html":[6,0,3,0,6,207],
 "MRMeshDoubleLayer_8h.html":[6,0,3,0,6,208],
@@ -84,6 +86,8 @@ var NAVTREEINDEX3 =
 "MRMeshTrimWithPlane_8h_source.html":[6,0,3,0,6,240],
 "MRMesh_2MRVectorTraits_8h.html":[6,0,3,0,6,422],
 "MRMesh_2MRVectorTraits_8h_source.html":[6,0,3,0,6,422],
+"MRMesh_2MRZlib_8h.html":[6,0,3,0,6,433],
+"MRMesh_2MRZlib_8h_source.html":[6,0,3,0,6,433],
 "MRMesh_2config_8h.html":[6,0,3,0,6,0],
 "MRMesh_2config_8h_source.html":[6,0,3,0,6,0],
 "MRMesh_8h.html":[6,0,3,0,6,190],
@@ -245,9 +249,5 @@ var NAVTREEINDEX3 =
 "MRPointCloudDivideWithPlane_8h.html":[6,0,3,0,6,291],
 "MRPointCloudDivideWithPlane_8h_source.html":[6,0,3,0,6,291],
 "MRPointCloudMakeNormals_8h.html":[6,0,3,0,6,292],
-"MRPointCloudMakeNormals_8h_source.html":[6,0,3,0,6,292],
-"MRPointCloudPart_8h.html":[6,0,3,0,6,293],
-"MRPointCloudPart_8h_source.html":[6,0,3,0,6,293],
-"MRPointCloudRadius_8h.html":[6,0,3,0,6,294],
-"MRPointCloudRadius_8h_source.html":[6,0,3,0,6,294]
+"MRPointCloudMakeNormals_8h_source.html":[6,0,3,0,6,292]
 };

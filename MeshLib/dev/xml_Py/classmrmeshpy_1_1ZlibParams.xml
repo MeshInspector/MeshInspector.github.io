@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ZlibParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ZlibParams</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1ZlibCompressParams" prot="public" virt="non-virtual">mrmeshpy.ZlibCompressParams</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ZlibParams_1a0d836e0c0ffa900efcde5ef8428be9ef" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ZlibParams::_offsetof_rawDeflate</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_rawDeflate</name>
+        <qualifiedname>mrmeshpy.ZlibParams._offsetof_rawDeflate</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77790" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ZlibParams_1ab1cb768355e4a92f007ff08fafa6af9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ZlibParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ZlibParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77793" bodyend="77794"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ZlibParams_1a073be314d0c5e44c21727da0630b0992" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ZlibParams" kindref="compound">ZlibParams</ref></type>
+        <definition> ZlibParams mrmeshpy.ZlibParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ZlibParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ZlibCompressParams_1a5354df458271f8bd7a2112986185e043">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ZlibCompressParams_1a5354df458271f8bd7a2112986185e043">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77797" bodyend="77798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ZlibParams_1a073be314d0c5e44c21727da0630b0992" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ZlibParams" kindref="compound">ZlibParams</ref></type>
+        <definition> ZlibParams mrmeshpy.ZlibParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ZlibParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ZlibCompressParams_1a5354df458271f8bd7a2112986185e043">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ZlibCompressParams_1a5354df458271f8bd7a2112986185e043">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77801" bodyend="77802"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ZlibParams_1ab201aab3f326b1bf86a2aa74447f6a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ZlibParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ZlibParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77804" bodyend="77805"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ZlibParams_1a29f1983beab49b18d5b1fb9d8e655268" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ZlibParams.__init__</definition>
+        <argsstring>(self, ZlibParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ZlibParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ZlibParams" kindref="compound">ZlibParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77807" bodyend="77810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ZlibParams_1af179a097b2169fdc452f61aa4f8a3f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ZlibParams.__init__</definition>
+        <argsstring>(self, bool rawDeflate)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ZlibParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rawDeflate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77812" bodyend="77815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ZlibParams_1a39705ff441b7fdde7a0589d536df5ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ZlibParams.rawDeflate</definition>
+        <argsstring>(self)</argsstring>
+        <name>rawDeflate</name>
+        <qualifiedname>mrmeshpy.ZlibParams.rawDeflate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>wire format of the (de)compressed bytes:
+true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry;
+false (default) → zlib-wrapped (RFC 1950)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77817" bodyend="77822"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ZlibParams_1a9c0aed7d0b9da85afa4cd9ce6d04e7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ZlibParams.rawDeflate</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>rawDeflate</name>
+        <qualifiedname>mrmeshpy.ZlibParams.rawDeflate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77824" bodyend="77825"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ZlibParams
+
+parameters shared by zlibCompressStream and zlibDecompressStream
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ZlibParams</label>
+        <link refid="classmrmeshpy_1_1ZlibParams"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ZlibCompressParams</label>
+        <link refid="classmrmeshpy_1_1ZlibCompressParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77784" bodyend="77825"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ZlibParams_1ab1cb768355e4a92f007ff08fafa6af9a" prot="public" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ZlibParams_1ab201aab3f326b1bf86a2aa74447f6a43" prot="public" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ZlibParams_1a29f1983beab49b18d5b1fb9d8e655268" prot="public" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ZlibParams_1af179a097b2169fdc452f61aa4f8a3f1f" prot="public" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ZlibParams_1a0d836e0c0ffa900efcde5ef8428be9ef" prot="protected" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>_offsetof_rawDeflate</name></member>
+      <member refid="classmrmeshpy_1_1ZlibParams_1a073be314d0c5e44c21727da0630b0992" prot="public" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ZlibParams_1a073be314d0c5e44c21727da0630b0992" prot="public" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ZlibParams_1a39705ff441b7fdde7a0589d536df5ba6" prot="public" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>rawDeflate</name></member>
+      <member refid="classmrmeshpy_1_1ZlibParams_1a9c0aed7d0b9da85afa4cd9ce6d04e7ab" prot="public" virt="non-virtual"><scope>mrmeshpy::ZlibParams</scope><name>rawDeflate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

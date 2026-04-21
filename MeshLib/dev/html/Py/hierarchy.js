@@ -1547,5 +1547,8 @@ var hierarchy =
     [ "mrmeshpy.WriteRawTiffParams", "classmrmeshpy_1_1WriteRawTiffParams.html", null ],
     [ "mrmeshpy.XfBasedCache_Box3f", "classmrmeshpy_1_1XfBasedCache__Box3f.html", null ],
     [ "mrmeshpy.ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", null ],
-    [ "mrmeshpy.ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", null ]
+    [ "mrmeshpy.ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", null ],
+    [ "mrmeshpy.ZlibParams", "classmrmeshpy_1_1ZlibParams.html", [
+      [ "mrmeshpy.ZlibCompressParams", "classmrmeshpy_1_1ZlibCompressParams.html", null ]
+    ] ]
 ];

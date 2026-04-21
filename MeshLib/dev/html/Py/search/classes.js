@@ -724,6 +724,8 @@ var searchData=
   ['extremeedgetype_32',['ExtremeEdgeType',['../classmrmeshpy_1_1ExtremeEdgeType.html',1,'mrmeshpy']]],
   ['zcompensateparams_0',['ZCompensateParams',['../classmrmeshpy_1_1ZCompensateParams.html',1,'mrmeshpy']]],
   ['zeroonmove_5funsigned_5flong_1',['ZeroOnMove_unsigned_long',['../classmrmeshpy_1_1ZeroOnMove__unsigned__long.html',1,'mrmeshpy']]],
+  ['zlibcompressparams_2',['ZlibCompressParams',['../classmrmeshpy_1_1ZlibCompressParams.html',1,'mrmeshpy']]],
+  ['zlibparams_3',['ZlibParams',['../classmrmeshpy_1_1ZlibParams.html',1,'mrmeshpy']]],
   ['cachingmode_0',['CachingMode',['../classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html',1,'mrmeshpy::MarchingCubesParams']]],
   ['callsimply_1',['CallSimply',['../classmrmeshpy_1_1Parallel_1_1CallSimply.html',1,'mrmeshpy::Parallel']]],
   ['callsimplymaker_2',['CallSimplyMaker',['../classmrmeshpy_1_1Parallel_1_1CallSimplyMaker.html',1,'mrmeshpy::Parallel']]],

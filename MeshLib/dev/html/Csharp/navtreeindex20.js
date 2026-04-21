@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1CompensateRadiusParams.html#acd80e28334604285f18962790596ec3b":[6,3,0,0,0,207,6],
+"classMR_1_1CompensateRadiusParams.html#ae09fb5f06eb14101cd85536215219140":[6,3,0,0,0,207,4],
 "classMR_1_1CompensateRadiusParams.html#ae5792f105b3356f0ffc6d8b2eada4e7f":[6,3,0,0,0,207,1],
 "classMR_1_1CompressZipSettings.html":[6,3,0,0,0,208],
 "classMR_1_1CompressZipSettings.html#a16e4c20b03f1bf4b1973f81e860a2609":[6,3,0,0,0,208,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ConstBox__Box1d.html#a666f11e6ff5718c35d684191b19bb2b6":[6,3,0,0,0,220,24],
 "classMR_1_1ConstBox__Box1d.html#a6f46124176e181e898daafa8115cb665":[6,3,0,0,0,220,5],
 "classMR_1_1ConstBox__Box1d.html#a7ed9090c507a83ca3c92fb4f42907af3":[6,3,0,0,0,220,35],
-"classMR_1_1ConstBox__Box1d.html#a95ec648c3c27ea147c904b4d2a7f3b1c":[6,3,0,0,0,220,34],
-"classMR_1_1ConstBox__Box1d.html#a9de350906a00f53e1bc435bc1c24eb2b":[6,3,0,0,0,220,11],
-"classMR_1_1ConstBox__Box1d.html#a9e782df5375085118d292a30e683a303":[6,3,0,0,0,220,9]
+"classMR_1_1ConstBox__Box1d.html#a95ec648c3c27ea147c904b4d2a7f3b1c":[6,3,0,0,0,220,34]
 };

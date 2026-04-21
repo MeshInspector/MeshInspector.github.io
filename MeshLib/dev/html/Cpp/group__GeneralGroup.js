@@ -4783,6 +4783,12 @@ var group__GeneralGroup =
       [ "reset", "group__GeneralGroup.html#ga6341f3c9b4f6ccb5bcf18cc28ccf5efc", null ],
       [ "set", "group__GeneralGroup.html#ga3b3e82656a92381f41f435da52178562", null ]
     ] ],
+    [ "MR::ZlibParams", "structMR_1_1ZlibParams.html", [
+      [ "rawDeflate", "group__GeneralGroup.html#ga6369002a01e5fff0c1683af9cd4a3276", null ]
+    ] ],
+    [ "MR::ZlibCompressParams", "structMR_1_1ZlibCompressParams.html", [
+      [ "level", "group__GeneralGroup.html#ga07efb01c2ca421042eac45a5e6ffeb64", null ]
+    ] ],
     [ "MR::PythonExport", "classMR_1_1PythonExport.html", [
       [ "PythonRegisterFuncton", "group__GeneralGroup.html#ga001e362a5ed99ee391fd182df4571f9c", null ],
       [ "Priority", "group__GeneralGroup.html#ga27091fc0ef96636d5c59ff459694a6bf", [
@@ -16013,8 +16019,10 @@ var group__GeneralGroup =
     [ "MR::ZeroOnMove::ZeroOnMove", "group__GeneralGroup.html#gaf504ba39107aabf4c055c1a1f651c586", null ],
     [ "MR::ZeroOnMove::ZeroOnMove", "group__GeneralGroup.html#ga6c54d017113955a26465a32443707c9f", null ],
     [ "MR::ZeroOnMove::ZeroOnMove", "group__GeneralGroup.html#ga1eb512d1aea6742b0d8392f71ce425a2", null ],
+    [ "MR::zlibCompressStream", "group__GeneralGroup.html#gab5809f4005176091dab5888398265a1e", null ],
     [ "MR::zlibCompressStream", "group__GeneralGroup.html#ga391a2ecfeefaef70abbdbb81665886f5", null ],
     [ "MR::zlibDecompressStream", "group__GeneralGroup.html#ga790822c4da5f4e95c06eca6e0dd9328e", null ],
+    [ "MR::zlibDecompressStream", "group__GeneralGroup.html#ga821dbf6faccece72904317f7a7af0c43", null ],
     [ "MR::TouchpadController::Handler::zoom", "group__GeneralGroup.html#gaa716478caa8b3f52ec82aff6b328c64e", null ],
     [ "MR::AlphaSortGL::~AlphaSortGL", "group__GeneralGroup.html#ga1dd61ddfaca7ad57995cff3e85436742", null ],
     [ "MR::AncillaryLabel::~AncillaryLabel", "group__GeneralGroup.html#gacdfb7bc77de0517f71a4e105a1a4f36d", null ],
@@ -17031,6 +17039,7 @@ var group__GeneralGroup =
     [ "MR::LoadedObjectT::lengthUnit", "group__GeneralGroup.html#ga869e1d0fd0383f0a90acabb56fc23eaa", null ],
     [ "MR::SaveSettings::lengthUnit", "group__GeneralGroup.html#ga1b152fd38e636ee6803cabaac71794cc", null ],
     [ "MR::MarchingCubesParams::lessInside", "group__GeneralGroup.html#gae07876a5272040c1fd50016127294f07", null ],
+    [ "MR::ZlibCompressParams::level", "group__GeneralGroup.html#ga07efb01c2ca421042eac45a5e6ffeb64", null ],
     [ "MR::Cone3ApproximationParams::levenbergMarquardtMaxIteration", "group__GeneralGroup.html#ga6c4848e08b47fefbf24a221b15e00329", null ],
     [ "MR::UniformSamplingSettings::lexicographicalOrder", "group__GeneralGroup.html#ga7c7a861d6d96b26592bb64ac801d6f43", null ],
     [ "MR::RibbonNotification::lifeTimeSec", "group__GeneralGroup.html#ga9f52a5c95f7b36adb01f422c470f7362", null ],
@@ -17671,6 +17680,7 @@ var group__GeneralGroup =
     [ "MR::Pdf::PaletteRowStats::rangeMax", "group__GeneralGroup.html#ga26b71623786defb48ca842a2c3e7ac63", null ],
     [ "MR::Pdf::PaletteRowStats::rangeMin", "group__GeneralGroup.html#ga06cbe19e05a2c7b2fb23dc160f2ab510", null ],
     [ "MR::Palette::Parameters::ranges", "group__GeneralGroup.html#ga9a1c14b8de7d2c34b832c70062d489b9", null ],
+    [ "MR::ZlibParams::rawDeflate", "group__GeneralGroup.html#ga6369002a01e5fff0c1683af9cd4a3276", null ],
     [ "MR::RenderDimensions::AngleParams::rays", "group__GeneralGroup.html#ga3a1739ccf9799082e97640d3942cd5a0", null ],
     [ "MR::VoxelsLoad::DicomStatus::reason", "group__GeneralGroup.html#ga397021c2f11cc76a8178e525bd2bed86", null ],
     [ "MR::Pdf::TextCellParams::rect", "group__GeneralGroup.html#gac6d96b2c644db5ae28d307a62806a383", null ],

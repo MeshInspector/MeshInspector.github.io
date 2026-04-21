@@ -369,5 +369,6 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRVolumeIndexer.cs", "MRVolumeIndexer_8cs.html", "MRVolumeIndexer_8cs" ],
     [ "MRWatershedGraph.cs", "MRWatershedGraph_8cs.html", "MRWatershedGraph_8cs" ],
     [ "MRXfBasedCache.cs", "MRXfBasedCache_8cs.html", "MRXfBasedCache_8cs" ],
-    [ "MRZip.cs", "MRZip_8cs.html", "MRZip_8cs" ]
+    [ "MRZip.cs", "MRZip_8cs.html", "MRZip_8cs" ],
+    [ "MRZlib.cs", "MRZlib_8cs.html", "MRZlib_8cs" ]
 ];

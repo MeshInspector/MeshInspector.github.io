@@ -1,5 +1,11 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1ImGuiMath.html#a3f909828dc97dd9d3ebcc2c534d94968":[6,0,1,0,1,15,12],
+"namespaceMR_1_1ImGuiMath.html#a4d9817ccfff189d17647c34d8cb24c49":[6,0,1,0,1,15,5],
+"namespaceMR_1_1ImGuiMath.html#a5536e17f9eef79e57335bbfaa24bcc2a":[6,0,1,0,1,15,8],
+"namespaceMR_1_1ImGuiMath.html#a5dd8586dafaa70c20f2e723116368027":[6,0,1,0,1,15,19],
+"namespaceMR_1_1ImGuiMath.html#a688fbf496bac1ba949b29be3ec9a96c4":[6,0,1,0,1,15,6],
+"namespaceMR_1_1ImGuiMath.html#a6d0e200395e627b407b89164f6c4b13e":[6,0,1,0,1,15,11],
 "namespaceMR_1_1ImGuiMath.html#a7a4714344a7e4547c8fd858658c8a54a":[6,0,1,0,1,15,7],
 "namespaceMR_1_1ImGuiMath.html#a9413dca0b69204cedfb3f5a93add745a":[6,0,1,0,1,15,4],
 "namespaceMR_1_1ImGuiMath.html#a9b787db1b3551a333f5fae1addb214bd":[6,0,1,0,1,15,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX57 =
 "namespaceMR_1_1UnitSettings.html#a9274e5f81702cc490493898076559da2":[6,0,1,0,1,48,13],
 "namespaceMR_1_1UnitSettings.html#a92c469e73280d6f522115571fcf167d7":[6,0,1,0,1,48,3],
 "namespaceMR_1_1UnitSettings.html#a94861183b1976b5e7b549d50ce37805d":[6,0,1,0,1,48,11],
-"namespaceMR_1_1UnitSettings.html#a9660ba5f25b3c345a1d75f38de621842":[6,0,1,0,1,48,10],
-"namespaceMR_1_1UnitSettings.html#ac410a1fcd84e320251f853094123a7c9":[6,0,1,0,1,48,16],
-"namespaceMR_1_1UnitSettings.html#ad0f4b58308b6afde0805f1a15314ec36":[6,0,1,0,1,48,8],
-"namespaceMR_1_1UnitSettings.html#ad5bb619905d31722d3e7f5a91afb1c46":[6,0,1,0,1,48,2],
-"namespaceMR_1_1UnitSettings.html#ae83d1247da6bf1d2bf28212e19246978":[6,0,1,0,1,48,7],
-"namespaceMR_1_1UnitSettings.html#af40b003a9c4deee8e921de1a4f03e0b2":[6,0,1,0,1,48,17],
-"namespaceMR_1_1UnitSettings.html#afe6f0698124e6aaa4213c97e053c0696":[6,0,1,0,1,48,14]
+"namespaceMR_1_1UnitSettings.html#a9660ba5f25b3c345a1d75f38de621842":[6,0,1,0,1,48,10]
 };

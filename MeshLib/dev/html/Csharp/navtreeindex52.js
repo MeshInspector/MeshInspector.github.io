@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1PointObject.html#abb1cf0595a4a5958bff42a06b93efc86":[6,3,0,0,0,675,23],
+"classMR_1_1PointObject.html#abb55b0157296268fcb77fe2b4340a376":[6,3,0,0,0,675,47],
 "classMR_1_1PointObject.html#abbada2fa0410518e80e851338e7559db":[6,3,0,0,0,675,35],
 "classMR_1_1PointObject.html#abd9b8c9d921b763b51c90935376a7c74":[6,3,0,0,0,675,57],
 "classMR_1_1PointObject.html#abdddf192cbc04dc0391b8b1317a9d9f0":[6,3,0,0,0,675,52],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Polyline2.html#a53085936c2c9f12cf26fa2b4051f1232":[6,3,0,0,0,690,21],
 "classMR_1_1Polyline2.html#a612547f8f4260560f117f537b9454cb0":[6,3,0,0,0,690,20],
 "classMR_1_1Polyline2.html#a677bdd45ae24a9ad121304b49547cc38":[6,3,0,0,0,690,1],
-"classMR_1_1Polyline2.html#a7388f336a18862b246d698318db85117":[6,3,0,0,0,690,8],
-"classMR_1_1Polyline2.html#a7bbbaddce877bb1a804987c224b46e96":[6,3,0,0,0,690,9],
-"classMR_1_1Polyline2.html#a7f9fd7c58138e969e9d33573eb56139d":[6,3,0,0,0,690,0]
+"classMR_1_1Polyline2.html#a7388f336a18862b246d698318db85117":[6,3,0,0,0,690,8]
 };

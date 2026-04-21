@@ -369,5 +369,6 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRVolumeIndexer.h", "MRVolumeIndexer_8h.html", "MRVolumeIndexer_8h" ],
     [ "MRWatershedGraph.h", "MRWatershedGraph_8h.html", "MRWatershedGraph_8h" ],
     [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", "MRXfBasedCache_8h" ],
-    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ]
+    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ],
+    [ "MRZlib.h", "MRZlib_8h.html", "MRZlib_8h" ]
 ];

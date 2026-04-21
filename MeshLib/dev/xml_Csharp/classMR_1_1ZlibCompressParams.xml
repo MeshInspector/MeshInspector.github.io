@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ZlibCompressParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::ZlibCompressParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ZlibCompressParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ZlibCompressParams_1a3760542dc197e6688e3674f1ae2907dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.ZlibCompressParams.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <qualifiedname>MR.ZlibCompressParams.level</qualifiedname>
+        <briefdescription>
+<para>compression level: 0 = no compression, 1 = the fastest but the most inefficient, 9 = the most efficient but the slowest; -1 = zlib's default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="343" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ZlibCompressParams_1aa1e161dc2d19a9ddfa6c5e39aef30309" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.ZlibCompressParams.rawDeflate</definition>
+        <argsstring></argsstring>
+        <name>rawDeflate</name>
+        <qualifiedname>MR.ZlibCompressParams.rawDeflate</qualifiedname>
+        <briefdescription>
+<para>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="350" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="350" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a99aaa36257bff2997597a788e5b93e84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ZlibCompressParams.operator MR.ZlibParams</definition>
+        <argsstring>(ZlibCompressParams self)</argsstring>
+        <name>operator MR.ZlibParams</name>
+        <qualifiedname>MR.ZlibCompressParams.operator MR.ZlibParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ZlibCompressParams" kindref="compound">ZlibCompressParams</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="330" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="330" bodyend="337"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a395da2bfff7ff404b93efcf0c4cbea15" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ZlibCompressParams.ZlibCompressParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ZlibCompressParams</name>
+        <qualifiedname>MR.ZlibCompressParams.ZlibCompressParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="354" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="354" bodyend="358"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a0596c69cc4a02f533bb3799621442876" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ZlibCompressParams.ZlibCompressParams</definition>
+        <argsstring>()</argsstring>
+        <name>ZlibCompressParams</name>
+        <qualifiedname>MR.ZlibCompressParams.ZlibCompressParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="364" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="364" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a2d5c56289ccae9d6d98a7f89705c2dde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ZlibCompressParams.ZlibCompressParams</definition>
+        <argsstring>(MR.Const_ZlibCompressParams _other)</argsstring>
+        <name>ZlibCompressParams</name>
+        <qualifiedname>MR.ZlibCompressParams.ZlibCompressParams</qualifiedname>
+        <param>
+          <type>MR.Const_ZlibCompressParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZlibCompressParams_1a0596c69cc4a02f533bb3799621442876" kindref="member">MR.ZlibCompressParams.ZlibCompressParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="375" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="375" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a9e32b005f302d10b22187bb77dfac79d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ZlibCompressParams.ZlibCompressParams</definition>
+        <argsstring>(ZlibCompressParams _other)</argsstring>
+        <name>ZlibCompressParams</name>
+        <qualifiedname>MR.ZlibCompressParams.ZlibCompressParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ZlibCompressParams" kindref="compound">ZlibCompressParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZlibCompressParams_1a0596c69cc4a02f533bb3799621442876" kindref="member">MR.ZlibCompressParams.ZlibCompressParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="387" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="387" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ZlibCompressParams_1a014da28c3e6e66f13f3ba5e1180ba2ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ZlibCompressParams" kindref="compound">MR.ZlibCompressParams</ref></type>
+        <definition>unsafe MR.ZlibCompressParams MR.ZlibCompressParams.assign</definition>
+        <argsstring>(MR.Const_ZlibCompressParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ZlibCompressParams.assign</qualifiedname>
+        <param>
+          <type>MR.Const_ZlibCompressParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ZlibCompressParams::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="392" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="392" bodyend="399"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>parameters for zlibCompressStream (adds a compression level on top of <ref refid="classMR_1_1ZlibParams" kindref="compound">ZlibParams</ref>) Generated from class <computeroutput><ref refid="classMR_1_1ZlibCompressParams" kindref="compound">MR.ZlibCompressParams</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ZlibParams" kindref="compound">MR.ZlibParams</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ZlibCompressParams</label>
+        <link refid="classMR_1_1ZlibCompressParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ZlibCompressParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ZlibCompressParams</label>
+        <link refid="classMR_1_1ZlibCompressParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ZlibCompressParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="327" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="328" bodyend="400"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ZlibCompressParams_1a014da28c3e6e66f13f3ba5e1180ba2ac" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1ZlibCompressParams_1a3760542dc197e6688e3674f1ae2907dc" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>level</name></member>
+      <member refid="classMR_1_1ZlibCompressParams_1a99aaa36257bff2997597a788e5b93e84" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>operator MR.ZlibParams</name></member>
+      <member refid="classMR_1_1ZlibCompressParams_1aa1e161dc2d19a9ddfa6c5e39aef30309" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>rawDeflate</name></member>
+      <member refid="classMR_1_1ZlibCompressParams_1a395da2bfff7ff404b93efcf0c4cbea15" prot="package" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>ZlibCompressParams</name></member>
+      <member refid="classMR_1_1ZlibCompressParams_1a0596c69cc4a02f533bb3799621442876" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>ZlibCompressParams</name></member>
+      <member refid="classMR_1_1ZlibCompressParams_1a2d5c56289ccae9d6d98a7f89705c2dde" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>ZlibCompressParams</name></member>
+      <member refid="classMR_1_1ZlibCompressParams_1a9e32b005f302d10b22187bb77dfac79d" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>ZlibCompressParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

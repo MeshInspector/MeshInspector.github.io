@@ -1128,7 +1128,9 @@ var annotated_dup =
       [ "WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", "structMR_1_1WriteRawTiffParams" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
       [ "ZCompensateParams", "structMR_1_1ZCompensateParams.html", "structMR_1_1ZCompensateParams" ],
-      [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ]
+      [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ],
+      [ "ZlibCompressParams", "structMR_1_1ZlibCompressParams.html", "structMR_1_1ZlibCompressParams" ],
+      [ "ZlibParams", "structMR_1_1ZlibParams.html", "structMR_1_1ZlibParams" ]
     ] ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ]
 ];

@@ -1278,7 +1278,9 @@ var annotated_dup =
       [ "WriteRawTiffParams", "classmrmeshpy_1_1WriteRawTiffParams.html", "classmrmeshpy_1_1WriteRawTiffParams" ],
       [ "XfBasedCache_Box3f", "classmrmeshpy_1_1XfBasedCache__Box3f.html", "classmrmeshpy_1_1XfBasedCache__Box3f" ],
       [ "ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", "classmrmeshpy_1_1ZCompensateParams" ],
-      [ "ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", "classmrmeshpy_1_1ZeroOnMove__unsigned__long" ]
+      [ "ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", "classmrmeshpy_1_1ZeroOnMove__unsigned__long" ],
+      [ "ZlibCompressParams", "classmrmeshpy_1_1ZlibCompressParams.html", "classmrmeshpy_1_1ZlibCompressParams" ],
+      [ "ZlibParams", "classmrmeshpy_1_1ZlibParams.html", "classmrmeshpy_1_1ZlibParams" ]
     ] ],
     [ "mrviewerpy", "namespacemrviewerpy.html", [
       [ "KeyMod", "classmrviewerpy_1_1KeyMod.html", "classmrviewerpy_1_1KeyMod" ],

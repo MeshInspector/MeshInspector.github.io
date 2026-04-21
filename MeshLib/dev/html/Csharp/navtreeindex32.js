@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1EdgePathsAStarBuilder.html#ab7564fe763b0d5ea0aab5f19d0855efc":[6,3,0,0,0,332,10],
+"classMR_1_1EdgePathsAStarBuilder.html#abe9817a8cd11b03770747a5175bc24b1":[6,3,0,0,0,332,4],
 "classMR_1_1EdgePathsAStarBuilder.html#ae46f64743844b61f370c69dd2adec2f1":[6,3,0,0,0,332,2],
 "classMR_1_1EdgePathsAStarBuilder.html#af0735d447410a3dbdba9294a0128634a":[6,3,0,0,0,332,9],
 "classMR_1_1EdgePathsAStarBuilder.html#af0e220e96205306e292fe51beed7f1c1":[6,3,0,0,0,332,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1FaceBitSet.html#ab14c58ae18659e1444575d27078dc7b0":[6,3,0,0,0,348,2],
 "classMR_1_1FaceBitSet.html#ac9d56c35af361721c32c51011bb12cb5":[6,3,0,0,0,348,1],
 "classMR_1_1FaceBitSet.html#acfc07caffa26f306d43c4b374b7ced81":[6,3,0,0,0,348,8],
-"classMR_1_1FaceBitSet.html#acfe6ce77522d6e3be917be3446bbaf8f":[6,3,0,0,0,348,25],
-"classMR_1_1FaceBitSet.html#ad24dcde408d6b946e90972616b786697":[6,3,0,0,0,348,24],
-"classMR_1_1FaceBitSet.html#adc337e3ffd0a72949c407f596f0c2f11":[6,3,0,0,0,348,34]
+"classMR_1_1FaceBitSet.html#acfe6ce77522d6e3be917be3446bbaf8f":[6,3,0,0,0,348,25]
 };

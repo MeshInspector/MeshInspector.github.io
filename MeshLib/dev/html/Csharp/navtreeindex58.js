@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"classMR_1_1SphereObject.html#af538694e11445e88b401ff899c066ae2":[6,3,0,0,0,801,52],
+"classMR_1_1SphereParams.html":[6,3,0,0,0,802],
 "classMR_1_1SphereParams.html#a2ca6bbf3a073011a91f4c2d24540469e":[6,3,0,0,0,802,2],
 "classMR_1_1SphereParams.html#a448e2507fd5f069eecdf425248f6c7d2":[6,3,0,0,0,802,3],
 "classMR_1_1SphereParams.html#a60d7d64c0b306eb4ec9c4b677810f559":[6,3,0,0,0,802,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "classMR_1_1SymMatrix3i.html#a660669cbfd867935b557ac8d40e09f0a":[6,3,0,0,0,820,9],
 "classMR_1_1SymMatrix3i.html#a76bd1cba7d334fb21c34abfe553f423c":[6,3,0,0,0,820,7],
 "classMR_1_1SymMatrix3i.html#ad9b32b8b6d0ed6a178813018a529e032":[6,3,0,0,0,820,4],
-"classMR_1_1SymMatrix3i.html#ae22efb851370355ea070ffe315903703":[6,3,0,0,0,820,12],
-"classMR_1_1SymMatrix3i.html#ae2acd61e6e5078253ba1fb243cd84523":[6,3,0,0,0,820,0],
-"classMR_1_1SymMatrix3i.html#ae9bf0d48c81a35a98426c8d50e287ca8":[6,3,0,0,0,820,13]
+"classMR_1_1SymMatrix3i.html#ae22efb851370355ea070ffe315903703":[6,3,0,0,0,820,12]
 };

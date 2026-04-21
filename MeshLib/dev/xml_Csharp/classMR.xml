@@ -1016,6 +1016,8 @@
     <innerclass refid="classMR_1_1XfBasedCache__MRBox3f" prot="public">MR::XfBasedCache_MRBox3f</innerclass>
     <innerclass refid="classMR_1_1ZCompensateParams" prot="public">MR::ZCompensateParams</innerclass>
     <innerclass refid="classMR_1_1ZeroOnMove__MRUint64T" prot="public">MR::ZeroOnMove_MRUint64T</innerclass>
+    <innerclass refid="classMR_1_1ZlibCompressParams" prot="public">MR::ZlibCompressParams</innerclass>
+    <innerclass refid="classMR_1_1ZlibParams" prot="public">MR::ZlibParams</innerclass>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="classMR_1a743e44071d03602617e933180226f550" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -4560,105 +4562,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRIOExtras.cs" line="6" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRIOExtras.cs" bodystart="6" bodyend="11"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a478cbe8c8edddd87533d0f9fd2eab015" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.zlibCompressStream</definition>
-        <argsstring>(MR.Std.Istream in_, MR.Std.Ostream out_, int? level=null)</argsstring>
-        <name>zlibCompressStream</name>
-        <qualifiedname>MR.zlibCompressStream</qualifiedname>
-        <param>
-          <type>MR.Std.Istream</type>
-          <declname>in_</declname>
-        </param>
-        <param>
-          <type>MR.Std.Ostream</type>
-          <declname>out_</declname>
-        </param>
-        <param>
-          <type>int?</type>
-          <declname>level</declname>
-          <defval>null</defval>
-        </param>
-        <briefdescription>
-<para>compress the input data using the Deflate algorithm </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>in</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- input data stream </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>out</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- output data stream </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>level</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- compression level (0 - no compression, 1 - the fastest but the most inefficient compression, 9 - the most efficient but the slowest compression) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>nothing or error string Generated from function <computeroutput><ref refid="classMR_1a478cbe8c8edddd87533d0f9fd2eab015" kindref="member">MR.zlibCompressStream</ref></computeroutput>. Parameter <computeroutput>level</computeroutput> defaults to <computeroutput>-1</computeroutput>. </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRZlib.cs" line="12" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRZlib.cs" bodystart="12" bodyend="20"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1ad8eb0a0b54567d96b6469a71505c787c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.zlibDecompressStream</definition>
-        <argsstring>(MR.Std.Istream in_, MR.Std.Ostream out_)</argsstring>
-        <name>zlibDecompressStream</name>
-        <qualifiedname>MR.zlibDecompressStream</qualifiedname>
-        <param>
-          <type>MR.Std.Istream</type>
-          <declname>in_</declname>
-        </param>
-        <param>
-          <type>MR.Std.Ostream</type>
-          <declname>out_</declname>
-        </param>
-        <briefdescription>
-<para>/brief decompress the input data compressed using the Deflate algorithm </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>in</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- input data stream </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>out</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- output data stream </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="return"><para>nothing or error string Generated from function <computeroutput><ref refid="classMR_1ad8eb0a0b54567d96b6469a71505c787c" kindref="member">MR.zlibDecompressStream</ref></computeroutput>. </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRZlib.cs" line="29" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRZlib.cs" bodystart="29" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a673780dfc0ef12c079c87c75d803e22e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -48140,6 +48043,182 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="398" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="398" bodyend="414"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1ac2656817676b706754685c099497a5d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.zlibCompressStream</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Std.Ostream out_, MR.Const_ZlibCompressParams params_)</argsstring>
+        <name>zlibCompressStream</name>
+        <qualifiedname>MR.zlibCompressStream</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_ZlibCompressParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>compress the input data using the Deflate algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- input data stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- output data stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- compression parameters (wire format, level) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nothing or error string Generated from function <computeroutput><ref refid="classMR_1ac2656817676b706754685c099497a5d1" kindref="member">MR.zlibCompressStream</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="444" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="444" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a478cbe8c8edddd87533d0f9fd2eab015" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.zlibCompressStream</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Std.Ostream out_, int? level=null)</argsstring>
+        <name>zlibCompressStream</name>
+        <qualifiedname>MR.zlibCompressStream</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>level</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>compress the input data using the Deflate algorithm (zlib-wrapped, RFC 1950) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>convenience overload; equivalent to <computeroutput>zlibCompressStream(in, out, { .level = level })</computeroutput> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- compression level (see <ref refid="classMR_1_1ZlibCompressParams_1a3760542dc197e6688e3674f1ae2907dc" kindref="member">ZlibCompressParams.level</ref>) Generated from function <computeroutput><ref refid="classMR_1ac2656817676b706754685c099497a5d1" kindref="member">MR.zlibCompressStream</ref></computeroutput>. Parameter <computeroutput>level</computeroutput> defaults to <computeroutput>-1</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="460" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="460" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a39a8c04ca458d839b7e765cdd5b54e61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.zlibDecompressStream</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Std.Ostream out_, MR.Const_ZlibParams params_)</argsstring>
+        <name>zlibDecompressStream</name>
+        <qualifiedname>MR.zlibDecompressStream</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_ZlibParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>decompress the input data compressed with the Deflate algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- input data stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- output data stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- decompression parameters (wire format) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nothing or error string Generated from function <computeroutput><ref refid="classMR_1a39a8c04ca458d839b7e765cdd5b54e61" kindref="member">MR.zlibDecompressStream</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="478" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="478" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ad8eb0a0b54567d96b6469a71505c787c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.zlibDecompressStream</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Std.Ostream out_)</argsstring>
+        <name>zlibDecompressStream</name>
+        <qualifiedname>MR.zlibDecompressStream</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <briefdescription>
+<para>decompress the input data compressed with the Deflate algorithm (zlib-wrapped, RFC 1950) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>convenience overload; equivalent to <computeroutput>zlibDecompressStream(in, out, {})</computeroutput> Generated from function <computeroutput><ref refid="classMR_1a39a8c04ca458d839b7e765cdd5b54e61" kindref="member">MR.zlibDecompressStream</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="492" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="492" bodyend="499"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a723ee518c5540f71101eb72e85463f71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.alignTextToMesh</definition>
@@ -53543,7 +53622,9 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a8add2a11b131d61d0357acd04bbecf53" prot="public" virt="non-virtual"><scope>MR</scope><name>writeRawTiff</name></member>
       <member refid="classMR_1a17b0c4cf6bc9f815d3b23492a8f8760b" prot="public" virt="non-virtual"><scope>MR</scope><name>xyPlaneMeshIntersect</name></member>
       <member refid="classMR_1aa6028afa6429245715170f4866837425" prot="public" virt="non-virtual"><scope>MR</scope><name>zCompensate</name></member>
+      <member refid="classMR_1ac2656817676b706754685c099497a5d1" prot="public" virt="non-virtual"><scope>MR</scope><name>zlibCompressStream</name></member>
       <member refid="classMR_1a478cbe8c8edddd87533d0f9fd2eab015" prot="public" virt="non-virtual"><scope>MR</scope><name>zlibCompressStream</name></member>
+      <member refid="classMR_1a39a8c04ca458d839b7e765cdd5b54e61" prot="public" virt="non-virtual"><scope>MR</scope><name>zlibDecompressStream</name></member>
       <member refid="classMR_1ad8eb0a0b54567d96b6469a71505c787c" prot="public" virt="non-virtual"><scope>MR</scope><name>zlibDecompressStream</name></member>
     </listofallmembers>
   </compounddef>

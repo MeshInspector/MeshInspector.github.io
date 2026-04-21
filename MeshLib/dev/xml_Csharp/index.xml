@@ -11159,8 +11159,6 @@
     <member refid="classMR_1aae73ff5bc768493704065f5fae71e5c4" kind="function"><name>deserializeObjectTreeFromGltf</name></member>
     <member refid="classMR_1a508f5e435240bd997724cb93c20413c8" kind="function"><name>serializeObjectTreeToGltf</name></member>
     <member refid="classMR_1a669abe8ad0f3215e974cc605ea532251" kind="function"><name>loadIOExtras</name></member>
-    <member refid="classMR_1a478cbe8c8edddd87533d0f9fd2eab015" kind="function"><name>zlibCompressStream</name></member>
-    <member refid="classMR_1ad8eb0a0b54567d96b6469a71505c787c" kind="function"><name>zlibDecompressStream</name></member>
     <member refid="classMR_1a673780dfc0ef12c079c87c75d803e22e" kind="function"><name>getNumNodes</name></member>
     <member refid="classMR_1a11390a0ce829778bc9bc86216df0f0aa" kind="function"><name>getNumNodesPoints</name></member>
     <member refid="classMR_1a8041f60f3a61fe8e0982203cdadc7e7d" kind="function"><name>addNoise</name></member>
@@ -12791,6 +12789,10 @@
     <member refid="classMR_1a1e7386f7bd98058cc59ea61cdfa681f2" kind="function"><name>decompressZip</name></member>
     <member refid="classMR_1a28f7e08543f680496abdc30531896dfb" kind="function"><name>compressZip</name></member>
     <member refid="classMR_1a01f22dbeb48be9ff66104bb658c30d01" kind="function"><name>compressZip</name></member>
+    <member refid="classMR_1ac2656817676b706754685c099497a5d1" kind="function"><name>zlibCompressStream</name></member>
+    <member refid="classMR_1a478cbe8c8edddd87533d0f9fd2eab015" kind="function"><name>zlibCompressStream</name></member>
+    <member refid="classMR_1a39a8c04ca458d839b7e765cdd5b54e61" kind="function"><name>zlibDecompressStream</name></member>
+    <member refid="classMR_1ad8eb0a0b54567d96b6469a71505c787c" kind="function"><name>zlibDecompressStream</name></member>
     <member refid="classMR_1a723ee518c5540f71101eb72e85463f71" kind="function"><name>alignTextToMesh</name></member>
     <member refid="classMR_1aab15e5229b2b90a01416c7f39c9373e2" kind="function"><name>bendTextAlongCurve</name></member>
     <member refid="classMR_1a74461600e98acb2439b08e5c7e285db4" kind="function"><name>bendTextAlongCurve</name></member>
@@ -21991,6 +21993,25 @@
     <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a15aec647597c0cf3f483922408b01c12" kind="function"><name>ZeroOnMove_MRUint64T</name></member>
     <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a0523d20e0502afe20c5b4d8ae82f35c4" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1ZlibCompressParams" kind="class"><name>MR::ZlibCompressParams</name>
+    <member refid="classMR_1_1ZlibCompressParams_1a3760542dc197e6688e3674f1ae2907dc" kind="property"><name>level</name></member>
+    <member refid="classMR_1_1ZlibCompressParams_1aa1e161dc2d19a9ddfa6c5e39aef30309" kind="property"><name>rawDeflate</name></member>
+    <member refid="classMR_1_1ZlibCompressParams_1a99aaa36257bff2997597a788e5b93e84" kind="function"><name>operator MR.ZlibParams</name></member>
+    <member refid="classMR_1_1ZlibCompressParams_1a395da2bfff7ff404b93efcf0c4cbea15" kind="function"><name>ZlibCompressParams</name></member>
+    <member refid="classMR_1_1ZlibCompressParams_1a0596c69cc4a02f533bb3799621442876" kind="function"><name>ZlibCompressParams</name></member>
+    <member refid="classMR_1_1ZlibCompressParams_1a2d5c56289ccae9d6d98a7f89705c2dde" kind="function"><name>ZlibCompressParams</name></member>
+    <member refid="classMR_1_1ZlibCompressParams_1a9e32b005f302d10b22187bb77dfac79d" kind="function"><name>ZlibCompressParams</name></member>
+    <member refid="classMR_1_1ZlibCompressParams_1a014da28c3e6e66f13f3ba5e1180ba2ac" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1ZlibParams" kind="class"><name>MR::ZlibParams</name>
+    <member refid="classMR_1_1ZlibParams_1a5fefe564d79937f989f146af63614b17" kind="property"><name>rawDeflate</name></member>
+    <member refid="classMR_1_1ZlibParams_1a8d63b466f31f4ae1934ff13cfdbc6266" kind="function"><name>ZlibParams</name></member>
+    <member refid="classMR_1_1ZlibParams_1a9623066e779c9d1671b55d306b8a623c" kind="function"><name>ZlibParams</name></member>
+    <member refid="classMR_1_1ZlibParams_1a148b40babec32bbe5691517012b4f21f" kind="function"><name>ZlibParams</name></member>
+    <member refid="classMR_1_1ZlibParams_1ad199bf33ae18507621e0967e486f6cf7" kind="function"><name>ZlibParams</name></member>
+    <member refid="classMR_1_1ZlibParams_1a341905bb30dc74bd647beca8de27f77f" kind="function"><name>ZlibParams</name></member>
+    <member refid="classMR_1_1ZlibParams_1a60d722afc85f7c4cf1236b2c4a1f1494" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="namespaceMR_1_1Misc" kind="namespace"><name>MR::Misc</name>
   </compound>
   <compound refid="namespaceSystem" kind="namespace"><name>System</name>
@@ -22044,8 +22065,6 @@
   <compound refid="MRSvg_8cs" kind="file"><name>MRSvg.cs</name>
   </compound>
   <compound refid="MRTiff_8cs" kind="file"><name>MRTiff.cs</name>
-  </compound>
-  <compound refid="MRZlib_8cs" kind="file"><name>MRZlib.cs</name>
   </compound>
   <compound refid="MR2DContoursTriangulation_8cs" kind="file"><name>MR2DContoursTriangulation.cs</name>
   </compound>
@@ -22786,6 +22805,8 @@
   <compound refid="MRXfBasedCache_8cs" kind="file"><name>MRXfBasedCache.cs</name>
   </compound>
   <compound refid="MRZip_8cs" kind="file"><name>MRZip.cs</name>
+  </compound>
+  <compound refid="MRZlib_8cs" kind="file"><name>MRZlib.cs</name>
   </compound>
   <compound refid="MRAlignTextToMesh_8cs" kind="file"><name>MRAlignTextToMesh.cs</name>
   </compound>

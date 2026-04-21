@@ -1420,5 +1420,8 @@ var hierarchy =
     [ "MR::WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::ZCompensateParams", "structMR_1_1ZCompensateParams.html", null ],
-    [ "MR::ZeroOnMove< T >", "structMR_1_1ZeroOnMove.html", null ]
+    [ "MR::ZeroOnMove< T >", "structMR_1_1ZeroOnMove.html", null ],
+    [ "MR::ZlibParams", "structMR_1_1ZlibParams.html", [
+      [ "MR::ZlibCompressParams", "structMR_1_1ZlibCompressParams.html", null ]
+    ] ]
 ];

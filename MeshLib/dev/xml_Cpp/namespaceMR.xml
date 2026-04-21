@@ -828,6 +828,8 @@
     <innerclass refid="classMR_1_1XfBasedCache" prot="public">MR::XfBasedCache</innerclass>
     <innerclass refid="structMR_1_1ZCompensateParams" prot="public">MR::ZCompensateParams</innerclass>
     <innerclass refid="structMR_1_1ZeroOnMove" prot="public">MR::ZeroOnMove</innerclass>
+    <innerclass refid="structMR_1_1ZlibCompressParams" prot="public">MR::ZlibCompressParams</innerclass>
+    <innerclass refid="structMR_1_1ZlibParams" prot="public">MR::ZlibParams</innerclass>
     <innernamespace refid="namespaceMR_1_1AsyncObjectLoad">MR::AsyncObjectLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1BitSetParallel">MR::BitSetParallel</innernamespace>
     <innernamespace refid="namespaceMR_1_1Cuda">MR::Cuda</innernamespace>
@@ -2038,8 +2040,6 @@
       <member refid="group__GeneralGroup_1gae6fa636dd51f34ce2884fd560b05e1f4" kind="function"><name>deserializeObjectTreeFromGltf</name></member>
       <member refid="group__GeneralGroup_1ga01574256a10162ba5b6e30329e70503e" kind="function"><name>serializeObjectTreeToGltf</name></member>
       <member refid="group__GeneralGroup_1ga9da69906a8753c1bbec83769cf687367" kind="function"><name>loadIOExtras</name></member>
-      <member refid="group__GeneralGroup_1ga391a2ecfeefaef70abbdbb81665886f5" kind="function"><name>zlibCompressStream</name></member>
-      <member refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" kind="function"><name>zlibDecompressStream</name></member>
       <member refid="group__ConversionBetween2and3dimGroup_1ga47acaecbfd1288841aacaed1dc8aaebe" kind="function"><name>to3dim</name></member>
       <member refid="group__ConversionBetween2and3dimGroup_1gad89680ada843258c1768297579000c1b" kind="function"><name>to2dim</name></member>
       <member refid="group__ConversionBetween2and3dimGroup_1gaec12159443820ad007ef070ec329a5bd" kind="function"><name>to3dim</name></member>
@@ -3324,6 +3324,10 @@
       <member refid="group__SerializerGroup_1gaeb9ec7f1149bdc406b6d901c2bc1986f" kind="function"><name>decompressZip</name></member>
       <member refid="group__SerializerGroup_1gaaeb1d5f0f783381f2285fd4d7fbd1c6b" kind="function"><name>compressZip</name></member>
       <member refid="group__SerializerGroup_1ga4466031d05f4eb56868dc88105bc5248" kind="function"><name>compressZip</name></member>
+      <member refid="group__GeneralGroup_1gab5809f4005176091dab5888398265a1e" kind="function"><name>zlibCompressStream</name></member>
+      <member refid="group__GeneralGroup_1ga391a2ecfeefaef70abbdbb81665886f5" kind="function"><name>zlibCompressStream</name></member>
+      <member refid="group__GeneralGroup_1ga821dbf6faccece72904317f7a7af0c43" kind="function"><name>zlibDecompressStream</name></member>
+      <member refid="group__GeneralGroup_1ga790822c4da5f4e95c06eca6e0dd9328e" kind="function"><name>zlibDecompressStream</name></member>
       <member refid="group__GeneralGroup_1ga396596cb5cea6d2f8fec7b7838ae2bc5" kind="function"><name>throwExceptionFromExpected</name></member>
       <member refid="group__GeneralGroup_1gac95039057559bedc6c5786b29e42d974" kind="function"><name>expectedValueOrThrow</name></member>
       <member refid="group__GeneralGroup_1gaa60c1177452c69cf5b8cdab61296d1ce" kind="function"><name>decorateExpected</name></member>

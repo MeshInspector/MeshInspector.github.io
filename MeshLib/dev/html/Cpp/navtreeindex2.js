@@ -11,6 +11,8 @@ var NAVTREEINDEX2 =
 "MRICPEnums_8h_source.html":[6,0,3,0,6,140],
 "MRICP_8h.html":[6,0,3,0,6,139],
 "MRICP_8h_source.html":[6,0,3,0,6,139],
+"MRIOExtras_2MRZlib_8h.html":[6,0,3,0,4,14],
+"MRIOExtras_2MRZlib_8h_source.html":[6,0,3,0,4,14],
 "MRIOExtras_2config_8h.html":[6,0,3,0,4,0],
 "MRIOExtras_2config_8h_source.html":[6,0,3,0,4,0],
 "MRIOExtras_8h.html":[6,0,3,0,4,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "MRMeshDiff_8h.html":[6,0,3,0,6,204],
 "MRMeshDiff_8h_source.html":[6,0,3,0,6,204],
 "MRMeshDirMax_8h.html":[6,0,3,0,6,205],
-"MRMeshDirMax_8h_source.html":[6,0,3,0,6,205],
-"MRMeshDistance_8h.html":[6,0,3,0,6,206],
-"MRMeshDistance_8h_source.html":[6,0,3,0,6,206]
+"MRMeshDirMax_8h_source.html":[6,0,3,0,6,205]
 };
