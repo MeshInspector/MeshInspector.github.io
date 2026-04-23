@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::TestEngine::EntryAttributes</compoundname>
+    <includes refid="MRUITestEngine_8h" local="no">MRViewer/MRUITestEngine.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes_1ae3e69d330fabb3b2d376e4c801e960d5" prot="public" static="no" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view MR::UI::TestEngine::EntryAttributes::disabledReason</definition>
+        <argsstring></argsstring>
+        <name>disabledReason</name>
+        <qualifiedname>MR::UI::TestEngine::EntryAttributes::disabledReason</qualifiedname>
+        <briefdescription>
+<para>Non-empty marks the widget as disabled with this reason. Only read during the call. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngine.h" line="25" column="22" bodyfile="MRViewer/MRUITestEngine.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Optional attributes reported to the test engine each frame alongside a widget registration. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRUITestEngine.h" line="22" column="1" bodyfile="MRViewer/MRUITestEngine.h" bodystart="23" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes_1ae3e69d330fabb3b2d376e4c801e960d5" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::EntryAttributes</scope><name>disabledReason</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

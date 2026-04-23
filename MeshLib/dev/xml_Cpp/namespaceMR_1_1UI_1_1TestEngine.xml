@@ -4,20 +4,26 @@
     <compoundname>MR::UI::TestEngine</compoundname>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" prot="public">MR::UI::TestEngine::ButtonEntry</innerclass>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1Entry" prot="public">MR::UI::TestEngine::Entry</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" prot="public">MR::UI::TestEngine::EntryAttributes</innerclass>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry" prot="public">MR::UI::TestEngine::GroupEntry</innerclass>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" prot="public">MR::UI::TestEngine::ValueEntry</innerclass>
     <innernamespace refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control">MR::UI::TestEngine::Control</innernamespace>
     <innernamespace refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail">MR::UI::TestEngine::detail</innernamespace>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a118660fc12e6dbfbfc628692acf8c9b2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1abe0944f31ec6c1e531ceca7b6394001b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::UI::TestEngine::createButton</definition>
-        <argsstring>(std::string_view name)</argsstring>
+        <argsstring>(std::string_view name, const EntryAttributes &amp;attrs={})</argsstring>
         <name>createButton</name>
         <qualifiedname>MR::UI::TestEngine::createButton</qualifiedname>
         <param>
           <type>std::string_view</type>
           <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" kindref="compound">EntryAttributes</ref> &amp;</type>
+          <declname>attrs</declname>
+          <defval>{}</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -26,9 +32,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="58" column="8" declfile="MRViewer/MRUITestEngine.h" declline="58" declcolumn="8"/>
+        <location file="MRViewer/MRUITestEngine.h" line="65" column="8" declfile="MRViewer/MRUITestEngine.h" declline="65" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1af12811d400185e17b9fbecf90ca59920" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a57753ccce62ab6e3ddf31a2d5e980198" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>AllowedValueType</type>
@@ -38,7 +44,7 @@
         </templateparamlist>
         <type>std::optional&lt; T &gt;</type>
         <definition>std::optional&lt; T &gt; MR::UI::TestEngine::createValue</definition>
-        <argsstring>(std::string_view name, T value, T min, T max, bool consumeValueOverride=true)</argsstring>
+        <argsstring>(std::string_view name, T value, T min, T max, bool consumeValueOverride=true, const EntryAttributes &amp;attrs={})</argsstring>
         <name>createValue</name>
         <qualifiedname>MR::UI::TestEngine::createValue</qualifiedname>
         <param>
@@ -62,6 +68,11 @@
           <declname>consumeValueOverride</declname>
           <defval>true</defval>
         </param>
+        <param>
+          <type>const <ref refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" kindref="compound">EntryAttributes</ref> &amp;</type>
+          <declname>attrs</declname>
+          <defval>{}</defval>
+        </param>
     <requiresclause>std::is_arithmetic_v&lt;T&gt;    </requiresclause>
         <briefdescription>
         </briefdescription>
@@ -79,12 +90,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="73" column="16" bodyfile="MRViewer/MRUITestEngine.h" bodystart="73" bodyend="86"/>
+        <location file="MRViewer/MRUITestEngine.h" line="80" column="16" bodyfile="MRViewer/MRUITestEngine.h" bodystart="80" bodyend="93"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a74c5a460292cbb0112a63fe0a6e85bf8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1aadf08b798c27eed5ca7828629bf08e9e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::string &gt;</type>
         <definition>std::optional&lt; std::string &gt; MR::UI::TestEngine::createValue</definition>
-        <argsstring>(std::string_view name, std::string value, bool consumeValueOverride=true, std::optional&lt; std::vector&lt; std::string &gt; &gt; allowedValues=std::nullopt)</argsstring>
+        <argsstring>(std::string_view name, std::string value, bool consumeValueOverride=true, std::optional&lt; std::vector&lt; std::string &gt; &gt; allowedValues=std::nullopt, const EntryAttributes &amp;attrs={})</argsstring>
         <name>createValue</name>
         <qualifiedname>MR::UI::TestEngine::createValue</qualifiedname>
         <param>
@@ -105,6 +116,11 @@
           <declname>allowedValues</declname>
           <defval>std::nullopt</defval>
         </param>
+        <param>
+          <type>const <ref refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" kindref="compound">EntryAttributes</ref> &amp;</type>
+          <declname>attrs</declname>
+          <defval>{}</defval>
+        </param>
         <briefdescription>
 <para>This overload is for strings. </para>
         </briefdescription>
@@ -112,9 +128,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="88" column="17" declfile="MRViewer/MRUITestEngine.h" declline="88" declcolumn="17"/>
+        <location file="MRViewer/MRUITestEngine.h" line="95" column="17" declfile="MRViewer/MRUITestEngine.h" declline="95" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a937d804d659e0c82a3623bf0c09be2bf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a3ece6ea22acf01690ed3716ed07f7c76" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>AllowedValueType</type>
@@ -124,7 +140,7 @@
         </templateparamlist>
         <type>std::optional&lt; T &gt;</type>
         <definition>std::optional&lt; T &gt; MR::UI::TestEngine::createValueTentative</definition>
-        <argsstring>(std::string_view name, bool consumeValueOverride=true)</argsstring>
+        <argsstring>(std::string_view name, bool consumeValueOverride=true, const EntryAttributes &amp;attrs={})</argsstring>
         <name>createValueTentative</name>
         <qualifiedname>MR::UI::TestEngine::createValueTentative</qualifiedname>
         <param>
@@ -136,14 +152,19 @@
           <declname>consumeValueOverride</declname>
           <defval>true</defval>
         </param>
+        <param>
+          <type>const <ref refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" kindref="compound">EntryAttributes</ref> &amp;</type>
+          <declname>attrs</declname>
+          <defval>{}</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Usually you don&apos;t need this function. This is for widgets that require you to specify the value override before drawing it, such as <computeroutput>ImGui::CollapsingHeader()</computeroutput>. For those, call this version first to read the value override, then draw the widget, then call the normal <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1af12811d400185e17b9fbecf90ca59920" kindref="member">createValue()</ref></computeroutput> with the same name and with the new value, and discard its return value. </para>
+<para>Usually you don&apos;t need this function. This is for widgets that require you to specify the value override before drawing it, such as <computeroutput>ImGui::CollapsingHeader()</computeroutput>. For those, call this version first to read the value override, then draw the widget, then call the normal <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1a57753ccce62ab6e3ddf31a2d5e980198" kindref="member">createValue()</ref></computeroutput> with the same name and with the new value, and discard its return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="95" column="16" bodyfile="MRViewer/MRUITestEngine.h" bodystart="95" bodyend="99"/>
+        <location file="MRViewer/MRUITestEngine.h" line="102" column="16" bodyfile="MRViewer/MRUITestEngine.h" bodystart="102" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1ad12d929394733bbfd78765262fec48b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -162,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="102" column="7" declfile="MRViewer/MRUITestEngine.h" declline="102" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="109" column="7" declfile="MRViewer/MRUITestEngine.h" declline="109" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -176,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="103" column="7" declfile="MRViewer/MRUITestEngine.h" declline="103" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="110" column="7" declfile="MRViewer/MRUITestEngine.h" declline="110" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a0b6a21c2491075e840bb5fa053992dc9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry" kindref="compound">GroupEntry</ref> &amp;</type>
@@ -191,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="193" column="20" declfile="MRViewer/MRUITestEngine.h" declline="193" declcolumn="20"/>
+        <location file="MRViewer/MRUITestEngine.h" line="208" column="20" declfile="MRViewer/MRUITestEngine.h" declline="208" declcolumn="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -924,6 +924,7 @@
   </compound>
   <compound refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" kind="struct"><name>MR::UI::TestEngine::ButtonEntry</name>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1a09f3fe261438edd0071ac8dd34a503a1" kind="variable"><name>simulateClick</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1ae0e6dd790b8725ec765ff66f969fef75" kind="variable"><name>disabledReason</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry_1ae266c30a230c916a84c4bc1704ab96d2" kind="variable"><name>kindName</name></member>
   </compound>
   <compound refid="structMR_1_1UI_1_1ButtonIconCustomizationParams" kind="struct"><name>MR::UI::ButtonIconCustomizationParams</name>
@@ -3025,6 +3026,9 @@
     <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1af990d8e37018eb62dd57a502b644717c" kind="function"><name>getAs</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1ab746b066f53a20f78e0fb97a552fb166" kind="function"><name>getAs</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1Entry_1ab17ed88e1509137f844ca1ab924715cb" kind="function"><name>unexpected_</name></member>
+  </compound>
+  <compound refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" kind="struct"><name>MR::UI::TestEngine::EntryAttributes</name>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes_1ae3e69d330fabb3b2d376e4c801e960d5" kind="variable"><name>disabledReason</name></member>
   </compound>
   <compound refid="classMR_1_1EnumNeihbourFaces" kind="class"><name>MR::EnumNeihbourFaces</name>
     <member refid="group__GeneralGroup_1ga79203f31763f7bc8c5334f9eefa76d4d" kind="variable"><name>visited_</name></member>
@@ -11662,6 +11666,7 @@
   <compound refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry" kind="struct"><name>MR::UI::TestEngine::Control::TypedEntry</name>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1a4e3cc6eede4e75192082ff04395854a1" kind="variable"><name>name</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1ad9e38d8846b1d30eae0a44704076f315" kind="variable"><name>type</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1a527377df02e29b36c5f10ad87f1429f7" kind="variable"><name>status</name></member>
   </compound>
   <compound refid="structMR_1_1TypedFlatTree" kind="struct"><name>MR::TypedFlatTree</name>
     <member refid="group__GeneralGroup_1gaa04d404e0e698980823e763537ad5250" kind="variable"><name>root</name></member>
@@ -11868,6 +11873,7 @@
   <compound refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" kind="struct"><name>MR::UI::TestEngine::ValueEntry</name>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1a0b422f67ab9d7cf37958d0c52b1eecb8" kind="typedef"><name>ValueVar</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1a2d5c1989a6bfddbe4bb76ba289a3deea" kind="variable"><name>value</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1ac3a856a28b4b83522209d068fc7dcf6e" kind="variable"><name>disabledReason</name></member>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1ae5bd95dc0fb048677f9f0316deb3ff6b" kind="variable"><name>kindName</name></member>
   </compound>
   <compound refid="structMR_1_1VarEdgeTri" kind="struct"><name>MR::VarEdgeTri</name>
@@ -16471,10 +16477,10 @@
     <member refid="group__GeneralGroup_1gab2d91f6bfec43ba9d3cbbc6a347cea86" kind="function"><name>writeBool</name></member>
   </compound>
   <compound refid="namespaceMR_1_1UI_1_1TestEngine" kind="namespace"><name>MR::UI::TestEngine</name>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1a118660fc12e6dbfbfc628692acf8c9b2" kind="function"><name>createButton</name></member>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1af12811d400185e17b9fbecf90ca59920" kind="function"><name>createValue</name></member>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1a74c5a460292cbb0112a63fe0a6e85bf8" kind="function"><name>createValue</name></member>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1a937d804d659e0c82a3623bf0c09be2bf" kind="function"><name>createValueTentative</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1abe0944f31ec6c1e531ceca7b6394001b" kind="function"><name>createButton</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1a57753ccce62ab6e3ddf31a2d5e980198" kind="function"><name>createValue</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1aadf08b798c27eed5ca7828629bf08e9e" kind="function"><name>createValue</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1a3ece6ea22acf01690ed3716ed07f7c76" kind="function"><name>createValueTentative</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1ad12d929394733bbfd78765262fec48b8" kind="function"><name>pushTree</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" kind="function"><name>popTree</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1a0b6a21c2491075e840bb5fa053992dc9" kind="function"><name>getRootEntry</name></member>
@@ -16505,11 +16511,11 @@
   </compound>
   <compound refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail" kind="namespace"><name>MR::UI::TestEngine::detail</name>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1ab897ec83d6544cb895ed73a8330cfe6e" kind="typedef"><name>UnderlyingValueType</name></member>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a028265a06dcf0d5ed01bd801f6fc7314" kind="function"><name>createValueLow</name></member>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a53467f7c719a9c6fa463ff7d73fea569" kind="function"><name>createValueLow</name></member>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a2173c2b87591c610680b96badb3cd45c" kind="function"><name>createValueLow</name></member>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1adc8ca967192d7ff4b3c6ea97187935ea" kind="function"><name>createValueLow</name></member>
-    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a1c8b4ff704aee4f70419980009e66752" kind="function"><name>createValueLow</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a2e73c8ebc73460f3aa834d31f6cb8d3d" kind="function"><name>createValueLow</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a573298488f7a57e1cc25d4f962e1a22f" kind="function"><name>createValueLow</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1a228b99eeaa30617d5cf0d9880a743d07" kind="function"><name>createValueLow</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1adf87776474c7b33bf3fa2dab4b54d197" kind="function"><name>createValueLow</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail_1ac9491c45101e3a80f649bee148eacb62" kind="function"><name>createValueLow</name></member>
   </compound>
   <compound refid="namespaceMR_1_1UnitSettings" kind="namespace"><name>MR::UnitSettings</name>
     <member refid="namespaceMR_1_1UnitSettings_1a6605d13452e5dc0af2d101284fc415c6" kind="function"><name>resetToDefaults</name></member>

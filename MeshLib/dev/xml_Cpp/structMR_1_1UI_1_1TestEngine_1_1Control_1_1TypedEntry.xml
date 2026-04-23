@@ -32,14 +32,30 @@
         </inbodydescription>
         <location file="MRViewer/MRUITestEngineControl.h" line="49" column="15" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="49" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1a527377df02e29b36c5f10ad87f1429f7" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::UI::TestEngine::Control::TypedEntry::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MR::UI::TestEngine::Control::TypedEntry::status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Human-readable interaction status. Built by <computeroutput>composeStatus()</computeroutput> in MRUITestEngineControl.cpp — see that function for the set of values. Agents can branch on <computeroutput>status == &quot;available&quot;</computeroutput> or match <computeroutput>status.starts_with(&quot;disabled&quot;)</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="54" column="17" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRUITestEngineControl.h" line="46" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="47" bodyend="50"/>
+    <location file="MRViewer/MRUITestEngineControl.h" line="46" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="47" bodyend="55"/>
     <listofallmembers>
       <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1a4e3cc6eede4e75192082ff04395854a1" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Control::TypedEntry</scope><name>name</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1a527377df02e29b36c5f10ad87f1429f7" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Control::TypedEntry</scope><name>status</name></member>
       <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry_1ad9e38d8846b1d30eae0a44704076f315" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::Control::TypedEntry</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>

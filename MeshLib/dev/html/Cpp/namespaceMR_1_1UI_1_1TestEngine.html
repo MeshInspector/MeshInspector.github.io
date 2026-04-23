@@ -155,6 +155,8 @@ Namespaces</h2></td></tr>
 Classes</h2></td></tr>
 <tr class="memitem:ButtonEntry" id="r_ButtonEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html">ButtonEntry</a></td></tr>
 <tr class="memitem:Entry" id="r_Entry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Entry.html">Entry</a></td></tr>
+<tr class="memitem:EntryAttributes" id="r_EntryAttributes"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional attributes reported to the test engine each frame alongside a widget registration.  <a href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#details">More...</a><br /></td></tr>
 <tr class="memitem:GroupEntry" id="r_GroupEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a></td></tr>
 <tr class="memitem:ValueEntry" id="r_ValueEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html">ValueEntry</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">For sliders, drags, etc.  <a href="structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html#details">More...</a><br /></td></tr>
@@ -165,14 +167,14 @@ Concepts</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a118660fc12e6dbfbfc628692acf8c9b2" id="r_a118660fc12e6dbfbfc628692acf8c9b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118660fc12e6dbfbfc628692acf8c9b2">createButton</a> (std::string_view name)</td></tr>
-<tr class="memitem:af12811d400185e17b9fbecf90ca59920" id="r_af12811d400185e17b9fbecf90ca59920"><td class="memTemplParams" colspan="2">template&lt;AllowedValueType T&gt; <br />
+<tr class="memitem:abe0944f31ec6c1e531ceca7b6394001b" id="r_abe0944f31ec6c1e531ceca7b6394001b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe0944f31ec6c1e531ceca7b6394001b">createButton</a> (std::string_view name, const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a> &amp;attrs={})</td></tr>
+<tr class="memitem:a57753ccce62ab6e3ddf31a2d5e980198" id="r_a57753ccce62ab6e3ddf31a2d5e980198"><td class="memTemplParams" colspan="2">template&lt;AllowedValueType T&gt; <br />
 requires std::is_arithmetic_v&lt;T&gt;</td></tr>
-<tr class="memitem:af12811d400185e17b9fbecf90ca59920 template"><td class="memItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12811d400185e17b9fbecf90ca59920">createValue</a> (std::string_view name, T value, T min, T max, bool consumeValueOverride=true)</td></tr>
-<tr class="memitem:a74c5a460292cbb0112a63fe0a6e85bf8" id="r_a74c5a460292cbb0112a63fe0a6e85bf8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c5a460292cbb0112a63fe0a6e85bf8">createValue</a> (std::string_view name, std::string value, bool consumeValueOverride=true, std::optional&lt; std::vector&lt; std::string &gt; &gt; allowedValues=std::nullopt)</td></tr>
-<tr class="memdesc:a74c5a460292cbb0112a63fe0a6e85bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for strings.  <br /></td></tr>
-<tr class="memitem:a937d804d659e0c82a3623bf0c09be2bf" id="r_a937d804d659e0c82a3623bf0c09be2bf"><td class="memTemplParams" colspan="2">template&lt;AllowedValueType T&gt; </td></tr>
-<tr class="memitem:a937d804d659e0c82a3623bf0c09be2bf template"><td class="memItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a937d804d659e0c82a3623bf0c09be2bf">createValueTentative</a> (std::string_view name, bool consumeValueOverride=true)</td></tr>
+<tr class="memitem:a57753ccce62ab6e3ddf31a2d5e980198 template"><td class="memItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57753ccce62ab6e3ddf31a2d5e980198">createValue</a> (std::string_view name, T value, T min, T max, bool consumeValueOverride=true, const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a> &amp;attrs={})</td></tr>
+<tr class="memitem:aadf08b798c27eed5ca7828629bf08e9e" id="r_aadf08b798c27eed5ca7828629bf08e9e"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadf08b798c27eed5ca7828629bf08e9e">createValue</a> (std::string_view name, std::string value, bool consumeValueOverride=true, std::optional&lt; std::vector&lt; std::string &gt; &gt; allowedValues=std::nullopt, const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a> &amp;attrs={})</td></tr>
+<tr class="memdesc:aadf08b798c27eed5ca7828629bf08e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for strings.  <br /></td></tr>
+<tr class="memitem:a3ece6ea22acf01690ed3716ed07f7c76" id="r_a3ece6ea22acf01690ed3716ed07f7c76"><td class="memTemplParams" colspan="2">template&lt;AllowedValueType T&gt; </td></tr>
+<tr class="memitem:a3ece6ea22acf01690ed3716ed07f7c76 template"><td class="memItemLeft" align="right" valign="top">std::optional&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ece6ea22acf01690ed3716ed07f7c76">createValueTentative</a> (std::string_view name, bool consumeValueOverride=true, const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a> &amp;attrs={})</td></tr>
 <tr class="memitem:ad12d929394733bbfd78765262fec48b8" id="r_ad12d929394733bbfd78765262fec48b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad12d929394733bbfd78765262fec48b8">pushTree</a> (std::string_view name)</td></tr>
 <tr class="memdesc:ad12d929394733bbfd78765262fec48b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use those to group buttons into named groups.  <br /></td></tr>
 <tr class="memitem:ab05a3802e2ed1ab9f8a55c8a8d55ef6a" id="r_ab05a3802e2ed1ab9f8a55c8a8d55ef6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05a3802e2ed1ab9f8a55c8a8d55ef6a">popTree</a> ()</td></tr>
@@ -182,8 +184,8 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is a low-level header for implementing GUIs that can be interacted with programmatically. Most likely you don't need to touch this, just use widgets from <span class="tt"><a class="el" href="MRUIStyle_8h.html">MRUIStyle.h</a></span>. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a118660fc12e6dbfbfc628692acf8c9b2" name="a118660fc12e6dbfbfc628692acf8c9b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a118660fc12e6dbfbfc628692acf8c9b2">&#9670;&#160;</a></span>createButton()</h2>
+<a id="abe0944f31ec6c1e531ceca7b6394001b" name="abe0944f31ec6c1e531ceca7b6394001b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe0944f31ec6c1e531ceca7b6394001b">&#9670;&#160;</a></span>createButton()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,8 +196,12 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
         <tr>
           <td class="memname">bool MR::UI::TestEngine::createButton </td>
           <td>(</td>
-          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>attrs</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -208,8 +214,8 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 
 </div>
 </div>
-<a id="a74c5a460292cbb0112a63fe0a6e85bf8" name="a74c5a460292cbb0112a63fe0a6e85bf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74c5a460292cbb0112a63fe0a6e85bf8">&#9670;&#160;</a></span>createValue() <span class="overload">[1/2]</span></h2>
+<a id="aadf08b798c27eed5ca7828629bf08e9e" name="aadf08b798c27eed5ca7828629bf08e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf08b798c27eed5ca7828629bf08e9e">&#9670;&#160;</a></span>createValue() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +241,12 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; std::vector&lt; std::string &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>allowedValues</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; std::vector&lt; std::string &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>allowedValues</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>attrs</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -249,8 +260,8 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 
 </div>
 </div>
-<a id="af12811d400185e17b9fbecf90ca59920" name="af12811d400185e17b9fbecf90ca59920"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af12811d400185e17b9fbecf90ca59920">&#9670;&#160;</a></span>createValue() <span class="overload">[2/2]</span></h2>
+<a id="a57753ccce62ab6e3ddf31a2d5e980198" name="a57753ccce62ab6e3ddf31a2d5e980198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57753ccce62ab6e3ddf31a2d5e980198">&#9670;&#160;</a></span>createValue() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +295,12 @@ requires std::is_arithmetic_v&lt;T&gt;</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>attrs</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -302,8 +318,8 @@ requires std::is_arithmetic_v&lt;T&gt;</div>
 
 </div>
 </div>
-<a id="a937d804d659e0c82a3623bf0c09be2bf" name="a937d804d659e0c82a3623bf0c09be2bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a937d804d659e0c82a3623bf0c09be2bf">&#9670;&#160;</a></span>createValueTentative()</h2>
+<a id="a3ece6ea22acf01690ed3716ed07f7c76" name="a3ece6ea22acf01690ed3716ed07f7c76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ece6ea22acf01690ed3716ed07f7c76">&#9670;&#160;</a></span>createValueTentative()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,7 +337,12 @@ template&lt;AllowedValueType T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html">EntryAttributes</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>attrs</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -330,7 +351,7 @@ template&lt;AllowedValueType T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Usually you don't need this function. This is for widgets that require you to specify the value override before drawing it, such as <span class="tt">ImGui::CollapsingHeader()</span>. For those, call this version first to read the value override, then draw the widget, then call the normal <span class="tt"><a class="el" href="#af12811d400185e17b9fbecf90ca59920">createValue()</a></span> with the same name and with the new value, and discard its return value. </p>
+<p>Usually you don't need this function. This is for widgets that require you to specify the value override before drawing it, such as <span class="tt">ImGui::CollapsingHeader()</span>. For those, call this version first to read the value override, then draw the widget, then call the normal <span class="tt"><a class="el" href="#a57753ccce62ab6e3ddf31a2d5e980198">createValue()</a></span> with the same name and with the new value, and discard its return value. </p>
 
 </div>
 </div>

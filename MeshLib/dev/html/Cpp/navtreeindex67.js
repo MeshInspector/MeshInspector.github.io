@@ -1,5 +1,15 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[6,0,0,16,2,0,0],
+"structMR_1_1VertPathInfo.html":[6,0,0,16,5],
+"structMR_1_1VertPathInfo.html":[6,0,0,20,190],
+"structMR_1_1ViewerSignals.html":[6,0,0,20,787],
+"structMR_1_1ViewportGL_1_1BasePickResult.html":[6,0,0,20,800],
+"structMR_1_1ViewportGL_1_1PickParameters.html":[6,0,0,20,799],
+"structMR_1_1ViewportGL_1_1PickResult.html":[6,0,0,20,801],
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html":[6,0,0,20,802],
+"structMR_1_1ViewportPointsWithColors.html":[6,0,0,20,797],
+"structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,0,20,790],
 "structMR_1_1Viewport_1_1Parameters.html":[6,0,0,20,793],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html":[6,0,0,20,792],
 "structMR_1_1Viewport_1_1TriCornerColors.html":[6,0,0,20,791],

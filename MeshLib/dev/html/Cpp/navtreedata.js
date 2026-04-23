@@ -214,7 +214,7 @@ var NAVTREEINDEX =
 "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18",
 "structMR_1_1RelaxParams.html",
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa",
-"structMR_1_1Viewport_1_1Parameters.html"
+"structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -150,6 +150,7 @@ $(function(){initNavTree('structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4e3cc6eede4e75192082ff04395854a1" id="r_a4e3cc6eede4e75192082ff04395854a1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e3cc6eede4e75192082ff04395854a1">name</a></td></tr>
 <tr class="memitem:ad9e38d8846b1d30eae0a44704076f315" id="r_ad9e38d8846b1d30eae0a44704076f315"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2">EntryType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9e38d8846b1d30eae0a44704076f315">type</a></td></tr>
+<tr class="memitem:a527377df02e29b36c5f10ad87f1429f7" id="r_a527377df02e29b36c5f10ad87f1429f7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a527377df02e29b36c5f10ad87f1429f7">status</a></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a4e3cc6eede4e75192082ff04395854a1" name="a4e3cc6eede4e75192082ff04395854a1"></a>
@@ -163,6 +164,21 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a527377df02e29b36c5f10ad87f1429f7" name="a527377df02e29b36c5f10ad87f1429f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a527377df02e29b36c5f10ad87f1429f7">&#9670;&#160;</a></span>status</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::UI::TestEngine::Control::TypedEntry::status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Human-readable interaction status. Built by <span class="tt">composeStatus()</span> in MRUITestEngineControl.cpp — see that function for the set of values. Agents can branch on <span class="tt">status == "available"</span> or match <span class="tt">status.starts_with("disabled")</span>. </p>
 
 </div>
 </div>

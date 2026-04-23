@@ -199,7 +199,7 @@ var NAVTREEINDEX12 =
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,15,0,10],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,15,0,11],
 "conceptMR_1_1Trivial.html":[6,0,0,20,35],
-"conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,47,2,6],
+"conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,47,2,7],
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[6,0,0,20,42],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[6,0,0,20,44],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[6,0,0,20,45],
