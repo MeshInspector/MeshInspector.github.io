@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1NoVisualRepresentationCheck.html":[6,0,0,20,682],
 "structMR_1_1NodeNode.html":[6,0,0,1,5],
 "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18":[6,0,0,1,5,1],
 "structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2":[6,0,0,1,5,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "structMR_1_1RayOrigin.html":[6,0,0,0,9,0],
 "structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7":[6,0,0,0,9,0,0],
 "structMR_1_1RayOrigin.html#ac04a9fc6f4e6573fb74ba782ee0db113":[6,0,0,0,9,0,1],
-"structMR_1_1RebuildMeshSettings.html":[6,0,0,20,838]
+"structMR_1_1RebuildMeshSettings.html":[6,0,0,20,838],
+"structMR_1_1ReduceTotalAngleParams.html":[6,0,0,20,348]
 };

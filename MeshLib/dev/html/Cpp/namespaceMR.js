@@ -3551,7 +3551,6 @@ var namespaceMR =
     [ "Cone3f", "group__GeneralGroup.html#gaacddd8dea45c1f5082893fce7fb5755d", null ],
     [ "cQuickAccessBarHeight", "group__GeneralGroup.html#ga11cefc41d465d94791aaa0484ecde389", null ],
     [ "cQuietNan", "group__GeneralGroup.html#gac50b2a332a59b46a9f98d7dc951dd010", null ],
-    [ "cQuietNanBits", "group__GeneralGroup.html#ga8f3c9f088f6a284e579d9042826fccd6", null ],
     [ "cRadioButtonSize", "group__GeneralGroup.html#ga5e91f2b6e23986c1b6506a29afbc961c", null ],
     [ "cRadioInnerSpacingX", "group__GeneralGroup.html#gafe49e137af70c8aaef17a39366b4bd32", null ],
     [ "cRibbonButtonWindowPaddingX", "group__GeneralGroup.html#gaa1ae7e72880bd59893da014002b30c09", null ],

@@ -16552,7 +16552,6 @@ var group__GeneralGroup =
     [ "MR::Viewer::GLPrimitivesCounter::counter", "group__GeneralGroup.html#ga5e3703eba5285dc1c4ccfdcb9784030e", null ],
     [ "MR::cQuickAccessBarHeight", "group__GeneralGroup.html#ga11cefc41d465d94791aaa0484ecde389", null ],
     [ "MR::cQuietNan", "group__GeneralGroup.html#gac50b2a332a59b46a9f98d7dc951dd010", null ],
-    [ "MR::cQuietNanBits", "group__GeneralGroup.html#ga8f3c9f088f6a284e579d9042826fccd6", null ],
     [ "MR::cRadioButtonSize", "group__GeneralGroup.html#ga5e91f2b6e23986c1b6506a29afbc961c", null ],
     [ "MR::cRadioInnerSpacingX", "group__GeneralGroup.html#gafe49e137af70c8aaef17a39366b4bd32", null ],
     [ "MR::ZlibCompressStats::crc32", "group__GeneralGroup.html#gaf32477db29522e159768dadeadd63b23", null ],
