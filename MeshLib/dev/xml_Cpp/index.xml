@@ -16493,6 +16493,7 @@
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2ac5b6efbcca1f43b59969a46a5d29cca8" kind="enumvalue"><name>valueUint</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2af02c10344a98c7dcc797ccc308953387" kind="enumvalue"><name>valueReal</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af6cf945d0154e53dcaa106af9db16bb2abdf2e8bb433e2d884bd053d6c86ca415" kind="enumvalue"><name>valueString</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a10edf7d2ba69adfd3a34406bbf584029" kind="typedef"><name>PathedEntry</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ab1f16adb97ad78831d0adc98001d159c" kind="typedef"><name>ValueInt</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a5914bec5adb87dabb4f941019a148954" kind="typedef"><name>ValueUint</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ad456dfdc303cbbde03795fdc758349ea" kind="typedef"><name>ValueReal</name></member>
@@ -16500,6 +16501,7 @@
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af5fdf7810e48bc37be0ad0931e5afc26" kind="function"><name>toString</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a7959c4b617a6e856c2fe10e56443708d" kind="function"><name>pathToString</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ac7d2dff4d7a1de92dc5a2bfe5fab872e" kind="function"><name>listEntries</name></member>
+    <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a2ba4ebec743a12f4db819245d2d71d52" kind="function"><name>listAllEntries</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af1983bd5d3b6cb49c8856dab3970cf88" kind="function"><name>pressButton</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a5a111c148d2eb627a399fde7f449d8e3" kind="function"><name>readValue</name></member>
     <member refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1aecf4fc0a614180fc9054d35d369e126d" kind="function"><name>readValue</name></member>
@@ -16639,10 +16641,6 @@
   </compound>
   <compound refid="MRRibbonSceneButtons_8h" kind="file"><name>MRRibbonSceneButtons.h</name>
   </compound>
-  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
   <compound refid="MRBinaryOperationsPlugin_8h" kind="file"><name>MRBinaryOperationsPlugin.h</name>
   </compound>
   <compound refid="MROpenRawVoxelsPlugin_8h" kind="file"><name>MROpenRawVoxelsPlugin.h</name>
@@ -16677,6 +16675,16 @@
   </compound>
   <compound refid="MREmbeddedPython_8h" kind="file"><name>MREmbeddedPython.h</name>
   </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
+  </compound>
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
@@ -16703,17 +16711,11 @@
   </compound>
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
   </compound>
+  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
   <compound refid="MRMcp_8h" kind="file"><name>MRMcp.h</name>
-  </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>
@@ -17670,10 +17672,6 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -17699,10 +17697,6 @@
   <compound refid="MRXfBasedCache_8h" kind="file"><name>MRXfBasedCache.h</name>
   </compound>
   <compound refid="MRZip_8h" kind="file"><name>MRZip.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRPythonNumpy_8h" kind="file"><name>MRPythonNumpy.h</name>
     <member refid="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" kind="define"><name>MRMESHNUMPY_PARENT_MODULE_NAME</name></member>
@@ -17981,6 +17975,10 @@
   </compound>
   <compound refid="MRSceneCache_8h" kind="file"><name>MRSceneCache.h</name>
   </compound>
+  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
   <compound refid="MRSceneObjectsListDrawer_8h" kind="file"><name>MRSceneObjectsListDrawer.h</name>
   </compound>
   <compound refid="MRSceneOperations_8h" kind="file"><name>MRSceneOperations.h</name>
@@ -18076,6 +18074,10 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>

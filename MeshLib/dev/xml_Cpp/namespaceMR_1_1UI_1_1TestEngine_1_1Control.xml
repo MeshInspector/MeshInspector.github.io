@@ -66,6 +66,21 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a10edf7d2ba69adfd3a34406bbf584029" prot="public" static="no">
+        <type>std::pair&lt; std::vector&lt; std::string &gt;, <ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry" kindref="compound">TypedEntry</ref> &gt;</type>
+        <definition>using MR::UI::TestEngine::Control::PathedEntry =  std::pair&lt;std::vector&lt;std::string&gt;, TypedEntry&gt;</definition>
+        <argsstring></argsstring>
+        <name>PathedEntry</name>
+        <qualifiedname>MR::UI::TestEngine::Control::PathedEntry</qualifiedname>
+        <briefdescription>
+<para><computeroutput>listAllEntries</computeroutput> returns this: each element is <computeroutput>(fullPath, entry)</computeroutput> where <computeroutput>fullPath.back() == entry.name</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="64" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ab1f16adb97ad78831d0adc98001d159c" prot="public" static="no">
         <type><ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; std::int64_t &gt;</type>
         <definition>using MR::UI::TestEngine::Control::ValueInt =  Value&lt;std::int64_t&gt;</definition>
@@ -78,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="82" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="82" bodyend="-1"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="90" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a5914bec5adb87dabb4f941019a148954" prot="public" static="no">
         <type><ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; std::uint64_t &gt;</type>
@@ -92,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="83" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="83" bodyend="-1"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="91" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ad456dfdc303cbbde03795fdc758349ea" prot="public" static="no">
         <type><ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; double &gt;</type>
@@ -106,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="84" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="84" bodyend="-1"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="92" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a42e73a6648ccc701e3e2db8e6699e65a" prot="public" static="no">
         <type><ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; std::string &gt;</type>
@@ -120,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="85" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="85" bodyend="-1"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="93" column="1" bodyfile="MRViewer/MRUITestEngineControl.h" bodystart="93" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -180,6 +195,25 @@
         </inbodydescription>
         <location file="MRViewer/MRUITestEngineControl.h" line="61" column="12" declfile="MRViewer/MRUITestEngineControl.h" declline="61" declcolumn="12"/>
       </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a2ba4ebec743a12f4db819245d2d71d52" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a10edf7d2ba69adfd3a34406bbf584029" kindref="member">PathedEntry</ref> &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; PathedEntry &gt; &gt; MR::UI::TestEngine::Control::listAllEntries</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;rootPath)</argsstring>
+        <name>listAllEntries</name>
+        <qualifiedname>MR::UI::TestEngine::Control::listAllEntries</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>rootPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns every entry in the subtree rooted at <computeroutput>rootPath</computeroutput> as a flat depth-first list. Pass an empty <computeroutput>rootPath</computeroutput> to get the whole tree. Groups are included in the list (identifiable by <computeroutput>type == group</computeroutput>) and their descendants appear on subsequent rows with <computeroutput>path</computeroutput> extending theirs. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngineControl.h" line="69" column="12" declfile="MRViewer/MRUITestEngineControl.h" declline="69" declcolumn="12"/>
+      </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1af1983bd5d3b6cb49c8856dab3970cf88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>Expected&lt; void &gt; MR::UI::TestEngine::Control::pressButton</definition>
@@ -197,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="64" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="64" declcolumn="11"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="72" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="72" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a5a111c148d2eb627a399fde7f449d8e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -221,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="89" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="89" declcolumn="11"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="97" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="97" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1aecf4fc0a614180fc9054d35d369e126d" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kindref="compound">Value</ref>&lt; std::int64_t &gt; &gt;</type>
@@ -239,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="91" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="91" declcolumn="27"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="99" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="99" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a98aa8ea615046831943a857d5ede271e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -267,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="98" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="98" declcolumn="11"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="106" column="11" declfile="MRViewer/MRUITestEngineControl.h" declline="106" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1ac9f7517c70abef7744da064d09234ac7" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -289,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="100" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="100" declcolumn="27"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="108" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="108" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a3ae0319bbff320d95e0b82979c2fe2fb" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -311,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="101" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="101" declcolumn="27"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="109" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="109" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a4a281d619b459aaed29301c7de856d0f" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -333,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="102" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="102" declcolumn="27"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="110" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="110" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1_1Control_1a05ff5d106f5323584a002f5f692d2d04" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>template <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -355,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngineControl.h" line="103" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="103" declcolumn="27"/>
+        <location file="MRViewer/MRUITestEngineControl.h" line="111" column="27" declfile="MRViewer/MRUITestEngineControl.h" declline="111" declcolumn="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

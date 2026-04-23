@@ -205,16 +205,16 @@ var NAVTREEINDEX =
 "group__SerializerGroup.html#gac0f762bfae301303b158a3660b2c22c7",
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a",
 "namespaceMR_1_1ImGuiMath.html#a12ab63056037f694d9ccdffda8ddb013",
-"namespaceMR_1_1UnitSettings.html#a9274e5f81702cc490493898076559da2",
-"structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc",
-"structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc",
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#abfeb6efd5bdf621269261c95bde32f02",
-"structMR_1_1Mesh.html#a74fb2ffa3d099943f8def4c3be88c2d3",
-"structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18",
-"structMR_1_1RelaxParams.html",
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa",
-"structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614"
+"namespaceMR_1_1UnitSettings.html#a877acfc5ce5b7fba63a87fcfdf9e43d1",
+"structMR_1_1BooleanPreCutResult.html#ac3043629b51e619f82eddefaa9e678fb",
+"structMR_1_1DistanceMapToWorld.html#a92e916455b2d6b276605af3bca683742",
+"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html",
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a30668d188aa89e39c19a9360ebcb62f1",
+"structMR_1_1Mesh.html#a7173fafd19150c40259003561a02162a",
+"structMR_1_1NoVisualRepresentationCheck.html",
+"structMR_1_1ReduceTotalAngleParams.html",
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648",
+"structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

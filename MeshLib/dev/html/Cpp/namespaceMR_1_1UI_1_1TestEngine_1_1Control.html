@@ -155,6 +155,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a10edf7d2ba69adfd3a34406bbf584029" id="r_a10edf7d2ba69adfd3a34406bbf584029"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10edf7d2ba69adfd3a34406bbf584029">PathedEntry</a> = std::pair&lt;std::vector&lt;std::string&gt;, <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html">TypedEntry</a>&gt;</td></tr>
+<tr class="memdesc:a10edf7d2ba69adfd3a34406bbf584029"><td class="mdescLeft">&#160;</td><td class="mdescRight"><span class="tt">listAllEntries</span> returns this: each element is <span class="tt">(fullPath, entry)</span> where <span class="tt">fullPath.back() == entry.name</span>.  <br /></td></tr>
 <tr class="memitem:ab1f16adb97ad78831d0adc98001d159c" id="r_ab1f16adb97ad78831d0adc98001d159c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1f16adb97ad78831d0adc98001d159c">ValueInt</a> = <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html">Value</a>&lt;std::int64_t&gt;</td></tr>
 <tr class="memitem:a5914bec5adb87dabb4f941019a148954" id="r_a5914bec5adb87dabb4f941019a148954"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5914bec5adb87dabb4f941019a148954">ValueUint</a> = <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html">Value</a>&lt;std::uint64_t&gt;</td></tr>
 <tr class="memitem:ad456dfdc303cbbde03795fdc758349ea" id="r_ad456dfdc303cbbde03795fdc758349ea"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad456dfdc303cbbde03795fdc758349ea">ValueReal</a> = <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html">Value</a>&lt;double&gt;</td></tr>
@@ -180,6 +182,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7959c4b617a6e856c2fe10e56443708d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the elements of <span class="tt">path</span> combined into a single string.  <br /></td></tr>
 <tr class="memitem:ac7d2dff4d7a1de92dc5a2bfe5fab872e" id="r_ac7d2dff4d7a1de92dc5a2bfe5fab872e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html">TypedEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d2dff4d7a1de92dc5a2bfe5fab872e">listEntries</a> (const std::vector&lt; std::string &gt; &amp;path)</td></tr>
 <tr class="memdesc:ac7d2dff4d7a1de92dc5a2bfe5fab872e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the contents of <span class="tt">path</span>, or an error if the path is wrong.  <br /></td></tr>
+<tr class="memitem:a2ba4ebec743a12f4db819245d2d71d52" id="r_a2ba4ebec743a12f4db819245d2d71d52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="#a10edf7d2ba69adfd3a34406bbf584029">PathedEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ba4ebec743a12f4db819245d2d71d52">listAllEntries</a> (const std::vector&lt; std::string &gt; &amp;rootPath)</td></tr>
 <tr class="memitem:af1983bd5d3b6cb49c8856dab3970cf88" id="r_af1983bd5d3b6cb49c8856dab3970cf88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1983bd5d3b6cb49c8856dab3970cf88">pressButton</a> (const std::vector&lt; std::string &gt; &amp;path)</td></tr>
 <tr class="memdesc:af1983bd5d3b6cb49c8856dab3970cf88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Presses the button at this path, or returns an error.  <br /></td></tr>
 <tr class="memitem:a5a111c148d2eb627a399fde7f449d8e3" id="r_a5a111c148d2eb627a399fde7f449d8e3"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -195,6 +198,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a05ff5d106f5323584a002f5f692d2d04" id="r_a05ff5d106f5323584a002f5f692d2d04"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ff5d106f5323584a002f5f692d2d04">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, std::string value)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a10edf7d2ba69adfd3a34406bbf584029" name="a10edf7d2ba69adfd3a34406bbf584029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10edf7d2ba69adfd3a34406bbf584029">&#9670;&#160;</a></span>PathedEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a10edf7d2ba69adfd3a34406bbf584029">MR::UI::TestEngine::Control::PathedEntry</a> = std::pair&lt;std::vector&lt;std::string&gt;, <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html">TypedEntry</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><span class="tt">listAllEntries</span> returns this: each element is <span class="tt">(fullPath, entry)</span> where <span class="tt">fullPath.back() == entry.name</span>. </p>
+
+</div>
+</div>
 <a id="ab1f16adb97ad78831d0adc98001d159c" name="ab1f16adb97ad78831d0adc98001d159c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1f16adb97ad78831d0adc98001d159c">&#9670;&#160;</a></span>ValueInt</h2>
 
@@ -287,6 +306,32 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a2ba4ebec743a12f4db819245d2d71d52" name="a2ba4ebec743a12f4db819245d2d71d52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ba4ebec743a12f4db819245d2d71d52">&#9670;&#160;</a></span>listAllEntries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="#a10edf7d2ba69adfd3a34406bbf584029">PathedEntry</a> &gt; &gt; MR::UI::TestEngine::Control::listAllEntries </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>rootPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns every entry in the subtree rooted at <span class="tt">rootPath</span> as a flat depth-first list. Pass an empty <span class="tt">rootPath</span> to get the whole tree. Groups are included in the list (identifiable by <span class="tt">type == group</span>) and their descendants appear on subsequent rows with <span class="tt">path</span> extending theirs. </p>
+
+</div>
+</div>
 <a id="ac7d2dff4d7a1de92dc5a2bfe5fab872e" name="ac7d2dff4d7a1de92dc5a2bfe5fab872e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7d2dff4d7a1de92dc5a2bfe5fab872e">&#9670;&#160;</a></span>listEntries()</h2>
 
