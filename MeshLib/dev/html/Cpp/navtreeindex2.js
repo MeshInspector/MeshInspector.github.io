@@ -214,6 +214,8 @@ var NAVTREEINDEX2 =
 "MRMatrix4_8h_source.html":[6,0,3,0,6,188],
 "MRMatrix_8h.html":[6,0,3,0,6,184],
 "MRMatrix_8h_source.html":[6,0,3,0,6,184],
+"MRMcpCommon_8h.html":[6,0,3,0,10,50],
+"MRMcpCommon_8h_source.html":[6,0,3,0,10,50],
 "MRMcp_8h.html":[6,0,3,0,5,0],
 "MRMcp_8h_source.html":[6,0,3,0,5,0],
 "MRMeasurementObject_8h.html":[6,0,3,0,6,189],
@@ -224,8 +226,8 @@ var NAVTREEINDEX2 =
 "MRMeshBooleanFacade_8h_source.html":[6,0,3,0,6,193],
 "MRMeshBoolean_8h.html":[6,0,3,0,6,192],
 "MRMeshBoolean_8h_source.html":[6,0,3,0,6,192],
-"MRMeshBoundarySelectionWidget_8h.html":[6,0,3,0,10,50],
-"MRMeshBoundarySelectionWidget_8h_source.html":[6,0,3,0,10,50],
+"MRMeshBoundarySelectionWidget_8h.html":[6,0,3,0,10,51],
+"MRMeshBoundarySelectionWidget_8h_source.html":[6,0,3,0,10,51],
 "MRMeshBoundary_8h.html":[6,0,3,0,6,194],
 "MRMeshBoundary_8h_source.html":[6,0,3,0,6,194],
 "MRMeshBuilderTypes_8h.html":[6,0,3,0,6,196],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "MRMeshDelone_8h.html":[6,0,3,0,6,203],
 "MRMeshDelone_8h_source.html":[6,0,3,0,6,203],
 "MRMeshDiff_8h.html":[6,0,3,0,6,204],
-"MRMeshDiff_8h_source.html":[6,0,3,0,6,204],
-"MRMeshDirMax_8h.html":[6,0,3,0,6,205],
-"MRMeshDirMax_8h_source.html":[6,0,3,0,6,205]
+"MRMeshDiff_8h_source.html":[6,0,3,0,6,204]
 };

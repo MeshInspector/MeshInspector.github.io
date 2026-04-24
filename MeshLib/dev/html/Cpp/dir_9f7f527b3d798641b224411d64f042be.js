@@ -50,6 +50,7 @@ var dir_9f7f527b3d798641b224411d64f042be =
     [ "MRMacOSOpenDocumentsHandler.h", "MRMacOSOpenDocumentsHandler_8h.html", null ],
     [ "MRMakeSlot.h", "MRMakeSlot_8h.html", "MRMakeSlot_8h" ],
     [ "MRMarkedVoxelSlice.h", "MRMarkedVoxelSlice_8h.html", null ],
+    [ "MRMcpCommon.h", "MRMcpCommon_8h.html", "MRMcpCommon_8h" ],
     [ "MRMeshBoundarySelectionWidget.h", "MRMeshBoundarySelectionWidget_8h.html", null ],
     [ "MRMeshModifier.h", "MRMeshModifier_8h.html", null ],
     [ "MRMeshShader.h", "MRMeshShader_8h.html", "MRMeshShader_8h" ],

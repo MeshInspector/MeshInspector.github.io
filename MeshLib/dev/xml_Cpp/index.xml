@@ -16040,6 +16040,8 @@
   </compound>
   <compound refid="namespaceMR_1_1Mcp" kind="namespace"><name>MR::Mcp</name>
     <member refid="namespaceMR_1_1Mcp_1a255c34dcc4e67f496bea3c6daef7bdba" kind="function"><name>getDefaultServer</name></member>
+    <member refid="group__GeneralGroup_1ga0c165bcc8653a7af45f1680f2ed83811" kind="function"><name>idOf</name></member>
+    <member refid="group__GeneralGroup_1ga0280b00dcc1ca26b3e93e6321da0598a" kind="function"><name>resolveId</name></member>
   </compound>
   <compound refid="namespaceMR_1_1Mcp_1_1Schema" kind="namespace"><name>MR::Mcp::Schema</name>
   </compound>
@@ -17861,6 +17863,8 @@
     <member refid="MRMakeSlot_8h_1a4e10ab3e9579ce8ffbd2209497603cbc" kind="function"><name>bindSlotCallback</name></member>
   </compound>
   <compound refid="MRMarkedVoxelSlice_8h" kind="file"><name>MRMarkedVoxelSlice.h</name>
+  </compound>
+  <compound refid="MRMcpCommon_8h" kind="file"><name>MRMcpCommon.h</name>
   </compound>
   <compound refid="MRMeshBoundarySelectionWidget_8h" kind="file"><name>MRMeshBoundarySelectionWidget.h</name>
   </compound>
@@ -28477,6 +28481,8 @@
     <member refid="group__GeneralGroup_1gaa967f828058afd78b02970f57f9f96f2" kind="function"><name>getParameters</name></member>
     <member refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" kind="function"><name>setParameters</name></member>
     <member refid="group__GeneralGroup_1gab8bf2135df35477f4d27ebc4c38d9a84" kind="function"><name>forceUpdate</name></member>
+    <member refid="group__GeneralGroup_1ga0c165bcc8653a7af45f1680f2ed83811" kind="function"><name>idOf</name></member>
+    <member refid="group__GeneralGroup_1ga0280b00dcc1ca26b3e93e6321da0598a" kind="function"><name>resolveId</name></member>
     <member refid="group__GeneralGroup_1ga6c88b0b006c6613528d35abd588f7ed1" kind="function"><name>enable</name></member>
     <member refid="group__GeneralGroup_1ga2b69320649d369bcb7e4b75cc751f2e1" kind="function"><name>create</name></member>
     <member refid="group__GeneralGroup_1gafbc86f5613c3dd468b07182608a9aee9" kind="function"><name>onObjectChange_</name></member>
