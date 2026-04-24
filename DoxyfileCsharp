@@ -2,6 +2,7 @@
 
 PROJECT_NAME           = "MeshLib C# Docs"
 LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutCsharp.xml
+INLINE_INHERITED_MEMB  = YES
 INPUT                  = ../MeshLib/CsharpBindings/ \
                          ../MeshLib/doxygen/APICsharpPage.dox
 EXCLUDE                = ../MeshLib/CsharpBindings/MRCMisc \
