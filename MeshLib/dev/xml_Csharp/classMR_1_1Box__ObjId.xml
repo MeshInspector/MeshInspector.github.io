@@ -232,6 +232,90 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4509" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4509" bodyend="4514"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1ad05e651f0bf265dfa111c2848eadaaf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ConstBox_ObjId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_ObjId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4189" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4189" bodyend="4189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1a84e9b783465a042b4181c68499869c1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_ObjId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.ConstBox_ObjId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1ObjId_1a2cab6507d02d3cbd8efc80d2bf6af694" kindref="member">MR.ObjId.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4296" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4296" bodyend="4301"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1aef550fe53fff9b1ea69b901f6d5efcde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_ObjId.less</definition>
+        <argsstring>(MR.ObjId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.ConstBox_ObjId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjId::operator&amp;lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4321" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4321" bodyend="4326"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1ae532036319078ebff3ad52ffc4e3df58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ConstBox_ObjId.Equals</definition>
+        <argsstring>(MR.ObjId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_ObjId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4354" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4354" bodyend="4357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1aa93b0aba93d7dd1eb44f431cc586cf0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ConstBox_ObjId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_ObjId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4359" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4359" bodyend="4366"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Box__ObjId_1a3a63cf88aad605c2efa602eea2880996" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -255,6 +339,168 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4391" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4391" bodyend="4391"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1ae477bda7f2e2023c38950efcf35c5569" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ConstBox_ObjId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_ObjId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4182" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4182" bodyend="4188"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1afb8661dba8546d1738462e1ad8af981b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ConstBox_ObjId.operator ConstBox_ObjId</definition>
+        <argsstring>(ObjId other)</argsstring>
+        <name>operator ConstBox_ObjId</name>
+        <qualifiedname>MR.ConstBox_ObjId.operator ConstBox_ObjId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__ObjId" kindref="compound">ConstBox_ObjId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__ObjId" kindref="compound">Box_ObjId</ref></computeroutput> intentionally doesn't. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4201" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4201" bodyend="4201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1a3f15fe3064d054207b832dcd0861cced" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ConstBox_ObjId.operator int</definition>
+        <argsstring>(MR.ConstBox_ObjId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.ConstBox_ObjId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ObjId" kindref="compound">MR.ConstBox_ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::ObjId::operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4276" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4276" bodyend="4281"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1a9ddf41b93d6c3952db496ed5d7697555" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ConstBox_ObjId.operator bool</definition>
+        <argsstring>(MR.ConstBox_ObjId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.ConstBox_ObjId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ObjId" kindref="compound">MR.ConstBox_ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::ObjId::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4286" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4286" bodyend="4291"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1a8e2359b305b5d566a8dafb9f5d1fcb9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_ObjId.operator==</definition>
+        <argsstring>(MR.ConstBox_ObjId _this, MR.ObjId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ConstBox_ObjId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ObjId" kindref="compound">MR.ConstBox_ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjId::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4306" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4306" bodyend="4311"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1af885639b2d0c67d944ceef9c3cc63221" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_ObjId.operator!=</definition>
+        <argsstring>(MR.ConstBox_ObjId _this, MR.ObjId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ConstBox_ObjId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ObjId" kindref="compound">MR.ConstBox_ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4313" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4313" bodyend="4316"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1afd1c6b1879b918a6315f2bacaf0f0e7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__ObjId" kindref="compound">Box_ObjId</ref></type>
+        <definition>static unsafe Box_ObjId MR.ConstBox_ObjId.operator--</definition>
+        <argsstring>(MR.ConstBox_ObjId _this)</argsstring>
+        <name>operator--</name>
+        <qualifiedname>MR.ConstBox_ObjId.operator--</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ObjId" kindref="compound">MR.ConstBox_ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjId::operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4331" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4331" bodyend="4338"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__ObjId_1a7f5d63fafe8e7d287ddf59ba0ac2c4c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__ObjId" kindref="compound">Box_ObjId</ref></type>
+        <definition>static unsafe Box_ObjId MR.ConstBox_ObjId.operator++</definition>
+        <argsstring>(MR.ConstBox_ObjId _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.ConstBox_ObjId.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ObjId" kindref="compound">MR.ConstBox_ObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjId::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4343" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4343" bodyend="4350"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

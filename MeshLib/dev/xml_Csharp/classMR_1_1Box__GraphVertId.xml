@@ -232,6 +232,90 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5857" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5857" bodyend="5862"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1a8ea342160c81d171a0b820006f33f9f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ConstBox_GraphVertId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5537" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5537" bodyend="5537"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1af60428b746fa365bd63997d126c3a9cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_GraphVertId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1GraphVertId_1a3c77d30671603ed78a5492fd91b856fb" kindref="member">MR.GraphVertId.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5644" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5644" bodyend="5649"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1abe4cd7e2e602a9d7a19e94cc3cf227d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_GraphVertId.less</definition>
+        <argsstring>(MR.GraphVertId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphVertId::operator&amp;lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5669" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5669" bodyend="5674"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1abfc2901043c2726f4ec4b8aebb042c4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ConstBox_GraphVertId.Equals</definition>
+        <argsstring>(MR.GraphVertId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5702" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5702" bodyend="5705"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1ac9624f1f479bad6e7bc3428f01f509e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ConstBox_GraphVertId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5707" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5707" bodyend="5714"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Box__GraphVertId_1a2a38ae1da4e248d2d456b9b094fb88d7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -255,6 +339,168 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5739" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5739" bodyend="5739"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1a8851dba988f9f28f7863faf964d3d33b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ConstBox_GraphVertId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5530" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5530" bodyend="5536"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1acac7d039b8dd40b4254d34b016cf37fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ConstBox_GraphVertId.operator ConstBox_GraphVertId</definition>
+        <argsstring>(GraphVertId other)</argsstring>
+        <name>operator ConstBox_GraphVertId</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.operator ConstBox_GraphVertId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">ConstBox_GraphVertId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__GraphVertId" kindref="compound">Box_GraphVertId</ref></computeroutput> intentionally doesn't. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5549" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5549" bodyend="5549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1a3960df1e13295cabdc148a5a4b254ef5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ConstBox_GraphVertId.operator int</definition>
+        <argsstring>(MR.ConstBox_GraphVertId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">MR.ConstBox_GraphVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::GraphVertId::operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5624" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5624" bodyend="5629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1ac738cdf3bc3d1671cc35cc9d682d750e" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ConstBox_GraphVertId.operator bool</definition>
+        <argsstring>(MR.ConstBox_GraphVertId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">MR.ConstBox_GraphVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::GraphVertId::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5634" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5634" bodyend="5639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1aafe6fab9899e301351928583fb62f5cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_GraphVertId.operator==</definition>
+        <argsstring>(MR.ConstBox_GraphVertId _this, MR.GraphVertId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">MR.ConstBox_GraphVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphVertId::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5654" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5654" bodyend="5659"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1afc959ea62bc76b3f9d6cbede96c9e232" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_GraphVertId.operator!=</definition>
+        <argsstring>(MR.ConstBox_GraphVertId _this, MR.GraphVertId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">MR.ConstBox_GraphVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5661" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5661" bodyend="5664"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1aadcdcdf2a0f9bcee38e651d77d81a362" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__GraphVertId" kindref="compound">Box_GraphVertId</ref></type>
+        <definition>static unsafe Box_GraphVertId MR.ConstBox_GraphVertId.operator--</definition>
+        <argsstring>(MR.ConstBox_GraphVertId _this)</argsstring>
+        <name>operator--</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.operator--</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">MR.ConstBox_GraphVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphVertId::operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5679" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5679" bodyend="5686"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__GraphVertId_1aa7e4944395cd01b147b403d86e104156" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__GraphVertId" kindref="compound">Box_GraphVertId</ref></type>
+        <definition>static unsafe Box_GraphVertId MR.ConstBox_GraphVertId.operator++</definition>
+        <argsstring>(MR.ConstBox_GraphVertId _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.ConstBox_GraphVertId.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__GraphVertId" kindref="compound">MR.ConstBox_GraphVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphVertId::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="5691" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="5691" bodyend="5698"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

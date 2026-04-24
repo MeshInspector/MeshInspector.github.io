@@ -75,6 +75,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="1095" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="1096" bodyend="1103"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1ConstBox__Vector4i_1a0b0d8dd9886396de33b50a12a0fb035a" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.ConstBox_Vector4i.Elements</definition>
+        <argsstring></argsstring>
+        <name>Elements</name>
+        <qualifiedname>MR.ConstBox_Vector4i.Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="797" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="797" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1Box__Vector4i_1a0c4238a84d72fe5838b2bbaed7822323" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -275,6 +289,86 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="1144" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="1144" bodyend="1149"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a815d4363ecaab826caeab459d538215e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ConstBox_Vector4i.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_Vector4i.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="786" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="786" bodyend="786"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a0d988625e015c4bffff00a79814f3df3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.ConstBox_Vector4i.lengthSq</definition>
+        <argsstring>()</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>MR.ConstBox_Vector4i.lengthSq</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector4i_1a356c2443763d68590dd3548325190971" kindref="member">MR.Vector4i.lengthSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="889" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="889" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a120694472f927e41b56093dea7e4230a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.ConstBox_Vector4i.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <qualifiedname>MR.ConstBox_Vector4i.length</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector4i_1a82590977f54952c15c0b37266954a436" kindref="member">MR.Vector4i.length</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="899" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="899" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1afdc7ff326ac94fb0d84042d16c5592d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ConstBox_Vector4i.Equals</definition>
+        <argsstring>(MR.ConstBox_Vector4i? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_Vector4i.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="1000" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="1000" bodyend="1005"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1adde1fa04c00c052a2c080bf8bfa21a42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ConstBox_Vector4i.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_Vector4i.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="1007" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="1007" bodyend="1014"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Box__Vector4i_1a3f4207d74fee35356d0dd0fde2ac7654" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -298,6 +392,280 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="1042" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="1042" bodyend="1042"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1ConstBox__Vector4i_1ac1fa383cf3ec4cab967f7fbdcc317f47" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.ConstBox_Vector4i.__ref_storage_Elements</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Elements</name>
+        <qualifiedname>MR.ConstBox_Vector4i.__ref_storage_Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="798" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="798" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a66e09f021358fb22083eb643ea8b7dc0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ConstBox_Vector4i.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_Vector4i.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="779" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="779" bodyend="785"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a5dd0846e01bf98079411e2858586b824" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ConstBox_Vector4i.operator ConstBox_Vector4i</definition>
+        <argsstring>(Vector4i other)</argsstring>
+        <name>operator ConstBox_Vector4i</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator ConstBox_Vector4i</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">ConstBox_Vector4i</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Vector4i" kindref="compound">Box_Vector4i</ref></computeroutput> intentionally doesn't. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="816" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="816" bodyend="816"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1ab9c01d073bf229a9a9ab7dd4f09c28e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static MR.Vector4i MR.ConstBox_Vector4i.diagonal</definition>
+        <argsstring>(int a)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR.ConstBox_Vector4i.diagonal</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Vector4i_1a2753f00c7e46ac3434265ed26423d3b5" kindref="member">MR.Vector4i.diagonal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="866" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="866" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a838adce10fd47c46f1c8587f4d1f4571" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_Vector4i.operator==</definition>
+        <argsstring>(MR.ConstBox_Vector4i a, MR.ConstBox_Vector4i b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="909" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="909" bodyend="914"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1ac5180a448a27011fe97334571148fc6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_Vector4i.operator!=</definition>
+        <argsstring>(MR.ConstBox_Vector4i a, MR.ConstBox_Vector4i b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="916" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="916" bodyend="919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a486d9540d06abc9dd28d226a7c783a77" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Misc.ConstRef&lt; <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref> &gt;</type>
+        <definition>static unsafe MR.Misc.ConstRef&lt; MR.Vector4i &gt; MR.ConstBox_Vector4i.operator+</definition>
+        <argsstring>(MR.ConstBox_Vector4i a)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="925" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="925" bodyend="930"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a4e1259d74922f5c9f70cd88bd95a8486" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.ConstBox_Vector4i.operator+</definition>
+        <argsstring>(MR.ConstBox_Vector4i a, in MR.Vector4i b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="945" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="945" bodyend="953"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a73b614289c42f50fa5460f867ea6e591" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.ConstBox_Vector4i.operator-</definition>
+        <argsstring>(MR.ConstBox_Vector4i a)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="935" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="935" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a3388c7fd4fb7afe6b0bdc49fc3268177" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.ConstBox_Vector4i.operator-</definition>
+        <argsstring>(MR.ConstBox_Vector4i a, in MR.Vector4i b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="958" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="958" bodyend="966"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1a0c0800d278f82301f55723c2c7242e64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.ConstBox_Vector4i.operator*</definition>
+        <argsstring>(int a, MR.ConstBox_Vector4i b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator*</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="971" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="971" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1aa0e611910ec86a5c0c0c037569cc55ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.ConstBox_Vector4i.operator*</definition>
+        <argsstring>(MR.ConstBox_Vector4i b, int a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">MR.ConstBox_Vector4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="981" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="981" bodyend="986"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector4i_1ad3daf3cee8d2527e5f9ec7b5ad0e4dfd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.ConstBox_Vector4i.operator/</definition>
+        <argsstring>(ConstBox_Vector4i b, int a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR.ConstBox_Vector4i.operator/</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector4i" kindref="compound">ConstBox_Vector4i</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator/</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="991" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="991" bodyend="996"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

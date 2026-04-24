@@ -356,6 +356,203 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="591" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="591" bodyend="596"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1ab55d157f5055d333256d32a95cda4bc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ConstBox_Matrix4b.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a9a9cb05686e7082c2dc96c26e8765c39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4b" kindref="compound">MR.Vector4b</ref></type>
+        <definition>unsafe MR.Vector4b MR.ConstBox_Matrix4b.col</definition>
+        <argsstring>(int i)</argsstring>
+        <name>col</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.col</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>column access Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1a2422fa9367bfebfef85219d41792cfc1" kindref="member">MR.Matrix4b.col</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="173" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="173" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a5cb99e0ed8af5a34001c1a139d224aa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_Matrix4b.trace</definition>
+        <argsstring>()</argsstring>
+        <name>trace</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.trace</qualifiedname>
+        <briefdescription>
+<para>computes trace of the matrix Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1a752c318991ae012b2cf44592d1975af8" kindref="member">MR.Matrix4b.trace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="184" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a4a43c5bd783856b88ce277bad7ef850e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_Matrix4b.normSq</definition>
+        <argsstring>()</argsstring>
+        <name>normSq</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.normSq</qualifiedname>
+        <briefdescription>
+<para>compute sum of squared matrix elements Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1a195463d052d36abcd12641e8b92d5d48" kindref="member">MR.Matrix4b.normSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="195" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="195" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a82f114bf0b1ca5ee624dd7f0ff5061e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.ConstBox_Matrix4b.norm</definition>
+        <argsstring>()</argsstring>
+        <name>norm</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.norm</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1aee5cd2b2003296dced67717bfe92365e" kindref="member">MR.Matrix4b.norm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="205" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="205" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a06ecc8a04a259889a27021904a6a521f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3b" kindref="compound">MR.Matrix3b</ref></type>
+        <definition>unsafe MR.Matrix3b MR.ConstBox_Matrix4b.submatrix3</definition>
+        <argsstring>(int i, int j)</argsstring>
+        <name>submatrix3</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.submatrix3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>computes submatrix of the matrix with excluded i-th row and j-th column Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1a1c124d3b93a6366ff257eb3ed755f790" kindref="member">MR.Matrix4b.submatrix3</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="216" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="216" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1ae1b277c8556a95e11a0b0996c5b01a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_Matrix4b.det</definition>
+        <argsstring>()</argsstring>
+        <name>det</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.det</qualifiedname>
+        <briefdescription>
+<para>computes determinant of the matrix Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1ad8ee7ced8135b9f8feccb9b8dd98bb32" kindref="member">MR.Matrix4b.det</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="227" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="227" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1addf5e1edd590bd57b14f908b8095f388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4b" kindref="compound">MR.Matrix4b</ref></type>
+        <definition>unsafe MR.Matrix4b MR.ConstBox_Matrix4b.transposed</definition>
+        <argsstring>()</argsstring>
+        <name>transposed</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.transposed</qualifiedname>
+        <briefdescription>
+<para>computes transposed matrix Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1a243332eb0a310c84219cd9cb4c73b7fd" kindref="member">MR.Matrix4b.transposed</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="238" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="238" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a45cba73853482c3cfb5b97da7bccfa86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3b" kindref="compound">MR.Matrix3b</ref></type>
+        <definition>unsafe MR.Matrix3b MR.ConstBox_Matrix4b.getRotation</definition>
+        <argsstring>()</argsstring>
+        <name>getRotation</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.getRotation</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1afb8ee897b3708b5411017c16bc7f9258" kindref="member">MR.Matrix4b.getRotation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="248" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="248" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1ac97b3fa9158df2350729040b424827eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>unsafe MR.Vector3b MR.ConstBox_Matrix4b.getTranslation</definition>
+        <argsstring>()</argsstring>
+        <name>getTranslation</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.getTranslation</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1a88a7b85781bf60a09f4e8dbe9fdf3f07" kindref="member">MR.Matrix4b.getTranslation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="258" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="258" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a94943c7b7ae6cb045e1d4346cd6b9aa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ConstBox_Matrix4b.Equals</definition>
+        <argsstring>(MR.ConstBox_Matrix4b? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="378" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="378" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a72d0e07527e1a5a9a7aab0a3878262b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ConstBox_Matrix4b.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="385" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="385" bodyend="392"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Box__Matrix4b_1a0b82bde67921b1cc53c53bab9c2dd0c5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -379,6 +576,302 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="423" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="423" bodyend="423"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a7d21a143e14421b6dbce6fc36daac969" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ConstBox_Matrix4b.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="19" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="19" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a8f38baf03296f47026461875e125ca29" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ConstBox_Matrix4b.operator ConstBox_Matrix4b</definition>
+        <argsstring>(Matrix4b other)</argsstring>
+        <name>operator ConstBox_Matrix4b</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator ConstBox_Matrix4b</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4b" kindref="compound">Matrix4b</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">ConstBox_Matrix4b</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__Matrix4b" kindref="compound">Box_Matrix4b</ref></computeroutput> intentionally doesn't. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="47" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a96cc65f8f0e68c689639565a7cc02138" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4b" kindref="compound">MR.Matrix4b</ref></type>
+        <definition>static MR.Matrix4b MR.ConstBox_Matrix4b.zero</definition>
+        <argsstring>()</argsstring>
+        <name>zero</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.zero</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1aaafb76acd186eedae54775c73787f05a" kindref="member">MR.Matrix4b.zero</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="116" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="116" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a362fdd0447eeb0b833248dec9ec9787e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4b" kindref="compound">MR.Matrix4b</ref></type>
+        <definition>static MR.Matrix4b MR.ConstBox_Matrix4b.identity</definition>
+        <argsstring>()</argsstring>
+        <name>identity</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.identity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1add5f77265eb6e248cbc8643a894cf2ed" kindref="member">MR.Matrix4b.identity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="126" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1ae0dc01757184a4cfc923a8454cb2a5d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix4b" kindref="compound">MR.Matrix4b</ref></type>
+        <definition>static MR.Matrix4b MR.ConstBox_Matrix4b.scale</definition>
+        <argsstring>(bool s)</argsstring>
+        <name>scale</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.scale</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>returns a matrix that scales uniformly Generated from method <computeroutput><ref refid="structMR_1_1Matrix4b_1a75eb447f5c74645401861be439f70e52" kindref="member">MR.Matrix4b.scale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="137" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="137" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a987e9720074dceb4dac427d1b5eb54b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_Matrix4b.operator==</definition>
+        <argsstring>(MR.ConstBox_Matrix4b a, MR.ConstBox_Matrix4b b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="279" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="279" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a4306588e1f1d9cd306f9d8c49f6d198f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_Matrix4b.operator!=</definition>
+        <argsstring>(MR.ConstBox_Matrix4b a, MR.ConstBox_Matrix4b b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="286" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="286" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a0c2fbbe851f02caf1e8ad360deffbcea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4i" kindref="compound">MR.Matrix4i</ref></type>
+        <definition>static unsafe MR.Matrix4i MR.ConstBox_Matrix4b.operator+</definition>
+        <argsstring>(MR.ConstBox_Matrix4b a, in MR.Matrix4b b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix4b" kindref="compound">MR.Matrix4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="295" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="295" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1aba49f85ac9e34a8239bf430ea09b8ea8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4i" kindref="compound">MR.Matrix4i</ref></type>
+        <definition>static unsafe MR.Matrix4i MR.ConstBox_Matrix4b.operator-</definition>
+        <argsstring>(MR.ConstBox_Matrix4b a, in MR.Matrix4b b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix4b" kindref="compound">MR.Matrix4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="308" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="308" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a1d4e2d82c49455a41c8b0dcb061f530f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4i" kindref="compound">MR.Matrix4i</ref></type>
+        <definition>static unsafe MR.Matrix4i MR.ConstBox_Matrix4b.operator*</definition>
+        <argsstring>(bool a, MR.ConstBox_Matrix4b b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator*</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="321" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="321" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a80a7ef0d70fd573bd3e9e770d0023e7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4i" kindref="compound">MR.Matrix4i</ref></type>
+        <definition>static unsafe MR.Matrix4i MR.ConstBox_Matrix4b.operator*</definition>
+        <argsstring>(MR.ConstBox_Matrix4b b, bool a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="331" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="331" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a21bf86d18075d9ccc8532f565c3ca440" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.ConstBox_Matrix4b.operator*</definition>
+        <argsstring>(MR.ConstBox_Matrix4b a, in MR.Vector4b b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4b" kindref="compound">MR.Vector4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>x = a * b Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="352" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="352" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a7cf9efe1c1d58817c1d902ad724cddbe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4i" kindref="compound">MR.Matrix4i</ref></type>
+        <definition>static unsafe MR.Matrix4i MR.ConstBox_Matrix4b.operator*</definition>
+        <argsstring>(MR.ConstBox_Matrix4b a, in MR.Matrix4b b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">MR.ConstBox_Matrix4b</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix4b" kindref="compound">MR.Matrix4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>product of two matrices Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="366" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="366" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Matrix4b_1a8b892d21fbc27e833f9e32f0dfc0213d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix4i" kindref="compound">MR.Matrix4i</ref></type>
+        <definition>static unsafe MR.Matrix4i MR.ConstBox_Matrix4b.operator/</definition>
+        <argsstring>(ConstBox_Matrix4b b, bool a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR.ConstBox_Matrix4b.operator/</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4b" kindref="compound">ConstBox_Matrix4b</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator/</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="341" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="341" bodyend="346"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
