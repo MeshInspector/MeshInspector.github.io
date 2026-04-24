@@ -183,19 +183,17 @@ Functions</h2></td></tr>
 <tr class="memitem:ac7d2dff4d7a1de92dc5a2bfe5fab872e" id="r_ac7d2dff4d7a1de92dc5a2bfe5fab872e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html">TypedEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d2dff4d7a1de92dc5a2bfe5fab872e">listEntries</a> (const std::vector&lt; std::string &gt; &amp;path)</td></tr>
 <tr class="memdesc:ac7d2dff4d7a1de92dc5a2bfe5fab872e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the contents of <span class="tt">path</span>, or an error if the path is wrong.  <br /></td></tr>
 <tr class="memitem:a2ba4ebec743a12f4db819245d2d71d52" id="r_a2ba4ebec743a12f4db819245d2d71d52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="#a10edf7d2ba69adfd3a34406bbf584029">PathedEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ba4ebec743a12f4db819245d2d71d52">listAllEntries</a> (const std::vector&lt; std::string &gt; &amp;rootPath)</td></tr>
-<tr class="memitem:af1983bd5d3b6cb49c8856dab3970cf88" id="r_af1983bd5d3b6cb49c8856dab3970cf88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1983bd5d3b6cb49c8856dab3970cf88">pressButton</a> (const std::vector&lt; std::string &gt; &amp;path)</td></tr>
-<tr class="memdesc:af1983bd5d3b6cb49c8856dab3970cf88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Presses the button at this path, or returns an error.  <br /></td></tr>
+<tr class="memitem:ac10d775037d2669e21260d951a817c7a" id="r_ac10d775037d2669e21260d951a817c7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac10d775037d2669e21260d951a817c7a">pressButton</a> (const std::vector&lt; std::string &gt; &amp;path)</td></tr>
 <tr class="memitem:a5a111c148d2eb627a399fde7f449d8e3" id="r_a5a111c148d2eb627a399fde7f449d8e3"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a5a111c148d2eb627a399fde7f449d8e3 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html">Value</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a111c148d2eb627a399fde7f449d8e3">readValue</a> (const std::vector&lt; std::string &gt; &amp;path)</td></tr>
 <tr class="memdesc:a5a111c148d2eb627a399fde7f449d8e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value at the <span class="tt">path</span>, or returns an error if the path or type is wrong.  <br /></td></tr>
 <tr class="memitem:aecf4fc0a614180fc9054d35d369e126d" id="r_aecf4fc0a614180fc9054d35d369e126d"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html">Value</a>&lt; std::int64_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecf4fc0a614180fc9054d35d369e126d">readValue</a> (const std::vector&lt; std::string &gt; &amp;path)</td></tr>
-<tr class="memitem:a98aa8ea615046831943a857d5ede271e" id="r_a98aa8ea615046831943a857d5ede271e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a98aa8ea615046831943a857d5ede271e template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98aa8ea615046831943a857d5ede271e">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, T value)</td></tr>
-<tr class="memdesc:a98aa8ea615046831943a857d5ede271e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the value at the <span class="tt">path</span>, or returns an error if the path, type or value are wrong.  <br /></td></tr>
-<tr class="memitem:ac9f7517c70abef7744da064d09234ac7" id="r_ac9f7517c70abef7744da064d09234ac7"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9f7517c70abef7744da064d09234ac7">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, std::int64_t value)</td></tr>
-<tr class="memitem:a3ae0319bbff320d95e0b82979c2fe2fb" id="r_a3ae0319bbff320d95e0b82979c2fe2fb"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ae0319bbff320d95e0b82979c2fe2fb">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, std::uint64_t value)</td></tr>
-<tr class="memitem:a4a281d619b459aaed29301c7de856d0f" id="r_a4a281d619b459aaed29301c7de856d0f"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a281d619b459aaed29301c7de856d0f">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, double value)</td></tr>
-<tr class="memitem:a05ff5d106f5323584a002f5f692d2d04" id="r_a05ff5d106f5323584a002f5f692d2d04"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ff5d106f5323584a002f5f692d2d04">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, std::string value)</td></tr>
+<tr class="memitem:a4314b1043a6c1e2739af7d7a87d8361a" id="r_a4314b1043a6c1e2739af7d7a87d8361a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a4314b1043a6c1e2739af7d7a87d8361a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4314b1043a6c1e2739af7d7a87d8361a">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, T value)</td></tr>
+<tr class="memitem:a5d90d8baaeb89a3831d5e6483c7a6547" id="r_a5d90d8baaeb89a3831d5e6483c7a6547"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d90d8baaeb89a3831d5e6483c7a6547">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, std::int64_t value)</td></tr>
+<tr class="memitem:a4b367788d6cb4a3129b97919aee495ee" id="r_a4b367788d6cb4a3129b97919aee495ee"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b367788d6cb4a3129b97919aee495ee">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, std::uint64_t value)</td></tr>
+<tr class="memitem:a032c36d39c02da118d9f5a1a65af445f" id="r_a032c36d39c02da118d9f5a1a65af445f"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a032c36d39c02da118d9f5a1a65af445f">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, double value)</td></tr>
+<tr class="memitem:a8485ec859485ecd490ca4e9667390178" id="r_a8485ec859485ecd490ca4e9667390178"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8485ec859485ecd490ca4e9667390178">writeValue</a> (const std::vector&lt; std::string &gt; &amp;path, std::string value)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a10edf7d2ba69adfd3a34406bbf584029" name="a10edf7d2ba69adfd3a34406bbf584029"></a>
@@ -386,22 +384,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af1983bd5d3b6cb49c8856dab3970cf88" name="af1983bd5d3b6cb49c8856dab3970cf88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1983bd5d3b6cb49c8856dab3970cf88">&#9670;&#160;</a></span>pressButton()</h2>
+<a id="ac10d775037d2669e21260d951a817c7a" name="ac10d775037d2669e21260d951a817c7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac10d775037d2669e21260d951a817c7a">&#9670;&#160;</a></span>pressButton()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::UI::TestEngine::Control::pressButton </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt; MR::UI::TestEngine::Control::pressButton </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Presses the button at this path, or returns an error. </p>
+<p>Presses the button at this path. Returns empty string on success (click simulated). If the button was drawn disabled, the press is a silent no-op and the return is a non-empty status (<span class="tt">"disabled"</span> / <span class="tt">"disabled: &lt;reason&gt;"</span>) matching <span class="tt">composeStatus()</span>. <span class="tt">unexpected</span> is returned only for hard errors (path not found, entry is not a button). </p>
 
 </div>
 </div>
@@ -476,8 +473,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a4a281d619b459aaed29301c7de856d0f" name="a4a281d619b459aaed29301c7de856d0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a281d619b459aaed29301c7de856d0f">&#9670;&#160;</a></span>writeValue() <span class="overload">[1/5]</span></h2>
+<a id="a032c36d39c02da118d9f5a1a65af445f" name="a032c36d39c02da118d9f5a1a65af445f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a032c36d39c02da118d9f5a1a65af445f">&#9670;&#160;</a></span>writeValue() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,7 +483,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::UI::TestEngine::Control::writeValue </td>
+          <td class="memname">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt; MR::UI::TestEngine::Control::writeValue </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -505,8 +502,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ac9f7517c70abef7744da064d09234ac7" name="ac9f7517c70abef7744da064d09234ac7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9f7517c70abef7744da064d09234ac7">&#9670;&#160;</a></span>writeValue() <span class="overload">[2/5]</span></h2>
+<a id="a5d90d8baaeb89a3831d5e6483c7a6547" name="a5d90d8baaeb89a3831d5e6483c7a6547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d90d8baaeb89a3831d5e6483c7a6547">&#9670;&#160;</a></span>writeValue() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -515,7 +512,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::UI::TestEngine::Control::writeValue </td>
+          <td class="memname">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt; MR::UI::TestEngine::Control::writeValue </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -534,8 +531,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a05ff5d106f5323584a002f5f692d2d04" name="a05ff5d106f5323584a002f5f692d2d04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05ff5d106f5323584a002f5f692d2d04">&#9670;&#160;</a></span>writeValue() <span class="overload">[3/5]</span></h2>
+<a id="a8485ec859485ecd490ca4e9667390178" name="a8485ec859485ecd490ca4e9667390178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8485ec859485ecd490ca4e9667390178">&#9670;&#160;</a></span>writeValue() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -544,7 +541,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::UI::TestEngine::Control::writeValue </td>
+          <td class="memname">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt; MR::UI::TestEngine::Control::writeValue </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -563,8 +560,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a3ae0319bbff320d95e0b82979c2fe2fb" name="a3ae0319bbff320d95e0b82979c2fe2fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ae0319bbff320d95e0b82979c2fe2fb">&#9670;&#160;</a></span>writeValue() <span class="overload">[4/5]</span></h2>
+<a id="a4b367788d6cb4a3129b97919aee495ee" name="a4b367788d6cb4a3129b97919aee495ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b367788d6cb4a3129b97919aee495ee">&#9670;&#160;</a></span>writeValue() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -573,7 +570,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::UI::TestEngine::Control::writeValue </td>
+          <td class="memname">template <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt; MR::UI::TestEngine::Control::writeValue </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -592,8 +589,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a98aa8ea615046831943a857d5ede271e" name="a98aa8ea615046831943a857d5ede271e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98aa8ea615046831943a857d5ede271e">&#9670;&#160;</a></span>writeValue() <span class="overload">[5/5]</span></h2>
+<a id="a4314b1043a6c1e2739af7d7a87d8361a" name="a4314b1043a6c1e2739af7d7a87d8361a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4314b1043a6c1e2739af7d7a87d8361a">&#9670;&#160;</a></span>writeValue() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -601,7 +598,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::UI::TestEngine::Control::writeValue </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::string &gt; MR::UI::TestEngine::Control::writeValue </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -612,8 +609,7 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Modifies the value at the <span class="tt">path</span>, or returns an error if the path, type or value are wrong. </p>
+<p>Modifies the value at the <span class="tt">path</span>. Returns empty string on success (write simulated). If the widget was drawn disabled, the write is a silent no-op and the return is a non-empty status (<span class="tt">"disabled"</span> / <span class="tt">"disabled: &lt;reason&gt;"</span>) matching <span class="tt">composeStatus()</span>. <span class="tt">unexpected</span> is returned only for hard errors (path not found, wrong type, out-of-range / not-in-allowedValues). </p>
 
 </div>
 </div>
