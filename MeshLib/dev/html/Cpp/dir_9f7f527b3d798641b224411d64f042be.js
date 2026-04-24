@@ -13,7 +13,7 @@ var dir_9f7f527b3d798641b224411d64f042be =
     [ "MRAsyncTimer.h", "MRAsyncTimer_8h.html", "MRAsyncTimer_8h" ],
     [ "MRClipboard.h", "MRClipboard_8h.html", "MRClipboard_8h" ],
     [ "MRColorTheme.h", "MRColorTheme_8h.html", null ],
-    [ "MRCommandLoop.h", "MRCommandLoop_8h.html", null ],
+    [ "MRCommandLoop.h", "MRCommandLoop_8h.html", "MRCommandLoop_8h" ],
     [ "MRConsoleWindows.h", "MRConsoleWindows_8h.html", null ],
     [ "MRCreateShader.h", "MRCreateShader_8h.html", "MRCreateShader_8h" ],
     [ "MRCudaAccessor.h", "MRCudaAccessor_8h.html", null ],

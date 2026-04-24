@@ -701,6 +701,9 @@
     <member refid="group__GeneralGroup_1ga092cf8a0fd74634e6e4d50b8cfc9956d" kind="variable"><name>b</name></member>
     <member refid="group__GeneralGroup_1ga82445cec627eb947404a79b0b670c515" kind="variable"><name>tsize</name></member>
   </compound>
+  <compound refid="structMR_1_1Mcp_1_1Schema_1_1Bool" kind="struct"><name>MR::Mcp::Schema::Bool</name>
+    <member refid="structMR_1_1Mcp_1_1Schema_1_1Bool_1a61f76b4db5d73139516c6d838a4c7ec7" kind="function"><name>Bool</name></member>
+  </compound>
   <compound refid="structMR_1_1BooleanInternalParameters" kind="struct"><name>MR::BooleanInternalParameters</name>
     <member refid="structMR_1_1BooleanInternalParameters_1a2733395f91f3ed00b0e61ccae13ce37d" kind="variable"><name>originalMeshA</name></member>
     <member refid="structMR_1_1BooleanInternalParameters_1a9564c4edb40ecc90fa59bfc7a9342bc5" kind="variable"><name>originalMeshB</name></member>
@@ -15475,6 +15478,7 @@
     <member refid="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" kind="function"><name>FilterHistoryByCondition</name></member>
     <member refid="group__GeneralGroup_1ga2164661162d3ed459dafa20e6e36048a" kind="function"><name>GetClipboardText</name></member>
     <member refid="group__GeneralGroup_1gad1d11634c44c3a9701fb22661b0e26ce" kind="function"><name>SetClipboardText</name></member>
+    <member refid="group__GeneralGroup_1ga62fb75743666477382adbc8efccf76b9" kind="function"><name>skipFramesAfterInput</name></member>
     <member refid="group__GeneralGroup_1ga64cf6b9277515ab399a88caf26a922bd" kind="function"><name>createShader</name></member>
     <member refid="group__GeneralGroup_1ga8b096e49296af19ff8c88104eedeb8d1" kind="function"><name>destroyShader</name></member>
     <member refid="group__GeneralGroup_1ga74d4efceb84e434c67a95cd0f144de01" kind="function"><name>getDragDropHandler</name></member>
@@ -28279,6 +28283,7 @@
     <member refid="group__GeneralGroup_1ga0dfec26150ccd6fa2c5b9fbad975b21f" kind="function"><name>~CommandLoop</name></member>
     <member refid="group__GeneralGroup_1ga934555dfbff1cadb9be70f8b7ae87f34" kind="function"><name>instance_</name></member>
     <member refid="group__GeneralGroup_1ga06e8d4a28f020068f5b0520acfada256" kind="function"><name>addCommand_</name></member>
+    <member refid="group__GeneralGroup_1ga62fb75743666477382adbc8efccf76b9" kind="function"><name>skipFramesAfterInput</name></member>
     <member refid="group__GeneralGroup_1ga64cf6b9277515ab399a88caf26a922bd" kind="function"><name>createShader</name></member>
     <member refid="group__GeneralGroup_1ga8b096e49296af19ff8c88104eedeb8d1" kind="function"><name>destroyShader</name></member>
     <member refid="group__GeneralGroup_1ga1c84ef23743e381b8635e6c6c6bdfb2b" kind="function"><name>setCudaAvailable</name></member>

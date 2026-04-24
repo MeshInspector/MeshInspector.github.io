@@ -15337,6 +15337,7 @@ var group__GeneralGroup =
     [ "MR::Vector::size", "group__GeneralGroup.html#ga2816ffd002bac70ab04d1bd18e2c5cfd", null ],
     [ "MR::UnionFind::sizeOfComp", "group__GeneralGroup.html#ga009ad612aecca5afb9b91768536c406f", null ],
     [ "MR::VertRenumber::sizeVerts", "group__GeneralGroup.html#ga1804a1dca0466765918892c65d9436f0", null ],
+    [ "MR::skipFramesAfterInput", "group__GeneralGroup.html#ga62fb75743666477382adbc8efccf76b9", null ],
     [ "MR::Quaternion::slerp", "group__GeneralGroup.html#gab982ee301028dfa3677f0f55da211868", null ],
     [ "MR::Quaternion::slerp", "group__GeneralGroup.html#gadb5df4281ceff5b0f0e031a7102a9a9e", null ],
     [ "MR::Quaternion::slerp", "group__GeneralGroup.html#ga2ac16cf205a618aa269d0e7394aa383e", null ],

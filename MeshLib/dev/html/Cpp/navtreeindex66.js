@@ -1,5 +1,10 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,2,0,2,30,0,0],
+"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,1,0,1,46,1],
+"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,2,0,2,30,1],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,1,0,1,46,1,5],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,2,0,2,30,1,5],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[6,0,1,0,1,46,1,3],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[6,0,2,0,2,30,1,3],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[6,0,1,0,1,46,1,6],
@@ -218,7 +223,7 @@ var NAVTREEINDEX66 =
 "structMR_1_1Vector2.html#a8fc9699488aa3c7c5bde2d2b046e9f0c":[6,0,0,0,12,0,9],
 "structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0":[6,0,0,0,12,0,5],
 "structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517":[6,0,0,0,12,0,41],
-"structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517":[6,0,1,0,1,2771],
+"structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517":[6,0,1,0,1,2772],
 "structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb":[6,0,0,0,12,0,7],
 "structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[6,0,0,0,12,0,22],
 "structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[6,0,1,0,1,1561],
@@ -244,10 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1VectorTraits.html":[6,0,0,20,503],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,0,20,735],
 "structMR_1_1VectorTraits_3_01ImVec4_01_4.html":[6,0,0,20,736],
-"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html":[6,0,0,20,504],
-"structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html":[6,0,0,20,505],
-"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html":[6,0,0,20,506],
-"structMR_1_1VertDistance.html":[6,0,0,16,2,0],
-"structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[6,0,0,16,2,0,2],
-"structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[6,0,0,16,2,0,1]
+"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html":[6,0,0,20,504]
 };

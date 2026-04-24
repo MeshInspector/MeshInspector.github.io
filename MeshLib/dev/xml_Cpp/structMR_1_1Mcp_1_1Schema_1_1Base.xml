@@ -3,6 +3,7 @@
   <compounddef id="structMR_1_1Mcp_1_1Schema_1_1Base" kind="struct" language="C++" prot="public">
     <compoundname>MR::Mcp::Schema::Base</compoundname>
     <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Array" prot="public" virt="non-virtual">MR::Mcp::Schema::Array</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Bool" prot="public" virt="non-virtual">MR::Mcp::Schema::Bool</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Empty" prot="public" virt="non-virtual">MR::Mcp::Schema::Empty</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Number" prot="public" virt="non-virtual">MR::Mcp::Schema::Number</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Object" prot="public" virt="non-virtual">MR::Mcp::Schema::Object</derivedcompoundref>
@@ -91,24 +92,30 @@
         <link refid="structMR_1_1Mcp_1_1Schema_1_1Base"/>
       </node>
       <node id="3">
+        <label>MR::Mcp::Schema::Bool</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Bool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
         <label>MR::Mcp::Schema::Empty</label>
         <link refid="structMR_1_1Mcp_1_1Schema_1_1Empty"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MR::Mcp::Schema::Number</label>
         <link refid="structMR_1_1Mcp_1_1Schema_1_1Number"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>MR::Mcp::Schema::Object</label>
         <link refid="structMR_1_1Mcp_1_1Schema_1_1Object"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MR::Mcp::Schema::String</label>
         <link refid="structMR_1_1Mcp_1_1Schema_1_1String"/>
         <childnode refid="1" relation="public-inheritance">
