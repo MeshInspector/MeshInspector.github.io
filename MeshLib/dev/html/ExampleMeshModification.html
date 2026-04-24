@@ -172,19 +172,20 @@ $(function(){initNavTree('ExampleMeshModification.html','',''); });
 <div class="line"> </div>
 <div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
-<div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
+<div class="line">mesh = mrmeshpy.makeTorus()</div>
 <div class="line"> </div>
+<div class="line"><span class="comment"># Relax mesh (5 iterations)</span></div>
 <div class="line">relax_params = mrmeshpy.MeshRelaxParams()</div>
 <div class="line">relax_params.iterations = 5</div>
 <div class="line">mrmeshpy.relax(mesh, relax_params)</div>
 <div class="line"> </div>
+<div class="line"><span class="comment"># Subdivide mesh</span></div>
 <div class="line">props = mrmeshpy.SubdivideSettings()</div>
 <div class="line">props.maxDeviationAfterFlip = 0.5</div>
 <div class="line">mrmeshpy.subdivideMesh(mesh, props)</div>
 <div class="line"> </div>
-<div class="line">plus_z = mrmeshpy.Vector3f()</div>
-<div class="line">plus_z.z = 1.0</div>
-<div class="line">rotation_xf = mrmeshpy.AffineXf3f.linear(mrmeshpy.Matrix3f.rotation(plus_z, math.pi * 0.5))</div>
+<div class="line"><span class="comment"># Rotate mesh</span></div>
+<div class="line">rotation_xf = mrmeshpy.AffineXf3f.linear(mrmeshpy.Matrix3f.rotation(mrmeshpy.Vector3f.plusZ(), math.pi * 0.5))</div>
 <div class="line">mesh.transform(rotation_xf)</div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRAffineXf.h&gt;</span></div>

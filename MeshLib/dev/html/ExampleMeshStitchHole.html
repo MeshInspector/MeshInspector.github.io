@@ -240,7 +240,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    MR_std_vector_MR_EdgeId* edges = MR_MeshTopology_findHoleRepresentiveEdges( MR_Mesh_Get_topology( mesh ), NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_EdgeId_size( edges ) != 2 )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Expected exactly 2 holes to stitch, but found %&quot;</span> PRIu64 <span class="stringliteral">&quot;\n&quot;</span>, MR_std_vector_MR_EdgeId_size( edges ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Expected exactly 2 holes to stitch, but found %zu\n&quot;</span>, MR_std_vector_MR_EdgeId_size( edges ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_not_two_holes;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -257,7 +257,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    MR_StitchHolesParams_Destroy( params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;MeshStitched.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

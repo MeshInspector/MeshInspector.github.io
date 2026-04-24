@@ -142,10 +142,14 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="contents">
 <div class="textblock"><p>Simple triangulation</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloudTriangulation.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRUniformSampling.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRVoxels/MROffset.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
@@ -182,6 +186,16 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    <span class="keyword">auto</span> mesh = MR::offsetMesh( *triangulated, 0.f, { {</div>
 <div class="line">        .voxelSize = MR::suggestVoxelSize( *triangulated, 5e+6f ),</div>
 <div class="line">    } } );</div>
+<div class="line">    assert( mesh );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Save result</span></div>
+<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *mesh, <span class="stringliteral">&quot;result.stl&quot;</span> ); !saveRes )</div>
+<div class="line">    {</div>
+<div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 </div><!-- fragment --></li>
@@ -313,7 +327,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    <span class="comment">// Fix possible issues</span></div>
 <div class="line">    MR_OffsetParameters* offsetParams = MR_OffsetParameters_DefaultConstruct();</div>
 <div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( triangulated, NULL );</div>
-<div class="line">    MR_BaseShellParameters_Set_voxelSize( MR_OffsetParameters_MutableUpcastTo_MR_BaseShellParameters( offsetParams ), MR_suggestVoxelSize( mp, 5e+4f ) );</div>
+<div class="line">    MR_BaseShellParameters_Set_voxelSize( MR_OffsetParameters_MutableUpcastTo_MR_BaseShellParameters( offsetParams ), MR_suggestVoxelSize( mp, 5e+6f ) );</div>
 <div class="line">    MR_expected_MR_Mesh_std_string *meshEx = MR_offsetMesh( mp, 0.f, offsetParams );</div>
 <div class="line">    MR_MeshPart_Destroy( mp );</div>
 <div class="line">    MR_std_optional_MR_Mesh_Destroy( triangulatedOpt );</div>

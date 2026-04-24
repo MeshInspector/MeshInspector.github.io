@@ -154,7 +154,7 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
 <div class="line">    <span class="comment">// Load mesh</span></div>
 <div class="line">    std::filesystem::path inFilePath = <span class="stringliteral">&quot;mesh.stl&quot;</span>;</div>
 <div class="line">    <span class="keyword">auto</span> loadRes = MR::MeshLoad::fromAnySupportedFormat( inFilePath );</div>
-<div class="line">    <span class="keywordflow">if</span> ( loadRes.has_value() )</div>
+<div class="line">    <span class="keywordflow">if</span> ( !loadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>

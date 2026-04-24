@@ -155,14 +155,13 @@ $(function(){initNavTree('ExampleMeshFillHole.html','',''); });
 <div class="line">    <span class="comment">// Find single edge for each hole in mesh</span></div>
 <div class="line">    std::vector&lt;MR::EdgeId&gt; holeEdges = mesh.topology.findHoleRepresentiveEdges();</div>
 <div class="line"> </div>
+<div class="line">    <span class="comment">// Setup filling parameters</span></div>
+<div class="line">    MR::FillHoleParams params;</div>
+<div class="line">    params.metric = MR::getUniversalMetric( mesh );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Alternatively, MR::fillHoles( mesh, holeEdges, params ) fills all holes at once.</span></div>
 <div class="line">    <span class="keywordflow">for</span> ( MR::EdgeId e : holeEdges )</div>
-<div class="line">    {</div>
-<div class="line">        <span class="comment">// Setup filling parameters</span></div>
-<div class="line">        MR::FillHoleParams params;</div>
-<div class="line">        params.metric = MR::getUniversalMetric( mesh );</div>
-<div class="line">        <span class="comment">// Fill hole represented by `e`</span></div>
 <div class="line">        MR::fillHole( mesh, e, params );</div>
-<div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
 <div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span> );</div>
@@ -177,24 +176,24 @@ $(function(){initNavTree('ExampleMeshFillHole.html','',''); });
 <div class="line"><span class="comment"># Find single edge for each hole in mesh</span></div>
 <div class="line">hole_edges = mesh.topology.findHoleRepresentiveEdges()</div>
 <div class="line"> </div>
+<div class="line"><span class="comment"># Setup filling parameters</span></div>
+<div class="line">params = mrmeshpy.FillHoleParams()</div>
+<div class="line">params.metric = mrmeshpy.getUniversalMetric(mesh)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Alternatively, mrmeshpy.fillHoles(mesh, hole_edges, params) fills all holes at once.</span></div>
 <div class="line"><span class="keywordflow">for</span> e <span class="keywordflow">in</span> hole_edges:</div>
-<div class="line">    <span class="comment">#  Setup filling parameters</span></div>
-<div class="line">    params = mrmeshpy.FillHoleParams()</div>
-<div class="line">    params.metric = mrmeshpy.getUniversalMetric(mesh)</div>
-<div class="line">    <span class="comment">#  Fill hole represented by `e`</span></div>
+<div class="line">    <span class="comment"># Fill hole represented by `e`</span></div>
 <div class="line">    mrmeshpy.fillHole(mesh, e, params)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
 <div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span>)</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBitSet.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshFillHole.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshMetrics.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshTopology.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRString.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
@@ -203,76 +202,39 @@ $(function(){initNavTree('ExampleMeshFillHole.html','',''); });
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[] )</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
-<div class="line">    <span class="keywordflow">if</span> ( argc != 2 &amp;&amp; argc != 3 )</div>
-<div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Usage: %s INPUT [OUTPUT]&quot;</span>, argv[0] );</div>
-<div class="line">        <span class="keywordflow">return</span> EXIT_FAILURE;</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span>* input = argv[1];</div>
-<div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span>* output = ( argc == 2 ) ? argv[1] : argv[2];</div>
-<div class="line"> </div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( input, NULL, NULL );</div>
+<div class="line">    <span class="comment">// Load mesh</span></div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Handle failure to load mesh.</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_mesh_loading;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
+<div class="line">    <span class="comment">// Find single edge for each hole in mesh</span></div>
+<div class="line">    MR_std_vector_MR_EdgeId* holeEdges = MR_MeshTopology_findHoleRepresentiveEdges( MR_Mesh_Get_topology( mesh ), NULL );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// Get the list of the existing holes; each hole is represented by a single edge from the hole&#39;s border.</span></div>
-<div class="line">    MR_std_vector_MR_EdgeId* holes = MR_MeshTopology_findHoleRepresentiveEdges( MR_Mesh_Get_topology( mesh ), NULL );</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_EdgeId_empty( holes ) )</div>
-<div class="line">    {</div>
-<div class="line">        printf( <span class="stringliteral">&quot;Mesh doesn&#39;t have any holes&quot;</span> );</div>
-<div class="line">        <span class="keywordflow">goto</span> fail_no_holes;</div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// You can set various parameters for the hole filling process; see the documentation for more info.</span></div>
+<div class="line">    <span class="comment">// Setup filling parameters</span></div>
 <div class="line">    MR_FillHoleParams* params = MR_FillHoleParams_DefaultConstruct();</div>
-<div class="line">    <span class="comment">// The metric controls how exactly the hole is filled.</span></div>
-<div class="line">    <span class="comment">// You can make a custom one, or choose from the predefined metrics defined in `&lt;MRCMesh/MRMeshMetrics.h&gt;`.</span></div>
 <div class="line">    MR_FillHoleMetric* metric = MR_getUniversalMetric( mesh );</div>
 <div class="line">    MR_FillHoleParams_Set_metric( params, MR_PassBy_Move, metric );</div>
-<div class="line">    MR_FillHoleMetric_Destroy( metric ); <span class="comment">// `MR_PassBy_Move` is not destructive, the object still needs to be destroyed manually.</span></div>
-<div class="line">    <span class="comment">// Optionally, receive the bitset of the created faces.</span></div>
-<div class="line">    MR_FaceBitSet* newFaces = MR_FaceBitSet_DefaultConstruct();</div>
-<div class="line">    MR_FillHoleParams_Set_outNewFaces( params, newFaces );</div>
+<div class="line">    MR_FillHoleMetric_Destroy( metric );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// You can either fill all holes at once, or one by one.</span></div>
-<div class="line">    <span class="comment">// In the latter case, don&#39;t forget to check the output fields of the parameters (e.g. `outNewFaces`) after every iteration.</span></div>
-<div class="line">    <span class="keywordtype">size_t</span> newFaceCount = 0;</div>
-<div class="line"><span class="preprocessor">#define FILL_ALL_HOLES 1</span></div>
-<div class="line"><span class="preprocessor">#if FILL_ALL_HOLES</span></div>
-<div class="line">    MR_fillHoles( mesh, holes, params );</div>
-<div class="line">    newFaceCount = MR_BitSet_count( MR_FaceBitSet_UpcastTo_MR_BitSet( newFaces ) );</div>
-<div class="line"><span class="preprocessor">#else</span></div>
-<div class="line">    <span class="keyword">const</span> <span class="keywordtype">float</span> minHoleArea = 100.f; <span class="comment">// An arbitrary size threshold for holes, just as a demonstration.</span></div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_std_vector_MR_EdgeId_Size( holes ); i++ )</div>
+<div class="line">    <span class="comment">// Alternatively, MR_fillHoles( mesh, holeEdges, params ) fills all holes at once.</span></div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_std_vector_MR_EdgeId_size( holeEdges ); ++i )</div>
 <div class="line">    {</div>
-<div class="line">        MR_EdgeId e = *MR_std_vector_MR_EdgeId_At( holes, i );</div>
-<div class="line">        MR_Vector3d holeDirArea = MR_Mesh_holeDirArea( mesh, e );</div>
-<div class="line">        <span class="keywordflow">if</span> ( MR_Vector3d_lengthSq( &amp;holeDirArea ) &gt;= minHoleArea*minHoleArea )</div>
-<div class="line">        {</div>
-<div class="line">            MR_fillHole( mesh, e, params );</div>
-<div class="line">            newFaceCount += MR_BitSet_count( MR_FaceBitSet_UpcastTo_MR_BitSet( newFaces ) );</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// Fill hole represented by `e`</span></div>
+<div class="line">        MR_EdgeId e = *MR_std_vector_MR_EdgeId_at( holeEdges, i );</div>
+<div class="line">        MR_fillHole( mesh, e, params );</div>
 <div class="line">    }</div>
-<div class="line"><span class="preprocessor">#endif</span></div>
-<div class="line"> </div>
-<div class="line">    printf( <span class="stringliteral">&quot;Added %zu new faces\n&quot;</span>, newFaceCount );</div>
+<div class="line">    MR_FillHoleParams_Destroy( params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, output, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -281,9 +243,8 @@ $(function(){initNavTree('ExampleMeshFillHole.html','',''); });
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
 <div class="line">fail_save:</div>
-<div class="line">    MR_FaceBitSet_Destroy( newFaces );</div>
-<div class="line">fail_no_holes:</div>
-<div class="line">    MR_std_vector_MR_EdgeId_Destroy( holes );</div>
+<div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
+<div class="line">    MR_std_vector_MR_EdgeId_Destroy( holeEdges );</div>
 <div class="line">fail_mesh_loading:</div>
 <div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>

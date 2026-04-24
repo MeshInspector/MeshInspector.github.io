@@ -219,8 +219,7 @@ $(function(){initNavTree('ExampleMeshOffset.html','',''); });
 <img src="offset_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRAffineXf.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBox.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBox.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRCube.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshPart.h&gt;</span></div>
@@ -232,11 +231,8 @@ $(function(){initNavTree('ExampleMeshOffset.html','',''); });
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCVoxels/MROffset.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &lt;math.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="preprocessor">#define APPROX_VOXEL_COUNT 10000000.f</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
@@ -252,16 +248,16 @@ $(function(){initNavTree('ExampleMeshOffset.html','',''); });
 <div class="line">    MR_MeshPart* inputMeshPart = MR_MeshPart_Construct( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup parameters</span></div>
-<div class="line">    MR_OffsetParameters* params = MR_OffsetParameters_DefaultConstruct();</div>
+<div class="line">    MR_GeneralOffsetParameters* params = MR_GeneralOffsetParameters_DefaultConstruct();</div>
 <div class="line">    <span class="comment">// calculate voxel size depending on desired accuracy and/or memory consumption</span></div>
-<div class="line">    MR_BaseShellParameters_Set_voxelSize( MR_OffsetParameters_MutableUpcastTo_MR_BaseShellParameters( params ), MR_suggestVoxelSize( inputMeshPart, 10000000.f ) );</div>
+<div class="line">    MR_BaseShellParameters_Set_voxelSize( MR_GeneralOffsetParameters_MutableUpcastTo_MR_BaseShellParameters( params ), MR_suggestVoxelSize( inputMeshPart, 10000000.f ) );</div>
 <div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox_1( mesh, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> offset = MR_Box3f_diagonal( &amp;bbox ) * 0.1f;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Make offset mesh</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* outputMeshEx = MR_offsetMesh( inputMeshPart, offset, params );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* outputMeshEx = MR_generalOffsetMesh( inputMeshPart, offset, params );</div>
 <div class="line">    MR_MeshPart_Destroy( inputMeshPart );</div>
-<div class="line">    MR_OffsetParameters_Destroy( params );</div>
+<div class="line">    MR_GeneralOffsetParameters_Destroy( params );</div>
 <div class="line"> </div>
 <div class="line">    MR_Mesh* outputMesh = MR_expected_MR_Mesh_std_string_value_mut( outputMeshEx );</div>
 <div class="line"> </div>
