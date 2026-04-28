@@ -10336,6 +10336,7 @@
     <member refid="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" kind="function"><name>setParams</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" kind="function"><name>isRunning</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1ae6008d565f2f5a971a3694f196f7ebe9" kind="function"><name>setRunning</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a41c62aabf7f74f70b1ed377146c34e9e" kind="function"><name>shutdown</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aaf379de21838d3f144e6dde8ce9936ba" kind="function"><name>dumpToolsAsJson</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1a31cafb321b0501c06c702510a430af9b" kind="function"><name>saveToolsCache</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1ae17ea1c96dec452be0511fd596de0b3d" kind="function"><name>processCmdArgs</name></member>
@@ -12594,6 +12595,7 @@
     <member refid="group__GeneralGroup_1ga7af550b06bca5828017818c0fd0f41ce" kind="function"><name>setupExtendedLibraries</name></member>
     <member refid="group__GeneralGroup_1ga2c129133dc78a903ad58f466bb4bd591" kind="function"><name>unloadExtendedLibraries</name></member>
     <member refid="group__GeneralGroup_1gaf6506d80121763c6d296ced7af498180" kind="function"><name>setupMcp</name></member>
+    <member refid="group__GeneralGroup_1ga57b5cf0d7abf7293b6186d7b32ff831d" kind="function"><name>shutdownMcp</name></member>
   </compound>
   <compound refid="structMR_1_1ViewerSignals" kind="struct"><name>MR::ViewerSignals</name>
     <member refid="group__GeneralGroup_1ga1eda89f251264fcd4a837e688fdd8f85" kind="typedef"><name>SignalStopHandler</name></member>
@@ -29423,6 +29425,7 @@
     <member refid="group__GeneralGroup_1ga7af550b06bca5828017818c0fd0f41ce" kind="function"><name>setupExtendedLibraries</name></member>
     <member refid="group__GeneralGroup_1ga2c129133dc78a903ad58f466bb4bd591" kind="function"><name>unloadExtendedLibraries</name></member>
     <member refid="group__GeneralGroup_1gaf6506d80121763c6d296ced7af498180" kind="function"><name>setupMcp</name></member>
+    <member refid="group__GeneralGroup_1ga57b5cf0d7abf7293b6186d7b32ff831d" kind="function"><name>shutdownMcp</name></member>
     <member refid="group__GeneralGroup_1ga8d0c35a10cb3d303e56387880f7a8e76" kind="function"><name>getPickerFragmentShader</name></member>
     <member refid="group__GeneralGroup_1ga97e752a49fe4e2e3b65e9f915b122aca" kind="function"><name>getFragmentShaderClippingBlock</name></member>
     <member refid="group__GeneralGroup_1ga78665c9b4ad78ff98be332b9dc1d7d9f" kind="function"><name>getFragmentShaderPointSizeBlock</name></member>

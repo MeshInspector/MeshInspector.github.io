@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Polyline.html#ab39f63a5f068099aaa0ec1c5e025103e":[6,0,0,14,0,2],
+"structMR_1_1Polyline.html#ab3de745fc249ab0b56e00796cf740f97":[6,0,0,14,0,17],
+"structMR_1_1Polyline.html#ab5049b91b498ff6a3932bb2ee20cf2bf":[6,0,0,14,0,3],
 "structMR_1_1Polyline.html#ab5969e3da3e8deb772958e4855dc5b9c":[6,0,0,14,0,22],
 "structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[6,0,0,14,0,21],
 "structMR_1_1Polyline.html#abaaaf2e622a7df2fb5ef5492721109be":[6,0,0,14,0,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,13],
 "structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,7],
 "structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[6,0,0,20,713],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,0,20,712],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,0,20,715],
-"structMR_1_1SymMatrix2.html":[6,0,0,0,7,4],
-"structMR_1_1SymMatrix2.html":[6,0,0,20,477]
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,0,20,712]
 };

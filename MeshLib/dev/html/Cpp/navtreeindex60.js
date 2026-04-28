@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[6,0,0,10,0,13],
+"structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[6,0,0,10,0,16],
+"structMR_1_1DeloneSettings.html":[6,0,1,0,1,200],
 "structMR_1_1DeloneSettings.html":[6,0,2,0,2,181],
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,1,0,1,200,4],
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,2,0,2,181,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1GeodesicPath.html#a8890c95d8a90898ea2d0898884bfa474":[6,0,0,16,3,0,1],
 "structMR_1_1GeodesicPath.html#af134007969afd8d9e0854c05ab72e99b":[6,0,0,16,3,0,2],
 "structMR_1_1GlTexture_1_1Settings.html":[6,0,0,20,567],
-"structMR_1_1Graph_1_1EndVertices.html":[6,0,0,20,256],
-"structMR_1_1GridSettings.html":[6,0,0,20,259],
-"structMR_1_1GridToMeshSettings.html":[6,0,0,20,858],
-"structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0]
+"structMR_1_1Graph_1_1EndVertices.html":[6,0,0,20,256]
 };

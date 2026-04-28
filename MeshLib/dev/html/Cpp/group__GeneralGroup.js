@@ -6797,6 +6797,7 @@ var group__GeneralGroup =
       [ "setupExtendedLibraries", "group__GeneralGroup.html#ga7af550b06bca5828017818c0fd0f41ce", null ],
       [ "setupMcp", "group__GeneralGroup.html#gaf6506d80121763c6d296ced7af498180", null ],
       [ "setupSettingsManager", "group__GeneralGroup.html#ga0266ab3528d133e67c46d515595d499d", null ],
+      [ "shutdownMcp", "group__GeneralGroup.html#ga57b5cf0d7abf7293b6186d7b32ff831d", null ],
       [ "unloadExtendedLibraries", "group__GeneralGroup.html#ga2c129133dc78a903ad58f466bb4bd591", null ],
       [ "setupCustomLogSink", "group__GeneralGroup.html#ga01b6a5ca99cb834e86dbb5494153de45", null ],
       [ "shutdownCustomLogSink", "group__GeneralGroup.html#ga7895602798d8ec93e4374882cc9c89c4", null ]
@@ -15322,6 +15323,7 @@ var group__GeneralGroup =
     [ "MR::SaveOnClosePlugin::shutdown", "group__GeneralGroup.html#ga6ea54d4f1a94548bc1b8a7a08183ca74", null ],
     [ "MR::StateBasePlugin::shutdown", "group__GeneralGroup.html#ga816498e728c95b55dfa2984b2ad45d35", null ],
     [ "MR::ViewerPlugin::shutdown", "group__GeneralGroup.html#ga764e7d792fea63f8186ed87f2560578f", null ],
+    [ "MR::ViewerSetup::shutdownMcp", "group__GeneralGroup.html#ga57b5cf0d7abf7293b6186d7b32ff831d", null ],
     [ "MR::Signal::Signal", "group__GeneralGroup.html#ga488990e85880132e9fbf56b93e3deb55", null ],
     [ "MR::Signal::Signal", "group__GeneralGroup.html#ga186f243369f993f6c645e1ac87ce80c4", null ],
     [ "MR::Signal::Signal", "group__GeneralGroup.html#gae7fbfc379a2b37356e3a2147d5b011aa", null ],

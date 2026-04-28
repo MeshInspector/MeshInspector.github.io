@@ -1,5 +1,8 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,0,20,715],
+"structMR_1_1SymMatrix2.html":[6,0,0,0,7,4],
+"structMR_1_1SymMatrix2.html":[6,0,0,20,477],
 "structMR_1_1SymMatrix3.html":[6,0,0,0,7,5],
 "structMR_1_1SymMatrix3.html":[6,0,0,20,478],
 "structMR_1_1SymMatrix4.html":[6,0,0,0,7,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1UnitToStringParams.html":[6,0,0,20,735],
 "structMR_1_1UniteManyMeshesParams.html":[6,0,0,20,498],
 "structMR_1_1UnorientedTriangle.html":[6,0,0,20,500],
-"structMR_1_1VarEdgeTri.html":[6,0,0,1,18],
-"structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[6,0,0,1,18,6],
-"structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[6,0,0,1,18,4],
-"structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833":[6,0,0,1,18,5]
+"structMR_1_1VarEdgeTri.html":[6,0,0,1,18]
 };

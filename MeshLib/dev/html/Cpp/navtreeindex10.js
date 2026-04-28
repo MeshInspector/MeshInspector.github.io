@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1PointAccumulator.html#a3bbfe3a2dafb965a1e58b1ebede9744f":[6,0,0,0,1,0,7],
+"classMR_1_1PointAccumulator.html#a629602337391d01befbec1b5ee3fa00c":[6,0,0,0,1,0,2],
 "classMR_1_1PointAccumulator.html#a7514ac6107ebe4077c548746882a7d2d":[6,0,0,0,1,0,14],
 "classMR_1_1PointAccumulator.html#a76f014e7c1b047ba9484d985a82af311":[6,0,0,0,1,0,6],
 "classMR_1_1PointAccumulator.html#a9b02d2de72ea2ff4e66cff4c8f79c86c":[6,0,0,0,1,0,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1RibbonSceneHideAll.html":[6,0,0,20,68],
 "classMR_1_1RibbonSceneObjectsListDrawer.html":[6,0,0,20,659],
 "classMR_1_1RibbonSceneRemoveSelected.html":[6,0,0,20,72],
-"classMR_1_1RibbonSceneRename.html":[6,0,0,20,71],
-"classMR_1_1RibbonSceneSelectAll.html":[6,0,0,20,65],
-"classMR_1_1RibbonSceneShowAll.html":[6,0,0,20,67]
+"classMR_1_1RibbonSceneRename.html":[6,0,0,20,71]
 };

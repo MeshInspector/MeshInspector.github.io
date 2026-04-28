@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1RibbonSceneSelectAll.html":[6,0,0,20,65],
+"classMR_1_1RibbonSceneShowAll.html":[6,0,0,20,67],
 "classMR_1_1RibbonSceneShowOnlyNext.html":[6,0,0,20,70],
 "classMR_1_1RibbonSceneShowOnlyPrev.html":[6,0,0,20,69],
 "classMR_1_1RibbonSceneSortByName.html":[6,0,0,20,64],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1UndirectedEdgeIterator.html":[6,0,0,20,187],
 "classMR_1_1UndoMenuItem.html":[6,0,0,20,674],
 "classMR_1_1UnifiedPythonStream.html":[6,0,0,20,522],
-"classMR_1_1UnionFind.html":[6,0,0,3,15],
-"classMR_1_1UnionFind.html":[6,0,0,20,331],
-"classMR_1_1UniqueTemporaryFolder.html":[6,0,0,20,497]
+"classMR_1_1UnionFind.html":[6,0,0,3,15]
 };

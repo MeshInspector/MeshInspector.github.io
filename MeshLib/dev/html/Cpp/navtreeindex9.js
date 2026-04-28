@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1Mcp_1_1Server.html#ae6008d565f2f5a971a3694f196f7ebe9":[6,0,2,0,2,10,1,14],
+"classMR_1_1Mcp_1_1Server.html#aeeedc6adfa01a6470b40aa229a8f6522":[6,0,1,0,1,21,1,9],
 "classMR_1_1Mcp_1_1Server.html#aeeedc6adfa01a6470b40aa229a8f6522":[6,0,2,0,2,10,1,9],
 "classMR_1_1MeasurementObject.html":[6,0,0,20,312],
 "classMR_1_1MeshBuilder_1_1VertexIdentifier.html":[6,0,0,20,274],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1PointAccumulator.html":[6,0,0,0,1,0],
 "classMR_1_1PointAccumulator.html#a1796a9a708940c023b28e492508dbc64":[6,0,0,0,1,0,5],
 "classMR_1_1PointAccumulator.html#a2f5614b00ab9f0a3e993de5c7762aed4":[6,0,0,0,1,0,0],
-"classMR_1_1PointAccumulator.html#a33e732c4dbfd1cb17c360cbc838f461c":[6,0,0,0,1,0,3],
-"classMR_1_1PointAccumulator.html#a3bbfe3a2dafb965a1e58b1ebede9744f":[6,0,0,0,1,0,7],
-"classMR_1_1PointAccumulator.html#a629602337391d01befbec1b5ee3fa00c":[6,0,0,0,1,0,2]
+"classMR_1_1PointAccumulator.html#a33e732c4dbfd1cb17c360cbc838f461c":[6,0,0,0,1,0,3]
 };
