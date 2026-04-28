@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRMcpSettings_8h" kind="file" language="C++">
+    <compoundname>MRMcpSettings.h</compoundname>
+    <includes local="yes">exports.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRViewer/MRMcpSettings.h</label>
+        <link refid="MRMcpSettings_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>exports.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1McpSettings">MR::McpSettings</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespaceMR_1_1McpSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1McpSettings" kindref="compound">MR::McpSettings</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespaceMR_1_1McpSettings_1aa9cc920ef11f9c709d6bca72ebd0def4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpSettings_1aa9cc920ef11f9c709d6bca72ebd0def4" kindref="member">getPort</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespaceMR_1_1McpSettings_1ae113c4a8d7ac3b45e348fefa7573b57b" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpSettings_1ae113c4a8d7ac3b45e348fefa7573b57b" kindref="member">setPort</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>port<sp/>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceMR_1_1McpSettings_1a43cbff85da43c1a0c65fc3652c084a99" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpSettings_1a43cbff85da43c1a0c65fc3652c084a99" kindref="member">getEnableByDefault</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespaceMR_1_1McpSettings_1ab767d0637775e980afcc3ab39cd9fc16" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpSettings_1ab767d0637775e980afcc3ab39cd9fc16" kindref="member">setEnableByDefault</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enable<sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="namespaceMR_1_1McpSettings_1a682b418dc80be930d61e6955156d7c45" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpSettings_1a682b418dc80be930d61e6955156d7c45" kindref="member">applyToServer</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRViewer/MRMcpSettings.h"/>
+  </compounddef>
+</doxygen>

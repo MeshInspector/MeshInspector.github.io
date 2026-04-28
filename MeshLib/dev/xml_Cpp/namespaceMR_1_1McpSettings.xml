@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1McpSettings" kind="namespace" language="C++">
+    <compoundname>MR::McpSettings</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1McpSettings_1aa9cc920ef11f9c709d6bca72ebd0def4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::McpSettings::getPort</definition>
+        <argsstring>()</argsstring>
+        <name>getPort</name>
+        <qualifiedname>MR::McpSettings::getPort</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the MCP port from the config file, or the default value. Note that this acts on the config file and not on the actual MCP server that might be running. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMcpSettings.h" line="12" column="7" declfile="MRViewer/MRMcpSettings.h" declline="12" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpSettings_1ae113c4a8d7ac3b45e348fefa7573b57b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::McpSettings::setPort</definition>
+        <argsstring>(int port)</argsstring>
+        <name>setPort</name>
+        <qualifiedname>MR::McpSettings::setPort</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the MCP port in the config. Note that this acts on the config file and not on the actual MCP server that might be running. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMcpSettings.h" line="16" column="7" declfile="MRViewer/MRMcpSettings.h" declline="16" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpSettings_1a43cbff85da43c1a0c65fc3652c084a99" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::McpSettings::getEnableByDefault</definition>
+        <argsstring>()</argsstring>
+        <name>getEnableByDefault</name>
+        <qualifiedname>MR::McpSettings::getEnableByDefault</qualifiedname>
+        <briefdescription>
+<para>Returns whether the MCP server should start on program startup, according to the config file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMcpSettings.h" line="19" column="8" declfile="MRViewer/MRMcpSettings.h" declline="19" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpSettings_1ab767d0637775e980afcc3ab39cd9fc16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::McpSettings::setEnableByDefault</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>setEnableByDefault</name>
+        <qualifiedname>MR::McpSettings::setEnableByDefault</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>Sets whether the MCP server should start on program startup, in the config file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMcpSettings.h" line="22" column="7" declfile="MRViewer/MRMcpSettings.h" declline="22" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpSettings_1a682b418dc80be930d61e6955156d7c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::McpSettings::applyToServer</definition>
+        <argsstring>()</argsstring>
+        <name>applyToServer</name>
+        <qualifiedname>MR::McpSettings::applyToServer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sends those settings to the MCP server. This restarts it if necessary, e.g. to update the port. This ignores <computeroutput><ref refid="namespaceMR_1_1McpSettings_1a43cbff85da43c1a0c65fc3652c084a99" kindref="member">getEnableByDefault()</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMcpSettings.h" line="26" column="7" declfile="MRViewer/MRMcpSettings.h" declline="26" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Those functions act on the default MCP settings in the config file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRMcpSettings.h" line="7" column="1"/>
+  </compounddef>
+</doxygen>

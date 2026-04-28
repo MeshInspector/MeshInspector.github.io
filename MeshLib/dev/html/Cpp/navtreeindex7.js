@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1ChangeActiveBoxAction.html":[6,0,0,4,47],
+"classMR_1_1ChangeActiveBoxAction.html#a25b3ab2e8226cb91171a0128777eea34":[6,0,0,4,47,4],
 "classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,47,1],
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,47,3],
 "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,47,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a393b65262243753c160a11f48d57c301":[6,0,1,0,1,2,3,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a393b65262243753c160a11f48d57c301":[6,0,2,0,2,0,3,1],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[6,0,1,0,1,2,3,0],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[6,0,2,0,2,0,3,0],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#acea486c98480ff347d65eaed201897c2":[6,0,1,0,1,2,3,3],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#acea486c98480ff347d65eaed201897c2":[6,0,2,0,2,0,3,3]
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[6,0,2,0,2,0,3,0]
 };

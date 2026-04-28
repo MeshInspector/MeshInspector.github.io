@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1UniqueThreadSafeOwner.html":[6,0,0,1,37],
+"classMR_1_1UniqueThreadSafeOwner.html":[6,0,0,20,333],
 "classMR_1_1UniqueThreadSafeOwner.html#a03c53fa4619c12febece2ac42f24da34":[6,0,0,1,37,0],
 "classMR_1_1UniqueThreadSafeOwner.html#a03c53fa4619c12febece2ac42f24da34":[6,0,0,20,333,0],
 "classMR_1_1UniqueThreadSafeOwner.html#a263b2d43f529f2cd5885456450f7fa02":[6,0,0,1,37,6],
@@ -231,7 +233,7 @@ var NAVTREEINDEX12 =
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,15,0,10],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,15,0,11],
 "conceptMR_1_1Trivial.html":[6,0,0,20,36],
-"conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,48,2,7],
+"conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,49,2,7],
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[6,0,0,20,43],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[6,0,0,20,45],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[6,0,0,20,46],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "dir_607568da46d18211e7292c5adf00e794.html":[6,0,3,0,2],
 "dir_6afa1a38044d7bf79492c684c039cbe0.html":[6,0,3,0,12],
 "dir_8b67b68f182ffe674144c2b5188c331a.html":[6,0,3,0,1,2],
-"dir_9d18c845e499e69c9a4e6cc71160759c.html":[6,0,3,0,1],
-"dir_9f7f527b3d798641b224411d64f042be.html":[6,0,3,0,11],
-"dir_ac44010fd0c50cb00bed3e306e558be5.html":[6,0,3,0,1,0]
+"dir_9d18c845e499e69c9a4e6cc71160759c.html":[6,0,3,0,1]
 };

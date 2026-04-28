@@ -1,5 +1,17 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DeloneSettings.html":[6,0,2,0,2,181],
+"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,1,0,1,200,4],
+"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,2,0,2,181,4],
+"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,1,0,1,200,1],
+"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,2,0,2,181,1],
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,1,0,1,200,3],
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,2,181,3],
+"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,200,5],
+"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,2,181,5],
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,200,0],
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,2,181,0],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,200,2],
 "structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,2,181,2],
 "structMR_1_1DenoiseViaNormalsSettings.html":[6,0,0,20,365],
 "structMR_1_1DenseBox.html":[6,0,0,0,15],
@@ -237,17 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1Graph_1_1EndVertices.html":[6,0,0,20,256],
 "structMR_1_1GridSettings.html":[6,0,0,20,259],
 "structMR_1_1GridToMeshSettings.html":[6,0,0,20,858],
-"structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0],
-"structMR_1_1Heap_1_1Element.html":[6,0,0,20,332,0],
-"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1],
-"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,20,332,0,1],
-"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,3,7,0,0],
-"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,20,332,0,0],
-"structMR_1_1HoleEdgePoint.html":[6,0,0,20,598],
-"structMR_1_1HoleFillPlan.html":[6,0,0,9,3,3],
-"structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9":[6,0,0,9,3,3,1],
-"structMR_1_1HoleFillPlan.html#a7c843d95baaaeb4979c70aecb08e6370":[6,0,0,9,3,3,0],
-"structMR_1_1ICPGroupPair.html":[6,0,0,20,355],
-"structMR_1_1ICPGroupPairs.html":[6,0,0,20,356],
-"structMR_1_1ICPPairData.html":[6,0,0,20,262]
+"structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0]
 };

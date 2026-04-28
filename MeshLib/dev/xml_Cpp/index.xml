@@ -1963,6 +1963,7 @@
     <member refid="group__GeneralGroup_1ga967c2d6969b21a91b073cea0112134e8" kind="variable"><name>config_</name></member>
     <member refid="group__GeneralGroup_1ga67455501f76e21a4f415d860c1ce9991" kind="variable"><name>filePath_</name></member>
     <member refid="group__GeneralGroup_1gafa98e70c188af9b2cc8eb680fe4dd230" kind="variable"><name>loggerHandle_</name></member>
+    <member refid="group__GeneralGroup_1ga8fdcee123f4dd11bb083a3c996f96683" kind="variable"><name>reportedMissingKeys_</name></member>
     <member refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kind="function"><name>Config</name></member>
     <member refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" kind="function"><name>operator=</name></member>
     <member refid="group__GeneralGroup_1gad657373f26b8e6cf769236dbc021d204" kind="function"><name>reset</name></member>
@@ -1971,6 +1972,9 @@
     <member refid="group__GeneralGroup_1gae361cef096e6cf5edfd6bc0053e1a6fa" kind="function"><name>hasBool</name></member>
     <member refid="group__GeneralGroup_1gaf73f7fc092f74733043fc5b15d9d5617" kind="function"><name>getBool</name></member>
     <member refid="group__GeneralGroup_1ga3a83d85ef3882393beee98de2863132d" kind="function"><name>setBool</name></member>
+    <member refid="group__GeneralGroup_1gacbdb93228d8167624922fd5d64de22b8" kind="function"><name>hasInt</name></member>
+    <member refid="group__GeneralGroup_1ga8df9bcd6b67c10e48a89768229cdf13e" kind="function"><name>getInt</name></member>
+    <member refid="group__GeneralGroup_1ga691ef8386728c865327bf788a397e006" kind="function"><name>setInt</name></member>
     <member refid="group__GeneralGroup_1ga7ad138da4a877ad215275a96a5fff3ac" kind="function"><name>hasColor</name></member>
     <member refid="group__GeneralGroup_1ga7ee2d2f440abda8ac1dfb3ef79a80b19" kind="function"><name>getColor</name></member>
     <member refid="group__GeneralGroup_1ga6c5c3b4cbd34f0fc1bbf3fa5f9ba0b61" kind="function"><name>setColor</name></member>
@@ -12553,6 +12557,7 @@
     <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
     <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
     <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
+    <member refid="group__GeneralGroup_1ga4a4a6cdd7bb35a234274fe59ecc9c0ee" kind="function"><name>drawMcpTab_</name></member>
     <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" kind="function"><name>drawLanguageSelector_</name></member>
     <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
     <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
@@ -12565,6 +12570,7 @@
     <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" kind="function"><name>drawMouseSceneControlsSettings_</name></member>
     <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" kind="function"><name>drawSpaceMouseSettings_</name></member>
     <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" kind="function"><name>drawTouchpadSettings_</name></member>
+    <member refid="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" kind="function"><name>drawMcpSettings_</name></member>
     <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" kind="function"><name>drawMruInnerFormats_</name></member>
     <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" kind="function"><name>drawGlobalSettings_</name></member>
     <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" kind="function"><name>drawCustomSettings_</name></member>
@@ -16093,6 +16099,13 @@
     <member refid="namespaceMR_1_1McpGateway_1a513db1d1766357ace9b7e93446e3a1d1" kind="function"><name>spawnDetached</name></member>
     <member refid="namespaceMR_1_1McpGateway_1a9ff5364896665cd137e921006696f4ad" kind="function"><name>spawnAndWait</name></member>
   </compound>
+  <compound refid="namespaceMR_1_1McpSettings" kind="namespace"><name>MR::McpSettings</name>
+    <member refid="namespaceMR_1_1McpSettings_1aa9cc920ef11f9c709d6bca72ebd0def4" kind="function"><name>getPort</name></member>
+    <member refid="namespaceMR_1_1McpSettings_1ae113c4a8d7ac3b45e348fefa7573b57b" kind="function"><name>setPort</name></member>
+    <member refid="namespaceMR_1_1McpSettings_1a43cbff85da43c1a0c65fc3652c084a99" kind="function"><name>getEnableByDefault</name></member>
+    <member refid="namespaceMR_1_1McpSettings_1ab767d0637775e980afcc3ab39cd9fc16" kind="function"><name>setEnableByDefault</name></member>
+    <member refid="namespaceMR_1_1McpSettings_1a682b418dc80be930d61e6955156d7c45" kind="function"><name>applyToServer</name></member>
+  </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
     <member refid="group__GeneralGroup_1gae702434806379331a4d7a6e4bf12a859" kind="function"><name>duplicateNonManifoldVertices</name></member>
@@ -16491,7 +16504,7 @@
     <member refid="group__GeneralGroup_1ga34c3f1871780efe66e47bcc052cefd3d" kind="function"><name>getDefaultStep</name></member>
     <member refid="group__GeneralGroup_1ga7ede0f8f76cc959c7be6cb81ee9174f8" kind="function"><name>slider</name></member>
     <member refid="group__GeneralGroup_1ga7164936f126dc1678e8ee461b926adec" kind="function"><name>drag</name></member>
-    <member refid="group__GeneralGroup_1gabbed04ca5643f08d7b41e56fec98ee8b" kind="function"><name>input</name></member>
+    <member refid="group__GeneralGroup_1ga20c859724d4c3797dfd73f020904c2d4" kind="function"><name>input</name></member>
     <member refid="group__GeneralGroup_1gaa1fd1e704f1ff98b82cc4c98e452f57a" kind="function"><name>readOnlyValue</name></member>
     <member refid="group__GeneralGroup_1ga7e2c992cf1725ac8f53f110fdb0f5541" kind="function"><name>plusMinusGeneric</name></member>
     <member refid="group__GeneralGroup_1ga59568041afcf5034cb6871916598a340" kind="function"><name>dragPlusMinus</name></member>
@@ -17933,6 +17946,8 @@
   <compound refid="MRMarkedVoxelSlice_8h" kind="file"><name>MRMarkedVoxelSlice.h</name>
   </compound>
   <compound refid="MRMcpCommon_8h" kind="file"><name>MRMcpCommon.h</name>
+  </compound>
+  <compound refid="MRMcpSettings_8h" kind="file"><name>MRMcpSettings.h</name>
   </compound>
   <compound refid="MRMeshBoundarySelectionWidget_8h" kind="file"><name>MRMeshBoundarySelectionWidget.h</name>
   </compound>
@@ -20579,6 +20594,7 @@
     <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552baa1595abbb4c3a326636dd178757cd6c1" kind="enumvalue"><name>Control</name></member>
     <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba8d6f3510a5cca2c1281c9c6afe7e0da2" kind="enumvalue"><name>Viewport</name></member>
     <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba87d240c3f234e32f9143dd0446de66d8" kind="enumvalue"><name>MeasurementUnits</name></member>
+    <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba636c59d7bf7741f3a0773c7a8104b245" kind="enumvalue"><name>Mcp</name></member>
     <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552ba98f770b0af18ca763421bac22b4b6805" kind="enumvalue"><name>Features</name></member>
     <member refid="group__GeneralGroup_1ggafeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="group__GeneralGroup_1gab498d9b4852811b8095a89935081126f" kind="enum"><name>GlobalBasisScaleMode</name></member>
@@ -21456,6 +21472,7 @@
     <member refid="group__GeneralGroup_1ga967c2d6969b21a91b073cea0112134e8" kind="variable"><name>config_</name></member>
     <member refid="group__GeneralGroup_1ga67455501f76e21a4f415d860c1ce9991" kind="variable"><name>filePath_</name></member>
     <member refid="group__GeneralGroup_1gafa98e70c188af9b2cc8eb680fe4dd230" kind="variable"><name>loggerHandle_</name></member>
+    <member refid="group__GeneralGroup_1ga8fdcee123f4dd11bb083a3c996f96683" kind="variable"><name>reportedMissingKeys_</name></member>
     <member refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" kind="variable"><name>splitEdges</name></member>
     <member refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" kind="variable"><name>map</name></member>
     <member refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" kind="variable"><name>sortData</name></member>
@@ -25233,6 +25250,9 @@
     <member refid="group__GeneralGroup_1gae361cef096e6cf5edfd6bc0053e1a6fa" kind="function"><name>hasBool</name></member>
     <member refid="group__GeneralGroup_1gaf73f7fc092f74733043fc5b15d9d5617" kind="function"><name>getBool</name></member>
     <member refid="group__GeneralGroup_1ga3a83d85ef3882393beee98de2863132d" kind="function"><name>setBool</name></member>
+    <member refid="group__GeneralGroup_1gacbdb93228d8167624922fd5d64de22b8" kind="function"><name>hasInt</name></member>
+    <member refid="group__GeneralGroup_1ga8df9bcd6b67c10e48a89768229cdf13e" kind="function"><name>getInt</name></member>
+    <member refid="group__GeneralGroup_1ga691ef8386728c865327bf788a397e006" kind="function"><name>setInt</name></member>
     <member refid="group__GeneralGroup_1ga7ad138da4a877ad215275a96a5fff3ac" kind="function"><name>hasColor</name></member>
     <member refid="group__GeneralGroup_1ga7ee2d2f440abda8ac1dfb3ef79a80b19" kind="function"><name>getColor</name></member>
     <member refid="group__GeneralGroup_1ga6c5c3b4cbd34f0fc1bbf3fa5f9ba0b61" kind="function"><name>setColor</name></member>
@@ -29730,7 +29750,7 @@
     <member refid="group__GeneralGroup_1ga34c3f1871780efe66e47bcc052cefd3d" kind="function"><name>getDefaultStep</name></member>
     <member refid="group__GeneralGroup_1ga7ede0f8f76cc959c7be6cb81ee9174f8" kind="function"><name>slider</name></member>
     <member refid="group__GeneralGroup_1ga7164936f126dc1678e8ee461b926adec" kind="function"><name>drag</name></member>
-    <member refid="group__GeneralGroup_1gabbed04ca5643f08d7b41e56fec98ee8b" kind="function"><name>input</name></member>
+    <member refid="group__GeneralGroup_1ga20c859724d4c3797dfd73f020904c2d4" kind="function"><name>input</name></member>
     <member refid="group__GeneralGroup_1gaa1fd1e704f1ff98b82cc4c98e452f57a" kind="function"><name>readOnlyValue</name></member>
     <member refid="group__GeneralGroup_1ga7e2c992cf1725ac8f53f110fdb0f5541" kind="function"><name>plusMinusGeneric</name></member>
     <member refid="group__GeneralGroup_1ga59568041afcf5034cb6871916598a340" kind="function"><name>dragPlusMinus</name></member>
@@ -30161,6 +30181,7 @@
     <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
     <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
     <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
+    <member refid="group__GeneralGroup_1ga4a4a6cdd7bb35a234274fe59ecc9c0ee" kind="function"><name>drawMcpTab_</name></member>
     <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" kind="function"><name>drawLanguageSelector_</name></member>
     <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
     <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
@@ -30173,6 +30194,7 @@
     <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" kind="function"><name>drawMouseSceneControlsSettings_</name></member>
     <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" kind="function"><name>drawSpaceMouseSettings_</name></member>
     <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" kind="function"><name>drawTouchpadSettings_</name></member>
+    <member refid="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" kind="function"><name>drawMcpSettings_</name></member>
     <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" kind="function"><name>drawMruInnerFormats_</name></member>
     <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" kind="function"><name>drawGlobalSettings_</name></member>
     <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" kind="function"><name>drawCustomSettings_</name></member>
