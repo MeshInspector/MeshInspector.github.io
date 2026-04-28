@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Nesting_1_1Nesting3mfParams.html":[6,0,0,20,86],
+"structMR_1_1Nesting_1_1NestingBaseParams.html":[6,0,0,20,363],
+"structMR_1_1Nesting_1_1NestingResult.html":[6,0,0,20,361],
+"structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[6,0,0,20,849],
 "structMR_1_1Nesting_1_1TetrisDensifyParams.html":[6,0,0,20,850],
 "structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
 "structMR_1_1NewEdgesMap.html":[6,0,0,20,169],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1PreciseVertCoords2.html":[6,0,0,20,442],
 "structMR_1_1ProgressInterrupter.html":[6,0,0,20,861],
 "structMR_1_1ProjectAttributeParams.html":[6,0,0,20,449],
-"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[6,0,0,20,49],
-"structMR_1_1PythonExport_1_1ModuleData.html":[6,0,0,20,520],
-"structMR_1_1PythonFunctionAdder.html":[6,0,0,20,521],
-"structMR_1_1QuadraticForm.html":[6,0,0,0,20],
-"structMR_1_1QuadraticForm.html":[6,0,0,20,450]
+"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[6,0,0,20,49]
 };

@@ -10292,6 +10292,7 @@
   </compound>
   <compound refid="classMR_1_1Mcp_1_1Server" kind="class"><name>MR::Mcp::Server</name>
     <member refid="classMR_1_1Mcp_1_1Server_1a164bc1306aece3be615549925d7c373e" kind="typedef"><name>ToolFunc</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" kind="typedef"><name>ToolValidator</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aeac424a5f5999bfab01e107a3bf4e518" kind="variable"><name>state_</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aefa602d0cb3430ca900aa93f14dbbec5" kind="variable"><name>params_</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1a49208ffdadda99d167e31e81d612aeaf" kind="function"><name>Server</name></member>
@@ -10303,6 +10304,7 @@
     <member refid="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" kind="function"><name>setParams</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" kind="function"><name>isRunning</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1ae6008d565f2f5a971a3694f196f7ebe9" kind="function"><name>setRunning</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" kind="function"><name>setToolValidator</name></member>
   </compound>
   <compound refid="classMR_1_1SetBitIteratorT" kind="class"><name>MR::SetBitIteratorT</name>
     <member refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kind="typedef"><name>IndexType</name></member>
