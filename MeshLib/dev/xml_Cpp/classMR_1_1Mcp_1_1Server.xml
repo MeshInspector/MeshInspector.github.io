@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="140" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="140" bodyend="-1"/>
+        <location file="MRMcp/MRMcp.h" line="143" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" prot="public" static="no">
         <type>std::function&lt; <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(const std::string &amp;toolId)&gt;</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="168" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="168" bodyend="-1"/>
+        <location file="MRMcp/MRMcp.h" line="185" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="185" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="175" column="21" bodyfile="MRMcp/MRMcp.h" bodystart="175" bodyend="-1"/>
+        <location file="MRMcp/MRMcp.h" line="192" column="21" bodyfile="MRMcp/MRMcp.h" bodystart="192" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Mcp_1_1Server_1aefa602d0cb3430ca900aa93f14dbbec5" prot="private" static="no" mutable="no">
         <type><ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="177" column="12" bodyfile="MRMcp/MRMcp.h" bodystart="177" bodyend="-1"/>
+        <location file="MRMcp/MRMcp.h" line="194" column="12" bodyfile="MRMcp/MRMcp.h" bodystart="194" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="134" column="15"/>
+        <location file="MRMcp/MRMcp.h" line="137" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a21adb00773f87573f304159088264091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="135" column="15"/>
+        <location file="MRMcp/MRMcp.h" line="138" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a385c1838112eca9f739077cd5faa037b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API <ref refid="classMR_1_1Mcp_1_1Server" kindref="compound">Server</ref> &amp;</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="136" column="22"/>
+        <location file="MRMcp/MRMcp.h" line="139" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a650af3bd0595e9dbd5c6d93d8399688e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="137" column="15"/>
+        <location file="MRMcp/MRMcp.h" line="140" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a106b80d97449274a1de2bf8d0b3b1d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API bool</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="152" column="20"/>
+        <location file="MRMcp/MRMcp.h" line="155" column="20"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a41546549ccdb8ff6e04c5940af5c450d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API const <ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref> &amp;</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="154" column="29"/>
+        <location file="MRMcp/MRMcp.h" line="157" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API void</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="157" column="20"/>
+        <location file="MRMcp/MRMcp.h" line="160" column="20"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API bool</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="159" column="21"/>
+        <location file="MRMcp/MRMcp.h" line="162" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1ae6008d565f2f5a971a3694f196f7ebe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API bool</type>
@@ -274,7 +274,60 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="162" column="20"/>
+        <location file="MRMcp/MRMcp.h" line="165" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1aaf379de21838d3f144e6dde8ce9936ba" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API nlohmann::json</type>
+        <definition>MRMCP_API nlohmann::json MR::Mcp::Server::dumpToolsAsJson</definition>
+        <argsstring>() const</argsstring>
+        <name>dumpToolsAsJson</name>
+        <qualifiedname>MR::Mcp::Server::dumpToolsAsJson</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the list of currently-registered tools as a JSON array of MCP <computeroutput>tool</computeroutput> entries (<computeroutput>name</computeroutput>, optional <computeroutput>title</computeroutput>/<computeroutput>description</computeroutput>, <computeroutput>inputSchema</computeroutput>, <computeroutput>outputSchema</computeroutput>). Suitable for splicing into a <computeroutput>tools/list</computeroutput> response or persisting to a cache file. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="170" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a31cafb321b0501c06c702510a430af9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRMCP_API Expected&lt; void &gt; MR::Mcp::Server::saveToolsCache</definition>
+        <argsstring>(const std::filesystem::path &amp;path) const</argsstring>
+        <name>saveToolsCache</name>
+        <qualifiedname>MR::Mcp::Server::saveToolsCache</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Atomically writes <computeroutput>{ &quot;tools&quot;: <ref refid="classMR_1_1Mcp_1_1Server_1aaf379de21838d3f144e6dde8ce9936ba" kindref="member">dumpToolsAsJson()</ref> }</computeroutput> to <computeroutput>path</computeroutput>, creating parent directories as needed. Returns an error message on I/O failure. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="174" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1ae17ea1c96dec452be0511fd596de0b3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API void</type>
+        <definition>MRMCP_API void MR::Mcp::Server::processCmdArgs</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;commandArgs) const</argsstring>
+        <name>processCmdArgs</name>
+        <qualifiedname>MR::Mcp::Server::processCmdArgs</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>commandArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Processes MCP-related command-line arguments. Currently only <computeroutput>-mcpDumpFile &lt;path&gt;</computeroutput>, which writes the tool cache to that path. Otherwise a no-op. Intended to be called once during MCP setup with the viewer&apos;s own launch arguments, after every <computeroutput>MR_ON_INIT</computeroutput> tool registration has run. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="180" column="20"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRMCP_API void</type>
@@ -292,7 +345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="169" column="20"/>
+        <location file="MRMcp/MRMcp.h" line="186" column="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -300,13 +353,16 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMcp/MRMcp.h" line="119" column="1" bodyfile="MRMcp/MRMcp.h" bodystart="120" bodyend="178"/>
+    <location file="MRMcp/MRMcp.h" line="122" column="1" bodyfile="MRMcp/MRMcp.h" bodystart="123" bodyend="195"/>
     <listofallmembers>
       <member refid="classMR_1_1Mcp_1_1Server_1a106b80d97449274a1de2bf8d0b3b1d52" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>addTool</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1aaf379de21838d3f144e6dde8ce9936ba" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>dumpToolsAsJson</name></member>
       <member refid="classMR_1_1Mcp_1_1Server_1a41546549ccdb8ff6e04c5940af5c450d" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>getParams</name></member>
       <member refid="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>isRunning</name></member>
       <member refid="classMR_1_1Mcp_1_1Server_1a385c1838112eca9f739077cd5faa037b" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>operator=</name></member>
       <member refid="classMR_1_1Mcp_1_1Server_1aefa602d0cb3430ca900aa93f14dbbec5" prot="private" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>params_</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1ae17ea1c96dec452be0511fd596de0b3d" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>processCmdArgs</name></member>
+      <member refid="classMR_1_1Mcp_1_1Server_1a31cafb321b0501c06c702510a430af9b" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>saveToolsCache</name></member>
       <member refid="classMR_1_1Mcp_1_1Server_1a49208ffdadda99d167e31e81d612aeaf" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>Server</name></member>
       <member refid="classMR_1_1Mcp_1_1Server_1a21adb00773f87573f304159088264091" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>Server</name></member>
       <member refid="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" prot="public" virt="non-virtual"><scope>MR::Mcp::Server</scope><name>setParams</name></member>

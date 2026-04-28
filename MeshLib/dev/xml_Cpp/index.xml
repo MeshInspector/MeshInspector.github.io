@@ -2001,6 +2001,15 @@
     <member refid="group__GeneralGroup_1ga172af80d129ecab54d4c310e812523a5" kind="variable"><name>home</name></member>
     <member refid="group__GeneralGroup_1ga6309e26a08ee1df3fe6bb514aa84cf58" kind="variable"><name>argv</name></member>
   </compound>
+  <compound refid="structMR_1_1McpGateway_1_1Config" kind="struct"><name>MR::McpGateway::Config</name>
+    <member refid="structMR_1_1McpGateway_1_1Config_1a6e4335a7dd72b1d4fb00d536324cc1db" kind="variable"><name>targetUrl</name></member>
+    <member refid="structMR_1_1McpGateway_1_1Config_1a743ff58ef28a77d569366aeaadba67a6" kind="variable"><name>ssePath</name></member>
+    <member refid="structMR_1_1McpGateway_1_1Config_1a3c192ccbebdacb33bf3761707793a9a0" kind="variable"><name>messagesPath</name></member>
+    <member refid="structMR_1_1McpGateway_1_1Config_1a49aa82c55fbab8538bc44169ebfa1209" kind="variable"><name>launchCommand</name></member>
+    <member refid="structMR_1_1McpGateway_1_1Config_1a0a4b77ae0f972bb301c60f404c907ec3" kind="variable"><name>launchArgs</name></member>
+    <member refid="structMR_1_1McpGateway_1_1Config_1abf13345caaa67573350f7cce650d3e96" kind="variable"><name>launchTimeout</name></member>
+    <member refid="structMR_1_1McpGateway_1_1Config_1a65b3ebc668ef687443ff0f3019738d92" kind="variable"><name>toolsCacheNamespace</name></member>
+  </compound>
   <compound refid="structMR_1_1ConnectionHolder" kind="struct"><name>MR::ConnectionHolder</name>
     <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" kind="variable"><name>connection_</name></member>
     <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" kind="function"><name>~ConnectionHolder</name></member>
@@ -3987,6 +3996,10 @@
     <member refid="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" kind="variable"><name>items</name></member>
     <member refid="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" kind="variable"><name>numTris</name></member>
   </compound>
+  <compound refid="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort" kind="struct"><name>MR::McpGateway::MLClientTransport::HostPort</name>
+    <member refid="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort_1af26bbd54cf227c98537bd1d44df80a77" kind="variable"><name>host</name></member>
+    <member refid="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort_1a976706a973d5ce36091c13b3db26aa2a" kind="variable"><name>port</name></member>
+  </compound>
   <compound refid="classMR_1_1Nesting_1_1IBoxNestingPriority" kind="class"><name>MR::Nesting::IBoxNestingPriority</name>
     <member refid="group__GeneralGroup_1gaa8ec2c72b6d4a3d088cc140e2771dbe1" kind="function"><name>~IBoxNestingPriority</name></member>
     <member refid="group__GeneralGroup_1ga8850f5538a39af635ba8bcae3a4cae75" kind="function"><name>init</name></member>
@@ -5887,6 +5900,21 @@
     <member refid="group__GeneralGroup_1gaecc5a502b2649c84a49a95f5429ba1cd" kind="function"><name>include</name></member>
     <member refid="group__GeneralGroup_1ga3226eda61fc8b635dd6e389d6919fdfc" kind="function"><name>include</name></member>
     <member refid="group__GeneralGroup_1ga3e1efd0776560a34274a833ea2c92089" kind="function"><name>include</name></member>
+  </compound>
+  <compound refid="classMR_1_1McpGateway_1_1MLClientTransport" kind="class"><name>MR::McpGateway::MLClientTransport</name>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a378f102208dc0ddf48cd75f044c04e6c" kind="variable"><name>httpForSse_</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a21098d701583dec9261037ca1ef88d9f" kind="variable"><name>sse_</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a329f7b71c6fb723f38dbe5e7167eca67" kind="variable"><name>httpForPost_</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a7dc9e8f5969e7c5313d942c4134df706" kind="variable"><name>messagesPath_</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1ae23e5aacace062d4d867a4b0f37b03b3" kind="variable"><name>sessionMutex_</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a44cdbbd2aae66b218149135741693e37" kind="variable"><name>sessionCv_</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a623336af85b9efc6dd3d4988c8f28509" kind="variable"><name>sessionId_</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a129915e5016964870c79b5635c58ae5e" kind="variable"><name>nextId_</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a49af46d65dd036a33496818f57e0eb79" kind="function"><name>MLClientTransport</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a6c89cad315ae3de8b616f8d6fbcdecd9" kind="function"><name>~MLClientTransport</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a11cfe1a06cc5ac1d34fb4d52b5482136" kind="function"><name>request</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a802ecd19ffc318d07615c4c2d95a890e" kind="function"><name>parseHostPort</name></member>
+    <member refid="classMR_1_1McpGateway_1_1MLClientTransport_1a7dc85f847853093c64aa5255abde22d9" kind="function"><name>MLClientTransport</name></member>
   </compound>
   <compound refid="classMR_1_1ModalDialog" kind="class"><name>MR::ModalDialog</name>
     <member refid="group__GeneralGroup_1ga2811055d3af6c5927e72be4d41ff504e" kind="variable"><name>label_</name></member>
@@ -10304,6 +10332,9 @@
     <member refid="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" kind="function"><name>setParams</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" kind="function"><name>isRunning</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1ae6008d565f2f5a971a3694f196f7ebe9" kind="function"><name>setRunning</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1aaf379de21838d3f144e6dde8ce9936ba" kind="function"><name>dumpToolsAsJson</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a31cafb321b0501c06c702510a430af9b" kind="function"><name>saveToolsCache</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1ae17ea1c96dec452be0511fd596de0b3d" kind="function"><name>processCmdArgs</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" kind="function"><name>setToolValidator</name></member>
   </compound>
   <compound refid="classMR_1_1SetBitIteratorT" kind="class"><name>MR::SetBitIteratorT</name>
@@ -13439,6 +13470,10 @@
   </compound>
   <compound refid="namespaceboost_1_1signals2" kind="namespace"><name>boost::signals2</name>
   </compound>
+  <compound refid="namespacefastmcpp" kind="namespace"><name>fastmcpp</name>
+  </compound>
+  <compound refid="namespacefastmcpp_1_1client" kind="namespace"><name>fastmcpp::client</name>
+  </compound>
   <compound refid="namespacefmt" kind="namespace"><name>fmt</name>
   </compound>
   <compound refid="namespaceImGui" kind="namespace"><name>ImGui</name>
@@ -16047,6 +16082,17 @@
   </compound>
   <compound refid="namespaceMR_1_1Mcp_1_1Schema" kind="namespace"><name>MR::Mcp::Schema</name>
   </compound>
+  <compound refid="namespaceMR_1_1McpGateway" kind="namespace"><name>MR::McpGateway</name>
+    <member refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" kind="function"><name>getBackendAlive</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" kind="function"><name>probeBackendAlive</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" kind="function"><name>probeAndTrackBackend</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" kind="function"><name>registerLocalTools</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a492feeb41d07c965ac23ee0076d73f14" kind="function"><name>getCachedTools</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a7233b4a48f42fac23e3288ae84c19ed8" kind="function"><name>ensureFreshCache</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1af9483605d5022a0931882af143fee33e" kind="function"><name>loadCachedTools</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a513db1d1766357ace9b7e93446e3a1d1" kind="function"><name>spawnDetached</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a9ff5364896665cd137e921006696f4ad" kind="function"><name>spawnAndWait</name></member>
+  </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
     <member refid="group__GeneralGroup_1gae702434806379331a4d7a6e4bf12a859" kind="function"><name>duplicateNonManifoldVertices</name></member>
@@ -16648,10 +16694,6 @@
   </compound>
   <compound refid="MRRibbonSceneButtons_8h" kind="file"><name>MRRibbonSceneButtons.h</name>
   </compound>
-  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
   <compound refid="MRBinaryOperationsPlugin_8h" kind="file"><name>MRBinaryOperationsPlugin.h</name>
   </compound>
   <compound refid="MROpenRawVoxelsPlugin_8h" kind="file"><name>MROpenRawVoxelsPlugin.h</name>
@@ -16686,6 +16728,16 @@
   </compound>
   <compound refid="MREmbeddedPython_8h" kind="file"><name>MREmbeddedPython.h</name>
   </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
+  </compound>
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
@@ -16712,17 +16764,23 @@
   </compound>
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
   </compound>
+  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRFastmcpp_8h" kind="file"><name>MRFastmcpp.h</name>
+  </compound>
   <compound refid="MRMcp_8h" kind="file"><name>MRMcp.h</name>
   </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  <compound refid="MRMCPGatewayBackend_8h" kind="file"><name>MRMCPGatewayBackend.h</name>
   </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  <compound refid="MRMCPGatewayCache_8h" kind="file"><name>MRMCPGatewayCache.h</name>
   </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  <compound refid="MRMCPGatewayConfig_8h" kind="file"><name>MRMCPGatewayConfig.h</name>
   </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  <compound refid="MRMCPGatewayMlTransport_8h" kind="file"><name>MRMCPGatewayMlTransport.h</name>
   </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
+  <compound refid="MRMCPGatewaySpawn_8h" kind="file"><name>MRMCPGatewaySpawn.h</name>
   </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>
@@ -17679,10 +17737,6 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -17708,10 +17762,6 @@
   <compound refid="MRXfBasedCache_8h" kind="file"><name>MRXfBasedCache.h</name>
   </compound>
   <compound refid="MRZip_8h" kind="file"><name>MRZip.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRPythonNumpy_8h" kind="file"><name>MRPythonNumpy.h</name>
     <member refid="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" kind="define"><name>MRMESHNUMPY_PARENT_MODULE_NAME</name></member>
@@ -17992,6 +18042,10 @@
   </compound>
   <compound refid="MRSceneCache_8h" kind="file"><name>MRSceneCache.h</name>
   </compound>
+  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
   <compound refid="MRSceneObjectsListDrawer_8h" kind="file"><name>MRSceneObjectsListDrawer.h</name>
   </compound>
   <compound refid="MRSceneOperations_8h" kind="file"><name>MRSceneOperations.h</name>
@@ -18087,6 +18141,10 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
@@ -30674,6 +30732,8 @@
   <compound refid="dir_30f37b35737589035d1f84e9f207764c" kind="dir"><name>MRIOExtras</name>
   </compound>
   <compound refid="dir_c4ac7cffb61691f4da7a791af467628a" kind="dir"><name>MRMcp</name>
+  </compound>
+  <compound refid="dir_1b5fde6d84c504af4a8aa0c6b6985b0f" kind="dir"><name>MRMCPGateway</name>
   </compound>
   <compound refid="dir_0cc3bc4bf87f190d6580fb811ae42f71" kind="dir"><name>MRMesh</name>
   </compound>

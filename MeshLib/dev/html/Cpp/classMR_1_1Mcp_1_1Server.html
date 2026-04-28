@@ -173,6 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1cf74440a5bc6fd9f0ec9d45e2cc9eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">This restarts the server if necessary.  <br /></td></tr>
 <tr class="memitem:aeeedc6adfa01a6470b40aa229a8f6522" id="r_aeeedc6adfa01a6470b40aa229a8f6522"><td class="memItemLeft" align="right" valign="top">MRMCP_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeedc6adfa01a6470b40aa229a8f6522">isRunning</a> () const</td></tr>
 <tr class="memitem:ae6008d565f2f5a971a3694f196f7ebe9" id="r_ae6008d565f2f5a971a3694f196f7ebe9"><td class="memItemLeft" align="right" valign="top">MRMCP_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6008d565f2f5a971a3694f196f7ebe9">setRunning</a> (bool enable)</td></tr>
+<tr class="memitem:aaf379de21838d3f144e6dde8ce9936ba" id="r_aaf379de21838d3f144e6dde8ce9936ba"><td class="memItemLeft" align="right" valign="top">MRMCP_API nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf379de21838d3f144e6dde8ce9936ba">dumpToolsAsJson</a> () const</td></tr>
+<tr class="memitem:a31cafb321b0501c06c702510a430af9b" id="r_a31cafb321b0501c06c702510a430af9b"><td class="memItemLeft" align="right" valign="top">MRMCP_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31cafb321b0501c06c702510a430af9b">saveToolsCache</a> (const std::filesystem::path &amp;path) const</td></tr>
+<tr class="memitem:ae17ea1c96dec452be0511fd596de0b3d" id="r_ae17ea1c96dec452be0511fd596de0b3d"><td class="memItemLeft" align="right" valign="top">MRMCP_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae17ea1c96dec452be0511fd596de0b3d">processCmdArgs</a> (const std::vector&lt; std::string &gt; &amp;commandArgs) const</td></tr>
 <tr class="memitem:a41d913fae94d9444c77104e52f2a2200" id="r_a41d913fae94d9444c77104e52f2a2200"><td class="memItemLeft" align="right" valign="top">MRMCP_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d913fae94d9444c77104e52f2a2200">setToolValidator</a> (<a class="el" href="#a2f9caba495b9ba403409681a6d39c602">ToolValidator</a> validator)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -313,6 +316,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aaf379de21838d3f144e6dde8ce9936ba" name="aaf379de21838d3f144e6dde8ce9936ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf379de21838d3f144e6dde8ce9936ba">&#9670;&#160;</a></span>dumpToolsAsJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRMCP_API nlohmann::json MR::Mcp::Server::dumpToolsAsJson </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the list of currently-registered tools as a JSON array of MCP <span class="tt">tool</span> entries (<span class="tt">name</span>, optional <span class="tt">title</span>/<span class="tt">description</span>, <span class="tt">inputSchema</span>, <span class="tt">outputSchema</span>). Suitable for splicing into a <span class="tt">tools/list</span> response or persisting to a cache file. </p>
+
+</div>
+</div>
 <a id="a41546549ccdb8ff6e04c5940af5c450d" name="a41546549ccdb8ff6e04c5940af5c450d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a41546549ccdb8ff6e04c5940af5c450d">&#9670;&#160;</a></span>getParams()</h2>
 
@@ -377,6 +406,42 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae17ea1c96dec452be0511fd596de0b3d" name="ae17ea1c96dec452be0511fd596de0b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae17ea1c96dec452be0511fd596de0b3d">&#9670;&#160;</a></span>processCmdArgs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRMCP_API void MR::Mcp::Server::processCmdArgs </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>commandArgs</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Processes MCP-related command-line arguments. Currently only <span class="tt">-mcpDumpFile &lt;path&gt;</span>, which writes the tool cache to that path. Otherwise a no-op. Intended to be called once during MCP setup with the viewer's own launch arguments, after every <span class="tt">MR_ON_INIT</span> tool registration has run. </p>
+
+</div>
+</div>
+<a id="a31cafb321b0501c06c702510a430af9b" name="a31cafb321b0501c06c702510a430af9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31cafb321b0501c06c702510a430af9b">&#9670;&#160;</a></span>saveToolsCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRMCP_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Mcp::Server::saveToolsCache </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Atomically writes <span class="tt">{ "tools": <a class="el" href="#aaf379de21838d3f144e6dde8ce9936ba">dumpToolsAsJson()</a> }</span> to <code class="param">path</code>, creating parent directories as needed. Returns an error message on I/O failure. </p>
 
 </div>
 </div>

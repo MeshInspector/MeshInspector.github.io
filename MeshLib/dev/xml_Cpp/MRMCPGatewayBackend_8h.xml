@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRMCPGatewayBackend_8h" kind="file" language="C++">
+    <compoundname>MRMCPGatewayBackend.h</compoundname>
+    <includes refid="MRFastmcpp_8h" local="yes">MRMcp/MRFastmcpp.h</includes>
+    <includes local="no">atomic</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMCPGateway/MRMCPGatewayBackend.h</label>
+        <link refid="MRMCPGatewayBackend_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMcp/MRFastmcpp.h</label>
+        <link refid="MRFastmcpp_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>atomic</label>
+      </node>
+      <node id="3">
+        <label>fastmcpp.hpp</label>
+      </node>
+      <node id="7">
+        <label>fastmcpp/client/transports.hpp</label>
+      </node>
+      <node id="8">
+        <label>fastmcpp/mcp/handler.hpp</label>
+      </node>
+      <node id="4">
+        <label>fastmcpp/proxy.hpp</label>
+      </node>
+      <node id="5">
+        <label>fastmcpp/server/sse_server.hpp</label>
+      </node>
+      <node id="6">
+        <label>fastmcpp/server/stdio_server.hpp</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1McpGateway">MR::McpGateway</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFastmcpp_8h" kindref="compound">MRMcp/MRFastmcpp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;atomic&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespaceMR_1_1McpGateway" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1McpGateway" kindref="compound">MR::McpGateway</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" refkind="member"><highlight class="normal">std::atomic&lt;bool&gt;&amp;<sp/><ref refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" kindref="member">getBackendAlive</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" kindref="member">probeBackendAlive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>targetUrl<sp/>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" kindref="member">probeAndTrackBackend</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>targetUrl<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" kindref="member">registerLocalTools</ref>(<sp/>fastmcpp::ProxyApp&amp;<sp/>proxy,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref>&amp;<sp/>cfg<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRMCPGateway/MRMCPGatewayBackend.h"/>
+  </compounddef>
+</doxygen>

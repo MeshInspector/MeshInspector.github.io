@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRMCPGatewayConfig_8h" kind="file" language="C++">
+    <compoundname>MRMCPGatewayConfig.h</compoundname>
+    <includes local="no">chrono</includes>
+    <includes local="no">filesystem</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMCPGateway/MRMCPGatewayConfig.h</label>
+        <link refid="MRMCPGatewayConfig_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>chrono</label>
+      </node>
+      <node id="3">
+        <label>filesystem</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1McpGateway_1_1Config" prot="public">MR::McpGateway::Config</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1McpGateway">MR::McpGateway</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;chrono&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1McpGateway" kindref="compound">MR::McpGateway</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1McpGateway_1_1Config" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1McpGateway_1_1Config_1a6e4335a7dd72b1d4fb00d536324cc1db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1McpGateway_1_1Config_1a6e4335a7dd72b1d4fb00d536324cc1db" kindref="member">targetUrl</ref><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;http:///<sp/>127.0.0.1:7887&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1McpGateway_1_1Config_1a743ff58ef28a77d569366aeaadba67a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1McpGateway_1_1Config_1a743ff58ef28a77d569366aeaadba67a6" kindref="member">ssePath</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/sse&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1McpGateway_1_1Config_1a3c192ccbebdacb33bf3761707793a9a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1McpGateway_1_1Config_1a3c192ccbebdacb33bf3761707793a9a0" kindref="member">messagesPath</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/messages&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1McpGateway_1_1Config_1a49aa82c55fbab8538bc44169ebfa1209" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::filesystem::path<sp/><ref refid="structMR_1_1McpGateway_1_1Config_1a49aa82c55fbab8538bc44169ebfa1209" kindref="member">launchCommand</ref>;</highlight></codeline>
+<codeline lineno="20" refid="structMR_1_1McpGateway_1_1Config_1a0a4b77ae0f972bb301c60f404c907ec3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/><ref refid="structMR_1_1McpGateway_1_1Config_1a0a4b77ae0f972bb301c60f404c907ec3" kindref="member">launchArgs</ref>;</highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1McpGateway_1_1Config_1abf13345caaa67573350f7cce650d3e96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::chrono::seconds<sp/><ref refid="structMR_1_1McpGateway_1_1Config_1abf13345caaa67573350f7cce650d3e96" kindref="member">launchTimeout</ref>{<sp/>30<sp/>};</highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1McpGateway_1_1Config_1a65b3ebc668ef687443ff0f3019738d92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structMR_1_1McpGateway_1_1Config_1a65b3ebc668ef687443ff0f3019738d92" kindref="member">toolsCacheNamespace</ref>;<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRMCPGateway/MRMCPGatewayConfig.h"/>
+  </compounddef>
+</doxygen>

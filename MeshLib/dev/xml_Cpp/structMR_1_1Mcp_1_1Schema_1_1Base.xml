@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="22" column="24" bodyfile="MRMcp/MRMcp.h" bodystart="22" bodyend="-1"/>
+        <location file="MRMcp/MRMcp.h" line="25" column="24" bodyfile="MRMcp/MRMcp.h" bodystart="25" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="23" column="9" bodyfile="MRMcp/MRMcp.h" bodystart="23" bodyend="23"/>
+        <location file="MRMcp/MRMcp.h" line="26" column="9" bodyfile="MRMcp/MRMcp.h" bodystart="26" bodyend="26"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="26" column="31" bodyfile="MRMcp/MRMcp.h" bodystart="26" bodyend="26"/>
+        <location file="MRMcp/MRMcp.h" line="29" column="31" bodyfile="MRMcp/MRMcp.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Base_1a7d669690e5854d01f79f9d2da549f059" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
         <type>nlohmann::json &amp;&amp;</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMcp/MRMcp.h" line="27" column="25" bodyfile="MRMcp/MRMcp.h" bodystart="27" bodyend="27"/>
+        <location file="MRMcp/MRMcp.h" line="30" column="25" bodyfile="MRMcp/MRMcp.h" bodystart="30" bodyend="30"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -122,7 +122,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="MRMcp/MRMcp.h" line="19" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="20" bodyend="28"/>
+    <location file="MRMcp/MRMcp.h" line="22" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="23" bodyend="31"/>
     <listofallmembers>
       <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad07a4f144fbb2f526abdfdd787ebff20" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Base</scope><name>asJson</name></member>
       <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1a7d669690e5854d01f79f9d2da549f059" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Base</scope><name>asJson</name></member>
