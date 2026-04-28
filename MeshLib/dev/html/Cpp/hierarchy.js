@@ -223,6 +223,7 @@ var hierarchy =
     [ "MR::Features::Primitives::ConeSegment", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "MR::EmbeddedPython::Config", "structMR_1_1EmbeddedPython_1_1Config.html", null ],
+    [ "MR::McpGateway::Config", "structMR_1_1McpGateway_1_1Config.html", null ],
     [ "Connectables...", null, [
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener, PostFocusListener >", "structMR_1_1MultiListener.html", null ],
       [ "MR::MultiListener< Connectables... >", "structMR_1_1MultiListener.html", [
@@ -755,6 +756,9 @@ var hierarchy =
     [ "MR::IteratorRange< I >", "structMR_1_1IteratorRange.html", null ],
     [ "MR::ITransformControls", "classMR_1_1ITransformControls.html", [
       [ "MR::TransformControls", "classMR_1_1TransformControls.html", null ]
+    ] ],
+    [ "fastmcpp::client::ITransport", null, [
+      [ "MR::McpGateway::MLClientTransport", "classMR_1_1McpGateway_1_1MLClientTransport.html", null ]
     ] ],
     [ "MR::IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", [
       [ "MR::ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", null ]

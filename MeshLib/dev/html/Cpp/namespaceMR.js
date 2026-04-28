@@ -90,6 +90,7 @@ var namespaceMR =
     [ "LinesSave", "namespaceMR_1_1LinesSave.html", "namespaceMR_1_1LinesSave" ],
     [ "Locale", "namespaceMR_1_1Locale.html", "namespaceMR_1_1Locale" ],
     [ "Mcp", "namespaceMR_1_1Mcp.html", "namespaceMR_1_1Mcp" ],
+    [ "McpGateway", "namespaceMR_1_1McpGateway.html", "namespaceMR_1_1McpGateway" ],
     [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", "namespaceMR_1_1MeshBuilder" ],
     [ "MeshComponents", "namespaceMR_1_1MeshComponents.html", "namespaceMR_1_1MeshComponents" ],
     [ "MeshLoad", "namespaceMR_1_1MeshLoad.html", "namespaceMR_1_1MeshLoad" ],
