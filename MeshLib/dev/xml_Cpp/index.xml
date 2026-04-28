@@ -10292,6 +10292,7 @@
   </compound>
   <compound refid="classMR_1_1Mcp_1_1Server" kind="class"><name>MR::Mcp::Server</name>
     <member refid="classMR_1_1Mcp_1_1Server_1a164bc1306aece3be615549925d7c373e" kind="typedef"><name>ToolFunc</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" kind="typedef"><name>ToolValidator</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aeac424a5f5999bfab01e107a3bf4e518" kind="variable"><name>state_</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aefa602d0cb3430ca900aa93f14dbbec5" kind="variable"><name>params_</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1a49208ffdadda99d167e31e81d612aeaf" kind="function"><name>Server</name></member>
@@ -10303,6 +10304,7 @@
     <member refid="classMR_1_1Mcp_1_1Server_1a1cf74440a5bc6fd9f0ec9d45e2cc9eed" kind="function"><name>setParams</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aeeedc6adfa01a6470b40aa229a8f6522" kind="function"><name>isRunning</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1ae6008d565f2f5a971a3694f196f7ebe9" kind="function"><name>setRunning</name></member>
+    <member refid="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" kind="function"><name>setToolValidator</name></member>
   </compound>
   <compound refid="classMR_1_1SetBitIteratorT" kind="class"><name>MR::SetBitIteratorT</name>
     <member refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kind="typedef"><name>IndexType</name></member>
@@ -16646,6 +16648,10 @@
   </compound>
   <compound refid="MRRibbonSceneButtons_8h" kind="file"><name>MRRibbonSceneButtons.h</name>
   </compound>
+  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
+  </compound>
   <compound refid="MRBinaryOperationsPlugin_8h" kind="file"><name>MRBinaryOperationsPlugin.h</name>
   </compound>
   <compound refid="MROpenRawVoxelsPlugin_8h" kind="file"><name>MROpenRawVoxelsPlugin.h</name>
@@ -16680,16 +16686,6 @@
   </compound>
   <compound refid="MREmbeddedPython_8h" kind="file"><name>MREmbeddedPython.h</name>
   </compound>
-  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
-  </compound>
-  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
-  </compound>
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
@@ -16716,11 +16712,17 @@
   </compound>
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
   </compound>
-  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
-  </compound>
   <compound refid="MRMcp_8h" kind="file"><name>MRMcp.h</name>
+  </compound>
+  <compound refid="MRCuda_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRMesh_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRViewer_2config_8h" kind="file"><name>config.h</name>
+  </compound>
+  <compound refid="MRVoxels_2config_8h" kind="file"><name>config.h</name>
   </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>
@@ -17677,6 +17679,10 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -17702,6 +17708,10 @@
   <compound refid="MRXfBasedCache_8h" kind="file"><name>MRXfBasedCache.h</name>
   </compound>
   <compound refid="MRZip_8h" kind="file"><name>MRZip.h</name>
+  </compound>
+  <compound refid="MRIOExtras_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRZlib_8h" kind="file"><name>MRZlib.h</name>
   </compound>
   <compound refid="MRPythonNumpy_8h" kind="file"><name>MRPythonNumpy.h</name>
     <member refid="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" kind="define"><name>MRMESHNUMPY_PARENT_MODULE_NAME</name></member>
@@ -17982,10 +17992,6 @@
   </compound>
   <compound refid="MRSceneCache_8h" kind="file"><name>MRSceneCache.h</name>
   </compound>
-  <compound refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRSceneControlMenuItems_8h" kind="file"><name>MRSceneControlMenuItems.h</name>
-  </compound>
   <compound refid="MRSceneObjectsListDrawer_8h" kind="file"><name>MRSceneObjectsListDrawer.h</name>
   </compound>
   <compound refid="MRSceneOperations_8h" kind="file"><name>MRSceneOperations.h</name>
@@ -18081,10 +18087,6 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
-  </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
