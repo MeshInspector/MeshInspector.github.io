@@ -1,9 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"structMR_1_1Mesh.html#a5d8ec5f50ff1ff0e7434be26f918dca4":[6,0,0,7,1,47],
-"structMR_1_1Mesh.html#a5e0d8214a936202acedb4bdb99b87967":[6,0,0,7,1,29],
-"structMR_1_1Mesh.html#a5fab8c28312fa8c3ac69c2f63d345f20":[6,0,0,7,1,85],
-"structMR_1_1Mesh.html#a5fc4588bd1f8e778c3934885c793ffbb":[6,0,0,7,1,38],
 "structMR_1_1Mesh.html#a6241859f835aa7cd22f26c1e40b9791a":[6,0,0,7,1,25],
 "structMR_1_1Mesh.html#a63bb9b6214248707f092cca1db05afb2":[6,0,0,7,1,116],
 "structMR_1_1Mesh.html#a6791802a774a6e582072850647d3aa4a":[6,0,0,7,1,75],
@@ -249,5 +245,9 @@ var NAVTREEINDEX63 =
 "structMR_1_1Nesting_1_1BoxNestingCorner.html":[6,0,0,20,121],
 "structMR_1_1Nesting_1_1BoxNestingOptions.html":[6,0,0,20,123],
 "structMR_1_1Nesting_1_1BoxNestingParams.html":[6,0,0,20,124],
-"structMR_1_1Nesting_1_1MeshXf.html":[6,0,0,20,362]
+"structMR_1_1Nesting_1_1MeshXf.html":[6,0,0,20,362],
+"structMR_1_1Nesting_1_1Nesting3mfParams.html":[6,0,0,20,86],
+"structMR_1_1Nesting_1_1NestingBaseParams.html":[6,0,0,20,363],
+"structMR_1_1Nesting_1_1NestingResult.html":[6,0,0,20,361],
+"structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[6,0,0,20,849]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[6,0,2,0,2,30,0,5],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[6,0,1,0,1,46,0,4],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[6,0,2,0,2,30,0,4],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,1,0,1,46,0,3],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,2,0,2,30,0,3],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,1,0,1,46,0,1],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,2,0,2,30,0,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX66 =
 "structMR_1_1Vector2.html#af814c81714572ce6bb89483f32d274f1":[6,0,0,0,12,0,38],
 "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621":[6,0,0,0,12,0,15],
 "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621":[6,0,1,0,1,1194],
-"structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3":[6,0,0,0,12,0,6]
+"structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3":[6,0,0,0,12,0,6],
+"structMR_1_1Vector3.html":[6,0,0,0,12,1],
+"structMR_1_1Vector3.html":[6,0,0,20,502],
+"structMR_1_1Vector4.html":[6,0,0,0,12,2],
+"structMR_1_1Vector4.html":[6,0,0,20,503]
 };

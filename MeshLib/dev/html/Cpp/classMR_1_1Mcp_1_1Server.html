@@ -159,7 +159,6 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a164bc1306aece3be615549925d7c373e" id="r_a164bc1306aece3be615549925d7c373e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a164bc1306aece3be615549925d7c373e">ToolFunc</a> = std::function&lt;nlohmann::json( const nlohmann::json&amp; args )&gt;</td></tr>
 <tr class="memdesc:a164bc1306aece3be615549925d7c373e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Those functions are allowed to throw, that's how you report errors to the MCP.  <br /></td></tr>
-<tr class="memitem:a2f9caba495b9ba403409681a6d39c602" id="r_a2f9caba495b9ba403409681a6d39c602"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f9caba495b9ba403409681a6d39c602">ToolValidator</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const std::string&amp; toolId )&gt;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -173,7 +172,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1cf74440a5bc6fd9f0ec9d45e2cc9eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">This restarts the server if necessary.  <br /></td></tr>
 <tr class="memitem:aeeedc6adfa01a6470b40aa229a8f6522" id="r_aeeedc6adfa01a6470b40aa229a8f6522"><td class="memItemLeft" align="right" valign="top">MRMCP_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeedc6adfa01a6470b40aa229a8f6522">isRunning</a> () const</td></tr>
 <tr class="memitem:ae6008d565f2f5a971a3694f196f7ebe9" id="r_ae6008d565f2f5a971a3694f196f7ebe9"><td class="memItemLeft" align="right" valign="top">MRMCP_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6008d565f2f5a971a3694f196f7ebe9">setRunning</a> (bool enable)</td></tr>
-<tr class="memitem:a41d913fae94d9444c77104e52f2a2200" id="r_a41d913fae94d9444c77104e52f2a2200"><td class="memItemLeft" align="right" valign="top">MRMCP_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d913fae94d9444c77104e52f2a2200">setToolValidator</a> (<a class="el" href="#a2f9caba495b9ba403409681a6d39c602">ToolValidator</a> validator)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Owns a HTTP MCP server (using the SSE protocol). </p>
@@ -191,21 +189,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Those functions are allowed to throw, that's how you report errors to the MCP. </p>
-
-</div>
-</div>
-<a id="a2f9caba495b9ba403409681a6d39c602" name="a2f9caba495b9ba403409681a6d39c602"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f9caba495b9ba403409681a6d39c602">&#9670;&#160;</a></span>ToolValidator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a2f9caba495b9ba403409681a6d39c602">MR::Mcp::Server::ToolValidator</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const std::string&amp; toolId )&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Optional predicate consulted before every tool dispatch, given the tool's id. Return {} to allow; return <span class="tt">unexpected("reason")</span> to block — the reason surfaces to the MCP client as the tool-call error. Evaluated per call, so changes (e.g. user sign-in) take effect immediately. </p>
 
 </div>
 </div>
@@ -414,23 +397,6 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns true on success, including if the server is already running and you're trying to start it again. Stopping always returns true. </p>
-
-</div>
-</div>
-<a id="a41d913fae94d9444c77104e52f2a2200" name="a41d913fae94d9444c77104e52f2a2200"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41d913fae94d9444c77104e52f2a2200">&#9670;&#160;</a></span>setToolValidator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRMCP_API void MR::Mcp::Server::setToolValidator </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a2f9caba495b9ba403409681a6d39c602">ToolValidator</a></td>          <td class="paramname"><span class="paramname"><em>validator</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

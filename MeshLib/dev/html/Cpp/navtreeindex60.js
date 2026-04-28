@@ -1,9 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"structMR_1_1DistanceMapToWorld.html#a0360bc9aa1c6d3b0fbb427a31737d45e":[6,0,0,5,5,6],
-"structMR_1_1DistanceMapToWorld.html#a0c1936ef3e3658b717e91379b4f57651":[6,0,0,5,5,2],
-"structMR_1_1DistanceMapToWorld.html#a118712037e7a77efe4bad0bf7ee6d591":[6,0,0,5,5,0],
-"structMR_1_1DistanceMapToWorld.html#a32e6a45804b42ebcebd70500b984bc2a":[6,0,0,5,5,8],
 "structMR_1_1DistanceMapToWorld.html#a58ecb87a75e584402ddd3420513d89df":[6,0,0,5,5,3],
 "structMR_1_1DistanceMapToWorld.html#a5ff6040f3379ccf4fa8afcb7d12a0d5c":[6,0,0,5,5,9],
 "structMR_1_1DistanceMapToWorld.html#a74d96fa90a47e012874bf6708e586545":[6,0,0,5,5,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX60 =
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#afea42796d1fcb6ca7fe5c89f11710287":[6,0,2,0,2,6,1,4],
 "structMR_1_1ImGuiMath_1_1CompareAll.html":[6,0,1,0,1,15,2],
 "structMR_1_1ImGuiMath_1_1CompareAll.html":[6,0,2,0,2,6,2],
-"structMR_1_1ImGuiMath_1_1CompareAny.html":[6,0,1,0,1,15,3]
+"structMR_1_1ImGuiMath_1_1CompareAny.html":[6,0,1,0,1,15,3],
+"structMR_1_1ImGuiMath_1_1CompareAny.html":[6,0,2,0,2,6,3],
+"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[6,0,1,0,1,15,0,0],
+"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[6,0,2,0,2,6,0,0],
+"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html":[6,0,1,0,1,15,0,1]
 };
