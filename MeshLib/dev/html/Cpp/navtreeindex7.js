@@ -1,17 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"classMR_1_1ChangeActiveBoxAction.html#a2caa2474b0606297a2f58c69be0994e4":[6,0,0,4,47,1],
-"classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[6,0,0,4,47,3],
-"classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[6,0,0,4,47,2],
-"classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[6,0,0,4,47,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[6,0,0,20,579],
-"classMR_1_1ChangeColoringType.html":[6,0,0,4,3],
-"classMR_1_1ChangeColoringType.html":[6,0,0,20,134],
-"classMR_1_1ChangeDualMarchingCubesAction.html":[6,0,0,4,46],
-"classMR_1_1ChangeDualMarchingCubesAction.html#a1b6e4a9af29d8ba1029cf6de93728b31":[6,0,0,4,46,5],
-"classMR_1_1ChangeDualMarchingCubesAction.html#a216a084fc5c2ab35560b626aec0715f5":[6,0,0,4,46,4],
-"classMR_1_1ChangeDualMarchingCubesAction.html#a498f45f8ee86d18bfdbf4350070595fb":[6,0,0,4,46,0],
-"classMR_1_1ChangeDualMarchingCubesAction.html#a7866227e57c571b51c2d58432dbe6fc8":[6,0,0,4,46,2],
 "classMR_1_1ChangeDualMarchingCubesAction.html#a8b78a3f2b080f0a1e799df8e307e2970":[6,0,0,4,46,3],
 "classMR_1_1ChangeDualMarchingCubesAction.html#ab2bf3699f09016d7d91c2eb1f588f409":[6,0,0,4,46,1],
 "classMR_1_1ChangeFacesColorMapAction.html":[6,0,0,4,1],
@@ -249,5 +237,17 @@ var NAVTREEINDEX7 =
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[6,0,1,0,1,2,3,0],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95":[6,0,2,0,2,0,3,0],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html#acea486c98480ff347d65eaed201897c2":[6,0,1,0,1,2,3,3],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#acea486c98480ff347d65eaed201897c2":[6,0,2,0,2,0,3,3]
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#acea486c98480ff347d65eaed201897c2":[6,0,2,0,2,0,3,3],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html":[6,0,1,0,1,2,4],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html":[6,0,2,0,2,0,4],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html#a1729fda1729e6bd5a1671328387fe837":[6,0,1,0,1,2,4,0],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html#a1729fda1729e6bd5a1671328387fe837":[6,0,2,0,2,0,4,0],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html#a846ac998311e26ed3cd24d1ef02bfe0e":[6,0,1,0,1,2,4,2],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html#a846ac998311e26ed3cd24d1ef02bfe0e":[6,0,2,0,2,0,4,2],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html#a873e86e29f26d7240ef0f5af3a33a09b":[6,0,1,0,1,2,4,1],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html#a873e86e29f26d7240ef0f5af3a33a09b":[6,0,2,0,2,0,4,1],
+"classMR_1_1Cuda_1_1Polyline3DataHolder.html":[6,0,1,0,1,2,5],
+"classMR_1_1Cuda_1_1Polyline3DataHolder.html":[6,0,2,0,2,0,5],
+"classMR_1_1Cuda_1_1Polyline3DataHolder.html#a04f15619513a940e7cacfbe557fc1e33":[6,0,1,0,1,2,5,0],
+"classMR_1_1Cuda_1_1Polyline3DataHolder.html#a04f15619513a940e7cacfbe557fc1e33":[6,0,2,0,2,0,5,0]
 };

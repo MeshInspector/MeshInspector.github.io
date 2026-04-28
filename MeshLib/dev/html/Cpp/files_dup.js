@@ -6,7 +6,6 @@ var files_dup =
     [ "MREmbeddedPython", "dir_1e46fd58d70d8ee979256a72e2e6760c.html", "dir_1e46fd58d70d8ee979256a72e2e6760c" ],
     [ "MRIOExtras", "dir_30f37b35737589035d1f84e9f207764c.html", "dir_30f37b35737589035d1f84e9f207764c" ],
     [ "MRMcp", "dir_c4ac7cffb61691f4da7a791af467628a.html", "dir_c4ac7cffb61691f4da7a791af467628a" ],
-    [ "MRMCPGateway", "dir_1b5fde6d84c504af4a8aa0c6b6985b0f.html", "dir_1b5fde6d84c504af4a8aa0c6b6985b0f" ],
     [ "MRMesh", "dir_0cc3bc4bf87f190d6580fb811ae42f71.html", "dir_0cc3bc4bf87f190d6580fb811ae42f71" ],
     [ "mrmeshnumpy", "dir_54d56130b2c27a27b433bc1127023947.html", "dir_54d56130b2c27a27b433bc1127023947" ],
     [ "MRPython", "dir_ca44b97f550f42eca9f43db8a22a2b9a.html", "dir_ca44b97f550f42eca9f43db8a22a2b9a" ],
