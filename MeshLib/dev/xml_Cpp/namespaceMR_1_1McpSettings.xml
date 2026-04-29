@@ -2,7 +2,27 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1McpSettings" kind="namespace" language="C++">
     <compoundname>MR::McpSettings</compoundname>
+    <innerclass refid="structMR_1_1McpSettings_1_1CmdLineOverrides" prot="public">MR::McpSettings::CmdLineOverrides</innerclass>
     <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1McpSettings_1aabd7ee51a26a87628235c65f55010021" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1McpSettings_1_1CmdLineOverrides" kindref="compound">CmdLineOverrides</ref></type>
+        <definition>CmdLineOverrides MR::McpSettings::parseCmdLineOverrides</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;commandArgs)</argsstring>
+        <name>parseCmdLineOverrides</name>
+        <qualifiedname>MR::McpSettings::parseCmdLineOverrides</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>commandArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pure parse: scans <computeroutput>commandArgs</computeroutput> for MCP-related flags and returns the resolved overrides. Last occurrence of each flag wins (matches shell convention). <computeroutput>-mcpPort N</computeroutput> forces the server port to N (overriding the config). <computeroutput>-mcpDumpFile &lt;path&gt;</computeroutput> requests writing the tool cache to that path; the caller (typically <computeroutput><ref refid="group__GeneralGroup_1gaf6506d80121763c6d296ced7af498180" kindref="member">ViewerSetup::setupMcp</ref></computeroutput>) is expected to skip starting the live server in that case so a prime spawn does not collide with a real backend on the port. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMcpSettings.h" line="28" column="20" declfile="MRViewer/MRMcpSettings.h" declline="28" declcolumn="20"/>
+      </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpSettings_1aa9cc920ef11f9c709d6bca72ebd0def4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int MR::McpSettings::getPort</definition>
@@ -16,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMcpSettings.h" line="12" column="7" declfile="MRViewer/MRMcpSettings.h" declline="12" declcolumn="7"/>
+        <location file="MRViewer/MRMcpSettings.h" line="32" column="7" declfile="MRViewer/MRMcpSettings.h" declline="32" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpSettings_1ae113c4a8d7ac3b45e348fefa7573b57b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -35,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMcpSettings.h" line="16" column="7" declfile="MRViewer/MRMcpSettings.h" declline="16" declcolumn="7"/>
+        <location file="MRViewer/MRMcpSettings.h" line="36" column="7" declfile="MRViewer/MRMcpSettings.h" declline="36" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpSettings_1a43cbff85da43c1a0c65fc3652c084a99" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -50,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMcpSettings.h" line="19" column="8" declfile="MRViewer/MRMcpSettings.h" declline="19" declcolumn="8"/>
+        <location file="MRViewer/MRMcpSettings.h" line="39" column="8" declfile="MRViewer/MRMcpSettings.h" declline="39" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpSettings_1ab767d0637775e980afcc3ab39cd9fc16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -69,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMcpSettings.h" line="22" column="7" declfile="MRViewer/MRMcpSettings.h" declline="22" declcolumn="7"/>
+        <location file="MRViewer/MRMcpSettings.h" line="42" column="7" declfile="MRViewer/MRMcpSettings.h" declline="42" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpSettings_1a682b418dc80be930d61e6955156d7c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -84,7 +104,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMcpSettings.h" line="26" column="7" declfile="MRViewer/MRMcpSettings.h" declline="26" declcolumn="7"/>
+        <location file="MRViewer/MRMcpSettings.h" line="46" column="7" declfile="MRViewer/MRMcpSettings.h" declline="46" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpSettings_1a06c69dc8895e8070a05934c88d606346" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::McpSettings::isPortLockedFromCmdLine</definition>
+        <argsstring>()</argsstring>
+        <name>isPortLockedFromCmdLine</name>
+        <qualifiedname>MR::McpSettings::isPortLockedFromCmdLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True iff <computeroutput>-mcpPort N</computeroutput> was passed on the command line. The config-backed port is then ignored for this session, and the GUI shows the port read-only. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMcpSettings.h" line="50" column="8" declfile="MRViewer/MRMcpSettings.h" declline="50" declcolumn="8"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -92,6 +127,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRMcpSettings.h" line="7" column="1"/>
+    <location file="MRViewer/MRMcpSettings.h" line="11" column="1"/>
   </compounddef>
 </doxygen>

@@ -138,6 +138,7 @@ $(function(){initNavTree('namespaceMR_1_1McpSettings.html','',''); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::McpSettings Namespace Reference</div></div>
 </div><!--header-->
@@ -146,8 +147,13 @@ $(function(){initNavTree('namespaceMR_1_1McpSettings.html','',''); });
 <p>Those functions act on the default MCP settings in the config file.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:CmdLineOverrides" id="r_CmdLineOverrides"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1McpSettings_1_1CmdLineOverrides.html">CmdLineOverrides</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aabd7ee51a26a87628235c65f55010021" id="r_aabd7ee51a26a87628235c65f55010021"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1McpSettings_1_1CmdLineOverrides.html">CmdLineOverrides</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabd7ee51a26a87628235c65f55010021">parseCmdLineOverrides</a> (const std::vector&lt; std::string &gt; &amp;commandArgs)</td></tr>
 <tr class="memitem:aa9cc920ef11f9c709d6bca72ebd0def4" id="r_aa9cc920ef11f9c709d6bca72ebd0def4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9cc920ef11f9c709d6bca72ebd0def4">getPort</a> ()</td></tr>
 <tr class="memitem:ae113c4a8d7ac3b45e348fefa7573b57b" id="r_ae113c4a8d7ac3b45e348fefa7573b57b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae113c4a8d7ac3b45e348fefa7573b57b">setPort</a> (int port)</td></tr>
 <tr class="memitem:a43cbff85da43c1a0c65fc3652c084a99" id="r_a43cbff85da43c1a0c65fc3652c084a99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43cbff85da43c1a0c65fc3652c084a99">getEnableByDefault</a> ()</td></tr>
@@ -155,6 +161,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ab767d0637775e980afcc3ab39cd9fc16" id="r_ab767d0637775e980afcc3ab39cd9fc16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab767d0637775e980afcc3ab39cd9fc16">setEnableByDefault</a> (bool enable)</td></tr>
 <tr class="memdesc:ab767d0637775e980afcc3ab39cd9fc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets whether the MCP server should start on program startup, in the config file.  <br /></td></tr>
 <tr class="memitem:a682b418dc80be930d61e6955156d7c45" id="r_a682b418dc80be930d61e6955156d7c45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a682b418dc80be930d61e6955156d7c45">applyToServer</a> ()</td></tr>
+<tr class="memitem:a06c69dc8895e8070a05934c88d606346" id="r_a06c69dc8895e8070a05934c88d606346"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06c69dc8895e8070a05934c88d606346">isPortLockedFromCmdLine</a> ()</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Those functions act on the default MCP settings in the config file. </p>
@@ -227,6 +234,58 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Returns the MCP port from the config file, or the default value. Note that this acts on the config file and not on the actual MCP server that might be running. </p>
+
+</div>
+</div>
+<a id="a06c69dc8895e8070a05934c88d606346" name="a06c69dc8895e8070a05934c88d606346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06c69dc8895e8070a05934c88d606346">&#9670;&#160;</a></span>isPortLockedFromCmdLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::McpSettings::isPortLockedFromCmdLine </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>True iff <span class="tt">-mcpPort N</span> was passed on the command line. The config-backed port is then ignored for this session, and the GUI shows the port read-only. </p>
+
+</div>
+</div>
+<a id="aabd7ee51a26a87628235c65f55010021" name="aabd7ee51a26a87628235c65f55010021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabd7ee51a26a87628235c65f55010021">&#9670;&#160;</a></span>parseCmdLineOverrides()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1McpSettings_1_1CmdLineOverrides.html">CmdLineOverrides</a> MR::McpSettings::parseCmdLineOverrides </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>commandArgs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pure parse: scans <code class="param">commandArgs</code> for MCP-related flags and returns the resolved overrides. Last occurrence of each flag wins (matches shell convention). <span class="tt">-mcpPort N</span> forces the server port to N (overriding the config). <span class="tt">-mcpDumpFile &lt;path&gt;</span> requests writing the tool cache to that path; the caller (typically <span class="tt"><a class="el" href="group__GeneralGroup.html#gaf6506d80121763c6d296ced7af498180">ViewerSetup::setupMcp</a></span>) is expected to skip starting the live server in that case so a prime spawn does not collide with a real backend on the port. </p>
 
 </div>
 </div>

@@ -127,6 +127,9 @@ var annotated_dup =
         [ "Config", "structMR_1_1McpGateway_1_1Config.html", "structMR_1_1McpGateway_1_1Config" ],
         [ "MLClientTransport", "classMR_1_1McpGateway_1_1MLClientTransport.html", "classMR_1_1McpGateway_1_1MLClientTransport" ]
       ] ],
+      [ "McpSettings", "namespaceMR_1_1McpSettings.html", [
+        [ "CmdLineOverrides", "structMR_1_1McpSettings_1_1CmdLineOverrides.html", "structMR_1_1McpSettings_1_1CmdLineOverrides" ]
+      ] ],
       [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", [
         [ "BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", "structMR_1_1MeshBuilder_1_1BuildSettings" ],
         [ "equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", "structMR_1_1MeshBuilder_1_1equalVector3f" ],

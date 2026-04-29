@@ -280,21 +280,20 @@
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
 <codeline lineno="180" refid="classMR_1_1Mcp_1_1Server_1a31cafb321b0501c06c702510a430af9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMCP_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="classMR_1_1Mcp_1_1Server_1a31cafb321b0501c06c702510a430af9b" kindref="member">saveToolsCache</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="classMR_1_1Mcp_1_1Server_1ae17ea1c96dec452be0511fd596de0b3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMCP_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Mcp_1_1Server_1ae17ea1c96dec452be0511fd596de0b3d" kindref="member">processCmdArgs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;&amp;<sp/>commandArgs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="191" refid="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" kindref="member">ToolValidator</ref><sp/>=<sp/>std::function&lt;Expected&lt;void&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>toolId<sp/>)&gt;;</highlight></codeline>
-<codeline lineno="192" refid="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMCP_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" kindref="member">setToolValidator</ref>(<sp/><ref refid="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" kindref="member">ToolValidator</ref><sp/>validator<sp/>);</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">State;</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;State&gt;<sp/>state_;</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref><sp/>params_;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="namespaceMR_1_1Mcp_1a255c34dcc4e67f496bea3c6daef7bdba" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMCP_API<sp/><ref refid="classMR_1_1Mcp_1_1Server" kindref="compound">Server</ref>&amp;<sp/><ref refid="namespaceMR_1_1Mcp_1a255c34dcc4e67f496bea3c6daef7bdba" kindref="member">getDefaultServer</ref>();</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186" refid="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" kindref="member">ToolValidator</ref><sp/>=<sp/>std::function&lt;Expected&lt;void&gt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>toolId<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="187" refid="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMCP_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" kindref="member">setToolValidator</ref>(<sp/><ref refid="classMR_1_1Mcp_1_1Server_1a2f9caba495b9ba403409681a6d39c602" kindref="member">ToolValidator</ref><sp/>validator<sp/>);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">State;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;State&gt;<sp/>state_;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Mcp_1_1Server_1_1Params" kindref="compound">Params</ref><sp/>params_;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="namespaceMR_1_1Mcp_1a255c34dcc4e67f496bea3c6daef7bdba" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMCP_API<sp/><ref refid="classMR_1_1Mcp_1_1Server" kindref="compound">Server</ref>&amp;<sp/><ref refid="namespaceMR_1_1Mcp_1a255c34dcc4e67f496bea3c6daef7bdba" kindref="member">getDefaultServer</ref>();</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMcp/MRMcp.h"/>
   </compounddef>

@@ -201,6 +201,7 @@ var hierarchy =
     [ "MR::ChunkIterator", "structMR_1_1ChunkIterator.html", null ],
     [ "MR::CloseToMeshVolumeParams", "structMR_1_1CloseToMeshVolumeParams.html", null ],
     [ "MR::CloudPartMapping", "structMR_1_1CloudPartMapping.html", null ],
+    [ "MR::McpSettings::CmdLineOverrides", "structMR_1_1McpSettings_1_1CmdLineOverrides.html", null ],
     [ "MR::CmpOld", "structMR_1_1CmpOld.html", null ],
     [ "MR::CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],

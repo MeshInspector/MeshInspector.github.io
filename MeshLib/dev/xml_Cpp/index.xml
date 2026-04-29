@@ -1613,6 +1613,10 @@
     <member refid="group__GeneralGroup_1ga58a157b8e17755eba5fbff6ad4e90483" kind="variable"><name>src2tgtVerts</name></member>
     <member refid="group__GeneralGroup_1ga067263261bdd0276850b5722ebbdb8f1" kind="variable"><name>tgt2srcVerts</name></member>
   </compound>
+  <compound refid="structMR_1_1McpSettings_1_1CmdLineOverrides" kind="struct"><name>MR::McpSettings::CmdLineOverrides</name>
+    <member refid="structMR_1_1McpSettings_1_1CmdLineOverrides_1a25ac36ed0f1ea0a6a657f35364feb644" kind="variable"><name>port</name></member>
+    <member refid="structMR_1_1McpSettings_1_1CmdLineOverrides_1a03d182d700e0d22a419a61a656a38a44" kind="variable"><name>dumpFilePath</name></member>
+  </compound>
   <compound refid="structMR_1_1CmpOld" kind="struct"><name>MR::CmpOld</name>
   </compound>
   <compound refid="classMR_1_1CNCMachineSettings" kind="class"><name>MR::CNCMachineSettings</name>
@@ -2006,6 +2010,7 @@
     <member refid="group__GeneralGroup_1ga6309e26a08ee1df3fe6bb514aa84cf58" kind="variable"><name>argv</name></member>
   </compound>
   <compound refid="structMR_1_1McpGateway_1_1Config" kind="struct"><name>MR::McpGateway::Config</name>
+    <member refid="structMR_1_1McpGateway_1_1Config_1a86f0334549cd5d86f3144500efa3159b" kind="variable"><name>mcpPort</name></member>
     <member refid="structMR_1_1McpGateway_1_1Config_1a6e4335a7dd72b1d4fb00d536324cc1db" kind="variable"><name>targetUrl</name></member>
     <member refid="structMR_1_1McpGateway_1_1Config_1a743ff58ef28a77d569366aeaadba67a6" kind="variable"><name>ssePath</name></member>
     <member refid="structMR_1_1McpGateway_1_1Config_1a3c192ccbebdacb33bf3761707793a9a0" kind="variable"><name>messagesPath</name></member>
@@ -10339,7 +10344,6 @@
     <member refid="classMR_1_1Mcp_1_1Server_1a41c62aabf7f74f70b1ed377146c34e9e" kind="function"><name>shutdown</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1aaf379de21838d3f144e6dde8ce9936ba" kind="function"><name>dumpToolsAsJson</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1a31cafb321b0501c06c702510a430af9b" kind="function"><name>saveToolsCache</name></member>
-    <member refid="classMR_1_1Mcp_1_1Server_1ae17ea1c96dec452be0511fd596de0b3d" kind="function"><name>processCmdArgs</name></member>
     <member refid="classMR_1_1Mcp_1_1Server_1a41d913fae94d9444c77104e52f2a2200" kind="function"><name>setToolValidator</name></member>
   </compound>
   <compound refid="classMR_1_1SetBitIteratorT" kind="class"><name>MR::SetBitIteratorT</name>
@@ -16102,11 +16106,13 @@
     <member refid="namespaceMR_1_1McpGateway_1a9ff5364896665cd137e921006696f4ad" kind="function"><name>spawnAndWait</name></member>
   </compound>
   <compound refid="namespaceMR_1_1McpSettings" kind="namespace"><name>MR::McpSettings</name>
+    <member refid="namespaceMR_1_1McpSettings_1aabd7ee51a26a87628235c65f55010021" kind="function"><name>parseCmdLineOverrides</name></member>
     <member refid="namespaceMR_1_1McpSettings_1aa9cc920ef11f9c709d6bca72ebd0def4" kind="function"><name>getPort</name></member>
     <member refid="namespaceMR_1_1McpSettings_1ae113c4a8d7ac3b45e348fefa7573b57b" kind="function"><name>setPort</name></member>
     <member refid="namespaceMR_1_1McpSettings_1a43cbff85da43c1a0c65fc3652c084a99" kind="function"><name>getEnableByDefault</name></member>
     <member refid="namespaceMR_1_1McpSettings_1ab767d0637775e980afcc3ab39cd9fc16" kind="function"><name>setEnableByDefault</name></member>
     <member refid="namespaceMR_1_1McpSettings_1a682b418dc80be930d61e6955156d7c45" kind="function"><name>applyToServer</name></member>
+    <member refid="namespaceMR_1_1McpSettings_1a06c69dc8895e8070a05934c88d606346" kind="function"><name>isPortLockedFromCmdLine</name></member>
   </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
