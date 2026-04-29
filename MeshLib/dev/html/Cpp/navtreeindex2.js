@@ -166,6 +166,8 @@ var NAVTREEINDEX2 =
 "MRMCPGatewayMlTransport_8h_source.html":[6,0,3,0,6,3],
 "MRMCPGatewaySpawn_8h.html":[6,0,3,0,6,4],
 "MRMCPGatewaySpawn_8h_source.html":[6,0,3,0,6,4],
+"MRMCPGatewayUtf8_8h.html":[6,0,3,0,6,5],
+"MRMCPGatewayUtf8_8h_source.html":[6,0,3,0,6,5],
 "MRMacOSOpenDocumentsHandler_8h.html":[6,0,3,0,11,47],
 "MRMacOSOpenDocumentsHandler_8h_source.html":[6,0,3,0,11,47],
 "MRMacros_8h.html":[6,0,3,0,7,176],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "MRMeshBuilderTypes_8h.html":[6,0,3,0,7,196],
 "MRMeshBuilderTypes_8h_source.html":[6,0,3,0,7,196],
 "MRMeshBuilder_8h.html":[6,0,3,0,7,195],
-"MRMeshBuilder_8h_source.html":[6,0,3,0,7,195],
-"MRMeshCollidePrecise_8h.html":[6,0,3,0,7,198],
-"MRMeshCollidePrecise_8h_source.html":[6,0,3,0,7,198]
+"MRMeshBuilder_8h_source.html":[6,0,3,0,7,195]
 };

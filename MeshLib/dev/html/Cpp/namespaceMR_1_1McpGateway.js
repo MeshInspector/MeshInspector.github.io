@@ -6,6 +6,8 @@ var namespaceMR_1_1McpGateway =
     [ "getBackendAlive", "namespaceMR_1_1McpGateway.html#a1865d391c5eaff99701877d104fb7266", null ],
     [ "getCachedTools", "namespaceMR_1_1McpGateway.html#a492feeb41d07c965ac23ee0076d73f14", null ],
     [ "loadCachedTools", "namespaceMR_1_1McpGateway.html#af9483605d5022a0931882af143fee33e", null ],
+    [ "pathFromUtf8", "namespaceMR_1_1McpGateway.html#ac20c4e1c03dba31d5c77bdd7aa9f78d0", null ],
+    [ "pathToUtf8", "namespaceMR_1_1McpGateway.html#a312b4f994478a92f82d7b53b3b2c2c39", null ],
     [ "probeAndTrackBackend", "namespaceMR_1_1McpGateway.html#a7a95f3dc050ff3960ed8ad8918399289", null ],
     [ "probeBackendAlive", "namespaceMR_1_1McpGateway.html#a9ab308a9eb9041eb3bb4933a227f605c", null ],
     [ "registerLocalTools", "namespaceMR_1_1McpGateway.html#aa850caecea2d15bbf4a28557f7c247b5", null ],

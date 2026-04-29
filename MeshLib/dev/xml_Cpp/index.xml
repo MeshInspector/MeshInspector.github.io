@@ -16104,6 +16104,8 @@
     <member refid="namespaceMR_1_1McpGateway_1af9483605d5022a0931882af143fee33e" kind="function"><name>loadCachedTools</name></member>
     <member refid="namespaceMR_1_1McpGateway_1a513db1d1766357ace9b7e93446e3a1d1" kind="function"><name>spawnDetached</name></member>
     <member refid="namespaceMR_1_1McpGateway_1a9ff5364896665cd137e921006696f4ad" kind="function"><name>spawnAndWait</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1ac20c4e1c03dba31d5c77bdd7aa9f78d0" kind="function"><name>pathFromUtf8</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a312b4f994478a92f82d7b53b3b2c2c39" kind="function"><name>pathToUtf8</name></member>
   </compound>
   <compound refid="namespaceMR_1_1McpSettings" kind="namespace"><name>MR::McpSettings</name>
     <member refid="namespaceMR_1_1McpSettings_1aabd7ee51a26a87628235c65f55010021" kind="function"><name>parseCmdLineOverrides</name></member>
@@ -16802,6 +16804,8 @@
   <compound refid="MRMCPGatewayMlTransport_8h" kind="file"><name>MRMCPGatewayMlTransport.h</name>
   </compound>
   <compound refid="MRMCPGatewaySpawn_8h" kind="file"><name>MRMCPGatewaySpawn.h</name>
+  </compound>
+  <compound refid="MRMCPGatewayUtf8_8h" kind="file"><name>MRMCPGatewayUtf8.h</name>
   </compound>
   <compound refid="MR2DContoursTriangulation_8h" kind="file"><name>MR2DContoursTriangulation.h</name>
   </compound>

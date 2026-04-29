@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"MRMeshCollidePrecise_8h.html":[6,0,3,0,7,198],
+"MRMeshCollidePrecise_8h_source.html":[6,0,3,0,7,198],
 "MRMeshCollide_8h.html":[6,0,3,0,7,197],
 "MRMeshCollide_8h_source.html":[6,0,3,0,7,197],
 "MRMeshComponents_8h.html":[6,0,3,0,7,199],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "MRPdf_8h.html":[6,0,3,0,4,9],
 "MRPdf_8h_source.html":[6,0,3,0,4,9],
 "MRPickHoleBorderElement_8h.html":[6,0,3,0,11,67],
-"MRPickHoleBorderElement_8h_source.html":[6,0,3,0,11,67],
-"MRPickPointManager_8h.html":[6,0,3,0,11,68],
-"MRPickPointManager_8h_source.html":[6,0,3,0,11,68]
+"MRPickHoleBorderElement_8h_source.html":[6,0,3,0,11,67]
 };

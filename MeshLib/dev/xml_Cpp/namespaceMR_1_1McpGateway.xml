@@ -184,6 +184,44 @@
         </inbodydescription>
         <location file="MRMCPGateway/MRMCPGatewaySpawn.h" line="20" column="6" declfile="MRMCPGateway/MRMCPGatewaySpawn.h" declline="20" declcolumn="6"/>
       </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1ac20c4e1c03dba31d5c77bdd7aa9f78d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::McpGateway::pathFromUtf8</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>pathFromUtf8</name>
+        <qualifiedname>MR::McpGateway::pathFromUtf8</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UTF-8 std::string -&gt; std::filesystem::path. On Windows this is non-trivial: <computeroutput>path( std::string )</computeroutput> interprets the bytes as the system code page, which silently loses any character not representable in the current locale (e.g. CJK on US-Windows). On POSIX, paths are UTF-8 by convention so this is essentially a passthrough. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayUtf8.h" line="14" column="23" declfile="MRMCPGateway/MRMCPGatewayUtf8.h" declline="14" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a312b4f994478a92f82d7b53b3b2c2c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::McpGateway::pathToUtf8</definition>
+        <argsstring>(const std::filesystem::path &amp;p)</argsstring>
+        <name>pathToUtf8</name>
+        <qualifiedname>MR::McpGateway::pathToUtf8</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>std::filesystem::path -&gt; UTF-8 std::string. Mirror of pathFromUtf8 — on Windows, <computeroutput>path::string()</computeroutput> narrows via the system code page, which corrupts non-ASCII chars before we hand the string off to spawn args / log output / cerr. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayUtf8.h" line="19" column="13" declfile="MRMCPGateway/MRMCPGatewayUtf8.h" declline="19" declcolumn="13"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>

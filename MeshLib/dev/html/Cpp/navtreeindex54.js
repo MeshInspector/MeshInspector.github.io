@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534":[6,0,0,20,3111],
+"group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826":[6,0,0,0,43],
 "group__MatrixGroup.html":[6,0,0,0,7],
 "group__MeshAlgorithmGroup.html":[6,0,0,9],
 "group__MeshAlgorithmGroup.html#ga85f120484f51a420267e45c05af90e90":[6,0,0,9,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "group__PolylineSubdivideGroup.html#gab43831fc9496b5cfec6dabf33d82df2b":[6,0,0,15,1],
 "group__RayBoxIntersectionGroup.html":[6,0,0,0,9],
 "group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[6,0,0,0,9,1],
-"group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[6,0,0,0,9,2],
-"group__SerializerGroup.html":[6,0,0,2,15],
-"group__SerializerGroup.html#ga0554aaf11fa5c4fa1b0a2c12a280c591":[6,0,0,2,15,13]
+"group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[6,0,0,0,9,2]
 };

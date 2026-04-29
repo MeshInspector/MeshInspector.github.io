@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"MRPickPointManager_8h.html":[6,0,3,0,11,68],
+"MRPickPointManager_8h_source.html":[6,0,3,0,11,68],
 "MRPlane3_8h.html":[6,0,3,0,7,286],
 "MRPlane3_8h_source.html":[6,0,3,0,7,286],
 "MRPlaneObject_8h.html":[6,0,3,0,7,287],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "MRRigidScaleXf3_8h_source.html":[6,0,3,0,7,352],
 "MRRigidXf3_8h.html":[6,0,3,0,7,353],
 "MRRigidXf3_8h_source.html":[6,0,3,0,7,353],
-"MRRingIterator_8h.html":[6,0,3,0,7,354],
-"MRRingIterator_8h_source.html":[6,0,3,0,7,354],
-"MRSaveObjects_8h.html":[6,0,3,0,11,106]
+"MRRingIterator_8h.html":[6,0,3,0,7,354]
 };

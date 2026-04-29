@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[6,0,0,10,0,6],
+"structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[6,0,0,10,0,28],
+"structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[6,0,0,10,0,7],
+"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[6,0,0,10,0,27],
 "structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[6,0,0,10,0,13],
 "structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[6,0,0,10,0,16],
 "structMR_1_1DeloneSettings.html":[6,0,1,0,1,200],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1GeneralOffsetParameters.html":[6,0,0,20,828],
 "structMR_1_1GeodesicPath.html":[6,0,0,16,3,0],
 "structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d":[6,0,0,16,3,0,3],
-"structMR_1_1GeodesicPath.html#a500cd0125a04fdafa54081b9392409e4":[6,0,0,16,3,0,0],
-"structMR_1_1GeodesicPath.html#a8890c95d8a90898ea2d0898884bfa474":[6,0,0,16,3,0,1],
-"structMR_1_1GeodesicPath.html#af134007969afd8d9e0854c05ab72e99b":[6,0,0,16,3,0,2],
-"structMR_1_1GlTexture_1_1Settings.html":[6,0,0,20,567],
-"structMR_1_1Graph_1_1EndVertices.html":[6,0,0,20,256]
+"structMR_1_1GeodesicPath.html#a500cd0125a04fdafa54081b9392409e4":[6,0,0,16,3,0,0]
 };

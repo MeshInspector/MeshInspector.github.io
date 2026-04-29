@@ -161,6 +161,8 @@ Functions</h2></td></tr>
 <tr class="memitem:af9483605d5022a0931882af143fee33e" id="r_af9483605d5022a0931882af143fee33e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9483605d5022a0931882af143fee33e">loadCachedTools</a> (const <a class="el" href="structMR_1_1McpGateway_1_1Config.html">Config</a> &amp;cfg)</td></tr>
 <tr class="memitem:a513db1d1766357ace9b7e93446e3a1d1" id="r_a513db1d1766357ace9b7e93446e3a1d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a513db1d1766357ace9b7e93446e3a1d1">spawnDetached</a> (const std::filesystem::path &amp;exe, const std::vector&lt; std::string &gt; &amp;args)</td></tr>
 <tr class="memitem:a9ff5364896665cd137e921006696f4ad" id="r_a9ff5364896665cd137e921006696f4ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ff5364896665cd137e921006696f4ad">spawnAndWait</a> (const std::filesystem::path &amp;exe, const std::vector&lt; std::string &gt; &amp;args, std::chrono::seconds timeout)</td></tr>
+<tr class="memitem:ac20c4e1c03dba31d5c77bdd7aa9f78d0" id="r_ac20c4e1c03dba31d5c77bdd7aa9f78d0"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac20c4e1c03dba31d5c77bdd7aa9f78d0">pathFromUtf8</a> (const std::string &amp;s)</td></tr>
+<tr class="memitem:a312b4f994478a92f82d7b53b3b2c2c39" id="r_a312b4f994478a92f82d7b53b3b2c2c39"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312b4f994478a92f82d7b53b3b2c2c39">pathToUtf8</a> (const std::filesystem::path &amp;p)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a7233b4a48f42fac23e3288ae84c19ed8" name="a7233b4a48f42fac23e3288ae84c19ed8"></a>
@@ -232,6 +234,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Parses <span class="tt">mcp_tools_cache.json</span> and populates <span class="tt"><a class="el" href="#a492feeb41d07c965ac23ee0076d73f14">getCachedTools()</a></span>. Errors are non-fatal (logged + leaves the cache empty). </p>
+
+</div>
+</div>
+<a id="ac20c4e1c03dba31d5c77bdd7aa9f78d0" name="ac20c4e1c03dba31d5c77bdd7aa9f78d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20c4e1c03dba31d5c77bdd7aa9f78d0">&#9670;&#160;</a></span>pathFromUtf8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::filesystem::path MR::McpGateway::pathFromUtf8 </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>UTF-8 std::string -&gt; std::filesystem::path. On Windows this is non-trivial: <span class="tt">path( std::string )</span> interprets the bytes as the system code page, which silently loses any character not representable in the current locale (e.g. CJK on US-Windows). On POSIX, paths are UTF-8 by convention so this is essentially a passthrough. </p>
+
+</div>
+</div>
+<a id="a312b4f994478a92f82d7b53b3b2c2c39" name="a312b4f994478a92f82d7b53b3b2c2c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312b4f994478a92f82d7b53b3b2c2c39">&#9670;&#160;</a></span>pathToUtf8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::McpGateway::pathToUtf8 </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>std::filesystem::path -&gt; UTF-8 std::string. Mirror of pathFromUtf8 — on Windows, <span class="tt">path::string()</span> narrows via the system code page, which corrupts non-ASCII chars before we hand the string off to spawn args / log output / cerr. </p>
 
 </div>
 </div>
