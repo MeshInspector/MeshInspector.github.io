@@ -29,7 +29,7 @@
         <link refid="classMR_1_1IFastWindingNumberByParts"/>
       </node>
     </inheritancegraph>
-    <location file="MRMesh/MRFastWindingNumber.h" line="80" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="81" bodyend="112"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="72" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="73" bodyend="100"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3cd5d444973254e7b31ab81917f07329" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
       <member refid="group__GeneralGroup_1ga91d50343ae8805a878c0dac2b8ff0802" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>

@@ -165,13 +165,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a1bb2ee4a1305f6a9a6edea6fdf4c2811" id="r_a1bb2ee4a1305f6a9a6edea6fdf4c2811"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bb2ee4a1305f6a9a6edea6fdf4c2811">MR_IFastWindingNumber_DestroyArray</a> (const <a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *_this)</td></tr>
 <tr class="memdesc:a1bb2ee4a1305f6a9a6edea6fdf4c2811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a75294547bb7e93fa779e984ff0a70185" id="r_a75294547bb7e93fa779e984ff0a70185"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75294547bb7e93fa779e984ff0a70185">MR_IFastWindingNumber_calcFromVector</a> (<a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *_this, <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *res, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points, float beta, const <a class="el" href="structMR__FaceId.html">MR_FaceId</a> *skipFace, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memdesc:a75294547bb7e93fa779e984ff0a70185"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in the points from given vector  <br /></td></tr>
 <tr class="memitem:aa861e35280a10d45b949172033552f56" id="r_aa861e35280a10d45b949172033552f56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa861e35280a10d45b949172033552f56">MR_IFastWindingNumber_calcSelfIntersections</a> (<a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *_this, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *res, float beta, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memdesc:aa861e35280a10d45b949172033552f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
 <tr class="memitem:a2e6da17b120538838d836b8dfbe76cbb" id="r_a2e6da17b120538838d836b8dfbe76cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e6da17b120538838d836b8dfbe76cbb">MR_IFastWindingNumber_calcFromGrid</a> (<a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *_this, <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *res, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *gridToMeshXf, float beta, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memdesc:a2e6da17b120538838d836b8dfbe76cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
 <tr class="memitem:aad6c8ee515f610825e262c8ed060dcf5" id="r_aad6c8ee515f610825e262c8ed060dcf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad6c8ee515f610825e262c8ed060dcf5">MR_IFastWindingNumber_calcFromGridWithDistances</a> (<a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *_this, <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *res, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *gridToMeshXf, const <a class="el" href="MRDistanceToMeshOptions_8h.html#a89c8051ab9f8ef3cd2f86752938a9e07">MR_DistanceToMeshOptions</a> *options, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memdesc:aad6c8ee515f610825e262c8ed060dcf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
 <tr class="memitem:a1dcdd81df97df3a75be2b1735380b89f" id="r_a1dcdd81df97df3a75be2b1735380b89f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dcdd81df97df3a75be2b1735380b89f">MR_IFastWindingNumber_OffsetPtr</a> (const <a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:aebbb61c4e61536e9cbb5afc67c5abcb5" id="r_aebbb61c4e61536e9cbb5afc67c5abcb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebbb61c4e61536e9cbb5afc67c5abcb5">MR_IFastWindingNumber_OffsetMutablePtr</a> (<a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:aa5afbb9fc55c737ec677c494ca3de804" id="r_aa5afbb9fc55c737ec677c494ca3de804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a200243313a8febf0af29cf2af80f94d2">MR_FastWindingNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5afbb9fc55c737ec677c494ca3de804">MR_FastWindingNumber_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a200243313a8febf0af29cf2af80f94d2">MR_FastWindingNumber</a> *_other)</td></tr>
@@ -200,9 +196,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a23925a6a04920c7096c5ac34af77ed77" id="r_a23925a6a04920c7096c5ac34af77ed77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23925a6a04920c7096c5ac34af77ed77">MR_IFastWindingNumberByParts_DestroyArray</a> (const <a class="el" href="#ab4d2990d4a188fad54429719f466cf18">MR_IFastWindingNumberByParts</a> *_this)</td></tr>
 <tr class="memdesc:a23925a6a04920c7096c5ac34af77ed77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ab4d2990d4a188fad54429719f466cf18">MR_IFastWindingNumberByParts</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a89a25e82cb8664418549ebeabd8af299" id="r_a89a25e82cb8664418549ebeabd8af299"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89a25e82cb8664418549ebeabd8af299">MR_IFastWindingNumberByParts_calcFromGridByParts</a> (<a class="el" href="#ab4d2990d4a188fad54429719f466cf18">MR_IFastWindingNumberByParts</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> resFunc_pass_by, <a class="el" href="#a3d2775edc5a0f80cf104f495be573436">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</a> *resFunc, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *gridToMeshXf, float beta, int layerOverlap, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memdesc:a89a25e82cb8664418549ebeabd8af299"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
 <tr class="memitem:a6701c8b7031eb38f667e06315413507a" id="r_a6701c8b7031eb38f667e06315413507a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6701c8b7031eb38f667e06315413507a">MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</a> (<a class="el" href="#ab4d2990d4a188fad54429719f466cf18">MR_IFastWindingNumberByParts</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> resFunc_pass_by, <a class="el" href="#a3d2775edc5a0f80cf104f495be573436">MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int</a> *resFunc, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *gridToMeshXf, const <a class="el" href="MRDistanceToMeshOptions_8h.html#a89c8051ab9f8ef3cd2f86752938a9e07">MR_DistanceToMeshOptions</a> *options, int layerOverlap, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memdesc:a6701c8b7031eb38f667e06315413507a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
 <tr class="memitem:acd001cd6ff85e66ac410fd888cd9c0e5" id="r_acd001cd6ff85e66ac410fd888cd9c0e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ab4d2990d4a188fad54429719f466cf18">MR_IFastWindingNumberByParts</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd001cd6ff85e66ac410fd888cd9c0e5">MR_IFastWindingNumberByParts_OffsetPtr</a> (const <a class="el" href="#ab4d2990d4a188fad54429719f466cf18">MR_IFastWindingNumberByParts</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:ace99b1178792ffcf3f5e22b95cc454e4" id="r_ace99b1178792ffcf3f5e22b95cc454e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab4d2990d4a188fad54429719f466cf18">MR_IFastWindingNumberByParts</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace99b1178792ffcf3f5e22b95cc454e4">MR_IFastWindingNumberByParts_OffsetMutablePtr</a> (<a class="el" href="#ab4d2990d4a188fad54429719f466cf18">MR_IFastWindingNumberByParts</a> *ptr, ptrdiff_t i)</td></tr>
 </table>
@@ -771,18 +765,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>calculates winding numbers in each point from a three-dimensional grid </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>calculates winding numbers in each point from a three-dimensional grid </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
+    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically </td></tr>
+    <tr><td class="paramname">dims</td><td>dimensions of the grid </td></tr>
+    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more Generated from method <span class="tt">MR::IFastWindingNumber::calcFromGrid</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">gridToMeshXf</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt">MR::IFastWindingNumber::calcFromGrid</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">gridToMeshXf</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -824,16 +815,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">res</td><td>resulting signed distances, will be resized automatically</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
+    <tr><td class="paramname">res</td><td>resulting signed distances, will be resized automatically </td></tr>
+    <tr><td class="paramname">dims</td><td>dimensions of the grid Generated from method <span class="tt">MR::IFastWindingNumber::calcFromGridWithDistances</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">gridToMeshXf</span> can not be null. It is a single object. Parameter <span class="tt">options</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt">MR::IFastWindingNumber::calcFromGridWithDistances</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">gridToMeshXf</span> can not be null. It is a single object. Parameter <span class="tt">options</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -875,18 +863,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>calculates winding numbers in the points from given vector </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>calculates winding numbers in the points from given vector </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically</td></tr>
-    <tr><td class="paramname">points</td><td>incoming points</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
-    <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to <span class="tt">q</span>) will be skipped from summation</td></tr>
+    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically </td></tr>
+    <tr><td class="paramname">points</td><td>incoming points </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more </td></tr>
+    <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to <span class="tt">q</span>) will be skipped from summation Generated from method <span class="tt">MR::IFastWindingNumber::calcFromVector</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">skipFace</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt">MR::IFastWindingNumber::calcFromVector</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">skipFace</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -918,16 +903,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">res</td><td>resulting bit set</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
+    <tr><td class="paramname">res</td><td>resulting bit set </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more Generated from method <span class="tt">MR::IFastWindingNumber::calcSelfIntersections</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt">MR::IFastWindingNumber::calcSelfIntersections</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1061,19 +1043,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>calculates winding numbers in each point from a three-dimensional grid </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>calculates winding numbers in each point from a three-dimensional grid </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
-    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count</td></tr>
+    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers </td></tr>
+    <tr><td class="paramname">dims</td><td>dimensions of the grid </td></tr>
+    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more </td></tr>
+    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count Generated from method <span class="tt">MR::IFastWindingNumberByParts::calcFromGridByParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">gridToMeshXf</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt">MR::IFastWindingNumberByParts::calcFromGridByParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">gridToMeshXf</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1125,18 +1104,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count</td></tr>
+    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers </td></tr>
+    <tr><td class="paramname">dims</td><td>dimensions of the grid </td></tr>
+    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame </td></tr>
+    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count Generated from method <span class="tt">MR::IFastWindingNumberByParts::calcFromGridWithDistancesByParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">gridToMeshXf</span> can not be null. It is a single object. Parameter <span class="tt">options</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt">MR::IFastWindingNumberByParts::calcFromGridWithDistancesByParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">gridToMeshXf</span> can not be null. It is a single object. Parameter <span class="tt">options</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

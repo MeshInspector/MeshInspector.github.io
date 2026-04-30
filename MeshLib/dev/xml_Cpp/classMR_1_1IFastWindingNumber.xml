@@ -35,7 +35,7 @@
         <link refid="classMR_1_1IFastWindingNumber"/>
       </node>
     </inheritancegraph>
-    <location file="MRMesh/MRFastWindingNumber.h" line="14" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="15" bodyend="51"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="14" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="15" bodyend="43"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga368a1a0534476d08756358a07bcce617" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGrid</name></member>
       <member refid="group__GeneralGroup_1gaeb59990afd6d9382244508e9e250972d" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGridWithDistances</name></member>

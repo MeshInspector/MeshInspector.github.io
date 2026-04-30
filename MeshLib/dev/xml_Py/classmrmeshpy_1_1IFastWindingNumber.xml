@@ -63,18 +63,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>&lt;summary&gt;
-calculates winding numbers in each point from a three-dimensional grid
-&lt;/summary&gt;
-&lt;param name=&quot;res&quot;&gt;resulting winding numbers, will be resized automatically&lt;/param&gt;
-&lt;param name=&quot;dims&quot;&gt;dimensions of the grid&lt;/param&gt;
-&lt;param name=&quot;gridToMeshXf&quot;&gt;transform from integer grid locations to voxel&apos;s centers in mesh reference frame&lt;/param&gt;
-&lt;param name=&quot;beta&quot;&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
+<para><verbatim>calculates winding numbers in each point from a three-dimensional grid
+\\param res resulting winding numbers, will be resized automatically
+\\param dims dimensions of the grid
+\\param gridToMeshXf transform from integer grid locations to voxel&apos;s centers in mesh reference frame
+\\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23685" bodyend="23694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23685" bodyend="23692"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumber_1a9abbdfdad45943314155c587e2f9c488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -110,17 +108,15 @@ calculates winding numbers in each point from a three-dimensional grid
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>&lt;summary&gt;
-calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
+<para><verbatim>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
 if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point
-&lt;/summary&gt;
-&lt;param name=&quot;res&quot;&gt;resulting signed distances, will be resized automatically&lt;/param&gt;
-&lt;param name=&quot;dims&quot;&gt;dimensions of the grid&lt;/param&gt;
+\\param res resulting signed distances, will be resized automatically
+\\param dims dimensions of the grid
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23695" bodyend="23703"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23693" bodyend="23699"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumber_1af8a85c57bc104c36e949eb444c9ca7db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -158,18 +154,16 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>&lt;summary&gt;
-calculates winding numbers in the points from given vector
-&lt;/summary&gt;
-&lt;param name=&quot;res&quot;&gt;resulting winding numbers, will be resized automatically&lt;/param&gt;
-&lt;param name=&quot;points&quot;&gt;incoming points&lt;/param&gt;
-&lt;param name=&quot;beta&quot;&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
-&lt;param name=&quot;skipFace&quot;&gt;this triangle (if it is close to `q`) will be skipped from summation&lt;/param&gt;
+<para><verbatim>calculates winding numbers in the points from given vector
+\\param res resulting winding numbers, will be resized automatically
+\\param points incoming points
+\\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
+\\param skipFace this triangle (if it is close to `q`) will be skipped from summation
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23704" bodyend="23713"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23700" bodyend="23707"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumber_1a898b12e02f113538c5d54bf9af0d7bd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -198,16 +192,14 @@ calculates winding numbers in the points from given vector
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>&lt;summary&gt;
-calculates winding numbers for all centers of mesh&apos;s triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected
-&lt;/summary&gt;
-&lt;param name=&quot;res&quot;&gt;resulting bit set&lt;/param&gt;
-&lt;param name=&quot;beta&quot;&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
+<para><verbatim>calculates winding numbers for all centers of mesh&apos;s triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected
+\\param res resulting bit set
+\\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23714" bodyend="23721"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23708" bodyend="23713"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -230,7 +222,7 @@ Abstract class for fast approximate computation of generalized winding number fo
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23676" bodyend="23721"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23676" bodyend="23713"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IFastWindingNumber_1a5d368442bd4a019e50adacc23099b4ba" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumber</scope><name>calcFromGrid</name></member>
       <member refid="classmrmeshpy_1_1IFastWindingNumber_1a9abbdfdad45943314155c587e2f9c488" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumber</scope><name>calcFromGridWithDistances</name></member>

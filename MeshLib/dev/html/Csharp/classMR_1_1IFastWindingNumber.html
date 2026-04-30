@@ -223,14 +223,13 @@ Additional Inherited Members</h2></td></tr>
 <p>calculates winding numbers in each point from a three-dimensional grid </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
+    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically </td></tr>
+    <tr><td class="paramname">dims</td><td>dimensions of the grid </td></tr>
+    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more Generated from method <span class="tt"><a class="el" href="#adbae3073bea7d77e49d7caab541680fa" title="calculates winding numbers in each point from a three-dimensional grid">MR.IFastWindingNumber.calcFromGrid</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt"><a class="el" href="#adbae3073bea7d77e49d7caab541680fa" title="calculates winding numbers in each point from a three-dimensional grid">MR.IFastWindingNumber.calcFromGrid</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -279,12 +278,11 @@ Additional Inherited Members</h2></td></tr>
 <p>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">res</td><td>resulting signed distances, will be resized automatically</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
+    <tr><td class="paramname">res</td><td>resulting signed distances, will be resized automatically </td></tr>
+    <tr><td class="paramname">dims</td><td>dimensions of the grid Generated from method <span class="tt"><a class="el" href="#a3975d6faf2163a2966882ac4b54185a6" title="calculates distances with the sign obtained from generalized winding number in each point from a thre...">MR.IFastWindingNumber.calcFromGridWithDistances</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt"><a class="el" href="#a3975d6faf2163a2966882ac4b54185a6" title="calculates distances with the sign obtained from generalized winding number in each point from a thre...">MR.IFastWindingNumber.calcFromGridWithDistances</a></span>. </p>
 
 </div>
 </div>
@@ -333,14 +331,13 @@ Additional Inherited Members</h2></td></tr>
 <p>calculates winding numbers in the points from given vector </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically</td></tr>
-    <tr><td class="paramname">points</td><td>incoming points</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
-    <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to <span class="tt">q</span>) will be skipped from summation</td></tr>
+    <tr><td class="paramname">res</td><td>resulting winding numbers, will be resized automatically </td></tr>
+    <tr><td class="paramname">points</td><td>incoming points </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more </td></tr>
+    <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to <span class="tt">q</span>) will be skipped from summation Generated from method <span class="tt"><a class="el" href="#a4be4494442bb65e1540bd88a91f552a7" title="calculates winding numbers in the points from given vector">MR.IFastWindingNumber.calcFromVector</a></span>. Parameter <span class="tt">skipFace</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt"><a class="el" href="#a4be4494442bb65e1540bd88a91f552a7" title="calculates winding numbers in the points from given vector">MR.IFastWindingNumber.calcFromVector</a></span>. Parameter <span class="tt">skipFace</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -379,12 +376,11 @@ Additional Inherited Members</h2></td></tr>
 <p>calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">res</td><td>resulting bit set</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
+    <tr><td class="paramname">res</td><td>resulting bit set </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more Generated from method <span class="tt"><a class="el" href="#aec064322180d2377393218c4575950eb" title="calculates winding numbers for all centers of mesh&#39;s triangles. if winding number is less than 0 or g...">MR.IFastWindingNumber.calcSelfIntersections</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt"><a class="el" href="#aec064322180d2377393218c4575950eb" title="calculates winding numbers for all centers of mesh&#39;s triangles. if winding number is less than 0 or g...">MR.IFastWindingNumber.calcSelfIntersections</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>

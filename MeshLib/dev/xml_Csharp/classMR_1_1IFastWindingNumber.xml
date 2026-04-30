@@ -65,7 +65,7 @@
 <parametername>res</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>resulting winding numbers, will be resized automatically</para>
+<para>resulting winding numbers, will be resized automatically </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -73,7 +73,7 @@
 <parametername>points</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>incoming points</para>
+<para>incoming points </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -81,7 +81,7 @@
 <parametername>beta</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -89,11 +89,11 @@
 <parametername>skipFace</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>this triangle (if it is close to <computeroutput>q</computeroutput>) will be skipped from summation</para>
+<para>this triangle (if it is close to <computeroutput>q</computeroutput>) will be skipped from summation Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1a4be4494442bb65e1540bd88a91f552a7" kindref="member">MR.IFastWindingNumber.calcFromVector</ref></computeroutput>. Parameter <computeroutput>skipFace</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1a4be4494442bb65e1540bd88a91f552a7" kindref="member">MR.IFastWindingNumber.calcFromVector</ref></computeroutput>. Parameter <computeroutput>skipFace</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -119,7 +119,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>calculates winding numbers for all centers of mesh&apos;s triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected </para>
+<para>calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -127,7 +127,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
 <parametername>res</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>resulting bit set</para>
+<para>resulting bit set </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -135,11 +135,11 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
 <parametername>beta</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1aec064322180d2377393218c4575950eb" kindref="member">MR.IFastWindingNumber.calcSelfIntersections</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1aec064322180d2377393218c4575950eb" kindref="member">MR.IFastWindingNumber.calcSelfIntersections</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -181,7 +181,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
 <parametername>res</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>resulting winding numbers, will be resized automatically</para>
+<para>resulting winding numbers, will be resized automatically </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -189,7 +189,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
 <parametername>dims</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>dimensions of the grid</para>
+<para>dimensions of the grid </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -197,7 +197,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
 <parametername>gridToMeshXf</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>transform from integer grid locations to voxel&apos;s centers in mesh reference frame</para>
+<para>transform from integer grid locations to voxel's centers in mesh reference frame </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -205,11 +205,11 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
 <parametername>beta</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1adbae3073bea7d77e49d7caab541680fa" kindref="member">MR.IFastWindingNumber.calcFromGrid</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1adbae3073bea7d77e49d7caab541680fa" kindref="member">MR.IFastWindingNumber.calcFromGrid</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -250,7 +250,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
 <parametername>res</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>resulting signed distances, will be resized automatically</para>
+<para>resulting signed distances, will be resized automatically </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -258,11 +258,11 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
 <parametername>dims</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>dimensions of the grid</para>
+<para>dimensions of the grid Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1a3975d6faf2163a2966882ac4b54185a6" kindref="member">MR.IFastWindingNumber.calcFromGridWithDistances</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1a3975d6faf2163a2966882ac4b54185a6" kindref="member">MR.IFastWindingNumber.calcFromGridWithDistances</ref></computeroutput>. </para>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

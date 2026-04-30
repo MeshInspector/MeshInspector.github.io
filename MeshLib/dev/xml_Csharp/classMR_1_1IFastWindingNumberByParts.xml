@@ -67,7 +67,7 @@
 <parametername>resFunc</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>callback that gets a block of resulting winding numbers</para>
+<para>callback that gets a block of resulting winding numbers </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -75,7 +75,7 @@
 <parametername>dims</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>dimensions of the grid</para>
+<para>dimensions of the grid </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -83,7 +83,7 @@
 <parametername>gridToMeshXf</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>transform from integer grid locations to voxel&apos;s centers in mesh reference frame</para>
+<para>transform from integer grid locations to voxel's centers in mesh reference frame </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -91,7 +91,7 @@
 <parametername>beta</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -99,11 +99,11 @@
 <parametername>layerOverlap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>overlap between two blocks of the grid, set as XY layer count</para>
+<para>overlap between two blocks of the grid, set as XY layer count Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberByParts_1a1956106d30f3ea809c3f88b7bfb2bf93" kindref="member">MR.IFastWindingNumberByParts.calcFromGridByParts</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberByParts_1a1956106d30f3ea809c3f88b7bfb2bf93" kindref="member">MR.IFastWindingNumberByParts.calcFromGridByParts</ref></computeroutput>. </para>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -148,7 +148,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberB
 <parametername>resFunc</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>callback that gets a block of resulting winding numbers</para>
+<para>callback that gets a block of resulting winding numbers </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -156,7 +156,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberB
 <parametername>dims</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>dimensions of the grid</para>
+<para>dimensions of the grid </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -164,7 +164,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberB
 <parametername>gridToMeshXf</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>transform from integer grid locations to voxel&apos;s centers in mesh reference frame</para>
+<para>transform from integer grid locations to voxel's centers in mesh reference frame </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -172,11 +172,11 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberB
 <parametername>layerOverlap</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>overlap between two blocks of the grid, set as XY layer count</para>
+<para>overlap between two blocks of the grid, set as XY layer count Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberByParts_1a7c927c1d7e88c4521631c2181856d27e" kindref="member">MR.IFastWindingNumberByParts.calcFromGridWithDistancesByParts</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberByParts_1a7c927c1d7e88c4521631c2181856d27e" kindref="member">MR.IFastWindingNumberByParts.calcFromGridWithDistancesByParts</ref></computeroutput>. </para>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
