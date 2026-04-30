@@ -34027,14 +34027,14 @@ element fields:<linebreak/>
 <para>finds attributes of new mesh by projecting faces/vertices on old mesh </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="note"><para>for now clears edges attributes</para>
+<para><simplesect kind="note"><para>for now clears edges attributes </para>
 </simplesect>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>oldMeshData</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>old mesh along with input attributes</para>
+<para>old mesh along with input attributes </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -34042,7 +34042,7 @@ element fields:<linebreak/>
 <parametername>newMeshData</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>new mesh along with outpuyt attributes</para>
+<para>new mesh along with output attributes </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -34050,7 +34050,7 @@ element fields:<linebreak/>
 <parametername>region</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional input region for projecting (usefull if newMesh is changed part of old mesh)</para>
+<para>optional input region for projecting (useful if newMesh is changed part of old mesh) </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -34058,11 +34058,11 @@ element fields:<linebreak/>
 <parametername>params</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>parameters of prohecting</para>
+<para>parameters of projecting Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c4843566ce7e28778" kindref="member">MR.projectObjectMeshData</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c4843566ce7e28778" kindref="member">MR.projectObjectMeshData</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

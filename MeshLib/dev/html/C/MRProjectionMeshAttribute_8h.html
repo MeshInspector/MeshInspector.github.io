@@ -173,7 +173,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:a8ad9225c359a1e9ccb57c9ffffb3d874"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#adabae5946a19b520cce97819279afb69">MR_ProjectAttributeParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a497c1e420007ba21c897aee00e14dac8" id="r_a497c1e420007ba21c897aee00e14dac8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adabae5946a19b520cce97819279afb69">MR_ProjectAttributeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a497c1e420007ba21c897aee00e14dac8">MR_ProjectAttributeParams_AssignFromAnother</a> (<a class="el" href="#adabae5946a19b520cce97819279afb69">MR_ProjectAttributeParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#adabae5946a19b520cce97819279afb69">MR_ProjectAttributeParams</a> *_other)</td></tr>
 <tr class="memitem:ae2e5d48da76dc128b3e81c5fd9bfc7a7" id="r_ae2e5d48da76dc128b3e81c5fd9bfc7a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2e5d48da76dc128b3e81c5fd9bfc7a7">MR_projectObjectMeshData</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *oldMeshData, <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *newMeshData, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="#adabae5946a19b520cce97819279afb69">MR_ProjectAttributeParams</a> *params)</td></tr>
-<tr class="memdesc:ae2e5d48da76dc128b3e81c5fd9bfc7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds attributes of new mesh by projecting faces/vertices on old mesh  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="adabae5946a19b520cce97819279afb69" name="adabae5946a19b520cce97819279afb69"></a>
@@ -535,19 +534,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>finds attributes of new mesh by projecting faces/vertices on old mesh </p>
-<dl class="section note"><dt>Note</dt><dd>for now clears edges attributes</dd></dl>
+<p>finds attributes of new mesh by projecting faces/vertices on old mesh </p><dl class="section note"><dt>Note</dt><dd>for now clears edges attributes </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">oldMeshData</td><td>old mesh along with input attributes</td></tr>
-    <tr><td class="paramname">newMeshData</td><td>new mesh along with outpuyt attributes</td></tr>
-    <tr><td class="paramname">region</td><td>optional input region for projecting (usefull if newMesh is changed part of old mesh)</td></tr>
-    <tr><td class="paramname">params</td><td>parameters of prohecting</td></tr>
+    <tr><td class="paramname">oldMeshData</td><td>old mesh along with input attributes </td></tr>
+    <tr><td class="paramname">newMeshData</td><td>new mesh along with output attributes </td></tr>
+    <tr><td class="paramname">region</td><td>optional input region for projecting (useful if newMesh is changed part of old mesh) </td></tr>
+    <tr><td class="paramname">params</td><td>parameters of projecting Generated from function <span class="tt">MR::projectObjectMeshData</span>. Parameter <span class="tt">oldMeshData</span> can not be null. It is a single object. Parameter <span class="tt">newMeshData</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from function <span class="tt">MR::projectObjectMeshData</span>. Parameter <span class="tt">oldMeshData</span> can not be null. It is a single object. Parameter <span class="tt">newMeshData</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
