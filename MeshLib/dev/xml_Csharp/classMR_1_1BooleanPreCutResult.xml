@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BooleanPreCutResult" kind="class" language="C#" prot="public">
     <compoundname>MR::BooleanPreCutResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanPreCutResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BooleanPreCutResult" prot="public" virt="non-virtual">MR.Const_BooleanPreCutResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BooleanPreCutResult_1a7c03684c0d1803ea8482a97aa5615f4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -122,7 +122,7 @@
         <name>BooleanPreCutResult</name>
         <qualifiedname>MR.BooleanPreCutResult.BooleanPreCutResult</qualifiedname>
         <param>
-          <type>Const_BooleanPreCutResult</type>
+          <type><ref refid="classMR_1_1Const__BooleanPreCutResult" kindref="compound">Const_BooleanPreCutResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanPreCutResult</label>
+        <link refid="classMR_1_1Const__BooleanPreCutResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,6 +209,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanPreCutResult</label>
+        <link refid="classMR_1_1Const__BooleanPreCutResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -229,7 +231,15 @@
       <member refid="classMR_1_1BooleanPreCutResult_1af902c0299cad7168b2894edae0f91223" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1a467dcde1c3f18ddb767d6df39fc4ed66" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1aac3507e8def6bc3c0e1acf7b3dff3783" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1af3a61bc319ba0b786a81a20f6a2a9bb6" prot="package" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a96703be45f17d2c131ebd8dfa16478d4" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1ad359bc35237df735250c717ffb171778" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1ac5f6336bbeea85c865a65960ed28fee9" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a900c93e8427de4b8f059c88afe36fb44" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1adc462e98edff664992f36e5cdd1b33a1" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1af16cc3517fc72a4a4ffd89119df82ffe" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>contours</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a3962bc1a34ef5f4c851661cc31fb0125" prot="protected" virt="virtual"><scope>MR::BooleanPreCutResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1ac2528e2c7d51f2225833e15d9de32a38" prot="public" virt="virtual"><scope>MR::BooleanPreCutResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1a7c03684c0d1803ea8482a97aa5615f4c" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>mesh</name></member>
     </listofallmembers>
   </compounddef>

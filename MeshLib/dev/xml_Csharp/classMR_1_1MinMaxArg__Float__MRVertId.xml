@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MinMaxArg__Float__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::MinMaxArg_Float_MRVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MinMaxArg_Float_MRVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MinMaxArg__Float__MRVertId" prot="public" virt="non-virtual">MR.Const_MinMaxArg_Float_MRVertId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -139,7 +139,7 @@
         <name>MinMaxArg_Float_MRVertId</name>
         <qualifiedname>MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</qualifiedname>
         <param>
-          <type>MR.Const_MinMaxArg_Float_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__MinMaxArg__Float__MRVertId" kindref="compound">MR.Const_MinMaxArg_Float_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -177,7 +177,7 @@
         <name>assign</name>
         <qualifiedname>MR.MinMaxArg_Float_MRVertId.assign</qualifiedname>
         <param>
-          <type>MR.Const_MinMaxArg_Float_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__MinMaxArg__Float__MRVertId" kindref="compound">MR.Const_MinMaxArg_Float_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -238,7 +238,7 @@
         <name>include</name>
         <qualifiedname>MR.MinMaxArg_Float_MRVertId.include</qualifiedname>
         <param>
-          <type>MR.Const_MinMaxArg_Float_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__MinMaxArg__Float__MRVertId" kindref="compound">MR.Const_MinMaxArg_Float_MRVertId</ref></type>
           <declname>s</declname>
         </param>
         <briefdescription>
@@ -265,6 +265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MinMaxArg_Float_MRVertId</label>
+        <link refid="classMR_1_1Const__MinMaxArg__Float__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -278,6 +279,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MinMaxArg_Float_MRVertId</label>
         <link refid="classMR_1_1MinMaxArg__Float__MRVertId"/>
@@ -286,9 +291,14 @@
       </node>
       <node id="2">
         <label>MR.Const_MinMaxArg_Float_MRVertId</label>
+        <link refid="classMR_1_1Const__MinMaxArg__Float__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_maxArg</edgelabel>
+          <edgelabel>__ref_storage_minArg</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -300,12 +310,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="146" bodyend="247"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1ab700bddbd9ff32d78fe8edbc0bd690cd" prot="protected" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>__ref_storage_max</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1a0c41d15871a1ac9364645459fb3ef746" prot="protected" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>__ref_storage_maxArg</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1ad03f6d35b4fb8c2cd6786b340c960d9c" prot="protected" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>__ref_storage_min</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1ab32c23720b61673225153f3e48641c10" prot="protected" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>__ref_storage_minArg</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8b1b65991ba3cd5eb183814f45427d51" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1ad7eb959b260b702d765ff0ccc6311c74" prot="package" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>Const_MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1a215bfa2e4482377669b29f3b09ed837a" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>Const_MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1a5eb68471014b850529578c8c69cfc6ec" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>Const_MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1aa1a3f084486fbb49c3bb6973f9ca327c" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>Const_MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1aeff1b497dcca929e31315c4ff4c62e7e" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>Const_MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1a98534bd6e356e59f42cecf84ff353679" prot="protected" virt="virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1ae6737eb7bc13ffc98fe537435a22e3fa" prot="public" virt="virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a793fc535623cb7c09b0daac2d7b4072e" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>include</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a71856a548ad8abf1fd99f178bdd1443a" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>include</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a949fb183b749fffd24840bd3133fd1f7" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>include</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>max</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1ad518fbaf3c139531504a785f7bf66afb" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>maxArg</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1a4c94eb7956e52918ef0fd711477faf3f" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>maxPair</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>min</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a880bc299710dc5fa00b7edb99c7a0f57" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>minArg</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a667f421893a6272743cf87429d93b314" prot="package" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
@@ -313,6 +335,7 @@
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1abb40813da45ba405964f4b6988413d44" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a2da7f9810e91055e5f18787db81d918f" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
       <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a525b200de9e5d33448df1363ea306937" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MinMaxArg__Float__MRVertId_1ab3c02255db34fbba884e466c8ff1b03e" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>minPair</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

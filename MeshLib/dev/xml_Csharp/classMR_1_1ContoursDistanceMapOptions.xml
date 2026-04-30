@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ContoursDistanceMapOptions" kind="class" language="C#" prot="public">
     <compoundname>MR::ContoursDistanceMapOptions</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ContoursDistanceMapOptions</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ContoursDistanceMapOptions" prot="public" virt="non-virtual">MR.Const_ContoursDistanceMapOptions</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1a6d074bce2d249c09d57169e69a7bfa6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.ContoursDistanceMapOptions.SignedDetectionMethod</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__ContoursDistanceMapOptions_1a9e7afd3100ad3c6fddd8040fd6f8ff1a" kindref="member">MR.ContoursDistanceMapOptions.SignedDetectionMethod</ref></type>
         <definition>new unsafe ref MR.ContoursDistanceMapOptions.SignedDetectionMethod MR.ContoursDistanceMapOptions.signMethod</definition>
         <argsstring></argsstring>
         <name>signMethod</name>
@@ -19,7 +19,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1187" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1187" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1a9958b2991e7e53c2d488f08d17ce7411" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_ContoursDistanceMapOffset</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__ContoursDistanceMapOffset" kindref="compound">Const_ContoursDistanceMapOffset</ref></type>
         <definition>new unsafe MR.? Const_ContoursDistanceMapOffset MR.ContoursDistanceMapOptions.offsetParameters</definition>
         <argsstring></argsstring>
         <name>offsetParameters</name>
@@ -34,7 +34,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1192" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1193" bodyend="1202"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOptions_1a98127a8a9257577346dd20f1168b28b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_PixelBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__PixelBitSet" kindref="compound">Const_PixelBitSet</ref></type>
         <definition>new unsafe MR.? Const_PixelBitSet MR.ContoursDistanceMapOptions.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -141,15 +141,15 @@
         <name>ContoursDistanceMapOptions</name>
         <qualifiedname>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</qualifiedname>
         <param>
-          <type>MR.ContoursDistanceMapOptions.SignedDetectionMethod</type>
+          <type><ref refid="classMR_1_1Const__ContoursDistanceMapOptions_1a9e7afd3100ad3c6fddd8040fd6f8ff1a" kindref="member">MR.ContoursDistanceMapOptions.SignedDetectionMethod</ref></type>
           <declname>signMethod</declname>
         </param>
         <param>
-          <type>MR.Const_ContoursDistanceMapOffset?</type>
+          <type><ref refid="classMR_1_1Const__ContoursDistanceMapOffset" kindref="compound">MR.Const_ContoursDistanceMapOffset</ref>?</type>
           <declname>offsetParameters</declname>
         </param>
         <param>
-          <type>MR.Const_PixelBitSet?</type>
+          <type><ref refid="classMR_1_1Const__PixelBitSet" kindref="compound">MR.Const_PixelBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <param>
@@ -180,7 +180,7 @@
         <name>ContoursDistanceMapOptions</name>
         <qualifiedname>MR.ContoursDistanceMapOptions.ContoursDistanceMapOptions</qualifiedname>
         <param>
-          <type>MR.Const_ContoursDistanceMapOptions</type>
+          <type><ref refid="classMR_1_1Const__ContoursDistanceMapOptions" kindref="compound">MR.Const_ContoursDistanceMapOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -218,7 +218,7 @@
         <name>assign</name>
         <qualifiedname>MR.ContoursDistanceMapOptions.assign</qualifiedname>
         <param>
-          <type>MR.Const_ContoursDistanceMapOptions</type>
+          <type><ref refid="classMR_1_1Const__ContoursDistanceMapOptions" kindref="compound">MR.Const_ContoursDistanceMapOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -245,6 +245,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ContoursDistanceMapOptions</label>
+        <link refid="classMR_1_1Const__ContoursDistanceMapOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -258,6 +259,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ContoursDistanceMapOptions</label>
         <link refid="classMR_1_1ContoursDistanceMapOptions"/>
@@ -266,9 +271,16 @@
       </node>
       <node id="2">
         <label>MR.Const_ContoursDistanceMapOptions</label>
+        <link refid="classMR_1_1Const__ContoursDistanceMapOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_offsetParameters</edgelabel>
+          <edgelabel>__ptr_storage_outClosestEdges</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ref_storage_signMethod</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -280,17 +292,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1185" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="1186" bodyend="1306"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a731dea3c5501f34c9d49a28573546e20" prot="protected" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>__ptr_storage_offsetParameters</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a2db1fe52c76ab6d5aaf0c6469003a0e7" prot="protected" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>__ptr_storage_outClosestEdges</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a3f269a786df9f46942ad46cae3036e10" prot="protected" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a1fcaa46387ca7c79749722f6cb2127f4" prot="protected" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>__ref_storage_maxDist</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a197d2691beb6fee9265da3f9530adcf6" prot="protected" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>__ref_storage_minDist</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1aebb708f8d3bb9af2f774850567ff24fc" prot="protected" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>__ref_storage_signMethod</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1ab64288b2a90187e2b08835b93334e280" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1afbad085d5e752d68cd4ec7039bb630af" prot="package" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>Const_ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a40b12c2e13f90db91766f50980b3b903" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>Const_ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a4995d6b420c2c5f291c53c333cacb770" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>Const_ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a068f6489f491f7072b039a7a9ad2553b" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>Const_ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a4dfbdf0f08e3269829b8e5119a0be440" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>Const_ContoursDistanceMapOptions</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1a233fe0b8b4dde704d9d575b2d68e9c22" prot="package" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1af42db461c4fd4174d62cfe5a4787444c" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1a46b27893e644fa77d30a93d08dc5d9c9" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1af1d2dbdb1c301d14976127663503624f" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1ac9aac37a098984a0a62ee867c7826ba3" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>ContoursDistanceMapOptions</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a35688accccfd68485ffc9d4fb24007bb" prot="protected" virt="virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a1af21ca8e488c53cc270df1ded67d763" prot="public" virt="virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1a785961a92e79e3c451e60768fa24c1e6" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>maxDist</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1af7e6825439852f3f7847ee0c5b9e74ff" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>minDist</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1a9958b2991e7e53c2d488f08d17ce7411" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>offsetParameters</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1a2cc9ddb5b4e9eabae1fc029ac683de72" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>outClosestEdges</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1a98127a8a9257577346dd20f1168b28b6" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOptions_1a9e7afd3100ad3c6fddd8040fd6f8ff1a" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>SignedDetectionMethod</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOptions_1a6d074bce2d249c09d57169e69a7bfa6c" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOptions</scope><name>signMethod</name></member>
     </listofallmembers>
   </compounddef>

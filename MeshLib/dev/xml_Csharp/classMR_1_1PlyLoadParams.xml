@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PlyLoadParams" kind="class" language="C#" prot="public">
     <compoundname>MR::PlyLoadParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PlyLoadParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PlyLoadParams" prot="public" virt="non-virtual">MR.Const_PlyLoadParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a362d40db9b26e801a31dbff834210932" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Optional_MRTriangulation</type>
@@ -295,7 +295,7 @@
         <name>PlyLoadParams</name>
         <qualifiedname>MR.PlyLoadParams.PlyLoadParams</qualifiedname>
         <param>
-          <type>Const_PlyLoadParams</type>
+          <type><ref refid="classMR_1_1Const__PlyLoadParams" kindref="compound">Const_PlyLoadParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -360,6 +360,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PlyLoadParams</label>
+        <link refid="classMR_1_1Const__PlyLoadParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -373,6 +374,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PlyLoadParams</label>
         <link refid="classMR_1_1PlyLoadParams"/>
@@ -381,9 +386,20 @@
       </node>
       <node id="2">
         <label>MR.Const_PlyLoadParams</label>
+        <link refid="classMR_1_1Const__PlyLoadParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_colors</edgelabel>
+          <edgelabel>__ptr_storage_edges</edgelabel>
+          <edgelabel>__ptr_storage_faceColors</edgelabel>
+          <edgelabel>__ptr_storage_normals</edgelabel>
+          <edgelabel>__ptr_storage_texture</edgelabel>
+          <edgelabel>__ptr_storage_triCornerUvCoords</edgelabel>
+          <edgelabel>__ptr_storage_tris</edgelabel>
+          <edgelabel>__ptr_storage_uvCoords</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -395,10 +411,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="333" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="334" bodyend="569"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a61ae13a7ffa149244ab9efd8b74a6d5e" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ptr_storage_colors</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a091414bd9e2cb4a8c7c105e0fd1157ed" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ptr_storage_edges</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a08462192803ce897b09239edb8b6dde6" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ptr_storage_faceColors</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a1811aaa4c57875ff07c7f32a24ed7446" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ptr_storage_normals</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a78cd47c1a05c32056b7321f3a40aeae4" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ptr_storage_texture</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a47e122964861176cad26d16f11678de6" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ptr_storage_triCornerUvCoords</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a58a04e84a1f8835927a6b08a6a0dac94" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ptr_storage_tris</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1ab166398c468b837755dd05f05073fc61" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ptr_storage_uvCoords</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1aad6792f7fe44e7ee6647658cab132395" prot="protected" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>__ref_storage_telemetrySignal</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a634e8184f0d3e832a49a9262532a0b93" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>assign</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a07909c3f5f9adfd0f6c7a83128b23aeb" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>callback</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a805e4f12f41cb08430a66ab6b059278f" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>colors</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a9ca0ecae301ea78e3a992dc1ca33616d" prot="package" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>Const_PlyLoadParams</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1ae9c479b8b0be67cba0d93043b8383907" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>Const_PlyLoadParams</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a3de10e22f73b71fed9773b666aa6d4ac" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>Const_PlyLoadParams</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1aac7758f2d17c9b9ff1ccf59d97870847" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>Const_PlyLoadParams</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a36835dfae4b1248e2effc9b8be8ff587" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>Const_PlyLoadParams</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a0262ddc852396f612fad856ebd62965e" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>Const_PlyLoadParams</name></member>
       <member refid="classMR_1_1PlyLoadParams_1aed2575a087d605888acfeaea623485e6" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>dir</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a7283e316a8b9e249b6a37ea6741163be" prot="protected" virt="virtual"><scope>MR::PlyLoadParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PlyLoadParams_1a6d40a1488f667a0035b8a79f5df4c46f" prot="public" virt="virtual"><scope>MR::PlyLoadParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a1a318846683333d6452da8b24eae414a" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>edges</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a49ec369871d46c65982217bf03878e75" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>faceColors</name></member>
       <member refid="classMR_1_1PlyLoadParams_1a804504cf8bd835c33150c3e30893d7ff" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>normals</name></member>

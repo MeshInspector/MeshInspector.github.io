@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SetBitIteratorT_MRPixelBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SetBitIteratorT__MRPixelBitSet" prot="public" virt="non-virtual">MR.SetBitIteratorT_MRPixelBitSet</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1ad6d4719807d84e816123dbd04406922e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SetBitIteratorT_MRPixelBitSet.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14548" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14548" bodyend="14556"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a996b044b3088d7430a2b03fad3622759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SetBitIteratorT_MRPixelBitSet.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14557" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14557" bodyend="14557"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a7ceab1a69314341aeb0de0030b04f405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SetBitIteratorT_MRPixelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14565" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14565" bodyend="14570"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a429e6718f16d8935dc6e671e410b43dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRPixelBitSet _other)</argsstring>
+        <name>Const_SetBitIteratorT_MRPixelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRPixelBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14575" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14575" bodyend="14581"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1ad7838de73853b0eb9552e47134a46d7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</definition>
+        <argsstring>(SetBitIteratorT_MRPixelBitSet _other)</argsstring>
+        <name>Const_SetBitIteratorT_MRPixelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SetBitIteratorT__MRPixelBitSet" kindref="compound">SetBitIteratorT_MRPixelBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14586" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14586" bodyend="14586"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1ac35f0b61f7629b96e6d2941e93209bc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</definition>
+        <argsstring>(MR.Const_PixelBitSet bitset)</argsstring>
+        <name>Const_SetBitIteratorT_MRPixelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PixelBitSet" kindref="compound">MR.Const_PixelBitSet</ref></type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14592" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14592" bodyend="14598"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a49c554941848273b33b8c9417888077d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__PixelBitSet" kindref="compound">Const_PixelBitSet</ref></type>
+        <definition>unsafe MR.? Const_PixelBitSet MR.Const_SetBitIteratorT_MRPixelBitSet.bitset</definition>
+        <argsstring>()</argsstring>
+        <name>bitset</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.bitset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a49c554941848273b33b8c9417888077d" kindref="member">bitset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14621" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14621" bodyend="14627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a35ce56398188985a7320fc1856403ed8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+        <definition>unsafe MR.PixelId MR.Const_SetBitIteratorT_MRPixelBitSet.deref</definition>
+        <argsstring>()</argsstring>
+        <name>deref</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.deref</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref>&amp;gt;::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14632" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14632" bodyend="14637"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a8a32e152161738ba601067569366806d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_SetBitIteratorT_MRPixelBitSet.Equals</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRPixelBitSet? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRPixelBitSet</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14656" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14656" bodyend="14661"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a874ee565d86c7627e4e12dcce39c928b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_SetBitIteratorT_MRPixelBitSet.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14663" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14663" bodyend="14670"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a9707c20210a6d6de56758807ce048e0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SetBitIteratorT_MRPixelBitSet.~Const_SetBitIteratorT_MRPixelBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SetBitIteratorT_MRPixelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.~Const_SetBitIteratorT_MRPixelBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14558" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14558" bodyend="14558"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1af5697d19f849556ef2b34c99c65cd860" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SetBitIteratorT_MRPixelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.Const_SetBitIteratorT_MRPixelBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14560" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14560" bodyend="14560"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a3e6f0165a1a2d7bc031d2737447e09aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SetBitIteratorT_MRPixelBitSet.operator Const_SetBitIteratorT_MRPixelBitSet</definition>
+        <argsstring>(MR.Const_PixelBitSet bitset)</argsstring>
+        <name>operator Const_SetBitIteratorT_MRPixelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.operator Const_SetBitIteratorT_MRPixelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PixelBitSet" kindref="compound">MR.Const_PixelBitSet</ref></type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14604" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14604" bodyend="14604"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a0b370b43b5477f648376d28995366d08" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SetBitIteratorT__MRPixelBitSet" kindref="compound">SetBitIteratorT_MRPixelBitSet</ref></type>
+        <definition>static unsafe SetBitIteratorT_MRPixelBitSet MR.Const_SetBitIteratorT_MRPixelBitSet.operator++</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRPixelBitSet _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRPixelBitSet</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a0b370b43b5477f648376d28995366d08" kindref="member">operator++</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14609" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14609" bodyend="14616"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a665c0e782f39cb2707d12a7f21d5f8d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_SetBitIteratorT_MRPixelBitSet.operator==</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRPixelBitSet a, MR.Const_SetBitIteratorT_MRPixelBitSet b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRPixelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRPixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14642" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14642" bodyend="14647"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a8c26fa5b0df27d4e442b8ccc75b0825b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_SetBitIteratorT_MRPixelBitSet.operator!=</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRPixelBitSet a, MR.Const_SetBitIteratorT_MRPixelBitSet b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRPixelBitSet.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRPixelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRPixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14649" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14649" bodyend="14652"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SetBitIteratorT_MRPixelBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.SetBitIteratorT_MRPixelBitSet</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRPixelBitSet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_SetBitIteratorT_MRPixelBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14542" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14543" bodyend="14671"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a49c554941848273b33b8c9417888077d" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1af5697d19f849556ef2b34c99c65cd860" prot="package" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Const_SetBitIteratorT_MRPixelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a7ceab1a69314341aeb0de0030b04f405" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Const_SetBitIteratorT_MRPixelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a429e6718f16d8935dc6e671e410b43dc" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Const_SetBitIteratorT_MRPixelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1ad7838de73853b0eb9552e47134a46d7e" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Const_SetBitIteratorT_MRPixelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1ac35f0b61f7629b96e6d2941e93209bc6" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Const_SetBitIteratorT_MRPixelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a35ce56398188985a7320fc1856403ed8" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1ad6d4719807d84e816123dbd04406922e" prot="protected" virt="virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a996b044b3088d7430a2b03fad3622759" prot="public" virt="virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a8a32e152161738ba601067569366806d" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a874ee565d86c7627e4e12dcce39c928b" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a3e6f0165a1a2d7bc031d2737447e09aa" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>operator Const_SetBitIteratorT_MRPixelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a8c26fa5b0df27d4e442b8ccc75b0825b" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a0b370b43b5477f648376d28995366d08" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a665c0e782f39cb2707d12a7f21d5f8d2" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRPixelBitSet_1a9707c20210a6d6de56758807ce048e0b" prot="private" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRPixelBitSet</scope><name>~Const_SetBitIteratorT_MRPixelBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

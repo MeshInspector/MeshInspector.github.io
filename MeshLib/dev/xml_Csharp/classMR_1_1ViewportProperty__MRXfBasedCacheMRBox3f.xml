@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::ViewportProperty_MRXfBasedCacheMRBox3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f" prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ae5ac95dbcc0a40a07ec24caad14b0771" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe <ref refid="classMR_1_1XfBasedCache__MRBox3f" kindref="compound">MR.XfBasedCache_MRBox3f</ref></type>
@@ -86,7 +86,7 @@
         <name>ViewportProperty_MRXfBasedCacheMRBox3f</name>
         <qualifiedname>MR.ViewportProperty_MRXfBasedCacheMRBox3f.ViewportProperty_MRXfBasedCacheMRBox3f</qualifiedname>
         <param>
-          <type>Const_ViewportProperty_MRXfBasedCacheMRBox3f</type>
+          <type><ref refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f" kindref="compound">Const_ViewportProperty_MRXfBasedCacheMRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>ViewportProperty_MRXfBasedCacheMRBox3f</name>
         <qualifiedname>MR.ViewportProperty_MRXfBasedCacheMRBox3f.ViewportProperty_MRXfBasedCacheMRBox3f</qualifiedname>
         <param>
-          <type>MR.Const_XfBasedCache_MRBox3f</type>
+          <type><ref refid="classMR_1_1Const__XfBasedCache__MRBox3f" kindref="compound">MR.Const_XfBasedCache_MRBox3f</ref></type>
           <declname>def</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>set</name>
         <qualifiedname>MR.ViewportProperty_MRXfBasedCacheMRBox3f.set</qualifiedname>
         <param>
-          <type>MR.Const_XfBasedCache_MRBox3f</type>
+          <type><ref refid="classMR_1_1Const__XfBasedCache__MRBox3f" kindref="compound">MR.Const_XfBasedCache_MRBox3f</ref></type>
           <declname>def</declname>
         </param>
         <briefdescription>
@@ -196,7 +196,7 @@
         <name>set</name>
         <qualifiedname>MR.ViewportProperty_MRXfBasedCacheMRBox3f.set</qualifiedname>
         <param>
-          <type>MR.Const_XfBasedCache_MRBox3f</type>
+          <type><ref refid="classMR_1_1Const__XfBasedCache__MRBox3f" kindref="compound">MR.Const_XfBasedCache_MRBox3f</ref></type>
           <declname>v</declname>
         </param>
         <param>
@@ -255,7 +255,7 @@
         <name>operator ViewportProperty_MRXfBasedCacheMRBox3f</name>
         <qualifiedname>MR.ViewportProperty_MRXfBasedCacheMRBox3f.operator ViewportProperty_MRXfBasedCacheMRBox3f</qualifiedname>
         <param>
-          <type>MR.Const_XfBasedCache_MRBox3f</type>
+          <type><ref refid="classMR_1_1Const__XfBasedCache__MRBox3f" kindref="compound">MR.Const_XfBasedCache_MRBox3f</ref></type>
           <declname>def</declname>
         </param>
         <briefdescription>
@@ -282,6 +282,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f</label>
+        <link refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -303,6 +304,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportProperty_MRXfBasedCacheMRBox3f</label>
+        <link refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -318,7 +320,17 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1132" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1133" bodyend="1264"/>
     <listofallmembers>
       <member refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ae1ca5d42881fee185c2b3f1353e53b88" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1abe0b4aabf96e993747001bb5e80ec414" prot="package" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>Const_ViewportProperty_MRXfBasedCacheMRBox3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1afd48701df70a929d8391017e3a9db7c5" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>Const_ViewportProperty_MRXfBasedCacheMRBox3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1a541e7fc187830e43557ed3194aee6f23" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>Const_ViewportProperty_MRXfBasedCacheMRBox3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1a5b5dbc9547334d917a2a78580e637068" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>Const_ViewportProperty_MRXfBasedCacheMRBox3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1a52369b210d6efd63cfd6fbf5ae7e7897" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>Const_ViewportProperty_MRXfBasedCacheMRBox3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1a47caacc63aab2d4dadaeda7e577162cb" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>Const_ViewportProperty_MRXfBasedCacheMRBox3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1af96bc5382a5bda3fbda1a5954b41757d" prot="protected" virt="virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1ac58dc7ae2207916b3f8f4ea6d9281610" prot="public" virt="virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a843c46d92f3945ff5131c835e261d288" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1ad3926e835805794ece11b553f769320b" prot="public" virt="non-virtual" ambiguityscope="MR::Const_ViewportProperty_MRXfBasedCacheMRBox3f."><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRXfBasedCacheMRBox3f_1a553de91f346bf3be71b208aae17b69a4" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>operator Const_ViewportProperty_MRXfBasedCacheMRBox3f</name></member>
       <member refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1a0a5134f408ee79d0d458b1362850372d" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>operator ViewportProperty_MRXfBasedCacheMRBox3f</name></member>
       <member refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ad141bd7b64520deebcf49bc29936840e" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>reset</name></member>
       <member refid="classMR_1_1ViewportProperty__MRXfBasedCacheMRBox3f_1ad006f1331e7bcfce6aa20d53cb3ef534" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRXfBasedCacheMRBox3f</scope><name>reset</name></member>

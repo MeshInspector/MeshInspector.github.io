@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SharpOffsetParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::SharpOffsetParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SharpOffsetParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SharpOffsetParameters" prot="public" virt="non-virtual">MR.Const_SharpOffsetParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SharpOffsetParameters_1a438276e0ba177f45fc01655dbd6a17fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -309,7 +309,7 @@
         <name>SharpOffsetParameters</name>
         <qualifiedname>MR.SharpOffsetParameters.SharpOffsetParameters</qualifiedname>
         <param>
-          <type>Const_SharpOffsetParameters</type>
+          <type><ref refid="classMR_1_1Const__SharpOffsetParameters" kindref="compound">Const_SharpOffsetParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -374,6 +374,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SharpOffsetParameters</label>
+        <link refid="classMR_1_1Const__SharpOffsetParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -387,6 +388,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SharpOffsetParameters</label>
         <link refid="classMR_1_1SharpOffsetParameters"/>
@@ -395,9 +400,14 @@
       </node>
       <node id="2">
         <label>MR.Const_SharpOffsetParameters</label>
+        <link refid="classMR_1_1Const__SharpOffsetParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_outSharpEdges</edgelabel>
+          <edgelabel>__ref_storage_signDetectionMode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -409,9 +419,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="977" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="978" bodyend="1160"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1af33b8c0e68cc91e8a9566e100b1c90bb" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ptr_storage_outSharpEdges</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a27ee7e7e1e62592dd45a455013274a16" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ae5f5ff43ac585498fec82be765ebbe2c" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_maxNewRank2VertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a2f25d184e5f1816d84ada06989dff47a" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_maxNewRank3VertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1acf2520115043cd525b2ceb4c1447d598" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_maxOldVertPosCorrection</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a68c88c896efcb55b5bc0ac20ab6d2275" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_memoryEfficient</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ad289bf2e198c931fa276e99b745bb53a" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_minNewVertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ac6cc45f160dbcbe2361f085aac76102c" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_signDetectionMode</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a4c2c838b06b10ad30483eb510e2648dc" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a6995472b98df1593ab3f7fc98b560fbb" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1af7c541f4e85663a93f21227f42025816" prot="protected" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>__ref_storage_windingNumberThreshold</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1ad35100a2144c22036814d26c87c5e151" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1a1cde748ed14c0f964c26bd7e2eabfefe" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>callBack</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1ac8017187e900733a342357312cc2abac" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a90bb7761c1b51761c09e106da88a1cfe" prot="package" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a2132b1bcfa6dfd467624681f21e87b65" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a36fea789e0636b654d58c9de1ecdaeb8" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1aabdbbdb1f750f4342fdd1ac82c98f66c" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a987f265ea98a08beeeb28026618e2f1b" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a8ca12081fac953b9d965214cb2a1f649" prot="protected" virt="virtual"><scope>MR::SharpOffsetParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ae603c18cd70a6a444a27442b4e1132a8" prot="public" virt="virtual"><scope>MR::SharpOffsetParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1a53eebbde54ee27d7e5f56d40767870b6" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>fwn</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1abe2a7cd10fe51dac8606794ca64fc598" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1afc7db89ef82a2be9ad11aa25ec15d1d9" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
@@ -419,6 +447,8 @@
       <member refid="classMR_1_1SharpOffsetParameters_1a98314489db4694af07d406928e72997a" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>memoryEfficient</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1a1af7672a926ffad368a89be4d7aa92cb" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>minNewVertDev</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1a930db25cc95682cca2d8844d17cdeb9e" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>operator MR.BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a60c2265cf9d45b476e7628f9e29f1013" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>operator MR.Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ac301de344dd22949dcf693b6dec1f673" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>operator MR.Const_OffsetParameters</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1aa9e632fd4d6fd7ed5d299508b8ac5e87" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>operator MR.OffsetParameters</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1a438276e0ba177f45fc01655dbd6a17fd" prot="public" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>outSharpEdges</name></member>
       <member refid="classMR_1_1SharpOffsetParameters_1a4b3c04dc4f61fe5d4afb45a3bf064064" prot="package" virt="non-virtual"><scope>MR::SharpOffsetParameters</scope><name>SharpOffsetParameters</name></member>

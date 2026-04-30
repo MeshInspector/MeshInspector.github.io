@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle" kind="class" language="C#" prot="public">
+    <compoundname>MR::Features::Const_MeasureResult::Const_Angle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle" prot="public" virt="non-virtual">MR.Features.Const_MeasureResult.Angle</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aee57de65892572ddb39d6116c794b3c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Features.Const_MeasureResult.Const_Angle.pointA</definition>
+        <argsstring></argsstring>
+        <name>pointA</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.pointA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="884" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="884" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a56b3cb43807d1cd6a265015d5fe0e52e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Features.Const_MeasureResult.Const_Angle.pointB</definition>
+        <argsstring></argsstring>
+        <name>pointB</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.pointB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="887" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a1fd5ccf9ffb9aaee64a69ffe58f4193e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Features.Const_MeasureResult.Const_Angle.dirA</definition>
+        <argsstring></argsstring>
+        <name>dirA</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.dirA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="891" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1ac33315ede1ca712414456ce0093b8847" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Features.Const_MeasureResult.Const_Angle.dirB</definition>
+        <argsstring></argsstring>
+        <name>dirB</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.dirB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="895" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aaba0f24de269cd37bd07290a09a56a57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Features.Const_MeasureResult.Const_Angle.isSurfaceNormalA</definition>
+        <argsstring></argsstring>
+        <name>isSurfaceNormalA</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.isSurfaceNormalA</qualifiedname>
+        <briefdescription>
+<para>Whether <computeroutput>dir{A,B}</computeroutput> is a surface normal or a line direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="901" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="901" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1ab2e4285b9d8097af0bbfe739326717fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Features.Const_MeasureResult.Const_Angle.isSurfaceNormalB</definition>
+        <argsstring></argsstring>
+        <name>isSurfaceNormalB</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.isSurfaceNormalB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="904" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="904" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aa2b8e5c9487bf1999ce5a0746075c923" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1a1695eaeaeb34bd746e9bfb7b150635c0" kindref="member">MR.Features.MeasureResult.Status</ref></type>
+        <definition>unsafe MR.Features.MeasureResult.Status MR.Features.Const_MeasureResult.Const_Angle.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="907" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="907" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aa34247b6cf12f9e41b71c0958687caac" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_pointA</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_pointA</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_pointA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="885" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1af1845617106dcde98c0a9bca4514234f" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_pointB</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_pointB</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_pointB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="888" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a4013c8df953c511cc6d6f824992a5a88" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_dirA</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_dirA</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_dirA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="892" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a4fcbf2f343ebfd56a87f6d74c8a6b575" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_dirB</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_dirB</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_dirB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="896" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a8cd4291015a551e42db279ada8727373" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_isSurfaceNormalA</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_isSurfaceNormalA</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_isSurfaceNormalA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="902" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="902" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a97a96e5f296f416bcaed442b58b72058" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_isSurfaceNormalB</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_isSurfaceNormalB</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_isSurfaceNormalB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="905" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a2b9ca0eb5f3e7694772989c1790a1c26" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1a1695eaeaeb34bd746e9bfb7b150635c0" kindref="member">MR.Features.MeasureResult.Status</ref> *</type>
+        <definition>unsafe MR.Features.MeasureResult.Status* MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_status</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_status</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.__ref_storage_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="908" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="908" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a5a8ab12ab7e0c6fcdeaa7c7e05ea79c6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Features.Const_MeasureResult.Const_Angle.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="862" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="862" bodyend="870"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1adb9d462160b2520bb94e1da342cc6e76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Features.Const_MeasureResult.Const_Angle.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="871" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="871" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a807047056e74db5d3aea4b51d1a0bad7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Const_Angle.Const_Angle</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Angle</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.Const_Angle</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="971" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="971" bodyend="977"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a7b2aa58e7f96eb5e66ff1a7510217ccc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Const_Angle.Const_Angle</definition>
+        <argsstring>(MR.Features.MeasureResult.Const_Angle _other)</argsstring>
+        <name>Const_Angle</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.Const_Angle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle" kindref="compound">MR.Features.MeasureResult.Const_Angle</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Features::MeasureResult::Angle::Angle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="982" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="982" bodyend="989"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1ab26099e002023f754a3adba3bd8506ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.Const_MeasureResult.Const_Angle.Const_Angle</definition>
+        <argsstring>(Angle _other)</argsstring>
+        <name>Const_Angle</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.Const_Angle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle" kindref="compound">Angle</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Features::MeasureResult::Angle::Angle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="994" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="994" bodyend="994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a80a02d1e5fdadc4c46f2f0a292ec26e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Features.Const_MeasureResult.Const_Angle.pointFor</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>pointFor</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.pointFor</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::Angle::pointFor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1009" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1009" bodyend="1014"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a24d76491847546800b03ae63840b732c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Features.Const_MeasureResult.Const_Angle.dirFor</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>dirFor</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.dirFor</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::Angle::dirFor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1019" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1019" bodyend="1024"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1ad8f2c9fc826110e9b4176193be7a8fc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Features.Const_MeasureResult.Const_Angle.isSurfaceNormalFor</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>isSurfaceNormalFor</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.isSurfaceNormalFor</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::Angle::isSurfaceNormalFor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1029" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1029" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a32c209f4645e1f9e8bf290e04fc91388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Features.Const_MeasureResult.Const_Angle.computeAngleInRadians</definition>
+        <argsstring>()</argsstring>
+        <name>computeAngleInRadians</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.computeAngleInRadians</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::Angle::computeAngleInRadians</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1039" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1039" bodyend="1044"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a0f95c4d304020b450909afd8974fef68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.Const_MeasureResult.Const_Angle.~Const_Angle</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Angle</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.~Const_Angle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="872" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="872" bodyend="872"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aca093b0309c564deed839d95c60a9dcb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Features.Const_MeasureResult.Const_Angle.operator MR.Features.MeasureResult.Const_BasicPart</definition>
+        <argsstring>(Const_Angle self)</argsstring>
+        <name>operator MR.Features.MeasureResult.Const_BasicPart</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.operator MR.Features.MeasureResult.Const_BasicPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle" kindref="compound">Const_Angle</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="875" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="875" bodyend="882"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a47240e4993b8ad613c0e65cd6daab1dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Features.Const_MeasureResult.Const_Angle.operator bool</definition>
+        <argsstring>(MR.Features.MeasureResult.Const_Angle _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle" kindref="compound">MR.Features.MeasureResult.Const_Angle</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::Features::MeasureResult::Angle::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="999" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="999" bodyend="1004"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a6aa6f215498c2bd5936184d9f09b3bec" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Const_Angle.Const_Angle</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Angle</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_Angle.Const_Angle</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="960" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="960" bodyend="965"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle" kindref="compound">MR.Features.MeasureResult.Angle</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart" kindref="compound">MR.Features.MeasureResult.BasicPart</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Features.Const_MeasureResult.Const_Angle</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Features.Const_MeasureResult.Angle</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Features.Const_MeasureResult.Const_Angle</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_dirA</edgelabel>
+          <edgelabel>__ref_storage_dirB</edgelabel>
+          <edgelabel>__ref_storage_pointA</edgelabel>
+          <edgelabel>__ref_storage_pointB</edgelabel>
+          <edgelabel>__ref_storage_status</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="856" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="857" bodyend="1045"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a4013c8df953c511cc6d6f824992a5a88" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>__ref_storage_dirA</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a4fcbf2f343ebfd56a87f6d74c8a6b575" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>__ref_storage_dirB</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a8cd4291015a551e42db279ada8727373" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>__ref_storage_isSurfaceNormalA</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a97a96e5f296f416bcaed442b58b72058" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>__ref_storage_isSurfaceNormalB</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aa34247b6cf12f9e41b71c0958687caac" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>__ref_storage_pointA</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1af1845617106dcde98c0a9bca4514234f" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>__ref_storage_pointB</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a2b9ca0eb5f3e7694772989c1790a1c26" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>__ref_storage_status</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a32c209f4645e1f9e8bf290e04fc91388" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>computeAngleInRadians</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a6aa6f215498c2bd5936184d9f09b3bec" prot="package" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>Const_Angle</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a807047056e74db5d3aea4b51d1a0bad7" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>Const_Angle</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a7b2aa58e7f96eb5e66ff1a7510217ccc" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>Const_Angle</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1ab26099e002023f754a3adba3bd8506ee" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>Const_Angle</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a1fd5ccf9ffb9aaee64a69ffe58f4193e" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>dirA</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1ac33315ede1ca712414456ce0093b8847" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>dirB</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a24d76491847546800b03ae63840b732c" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>dirFor</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a5a8ab12ab7e0c6fcdeaa7c7e05ea79c6" prot="protected" virt="virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1adb9d462160b2520bb94e1da342cc6e76" prot="public" virt="virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aaba0f24de269cd37bd07290a09a56a57" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>isSurfaceNormalA</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1ab2e4285b9d8097af0bbfe739326717fb" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>isSurfaceNormalB</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1ad8f2c9fc826110e9b4176193be7a8fc8" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>isSurfaceNormalFor</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a47240e4993b8ad613c0e65cd6daab1dd" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aca093b0309c564deed839d95c60a9dcb" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>operator MR.Features.MeasureResult.Const_BasicPart</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aee57de65892572ddb39d6116c794b3c6" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>pointA</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a56b3cb43807d1cd6a265015d5fe0e52e" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>pointB</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a80a02d1e5fdadc4c46f2f0a292ec26e8" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>pointFor</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1aa2b8e5c9487bf1999ce5a0746075c923" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>status</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle_1a0f95c4d304020b450909afd8974fef68" prot="private" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_Angle</scope><name>~Const_Angle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

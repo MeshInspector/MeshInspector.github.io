@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoCtor__MRGraphVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoCtor_MRGraphVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoCtor_MRGraphVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoCtor__MRGraphVertId" prot="public" virt="non-virtual">MR.Const_NoCtor_MRGraphVertId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NoCtor__MRGraphVertId_1a23781c121175a6b4ea4284a5feb9fbc1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>NoCtor_MRGraphVertId</name>
         <qualifiedname>MR.NoCtor_MRGraphVertId.NoCtor_MRGraphVertId</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRGraphVertId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRGraphVertId" kindref="compound">MR.Const_NoCtor_MRGraphVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.NoCtor_MRGraphVertId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRGraphVertId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRGraphVertId" kindref="compound">MR.Const_NoCtor_MRGraphVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13756" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13757" bodyend="13797"/>
     <listofallmembers>
       <member refid="classMR_1_1NoCtor__MRGraphVertId_1a5c31690c362792708e4cca8fc8604cba" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRGraphVertId_1ac01ed14e23b4f60cd2db998be6b5ab84" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>Const_NoCtor_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRGraphVertId_1a5bcc30d16ed327efcc3fdd0dedf82b65" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>Const_NoCtor_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRGraphVertId_1ac60e08b16e55a96ec74b8f0b6de319c9" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>Const_NoCtor_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRGraphVertId_1a18b76b07674087558775c63b52b8dd65" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>Const_NoCtor_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRGraphVertId_1a3b32590085a50c4c30ca5267aa30b175" prot="protected" virt="virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRGraphVertId_1ab3e1fa514818296002bc9408db064220" prot="public" virt="virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NoCtor__MRGraphVertId_1a23781c121175a6b4ea4284a5feb9fbc1" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>NoCtor_MRGraphVertId</name></member>
       <member refid="classMR_1_1NoCtor__MRGraphVertId_1a2b991d9d5794b7aa20df4494903b00cc" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>NoCtor_MRGraphVertId</name></member>
       <member refid="classMR_1_1NoCtor__MRGraphVertId_1a8628a651166e2ae6ee40f8af249be42f" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRGraphVertId</scope><name>NoCtor_MRGraphVertId</name></member>

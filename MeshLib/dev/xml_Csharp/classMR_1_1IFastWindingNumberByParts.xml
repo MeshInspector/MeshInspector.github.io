@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IFastWindingNumberByParts" kind="class" language="C#" prot="public">
     <compoundname>MR::IFastWindingNumberByParts</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IFastWindingNumberByParts</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IFastWindingNumberByParts" prot="public" virt="non-virtual">MR.Const_IFastWindingNumberByParts</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1IFastWindingNumberByParts_1a127b50e6d0cdd142e8aac518480294d6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,7 +128,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberB
           <declname>gridToMeshXf</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
           <declname>options</declname>
         </param>
         <param>
@@ -197,6 +197,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberB
       </node>
       <node id="2">
         <label>MR.Const_IFastWindingNumberByParts</label>
+        <link refid="classMR_1_1Const__IFastWindingNumberByParts"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,6 +219,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberB
       </node>
       <node id="2">
         <label>MR.Const_IFastWindingNumberByParts</label>
+        <link refid="classMR_1_1Const__IFastWindingNumberByParts"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -234,6 +236,9 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumberB
     <listofallmembers>
       <member refid="classMR_1_1IFastWindingNumberByParts_1a1956106d30f3ea809c3f88b7bfb2bf93" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
       <member refid="classMR_1_1IFastWindingNumberByParts_1a7c927c1d7e88c4521631c2181856d27e" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumberByParts_1a8467ad2d48d42acfe991f291863edfb3" prot="package" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>Const_IFastWindingNumberByParts</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumberByParts_1aea303205c61fa7127ed84a8884c134db" prot="protected" virt="virtual"><scope>MR::IFastWindingNumberByParts</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumberByParts_1a301a32532a2c8849f0d4d17454400209" prot="public" virt="virtual"><scope>MR::IFastWindingNumberByParts</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IFastWindingNumberByParts_1a127b50e6d0cdd142e8aac518480294d6" prot="package" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>IFastWindingNumberByParts</name></member>
     </listofallmembers>
   </compounddef>

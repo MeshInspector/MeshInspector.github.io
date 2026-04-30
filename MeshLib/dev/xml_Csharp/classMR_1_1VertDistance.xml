@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertDistance" kind="class" language="C#" prot="public">
     <compoundname>MR::VertDistance</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertDistance</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VertDistance" prot="public" virt="non-virtual">MR.Const_VertDistance</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VertDistance_1a17463369178a499e805b20fd7e9be674" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -82,7 +82,7 @@
         <name>VertDistance</name>
         <qualifiedname>MR.VertDistance.VertDistance</qualifiedname>
         <param>
-          <type>MR.Const_VertDistance</type>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.VertDistance.assign</qualifiedname>
         <param>
-          <type>MR.Const_VertDistance</type>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertDistance</label>
+        <link refid="classMR_1_1Const__VertDistance"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VertDistance</label>
         <link refid="classMR_1_1VertDistance"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.Const_VertDistance</label>
+        <link refid="classMR_1_1Const__VertDistance"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_vert</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,8 +214,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="135" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="136" bodyend="206"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VertDistance_1a73b2a31769d296965bb4a69d687511b2" prot="protected" virt="non-virtual"><scope>MR::VertDistance</scope><name>__ref_storage_distance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a10a30816cedaf6739c52dc02385dd4d1" prot="protected" virt="non-virtual"><scope>MR::VertDistance</scope><name>__ref_storage_vert</name></member>
       <member refid="classMR_1_1VertDistance_1af14eaab3fc2136fe0f2a409ca02b4e4c" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a19c9f117e5c64dbf669e20cc0001bd07" prot="package" virt="non-virtual"><scope>MR::VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a959f8ccb3123dee78e07f8299fb60593" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a71a732ec0ba7a52a66ee01660e6ed871" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a6933b45ab8e3e086505efc603004d8d1" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1ae1b87ce8d674b466b842335ae4dc2724" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a3f9cf031f2bb2fd2fce67819d72ee376" prot="protected" virt="virtual"><scope>MR::VertDistance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a40325917cc10699d59fbf7f84fc5d404" prot="public" virt="virtual"><scope>MR::VertDistance</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VertDistance_1aa96d9d35b662f403769c9315fb4b6cad" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>distance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a65fa1c98f8e9303bcd7c56dd115620fe" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>operator&lt;</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a9cad9ee25e241081f11864bc7a058375" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>operator&lt;=</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1aeff8a59d899579af0b9240e1afba2c2d" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>operator&gt;</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a0d6f3cce27810bc469e5e0f5cd984c22" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>operator&gt;=</name></member>
       <member refid="classMR_1_1VertDistance_1a17463369178a499e805b20fd7e9be674" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>vert</name></member>
       <member refid="classMR_1_1VertDistance_1a1511930957f9ad2abf77682e1fd03d32" prot="package" virt="non-virtual"><scope>MR::VertDistance</scope><name>VertDistance</name></member>
       <member refid="classMR_1_1VertDistance_1a05a39b605828e3abe02e49514a3bfdf7" prot="public" virt="non-virtual"><scope>MR::VertDistance</scope><name>VertDistance</name></member>

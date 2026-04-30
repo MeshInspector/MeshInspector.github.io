@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ChangeFacesColorMapAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ChangeFacesColorMapAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeFacesColorMapAction" prot="public" virt="non-virtual">MR.ChangeFacesColorMapAction</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a71c8bd54bff0c4bfc9099a3c8d8df5c0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ChangeFacesColorMapAction.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="292" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="292" bodyend="300"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a8e3c4841c31d272b1c93710f0c2ae1fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ChangeFacesColorMapAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="301" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="301" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a9f23c020d68955b5a4d57d16f8e09ae8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</definition>
+        <argsstring>(MR._ByValue_ChangeFacesColorMapAction _other)</argsstring>
+        <name>Const_ChangeFacesColorMapAction</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeFacesColorMapAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="331" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="331" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a9f7ffd6318ad7388d53af8d99b6d3ee0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</definition>
+        <argsstring>(Const_ChangeFacesColorMapAction _other)</argsstring>
+        <name>Const_ChangeFacesColorMapAction</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeFacesColorMapAction" kindref="compound">Const_ChangeFacesColorMapAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="342" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="342" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1adc0f49644503375793f2903fc691da85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</definition>
+        <argsstring>(ChangeFacesColorMapAction _other)</argsstring>
+        <name>Const_ChangeFacesColorMapAction</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeFacesColorMapAction" kindref="compound">ChangeFacesColorMapAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="347" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="347" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1afeefa5ea51daea609bb2e20311cd2c2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMeshHolder obj)</argsstring>
+        <name>Const_ChangeFacesColorMapAction</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectMeshHolder</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's face colors before making any changes in them Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="353" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="353" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a496784a4f0bc4fba5c132ee25a9af142" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMeshHolder obj, MR.Misc._Moved&lt; MR.FaceColors &gt; newColorMap)</argsstring>
+        <name>Const_ChangeFacesColorMapAction</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectMeshHolder</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref> &gt;</type>
+          <declname>newColorMap</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's face colors and immediate set new value Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction_1ac587b55f7a2b46cc8831cb47d404dde9" kindref="member">MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="369" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="369" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a143731438d2d18973a4186608688494a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ChangeFacesColorMapAction.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeFacesColorMapAction_1a143731438d2d18973a4186608688494a" kindref="member">MR.ChangeFacesColorMapAction.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="385" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="385" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a247d565418bba673e1ecb9d45ed76261" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ChangeFacesColorMapAction.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeFacesColorMapAction_1a247d565418bba673e1ecb9d45ed76261" kindref="member">MR.ChangeFacesColorMapAction.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="405" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="405" bodyend="410"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a552b85aa71d68d162e35b433035ec0a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeFacesColorMapAction.~Const_ChangeFacesColorMapAction</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ChangeFacesColorMapAction</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.~Const_ChangeFacesColorMapAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="302" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="302" bodyend="302"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a5c7c8d269ece6d589ea25d31f4ac4fb8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ChangeFacesColorMapAction.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_ChangeFacesColorMapAction self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeFacesColorMapAction" kindref="compound">Const_ChangeFacesColorMapAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="305" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="305" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1ad375109e32a49d81f93b35c27242c6c7" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ChangeFacesColorMapAction.operator Const_ChangeFacesColorMapAction?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_ChangeFacesColorMapAction?</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.operator Const_ChangeFacesColorMapAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="315" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="315" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1a9ee512247427aa7b9769ca16d0aba1f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_ChangeFacesColorMapAction.setObjectDirty</definition>
+        <argsstring>(MR.Std.Const_SharedPtr_MRObjectMeshHolder obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectMeshHolder</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeFacesColorMapAction_1a9ee512247427aa7b9769ca16d0aba1f2" kindref="member">MR.ChangeFacesColorMapAction.setObjectDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="395" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="395" bodyend="400"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeFacesColorMapAction_1acc838f2b3514a677fc85e3568922c4e3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ChangeFacesColorMapAction</name>
+        <qualifiedname>MR.Const_ChangeFacesColorMapAction.Const_ChangeFacesColorMapAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="326" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="326" bodyend="326"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>History action for faces color map change Generated from class <computeroutput><ref refid="classMR_1_1ChangeFacesColorMapAction" kindref="compound">MR.ChangeFacesColorMapAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ChangeFacesColorMapAction</label>
+        <link refid="classMR_1_1Const__ChangeFacesColorMapAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ChangeFacesColorMapAction</label>
+        <link refid="classMR_1_1ChangeFacesColorMapAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ChangeFacesColorMapAction</label>
+        <link refid="classMR_1_1Const__ChangeFacesColorMapAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="286" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="287" bodyend="411"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1acc838f2b3514a677fc85e3568922c4e3" prot="package" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a9f23c020d68955b5a4d57d16f8e09ae8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a9f7ffd6318ad7388d53af8d99b6d3ee0" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1adc0f49644503375793f2903fc691da85" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1afeefa5ea51daea609bb2e20311cd2c2b" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a496784a4f0bc4fba5c132ee25a9af142" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a71c8bd54bff0c4bfc9099a3c8d8df5c0" prot="protected" virt="virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a8e3c4841c31d272b1c93710f0c2ae1fe" prot="public" virt="virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a247d565418bba673e1ecb9d45ed76261" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a143731438d2d18973a4186608688494a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1ad375109e32a49d81f93b35c27242c6c7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>operator Const_ChangeFacesColorMapAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a5c7c8d269ece6d589ea25d31f4ac4fb8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a9ee512247427aa7b9769ca16d0aba1f2" prot="public" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a552b85aa71d68d162e35b433035ec0a2" prot="private" virt="non-virtual"><scope>MR::Const_ChangeFacesColorMapAction</scope><name>~Const_ChangeFacesColorMapAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

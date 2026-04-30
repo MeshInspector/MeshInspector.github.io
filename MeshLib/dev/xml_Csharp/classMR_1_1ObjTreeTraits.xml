@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjTreeTraits" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjTreeTraits</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjTreeTraits</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjTreeTraits" prot="public" virt="non-virtual">MR.Const_ObjTreeTraits</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ObjTreeTraits_1a2e38b7e8d9e8a2c7f9a4cbf17fb76814" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>ObjTreeTraits</name>
         <qualifiedname>MR.ObjTreeTraits.ObjTreeTraits</qualifiedname>
         <param>
-          <type>MR.Const_ObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__ObjTreeTraits" kindref="compound">MR.Const_ObjTreeTraits</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.ObjTreeTraits.assign</qualifiedname>
         <param>
-          <type>MR.Const_ObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__ObjTreeTraits" kindref="compound">MR.Const_ObjTreeTraits</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjTreeTraits</label>
+        <link refid="classMR_1_1Const__ObjTreeTraits"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjTreeTraits</label>
+        <link refid="classMR_1_1Const__ObjTreeTraits"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="59" bodyend="99"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjTreeTraits_1a9582d67376d2413fe05e036428dd1649" prot="public" virt="non-virtual"><scope>MR::ObjTreeTraits</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a3799673ef8b8e63fbb2c23e4d4fd48fe" prot="package" virt="non-virtual"><scope>MR::ObjTreeTraits</scope><name>Const_ObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a1cd80cfa16cf74086d9df96dc398776e" prot="public" virt="non-virtual"><scope>MR::ObjTreeTraits</scope><name>Const_ObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1ab692d1a4b6178419a00c344cbbd44db3" prot="public" virt="non-virtual"><scope>MR::ObjTreeTraits</scope><name>Const_ObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a08ffa7ad018f3fdec2c13d55d5688e9f" prot="public" virt="non-virtual"><scope>MR::ObjTreeTraits</scope><name>Const_ObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a2aff82d719fd0e078b9da1324e1a1560" prot="protected" virt="virtual"><scope>MR::ObjTreeTraits</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a9619def9f7b9be222fed2e25e7b8d329" prot="public" virt="virtual"><scope>MR::ObjTreeTraits</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ObjTreeTraits_1a2e38b7e8d9e8a2c7f9a4cbf17fb76814" prot="package" virt="non-virtual"><scope>MR::ObjTreeTraits</scope><name>ObjTreeTraits</name></member>
       <member refid="classMR_1_1ObjTreeTraits_1a38cbc67c7dae6b4265157259fc7d6b8b" prot="public" virt="non-virtual"><scope>MR::ObjTreeTraits</scope><name>ObjTreeTraits</name></member>
       <member refid="classMR_1_1ObjTreeTraits_1aa3ae6c22346eac7bfe21b7b7814f582e" prot="public" virt="non-virtual"><scope>MR::ObjTreeTraits</scope><name>ObjTreeTraits</name></member>

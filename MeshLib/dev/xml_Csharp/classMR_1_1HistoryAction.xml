@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1HistoryAction" kind="class" language="C#" prot="public">
     <compoundname>MR::HistoryAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_HistoryAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__HistoryAction" prot="public" virt="non-virtual">MR.Const_HistoryAction</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1HistoryAction_1ab09faf475202a47a27c6539cd2216fde" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>action</name>
         <qualifiedname>MR.HistoryAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>actionType</declname>
         </param>
         <briefdescription>
@@ -62,6 +62,7 @@
       </node>
       <node id="2">
         <label>MR.Const_HistoryAction</label>
+        <link refid="classMR_1_1Const__HistoryAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -83,6 +84,7 @@
       </node>
       <node id="2">
         <label>MR.Const_HistoryAction</label>
+        <link refid="classMR_1_1Const__HistoryAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -98,7 +100,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" line="157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHistoryAction.cs" bodystart="158" bodyend="171"/>
     <listofallmembers>
       <member refid="classMR_1_1HistoryAction_1a4fa0656138f24560d866d1a306a4f8fc" prot="public" virt="non-virtual"><scope>MR::HistoryAction</scope><name>action</name></member>
+      <member refid="classMR_1_1Const__HistoryAction_1ad2620b753e8070071d177e1297311fd4" prot="package" virt="non-virtual"><scope>MR::HistoryAction</scope><name>Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__HistoryAction_1aadb619f788f8f21decf69dfd73a7ab67" prot="protected" virt="virtual"><scope>MR::HistoryAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__HistoryAction_1add1185a761dd6ac74c64db3a8633a771" prot="public" virt="virtual"><scope>MR::HistoryAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__HistoryAction_1aeab281e606835ad9366739f355b0d77f" prot="public" virt="non-virtual"><scope>MR::HistoryAction</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1HistoryAction_1ab09faf475202a47a27c6539cd2216fde" prot="package" virt="non-virtual"><scope>MR::HistoryAction</scope><name>HistoryAction</name></member>
+      <member refid="classMR_1_1Const__HistoryAction_1a58b1dff4f6354d77cce92f987015ad34" prot="public" virt="non-virtual"><scope>MR::HistoryAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" prot="public" virt="non-virtual"><scope>MR::HistoryAction</scope><name>Type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

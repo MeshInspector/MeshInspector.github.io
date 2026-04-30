@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ResolveMeshDegenSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::ResolveMeshDegenSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ResolveMeshDegenSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ResolveMeshDegenSettings" prot="public" virt="non-virtual">MR.Const_ResolveMeshDegenSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ResolveMeshDegenSettings_1a67d043bea6eed19b635fe1b54e992945" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -181,7 +181,7 @@
         <name>ResolveMeshDegenSettings</name>
         <qualifiedname>MR.ResolveMeshDegenSettings.ResolveMeshDegenSettings</qualifiedname>
         <param>
-          <type>MR.Const_ResolveMeshDegenSettings</type>
+          <type><ref refid="classMR_1_1Const__ResolveMeshDegenSettings" kindref="compound">MR.Const_ResolveMeshDegenSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -219,7 +219,7 @@
         <name>assign</name>
         <qualifiedname>MR.ResolveMeshDegenSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_ResolveMeshDegenSettings</type>
+          <type><ref refid="classMR_1_1Const__ResolveMeshDegenSettings" kindref="compound">MR.Const_ResolveMeshDegenSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ResolveMeshDegenSettings</label>
+        <link refid="classMR_1_1Const__ResolveMeshDegenSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ResolveMeshDegenSettings</label>
         <link refid="classMR_1_1ResolveMeshDegenSettings"/>
@@ -267,9 +272,13 @@
       </node>
       <node id="2">
         <label>MR.Const_ResolveMeshDegenSettings</label>
+        <link refid="classMR_1_1Const__ResolveMeshDegenSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -281,8 +290,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1460" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1461" bodyend="1564"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a6bd0fdc58f9370baa72a30c3b1447fd4" prot="protected" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a999c9c96daae3aecae64942aed21bf73" prot="protected" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>__ref_storage_criticalAspectRatio</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a27be5855f441f9a45473c0c1953c0e71" prot="protected" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>__ref_storage_maxAngleChange</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a167393491f6a962f2a069deede579fae" prot="protected" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>__ref_storage_maxDeviation</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1ac98c44e40a3dd96ce2fb361813a47774" prot="protected" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>__ref_storage_stabilizer</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1ac814c9b6b58221c9c7c6d6903e699ec3" prot="protected" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>__ref_storage_tinyEdgeLength</name></member>
       <member refid="classMR_1_1ResolveMeshDegenSettings_1a90c8ddf678c669625c74af810ea67a01" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a9f62a01dcc8c37678a9d3cd6474f461f" prot="package" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>Const_ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a713d7bcb27c5c01cd2e9c162eaac69fa" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>Const_ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1ad34400329ecefc306122bddf6e71676d" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>Const_ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a8121dea0b1f4c754e1e9b2e028dccc33" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>Const_ResolveMeshDegenSettings</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a7a55a52b309d1a11a862fcd00078efac" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>Const_ResolveMeshDegenSettings</name></member>
       <member refid="classMR_1_1ResolveMeshDegenSettings_1a46e311b17df1c61ae8974f0e071a45cc" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>criticalAspectRatio</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1af87ffefbab5df34f7d8f8c19a53a5466" prot="protected" virt="virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ResolveMeshDegenSettings_1a2a94851079db29be9ca5ba92be1635ec" prot="public" virt="virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ResolveMeshDegenSettings_1a06bcbcd82ce77eb4819b61e7f008dfa3" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>maxAngleChange</name></member>
       <member refid="classMR_1_1ResolveMeshDegenSettings_1a67d043bea6eed19b635fe1b54e992945" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>maxDeviation</name></member>
       <member refid="classMR_1_1ResolveMeshDegenSettings_1ac8e14d0db4b48dc9f60289f1413d1fde" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>region</name></member>

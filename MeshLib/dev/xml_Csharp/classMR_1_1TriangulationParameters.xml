@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangulationParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangulationParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriangulationParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TriangulationParameters" prot="public" virt="non-virtual">MR.Const_TriangulationParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TriangulationParameters_1a6c057842916a3f769cd412072e2dc4a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -105,7 +105,7 @@ Too big value increases difficulty of optimization and decreases performance &lt
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="254" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="254" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationParameters_1a7b985aed6c6f5b8290b793179aec89ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_PointCloud</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__PointCloud" kindref="compound">Const_PointCloud</ref></type>
         <definition>new unsafe MR.? Const_PointCloud MR.TriangulationParameters.searchNeighbors</definition>
         <argsstring></argsstring>
         <name>searchNeighbors</name>
@@ -191,7 +191,7 @@ Too big value increases difficulty of optimization and decreases performance &lt
           <declname>automaticRadiusIncrease</declname>
         </param>
         <param>
-          <type>MR.Const_PointCloud?</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref>?</type>
           <declname>searchNeighbors</declname>
         </param>
         <briefdescription>
@@ -210,7 +210,7 @@ Too big value increases difficulty of optimization and decreases performance &lt
         <name>TriangulationParameters</name>
         <qualifiedname>MR.TriangulationParameters.TriangulationParameters</qualifiedname>
         <param>
-          <type>MR.Const_TriangulationParameters</type>
+          <type><ref refid="classMR_1_1Const__TriangulationParameters" kindref="compound">MR.Const_TriangulationParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@ Too big value increases difficulty of optimization and decreases performance &lt
         <name>assign</name>
         <qualifiedname>MR.TriangulationParameters.assign</qualifiedname>
         <param>
-          <type>MR.Const_TriangulationParameters</type>
+          <type><ref refid="classMR_1_1Const__TriangulationParameters" kindref="compound">MR.Const_TriangulationParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -278,6 +278,7 @@ Too big value increases difficulty of optimization and decreases performance &lt
       </node>
       <node id="2">
         <label>MR.Const_TriangulationParameters</label>
+        <link refid="classMR_1_1Const__TriangulationParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -291,6 +292,10 @@ Too big value increases difficulty of optimization and decreases performance &lt
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TriangulationParameters</label>
         <link refid="classMR_1_1TriangulationParameters"/>
@@ -299,9 +304,13 @@ Too big value increases difficulty of optimization and decreases performance &lt
       </node>
       <node id="2">
         <label>MR.Const_TriangulationParameters</label>
+        <link refid="classMR_1_1Const__TriangulationParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_searchNeighbors</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -313,11 +322,25 @@ Too big value increases difficulty of optimization and decreases performance &lt
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="205" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="206" bodyend="331"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a54cdeed2f6078bff1ab3771952173915" prot="protected" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>__ptr_storage_searchNeighbors</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a7ada7eadbac41513fd96d4a30c2330de" prot="protected" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>__ref_storage_automaticRadiusIncrease</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1ac591bed035c1938dc2caa01ec5338688" prot="protected" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>__ref_storage_boundaryAngle</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1aea073f3dff3248553dd295bf20eb05e7" prot="protected" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>__ref_storage_critAngle</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1aaf377ec37f0f9e232158156ae7f82757" prot="protected" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>__ref_storage_critHoleLength</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1ab71eb092e17c74fe48b3929306c4e053" prot="protected" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>__ref_storage_numNeighbours</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1af4b1b020e59c401350bf506cb9b36bd0" prot="protected" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>__ref_storage_radius</name></member>
       <member refid="classMR_1_1TriangulationParameters_1a8b69c08d56886775ef13262aeba06920" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1TriangulationParameters_1a070f3cf1633e3f00920a74ea54fbcfda" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>automaticRadiusIncrease</name></member>
       <member refid="classMR_1_1TriangulationParameters_1ae90e00f10fb269fa23df83335568d939" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>boundaryAngle</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a13e4c9f4c3b076fd2906fdba2f4a0052" prot="package" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a726597f41a71823d59559d73c91e21a3" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a39fa3287350d34db71097e3722076b1c" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a65bf5892a21d500a5dc2dd6bf701addd" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1ae6659d755e35ef2fb2344471445944f3" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
       <member refid="classMR_1_1TriangulationParameters_1af8d0577d5c65b2890534c89923773124" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>critAngle</name></member>
       <member refid="classMR_1_1TriangulationParameters_1ac1e7b272843722118f9a5fde65872993" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>critHoleLength</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a74022a458dab47c91030042c81b0aeaa" prot="protected" virt="virtual"><scope>MR::TriangulationParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1acc7055e6c21d0591bb6d58b0a70dfa32" prot="public" virt="virtual"><scope>MR::TriangulationParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TriangulationParameters_1a6c057842916a3f769cd412072e2dc4a8" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>numNeighbours</name></member>
       <member refid="classMR_1_1TriangulationParameters_1a83f8217df6b4a52de2394e5c35e69ac8" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>radius</name></member>
       <member refid="classMR_1_1TriangulationParameters_1a7b985aed6c6f5b8290b793179aec89ff" prot="public" virt="non-virtual"><scope>MR::TriangulationParameters</scope><name>searchNeighbors</name></member>

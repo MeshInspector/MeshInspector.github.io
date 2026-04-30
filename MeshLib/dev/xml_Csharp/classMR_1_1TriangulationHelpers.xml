@@ -2,6 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangulationHelpers" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangulationHelpers</compoundname>
+    <innerclass refid="classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement" prot="public">MR::TriangulationHelpers::Const_FanOptimizerQueueElement</innerclass>
+    <innerclass refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" prot="public">MR::TriangulationHelpers::Const_Settings</innerclass>
+    <innerclass refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData" prot="public">MR::TriangulationHelpers::Const_TriangulatedFanData</innerclass>
     <innerclass refid="classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" prot="public">MR::TriangulationHelpers::FanOptimizerQueueElement</innerclass>
     <innerclass refid="classMR_1_1TriangulationHelpers_1_1Settings" prot="public">MR::TriangulationHelpers::Settings</innerclass>
     <innerclass refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" prot="public">MR::TriangulationHelpers::TriangulatedFanData</innerclass>
@@ -13,7 +16,7 @@
         <name>updateNeighborsRadius</name>
         <qualifiedname>MR.TriangulationHelpers.updateNeighborsRadius</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -66,7 +69,7 @@
         <name>findNeighborsInBall</name>
         <qualifiedname>MR.TriangulationHelpers.findNeighborsInBall</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -97,7 +100,7 @@
         <name>findNumNeighbors</name>
         <qualifiedname>MR.TriangulationHelpers.findNumNeighbors</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -157,11 +160,11 @@
         <name>filterNeighbors</name>
         <qualifiedname>MR.TriangulationHelpers.filterNeighbors</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>orientedNormals</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>untrustedNormals</declname>
         </param>
         <param>
@@ -188,7 +191,7 @@
         <name>buildLocalTriangulation</name>
         <qualifiedname>MR.TriangulationHelpers.buildLocalTriangulation</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
@@ -196,7 +199,7 @@
           <declname>v</declname>
         </param>
         <param>
-          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" kindref="compound">MR.TriangulationHelpers.Const_Settings</ref></type>
           <declname>settings</declname>
         </param>
         <param>
@@ -219,11 +222,11 @@
         <name>buildLocalTriangulations</name>
         <qualifiedname>MR.TriangulationHelpers.buildLocalTriangulations</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" kindref="compound">MR.TriangulationHelpers.Const_Settings</ref></type>
           <declname>settings</declname>
         </param>
         <param>
@@ -247,11 +250,11 @@
         <name>buildUnitedLocalTriangulations</name>
         <qualifiedname>MR.TriangulationHelpers.buildUnitedLocalTriangulations</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" kindref="compound">MR.TriangulationHelpers.Const_Settings</ref></type>
           <declname>settings</declname>
         </param>
         <param>
@@ -275,7 +278,7 @@
         <name>isBoundaryPoint</name>
         <qualifiedname>MR.TriangulationHelpers.isBoundaryPoint</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
@@ -283,7 +286,7 @@
           <declname>v</declname>
         </param>
         <param>
-          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" kindref="compound">MR.TriangulationHelpers.Const_Settings</ref></type>
           <declname>settings</declname>
         </param>
         <param>
@@ -342,11 +345,11 @@
         <name>findBoundaryPoints</name>
         <qualifiedname>MR.TriangulationHelpers.findBoundaryPoints</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
-          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" kindref="compound">MR.TriangulationHelpers.Const_Settings</ref></type>
           <declname>settings</declname>
         </param>
         <param>

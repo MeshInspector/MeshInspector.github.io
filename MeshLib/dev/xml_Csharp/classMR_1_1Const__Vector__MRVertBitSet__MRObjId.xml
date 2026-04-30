@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_MRVertBitSet_MRObjId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__MRVertBitSet__MRObjId" prot="public" virt="non-virtual">MR.Vector_MRVertBitSet_MRObjId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a82344cc37d039b0edfd1c8b5045326c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRVertBitSet</type>
+        <definition>unsafe MR.Std.Const_Vector_MRVertBitSet MR.Const_Vector_MRVertBitSet_MRObjId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42355" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42355" bodyend="42355"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a8c2aa2a29d355dca030e83658fbfaebc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_Vector_MRVertBitSet_MRObjId.this[MR.ObjId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.ObjId i]</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.this[MR.ObjId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42505" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42506" bodyend="42516"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ac167229bda0a2c986b39ab1f4695bdce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_MRVertBitSet_MRObjId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42276" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42276" bodyend="42284"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab2485f806522504eff466fcad67df25b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_MRVertBitSet_MRObjId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42285" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42285" bodyend="42285"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a4a38681a1e7ceef54be8dc88e9e13a0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.Const_VertBitSet &gt; MR.Const_Vector_MRVertBitSet_MRObjId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42342" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42342" bodyend="42345"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a80b83cb69fd9fc9047548113d7d1a27f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42383" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42383" bodyend="42389"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a26fa782c584f31853d254d8f376a305b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>(MR._ByValue_Vector_MRVertBitSet_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRVertBitSet_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42394" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42394" bodyend="42401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a80bab7e0b852ffa786940865a71012bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>(Const_Vector_MRVertBitSet_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" kindref="compound">Const_Vector_MRVertBitSet_MRObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42406" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42406" bodyend="42406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1af367722ba7871debd2c9a0d84546ec0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>(Vector_MRVertBitSet_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRVertBitSet__MRObjId" kindref="compound">Vector_MRVertBitSet_MRObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42411" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42411" bodyend="42411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a3352e151a2103149082462837350cccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42417" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42417" bodyend="42423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a0615847d18087c5b4cbb1901c4105ea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>(ulong size, MR.Const_VertBitSet val)</argsstring>
+        <name>Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42429" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42429" bodyend="42436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a12657e058f0ce0adb20e6b949d8c40f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVertBitSet &gt; vec)</argsstring>
+        <name>Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVertBitSet &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42442" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42442" bodyend="42449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab63a5ca58b76eb9af6b4a25ae30833f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_MRVertBitSet_MRObjId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab63a5ca58b76eb9af6b4a25ae30833f0" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42475" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42475" bodyend="42480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1aee0d3f0232d57e4a412e0bf5a51544bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVertBitSet_MRObjId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1aee0d3f0232d57e4a412e0bf5a51544bf" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42485" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42485" bodyend="42490"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a67ba6ec608cd6a67c4cf2d6dd5b022bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVertBitSet_MRObjId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a67ba6ec608cd6a67c4cf2d6dd5b022bf" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42495" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42495" bodyend="42500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a62b1ca07ae3a457d69c735b25c9545f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_Vector_MRVertBitSet_MRObjId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a62b1ca07ae3a457d69c735b25c9545f2" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42521" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42521" bodyend="42529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ada5cf9884218912b083e8c02251664d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_Vector_MRVertBitSet_MRObjId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ada5cf9884218912b083e8c02251664d8" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42534" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42534" bodyend="42542"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a1d667783aa36b62f387fb20c6f903d50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRVertBitSet_MRObjId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a1d667783aa36b62f387fb20c6f903d50" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42548" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42548" bodyend="42553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a81d18b16f21fd8a101a2cee43e8de17d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRVertBitSet_MRObjId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ada5cf9884218912b083e8c02251664d8" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a81d18b16f21fd8a101a2cee43e8de17d" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42559" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42559" bodyend="42564"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad1abe79a5f2ab78de588117105b82546" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRVertBitSet_MRObjId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a81d18b16f21fd8a101a2cee43e8de17d" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad1abe79a5f2ab78de588117105b82546" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42570" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42570" bodyend="42575"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a305cc5f838e6820766c521667f6525b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
+        <definition>unsafe MR.? Const_VertBitSet MR.Const_Vector_MRVertBitSet_MRObjId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a305cc5f838e6820766c521667f6525b6" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42580" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42580" bodyend="42589"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a6e8d88e6cefcb40287e68fb61020aeb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVertBitSet_MRObjId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a6e8d88e6cefcb40287e68fb61020aeb6" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42595" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42595" bodyend="42600"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab0e38321a12582581ca25d3f0ea00d1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Vector_MRVertBitSet_MRObjId.Equals</definition>
+        <argsstring>(MR.Const_Vector_MRVertBitSet_MRObjId? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" kindref="compound">MR.Const_Vector_MRVertBitSet_MRObjId</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42604" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42604" bodyend="42609"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1afe091a9f6fb5a228560e58f5df1272f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Vector_MRVertBitSet_MRObjId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42611" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42611" bodyend="42618"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a18eb2f2a8fe71608ae754a6d50b58786" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVertBitSet_MRObjId.~Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.~Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42286" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42286" bodyend="42286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a6ee2105642bde64b1e67e9806e8c3099" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_MRVertBitSet_MRObjId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42347" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42347" bodyend="42350"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7a98b268313e33ee74a018c4bc7de3e5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42372" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42372" bodyend="42377"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a9c224867fffae0a1c04204a13017870b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_MRVertBitSet_MRObjId.operator Const_Vector_MRVertBitSet_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVertBitSet &gt; vec)</argsstring>
+        <name>operator Const_Vector_MRVertBitSet_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.operator Const_Vector_MRVertBitSet_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVertBitSet &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42455" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42455" bodyend="42455"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad85340bbc483f6ba3ffd8806e432c3f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_MRVertBitSet_MRObjId.operator==</definition>
+        <argsstring>(MR.Const_Vector_MRVertBitSet_MRObjId _this, MR.Const_Vector_MRVertBitSet_MRObjId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" kindref="compound">MR.Const_Vector_MRVertBitSet_MRObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" kindref="compound">MR.Const_Vector_MRVertBitSet_MRObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad85340bbc483f6ba3ffd8806e432c3f4" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42460" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42460" bodyend="42465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1afad634430eaba2c5c5765664960bbe35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_MRVertBitSet_MRObjId.operator!=</definition>
+        <argsstring>(MR.Const_Vector_MRVertBitSet_MRObjId _this, MR.Const_Vector_MRVertBitSet_MRObjId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" kindref="compound">MR.Const_Vector_MRVertBitSet_MRObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" kindref="compound">MR.Const_Vector_MRVertBitSet_MRObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42467" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42467" bodyend="42470"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRVertBitSet_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.Vector_MRVertBitSet_MRObjId</label>
+        <link refid="classMR_1_1Vector__MRVertBitSet__MRObjId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRVertBitSet_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42270" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="42271" bodyend="42619"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ada5cf9884218912b083e8c02251664d8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a81d18b16f21fd8a101a2cee43e8de17d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a1d667783aa36b62f387fb20c6f903d50" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a67ba6ec608cd6a67c4cf2d6dd5b022bf" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7a98b268313e33ee74a018c4bc7de3e5" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a80b83cb69fd9fc9047548113d7d1a27f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a26fa782c584f31853d254d8f376a305b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a80bab7e0b852ffa786940865a71012bd" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1af367722ba7871debd2c9a0d84546ec0e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a3352e151a2103149082462837350cccd" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a0615847d18087c5b4cbb1901c4105ea6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a12657e058f0ce0adb20e6b949d8c40f3" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a305cc5f838e6820766c521667f6525b6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ac167229bda0a2c986b39ab1f4695bdce" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab2485f806522504eff466fcad67df25b" prot="public" virt="virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab63a5ca58b76eb9af6b4a25ae30833f0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad1abe79a5f2ab78de588117105b82546" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab0e38321a12582581ca25d3f0ea00d1a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1afe091a9f6fb5a228560e58f5df1272f2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a62b1ca07ae3a457d69c735b25c9545f2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a4a38681a1e7ceef54be8dc88e9e13a0f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a6ee2105642bde64b1e67e9806e8c3099" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a6e8d88e6cefcb40287e68fb61020aeb6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a9c224867fffae0a1c04204a13017870b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>operator Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1afad634430eaba2c5c5765664960bbe35" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad85340bbc483f6ba3ffd8806e432c3f4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1aee0d3f0232d57e4a412e0bf5a51544bf" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a8c2aa2a29d355dca030e83658fbfaebc" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>this[MR.ObjId i]</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a82344cc37d039b0edfd1c8b5045326c8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a18eb2f2a8fe71608ae754a6d50b58786" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>~Const_Vector_MRVertBitSet_MRObjId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

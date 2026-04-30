@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType" prot="public" virt="non-virtual">MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a6c5c44e97f1bac06ba342096b29700eb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3077" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3077" bodyend="3085"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a0a39c4802cd646a95f0219badcd87efc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3086" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3086" bodyend="3086"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a71d6464bc0672b0dd8525b26c0313006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</definition>
+        <argsstring>()</argsstring>
+        <name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name>
+        <qualifiedname>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3094" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3094" bodyend="3099"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a52cc0780f93bf0bf172602b4f2f09852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</definition>
+        <argsstring>(MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType _other)</argsstring>
+        <name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name>
+        <qualifiedname>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType" kindref="compound">MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::IsVisualizeMaskEnum&amp;lt;<ref refid="classMR_1a1d0ab4f9c4cc9b57b10c69bf51e7aa38" kindref="member">MR.LabelVisualizePropertyType</ref>&amp;gt;::IsVisualizeMaskEnum</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3104" bodyend="3110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1ac3d4f69cbb8a9e64997859385ef81b9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</definition>
+        <argsstring>(IsVisualizeMaskEnum_MRLabelVisualizePropertyType _other)</argsstring>
+        <name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name>
+        <qualifiedname>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType" kindref="compound">IsVisualizeMaskEnum_MRLabelVisualizePropertyType</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::IsVisualizeMaskEnum&amp;lt;<ref refid="classMR_1a1d0ab4f9c4cc9b57b10c69bf51e7aa38" kindref="member">MR.LabelVisualizePropertyType</ref>&amp;gt;::IsVisualizeMaskEnum</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3115" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3115" bodyend="3115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1aa6e2f3267bdfcc0302574d29bf1cc065" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.~Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name>
+        <qualifiedname>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.~Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3087" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3087" bodyend="3087"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1adf110dabe460ffbafd110362d5328632" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name>
+        <qualifiedname>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3089" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3089" bodyend="3089"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::IsVisualizeMaskEnum&amp;lt;<ref refid="classMR_1a1d0ab4f9c4cc9b57b10c69bf51e7aa38" kindref="member">MR.LabelVisualizePropertyType</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</label>
+        <link refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.IsVisualizeMaskEnum_MRLabelVisualizePropertyType</label>
+        <link refid="classMR_1_1IsVisualizeMaskEnum__MRLabelVisualizePropertyType"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</label>
+        <link refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="3071" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="3072" bodyend="3116"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1adf110dabe460ffbafd110362d5328632" prot="package" virt="non-virtual"><scope>MR::Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a71d6464bc0672b0dd8525b26c0313006" prot="public" virt="non-virtual"><scope>MR::Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a52cc0780f93bf0bf172602b4f2f09852" prot="public" virt="non-virtual"><scope>MR::Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1ac3d4f69cbb8a9e64997859385ef81b9b" prot="public" virt="non-virtual"><scope>MR::Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a6c5c44e97f1bac06ba342096b29700eb" prot="protected" virt="virtual"><scope>MR::Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1a0a39c4802cd646a95f0219badcd87efc" prot="public" virt="virtual"><scope>MR::Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLabelVisualizePropertyType_1aa6e2f3267bdfcc0302574d29bf1cc065" prot="private" virt="non-virtual"><scope>MR::Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</scope><name>~Const_IsVisualizeMaskEnum_MRLabelVisualizePropertyType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

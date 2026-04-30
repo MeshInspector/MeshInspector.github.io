@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PositionVertsSmoothlyParams" kind="class" language="C#" prot="public">
     <compoundname>MR::PositionVertsSmoothlyParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PositionVertsSmoothlyParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PositionVertsSmoothlyParams" prot="public" virt="non-virtual">MR.Const_PositionVertsSmoothlyParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PositionVertsSmoothlyParams_1aa930c5cf73dc2eef162868fbdf33c1d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.PositionVertsSmoothlyParams.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="185" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="186" bodyend="195"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PositionVertsSmoothlyParams_1a012d8cfc94f382b942081b3970b0b5cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertCoords</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
         <definition>new unsafe MR.? Const_VertCoords MR.PositionVertsSmoothlyParams.vertShifts</definition>
         <argsstring></argsstring>
         <name>vertShifts</name>
@@ -127,11 +127,11 @@
         <name>PositionVertsSmoothlyParams</name>
         <qualifiedname>MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords?</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
           <declname>vertShifts</declname>
         </param>
         <param>
@@ -181,7 +181,7 @@
         <name>PositionVertsSmoothlyParams</name>
         <qualifiedname>MR.PositionVertsSmoothlyParams.PositionVertsSmoothlyParams</qualifiedname>
         <param>
-          <type>Const_PositionVertsSmoothlyParams</type>
+          <type><ref refid="classMR_1_1Const__PositionVertsSmoothlyParams" kindref="compound">Const_PositionVertsSmoothlyParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PositionVertsSmoothlyParams</label>
+        <link refid="classMR_1_1Const__PositionVertsSmoothlyParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PositionVertsSmoothlyParams</label>
         <link refid="classMR_1_1PositionVertsSmoothlyParams"/>
@@ -267,9 +272,14 @@
       </node>
       <node id="2">
         <label>MR.Const_PositionVertsSmoothlyParams</label>
+        <link refid="classMR_1_1Const__PositionVertsSmoothlyParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_vertShifts</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -281,7 +291,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="179" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="180" bodyend="317"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1a257802ce3e89a8c84940bcd785004c29" prot="protected" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1a235502fada9eeeb1f4aaeefcd42f5a7b" prot="protected" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>__ptr_storage_vertShifts</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1a39e6c6888c71df23c66d53f49a9162fd" prot="protected" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>__ref_storage_stabilizer</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1a543c96f1332089058abaf07978109066" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1ae29c3d845868cc479f4465527b36dc6b" prot="package" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>Const_PositionVertsSmoothlyParams</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1a3cc4894914ceee33ac30d9e792ea3478" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>Const_PositionVertsSmoothlyParams</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1a96be7c89c56a64a572ad3bcccf141f32" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>Const_PositionVertsSmoothlyParams</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1ac427a864023a05444549f140ed757228" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>Const_PositionVertsSmoothlyParams</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1a642550491ec437b6c1e5c2cd3b4d4d94" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>Const_PositionVertsSmoothlyParams</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1a98d56a9bdf341ea21c3a568ad38c545f" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>Const_PositionVertsSmoothlyParams</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1a9690d2890cd910b049cfb673d8384ad4" prot="protected" virt="virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PositionVertsSmoothlyParams_1aeb7fe49f187dc122e15b1f2ae52015df" prot="public" virt="virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1afc58b8fcc01b785976e635a0f6b578c0" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>edgeWeights</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1aa0ecb126c66507e33033927a6c4c6cd0" prot="package" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>
       <member refid="classMR_1_1PositionVertsSmoothlyParams_1a9eb281de4ec9a415a1c706cbb38549b9" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>PositionVertsSmoothlyParams</name></member>

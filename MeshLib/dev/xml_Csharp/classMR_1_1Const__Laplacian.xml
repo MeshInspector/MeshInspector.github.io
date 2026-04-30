@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Laplacian" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Laplacian</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Laplacian" prot="public" virt="non-virtual">MR.Laplacian</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__Laplacian_1_1Attractor" prot="public">MR::Const_Laplacian::Attractor</innerclass>
+    <innerclass refid="classMR_1_1Const__Laplacian_1_1Const__Attractor" prot="public">MR::Const_Laplacian::Const_Attractor</innerclass>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1aa103a58378e9e794f58135c641fdf249" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Laplacian.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Laplacian.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="21" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="21" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1aaa77adfc3f0081dbef6888c050f10891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Laplacian.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Laplacian.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1ae473d467899b8addb65792993e5819c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Laplacian.Const_Laplacian</definition>
+        <argsstring>(MR._ByValue_Laplacian _other)</argsstring>
+        <name>Const_Laplacian</name>
+        <qualifiedname>MR.Const_Laplacian.Const_Laplacian</qualifiedname>
+        <param>
+          <type>MR._ByValue_Laplacian</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Laplacian_1a11962dd32eeeb55c9aa2dbb3ea05db65" kindref="member">MR.Laplacian.Laplacian</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="38" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1aad75a8fb1f51f778061a92080e43558c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Laplacian.Const_Laplacian</definition>
+        <argsstring>(MR.Mesh mesh)</argsstring>
+        <name>Const_Laplacian</name>
+        <qualifiedname>MR.Const_Laplacian.Const_Laplacian</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Laplacian_1a11962dd32eeeb55c9aa2dbb3ea05db65" kindref="member">MR.Laplacian.Laplacian</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="49" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1a78f1c96f6dd4e716bacf6e552fdba44c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Laplacian.Const_Laplacian</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.VertCoords points)</argsstring>
+        <name>Const_Laplacian</name>
+        <qualifiedname>MR.Const_Laplacian.Const_Laplacian</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Laplacian_1a11962dd32eeeb55c9aa2dbb3ea05db65" kindref="member">MR.Laplacian.Laplacian</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="60" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1a7789db8a76c3fd960ed7af83f2737ab7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_Laplacian.region</definition>
+        <argsstring>()</argsstring>
+        <name>region</name>
+        <qualifiedname>MR.Const_Laplacian.region</qualifiedname>
+        <briefdescription>
+<para>return all initially free vertices and the first layer of vertices around them Generated from method <computeroutput><ref refid="classMR_1_1Const__Laplacian_1a7789db8a76c3fd960ed7af83f2737ab7" kindref="member">MR.Laplacian.region</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="73" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1a37da581035d603c8423d8498c301393f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_Laplacian.freeVerts</definition>
+        <argsstring>()</argsstring>
+        <name>freeVerts</name>
+        <qualifiedname>MR.Const_Laplacian.freeVerts</qualifiedname>
+        <briefdescription>
+<para>return currently free vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__Laplacian_1a37da581035d603c8423d8498c301393f" kindref="member">MR.Laplacian.freeVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="84" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="84" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1ac3d4be7e4ceb8dfec0c8e429664cea5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_Laplacian.firstLayerFixedVerts</definition>
+        <argsstring>()</argsstring>
+        <name>firstLayerFixedVerts</name>
+        <qualifiedname>MR.Const_Laplacian.firstLayerFixedVerts</qualifiedname>
+        <briefdescription>
+<para>return fixed vertices from the first layer around free vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__Laplacian_1ac3d4be7e4ceb8dfec0c8e429664cea5d" kindref="member">MR.Laplacian.firstLayerFixedVerts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="95" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1aa4beeecec3ec44046046d33e69e63d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+        <definition>unsafe MR.Const_MeshTopology MR.Const_Laplacian.topology</definition>
+        <argsstring>()</argsstring>
+        <name>topology</name>
+        <qualifiedname>MR.Const_Laplacian.topology</qualifiedname>
+        <briefdescription>
+<para>return the topology for which <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> was constructed Generated from method <computeroutput><ref refid="classMR_1_1Const__Laplacian_1aa4beeecec3ec44046046d33e69e63d83" kindref="member">MR.Laplacian.topology</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="106" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="106" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1a504484c680e255bdb36ea947511cb03c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
+        <definition>unsafe MR.VertCoords MR.Const_Laplacian.points</definition>
+        <argsstring>()</argsstring>
+        <name>points</name>
+        <qualifiedname>MR.Const_Laplacian.points</qualifiedname>
+        <briefdescription>
+<para>return the vector of coordinates for which <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> was constructed Generated from method <computeroutput><ref refid="classMR_1_1Const__Laplacian_1a504484c680e255bdb36ea947511cb03c" kindref="member">MR.Laplacian.points</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="117" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="117" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1a4e33d25d92f9395a25c1f91be3d656b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Laplacian.~Const_Laplacian</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Laplacian</name>
+        <qualifiedname>MR.Const_Laplacian.~Const_Laplacian</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1ae3dbc40da810d0fabecb038224797d9e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Laplacian.Const_Laplacian</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Laplacian</name>
+        <qualifiedname>MR.Const_Laplacian.Const_Laplacian</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="33" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> to smoothly deform a region preserving mesh fine details. How to use: </para>
+    </briefdescription>
+    <detaileddescription>
+<para><orderedlist>
+<listitem><para>Initialize <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> for the region being deformed, here region properties are remembered.</para>
+</listitem><listitem><para>Change positions of some vertices within the region and call fixVertex for them.</para>
+</listitem><listitem><para>Optionally call updateSolver()</para>
+</listitem><listitem><para>Call apply() to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <programlisting filename="cpp-samples/LaplacianDeformation.cpp"></programlisting> Generated from class <computeroutput><ref refid="classMR_1_1Laplacian" kindref="compound">MR.Laplacian</ref></computeroutput>. This is the const half of the class. </para>
+</listitem></orderedlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Laplacian</label>
+        <link refid="classMR_1_1Const__Laplacian"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Laplacian</label>
+        <link refid="classMR_1_1Laplacian"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Laplacian</label>
+        <link refid="classMR_1_1Const__Laplacian"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="16" bodyend="366"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Laplacian_1ae3dbc40da810d0fabecb038224797d9e" prot="package" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>Const_Laplacian</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1ae473d467899b8addb65792993e5819c4" prot="public" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>Const_Laplacian</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1aad75a8fb1f51f778061a92080e43558c" prot="public" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>Const_Laplacian</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a78f1c96f6dd4e716bacf6e552fdba44c" prot="public" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>Const_Laplacian</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1aa103a58378e9e794f58135c641fdf249" prot="protected" virt="virtual"><scope>MR::Const_Laplacian</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1aaa77adfc3f0081dbef6888c050f10891" prot="public" virt="virtual"><scope>MR::Const_Laplacian</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1ac3d4be7e4ceb8dfec0c8e429664cea5d" prot="public" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>firstLayerFixedVerts</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a37da581035d603c8423d8498c301393f" prot="public" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>freeVerts</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a504484c680e255bdb36ea947511cb03c" prot="public" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>points</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a7789db8a76c3fd960ed7af83f2737ab7" prot="public" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1aa4beeecec3ec44046046d33e69e63d83" prot="public" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>topology</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a4e33d25d92f9395a25c1f91be3d656b4" prot="private" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>~Const_Laplacian</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

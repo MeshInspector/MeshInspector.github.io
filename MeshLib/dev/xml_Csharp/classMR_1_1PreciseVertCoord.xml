@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PreciseVertCoord" kind="class" language="C#" prot="public">
     <compoundname>MR::PreciseVertCoord</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PreciseVertCoord</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PreciseVertCoord" prot="public" virt="non-virtual">MR.Const_PreciseVertCoord</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PreciseVertCoord_1a756c8bd884da3b2f4c83dd94bb70c8a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -105,7 +105,7 @@
         <name>PreciseVertCoord</name>
         <qualifiedname>MR.PreciseVertCoord.PreciseVertCoord</qualifiedname>
         <param>
-          <type>MR.Const_PreciseVertCoord</type>
+          <type><ref refid="classMR_1_1Const__PreciseVertCoord" kindref="compound">MR.Const_PreciseVertCoord</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.PreciseVertCoord.assign</qualifiedname>
         <param>
-          <type>MR.Const_PreciseVertCoord</type>
+          <type><ref refid="classMR_1_1Const__PreciseVertCoord" kindref="compound">MR.Const_PreciseVertCoord</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PreciseVertCoord</label>
+        <link refid="classMR_1_1Const__PreciseVertCoord"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PreciseVertCoord</label>
         <link refid="classMR_1_1PreciseVertCoord"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.Const_PreciseVertCoord</label>
+        <link refid="classMR_1_1Const__PreciseVertCoord"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_id</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,7 +214,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="109" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="110" bodyend="180"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1aeb9946f836d5f7441bd9fcfe4e1cef92" prot="protected" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>__ref_storage_id</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a6c7a2b3b5c766eb6a106e40c5ab295c0" prot="protected" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>__ref_storage_pt</name></member>
       <member refid="classMR_1_1PreciseVertCoord_1ab87d65139c10431f17b0e2890537c0ca" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a8d2f9c4277bc0bca18135f8b52d72632" prot="package" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a69210b85742b6cd1ca7e0ce3e2fbb13a" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1afcb292cee0f733ee371eadcd5838ccdc" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1aa5423604dafd5002b4b32e42132f07f6" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a4a05841ec153ff13e2ef2a32bc43ce80" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a1d4c4bdedd96070bb653f836f06288f9" prot="protected" virt="virtual"><scope>MR::PreciseVertCoord</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a8a21dea2ff5868a4ab8e025f705f5a8c" prot="public" virt="virtual"><scope>MR::PreciseVertCoord</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PreciseVertCoord_1a756c8bd884da3b2f4c83dd94bb70c8a7" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>id</name></member>
       <member refid="classMR_1_1PreciseVertCoord_1a986a80e688a38c111d30a23f8680fe03" prot="package" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>PreciseVertCoord</name></member>
       <member refid="classMR_1_1PreciseVertCoord_1ab8992d425f595fb5f3f48173474495cb" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoord</scope><name>PreciseVertCoord</name></member>

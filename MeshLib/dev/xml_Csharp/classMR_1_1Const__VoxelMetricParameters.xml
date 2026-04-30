@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VoxelMetricParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VoxelMetricParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VoxelMetricParameters" prot="public" virt="non-virtual">MR.VoxelMetricParameters</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__VoxelMetricParameters_1a7724f90892da5e6ba7de9c3be129254a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelMetricParameters.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.start</qualifiedname>
+        <briefdescription>
+<para>start voxel index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="61" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VoxelMetricParameters_1aef75e4322d27b7cc0d165a84ce996ba4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelMetricParameters.stop</definition>
+        <argsstring></argsstring>
+        <name>stop</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.stop</qualifiedname>
+        <briefdescription>
+<para>stop voxel index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="67" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VoxelMetricParameters_1ad32ff4025346aac922afce9e5794233e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_VoxelMetricParameters.maxDistRatio</definition>
+        <argsstring></argsstring>
+        <name>maxDistRatio</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.maxDistRatio</qualifiedname>
+        <briefdescription>
+<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="73" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VoxelMetricParameters_1a32e30efd8facefba036c42199e77faa6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a2f6d997fab8518c579b67d420b8dea94" kindref="member">MR.SlicePlane</ref></type>
+        <definition>unsafe MR.SlicePlane MR.Const_VoxelMetricParameters.plane</definition>
+        <argsstring></argsstring>
+        <name>plane</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.plane</qualifiedname>
+        <briefdescription>
+<para>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="79" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VoxelMetricParameters_1a95312e0d349d60912b68dfb5d8f01040" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1ab7b877f1fa2b50085aa247d41bbfed19" kindref="member">MR.QuarterBit</ref></type>
+        <definition>unsafe MR.QuarterBit MR.Const_VoxelMetricParameters.quatersMask</definition>
+        <argsstring></argsstring>
+        <name>quatersMask</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.quatersMask</qualifiedname>
+        <briefdescription>
+<para>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="85" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelMetricParameters_1af86f0afc85859d80e2e5eb90db431483" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_VoxelMetricParameters.__ref_storage_start</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_start</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.__ref_storage_start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="62" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelMetricParameters_1a9cf164bffd8409d78025fc46b22855a0" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_VoxelMetricParameters.__ref_storage_stop</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_stop</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.__ref_storage_stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="68" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelMetricParameters_1a21dd2bec1d85bbcae71540d07ee78d8b" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_VoxelMetricParameters.__ref_storage_maxDistRatio</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxDistRatio</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.__ref_storage_maxDistRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="74" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelMetricParameters_1a98db8493dc268ebd4cf9dac3560fe26e" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a2f6d997fab8518c579b67d420b8dea94" kindref="member">MR.SlicePlane</ref> *</type>
+        <definition>unsafe MR.SlicePlane* MR.Const_VoxelMetricParameters.__ref_storage_plane</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_plane</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.__ref_storage_plane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="80" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelMetricParameters_1ab94bd6c3bc998f32488230281214276a" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1ab7b877f1fa2b50085aa247d41bbfed19" kindref="member">MR.QuarterBit</ref> *</type>
+        <definition>unsafe MR.QuarterBit* MR.Const_VoxelMetricParameters.__ref_storage_quatersMask</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_quatersMask</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.__ref_storage_quatersMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="86" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelMetricParameters_1a87e25353d0b02e9de0766f88aefe20d2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VoxelMetricParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="46" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="46" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelMetricParameters_1aeac212f5334eb57e01e4f38b36055043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VoxelMetricParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="55" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelMetricParameters_1a4cfa7da5e39acd7f6418951154a8ebe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VoxelMetricParameters</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="137" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="137" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelMetricParameters_1ac70bfd8e59f54bafd2535f9b4115919e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</definition>
+        <argsstring>(ulong start, ulong stop, float maxDistRatio, MR.SlicePlane plane, MR.QuarterBit quatersMask)</argsstring>
+        <name>Const_VoxelMetricParameters</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>stop</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistRatio</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a2f6d997fab8518c579b67d420b8dea94" kindref="member">MR.SlicePlane</ref></type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1ab7b877f1fa2b50085aa247d41bbfed19" kindref="member">MR.QuarterBit</ref></type>
+          <declname>quatersMask</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1VoxelMetricParameters" kindref="compound">MR.VoxelMetricParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="148" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="148" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelMetricParameters_1ac074a53645e40f222952206ce41d0838" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</definition>
+        <argsstring>(MR.Const_VoxelMetricParameters _other)</argsstring>
+        <name>Const_VoxelMetricParameters</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelMetricParameters" kindref="compound">MR.Const_VoxelMetricParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelMetricParameters_1afb66cb572adba934723dec3add59a4d9" kindref="member">MR.VoxelMetricParameters.VoxelMetricParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="159" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="159" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelMetricParameters_1a10a874be75f162dde40c9b79a050f03d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</definition>
+        <argsstring>(VoxelMetricParameters _other)</argsstring>
+        <name>Const_VoxelMetricParameters</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelMetricParameters_1afb66cb572adba934723dec3add59a4d9" kindref="member">MR.VoxelMetricParameters.VoxelMetricParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="171" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="171" bodyend="171"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelMetricParameters_1ac8d9d0c8daa72c9aae10e43e55b7e7c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelMetricParameters.~Const_VoxelMetricParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VoxelMetricParameters</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.~Const_VoxelMetricParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="56" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelMetricParameters_1a9891a0c49470025062ea26afb9b140b4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VoxelMetricParameters</name>
+        <qualifiedname>MR.Const_VoxelMetricParameters.Const_VoxelMetricParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="126" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="126" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for building metric function Generated from class <computeroutput><ref refid="classMR_1_1VoxelMetricParameters" kindref="compound">MR.VoxelMetricParameters</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VoxelMetricParameters</label>
+        <link refid="classMR_1_1Const__VoxelMetricParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VoxelMetricParameters</label>
+        <link refid="classMR_1_1VoxelMetricParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_VoxelMetricParameters</label>
+        <link refid="classMR_1_1Const__VoxelMetricParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_plane</edgelabel>
+          <edgelabel>__ref_storage_quatersMask</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="40" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="41" bodyend="172"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a21dd2bec1d85bbcae71540d07ee78d8b" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>__ref_storage_maxDistRatio</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a98db8493dc268ebd4cf9dac3560fe26e" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>__ref_storage_plane</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1ab94bd6c3bc998f32488230281214276a" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>__ref_storage_quatersMask</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1af86f0afc85859d80e2e5eb90db431483" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>__ref_storage_start</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a9cf164bffd8409d78025fc46b22855a0" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>__ref_storage_stop</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a9891a0c49470025062ea26afb9b140b4" prot="package" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a4cfa7da5e39acd7f6418951154a8ebe7" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1ac70bfd8e59f54bafd2535f9b4115919e" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1ac074a53645e40f222952206ce41d0838" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a10a874be75f162dde40c9b79a050f03d" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a87e25353d0b02e9de0766f88aefe20d2" prot="protected" virt="virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1aeac212f5334eb57e01e4f38b36055043" prot="public" virt="virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1ad32ff4025346aac922afce9e5794233e" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>maxDistRatio</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a32e30efd8facefba036c42199e77faa6" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>plane</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a95312e0d349d60912b68dfb5d8f01040" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>quatersMask</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a7724f90892da5e6ba7de9c3be129254a" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>start</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1aef75e4322d27b7cc0d165a84ce996ba4" prot="public" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>stop</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1ac8d9d0c8daa72c9aae10e43e55b7e7c0" prot="private" virt="non-virtual"><scope>MR::Const_VoxelMetricParameters</scope><name>~Const_VoxelMetricParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

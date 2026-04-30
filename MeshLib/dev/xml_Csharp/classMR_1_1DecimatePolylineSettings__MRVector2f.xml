@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DecimatePolylineSettings__MRVector2f" kind="class" language="C#" prot="public">
     <compoundname>MR::DecimatePolylineSettings_MRVector2f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DecimatePolylineSettings_MRVector2f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f" prot="public" virt="non-virtual">MR.Const_DecimatePolylineSettings_MRVector2f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DecimatePolylineSettings__MRVector2f_1adfe2f7f259750db385c221ee73646953" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -278,7 +278,7 @@
         <name>DecimatePolylineSettings_MRVector2f</name>
         <qualifiedname>MR.DecimatePolylineSettings_MRVector2f.DecimatePolylineSettings_MRVector2f</qualifiedname>
         <param>
-          <type>Const_DecimatePolylineSettings_MRVector2f</type>
+          <type><ref refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f" kindref="compound">Const_DecimatePolylineSettings_MRVector2f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -342,6 +342,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DecimatePolylineSettings_MRVector2f</label>
+        <link refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -355,6 +356,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DecimatePolylineSettings_MRVector2f</label>
         <link refid="classMR_1_1DecimatePolylineSettings__MRVector2f"/>
@@ -363,9 +368,14 @@
       </node>
       <node id="2">
         <label>MR.Const_DecimatePolylineSettings_MRVector2f</label>
+        <link refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_vertForms</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -377,14 +387,30 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="260" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="261" bodyend="438"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1a9d6adb5215d8354bb499bca663fc98b1" prot="protected" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1ad2ce3193a1324e12da1c4eb9cb70fc98" prot="protected" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>__ptr_storage_vertForms</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1ace5f0c900ba9c0ed30235ed60ec784dc" prot="protected" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>__ref_storage_maxDeletedVertices</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1ab182492e359e2e86e0fce6c5a47e28c9" prot="protected" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>__ref_storage_maxEdgeLen</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1acb4ca72f6262c724aaca5b73deebe338" prot="protected" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>__ref_storage_maxError</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1a1e9a0f68a0363126462b8c0a5bc22a0d" prot="protected" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>__ref_storage_optimizeVertexPos</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1ab123f682e946f723a1ad9189970c1eff" prot="protected" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>__ref_storage_stabilizer</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1ab5e5b4b6b50ea499dc2ae5118ede6b56" prot="protected" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>__ref_storage_touchBdVertices</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a2559b6eed510406317ae45c8c6c229bd" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>adjustCollapse</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a63f609f1311dd5e2b400bfb71458cd30" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1afe350c4f59d159a99568b3ea16ac8cdc" prot="package" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>Const_DecimatePolylineSettings_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1a619a28ea718c12b58e561709a197b28f" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>Const_DecimatePolylineSettings_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1a291ef843561b93081443b2c9822f1969" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>Const_DecimatePolylineSettings_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1a50725341b22a133d2dcc3e699b306e4d" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>Const_DecimatePolylineSettings_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1aaa8703cc35b37858a23bc2db817d1bca" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>Const_DecimatePolylineSettings_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1a1337c01eef025d8a976beaed1d408f7e" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>Const_DecimatePolylineSettings_MRVector2f</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a4c9637bfa95e840516e28ab7562bd04a" prot="package" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>DecimatePolylineSettings_MRVector2f</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a2bcfc0595393ab797145d7dc8b9a4fd3" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>DecimatePolylineSettings_MRVector2f</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1ab6010aa81701c87eb89077abe5c8dbc6" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>DecimatePolylineSettings_MRVector2f</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a9c9f1f420981e4c2cba1f7d339dc3625" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>DecimatePolylineSettings_MRVector2f</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1ae26af5dd9f5c2adaa4f86362ec70cb64" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>DecimatePolylineSettings_MRVector2f</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a091322056865ca6e2db6e05f31ef02d6" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>DecimatePolylineSettings_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1a62c842ce9cef412686ad3a30ea2608b2" prot="protected" virt="virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineSettings__MRVector2f_1a18f5bbc70627b4b39261e648c4fc3f8c" prot="public" virt="virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1ad3ec9ec4184d5450a936e19e8e99edb1" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>maxDeletedVertices</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1a0e134506a5044ff2d17926e673f20aef" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>maxEdgeLen</name></member>
       <member refid="classMR_1_1DecimatePolylineSettings__MRVector2f_1adfe2f7f259750db385c221ee73646953" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings_MRVector2f</scope><name>maxError</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ICPPairData" kind="class" language="C#" prot="public">
     <compoundname>MR::ICPPairData</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ICPPairData</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ICPPairData" prot="public" virt="non-virtual">MR.Const_ICPPairData</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ICPPairData_1a26cd1545dc9b796eec01396717adee38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -181,7 +181,7 @@
         <name>ICPPairData</name>
         <qualifiedname>MR.ICPPairData.ICPPairData</qualifiedname>
         <param>
-          <type>MR.Const_ICPPairData</type>
+          <type><ref refid="classMR_1_1Const__ICPPairData" kindref="compound">MR.Const_ICPPairData</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -219,7 +219,7 @@
         <name>assign</name>
         <qualifiedname>MR.ICPPairData.assign</qualifiedname>
         <param>
-          <type>MR.Const_ICPPairData</type>
+          <type><ref refid="classMR_1_1Const__ICPPairData" kindref="compound">MR.Const_ICPPairData</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ICPPairData</label>
+        <link refid="classMR_1_1Const__ICPPairData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -264,6 +265,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ICPPairData</label>
         <link refid="classMR_1_1ICPPairData"/>
@@ -272,11 +277,18 @@
       </node>
       <node id="2">
         <label>MR.Const_ICPPairData</label>
+        <link refid="classMR_1_1Const__ICPPairData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_srcNorm</edgelabel>
+          <edgelabel>__ref_storage_srcPoint</edgelabel>
+          <edgelabel>__ref_storage_tgtNorm</edgelabel>
+          <edgelabel>__ref_storage_tgtPoint</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -291,13 +303,30 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="198" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="199" bodyend="289"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ICPPairData_1a35e64c61b8cc361189080cbb61f0a11a" prot="protected" virt="non-virtual"><scope>MR::ICPPairData</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a1ed8298be06f00656e3a1a4ded75a7e2" prot="protected" virt="non-virtual"><scope>MR::ICPPairData</scope><name>__ref_storage_srcNorm</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a53ca8e786112a943a2dfb30acaf20989" prot="protected" virt="non-virtual"><scope>MR::ICPPairData</scope><name>__ref_storage_srcPoint</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a8d167e04e0622ce6f327018aadaec77e" prot="protected" virt="non-virtual"><scope>MR::ICPPairData</scope><name>__ref_storage_tgtNorm</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1aae283ae17bcbced66c67a1a77cc292c1" prot="protected" virt="non-virtual"><scope>MR::ICPPairData</scope><name>__ref_storage_tgtPoint</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a12e145fc88336886372b7275bf34e3b8" prot="protected" virt="non-virtual"><scope>MR::ICPPairData</scope><name>__ref_storage_weight</name></member>
       <member refid="classMR_1_1ICPPairData_1afa8d0dfdbcf89b59f771e856d5f13633" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a9a2b5770c24a0c6234c61e3c43892e5b" prot="package" virt="non-virtual"><scope>MR::ICPPairData</scope><name>Const_ICPPairData</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a8e9acac78f26399e0ed521a9c65d379b" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>Const_ICPPairData</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a3e8db0b0808bab8ef538ed2a10aea29a" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>Const_ICPPairData</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a6551c05ffc1be9b6bc9451931711d450" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>Const_ICPPairData</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a10e7088d54e83bb1045cfba740b6b35d" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>Const_ICPPairData</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1aec9d57639471b85aa895361298d72380" prot="protected" virt="virtual"><scope>MR::ICPPairData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1ad4d8f7ec433527a77bd7ffbc5d73d2f5" prot="public" virt="virtual"><scope>MR::ICPPairData</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ICPPairData_1a967f68d71dceaf6db1c82e8f4b311b92" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>distSq</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1abb516702f3abf023e622c17d7aff1bf3" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1ab6ff6a58b1a5c574061ef2ca0e36085b" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>Equals</name></member>
       <member refid="classMR_1_1ICPPairData_1ac909dbe15e3f207de7d8344c95cb019f" prot="package" virt="non-virtual"><scope>MR::ICPPairData</scope><name>ICPPairData</name></member>
       <member refid="classMR_1_1ICPPairData_1a684a8a6247191969b39a76f4793b3a40" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>ICPPairData</name></member>
       <member refid="classMR_1_1ICPPairData_1aa59c5650184db7a8d2a87d5e831b58ca" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>ICPPairData</name></member>
       <member refid="classMR_1_1ICPPairData_1ab0698940c77e91c231798181ddbfecf0" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>ICPPairData</name></member>
       <member refid="classMR_1_1ICPPairData_1a695d0e2086169dafebd0bfb4a8793e73" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>ICPPairData</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1abc9be24f6e0cf99b793d83cb86313a21" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ICPPairData_1a667c89db690113aa96a1e431b3f82c81" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>operator==</name></member>
       <member refid="classMR_1_1ICPPairData_1a158a71534bc8c686525700d616b24df7" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>srcNorm</name></member>
       <member refid="classMR_1_1ICPPairData_1a26cd1545dc9b796eec01396717adee38" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>srcPoint</name></member>
       <member refid="classMR_1_1ICPPairData_1a40b540fbbb1aa22cffad5537258510ad" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>tgtNorm</name></member>

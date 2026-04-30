@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f" prot="public" virt="non-virtual">MR.AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a3df8e7e2ee597ce10f59c6594a808fb8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="277" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="277" bodyend="285"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a73f0cbde95163ab4e4ca8919c152f7ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="286" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a9c897a2e8905307f1eed7386daa6c756" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</definition>
+        <argsstring>()</argsstring>
+        <name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="294" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="294" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a19ceaa57793a065dfb23cdc9ce1bbc00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</definition>
+        <argsstring>(MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f _other)</argsstring>
+        <name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f" kindref="compound">MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;::AABBTreeTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="304" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="304" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1ae0cb2e57e14a50d0e6cd7fa63106c94b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</definition>
+        <argsstring>(AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f _other)</argsstring>
+        <name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f" kindref="compound">AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;::AABBTreeTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="315" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="315" bodyend="315"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1ad3c47e91b2467e340dbb27d7426af969" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.~Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.~Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="287" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="287" bodyend="287"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a738e54a2bea17a9568321d15a20a48d0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="289" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="289" bodyend="289"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</label>
+        <link refid="classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="271" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="272" bodyend="316"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a738e54a2bea17a9568321d15a20a48d0" prot="package" virt="non-virtual"><scope>MR::Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</scope><name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a9c897a2e8905307f1eed7386daa6c756" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</scope><name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a19ceaa57793a065dfb23cdc9ce1bbc00" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</scope><name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1ae0cb2e57e14a50d0e6cd7fa63106c94b" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</scope><name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a3df8e7e2ee597ce10f59c6594a808fb8" prot="protected" virt="virtual"><scope>MR::Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1a73f0cbde95163ab4e4ca8919c152f7ad" prot="public" virt="virtual"><scope>MR::Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f_1ad3c47e91b2467e340dbb27d7426af969" prot="private" virt="non-virtual"><scope>MR::Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</scope><name>~Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RawTiffOutput" kind="class" language="C#" prot="public">
     <compoundname>MR::RawTiffOutput</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RawTiffOutput</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RawTiffOutput" prot="public" virt="non-virtual">MR.Const_RawTiffOutput</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1RawTiffOutput_1a765f6d3dcdf8a7af0ba48c6bb8c91039" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Misc.? Box&lt; byte &gt;</type>
@@ -193,7 +193,7 @@
         <name>RawTiffOutput</name>
         <qualifiedname>MR.RawTiffOutput.RawTiffOutput</qualifiedname>
         <param>
-          <type>MR.Const_RawTiffOutput</type>
+          <type><ref refid="classMR_1_1Const__RawTiffOutput" kindref="compound">MR.Const_RawTiffOutput</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -231,7 +231,7 @@
         <name>assign</name>
         <qualifiedname>MR.RawTiffOutput.assign</qualifiedname>
         <param>
-          <type>MR.Const_RawTiffOutput</type>
+          <type><ref refid="classMR_1_1Const__RawTiffOutput" kindref="compound">MR.Const_RawTiffOutput</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -258,6 +258,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RawTiffOutput</label>
+        <link refid="classMR_1_1Const__RawTiffOutput"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -271,6 +272,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.RawTiffOutput</label>
         <link refid="classMR_1_1RawTiffOutput"/>
@@ -279,9 +284,14 @@
       </node>
       <node id="2">
         <label>MR.Const_RawTiffOutput</label>
+        <link refid="classMR_1_1Const__RawTiffOutput"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_p2wXf</edgelabel>
+          <edgelabel>__ptr_storage_params_</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -293,9 +303,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="817" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="818" bodyend="957"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a83c485f6ac607d8bdde37d6038952b83" prot="protected" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>__ptr_storage_bytes</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1ade7bfc2cdc9d12280f13febee7b500dc" prot="protected" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>__ptr_storage_max</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a6098a018e0d0bbdb2735432825c8a1cf" prot="protected" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>__ptr_storage_min</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a0423575c4b63881f12806da93c117010" prot="protected" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>__ptr_storage_p2wXf</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a921b27a1ced7813d18860243f174cb3e" prot="protected" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>__ptr_storage_params_</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a8995c2b2c45b10d9d1c475a4fe93787b" prot="protected" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>__ref_storage_convertToFloat</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a034ab08be09b5f8399a9fc5b89bd7929" prot="protected" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>__ref_storage_size</name></member>
       <member refid="classMR_1_1RawTiffOutput_1ad8619b7de045c46aab5679aa5d03e953" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>assign</name></member>
       <member refid="classMR_1_1RawTiffOutput_1a765f6d3dcdf8a7af0ba48c6bb8c91039" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>bytes</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1ac39c2312c90b3f2ce692f76e1905d306" prot="package" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>Const_RawTiffOutput</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a98e3e0618e089479230c32a38bda7dee" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>Const_RawTiffOutput</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a910ae6a6dd9c8d78cff19f8074d8e42a" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>Const_RawTiffOutput</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1ac628568c9b9279ae9a32ac19589ffb4d" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>Const_RawTiffOutput</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1ab983ff36fce562f809bb6ac0943e1b7d" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>Const_RawTiffOutput</name></member>
       <member refid="classMR_1_1RawTiffOutput_1a2a209081b70b4aa93b3516bba8e24a06" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>convertToFloat</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a9638acac31bd0308d88d301f35bd31ad" prot="protected" virt="virtual"><scope>MR::RawTiffOutput</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RawTiffOutput_1a2c23b5b8214c96d9ca82cbeff840c2da" prot="public" virt="virtual"><scope>MR::RawTiffOutput</scope><name>Dispose</name></member>
       <member refid="classMR_1_1RawTiffOutput_1a8b830bd9524b4f3771a419d8a301baed" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>max</name></member>
       <member refid="classMR_1_1RawTiffOutput_1a2f55e3fc0f341bbe652a39c2337151e3" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>min</name></member>
       <member refid="classMR_1_1RawTiffOutput_1acd0aed5aa0912e5b95ff43d9f7d2c48b" prot="public" virt="non-virtual"><scope>MR::RawTiffOutput</scope><name>p2wXf</name></member>

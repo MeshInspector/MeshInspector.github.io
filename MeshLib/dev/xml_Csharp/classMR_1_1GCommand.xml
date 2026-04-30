@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GCommand" kind="class" language="C#" prot="public">
     <compoundname>MR::GCommand</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_GCommand</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__GCommand" prot="public" virt="non-virtual">MR.Const_GCommand</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1GCommand_1a1f540ff737b6b24655bbf11279e152b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1ae8b6d4808fb530b2853f712a381e2fee" kindref="member">MR.MoveType</ref></type>
@@ -198,7 +198,7 @@
         <name>GCommand</name>
         <qualifiedname>MR.GCommand.GCommand</qualifiedname>
         <param>
-          <type>MR.Const_GCommand</type>
+          <type><ref refid="classMR_1_1Const__GCommand" kindref="compound">MR.Const_GCommand</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -236,7 +236,7 @@
         <name>assign</name>
         <qualifiedname>MR.GCommand.assign</qualifiedname>
         <param>
-          <type>MR.Const_GCommand</type>
+          <type><ref refid="classMR_1_1Const__GCommand" kindref="compound">MR.Const_GCommand</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -263,6 +263,7 @@
       </node>
       <node id="2">
         <label>MR.Const_GCommand</label>
+        <link refid="classMR_1_1Const__GCommand"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -276,6 +277,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.GCommand</label>
         <link refid="classMR_1_1GCommand"/>
@@ -284,9 +289,15 @@
       </node>
       <node id="2">
         <label>MR.Const_GCommand</label>
+        <link refid="classMR_1_1Const__GCommand"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_arcCenter</edgelabel>
+          <edgelabel>__ref_storage_arcPlane</edgelabel>
+          <edgelabel>__ref_storage_type</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -298,9 +309,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2165" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2166" bodyend="2255"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__GCommand_1a63d60c744edd9f50856700739334a029" prot="protected" virt="non-virtual"><scope>MR::GCommand</scope><name>__ref_storage_arcCenter</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a2789c740d2099daca949d5afc924ef33" prot="protected" virt="non-virtual"><scope>MR::GCommand</scope><name>__ref_storage_arcPlane</name></member>
+      <member refid="classMR_1_1Const__GCommand_1ada050be4157a129117004bd63f88c3bc" prot="protected" virt="non-virtual"><scope>MR::GCommand</scope><name>__ref_storage_feed</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a762316f0711290facc26b1f3c30305f6" prot="protected" virt="non-virtual"><scope>MR::GCommand</scope><name>__ref_storage_type</name></member>
+      <member refid="classMR_1_1Const__GCommand_1ae055fe8f25b1457b7341d2b0c7911e51" prot="protected" virt="non-virtual"><scope>MR::GCommand</scope><name>__ref_storage_x</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a2459870bff0ac8a370b8a60172bb41f4" prot="protected" virt="non-virtual"><scope>MR::GCommand</scope><name>__ref_storage_y</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a69276ae07326e4b6863164844b42afab" prot="protected" virt="non-virtual"><scope>MR::GCommand</scope><name>__ref_storage_z</name></member>
       <member refid="classMR_1_1GCommand_1aa090fc1ce084662b83e1405da50cfc7a" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>arcCenter</name></member>
       <member refid="classMR_1_1GCommand_1a2691f3f5eb5e6890bb1b46eef25b851e" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>arcPlane</name></member>
       <member refid="classMR_1_1GCommand_1a25f9d2b1cfd8f18229e1c4baefe37225" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__GCommand_1acd0fd6bad04f12ff40ddc2536d717a6c" prot="package" virt="non-virtual"><scope>MR::GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a313f68a49d57c0fd9b164b6acce495cd" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a77be98e01b8233db299ad9d4ae5e7831" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1ac242ddf67a3dbe487c587caf073f232c" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1af1b98c1ae8bcb3db128475c758a781c8" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a8cbae790e257d1aa51ea6ba98aefa853" prot="protected" virt="virtual"><scope>MR::GCommand</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a050e3d90598f26cec282d2352e5ce23b" prot="public" virt="virtual"><scope>MR::GCommand</scope><name>Dispose</name></member>
       <member refid="classMR_1_1GCommand_1ae8681db90df6db7a9a6af8eb179d4d45" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>feed</name></member>
       <member refid="classMR_1_1GCommand_1a32a0dd4eb95bab063c277ebbc8e5b452" prot="package" virt="non-virtual"><scope>MR::GCommand</scope><name>GCommand</name></member>
       <member refid="classMR_1_1GCommand_1a8147bfaecf10fb82caae60692d69aada" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>GCommand</name></member>

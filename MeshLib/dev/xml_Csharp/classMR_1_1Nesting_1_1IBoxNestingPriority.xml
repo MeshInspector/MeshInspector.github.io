@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Nesting_1_1IBoxNestingPriority" kind="class" language="C#" prot="public">
     <compoundname>MR::Nesting::IBoxNestingPriority</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Nesting.Const_IBoxNestingPriority</basecompoundref>
+    <basecompoundref refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority" prot="public" virt="non-virtual">MR.Nesting.Const_IBoxNestingPriority</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Nesting_1_1IBoxNestingPriority_1a068c4f7fc83665ff53501b800e605949" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -84,6 +84,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_IBoxNestingPriority</label>
+        <link refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -105,6 +106,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_IBoxNestingPriority</label>
+        <link refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -117,6 +119,10 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="260" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="261" bodyend="291"/>
     <listofallmembers>
       <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1a5940ea5ba997290be39ced5023287815" prot="public" virt="non-virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>addNested</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority_1acb847100c6dfc06ec3292fb3ac16a31f" prot="public" virt="non-virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>complete</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority_1af86bfeef5064db1d8b63317cef2db38b" prot="package" virt="non-virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>Const_IBoxNestingPriority</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority_1a9d7294b951ca4ad8ec2e83df2781e2f5" prot="protected" virt="virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__IBoxNestingPriority_1a0ac2b438d5f555d374c81654952e414e" prot="public" virt="virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1a068c4f7fc83665ff53501b800e605949" prot="package" virt="non-virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>IBoxNestingPriority</name></member>
       <member refid="classMR_1_1Nesting_1_1IBoxNestingPriority_1acee614b9493a599773ad6d6852865fb0" prot="public" virt="non-virtual"><scope>MR::Nesting::IBoxNestingPriority</scope><name>init</name></member>
     </listofallmembers>

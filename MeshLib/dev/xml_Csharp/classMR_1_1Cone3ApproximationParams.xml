@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cone3ApproximationParams" kind="class" language="C#" prot="public">
     <compoundname>MR::Cone3ApproximationParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Cone3ApproximationParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Cone3ApproximationParams" prot="public" virt="non-virtual">MR.Const_Cone3ApproximationParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Cone3ApproximationParams_1a3d861b89efa71b8718f2d275c96fa0b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -139,7 +139,7 @@
         <name>Cone3ApproximationParams</name>
         <qualifiedname>MR.Cone3ApproximationParams.Cone3ApproximationParams</qualifiedname>
         <param>
-          <type>MR.Const_Cone3ApproximationParams</type>
+          <type><ref refid="classMR_1_1Const__Cone3ApproximationParams" kindref="compound">MR.Const_Cone3ApproximationParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -177,7 +177,7 @@
         <name>assign</name>
         <qualifiedname>MR.Cone3ApproximationParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_Cone3ApproximationParams</type>
+          <type><ref refid="classMR_1_1Const__Cone3ApproximationParams" kindref="compound">MR.Const_Cone3ApproximationParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Cone3ApproximationParams</label>
+        <link refid="classMR_1_1Const__Cone3ApproximationParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -217,6 +218,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Cone3ApproximationParams</label>
         <link refid="classMR_1_1Cone3ApproximationParams"/>
@@ -225,9 +230,13 @@
       </node>
       <node id="2">
         <label>MR.Const_Cone3ApproximationParams</label>
+        <link refid="classMR_1_1Const__Cone3ApproximationParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_coneFitterType</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -239,6 +248,10 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="129" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="130" bodyend="198"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a87d85e2aafa0c20c35a97213cced41df" prot="protected" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>__ref_storage_coneFitterType</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a79a4e09436947ea85447e16e3aa3d0b3" prot="protected" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>__ref_storage_hemisphereSearchPhiResolution</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1aba36f80609bfcae7cbdfaf955fac923e" prot="protected" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>__ref_storage_hemisphereSearchThetaResolution</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1aeda3a6f93465f1aa04801511d035527e" prot="protected" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>__ref_storage_levenbergMarquardtMaxIteration</name></member>
       <member refid="classMR_1_1Cone3ApproximationParams_1a4297442be0418c0b653ef5927c143dbe" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>assign</name></member>
       <member refid="classMR_1_1Cone3ApproximationParams_1aaff578ea605c3c7edc596b8c45317a55" prot="package" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Cone3ApproximationParams</name></member>
       <member refid="classMR_1_1Cone3ApproximationParams_1a7872d2972441854c7af23be6132187f7" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Cone3ApproximationParams</name></member>
@@ -246,6 +259,13 @@
       <member refid="classMR_1_1Cone3ApproximationParams_1a603bfc3f969b900ed9f6a53a5c9adcf2" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Cone3ApproximationParams</name></member>
       <member refid="classMR_1_1Cone3ApproximationParams_1ab1da9e6ab2a1664c5e0b140ab65cc5b5" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Cone3ApproximationParams</name></member>
       <member refid="classMR_1_1Cone3ApproximationParams_1ab56e98e327e3486c270e36470165ad78" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>coneFitterType</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a806a330f05664753f5de4f8644b09003" prot="package" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a80b6c32ef93b00c6b8d26c12b0196215" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a6aa455b23f10e1f8d2125a2bceefd611" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1ad7a1e9bd73c625bc2468f1b1a5f379a6" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1acb380d43252a166f86c752a268488ac5" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1ab81287e4d0fee031c4df8f02077c3021" prot="protected" virt="virtual"><scope>MR::Cone3ApproximationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a4ad08ac3680725471927eb410a9ef5e7" prot="public" virt="virtual"><scope>MR::Cone3ApproximationParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Cone3ApproximationParams_1a08fb1aba947b3c16af42b407a34e3809" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>hemisphereSearchPhiResolution</name></member>
       <member refid="classMR_1_1Cone3ApproximationParams_1af2785e781acf07380a8a25ea345c19b2" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>hemisphereSearchThetaResolution</name></member>
       <member refid="classMR_1_1Cone3ApproximationParams_1a3d861b89efa71b8718f2d275c96fa0b3" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>levenbergMarquardtMaxIteration</name></member>

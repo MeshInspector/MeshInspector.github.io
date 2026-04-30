@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SetBitIteratorT_MRVoxelBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet" prot="public" virt="non-virtual">MR.SetBitIteratorT_MRVoxelBitSet</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a4621acf7d35def809cef4ddb108f1812" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SetBitIteratorT_MRVoxelBitSet.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14800" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14800" bodyend="14808"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1aaee6b1f4e3c758425173a446c5fb0e68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SetBitIteratorT_MRVoxelBitSet.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14809" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14809" bodyend="14809"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ab30f8d8c383ace3935d35547fa0e0fce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SetBitIteratorT_MRVoxelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14817" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14817" bodyend="14822"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ac2f272edaf8dff8b00d1345f426f97ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRVoxelBitSet _other)</argsstring>
+        <name>Const_SetBitIteratorT_MRVoxelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14827" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14827" bodyend="14833"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1aff0531d1dbeb28d5b18e6f55cf71455c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</definition>
+        <argsstring>(SetBitIteratorT_MRVoxelBitSet _other)</argsstring>
+        <name>Const_SetBitIteratorT_MRVoxelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet" kindref="compound">SetBitIteratorT_MRVoxelBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14838" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14838" bodyend="14838"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a47fd71d78ddbc2b8656e79ba25687827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</definition>
+        <argsstring>(MR.Const_VoxelBitSet bitset)</argsstring>
+        <name>Const_SetBitIteratorT_MRVoxelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14844" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14844" bodyend="14850"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a375ac587740fb0779c2e4e72403e0875" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">Const_VoxelBitSet</ref></type>
+        <definition>unsafe MR.? Const_VoxelBitSet MR.Const_SetBitIteratorT_MRVoxelBitSet.bitset</definition>
+        <argsstring>()</argsstring>
+        <name>bitset</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.bitset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a375ac587740fb0779c2e4e72403e0875" kindref="member">bitset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14873" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14873" bodyend="14879"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a4a5c70999b92d5ac63b78912c5289b71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_SetBitIteratorT_MRVoxelBitSet.deref</definition>
+        <argsstring>()</argsstring>
+        <name>deref</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.deref</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14884" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14884" bodyend="14889"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a0f622b47dd24ac26641dc6c047a4a933" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_SetBitIteratorT_MRVoxelBitSet.Equals</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRVoxelBitSet? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14908" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14908" bodyend="14913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a98d1587ee8019c40dda1a05830272d81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_SetBitIteratorT_MRVoxelBitSet.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14915" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14915" bodyend="14922"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1af6832d99251c5f1de66332878be4fe1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SetBitIteratorT_MRVoxelBitSet.~Const_SetBitIteratorT_MRVoxelBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SetBitIteratorT_MRVoxelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.~Const_SetBitIteratorT_MRVoxelBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14810" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14810" bodyend="14810"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a43d7a4b233520157dc662b7b97a3c1d2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SetBitIteratorT_MRVoxelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.Const_SetBitIteratorT_MRVoxelBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14812" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14812" bodyend="14812"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a461c337db82975961aba653700103f43" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SetBitIteratorT_MRVoxelBitSet.operator Const_SetBitIteratorT_MRVoxelBitSet</definition>
+        <argsstring>(MR.Const_VoxelBitSet bitset)</argsstring>
+        <name>operator Const_SetBitIteratorT_MRVoxelBitSet</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.operator Const_SetBitIteratorT_MRVoxelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14856" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14856" bodyend="14856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a57c6b7e6f0cb0a0f9a014c062f80eb7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet" kindref="compound">SetBitIteratorT_MRVoxelBitSet</ref></type>
+        <definition>static unsafe SetBitIteratorT_MRVoxelBitSet MR.Const_SetBitIteratorT_MRVoxelBitSet.operator++</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRVoxelBitSet _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a57c6b7e6f0cb0a0f9a014c062f80eb7a" kindref="member">operator++</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14861" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14861" bodyend="14868"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a65cadc5e8d381d425a4238d19e05e0bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_SetBitIteratorT_MRVoxelBitSet.operator==</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRVoxelBitSet a, MR.Const_SetBitIteratorT_MRVoxelBitSet b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14894" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14894" bodyend="14899"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ae730748b8722f20d6270ff7c5105e6d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_SetBitIteratorT_MRVoxelBitSet.operator!=</definition>
+        <argsstring>(MR.Const_SetBitIteratorT_MRVoxelBitSet a, MR.Const_SetBitIteratorT_MRVoxelBitSet b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_SetBitIteratorT_MRVoxelBitSet.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14901" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14901" bodyend="14904"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SetBitIteratorT_MRVoxelBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.SetBitIteratorT_MRVoxelBitSet</label>
+        <link refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_SetBitIteratorT_MRVoxelBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14794" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14795" bodyend="14923"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a375ac587740fb0779c2e4e72403e0875" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a43d7a4b233520157dc662b7b97a3c1d2" prot="package" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ab30f8d8c383ace3935d35547fa0e0fce" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ac2f272edaf8dff8b00d1345f426f97ae" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1aff0531d1dbeb28d5b18e6f55cf71455c" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a47fd71d78ddbc2b8656e79ba25687827" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a4a5c70999b92d5ac63b78912c5289b71" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a4621acf7d35def809cef4ddb108f1812" prot="protected" virt="virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1aaee6b1f4e3c758425173a446c5fb0e68" prot="public" virt="virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a0f622b47dd24ac26641dc6c047a4a933" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a98d1587ee8019c40dda1a05830272d81" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a461c337db82975961aba653700103f43" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>operator Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ae730748b8722f20d6270ff7c5105e6d4" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a57c6b7e6f0cb0a0f9a014c062f80eb7a" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a65cadc5e8d381d425a4238d19e05e0bb" prot="public" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1af6832d99251c5f1de66332878be4fe1e" prot="private" virt="non-virtual"><scope>MR::Const_SetBitIteratorT_MRVoxelBitSet</scope><name>~Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

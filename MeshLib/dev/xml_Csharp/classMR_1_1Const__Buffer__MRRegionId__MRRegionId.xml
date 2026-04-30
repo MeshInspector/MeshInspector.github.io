@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Buffer_MRRegionId_MRRegionId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Buffer__MRRegionId__MRRegionId" prot="public" virt="non-virtual">MR.Buffer_MRRegionId_MRRegionId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a0a5d48bc6856423e417a76b7c24734de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__NoDefInit__MRRegionId" kindref="compound">MR.Const_NoDefInit_MRRegionId</ref></type>
+        <definition>unsafe MR.Const_NoDefInit_MRRegionId MR.Const_Buffer_MRRegionId_MRRegionId.this[MR.RegionId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.RegionId i]</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.this[MR.RegionId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6931" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6932" bodyend="6942"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aac3c95f8025a14d93c24d931523e68d1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Buffer_MRRegionId_MRRegionId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6789" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6789" bodyend="6797"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a1f8a5dbaf1135561b88e0c02880034c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Buffer_MRRegionId_MRRegionId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6798" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6798" bodyend="6798"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aa877158eb6b7cf25e50982e3dd535af2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1NoDefInit__MRRegionId" kindref="compound">MR.NoDefInit_MRRegionId</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.NoDefInit_MRRegionId &gt; MR.Const_Buffer_MRRegionId_MRRegionId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6855" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6855" bodyend="6858"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a0859ec1c8309867267f707381dc93443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_MRRegionId_MRRegionId.Const_Buffer_MRRegionId_MRRegionId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Buffer_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.Const_Buffer_MRRegionId_MRRegionId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6870" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6870" bodyend="6875"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a4921c00f2d1eb0a6d141d9fb87b157bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_MRRegionId_MRRegionId.Const_Buffer_MRRegionId_MRRegionId</definition>
+        <argsstring>(MR._ByValue_Buffer_MRRegionId_MRRegionId _other)</argsstring>
+        <name>Const_Buffer_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.Const_Buffer_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRRegionId_MRRegionId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6880" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6880" bodyend="6886"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ab163b8354ef9d171f1f37cf2e8c4aeda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_MRRegionId_MRRegionId.Const_Buffer_MRRegionId_MRRegionId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Buffer_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.Const_Buffer_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6891" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6891" bodyend="6896"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1acf620621294b3a7b8c6d3b0e3e6df56a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Buffer_MRRegionId_MRRegionId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1acf620621294b3a7b8c6d3b0e3e6df56a" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6901" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6901" bodyend="6906"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ae16cd6955e3e71c345c5b45a622c187a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Buffer_MRRegionId_MRRegionId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ae16cd6955e3e71c345c5b45a622c187a" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6911" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6911" bodyend="6916"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ae9a2dcf560295ce714875c7351d2f869" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Buffer_MRRegionId_MRRegionId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ae9a2dcf560295ce714875c7351d2f869" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6921" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6921" bodyend="6926"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a7aadda6a0d8d9837fed060dfb811fe7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1NoDefInit__MRRegionId" kindref="compound">NoDefInit_MRRegionId</ref></type>
+        <definition>unsafe MR.? NoDefInit_MRRegionId MR.Const_Buffer_MRRegionId_MRRegionId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a7aadda6a0d8d9837fed060dfb811fe7a" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6947" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6947" bodyend="6956"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aaef3a6cea6679d7d935a821bf7079ff0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe MR.RegionId MR.Const_Buffer_MRRegionId_MRRegionId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aaef3a6cea6679d7d935a821bf7079ff0" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6962" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6962" bodyend="6967"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a02ab58ce2bb407fdf59568350ab2e02d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe MR.RegionId MR.Const_Buffer_MRRegionId_MRRegionId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the back() element Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a02ab58ce2bb407fdf59568350ab2e02d" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6973" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6973" bodyend="6978"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a5f406455471a63955c1b20c59ac3ead2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe MR.RegionId MR.Const_Buffer_MRRegionId_MRRegionId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a02ab58ce2bb407fdf59568350ab2e02d" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a5f406455471a63955c1b20c59ac3ead2" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6984" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6984" bodyend="6989"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ac6ed8f188b98bf22549257eacb5c2a7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Buffer_MRRegionId_MRRegionId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ac6ed8f188b98bf22549257eacb5c2a7a" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6995" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6995" bodyend="7000"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a9c16e0e16e816f2f3b7b09b49a31dc30" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Buffer_MRRegionId_MRRegionId.~Const_Buffer_MRRegionId_MRRegionId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Buffer_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.~Const_Buffer_MRRegionId_MRRegionId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6799" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6799" bodyend="6799"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1afc83dd67c942e8926909ae49da90e1f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Buffer_MRRegionId_MRRegionId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6860" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6860" bodyend="6863"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a7d6a9a05adc3738dbfc32f6d865623e8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_MRRegionId_MRRegionId.Const_Buffer_MRRegionId_MRRegionId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Buffer_MRRegionId_MRRegionId</name>
+        <qualifiedname>MR.Const_Buffer_MRRegionId_MRRegionId.Const_Buffer_MRRegionId_MRRegionId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6865" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6865" bodyend="6865"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>V</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Buffer_MRRegionId_MRRegionId</label>
+        <link refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Buffer_MRRegionId_MRRegionId</label>
+        <link refid="classMR_1_1Buffer__MRRegionId__MRRegionId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Buffer_MRRegionId_MRRegionId</label>
+        <link refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6783" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6784" bodyend="7001"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a02ab58ce2bb407fdf59568350ab2e02d" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aaef3a6cea6679d7d935a821bf7079ff0" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1acf620621294b3a7b8c6d3b0e3e6df56a" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a7d6a9a05adc3738dbfc32f6d865623e8" prot="package" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>Const_Buffer_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a0859ec1c8309867267f707381dc93443" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>Const_Buffer_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a4921c00f2d1eb0a6d141d9fb87b157bd" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>Const_Buffer_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ab163b8354ef9d171f1f37cf2e8c4aeda" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>Const_Buffer_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a7aadda6a0d8d9837fed060dfb811fe7a" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aac3c95f8025a14d93c24d931523e68d1" prot="protected" virt="virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a1f8a5dbaf1135561b88e0c02880034c6" prot="public" virt="virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ae9a2dcf560295ce714875c7351d2f869" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a5f406455471a63955c1b20c59ac3ead2" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aa877158eb6b7cf25e50982e3dd535af2" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1afc83dd67c942e8926909ae49da90e1f5" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ac6ed8f188b98bf22549257eacb5c2a7a" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ae16cd6955e3e71c345c5b45a622c187a" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a0a5d48bc6856423e417a76b7c24734de" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>this[MR.RegionId i]</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a9c16e0e16e816f2f3b7b09b49a31dc30" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_MRRegionId_MRRegionId</scope><name>~Const_Buffer_MRRegionId_MRRegionId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

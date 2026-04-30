@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineProjectionResult3" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineProjectionResult3</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineProjectionResult3</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolylineProjectionResult3" prot="public" virt="non-virtual">MR.Const_PolylineProjectionResult3</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PolylineProjectionResult3_1a601361b40d6f1a5748f863278b4d498a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -124,7 +124,7 @@
         <name>PolylineProjectionResult3</name>
         <qualifiedname>MR.PolylineProjectionResult3.PolylineProjectionResult3</qualifiedname>
         <param>
-          <type>MR.Const_PolylineProjectionResult3</type>
+          <type><ref refid="classMR_1_1Const__PolylineProjectionResult3" kindref="compound">MR.Const_PolylineProjectionResult3</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.PolylineProjectionResult3.assign</qualifiedname>
         <param>
-          <type>MR.Const_PolylineProjectionResult3</type>
+          <type><ref refid="classMR_1_1Const__PolylineProjectionResult3" kindref="compound">MR.Const_PolylineProjectionResult3</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineProjectionResult3</label>
+        <link refid="classMR_1_1Const__PolylineProjectionResult3"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PolylineProjectionResult3</label>
         <link refid="classMR_1_1PolylineProjectionResult3"/>
@@ -210,9 +215,14 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineProjectionResult3</label>
+        <link refid="classMR_1_1Const__PolylineProjectionResult3"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_line</edgelabel>
+          <edgelabel>__ref_storage_point</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,15 +234,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="399" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="400" bodyend="475"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1a2b4705a1571ee94febf4fdfb380649ab" prot="protected" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1a29cf23719318c6cf3c033690c1f90ce0" prot="protected" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>__ref_storage_line</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1a913b974fa0418ca6b86660fb0da8360b" prot="protected" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>__ref_storage_point</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1a71c909b08f2e9707e42c3fcf06e8de48" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1a3ff1702d4f8d49fafad0b5b2b72e6683" prot="package" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>Const_PolylineProjectionResult3</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1a23053265ac629f2cec6450a672663dcd" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>Const_PolylineProjectionResult3</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1ac485d94617fafd19c092cd7c12e88f94" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>Const_PolylineProjectionResult3</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1ac4cec061dffb161668ecb3819cb767ec" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>Const_PolylineProjectionResult3</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1aa87e85b619e3cc50851428b1e4b23ff7" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>Const_PolylineProjectionResult3</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1acfe4c3e7ecea1debc74d3df0121e1648" prot="protected" virt="virtual"><scope>MR::PolylineProjectionResult3</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1ab66a6b748d52f6b8f53fe9c9139f0265" prot="public" virt="virtual"><scope>MR::PolylineProjectionResult3</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1acad837aec794ca5aa5732feac68ae458" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>distSq</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1a601361b40d6f1a5748f863278b4d498a" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>line</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1af82c9a01997d220050177af8115c4307" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>operator bool</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1a13774c17e6f5c54cbf7cdbe85d38ef65" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>point</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1ab186d7f7066c74c1994f03dd5fc159cf" prot="package" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>PolylineProjectionResult3</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1a9acea487b0fd3d39aac326b7dedbb6b0" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>PolylineProjectionResult3</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1a39933177459f192df8f05bc609db4f22" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>PolylineProjectionResult3</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1a324307e98a34937d57d4a6e68d25528a" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>PolylineProjectionResult3</name></member>
       <member refid="classMR_1_1PolylineProjectionResult3_1a7c73ebc3e1d0d2e778fa2c141ebfccea" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>PolylineProjectionResult3</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult3_1a7e873f649a00fcecbe813d0221c12afa" prot="public" virt="non-virtual"><scope>MR::PolylineProjectionResult3</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

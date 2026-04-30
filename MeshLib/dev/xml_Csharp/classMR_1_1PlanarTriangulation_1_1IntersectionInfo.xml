@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kind="class" language="C#" prot="public">
     <compoundname>MR::PlanarTriangulation::IntersectionInfo</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.PlanarTriangulation.Const_IntersectionInfo</basecompoundref>
+    <basecompoundref refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" prot="public" virt="non-virtual">MR.PlanarTriangulation.Const_IntersectionInfo</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a38e2ec7f128d75005999ce93796507b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -179,7 +179,7 @@
         <name>IntersectionInfo</name>
         <qualifiedname>MR.PlanarTriangulation.IntersectionInfo.IntersectionInfo</qualifiedname>
         <param>
-          <type>MR.PlanarTriangulation.Const_IntersectionInfo</type>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" kindref="compound">MR.PlanarTriangulation.Const_IntersectionInfo</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -217,7 +217,7 @@
         <name>assign</name>
         <qualifiedname>MR.PlanarTriangulation.IntersectionInfo.assign</qualifiedname>
         <param>
-          <type>MR.PlanarTriangulation.Const_IntersectionInfo</type>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" kindref="compound">MR.PlanarTriangulation.Const_IntersectionInfo</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -247,6 +247,7 @@
       </node>
       <node id="2">
         <label>MR.PlanarTriangulation.Const_IntersectionInfo</label>
+        <link refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -257,6 +258,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PlanarTriangulation.IntersectionInfo</label>
         <link refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo"/>
@@ -268,9 +273,16 @@
       </node>
       <node id="2">
         <label>MR.PlanarTriangulation.Const_IntersectionInfo</label>
+        <link refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_lDest</edgelabel>
+          <edgelabel>__ref_storage_lOrg</edgelabel>
+          <edgelabel>__ref_storage_uDest</edgelabel>
+          <edgelabel>__ref_storage_uOrg</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -279,12 +291,26 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="182" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="183" bodyend="274"/>
     <listofallmembers>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1acb50390e50464d25169b12249451977c" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>__ref_storage_lDest</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a250f60da9618048e5f3e9352497ad447" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>__ref_storage_lOrg</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a014ebf5fae6c672a7efc3f0d7d69f95f" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>__ref_storage_lRatio</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a530a8821d78c47e5377c011a112b83ad" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>__ref_storage_uDest</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1c7c8a9f9f86e156bcc2889f1fa6963d" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>__ref_storage_uOrg</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a2720f7761cd220d2a736c069aac236e1" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>__ref_storage_uRatio</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a8445aefc1e7845b562530f5a7b748419" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>assign</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a0f17e2e079784b48c29d9d98141f08ac" prot="package" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1d7aaae6b931f2d439e784eecd2c495c" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ac6570905ea4042b593390857f0f84cbc" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ab3af7646fa270984474295e37e2b09a8" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1cc311d6eb3ceb07dd42866856e61c96" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a4a336c34aa06cd2efba15cefabfc921c" prot="protected" virt="virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a5ebc137d6e74af3782bf3a32f87feb50" prot="public" virt="virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a2a010f08462c84e2cc74472f90d2f80a" prot="package" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>IntersectionInfo</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a6e55b3847d5caf14e724517856d9ea5a" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>IntersectionInfo</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a5eca930a109436372b28aff694f24e63" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>IntersectionInfo</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a1b4295b83947ce66acb52d8f4ebfddcb" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>IntersectionInfo</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a41a053a6d8d0d8e87b56829b1c6ed8a6" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a68bbe6e1d60cad034ffa1e92e3505f9c" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>isIntersection</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a323edb44c5ce0af8523199cda72aecfb" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lDest</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a38e2ec7f128d75005999ce93796507b1" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lOrg</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1ae74018468179255878caf1109599cc60" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lRatio</name></member>

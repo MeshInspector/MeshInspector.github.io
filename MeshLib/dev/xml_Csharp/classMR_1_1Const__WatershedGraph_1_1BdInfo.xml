@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__WatershedGraph_1_1BdInfo" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_WatershedGraph::BdInfo</compoundname>
+    <basecompoundref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" prot="public" virt="non-virtual">MR.Const_WatershedGraph.Const_BdInfo</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__WatershedGraph_1_1BdInfo_1aa1e96c5b723e361266f2a8b21a070712" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>new unsafe ref MR.VertId MR.Const_WatershedGraph.BdInfo.lowestVert</definition>
+        <argsstring></argsstring>
+        <name>lowestVert</name>
+        <qualifiedname>MR.Const_WatershedGraph.BdInfo.lowestVert</qualifiedname>
+        <briefdescription>
+<para>on this boundary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="738" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="738" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1_1BdInfo_1ab69dc93d4fb36b4f4d4418835525a17d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WatershedGraph.BdInfo.BdInfo</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BdInfo</name>
+        <qualifiedname>MR.Const_WatershedGraph.BdInfo.BdInfo</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="742" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="742" bodyend="746"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1_1BdInfo_1a79c6aae0f072bc290d2a2fa3e48f2952" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WatershedGraph.BdInfo.BdInfo</definition>
+        <argsstring>()</argsstring>
+        <name>BdInfo</name>
+        <qualifiedname>MR.Const_WatershedGraph.BdInfo.BdInfo</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="752" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="752" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1_1BdInfo_1a5e7e5e2172bcb41508a0046cd56e4455" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WatershedGraph.BdInfo.BdInfo</definition>
+        <argsstring>(MR.VertId lowestVert)</argsstring>
+        <name>BdInfo</name>
+        <qualifiedname>MR.Const_WatershedGraph.BdInfo.BdInfo</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>lowestVert</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="763" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="763" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1_1BdInfo_1a953243db68b1868ee32351145569c602" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WatershedGraph.BdInfo.BdInfo</definition>
+        <argsstring>(MR.WatershedGraph.Const_BdInfo _other)</argsstring>
+        <name>BdInfo</name>
+        <qualifiedname>MR.Const_WatershedGraph.BdInfo.BdInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" kindref="compound">MR.WatershedGraph.Const_BdInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::WatershedGraph::BdInfo::BdInfo</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="774" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="774" bodyend="781"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1_1BdInfo_1ae6e7325a989e11bd779be83191818c8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WatershedGraph.BdInfo.BdInfo</definition>
+        <argsstring>(BdInfo _other)</argsstring>
+        <name>BdInfo</name>
+        <qualifiedname>MR.Const_WatershedGraph.BdInfo.BdInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">BdInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::WatershedGraph::BdInfo::BdInfo</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="786" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="786" bodyend="786"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1_1BdInfo_1adcd1967d2461b9610b1bf19f5236ad8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref></type>
+        <definition>unsafe MR.WatershedGraph.BdInfo MR.Const_WatershedGraph.BdInfo.assign</definition>
+        <argsstring>(MR.WatershedGraph.Const_BdInfo _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_WatershedGraph.BdInfo.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" kindref="compound">MR.WatershedGraph.Const_BdInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::WatershedGraph::BdInfo::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="791" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="791" bodyend="798"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>associated with each edge in graph Generated from class <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_WatershedGraph.BdInfo</label>
+        <link refid="classMR_1_1Const__WatershedGraph_1_1BdInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_WatershedGraph.Const_BdInfo</label>
+        <link refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_WatershedGraph.BdInfo</label>
+        <link refid="classMR_1_1Const__WatershedGraph_1_1BdInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_WatershedGraph.Const_BdInfo</label>
+        <link refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_lowestVert</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="733" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="734" bodyend="799"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo_1a8e099574fc0e80f5890a9852a0502f10" prot="protected" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>__ref_storage_lowestVert</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1BdInfo_1adcd1967d2461b9610b1bf19f5236ad8d" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1BdInfo_1ab69dc93d4fb36b4f4d4418835525a17d" prot="package" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1BdInfo_1a79c6aae0f072bc290d2a2fa3e48f2952" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1BdInfo_1a5e7e5e2172bcb41508a0046cd56e4455" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1BdInfo_1a953243db68b1868ee32351145569c602" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1BdInfo_1ae6e7325a989e11bd779be83191818c8c" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo_1a1828dd6987cf16f7859cbea3ff5af2e4" prot="package" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>Const_BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo_1a916ac09998cb4271c3cd75a94773286e" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>Const_BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo_1a849bd5dec606446a1a6889f25927719d" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>Const_BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo_1a6da8f6ec26161513e09d4824c4cfeb5a" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>Const_BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo_1aed8d34b7c696475ea99433924a9344ba" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>Const_BdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo_1a3880615ce5cba4666e588713d0daef58" prot="protected" virt="virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo_1aecc80a2095400a14744dd8ce3acf0ec4" prot="public" virt="virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1_1BdInfo_1aa1e96c5b723e361266f2a8b21a070712" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph::BdInfo</scope><name>lowestVert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

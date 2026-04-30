@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MergeVolumePartSettings" kind="struct" language="C#" prot="public">
     <compoundname>MR::MergeVolumePartSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MergeVolumePartSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MergeVolumePartSettings" prot="public" virt="non-virtual">MR.Const_MergeVolumePartSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MergeVolumePartSettings_1a47af78da95e13977df497e2fc843daf9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Void_From_MRMeshRef_Float_Float</type>
@@ -136,7 +136,7 @@
           <declname>postMerge</declname>
         </param>
         <param>
-          <type>MR.Const_PartMapping</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref></type>
           <declname>mapping</declname>
         </param>
         <param>
@@ -178,7 +178,7 @@
         <name>MergeVolumePartSettings</name>
         <qualifiedname>MR.MergeVolumePartSettings.MergeVolumePartSettings</qualifiedname>
         <param>
-          <type>Const_MergeVolumePartSettings</type>
+          <type><ref refid="classMR_1_1Const__MergeVolumePartSettings" kindref="compound">Const_MergeVolumePartSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -248,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MergeVolumePartSettings</label>
+        <link refid="classMR_1_1Const__MergeVolumePartSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -261,6 +262,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MergeVolumePartSettings</label>
         <link refid="classMR_1_1MergeVolumePartSettings"/>
@@ -269,9 +274,13 @@
       </node>
       <node id="2">
         <label>MR.Const_MergeVolumePartSettings</label>
+        <link refid="classMR_1_1Const__MergeVolumePartSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_origin</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -283,7 +292,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="151" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="152" bodyend="273"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a14650c4ddd9aceab6464b93265d9edfd" prot="protected" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>__ref_storage_origin</name></member>
       <member refid="classMR_1_1MergeVolumePartSettings_1aa37c3d7764ebc18932c53db0a2e7430c" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1ad406dbec26424b2321b065efc3f99105" prot="package" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1aa1186dedafb838649838bd64ba93e3e3" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a7dc9ea575196b24d566de5c4b05aba0f" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1ab0b12f5b21b8878c7171e0650de762e3" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a016d97a6e50d12c3596bb9ab53ba4122" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a2ec2efaac6f7846d0e00581f84864d0c" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1af8a4c14411d22b7bceff6f6169cebfee" prot="protected" virt="virtual"><scope>MR::MergeVolumePartSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1aab4a063108b167abfe833f53131c5671" prot="public" virt="virtual"><scope>MR::MergeVolumePartSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MergeVolumePartSettings_1a2d5f576a8a8525ae3ba29fecf0b21d1b" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>mapping</name></member>
       <member refid="classMR_1_1MergeVolumePartSettings_1a943930f98407899d46f3037ca5e4b1b0" prot="package" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>MergeVolumePartSettings</name></member>
       <member refid="classMR_1_1MergeVolumePartSettings_1a4f7f7ae91d9d932613b479879a5f126e" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>MergeVolumePartSettings</name></member>

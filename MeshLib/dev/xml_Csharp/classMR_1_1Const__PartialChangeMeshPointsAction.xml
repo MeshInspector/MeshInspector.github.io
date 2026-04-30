@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PartialChangeMeshPointsAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PartialChangeMeshPointsAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshPointsAction" prot="public" virt="non-virtual">MR.PartialChangeMeshPointsAction</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1a41902444e863133b4db180398f28bdf8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PartialChangeMeshPointsAction.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="583" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="583" bodyend="591"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1ae92022862495fbb1820c7437b69dadf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PartialChangeMeshPointsAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="592" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="592" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1ad82007210940279afdaac809d6273095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</definition>
+        <argsstring>(MR._ByValue_PartialChangeMeshPointsAction _other)</argsstring>
+        <name>Const_PartialChangeMeshPointsAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_PartialChangeMeshPointsAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshPointsAction_1a73ca11aa96a7964948d458cc576ab80b" kindref="member">MR.PartialChangeMeshPointsAction.PartialChangeMeshPointsAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="622" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="622" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1a97c3e7a6af2ec1c137cf2cdc4340837e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</definition>
+        <argsstring>(Const_PartialChangeMeshPointsAction _other)</argsstring>
+        <name>Const_PartialChangeMeshPointsAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PartialChangeMeshPointsAction" kindref="compound">Const_PartialChangeMeshPointsAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshPointsAction_1a73ca11aa96a7964948d458cc576ab80b" kindref="member">MR.PartialChangeMeshPointsAction.PartialChangeMeshPointsAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="633" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="633" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1a55efe5001a7c98dab4bf20151fd14eca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</definition>
+        <argsstring>(PartialChangeMeshPointsAction _other)</argsstring>
+        <name>Const_PartialChangeMeshPointsAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PartialChangeMeshPointsAction" kindref="compound">PartialChangeMeshPointsAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshPointsAction_1a73ca11aa96a7964948d458cc576ab80b" kindref="member">MR.PartialChangeMeshPointsAction.PartialChangeMeshPointsAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="638" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="638" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1ac0c1c7277e28cf88aafbedb50070e229" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</definition>
+        <argsstring>(string name, MR.Std._ByValue_SharedPtr_MRObjectMesh obj, MR.Const_CmpOld _3, MR.Const_VertCoords oldPoints)</argsstring>
+        <name>Const_PartialChangeMeshPointsAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__CmpOld" kindref="compound">MR.Const_CmpOld</ref></type>
+          <declname>_3</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
+          <declname>oldPoints</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor after the object already contains new points, and old points are passed to remember the difference for future undoing Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshPointsAction_1a73ca11aa96a7964948d458cc576ab80b" kindref="member">MR.PartialChangeMeshPointsAction.PartialChangeMeshPointsAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="645" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="645" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1ad68089190ea7468ed1506174a5a3c3ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</definition>
+        <argsstring>(string name, MR.Std._ByValue_SharedPtr_MRObjectMesh obj, MR.Const_SetNew _3, MR.Misc._Moved&lt; MR.VertCoords &gt; newPoints)</argsstring>
+        <name>Const_PartialChangeMeshPointsAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SetNew" kindref="compound">MR.Const_SetNew</ref></type>
+          <declname>_3</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref> &gt;</type>
+          <declname>newPoints</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to set new object's points and remember its difference from existed points for future undoing Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshPointsAction_1a73ca11aa96a7964948d458cc576ab80b" kindref="member">MR.PartialChangeMeshPointsAction.PartialChangeMeshPointsAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="663" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="663" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1a29134ce95ed2b7f2807ed11be04802e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_PartialChangeMeshPointsAction.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a29134ce95ed2b7f2807ed11be04802e7" kindref="member">MR.PartialChangeMeshPointsAction.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="680" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="680" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1a4cb8ff34b06b96deee18c9a9f455d20c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_PartialChangeMeshPointsAction.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a4cb8ff34b06b96deee18c9a9f455d20c" kindref="member">MR.PartialChangeMeshPointsAction.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="690" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="690" bodyend="695"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1adee3f376802f2e8223e319a2166b76b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PartialChangeMeshPointsAction.~Const_PartialChangeMeshPointsAction</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PartialChangeMeshPointsAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.~Const_PartialChangeMeshPointsAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="593" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="593" bodyend="593"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1a829721bf1f7a521505dd6ded5dc66ebe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_PartialChangeMeshPointsAction.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_PartialChangeMeshPointsAction self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PartialChangeMeshPointsAction" kindref="compound">Const_PartialChangeMeshPointsAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="596" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="596" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1ace8d960c58db6fe0726fb8cc343e4c76" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_PartialChangeMeshPointsAction.operator Const_PartialChangeMeshPointsAction?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_PartialChangeMeshPointsAction?</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.operator Const_PartialChangeMeshPointsAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="606" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="606" bodyend="615"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshPointsAction_1ac3280c70be6f60c66fc8ba70ab5e7aaf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PartialChangeMeshPointsAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshPointsAction.Const_PartialChangeMeshPointsAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="617" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="617" bodyend="617"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for efficiently storage of partial change in mesh points (e.g. a modification of small region) Generated from class <computeroutput><ref refid="classMR_1_1PartialChangeMeshPointsAction" kindref="compound">MR.PartialChangeMeshPointsAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PartialChangeMeshPointsAction</label>
+        <link refid="classMR_1_1Const__PartialChangeMeshPointsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PartialChangeMeshPointsAction</label>
+        <link refid="classMR_1_1PartialChangeMeshPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_PartialChangeMeshPointsAction</label>
+        <link refid="classMR_1_1Const__PartialChangeMeshPointsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="577" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="578" bodyend="696"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ac3280c70be6f60c66fc8ba70ab5e7aaf" prot="package" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ad82007210940279afdaac809d6273095" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a97c3e7a6af2ec1c137cf2cdc4340837e" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a55efe5001a7c98dab4bf20151fd14eca" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ac0c1c7277e28cf88aafbedb50070e229" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ad68089190ea7468ed1506174a5a3c3ae" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a41902444e863133b4db180398f28bdf8" prot="protected" virt="virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ae92022862495fbb1820c7437b69dadf9" prot="public" virt="virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a4cb8ff34b06b96deee18c9a9f455d20c" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a29134ce95ed2b7f2807ed11be04802e7" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ace8d960c58db6fe0726fb8cc343e4c76" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>operator Const_PartialChangeMeshPointsAction?</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a829721bf1f7a521505dd6ded5dc66ebe" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1adee3f376802f2e8223e319a2166b76b4" prot="private" virt="non-virtual"><scope>MR::Const_PartialChangeMeshPointsAction</scope><name>~Const_PartialChangeMeshPointsAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

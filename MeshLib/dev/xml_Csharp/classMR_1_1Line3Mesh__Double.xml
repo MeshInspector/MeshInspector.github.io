@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Line3Mesh__Double" kind="class" language="C#" prot="public">
     <compoundname>MR::Line3Mesh_Double</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Line3Mesh_Double</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Line3Mesh__Double" prot="public" virt="non-virtual">MR.Const_Line3Mesh_Double</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Double_1a23a03750f5b82504818bff54d616d196" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Line3d" kindref="compound">MR.Line3d</ref></type>
@@ -35,7 +35,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1548" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1549" bodyend="1558"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Double_1a01ddf2b93a7647087af52da52be1e6c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_Mesh</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__Mesh" kindref="compound">Const_Mesh</ref></type>
         <definition>new unsafe MR.? Const_Mesh MR.Line3Mesh_Double.mesh</definition>
         <argsstring></argsstring>
         <name>mesh</name>
@@ -50,7 +50,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1563" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1564" bodyend="1573"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Double_1ae359c9995b02bfb82954a5ac04597586" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_AABBTree</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__AABBTree" kindref="compound">Const_AABBTree</ref></type>
         <definition>new unsafe MR.? Const_AABBTree MR.Line3Mesh_Double.tree</definition>
         <argsstring></argsstring>
         <name>tree</name>
@@ -65,7 +65,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1578" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1579" bodyend="1588"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Line3Mesh__Double_1a29c4609b57601ced5db98f4797005798" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_FaceBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
         <definition>new unsafe MR.? Const_FaceBitSet MR.Line3Mesh_Double.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -127,7 +127,7 @@
         <name>Line3Mesh_Double</name>
         <qualifiedname>MR.Line3Mesh_Double.Line3Mesh_Double</qualifiedname>
         <param>
-          <type>MR.Const_Line3d</type>
+          <type><ref refid="classMR_1_1Const__Line3d" kindref="compound">MR.Const_Line3d</ref></type>
           <declname>line</declname>
         </param>
         <param>
@@ -135,15 +135,15 @@
           <declname>prec</declname>
         </param>
         <param>
-          <type>MR.Const_Mesh?</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref>?</type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_AABBTree?</type>
+          <type><ref refid="classMR_1_1Const__AABBTree" kindref="compound">MR.Const_AABBTree</ref>?</type>
           <declname>tree</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>Line3Mesh_Double</name>
         <qualifiedname>MR.Line3Mesh_Double.Line3Mesh_Double</qualifiedname>
         <param>
-          <type>MR.Const_Line3Mesh_Double</type>
+          <type><ref refid="classMR_1_1Const__Line3Mesh__Double" kindref="compound">MR.Const_Line3Mesh_Double</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -200,7 +200,7 @@
         <name>assign</name>
         <qualifiedname>MR.Line3Mesh_Double.assign</qualifiedname>
         <param>
-          <type>MR.Const_Line3Mesh_Double</type>
+          <type><ref refid="classMR_1_1Const__Line3Mesh__Double" kindref="compound">MR.Const_Line3Mesh_Double</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Line3Mesh_Double</label>
+        <link refid="classMR_1_1Const__Line3Mesh__Double"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Line3Mesh_Double</label>
         <link refid="classMR_1_1Line3Mesh__Double"/>
@@ -248,9 +253,16 @@
       </node>
       <node id="2">
         <label>MR.Const_Line3Mesh_Double</label>
+        <link refid="classMR_1_1Const__Line3Mesh__Double"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_mesh</edgelabel>
+          <edgelabel>__ptr_storage_prec</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_tree</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,7 +274,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1538" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1539" bodyend="1684"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a431d08c21535dec1581545a54e73a433" prot="protected" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>__ptr_storage_mesh</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a2816c3cdc606dd4166719ff212a18a0c" prot="protected" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>__ptr_storage_prec</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a83a4ef541b12831e0fa2f6efba190273" prot="protected" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1ad2bc2c415048cb8c38d1f48965903bcf" prot="protected" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>__ptr_storage_tree</name></member>
       <member refid="classMR_1_1Line3Mesh__Double_1aab1a0a2b1e4c88cfe72c4b13b38bd95c" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1acdbb25ee47a1fcb0be2c31876db2b921" prot="package" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1aab55f64e192b13b47a0d127582d99645" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1aa9de8fbf06a2cc5f39b2714262865331" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a50fe8f57bac4b4a9b584a7413878f5f5" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a7c8e6883dd6adcccb9d2e93d129120bb" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a18748bddb21e54688282d44b2fabd8c8" prot="protected" virt="virtual"><scope>MR::Line3Mesh_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a783838ffa7c9667e629e1c29b66533fa" prot="public" virt="virtual"><scope>MR::Line3Mesh_Double</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Line3Mesh__Double_1a23a03750f5b82504818bff54d616d196" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>line</name></member>
       <member refid="classMR_1_1Line3Mesh__Double_1a5ed170d8f7beae106d47a727c91893c8" prot="package" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>Line3Mesh_Double</name></member>
       <member refid="classMR_1_1Line3Mesh__Double_1a5c631ce416ef49e7bf25be668317149e" prot="public" virt="non-virtual"><scope>MR::Line3Mesh_Double</scope><name>Line3Mesh_Double</name></member>

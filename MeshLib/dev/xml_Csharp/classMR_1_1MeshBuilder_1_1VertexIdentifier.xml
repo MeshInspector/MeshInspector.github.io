@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshBuilder_1_1VertexIdentifier" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshBuilder::VertexIdentifier</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshBuilder.Const_VertexIdentifier</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier" prot="public" virt="non-virtual">MR.MeshBuilder.Const_VertexIdentifier</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1VertexIdentifier_1adff2878fe5abe3a414e004b6a3de73b3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>VertexIdentifier</name>
         <qualifiedname>MR.MeshBuilder.VertexIdentifier.VertexIdentifier</qualifiedname>
         <param>
-          <type>Const_VertexIdentifier</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier" kindref="compound">Const_VertexIdentifier</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -202,6 +202,7 @@
       </node>
       <node id="2">
         <label>MR.MeshBuilder.Const_VertexIdentifier</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -223,6 +224,7 @@
       </node>
       <node id="2">
         <label>MR.MeshBuilder.Const_VertexIdentifier</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -239,6 +241,14 @@
     <listofallmembers>
       <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a6938bfc9f11fcf8b3aae9e995b13d1a6" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>addTriangles</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a3039ce8a0860d776c7a6b6acee947952" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1ad6d900f39715debd7288d18f49c0be4b" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>Const_VertexIdentifier</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1ad4fbbc672665c852f747b420baadc69d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>Const_VertexIdentifier</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1ac31fdedc4c3183f1022616b2a0f8de51" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>Const_VertexIdentifier</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1aca24280a23fdf962c608aabbf1992203" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>Const_VertexIdentifier</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a07e570b1a86ff37bcaa88e897b6d975a" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>Const_VertexIdentifier</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1ad46cc034b98b796b98a57c764c5a6897" prot="protected" virt="virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a6d05a50e74a78a18780afb1eb237a188" prot="public" virt="virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier_1a3bfd614f183321b789d8a1bf8647bf83" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>numTris</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a6f333f2e4922a7a10f5cc9e58bb6a47a" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>reserve</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a7daca68125d31b593103152db775dab8" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takePoints</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1VertexIdentifier_1a2984dbc5d27027103097a354a4132e6d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takeTriangulation</name></member>

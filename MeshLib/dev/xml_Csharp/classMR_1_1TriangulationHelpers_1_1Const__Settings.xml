@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TriangulationHelpers_1_1Const__Settings" kind="class" language="C#" prot="public">
+    <compoundname>MR::TriangulationHelpers::Const_Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1TriangulationHelpers_1_1Settings" prot="public" virt="non-virtual">MR.TriangulationHelpers.Settings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a6ca753f6817a1d2880fd549c467e14fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.TriangulationHelpers.Const_Settings.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.radius</qualifiedname>
+        <briefdescription>
+<para>initial radius of search for neighbours, it can be increased automatically; if radius is positive then numNeis must be zero </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="635" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="635" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1aaa9585412c19c4fc910767da1a70dd8e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.TriangulationHelpers.Const_Settings.numNeis</definition>
+        <argsstring></argsstring>
+        <name>numNeis</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.numNeis</qualifiedname>
+        <briefdescription>
+<para>initially selects given number of nearest neighbours; if numNeis is positive then radius must be zero </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="642" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a3817192100c19e846dafc33c9c99fecd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.TriangulationHelpers.Const_Settings.critAngle</definition>
+        <argsstring></argsstring>
+        <name>critAngle</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.critAngle</qualifiedname>
+        <briefdescription>
+<para>max allowed angle for triangles in fan </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="648" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="648" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1aa8c92446f39b9b92b8860a6eb9a28b09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.TriangulationHelpers.Const_Settings.boundaryAngle</definition>
+        <argsstring></argsstring>
+        <name>boundaryAngle</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.boundaryAngle</qualifiedname>
+        <briefdescription>
+<para>the vertex is considered as boundary if its neighbor ring has angle more than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="654" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="654" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a90908e354d3d9cd32c8c19bc761ab953" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
+        <definition>unsafe MR.? Const_VertCoords MR.TriangulationHelpers.Const_Settings.orientedNormals</definition>
+        <argsstring></argsstring>
+        <name>orientedNormals</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.orientedNormals</qualifiedname>
+        <briefdescription>
+<para>if oriented normals are known, they will be used for neighbor points selection except for the ones indicated by untrustedNormals </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="661" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="662" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a04597c7c529b1398ea6b538035ffd83a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
+        <definition>unsafe MR.? Const_VertBitSet MR.TriangulationHelpers.Const_Settings.untrustedNormals</definition>
+        <argsstring></argsstring>
+        <name>untrustedNormals</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.untrustedNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="676" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="677" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a9bf6b4245005455ec53ffb5f4b033b4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.TriangulationHelpers.Const_Settings.automaticRadiusIncrease</definition>
+        <argsstring></argsstring>
+        <name>automaticRadiusIncrease</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.automaticRadiusIncrease</qualifiedname>
+        <briefdescription>
+<para>automatic increase of the radius if points outside can make triangles from original radius not-Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="694" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="694" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a18f0f9337ee9b1e2a745f8081440e7e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.TriangulationHelpers.Const_Settings.maxRemoves</definition>
+        <argsstring></argsstring>
+        <name>maxRemoves</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.maxRemoves</qualifiedname>
+        <briefdescription>
+<para>the maximum number of optimization steps (removals) in local triangulation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="700" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a0fe1751fe67689b9d89c469a25cb79ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Vector_MRVertId</type>
+        <definition>unsafe MR.Std.? Vector_MRVertId MR.TriangulationHelpers.Const_Settings.allNeighbors</definition>
+        <argsstring></argsstring>
+        <name>allNeighbors</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.allNeighbors</qualifiedname>
+        <briefdescription>
+<para>optional output of considered neighbor points after filtering but before triangulation/optimization </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="706" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="707" bodyend="718"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ae82ad0bf8f544f2081d336ef3dd27db9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Misc.? Box&lt; float &gt;</type>
+        <definition>unsafe MR.Misc.? Box&lt;float&gt; MR.TriangulationHelpers.Const_Settings.actualRadius</definition>
+        <argsstring></argsstring>
+        <name>actualRadius</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.actualRadius</qualifiedname>
+        <briefdescription>
+<para>optional output: actual radius of neighbor search (after increase if any) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="724" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="725" bodyend="736"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a663f24aa3aafefd52aa1b9ed9431b846" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__PointCloud" kindref="compound">Const_PointCloud</ref></type>
+        <definition>unsafe MR.? Const_PointCloud MR.TriangulationHelpers.Const_Settings.searchNeighbors</definition>
+        <argsstring></argsstring>
+        <name>searchNeighbors</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.searchNeighbors</qualifiedname>
+        <briefdescription>
+<para>optional: if provided this cloud will be used for searching of neighbors (so it must have same validPoints) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="742" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="743" bodyend="754"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1afea97b4c4c2d5c3922ed904b0705fe1a" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.TriangulationHelpers.Const_Settings.__ref_storage_radius</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_radius</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ref_storage_radius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="636" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1aa9e0641b64f15101ac9574eff955ef39" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.TriangulationHelpers.Const_Settings.__ref_storage_numNeis</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_numNeis</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ref_storage_numNeis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="643" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a3fcab6f2b66a5a403db890df2788e888" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.TriangulationHelpers.Const_Settings.__ref_storage_critAngle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_critAngle</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ref_storage_critAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="649" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="649" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a16132115d1df54d4ef6abf07777d21b8" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.TriangulationHelpers.Const_Settings.__ref_storage_boundaryAngle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_boundaryAngle</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ref_storage_boundaryAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="655" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a307ea2e5c0210e17b0620947f8214ebf" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertCoords._Underlying **</type>
+        <definition>unsafe MR.Const_VertCoords._Underlying** MR.TriangulationHelpers.Const_Settings.__ptr_storage_orientedNormals</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_orientedNormals</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ptr_storage_orientedNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="674" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1af7ffc32465eae4ad1b0071d7b73b8846" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_VertBitSet._Underlying** MR.TriangulationHelpers.Const_Settings.__ptr_storage_untrustedNormals</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_untrustedNormals</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ptr_storage_untrustedNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="689" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="689" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a6b21b0060636ad9c8c1380fc1e0e13ce" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.TriangulationHelpers.Const_Settings.__ref_storage_automaticRadiusIncrease</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_automaticRadiusIncrease</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ref_storage_automaticRadiusIncrease</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="695" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1af2755aa9b4b5cc3a39d51e706a193d08" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.TriangulationHelpers.Const_Settings.__ref_storage_maxRemoves</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxRemoves</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ref_storage_maxRemoves</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="701" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a5c44a5ae74af29301763e2820482213c" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Vector_MRVertId._Underlying **</type>
+        <definition>unsafe MR.Std.Vector_MRVertId._Underlying** MR.TriangulationHelpers.Const_Settings.__ptr_storage_allNeighbors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_allNeighbors</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ptr_storage_allNeighbors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="719" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a240f3b7f73bfde0d4a40bb5447b0edb5" prot="protected" static="no" mutable="no">
+        <type>unsafe float **</type>
+        <definition>unsafe float** MR.TriangulationHelpers.Const_Settings.__ptr_storage_actualRadius</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_actualRadius</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ptr_storage_actualRadius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="737" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="737" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a42a9af82a3dc87e87acaf493f0060daf" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_PointCloud._Underlying **</type>
+        <definition>unsafe MR.Const_PointCloud._Underlying** MR.TriangulationHelpers.Const_Settings.__ptr_storage_searchNeighbors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_searchNeighbors</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.__ptr_storage_searchNeighbors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="755" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="755" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a670cfb58585724ee59f8a33bf17af56d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.TriangulationHelpers.Const_Settings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="619" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="619" bodyend="627"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ac58ce7ec76e517c091d42a6449b1e658" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.TriangulationHelpers.Const_Settings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="628" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="628" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ad96539033b9f1b4d9a97d89f15460bf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.Const_Settings.Const_Settings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.Const_Settings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="842" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="842" bodyend="848"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ac146efa1afe22f0e270199b012738b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.Const_Settings.Const_Settings</definition>
+        <argsstring>(float radius, int numNeis, float critAngle, float boundaryAngle, MR.Const_VertCoords? orientedNormals, MR.Const_VertBitSet? untrustedNormals, bool automaticRadiusIncrease, int maxRemoves, MR.Std.Vector_MRVertId? allNeighbors, MR.Misc.InOut&lt; float &gt;? actualRadius, MR.Const_PointCloud? searchNeighbors)</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.Const_Settings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numNeis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>critAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>boundaryAngle</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
+          <declname>orientedNormals</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
+          <declname>untrustedNormals</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>automaticRadiusIncrease</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxRemoves</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRVertId?</type>
+          <declname>allNeighbors</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; float &gt;?</type>
+          <declname>actualRadius</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref>?</type>
+          <declname>searchNeighbors</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">MR.TriangulationHelpers.Settings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="853" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="853" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a690b98dbd72486bd330cf5df4132fa2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.Const_Settings.Const_Settings</definition>
+        <argsstring>(MR.TriangulationHelpers.Const_Settings _other)</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.Const_Settings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" kindref="compound">MR.TriangulationHelpers.Const_Settings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1Settings_1a3e31375c71dbf56971109212d58bd5dd" kindref="member">MR.TriangulationHelpers.Settings.Settings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="870" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="870" bodyend="877"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a8722adffef6b1de7e08a6362b49a0cab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriangulationHelpers.Const_Settings.Const_Settings</definition>
+        <argsstring>(Settings _other)</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.Const_Settings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">Settings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1Settings_1a3e31375c71dbf56971109212d58bd5dd" kindref="member">MR.TriangulationHelpers.Settings.Settings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="882" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="882" bodyend="882"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a03a2e7c855b96d3626a01f235daa92bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriangulationHelpers.Const_Settings.~Const_Settings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Settings</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.~Const_Settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="629" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="629" bodyend="629"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ad61b72b56f2c1f8c2a75faa698f4e0b6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriangulationHelpers.Const_Settings.Const_Settings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.TriangulationHelpers.Const_Settings.Const_Settings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="831" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="831" bodyend="836"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1TriangulationHelpers_1_1Settings" kindref="compound">MR.TriangulationHelpers.Settings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.TriangulationHelpers.Const_Settings</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1Const__Settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.TriangulationHelpers.Settings</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1Settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.TriangulationHelpers.Const_Settings</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1Const__Settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_allNeighbors</edgelabel>
+          <edgelabel>__ptr_storage_orientedNormals</edgelabel>
+          <edgelabel>__ptr_storage_searchNeighbors</edgelabel>
+          <edgelabel>__ptr_storage_untrustedNormals</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="613" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="614" bodyend="883"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a240f3b7f73bfde0d4a40bb5447b0edb5" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ptr_storage_actualRadius</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a5c44a5ae74af29301763e2820482213c" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ptr_storage_allNeighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a307ea2e5c0210e17b0620947f8214ebf" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ptr_storage_orientedNormals</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a42a9af82a3dc87e87acaf493f0060daf" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ptr_storage_searchNeighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1af7ffc32465eae4ad1b0071d7b73b8846" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ptr_storage_untrustedNormals</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a6b21b0060636ad9c8c1380fc1e0e13ce" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ref_storage_automaticRadiusIncrease</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a16132115d1df54d4ef6abf07777d21b8" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ref_storage_boundaryAngle</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a3fcab6f2b66a5a403db890df2788e888" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ref_storage_critAngle</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1af2755aa9b4b5cc3a39d51e706a193d08" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ref_storage_maxRemoves</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1aa9e0641b64f15101ac9574eff955ef39" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ref_storage_numNeis</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1afea97b4c4c2d5c3922ed904b0705fe1a" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>__ref_storage_radius</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ae82ad0bf8f544f2081d336ef3dd27db9" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>actualRadius</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a0fe1751fe67689b9d89c469a25cb79ba" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>allNeighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a9bf6b4245005455ec53ffb5f4b033b4b" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>automaticRadiusIncrease</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1aa8c92446f39b9b92b8860a6eb9a28b09" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>boundaryAngle</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ad61b72b56f2c1f8c2a75faa698f4e0b6" prot="package" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ad96539033b9f1b4d9a97d89f15460bf8" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ac146efa1afe22f0e270199b012738b5e" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a690b98dbd72486bd330cf5df4132fa2b" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a8722adffef6b1de7e08a6362b49a0cab" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a3817192100c19e846dafc33c9c99fecd" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>critAngle</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a670cfb58585724ee59f8a33bf17af56d" prot="protected" virt="virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ac58ce7ec76e517c091d42a6449b1e658" prot="public" virt="virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a18f0f9337ee9b1e2a745f8081440e7e9" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>maxRemoves</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1aaa9585412c19c4fc910767da1a70dd8e" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>numNeis</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a90908e354d3d9cd32c8c19bc761ab953" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>orientedNormals</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a6ca753f6817a1d2880fd549c467e14fb" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>radius</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a663f24aa3aafefd52aa1b9ed9431b846" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>searchNeighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a04597c7c529b1398ea6b538035ffd83a" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>untrustedNormals</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a03a2e7c855b96d3626a01f235daa92bc" prot="private" virt="non-virtual"><scope>MR::TriangulationHelpers::Const_Settings</scope><name>~Const_Settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

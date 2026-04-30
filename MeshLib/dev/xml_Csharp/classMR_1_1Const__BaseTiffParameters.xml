@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__BaseTiffParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_BaseTiffParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1BaseTiffParameters" prot="public" virt="non-virtual">MR.BaseTiffParameters</derivedcompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aea" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>SampleType</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.SampleType</qualifiedname>
+        <enumvalue id="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aeaa88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aeaafa28cf323a8d44edbf80f68165f4f75b" prot="public">
+          <name>Uint</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aeaa1686a6c336b71b36d77354cea19a8b52" prot="public">
+          <name>Int</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aeaa22ae0e2b89e5e3d477f988cc36d3272b" prot="public">
+          <name>Float</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="136" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="137" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998d" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>ValueType</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.ValueType</qualifiedname>
+        <enumvalue id="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998da88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998daf60357a8d17e45793298323f1b372a74" prot="public">
+          <name>Scalar</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998da889574aebacda6bfd3e534e2b49b8028" prot="public">
+          <name>RGB</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998daea3495a278957dc58165e48a8945469f" prot="public">
+          <name>RGBA</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="144" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="145" bodyend="150"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__BaseTiffParameters_1a52a5ac78ba94a315010a0771175f9adc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aea" kindref="member">MR.BaseTiffParameters.SampleType</ref></type>
+        <definition>unsafe MR.BaseTiffParameters.SampleType MR.Const_BaseTiffParameters.sampleType</definition>
+        <argsstring></argsstring>
+        <name>sampleType</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.sampleType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="28" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BaseTiffParameters_1ac8e26404313ee527d31b5d3ec06c0e12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998d" kindref="member">MR.BaseTiffParameters.ValueType</ref></type>
+        <definition>unsafe MR.BaseTiffParameters.ValueType MR.Const_BaseTiffParameters.valueType</definition>
+        <argsstring></argsstring>
+        <name>valueType</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.valueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="31" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BaseTiffParameters_1a9433a105b399bc254a43af918519836a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_BaseTiffParameters.bytesPerSample</definition>
+        <argsstring></argsstring>
+        <name>bytesPerSample</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.bytesPerSample</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="35" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BaseTiffParameters_1a25047a1e9675fcab8f3789524e0c40d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>unsafe ref readonly MR.Vector2i MR.Const_BaseTiffParameters.imageSize</definition>
+        <argsstring></argsstring>
+        <name>imageSize</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.imageSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="39" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__BaseTiffParameters_1abcb213caa3935742e7847232213c7a2c" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aea" kindref="member">MR.BaseTiffParameters.SampleType</ref> *</type>
+        <definition>unsafe MR.BaseTiffParameters.SampleType* MR.Const_BaseTiffParameters.__ref_storage_sampleType</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_sampleType</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.__ref_storage_sampleType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="29" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__BaseTiffParameters_1ab624bce91b28bf8c325d53208700d4b7" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998d" kindref="member">MR.BaseTiffParameters.ValueType</ref> *</type>
+        <definition>unsafe MR.BaseTiffParameters.ValueType* MR.Const_BaseTiffParameters.__ref_storage_valueType</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_valueType</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.__ref_storage_valueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="32" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__BaseTiffParameters_1a6925efcfda4dd2ffec899f1829c98dd6" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_BaseTiffParameters.__ref_storage_bytesPerSample</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_bytesPerSample</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.__ref_storage_bytesPerSample</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="36" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__BaseTiffParameters_1ab7e660b7bd08747160d877a74c474200" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref> *</type>
+        <definition>unsafe MR.Vector2i* MR.Const_BaseTiffParameters.__ref_storage_imageSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_imageSize</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.__ref_storage_imageSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="40" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a1fe6d1f146d29185973068d9ef680102" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_BaseTiffParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a3802a06dc1bfd2964569e2e18d3f5cd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_BaseTiffParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a45f20c4948ccb0fec380bb9bf59afec4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BaseTiffParameters.Const_BaseTiffParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_BaseTiffParameters</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Const_BaseTiffParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="85" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1af2665f22d2744b26b7a2864100085b9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BaseTiffParameters.Const_BaseTiffParameters</definition>
+        <argsstring>(MR.BaseTiffParameters.SampleType sampleType, MR.BaseTiffParameters.ValueType valueType, int bytesPerSample, MR.Vector2i imageSize)</argsstring>
+        <name>Const_BaseTiffParameters</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Const_BaseTiffParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aea" kindref="member">MR.BaseTiffParameters.SampleType</ref></type>
+          <declname>sampleType</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998d" kindref="member">MR.BaseTiffParameters.ValueType</ref></type>
+          <declname>valueType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bytesPerSample</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>imageSize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1BaseTiffParameters" kindref="compound">MR.BaseTiffParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="96" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a1522e2a7caca7448412f9a36d18a744e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BaseTiffParameters.Const_BaseTiffParameters</definition>
+        <argsstring>(MR.Const_BaseTiffParameters _other)</argsstring>
+        <name>Const_BaseTiffParameters</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Const_BaseTiffParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters" kindref="compound">MR.Const_BaseTiffParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BaseTiffParameters_1a75c58c8ab9b2cf3ebc40ad283ddc6f93" kindref="member">MR.BaseTiffParameters.BaseTiffParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="107" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="107" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a1152feecf63033bc1f8e3745c90f5763" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BaseTiffParameters.Const_BaseTiffParameters</definition>
+        <argsstring>(BaseTiffParameters _other)</argsstring>
+        <name>Const_BaseTiffParameters</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Const_BaseTiffParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BaseTiffParameters" kindref="compound">BaseTiffParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BaseTiffParameters_1a75c58c8ab9b2cf3ebc40ad283ddc6f93" kindref="member">MR.BaseTiffParameters.BaseTiffParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="119" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a97cb4328f2762b052316e15dbd16383b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_BaseTiffParameters.Equals</definition>
+        <argsstring>(MR.Const_BaseTiffParameters? _1)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters" kindref="compound">MR.Const_BaseTiffParameters</ref>?</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="154" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="154" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a2568754269d8e150e21f819057e73a5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_BaseTiffParameters.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="161" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="161" bodyend="168"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1aac7339d044341a123090f0fac7e2e72e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BaseTiffParameters.~Const_BaseTiffParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_BaseTiffParameters</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.~Const_BaseTiffParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a88e731f42edff25c3b57892d1e44986c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BaseTiffParameters.Const_BaseTiffParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_BaseTiffParameters</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.Const_BaseTiffParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="74" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="74" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a2a0cda9d6867cb1aa4ae4c17627557e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_BaseTiffParameters.operator==</definition>
+        <argsstring>(MR.Const_BaseTiffParameters _this, MR.Const_BaseTiffParameters _1)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters" kindref="compound">MR.Const_BaseTiffParameters</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters" kindref="compound">MR.Const_BaseTiffParameters</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::BaseTiffParameters::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="124" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="124" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BaseTiffParameters_1a71cc008584b7804ba15e2612bda6d14a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_BaseTiffParameters.operator!=</definition>
+        <argsstring>(MR.Const_BaseTiffParameters _this, MR.Const_BaseTiffParameters _1)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_BaseTiffParameters.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters" kindref="compound">MR.Const_BaseTiffParameters</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters" kindref="compound">MR.Const_BaseTiffParameters</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="131" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="131" bodyend="134"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1BaseTiffParameters" kindref="compound">MR.BaseTiffParameters</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1TiffParameters" kindref="compound">MR.TiffParameters</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_BaseTiffParameters</label>
+        <link refid="classMR_1_1Const__BaseTiffParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.BaseTiffParameters</label>
+        <link refid="classMR_1_1BaseTiffParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_BaseTiffParameters</label>
+        <link refid="classMR_1_1Const__BaseTiffParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_imageSize</edgelabel>
+          <edgelabel>__ref_storage_sampleType</edgelabel>
+          <edgelabel>__ref_storage_valueType</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="11" bodyend="169"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a6925efcfda4dd2ffec899f1829c98dd6" prot="protected" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>__ref_storage_bytesPerSample</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1ab7e660b7bd08747160d877a74c474200" prot="protected" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>__ref_storage_imageSize</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1abcb213caa3935742e7847232213c7a2c" prot="protected" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>__ref_storage_sampleType</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1ab624bce91b28bf8c325d53208700d4b7" prot="protected" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>__ref_storage_valueType</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a9433a105b399bc254a43af918519836a" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>bytesPerSample</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a88e731f42edff25c3b57892d1e44986c" prot="package" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a45f20c4948ccb0fec380bb9bf59afec4" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1af2665f22d2744b26b7a2864100085b9a" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a1522e2a7caca7448412f9a36d18a744e" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a1152feecf63033bc1f8e3745c90f5763" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a1fe6d1f146d29185973068d9ef680102" prot="protected" virt="virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a3802a06dc1bfd2964569e2e18d3f5cd8" prot="public" virt="virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a97cb4328f2762b052316e15dbd16383b" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a2568754269d8e150e21f819057e73a5f" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a25047a1e9675fcab8f3789524e0c40d5" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>imageSize</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a71cc008584b7804ba15e2612bda6d14a" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a2a0cda9d6867cb1aa4ae4c17627557e0" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aea" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>SampleType</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a52a5ac78ba94a315010a0771175f9adc" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>sampleType</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998d" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>ValueType</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1ac8e26404313ee527d31b5d3ec06c0e12" prot="public" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>valueType</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1aac7339d044341a123090f0fac7e2e72e" prot="private" virt="non-virtual"><scope>MR::Const_BaseTiffParameters</scope><name>~Const_BaseTiffParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

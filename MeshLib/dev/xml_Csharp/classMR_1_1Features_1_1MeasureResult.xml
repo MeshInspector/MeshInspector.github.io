@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1MeasureResult" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::MeasureResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Features.Const_MeasureResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Features_1_1Const__MeasureResult" prot="public" virt="non-virtual">MR.Features.Const_MeasureResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Features_1_1MeasureResult_1a7027dfd79bf0a398033af5eac9dcc84d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Features.MeasureResult.Distance</type>
+        <type>new unsafe <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" kindref="compound">MR.Features.MeasureResult.Distance</ref></type>
         <definition>new unsafe MR.Features.MeasureResult.Distance MR.Features.MeasureResult.distance</definition>
         <argsstring></argsstring>
         <name>distance</name>
@@ -19,7 +19,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1677" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1677" bodyend="1677"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Features_1_1MeasureResult_1aa57d8bc84c4b9da26eac7ecbc5e0ab4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Features.MeasureResult.Distance</type>
+        <type>new unsafe <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" kindref="compound">MR.Features.MeasureResult.Distance</ref></type>
         <definition>new unsafe MR.Features.MeasureResult.Distance MR.Features.MeasureResult.centerDistance</definition>
         <argsstring></argsstring>
         <name>centerDistance</name>
@@ -33,7 +33,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1681" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1681" bodyend="1681"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Features_1_1MeasureResult_1aa55aa3b426196e51b9fee270baedca62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Features.MeasureResult.Angle</type>
+        <type>new unsafe <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle" kindref="compound">MR.Features.MeasureResult.Angle</ref></type>
         <definition>new unsafe MR.Features.MeasureResult.Angle MR.Features.MeasureResult.angle</definition>
         <argsstring></argsstring>
         <name>angle</name>
@@ -108,15 +108,15 @@
         <name>MeasureResult</name>
         <qualifiedname>MR.Features.MeasureResult.MeasureResult</qualifiedname>
         <param>
-          <type>MR.Features.MeasureResult.Const_Distance</type>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance" kindref="compound">MR.Features.MeasureResult.Const_Distance</ref></type>
           <declname>distance</declname>
         </param>
         <param>
-          <type>MR.Features.MeasureResult.Const_Distance</type>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance" kindref="compound">MR.Features.MeasureResult.Const_Distance</ref></type>
           <declname>centerDistance</declname>
         </param>
         <param>
-          <type>MR.Features.MeasureResult.Const_Angle</type>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle" kindref="compound">MR.Features.MeasureResult.Const_Angle</ref></type>
           <declname>angle</declname>
         </param>
         <param>
@@ -158,7 +158,7 @@
         <name>MeasureResult</name>
         <qualifiedname>MR.Features.MeasureResult.MeasureResult</qualifiedname>
         <param>
-          <type>Const_MeasureResult</type>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult" kindref="compound">Const_MeasureResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -238,6 +238,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Const_MeasureResult</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Const_MeasureResult</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -276,6 +278,14 @@
       <member refid="classMR_1_1Features_1_1MeasureResult_1aa55aa3b426196e51b9fee270baedca62" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>angle</name></member>
       <member refid="classMR_1_1Features_1_1MeasureResult_1a3ab4f155d2c90179cc0fd37fffcb07c3" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1MeasureResult_1aa57d8bc84c4b9da26eac7ecbc5e0ab4c" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>centerDistance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1ab483c886c21a64015e89b0997f1038b0" prot="package" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Const_MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1a68f0f564a167a8f327bd9004098d6bb8" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Const_MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1ae658bdbb48abcae76822e3c852754872" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Const_MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1ad2cac969d0d14adabbae6d088dafe4c2" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Const_MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1ad98e528a856da63d1129efae53f9ff43" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Const_MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1aa47f85fd18d4105bbfc3a6bd3e4322e4" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Const_MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1aa717440f1fd231c8e4dc442e09cdc1c6" prot="protected" virt="virtual"><scope>MR::Features::MeasureResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1a0f8238495e7072e8f864b3e4f0a5f571" prot="public" virt="virtual"><scope>MR::Features::MeasureResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Features_1_1MeasureResult_1a7027dfd79bf0a398033af5eac9dcc84d" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>distance</name></member>
       <member refid="classMR_1_1Features_1_1MeasureResult_1a54a339d72923dd8001dd82639801a476" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>intersections</name></member>
       <member refid="classMR_1_1Features_1_1MeasureResult_1a6fa5f72fc8de8c3a9f2ed5cf2a9abeff" prot="package" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
@@ -284,6 +294,7 @@
       <member refid="classMR_1_1Features_1_1MeasureResult_1a14fbca9407cfdecdaf63b12985bd09d3" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
       <member refid="classMR_1_1Features_1_1MeasureResult_1ad29540a2fa2c0b2a538d2bc9fbbc151d" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
       <member refid="classMR_1_1Features_1_1MeasureResult_1a37ab5aa5eacb6c1ec09e06f24d18df66" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1a1695eaeaeb34bd746e9bfb7b150635c0" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>Status</name></member>
       <member refid="classMR_1_1Features_1_1MeasureResult_1ae92b40a434d849657013993a2519c131" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>swapObjects</name></member>
     </listofallmembers>
   </compounddef>

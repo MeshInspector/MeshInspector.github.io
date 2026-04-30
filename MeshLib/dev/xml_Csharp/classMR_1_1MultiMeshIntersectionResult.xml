@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MultiMeshIntersectionResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MultiMeshIntersectionResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MultiMeshIntersectionResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MultiMeshIntersectionResult" prot="public" virt="non-virtual">MR.Const_MultiMeshIntersectionResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MultiMeshIntersectionResult_1ac572d4ac53a18a8d702c367369f1e72a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_Mesh</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__Mesh" kindref="compound">Const_Mesh</ref></type>
         <definition>new unsafe MR.? Const_Mesh MR.MultiMeshIntersectionResult.mesh</definition>
         <argsstring></argsstring>
         <name>mesh</name>
@@ -132,7 +132,7 @@
         <name>MultiMeshIntersectionResult</name>
         <qualifiedname>MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</qualifiedname>
         <param>
-          <type>MR.Const_MultiMeshIntersectionResult</type>
+          <type><ref refid="classMR_1_1Const__MultiMeshIntersectionResult" kindref="compound">MR.Const_MultiMeshIntersectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,7 +170,7 @@
         <name>assign</name>
         <qualifiedname>MR.MultiMeshIntersectionResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_MultiMeshIntersectionResult</type>
+          <type><ref refid="classMR_1_1Const__MultiMeshIntersectionResult" kindref="compound">MR.Const_MultiMeshIntersectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -197,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MultiMeshIntersectionResult</label>
+        <link refid="classMR_1_1Const__MultiMeshIntersectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MultiMeshIntersectionResult</label>
         <link refid="classMR_1_1MultiMeshIntersectionResult"/>
@@ -218,9 +223,13 @@
       </node>
       <node id="2">
         <label>MR.Const_MultiMeshIntersectionResult</label>
+        <link refid="classMR_1_1Const__MultiMeshIntersectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_mesh</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -232,7 +241,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="818" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="819" bodyend="930"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1adb6bbb2d74f9e3806ef0081461ec7da9" prot="protected" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>__ptr_storage_mesh</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1ae87db8a62679c9cc55bc838fdf060b08" prot="protected" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>__ref_storage_distanceAlongLine</name></member>
       <member refid="classMR_1_1MultiMeshIntersectionResult_1abae793fbbd3654e8008eee3ed3ec6893" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1a81cac1f662df6e51684e043b65d3fd86" prot="package" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>Const_MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1aeee45f770a9992c42b829a366e8ee019" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>Const_MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1a3a7f2f2a4c14ffab55b453a23da3ac9f" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>Const_MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1ae1edd6dc54ec538e111f570d5244d0bf" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>Const_MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1a19b1a07069548e4916ac8caa445056d5" prot="protected" virt="virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1ad02e1e1729aef819369bf4a82747599c" prot="public" virt="virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MultiMeshIntersectionResult_1a404e932c5529de77e8d6659b41fd06d8" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>distanceAlongLine</name></member>
       <member refid="classMR_1_1MultiMeshIntersectionResult_1ac572d4ac53a18a8d702c367369f1e72a" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>mesh</name></member>
       <member refid="classMR_1_1MultiMeshIntersectionResult_1a8a63dbc268281e6bd0b8d95648e56063" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>mtp</name></member>
@@ -240,6 +257,8 @@
       <member refid="classMR_1_1MultiMeshIntersectionResult_1a8556c93f26f475a2d57bd1c2dfd7b79c" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>MultiMeshIntersectionResult</name></member>
       <member refid="classMR_1_1MultiMeshIntersectionResult_1a06faa4977fda624c0fa671708079480b" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>MultiMeshIntersectionResult</name></member>
       <member refid="classMR_1_1MultiMeshIntersectionResult_1a111baee6b1cf8f1cbf2f0bfce19363af" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1a391028319e43262f7cc960ab14ec3db2" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__MultiMeshIntersectionResult_1a3c4a0330af0aeb61acbea3f0a29b3d3c" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>operator MR.Const_MeshIntersectionResult</name></member>
       <member refid="classMR_1_1MultiMeshIntersectionResult_1a70fd62a68d0bfa3e6b04cb697920363b" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>operator MR.MeshIntersectionResult</name></member>
       <member refid="classMR_1_1MultiMeshIntersectionResult_1a767ccd85eb3e4aa00dec51f1a6ba9e08" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>proj</name></member>
     </listofallmembers>

@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshToVolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshToVolumeParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshToVolumeParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshToVolumeParams" prot="public" virt="non-virtual">MR.Const_MeshToVolumeParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshToVolumeParams_1ae7342bcf189c44e7361edf5d4fbc271e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.MeshToVolumeParams.Type</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__MeshToVolumeParams_1abfff667c22dbc2c87ffba032f150b04d" kindref="member">MR.MeshToVolumeParams.Type</ref></type>
         <definition>new unsafe ref MR.MeshToVolumeParams.Type MR.MeshToVolumeParams.type</definition>
         <argsstring></argsstring>
         <name>type</name>
@@ -136,7 +136,7 @@
         <name>MeshToVolumeParams</name>
         <qualifiedname>MR.MeshToVolumeParams.MeshToVolumeParams</qualifiedname>
         <param>
-          <type>MR.MeshToVolumeParams.Type</type>
+          <type><ref refid="classMR_1_1Const__MeshToVolumeParams_1abfff667c22dbc2c87ffba032f150b04d" kindref="member">MR.MeshToVolumeParams.Type</ref></type>
           <declname>type</declname>
         </param>
         <param>
@@ -194,7 +194,7 @@
         <name>MeshToVolumeParams</name>
         <qualifiedname>MR.MeshToVolumeParams.MeshToVolumeParams</qualifiedname>
         <param>
-          <type>Const_MeshToVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToVolumeParams" kindref="compound">Const_MeshToVolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -259,6 +259,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshToVolumeParams</label>
+        <link refid="classMR_1_1Const__MeshToVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -272,6 +273,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshToVolumeParams</label>
         <link refid="classMR_1_1MeshToVolumeParams"/>
@@ -280,9 +285,16 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshToVolumeParams</label>
+        <link refid="classMR_1_1Const__MeshToVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_outXf</edgelabel>
+          <edgelabel>__ref_storage_type</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
+          <edgelabel>__ref_storage_worldXf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -294,8 +306,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="173" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="174" bodyend="282"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a55f916c5a289925be489bb55b75dbf02" prot="protected" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>__ptr_storage_outXf</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a5bffb7ff2e415dd2f8e3ea857e448a15" prot="protected" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>__ref_storage_surfaceOffset</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a0a4f254fe8fb514c010df9b8261e8a73" prot="protected" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>__ref_storage_type</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a014558c62afc448fcc12409b7cced6c7" prot="protected" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a0dfdc1e5f84e34ad1b8d06719cc9e074" prot="protected" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>__ref_storage_worldXf</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1a2c96fbd2294e1ff0e39f56f6313a5fae" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1a4a506b9fe551bb02b00c5c3f67755e64" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a62e398abdf678d059d78a4081fb4adf8" prot="package" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Const_MeshToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a1c3771a5e39ccf60741a26c296e82baa" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Const_MeshToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a2ec9ac3ba79ae5745875059526b95107" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Const_MeshToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1ab0d0ecc47f0e52e6b902cb1fe24bfec2" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Const_MeshToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1aeacf856c99712bf776cac43fb211d1d9" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Const_MeshToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a37156107198b921a479cbaf4dd940b24" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Const_MeshToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a37bcf078f97a34f77f7bacc877eb7506" prot="protected" virt="virtual"><scope>MR::MeshToVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1a5b072547cbac4bb8e9f42daeb1744a0b" prot="public" virt="virtual"><scope>MR::MeshToVolumeParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1af754e7597a122895f53cf4a9f68682c1" prot="package" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1ae50f914bd319606a2aeec82bba2f9f35" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1abb76352ff15d8ad3094244bd3190e953" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
@@ -304,6 +329,7 @@
       <member refid="classMR_1_1MeshToVolumeParams_1aeaa3dee1e5f3cd47feaec80ce8e54d56" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>MeshToVolumeParams</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1aeffc4445d13aee0a66565f5746626eb7" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>outXf</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1a3fd96c07ce3c75183428ed4fdb30d076" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>surfaceOffset</name></member>
+      <member refid="classMR_1_1Const__MeshToVolumeParams_1abfff667c22dbc2c87ffba032f150b04d" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Type</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1ae7342bcf189c44e7361edf5d4fbc271e" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>type</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1a98df3f5c32ea33427bd4b1fbe2b30dca" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>voxelSize</name></member>
       <member refid="classMR_1_1MeshToVolumeParams_1ab7c0d644ec655e54ddea6bd81179f6e2" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>worldXf</name></member>

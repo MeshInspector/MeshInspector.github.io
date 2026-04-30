@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SharpenMarchingCubesMeshSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SharpenMarchingCubesMeshSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SharpenMarchingCubesMeshSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings" prot="public" virt="non-virtual">MR.Const_SharpenMarchingCubesMeshSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SharpenMarchingCubesMeshSettings_1a5d77928abed2b4c0ffd870a270f4db87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -200,7 +200,7 @@
         <name>SharpenMarchingCubesMeshSettings</name>
         <qualifiedname>MR.SharpenMarchingCubesMeshSettings.SharpenMarchingCubesMeshSettings</qualifiedname>
         <param>
-          <type>MR.Const_SharpenMarchingCubesMeshSettings</type>
+          <type><ref refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings" kindref="compound">MR.Const_SharpenMarchingCubesMeshSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -238,7 +238,7 @@
         <name>assign</name>
         <qualifiedname>MR.SharpenMarchingCubesMeshSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_SharpenMarchingCubesMeshSettings</type>
+          <type><ref refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings" kindref="compound">MR.Const_SharpenMarchingCubesMeshSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -265,6 +265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SharpenMarchingCubesMeshSettings</label>
+        <link refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -278,6 +279,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SharpenMarchingCubesMeshSettings</label>
         <link refid="classMR_1_1SharpenMarchingCubesMeshSettings"/>
@@ -286,9 +291,13 @@
       </node>
       <node id="2">
         <label>MR.Const_SharpenMarchingCubesMeshSettings</label>
+        <link refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_outSharpEdges</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -300,7 +309,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" line="188" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSharpenMarchingCubesMesh.cs" bodystart="189" bodyend="301"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a2cf8139b4ab8b96238dc8029ac2ea2a6" prot="protected" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>__ptr_storage_outSharpEdges</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a4c62f6b3cfdb3353f72290cfcf9a3664" prot="protected" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>__ref_storage_maxNewRank2VertDev</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a8a3fb808852b819b1939333402d9208d" prot="protected" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>__ref_storage_maxNewRank3VertDev</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a74447bff78c98230dc63a70f18e2fea9" prot="protected" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>__ref_storage_maxOldVertPosCorrection</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a7d80fc337b3d26b624654d75938500d6" prot="protected" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>__ref_storage_minNewVertDev</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a1e41f21996d07f308e58999bfd433b60" prot="protected" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>__ref_storage_offset</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ad04723307e2f1c541d3a6e60b932bd3c" prot="protected" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>__ref_storage_posSelIters</name></member>
       <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ae21893fe81182ee2c37e4cff786036d6" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a78558a694fe813f0966ec1ef0889dc6e" prot="package" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>Const_SharpenMarchingCubesMeshSettings</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a289f1aa7a0c8c22a81f3af1d386ed6a0" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>Const_SharpenMarchingCubesMeshSettings</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ac4c8f407e6ba19d71f8b07d4868c88cf" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>Const_SharpenMarchingCubesMeshSettings</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ac58acdd61e7e59ce4eb92e515e53101d" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>Const_SharpenMarchingCubesMeshSettings</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a2d365234b3e04e88c568ccf52796cace" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>Const_SharpenMarchingCubesMeshSettings</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1ab4de875e7e2093ff37c7be5af1605e91" prot="protected" virt="virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SharpenMarchingCubesMeshSettings_1a0fc7d95db74e4afbfad6ac5d5fb33659" prot="public" virt="virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ad0648650b83a3ff84202b68d5ce33075" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>maxNewRank2VertDev</name></member>
       <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ade80eace0be2085eb67b36177b7aac5f" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>maxNewRank3VertDev</name></member>
       <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a6651aa9240abb2ac3287f60f53800ef7" prot="public" virt="non-virtual"><scope>MR::SharpenMarchingCubesMeshSettings</scope><name>maxOldVertPosCorrection</name></member>

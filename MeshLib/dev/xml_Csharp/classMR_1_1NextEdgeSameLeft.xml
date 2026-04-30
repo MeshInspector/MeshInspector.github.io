@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NextEdgeSameLeft" kind="class" language="C#" prot="public">
     <compoundname>MR::NextEdgeSameLeft</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NextEdgeSameLeft</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NextEdgeSameLeft" prot="public" virt="non-virtual">MR.Const_NextEdgeSameLeft</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NextEdgeSameLeft_1ac24ded96e74ef428834559c0b412c912" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>NextEdgeSameLeft</name>
         <qualifiedname>MR.NextEdgeSameLeft.NextEdgeSameLeft</qualifiedname>
         <param>
-          <type>MR.Const_NextEdgeSameLeft</type>
+          <type><ref refid="classMR_1_1Const__NextEdgeSameLeft" kindref="compound">MR.Const_NextEdgeSameLeft</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -73,7 +73,7 @@
         <name>NextEdgeSameLeft</name>
         <qualifiedname>MR.NextEdgeSameLeft.NextEdgeSameLeft</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -92,7 +92,7 @@
         <name>assign</name>
         <qualifiedname>MR.NextEdgeSameLeft.assign</qualifiedname>
         <param>
-          <type>MR.Const_NextEdgeSameLeft</type>
+          <type><ref refid="classMR_1_1Const__NextEdgeSameLeft" kindref="compound">MR.Const_NextEdgeSameLeft</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -113,7 +113,7 @@
         <name>operator NextEdgeSameLeft</name>
         <qualifiedname>MR.NextEdgeSameLeft.operator NextEdgeSameLeft</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -140,6 +140,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NextEdgeSameLeft</label>
+        <link refid="classMR_1_1Const__NextEdgeSameLeft"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -161,6 +162,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NextEdgeSameLeft</label>
+        <link refid="classMR_1_1Const__NextEdgeSameLeft"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -176,10 +178,18 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="739" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="740" bodyend="786"/>
     <listofallmembers>
       <member refid="classMR_1_1NextEdgeSameLeft_1af8c55d5e238aa808a7fa623aadc7ad64" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a3f0dcccff43233972e38c1fa2a80b6c3" prot="package" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1af9ea7584cf7d34649dff2395daf6b07b" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a20c48ed197109e7af759e8d4155a400a" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1ae33d6ac781befa39230f5b5fad3e0b78" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a3c6968d6b78e39f89f7c7f4facbad1b4" prot="protected" virt="virtual"><scope>MR::NextEdgeSameLeft</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a08021f95e19e48cc4e2fc19f1c9efc65" prot="public" virt="virtual"><scope>MR::NextEdgeSameLeft</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a1d13e4a81a149c89ff8a2731787af46e" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>next</name></member>
       <member refid="classMR_1_1NextEdgeSameLeft_1ac24ded96e74ef428834559c0b412c912" prot="package" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>NextEdgeSameLeft</name></member>
       <member refid="classMR_1_1NextEdgeSameLeft_1a0bf1a26c5ea35574406b64dc71774fcc" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>NextEdgeSameLeft</name></member>
       <member refid="classMR_1_1NextEdgeSameLeft_1a06c3b0c5fd971632c3a7326a1542d707" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>NextEdgeSameLeft</name></member>
       <member refid="classMR_1_1NextEdgeSameLeft_1a79a0d1d589798b694a1431ccff9d30c1" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a95628ec0182a582eb04898c23b69bbe7" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>operator Const_NextEdgeSameLeft</name></member>
       <member refid="classMR_1_1NextEdgeSameLeft_1a5387c22490101a77852ba48632566e5d" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameLeft</scope><name>operator NextEdgeSameLeft</name></member>
     </listofallmembers>
   </compounddef>

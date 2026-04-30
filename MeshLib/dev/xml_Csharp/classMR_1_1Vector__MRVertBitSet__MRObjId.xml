@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRVertBitSet__MRObjId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRVertBitSet_MRObjId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRVertBitSet_MRObjId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" prot="public" virt="non-virtual">MR.Const_Vector_MRVertBitSet_MRObjId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRVertBitSet__MRObjId_1a1ab47c76c57719bd2d5123a4d689bf83" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRVertBitSet_MRObjId</name>
         <qualifiedname>MR.Vector_MRVertBitSet_MRObjId.Vector_MRVertBitSet_MRObjId</qualifiedname>
         <param>
-          <type>Const_Vector_MRVertBitSet_MRObjId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId" kindref="compound">Const_Vector_MRVertBitSet_MRObjId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,7 +153,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -309,7 +309,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -397,7 +397,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRVertBitSet_MRObjId.pushBack</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRVertBitSet_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -654,6 +655,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRVertBitSet_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -680,13 +682,34 @@
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1af9344bd2fee084492ef5d5c78994fc79" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a88be87f715a179b0de816c350126c6b2" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a712f076cf873536f3b78bbebda7b478f" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a81d18b16f21fd8a101a2cee43e8de17d" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a1d667783aa36b62f387fb20c6f903d50" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a67ba6ec608cd6a67c4cf2d6dd5b022bf" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1aba599862a77590e0c359d484fe2f181f" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7a98b268313e33ee74a018c4bc7de3e5" prot="package" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a80b83cb69fd9fc9047548113d7d1a27f" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a26fa782c584f31853d254d8f376a305b" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a80bab7e0b852ffa786940865a71012bd" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1af367722ba7871debd2c9a0d84546ec0e" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a3352e151a2103149082462837350cccd" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a0615847d18087c5b4cbb1901c4105ea6" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a12657e058f0ce0adb20e6b949d8c40f3" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Const_Vector_MRVertBitSet_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a1b30ceeb839322d5c9e9a8b9826682fd" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ac167229bda0a2c986b39ab1f4695bdce" prot="protected" virt="virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab2485f806522504eff466fcad67df25b" prot="public" virt="virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1ac9d29c335c02cf967d8e4ee1f690fd2f" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab63a5ca58b76eb9af6b4a25ae30833f0" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad1abe79a5f2ab78de588117105b82546" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ab0e38321a12582581ca25d3f0ea00d1a" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1afe091a9f6fb5a228560e58f5df1272f2" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1ae09be566ef4ae62771f07ba96f60a89c" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1ac989bc2d070d3b0102c7181130d292c4" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1afb96fae47a36b3f53e0eaa52427f03a9" prot="private" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a6e8d88e6cefcb40287e68fb61020aeb6" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a9c224867fffae0a1c04204a13017870b" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>operator Const_Vector_MRVertBitSet_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a94731fb9e1dd0c3c8ccd51d30f07814f" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>operator Vector_MRVertBitSet_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1afad634430eaba2c5c5765664960bbe35" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad85340bbc483f6ba3ffd8806e432c3f4" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1ab976733431b03118db345278759ebd85" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1accc1a90f422de2befbf56298e93cb20c" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1ae030ccc8879cb3e791d4228e2fd6e8a2" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>pushBack</name></member>
@@ -695,6 +718,7 @@
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1acbb32e6611db85f063b1866777f5f5bf" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1acb7a931c6d7d33f164dedc2b98450a25" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1aacc5255ea51bd8cf00fd441ec94f8622" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1aee0d3f0232d57e4a412e0bf5a51544bf" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a5692c8949fd8cf8da11bff076b3bffa1" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1aed366933aa3103358b76878550973a6b" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>this[MR.ObjId i]</name></member>
       <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a1ab47c76c57719bd2d5123a4d689bf83" prot="public" virt="non-virtual"><scope>MR::Vector_MRVertBitSet_MRObjId</scope><name>vec</name></member>

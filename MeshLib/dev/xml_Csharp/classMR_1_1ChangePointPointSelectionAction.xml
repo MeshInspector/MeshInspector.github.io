@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangePointPointSelectionAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangePointPointSelectionAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangePointPointSelectionAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangePointPointSelectionAction" prot="public" virt="non-virtual">MR.Const_ChangePointPointSelectionAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangePointPointSelectionAction_1a2fd167b7cb0dddf2c9b8fe2ccea8e720" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangePointPointSelectionAction</name>
         <qualifiedname>MR.ChangePointPointSelectionAction.ChangePointPointSelectionAction</qualifiedname>
         <param>
-          <type>Const_ChangePointPointSelectionAction</type>
+          <type><ref refid="classMR_1_1Const__ChangePointPointSelectionAction" kindref="compound">Const_ChangePointPointSelectionAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangePointPointSelectionAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangePointPointSelectionAction</label>
+        <link refid="classMR_1_1Const__ChangePointPointSelectionAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangePointPointSelectionAction</label>
+        <link refid="classMR_1_1Const__ChangePointPointSelectionAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,8 +243,21 @@
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a6e1eb090c89cc58c840ff36bf2d5990f" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a0718ce9f5b94d452261563703efc9bf9" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1ac6213cfb91c60db7500639c5c77ca344" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>ChangePointPointSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a6039c9c01b9069f4bc610dc293a397cf" prot="package" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Const_ChangePointPointSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a63e9be0ea7edc86979050e8a423ceaff" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Const_ChangePointPointSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1ae47a5404cd107a1030d742e0d5b054db" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Const_ChangePointPointSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1ab4e33487458056188425c5b904640584" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Const_ChangePointPointSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a46df1e73e34c30acd981a51e60316f90" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Const_ChangePointPointSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a83172b757dbf08de2aa7a191a4ba4902" prot="protected" virt="virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a15ef1bb15bb4125781bb6135d52d644e" prot="public" virt="virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a033bac93f6f25360c95eadb680a4a64b" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a11bed8218da9740ef7838990e83c07c5" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a711b782118478924073acdeb5c5b5ee8" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>operator ChangePointPointSelectionAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a1b04b1f7861e709b9eda78e65c504310" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>operator Const_ChangePointPointSelectionAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a00d8ab4e6e416c0e2be35eee2a0609fa" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangePointPointSelectionAction_1a2fd167b7cb0dddf2c9b8fe2ccea8e720" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1aa64e81db2a445dbc54a444d1baec0ccc" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>selection</name></member>
+      <member refid="classMR_1_1Const__ChangePointPointSelectionAction_1a1ec10dcde46a8c0842affdbfc2ed21b4" prot="public" virt="non-virtual"><scope>MR::ChangePointPointSelectionAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

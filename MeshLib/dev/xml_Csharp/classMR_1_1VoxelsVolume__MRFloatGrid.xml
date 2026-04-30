@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolume__MRFloatGrid" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsVolume_MRFloatGrid</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelsVolume_MRFloatGrid</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid" prot="public" virt="non-virtual">MR.Const_VoxelsVolume_MRFloatGrid</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VoxelsVolume__MRFloatGrid_1a77a033829ec3eeca03c96570d2b98107" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
@@ -140,7 +140,7 @@
         <name>VoxelsVolume_MRFloatGrid</name>
         <qualifiedname>MR.VoxelsVolume_MRFloatGrid.VoxelsVolume_MRFloatGrid</qualifiedname>
         <param>
-          <type>Const_VoxelsVolume_MRFloatGrid</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid" kindref="compound">Const_VoxelsVolume_MRFloatGrid</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolume_MRFloatGrid</label>
+        <link refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,6 +219,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VoxelsVolume_MRFloatGrid</label>
         <link refid="classMR_1_1VoxelsVolume__MRFloatGrid"/>
@@ -226,9 +231,14 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolume_MRFloatGrid</label>
+        <link refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dims</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -240,9 +250,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3156" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3157" bodyend="3244"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af5a7525aa37e1d23306415f0fea25450" prot="protected" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>__ref_storage_dims</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ae221d730c71d32e0485d5912311f3011" prot="protected" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1VoxelsVolume__MRFloatGrid_1a3bb43f44960235cb340a41d5ecdfd813" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a3197101ce144138bbae9752e21257f2c" prot="package" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af72079228025a6bab21e46ab4543e925" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ad6d2017db53e6b81730b140189b95e23" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1acf702d3385dbf47ec581d1a3bfc3fe66" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1aac4499655b793e5e990aa3774bb07ba7" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a9fe9d966affaf4f539d43bdf595331d8" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
       <member refid="classMR_1_1VoxelsVolume__MRFloatGrid_1a77a033829ec3eeca03c96570d2b98107" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>data</name></member>
       <member refid="classMR_1_1VoxelsVolume__MRFloatGrid_1a8bf00afde8726207eb2204d8ceddda5d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a8f9100bbd3c7f8316551db3215fd89a0" prot="protected" virt="virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a0d1c5ef056088ae3b7886794dbe6b89e" prot="public" virt="virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af2f9818dbaba6447195e092b1be865bc" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1VoxelsVolume__MRFloatGrid_1ad850cbc6601aa32c956f52baec699362" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>voxelSize</name></member>
       <member refid="classMR_1_1VoxelsVolume__MRFloatGrid_1a0ceb578f47ce52fae8a067a8bdcb61c7" prot="package" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>VoxelsVolume_MRFloatGrid</name></member>
       <member refid="classMR_1_1VoxelsVolume__MRFloatGrid_1a9be548bc83bd384a0da8174d04a5c50e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume_MRFloatGrid</scope><name>VoxelsVolume_MRFloatGrid</name></member>

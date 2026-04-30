@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SelfIntersections_1_1Settings" kind="class" language="C#" prot="public">
     <compoundname>MR::SelfIntersections::Settings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.SelfIntersections.Const_Settings</basecompoundref>
+    <basecompoundref refid="classMR_1_1SelfIntersections_1_1Const__Settings" prot="public" virt="non-virtual">MR.SelfIntersections.Const_Settings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SelfIntersections_1_1Settings_1a6a7b75403982314efbe4f9e584d400d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="197" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="197" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SelfIntersections_1_1Settings_1aca027ac4e4873596c80ec488fe3bc2b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.SelfIntersections.Settings.Method</type>
+        <type>new unsafe ref <ref refid="classMR_1_1SelfIntersections_1_1Const__Settings_1a109b72fb8e0ab671e33192b933615329" kindref="member">MR.SelfIntersections.Settings.Method</ref></type>
         <definition>new unsafe ref MR.SelfIntersections.Settings.Method MR.SelfIntersections.Settings.method</definition>
         <argsstring></argsstring>
         <name>method</name>
@@ -160,7 +160,7 @@
           <declname>touchIsIntersection</declname>
         </param>
         <param>
-          <type>MR.SelfIntersections.Settings.Method</type>
+          <type><ref refid="classMR_1_1SelfIntersections_1_1Const__Settings_1a109b72fb8e0ab671e33192b933615329" kindref="member">MR.SelfIntersections.Settings.Method</ref></type>
           <declname>method</declname>
         </param>
         <param>
@@ -218,7 +218,7 @@
         <name>Settings</name>
         <qualifiedname>MR.SelfIntersections.Settings.Settings</qualifiedname>
         <param>
-          <type>Const_Settings</type>
+          <type><ref refid="classMR_1_1SelfIntersections_1_1Const__Settings" kindref="compound">Const_Settings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -286,6 +286,7 @@
       </node>
       <node id="2">
         <label>MR.SelfIntersections.Const_Settings</label>
+        <link refid="classMR_1_1SelfIntersections_1_1Const__Settings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -296,6 +297,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SelfIntersections.Settings</label>
         <link refid="classMR_1_1SelfIntersections_1_1Settings"/>
@@ -307,9 +312,13 @@
       </node>
       <node id="2">
         <label>MR.SelfIntersections.Const_Settings</label>
+        <link refid="classMR_1_1SelfIntersections_1_1Const__Settings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_method</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -318,9 +327,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="192" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="193" bodyend="307"/>
     <listofallmembers>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1a920ed38c92e5715ed9baa82931334b12" prot="protected" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>__ref_storage_maxExpand</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1a48e86885386a4cc8dc6018bd9064c8cf" prot="protected" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>__ref_storage_method</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1ac4f8f720b3ca2238a5bbfc8c555f399e" prot="protected" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>__ref_storage_mimicPatch</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1aa1a622830d90c31e854d975954d5db4f" prot="protected" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>__ref_storage_relaxIterations</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1afb3ae98d7886ab1b9deb236b679c8243" prot="protected" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>__ref_storage_subdivideEdgeLen</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1a51fc1148e2432efd812a734ca213c613" prot="protected" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>__ref_storage_touchIsIntersection</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1ab5d37ca0ef1d537761afc2ef1ff6541f" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>assign</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1aec99a28a17b6b1eb0dd0939ae2f96d60" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>callback</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1aa67a902dccc6325090c957c75316a1b1" prot="package" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1aa8ca564119d95d55ddb23b2c0e05c914" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1ab68000106a35cfb3cec434e43d5976bb" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1a03a9af6c03825d95afcbb0c28c2df4e7" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1ac96e39aa9031881b400d5a1d73f2676e" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1ad92866ae4692d66e0f265ff0aad4a3f8" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1abc05c43c695669ad16c849a3e408ef2c" prot="protected" virt="virtual"><scope>MR::SelfIntersections::Settings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1a6ce5ca76288f7b06c8b23e1b0acd283b" prot="public" virt="virtual"><scope>MR::SelfIntersections::Settings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1a3f1808353d0c3fb3fd149c5be4bb393b" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>maxExpand</name></member>
+      <member refid="classMR_1_1SelfIntersections_1_1Const__Settings_1a109b72fb8e0ab671e33192b933615329" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Method</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1aca027ac4e4873596c80ec488fe3bc2b9" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>method</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1ac257e2fb2a2cff1d12140c1ed50022fd" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>mimicPatch</name></member>
       <member refid="classMR_1_1SelfIntersections_1_1Settings_1ad7465e182463e34befdd374819b08e2c" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>relaxIterations</name></member>

@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PrecipitationSimulator::SimulationStep</compoundname>
+    <basecompoundref refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep" prot="public" virt="non-virtual">MR.Const_PrecipitationSimulator.Const_SimulationStep</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a588a5341adc3289ed0c6621139b8825b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1_1Const__PrecipitationSimulator_1a08f8d4a274289aaa24d9e3bc5e746e99" kindref="member">MR.PrecipitationSimulator.Event</ref></type>
+        <definition>new unsafe ref MR.PrecipitationSimulator.Event MR.Const_PrecipitationSimulator.SimulationStep.event_</definition>
+        <argsstring></argsstring>
+        <name>event_</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.event_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="214" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a24935fee1713fe991d245fcd28498416" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Const_PrecipitationSimulator.SimulationStep.amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.amount</qualifiedname>
+        <briefdescription>
+<para>amount of precipitation (in same units as mesh coordinates and water level) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="219" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a88ca055c3f44853158dd3249a9e58944" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>new unsafe ref MR.GraphVertId MR.Const_PrecipitationSimulator.SimulationStep.basin</definition>
+        <argsstring></argsstring>
+        <name>basin</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.basin</qualifiedname>
+        <briefdescription>
+<para>BasinFull: this basin just became full Merge: this basin just absorbed the other basin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="225" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a68b85d28e3a94ee3fa53606634dce6a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>new unsafe ref MR.GraphVertId MR.Const_PrecipitationSimulator.SimulationStep.neiBasin</definition>
+        <argsstring></argsstring>
+        <name>neiBasin</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.neiBasin</qualifiedname>
+        <briefdescription>
+<para>BasinFull: the flow from full basin will first go here (may be not the last destination) Merge: this basin was just absorbed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="231" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="231" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1adba5db40c1c088be5ababac5e25d0181" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SimulationStep</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="235" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="235" bodyend="239"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1afda7a6d2c2850e81748b3d9a43173548" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</definition>
+        <argsstring>()</argsstring>
+        <name>SimulationStep</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="245" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="245" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a090c3601ddadb57480a78d0cd1965ef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</definition>
+        <argsstring>(MR.PrecipitationSimulator.Event event_, float amount, MR.GraphVertId basin, MR.GraphVertId neiBasin)</argsstring>
+        <name>SimulationStep</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PrecipitationSimulator_1a08f8d4a274289aaa24d9e3bc5e746e99" kindref="member">MR.PrecipitationSimulator.Event</ref></type>
+          <declname>event_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>basin</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>neiBasin</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep" kindref="compound">MR.PrecipitationSimulator.SimulationStep</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="256" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="256" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a7f9bfa206a0509943f25bec6c2fa3d5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</definition>
+        <argsstring>(MR.PrecipitationSimulator.Const_SimulationStep _other)</argsstring>
+        <name>SimulationStep</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep" kindref="compound">MR.PrecipitationSimulator.Const_SimulationStep</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::PrecipitationSimulator::SimulationStep::SimulationStep</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="267" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="267" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a773a3c8f5b8049cb7265ca80046421ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</definition>
+        <argsstring>(SimulationStep _other)</argsstring>
+        <name>SimulationStep</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.SimulationStep</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep" kindref="compound">SimulationStep</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::PrecipitationSimulator::SimulationStep::SimulationStep</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="279" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="279" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a6f7889d37b06d9c72e260c53eb0ed2ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep" kindref="compound">MR.PrecipitationSimulator.SimulationStep</ref></type>
+        <definition>unsafe MR.PrecipitationSimulator.SimulationStep MR.Const_PrecipitationSimulator.SimulationStep.assign</definition>
+        <argsstring>(MR.PrecipitationSimulator.Const_SimulationStep _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_PrecipitationSimulator.SimulationStep.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep" kindref="compound">MR.PrecipitationSimulator.Const_SimulationStep</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::PrecipitationSimulator::SimulationStep::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="284" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="284" bodyend="291"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep" kindref="compound">MR.PrecipitationSimulator.SimulationStep</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PrecipitationSimulator.SimulationStep</label>
+        <link refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_PrecipitationSimulator.Const_SimulationStep</label>
+        <link refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_PrecipitationSimulator.SimulationStep</label>
+        <link refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_PrecipitationSimulator.Const_SimulationStep</label>
+        <link refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_basin</edgelabel>
+          <edgelabel>__ref_storage_event_</edgelabel>
+          <edgelabel>__ref_storage_neiBasin</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="212" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="213" bodyend="292"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1a4231b2f0cd4793429d7ba623b2d09147" prot="protected" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>__ref_storage_amount</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1abefc52c4b5b05226e0787c5abcf66bec" prot="protected" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>__ref_storage_basin</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1acdf3ba248ca4a4bf129a4f8922a1320d" prot="protected" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>__ref_storage_event_</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1a800d5d28d3683156ce0b7b7437b2eb72" prot="protected" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>__ref_storage_neiBasin</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a24935fee1713fe991d245fcd28498416" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>amount</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a6f7889d37b06d9c72e260c53eb0ed2ec" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a88ca055c3f44853158dd3249a9e58944" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>basin</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1aa88675c34bc260eee0ee0adc6cf410c2" prot="package" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>Const_SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1a205aeb68f2b4a342673abde5d2f3f11f" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>Const_SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1a2a0101d8d9991f5e1168af2d074bb09c" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>Const_SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1a65049628b07350ffc44195d112878044" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>Const_SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1ad0a106d7c5f6bad9dd31a314f9b1b82c" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>Const_SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1a62dfd89838cccc7306e25e1ba95b6d50" prot="protected" virt="virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1Const__SimulationStep_1aefbdc4f2fc7ca03af6ed2317e375b405" prot="public" virt="virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a588a5341adc3289ed0c6621139b8825b" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>event_</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a68b85d28e3a94ee3fa53606634dce6a0" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>neiBasin</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1adba5db40c1c088be5ababac5e25d0181" prot="package" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1afda7a6d2c2850e81748b3d9a43173548" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a090c3601ddadb57480a78d0cd1965ef9" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a7f9bfa206a0509943f25bec6c2fa3d5c" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>SimulationStep</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep_1a773a3c8f5b8049cb7265ca80046421ba" prot="public" virt="non-virtual"><scope>MR::Const_PrecipitationSimulator::SimulationStep</scope><name>SimulationStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

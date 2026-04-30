@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EnumNeihbourVertices" kind="class" language="C#" prot="public">
     <compoundname>MR::EnumNeihbourVertices</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EnumNeihbourVertices</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EnumNeihbourVertices" prot="public" virt="non-virtual">MR.Const_EnumNeihbourVertices</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1EnumNeihbourVertices_1aae29ff7ef0cb68c1fc6fab3538ea3353" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>EnumNeihbourVertices</name>
         <qualifiedname>MR.EnumNeihbourVertices.EnumNeihbourVertices</qualifiedname>
         <param>
-          <type>Const_EnumNeihbourVertices</type>
+          <type><ref refid="classMR_1_1Const__EnumNeihbourVertices" kindref="compound">Const_EnumNeihbourVertices</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -126,7 +126,7 @@
         <name>run</name>
         <qualifiedname>MR.EnumNeihbourVertices.run</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -164,11 +164,11 @@
         <name>run</name>
         <qualifiedname>MR.EnumNeihbourVertices.run</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>start</declname>
         </param>
         <param>
@@ -191,7 +191,7 @@
         <name>run</name>
         <qualifiedname>MR.EnumNeihbourVertices.run</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EnumNeihbourVertices</label>
+        <link refid="classMR_1_1Const__EnumNeihbourVertices"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EnumNeihbourVertices</label>
+        <link refid="classMR_1_1Const__EnumNeihbourVertices"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -262,6 +264,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnumNeighbours.cs" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnumNeighbours.cs" bodystart="64" bodyend="141"/>
     <listofallmembers>
       <member refid="classMR_1_1EnumNeihbourVertices_1a851e1076361fb8ec917add02ed772809" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourVertices_1a96074239f409449f9f24d5a8958fcc8c" prot="package" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>Const_EnumNeihbourVertices</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourVertices_1afff05828ee2f6263d11b320f8d0199a6" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>Const_EnumNeihbourVertices</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourVertices_1a999b6263d99cf06a86ba7c080ebe824c" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>Const_EnumNeihbourVertices</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourVertices_1ae9d26325666d26a0860f70b2e2487c68" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>Const_EnumNeihbourVertices</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourVertices_1a2b448a5762bff7a92fde5e8235797ab0" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>Const_EnumNeihbourVertices</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourVertices_1a052d302537293840c04b22dc93abedf8" prot="protected" virt="virtual"><scope>MR::EnumNeihbourVertices</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourVertices_1a23ce8ad75be1c15a5c8750aec9fa6c78" prot="public" virt="virtual"><scope>MR::EnumNeihbourVertices</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EnumNeihbourVertices_1aae29ff7ef0cb68c1fc6fab3538ea3353" prot="package" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>EnumNeihbourVertices</name></member>
       <member refid="classMR_1_1EnumNeihbourVertices_1a2fbccad24de8aa6adba0983ec987d2f3" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>EnumNeihbourVertices</name></member>
       <member refid="classMR_1_1EnumNeihbourVertices_1a37e1beab4fc2ea96620b1d0c4a2779a0" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>EnumNeihbourVertices</name></member>

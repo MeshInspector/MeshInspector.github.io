@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceDistancesSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceDistancesSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceDistancesSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FaceDistancesSettings" prot="public" virt="non-virtual">MR.Const_FaceDistancesSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FaceDistancesSettings_1a56c525691d6073b793ca78b36d2b7a35" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.FaceDistancesSettings.OutputFaceValues</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88ae" kindref="member">MR.FaceDistancesSettings.OutputFaceValues</ref></type>
         <definition>new unsafe ref MR.FaceDistancesSettings.OutputFaceValues MR.FaceDistancesSettings.out_</definition>
         <argsstring></argsstring>
         <name>out_</name>
@@ -96,7 +96,7 @@
         <name>FaceDistancesSettings</name>
         <qualifiedname>MR.FaceDistancesSettings.FaceDistancesSettings</qualifiedname>
         <param>
-          <type>MR.FaceDistancesSettings.OutputFaceValues</type>
+          <type><ref refid="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88ae" kindref="member">MR.FaceDistancesSettings.OutputFaceValues</ref></type>
           <declname>out_</declname>
         </param>
         <param>
@@ -142,7 +142,7 @@
         <name>FaceDistancesSettings</name>
         <qualifiedname>MR.FaceDistancesSettings.FaceDistancesSettings</qualifiedname>
         <param>
-          <type>Const_FaceDistancesSettings</type>
+          <type><ref refid="classMR_1_1Const__FaceDistancesSettings" kindref="compound">Const_FaceDistancesSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -207,6 +207,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceDistancesSettings</label>
+        <link refid="classMR_1_1Const__FaceDistancesSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FaceDistancesSettings</label>
         <link refid="classMR_1_1FaceDistancesSettings"/>
@@ -228,9 +233,13 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceDistancesSettings</label>
+        <link refid="classMR_1_1Const__FaceDistancesSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_out_</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -242,7 +251,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="150" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="151" bodyend="256"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a46466f10a622ef9b9bf95a8759687b3f" prot="protected" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>__ptr_storage_maxDist</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1af88a1d97089b03c74c6aa8f3fdfc7bd3" prot="protected" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>__ref_storage_out_</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a4432ed7f82b1aeabf03a300484de12dc" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1aa6525d01768577f0586b44d04749ee73" prot="package" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a70118b01621bb2f0edbb9d12b9d37a3b" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1aeb51db8609f906c44f46b24113ab00c3" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1af93d1bc60b64437a10ca414972f7bd9a" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a184b436931b7fc781b33703ea8fa49d6" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1ac0d5651c40f9c6792d39beb94f1088ac" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a62a3c2adee148ae295f55c8c3f71c98b" prot="protected" virt="virtual"><scope>MR::FaceDistancesSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a94ce7a480cb62317da10b3894325c9f5" prot="public" virt="virtual"><scope>MR::FaceDistancesSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a8d1f05ac08f2df06957f58602be3eced" prot="package" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1acdf5a30120f3135ef32e5971a88630e2" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1ad2f2774aee9bb7b22139adfc389c8ac7" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
@@ -251,6 +270,7 @@
       <member refid="classMR_1_1FaceDistancesSettings_1a99bf1a5a726ff8cae98616b686a9b58d" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>FaceDistancesSettings</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a25d0db10c99903c8c3b4381820bed608" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>maxDist</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a56c525691d6073b793ca78b36d2b7a35" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>out_</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88ae" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>OutputFaceValues</name></member>
       <member refid="classMR_1_1FaceDistancesSettings_1a10655db51c0721652b4d91fe30ff8ec3" prot="public" virt="non-virtual"><scope>MR::FaceDistancesSettings</scope><name>progress</name></member>
     </listofallmembers>
   </compounddef>

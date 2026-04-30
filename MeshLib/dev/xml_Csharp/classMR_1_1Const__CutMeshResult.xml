@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__CutMeshResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_CutMeshResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1CutMeshResult" prot="public" virt="non-virtual">MR.CutMeshResult</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__CutMeshResult_1a49e5b0124634b1a23614053384ed995e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_StdVectorMREdgeId</type>
+        <definition>unsafe MR.Std.Const_Vector_StdVectorMREdgeId MR.Const_CutMeshResult.resultCut</definition>
+        <argsstring></argsstring>
+        <name>resultCut</name>
+        <qualifiedname>MR.Const_CutMeshResult.resultCut</qualifiedname>
+        <briefdescription>
+<para>Paths of new edges on mesh, they represent same contours as input, but already cut. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="649" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="649" bodyend="649"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CutMeshResult_1a5fc79654027775cbb94c63bbf16bbdde" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
+        <definition>unsafe MR.Const_FaceBitSet MR.Const_CutMeshResult.fbsWithContourIntersections</definition>
+        <argsstring></argsstring>
+        <name>fbsWithContourIntersections</name>
+        <qualifiedname>MR.Const_CutMeshResult.fbsWithContourIntersections</qualifiedname>
+        <briefdescription>
+<para>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classMR_1_1CutMeshParameters" kindref="compound">MR.CutMeshParameters</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="655" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="655" bodyend="655"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1a7713039ddce780e13ecc94a8cad43313" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_CutMeshResult.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CutMeshResult.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="634" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="634" bodyend="642"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1ab96968f5ec905c405b70060840ed2279" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_CutMeshResult.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CutMeshResult.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="643" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="643" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1aaa93dafb2654f07ba175eaae9aeba3b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CutMeshResult.Const_CutMeshResult</definition>
+        <argsstring>()</argsstring>
+        <name>Const_CutMeshResult</name>
+        <qualifiedname>MR.Const_CutMeshResult.Const_CutMeshResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="690" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="690" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1a867497b886fff610d17eaeec9b881c86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CutMeshResult.Const_CutMeshResult</definition>
+        <argsstring>(MR.Std._ByValue_Vector_StdVectorMREdgeId resultCut, MR._ByValue_FaceBitSet fbsWithContourIntersections)</argsstring>
+        <name>Const_CutMeshResult</name>
+        <qualifiedname>MR.Const_CutMeshResult.Const_CutMeshResult</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Vector_StdVectorMREdgeId</type>
+          <declname>resultCut</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_FaceBitSet</type>
+          <declname>fbsWithContourIntersections</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CutMeshResult" kindref="compound">MR.CutMeshResult</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="701" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="701" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1a950e49edc5dea0d58f1db0d2499dc370" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CutMeshResult.Const_CutMeshResult</definition>
+        <argsstring>(MR._ByValue_CutMeshResult _other)</argsstring>
+        <name>Const_CutMeshResult</name>
+        <qualifiedname>MR.Const_CutMeshResult.Const_CutMeshResult</qualifiedname>
+        <param>
+          <type>MR._ByValue_CutMeshResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutMeshResult_1acae9c44ec086cbebbcaa452218a97fac" kindref="member">MR.CutMeshResult.CutMeshResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="714" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="714" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1ab1c7148a945ba888759fbd86d6ea2c20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CutMeshResult.Const_CutMeshResult</definition>
+        <argsstring>(Const_CutMeshResult _other)</argsstring>
+        <name>Const_CutMeshResult</name>
+        <qualifiedname>MR.Const_CutMeshResult.Const_CutMeshResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__CutMeshResult" kindref="compound">Const_CutMeshResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutMeshResult_1acae9c44ec086cbebbcaa452218a97fac" kindref="member">MR.CutMeshResult.CutMeshResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="726" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="726" bodyend="726"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1a2003c93d8d10e6dc85448c83b3c5b2a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CutMeshResult.Const_CutMeshResult</definition>
+        <argsstring>(CutMeshResult _other)</argsstring>
+        <name>Const_CutMeshResult</name>
+        <qualifiedname>MR.Const_CutMeshResult.Const_CutMeshResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CutMeshResult" kindref="compound">CutMeshResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutMeshResult_1acae9c44ec086cbebbcaa452218a97fac" kindref="member">MR.CutMeshResult.CutMeshResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="731" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="731" bodyend="731"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1a8cfdc425af5fb4d3f7c425e54a977f72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CutMeshResult.~Const_CutMeshResult</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_CutMeshResult</name>
+        <qualifiedname>MR.Const_CutMeshResult.~Const_CutMeshResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="644" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="644" bodyend="644"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutMeshResult_1ab671161619ca4f3025f727788f91c850" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CutMeshResult.Const_CutMeshResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_CutMeshResult</name>
+        <qualifiedname>MR.Const_CutMeshResult.Const_CutMeshResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="679" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="679" bodyend="684"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_CutMeshResult</label>
+        <link refid="classMR_1_1Const__CutMeshResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.CutMeshResult</label>
+        <link refid="classMR_1_1CutMeshResult"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_CutMeshResult</label>
+        <link refid="classMR_1_1Const__CutMeshResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="628" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="629" bodyend="732"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__CutMeshResult_1ab671161619ca4f3025f727788f91c850" prot="package" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1aaa93dafb2654f07ba175eaae9aeba3b1" prot="public" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a867497b886fff610d17eaeec9b881c86" prot="public" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a950e49edc5dea0d58f1db0d2499dc370" prot="public" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1ab1c7148a945ba888759fbd86d6ea2c20" prot="public" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a2003c93d8d10e6dc85448c83b3c5b2a6" prot="public" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a7713039ddce780e13ecc94a8cad43313" prot="protected" virt="virtual"><scope>MR::Const_CutMeshResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1ab96968f5ec905c405b70060840ed2279" prot="public" virt="virtual"><scope>MR::Const_CutMeshResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a5fc79654027775cbb94c63bbf16bbdde" prot="public" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>fbsWithContourIntersections</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a49e5b0124634b1a23614053384ed995e" prot="public" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>resultCut</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a8cfdc425af5fb4d3f7c425e54a977f72" prot="private" virt="non-virtual"><scope>MR::Const_CutMeshResult</scope><name>~Const_CutMeshResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

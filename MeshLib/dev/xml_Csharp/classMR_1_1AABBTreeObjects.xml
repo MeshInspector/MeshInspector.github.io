@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeObjects" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeObjects</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeObjects</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreeObjects" prot="public" virt="non-virtual">MR.Const_AABBTreeObjects</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1AABBTreeObjects_1acb62742816b075bbb0ef3d654cd3aec2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -89,7 +89,7 @@
         <name>AABBTreeObjects</name>
         <qualifiedname>MR.AABBTreeObjects.AABBTreeObjects</qualifiedname>
         <param>
-          <type>Const_AABBTreeObjects</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeObjects" kindref="compound">Const_AABBTreeObjects</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -192,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeObjects</label>
+        <link refid="classMR_1_1Const__AABBTreeObjects"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -213,6 +214,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeObjects</label>
+        <link refid="classMR_1_1Const__AABBTreeObjects"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -234,8 +236,31 @@
       <member refid="classMR_1_1AABBTreeObjects_1a444fc30a5cc0eed436dfbcd2ce9c2f40" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
       <member refid="classMR_1_1AABBTreeObjects_1a40730c8a19fb0935164ff183590914bb" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>AABBTreeObjects</name></member>
       <member refid="classMR_1_1AABBTreeObjects_1a841878254302821b9a30e59650f080c3" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1adc8b5a2b7731efb4558ecc641666db78" prot="package" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Const_AABBTreeObjects</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a5c07d05ba8b8279124a9ad744c453a97" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Const_AABBTreeObjects</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a92699ff68cbb08b121ef33b25c0fff2c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Const_AABBTreeObjects</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a82b43cb7682b33aa2339682d1a0e8fef" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Const_AABBTreeObjects</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a12ed486cae78263f1585f53f19502a47" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Const_AABBTreeObjects</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a7a728318b3cbb213ff936f39787bee2c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>Const_AABBTreeObjects</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1ad8f45f63a271c2b08412008df60d1f7d" prot="protected" virt="virtual"><scope>MR::AABBTreeObjects</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a333b4ee616743525d06f6c150545550e" prot="public" virt="virtual"><scope>MR::AABBTreeObjects</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a49569bf859750101957215fa3e224620" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a94385e49334062c59c5ee2605653fac4" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getLeafOrder</name></member>
       <member refid="classMR_1_1AABBTreeObjects_1a5d3c677440b4b0fd7c6a03f7e81e4c62" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a87ba0cf6ef9c650011312f668798a577" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1ab8e734a390e981f511eec8812ab339d8" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a944d0f24ff5ad07d707731dc707f06aa" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>getSubtrees</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1ab1f8c65283c12ac824034ce8a8e948de" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a104bf2bc1964b7cfa2a944d9ba99566b" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>nodes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1ad5193720dbdd89845cf60f600be11939" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1ac515ec4ab4af05cfab7d35809449dcde" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>obj</name></member>
       <member refid="classMR_1_1AABBTreeObjects_1acb62742816b075bbb0ef3d654cd3aec2" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>operator MR.AABBTreeBase_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1a6c142e25cd0139048dd5e504bd20738c" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>operator MR.Const_AABBTreeBase_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1adc8d2fe59b62529293d24d61a3811136" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1ac585e16cbdac4630e345526fe9c0a639" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>this[MR.NodeId nid]</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1ae797e01dddb74671e2a6a4934d6435cf" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toLocal</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1af62a4b2efac4b11b8a3d879bca9c166b" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toLocal</name></member>
+      <member refid="classMR_1_1Const__AABBTreeObjects_1ac0cb3db4c9618b41ecd7cc6fe7db34b9" prot="public" virt="non-virtual"><scope>MR::AABBTreeObjects</scope><name>toWorld</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

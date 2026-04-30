@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty" prot="public" virt="non-virtual">MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1a03439034a7e2a6f4b178414e039b29a2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>EdgePathsBuilderT_MRMetricToAStarPenalty</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRMetricToAStarPenalty.EdgePathsBuilderT_MRMetricToAStarPenalty</qualifiedname>
         <param>
-          <type>Const_EdgePathsBuilderT_MRMetricToAStarPenalty</type>
+          <type><ref refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty" kindref="compound">Const_EdgePathsBuilderT_MRMetricToAStarPenalty</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,7 +92,7 @@
         <name>EdgePathsBuilderT_MRMetricToAStarPenalty</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRMetricToAStarPenalty.EdgePathsBuilderT_MRMetricToAStarPenalty</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -115,7 +115,7 @@
         <name>EdgePathsBuilderT_MRMetricToAStarPenalty</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRMetricToAStarPenalty.EdgePathsBuilderT_MRMetricToAStarPenalty</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -170,7 +170,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1227" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1227" bodyend="1232"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1acedf3b9d46b7c13f2a219ab9ab0997ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</type>
+        <type>unsafe <ref refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert" kindref="compound">MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</ref></type>
         <definition>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert MR.EdgePathsBuilderT_MRMetricToAStarPenalty.reachNext</definition>
         <argsstring>()</argsstring>
         <name>reachNext</name>
@@ -191,7 +191,7 @@
         <name>addOrgRingSteps</name>
         <qualifiedname>MR.EdgePathsBuilderT_MRMetricToAStarPenalty.addOrgRingSteps</qualifiedname>
         <param>
-          <type>MR.EdgePathsBuilderT_MRMetricToAStarPenalty.Const_ReachedVert</type>
+          <type><ref refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1Const__ReachedVert" kindref="compound">MR.EdgePathsBuilderT_MRMetricToAStarPenalty.Const_ReachedVert</ref></type>
           <declname>rv</declname>
         </param>
         <briefdescription>
@@ -204,7 +204,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1251" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1251" bodyend="1256"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1ac02d9cfb9f66800720ac3c9155449121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</type>
+        <type>unsafe <ref refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert" kindref="compound">MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</ref></type>
         <definition>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert MR.EdgePathsBuilderT_MRMetricToAStarPenalty.growOneEdge</definition>
         <argsstring>()</argsstring>
         <name>growOneEdge</name>
@@ -233,6 +233,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty</label>
+        <link refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -254,6 +255,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty</label>
+        <link refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -270,15 +272,29 @@
     <listofallmembers>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1aa2a769d356ed64b22e389717de184910" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>addOrgRingSteps</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1ac2919dc1c059e17b665b411e17df3ecf" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>addStart</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a22db34141555b5ea346fa0cf2013eed4" prot="package" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>Const_EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a8f102619988de05bf74e006b5b0198e6" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>Const_EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1ad6d14ef88bd19db6f05d3040bfa7276b" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>Const_EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1abdd18c7dc92b7e586b7bc886c75592b5" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>Const_EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a254d0dcbd42b61f3f1b98057c350b7b3" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>Const_EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a084501c0a9365f45f33d3b89861a0650" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>Const_EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a81922472cd9225def2926ea9825d8868" prot="protected" virt="virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1aceb5040caaca6ac09e4d29512868f6cf" prot="public" virt="virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a50f437d6997e29556fdd38106ce08097" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>done</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a233b28f8aae3b1e886714abd8686a700" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>doneDistance</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1a03439034a7e2a6f4b178414e039b29a2" prot="package" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1a77b75d46e539971e4b2c551f9084eadd" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1addaf1ab05d8b0e4fca09ea07ea4a213f" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1a42e68bad3ce457a9b1ece2c2fa7bc031" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1afc9ba8796eeb1ca7d3e2a74c69c99a9e" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1a0f7672b51dc66680769419d1a449d653" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a54e02adb25d5c16698864f97b0f3c8bb" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>getPathBack</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1aaf6a010d10ba3c43aff99e03dcece285" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>getVertInfo</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1ac02d9cfb9f66800720ac3c9155449121" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>growOneEdge</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1acedf3b9d46b7c13f2a219ab9ab0997ee" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>reachNext</name></member>
       <member refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty_1a86428dc7b560f0f0a7bcbe93518fc262" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>reset</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1a79092debf6cc436bdf68cf3a9469515c" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>trackPathBack</name></member>
+      <member refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1afa54041713018310d38d6a851333969c" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT_MRMetricToAStarPenalty</scope><name>vertPathInfoMap</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

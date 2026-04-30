@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChunkIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::ChunkIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChunkIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChunkIterator" prot="public" virt="non-virtual">MR.Const_ChunkIterator</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ChunkIterator_1aa7e21148dbd722c500936a6ddf1a52a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -139,7 +139,7 @@
         <name>ChunkIterator</name>
         <qualifiedname>MR.ChunkIterator.ChunkIterator</qualifiedname>
         <param>
-          <type>MR.Const_ChunkIterator</type>
+          <type><ref refid="classMR_1_1Const__ChunkIterator" kindref="compound">MR.Const_ChunkIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -177,7 +177,7 @@
         <name>assign</name>
         <qualifiedname>MR.ChunkIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_ChunkIterator</type>
+          <type><ref refid="classMR_1_1Const__ChunkIterator" kindref="compound">MR.Const_ChunkIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -219,6 +219,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChunkIterator</label>
+        <link refid="classMR_1_1Const__ChunkIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -245,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChunkIterator</label>
+        <link refid="classMR_1_1Const__ChunkIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -264,6 +266,11 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="406" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="407" bodyend="485"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ChunkIterator_1ae99f908b773219994af86f75ba84bd40" prot="protected" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>__ref_storage_chunkSize</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a0211c02ff419c576b0d9efee65f28ea9" prot="protected" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>__ref_storage_index</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1ae994fc96f2eb1038aadd9ff4eafa16af" prot="protected" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>__ref_storage_overlap</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a714a30f6e4855db83b2cb105081b57ab" prot="protected" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>__ref_storage_totalSize</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1af5ab053f17c184a9b1c865a17900ed84" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>arrow</name></member>
       <member refid="classMR_1_1ChunkIterator_1a61c979c805ab76bfe37b0f3927d6131d" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>assign</name></member>
       <member refid="classMR_1_1ChunkIterator_1adafc51006181bd3c04ee7a16b1134a68" prot="package" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>ChunkIterator</name></member>
       <member refid="classMR_1_1ChunkIterator_1ae7fa96872f7fa07d76b702d8932a51ce" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>ChunkIterator</name></member>
@@ -271,8 +278,21 @@
       <member refid="classMR_1_1ChunkIterator_1a09b88432d8c951555b556c60d6773fbc" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>ChunkIterator</name></member>
       <member refid="classMR_1_1ChunkIterator_1a0e78dcb7eeb8852cc2e209e795484080" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>ChunkIterator</name></member>
       <member refid="classMR_1_1ChunkIterator_1ad27d5e9b8c7acf0fada2d38591d7acec" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>chunkSize</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1af3cf28c924cc59e4db5fff0a6cc32696" prot="package" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>Const_ChunkIterator</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a18022416f81baf8f4d7fbb3de0a9c545" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>Const_ChunkIterator</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a8cfd437ecd24a1aa932bc48381cdcccb" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>Const_ChunkIterator</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a2f3ceb490bbf5d8d59844c38bdd1bbf2" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>Const_ChunkIterator</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1aff2f6f6a3c4549f35c5f5baca0534409" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>Const_ChunkIterator</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a10d785571cdf1fe4c03877f5e76f62c8" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a69b733646699e322c36a45a70ef98a52" prot="protected" virt="virtual"><scope>MR::ChunkIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1aad2244bd49cdefb63db9d4b46d3dda7e" prot="public" virt="virtual"><scope>MR::ChunkIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1afa6e5b664cd7111f011421a9b5d5e4c9" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a6df158c22cd9149d3df3652625369f6e" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1ChunkIterator_1a9b0ebb1e4af602f9bcf2c695e430cabb" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>incr</name></member>
       <member refid="classMR_1_1ChunkIterator_1ae0d569bae906ddfdabd4096f64d79f79" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>index</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a0443d12f802af224e2c23813131ffce4" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1a3b34b38104b4606a9806639038b2a704" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__ChunkIterator_1ac758bdb2fe5dcbbb8384c5cc2763f032" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator==</name></member>
       <member refid="classMR_1_1ChunkIterator_1a10c7ca60dcb510a6b3a393c704625199" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>overlap</name></member>
       <member refid="classMR_1_1ChunkIterator_1aa7e21148dbd722c500936a6ddf1a52a4" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>totalSize</name></member>
     </listofallmembers>

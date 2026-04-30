@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoCtor__MRUndirectedEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoCtor_MRUndirectedEdgeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoCtor_MRUndirectedEdgeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId" prot="public" virt="non-virtual">MR.Const_NoCtor_MRUndirectedEdgeId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NoCtor__MRUndirectedEdgeId_1a2647b6e190cde065511212adce543665" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>NoCtor_MRUndirectedEdgeId</name>
         <qualifiedname>MR.NoCtor_MRUndirectedEdgeId.NoCtor_MRUndirectedEdgeId</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRUndirectedEdgeId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId" kindref="compound">MR.Const_NoCtor_MRUndirectedEdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.NoCtor_MRUndirectedEdgeId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRUndirectedEdgeId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId" kindref="compound">MR.Const_NoCtor_MRUndirectedEdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12818" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12819" bodyend="12859"/>
     <listofallmembers>
       <member refid="classMR_1_1NoCtor__MRUndirectedEdgeId_1ae72a9ca9c658c31e3010c5c5942528e5" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1acfed5648d0978c2606e676b7219f69b8" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>Const_NoCtor_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a843ced10291b73918da3460705661806" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>Const_NoCtor_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a7f57cda222c4fe05db009a9c4879ce0b" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>Const_NoCtor_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1acbd8160c116d080d417645bd2e7d4559" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>Const_NoCtor_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a5032a534e5c21f0fff8a1223c0eae06a" prot="protected" virt="virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a000dbb5cc7d4a8f75b403a365869b248" prot="public" virt="virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NoCtor__MRUndirectedEdgeId_1a2647b6e190cde065511212adce543665" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>NoCtor_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1NoCtor__MRUndirectedEdgeId_1ad073298649f1d6101b357954119bc031" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>NoCtor_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1NoCtor__MRUndirectedEdgeId_1ac8bb104554f3b3d899a8fcb826421cb4" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRUndirectedEdgeId</scope><name>NoCtor_MRUndirectedEdgeId</name></member>

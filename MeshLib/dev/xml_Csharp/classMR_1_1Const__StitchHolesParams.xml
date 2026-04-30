@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__StitchHolesParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_StitchHolesParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1StitchHolesParams" prot="public" virt="non-virtual">MR.StitchHolesParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__StitchHolesParams_1a38b751689babfffe2176231306c94c86" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__FillHoleMetric" kindref="compound">MR.Const_FillHoleMetric</ref></type>
+        <definition>unsafe MR.Const_FillHoleMetric MR.Const_StitchHolesParams.metric</definition>
+        <argsstring></argsstring>
+        <name>metric</name>
+        <qualifiedname>MR.Const_StitchHolesParams.metric</qualifiedname>
+        <briefdescription>
+<para>Specifies triangulation metric<linebreak/>
+default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="member">MR.stitchHoles</ref>: getComplexStitchMetric. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="470" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="470" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__StitchHolesParams_1a7dc64fec0781683ddd8d5d3719670fb6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>unsafe MR.? FaceBitSet MR.Const_StitchHolesParams.outNewFaces</definition>
+        <argsstring></argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>MR.Const_StitchHolesParams.outNewFaces</qualifiedname>
+        <briefdescription>
+<para>If not nullptr accumulate new faces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="475" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="476" bodyend="487"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__StitchHolesParams_1a12998ee912b7f907a79da986d54beb2e" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.FaceBitSet._Underlying** MR.Const_StitchHolesParams.__ptr_storage_outNewFaces</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outNewFaces</name>
+        <qualifiedname>MR.Const_StitchHolesParams.__ptr_storage_outNewFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="488" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="488" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1aa88d549c61e76cbc64cfa50d7e01174e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_StitchHolesParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_StitchHolesParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="453" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="453" bodyend="461"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1a9baf2beb151c6e8e307b9122e54349f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_StitchHolesParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_StitchHolesParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="462" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="462" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1a994aa68d5db97d21d51a79b64e725a30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_StitchHolesParams.Const_StitchHolesParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_StitchHolesParams</name>
+        <qualifiedname>MR.Const_StitchHolesParams.Const_StitchHolesParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="522" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="522" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1a0374bc6d31d0dca45350b65de930af3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_StitchHolesParams.Const_StitchHolesParams</definition>
+        <argsstring>(MR._ByValue_FillHoleMetric metric, MR.FaceBitSet? outNewFaces)</argsstring>
+        <name>Const_StitchHolesParams</name>
+        <qualifiedname>MR.Const_StitchHolesParams.Const_StitchHolesParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_FillHoleMetric</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>outNewFaces</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1StitchHolesParams" kindref="compound">MR.StitchHolesParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="533" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="533" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1a870ccc4389d5f39894a1268a0cfccbc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_StitchHolesParams.Const_StitchHolesParams</definition>
+        <argsstring>(MR._ByValue_StitchHolesParams _other)</argsstring>
+        <name>Const_StitchHolesParams</name>
+        <qualifiedname>MR.Const_StitchHolesParams.Const_StitchHolesParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_StitchHolesParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesParams_1a36ad238a8454e764bbf01e954eb5e176" kindref="member">MR.StitchHolesParams.StitchHolesParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="546" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="546" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1a893f6474fd1c13bbb12c82886cda8950" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_StitchHolesParams.Const_StitchHolesParams</definition>
+        <argsstring>(Const_StitchHolesParams _other)</argsstring>
+        <name>Const_StitchHolesParams</name>
+        <qualifiedname>MR.Const_StitchHolesParams.Const_StitchHolesParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__StitchHolesParams" kindref="compound">Const_StitchHolesParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesParams_1a36ad238a8454e764bbf01e954eb5e176" kindref="member">MR.StitchHolesParams.StitchHolesParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="558" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="558" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1a6ec3d8a02ffb2f5860c89b089557bd94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_StitchHolesParams.Const_StitchHolesParams</definition>
+        <argsstring>(StitchHolesParams _other)</argsstring>
+        <name>Const_StitchHolesParams</name>
+        <qualifiedname>MR.Const_StitchHolesParams.Const_StitchHolesParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1StitchHolesParams_1a36ad238a8454e764bbf01e954eb5e176" kindref="member">MR.StitchHolesParams.StitchHolesParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="563" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="563" bodyend="563"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1aff6c5096a891c739851c09f64a5c78f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_StitchHolesParams.~Const_StitchHolesParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_StitchHolesParams</name>
+        <qualifiedname>MR.Const_StitchHolesParams.~Const_StitchHolesParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="463" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="463" bodyend="463"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesParams_1a63def955f8abc48f169783af915d3066" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_StitchHolesParams.Const_StitchHolesParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_StitchHolesParams</name>
+        <qualifiedname>MR.Const_StitchHolesParams.Const_StitchHolesParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="511" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="511" bodyend="516"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_StitchHolesParams</label>
+        <link refid="classMR_1_1Const__StitchHolesParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.StitchHolesParams</label>
+        <link refid="classMR_1_1StitchHolesParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_StitchHolesParams</label>
+        <link refid="classMR_1_1Const__StitchHolesParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_outNewFaces</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="447" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="448" bodyend="564"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a12998ee912b7f907a79da986d54beb2e" prot="protected" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>__ptr_storage_outNewFaces</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a63def955f8abc48f169783af915d3066" prot="package" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a994aa68d5db97d21d51a79b64e725a30" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a0374bc6d31d0dca45350b65de930af3c" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a870ccc4389d5f39894a1268a0cfccbc5" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a893f6474fd1c13bbb12c82886cda8950" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a6ec3d8a02ffb2f5860c89b089557bd94" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1aa88d549c61e76cbc64cfa50d7e01174e" prot="protected" virt="virtual"><scope>MR::Const_StitchHolesParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a9baf2beb151c6e8e307b9122e54349f0" prot="public" virt="virtual"><scope>MR::Const_StitchHolesParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a38b751689babfffe2176231306c94c86" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>metric</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a7dc64fec0781683ddd8d5d3719670fb6" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>outNewFaces</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1aff6c5096a891c739851c09f64a5c78f5" prot="private" virt="non-virtual"><scope>MR::Const_StitchHolesParams</scope><name>~Const_StitchHolesParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

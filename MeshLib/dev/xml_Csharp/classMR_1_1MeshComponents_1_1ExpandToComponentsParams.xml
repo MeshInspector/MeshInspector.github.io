@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshComponents_1_1ExpandToComponentsParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshComponents::ExpandToComponentsParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshComponents.Const_ExpandToComponentsParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams" prot="public" virt="non-virtual">MR.MeshComponents.Const_ExpandToComponentsParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshComponents_1_1ExpandToComponentsParams_1a926f4d5ef9485241dea6cef1fe6e83dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -34,7 +34,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="200" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshComponents_1_1ExpandToComponentsParams_1a141b125c938a5af83d0e3531a4bf73c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_UndirectedEdgeBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">Const_UndirectedEdgeBitSet</ref></type>
         <definition>new unsafe MR.? Const_UndirectedEdgeBitSet MR.MeshComponents.ExpandToComponentsParams.isCompBd</definition>
         <argsstring></argsstring>
         <name>isCompBd</name>
@@ -133,7 +133,7 @@
           <declname>incidence</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
         </param>
         <param>
@@ -179,7 +179,7 @@
         <name>ExpandToComponentsParams</name>
         <qualifiedname>MR.MeshComponents.ExpandToComponentsParams.ExpandToComponentsParams</qualifiedname>
         <param>
-          <type>Const_ExpandToComponentsParams</type>
+          <type><ref refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams" kindref="compound">Const_ExpandToComponentsParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -244,6 +244,7 @@
       </node>
       <node id="2">
         <label>MR.MeshComponents.Const_ExpandToComponentsParams</label>
+        <link refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -257,6 +258,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshComponents.ExpandToComponentsParams</label>
         <link refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams"/>
@@ -265,9 +270,14 @@
       </node>
       <node id="2">
         <label>MR.MeshComponents.Const_ExpandToComponentsParams</label>
+        <link refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_isCompBd</edgelabel>
+          <edgelabel>__ref_storage_incidence</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -279,9 +289,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="191" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="192" bodyend="317"/>
     <listofallmembers>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1a046614fde98cbc67d695524accb1b72e" prot="protected" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>__ptr_storage_isCompBd</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1a75e06e1f1bbde75ef068742a7874822b" prot="protected" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>__ptr_storage_optOutNumComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1aeb8b3fd2fd7cab54e333bc640dc63d86" prot="protected" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>__ref_storage_coverRatio</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1aa92fd9fd42cb622f17781e20cd6fe44f" prot="protected" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>__ref_storage_incidence</name></member>
       <member refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams_1ae2146020509013217c0f1ebd437b8d88" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams_1a841a57ca27b4ca2cab5d1ba0de5239bd" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1a66354d240bb29d778588b39bf83702cb" prot="package" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>Const_ExpandToComponentsParams</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1a1137f5b8ad8c72cd9b842e26f6fb693b" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>Const_ExpandToComponentsParams</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1ae16cd89006667ea3f3dafd1a506043e8" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>Const_ExpandToComponentsParams</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1a6d53f5bca33c7c1e081bfd1e6182f804" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>Const_ExpandToComponentsParams</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1aa2e5a3a871338a4b6520a5cca2907b7d" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>Const_ExpandToComponentsParams</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1a48696f22017846df3b3927afe9a1cfe0" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>Const_ExpandToComponentsParams</name></member>
       <member refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams_1a926f4d5ef9485241dea6cef1fe6e83dd" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>coverRatio</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1a8a6f2489ad10d9aeba4025b0dc26a618" prot="protected" virt="virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams_1acd569260458184a9dc985d096324ccb9" prot="public" virt="virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams_1a25099614abaf8c4aeecdcd4b4c30b1c1" prot="package" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>ExpandToComponentsParams</name></member>
       <member refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams_1a4fe1e32c6a807f03369ee0b25846ecd3" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>ExpandToComponentsParams</name></member>
       <member refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams_1aa38cc6d75b41fb3c79699779debf5da2" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ExpandToComponentsParams</scope><name>ExpandToComponentsParams</name></member>

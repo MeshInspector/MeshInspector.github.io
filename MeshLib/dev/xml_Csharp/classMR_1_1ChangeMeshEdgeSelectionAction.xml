@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshEdgeSelectionAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshEdgeSelectionAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshEdgeSelectionAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction" prot="public" virt="non-virtual">MR.Const_ChangeMeshEdgeSelectionAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1a315351c36ce4c550ca72315d2bf480e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeMeshEdgeSelectionAction</name>
         <qualifiedname>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</qualifiedname>
         <param>
-          <type>Const_ChangeMeshEdgeSelectionAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction" kindref="compound">Const_ChangeMeshEdgeSelectionAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeMeshEdgeSelectionAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshEdgeSelectionAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshEdgeSelectionAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,22 @@
       <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1af7bcc388743a21c455c0964fcf8b5938" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
       <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1aa0bb5906ca1b68967070e775e56c07a3" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
       <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a6be252d80add207c53552fc2ecb4bf1f" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a0f62a162fca374f70fb14eac8d7afa71" prot="package" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>Const_ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a6416eca775c54b6090cf1294b73147b7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>Const_ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1ada3ce53055851d5af4c94cd97369e184" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>Const_ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1aacf060ccaa0503fec85b353392a4c0e7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>Const_ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a579a64aa95aeddc6d37f967e8f42622b" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>Const_ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a5ad8a10256d1e131009f36773c0c36eb" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>Const_ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a30fc9d6b1d261c2698cce14d02bfecc0" prot="protected" virt="virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1ae10436467cb503abbb7715080d82c7bc" prot="public" virt="virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a8d71ce298d1f56a9b29d7f1e07169256" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a71073ae178c762c8007c7dd9fd8d0750" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a618b701faba0c6dfe02f8e101cc16da2" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>operator ChangeMeshEdgeSelectionAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1aac4f47ae3586eb0a7b0904c8a8ced364" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>operator Const_ChangeMeshEdgeSelectionAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a5c85922c88362c145a01920414f98d57" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a315351c36ce4c550ca72315d2bf480e0" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1ad5cf4c7b54725229c1b95f1b6490ff14" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>selection</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshEdgeSelectionAction_1a02cf25eaa07d6d3ae2c87bb9b85efe5d" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

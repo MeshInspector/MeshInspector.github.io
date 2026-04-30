@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Pdf" kind="class" language="C#" prot="public">
     <compoundname>MR::Pdf</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Pdf</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Pdf" prot="public" virt="non-virtual">MR.Const_Pdf</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Pdf_1ae4ff0069affbf578e21e736f94878fe4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>Pdf</name>
         <qualifiedname>MR.Pdf.Pdf</qualifiedname>
         <param>
-          <type>MR.Const_PdfParameters?</type>
+          <type><ref refid="classMR_1_1Const__PdfParameters" kindref="compound">MR.Const_PdfParameters</ref>?</type>
           <declname>params_</declname>
           <defval>null</defval>
         </param>
@@ -121,7 +121,7 @@
           <declname>text</declname>
         </param>
         <param>
-          <type>MR.Pdf.Const_TextParams</type>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__TextParams" kindref="compound">MR.Pdf.Const_TextParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -144,7 +144,7 @@
           <declname>text</declname>
         </param>
         <param>
-          <type>MR.Pdf.Const_TextParams</type>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__TextParams" kindref="compound">MR.Pdf.Const_TextParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -205,7 +205,7 @@
           <declname>imagePath</declname>
         </param>
         <param>
-          <type>MR.Pdf.Const_ImageParams</type>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__ImageParams" kindref="compound">MR.Pdf.Const_ImageParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -224,11 +224,11 @@
         <name>addImage</name>
         <qualifiedname>MR.Pdf.addImage</qualifiedname>
         <param>
-          <type>MR.Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref></type>
           <declname>image</declname>
         </param>
         <param>
-          <type>MR.Pdf.Const_ImageParams</type>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__ImageParams" kindref="compound">MR.Pdf.Const_ImageParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -479,7 +479,7 @@
           <declname>rect</declname>
         </param>
         <param>
-          <type>MR.Pdf.Const_TextParams</type>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__TextParams" kindref="compound">MR.Pdf.Const_TextParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -502,7 +502,7 @@
           <declname>text</declname>
         </param>
         <param>
-          <type>MR.Pdf.Const_TextCellParams</type>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__TextCellParams" kindref="compound">MR.Pdf.Const_TextCellParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -550,7 +550,7 @@
         <name>operator Pdf</name>
         <qualifiedname>MR.Pdf.operator Pdf</qualifiedname>
         <param>
-          <type>MR.Const_PdfParameters?</type>
+          <type><ref refid="classMR_1_1Const__PdfParameters" kindref="compound">MR.Const_PdfParameters</ref>?</type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -577,6 +577,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Pdf</label>
+        <link refid="classMR_1_1Const__Pdf"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -598,6 +599,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Pdf</label>
+        <link refid="classMR_1_1Const__Pdf"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -620,14 +622,26 @@
       <member refid="classMR_1_1Pdf_1ae680de1d38dd6f0141a9b34618841d3d" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTableTitles</name></member>
       <member refid="classMR_1_1Pdf_1a6d388008158fb5091b6bea938a4af4dc" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
       <member refid="classMR_1_1Pdf_1a0e55d08257fc54de21002b38fef87f57" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>AlignmentHorizontal</name></member>
       <member refid="classMR_1_1Pdf_1a30cd1126694beefcfc9027481c111963" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a1f205c51d7dc9da67c26534fa83f7958" prot="package" virt="non-virtual"><scope>MR::Pdf</scope><name>Const_Pdf</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a1c733870ba0b4004639bf78ceb9e1b1f" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Const_Pdf</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a0b09390d4b8e6df3d1774ec52121d277" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Const_Pdf</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a37345050908d0f9420d201e3114c6529" prot="protected" virt="virtual"><scope>MR::Pdf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a8a0eb5e48708bd91f436c669eee4af34" prot="public" virt="virtual"><scope>MR::Pdf</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Pdf_1afecf91141f31312b5f3cfccbe066506e" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawRect</name></member>
       <member refid="classMR_1_1Pdf_1a99a915764e302676099d57196383d025" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextCell</name></member>
       <member refid="classMR_1_1Pdf_1adb91f52efb4d8ab4c12121541b81ab5c" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextInRect</name></member>
+      <member refid="classMR_1_1Const__Pdf_1aab9988c0d6fb8fcd11b76b2c0d7c3bfb" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getCursorPosX</name></member>
+      <member refid="classMR_1_1Const__Pdf_1ab489baaf72cdac119c55754c1e977113" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getCursorPosY</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a125814d3ce7c85a727d51bfb104d34eb" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getPageSize</name></member>
+      <member refid="classMR_1_1Const__Pdf_1af3f61b12e819ffc1402206393f6455a4" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getPageWorkArea</name></member>
       <member refid="classMR_1_1Pdf_1a29aff82df6a9dd81c9b1a01c29f69fb0" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTableTextWidth</name></member>
       <member refid="classMR_1_1Pdf_1a61f1c8f403e455399795e7fc82a1505d" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTextWidth</name></member>
       <member refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newPage</name></member>
       <member refid="classMR_1_1Pdf_1aa38099f7c803af1342913d11211e4dd6" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newTable</name></member>
+      <member refid="classMR_1_1Const__Pdf_1ac92c0be514d96de9cbcb3ab334105253" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__Pdf_1ac325b3aad4860d982b0148704b19a448" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator Const_Pdf</name></member>
       <member refid="classMR_1_1Pdf_1ac1fd2992167532033fb3f9daf6c8dc5a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator Pdf</name></member>
       <member refid="classMR_1_1Pdf_1ae4ff0069affbf578e21e736f94878fe4" prot="package" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
       <member refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>

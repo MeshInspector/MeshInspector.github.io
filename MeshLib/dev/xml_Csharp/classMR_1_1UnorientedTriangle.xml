@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UnorientedTriangle" kind="class" language="C#" prot="public">
     <compoundname>MR::UnorientedTriangle</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UnorientedTriangle</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UnorientedTriangle" prot="public" virt="non-virtual">MR.Const_UnorientedTriangle</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1UnorientedTriangle_1a4d081de8de31711413d251b036dce7ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref MR.Std.Array_MRVertId_3</type>
@@ -66,7 +66,7 @@
         <name>UnorientedTriangle</name>
         <qualifiedname>MR.UnorientedTriangle.UnorientedTriangle</qualifiedname>
         <param>
-          <type>MR.Const_UnorientedTriangle</type>
+          <type><ref refid="classMR_1_1Const__UnorientedTriangle" kindref="compound">MR.Const_UnorientedTriangle</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.UnorientedTriangle.assign</qualifiedname>
         <param>
-          <type>MR.Const_UnorientedTriangle</type>
+          <type><ref refid="classMR_1_1Const__UnorientedTriangle" kindref="compound">MR.Const_UnorientedTriangle</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -191,6 +191,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UnorientedTriangle</label>
+        <link refid="classMR_1_1Const__UnorientedTriangle"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -209,6 +210,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.UnorientedTriangle</label>
         <link refid="classMR_1_1UnorientedTriangle"/>
@@ -217,11 +222,15 @@
       </node>
       <node id="2">
         <label>MR.Const_UnorientedTriangle</label>
+        <link refid="classMR_1_1Const__UnorientedTriangle"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_verts</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -236,9 +245,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="164" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="165" bodyend="249"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1ac394588593aeb0371d9089d5c1cf5429" prot="protected" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>__ref_storage_verts</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1a7b3efe15b67dcb2eed41e8d87784e0a6" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1a9ef33e672028545be6a88cbdd5349c52" prot="package" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>Const_UnorientedTriangle</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1a2c7f97fd3b529075b252cc84029b9683" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>Const_UnorientedTriangle</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1a19daa467c6f8b9b156b4d5e5dd257bd5" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>Const_UnorientedTriangle</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1aaa10dcd2d0d25050729b4e44419fc89c" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>Const_UnorientedTriangle</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1a02f6485d839e0ad81e280ed44d19d697" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>convertTo_ConstStd_Array_MRVertId_3Ref</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1a14b2b2728a4ae7574f0ae205adffd5cd" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>convertTo_Std_Array_MRVertId_3Ref</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1afbc9d0eab91ce60c085e5647977942fa" prot="protected" virt="virtual"><scope>MR::UnorientedTriangle</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1aa84c67f4edbd0c45384165ed979b2606" prot="public" virt="virtual"><scope>MR::UnorientedTriangle</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1af68eda2bd2e72f5d08b0d197ced0f21f" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1a3d3daf951b549c2b32dee27fff3b1c27" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1a42a6223d3e7b4f7357a9f27c889097af" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>getFlipped</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1a311f1f87be08a2023d303c4c69397c53" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator Const_UnorientedTriangle</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1aeed58daed0b5191760e8196821155bf8" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator UnorientedTriangle</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1a5e00aed89d23cb18cf01eb5e77361312" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__UnorientedTriangle_1adb66d32d1e6a0c4d387ca59ed7e86cdb" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator==</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1a6f3cd5a63e3662d2ce6acc55c96d5c66" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>this[ulong i]</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1a8852b595c8174ed911e29ac95c382f70" prot="package" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>
       <member refid="classMR_1_1UnorientedTriangle_1a176fa8ba1591d178ae6b5ab3c495cd31" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>

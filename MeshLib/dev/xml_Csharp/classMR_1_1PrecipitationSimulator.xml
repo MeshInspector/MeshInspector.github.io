@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PrecipitationSimulator" kind="class" language="C#" prot="public">
     <compoundname>MR::PrecipitationSimulator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PrecipitationSimulator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PrecipitationSimulator" prot="public" virt="non-virtual">MR.Const_PrecipitationSimulator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1PrecipitationSimulator_1ae70480e410f62aec6c85efae58417fdf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>PrecipitationSimulator</name>
         <qualifiedname>MR.PrecipitationSimulator.PrecipitationSimulator</qualifiedname>
         <param>
-          <type>Const_PrecipitationSimulator</type>
+          <type><ref refid="classMR_1_1Const__PrecipitationSimulator" kindref="compound">Const_PrecipitationSimulator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -105,7 +105,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="363" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="363" bodyend="369"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PrecipitationSimulator_1a7fab81fcf8d79e7ae034ffeafd0afe39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.PrecipitationSimulator.SimulationStep</type>
+        <type>unsafe <ref refid="classMR_1_1Const__PrecipitationSimulator_1_1SimulationStep" kindref="compound">MR.PrecipitationSimulator.SimulationStep</ref></type>
         <definition>unsafe MR.PrecipitationSimulator.SimulationStep MR.PrecipitationSimulator.simulateOne</definition>
         <argsstring>()</argsstring>
         <name>simulateOne</name>
@@ -155,6 +155,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PrecipitationSimulator</label>
+        <link refid="classMR_1_1Const__PrecipitationSimulator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -176,6 +177,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PrecipitationSimulator</label>
+        <link refid="classMR_1_1Const__PrecipitationSimulator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -190,6 +192,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" line="334" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecipitationSimulator.cs" bodystart="335" bodyend="387"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1afd0eea2842c793e73ebdd94f97eca1d9" prot="package" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Const_PrecipitationSimulator</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1a71501bee671dcc2b0ce0b41adecb6401" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Const_PrecipitationSimulator</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1accd37993a434e60eda6bd23f6ab8f63b" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Const_PrecipitationSimulator</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1a96ce50216a2fa0208846d79c5aaf7d48" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Const_PrecipitationSimulator</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1ac8e94eeb41d4a54fa6e898df2fe43400" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Const_PrecipitationSimulator</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1ad498f93fe6c6c0cdea7505ce1e9c8aa2" prot="protected" virt="virtual"><scope>MR::PrecipitationSimulator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1a6303945008c9b7d4f6ad1864b890a727" prot="public" virt="virtual"><scope>MR::PrecipitationSimulator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1a08f8d4a274289aaa24d9e3bc5e746e99" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>Event</name></member>
+      <member refid="classMR_1_1Const__PrecipitationSimulator_1a135ae15eb398a287529677c063350113" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>operator Const_PrecipitationSimulator</name></member>
       <member refid="classMR_1_1PrecipitationSimulator_1aa3f2a9459ab5b6adc5ed641963e81d6b" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>operator PrecipitationSimulator</name></member>
       <member refid="classMR_1_1PrecipitationSimulator_1ae70480e410f62aec6c85efae58417fdf" prot="package" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>PrecipitationSimulator</name></member>
       <member refid="classMR_1_1PrecipitationSimulator_1a24b065f2e8be893101a63a3a21ddda6c" prot="public" virt="non-virtual"><scope>MR::PrecipitationSimulator</scope><name>PrecipitationSimulator</name></member>

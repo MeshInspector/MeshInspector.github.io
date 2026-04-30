@@ -1,0 +1,1365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VisualObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VisualObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VisualObject" prot="public" virt="non-virtual">MR.VisualObject</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a3078f81c09d54fb07ae1ed75ea8f00fc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VisualObject.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VisualObject.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="813" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="813" bodyend="821"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a3a691bed6d74f01539a4d620686410c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VisualObject.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VisualObject.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="822" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="822" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a80de5f875eb09883bcb7c6f8af10537e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VisualObject.Const_VisualObject</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VisualObject</name>
+        <qualifiedname>MR.Const_VisualObject.Const_VisualObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="860" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="860" bodyend="865"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a6495a5e93babd1e733e3740eaec25d88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VisualObject.Const_VisualObject</definition>
+        <argsstring>(MR._ByValue_VisualObject _other)</argsstring>
+        <name>Const_VisualObject</name>
+        <qualifiedname>MR.Const_VisualObject.Const_VisualObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_VisualObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VisualObject_1a1a2947d0fc7d25c529942b8219766825" kindref="member">MR.VisualObject.VisualObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="870" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="870" bodyend="876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a2b3ab1cfed3eb57a6782d005d9cd98af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_VisualObject.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_VisualObject.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a2b3ab1cfed3eb57a6782d005d9cd98af" kindref="member">MR.VisualObject.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="892" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="892" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a1d3a708ded0c52d13bc58920ae474857" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_VisualObject.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_VisualObject.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a1d3a708ded0c52d13bc58920ae474857" kindref="member">MR.VisualObject.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="914" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="914" bodyend="919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ababab9303c0a975ddd33baf78ab43864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_VisualObject.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_VisualObject.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ababab9303c0a975ddd33baf78ab43864" kindref="member">MR.VisualObject.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="935" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="935" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a72e1d7bd375e3bb75a677862ef77386d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_VisualObject.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this class supports the property <computeroutput>type</computeroutput>. Otherwise passing it to the functions below is illegal. Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a72e1d7bd375e3bb75a677862ef77386d" kindref="member">MR.VisualObject.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="946" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="946" bodyend="951"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1af8db0105f7af9f6dbd0ab7b038e2ea83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_VisualObject.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1af8db0105f7af9f6dbd0ab7b038e2ea83" kindref="member">MR.VisualObject.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="957" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="957" bodyend="962"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a15f545516eec449cbb9572e818335498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_VisualObject.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_VisualObject.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a15f545516eec449cbb9572e818335498" kindref="member">MR.VisualObject.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="968" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="968" bodyend="973"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ad0f43a8225769d169e491d417e45987e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_VisualObject.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_VisualObject.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>get all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ad0f43a8225769d169e491d417e45987e" kindref="member">MR.VisualObject.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="979" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="979" bodyend="984"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1aa9a8776e02c87173651698a3308ba786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_VisualObject.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_VisualObject.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1aa9a8776e02c87173651698a3308ba786" kindref="member">MR.VisualObject.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="990" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="990" bodyend="995"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ac04dfa138ac6f8e2e2781aef2304ef06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_VisualObject.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ac04dfa138ac6f8e2e2781aef2304ef06" kindref="member">MR.VisualObject.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1002" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1002" bodyend="1007"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a741b8a1f883ff4a29969dda15faccc45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.showName</definition>
+        <argsstring>()</argsstring>
+        <name>showName</name>
+        <qualifiedname>MR.Const_VisualObject.showName</qualifiedname>
+        <briefdescription>
+<para>returns whether object name is shown in any viewport Generated from method <computeroutput><ref refid="classMR_1_1VisualObject_1ab3b359ea98ccd8a06da89430ff6c7b9c" kindref="member">MR.VisualObject.showName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1013" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1013" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ad7937c64c194805ed82d3a26ea868f6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_VisualObject.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_VisualObject.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ad7937c64c194805ed82d3a26ea868f6d" kindref="member">MR.VisualObject.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1026" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1026" bodyend="1032"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1af6035d6769e6136c772eb6d14c97c5ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_VisualObject.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_VisualObject.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1af6035d6769e6136c772eb6d14c97c5ac" kindref="member">MR.VisualObject.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1039" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1039" bodyend="1045"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a25b863896555bba77513a3ecf5edfcae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_VisualObject.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_VisualObject.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a25b863896555bba77513a3ecf5edfcae" kindref="member">MR.VisualObject.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1051" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1051" bodyend="1056"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a5619cebf853898931dec28a12cec2ffb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_VisualObject.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_VisualObject.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a5619cebf853898931dec28a12cec2ffb" kindref="member">MR.VisualObject.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1063" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1063" bodyend="1068"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ad24917cfb888e00fc0ffef3914bddee0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_VisualObject.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_VisualObject.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ad24917cfb888e00fc0ffef3914bddee0" kindref="member">MR.VisualObject.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1075" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1075" bodyend="1080"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a1b6dc701ca5d7f4d2b29878293bb6e70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_VisualObject.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_VisualObject.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a1b6dc701ca5d7f4d2b29878293bb6e70" kindref="member">MR.VisualObject.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1086" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1086" bodyend="1091"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ade87f11647286f493c960f9712e19b56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_VisualObject.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_VisualObject.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ade87f11647286f493c960f9712e19b56" kindref="member">MR.VisualObject.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1097" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1097" bodyend="1102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a4fad371794fef31c6a644558a5ce25cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_VisualObject.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_VisualObject.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a4fad371794fef31c6a644558a5ce25cc" kindref="member">MR.VisualObject.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1108" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1108" bodyend="1113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a907a49f6528bf9c99f83f73a6d73249b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_VisualObject.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_VisualObject.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a907a49f6528bf9c99f83f73a6d73249b" kindref="member">MR.VisualObject.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1119" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1119" bodyend="1124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a1134dc38472dce07df6f0d604a7f705e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_VisualObject.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_VisualObject.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a1134dc38472dce07df6f0d604a7f705e" kindref="member">MR.VisualObject.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1130" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1130" bodyend="1135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1af927382b763217cac2fa5900f91f38e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_VisualObject.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_VisualObject.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns bounding box of this object in given viewport in world coordinates, to get world bounding box of the object with all child objects, please call <ref refid="classMR_1_1Const__Object_1adec896d2f7f19300a966a810c5ff0eb3" kindref="member">Object.getWorldTreeBox</ref> method Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1af927382b763217cac2fa5900f91f38e2" kindref="member">MR.VisualObject.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1143" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1143" bodyend="1148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a943bab19a088ee3e2a315d41bebcf227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_VisualObject.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a943bab19a088ee3e2a315d41bebcf227" kindref="member">MR.VisualObject.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1154" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1154" bodyend="1159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ac4ed939e579f02f6b45e706cd4aee702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_VisualObject.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ac4ed939e579f02f6b45e706cd4aee702" kindref="member">MR.VisualObject.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1166" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1166" bodyend="1171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ac12f680624e33d4900f33ef0ac6fd03d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_VisualObject.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_VisualObject.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ac12f680624e33d4900f33ef0ac6fd03d" kindref="member">MR.VisualObject.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1177" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1177" bodyend="1182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a946d4ddaa865fbcf5636fcacfcaa66c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_VisualObject.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_VisualObject.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a946d4ddaa865fbcf5636fcacfcaa66c7" kindref="member">MR.VisualObject.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1188" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1188" bodyend="1193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1abf971e19749294f3d447c2732eeb2357" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_VisualObject.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_VisualObject.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1abf971e19749294f3d447c2732eeb2357" kindref="member">MR.VisualObject.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1199" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1199" bodyend="1204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a4f1cd300ec0a46c2610bcc10d0364a25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_VisualObject.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_VisualObject.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a4f1cd300ec0a46c2610bcc10d0364a25" kindref="member">MR.VisualObject.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1210" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1210" bodyend="1215"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1affc78eeb71e85a226fe83b837823e90b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_VisualObject.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_VisualObject.clone</qualifiedname>
+        <briefdescription>
+<para>clones this object only, without its children, making new object the owner of all copied resources Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1affc78eeb71e85a226fe83b837823e90b" kindref="member">MR.VisualObject.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1222" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1222" bodyend="1227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1aee4d40a46474f2ab5ee43f057bb3e9a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_VisualObject.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_VisualObject.shallowClone</qualifiedname>
+        <briefdescription>
+<para>clones this object only, without its children, making new object to share resources with this object Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1aee4d40a46474f2ab5ee43f057bb3e9a3" kindref="member">MR.VisualObject.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1234" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1234" bodyend="1239"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a3d8f6fed354d52463b2f88c1aa4e5972" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_VisualObject.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a3d8f6fed354d52463b2f88c1aa4e5972" kindref="member">MR.VisualObject.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1246" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1246" bodyend="1251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a361e8de814d43e1b7124ad2e1c1e8915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_VisualObject.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_VisualObject.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a361e8de814d43e1b7124ad2e1c1e8915" kindref="member">MR.VisualObject.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1257" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1257" bodyend="1262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1aa91b9ade4a3d82671b4ea0127af47b7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_VisualObject.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_VisualObject.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1aa91b9ade4a3d82671b4ea0127af47b7d" kindref="member">MR.VisualObject.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1268" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1268" bodyend="1273"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a7ed33a0d78575bc7ca757b90bc85c674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VisualObject.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_VisualObject.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a7ed33a0d78575bc7ca757b90bc85c674" kindref="member">MR.VisualObject.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1279" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1279" bodyend="1284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a2c27b627a364030c3c2e60ef9e21742e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_VisualObject.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_VisualObject.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>return several info lines that can better describe the object in the UI Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a2c27b627a364030c3c2e60ef9e21742e" kindref="member">MR.VisualObject.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1290" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1290" bodyend="1295"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a31f128bfc1d81cff66ce7a04f74bbeec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_VisualObject.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a31f128bfc1d81cff66ce7a04f74bbeec" kindref="member">MR.VisualObject.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1302" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1302" bodyend="1307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a3b7a256689fa766d0d9feaa150ba8b1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_VisualObject.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_VisualObject.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a3b7a256689fa766d0d9feaa150ba8b1a" kindref="member">MR.VisualObject.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1312" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1312" bodyend="1317"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a3656c8a54a1ca416ab2d3fd42e348d6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_VisualObject.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_VisualObject.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__VisualObject_1a3656c8a54a1ca416ab2d3fd42e348d6b" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a3656c8a54a1ca416ab2d3fd42e348d6b" kindref="member">MR.VisualObject.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1325" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1325" bodyend="1333"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a8b8b71a21bf0cecb93715815ce9f381e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_VisualObject.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_VisualObject.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a8b8b71a21bf0cecb93715815ce9f381e" kindref="member">MR.VisualObject.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1339" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1339" bodyend="1344"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a0dd034ce2ce18abaf5d6ec6201b1c7cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_VisualObject.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_VisualObject.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__VisualObject_1a0dd034ce2ce18abaf5d6ec6201b1c7cb" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a0dd034ce2ce18abaf5d6ec6201b1c7cb" kindref="member">MR.VisualObject.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1352" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1352" bodyend="1360"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a43760fdf44cbd9b12b5a4da57d3820f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_VisualObject.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_VisualObject.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a43760fdf44cbd9b12b5a4da57d3820f7" kindref="member">MR.VisualObject.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1366" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1366" bodyend="1371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ad856dd6cbc7bdfba8a3c112a0cdeb827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_VisualObject.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ad856dd6cbc7bdfba8a3c112a0cdeb827" kindref="member">MR.VisualObject.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1378" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1378" bodyend="1383"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1aca5adc3b504ce156575de4915901a3a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_VisualObject.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1aca5adc3b504ce156575de4915901a3a4" kindref="member">MR.VisualObject.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1389" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1389" bodyend="1394"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a1d714dc4b0d7ca6c3feb47a5c8a23f60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_VisualObject.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a1d714dc4b0d7ca6c3feb47a5c8a23f60" kindref="member">MR.VisualObject.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1401" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1401" bodyend="1406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a31a0aede27878020445c6ff3f120d0df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_VisualObject.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a31a0aede27878020445c6ff3f120d0df" kindref="member">MR.VisualObject.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1412" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1412" bodyend="1417"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ae6fe9ff0c6560f9a04b73095685a749f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_VisualObject.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ae6fe9ff0c6560f9a04b73095685a749f" kindref="member">MR.VisualObject.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1422" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1422" bodyend="1427"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a5d404ef5ea9e15aca3aa1adb05c78c0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_VisualObject.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a5d404ef5ea9e15aca3aa1adb05c78c0c" kindref="member">MR.VisualObject.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1432" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1432" bodyend="1437"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1af2b73f89aadaab36af30ab797e437eed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_VisualObject.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1af2b73f89aadaab36af30ab797e437eed" kindref="member">MR.VisualObject.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1443" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1443" bodyend="1448"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a6fd85d72257c7d236cd7fdff430fc286" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_VisualObject.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a6fd85d72257c7d236cd7fdff430fc286" kindref="member">MR.VisualObject.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1455" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1455" bodyend="1460"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a78b315ae5abe47b6cf8b07199eba2481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_VisualObject.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_VisualObject.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a78b315ae5abe47b6cf8b07199eba2481" kindref="member">MR.VisualObject.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1466" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1466" bodyend="1471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a138a8f11030b22a44d9722e8137cc5f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_VisualObject.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_VisualObject.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a138a8f11030b22a44d9722e8137cc5f4" kindref="member">MR.VisualObject.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1476" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1476" bodyend="1481"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a72f5446e9a54305ec6bbaa78f7ea2ea5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_VisualObject.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_VisualObject.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a72f5446e9a54305ec6bbaa78f7ea2ea5" kindref="member">MR.VisualObject.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1487" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1487" bodyend="1492"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ac45f181a2090e936945214e74895a30c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_VisualObject.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_VisualObject.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ac45f181a2090e936945214e74895a30c" kindref="member">MR.VisualObject.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1499" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1499" bodyend="1504"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a102fbd6770cd3d72214f4722a244a39f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_VisualObject.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_VisualObject.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a102fbd6770cd3d72214f4722a244a39f" kindref="member">MR.VisualObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1512" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1512" bodyend="1517"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a7d9da07bcfd6f877dfb30e2e361072cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_VisualObject.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a7d9da07bcfd6f877dfb30e2e361072cc" kindref="member">MR.VisualObject.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1523" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1523" bodyend="1528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1abf2cd2141e843d369d19470e880823b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_VisualObject.hasModel</qualifiedname>
+        <briefdescription>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1abf2cd2141e843d369d19470e880823b7" kindref="member">MR.VisualObject.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1535" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1535" bodyend="1540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1abfcafa4b7ba67781df1a3a66f8b7485d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_VisualObject.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_VisualObject.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1abfcafa4b7ba67781df1a3a66f8b7485d" kindref="member">MR.VisualObject.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1547" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1547" bodyend="1552"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ac4925ad7492445cd46449f7125e2626f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VisualObject.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_VisualObject.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1ac4925ad7492445cd46449f7125e2626f" kindref="member">MR.VisualObject.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1558" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1558" bodyend="1563"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a8243c49f7f5982b596be09ff7a8d5dc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VisualObject.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_VisualObject.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a8243c49f7f5982b596be09ff7a8d5dc1" kindref="member">MR.VisualObject.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1569" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1569" bodyend="1574"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a3230148c347e2944cb7ed87b1224a6df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_VisualObject.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_VisualObject.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VisualObject_1a3230148c347e2944cb7ed87b1224a6df" kindref="member">MR.VisualObject.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="1581" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="1581" bodyend="1586"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a7641c0d80a2f3be341613d229c9bfc2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VisualObject.~Const_VisualObject</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VisualObject</name>
+        <qualifiedname>MR.Const_VisualObject.~Const_VisualObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="823" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="823" bodyend="823"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a744f8a8bca988105187c98891920dc18" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_VisualObject.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_VisualObject self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_VisualObject.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">Const_VisualObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="826" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="826" bodyend="833"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ab38460237d74e30dbe253333e1c1f62e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_VisualObject.operator MR.Const_Object</definition>
+        <argsstring>(Const_VisualObject self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_VisualObject.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">Const_VisualObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="834" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="834" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a78f3107d1b213de5a067f79cee4e1fa2" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_VisualObject.operator Const_VisualObject?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_VisualObject?</name>
+        <qualifiedname>MR.Const_VisualObject.operator Const_VisualObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="844" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="844" bodyend="853"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1ad76547aba8f10f12dc02b4b3556b466f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_VisualObject.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_VisualObject.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VisualObject::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="881" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="881" bodyend="887"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1afc402927ffc51ac84d23936fd3ebfb72" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_VisualObject.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_VisualObject.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VisualObject::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="903" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="903" bodyend="909"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1a82737fa006cbef7f2b033541eae54cb9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_VisualObject.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_VisualObject.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VisualObject::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="924" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="924" bodyend="930"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VisualObject_1aa024ffae411b5ceffcea8427effb84a9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VisualObject.Const_VisualObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VisualObject</name>
+        <qualifiedname>MR.Const_VisualObject.Const_VisualObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="855" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="855" bodyend="855"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Visual <ref refid="classMR_1_1Object" kindref="compound">Object</ref> Generated from class <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLabel" kindref="compound">MR.ObjectLabel</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref></computeroutput> Indirect: (non-virtual) <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&amp;gt;</computeroutput> <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&amp;gt;</computeroutput> <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;</computeroutput> <computeroutput><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">MR.AngleMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1CircleObject" kindref="compound">MR.CircleObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ConeObject" kindref="compound">MR.ConeObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1CylinderObject" kindref="compound">MR.CylinderObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">MR.DistanceMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1LineObject" kindref="compound">MR.LineObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectGcode" kindref="compound">MR.ObjectGcode</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PlaneObject" kindref="compound">MR.PlaneObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">MR.PointMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointObject" kindref="compound">MR.PointObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">MR.RadiusMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1SphereObject" kindref="compound">MR.SphereObject</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VisualObject</label>
+        <link refid="classMR_1_1Const__VisualObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_VisualObject</label>
+        <link refid="classMR_1_1Const__VisualObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="807" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="808" bodyend="1587"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VisualObject_1a1d3a708ded0c52d13bc58920ae474857" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ababab9303c0a975ddd33baf78ab43864" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1affc78eeb71e85a226fe83b837823e90b" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a72f5446e9a54305ec6bbaa78f7ea2ea5" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1aa024ffae411b5ceffcea8427effb84a9" prot="package" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a80de5f875eb09883bcb7c6f8af10537e" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a6495a5e93babd1e733e3740eaec25d88" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a3078f81c09d54fb07ae1ed75ea8f00fc" prot="protected" virt="virtual"><scope>MR::Const_VisualObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a3a691bed6d74f01539a4d620686410c2" prot="public" virt="virtual"><scope>MR::Const_VisualObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ad0f43a8225769d169e491d417e45987e" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a4f1cd300ec0a46c2610bcc10d0364a25" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a5619cebf853898931dec28a12cec2ffb" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a25b863896555bba77513a3ecf5edfcae" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a1134dc38472dce07df6f0d604a7f705e" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ac12f680624e33d4900f33ef0ac6fd03d" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ade87f11647286f493c960f9712e19b56" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ad7937c64c194805ed82d3a26ea868f6d" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1af6035d6769e6136c772eb6d14c97c5ac" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ad24917cfb888e00fc0ffef3914bddee0" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a1b6dc701ca5d7f4d2b29878293bb6e70" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a2c27b627a364030c3c2e60ef9e21742e" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a8243c49f7f5982b596be09ff7a8d5dc1" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a943bab19a088ee3e2a315d41bebcf227" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a3230148c347e2944cb7ed87b1224a6df" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a946d4ddaa865fbcf5636fcacfcaa66c7" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1abf971e19749294f3d447c2732eeb2357" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1af8db0105f7af9f6dbd0ab7b038e2ea83" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a15f545516eec449cbb9572e818335498" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1af927382b763217cac2fa5900f91f38e2" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a102fbd6770cd3d72214f4722a244a39f" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ac04dfa138ac6f8e2e2781aef2304ef06" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1aa9a8776e02c87173651698a3308ba786" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ad856dd6cbc7bdfba8a3c112a0cdeb827" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a43760fdf44cbd9b12b5a4da57d3820f7" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1abf2cd2141e843d369d19470e880823b7" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a7d9da07bcfd6f877dfb30e2e361072cc" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a7ed33a0d78575bc7ca757b90bc85c674" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a31a0aede27878020445c6ff3f120d0df" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a5d404ef5ea9e15aca3aa1adb05c78c0c" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1af2b73f89aadaab36af30ab797e437eed" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1aca5adc3b504ce156575de4915901a3a4" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a1d714dc4b0d7ca6c3feb47a5c8a23f60" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ac4ed939e579f02f6b45e706cd4aee702" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ae6fe9ff0c6560f9a04b73095685a749f" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a6fd85d72257c7d236cd7fdff430fc286" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a3b7a256689fa766d0d9feaa150ba8b1a" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a78f3107d1b213de5a067f79cee4e1fa2" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>operator Const_VisualObject?</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ab38460237d74e30dbe253333e1c1f62e" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a744f8a8bca988105187c98891920dc18" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a3d8f6fed354d52463b2f88c1aa4e5972" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a361e8de814d43e1b7124ad2e1c1e8915" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1aa91b9ade4a3d82671b4ea0127af47b7d" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a4fad371794fef31c6a644558a5ce25cc" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a907a49f6528bf9c99f83f73a6d73249b" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a138a8f11030b22a44d9722e8137cc5f4" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ac4925ad7492445cd46449f7125e2626f" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1aee4d40a46474f2ab5ee43f057bb3e9a3" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ac45f181a2090e936945214e74895a30c" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a741b8a1f883ff4a29969dda15faccc45" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>showName</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1afc402927ffc51ac84d23936fd3ebfb72" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a82737fa006cbef7f2b033541eae54cb9" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1ad76547aba8f10f12dc02b4b3556b466f" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a72e1d7bd375e3bb75a677862ef77386d" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1abfcafa4b7ba67781df1a3a66f8b7485d" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a2b3ab1cfed3eb57a6782d005d9cd98af" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a31f128bfc1d81cff66ce7a04f74bbeec" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a78b315ae5abe47b6cf8b07199eba2481" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a0dd034ce2ce18abaf5d6ec6201b1c7cb" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a3656c8a54a1ca416ab2d3fd42e348d6b" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a8b8b71a21bf0cecb93715815ce9f381e" prot="public" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__VisualObject_1a7641c0d80a2f3be341613d229c9bfc2e" prot="private" virt="non-virtual"><scope>MR::Const_VisualObject</scope><name>~Const_VisualObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

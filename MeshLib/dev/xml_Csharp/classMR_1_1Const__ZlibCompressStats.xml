@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ZlibCompressStats" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ZlibCompressStats</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ZlibCompressStats" prot="public" virt="non-virtual">MR.ZlibCompressStats</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ZlibCompressStats_1a1ae2c7686f1f7bda64c841871c6ee5a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ZlibCompressStats.crc32</definition>
+        <argsstring></argsstring>
+        <name>crc32</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.crc32</qualifiedname>
+        <briefdescription>
+<para>CRC-32 of the uncompressed input. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="238" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ZlibCompressStats_1ad8c66c5c2cf689db06673cbfc0dc6e23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ZlibCompressStats.uncompressedSize</definition>
+        <argsstring></argsstring>
+        <name>uncompressedSize</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.uncompressedSize</qualifiedname>
+        <briefdescription>
+<para>total bytes read from the input stream </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="244" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ZlibCompressStats_1ab0b66700b6985bd7ca996254d31955bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ZlibCompressStats.compressedSize</definition>
+        <argsstring></argsstring>
+        <name>compressedSize</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.compressedSize</qualifiedname>
+        <briefdescription>
+<para>total bytes written to the output stream </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="250" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="250" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ZlibCompressStats_1a34d13d3fe075c04b879730d284065c4e" prot="protected" static="no" mutable="no">
+        <type>unsafe uint *</type>
+        <definition>unsafe uint* MR.Const_ZlibCompressStats.__ref_storage_crc32</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_crc32</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.__ref_storage_crc32</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="239" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ZlibCompressStats_1a89a72e1590166541e240e19ed3d28f85" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_ZlibCompressStats.__ref_storage_uncompressedSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_uncompressedSize</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.__ref_storage_uncompressedSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="245" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ZlibCompressStats_1ac52c32b8bd567e7de1b83d0b965b92ca" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_ZlibCompressStats.__ref_storage_compressedSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_compressedSize</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.__ref_storage_compressedSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="251" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="251" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ZlibCompressStats_1ae0a2fa861092d1f0fc38c1474bb003a3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ZlibCompressStats.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="223" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="223" bodyend="231"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ZlibCompressStats_1a3edd4f5927a4b1c43b871fefdd19e74e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ZlibCompressStats.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="232" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="232" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ZlibCompressStats_1aa5229b6f30a38de134efcec25ca3dc61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ZlibCompressStats.Const_ZlibCompressStats</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ZlibCompressStats</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.Const_ZlibCompressStats</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="290" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="290" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ZlibCompressStats_1add4a482e82a67df7e67bd678e12b239d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ZlibCompressStats.Const_ZlibCompressStats</definition>
+        <argsstring>(uint crc32, ulong uncompressedSize, ulong compressedSize)</argsstring>
+        <name>Const_ZlibCompressStats</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.Const_ZlibCompressStats</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>crc32</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>uncompressedSize</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>compressedSize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ZlibCompressStats" kindref="compound">MR.ZlibCompressStats</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="301" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="301" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ZlibCompressStats_1a690f3858ac28624bbac6943cb8d3604c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ZlibCompressStats.Const_ZlibCompressStats</definition>
+        <argsstring>(MR.Const_ZlibCompressStats _other)</argsstring>
+        <name>Const_ZlibCompressStats</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.Const_ZlibCompressStats</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ZlibCompressStats" kindref="compound">MR.Const_ZlibCompressStats</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZlibCompressStats_1aeff13ed3df9ea17067e802de3aa6cb03" kindref="member">MR.ZlibCompressStats.ZlibCompressStats</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="312" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="312" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ZlibCompressStats_1acf2e2562bd3124717f68cb64d8557bc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ZlibCompressStats.Const_ZlibCompressStats</definition>
+        <argsstring>(ZlibCompressStats _other)</argsstring>
+        <name>Const_ZlibCompressStats</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.Const_ZlibCompressStats</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ZlibCompressStats" kindref="compound">ZlibCompressStats</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZlibCompressStats_1aeff13ed3df9ea17067e802de3aa6cb03" kindref="member">MR.ZlibCompressStats.ZlibCompressStats</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="324" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="324" bodyend="324"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ZlibCompressStats_1ae5e59e0d5df388c447efdd9a86011ec9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ZlibCompressStats.~Const_ZlibCompressStats</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ZlibCompressStats</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.~Const_ZlibCompressStats</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="233" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="233" bodyend="233"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ZlibCompressStats_1ae30757bca4d37d7d84417a75ba91a53a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ZlibCompressStats.Const_ZlibCompressStats</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ZlibCompressStats</name>
+        <qualifiedname>MR.Const_ZlibCompressStats.Const_ZlibCompressStats</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="279" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="279" bodyend="284"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>statistics gathered during compression: CRC-32 of the uncompressed input and the total numbers of bytes read from / written to the streams Generated from class <computeroutput><ref refid="classMR_1_1ZlibCompressStats" kindref="compound">MR.ZlibCompressStats</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ZlibCompressStats</label>
+        <link refid="classMR_1_1Const__ZlibCompressStats"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ZlibCompressStats</label>
+        <link refid="classMR_1_1ZlibCompressStats"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ZlibCompressStats</label>
+        <link refid="classMR_1_1Const__ZlibCompressStats"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="217" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="218" bodyend="325"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ac52c32b8bd567e7de1b83d0b965b92ca" prot="protected" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>__ref_storage_compressedSize</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a34d13d3fe075c04b879730d284065c4e" prot="protected" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>__ref_storage_crc32</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a89a72e1590166541e240e19ed3d28f85" prot="protected" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>__ref_storage_uncompressedSize</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ab0b66700b6985bd7ca996254d31955bc" prot="public" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>compressedSize</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ae30757bca4d37d7d84417a75ba91a53a" prot="package" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1aa5229b6f30a38de134efcec25ca3dc61" prot="public" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1add4a482e82a67df7e67bd678e12b239d" prot="public" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a690f3858ac28624bbac6943cb8d3604c" prot="public" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1acf2e2562bd3124717f68cb64d8557bc7" prot="public" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a1ae2c7686f1f7bda64c841871c6ee5a8" prot="public" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>crc32</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ae0a2fa861092d1f0fc38c1474bb003a3" prot="protected" virt="virtual"><scope>MR::Const_ZlibCompressStats</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a3edd4f5927a4b1c43b871fefdd19e74e" prot="public" virt="virtual"><scope>MR::Const_ZlibCompressStats</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ad8c66c5c2cf689db06673cbfc0dc6e23" prot="public" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>uncompressedSize</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ae5e59e0d5df388c447efdd9a86011ec9" prot="private" virt="non-virtual"><scope>MR::Const_ZlibCompressStats</scope><name>~Const_ZlibCompressStats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRNestingNestingResult_MRObjId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRNestingNestingResult_MRObjId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId" prot="public" virt="non-virtual">MR.Const_Vector_MRNestingNestingResult_MRObjId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ae7299df9512b0dc73e8791df1088e2f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRNestingNestingResult_MRObjId</name>
         <qualifiedname>MR.Vector_MRNestingNestingResult_MRObjId.Vector_MRNestingNestingResult_MRObjId</qualifiedname>
         <param>
-          <type>Const_Vector_MRNestingNestingResult_MRObjId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId" kindref="compound">Const_Vector_MRNestingNestingResult_MRObjId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,7 +153,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Nesting.Const_NestingResult</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Nesting.Const_NestingResult</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -309,7 +309,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Nesting.Const_NestingResult</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -336,7 +336,7 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.Nesting.Const_NestingResult</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -359,7 +359,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.Nesting.Const_NestingResult</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -397,7 +397,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRNestingNestingResult_MRObjId.pushBack</qualifiedname>
         <param>
-          <type>MR.Nesting.Const_NestingResult</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRNestingNestingResult_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRNestingNestingResult_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a5fbbcf9a2fc9fbcfa3bf5218cbd12eb3" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a77f98d22fd1474f0000a9a11b4404d5b" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a66e043367658ef4fac99fa55ff6de2f9" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1af23c8ec41d5e31cc03ea7eb4f8f9d5e4" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a79ce9927b9c99a41d0be41ea610cf51c" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ac064f71a6274dc0b4b309b1b065e28f5" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a1b7128e2176921f242d56d7b40e9b10f" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a4366453b27b13f471ec49ef658550247" prot="package" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a96dfa28a515b29f1110d9104dbd08a66" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a4b6b26ea340bcb783fbaf33200e13b4a" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1af294b905aff5df076aa1916f18804edb" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aef2e9d10488c3f0f56950bde11628b7b" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ad0b13528758e8fd19596e1277ce33a67" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aec8235cc239f07be8952236204cdf766" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ab9a517ee9d92111b0f0ef579b86b407e" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ac9501517cfad4866fbecee58b791aa17" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ab38972734510f57df27a840a28be553c" prot="protected" virt="virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1adc9d75272bf7db1983c915131203218d" prot="public" virt="virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ac40ee83dee12093fb8a76c376393c474" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1acf34b2ad7056873abff278952aba7481" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aa187f19308c9b35dd2bcd398848052fc" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a7cbf231a5e2c8a571fce121846a6d552" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a50eb2eb94818987b32da3379aff49b0c" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a69100284d7b4fa30c3a794f189eb2618" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a8ff17febd3fbefe71b449c0c33b887f8" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a0795c47ddf95a634a366ab0a1603937a" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>operator Const_Vector_MRNestingNestingResult_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1abd54718f2651ee93d8a65bda6c7d0c40" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>operator Vector_MRNestingNestingResult_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a2047f4ff909455ba1ec1d5ea1db61bf7" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ac2e348e4da22f03a5af8f7caa2d09840" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>pushBack</name></member>
@@ -685,6 +704,7 @@
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1aa80a033be36ca7dc14deac7e4a114373" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a14628f0cda6d22db4f61fddb732b863d" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ab7d7cbbb322e53d17e40adc9418cd0dc" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a5af6b07876e6cbe0390bbafb4e087634" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a93db6371b67b4283ad1617d9a29120ac" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a7e0715985952e01ef443e6936b3ed1d8" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>this[MR.ObjId i]</name></member>
       <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ae7299df9512b0dc73e8791df1088e2f3" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingNestingResult_MRObjId</scope><name>vec</name></member>

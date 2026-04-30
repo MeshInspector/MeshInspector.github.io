@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DecimateResult" kind="struct" language="C#" prot="public">
     <compoundname>MR::DecimateResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DecimateResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DecimateResult" prot="public" virt="non-virtual">MR.Const_DecimateResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DecimateResult_1ade919f12c7cec4bf8a5d694bb01349a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -143,7 +143,7 @@
         <name>DecimateResult</name>
         <qualifiedname>MR.DecimateResult.DecimateResult</qualifiedname>
         <param>
-          <type>MR.Const_DecimateResult</type>
+          <type><ref refid="classMR_1_1Const__DecimateResult" kindref="compound">MR.Const_DecimateResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>assign</name>
         <qualifiedname>MR.DecimateResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_DecimateResult</type>
+          <type><ref refid="classMR_1_1Const__DecimateResult" kindref="compound">MR.Const_DecimateResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -221,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DecimateResult</label>
+        <link refid="classMR_1_1Const__DecimateResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -242,6 +243,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DecimateResult</label>
+        <link refid="classMR_1_1Const__DecimateResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -256,13 +258,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1171" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1172" bodyend="1255"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DecimateResult_1a362b95cf4f7aa8ac89ab91e4d56ef361" prot="protected" virt="non-virtual"><scope>MR::DecimateResult</scope><name>__ref_storage_cancelled</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1a3d8f7c36b6a49faf64964014e7178215" prot="protected" virt="non-virtual"><scope>MR::DecimateResult</scope><name>__ref_storage_errorIntroduced</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1ac68cb8a04579c2941516c9aa8fb3ac98" prot="protected" virt="non-virtual"><scope>MR::DecimateResult</scope><name>__ref_storage_facesDeleted</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1a234b48c767df5d6318bda691848f475c" prot="protected" virt="non-virtual"><scope>MR::DecimateResult</scope><name>__ref_storage_vertsDeleted</name></member>
       <member refid="classMR_1_1DecimateResult_1a4907b767f454c980b94fb8385a459c6b" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>assign</name></member>
       <member refid="classMR_1_1DecimateResult_1a527166116e334bc77c78ef5ce736cda5" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>cancelled</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1a28db16218ad14e579bebc739fdbe0af4" prot="package" virt="non-virtual"><scope>MR::DecimateResult</scope><name>Const_DecimateResult</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1a9df741eb243c4be19b6d493485176e47" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>Const_DecimateResult</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1a8e2aabf4392f12894a4fc35dbd8c9831" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>Const_DecimateResult</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1a66c341a077eefbc722d492805c46ebc9" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>Const_DecimateResult</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1ab3b910a76a344f4c05bbe84d983ed7c0" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>Const_DecimateResult</name></member>
       <member refid="classMR_1_1DecimateResult_1ab174e653d202ae003543aad076190972" prot="package" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
       <member refid="classMR_1_1DecimateResult_1a64552392c8ee7167f138222085aa9f03" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
       <member refid="classMR_1_1DecimateResult_1a877bdbe5430fac08446a155fbf450e3a" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
       <member refid="classMR_1_1DecimateResult_1a1485417101447b1de97b0f684c956034" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
       <member refid="classMR_1_1DecimateResult_1ab39a6cda23e5c59ade07c3e4dff2ffcb" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>DecimateResult</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1a8251025fbe0db48525cbabc39f8d19a1" prot="protected" virt="virtual"><scope>MR::DecimateResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DecimateResult_1a6d2d14973f298ec62763a5ce4fcb1d16" prot="public" virt="virtual"><scope>MR::DecimateResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DecimateResult_1a9c657ab91f569e655fccca5e33e67b2e" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>errorIntroduced</name></member>
       <member refid="classMR_1_1DecimateResult_1aced91d188a3ac295b24ea646bc1b209c" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>facesDeleted</name></member>
       <member refid="classMR_1_1DecimateResult_1ade919f12c7cec4bf8a5d694bb01349a4" prot="public" virt="non-virtual"><scope>MR::DecimateResult</scope><name>vertsDeleted</name></member>

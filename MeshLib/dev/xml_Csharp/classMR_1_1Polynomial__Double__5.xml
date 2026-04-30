@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Polynomial__Double__5" kind="class" language="C#" prot="public">
     <compoundname>MR::Polynomial_Double_5</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Polynomial_Double_5</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Polynomial__Double__5" prot="public" virt="non-virtual">MR.Const_Polynomial_Double_5</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Polynomial__Double__5_1a3157149e5a1cce232868396d2f033dbb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>Polynomial_Double_5</name>
         <qualifiedname>MR.Polynomial_Double_5.Polynomial_Double_5</qualifiedname>
         <param>
-          <type>Const_Polynomial_Double_5</type>
+          <type><ref refid="classMR_1_1Const__Polynomial__Double__5" kindref="compound">Const_Polynomial_Double_5</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -134,6 +134,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polynomial_Double_5</label>
+        <link refid="classMR_1_1Const__Polynomial__Double__5"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +156,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polynomial_Double_5</label>
+        <link refid="classMR_1_1Const__Polynomial__Double__5"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -169,7 +171,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2699" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2700" bodyend="2745"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a04e72de9363f0dd5182b4f094d8d7894" prot="protected" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>__ref_storage_N</name></member>
       <member refid="classMR_1_1Polynomial__Double__5_1ac747fa6793459b6d26f07f829fac4b97" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a660bfeda3e82dfecbba88f3f74af286d" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a37a504a8becc71039e51b850778a251f" prot="package" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>Const_Polynomial_Double_5</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1ab5c1557a3a98d505e7d1f8ca32087357" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>Const_Polynomial_Double_5</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a23166ff7a2151028d307c403b4af704e" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>Const_Polynomial_Double_5</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1abfd647c2f92078953617a9286eee307c" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>Const_Polynomial_Double_5</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a4c72adba82d0c2dfbd289d9fb644e3c2" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>Const_Polynomial_Double_5</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a900de30b1199a4e51a9b4432e1c5eef7" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>deriv</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1ada4227073529a53f1973d5afd6449d1b" prot="protected" virt="virtual"><scope>MR::Polynomial_Double_5</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a1931115b510dab81c0198f7876a34505" prot="public" virt="virtual"><scope>MR::Polynomial_Double_5</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a21d473a1dd99391b80b9987044b9a32b" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>intervalMin</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__5_1a9047db2d0b35d7b0327093c684850be7" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>N</name></member>
       <member refid="classMR_1_1Polynomial__Double__5_1a3157149e5a1cce232868396d2f033dbb" prot="package" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>Polynomial_Double_5</name></member>
       <member refid="classMR_1_1Polynomial__Double__5_1ae3d4c5eed692c66a9ca0bb72b1822bb4" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>Polynomial_Double_5</name></member>
       <member refid="classMR_1_1Polynomial__Double__5_1ab42ba8e5feff2904918435f622daa9e4" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_5</scope><name>Polynomial_Double_5</name></member>

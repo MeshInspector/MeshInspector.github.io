@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RegularMapMesher" kind="class" language="C#" prot="public">
     <compoundname>MR::RegularMapMesher</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RegularMapMesher</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RegularMapMesher" prot="public" virt="non-virtual">MR.Const_RegularMapMesher</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a158e3ba5568b5acdde90fa298b27ca4d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>RegularMapMesher</name>
         <qualifiedname>MR.RegularMapMesher.RegularMapMesher</qualifiedname>
         <param>
-          <type>Const_RegularMapMesher</type>
+          <type><ref refid="classMR_1_1Const__RegularMapMesher" kindref="compound">Const_RegularMapMesher</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RegularMapMesher</label>
+        <link refid="classMR_1_1Const__RegularMapMesher"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -248,6 +249,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RegularMapMesher</label>
+        <link refid="classMR_1_1Const__RegularMapMesher"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +265,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="87" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="88" bodyend="183"/>
     <listofallmembers>
       <member refid="classMR_1_1RegularMapMesher_1a912a44af7d29290ff78d4b9dda1167f1" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__RegularMapMesher_1afdafa5da994e0c4f6e298310111eedd8" prot="package" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>Const_RegularMapMesher</name></member>
+      <member refid="classMR_1_1Const__RegularMapMesher_1a33768ea39ee571054fa19c96de53cee0" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>Const_RegularMapMesher</name></member>
+      <member refid="classMR_1_1Const__RegularMapMesher_1ad7556cdbf6ef40a02dee868765c88090" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>Const_RegularMapMesher</name></member>
+      <member refid="classMR_1_1Const__RegularMapMesher_1aaca648230f0f47d45f984aabcff7d5db" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>Const_RegularMapMesher</name></member>
+      <member refid="classMR_1_1Const__RegularMapMesher_1a7e8a095e13657f54dc93a731c2a65666" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>Const_RegularMapMesher</name></member>
+      <member refid="classMR_1_1Const__RegularMapMesher_1a8a2305a98a59c9906173e1127f301320" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>createMesh</name></member>
+      <member refid="classMR_1_1Const__RegularMapMesher_1a59c844fc1e48e099b735d1dcebf6bde9" prot="protected" virt="virtual"><scope>MR::RegularMapMesher</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RegularMapMesher_1a857501d05650c0b111912413f785bf33" prot="public" virt="virtual"><scope>MR::RegularMapMesher</scope><name>Dispose</name></member>
       <member refid="classMR_1_1RegularMapMesher_1ac5d4f2f720bd58de6174b98fc233a5aa" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>loadDistances</name></member>
       <member refid="classMR_1_1RegularMapMesher_1a158e3ba5568b5acdde90fa298b27ca4d" prot="package" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
       <member refid="classMR_1_1RegularMapMesher_1ab620c4934731dccd4bdee16ff007aca0" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>

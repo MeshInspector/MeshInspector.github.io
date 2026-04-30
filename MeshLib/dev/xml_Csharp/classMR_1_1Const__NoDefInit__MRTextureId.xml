@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__NoDefInit__MRTextureId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_NoDefInit_MRTextureId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1NoDefInit__MRTextureId" prot="public" virt="non-virtual">MR.NoDefInit_MRTextureId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__NoDefInit__MRTextureId_1acd3a4193de34c6864e9138a1d8b590b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_NoDefInit_MRTextureId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3359" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3359" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__NoDefInit__MRTextureId_1a3ffda4a36bdcccbf601317ec10df0adc" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_NoDefInit_MRTextureId.__ref_storage_id</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_id</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.__ref_storage_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3360" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3360" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1a1b749e0eea5d9cbeacfc53ae79ce9e15" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_NoDefInit_MRTextureId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3337" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3337" bodyend="3345"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1aadfbde0e6e3c82b225c44cdcf627124c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_NoDefInit_MRTextureId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3346" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3346" bodyend="3346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1a5a5d6fdd1e5796ebca11d256724c62a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoDefInit_MRTextureId.Const_NoDefInit_MRTextureId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_NoDefInit_MRTextureId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.Const_NoDefInit_MRTextureId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3387" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3387" bodyend="3393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1a80aaff4c6061a399d5d91cf066cd95b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoDefInit_MRTextureId.Const_NoDefInit_MRTextureId</definition>
+        <argsstring>(MR.Const_NoDefInit_MRTextureId _other)</argsstring>
+        <name>Const_NoDefInit_MRTextureId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.Const_NoDefInit_MRTextureId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRTextureId" kindref="compound">MR.Const_NoDefInit_MRTextureId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3398" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3398" bodyend="3405"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1ac336cb53a5089554f33d921be70f83e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoDefInit_MRTextureId.Const_NoDefInit_MRTextureId</definition>
+        <argsstring>(NoDefInit_MRTextureId _other)</argsstring>
+        <name>Const_NoDefInit_MRTextureId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.Const_NoDefInit_MRTextureId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRTextureId" kindref="compound">NoDefInit_MRTextureId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3410" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3410" bodyend="3410"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1a360745c0514e6146f407b72f92c3a09f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_NoDefInit_MRTextureId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;<ref refid="classMR_1_1Const__NoDefInit__MRTextureId_1a360745c0514e6146f407b72f92c3a09f" kindref="member">valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3435" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3435" bodyend="3440"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1af072565dabb58f5b76e2997445c58063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_NoDefInit_MRTextureId.less</definition>
+        <argsstring>(MR.TextureId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::operator&amp;lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3460" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3460" bodyend="3465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1a41a2eb50bccf04859c96af76ee4e21cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_NoDefInit_MRTextureId.Equals</definition>
+        <argsstring>(MR.TextureId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3469" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3469" bodyend="3472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1a2abc06c1ba6db9173c788a0983d5713e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_NoDefInit_MRTextureId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3474" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3474" bodyend="3481"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1acdffd0bd110825d9ca706e39dd19946e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoDefInit_MRTextureId.~Const_NoDefInit_MRTextureId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_NoDefInit_MRTextureId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.~Const_NoDefInit_MRTextureId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3347" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3347" bodyend="3347"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1abf4c968aa6bcd8ddc0032a938d1700c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_NoDefInit_MRTextureId.operator MR.ConstBox_TextureId</definition>
+        <argsstring>(Const_NoDefInit_MRTextureId self)</argsstring>
+        <name>operator MR.ConstBox_TextureId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.operator MR.ConstBox_TextureId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRTextureId" kindref="compound">Const_NoDefInit_MRTextureId</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3350" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3350" bodyend="3357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1a8753cc5ea85c8758249b5dea8fa7919e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_NoDefInit_MRTextureId.operator int</definition>
+        <argsstring>(MR.Const_NoDefInit_MRTextureId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRTextureId" kindref="compound">MR.Const_NoDefInit_MRTextureId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3415" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3415" bodyend="3420"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1ab43e6750cda8c95edb336044b94164e1" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_NoDefInit_MRTextureId.operator bool</definition>
+        <argsstring>(MR.Const_NoDefInit_MRTextureId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRTextureId" kindref="compound">MR.Const_NoDefInit_MRTextureId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3425" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3425" bodyend="3430"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1aabcbaae88f385cdbe645a744646e6411" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_NoDefInit_MRTextureId.operator==</definition>
+        <argsstring>(MR.Const_NoDefInit_MRTextureId _this, MR.TextureId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRTextureId" kindref="compound">MR.Const_NoDefInit_MRTextureId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;<ref refid="classMR_1_1Const__NoDefInit__MRTextureId_1aabcbaae88f385cdbe645a744646e6411" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3445" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3445" bodyend="3450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1aa8b2e615f78a35967400ea69fffb3aac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_NoDefInit_MRTextureId.operator!=</definition>
+        <argsstring>(MR.Const_NoDefInit_MRTextureId _this, MR.TextureId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRTextureId" kindref="compound">MR.Const_NoDefInit_MRTextureId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3452" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3452" bodyend="3455"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRTextureId_1a604939d2a3034f0744f66625c6caa448" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoDefInit_MRTextureId.Const_NoDefInit_MRTextureId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_NoDefInit_MRTextureId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRTextureId.Const_NoDefInit_MRTextureId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3376" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3376" bodyend="3381"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_NoDefInit_MRTextureId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRTextureId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.NoDefInit_MRTextureId</label>
+        <link refid="classMR_1_1NoDefInit__MRTextureId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_NoDefInit_MRTextureId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRTextureId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3331" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3332" bodyend="3482"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a3ffda4a36bdcccbf601317ec10df0adc" prot="protected" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>__ref_storage_id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a604939d2a3034f0744f66625c6caa448" prot="package" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>Const_NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a5a5d6fdd1e5796ebca11d256724c62a4" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>Const_NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a80aaff4c6061a399d5d91cf066cd95b6" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>Const_NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1ac336cb53a5089554f33d921be70f83e9" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>Const_NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a1b749e0eea5d9cbeacfc53ae79ce9e15" prot="protected" virt="virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1aadfbde0e6e3c82b225c44cdcf627124c" prot="public" virt="virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a41a2eb50bccf04859c96af76ee4e21cb" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a2abc06c1ba6db9173c788a0983d5713e" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1acd3a4193de34c6864e9138a1d8b590b2" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1af072565dabb58f5b76e2997445c58063" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>less</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1ab43e6750cda8c95edb336044b94164e1" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a8753cc5ea85c8758249b5dea8fa7919e" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>operator int</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1abf4c968aa6bcd8ddc0032a938d1700c9" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>operator MR.ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1aa8b2e615f78a35967400ea69fffb3aac" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1aabcbaae88f385cdbe645a744646e6411" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a360745c0514e6146f407b72f92c3a09f" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1acdffd0bd110825d9ca706e39dd19946e" prot="private" virt="non-virtual"><scope>MR::Const_NoDefInit_MRTextureId</scope><name>~Const_NoDefInit_MRTextureId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

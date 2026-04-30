@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Line2d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Line2d</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Line2d" prot="public" virt="non-virtual">MR.Line2d</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Line2d_1a5fbf2e2062f14f2fdd5bb0ec81fd721b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>unsafe ref readonly MR.Vector2d MR.Const_Line2d.p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <qualifiedname>MR.Const_Line2d.p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="313" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Line2d_1a760b3095226e79ca159893fa17b0e182" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>unsafe ref readonly MR.Vector2d MR.Const_Line2d.d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>MR.Const_Line2d.d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="316" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="316" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Line2d_1aa1db7dcc1c20547aaa94606f8f0a7691" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref> *</type>
+        <definition>unsafe MR.Vector2d* MR.Const_Line2d.__ref_storage_p</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_p</name>
+        <qualifiedname>MR.Const_Line2d.__ref_storage_p</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="314" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Line2d_1a18cdf6ae5aa2057919cdfa68bc35c510" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref> *</type>
+        <definition>unsafe MR.Vector2d* MR.Const_Line2d.__ref_storage_d</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_d</name>
+        <qualifiedname>MR.Const_Line2d.__ref_storage_d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="317" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="317" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a27b80fb8b5f53d945c41a03b18905355" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Line2d.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Line2d.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="301" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="301" bodyend="309"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a63253c6bd0977db675e43317ac237966" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Line2d.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Line2d.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="310" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="310" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a4d65e4b54a779fe15096b7f5be5d7b60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Line2d.Const_Line2d</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Line2d</name>
+        <qualifiedname>MR.Const_Line2d.Const_Line2d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="350" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="350" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a1d8bab84b6036d46058220444e3b5613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Line2d.Const_Line2d</definition>
+        <argsstring>(MR.Const_Line2d _other)</argsstring>
+        <name>Const_Line2d</name>
+        <qualifiedname>MR.Const_Line2d.Const_Line2d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Line2d" kindref="compound">MR.Const_Line2d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Line2d_1a581efe6d9577fc1656f7c7fed733fbb2" kindref="member">MR.Line2d.Line2d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="361" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="361" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a0fab7ec9b259d31e1a33b3aea2db16da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Line2d.Const_Line2d</definition>
+        <argsstring>(Line2d _other)</argsstring>
+        <name>Const_Line2d</name>
+        <qualifiedname>MR.Const_Line2d.Const_Line2d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Line2d" kindref="compound">Line2d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Line2d_1a581efe6d9577fc1656f7c7fed733fbb2" kindref="member">MR.Line2d.Line2d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="373" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="373" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a686bf67461cbb9d13ce0439112aded16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Line2d.Const_Line2d</definition>
+        <argsstring>(in MR.Vector2d p, in MR.Vector2d d)</argsstring>
+        <name>Const_Line2d</name>
+        <qualifiedname>MR.Const_Line2d.Const_Line2d</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Line2d_1a581efe6d9577fc1656f7c7fed733fbb2" kindref="member">MR.Line2d.Line2d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="378" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="378" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a95d37cdf4860bbecce2a5141fec1e110" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>unsafe MR.Vector2d MR.Const_Line2d.call</definition>
+        <argsstring>(double param)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_Line2d.call</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+<para>returns point on the line, where param=0 returns p and param=1 returns p+d Generated from method <computeroutput>MR::Line2d::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="396" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="396" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a613d4851918399be9a78090e553b74a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Line2d.distanceSq</definition>
+        <argsstring>(in MR.Vector2d x)</argsstring>
+        <name>distanceSq</name>
+        <qualifiedname>MR.Const_Line2d.distanceSq</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>returns squared distance from given point to this line Generated from method <computeroutput><ref refid="classMR_1_1Const__Line2d_1a613d4851918399be9a78090e553b74a9" kindref="member">MR.Line2d.distanceSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="407" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="407" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1af6ccfc3b58d7a52c585227eeef75c9fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Line2d" kindref="compound">MR.Line2d</ref></type>
+        <definition>unsafe MR.Line2d MR.Const_Line2d.normalized</definition>
+        <argsstring>()</argsstring>
+        <name>normalized</name>
+        <qualifiedname>MR.Const_Line2d.normalized</qualifiedname>
+        <briefdescription>
+<para>returns same line represented with unit d-vector Generated from method <computeroutput><ref refid="classMR_1_1Const__Line2d_1af6ccfc3b58d7a52c585227eeef75c9fa" kindref="member">MR.Line2d.normalized</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="443" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="443" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1af7103a0e28a573aa0eca8206b313d742" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>unsafe MR.Vector2d MR.Const_Line2d.project</definition>
+        <argsstring>(in MR.Vector2d x)</argsstring>
+        <name>project</name>
+        <qualifiedname>MR.Const_Line2d.project</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>finds the closest point on line Generated from method <computeroutput><ref refid="classMR_1_1Const__Line2d_1af7103a0e28a573aa0eca8206b313d742" kindref="member">MR.Line2d.project</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="454" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="454" bodyend="462"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1a3f28961144a1e38b8b0fcffb2f842f72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Line2d.~Const_Line2d</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Line2d</name>
+        <qualifiedname>MR.Const_Line2d.~Const_Line2d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="311" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="311" bodyend="311"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1ae4d8bad28dfbfad6d6e6c3aed5cff456" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Line2d.Const_Line2d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Line2d</name>
+        <qualifiedname>MR.Const_Line2d.Const_Line2d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="339" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="339" bodyend="344"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1af2d6752379997779b6ae0a70282a9b13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Line2d" kindref="compound">MR.Line2d</ref></type>
+        <definition>static unsafe MR.Line2d MR.Const_Line2d.operator-</definition>
+        <argsstring>(MR.Const_Line2d _this)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Const_Line2d.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Line2d" kindref="compound">MR.Const_Line2d</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>returns same line represented with flipped direction of d-vector Generated from method <computeroutput>MR::Line2d::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="421" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="421" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line2d_1aeaa92471199cf5fe8e86fdd215b1313c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Line2d" kindref="compound">MR.Const_Line2d</ref></type>
+        <definition>static unsafe MR.Const_Line2d MR.Const_Line2d.operator+</definition>
+        <argsstring>(MR.Const_Line2d _this)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.Const_Line2d.operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Line2d" kindref="compound">MR.Const_Line2d</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>returns same representation Generated from method <computeroutput>MR::Line2d::operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="432" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="432" bodyend="437"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>2- or 3-dimensional line: cross( x - p, d ) = 0 Generated from class <computeroutput><ref refid="classMR_1_1Line2d" kindref="compound">MR.Line2d</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Line2d</label>
+        <link refid="classMR_1_1Const__Line2d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Line2d</label>
+        <link refid="classMR_1_1Line2d"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_Line2d</label>
+        <link refid="classMR_1_1Const__Line2d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_d</edgelabel>
+          <edgelabel>__ref_storage_p</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="295" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="296" bodyend="463"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Line2d_1a18cdf6ae5aa2057919cdfa68bc35c510" prot="protected" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>__ref_storage_d</name></member>
+      <member refid="classMR_1_1Const__Line2d_1aa1db7dcc1c20547aaa94606f8f0a7691" prot="protected" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>__ref_storage_p</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a95d37cdf4860bbecce2a5141fec1e110" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Line2d_1ae4d8bad28dfbfad6d6e6c3aed5cff456" prot="package" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>Const_Line2d</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a4d65e4b54a779fe15096b7f5be5d7b60" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>Const_Line2d</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a1d8bab84b6036d46058220444e3b5613" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>Const_Line2d</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a0fab7ec9b259d31e1a33b3aea2db16da" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>Const_Line2d</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a686bf67461cbb9d13ce0439112aded16" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>Const_Line2d</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a760b3095226e79ca159893fa17b0e182" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>d</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a27b80fb8b5f53d945c41a03b18905355" prot="protected" virt="virtual"><scope>MR::Const_Line2d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a63253c6bd0977db675e43317ac237966" prot="public" virt="virtual"><scope>MR::Const_Line2d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a613d4851918399be9a78090e553b74a9" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>distanceSq</name></member>
+      <member refid="classMR_1_1Const__Line2d_1af6ccfc3b58d7a52c585227eeef75c9fa" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>normalized</name></member>
+      <member refid="classMR_1_1Const__Line2d_1aeaa92471199cf5fe8e86fdd215b1313c" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Line2d_1af2d6752379997779b6ae0a70282a9b13" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a5fbf2e2062f14f2fdd5bb0ec81fd721b" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>p</name></member>
+      <member refid="classMR_1_1Const__Line2d_1af7103a0e28a573aa0eca8206b313d742" prot="public" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>project</name></member>
+      <member refid="classMR_1_1Const__Line2d_1a3f28961144a1e38b8b0fcffb2f842f72" prot="private" virt="non-virtual"><scope>MR::Const_Line2d</scope><name>~Const_Line2d</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kind="class" language="C#" prot="public">
     <compoundname>MR::FillingSurface::CellularSurface::Params</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.FillingSurface.CellularSurface.Const_Params</basecompoundref>
+    <basecompoundref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params" prot="public" virt="non-virtual">MR.FillingSurface.CellularSurface.Const_Params</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ae39d42ff5fd387210bf5bca280a37f6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" kindref="member">MR.FillingSurface.CellularSurface.Type</ref></type>
@@ -179,7 +179,7 @@
         <name>Params</name>
         <qualifiedname>MR.FillingSurface.CellularSurface.Params.Params</qualifiedname>
         <param>
-          <type>MR.FillingSurface.CellularSurface.Const_Params</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params" kindref="compound">MR.FillingSurface.CellularSurface.Const_Params</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -217,7 +217,7 @@
         <name>assign</name>
         <qualifiedname>MR.FillingSurface.CellularSurface.Params.assign</qualifiedname>
         <param>
-          <type>MR.FillingSurface.CellularSurface.Const_Params</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params" kindref="compound">MR.FillingSurface.CellularSurface.Const_Params</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -244,6 +244,7 @@
       </node>
       <node id="2">
         <label>MR.FillingSurface.CellularSurface.Const_Params</label>
+        <link refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -257,6 +258,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FillingSurface.CellularSurface.Params</label>
         <link refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params"/>
@@ -265,9 +270,15 @@
       </node>
       <node id="2">
         <label>MR.FillingSurface.CellularSurface.Const_Params</label>
+        <link refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_period</edgelabel>
+          <edgelabel>__ref_storage_type</edgelabel>
+          <edgelabel>__ref_storage_width</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -279,7 +290,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="654" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="655" bodyend="746"/>
     <listofallmembers>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1acdcc4241251808cb6436b7aa7237a44f" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>__ref_storage_highRes</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1ac5ca330ea9cf9ba4d3c42140bb22e1f5" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>__ref_storage_period</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1adfa7e4a1784256c17930d09e6fc3a46c" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>__ref_storage_preserveTips</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1a96ff5eecd22afbc370038bdafb0038bd" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>__ref_storage_r</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1ac2ab6b1d7fca910bb8002f2a2a98cd5d" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>__ref_storage_type</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1a5eef0daf59225f73baae9c52f0da1b08" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>__ref_storage_width</name></member>
       <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ae43c8f92d5c4deb8b5c41feb72d3df74" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>assign</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1ac07af5136cb7544a99eea9d714cede87" prot="package" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Const_Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1a382e32ad04dab2a07d520e0617956c78" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Const_Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1a89cdbfecc7a5741ca7af86c1a52f8546" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Const_Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1a236e8b554d60b25617b5381ee1540a5a" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Const_Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1a58249df6e24a2b7bd1d82ca4180c603f" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Const_Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1aa8da11718d9fd15e97a9b5f6d86155ee" prot="protected" virt="virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params_1a1726667b594f2a44224644d6539ca0ea" prot="public" virt="virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a47d7f3cc5eac6582c007a6d1fcb5b39e" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>highRes</name></member>
       <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a6c5cd8b281ec0cb8506c5eaf78febb28" prot="package" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Params</name></member>
       <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1af15e5a1fa340faface08c74dd4edddbe" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Params</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectLinesHolder" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectLinesHolder</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectLinesHolder</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectLinesHolder" prot="public" virt="non-virtual">MR.Const_ObjectLinesHolder</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ObjectLinesHolder_1a457b9ea6b48bafa84fa8e2bf506010e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -223,7 +223,7 @@
         <name>setDashPattern</name>
         <qualifiedname>MR.ObjectLinesHolder.setDashPattern</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>pattern</declname>
         </param>
         <param>
@@ -361,11 +361,11 @@
         <name>copyColors</name>
         <qualifiedname>MR.ObjectLinesHolder.copyColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectLinesHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectLinesHolder" kindref="compound">MR.Const_ObjectLinesHolder</ref></type>
           <declname>src</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>thisToSrc</declname>
         </param>
         <briefdescription>
@@ -421,11 +421,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -444,11 +444,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.ObjectLinesHolder.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -467,11 +467,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.ObjectLinesHolder.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -509,7 +509,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.ObjectLinesHolder.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -532,12 +532,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1af3dea2908843ea0257dc01c5705230f2" kindref="member">MR.ObjectLinesHolder.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1af3dea2908843ea0257dc01c5705230f2" kindref="member">MR.ObjectLinesHolder.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -694,12 +694,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ab4e4ebdeacecac8ed284cccb9ad77e7c" kindref="member">MR.ObjectLinesHolder.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1ab4e4ebdeacecac8ed284cccb9ad77e7c" kindref="member">MR.ObjectLinesHolder.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -934,12 +934,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a1eae45e94e12cb4ed78e28e998efb1e6" kindref="member">MR.ObjectLinesHolder.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a1eae45e94e12cb4ed78e28e998efb1e6" kindref="member">MR.ObjectLinesHolder.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1136,12 +1136,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a9774ff895970af4d6630514a96d2f652" kindref="member">MR.ObjectLinesHolder.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectLinesHolder_1a9774ff895970af4d6630514a96d2f652" kindref="member">MR.ObjectLinesHolder.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1156,7 +1156,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.ObjectLinesHolder.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1240,6 +1240,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectLinesHolder</label>
+        <link refid="classMR_1_1Const__ObjectLinesHolder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1261,6 +1262,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectLinesHolder</label>
+        <link refid="classMR_1_1Const__ObjectLinesHolder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1280,22 +1282,89 @@
       <member refid="classMR_1_1ObjectLinesHolder_1a95796a688a3cecb939a7e472e449c182" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>addTag</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1acafd009ea598f84d8c3707d061e17856" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>applyScale</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1ada3b4d2e2d5930cefd12eaeb18d4a183" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ac14b96c9e7032449ea4ab6e4dfce4c35" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>avgEdgeLen</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a4ea7e791c620afb0ffe211c104b7eff4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ac63abb311d74c5a0ac98505f2f0fc6aa" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a0850580361dbdcf7885a1e4bfb1ffd4b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad1a92a3c390c4938ffc10f049a027deb" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a022d6ddb52d43c826e728a98490b31b7" prot="package" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>Const_ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aa6ab88c69ca3ded27241dae9c86e6c90" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>Const_ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aaf8c8e7277bf582a44e4ec25086bb8a1" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>Const_ObjectLinesHolder</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1af07343fb5bf18de31cae7ca370a3e754" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a0385005da43358f055657527ce079fc9" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>copyColors</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1ae48512ab70b2c9cbd5da183a7af4386e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a6cdeee6dd12e73d6b75477e1627b09f3" prot="protected" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a0c5501823b48dbd34683941c3b8f68de" prot="public" virt="virtual"><scope>MR::ObjectLinesHolder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a17bbeaeacf659eac081e39b9969f9431" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a09888b17a40041a1bf0991cfe15ea6f3" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a131b4c657f230b6550dd3b130e8ad1a4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a1a3d335017e84e8bd446ba91c6f7b07d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ae8dd34e24bf02fec98f1a34cf91a9187" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a245de5906606799764e59af8f0e6f344" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a8dc5e4df443ad7af24a4f058edf7944b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getDashPattern</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aebf796f39ef63e018516b056aa3294c3" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a66296f8dad453761e2a9e3d9909b666d" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ac1d9106beb52352ea91853340b7e3be8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a9b6136131170b0808adb75d8817645e9" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a87b4e80f4f24be4e34b1b7564f67c7eb" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ac27de14c3ed6321c918eda8cc2004442" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1abed96cb4e35cb22b6371409ec173be27" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getLinesColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a25d61db60a0a4d27ee5b0334cd8094f8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a926092bb601b76c918fc55a47828f935" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aad67cb3aee1f29ac1312570d184f7848" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a7151db7fea012093b963cc0785cf766e" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a22f57d43b8017cb83b06d43b1a6566c5" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ac4f75c775dbb11d15f7eeea55757a8bc" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aabcdb798ac867fbcd0a067c962c93240" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a8dc668e62f02a00ff1595bcf7ac2c793" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ade2acf1a6a83477472fd13b62d2ceee6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad1c203df5db4fc772de8c10dcad1f6a6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a54e71d10f801cc0f9979f97a983f6408" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a0d192636d9c99d097a795e6a98c9568b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad8ac19d202f62acda8ed2556e34e7140" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad2db556119f0da2f7309f84984e36707" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aae789c23d50cea3411abc2021f33f3e8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a44d2e6e94fb42af2b7fbac2cc73dfad9" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aa06f439db8d984c76841332218d4e38c" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad627a9c4688d553de4f74a05ae089eb0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ae72891dfd7d1b642650b7b23e92233a4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad97fdb26f44710b3a7c392fbc2de5dd8" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a3447a76b654b2975adeb1ee2fccfb06b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a68ae2a413b54d55afa8b349b08f06f22" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a42520eaba1d8d5901d64dfd1d9e4401a" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ae43a3d1176dbb1e714aeb4bf88f2b292" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a13f4fd64cd2b9b5eb6abf5d422736263" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a0cf4a024580c0ff8eb687a39aac9fa68" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a5498a8b15f47b58e1442e3fdf04f14f4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1af9a8178c1e70dd1915b9c99ad9b6a2f7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad62b6380e1c8b4866a801f9be28011e4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad52881f6b8fde8bfec803ca46bc2db7f" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1abea1cba4657632a07bda9159287f489e" prot="package" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1af4367445e06741ec00ddb1f018f49707" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a781ff8a03817eb3a6a9ee4bdaa8b0863" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1af010b0d9ad4964329d26a978450b6232" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator Const_ObjectLinesHolder?</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a94eaa9c668030597300851770a5fe0f3" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator Const_ObjectLinesHolder?</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a29de5c7d051a63bb07424d6d2150fb48" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a70a9e27a852556637a343f6a380c0135" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a7c99c8dd57d14742df2cffe5ebb05a68" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1aceac3f7ba1d4a0edbf4644a456b6babf" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a457b9ea6b48bafa84fa8e2bf506010e4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a60b7b52772551a234d181f2479a086b0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator MR.VisualObject</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a1817de989535c1eda08bbfd8cfa9ced2" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator ObjectLinesHolder?</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a58f13df1ea6235b94d4fbae64653c529" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>operator ObjectLinesHolder?</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a836c722a3aacd2a7ae141f4a53c4d503" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>polyline</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a469ad6102789a8fc9ad0d468aabd9a1b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a488e52d32720f183129a9fc7b7279fd1" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a865d0b2b55cff3656b2e7c2afbd6b306" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ac9e5f2de325ddd8747a9c69f78060f55" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1aecd23d2e520f97a001614491b05be570" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>renderUi</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a497a6ffbee081140099e22359592d6c4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a0924abaa14763f5372d0e7d013522513" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad5355bc9b3026b33c7d6af2be4c3bb65" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a83dfbb04681642ae725e5eae9828ed7c" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1af3e57042921a4d72b0b27fa32ecfb86a" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a9bc5c65a915adf6fd066441efc60a8e1" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a84f64de5bb5aaba2a4cf0c8939450a5f" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>sameModels</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1ae54a88db297faf27e316329a7a5e04e6" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>select</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a22cc60c1959300d8156d8b3a6ba09856" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1add5a3039c1f2aa9b17621c652da9d807" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setAmbientStrength</name></member>
@@ -1329,11 +1398,25 @@
       <member refid="classMR_1_1ObjectLinesHolder_1add4200bb273aa1ad688ee04e87dd7cab" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a23bc2d8563b97833cb33687d1e4966b9" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setXf</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a65593e1d76b4abbeee51ec9ff2571be0" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a9e6edb5fb746238f67886f4ffd161b73" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ae8430a6c452b050b2d37fcf6336bd659" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a49456270c385529352de0504d1fa88cc" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1adb2a8454189f5efedd1f4b4373be8c74" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ac6f0c0ce3a8715037e921a77c3d9379b" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a879e9f8c489515707601afe379326175" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1ad18e22707d38e559f1f175f0812b7ddc" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a63cd86411490fdcf18e95acd0c79eb38" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a6409e2ec45fd809c031b9f260f5affed" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>tags</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1aa9fb8aee413ecbc091db272247b1fa36" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a8e9d239057f099fa595c585ae2cc6555" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>totalLength</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a28abe764e37aafba71c61200a56cf8f5" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>typeName</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a369d8a9801b01a0ebd04e2344257cff4" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>updateLinesColorMap</name></member>
       <member refid="classMR_1_1ObjectLinesHolder_1a525aed64853ffb3c819c3e7fe22635e7" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>updateVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a28e299b59e10ab26d5885f9e122e6671" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a95432f5baa7e0d423febd594d9f64a37" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1afe018df05112f2e187278b2ea15f1440" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a406adf9cb4c3111bb780db82a88c740f" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectLinesHolder_1a7a3b9d2dc4839a5ab81a560f9b0a27a3" prot="public" virt="non-virtual"><scope>MR::ObjectLinesHolder</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

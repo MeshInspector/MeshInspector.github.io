@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MakeBridgeResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MakeBridgeResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MakeBridgeResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MakeBridgeResult" prot="public" virt="non-virtual">MR.Const_MakeBridgeResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MakeBridgeResult_1abc534380bccfe8c92250391a9680fdbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -124,7 +124,7 @@
         <name>MakeBridgeResult</name>
         <qualifiedname>MR.MakeBridgeResult.MakeBridgeResult</qualifiedname>
         <param>
-          <type>MR.Const_MakeBridgeResult</type>
+          <type><ref refid="classMR_1_1Const__MakeBridgeResult" kindref="compound">MR.Const_MakeBridgeResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.MakeBridgeResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_MakeBridgeResult</type>
+          <type><ref refid="classMR_1_1Const__MakeBridgeResult" kindref="compound">MR.Const_MakeBridgeResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MakeBridgeResult</label>
+        <link refid="classMR_1_1Const__MakeBridgeResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MakeBridgeResult</label>
         <link refid="classMR_1_1MakeBridgeResult"/>
@@ -210,9 +215,14 @@
       </node>
       <node id="2">
         <label>MR.Const_MakeBridgeResult</label>
+        <link refid="classMR_1_1Const__MakeBridgeResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_na</edgelabel>
+          <edgelabel>__ref_storage_nb</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,7 +234,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1332" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1333" bodyend="1410"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1a1146b6bab6e4f005a33b94aba9887238" prot="protected" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>__ref_storage_na</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1af02d7360f49d60735e1f9bef06ca7de2" prot="protected" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>__ref_storage_nb</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1aab9ca09976f27060c0420806db1f4770" prot="protected" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>__ref_storage_newFaces</name></member>
       <member refid="classMR_1_1MakeBridgeResult_1a9861549bf0510775a5face7c13e05893" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1aa7bc39fbac258988cddeabd5027d01bd" prot="package" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>Const_MakeBridgeResult</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1ab6ec33eab511e4f21616384abcfd8943" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>Const_MakeBridgeResult</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1ac1c75573555925da194975d20d8963ae" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>Const_MakeBridgeResult</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1aa6701287f0edbc38ef58ca6f1a08c58d" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>Const_MakeBridgeResult</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1a548708504591b5eb2d069a05cc4a84da" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>Const_MakeBridgeResult</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1a557accf4ec605934b904924dd8a0c809" prot="protected" virt="virtual"><scope>MR::MakeBridgeResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1ad12b5635885b6ff01575663cc995f4b4" prot="public" virt="virtual"><scope>MR::MakeBridgeResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MakeBridgeResult_1a6ba94b8aa04f6f3358b6cc315aa567ee" prot="package" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>MakeBridgeResult</name></member>
       <member refid="classMR_1_1MakeBridgeResult_1ad12fab67f8b0eee7cd08814876cee084" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>MakeBridgeResult</name></member>
       <member refid="classMR_1_1MakeBridgeResult_1a5f594da16b372034261faae119b7d983" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>MakeBridgeResult</name></member>
@@ -233,6 +253,7 @@
       <member refid="classMR_1_1MakeBridgeResult_1a7ca2fa06da18ab30a58b7d33f19bcc33" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>na</name></member>
       <member refid="classMR_1_1MakeBridgeResult_1a590ce224edcb5c603b2ecb89602da461" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>nb</name></member>
       <member refid="classMR_1_1MakeBridgeResult_1abc534380bccfe8c92250391a9680fdbf" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>newFaces</name></member>
+      <member refid="classMR_1_1Const__MakeBridgeResult_1af14a69a5cd6fcdd7b72296d06b77bedf" prot="public" virt="non-virtual"><scope>MR::MakeBridgeResult</scope><name>operator bool</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

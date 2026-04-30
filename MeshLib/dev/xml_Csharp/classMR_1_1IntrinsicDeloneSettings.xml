@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IntrinsicDeloneSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::IntrinsicDeloneSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IntrinsicDeloneSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IntrinsicDeloneSettings" prot="public" virt="non-virtual">MR.Const_IntrinsicDeloneSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1IntrinsicDeloneSettings_1a6c0054a8013358c74ea9b00801170dec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="550" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="550" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IntrinsicDeloneSettings_1aaead0958e70cc50a06e4397e45e0053c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_FaceBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
         <definition>new unsafe MR.? Const_FaceBitSet MR.IntrinsicDeloneSettings.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -35,7 +35,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="555" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="556" bodyend="565"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IntrinsicDeloneSettings_1a82a9a8e7e6e1f107af6dd2d461f82594" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_UndirectedEdgeBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">Const_UndirectedEdgeBitSet</ref></type>
         <definition>new unsafe MR.? Const_UndirectedEdgeBitSet MR.IntrinsicDeloneSettings.notFlippable</definition>
         <argsstring></argsstring>
         <name>notFlippable</name>
@@ -50,7 +50,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="570" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="571" bodyend="580"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IntrinsicDeloneSettings_1a09208d21d7e5e0ef57b0beb7dce16361" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.IntrinsicDeloneSettings.vertRegion</definition>
         <argsstring></argsstring>
         <name>vertRegion</name>
@@ -116,15 +116,15 @@
           <declname>threshold</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>notFlippable</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>vertRegion</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>IntrinsicDeloneSettings</name>
         <qualifiedname>MR.IntrinsicDeloneSettings.IntrinsicDeloneSettings</qualifiedname>
         <param>
-          <type>MR.Const_IntrinsicDeloneSettings</type>
+          <type><ref refid="classMR_1_1Const__IntrinsicDeloneSettings" kindref="compound">MR.Const_IntrinsicDeloneSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>assign</name>
         <qualifiedname>MR.IntrinsicDeloneSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_IntrinsicDeloneSettings</type>
+          <type><ref refid="classMR_1_1Const__IntrinsicDeloneSettings" kindref="compound">MR.Const_IntrinsicDeloneSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IntrinsicDeloneSettings</label>
+        <link refid="classMR_1_1Const__IntrinsicDeloneSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.IntrinsicDeloneSettings</label>
         <link refid="classMR_1_1IntrinsicDeloneSettings"/>
@@ -229,9 +234,15 @@
       </node>
       <node id="2">
         <label>MR.Const_IntrinsicDeloneSettings</label>
+        <link refid="classMR_1_1Const__IntrinsicDeloneSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_vertRegion</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,7 +254,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="544" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="545" bodyend="659"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1aac0e64f5543356af199dad300146046f" prot="protected" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1ab553140f1f188d2c968912e738ea4cf2" prot="protected" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1a51a012c62890598a8353280220f8aa93" prot="protected" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>__ptr_storage_vertRegion</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1ac6664f8fcb77eeec26bbd488310e5ea9" prot="protected" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>__ref_storage_threshold</name></member>
       <member refid="classMR_1_1IntrinsicDeloneSettings_1ae444a57599fe0e7e70517fd653413397" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1a6e045fb53aa0a3a861efe16060fa55aa" prot="package" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>Const_IntrinsicDeloneSettings</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1a74d15b20b9f6fde31c57b049d760629d" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>Const_IntrinsicDeloneSettings</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1ad8595af987866670413f58563ff73a6d" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>Const_IntrinsicDeloneSettings</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1a77a85e5418c0b9b53da7ebf6983523e6" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>Const_IntrinsicDeloneSettings</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1a26d72df087101a555e7fa705d52c3d22" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>Const_IntrinsicDeloneSettings</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1ac5bad97c760890adb4bcb504f851b2b8" prot="protected" virt="virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IntrinsicDeloneSettings_1ac57190a07680563b603a652d8a640f19" prot="public" virt="virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IntrinsicDeloneSettings_1a0aa04771e709a08f4a145c4bef0b332d" prot="package" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>IntrinsicDeloneSettings</name></member>
       <member refid="classMR_1_1IntrinsicDeloneSettings_1a951573c17b684ec83d88ad5d360623e9" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>IntrinsicDeloneSettings</name></member>
       <member refid="classMR_1_1IntrinsicDeloneSettings_1ac46a434cc82b6b329c4b5dc70f3d3958" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>IntrinsicDeloneSettings</name></member>

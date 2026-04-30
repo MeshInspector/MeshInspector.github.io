@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeshOrPointsObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeshOrPointsObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshOrPointsObject" prot="public" virt="non-virtual">MR.MeshOrPointsObject</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1ab86a33099f37cd1a6cc76e7fe05d8ed8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MeshOrPointsObject.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a9a9b68609466c68c2732b1a46ef16dda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MeshOrPointsObject.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a556b3ae7786a52fab836f07807041316" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="32" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1ada96cb8ed3c96a8925fca9c4a826c4ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</definition>
+        <argsstring>(MR._ByValue_MeshOrPointsObject _other)</argsstring>
+        <name>Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshOrPointsObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="42" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1ac07113afc7548218c7058bc7217ad5b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</definition>
+        <argsstring>(Const_MeshOrPointsObject _other)</argsstring>
+        <name>Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsObject" kindref="compound">Const_MeshOrPointsObject</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="53" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1aeaf411692f6a4e226d228ae398324d33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</definition>
+        <argsstring>(MeshOrPointsObject _other)</argsstring>
+        <name>Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshOrPointsObject" kindref="compound">MeshOrPointsObject</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="58" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a0d068de51da6b7116be2f016a234a5b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRVisualObject vo)</argsstring>
+        <name>Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRVisualObject</type>
+          <declname>vo</declname>
+        </param>
+        <briefdescription>
+<para>construct, automatically detecting the object type (<ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> or ObjectPoint) if set an another type, will be reset Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="65" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="65" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a3b71337c138ee25f1d96481e4dd197b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectMesh om)</argsstring>
+        <name>Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
+          <declname>om</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="83" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="83" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a0a2129b1b4c7d80d7bb503b43a5229a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectPoints op)</argsstring>
+        <name>Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectPoints</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="99" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1ac95bcdcf9ff96fed1f7342ab0dfa437e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></type>
+        <definition>unsafe MR.? ObjectMesh MR.Const_MeshOrPointsObject.asObjectMesh</definition>
+        <argsstring>()</argsstring>
+        <name>asObjectMesh</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.asObjectMesh</qualifiedname>
+        <briefdescription>
+<para>if holding <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>, return pointer to it, otherwise return nullptr Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshOrPointsObject_1ac95bcdcf9ff96fed1f7342ab0dfa437e" kindref="member">MR.MeshOrPointsObject.asObjectMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="116" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1ad50104ead7bbc92b2065df74f55b9366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+        <definition>unsafe MR.? ObjectPoints MR.Const_MeshOrPointsObject.asObjectPoints</definition>
+        <argsstring>()</argsstring>
+        <name>asObjectPoints</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.asObjectPoints</qualifiedname>
+        <briefdescription>
+<para>if holding <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>, return pointer to it, otherwise return nullptr Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshOrPointsObject_1ad50104ead7bbc92b2065df74f55b9366" kindref="member">MR.MeshOrPointsObject.asObjectPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="128" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="128" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a8aab65eb7fcafba2265c33d0e677f066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_MRVisualObject</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_MRVisualObject MR.Const_MeshOrPointsObject.arrow</definition>
+        <argsstring>()</argsstring>
+        <name>arrow</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.arrow</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::MeshOrPointsObject::operator-&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="139" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="139" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1aabe7c6acfb0c9c983560e7632890dfdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_MRVisualObject</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_MRVisualObject MR.Const_MeshOrPointsObject.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshOrPointsObject_1aabe7c6acfb0c9c983560e7632890dfdb" kindref="member">MR.MeshOrPointsObject.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="149" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="149" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a9ab034da7c487609a4be1bab217844b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshOrPoints" kindref="compound">MR.MeshOrPoints</ref></type>
+        <definition>unsafe MR.MeshOrPoints MR.Const_MeshOrPointsObject.meshOrPoints</definition>
+        <argsstring>()</argsstring>
+        <name>meshOrPoints</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.meshOrPoints</qualifiedname>
+        <briefdescription>
+<para>get class that hold either mesh part or point cloud Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshOrPointsObject_1a9ab034da7c487609a4be1bab217844b2" kindref="member">MR.MeshOrPointsObject.meshOrPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="175" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="175" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a013d2968cd8da2f05a386f1e67c9abdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_MeshOrPointsObject.Equals</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRVisualObject? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Equals</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRVisualObject?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="184" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a7235687b01da463fd192d6d56c5ec065" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_MeshOrPointsObject.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="191" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="191" bodyend="198"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a467f7226e5de9afa083b17b8f54d6787" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshOrPointsObject.~Const_MeshOrPointsObject</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.~Const_MeshOrPointsObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a9219b46774729bc6dd4e2432a918a0b1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="27" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1ad3fd69b8da20ef26fd784893f082cdfa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_MeshOrPointsObject.operator Const_MeshOrPointsObject</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRVisualObject vo)</argsstring>
+        <name>operator Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.operator Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRVisualObject</type>
+          <declname>vo</declname>
+        </param>
+        <briefdescription>
+<para>construct, automatically detecting the object type (<ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> or ObjectPoint) if set an another type, will be reset Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="78" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1ac674fce55a1c30616497bf493382db31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_MeshOrPointsObject.operator Const_MeshOrPointsObject</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectMesh om)</argsstring>
+        <name>operator Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.operator Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectMesh</type>
+          <declname>om</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="94" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a40a2d7ba293a925c52cdc6c8713bc6c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_MeshOrPointsObject.operator Const_MeshOrPointsObject</definition>
+        <argsstring>(MR.Std._ByValue_SharedPtr_MRObjectPoints op)</argsstring>
+        <name>operator Const_MeshOrPointsObject</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.operator Const_MeshOrPointsObject</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRObjectPoints</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" kindref="member">MR.MeshOrPointsObject.MeshOrPointsObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="110" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1ae8ff5b08c0fe35856a2621e36625b82e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_MeshOrPointsObject.operator==</definition>
+        <argsstring>(MR.Const_MeshOrPointsObject _this, MR.Std._ByValue_SharedPtr_MRVisualObject other)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsObject" kindref="compound">MR.Const_MeshOrPointsObject</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRVisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::MeshOrPointsObject::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="159" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="159" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPointsObject_1a45b77d98599c01e963df1972b334841e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_MeshOrPointsObject.operator!=</definition>
+        <argsstring>(MR.Const_MeshOrPointsObject _this, MR.Std._ByValue_SharedPtr_MRVisualObject other)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_MeshOrPointsObject.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsObject" kindref="compound">MR.Const_MeshOrPointsObject</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRVisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="166" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="166" bodyend="169"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class can hold either <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> or ObjectPoint It is used for convenient storage and operation with any of them Generated from class <computeroutput><ref refid="classMR_1_1MeshOrPointsObject" kindref="compound">MR.MeshOrPointsObject</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeshOrPointsObject</label>
+        <link refid="classMR_1_1Const__MeshOrPointsObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.MeshOrPointsObject</label>
+        <link refid="classMR_1_1MeshOrPointsObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_MeshOrPointsObject</label>
+        <link refid="classMR_1_1Const__MeshOrPointsObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="10" bodyend="199"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a8aab65eb7fcafba2265c33d0e677f066" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>arrow</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ac95bcdcf9ff96fed1f7342ab0dfa437e" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>asObjectMesh</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ad50104ead7bbc92b2065df74f55b9366" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>asObjectPoints</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a9219b46774729bc6dd4e2432a918a0b1" prot="package" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a556b3ae7786a52fab836f07807041316" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ada96cb8ed3c96a8925fca9c4a826c4ad" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ac07113afc7548218c7058bc7217ad5b2" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1aeaf411692f6a4e226d228ae398324d33" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a0d068de51da6b7116be2f016a234a5b1" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a3b71337c138ee25f1d96481e4dd197b8" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a0a2129b1b4c7d80d7bb503b43a5229a3" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ab86a33099f37cd1a6cc76e7fe05d8ed8" prot="protected" virt="virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a9a9b68609466c68c2732b1a46ef16dda" prot="public" virt="virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a013d2968cd8da2f05a386f1e67c9abdc" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a7235687b01da463fd192d6d56c5ec065" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1aabe7c6acfb0c9c983560e7632890dfdb" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a9ab034da7c487609a4be1bab217844b2" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>meshOrPoints</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ad3fd69b8da20ef26fd784893f082cdfa" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>operator Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ac674fce55a1c30616497bf493382db31" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>operator Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a40a2d7ba293a925c52cdc6c8713bc6c1" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>operator Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a45b77d98599c01e963df1972b334841e" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ae8ff5b08c0fe35856a2621e36625b82e" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a467f7226e5de9afa083b17b8f54d6787" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPointsObject</scope><name>~Const_MeshOrPointsObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

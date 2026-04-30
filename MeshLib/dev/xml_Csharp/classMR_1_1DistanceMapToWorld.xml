@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMapToWorld" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceMapToWorld</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceMapToWorld</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DistanceMapToWorld" prot="public" virt="non-virtual">MR.Const_DistanceMapToWorld</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DistanceMapToWorld_1ae01bf1c69ad598b8964fc54af973e051" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -121,7 +121,7 @@
         <name>DistanceMapToWorld</name>
         <qualifiedname>MR.DistanceMapToWorld.DistanceMapToWorld</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMapToWorld</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapToWorld" kindref="compound">MR.Const_DistanceMapToWorld</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -159,7 +159,7 @@
         <name>DistanceMapToWorld</name>
         <qualifiedname>MR.DistanceMapToWorld.DistanceMapToWorld</qualifiedname>
         <param>
-          <type>MR.Const_MeshToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceMapParams" kindref="compound">MR.Const_MeshToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -178,7 +178,7 @@
         <name>DistanceMapToWorld</name>
         <qualifiedname>MR.DistanceMapToWorld.DistanceMapToWorld</qualifiedname>
         <param>
-          <type>MR.Const_ContourToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__ContourToDistanceMapParams" kindref="compound">MR.Const_ContourToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -216,7 +216,7 @@
         <name>assign</name>
         <qualifiedname>MR.DistanceMapToWorld.assign</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMapToWorld</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapToWorld" kindref="compound">MR.Const_DistanceMapToWorld</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -237,7 +237,7 @@
         <name>operator DistanceMapToWorld</name>
         <qualifiedname>MR.DistanceMapToWorld.operator DistanceMapToWorld</qualifiedname>
         <param>
-          <type>MR.Const_MeshToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceMapParams" kindref="compound">MR.Const_MeshToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -256,7 +256,7 @@
         <name>operator DistanceMapToWorld</name>
         <qualifiedname>MR.DistanceMapToWorld.operator DistanceMapToWorld</qualifiedname>
         <param>
-          <type>MR.Const_ContourToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__ContourToDistanceMapParams" kindref="compound">MR.Const_ContourToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -302,6 +302,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceMapToWorld</label>
+        <link refid="classMR_1_1Const__DistanceMapToWorld"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -315,6 +316,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DistanceMapToWorld</label>
         <link refid="classMR_1_1DistanceMapToWorld"/>
@@ -323,9 +328,16 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceMapToWorld</label>
+        <link refid="classMR_1_1Const__DistanceMapToWorld"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_direction</edgelabel>
+          <edgelabel>__ref_storage_orgPoint</edgelabel>
+          <edgelabel>__ref_storage_pixelXVec</edgelabel>
+          <edgelabel>__ref_storage_pixelYVec</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -337,8 +349,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1346" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1347" bodyend="1480"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1ae6162b88a7d28a0ffd3599f089c8d581" prot="protected" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>__ref_storage_direction</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a3f7bd4e98f6e927cea66bf1dcf9db8a1" prot="protected" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>__ref_storage_orgPoint</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1ad5da5fe89131c1affbe590cf03f9ad41" prot="protected" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>__ref_storage_pixelXVec</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a18b531486a0ce99bb74dd8243fe02243" prot="protected" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>__ref_storage_pixelYVec</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a71cd15348b85a411d7c32f3a131bf6ee" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a349f6f353dffc5d0ed5a197167e5413d" prot="package" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>Const_DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a29dcbc511650dadb4356f7d30b02c20e" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>Const_DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a6047ab7720ccd9ddf71a1e35588c6511" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>Const_DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a6f8a5d4088f30adb0c5e454aad90d3e1" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>Const_DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1ab613eb5d68e34adc337a3a42dde2125a" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>Const_DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a47e5fb998661c15dd540fa9197589e6e" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>Const_DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a8d88f7ed396ff1cf279c92bad5160265" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>Const_DistanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a5738206ef6e1203005535f1c21288fa2" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>direction</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1aad85d2b2934c190c530190780537edcf" prot="protected" virt="virtual"><scope>MR::DistanceMapToWorld</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a7f4c303ee999708733325eeb1f5c9bbd" prot="public" virt="virtual"><scope>MR::DistanceMapToWorld</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a74a82b4916b88d7f8f544fd7b78b7070" prot="package" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1adf79ddae6bfde2f4c815b2dcabb7760d" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a33fdd1e343b40d882e13bb29fba77111" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
@@ -346,12 +371,18 @@
       <member refid="classMR_1_1DistanceMapToWorld_1a72e88e17f64ad791e8094559f2cc3ee3" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a2460b9ac7406e4bfe47f7297065dcf27" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a33a09f7b1cbf03e01de0d67bdcc9ee0c" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1ac724c97438851086451b7ecc3255e4cb" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>operator Const_DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a5bc216e801a93b02781f870eb965a4dd" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>operator Const_DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a62b2bef46c3fc9a466bad392b0451f97" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>operator Const_DistanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1ac1023623f740e6311e402e3353dac47e" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>operator DistanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a88a6c37ca2375d6901ed65ebebdae8dc" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>operator DistanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a18a27180350c5ff5fb355a9ce25c59a5" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>operator DistanceMapToWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a8138c497734f9e845c48af5c4f6fcc10" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>operator MR.AffineXf3f</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1ae01bf1c69ad598b8964fc54af973e051" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>orgPoint</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1a6f8ee7b73a16f41db4f310ef9c50bdac" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>pixelXVec</name></member>
       <member refid="classMR_1_1DistanceMapToWorld_1aa3abd2a558c2e1064c518788b02f13d5" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>pixelYVec</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1ae64dbb8b98e5399d89e0c2cdc8cd2b9b" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>toWorld</name></member>
+      <member refid="classMR_1_1Const__DistanceMapToWorld_1a6cccfacd5632543d66e9ab77777855c0" prot="public" virt="non-virtual"><scope>MR::DistanceMapToWorld</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

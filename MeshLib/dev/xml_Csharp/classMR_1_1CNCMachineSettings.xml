@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CNCMachineSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::CNCMachineSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CNCMachineSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CNCMachineSettings" prot="public" virt="non-virtual">MR.Const_CNCMachineSettings</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1CNCMachineSettings_1a96a48f21d0f72fdd7df57b610b50abf8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -70,7 +70,7 @@
         <name>CNCMachineSettings</name>
         <qualifiedname>MR.CNCMachineSettings.CNCMachineSettings</qualifiedname>
         <param>
-          <type>Const_CNCMachineSettings</type>
+          <type><ref refid="classMR_1_1Const__CNCMachineSettings" kindref="compound">Const_CNCMachineSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -127,7 +127,7 @@
         <name>setRotationAxis</name>
         <qualifiedname>MR.CNCMachineSettings.setRotationAxis</qualifiedname>
         <param>
-          <type>MR.CNCMachineSettings.RotationAxisName</type>
+          <type><ref refid="classMR_1_1Const__CNCMachineSettings_1a012812bc82f5fd6fb4548955005395a7" kindref="member">MR.CNCMachineSettings.RotationAxisName</ref></type>
           <declname>paramName</declname>
         </param>
         <param>
@@ -150,7 +150,7 @@
         <name>setRotationLimits</name>
         <qualifiedname>MR.CNCMachineSettings.setRotationLimits</qualifiedname>
         <param>
-          <type>MR.CNCMachineSettings.RotationAxisName</type>
+          <type><ref refid="classMR_1_1Const__CNCMachineSettings_1a012812bc82f5fd6fb4548955005395a7" kindref="member">MR.CNCMachineSettings.RotationAxisName</ref></type>
           <declname>paramName</declname>
         </param>
         <param>
@@ -230,7 +230,7 @@
         <name>Equals</name>
         <qualifiedname>MR.CNCMachineSettings.Equals</qualifiedname>
         <param>
-          <type>MR.Const_CNCMachineSettings?</type>
+          <type><ref refid="classMR_1_1Const__CNCMachineSettings" kindref="compound">MR.Const_CNCMachineSettings</ref>?</type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -272,7 +272,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Const_CNCMachineSettings</type>
+          <type><ref refid="classMR_1_1Const__CNCMachineSettings" kindref="compound">MR.Const_CNCMachineSettings</ref></type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -295,7 +295,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Const_CNCMachineSettings</type>
+          <type><ref refid="classMR_1_1Const__CNCMachineSettings" kindref="compound">MR.Const_CNCMachineSettings</ref></type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -323,6 +323,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CNCMachineSettings</label>
+        <link refid="classMR_1_1Const__CNCMachineSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -349,6 +350,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CNCMachineSettings</label>
+        <link refid="classMR_1_1Const__CNCMachineSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -372,10 +374,24 @@
       <member refid="classMR_1_1CNCMachineSettings_1a132a8bff9228105157d3173e487f921c" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>CNCMachineSettings</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1a71343f7e63e5ab7e071e81df9a0b10ee" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>CNCMachineSettings</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1a9cf4aba6b7bc597e704fd3b8624dbe4a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>CNCMachineSettings</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1af4b01817d3a53d7f1ea70ee715f3c3e9" prot="package" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Const_CNCMachineSettings</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1a75e9c393463ac8d3ffc30b7f251ee328" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Const_CNCMachineSettings</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1a41e8d8f18b7750ff08576785b0266fd2" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Const_CNCMachineSettings</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1adb2c2c37f93c216bfadeee4a0abcfd37" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Const_CNCMachineSettings</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1a9e44b4f5d7dada9588191e6f4660697d" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Const_CNCMachineSettings</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1a61c5e53033d50ed711c0ce217172190d" prot="protected" virt="virtual"><scope>MR::CNCMachineSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1a69c99d26d6ecb9cd73208f08a5f875bb" prot="public" virt="virtual"><scope>MR::CNCMachineSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1a49a5713cd05b825f45bd113702303424" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Equals</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1a171d75b6d259c0b4818c8a7410e75cf0" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1a2d1969c3245bc7c1b34bc1c0478eedbe" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getAxesCount</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1ab6b8f2fb1d5a02ca7a4f722c9bb4564b" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getFeedrateIdle</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1a12aeb41b60d0a1bf420d49147b656777" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getHomePosition</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1adac848440e55dd7f1e81119c82fa739a" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationAxis</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1ad10baedf4aeab435b20a77c80609b9bf" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationLimits</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1af2824d9cd018a0ecedba27c811d34f9f" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>getRotationOrder</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1ad9107ddb6c62812ccad2bb4b16018c59" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator!=</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1a4dd9282030f1490657fde831d167695b" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__CNCMachineSettings_1a012812bc82f5fd6fb4548955005395a7" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>RotationAxisName</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1a7c5a3d8b7e6f235b34f24802618d9164" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setFeedrateIdle</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1a79d26578bb84a72e098ced3fca4517ab" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setHomePosition</name></member>
       <member refid="classMR_1_1CNCMachineSettings_1aa751b0b116d67b9cb83085125cb1efd2" prot="public" virt="non-virtual"><scope>MR::CNCMachineSettings</scope><name>setRotationAxis</name></member>

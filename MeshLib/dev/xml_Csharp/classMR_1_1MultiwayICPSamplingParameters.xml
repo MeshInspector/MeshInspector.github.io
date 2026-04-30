@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MultiwayICPSamplingParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::MultiwayICPSamplingParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MultiwayICPSamplingParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MultiwayICPSamplingParameters" prot="public" virt="non-virtual">MR.Const_MultiwayICPSamplingParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MultiwayICPSamplingParameters_1a48bd9dd98342105b5d0d51738cb27e80" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -35,7 +35,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="924" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="924" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MultiwayICPSamplingParameters_1ab63c7f7a5e0e6569a14f1d5d2087cce1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.MultiwayICPSamplingParameters.CascadeMode</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311" kindref="member">MR.MultiwayICPSamplingParameters.CascadeMode</ref></type>
         <definition>new unsafe ref MR.MultiwayICPSamplingParameters.CascadeMode MR.MultiwayICPSamplingParameters.cascadeMode</definition>
         <argsstring></argsstring>
         <name>cascadeMode</name>
@@ -119,7 +119,7 @@
           <declname>maxGroupSize</declname>
         </param>
         <param>
-          <type>MR.MultiwayICPSamplingParameters.CascadeMode</type>
+          <type><ref refid="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311" kindref="member">MR.MultiwayICPSamplingParameters.CascadeMode</ref></type>
           <declname>cascadeMode</declname>
         </param>
         <param>
@@ -161,7 +161,7 @@
         <name>MultiwayICPSamplingParameters</name>
         <qualifiedname>MR.MultiwayICPSamplingParameters.MultiwayICPSamplingParameters</qualifiedname>
         <param>
-          <type>Const_MultiwayICPSamplingParameters</type>
+          <type><ref refid="classMR_1_1Const__MultiwayICPSamplingParameters" kindref="compound">Const_MultiwayICPSamplingParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MultiwayICPSamplingParameters</label>
+        <link refid="classMR_1_1Const__MultiwayICPSamplingParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -239,6 +240,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MultiwayICPSamplingParameters</label>
         <link refid="classMR_1_1MultiwayICPSamplingParameters"/>
@@ -247,9 +252,13 @@
       </node>
       <node id="2">
         <label>MR.Const_MultiwayICPSamplingParameters</label>
+        <link refid="classMR_1_1Const__MultiwayICPSamplingParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_cascadeMode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -261,9 +270,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="911" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="912" bodyend="1013"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a7d6764a4baecb03ccd7fc48c3e3c2365" prot="protected" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>__ref_storage_cascadeMode</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a9f9cc2590bb83694b4d8e7287a8b7a1a" prot="protected" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>__ref_storage_maxGroupSize</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a07718c96bdacb6829c5e9fce96e24613" prot="protected" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>__ref_storage_samplingVoxelSize</name></member>
       <member refid="classMR_1_1MultiwayICPSamplingParameters_1ad82f76fc8bb257c4bda7e5ac2c7600b2" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>CascadeMode</name></member>
       <member refid="classMR_1_1MultiwayICPSamplingParameters_1ab63c7f7a5e0e6569a14f1d5d2087cce1" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>cascadeMode</name></member>
       <member refid="classMR_1_1MultiwayICPSamplingParameters_1afee9493023ac9b8ef5f20c608251dfc4" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a39301b6a868d1e7abb49347a32b42563" prot="package" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a663a6b2133aafd1b7ffdc4dc3a7b7e2e" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1af39a94f2c0354825ab609a29194d8385" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1aa228dcfefdd697669166380ac8218651" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a91a3a21706f6e7d36877cae048cd57f4" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1abd6bb3a3a49ec37e7785c1af7e964005" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1aa9c50fcbddd2a5f51a2f3dea175fa675" prot="protected" virt="virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a78640ca54b81a371c007bf1e2f468b6b" prot="public" virt="virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MultiwayICPSamplingParameters_1ad54766e983baa153a76d2e66ce965ed5" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>maxGroupSize</name></member>
       <member refid="classMR_1_1MultiwayICPSamplingParameters_1a4d9dfe2afd5610de6a531f9b0a7dd682" prot="package" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>MultiwayICPSamplingParameters</name></member>
       <member refid="classMR_1_1MultiwayICPSamplingParameters_1a1ca04452c7afca249c072c61522ae65d" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>MultiwayICPSamplingParameters</name></member>

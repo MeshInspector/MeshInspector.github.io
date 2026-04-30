@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PointOnFace" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PointOnFace</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PointOnFace" prot="public" virt="non-virtual">MR.PointOnFace</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PointOnFace_1aba7c0ed0693ea8dee2d1a3d3c1471280" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref readonly MR.FaceId MR.Const_PointOnFace.face</definition>
+        <argsstring></argsstring>
+        <name>face</name>
+        <qualifiedname>MR.Const_PointOnFace.face</qualifiedname>
+        <briefdescription>
+<para>mesh's face containing the point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="29" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointOnFace_1acb2cc87917034e122819f9da1a7c612a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_PointOnFace.point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>MR.Const_PointOnFace.point</qualifiedname>
+        <briefdescription>
+<para>a point of the mesh's face </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="35" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__PointOnFace_1a395bed780fe569d2ac30785af7ccd3bc" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+        <definition>unsafe MR.FaceId* MR.Const_PointOnFace.__ref_storage_face</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_face</name>
+        <qualifiedname>MR.Const_PointOnFace.__ref_storage_face</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="30" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PointOnFace_1afd806d35695cb2198e106156679c315c" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_PointOnFace.__ref_storage_point</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_point</name>
+        <qualifiedname>MR.Const_PointOnFace.__ref_storage_point</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="36" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1a34dc12cbf4e417c42d5bb95b1c7e508d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PointOnFace.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointOnFace.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1abf2d12eca2518f7ab6b56152292e5a3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PointOnFace.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointOnFace.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1a6bb59e58aa995aa280a18ae71aa8502e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointOnFace.Const_PointOnFace</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PointOnFace</name>
+        <qualifiedname>MR.Const_PointOnFace.Const_PointOnFace</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="69" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="69" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1a9d46a4cf5849e053abe7f3c341d66a7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointOnFace.Const_PointOnFace</definition>
+        <argsstring>(MR.FaceId face, MR.Vector3f point)</argsstring>
+        <name>Const_PointOnFace</name>
+        <qualifiedname>MR.Const_PointOnFace.Const_PointOnFace</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>face</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1af9957deccc186f4296668bf53b97b239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointOnFace.Const_PointOnFace</definition>
+        <argsstring>(MR.Const_PointOnFace _other)</argsstring>
+        <name>Const_PointOnFace</name>
+        <qualifiedname>MR.Const_PointOnFace.Const_PointOnFace</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointOnFace_1a21df00bf253dec0dacb806c1c16c6955" kindref="member">MR.PointOnFace.PointOnFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1a2377129bd1ae9c7d73383d2586d5b122" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointOnFace.Const_PointOnFace</definition>
+        <argsstring>(PointOnFace _other)</argsstring>
+        <name>Const_PointOnFace</name>
+        <qualifiedname>MR.Const_PointOnFace.Const_PointOnFace</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointOnFace_1a21df00bf253dec0dacb806c1c16c6955" kindref="member">MR.PointOnFace.PointOnFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1acbc3666316bb7605943da89b13b0a2fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_PointOnFace.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_PointOnFace.valid</qualifiedname>
+        <briefdescription>
+<para>check for validity, otherwise the point is not defined Generated from method <computeroutput><ref refid="classMR_1_1Const__PointOnFace_1acbc3666316bb7605943da89b13b0a2fc" kindref="member">MR.PointOnFace.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="119" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="119" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1a65ba4473828166eb1f0e9b72780184a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointOnFace.~Const_PointOnFace</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PointOnFace</name>
+        <qualifiedname>MR.Const_PointOnFace.~Const_PointOnFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1a0670fe661c9ae72d9a4883dfd93a1e03" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointOnFace.Const_PointOnFace</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PointOnFace</name>
+        <qualifiedname>MR.Const_PointOnFace.Const_PointOnFace</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="58" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="58" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnFace_1a760d1e0dce744d067915d26cca9bb268" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_PointOnFace.operator bool</definition>
+        <argsstring>(MR.Const_PointOnFace _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_PointOnFace.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::PointOnFace::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="108" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="108" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a point located on some mesh's face Generated from class <computeroutput><ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PointOnFace</label>
+        <link refid="classMR_1_1Const__PointOnFace"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PointOnFace</label>
+        <link refid="classMR_1_1PointOnFace"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_PointOnFace</label>
+        <link refid="classMR_1_1Const__PointOnFace"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_face</edgelabel>
+          <edgelabel>__ref_storage_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="9" bodyend="125"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PointOnFace_1a395bed780fe569d2ac30785af7ccd3bc" prot="protected" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>__ref_storage_face</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1afd806d35695cb2198e106156679c315c" prot="protected" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>__ref_storage_point</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a0670fe661c9ae72d9a4883dfd93a1e03" prot="package" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a6bb59e58aa995aa280a18ae71aa8502e" prot="public" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a9d46a4cf5849e053abe7f3c341d66a7f" prot="public" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1af9957deccc186f4296668bf53b97b239" prot="public" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a2377129bd1ae9c7d73383d2586d5b122" prot="public" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a34dc12cbf4e417c42d5bb95b1c7e508d" prot="protected" virt="virtual"><scope>MR::Const_PointOnFace</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1abf2d12eca2518f7ab6b56152292e5a3d" prot="public" virt="virtual"><scope>MR::Const_PointOnFace</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1aba7c0ed0693ea8dee2d1a3d3c1471280" prot="public" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>face</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a760d1e0dce744d067915d26cca9bb268" prot="public" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1acb2cc87917034e122819f9da1a7c612a" prot="public" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>point</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1acbc3666316bb7605943da89b13b0a2fc" prot="public" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a65ba4473828166eb1f0e9b72780184a0" prot="private" virt="non-virtual"><scope>MR::Const_PointOnFace</scope><name>~Const_PointOnFace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

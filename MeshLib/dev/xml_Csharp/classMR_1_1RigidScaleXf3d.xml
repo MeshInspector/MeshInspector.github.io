@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RigidScaleXf3d" kind="class" language="C#" prot="public">
     <compoundname>MR::RigidScaleXf3d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RigidScaleXf3d</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RigidScaleXf3d" prot="public" virt="non-virtual">MR.Const_RigidScaleXf3d</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1RigidScaleXf3d_1a010e68cd9624052f63f817165e86deec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -97,7 +97,7 @@
         <name>RigidScaleXf3d</name>
         <qualifiedname>MR.RigidScaleXf3d.RigidScaleXf3d</qualifiedname>
         <param>
-          <type>MR.Const_RigidScaleXf3d</type>
+          <type><ref refid="classMR_1_1Const__RigidScaleXf3d" kindref="compound">MR.Const_RigidScaleXf3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.RigidScaleXf3d.assign</qualifiedname>
         <param>
-          <type>MR.Const_RigidScaleXf3d</type>
+          <type><ref refid="classMR_1_1Const__RigidScaleXf3d" kindref="compound">MR.Const_RigidScaleXf3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RigidScaleXf3d</label>
+        <link refid="classMR_1_1Const__RigidScaleXf3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.RigidScaleXf3d</label>
         <link refid="classMR_1_1RigidScaleXf3d"/>
@@ -210,9 +215,14 @@
       </node>
       <node id="2">
         <label>MR.Const_RigidScaleXf3d</label>
+        <link refid="classMR_1_1Const__RigidScaleXf3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_a</edgelabel>
+          <edgelabel>__ref_storage_b</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,9 +234,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="421" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="422" bodyend="503"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1ad6826d7d36ab07bbc0b8e3e39bf5bf8d" prot="protected" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a805f38403f12672636bb8934fc633ad4" prot="protected" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a10eecdecf4c5d13ecd162fb4f0c4de7d" prot="protected" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>__ref_storage_s</name></member>
       <member refid="classMR_1_1RigidScaleXf3d_1a010e68cd9624052f63f817165e86deec" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>a</name></member>
       <member refid="classMR_1_1RigidScaleXf3d_1a25b2229038f5275d19b4c0d5a097b6c8" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>assign</name></member>
       <member refid="classMR_1_1RigidScaleXf3d_1aefc67726516a6943f37faee28aa664d1" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1af2384ec242917ae90582e73842595e93" prot="package" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1ad1dcf79ddc15d51f8fe44a66a0cb6782" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a682cc9cd8f3817d1930956fc4ebb5b23" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1aa96e0a5b9e7be7a48de19975d433e982" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a7e8f3289ce93a3ec8201f04a8487bca0" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a38cf98396291976acc77a39a2883c779" prot="protected" virt="virtual"><scope>MR::RigidScaleXf3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a00a78414e9c096a3f1683686a120c3ed" prot="public" virt="virtual"><scope>MR::RigidScaleXf3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a95507d43141ad65ce578921400ffd52b" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>linearXf</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1acc8fbf1ad423317811fdec60218d48e1" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>rigidScaleXf</name></member>
       <member refid="classMR_1_1RigidScaleXf3d_1adee1c916f6a6cb53373c8f1105095ac0" prot="package" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>RigidScaleXf3d</name></member>
       <member refid="classMR_1_1RigidScaleXf3d_1a56ff0bd266a8443c6e77ff4f2096324a" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>RigidScaleXf3d</name></member>
       <member refid="classMR_1_1RigidScaleXf3d_1a722c5877ca674044c5c972aeeb8d531c" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3d</scope><name>RigidScaleXf3d</name></member>

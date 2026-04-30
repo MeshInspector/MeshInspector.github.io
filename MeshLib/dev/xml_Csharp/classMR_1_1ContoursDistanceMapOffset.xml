@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ContoursDistanceMapOffset" kind="class" language="C#" prot="public">
     <compoundname>MR::ContoursDistanceMapOffset</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ContoursDistanceMapOffset</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ContoursDistanceMapOffset" prot="public" virt="non-virtual">MR.Const_ContoursDistanceMapOffset</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ContoursDistanceMapOffset_1a62849ddcd287448ec0487aa0fa633106" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.ContoursDistanceMapOffset.OffsetType</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__ContoursDistanceMapOffset_1a1d287f69b32066ad60e596c1f45c4d95" kindref="member">MR.ContoursDistanceMapOffset.OffsetType</ref></type>
         <definition>new unsafe ref MR.ContoursDistanceMapOffset.OffsetType MR.ContoursDistanceMapOffset.type</definition>
         <argsstring></argsstring>
         <name>type</name>
@@ -51,7 +51,7 @@
         <name>ContoursDistanceMapOffset</name>
         <qualifiedname>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</qualifiedname>
         <param>
-          <type>MR.Const_ContoursDistanceMapOffset</type>
+          <type><ref refid="classMR_1_1Const__ContoursDistanceMapOffset" kindref="compound">MR.Const_ContoursDistanceMapOffset</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -89,11 +89,11 @@
         <name>ContoursDistanceMapOffset</name>
         <qualifiedname>MR.ContoursDistanceMapOffset.ContoursDistanceMapOffset</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeScalars</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeScalars" kindref="compound">MR.Const_UndirectedEdgeScalars</ref></type>
           <declname>perEdgeOffset</declname>
         </param>
         <param>
-          <type>MR.ContoursDistanceMapOffset.OffsetType</type>
+          <type><ref refid="classMR_1_1Const__ContoursDistanceMapOffset_1a1d287f69b32066ad60e596c1f45c4d95" kindref="member">MR.ContoursDistanceMapOffset.OffsetType</ref></type>
           <declname>type</declname>
         </param>
         <briefdescription>
@@ -120,6 +120,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ContoursDistanceMapOffset</label>
+        <link refid="classMR_1_1Const__ContoursDistanceMapOffset"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -133,6 +134,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ContoursDistanceMapOffset</label>
         <link refid="classMR_1_1ContoursDistanceMapOffset"/>
@@ -141,9 +146,13 @@
       </node>
       <node id="2">
         <label>MR.Const_ContoursDistanceMapOffset</label>
+        <link refid="classMR_1_1Const__ContoursDistanceMapOffset"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_type</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -155,10 +164,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="900" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="901" bodyend="941"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1a195cfe4dec3bceb88aaf25e9d97d7742" prot="protected" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>__ref_storage_type</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1ad2d2f972bd76ac631fc4e68a487f931a" prot="package" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>Const_ContoursDistanceMapOffset</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1a8abbde783c7c1749c8fb30bd0b52a918" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>Const_ContoursDistanceMapOffset</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1a295598623ce955c14e61d6b2346c0ecf" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>Const_ContoursDistanceMapOffset</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1ad6a915b9d0bddf5e97e4461c704f9532" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>Const_ContoursDistanceMapOffset</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOffset_1a074928ea620298d8d0aea4d335e4b1df" prot="package" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>ContoursDistanceMapOffset</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOffset_1afc6849d78aeb8451349d0f3773a6ceaa" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>ContoursDistanceMapOffset</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOffset_1acf5624d7c8f1ce8249a4dc371bd56aac" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>ContoursDistanceMapOffset</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOffset_1ab887015f04908c1af36de6cf8d0d535e" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>ContoursDistanceMapOffset</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1aafbf93c104cf7fffeb8e8df0cd69d64a" prot="protected" virt="virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1a343ef351a19670c401571268fa48dc3a" prot="public" virt="virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1a1d287f69b32066ad60e596c1f45c4d95" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>OffsetType</name></member>
+      <member refid="classMR_1_1Const__ContoursDistanceMapOffset_1ad5b95d2d95c90e466d08db4f40029359" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>perEdgeOffset</name></member>
       <member refid="classMR_1_1ContoursDistanceMapOffset_1a62849ddcd287448ec0487aa0fa633106" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>

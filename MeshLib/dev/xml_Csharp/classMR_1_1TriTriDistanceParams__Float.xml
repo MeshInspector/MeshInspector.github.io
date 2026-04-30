@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriTriDistanceParams__Float" kind="class" language="C#" prot="public">
     <compoundname>MR::TriTriDistanceParams_Float</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriTriDistanceParams_Float</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TriTriDistanceParams__Float" prot="public" virt="non-virtual">MR.Const_TriTriDistanceParams_Float</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TriTriDistanceParams__Float_1a3ad99615ee201e2fd1954d3f16da271f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -104,7 +104,7 @@
         <name>TriTriDistanceParams_Float</name>
         <qualifiedname>MR.TriTriDistanceParams_Float.TriTriDistanceParams_Float</qualifiedname>
         <param>
-          <type>MR.Const_TriTriDistanceParams_Float</type>
+          <type><ref refid="classMR_1_1Const__TriTriDistanceParams__Float" kindref="compound">MR.Const_TriTriDistanceParams_Float</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -142,7 +142,7 @@
         <name>assign</name>
         <qualifiedname>MR.TriTriDistanceParams_Float.assign</qualifiedname>
         <param>
-          <type>MR.Const_TriTriDistanceParams_Float</type>
+          <type><ref refid="classMR_1_1Const__TriTriDistanceParams__Float" kindref="compound">MR.Const_TriTriDistanceParams_Float</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -169,6 +169,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TriTriDistanceParams_Float</label>
+        <link refid="classMR_1_1Const__TriTriDistanceParams__Float"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -182,6 +183,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TriTriDistanceParams_Float</label>
         <link refid="classMR_1_1TriTriDistanceParams__Float"/>
@@ -190,9 +195,13 @@
       </node>
       <node id="2">
         <label>MR.Const_TriTriDistanceParams_Float</label>
+        <link refid="classMR_1_1Const__TriTriDistanceParams__Float"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_upLimitCheck</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -204,7 +213,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="682" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="683" bodyend="753"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1a4e3dab78449c0aa4f842f0d446359611" prot="protected" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>__ref_storage_upDistLimitSq</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1ac9f38200034dcfecd5ef735f76e2b110" prot="protected" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>__ref_storage_upLimitCheck</name></member>
       <member refid="classMR_1_1TriTriDistanceParams__Float_1a806577dc45003cde660f39e3f9cfcd76" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1abed39df7c4217fb837a1cd3f3e0ce2d0" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>canExitEarlier</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1aac8dafeb5ca078b94a9de6a12d7741b4" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>canExitEarlier</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1a03cdce1c2522686390a838d3d9b26314" prot="package" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>Const_TriTriDistanceParams_Float</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1a3928236fa59cb895dacd2a4e099feeb8" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>Const_TriTriDistanceParams_Float</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1af040241d2b256dae407045434a1603ae" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>Const_TriTriDistanceParams_Float</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1ac128c304b0ae76869bee2f9a05e9ac2b" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>Const_TriTriDistanceParams_Float</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1a80ef3ec7b798c5e73b3f58e586f20b3c" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>Const_TriTriDistanceParams_Float</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1a2a5cb1dafd0468a824e4b0728a1f4877" prot="protected" virt="virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Float_1a440d4761e3497f148e25b23f82d21cf5" prot="public" virt="virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TriTriDistanceParams__Float_1ae917b7bea50caa536c891b12c369de88" prot="package" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>TriTriDistanceParams_Float</name></member>
       <member refid="classMR_1_1TriTriDistanceParams__Float_1adf9d0ad674ae7758c71976b948ee065e" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>TriTriDistanceParams_Float</name></member>
       <member refid="classMR_1_1TriTriDistanceParams__Float_1a45e213d7152604ecd6f8ace39901e58b" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceParams_Float</scope><name>TriTriDistanceParams_Float</name></member>

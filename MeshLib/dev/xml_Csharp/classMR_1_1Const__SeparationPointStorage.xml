@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SeparationPointStorage" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SeparationPointStorage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SeparationPointStorage" prot="public" virt="non-virtual">MR.SeparationPointStorage</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__SeparationPointStorage_1_1Block" prot="public">MR::Const_SeparationPointStorage::Block</innerclass>
+    <innerclass refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block" prot="public">MR::Const_SeparationPointStorage::Const_Block</innerclass>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1a046821e9ccd47f970274f2994e914ad3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SeparationPointStorage.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="22" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1a58202cb8bf63d3e6d0387e7aca58b3ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SeparationPointStorage.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="31" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1a34eea5e1a237bdd01b7212587890ba36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SeparationPointStorage.Const_SeparationPointStorage</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SeparationPointStorage</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.Const_SeparationPointStorage</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="39" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1aead903649c827402761093796cb8a930" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SeparationPointStorage.Const_SeparationPointStorage</definition>
+        <argsstring>(MR._ByValue_SeparationPointStorage _other)</argsstring>
+        <name>Const_SeparationPointStorage</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.Const_SeparationPointStorage</qualifiedname>
+        <param>
+          <type>MR._ByValue_SeparationPointStorage</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SeparationPointStorage_1ac0c34dd78161697682be64d27cfc2ae5" kindref="member">MR.SeparationPointStorage.SeparationPointStorage</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="49" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1a06f33e90d17df57831d0641c13feef0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SeparationPointStorage.Const_SeparationPointStorage</definition>
+        <argsstring>(Const_SeparationPointStorage _other)</argsstring>
+        <name>Const_SeparationPointStorage</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.Const_SeparationPointStorage</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SeparationPointStorage" kindref="compound">Const_SeparationPointStorage</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SeparationPointStorage_1ac0c34dd78161697682be64d27cfc2ae5" kindref="member">MR.SeparationPointStorage.SeparationPointStorage</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="60" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1ac39a8d581e2bbbfdacad918d041097ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SeparationPointStorage.Const_SeparationPointStorage</definition>
+        <argsstring>(SeparationPointStorage _other)</argsstring>
+        <name>Const_SeparationPointStorage</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.Const_SeparationPointStorage</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SeparationPointStorage" kindref="compound">SeparationPointStorage</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SeparationPointStorage_1ac0c34dd78161697682be64d27cfc2ae5" kindref="member">MR.SeparationPointStorage.SeparationPointStorage</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="65" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1ae90a18bcae428461039a289a8cee096b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.? Array_MRVertId_3</type>
+        <definition>unsafe MR.Std.? Array_MRVertId_3 MR.Const_SeparationPointStorage.findSeparationPointSet</definition>
+        <argsstring>(ulong voxelId)</argsstring>
+        <name>findSeparationPointSet</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.findSeparationPointSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>voxelId</declname>
+        </param>
+        <briefdescription>
+<para>finds the set (locating the block) by voxel id Generated from method <computeroutput><ref refid="classMR_1_1Const__SeparationPointStorage_1ae90a18bcae428461039a289a8cee096b" kindref="member">MR.SeparationPointStorage.findSeparationPointSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="71" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1a38fdbbd88b51f961c53a84272e60a43e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Triangulation" kindref="compound">MR.Triangulation</ref></type>
+        <definition>unsafe MR.Triangulation MR.Const_SeparationPointStorage.getTriangulation</definition>
+        <argsstring>(MR.Vector_MRVoxelId_MRFaceId? outVoxelPerFaceMap=null)</argsstring>
+        <name>getTriangulation</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.getTriangulation</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRVoxelId__MRFaceId" kindref="compound">MR.Vector_MRVoxelId_MRFaceId</ref>?</type>
+          <declname>outVoxelPerFaceMap</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>combines triangulations from every block into one and returns it Generated from method <computeroutput><ref refid="classMR_1_1Const__SeparationPointStorage_1a38fdbbd88b51f961c53a84272e60a43e" kindref="member">MR.SeparationPointStorage.getTriangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="83" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1afe766af366d4cac1fdc382da0f5c6401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_SeparationPointStorage.getPoints</definition>
+        <argsstring>(MR.VertCoords points)</argsstring>
+        <name>getPoints</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.getPoints</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+<para>obtains coordinates of all stored points Generated from method <computeroutput><ref refid="classMR_1_1Const__SeparationPointStorage_1afe766af366d4cac1fdc382da0f5c6401" kindref="member">MR.SeparationPointStorage.getPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="94" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="94" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1a9b644597696c1db103e0808d5e5d3289" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SeparationPointStorage.~Const_SeparationPointStorage</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SeparationPointStorage</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.~Const_SeparationPointStorage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="32" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1a5146b72b79aed2cb6c247be47b369e28" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SeparationPointStorage.Const_SeparationPointStorage</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SeparationPointStorage</name>
+        <qualifiedname>MR.Const_SeparationPointStorage.Const_SeparationPointStorage</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="34" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>storage for points on voxel edges used in Marching Cubes algorithms Generated from class <computeroutput><ref refid="classMR_1_1SeparationPointStorage" kindref="compound">MR.SeparationPointStorage</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SeparationPointStorage</label>
+        <link refid="classMR_1_1Const__SeparationPointStorage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SeparationPointStorage</label>
+        <link refid="classMR_1_1SeparationPointStorage"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_SeparationPointStorage</label>
+        <link refid="classMR_1_1Const__SeparationPointStorage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="17" bodyend="427"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a5146b72b79aed2cb6c247be47b369e28" prot="package" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a34eea5e1a237bdd01b7212587890ba36" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1aead903649c827402761093796cb8a930" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a06f33e90d17df57831d0641c13feef0c" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1ac39a8d581e2bbbfdacad918d041097ed" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a046821e9ccd47f970274f2994e914ad3" prot="protected" virt="virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a58202cb8bf63d3e6d0387e7aca58b3ce" prot="public" virt="virtual"><scope>MR::Const_SeparationPointStorage</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1ae90a18bcae428461039a289a8cee096b" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>findSeparationPointSet</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1afe766af366d4cac1fdc382da0f5c6401" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>getPoints</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a38fdbbd88b51f961c53a84272e60a43e" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>getTriangulation</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a9b644597696c1db103e0808d5e5d3289" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage</scope><name>~Const_SeparationPointStorage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

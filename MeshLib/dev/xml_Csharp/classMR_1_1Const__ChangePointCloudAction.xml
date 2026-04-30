@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ChangePointCloudAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ChangePointCloudAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointCloudAction" prot="public" virt="non-virtual">MR.ChangePointCloudAction</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1ac756f0fd1f7a53a0a68096cc8fccb071" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ChangePointCloudAction.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1a7fd41852076b78b0c8163de9bf08a1a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ChangePointCloudAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1ad32ceb92667dbeef9f267954b562e791" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</definition>
+        <argsstring>(MR._ByValue_ChangePointCloudAction _other)</argsstring>
+        <name>Const_ChangePointCloudAction</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangePointCloudAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePointCloudAction_1adfc174c2d35dbf7c48817ce9a5b90a3d" kindref="member">MR.ChangePointCloudAction.ChangePointCloudAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="56" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1ace3917594683288176bfb8360f4f8e65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</definition>
+        <argsstring>(Const_ChangePointCloudAction _other)</argsstring>
+        <name>Const_ChangePointCloudAction</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangePointCloudAction" kindref="compound">Const_ChangePointCloudAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePointCloudAction_1adfc174c2d35dbf7c48817ce9a5b90a3d" kindref="member">MR.ChangePointCloudAction.ChangePointCloudAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1a8544e2b7490ec000cf0dfe6cb54440ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</definition>
+        <argsstring>(ChangePointCloudAction _other)</argsstring>
+        <name>Const_ChangePointCloudAction</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangePointCloudAction" kindref="compound">ChangePointCloudAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePointCloudAction_1adfc174c2d35dbf7c48817ce9a5b90a3d" kindref="member">MR.ChangePointCloudAction.ChangePointCloudAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="72" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1ac282c994481e6ad73be28b4136befdf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectPoints obj)</argsstring>
+        <name>Const_ChangePointCloudAction</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectPoints</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's point cloud before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangePointCloudAction_1adfc174c2d35dbf7c48817ce9a5b90a3d" kindref="member">MR.ChangePointCloudAction.ChangePointCloudAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="78" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="78" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1aeef77c7da6e4c1ad723f5ac51d764a85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ChangePointCloudAction.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePointCloudAction_1aeef77c7da6e4c1ad723f5ac51d764a85" kindref="member">MR.ChangePointCloudAction.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="93" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1aae4c04df9a67ac90828cbc44f3f7cac7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ChangePointCloudAction.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePointCloudAction_1aae4c04df9a67ac90828cbc44f3f7cac7" kindref="member">MR.ChangePointCloudAction.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="113" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="113" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1abe9e381b94365d5ff2dcef65ad350076" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangePointCloudAction.~Const_ChangePointCloudAction</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ChangePointCloudAction</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.~Const_ChangePointCloudAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1acab7457554330bfc9d8faed35443ca47" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ChangePointCloudAction.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_ChangePointCloudAction self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangePointCloudAction" kindref="compound">Const_ChangePointCloudAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="30" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1a7464d4b41aab061541e19ffb187e6a2f" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ChangePointCloudAction.operator Const_ChangePointCloudAction?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_ChangePointCloudAction?</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.operator Const_ChangePointCloudAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="40" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1a6b19bb54692b200d90971f95ad18ef3f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_ChangePointCloudAction.setObjectDirty</definition>
+        <argsstring>(MR.Std.Const_SharedPtr_MRObjectPoints obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectPoints</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangePointCloudAction_1a6b19bb54692b200d90971f95ad18ef3f" kindref="member">MR.ChangePointCloudAction.setObjectDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="103" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="103" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangePointCloudAction_1a726382751e80c228480cfb1362de707f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ChangePointCloudAction</name>
+        <qualifiedname>MR.Const_ChangePointCloudAction.Const_ChangePointCloudAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="51" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> mesh change Generated from class <computeroutput><ref refid="classMR_1_1ChangePointCloudAction" kindref="compound">MR.ChangePointCloudAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ChangePointCloudAction</label>
+        <link refid="classMR_1_1Const__ChangePointCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ChangePointCloudAction</label>
+        <link refid="classMR_1_1ChangePointCloudAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ChangePointCloudAction</label>
+        <link refid="classMR_1_1Const__ChangePointCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudAction.cs" bodystart="12" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1a726382751e80c228480cfb1362de707f" prot="package" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>Const_ChangePointCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1ad32ceb92667dbeef9f267954b562e791" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>Const_ChangePointCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1ace3917594683288176bfb8360f4f8e65" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>Const_ChangePointCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1a8544e2b7490ec000cf0dfe6cb54440ee" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>Const_ChangePointCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1ac282c994481e6ad73be28b4136befdf9" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>Const_ChangePointCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1ac756f0fd1f7a53a0a68096cc8fccb071" prot="protected" virt="virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1a7fd41852076b78b0c8163de9bf08a1a6" prot="public" virt="virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1aae4c04df9a67ac90828cbc44f3f7cac7" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1aeef77c7da6e4c1ad723f5ac51d764a85" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1a7464d4b41aab061541e19ffb187e6a2f" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>operator Const_ChangePointCloudAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1acab7457554330bfc9d8faed35443ca47" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1a6b19bb54692b200d90971f95ad18ef3f" prot="public" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudAction_1abe9e381b94365d5ff2dcef65ad350076" prot="private" virt="non-virtual"><scope>MR::Const_ChangePointCloudAction</scope><name>~Const_ChangePointCloudAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

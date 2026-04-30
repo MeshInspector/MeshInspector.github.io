@@ -3,6 +3,10 @@
   <compounddef id="classMR_1_1Cuda" kind="class" language="C#" prot="public">
     <compoundname>MR::Cuda</compoundname>
     <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__ComputeToolDistance" prot="public">MR::Cuda::Const_ComputeToolDistance</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__FastWindingNumber" prot="public">MR::Cuda::Const_FastWindingNumber</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__PointsProjector" prot="public">MR::Cuda::Const_PointsProjector</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector" prot="public">MR::Cuda::Const_PointsToMeshProjector</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public">MR::Cuda::FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1PointsProjector" prot="public">MR::Cuda::PointsProjector</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1PointsToMeshProjector" prot="public">MR::Cuda::PointsToMeshProjector</innerclass>
@@ -160,11 +164,11 @@
         <name>distanceMapFromContours</name>
         <qualifiedname>MR.Cuda.distanceMapFromContours</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
-          <type>MR.Const_ContourToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__ContourToDistanceMapParams" kindref="compound">MR.Const_ContourToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -183,11 +187,11 @@
         <name>distanceMapFromContoursHeapBytes</name>
         <qualifiedname>MR.Cuda.distanceMapFromContoursHeapBytes</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
-          <type>MR.Const_ContourToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__ContourToDistanceMapParams" kindref="compound">MR.Const_ContourToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -206,11 +210,11 @@
         <name>computeDistanceMap</name>
         <qualifiedname>MR.Cuda.computeDistanceMap</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_MeshToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceMapParams" kindref="compound">MR.Const_MeshToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -239,11 +243,11 @@
         <name>computeDistanceMapHeapBytes</name>
         <qualifiedname>MR.Cuda.computeDistanceMapHeapBytes</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_MeshToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceMapParams" kindref="compound">MR.Const_MeshToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -267,7 +271,7 @@
         <name>findProjectionOnPoints</name>
         <qualifiedname>MR.Cuda.findProjectionOnPoints</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -275,7 +279,7 @@
           <declname>points</declname>
         </param>
         <param>
-          <type>MR.Const_FindProjectionOnPointsSettings?</type>
+          <type><ref refid="classMR_1_1Const__FindProjectionOnPointsSettings" kindref="compound">MR.Const_FindProjectionOnPointsSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -295,7 +299,7 @@
         <name>findProjectionOnPointsHeapBytes</name>
         <qualifiedname>MR.Cuda.findProjectionOnPointsHeapBytes</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -318,11 +322,11 @@
         <name>pointsToDistanceVolume</name>
         <qualifiedname>MR.Cuda.pointsToDistanceVolume</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.Const_PointsToDistanceVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__PointsToDistanceVolumeParams" kindref="compound">MR.Const_PointsToDistanceVolumeParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -341,11 +345,11 @@
         <name>pointsToDistanceVolumeByParts</name>
         <qualifiedname>MR.Cuda.pointsToDistanceVolumeByParts</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.Const_PointsToDistanceVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__PointsToDistanceVolumeParams" kindref="compound">MR.Const_PointsToDistanceVolumeParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -372,15 +376,15 @@
         <name>computeSkyViewFactor</name>
         <qualifiedname>MR.Cuda.computeSkyViewFactor</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>terrain</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>samples</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>validSamples</declname>
         </param>
         <param>
@@ -431,15 +435,15 @@
         <name>findSkyRays</name>
         <qualifiedname>MR.Cuda.findSkyRays</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>terrain</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>samples</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>validSamples</declname>
         </param>
         <param>

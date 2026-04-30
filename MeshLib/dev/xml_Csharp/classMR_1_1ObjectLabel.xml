@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectLabel" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectLabel</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectLabel</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectLabel" prot="public" virt="non-virtual">MR.Const_ObjectLabel</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ObjectLabel_1a984861b8bb2fc732dcf609f350329bad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -218,7 +218,7 @@
         <name>setLabel</name>
         <qualifiedname>MR.ObjectLabel.setLabel</qualifiedname>
         <param>
-          <type>MR.Const_PositionedText</type>
+          <type><ref refid="classMR_1_1Const__PositionedText" kindref="compound">MR.Const_PositionedText</ref></type>
           <declname>label</declname>
         </param>
         <briefdescription>
@@ -475,11 +475,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -498,11 +498,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.ObjectLabel.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -521,11 +521,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.ObjectLabel.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -563,7 +563,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.ObjectLabel.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -586,12 +586,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectLabel_1a1dfd01c238a2256d56995a69fa73d88e" kindref="member">MR.ObjectLabel.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectLabel_1a1dfd01c238a2256d56995a69fa73d88e" kindref="member">MR.ObjectLabel.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -790,12 +790,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLabel_1ada8a6fc147b01f2fe50fcc8780b0e999" kindref="member">MR.ObjectLabel.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectLabel_1ada8a6fc147b01f2fe50fcc8780b0e999" kindref="member">MR.ObjectLabel.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1045,12 +1045,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectLabel_1a4b26e6d2bfa4f1674c2a9a8d9ad6f9f5" kindref="member">MR.ObjectLabel.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectLabel_1a4b26e6d2bfa4f1674c2a9a8d9ad6f9f5" kindref="member">MR.ObjectLabel.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1247,12 +1247,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectLabel_1af395f0a3a0cafb3fc5d19833b29e3b79" kindref="member">MR.ObjectLabel.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectLabel_1af395f0a3a0cafb3fc5d19833b29e3b79" kindref="member">MR.ObjectLabel.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1267,7 +1267,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.ObjectLabel.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1352,6 +1352,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectLabel</label>
+        <link refid="classMR_1_1Const__ObjectLabel"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1373,6 +1374,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectLabel</label>
+        <link refid="classMR_1_1Const__ObjectLabel"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1392,11 +1394,78 @@
       <member refid="classMR_1_1ObjectLabel_1abe6c488d077d162361fa89fed9d76c1a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>addTag</name></member>
       <member refid="classMR_1_1ObjectLabel_1a68c35f69a2ce722ef2741e075cdd6816" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>applyScale</name></member>
       <member refid="classMR_1_1ObjectLabel_1a54ad7daebe6e226ede4e3ee0dd0da04b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a210080674c3e13b3a39adda8c9ac3239" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>buildMeshFromText</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1abaccb6509ffaa3727e3c19d20acd5bc5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ade4c817dc574fe34816735544ec1d085" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ac1e1446af775d8f0b06e6c3e3a867c08" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a5a157e2237f269d602727a15438d4923" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af452c852e9efc541512c3b815cce13eb" prot="package" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>Const_ObjectLabel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ae09e13b1963bdec520f18852c7310b90" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>Const_ObjectLabel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a22e596b0a1220a47915f0a41099f21f9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>Const_ObjectLabel</name></member>
       <member refid="classMR_1_1ObjectLabel_1a382b66b928aa4133ee9c04d2f8d9a883" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1ObjectLabel_1ad161d3314956ac2ed44eea13f3fe714c" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af4f2e9c2828be259b476ec0ad08d3c52" prot="protected" virt="virtual"><scope>MR::ObjectLabel</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a4c1c58c108bb696167f725d64407cca7" prot="public" virt="virtual"><scope>MR::ObjectLabel</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ac1919800b56b6d6d1e89b079df9c5149" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ab16063a90f9a69b6115bd29cb00b24a6" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a919c119bb5ee1c8f682680906862fb96" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a565c13f0aafaf9b1545ff5fe36870290" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ad6f1b963b0c25585cb1ae3f76d377202" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBackgroundPadding</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1acd35f9ba08ffac95e8e7748560cd6e7a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a0538f397425be1e34e64ab18a88c0dd9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a16a157ed7c5a7e6900a90ef5b42b14e4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getContourColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a252d01b142cb98fb993c126b87788ef8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getContourColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a2fb278eb5ae3868781520b875a4c9ca5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a8074543d882b604b678ffd3fe9a31d21" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFontHeight</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a4c6d595d3ed91354885dc5b49199be3f" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFontPath</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ac0145d081bb04ff0ea3b75215a65bcef" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a7cebc70c57f56d91d040a308ace7b42d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a345fc0805a6624bf726a3f0f41a67b2e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1abf3365bb96453ee072772670270db58c" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a507244a8d215d8006c4207dbd09e0792" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af63ab3189a8ecc1dfe9f3f5a9a587dc3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLabel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1afccb42c6162275c8c7ebe3af939a6384" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af5c90d29930648dd6b2bceb95db2d30a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a63d264a6ec2750cc6657624f53aa16d8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getLeaderLineWidth</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a79738b9f3fcecacbc0729cd4a2785c24" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a10cdc29ff8135ae3869c088c375ef5de" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getPivotPoint</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a1025c12988b4bb4ecddaca840efc358c" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getPivotShift</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a727be2f91f5747f4461c3f52fcd0ee7d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aa99ffe73d5e18286dded1d2a47768deb" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a86ccfbd61eaf8276c349107d39c748ff" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a23634774deda23e0892cf972e1b51f33" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ab7bbff6057b792128a2413b4cb6023b1" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a739bda0fd48e2813622c939207a6bf15" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSourcePointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a24d4ce97b16e718bb917321aacf6208a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a82a18fff9ff233b1e35177bd526e8725" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a93e8ffaf5bf29c1d27721c6eb3167a97" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a7d2c22cc96e6bb315ef67d2973b33349" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a74b04ba317847299fe7b1679c00af849" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a21964bea35fc06de304fbb88313a2633" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ad6a6ef3e4f28fc1244a1b03a9d3985c9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a593618c4530561434299fcaf8d5c76ca" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af6ddced6cf3444f27f182d1e4be268e4" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1abf6aa11b17c07fdb1831456dde09d629" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ae9e348e358131b30d22d4e837ec76a01" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a3f4035e093d5625960a4f69e8cd623a6" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a9f817f9c215c81c751f4fe3adb971c1e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a7e42461de87f86bef27d72302a2688e5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ad8c56f374433c1aafe7e94e2a2f3ed99" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aeca55e174c78b2c84f9bb42185314caf" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aec746bb6b829d2c8384299e545278dd5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a22cb9503b1b2390c9aabe808cdc86b9e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aa9769a39b90dde350bb8a0e6b94a869e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af0ca3af87cdf38303a8ab5be4d93932c" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a78ff735d8f3adad241b055fe2e854a75" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>labelRepresentingMesh</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a272547b7a46c00bbf9a0a40599cfc84b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>name</name></member>
       <member refid="classMR_1_1ObjectLabel_1aa4adfb5d1af0a93be5ea918e0c23a9e4" prot="package" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
       <member refid="classMR_1_1ObjectLabel_1a5897f00376207e24607387f9cf3d8645" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
       <member refid="classMR_1_1ObjectLabel_1a211deed76909ce2712706922d5364db0" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>ObjectLabel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aa71346bd16f48f8bb12162e56ad1f24d" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator Const_ObjectLabel?</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a8b59cf41cc4676b006f906d343f45f83" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator Const_ObjectLabel?</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a8169e6bc18a06626868b652f2de2b6bf" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a9f4f3ff1618f6857885b29d2eac7448a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a021b8200bd68b187117fc1647cf8b44b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1ObjectLabel_1aeb75a9b970e92dc4b2e940811c35325e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1ObjectLabel_1a984861b8bb2fc732dcf609f350329bad" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectLabel_1ae71d5d272ac5f203cc11f27369a3a7f5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator MR.VisualObject</name></member>
@@ -1404,9 +1473,16 @@
       <member refid="classMR_1_1ObjectLabel_1ab7dcf6b05f3380250786790203f5446a" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>operator ObjectLabel?</name></member>
       <member refid="classMR_1_1ObjectLabel_1ab339dfb0a960844b8a625a9e08dc3425" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1ObjectLabel_1a8da80db8c68f482b95f88e1b9497ff96" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a985854cf796ee1372cb6308d01aba330" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ad60a91b7e9d65c49cff6444869495ff2" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a3c0ada506284284585735d7e8815c7f8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>renderUi</name></member>
       <member refid="classMR_1_1ObjectLabel_1aa3cb3db10ffbc35d357880159b983ee3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a449cf9643c4121b53159aecffd6064fc" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aeea76e14b6eaa2390e0c7e9ec6477262" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1ObjectLabel_1a37e5392445c1b22878e5a330b7328b6e" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ab7b7b81576aea266952a3c140d209d48" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectLabel_1a493144786e64bdc29fd4e6cc3858bdb5" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1add8f1ccb9040b68d2c83605fbbc13560" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sameModels</name></member>
       <member refid="classMR_1_1ObjectLabel_1aabd5b5d3bab078a8d47d1b73ee49f1a9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>select</name></member>
       <member refid="classMR_1_1ObjectLabel_1aa8eb1d8de5a62ebbb62c386b3dbb8512" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1ObjectLabel_1a75f1b0c08dd4b7c0a995d30556cdde90" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setAmbientStrength</name></member>
@@ -1448,9 +1524,22 @@
       <member refid="classMR_1_1ObjectLabel_1aa56aadbc3a5b6467b0cf4c48a6a3753c" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1ObjectLabel_1ab96eeee0257341bc16c84741f673a396" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setXf</name></member>
       <member refid="classMR_1_1ObjectLabel_1aaf00445941a7a1f7e17021ebce1607bd" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a329f434dac60b7e429d85586f2659301" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a3ccf9be0b3c75f48be513d53282c31c9" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1ObjectLabel_1a303bfb725ddf04bfa57be49861ad1f6b" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a6a8a4e72325131b5702dc8b2c1d586fb" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a46079af0e451c228039fb33a0a99e3df" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a0ea2602cf697e83731c0c4a77054d204" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a8043395cde3c1a53b4b513053a36e145" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1ObjectLabel_1a98baf86d07b0b0c89cbd9333afd58be8" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a72f9b6eb8fca47b81547903804a6a413" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>tags</name></member>
       <member refid="classMR_1_1ObjectLabel_1abdb701d952cee3b98782df373f767343" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a78b65991d0dc02bd8885b07ac3ba4890" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a1cb1cc3b8472f69ad9a275476e583cea" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a4e615263783ccd500f7da33c5859e7a1" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a558d8fbbc5be204ef2063ffc67b0e2b3" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ae00ef3796515704f52cd2e78a933bf0f" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1acfd2f844869ef52cebc5c0f144d9e551" prot="public" virt="non-virtual"><scope>MR::ObjectLabel</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

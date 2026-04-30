@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Matrix3__Double_1_1Const__QR" kind="class" language="C#" prot="public">
+    <compoundname>MR::Matrix3_Double::Const_QR</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Matrix3__Double_1_1QR" prot="public" virt="non-virtual">MR.Matrix3_Double.QR</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Matrix3__Double_1_1Const__QR_1a3c0a997e56766e963290a316f10e1c59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+        <definition>unsafe ref readonly MR.Matrix3d MR.Matrix3_Double.Const_QR.q</definition>
+        <argsstring></argsstring>
+        <name>q</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.q</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5221" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Matrix3__Double_1_1Const__QR_1a509e4b9254810f11ed47b97f5d14d525" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+        <definition>unsafe ref readonly MR.Matrix3d MR.Matrix3_Double.Const_QR.r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5224" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5224" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Matrix3__Double_1_1Const__QR_1a953d4cd3456548187b9c25ab34c9f1df" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref> *</type>
+        <definition>unsafe MR.Matrix3d* MR.Matrix3_Double.Const_QR.__ref_storage_q</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_q</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.__ref_storage_q</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5222" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Matrix3__Double_1_1Const__QR_1abe4c7566fd058e858a59727502de4b2b" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref> *</type>
+        <definition>unsafe MR.Matrix3d* MR.Matrix3_Double.Const_QR.__ref_storage_r</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_r</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.__ref_storage_r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5225" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5225" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Matrix3__Double_1_1Const__QR_1adc9cb5d9db3dbc15f139f61b95bd5d7f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Matrix3_Double.Const_QR.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5209" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5209" bodyend="5217"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Matrix3__Double_1_1Const__QR_1a5f8d668a7098a24e119dd69c1370f56b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Matrix3_Double.Const_QR.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5218" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5218" bodyend="5218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Matrix3__Double_1_1Const__QR_1abd47e6ca1a751d4a81fc1ac3e73d85f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Matrix3_Double.Const_QR.Const_QR</definition>
+        <argsstring>()</argsstring>
+        <name>Const_QR</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.Const_QR</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5258" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5258" bodyend="5264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Matrix3__Double_1_1Const__QR_1a7d9b9265986411e207e78ac74b7c175f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Matrix3_Double.Const_QR.Const_QR</definition>
+        <argsstring>(MR.Matrix3d q, MR.Matrix3d r)</argsstring>
+        <name>Const_QR</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.Const_QR</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::Matrix3&amp;lt;double&amp;gt;<ref refid="classMR_1_1Matrix3__Double_1_1QR" kindref="compound">QR</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5269" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5269" bodyend="5275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Matrix3__Double_1_1Const__QR_1a6e3aee5382670dfeab5397a59cd43518" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Matrix3_Double.Const_QR.Const_QR</definition>
+        <argsstring>(MR.Matrix3_Double.Const_QR _other)</argsstring>
+        <name>Const_QR</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.Const_QR</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Matrix3__Double_1_1Const__QR" kindref="compound">MR.Matrix3_Double.Const_QR</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Matrix3&amp;lt;double&amp;gt;<ref refid="classMR_1_1Matrix3__Double_1_1QR_1a5f241a8e1a2f6c872e356687e424cd29" kindref="member">QR.QR</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5280" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5280" bodyend="5287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Matrix3__Double_1_1Const__QR_1a48a63dc83e1a20dc8888d5c059664b4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Matrix3_Double.Const_QR.Const_QR</definition>
+        <argsstring>(QR _other)</argsstring>
+        <name>Const_QR</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.Const_QR</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Matrix3__Double_1_1QR" kindref="compound">QR</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Matrix3&amp;lt;double&amp;gt;<ref refid="classMR_1_1Matrix3__Double_1_1QR_1a5f241a8e1a2f6c872e356687e424cd29" kindref="member">QR.QR</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5292" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5292" bodyend="5292"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Matrix3__Double_1_1Const__QR_1ae851734c70adf1c5d649615380cbec70" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Matrix3_Double.Const_QR.~Const_QR</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_QR</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.~Const_QR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5219" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5219" bodyend="5219"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Matrix3__Double_1_1Const__QR_1a7cb7253907e547c84f299c6717e4f3b3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Matrix3_Double.Const_QR.Const_QR</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_QR</name>
+        <qualifiedname>MR.Matrix3_Double.Const_QR.Const_QR</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5247" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5247" bodyend="5252"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::Matrix3&amp;lt;double&amp;gt;<ref refid="classMR_1_1Matrix3__Double_1_1QR" kindref="compound">QR</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Matrix3_Double.Const_QR</label>
+        <link refid="classMR_1_1Matrix3__Double_1_1Const__QR"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Matrix3_Double.QR</label>
+        <link refid="classMR_1_1Matrix3__Double_1_1QR"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Matrix3_Double.Const_QR</label>
+        <link refid="classMR_1_1Matrix3__Double_1_1Const__QR"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_q</edgelabel>
+          <edgelabel>__ref_storage_r</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5203" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5204" bodyend="5293"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1a953d4cd3456548187b9c25ab34c9f1df" prot="protected" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>__ref_storage_q</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1abe4c7566fd058e858a59727502de4b2b" prot="protected" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>__ref_storage_r</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1a7cb7253907e547c84f299c6717e4f3b3" prot="package" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1abd47e6ca1a751d4a81fc1ac3e73d85f6" prot="public" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1a7d9b9265986411e207e78ac74b7c175f" prot="public" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1a6e3aee5382670dfeab5397a59cd43518" prot="public" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1a48a63dc83e1a20dc8888d5c059664b4d" prot="public" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1adc9cb5d9db3dbc15f139f61b95bd5d7f" prot="protected" virt="virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1a5f8d668a7098a24e119dd69c1370f56b" prot="public" virt="virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1a3c0a997e56766e963290a316f10e1c59" prot="public" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>q</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1a509e4b9254810f11ed47b97f5d14d525" prot="public" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>r</name></member>
+      <member refid="classMR_1_1Matrix3__Double_1_1Const__QR_1ae851734c70adf1c5d649615380cbec70" prot="private" virt="non-virtual"><scope>MR::Matrix3_Double::Const_QR</scope><name>~Const_QR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

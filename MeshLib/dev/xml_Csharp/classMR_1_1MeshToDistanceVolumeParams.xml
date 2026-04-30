@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshToDistanceVolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshToDistanceVolumeParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshToDistanceVolumeParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshToDistanceVolumeParams" prot="public" virt="non-virtual">MR.Const_MeshToDistanceVolumeParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshToDistanceVolumeParams_1a9370b9c8f673ba02c938ce19b8a9d908" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1DistanceVolumeParams" kindref="compound">MR.DistanceVolumeParams</ref></type>
@@ -98,7 +98,7 @@
           <declname>vol</declname>
         </param>
         <param>
-          <type>MR.Const_SignedDistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__SignedDistanceToMeshOptions" kindref="compound">MR.Const_SignedDistanceToMeshOptions</ref></type>
           <declname>dist</declname>
         </param>
         <param>
@@ -140,7 +140,7 @@
         <name>MeshToDistanceVolumeParams</name>
         <qualifiedname>MR.MeshToDistanceVolumeParams.MeshToDistanceVolumeParams</qualifiedname>
         <param>
-          <type>Const_MeshToDistanceVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceVolumeParams" kindref="compound">Const_MeshToDistanceVolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshToDistanceVolumeParams</label>
+        <link refid="classMR_1_1Const__MeshToDistanceVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -226,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshToDistanceVolumeParams</label>
+        <link refid="classMR_1_1Const__MeshToDistanceVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,6 +243,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="120" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="121" bodyend="224"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshToDistanceVolumeParams_1a623778ef5ac2a469ebd4cafe1f8519cb" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceVolumeParams_1ae463c48d1972a22a0c74876025bc85f6" prot="package" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>Const_MeshToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceVolumeParams_1aa9233ba91dd8817bf687ef106d487897" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>Const_MeshToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceVolumeParams_1ae5a3662e66898a78ca7119b7281b4d2c" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>Const_MeshToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceVolumeParams_1aeea6eccba94288b65f50b940265edb25" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>Const_MeshToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceVolumeParams_1a0f49ae3f0372ed3222214dd39a10dee1" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>Const_MeshToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceVolumeParams_1a09d8c9d9c8fd250b20cb356e86abf269" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>Const_MeshToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceVolumeParams_1a32b9c52db215ffa70cc84c2d2bae5272" prot="protected" virt="virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceVolumeParams_1a8522be561c42f41149cca6223ed4f6e6" prot="public" virt="virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshToDistanceVolumeParams_1abc4726c1602001cea8899b689147b45e" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>dist</name></member>
       <member refid="classMR_1_1MeshToDistanceVolumeParams_1a436a1b9fab7a12748b892eaab129dfba" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>fwn</name></member>
       <member refid="classMR_1_1MeshToDistanceVolumeParams_1abe987ffb0a3ff69d9b80ce59dae485c6" prot="package" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>MeshToDistanceVolumeParams</name></member>

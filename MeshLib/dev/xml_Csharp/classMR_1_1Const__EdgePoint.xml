@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__EdgePoint" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_EdgePoint</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1EdgePoint" prot="public" virt="non-virtual">MR.EdgePoint</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__EdgePoint_1a82323f33dd299a1d6b7ce01d479e4358" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_EdgePoint.e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <qualifiedname>MR.Const_EdgePoint.e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="26" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EdgePoint_1a6e0565857d7fbe0feccfbdda8aa749e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__SegmPointf" kindref="compound">MR.Const_SegmPointf</ref></type>
+        <definition>unsafe MR.Const_SegmPointf MR.Const_EdgePoint.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Const_EdgePoint.a</qualifiedname>
+        <briefdescription>
+<para>a in [0,1], a=0 =&gt; point is in org( e ), a=1 =&gt; point is in dest( e ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="32" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__EdgePoint_1ac15283cca41be20ec5492879caea104b" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+        <definition>unsafe MR.EdgeId* MR.Const_EdgePoint.__ref_storage_e</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_e</name>
+        <qualifiedname>MR.Const_EdgePoint.__ref_storage_e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="27" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a77a4648229d2b1d26f7560fad9c823a7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_EdgePoint.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EdgePoint.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1adeebaa61f15be178b9983963bf6d8384" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_EdgePoint.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EdgePoint.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1af495331488c1a8345a2bf789dd5e788c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgePoint.Const_EdgePoint</definition>
+        <argsstring>()</argsstring>
+        <name>Const_EdgePoint</name>
+        <qualifiedname>MR.Const_EdgePoint.Const_EdgePoint</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="66" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1addcdfde71c8b354d78c3b116a4e439a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgePoint.Const_EdgePoint</definition>
+        <argsstring>(MR.Const_EdgePoint _other)</argsstring>
+        <name>Const_EdgePoint</name>
+        <qualifiedname>MR.Const_EdgePoint.Const_EdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="77" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="77" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a557ea9fad901b3f57d06f8ea4354e5d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EdgePoint.Const_EdgePoint</definition>
+        <argsstring>(EdgePoint _other)</argsstring>
+        <name>Const_EdgePoint</name>
+        <qualifiedname>MR.Const_EdgePoint.Const_EdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="89" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1af831aece7589101cf6ecf63c0eb348d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgePoint.Const_EdgePoint</definition>
+        <argsstring>(MR.EdgeId e, float a)</argsstring>
+        <name>Const_EdgePoint</name>
+        <qualifiedname>MR.Const_EdgePoint.Const_EdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="94" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="94" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1ae1cddc19a2b936d8690160b8b2a9feec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgePoint.Const_EdgePoint</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.VertId v)</argsstring>
+        <name>Const_EdgePoint</name>
+        <qualifiedname>MR.Const_EdgePoint.Const_EdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="105" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="105" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1aff94ef6b354e565e0aab8832de7fb32c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgePoint.Const_EdgePoint</definition>
+        <argsstring>(MR.Const_PolylineTopology topology, MR.VertId v)</argsstring>
+        <name>Const_EdgePoint</name>
+        <qualifiedname>MR.Const_EdgePoint.Const_EdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" kindref="member">MR.EdgePoint.EdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="117" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="117" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a09cf280366bfdb166fa7fcfa970b6281" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_EdgePoint.inVertex</definition>
+        <argsstring>(MR.Const_MeshTopology topology)</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>MR.Const_EdgePoint.inVertex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>returns valid vertex id if the point is in vertex, otherwise returns invalid id Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePoint_1a09cf280366bfdb166fa7fcfa970b6281" kindref="member">MR.EdgePoint.inVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="140" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="140" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a03993a04be1f5c19b9ddb5b92f21c5b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_EdgePoint.inVertex</definition>
+        <argsstring>(MR.Const_PolylineTopology topology)</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>MR.Const_EdgePoint.inVertex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>returns valid vertex id if the point is in vertex, otherwise returns invalid id Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePoint_1a09cf280366bfdb166fa7fcfa970b6281" kindref="member">MR.EdgePoint.inVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="151" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a4055bc4de109cb5883493ad118ccd2cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_EdgePoint.getClosestVertex</definition>
+        <argsstring>(MR.Const_MeshTopology topology)</argsstring>
+        <name>getClosestVertex</name>
+        <qualifiedname>MR.Const_EdgePoint.getClosestVertex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>returns one of two edge vertices, closest to this point Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePoint_1a4055bc4de109cb5883493ad118ccd2cc" kindref="member">MR.EdgePoint.getClosestVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="162" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="162" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a279684181c8c6e0166ff0d88b037b5c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_EdgePoint.getClosestVertex</definition>
+        <argsstring>(MR.Const_PolylineTopology topology)</argsstring>
+        <name>getClosestVertex</name>
+        <qualifiedname>MR.Const_EdgePoint.getClosestVertex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>returns one of two edge vertices, closest to this point Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePoint_1a4055bc4de109cb5883493ad118ccd2cc" kindref="member">MR.EdgePoint.getClosestVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="173" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="173" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a5f43e85d482f91d3c7450194e75d22b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_EdgePoint.inVertex</definition>
+        <argsstring>()</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>MR.Const_EdgePoint.inVertex</qualifiedname>
+        <briefdescription>
+<para>returns true if the point is in a vertex Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePoint_1a09cf280366bfdb166fa7fcfa970b6281" kindref="member">MR.EdgePoint.inVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="184" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a4f6c995084940dfb01e6bb2391827636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_EdgePoint.isBd</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_FaceBitSet? region=null)</argsstring>
+        <name>isBd</name>
+        <qualifiedname>MR.Const_EdgePoint.isBd</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if the point is on the boundary of the region (or for whole mesh if region is nullptr) Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePoint_1a4f6c995084940dfb01e6bb2391827636" kindref="member">MR.EdgePoint.isBd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="195" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="195" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1aac4ac1e98fd7fa90d129d59261451beb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_EdgePoint.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_EdgePoint.valid</qualifiedname>
+        <briefdescription>
+<para>consider this valid if the edge ID is valid Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePoint_1aac4ac1e98fd7fa90d129d59261451beb" kindref="member">MR.EdgePoint.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="206" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="206" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1aa8b153b552e13ee1301ecc5a2a9591aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref></type>
+        <definition>unsafe MR.EdgePoint MR.Const_EdgePoint.sym</definition>
+        <argsstring>()</argsstring>
+        <name>sym</name>
+        <qualifiedname>MR.Const_EdgePoint.sym</qualifiedname>
+        <briefdescription>
+<para>represents the same point relative to sym edge in Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePoint_1aa8b153b552e13ee1301ecc5a2a9591aa" kindref="member">MR.EdgePoint.sym</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="217" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="217" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1ae1e2c85350e128c8e34dff4c1f28db4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_EdgePoint.Equals</definition>
+        <argsstring>(MR.Const_EdgePoint? rhs)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_EdgePoint.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref>?</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="242" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="242" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a6e5f01339dd218a36a6ea68534dc81fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_EdgePoint.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_EdgePoint.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="249" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="249" bodyend="256"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1aa492510ccdacdc406f03ed5bb6b82b4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EdgePoint.~Const_EdgePoint</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_EdgePoint</name>
+        <qualifiedname>MR.Const_EdgePoint.~Const_EdgePoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1ad51657c8440d845074d2b60d6bc278d1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgePoint.Const_EdgePoint</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_EdgePoint</name>
+        <qualifiedname>MR.Const_EdgePoint.Const_EdgePoint</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="55" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a1910719d541cd9f76905c4f5a6fd8b20" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_EdgePoint.operator bool</definition>
+        <argsstring>(MR.Const_EdgePoint _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_EdgePoint.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::EdgePoint::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="129" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="129" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1ac10c1e6d23b91a7d864fab57f32aca89" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_EdgePoint.operator==</definition>
+        <argsstring>(MR.Const_EdgePoint _this, MR.Const_EdgePoint rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_EdgePoint.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>returns true if two edge-points are equal including equal not-unique representation Generated from method <computeroutput>MR::EdgePoint::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="228" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="228" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePoint_1a15c2e101e9b3c2ba1d019f4a355b956e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_EdgePoint.operator!=</definition>
+        <argsstring>(MR.Const_EdgePoint _this, MR.Const_EdgePoint rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_EdgePoint.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="235" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="235" bodyend="238"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>encodes a point on an edge of mesh or of polyline Generated from class <computeroutput><ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_EdgePoint</label>
+        <link refid="classMR_1_1Const__EdgePoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.EdgePoint</label>
+        <link refid="classMR_1_1EdgePoint"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_EdgePoint</label>
+        <link refid="classMR_1_1Const__EdgePoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_e</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="9" bodyend="257"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__EdgePoint_1ac15283cca41be20ec5492879caea104b" prot="protected" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>__ref_storage_e</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a6e0565857d7fbe0feccfbdda8aa749e4" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1ad51657c8440d845074d2b60d6bc278d1" prot="package" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1af495331488c1a8345a2bf789dd5e788c" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1addcdfde71c8b354d78c3b116a4e439a5" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a557ea9fad901b3f57d06f8ea4354e5d8" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1af831aece7589101cf6ecf63c0eb348d0" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1ae1cddc19a2b936d8690160b8b2a9feec" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1aff94ef6b354e565e0aab8832de7fb32c" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a77a4648229d2b1d26f7560fad9c823a7" prot="protected" virt="virtual"><scope>MR::Const_EdgePoint</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1adeebaa61f15be178b9983963bf6d8384" prot="public" virt="virtual"><scope>MR::Const_EdgePoint</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a82323f33dd299a1d6b7ce01d479e4358" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>e</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1ae1e2c85350e128c8e34dff4c1f28db4a" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a6e5f01339dd218a36a6ea68534dc81fb" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a4055bc4de109cb5883493ad118ccd2cc" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a279684181c8c6e0166ff0d88b037b5c4" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a09cf280366bfdb166fa7fcfa970b6281" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a03993a04be1f5c19b9ddb5b92f21c5b3" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a5f43e85d482f91d3c7450194e75d22b8" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a4f6c995084940dfb01e6bb2391827636" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>isBd</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a1910719d541cd9f76905c4f5a6fd8b20" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a15c2e101e9b3c2ba1d019f4a355b956e" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1ac10c1e6d23b91a7d864fab57f32aca89" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1aa8b153b552e13ee1301ecc5a2a9591aa" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>sym</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1aac4ac1e98fd7fa90d129d59261451beb" prot="public" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1aa492510ccdacdc406f03ed5bb6b82b4e" prot="private" virt="non-virtual"><scope>MR::Const_EdgePoint</scope><name>~Const_EdgePoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

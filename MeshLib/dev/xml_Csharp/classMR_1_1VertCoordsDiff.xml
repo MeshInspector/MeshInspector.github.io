@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertCoordsDiff" kind="class" language="C#" prot="public">
     <compoundname>MR::VertCoordsDiff</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertCoordsDiff</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VertCoordsDiff" prot="public" virt="non-virtual">MR.Const_VertCoordsDiff</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VertCoordsDiff_1a7d644516ee00f254a61f92421b7b30d9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>VertCoordsDiff</name>
         <qualifiedname>MR.VertCoordsDiff.VertCoordsDiff</qualifiedname>
         <param>
-          <type>Const_VertCoordsDiff</type>
+          <type><ref refid="classMR_1_1Const__VertCoordsDiff" kindref="compound">Const_VertCoordsDiff</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -107,11 +107,11 @@
         <name>VertCoordsDiff</name>
         <qualifiedname>MR.VertCoordsDiff.VertCoordsDiff</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>to</declname>
         </param>
         <briefdescription>
@@ -177,6 +177,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertCoordsDiff</label>
+        <link refid="classMR_1_1Const__VertCoordsDiff"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -198,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertCoordsDiff</label>
+        <link refid="classMR_1_1Const__VertCoordsDiff"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -212,8 +214,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="105" bodyend="175"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a2075d548c150f715ba2c7ec586255f7c" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>any</name></member>
       <member refid="classMR_1_1VertCoordsDiff_1a471823260258ce2382478da39c602157" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>applyAndSwap</name></member>
       <member refid="classMR_1_1VertCoordsDiff_1acddf3b61564aa2e78b768a9d54802b97" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a6a9e24f235e07123d7e394f0799d7fb1" prot="package" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1af2666a7533ca6f3db73adcea86ea943a" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1aa73a46c4218fe6d0d20f430d9cf0279f" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a1ea24ff9f9aebc2b44049a0bd2d3341e" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a808085d8512ea50b529186c3a3445b31" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1af847c3e423d768a18e7066521571bcbf" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a3f0df407df3965b6912068b59fe29171" prot="protected" virt="virtual"><scope>MR::VertCoordsDiff</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a6423d5c4467bdb70da4e2770b2bd8735" prot="public" virt="virtual"><scope>MR::VertCoordsDiff</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a5c7cfb4203f2d369636c1fb9ff5ce5f4" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1VertCoordsDiff_1a7d644516ee00f254a61f92421b7b30d9" prot="package" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>
       <member refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>
       <member refid="classMR_1_1VertCoordsDiff_1a10627d0b3cb91c58fabd235dc82ad3c3" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>

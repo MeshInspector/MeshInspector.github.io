@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshTopology" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshTopology</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshTopology</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshTopology" prot="public" virt="non-virtual">MR.Const_MeshTopology</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MeshTopology_1a95618dc2ac98e9689ef094b25c9c3bec" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>MeshTopology</name>
         <qualifiedname>MR.MeshTopology.MeshTopology</qualifiedname>
         <param>
-          <type>Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">Const_MeshTopology</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -361,7 +361,7 @@
           <declname>f</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>keepEdges</declname>
           <defval>null</defval>
         </param>
@@ -391,11 +391,11 @@
         <name>deleteFaces</name>
         <qualifiedname>MR.MeshTopology.deleteFaces</qualifiedname>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>fs</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>keepEdges</declname>
           <defval>null</defval>
         </param>
@@ -569,7 +569,7 @@
         <name>flipOrientation</name>
         <qualifiedname>MR.MeshTopology.flipOrientation</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>fullComponents</declname>
           <defval>null</defval>
         </param>
@@ -612,11 +612,11 @@
         <name>addPart</name>
         <qualifiedname>MR.MeshTopology.addPart</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_PartMapping?</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref>?</type>
           <declname>map</declname>
           <defval>null</defval>
         </param>
@@ -651,7 +651,7 @@
         <name>addPart</name>
         <qualifiedname>MR.MeshTopology.addPart</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>from</declname>
         </param>
         <param>
@@ -690,15 +690,15 @@
         <name>addPartByMask</name>
         <qualifiedname>MR.MeshTopology.addPartByMask</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>fromFaces</declname>
         </param>
         <param>
-          <type>MR.Const_PartMapping?</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref>?</type>
           <declname>map</declname>
           <defval>null</defval>
         </param>
@@ -718,11 +718,11 @@
         <name>addPartByMask</name>
         <qualifiedname>MR.MeshTopology.addPartByMask</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>fromFaces</declname>
         </param>
         <param>
@@ -741,7 +741,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_PartMapping?</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref>?</type>
           <declname>map</declname>
           <defval>null</defval>
         </param>
@@ -857,7 +857,7 @@
         <name>pack</name>
         <qualifiedname>MR.MeshTopology.pack</qualifiedname>
         <param>
-          <type>MR.Const_PackMapping</type>
+          <type><ref refid="classMR_1_1Const__PackMapping" kindref="compound">MR.Const_PackMapping</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -876,7 +876,7 @@
         <name>packMinMem</name>
         <qualifiedname>MR.MeshTopology.packMinMem</qualifiedname>
         <param>
-          <type>MR.Const_PackMapping</type>
+          <type><ref refid="classMR_1_1Const__PackMapping" kindref="compound">MR.Const_PackMapping</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -950,7 +950,7 @@
         <name>addPackedPart</name>
         <qualifiedname>MR.MeshTopology.addPackedPart</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>from</declname>
         </param>
         <param>
@@ -958,11 +958,11 @@
           <declname>toEdgeId</declname>
         </param>
         <param>
-          <type>MR.Const_FaceMap</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref></type>
           <declname>fmap</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>vmap</declname>
         </param>
         <briefdescription>
@@ -1020,7 +1020,7 @@
         <name>stopUpdatingValids</name>
         <qualifiedname>MR.MeshTopology.stopUpdatingValids</qualifiedname>
         <briefdescription>
-<para>stops updating validVerts(), validFaces(), numValidVerts(), numValidFaces() for parallel processing of mesh parts Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ad936295832388c4a9949f2fb85a0afb8" kindref="member">MR.MeshTopology.stopUpdatingValids</ref></computeroutput>. </para>
+<para>stops updating validVerts(), validFaces(), <ref refid="classMR_1_1Const__MeshTopology_1a375f302036c309d848bedafa26c84066" kindref="member">numValidVerts()</ref>, <ref refid="classMR_1_1Const__MeshTopology_1a6ce93896cd52787f574139495c2ed759" kindref="member">numValidFaces()</ref> for parallel processing of mesh parts Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ad936295832388c4a9949f2fb85a0afb8" kindref="member">MR.MeshTopology.stopUpdatingValids</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1035,7 +1035,7 @@
         <name>preferEdges</name>
         <qualifiedname>MR.MeshTopology.preferEdges</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>stableEdges</declname>
         </param>
         <briefdescription>
@@ -1054,7 +1054,7 @@
         <name>buildGridMesh</name>
         <qualifiedname>MR.MeshTopology.buildGridMesh</qualifiedname>
         <param>
-          <type>MR.Const_GridSettings</type>
+          <type><ref refid="classMR_1_1Const__GridSettings" kindref="compound">MR.Const_GridSettings</ref></type>
           <declname>settings</declname>
         </param>
         <param>
@@ -1086,6 +1086,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshTopology</label>
+        <link refid="classMR_1_1Const__MeshTopology"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1112,6 +1113,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshTopology</label>
+        <link refid="classMR_1_1Const__MeshTopology"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1139,40 +1141,145 @@
       <member refid="classMR_1_1MeshTopology_1a3c3315ee683280dbd7946a7e10600309" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPartByMask</name></member>
       <member refid="classMR_1_1MeshTopology_1aa909a6bd7c873592dc14277eac2df1d6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addVertId</name></member>
       <member refid="classMR_1_1MeshTopology_1a349c518750c2bda3d9dba761d2c87971" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a39d047536b4bb71ab2fc2c28948b24bf" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>bdEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a46cc2d384062deff7ef173e3dac84033" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>bdEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ac0541dc31d11dc8470cde94fdd285e57" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>bdEdgeWithLeft</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a4446eec1dd9f679d1c41d207e72db12c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>bdEdgeWithOrigin</name></member>
       <member refid="classMR_1_1MeshTopology_1afd15a9b543e4fd00dd0b86f60aa9116b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>buildGridMesh</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a56503e05823c3f10482c7d3ee7faa1c6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>checkValidity</name></member>
       <member refid="classMR_1_1MeshTopology_1a0b5a8aa5f854f307af97aafe7cb3ab69" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>collapseEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a94f131bb4401fab2065a6239fdc65061" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
       <member refid="classMR_1_1MeshTopology_1a5f8cc5b0e1d78c1a58fcbe9bb62ce559" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeValidsFromEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a1b14ff3a1e91c0719effbf6fc342aad6" prot="package" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Const_MeshTopology</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a0f182498fbd2164db28faffa332a13b8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Const_MeshTopology</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a51bc927b7a6e04ace58b89c1ae325328" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Const_MeshTopology</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a711d6369ee00f4d45e4205a85cd67fba" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Const_MeshTopology</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a175f23d15dc3361b147e673c9f6c2721" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Const_MeshTopology</name></member>
       <member refid="classMR_1_1MeshTopology_1a02ab985393952c324537391d3a95b34b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFace</name></member>
       <member refid="classMR_1_1MeshTopology_1a877289bbfc2c5c17342785bfccba71f5" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFaces</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a45d33a07ec5d8ae20482b35cc3bf8223" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>dest</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ab7499b82290180c6f890714cddf92cc1" prot="protected" virt="virtual"><scope>MR::MeshTopology</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a8ef5114478919ccb55846ca25a639481" prot="public" virt="virtual"><scope>MR::MeshTopology</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a472b1be687cdd85769622bb5a50bc763" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeCapacity</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a923a7d4581539bbffc68ab03cd44e3b2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgePerFace</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ae233328a2e1a9397366bdc2ace37619c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgePerVertex</name></member>
       <member refid="classMR_1_1MeshTopology_1a4953976e89f47ee04ff351eaa8e9d583" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeReserve</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1adb82108bab538ebf73b0fee914f3a7cf" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeSize</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1afe5b8ff5be12d2eaaf230eef12e96715" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeWithLeft</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1aaf89b23c9bbe9ff5646bfdd452fc0c44" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeWithOrg</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a95d9891aea435cba9bd2a0927b0a5f92" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a8394a832fc8e775fb531d78de4581076" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a47a7f72293749251b3994092f8891c19" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>excludeLoneEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a44098f61e3ebbe29378749807fedc029" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceCapacity</name></member>
       <member refid="classMR_1_1MeshTopology_1ace7f834d29b2e7f6c51703089fd52494" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceReserve</name></member>
       <member refid="classMR_1_1MeshTopology_1af216f8f557054e815ff87e985d4a6cda" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceResize</name></member>
       <member refid="classMR_1_1MeshTopology_1a432a0837900bf35ae5232e5e5dbd7800" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceResizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a1fa187239e24d12b10fc9351e98592d2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceSize</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ae915e66cd3bf5e2e43b0d0ca3f49afcc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findBdFaces</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a06b19224bc9278dd63cf03e7e0b8b624" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findBdVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a8facffb8bd86e607aaa8d2d808f180c6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a7532d4eb180226bb55b535a178fd83ec" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findHoleRepresentiveEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1aba1be004abcf31a5076f38077b785615" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findLeftBdEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a8724690d4cafdaf3881a6a73931e905c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findNotLoneUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a7e24ec03165c7544a236a3d0260cea47" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>findNumHoles</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a7b78d696810612feb8a7155ff35093e1" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>flip</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ae725f903e7f042f02ad7d8b5fcaf1214" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>flip</name></member>
       <member refid="classMR_1_1MeshTopology_1a25e95a43b3bb1714ad2d8576540387e6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>flipEdge</name></member>
       <member refid="classMR_1_1MeshTopology_1aa8f93500c5a7191443286a5d8bddba59" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>flipOrientation</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ae26aed32c678d63364151e0542e231c7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>fromSameLeftRing</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1acecfdec7124d88af46175b7f5fe2ed2a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>fromSameOriginRing</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ad078d994f8c175bcc9dd3e1d10fa4710" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getAllTriVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a48a460cd51df0912934e4da660b34efa" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getFaceDegree</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a37a9f4e926a7e947d75751a54945901d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getFaceIds</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a2b36d345977ccfa1acc17b4ee8cca6e4" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftDegree</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1abf2f8fb4a05404858712b3c888264b7a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftRing</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a21460e5603fde9fe3b89d8655ffcec16" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftRings</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a0d9faf10a15fb807c1d6ea346d4a486d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ace9af058a48212e35f63c0695042a190" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a35e593cc7ce33fe417536a15ddfba91f" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a0dc689f730b4d2d609c8acfcd07694ec" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1af6370540ba8b7967b586572abc093546" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getOrgDegree</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a190d9938d210235852208c676b87462f" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getPathLeftFaces</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a2a4a5d727a7b8ca324389b45b4913562" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getPathRightFaces</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a96369fad67dae6fda507af390889e645" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getPathVertices</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1aeafc383e968d8efa9db6c5007b24973b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getTriangulation</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a6b7c7b9fb3e7bf2343134afbfa2bc149" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getTriEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ad2ba950b97940eb81a2c7b3709ffa25f" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getTriVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a10b5e0686da905ba29adc0a1d239bcfb" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getTriVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a3abef5732b28da3b1efa57d26d7c786d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getTriVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a27cc372f0a0426f2aa4811fa119a2c89" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getValidFaces</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1aee7c6db6d8ba4831c7ccad1d08455635" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getValidVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1aff6ba3ed1cfd28b8007bbc11b00b8eb8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getVertDegree</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1abc2fd5d60207c5fbe7911832228de26f" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getVertIds</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a3c26d32e1b17d0421c8a22e20cbae9d4" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>hasEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a5a19ed2c8e0df4f079172601519e4752" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>hasFace</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a088e3d7cdcff4b506a38acfdb6f93b72" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>hasVert</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a10268e3f8754ecaea3ff134c1cab7ca7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1afca9d7959d5c8fcb49326e253b288caf" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isBdEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a3197e5af1e46bb59a4242ed85fdd6698" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isBdFace</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a8544d5b595501047091f465ba8dbb41d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isBdVertex</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ab9621fe308acb4a726309e96a19c8d80" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isBdVertexInOrg</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ad6f3adf9c53dfac4b55a96963005846c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isClosed</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a3b8e252d5feafc51ab922b63a8c71073" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isInnerEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1acec293b83191e5ea5ff91cca0dde1291" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isInnerOrBdEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a982203374290bbd5639fc73fbaba0373" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isInnerOrBdVertex</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a6354bc5282026c8275f5e8c3113784aa" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isLeftBdEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ab2b439912d01e7362e226bfdfa22f18d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isLeftBdFace</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ab5657ea9fdaf3b587e537b6025537d16" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isLeftInRegion</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a51cb76e9df2b872f81965766c9b966ac" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isLeftQuad</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1ac9626267d662492decdc7776d57908ed" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isLeftTri</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a89bb33a40bea77a0549a4310a516f10a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isLoneEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a1efcc4a70000a69fc5b2e2bde636b96a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isOrgInnerAndHasDegree</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a2b47a7c1200a8340427e26fd222c344b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isTriVert</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a71d064a4d046d9cd6ce44609b13d496b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>isVertInnerAndHasDegree</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a516a0c9b2039d23c12d5e1f51f400b1c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>lastNotLoneEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a65092b1945992fdd7e5e03c06d9cd9a8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>lastNotLoneUndirectedEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a30fb476b159c2cb376f4dfb476a3cffb" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>lastValidFace</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a5a7c4b587d3c5a445f43769900988781" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>lastValidVert</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1aa8b959e714328ce4534184ee8ccf4d21" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>left</name></member>
       <member refid="classMR_1_1MeshTopology_1af2ec4ff948c91e5062cc78113e16fc60" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>makeEdge</name></member>
       <member refid="classMR_1_1MeshTopology_1a95618dc2ac98e9689ef094b25c9c3bec" prot="package" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
       <member refid="classMR_1_1MeshTopology_1a2f90be272ebbdabccd5def076f1eda8d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
       <member refid="classMR_1_1MeshTopology_1ab44610e89641216bf4a3ddbe2da25e6e" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
       <member refid="classMR_1_1MeshTopology_1a592f473a191f647cd8f7194eacf9bff7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
       <member refid="classMR_1_1MeshTopology_1a61f7d6f557be0264e5fc2990a6e93dff" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a4e132190b26c79be67cdc113ac7f6d9c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>next</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a5133e74fc8095994ce9bdd17c3a79bbd" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>nextLeftBd</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a6ce93896cd52787f574139495c2ed759" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>numValidFaces</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a375f302036c309d848bedafa26c84066" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>numValidVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a22509c7b4cdc3a705fbb9354e5c540f9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a7a66b5f81d49d37ce8be8df61d7bce77" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a619f31aa08881c3833771b0a0125b3ce" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>org</name></member>
       <member refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>pack</name></member>
       <member refid="classMR_1_1MeshTopology_1a4f699f3cc25b460fdd41052ac17d14a8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>pack</name></member>
       <member refid="classMR_1_1MeshTopology_1a2278217cc29c59228fc5af61b3a37436" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>packMinMem</name></member>
       <member refid="classMR_1_1MeshTopology_1ab672fd19e5797ccbe94eed1f4fc47690" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>preferEdges</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1aa63fcd5ca2d290342b7a43c3ca6e19bd" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>prev</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a644f6cc252453967628919bee799a04a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>prevLeftBd</name></member>
       <member refid="classMR_1_1MeshTopology_1a5a427b567c5dcafd1f0d7d7e23966d9d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>read</name></member>
       <member refid="classMR_1_1MeshTopology_1a3e4ac990a63ba5b7431d1c8143f008c0" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>resizeBeforeParallelAdd</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a6627554d792266ab9b75b95d2813065a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>right</name></member>
       <member refid="classMR_1_1MeshTopology_1a3003427f4a7585b1541d6859faf20424" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>rotateTriangles</name></member>
       <member refid="classMR_1_1MeshTopology_1a1fa9107b60d9309ddf3247005a3a4fb1" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>setLeft</name></member>
       <member refid="classMR_1_1MeshTopology_1add9d777e7b522152daa32c58e6ca991b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>setOrg</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1afdb637191e80009232d2d641171bab9b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>sharedEdge</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a10295bfea28c6f16d634ce837913cc0d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>sharedFace</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a260db8280084c1b055bf90c00ac05434" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>sharedVertInOrg</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a2f4e9c335bf4b924e1534699be7c1f04" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>sharedVertInOrg</name></member>
       <member refid="classMR_1_1MeshTopology_1a61c0a1cc8ebd1f01b921acf88eb43df7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>shrinkToFit</name></member>
       <member refid="classMR_1_1MeshTopology_1a08126f32bb3b4d9f2a75a8f0e142f0c2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splice</name></member>
       <member refid="classMR_1_1MeshTopology_1accac8bee9be72acc01f545bfc8ac80dc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitEdge</name></member>
       <member refid="classMR_1_1MeshTopology_1ae265d8dd6027ad38480282b747075ea9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitFace</name></member>
       <member refid="classMR_1_1MeshTopology_1ad936295832388c4a9949f2fb85a0afb8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>stopUpdatingValids</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a91ba560a9e3a564ca2c51134300471d2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeCapacity</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a2aa635e68139dcd0db580be7e67c2a7b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeSize</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a1511bebffb3a1e719e4608d8dd92f746" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>updatingValids</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1af8e4d39f0e0cbc27f2eb1a7cfbcd67b6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertCapacity</name></member>
       <member refid="classMR_1_1MeshTopology_1ac87b85279824b958a2625216ef0ed12d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertReserve</name></member>
       <member refid="classMR_1_1MeshTopology_1a3e0abe440e8a359de8f30cc291828e88" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertResize</name></member>
       <member refid="classMR_1_1MeshTopology_1a201f3bb1c53b8a1bb6a565c5c4ac7bfc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertResizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a18686890448f2afa936b43325f92c00a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertSize</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1afc1af9a748bba8fca68f05b6261f71b4" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>write</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

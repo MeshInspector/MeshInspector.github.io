@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_TeethMaskToDirectionVolumeConvertor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor" prot="public" virt="non-virtual">MR.TeethMaskToDirectionVolumeConvertor</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1Const__ProcessResult" prot="public">MR::Const_TeethMaskToDirectionVolumeConvertor::Const_ProcessResult</innerclass>
+    <innerclass refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" prot="public">MR::Const_TeethMaskToDirectionVolumeConvertor::ProcessResult</innerclass>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0d0a9d375ec9c0c8c67407eb803fb0dd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_TeethMaskToDirectionVolumeConvertor.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="152" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="152" bodyend="160"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a94632b17b0d54d7cbe3d40f3a732ce2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_TeethMaskToDirectionVolumeConvertor.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="161" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a9d9d52bc8ce0c80d49550cc4c0ae2a4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TeethMaskToDirectionVolumeConvertor.Const_TeethMaskToDirectionVolumeConvertor</definition>
+        <argsstring>(MR._ByValue_TeethMaskToDirectionVolumeConvertor _other)</argsstring>
+        <name>Const_TeethMaskToDirectionVolumeConvertor</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.Const_TeethMaskToDirectionVolumeConvertor</qualifiedname>
+        <param>
+          <type>MR._ByValue_TeethMaskToDirectionVolumeConvertor</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a82a9e29324c5c6eaea62fda9d3e8857b" kindref="member">MR.TeethMaskToDirectionVolumeConvertor.TeethMaskToDirectionVolumeConvertor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="169" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="169" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a3df17274ffda86514505a8973d10f51e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TeethMaskToDirectionVolumeConvertor.Const_TeethMaskToDirectionVolumeConvertor</definition>
+        <argsstring>(Const_TeethMaskToDirectionVolumeConvertor _other)</argsstring>
+        <name>Const_TeethMaskToDirectionVolumeConvertor</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.Const_TeethMaskToDirectionVolumeConvertor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor" kindref="compound">Const_TeethMaskToDirectionVolumeConvertor</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a82a9e29324c5c6eaea62fda9d3e8857b" kindref="member">MR.TeethMaskToDirectionVolumeConvertor.TeethMaskToDirectionVolumeConvertor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="180" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1aa57c76a41d4c3da7fa5d313e3c6e640c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TeethMaskToDirectionVolumeConvertor.Const_TeethMaskToDirectionVolumeConvertor</definition>
+        <argsstring>(TeethMaskToDirectionVolumeConvertor _other)</argsstring>
+        <name>Const_TeethMaskToDirectionVolumeConvertor</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.Const_TeethMaskToDirectionVolumeConvertor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor" kindref="compound">TeethMaskToDirectionVolumeConvertor</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a82a9e29324c5c6eaea62fda9d3e8857b" kindref="member">MR.TeethMaskToDirectionVolumeConvertor.TeethMaskToDirectionVolumeConvertor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="185" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="185" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a58bf4e1392e7c3aaf00dc179b7bd45c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Phmap.Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T</type>
+        <definition>unsafe MR.Phmap.Const_FlatHashMap_Int_MRBox3i_PhmapHashInt32T MR.Const_TeethMaskToDirectionVolumeConvertor.getObjectBounds</definition>
+        <argsstring>()</argsstring>
+        <name>getObjectBounds</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.getObjectBounds</qualifiedname>
+        <briefdescription>
+<para>Returns all the objects present in volume and corresponding bounding boxes Generated from method <computeroutput><ref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a58bf4e1392e7c3aaf00dc179b7bd45c9" kindref="member">MR.TeethMaskToDirectionVolumeConvertor.getObjectBounds</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="208" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="208" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1ade864cfb343ae486bc88736939375a78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kindref="compound">MR.TeethMaskToDirectionVolumeConvertor.ProcessResult</ref></type>
+        <definition>unsafe MR.TeethMaskToDirectionVolumeConvertor.ProcessResult MR.Const_TeethMaskToDirectionVolumeConvertor.convertObject</definition>
+        <argsstring>(int id)</argsstring>
+        <name>convertObject</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.convertObject</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Converts single object into direction volume Generated from method <computeroutput><ref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1ade864cfb343ae486bc88736939375a78" kindref="member">MR.TeethMaskToDirectionVolumeConvertor.convertObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="219" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="219" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a14962a79ee62deae55cc6f5be15b23bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kindref="compound">MR.TeethMaskToDirectionVolumeConvertor.ProcessResult</ref></type>
+        <definition>unsafe MR.TeethMaskToDirectionVolumeConvertor.ProcessResult MR.Const_TeethMaskToDirectionVolumeConvertor.convertAll</definition>
+        <argsstring>()</argsstring>
+        <name>convertAll</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.convertAll</qualifiedname>
+        <briefdescription>
+<para>Converts all the objects into direction volume Generated from method <computeroutput><ref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a14962a79ee62deae55cc6f5be15b23bd" kindref="member">MR.TeethMaskToDirectionVolumeConvertor.convertAll</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="233" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="233" bodyend="241"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0191d65ea3f8ac295e0237f3ef292841" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TeethMaskToDirectionVolumeConvertor.~Const_TeethMaskToDirectionVolumeConvertor</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_TeethMaskToDirectionVolumeConvertor</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.~Const_TeethMaskToDirectionVolumeConvertor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="162" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a9d1e7b673b0075afdc07b727447889e7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TeethMaskToDirectionVolumeConvertor.Const_TeethMaskToDirectionVolumeConvertor</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_TeethMaskToDirectionVolumeConvertor</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.Const_TeethMaskToDirectionVolumeConvertor</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="164" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="164" bodyend="164"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0ef3cf0a6f7269bb6eeee3636178dfb3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor" kindref="compound">MR.TeethMaskToDirectionVolumeConvertor</ref></type>
+        <definition>static unsafe MR.TeethMaskToDirectionVolumeConvertor MR.Const_TeethMaskToDirectionVolumeConvertor.create</definition>
+        <argsstring>(MR.Const_VdbVolume volume, MR.Std.Const_Vector_Int? additionalIds=null)</argsstring>
+        <name>create</name>
+        <qualifiedname>MR.Const_TeethMaskToDirectionVolumeConvertor.create</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_Int?</type>
+          <declname>additionalIds</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Initialize class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>volume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Voxel mask </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>additionalIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of additional ids (besides teeth) to convert Generated from method <computeroutput><ref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0ef3cf0a6f7269bb6eeee3636178dfb3" kindref="member">MR.TeethMaskToDirectionVolumeConvertor.create</ref></computeroutput>. Parameter <computeroutput>additionalIds</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="194" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="194" bodyend="202"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class is an alternative to directly invoking <ref refid="classMR_1a643e3be78f578a2f6adacd0d29612444" kindref="member">meshToDirectionVolume</ref> for the mesh retrieved from the teeth mask. It is better because when a single mesh is created from mask, some neighboring teeth might fuse together, creating incorrect mask. This class invokes meshing for each teeth separately, thus eliminating this problem. Generated from class <computeroutput><ref refid="classMR_1_1TeethMaskToDirectionVolumeConvertor" kindref="compound">MR.TeethMaskToDirectionVolumeConvertor</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_TeethMaskToDirectionVolumeConvertor</label>
+        <link refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.TeethMaskToDirectionVolumeConvertor</label>
+        <link refid="classMR_1_1TeethMaskToDirectionVolumeConvertor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_TeethMaskToDirectionVolumeConvertor</label>
+        <link refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="146" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="147" bodyend="492"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a9d1e7b673b0075afdc07b727447889e7" prot="package" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>Const_TeethMaskToDirectionVolumeConvertor</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a9d9d52bc8ce0c80d49550cc4c0ae2a4d" prot="public" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>Const_TeethMaskToDirectionVolumeConvertor</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a3df17274ffda86514505a8973d10f51e" prot="public" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>Const_TeethMaskToDirectionVolumeConvertor</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1aa57c76a41d4c3da7fa5d313e3c6e640c" prot="public" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>Const_TeethMaskToDirectionVolumeConvertor</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a14962a79ee62deae55cc6f5be15b23bd" prot="public" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>convertAll</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1ade864cfb343ae486bc88736939375a78" prot="public" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>convertObject</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0ef3cf0a6f7269bb6eeee3636178dfb3" prot="public" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>create</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0d0a9d375ec9c0c8c67407eb803fb0dd" prot="protected" virt="virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a94632b17b0d54d7cbe3d40f3a732ce2a" prot="public" virt="virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a58bf4e1392e7c3aaf00dc179b7bd45c9" prot="public" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>getObjectBounds</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0191d65ea3f8ac295e0237f3ef292841" prot="private" virt="non-virtual"><scope>MR::Const_TeethMaskToDirectionVolumeConvertor</scope><name>~Const_TeethMaskToDirectionVolumeConvertor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

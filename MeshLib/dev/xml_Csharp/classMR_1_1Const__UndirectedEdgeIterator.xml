@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__UndirectedEdgeIterator" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_UndirectedEdgeIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1UndirectedEdgeIterator" prot="public" virt="non-virtual">MR.UndirectedEdgeIterator</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__UndirectedEdgeIterator_1_1__Underlying" prot="package">MR::Const_UndirectedEdgeIterator::_Underlying</innerclass>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1ae73128e2a3b9ac58c388a67e7d62a389" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_UndirectedEdgeIterator.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1a088f88e9586649bd0307308c1deafc74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_UndirectedEdgeIterator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1a46a61b60de2b7addc8570bb307030400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</definition>
+        <argsstring>()</argsstring>
+        <name>Const_UndirectedEdgeIterator</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1afc7cf37339002fd2aa06cd5f18a9e6a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</definition>
+        <argsstring>(MR.Const_UndirectedEdgeIterator _other)</argsstring>
+        <name>Const_UndirectedEdgeIterator</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdgeIterator_1a9e1f81ee6baf3189b15421033f6930f1" kindref="member">MR.UndirectedEdgeIterator.UndirectedEdgeIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="41" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1abc4f9ed915e7fde4d45c815ff1cbf847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</definition>
+        <argsstring>(UndirectedEdgeIterator _other)</argsstring>
+        <name>Const_UndirectedEdgeIterator</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdgeIterator_1a9e1f81ee6baf3189b15421033f6930f1" kindref="member">MR.UndirectedEdgeIterator.UndirectedEdgeIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="52" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1a10587764efbe1f34b9e2c14f90cf12f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</definition>
+        <argsstring>(MR.Const_MeshTopology topology)</argsstring>
+        <name>Const_UndirectedEdgeIterator</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdgeIterator_1a9e1f81ee6baf3189b15421033f6930f1" kindref="member">MR.UndirectedEdgeIterator.UndirectedEdgeIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="58" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="58" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1a8c2578e30d1fa5e845716b5478c95628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_UndirectedEdgeIterator.deref</definition>
+        <argsstring>()</argsstring>
+        <name>deref</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.deref</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeIterator::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="87" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1ae135c8b8013adbf4f369f36187f15bdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_UndirectedEdgeIterator.Equals</definition>
+        <argsstring>(MR.Const_UndirectedEdgeIterator? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="111" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="111" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1a999cc7da4661feb91fc7dad06fc17bd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_UndirectedEdgeIterator.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="118" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="118" bodyend="125"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1a4a07664fc99a4fcf1a033e440affd59e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UndirectedEdgeIterator.~Const_UndirectedEdgeIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_UndirectedEdgeIterator</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.~Const_UndirectedEdgeIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1a4d1600e30287d58bed5458d95739d06a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_UndirectedEdgeIterator</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.Const_UndirectedEdgeIterator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1aa1ea80ae311628d5f5479ab1b67f33cf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_UndirectedEdgeIterator.operator Const_UndirectedEdgeIterator</definition>
+        <argsstring>(MR.Const_MeshTopology topology)</argsstring>
+        <name>operator Const_UndirectedEdgeIterator</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.operator Const_UndirectedEdgeIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdgeIterator_1a9e1f81ee6baf3189b15421033f6930f1" kindref="member">MR.UndirectedEdgeIterator.UndirectedEdgeIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="70" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1af46c798a3ee84bacdbe8426c3e8976e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref></type>
+        <definition>static unsafe UndirectedEdgeIterator MR.Const_UndirectedEdgeIterator.operator++</definition>
+        <argsstring>(MR.Const_UndirectedEdgeIterator _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::UndirectedEdgeIterator::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="75" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1aa7fceead374fd26f82083fedb721435b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_UndirectedEdgeIterator.operator==</definition>
+        <argsstring>(MR.Const_UndirectedEdgeIterator a, MR.Const_UndirectedEdgeIterator b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="97" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="97" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeIterator_1a91437466be22cf34e6484d456b0f90d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_UndirectedEdgeIterator.operator!=</definition>
+        <argsstring>(MR.Const_UndirectedEdgeIterator a, MR.Const_UndirectedEdgeIterator b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_UndirectedEdgeIterator.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="104" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_UndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.UndirectedEdgeIterator</label>
+        <link refid="classMR_1_1UndirectedEdgeIterator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_UndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="9" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a4d1600e30287d58bed5458d95739d06a" prot="package" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a46a61b60de2b7addc8570bb307030400" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1afc7cf37339002fd2aa06cd5f18a9e6a5" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1abc4f9ed915e7fde4d45c815ff1cbf847" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a10587764efbe1f34b9e2c14f90cf12f3" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a8c2578e30d1fa5e845716b5478c95628" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1ae73128e2a3b9ac58c388a67e7d62a389" prot="protected" virt="virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a088f88e9586649bd0307308c1deafc74" prot="public" virt="virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1ae135c8b8013adbf4f369f36187f15bdd" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a999cc7da4661feb91fc7dad06fc17bd1" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1aa1ea80ae311628d5f5479ab1b67f33cf" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>operator Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a91437466be22cf34e6484d456b0f90d9" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1af46c798a3ee84bacdbe8426c3e8976e7" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1aa7fceead374fd26f82083fedb721435b" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a4a07664fc99a4fcf1a033e440affd59e" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeIterator</scope><name>~Const_UndirectedEdgeIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

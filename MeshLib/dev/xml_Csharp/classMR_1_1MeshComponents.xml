@@ -2,6 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshComponents" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshComponents</compoundname>
+    <innerclass refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams" prot="public">MR::MeshComponents::Const_ExpandToComponentsParams</innerclass>
+    <innerclass refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" prot="public">MR::MeshComponents::Const_LargeByAreaComponentsSettings</innerclass>
     <innerclass refid="classMR_1_1MeshComponents_1_1ExpandToComponentsParams" prot="public">MR::MeshComponents::ExpandToComponentsParams</innerclass>
     <innerclass refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" prot="public">MR::MeshComponents::LargeByAreaComponentsSettings</innerclass>
     <sectiondef kind="public-type">
@@ -45,7 +47,7 @@
         <name>getComponent</name>
         <qualifiedname>MR.MeshComponents.getComponent</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -58,7 +60,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -78,7 +80,7 @@
         <name>getComponentVerts</name>
         <qualifiedname>MR.MeshComponents.getComponentVerts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -86,7 +88,7 @@
           <declname>id</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -106,11 +108,11 @@
         <name>getLargestComponentVerts</name>
         <qualifiedname>MR.MeshComponents.getLargestComponentVerts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -130,7 +132,7 @@
         <name>getLargeComponentVerts</name>
         <qualifiedname>MR.MeshComponents.getLargeComponentVerts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -138,7 +140,7 @@
           <declname>minVerts</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -168,7 +170,7 @@
         <name>getLargestComponent</name>
         <qualifiedname>MR.MeshComponents.getLargestComponent</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -177,7 +179,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -217,11 +219,11 @@
         <name>getComponents</name>
         <qualifiedname>MR.MeshComponents.getComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>seeds</declname>
         </param>
         <param>
@@ -230,7 +232,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -250,15 +252,15 @@
         <name>getComponents</name>
         <qualifiedname>MR.MeshComponents.getComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>seeds</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -268,7 +270,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -288,7 +290,7 @@
         <name>getLargeByAreaComponents</name>
         <qualifiedname>MR.MeshComponents.getLargeByAreaComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -296,7 +298,7 @@
           <declname>minArea</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
         </param>
         <briefdescription>
@@ -315,7 +317,7 @@
         <name>getLargeByAreaComponents</name>
         <qualifiedname>MR.MeshComponents.getLargeByAreaComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -347,15 +349,15 @@
         <name>expandToComponents</name>
         <qualifiedname>MR.MeshComponents.expandToComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>mp</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>seeds</declname>
         </param>
         <param>
-          <type>MR.MeshComponents.Const_ExpandToComponentsParams?</type>
+          <type><ref refid="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams" kindref="compound">MR.MeshComponents.Const_ExpandToComponentsParams</ref>?</type>
           <declname>params_</declname>
           <defval>null</defval>
         </param>
@@ -375,11 +377,11 @@
         <name>getNLargeByAreaComponents</name>
         <qualifiedname>MR.MeshComponents.getNLargeByAreaComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
-          <type>MR.MeshComponents.Const_LargeByAreaComponentsSettings</type>
+          <type><ref refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" kindref="compound">MR.MeshComponents.Const_LargeByAreaComponentsSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -398,7 +400,7 @@
         <name>getLargeByAreaSmoothComponents</name>
         <qualifiedname>MR.MeshComponents.getLargeByAreaSmoothComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -430,15 +432,15 @@
         <name>getComponentsVerts</name>
         <qualifiedname>MR.MeshComponents.getComponentsVerts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>seeds</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -458,7 +460,7 @@
         <name>getNumComponents</name>
         <qualifiedname>MR.MeshComponents.getNumComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -467,7 +469,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -487,7 +489,7 @@
         <name>getAllComponents</name>
         <qualifiedname>MR.MeshComponents.getAllComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -496,7 +498,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -519,7 +521,7 @@
         <name>getAllComponents</name>
         <qualifiedname>MR.MeshComponents.getAllComponents</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -532,7 +534,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -572,7 +574,7 @@
           <declname>componentsCount</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>region</declname>
         </param>
         <param>
@@ -607,7 +609,7 @@
         <name>getAllComponentsMap</name>
         <qualifiedname>MR.MeshComponents.getAllComponentsMap</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -616,7 +618,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -641,7 +643,7 @@
         <name>getFacePairRegionMap</name>
         <qualifiedname>MR.MeshComponents.getFacePairRegionMap</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -654,7 +656,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -674,11 +676,11 @@
         <name>getRegionAreas</name>
         <qualifiedname>MR.MeshComponents.getRegionAreas</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
-          <type>MR.Const_Face2RegionMap</type>
+          <type><ref refid="classMR_1_1Const__Face2RegionMap" kindref="compound">MR.Const_Face2RegionMap</ref></type>
           <declname>regionMap</declname>
         </param>
         <param>
@@ -701,11 +703,11 @@
         <name>getLargeByAreaRegions</name>
         <qualifiedname>MR.MeshComponents.getLargeByAreaRegions</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
-          <type>MR.Const_Face2RegionMap</type>
+          <type><ref refid="classMR_1_1Const__Face2RegionMap" kindref="compound">MR.Const_Face2RegionMap</ref></type>
           <declname>regionMap</declname>
         </param>
         <param>
@@ -737,11 +739,11 @@
         <name>getAllComponentsVerts</name>
         <qualifiedname>MR.MeshComponents.getAllComponentsVerts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -761,7 +763,7 @@
         <name>getAllComponentsVertsSeparatedByPath</name>
         <qualifiedname>MR.MeshComponents.getAllComponentsVertsSeparatedByPath</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -784,7 +786,7 @@
         <name>getAllComponentsVertsSeparatedByPaths</name>
         <qualifiedname>MR.MeshComponents.getAllComponentsVertsSeparatedByPaths</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -807,11 +809,11 @@
         <name>getAllComponentsEdges</name>
         <qualifiedname>MR.MeshComponents.getAllComponentsEdges</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_EdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__EdgeBitSet" kindref="compound">MR.Const_EdgeBitSet</ref></type>
           <declname>edges</declname>
         </param>
         <briefdescription>
@@ -830,11 +832,11 @@
         <name>getAllComponentsUndirectedEdges</name>
         <qualifiedname>MR.MeshComponents.getAllComponentsUndirectedEdges</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>edges</declname>
         </param>
         <briefdescription>
@@ -853,11 +855,11 @@
         <name>hasFullySelectedComponent</name>
         <qualifiedname>MR.MeshComponents.hasFullySelectedComponent</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>selection</declname>
         </param>
         <briefdescription>
@@ -876,11 +878,11 @@
         <name>hasFullySelectedComponent</name>
         <qualifiedname>MR.MeshComponents.hasFullySelectedComponent</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>selection</declname>
         </param>
         <briefdescription>
@@ -899,7 +901,7 @@
         <name>excludeFullySelectedComponents</name>
         <qualifiedname>MR.MeshComponents.excludeFullySelectedComponents</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -922,7 +924,7 @@
         <name>getUnionFindStructureFaces</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureFaces</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
@@ -931,7 +933,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -951,11 +953,11 @@
         <name>getUnionFindStructureFaces</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureFaces</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -965,7 +967,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -985,11 +987,11 @@
         <name>getUnionFindStructureFacesPerEdge</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureFacesPerEdge</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>meshPart</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -1009,16 +1011,16 @@
         <name>getUnionFindStructureFacesPerEdge</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureFacesPerEdge</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
           <defval>null</defval>
         </param>
@@ -1038,11 +1040,11 @@
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureVerts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -1062,11 +1064,11 @@
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureVerts</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -1086,11 +1088,11 @@
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureVerts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_EdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__EdgeBitSet" kindref="compound">MR.Const_EdgeBitSet</ref></type>
           <declname>edges</declname>
         </param>
         <briefdescription>
@@ -1109,11 +1111,11 @@
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureVerts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>edges</declname>
         </param>
         <briefdescription>
@@ -1132,11 +1134,11 @@
         <name>getUnionFindStructureVertsEx</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureVertsEx</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>ignoreEdges</declname>
         </param>
         <briefdescription>
@@ -1155,7 +1157,7 @@
         <name>getUnionFindStructureVertsSeparatedByPath</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureVertsSeparatedByPath</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -1193,7 +1195,7 @@
         <name>getUnionFindStructureVertsSeparatedByPaths</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureVertsSeparatedByPaths</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -1221,7 +1223,7 @@
         <name>getUnionFindStructureUndirectedEdges</name>
         <qualifiedname>MR.MeshComponents.getUnionFindStructureUndirectedEdges</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -1263,11 +1265,11 @@
         <name>getComponentsUndirectedEdges</name>
         <qualifiedname>MR.MeshComponents.getComponentsUndirectedEdges</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>seeds</declname>
         </param>
         <briefdescription>

@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_AABBTreePoints::Const_Node</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Const__AABBTreePoints_1_1Node" prot="public" virt="non-virtual">MR.Const_AABBTreePoints.Node</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a931b9ca1064a0a58a01d32deed242dc8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe ref readonly MR.Box3f MR.Const_AABBTreePoints.Const_Node.box</definition>
+        <argsstring></argsstring>
+        <name>box</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.box</qualifiedname>
+        <briefdescription>
+<para>bounding box of whole subtree </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="211" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a029116b3190d362c249854b962a56504" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe ref readonly MR.NodeId MR.Const_AABBTreePoints.Const_Node.l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.l</qualifiedname>
+        <briefdescription>
+<para>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="217" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1aa3501b13ebf973231780ffabd7b3bbff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe ref readonly MR.NodeId MR.Const_AABBTreePoints.Const_Node.r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.r</qualifiedname>
+        <briefdescription>
+<para>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="223" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1abc2593cb7075310cf72cca24a51a3581" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref> *</type>
+        <definition>unsafe MR.Box3f* MR.Const_AABBTreePoints.Const_Node.__ref_storage_box</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_box</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.__ref_storage_box</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="212" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1af70ad257d8bfb7d2904012b786c94790" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref> *</type>
+        <definition>unsafe MR.NodeId* MR.Const_AABBTreePoints.Const_Node.__ref_storage_l</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_l</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.__ref_storage_l</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="218" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1adadd2d20d2ac5fbf4c775921a065748a" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref> *</type>
+        <definition>unsafe MR.NodeId* MR.Const_AABBTreePoints.Const_Node.__ref_storage_r</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_r</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.__ref_storage_r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="224" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="224" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1ad40b4ec12a8ee80ad8ff5f0160cc9978" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_AABBTreePoints.Const_Node.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="196" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="196" bodyend="204"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a7c85a6c906c92308156b7aa5a9243331" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_AABBTreePoints.Const_Node.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="205" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="205" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a74a972f6d6cbfdd1a10ee2030757219c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreePoints.Const_Node.Const_Node</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Node</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.Const_Node</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="263" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="263" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a93aed39fe2108375c52409041efdda63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreePoints.Const_Node.Const_Node</definition>
+        <argsstring>(MR.Box3f box, MR.NodeId l, MR.NodeId r)</argsstring>
+        <name>Const_Node</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.Const_Node</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="274" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="274" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a03f4dc1212652f6de995a62e30ee5379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreePoints.Const_Node.Const_Node</definition>
+        <argsstring>(MR.AABBTreePoints.Const_Node _other)</argsstring>
+        <name>Const_Node</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.Const_Node</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreePoints::Node::Node</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="285" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="285" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1ab4d2a8f21925b87d1aa9a9c3f52dd452" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AABBTreePoints.Const_Node.Const_Node</definition>
+        <argsstring>(Node _other)</argsstring>
+        <name>Const_Node</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.Const_Node</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">Node</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreePoints::Node::Node</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="297" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="297" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a1f4d7d28c64e3cc0e9fba19841c4c5eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AABBTreePoints.Const_Node.leaf</definition>
+        <argsstring>()</argsstring>
+        <name>leaf</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.leaf</qualifiedname>
+        <briefdescription>
+<para>returns true if node represent real points, false if it has child nodes Generated from method <computeroutput>MR::AABBTreePoints::Node::leaf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="303" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="303" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a4dfdbe2a62ceea56fc34fe480f7bb074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_Int_Int</type>
+        <definition>unsafe MR.Std.Pair_Int_Int MR.Const_AABBTreePoints.Const_Node.getLeafPointRange</definition>
+        <argsstring>()</argsstring>
+        <name>getLeafPointRange</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.getLeafPointRange</qualifiedname>
+        <briefdescription>
+<para>returns [first,last) indices of leaf points Generated from method <computeroutput>MR::AABBTreePoints::Node::getLeafPointRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="314" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="314" bodyend="319"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a4b944bee2c9cd7893ed4927e623f7a0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AABBTreePoints.Const_Node.~Const_Node</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Node</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.~Const_Node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="206" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="206" bodyend="206"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1aa21f0815aeed650947bbf9b2a1d3eddc" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreePoints.Const_Node.Const_Node</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Node</name>
+        <qualifiedname>MR.Const_AABBTreePoints.Const_Node.Const_Node</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="252" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="252" bodyend="257"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_AABBTreePoints.Const_Node</label>
+        <link refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Const_AABBTreePoints.Node</label>
+        <link refid="classMR_1_1Const__AABBTreePoints_1_1Node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_AABBTreePoints.Const_Node</label>
+        <link refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_box</edgelabel>
+          <edgelabel>__ref_storage_l</edgelabel>
+          <edgelabel>__ref_storage_r</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="190" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="191" bodyend="320"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1abc2593cb7075310cf72cca24a51a3581" prot="protected" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>__ref_storage_box</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1af70ad257d8bfb7d2904012b786c94790" prot="protected" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>__ref_storage_l</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1adadd2d20d2ac5fbf4c775921a065748a" prot="protected" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>__ref_storage_r</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a931b9ca1064a0a58a01d32deed242dc8" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>box</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1aa21f0815aeed650947bbf9b2a1d3eddc" prot="package" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>Const_Node</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a74a972f6d6cbfdd1a10ee2030757219c" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>Const_Node</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a93aed39fe2108375c52409041efdda63" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>Const_Node</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a03f4dc1212652f6de995a62e30ee5379" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>Const_Node</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1ab4d2a8f21925b87d1aa9a9c3f52dd452" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>Const_Node</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1ad40b4ec12a8ee80ad8ff5f0160cc9978" prot="protected" virt="virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a7c85a6c906c92308156b7aa5a9243331" prot="public" virt="virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a4dfdbe2a62ceea56fc34fe480f7bb074" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>getLeafPointRange</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a029116b3190d362c249854b962a56504" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>l</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a1f4d7d28c64e3cc0e9fba19841c4c5eb" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>leaf</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1aa3501b13ebf973231780ffabd7b3bbff" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>r</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node_1a4b944bee2c9cd7893ed4927e623f7a0b" prot="private" virt="non-virtual"><scope>MR::Const_AABBTreePoints::Const_Node</scope><name>~Const_Node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

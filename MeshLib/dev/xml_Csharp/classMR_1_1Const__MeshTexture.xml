@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeshTexture" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeshTexture</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshTexture" prot="public" virt="non-virtual">MR.MeshTexture</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MeshTexture_1acb60ff0affe6715c1fda1ea2e88455ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" kindref="member">MR.FilterType</ref></type>
+        <definition>unsafe MR.FilterType MR.Const_MeshTexture.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <qualifiedname>MR.Const_MeshTexture.filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="38" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshTexture_1a1e9d3b93a9b711813c68f4d03129acec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1ae7db9a854f022874d626b890ca623e82" kindref="member">MR.WrapType</ref></type>
+        <definition>unsafe MR.WrapType MR.Const_MeshTexture.wrap</definition>
+        <argsstring></argsstring>
+        <name>wrap</name>
+        <qualifiedname>MR.Const_MeshTexture.wrap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="41" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshTexture_1afdb67a81dbb3de2010f55208b4ce83db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRColor</type>
+        <definition>unsafe MR.Std.Const_Vector_MRColor MR.Const_MeshTexture.pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <qualifiedname>MR.Const_MeshTexture.pixels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="44" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshTexture_1a69b038a45d26fc27af4341ad1bf702f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>unsafe ref readonly MR.Vector2i MR.Const_MeshTexture.resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <qualifiedname>MR.Const_MeshTexture.resolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="46" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MeshTexture_1afb47a919577b95d858af349dba6424a3" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" kindref="member">MR.FilterType</ref> *</type>
+        <definition>unsafe MR.FilterType* MR.Const_MeshTexture.__ref_storage_filter</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_filter</name>
+        <qualifiedname>MR.Const_MeshTexture.__ref_storage_filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="39" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MeshTexture_1a338f57be06d8f811cad45936fd5ad05b" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1ae7db9a854f022874d626b890ca623e82" kindref="member">MR.WrapType</ref> *</type>
+        <definition>unsafe MR.WrapType* MR.Const_MeshTexture.__ref_storage_wrap</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_wrap</name>
+        <qualifiedname>MR.Const_MeshTexture.__ref_storage_wrap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="42" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MeshTexture_1a955d1aa587ddf586d1dcb027cde3c8ff" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref> *</type>
+        <definition>unsafe MR.Vector2i* MR.Const_MeshTexture.__ref_storage_resolution</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_resolution</name>
+        <qualifiedname>MR.Const_MeshTexture.__ref_storage_resolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="47" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a7122fa766a78d86bbae128d3b90a83b2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MeshTexture.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshTexture.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a269b677cee2fc1cab3af7b3c04fb23c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MeshTexture.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshTexture.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1ad463344ffe96785685a5af78849d9959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshTexture.Const_MeshTexture</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MeshTexture</name>
+        <qualifiedname>MR.Const_MeshTexture.Const_MeshTexture</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="93" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="93" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1aeaa8772e22abfae0d665a57216c38430" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshTexture.Const_MeshTexture</definition>
+        <argsstring>(MR._ByValue_MeshTexture _other)</argsstring>
+        <name>Const_MeshTexture</name>
+        <qualifiedname>MR.Const_MeshTexture.Const_MeshTexture</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshTexture</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshTexture_1ab15c60a201193db4373f406496231a31" kindref="member">MR.MeshTexture.MeshTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="104" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a772172c3d9d5850217e913b09b806974" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshTexture.Const_MeshTexture</definition>
+        <argsstring>(Const_MeshTexture _other)</argsstring>
+        <name>Const_MeshTexture</name>
+        <qualifiedname>MR.Const_MeshTexture.Const_MeshTexture</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTexture" kindref="compound">Const_MeshTexture</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshTexture_1ab15c60a201193db4373f406496231a31" kindref="member">MR.MeshTexture.MeshTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="116" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1ac06f53e6c03a9ba90c2aeef952518979" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshTexture.Const_MeshTexture</definition>
+        <argsstring>(MeshTexture _other)</argsstring>
+        <name>Const_MeshTexture</name>
+        <qualifiedname>MR.Const_MeshTexture.Const_MeshTexture</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshTexture_1ab15c60a201193db4373f406496231a31" kindref="member">MR.MeshTexture.MeshTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="121" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1afa8216dabe6dfee0e119f2a5accd48ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_MeshTexture.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_MeshTexture.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTexture_1afa8216dabe6dfee0e119f2a5accd48ab" kindref="member">MR.MeshTexture.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="127" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="127" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a8f310ea980f24faac7244d030561df7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe MR.Color MR.Const_MeshTexture.sampleDiscrete</definition>
+        <argsstring>(in MR.Vector2f pos)</argsstring>
+        <name>sampleDiscrete</name>
+        <qualifiedname>MR.Const_MeshTexture.sampleDiscrete</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns the color of the closest pixel Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTexture_1a8f310ea980f24faac7244d030561df7b" kindref="member">MR.MeshTexture.sampleDiscrete</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="139" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="139" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a96f508ecaf919de1bb67967af5d1b4c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe MR.Color MR.Const_MeshTexture.sampleBilinear</definition>
+        <argsstring>(in MR.Vector2f pos)</argsstring>
+        <name>sampleBilinear</name>
+        <qualifiedname>MR.Const_MeshTexture.sampleBilinear</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns bilinear interpolated color at it Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTexture_1a96f508ecaf919de1bb67967af5d1b4c3" kindref="member">MR.MeshTexture.sampleBilinear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="154" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="154" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a95113ff8ba265089756526f677c36e7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe MR.Color MR.Const_MeshTexture.sample</definition>
+        <argsstring>(MR.FilterType filter, in MR.Vector2f pos)</argsstring>
+        <name>sample</name>
+        <qualifiedname>MR.Const_MeshTexture.sample</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" kindref="member">MR.FilterType</ref></type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns sampled color at it according to given filter Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshTexture_1a95113ff8ba265089756526f677c36e7d" kindref="member">MR.MeshTexture.sample</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="169" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="169" bodyend="177"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1aed43588c0b807a8d8f1b7d1b97dcf983" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshTexture.~Const_MeshTexture</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MeshTexture</name>
+        <qualifiedname>MR.Const_MeshTexture.~Const_MeshTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a0a335f1d81d67297ee8d077674886639" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_MeshTexture.operator MR.Const_Image</definition>
+        <argsstring>(Const_MeshTexture self)</argsstring>
+        <name>operator MR.Const_Image</name>
+        <qualifiedname>MR.Const_MeshTexture.operator MR.Const_Image</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTexture" kindref="compound">Const_MeshTexture</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="29" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="29" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshTexture_1a044e5e3fcfee47690271ebc366d9fb5b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshTexture.Const_MeshTexture</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MeshTexture</name>
+        <qualifiedname>MR.Const_MeshTexture.Const_MeshTexture</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="82" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeshTexture</label>
+        <link refid="classMR_1_1Const__MeshTexture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MeshTexture</label>
+        <link refid="classMR_1_1MeshTexture"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_MeshTexture</label>
+        <link refid="classMR_1_1Const__MeshTexture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_filter</edgelabel>
+          <edgelabel>__ref_storage_resolution</edgelabel>
+          <edgelabel>__ref_storage_wrap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="11" bodyend="178"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeshTexture_1afb47a919577b95d858af349dba6424a3" prot="protected" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>__ref_storage_filter</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a955d1aa587ddf586d1dcb027cde3c8ff" prot="protected" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>__ref_storage_resolution</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a338f57be06d8f811cad45936fd5ad05b" prot="protected" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>__ref_storage_wrap</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a044e5e3fcfee47690271ebc366d9fb5b" prot="package" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1ad463344ffe96785685a5af78849d9959" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1aeaa8772e22abfae0d665a57216c38430" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a772172c3d9d5850217e913b09b806974" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1ac06f53e6c03a9ba90c2aeef952518979" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a7122fa766a78d86bbae128d3b90a83b2" prot="protected" virt="virtual"><scope>MR::Const_MeshTexture</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a269b677cee2fc1cab3af7b3c04fb23c2" prot="public" virt="virtual"><scope>MR::Const_MeshTexture</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1acb60ff0affe6715c1fda1ea2e88455ff" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>filter</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1afa8216dabe6dfee0e119f2a5accd48ab" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a0a335f1d81d67297ee8d077674886639" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>operator MR.Const_Image</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1afdb67a81dbb3de2010f55208b4ce83db" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>pixels</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a69b038a45d26fc27af4341ad1bf702f6" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>resolution</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a95113ff8ba265089756526f677c36e7d" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>sample</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a96f508ecaf919de1bb67967af5d1b4c3" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>sampleBilinear</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a8f310ea980f24faac7244d030561df7b" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>sampleDiscrete</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a1e9d3b93a9b711813c68f4d03129acec" prot="public" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>wrap</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1aed43588c0b807a8d8f1b7d1b97dcf983" prot="private" virt="non-virtual"><scope>MR::Const_MeshTexture</scope><name>~Const_MeshTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

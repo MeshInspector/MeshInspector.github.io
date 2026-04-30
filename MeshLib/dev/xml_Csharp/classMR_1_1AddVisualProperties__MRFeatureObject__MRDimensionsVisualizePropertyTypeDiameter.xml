@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter" kind="class" language="C#" prot="public">
     <compoundname>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter" prot="public" virt="non-virtual">MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a60cd60ac4e80eaa41e5d672c4c70ec23" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -414,11 +414,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -437,11 +437,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -460,11 +460,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -502,7 +502,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -525,12 +525,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;<ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a84c3314bc74f7a0a48bda5f91cb99ba6" kindref="member">setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;<ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a84c3314bc74f7a0a48bda5f91cb99ba6" kindref="member">setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -729,12 +729,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;<ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a42870df38954e42de3cb47424a192a98" kindref="member">setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;<ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a42870df38954e42de3cb47424a192a98" kindref="member">setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -959,12 +959,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;<ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ac90756639d6bd45bbda40c5251f34685" kindref="member">setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;<ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ac90756639d6bd45bbda40c5251f34685" kindref="member">setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1161,12 +1161,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;<ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a9fc53fdbd88dcd3535ae52099cee94f7" kindref="member">setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;<ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a9fc53fdbd88dcd3535ae52099cee94f7" kindref="member">setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1181,7 +1181,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1265,6 +1265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</label>
+        <link refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1286,6 +1287,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</label>
+        <link refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1305,20 +1307,94 @@
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a443500881015c4ee3f253fa7d2e1fc0d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>addTag</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1acb2e4bd248f67abe188fc7ed6769caca" prot="package" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a00a6ae3b53853ed151c87c0d3da89aae" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aecdec9b9b535c36144f363b5bf793185" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a877f9b80505f0d145dc405f79feddac0" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1abdd2a9cf0553979ecd7913c37df9435d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a10e6e27ccdb041c23db9e7fbda249ff6" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1af558a0233c002e20894c87b4d86cfbf0" prot="package" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ab769fc8c6d6af58e3ab044a47daa0cc6" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a4168ab1df0b27e472bdad6fd66bef9fc" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a9d101b98f6b1152e338715e917120671" prot="protected" virt="virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ac3aeff380aede657941e0d2fa841bc3e" prot="public" virt="virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a91a5560b096830357d15d249981bfd4b" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getAllSharedProperties</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a53833252e7f09456d30be299c4f8dd3a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ab8ea9e6891bd9d72ff22d754ff1a8249" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a732f4880b7d99fb09a802943ab4d26bf" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a7a0c965d9257a9d1ba07291099bc449e" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ae7962909179c4c0a488571a1e19669d7" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getBasePoint</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a7e74d6f6c9e4e8163615c9091c516733" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a8a9ea587d07b4df0f0e1fda61df17a93" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1afe2dbe0903dbf08543f82364fe102698" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getDecorationsColor</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aad088e73c3103ae4c365cedeec01f300" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a5d8c856e018aaed222ba4e88047dc3b3" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a8472c2c96b351597f298f99d19314ec5" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aba70b0fba00f48cf8269cdfc0a242bc8" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a44eca6c2e867a7d46429e16cae552dea" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a500d300b52035153726909ed3ff84373" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a54c0478cf993daba9f76b7d68aad32cf" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ab801d875f348f184796b104373559c17" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ad0e3b37633a8fbb19c5801d668fa470d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ac62f465a25c2f58595965fea03d609bc" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a17b33728e76d57102558425ef73f9e1d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getNormal</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ae77d204714825f5f0624caed28ac6755" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a4ee7f849711a6ed96130fbde3248fbee" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ae792f0922454a06fb830a700a562cbe3" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getRotationMatrix</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ae8c01a3119b03787c79b38da9056af93" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a577d4d879a58993fb92349dea3dd067f" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a88b26a59e9ecae3047211afaaf409a94" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a8be1fde9c3f099e67d4f189ea48b471f" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a9f986128365e4d3a2eaa666a5773f689" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a1bf85bedca606dce6751a0453b06d590" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1af8f431186d78f788c791d395ffbf3944" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a9657a0d26052dbdde372800d50b3bf9c" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ad95fdcf8aef09015c678d04acc3cf082" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a88799225bebe357a9ae1be4d203b0626" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a596e9d19477e6aa2792a42dd5787f88b" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aa443c9e4ada4ba1ea674b48ac07ddcc8" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a518b8b1362ff188a04b1d12fd90bdba2" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a4f0a500ccc45d0af21942683cf4ce7c6" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a05df4f46a16861d2a8c5af22f1f7ef11" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a7df6d076823e960308e2398a4e4a41b7" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a5ad5552246820a77285986c43e20ac6e" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ae1d04dbba2a6befdef215e6409ed44b7" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1af7e102c6a0443eea7323752df839e0c3" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a77d2d0609ca35ad47b43088a5b293717" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a229e806aba151fe078b151b61677ca56" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a0778efe5748086a2b3294d34e9c2b3ef" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a195f54ed11bba85c134f63163ca56b15" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1abc47489d92a871241cb990c910554691" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1af7ce1567ae6a729e026c3717cffde195" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a5608442623ee13f9fe68b43a8cf2ecb1" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ab3e797fe31b9e6410afad9fb7833a2cb" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a125b6d6f05cc02d4619db6efc488cff6" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a1a1e8b474261289fc9c8a1884d909200" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>name</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a29ba42bc4e2d3986b4fe87f3109c4ffe" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a7a778619029959f84d5d5f59664427c7" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a64b2d248b59b0135775f2cccb9c12a98" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a44d9a48b50b75f25c6cebd22bfcee3da" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ad1995d63222a7ad1a300c15732da8157" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a29b35c6f1fad625472ab253afa6e618d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter?</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a9474abd26f2d00db90c2506701307d38" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator MR.Const_FeatureObject</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a252244d194a49dc054343556d1cfadb5" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a00ed506eacf22e39075f6da322c15be1" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aa9547961626ffd8d377cec75dc3ab49d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a35a12a05aa6c831ab2ea9e49d37bd27a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator MR.FeatureObject</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a97a17d8d944bbd16b5ac0becb246272d" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a60cd60ac4e80eaa41e5d672c4c70ec23" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aaf302dff034a7e36caf2617fe5ff0145" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a6cc144192b8affb2b599d5f61e8f4182" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>projectPoint</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ad6b767e2859497122de238232343eb7a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a266e4d0d4986ef3b21f3ca22182c7afc" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a31a17d63301daa2dca14ff836ad3b502" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a57705c030f28ab48727d2b23f8600c0a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ac34f7fb36b0efec3d1044433e574df44" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>renderUi</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aa095f6922d245634db1d24daf9951a61" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a65111c538e2d11a8972a7670c54d7734" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a77859ea8d1ac75f5a8cc5b58412e6ea8" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ae32cecee883c243e689004783a419852" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ab2baed5f3c9112ef3e4ab7f4915eeb4c" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a85a902b8ffaadbc89c88ce7355e26787" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a0f6ce6c481b09115b204f79b475bd6a8" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>sameModels</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aca97d47a528e3c367160d201b6135eb6" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>select</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a18487fabc4b14b5ff24c30a45d15d710" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a7cd7b3d9766fdfa19d7d406f7803f64a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>setAmbientStrength</name></member>
@@ -1357,9 +1433,22 @@
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a6028e69c744dfdf3a1dae34eb5a73f45" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a43aa6a3009db4b3396e9c9a6fed4036b" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>setXf</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aaff3b80ada520f3cf02bb2ead8ae7959" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a6f916d796db9a1344edec1cbe83462bc" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a9080c8ffebcfcca71815aca1110d412a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a42e04c818182d52551c9f953ed97f3a6" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1af3356b2e374e04322cf298187b0ee85a" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a7088818a4bc7c043d6d9c7c546a19efc" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a459b8ea4ac8a0c1fe15a4b2574ac222e" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1aa2a96024c40fca2fe5021d0517b44fad" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a8d8eb17d8ca24ffb74a50fefc53e5cc1" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ab749881cc5232277896f720b02d06dee" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>tags</name></member>
       <member refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a8fed1fcb691dae7b08c27e4a363f2a55" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a7ca518601813c62069aa39b95f6d66ff" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ab780805a5db3effeed2cb409755c60a7" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1af383e3771cb6e165ce7d6eba9debfd85" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1ab8e25feb48e7a936addad27e0aeb5a19" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1a3556837de756e6a1dc7f4c8244b020d3" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter_1af056523901188357be747ca67b432013" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

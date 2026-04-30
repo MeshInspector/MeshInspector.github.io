@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Image" kind="class" language="C#" prot="public">
     <compoundname>MR::Image</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Image</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Image" prot="public" virt="non-virtual">MR.Const_Image</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Image_1a3025ef66a22d516a56a950a8640b6b58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRColor</type>
@@ -137,7 +137,7 @@
         <name>Image</name>
         <qualifiedname>MR.Image.Image</qualifiedname>
         <param>
-          <type>Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">Const_Image</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -202,6 +202,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Image</label>
+        <link refid="classMR_1_1Const__Image"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -215,6 +216,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Image</label>
         <link refid="classMR_1_1Image"/>
@@ -223,9 +228,13 @@
       </node>
       <node id="2">
         <label>MR.Const_Image</label>
+        <link refid="classMR_1_1Const__Image"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_resolution</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -237,7 +246,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="189" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="190" bodyend="292"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Image_1ae7f8936d358515e3fbc79974ccdcedc0" prot="protected" virt="non-virtual"><scope>MR::Image</scope><name>__ref_storage_resolution</name></member>
       <member refid="classMR_1_1Image_1afeeedc7d3b5c7cfe108b11c461eef319" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Image_1aa0d52cae6a38509d88110e73364ee616" prot="package" virt="non-virtual"><scope>MR::Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1ab920270a752aef9eedceb3337f7d1d6a" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1a6599eabda56345a244c7d48595cfa6c4" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1a5efd052c6f836a82aedb70130f3f0634" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1a97b054ee9348ee281d584080f2f1980d" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1abd4f8ab5095658fafe6461a049e52476" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1a73862bb70105d1b5ee9c39170b4e0999" prot="protected" virt="virtual"><scope>MR::Image</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Image_1a51359fe18f4f00cf36832bfedb5ce02a" prot="public" virt="virtual"><scope>MR::Image</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Image_1ae8a3e347456ab4022cb804b14cbcfcdb" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Image_1a3c7b6c58c933105fd802e8e63f46f66c" prot="package" virt="non-virtual"><scope>MR::Image</scope><name>Image</name></member>
       <member refid="classMR_1_1Image_1a1f036f874c471aa6766cdf669331e4f9" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>Image</name></member>
       <member refid="classMR_1_1Image_1a601f4b5c1a8b6cb4097f98bb8f91b0af" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>Image</name></member>
@@ -246,6 +265,9 @@
       <member refid="classMR_1_1Image_1a78bedaf6dd1508fecdeb392e45393c9b" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>Image</name></member>
       <member refid="classMR_1_1Image_1a3025ef66a22d516a56a950a8640b6b58" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>pixels</name></member>
       <member refid="classMR_1_1Image_1ab3d15c40630c7e3ceb4e8d57d721c5cb" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>resolution</name></member>
+      <member refid="classMR_1_1Const__Image_1acfe680e166367c8db8fb24a84976ff4d" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sample</name></member>
+      <member refid="classMR_1_1Const__Image_1a41c7ea634c7b44b3a57a7919ca2e8988" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sampleBilinear</name></member>
+      <member refid="classMR_1_1Const__Image_1adc5a9776be19fc9a9e51aba40541c9d0" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sampleDiscrete</name></member>
       <member refid="classMR_1_1Image_1a6fde70b541bd3844938e4009eb0f2a73" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>this[in MR.Vector2i p]</name></member>
     </listofallmembers>
   </compounddef>

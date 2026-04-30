@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TrivialMetricToPenalty" kind="class" language="C#" prot="public">
     <compoundname>MR::TrivialMetricToPenalty</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TrivialMetricToPenalty</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TrivialMetricToPenalty" prot="public" virt="non-virtual">MR.Const_TrivialMetricToPenalty</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1TrivialMetricToPenalty_1afdb31327381ff976580e99b81718f584" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>TrivialMetricToPenalty</name>
         <qualifiedname>MR.TrivialMetricToPenalty.TrivialMetricToPenalty</qualifiedname>
         <param>
-          <type>MR.Const_TrivialMetricToPenalty</type>
+          <type><ref refid="classMR_1_1Const__TrivialMetricToPenalty" kindref="compound">MR.Const_TrivialMetricToPenalty</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.TrivialMetricToPenalty.assign</qualifiedname>
         <param>
-          <type>MR.Const_TrivialMetricToPenalty</type>
+          <type><ref refid="classMR_1_1Const__TrivialMetricToPenalty" kindref="compound">MR.Const_TrivialMetricToPenalty</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TrivialMetricToPenalty</label>
+        <link refid="classMR_1_1Const__TrivialMetricToPenalty"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TrivialMetricToPenalty</label>
+        <link refid="classMR_1_1Const__TrivialMetricToPenalty"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1391" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1392" bodyend="1432"/>
     <listofallmembers>
       <member refid="classMR_1_1TrivialMetricToPenalty_1a5e6a08f363b119daf8bb9b346c38b145" prot="public" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TrivialMetricToPenalty_1af9b64bc57eb4be0f266d2e3a02a1e1b5" prot="public" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__TrivialMetricToPenalty_1aa566582c16b35a01138ad2ba21d2dffb" prot="package" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>Const_TrivialMetricToPenalty</name></member>
+      <member refid="classMR_1_1Const__TrivialMetricToPenalty_1aa0c11ca6eac3016db2d7fc818daa4956" prot="public" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>Const_TrivialMetricToPenalty</name></member>
+      <member refid="classMR_1_1Const__TrivialMetricToPenalty_1a3a2c35c77fd2a8ff3d054beec911e8cd" prot="public" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>Const_TrivialMetricToPenalty</name></member>
+      <member refid="classMR_1_1Const__TrivialMetricToPenalty_1a737c47912859231992c44966ebf3a034" prot="public" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>Const_TrivialMetricToPenalty</name></member>
+      <member refid="classMR_1_1Const__TrivialMetricToPenalty_1a6c50625d12047e4047b87f2cbc7d5658" prot="protected" virt="virtual"><scope>MR::TrivialMetricToPenalty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TrivialMetricToPenalty_1ac1756b88445498af1ad6931baa543e80" prot="public" virt="virtual"><scope>MR::TrivialMetricToPenalty</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TrivialMetricToPenalty_1afdb31327381ff976580e99b81718f584" prot="package" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>TrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1TrivialMetricToPenalty_1a3bf50067170df2dde31d51c67c5027f3" prot="public" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>TrivialMetricToPenalty</name></member>
       <member refid="classMR_1_1TrivialMetricToPenalty_1a4733fe60e96fbfac00659287575f5317" prot="public" virt="non-virtual"><scope>MR::TrivialMetricToPenalty</scope><name>TrivialMetricToPenalty</name></member>

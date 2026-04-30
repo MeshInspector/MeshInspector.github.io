@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OffsetParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::OffsetParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OffsetParameters" prot="public" virt="non-virtual">MR.Const_OffsetParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1OffsetParameters_1a95db8c8a28a5c29246f8c5303c0c5bb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a616095899064d3af43a1861f0ae70fed" kindref="member">MR.SignDetectionMode</ref></type>
@@ -216,7 +216,7 @@
         <name>OffsetParameters</name>
         <qualifiedname>MR.OffsetParameters.OffsetParameters</qualifiedname>
         <param>
-          <type>Const_OffsetParameters</type>
+          <type><ref refid="classMR_1_1Const__OffsetParameters" kindref="compound">Const_OffsetParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -281,6 +281,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OffsetParameters</label>
+        <link refid="classMR_1_1Const__OffsetParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -294,6 +295,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.OffsetParameters</label>
         <link refid="classMR_1_1OffsetParameters"/>
@@ -302,9 +307,13 @@
       </node>
       <node id="2">
         <label>MR.Const_OffsetParameters</label>
+        <link refid="classMR_1_1Const__OffsetParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_signDetectionMode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -316,9 +325,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="489" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="490" bodyend="628"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OffsetParameters_1a8a07c16c5a9a5af77a5f438a94cc80c6" prot="protected" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>__ref_storage_closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1a930e2f1680e1b71d98ff78ccc06615fd" prot="protected" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>__ref_storage_memoryEfficient</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1acead4ddb67653970a481af1a2a771fe6" prot="protected" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>__ref_storage_signDetectionMode</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1ae9750c275673eeb8f81f393b49223757" prot="protected" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1affae82e3a50591f54099b9414fcc5ca4" prot="protected" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1ad631714d2fd8417c531e62a4f004a66e" prot="protected" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>__ref_storage_windingNumberThreshold</name></member>
       <member refid="classMR_1_1OffsetParameters_1aa78070e191992f767afbbcc91dc0ceb3" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1OffsetParameters_1a227e8a4c308e52b0f47dd0f2c79b81cf" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>callBack</name></member>
       <member refid="classMR_1_1OffsetParameters_1a5b485b22763e65075494699cef2066b4" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1a4797d62669bb5a644c4f71ae08d4fb20" prot="package" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>Const_OffsetParameters</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1a75ca2a11590b3bc4961267efd28d913a" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>Const_OffsetParameters</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1a41dd762be0428ab420d72c98151e9bdf" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>Const_OffsetParameters</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1a8250f1de3a4c80b9e6d6d80ed56c4e2b" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>Const_OffsetParameters</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1aed460b038794fe63df4b58c29ae82d03" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>Const_OffsetParameters</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1acb7140ad1450e05e009674790644ac93" prot="protected" virt="virtual"><scope>MR::OffsetParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1a9240b71da07ae0c7da228eb197e44e8e" prot="public" virt="virtual"><scope>MR::OffsetParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1OffsetParameters_1a7c089360b553e7e031fa498d6db9a39b" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>fwn</name></member>
       <member refid="classMR_1_1OffsetParameters_1a926b3a0734a5e83932a2351a44f6c1bb" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>memoryEfficient</name></member>
       <member refid="classMR_1_1OffsetParameters_1ae7bdac463874e397b365a3314fe969bc" prot="package" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>OffsetParameters</name></member>
@@ -327,6 +349,7 @@
       <member refid="classMR_1_1OffsetParameters_1a6a4565b7c3bd1751752417aa56bcb010" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>OffsetParameters</name></member>
       <member refid="classMR_1_1OffsetParameters_1a26e59ed8082d4f470ab87b20e018f572" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>OffsetParameters</name></member>
       <member refid="classMR_1_1OffsetParameters_1a34b308e96e8fe58e2526da4e9781bd17" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>operator MR.BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__OffsetParameters_1a72e68fb37a19ca77ba89420ea29ef638" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>operator MR.Const_BaseShellParameters</name></member>
       <member refid="classMR_1_1OffsetParameters_1a95db8c8a28a5c29246f8c5303c0c5bb0" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>signDetectionMode</name></member>
       <member refid="classMR_1_1OffsetParameters_1ad59db04bd83db6829320e54ed757148c" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>voxelSize</name></member>
       <member refid="classMR_1_1OffsetParameters_1a8bdbf80a715a2d91964d41ae583ce5ca" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>windingNumberBeta</name></member>

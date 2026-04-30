@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Dipoles" kind="class" language="C#" prot="public">
     <compoundname>MR::Dipoles</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Dipoles</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Dipoles" prot="public" virt="non-virtual">MR.Const_Dipoles</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Dipoles_1a8996143184fcc7a4f4a581773b4eb19e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Dipoles</name>
         <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
         <param>
-          <type>Const_Dipoles</type>
+          <type><ref refid="classMR_1_1Const__Dipoles" kindref="compound">Const_Dipoles</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,7 +153,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Const_Dipole</type>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_Dipole</type>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -309,7 +309,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_Dipole</type>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -336,7 +336,7 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.Const_Dipole</type>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -359,7 +359,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.Const_Dipole</type>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -397,7 +397,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.Dipoles.pushBack</qualifiedname>
         <param>
-          <type>MR.Const_Dipole</type>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Dipoles</label>
+        <link refid="classMR_1_1Const__Dipoles"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Dipoles</label>
+        <link refid="classMR_1_1Const__Dipoles"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,7 +672,18 @@
       <member refid="classMR_1_1Dipoles_1ae0df76679e08e5b21cf7e498161b82a6" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Dipoles_1a929f5fba424e2b92249d8f6ef8b9d412" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Dipoles_1aae4a4f0e4c74aa7fb0a151ce09b74fc4" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ab55480471162b203498f372d3cd1ac22" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a60c5b32c2b9a163bdaa5c2e3059e5e4d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1acf82f41930b0a4f42760b7c95817917f" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>capacity</name></member>
       <member refid="classMR_1_1Dipoles_1aa9bd6466716062dd04491db11f08a925" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a8fa22ea939397d37bcc065001b9a97b7" prot="package" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1aea533e9afca68fe096af0ebb1a20d5db" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ab758336957f9317ebd4d56e5796b1a07" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a08f0601241757d6d6d369bc690b56371" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a697922f1704095a6f95586ff3a033cd1" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ac55b1daac851797970985e223b74c5cd" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a075de37da6f03c290ab1f26688c9580c" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1af4e51b619c0ad0c52b73c3e9051f5ab8" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1ac047d3c847f41ffea2a8a2546f1d4c8d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>data</name></member>
       <member refid="classMR_1_1Dipoles_1a3e5c63e6809553abf91458b4b9c58999" prot="package" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
@@ -680,10 +693,16 @@
       <member refid="classMR_1_1Dipoles_1a432402ed8acfc39a2eed6911316488d2" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1a5eab51aaeffed23cec75b9d756c6c779" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1afd901e1747851db81ccfbc8bf78062cb" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a8bea2fd8461ca36af10a1d14e14f0809" prot="protected" virt="virtual"><scope>MR::Dipoles</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a7c15612694d19f80eecff40d2cfca49f" prot="public" virt="virtual"><scope>MR::Dipoles</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Dipoles_1a17c571d11c674e826f6a772e6349ce0a" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a99b7c9c5b95bc7847df06e8186561d1b" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ae21bbf5e190fa05fecdd4f25b9848fbd" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>endId</name></member>
       <member refid="classMR_1_1Dipoles_1a5ee2d0a9170797f13b93a8f536a81016" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>front</name></member>
       <member refid="classMR_1_1Dipoles_1a195ce5f79be16492dde15d1b72915132" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Dipoles_1a2351f281734cba781b7a91714f32e0b3" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ad0e74b450a52fbf998633d77b5d3c804" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a4a798782142ce624ceb3fe0520360419" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Const_Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1afcec64e7155abe24b9938b32ea620069" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1aaeb72ff38a76bba93d857876a33cab25" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>popBack</name></member>
       <member refid="classMR_1_1Dipoles_1abf2a6245c94958b96c85a6ea614b9292" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>pushBack</name></member>
@@ -693,6 +712,7 @@
       <member refid="classMR_1_1Dipoles_1a3d55953f492719c7aca8466a696c287d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resize</name></member>
       <member refid="classMR_1_1Dipoles_1a3775d3611c9fcc58bff1ee1e8e2c7a18" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Dipoles_1a33ec75a831e9b4e2a90fb088906e7d9d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a5c869cee1182ea6aa6cb493a10be414a" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>size</name></member>
       <member refid="classMR_1_1Dipoles_1a38268393014d99eb7a40aa803c958e66" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>swap</name></member>
       <member refid="classMR_1_1Dipoles_1a3c1c8b1bd6cc0a4385d92839673db507" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>this[MR.NodeId i]</name></member>
       <member refid="classMR_1_1Dipoles_1a8996143184fcc7a4f4a581773b4eb19e" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>vec</name></member>

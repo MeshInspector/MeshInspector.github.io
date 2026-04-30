@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Mesh" kind="class" language="C#" prot="public">
     <compoundname>MR::Mesh</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Mesh</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Mesh" prot="public" virt="non-virtual">MR.Const_Mesh</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Mesh_1a504c6630e7c1492cbe741522640f0d95" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
@@ -99,7 +99,7 @@
         <name>Mesh</name>
         <qualifiedname>MR.Mesh.Mesh</qualifiedname>
         <param>
-          <type>Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">Const_Mesh</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -175,7 +175,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -429,11 +429,11 @@
         <name>addMesh</name>
         <qualifiedname>MR.Mesh.addMesh</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_PartMapping?</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref>?</type>
           <declname>map</declname>
           <defval>null</defval>
         </param>
@@ -458,7 +458,7 @@
         <name>addMesh</name>
         <qualifiedname>MR.Mesh.addMesh</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>from</declname>
         </param>
         <param>
@@ -496,11 +496,11 @@
         <name>addMeshPart</name>
         <qualifiedname>MR.Mesh.addMeshPart</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_PartMapping</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -519,7 +519,7 @@
         <name>addMeshPart</name>
         <qualifiedname>MR.Mesh.addMeshPart</qualifiedname>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>from</declname>
         </param>
         <param>
@@ -538,7 +538,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_PartMapping?</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref>?</type>
           <declname>map</declname>
           <defval>null</defval>
         </param>
@@ -568,7 +568,7 @@
         <name>pack</name>
         <qualifiedname>MR.Mesh.pack</qualifiedname>
         <param>
-          <type>MR.Const_PartMapping?</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref>?</type>
           <declname>map</declname>
           <defval>null</defval>
         </param>
@@ -627,7 +627,7 @@
         <name>pack</name>
         <qualifiedname>MR.Mesh.pack</qualifiedname>
         <param>
-          <type>MR.Const_PackMapping</type>
+          <type><ref refid="classMR_1_1Const__PackMapping" kindref="compound">MR.Const_PackMapping</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -704,11 +704,11 @@
         <name>deleteFaces</name>
         <qualifiedname>MR.Mesh.deleteFaces</qualifiedname>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>fs</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>keepEdges</declname>
           <defval>null</defval>
         </param>
@@ -768,7 +768,7 @@
         <name>updateCaches</name>
         <qualifiedname>MR.Mesh.updateCaches</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>changedVerts</declname>
         </param>
         <briefdescription>
@@ -802,7 +802,7 @@
         <name>mirror</name>
         <qualifiedname>MR.Mesh.mirror</qualifiedname>
         <param>
-          <type>MR.Const_Plane3f</type>
+          <type><ref refid="classMR_1_1Const__Plane3f" kindref="compound">MR.Const_Plane3f</ref></type>
           <declname>plane</declname>
         </param>
         <briefdescription>
@@ -829,6 +829,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Mesh</label>
+        <link refid="classMR_1_1Const__Mesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -855,6 +856,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Mesh</label>
+        <link refid="classMR_1_1Const__Mesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -881,30 +883,134 @@
       <member refid="classMR_1_1Mesh_1ad9bd8ff20c7b992d8b6d93a87b3cc15d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addPoint</name></member>
       <member refid="classMR_1_1Mesh_1abab1969d565f8218414497a28b157274" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateContours</name></member>
       <member refid="classMR_1_1Mesh_1ab102f823bf76119efe98b2a7cbb17c3f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateEdgeLoop</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a5416dcbe11b054b95d6ea180ab14404e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>area</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6c703e2be679150316cd78d49d6d9fb8" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>area</name></member>
       <member refid="classMR_1_1Mesh_1a3632624cd519de9bd01603d0ecb509f6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>assign</name></member>
       <member refid="classMR_1_1Mesh_1ac0eeaab921700a0bb69e1e9f9ac81072" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>attachEdgeLoopPart</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a381f5f9893d294684d687fca219a0b2f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>averageEdgeLength</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a485bf9866fc116fdfad021f84008717e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>calcFastWindingNumber</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa4d29310e269c73c1405d27e2b97bf0b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>circumcircleDiameter</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a2675f10ae76467b7f5d30938829cdd54" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>circumcircleDiameterSq</name></member>
+      <member refid="classMR_1_1Const__Mesh_1adcdde582698b1bfdadc73fc41d7ed298" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>cloneRegion</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a025e311b955c43433140e6caddc5073d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1acdb0f7b3bcc3dbc950fbfabf8d12ae83" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1afec2b54457a2b32ead5e22930bca11ed" prot="package" virt="non-virtual"><scope>MR::Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a66bf626fa6179f74d29b64d7699dfffc" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af727989920b727d309ac085966c0e095" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aabc16c8d2aba46c93c818479cd2bfdd6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a853250bb0b9058c74b23ffd5c4a33825" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1de3cfcb264c6e57d0a9092f929a0f75" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>cotan</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a248231296e29abe96acb9ded7b41f380" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a66b9588482c4e85e0d6e2b01f90d77eb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dblArea</name></member>
       <member refid="classMR_1_1Mesh_1aabb94b993864e79fad870695416a38af" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>deleteFaces</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a50b689ebb012d487228062daad913730" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>destPnt</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a56e023744e36bcc349d74603e04f9ff4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dihedralAngle</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a4cb2ff5afd4d43661e21c85cbd84ab52" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dihedralAngleCos</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a973db401e54f5341547c326624bad353" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dihedralAngleSin</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6d9cf5422aaf1bac16a59bf9b1dfab24" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dirArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a2f9321a759a7f390e94cfbc7ab7fb58c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a42fe6b5329937612d6d141ddee1da60d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a4cbc3986a13f34d9d4a2cd88e29d71e3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>discreteGaussianCurvature</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1dc6d4be764deabf0008ccc6e05eeb33" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>discreteMeanCurvature</name></member>
+      <member refid="classMR_1_1Const__Mesh_1add61237bc2a74e12e5be8ab83ac63d6c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>discreteMeanCurvature</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af1ef08ac4be3e3ca98e7185e34a6452a" prot="protected" virt="virtual"><scope>MR::Mesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a080e3dea59b9f82d1c1c979b5ac729f1" prot="public" virt="virtual"><scope>MR::Mesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ad325cd068039c118531fc1649cf8d4d7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeCenter</name></member>
+      <member refid="classMR_1_1Const__Mesh_1afd4b06f4d8c89be5e801225cfbbcb8d8" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeLength</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a20e475e0be88f70481d28ce96abc323f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeLengths</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a5f731d9deea5c639de6cbc3b2872321b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeLengthSq</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a96acea5436674b0af8c64ad30c281fb8" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aab1af3bea6fe0fed158de40e4c0a3e96" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1abf1db289edd8103a37c6bca9d1ecf2cf" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeSegment</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a7540c4ef0d3a4b8d7229cd70c9677b05" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>edgeVector</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a7caffbba44b66f9bf0ccb57a1a8130ea" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a714d77a9c0483483fdba55e7dd214767" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ad15b8db8ebc481ac46827a740985faa6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findCenterFromBBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ae903c07e3477d5847572ad8dc3e3433c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findCenterFromFaces</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6caece146a91435f945eb372b3b3221b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findCenterFromPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa2775c4f611750504e110740b9a2143f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findClosestPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a8988e64555843fbf2d2f10e2d74558a7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findClosestPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1acaa1a323b359755f854bacd4b19e17bb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a202c18bfd4a011ddcfc9274a041ff995" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findSpikeVertices</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a3d20ec971a1772c8c560ecc05fc625d2" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromFaceSoup</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a3ab5d9b7ba1426c16b2665c03a13fbc7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromPointTriples</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a63d8b33cacb827e76e8937be45e956fd" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriangles</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a618c759ea2dcb30254f7c2b7ca413550" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab80764bcf163893a8d86269e9910e2eb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriMesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a232c5316959b5bcdbbb06547b60442d1" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTree</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a01752e171353dffd57de43469be9efda" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTreeNotCreate</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ae647cdc83884264b0523796c728be17d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a62d9bcb019d6c5fe421ec697395b9159" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getAABBTreePointsNotCreate</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa1654d814f61165be1ddd4083a245aff" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab4e45893ed8c0e5bb301ea6ca4b651fe" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getClosestEdge</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a42f3f78975e363fad7c3a2262f5e8fbb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getClosestEdge</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ad67e3fbe5fdc289a427900ebfe33656f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a86945f13554060eb6ea39077a62bd105" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1_1Const__Mesh_1afc33148777f46e03fc5ddbd94e50912e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getDipoles</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1a37837a382e639e93a80dc512070e2a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getDipolesNotCreate</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1e831ea87da70f0c649a49b4ecdd9619" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getLeftTriPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a676ac9a6894113dca181246396c2255b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getLeftTriPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a356d54323b45d3622a9df424ef9950fe" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getPlane3d</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a257c1112e33b465869a9846fcee6e1ce" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getPlane3f</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a46845d76ae2c044115da57b36696ab1a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getTriPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a9bc0547f5022937018d55403a4822d17" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>getTriPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa56c8d0f73b28d970fff8a061a32c57a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a41c2dbdc6998824e483af09acc137dc6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>holeDirArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af3ec8511d011f4dc425c13d36f4e5c69" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>holePerimeter</name></member>
       <member refid="classMR_1_1Mesh_1a2456faa5acbeb85adca2cf5b496df684" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>invalidateCaches</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a21ed15170364a28c7305f721b22937fb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>isOutside</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a4fde4080acfabca8fddbfd8d13efeed6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>isOutsideByProjNorm</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a20c8a63eeb72631629308e8cc708af1b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftCotan</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6b00deceaf381e89c66db98a3a9e300c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftDirDblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a539cd8fd3e0f46aaed2a6838af987beb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftNormal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ac05f0708a319b103e8e657b8f2e83c83" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftTangent</name></member>
       <member refid="classMR_1_1Mesh_1afc3021ccea255639170cfc4a194d2abe" prot="package" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
       <member refid="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
       <member refid="classMR_1_1Mesh_1adc900de18679f1054d88ce16cf318121" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
       <member refid="classMR_1_1Mesh_1a8d314af2acc0ebf8bb876bfa059e87a8" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
       <member refid="classMR_1_1Mesh_1a9fa5ba08a3fa3ba8aa227fe2de1caad5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
       <member refid="classMR_1_1Mesh_1a2716bdfac62a94a52023c065250ba246" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>mirror</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab056b79581fa8cbce47839ba87dabf80" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a521a5f970653858e99295adecf53cb86" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a24971fc4db264e829bc4f2df06272a5c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a48a27dc4023b8583ad18ff5ad546729b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a12a04ce1f7f2d282b879a7969427dce0" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab36ddc1c4d54c982c38c58d840e57627" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>orgPnt</name></member>
       <member refid="classMR_1_1Mesh_1a8ca1dbf25d04ac66213956966250b872" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
       <member refid="classMR_1_1Mesh_1a3ca5fa30b57fdada6bfe0aecb9868a7f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
       <member refid="classMR_1_1Mesh_1a40bcc4c788e89f4406504fa174d21ff9" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
       <member refid="classMR_1_1Mesh_1a57a1d23b8ef40eeaf0069cb2e09db3e6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>packOptimally</name></member>
       <member refid="classMR_1_1Mesh_1a9c4cfb232ff407171f36e98165b1ba51" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>packOptimally</name></member>
       <member refid="classMR_1_1Mesh_1aaabc8bb44cded098e13d1d424ef42241" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>points</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a5feb26c6ff75057824d4421dc1f5cced" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a12ef9c3d9f4a1365cec905ba0862573c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1ea65455d063ca6c9775684f2dd3c97b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a3a140dc2c8a54fe9b2613709d88ba970" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a9a109d9bd5548a2f55b21b667e8b68b9" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pseudonormal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ae5711fbd67a6efb0703f8e76a676da4a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pseudonormal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a90816f0519283ead375a8e9789e06901" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pseudonormal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af2a78c63afa8b0bd3a1439ef7fabfdd3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>quadraticForm</name></member>
       <member refid="classMR_1_1Mesh_1a9a5bddf03c626d877f81537eb854307d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa982f0a62c1981bd525f9b8cd197e1a9" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a734a5264431b5a661b45acc6288396b6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a46a2329c34f04e28e0d9fdda628d6b3a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
       <member refid="classMR_1_1Mesh_1a6c3397a5f9b167c21f2ef11cdc2714bb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitEdge</name></member>
       <member refid="classMR_1_1Mesh_1a8a2afbc970a0f369fc1ce22ecda09d99" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitEdge</name></member>
       <member refid="classMR_1_1Mesh_1a7047e329fbec57254356a66c56e303a5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
       <member refid="classMR_1_1Mesh_1afbb50d9e289a891a10226c90dd906a37" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a7f6159113bc364f7a81b80761784994b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>sumAngles</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af68b9ebcac2b80884f4f1cead79da75f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toEdgePoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab34edbd331c37b3897b1b2f22c2e62e7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toEdgePoint</name></member>
       <member refid="classMR_1_1Mesh_1a504c6630e7c1492cbe741522640f0d95" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>topology</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6ede16d3c934b03e227f4cccc4f8c599" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a14cfc9d9766bfaccb5eb2fd08e779396" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aeaaa59dc4699477f429eef3d39b76266" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
       <member refid="classMR_1_1Mesh_1a6ea37e2c3415fdc14f7fdbc23ba80fd5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>transform</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a0158e404b3b68b990cce22f0b09cf673" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triangleAspectRatio</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a574a5b9faf16dbaf7004176f19768b70" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triCenter</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a927d6910bbb60c750429d0e71f42a6bc" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triPoint</name></member>
       <member refid="classMR_1_1Mesh_1aa840c13d73b18aa3014201e05ffaf46e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>updateCaches</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a25b3e00bdca69eac2df0551794f0b0e4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>volume</name></member>
       <member refid="classMR_1_1Mesh_1af8b0fa03a2c37a7cf1f7e4b66e2aba06" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>zeroUnusedPoints</name></member>
     </listofallmembers>
   </compounddef>

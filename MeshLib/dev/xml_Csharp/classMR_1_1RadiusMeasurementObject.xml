@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RadiusMeasurementObject" kind="class" language="C#" prot="public">
     <compoundname>MR::RadiusMeasurementObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RadiusMeasurementObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RadiusMeasurementObject" prot="public" virt="non-virtual">MR.Const_RadiusMeasurementObject</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1RadiusMeasurementObject_1ac0b6a9685964df73fe5f9a9f957fa070" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -338,11 +338,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -361,11 +361,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.RadiusMeasurementObject.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -384,11 +384,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.RadiusMeasurementObject.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -426,7 +426,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.RadiusMeasurementObject.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -449,12 +449,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1aa3e04f1302b6cfdac93dabdd5dfa926f" kindref="member">MR.RadiusMeasurementObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1aa3e04f1302b6cfdac93dabdd5dfa926f" kindref="member">MR.RadiusMeasurementObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -653,12 +653,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1ac31b903f7de4c10700cab7209de50abf" kindref="member">MR.RadiusMeasurementObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1ac31b903f7de4c10700cab7209de50abf" kindref="member">MR.RadiusMeasurementObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -927,12 +927,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1ac361f0cd8d0c212f21e147e11f35683e" kindref="member">MR.RadiusMeasurementObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1ac361f0cd8d0c212f21e147e11f35683e" kindref="member">MR.RadiusMeasurementObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1129,12 +1129,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1abd773c80e2dfa9d8b2439393359efebc" kindref="member">MR.RadiusMeasurementObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject_1abd773c80e2dfa9d8b2439393359efebc" kindref="member">MR.RadiusMeasurementObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1149,7 +1149,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.RadiusMeasurementObject.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1233,6 +1233,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RadiusMeasurementObject</label>
+        <link refid="classMR_1_1Const__RadiusMeasurementObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1254,6 +1255,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RadiusMeasurementObject</label>
+        <link refid="classMR_1_1Const__RadiusMeasurementObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1273,8 +1275,71 @@
       <member refid="classMR_1_1RadiusMeasurementObject_1a75c2da9e05795083ae90e4fde0f023b0" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1aa45b6c4abf42e8a9d3774d10a161a7d6" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a3b7c978e894eb723c8b14df8617c3289" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a933814531a83e83e8f77ec7055ab6dfa" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a9c367224057c0fed046ba1de0f41fe59" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1abdb0bdd686ee31c802f49af5d58e14ae" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a868cb00eb70ec0b9703b6730326faea8" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ae4445696ac3905bd9f40f630aec330aa" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>computeRadiusOrDiameter</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ace04985fd7570d43b6f71763ae5c9af1" prot="package" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>Const_RadiusMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a289caffafb6fc21922540d7cc4fc8eb3" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>Const_RadiusMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ad76a5d160fc178c6bf18479a3b7f0823" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>Const_RadiusMeasurementObject</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a3cc3bdfa1d58b7cd0869616d168213d0" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a393cb894174f68d8eeac4b492a176d25" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a83daf9f33afe3ff03392945eb23bc3ec" prot="protected" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ab465b4e53c15f3c78e02cdd4d7598309" prot="public" virt="virtual"><scope>MR::RadiusMeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a3bb45920cdd26dbd8d8f52acef994da8" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1acbab0ddabf3c55760533cb5df051b648" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a76f9d905a67d8d0565e0bf3b07bb1998" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a2c861c46fd1ee5725ee82dab38be80cd" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ae71dd66b897eb5006d764995cf54090f" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ab93f992a46957a8cd3a23c040b024044" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a1add44b123ec439d6345c97953c55c3d" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a32942af6c008ebb2179e98b870c36371" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getDrawAsDiameter</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ae525fd2d455de66d11534350926734c5" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ade3361ee76a152c0b0f15b6f65dd1a29" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a4c656fc813fa860acb509e68fc048284" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ab383875e3a0192294fb22c628cc50269" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1af3c698c3a6be32ba8a5c8b0142d816e7" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ad32de11c25ab1103f534ef99a62fe829" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getIsSpherical</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a271405805b7d46eba0211aec5136ca39" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalCenter</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ade0dba642b4fc75ea6a566099879f850" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalNormal</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a81da5134891109b1f15245c8535c9b1e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getLocalRadiusAsVector</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a88d1ab71c8314578bb874619e20f1fa6" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a9cdccb44421fa6b62b078aeb51c058d7" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ae5b62f62414e8a7533c5aff5d9358ac6" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1acac259a42b0859ed94966cd4a3d423df" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a2ba3dea6e42eae6773ce7738cb07362a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1aaa706c0c55a003c94ef237cb0f50ea8c" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a379698aaddd97f03bc192afe5fce66b5" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1adf316d5fe4b12dec4c325a6184d4c2e9" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getVisualLengthMultiplier</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1abeb826fcbf2d1cd438b1c934d9326c33" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a7cab121e384ecc9c6342c5a95767b302" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldCenter</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a60fbdd80d94ac37fa033f194a78e19b8" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldNormal</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1aa944f825a49759ed05ee64b337297977" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldRadiusAsVector</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a8e8b8be0cc3146a462dc3649c0034d69" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a20e6797646be8f883ef2096d39488bc7" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a9a87a80c4bfe5d0fa97387d0e8439485" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a6877405bb8a7c791e9d5c7cae4303592" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a8658613bd427a432f61482bb0c515f0a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a0d74f7b97d686aace1c5ac1e1461fb43" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ad524570c7f8b80611485f6ce4df57312" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1abead0cdc9ed658e2d008337881a80e3f" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1adfd3288ce4e438d9cd4925d08a513b7a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a559b1ace56e27870c2dbca50d108a896" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a80de0e7b53e61b2aa0109f4e9dd5a9f9" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a12631ac5f2d50e41b0b92a5702e63c67" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a8d605b23b2e592ea9754f6f8e0de1b53" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a37ee0085880d6c284d46c3f9a0558522" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a0c80b00876559293a90f9c4be2b20bc9" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ae6e9facec9960857514ad5e84f3eb164" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a26b33d70abee6142422afb41c7928a93" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1abb06ce341f2d206a8447eec38f9ec16a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator Const_RadiusMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1af63762393a4c1fcdd7bdebd04aff4243" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator Const_RadiusMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ae0d88f5ac9a86938d6b75f71998bf037" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator Const_RadiusMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a4ed961785bac768a006ef2e4749f5303" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator MR.Const_MeasurementObject</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1aba2948718b1832369a34580bc33c46e4" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a2ade826a08dc049202cea75ad8d560b9" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a6e033ecd701e880b636fb9825225eb6c" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a722db6e4350925837bf9cdc5aa51243e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator MR.MeasurementObject</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1ac0bec7f1804e324f20dd4a19d376881e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1ac0b6a9685964df73fe5f9a9f957fa070" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
@@ -1287,9 +1352,16 @@
       <member refid="classMR_1_1RadiusMeasurementObject_1a94c686b06751d88199e8bcb5bb0dd1a9" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>RadiusMeasurementObject</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1ade40579c00b12392728f888fb662bd06" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1ab35d664e55c32757cb7754ba468da17c" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a47c9a7b0dee3c8c17d4ebe11b4d51402" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ab2e2a1026345569823469dbaaf682d0f" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a3145d3c07ffc9a58120afdbf21aad1ad" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>renderUi</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1af4c40a50201f9f81d05dbc82a63bf1f2" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a4ceff67ea10feb767160d62b1867060c" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1adeb968f67ea2567552530093f392650d" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a10b6ec54668f9eee0348073df29ff37e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a051a75d477c055c93ef1c3d8094c68df" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a3213847637d4a0e59953ba956b95a35b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1aaf15e405aff0abea522e064f52793918" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a73d0b5803471eb21bfb034ab4d2c84a9" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>select</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a5be2c0c15b679103da9e53014a1fa6d1" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1aa03e1b648de7836582d5e52b25ef908e" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setAmbientStrength</name></member>
@@ -1324,9 +1396,22 @@
       <member refid="classMR_1_1RadiusMeasurementObject_1a8e1cc7165410c622bfae4e10c8ff4b05" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1af73c234a9610fe6ef89b970f1479faee" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a353e4d1ea68473a64436b0fff0448e8c" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a58baff017280ddc4582e4f4bf544ceae" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a2a1c329f72eecc73cd0c647df2003c5b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a13c65bda06c367b1a010fd1466cd42da" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a4753d9530932b64cd57847b26d956723" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a0a0798dae06c6bce40f2f618f6ec0667" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a70e479352766c45d4a5a7ed67708e8ea" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a40f0914d76be4c3d27b674e85385678c" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a76e5ba93393e9c4ceab00579cc6c580a" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1aff65ae13893b22f1419ca9936ff4125b" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>tags</name></member>
       <member refid="classMR_1_1RadiusMeasurementObject_1a93016a52df56f396f9b5a049f76e85a7" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a5e9a5905b036a82ae14c4d880f525cdf" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a6c30f37a9abda25bb885a1f66bd839f5" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a326df35522624b3d00d6c8ec517a26ae" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1ac6fe96ef76a04f14477576423c4c0652" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1a3f517e4f6ec313a1ec18090bed9d2d04" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__RadiusMeasurementObject_1acacd77db40668fefbf6513075580387f" prot="public" virt="non-virtual"><scope>MR::RadiusMeasurementObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

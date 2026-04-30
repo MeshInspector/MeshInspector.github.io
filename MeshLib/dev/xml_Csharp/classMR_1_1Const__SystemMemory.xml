@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SystemMemory" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SystemMemory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SystemMemory" prot="public" virt="non-virtual">MR.SystemMemory</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__SystemMemory_1a9d4c4ece72f8c3578814d27fb481b1d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_SystemMemory.physicalTotal</definition>
+        <argsstring></argsstring>
+        <name>physicalTotal</name>
+        <qualifiedname>MR.Const_SystemMemory.physicalTotal</qualifiedname>
+        <briefdescription>
+<para>total amount of physical memory in the system, in bytes (0 if no info) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SystemMemory_1a092b70dcc3d8a0114cf3807405281368" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_SystemMemory.physicalAvailable</definition>
+        <argsstring></argsstring>
+        <name>physicalAvailable</name>
+        <qualifiedname>MR.Const_SystemMemory.physicalAvailable</qualifiedname>
+        <briefdescription>
+<para>available amount of physical memory in the system, in bytes (0 if no info) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="34" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SystemMemory_1ad96f9a261a81c6ecc61fdbb4270812a3" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_SystemMemory.__ref_storage_physicalTotal</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_physicalTotal</name>
+        <qualifiedname>MR.Const_SystemMemory.__ref_storage_physicalTotal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SystemMemory_1a5fd56f91337804d679d151e577b9d5ca" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_SystemMemory.__ref_storage_physicalAvailable</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_physicalAvailable</name>
+        <qualifiedname>MR.Const_SystemMemory.__ref_storage_physicalAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="35" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1a8a3e8c66357c1fcfa0827fc8531fc671" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SystemMemory.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SystemMemory.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1a4b9fd846418cb174a55dfb4b82a3056d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SystemMemory.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SystemMemory.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1aa1b84142b21bcd23a143676a30d7cb80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SystemMemory.Const_SystemMemory</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SystemMemory</name>
+        <qualifiedname>MR.Const_SystemMemory.Const_SystemMemory</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="68" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1af62955c1782d1e95f56102f37e18bd7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SystemMemory.Const_SystemMemory</definition>
+        <argsstring>(ulong physicalTotal, ulong physicalAvailable)</argsstring>
+        <name>Const_SystemMemory</name>
+        <qualifiedname>MR.Const_SystemMemory.Const_SystemMemory</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>physicalTotal</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>physicalAvailable</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SystemMemory" kindref="compound">MR.SystemMemory</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="79" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="79" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1a7edb3b2e057ad64c12c4397b40f1208b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SystemMemory.Const_SystemMemory</definition>
+        <argsstring>(MR.Const_SystemMemory _other)</argsstring>
+        <name>Const_SystemMemory</name>
+        <qualifiedname>MR.Const_SystemMemory.Const_SystemMemory</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SystemMemory" kindref="compound">MR.Const_SystemMemory</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SystemMemory_1ae2cf444a3d4c5278934dcb07cb68248c" kindref="member">MR.SystemMemory.SystemMemory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="90" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1a8932438c0eadaef14fb95a0602b08764" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SystemMemory.Const_SystemMemory</definition>
+        <argsstring>(SystemMemory _other)</argsstring>
+        <name>Const_SystemMemory</name>
+        <qualifiedname>MR.Const_SystemMemory.Const_SystemMemory</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SystemMemory" kindref="compound">SystemMemory</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SystemMemory_1ae2cf444a3d4c5278934dcb07cb68248c" kindref="member">MR.SystemMemory.SystemMemory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="102" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1ad8a1112ea3d09e5ca276bc03cbe1efab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SystemMemory.~Const_SystemMemory</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SystemMemory</name>
+        <qualifiedname>MR.Const_SystemMemory.~Const_SystemMemory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemMemory_1a551fcb0c970137c3d70ed98a25faab6e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SystemMemory.Const_SystemMemory</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SystemMemory</name>
+        <qualifiedname>MR.Const_SystemMemory.Const_SystemMemory</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="57" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1SystemMemory" kindref="compound">MR.SystemMemory</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SystemMemory</label>
+        <link refid="classMR_1_1Const__SystemMemory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SystemMemory</label>
+        <link refid="classMR_1_1SystemMemory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_SystemMemory</label>
+        <link refid="classMR_1_1Const__SystemMemory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="8" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SystemMemory_1a5fd56f91337804d679d151e577b9d5ca" prot="protected" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>__ref_storage_physicalAvailable</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1ad96f9a261a81c6ecc61fdbb4270812a3" prot="protected" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>__ref_storage_physicalTotal</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a551fcb0c970137c3d70ed98a25faab6e" prot="package" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1aa1b84142b21bcd23a143676a30d7cb80" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1af62955c1782d1e95f56102f37e18bd7f" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a7edb3b2e057ad64c12c4397b40f1208b" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a8932438c0eadaef14fb95a0602b08764" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a8a3e8c66357c1fcfa0827fc8531fc671" prot="protected" virt="virtual"><scope>MR::Const_SystemMemory</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a4b9fd846418cb174a55dfb4b82a3056d" prot="public" virt="virtual"><scope>MR::Const_SystemMemory</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a092b70dcc3d8a0114cf3807405281368" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>physicalAvailable</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a9d4c4ece72f8c3578814d27fb481b1d7" prot="public" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>physicalTotal</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1ad8a1112ea3d09e5ca276bc03cbe1efab" prot="private" virt="non-virtual"><scope>MR::Const_SystemMemory</scope><name>~Const_SystemMemory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

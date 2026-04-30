@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineIntersectionResult2" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineIntersectionResult2</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineIntersectionResult2</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolylineIntersectionResult2" prot="public" virt="non-virtual">MR.Const_PolylineIntersectionResult2</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PolylineIntersectionResult2_1a28b8db75c175791532901839cc07e7bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref></type>
@@ -82,7 +82,7 @@
         <name>PolylineIntersectionResult2</name>
         <qualifiedname>MR.PolylineIntersectionResult2.PolylineIntersectionResult2</qualifiedname>
         <param>
-          <type>MR.Const_EdgePoint</type>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
           <declname>edgePoint</declname>
         </param>
         <param>
@@ -105,7 +105,7 @@
         <name>PolylineIntersectionResult2</name>
         <qualifiedname>MR.PolylineIntersectionResult2.PolylineIntersectionResult2</qualifiedname>
         <param>
-          <type>MR.Const_PolylineIntersectionResult2</type>
+          <type><ref refid="classMR_1_1Const__PolylineIntersectionResult2" kindref="compound">MR.Const_PolylineIntersectionResult2</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.PolylineIntersectionResult2.assign</qualifiedname>
         <param>
-          <type>MR.Const_PolylineIntersectionResult2</type>
+          <type><ref refid="classMR_1_1Const__PolylineIntersectionResult2" kindref="compound">MR.Const_PolylineIntersectionResult2</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineIntersectionResult2</label>
+        <link refid="classMR_1_1Const__PolylineIntersectionResult2"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -191,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineIntersectionResult2</label>
+        <link refid="classMR_1_1Const__PolylineIntersectionResult2"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -205,7 +207,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="110" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="111" bodyend="197"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a62ed757e16404919be7df502ffaef4a9" prot="protected" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>__ref_storage_distanceAlongLine</name></member>
       <member refid="classMR_1_1PolylineIntersectionResult2_1a16e59b959d9059f2df41f95a68e8dc6d" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1ae8a99cc529587c4b76d395d64ef0d097" prot="package" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a3f8bebd02da30635bd1c37b3c87b533c" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1aea7fb02f8697e6944dd73277990ab367" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a53bc0ecbfa42c322ec068d7d5131e726" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1aa8e3bf0f33281629f5c44d27aeed5d24" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a8b5629144f180aebaac82a3a7508d78d" prot="protected" virt="virtual"><scope>MR::PolylineIntersectionResult2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1aa6f24d9a3ec8b1c7a49c97e503e9b378" prot="public" virt="virtual"><scope>MR::PolylineIntersectionResult2</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PolylineIntersectionResult2_1a30a483de2b405b5beb7754fa22ab14a6" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>distanceAlongLine</name></member>
       <member refid="classMR_1_1PolylineIntersectionResult2_1a28b8db75c175791532901839cc07e7bd" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>edgePoint</name></member>
       <member refid="classMR_1_1PolylineIntersectionResult2_1aab0bdd9ece84035d219ec66638de809c" prot="package" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>PolylineIntersectionResult2</name></member>

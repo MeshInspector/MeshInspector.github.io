@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRFaceId__MRFaceId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRFaceId_MRFaceId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRFaceId_MRFaceId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId" prot="public" virt="non-virtual">MR.Const_Buffer_MRFaceId_MRFaceId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRFaceId__MRFaceId_1a70e69c02c0d93025afcbf2cf0b13c392" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -235,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRFaceId_MRFaceId</label>
+        <link refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRFaceId_MRFaceId</label>
+        <link refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -280,15 +282,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="694" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="695" bodyend="854"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1a62672cab17b7988aae0cb553e966d8c1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1ab1ac3cf16405c9a85be4471d0a1e41e3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1a5aa5730756e8cae6335576986ffe7378" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1ae7859b74a4087f8b4e2577fd74546d56" prot="package" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Buffer_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1acf842d1fb48814055cd700fb02da4e18" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Buffer_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1a7d99f17b7f4a19a63c964be78814f6f0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Buffer_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1aeff50d053f8f26700fc4dcb933c43d76" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Buffer_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1aadfc8b5eba381afa113ad7668bd7b75f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1a69ac24f535a79144bfe5b94cd3176915" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1aa3ccae946cb39221ca512f78a82e20b2" prot="package" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Const_Buffer_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1a2fc52a804df38dd70a7b39828bcd5586" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Const_Buffer_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1ae06333b536316fce6cfb9a4ef2e12efe" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Const_Buffer_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1a8be4027556381fc918c4baa10393f51b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Const_Buffer_MRFaceId_MRFaceId</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1af7231a5d7ee6f515d31a93fa16077d57" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1aa86ceb5f77f0c122dd2cd30b3e66634d" prot="protected" virt="virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1ae1abc609cb205ebd5eb658f132b522df" prot="public" virt="virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1a190fd8d60a5da148e069b12d6cdef2db" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1a57d76379a61b8474bd5b32e366cdb8a8" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1a3dca523eaaf7828c80e8aeb635c7b191" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1a72fa126b70ff91cf8cc57ef1bc681cbc" prot="private" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1ab9f4931909a67ea1b2cb4fa78de509c9" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1a0bd0ea029540faf3029ed587056064b3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId_1aae5af03bc796ecadd200955c9dee943a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRFaceId__MRFaceId_1a70e69c02c0d93025afcbf2cf0b13c392" prot="public" virt="non-virtual"><scope>MR::Buffer_MRFaceId_MRFaceId</scope><name>this[MR.FaceId i]</name></member>
     </listofallmembers>
   </compounddef>

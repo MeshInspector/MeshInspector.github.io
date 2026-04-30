@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectVoxels" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectVoxels</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectVoxels</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectVoxels" prot="public" virt="non-virtual">MR.Const_ObjectVoxels</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a04254ba4d1416f0c839ff5f49b2fde76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -250,7 +250,7 @@
         <name>construct</name>
         <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -302,7 +302,7 @@
         <name>construct</name>
         <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeMinMax" kindref="compound">MR.Const_SimpleVolumeMinMax</ref></type>
           <declname>simpleVolumeMinMax</declname>
         </param>
         <param>
@@ -341,7 +341,7 @@
         <name>construct</name>
         <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -379,7 +379,7 @@
         <name>construct</name>
         <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <briefdescription>
@@ -606,7 +606,7 @@
         <name>selectVoxels</name>
         <qualifiedname>MR.ObjectVoxels.selectVoxels</qualifiedname>
         <param>
-          <type>MR.Const_VoxelBitSet</type>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
           <declname>selectedVoxels</declname>
         </param>
         <briefdescription>
@@ -625,7 +625,7 @@
         <name>setVolumeRenderActiveVoxels</name>
         <qualifiedname>MR.ObjectVoxels.setVolumeRenderActiveVoxels</qualifiedname>
         <param>
-          <type>MR.Const_VoxelBitSet</type>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
           <declname>activeVoxels</declname>
         </param>
         <briefdescription>
@@ -663,7 +663,7 @@
         <name>setVolumeRenderingParams</name>
         <qualifiedname>MR.ObjectVoxels.setVolumeRenderingParams</qualifiedname>
         <param>
-          <type>MR.ObjectVoxels.Const_VolumeRenderingParams</type>
+          <type><ref refid="classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams" kindref="compound">MR.ObjectVoxels.Const_VolumeRenderingParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -978,7 +978,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.ObjectVoxels.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -1392,15 +1392,15 @@
         <name>copyTextureAndColors</name>
         <qualifiedname>MR.ObjectVoxels.copyTextureAndColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>src</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>thisToSrc</declname>
         </param>
         <param>
-          <type>MR.Const_FaceMap?</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref>?</type>
           <declname>thisToSrcFaces</declname>
           <defval>null</defval>
         </param>
@@ -1438,15 +1438,15 @@
         <name>copyColors</name>
         <qualifiedname>MR.ObjectVoxels.copyColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>src</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>thisToSrc</declname>
         </param>
         <param>
-          <type>MR.Const_FaceMap?</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref>?</type>
           <declname>thisToSrcFaces</declname>
           <defval>null</defval>
         </param>
@@ -1575,11 +1575,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1598,11 +1598,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.ObjectVoxels.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1621,11 +1621,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.ObjectVoxels.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1667,12 +1667,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a5301487737def832e4f44919e3afc584" kindref="member">MR.ObjectVoxels.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a5301487737def832e4f44919e3afc584" kindref="member">MR.ObjectVoxels.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1829,12 +1829,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aa80855eff28beb98abf76a5bfc7bf2c5" kindref="member">MR.ObjectVoxels.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aa80855eff28beb98abf76a5bfc7bf2c5" kindref="member">MR.ObjectVoxels.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2054,12 +2054,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ab7a3af94f6bfeff877b6a4794c246e22" kindref="member">MR.ObjectVoxels.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ab7a3af94f6bfeff877b6a4794c246e22" kindref="member">MR.ObjectVoxels.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2256,12 +2256,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a816b545f7de0f30577db39f9d506d0ea" kindref="member">MR.ObjectVoxels.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a816b545f7de0f30577db39f9d506d0ea" kindref="member">MR.ObjectVoxels.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2276,7 +2276,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.ObjectVoxels.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -2360,6 +2360,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectVoxels</label>
+        <link refid="classMR_1_1Const__ObjectVoxels"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -2381,6 +2382,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectVoxels</label>
+        <link refid="classMR_1_1Const__ObjectVoxels"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -2395,13 +2397,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1898" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1899" bodyend="3180"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a909a2594293fea3ec86136298cd8c8f0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>activeVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a5d8f80437fb31de91405824f89ef9963" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1ObjectVoxels_1abcb2d95788af1df583cdac3eec690569" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChild</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a7b12ab07e8286c0919bd713e2c41a8c3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ab091d9c6e0e632c52151d0a6456467b1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addTag</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a0f5a2003f87d55b7ab2d5dad9085dd07" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addTexture</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a13e160ed71d95f8d98dbbe266004a355" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>applyScale</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a7d7ba1490d733ab1c422364744826086" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a9a9af43e4c0c19bbb32fe07d02be91fd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>avgEdgeLen</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a1a2102e6201060cdd5fca0d155f618b2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aff586b7d1c267e0655353821ed004a60" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a4fd43601ab313a7d1e487b6e193459d6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>clearAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a7fc656c4cdef627642bc8d1efe0c460d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a20d23b19fa767c165722341919198543" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8a7b969d02247bf8a693f315d6a271f5" prot="package" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>Const_ObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aec3a2500ebf69f84ca30d3929e79ada6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>Const_ObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a47666535372e28e16dfe0551a7e15173" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>Const_ObjectVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a2240b24cf28b12200e928d36ca76d2d5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a1cc31155a4fdd8b2e08970d376871b68" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a432cb2f602b4ce1e2e5f74f20eb60a3a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
@@ -2409,13 +2421,111 @@
       <member refid="classMR_1_1ObjectVoxels_1abdffc516a5cc8605bc75a2549680d544" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a9598c1ff7708b5e5e56e0a418ba3d7c6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyColors</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ada93b7af26b76187488a18c73ab75e57" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyTextureAndColors</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aea56313bd9544f6334e381fcb6a06c00" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>creases</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a2258619706d93e48f503087e495ddcde" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>data</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a69e74434e82e352a54715acd0c61b027" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a7d3099416eeb609d65d1b6e969e3b60d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>dimensions</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ac3573a330d9f26d8091f09e474b3471b" prot="protected" virt="virtual"><scope>MR::ObjectVoxels</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a0418b92f41c34583605c23a5d407a137" prot="public" virt="virtual"><scope>MR::ObjectVoxels</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a69651423cd342bf1b0bd7c394c0fae70" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>enableVolumeRendering</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1abed5439817944dd8c342f5bfc4b2c03c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>flatShading</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a686ce2878abc9e7e9f6a235606c14b33" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getActiveBounds</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad1d715c1028e6b49888c9a077e3bae9a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a0273e471376d3b2f7b5b39f47268399e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a2daefbeb43d0bbb169de22ff7a60cfb2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aadad916e710d79cd9b88ec549a06ca65" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getAncillaryUVCoords</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1afa795a4d52c2fd276d035c2bbe350df3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aba14c0839027f136dfbec77aa688d5d6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a09c53aa6a1405dd9722f237c6e1ecdec" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBordersColor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a009239dbffa98baeaacfee03b134f224" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBordersColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ab22d5da5d6a6f9d332c6e21715eaa0a0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1acd60b267b7c633c5a2afa29beca7896f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a534224879f4a8231a5a84d5da1013969" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getCoordinateByVoxelId</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a9ef799b091e10bfb6ff024ffea0bb350" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a048b1e09842a81a5003ef0d3d6000e3a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getDualMarchingCubes</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a9af091abcba8f4f4240654d892e3460e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getEdgesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a146340555bda3d0cb6bc7131ad602ee3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a953327781d3aa44fecd7c184c9f2b099" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getEdgeWidth</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad73e411d8f3d851e05345a8598af6eb1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getFacesColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a97eff9fe847b22d5df3e07124e8d2ab3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1afc7297d34b6c883cfd6cd01ecbb93c46" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a3856458acef3bf90993ca1f507789248" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a1acdd89bad2f3ec18c1885a27e30d43d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a6cc297cd0043086eb9122e3c42a25efb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1adfae02291f6530d02f18b58e1caeffc9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getIsoValue</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8d49efe7745dacff13aac0209cf8ba8b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getMaxSurfaceVertices</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad870539ef33c63f49829c8d022ed4803" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1af4e72b3690ad8ef3f42610fd13e797d9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointsColor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ae246298cc1246753b201a06313795004" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointsColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aff03d0b60f071469784d3bb8a726b511" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a0c69e6d8bdb4c0229ce01962b4db2fd1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad477c6e54381380571a1343008e35aa1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a36455e5953f0631aa4a6287ebed99704" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedEdgesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a072360286ed3dcb6dc5b56a5ae962274" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aac9dcce1020fcadc31bc6f5449e6403b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a16abe11ddf74920aadc3fc413f711487" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedFacesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8aa3b740b33c5d46949df6314aa2a808" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedFacesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a98a5823c09d151aa01c4c9856d010cb3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSelectedVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a6d80df88fba1a2ea78ea8eda89db00ac" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a89c1772c31fff9eef019053cda5a9102" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ace7d4e64962f6b9c5b222ec3a827aa0a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a2b47dfda4066af2b60b0719632810ef1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a4a6f3749fbdce41acc67b0c1f70f1601" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getTexturePerFace</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a6fc7ad92cb67fe4bc9d27368946af886" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getTextures</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad2b67f5440fe762abaed5e6b9f1f6c3d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getUVCoords</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ac74e82809a284e20141c711b3e733a55" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a4e9f12e92a0775da569f2fcca88a39a0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8872c37e913efd85ad0c50d58021db23" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a01236f77897578fc03255aaf23f42780" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ab1366ffb87bbc0f9bf79eb63cf00c668" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVolumeRenderActiveVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8d1b70a93a6a2ae150f72ebc6ea65959" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVolumeRenderingData</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a7ba5b9a6b34aa460fb7c6821ba1030bc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVolumeRenderingParams</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8be48190ed40ab71be467364b4334790" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVoxelIdByCoordinate</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a3cb6816e893e78d096f30568921a37de" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getVoxelIdByPoint</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ae59ef3ddad24c1a73380093a63aad93e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ae785fc9382e61588db3e7644e4fa095f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8af38a382355335b59beb36105f87949" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a676c459f39037c0a93d6ef346a3faf0e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aa575fb28711fc420af9161e248b9cc7a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a9553ca1c85a1974c552d14080f04fed3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a5526255cdab26ecec34904ee4bad01ca" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>grid</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a90230a4ef6ea3dbe2875d5a98e52e6d7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>hasAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a4757c8d281b557d183e9de48168d6e02" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1afbfee804d4df74a7c0add8c5fc5ea157" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ab34d3365a177ea4987261902f519f996" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8d3e7d1850f7e42b5a16c46ec57ee8de" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>histogram</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a1f19f2df8cc3c036103b8200569053ff" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a3b509b88c08e225192ccb158929e3024" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1afc0ea0e95b8794ce0ccb57317a38a995" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a90d8e8185b275697d65a44e9e1a99dee" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a37dc246462855042a779a9229b660748" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aa153550227d875ad0b9047f84cac46ce" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a12e5dd8b69a1766878eccd19e6b978b2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isMeshClosed</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ab8fe2caca84476c54ea656b578ceda6e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a5a8085131f77464e6f309c90d6e877c5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a58567d5005b954ea98faf2f83a4aae88" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aebd9a6311059ebf32c5cd5e799b9b752" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aa05553587afd29fec87723ec30bbdb04" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>isVolumeRenderingEnabled</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a29dd0587df04558e1c880007aa59a7ab" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>mesh</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a1aac428df5f455f2933ac55299d297a3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>meshPart</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a60182b69084972c3c5af36801fe22cdc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8f362f084afdf3f95ea33fd1a5dbe76c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1acbe27bf7eb1c374758d9b29eaf867cfd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ae3785df0678eeb130c28a7229168453e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHandles</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a6941254ae3ff2ab5ee86d746250061eb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numHoles</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a200e3aefd622ced39e355e359cc748b1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a1eb0e1521e253c8d4d5d818c3cc17b4c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a54b66a7a7839f4cda419abd6a0df899e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a3cce1e5d39401d2cc9daf313d18ed2c5" prot="package" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1aaffde9073b1525816d720b3b6eac47ca" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a07dd6e48bc647186fd900dbb21c76e00" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ab31ce2d9f5749865a2a6a26178caed7e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator Const_ObjectVoxels?</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a1b84b4bc25c5c9ca6b99cc43afe7981e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator Const_ObjectVoxels?</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a629f598d04c5bceee4257a63e3810824" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator Const_ObjectVoxels?</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1af89564f611d11d2d7e8729f644adb764" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad1c37db44af53581d6ce008b98e8fad7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aa3f7374a28634f5d9c4ea28674c84e28" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.Const_ObjectMeshHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a1b3c5aa3593c24c9fba451730ced7cbf" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a7aacdadc87c97cd327afce32e7f70d4e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a04254ba4d1416f0c839ff5f49b2fde76" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectVoxels_1aa7e56143065a81873b971c1ad739a32c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.ObjectMeshHolder</name></member>
@@ -2423,15 +2533,28 @@
       <member refid="classMR_1_1ObjectVoxels_1a29dc260e42b59297c39ee016416e3153" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator ObjectVoxels?</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a04e32467f447495cfc3cec1d66c1a53c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator ObjectVoxels?</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a5fa72d338a7eec1b512d2e10292b5504" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator ObjectVoxels?</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aa5c4b10f259beba4db8025c2605fce8a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>prepareDataForVolumeRendering</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a9bfc84a8edb391d246145709554ceb32" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateHistogram</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a4691dbe073c2f7d2fc49d0bb3082a481" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a444c906f40184c9d91be287333c2ed8f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
       <member refid="classMR_1_1ObjectVoxels_1aeaafa8c8ea2f27134d71700dc0dd00f2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a3d12765d367de3e10827e420696e6bc5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a50d14ca6df876e7b399ed94cb42d65fa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a94327fca9a77c894bc06b70c8a4ec2d8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aa8517378d5da053460b3b988b4632ca4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>renderUi</name></member>
       <member refid="classMR_1_1ObjectVoxels_1afddf11116477cc018edceb7140ac57d3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a01f24bd0ef45c38bca5830c39c9d1cac" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ae5da6e5f6787d87ab59d6f16d26fb8f9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ae61b9ad30ebad708e1da65eca94f33ae" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a85e407e65d8662deb838c4aba31f5bed" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a255c2a0f107fabe493b338a76c3c2078" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a32cbbed54b024c43fdcf211c4ac31dca" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>sameModels</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ad3f241f6c10faa181f332e2f632d7696" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>select</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a6ad14b41a308c1fa67bd445b4abdcf0b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectedArea</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ae0f5652cee6e98e704d4bab0f2b949fd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectEdges</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ab5a47ddcf157ad1b85e01f3777915d20" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectFaces</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a39b3ed431e1187aaf40908330a936c7f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectVoxels</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a5f77269d2d517010afd2d5681eeee79f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>serializeFormat</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a1c1e61ae6acd1084be96b12008474aea" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setActiveBounds</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a0ae554c8b7aa3eebf18de52e3051bbbc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a88d40fae4d1e6d5cf795c08d5d7d7cd0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAmbientStrength</name></member>
@@ -2490,9 +2613,19 @@
       <member refid="classMR_1_1ObjectVoxels_1a4792e8aa7d89ed99718199c8707afea9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a30497797a77587b6df745ceea11ab625" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setXf</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a9a4b4b3ac79c82fdce42d3994a9898ac" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a968f826b93239775d15ec832b64ff0c6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a9802ca38fef2c8e644bd3c942d805483" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a6e850d28f74138091f772ae34ce6bdec" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a5c2000ee3cfef71d7b3059d016133dd7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a96d67fb361a36b4f59578dc28edde3c1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1acaa82bce2185323c17791d86006f84bc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a5a1222b617db2a7c14aac7ebfe559ff1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a12aa74cc5d1c6f9b2c08041e7351d253" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>surface</name></member>
       <member refid="classMR_1_1ObjectVoxels_1ac7cb23fc3cc0ea9956ad694f5bb322db" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a48113776849ca96776747be659ede21e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>tags</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a223cbad1bbc7117a8cf23a4c01951e31" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a2d250817da193cf040cc379eb9389328" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>totalArea</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a12ad43fb8b27d0a19191e3f071f78082" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>typeName</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a0a0d0b6bfc42bd0015e8291381034abe" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateAncillaryUVCoords</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a2538d3726615879122d5cf7136c88102" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateData</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a4e12ee42228f2186aefe99fc9998edf3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateFacesColorMap</name></member>
@@ -2504,7 +2637,15 @@
       <member refid="classMR_1_1ObjectVoxels_1ac11a41431b8da1282d7cc871f20e248a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateUVCoords</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a74ad8d0d142b91680e4dd5d74124a293" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateVdbVolume</name></member>
       <member refid="classMR_1_1ObjectVoxels_1abae5239a38f1d110b89c27800d7bd525" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a802ae68183b8d95bd3c0ff74ed8afc70" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1ObjectVoxels_1a2bbb4b410c9830b2a52346c1d73a504d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>varVdbVolume</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1aaac9a00d9c8d1369307395e850d74615" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>vdbVolume</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a9955810a1fc5147f1025f01130c518e1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a23ea1c8981edcf49ef5377554095bb94" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>volume</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ad58ff7a51768820a43496e55786c6c98" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a8d509c604bd41f9a0e2171a24fab4a98" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1ae870afc1ca81b909f81b845de5a148e1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectVoxels_1a6b6162c70cd42e0e1d1b0afaf7d6b5a8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

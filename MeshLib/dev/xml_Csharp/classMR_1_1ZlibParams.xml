@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ZlibParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ZlibParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ZlibParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ZlibParams" prot="public" virt="non-virtual">MR.Const_ZlibParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ZlibParams_1a5fefe564d79937f989f146af63614b17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -86,7 +86,7 @@
         <name>ZlibParams</name>
         <qualifiedname>MR.ZlibParams.ZlibParams</qualifiedname>
         <param>
-          <type>MR.Const_ZlibParams</type>
+          <type><ref refid="classMR_1_1Const__ZlibParams" kindref="compound">MR.Const_ZlibParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>assign</name>
         <qualifiedname>MR.ZlibParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_ZlibParams</type>
+          <type><ref refid="classMR_1_1Const__ZlibParams" kindref="compound">MR.Const_ZlibParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -151,6 +151,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ZlibParams</label>
+        <link refid="classMR_1_1Const__ZlibParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -172,6 +173,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ZlibParams</label>
+        <link refid="classMR_1_1Const__ZlibParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -186,7 +188,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="107" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="108" bodyend="175"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ZlibParams_1aaf302b9fd4fcc1f1721fc63352d303c2" prot="protected" virt="non-virtual"><scope>MR::ZlibParams</scope><name>__ref_storage_rawDeflate</name></member>
       <member refid="classMR_1_1ZlibParams_1a60d722afc85f7c4cf1236b2c4a1f1494" prot="public" virt="non-virtual"><scope>MR::ZlibParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1a90ae62fb9f3abe4b88d0206a3840ab5f" prot="package" virt="non-virtual"><scope>MR::ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1a4560045f8f956344e28267c473033f43" prot="public" virt="non-virtual"><scope>MR::ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1ad16490ac32ff333b27e3e2a55a90cfc8" prot="public" virt="non-virtual"><scope>MR::ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1ae5a708384ef399208914a13c92ea0a50" prot="public" virt="non-virtual"><scope>MR::ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1abee88f5aa0d6623300cfb5084f2b85e6" prot="public" virt="non-virtual"><scope>MR::ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1aac56f18a75cd96d87f9bd7a24de59422" prot="protected" virt="virtual"><scope>MR::ZlibParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1ac93ab460e35ee3609ba9d00119ca5895" prot="public" virt="virtual"><scope>MR::ZlibParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ZlibParams_1a5fefe564d79937f989f146af63614b17" prot="public" virt="non-virtual"><scope>MR::ZlibParams</scope><name>rawDeflate</name></member>
       <member refid="classMR_1_1ZlibParams_1a8d63b466f31f4ae1934ff13cfdbc6266" prot="package" virt="non-virtual"><scope>MR::ZlibParams</scope><name>ZlibParams</name></member>
       <member refid="classMR_1_1ZlibParams_1a9623066e779c9d1671b55d306b8a623c" prot="public" virt="non-virtual"><scope>MR::ZlibParams</scope><name>ZlibParams</name></member>

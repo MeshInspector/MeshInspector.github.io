@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ContoursMeshAlignParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ContoursMeshAlignParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ContoursMeshAlignParams" prot="public" virt="non-virtual">MR.ContoursMeshAlignParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ContoursMeshAlignParams_1acf107fc7a6d236e85c1a8427160c6998" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+        <definition>unsafe MR.Const_MeshTriPoint MR.Const_ContoursMeshAlignParams.meshPoint</definition>
+        <argsstring></argsstring>
+        <name>meshPoint</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.meshPoint</qualifiedname>
+        <briefdescription>
+<para>Point coordinate on mesh, represent position of contours box 'pivotPoint' on mesh. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="29" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ContoursMeshAlignParams_1a34bed7d9257725e6838c8cad3be5c24f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref readonly MR.Vector2f MR.Const_ContoursMeshAlignParams.pivotPoint</definition>
+        <argsstring></argsstring>
+        <name>pivotPoint</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.pivotPoint</qualifiedname>
+        <briefdescription>
+<para>Relative position of 'meshPoint' in contours bounding box (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="35" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ContoursMeshAlignParams_1a7b24dbab8e2b5db9bd4201920a2a25ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_ContoursMeshAlignParams.xDirection</definition>
+        <argsstring></argsstring>
+        <name>xDirection</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.xDirection</qualifiedname>
+        <briefdescription>
+<para>Represents 2d contours xDirection in mesh space. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="41" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ContoursMeshAlignParams_1aa872e01e8c0c4f3d07324cf50858034a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__Vector3f" kindref="compound">ConstBox_Vector3f</ref></type>
+        <definition>unsafe MR.? ConstBox_Vector3f MR.Const_ContoursMeshAlignParams.zDirection</definition>
+        <argsstring></argsstring>
+        <name>zDirection</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.zDirection</qualifiedname>
+        <briefdescription>
+<para>Represents contours normal in mesh space if nullptr - use mesh normal at 'meshPoint'. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="48" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="49" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ContoursMeshAlignParams_1a4c70f51ec7b986487db2441577fee912" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ContoursMeshAlignParams.extrusion</definition>
+        <argsstring></argsstring>
+        <name>extrusion</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.extrusion</qualifiedname>
+        <briefdescription>
+<para>Contours extrusion in +z and -z direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="66" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ContoursMeshAlignParams_1a1666f8c16bdf1910e0d590ba0c36a45e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ContoursMeshAlignParams.maximumShift</definition>
+        <argsstring></argsstring>
+        <name>maximumShift</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.maximumShift</qualifiedname>
+        <briefdescription>
+<para>Maximum allowed shift along 'zDirection' for alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="72" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ContoursMeshAlignParams_1a56448e18c586725f821af96b29f6664e" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref> *</type>
+        <definition>unsafe MR.Vector2f* MR.Const_ContoursMeshAlignParams.__ref_storage_pivotPoint</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_pivotPoint</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.__ref_storage_pivotPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="36" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ContoursMeshAlignParams_1a09009b68da26673725b658e2472e500e" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_ContoursMeshAlignParams.__ref_storage_xDirection</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_xDirection</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.__ref_storage_xDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="42" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ContoursMeshAlignParams_1a79ca52ee853c78a21e779f4bf0bab8cf" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.ConstBox_Vector3f._Underlying **</type>
+        <definition>unsafe MR.ConstBox_Vector3f._Underlying** MR.Const_ContoursMeshAlignParams.__ptr_storage_zDirection</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_zDirection</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.__ptr_storage_zDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="61" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ContoursMeshAlignParams_1a972f66ef473def597e02f14ed47afb6c" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ContoursMeshAlignParams.__ref_storage_extrusion</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_extrusion</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.__ref_storage_extrusion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="67" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ContoursMeshAlignParams_1a2f8ea9f6f590e78287517aaeec54e549" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ContoursMeshAlignParams.__ref_storage_maximumShift</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maximumShift</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.__ref_storage_maximumShift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="73" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ContoursMeshAlignParams_1a6dc223ee99215668ee0d3475981a1c44" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ContoursMeshAlignParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ContoursMeshAlignParams_1a4f42e3dddedf8181de79e47dd62d4ed2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ContoursMeshAlignParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ContoursMeshAlignParams_1aad12385b59c5df7edc24db6f06c1b026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ContoursMeshAlignParams</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="131" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="131" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ContoursMeshAlignParams_1a695c194185df7b2af7bc8d601be07be5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</definition>
+        <argsstring>(MR.Const_MeshTriPoint meshPoint, MR.Vector2f pivotPoint, MR.Vector3f xDirection, MR.Vector3f? zDirection, float extrusion, float maximumShift)</argsstring>
+        <name>Const_ContoursMeshAlignParams</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>meshPoint</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pivotPoint</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>xDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>?</type>
+          <declname>zDirection</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>extrusion</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maximumShift</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ContoursMeshAlignParams" kindref="compound">MR.ContoursMeshAlignParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="142" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="142" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ContoursMeshAlignParams_1a3471b85122d59174c9b64c91d9172d64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</definition>
+        <argsstring>(MR.Const_ContoursMeshAlignParams _other)</argsstring>
+        <name>Const_ContoursMeshAlignParams</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ContoursMeshAlignParams" kindref="compound">MR.Const_ContoursMeshAlignParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ContoursMeshAlignParams_1aaf6a324a450e161d8e063ed203c7617b" kindref="member">MR.ContoursMeshAlignParams.ContoursMeshAlignParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="155" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="155" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ContoursMeshAlignParams_1aa97602526aa02e9d60d2efcfeeca0727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</definition>
+        <argsstring>(ContoursMeshAlignParams _other)</argsstring>
+        <name>Const_ContoursMeshAlignParams</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ContoursMeshAlignParams" kindref="compound">ContoursMeshAlignParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ContoursMeshAlignParams_1aaf6a324a450e161d8e063ed203c7617b" kindref="member">MR.ContoursMeshAlignParams.ContoursMeshAlignParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="167" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="167" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ContoursMeshAlignParams_1a53d9aee141c12c2501dc6ab192d588f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ContoursMeshAlignParams.~Const_ContoursMeshAlignParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ContoursMeshAlignParams</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.~Const_ContoursMeshAlignParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ContoursMeshAlignParams_1a66ac9389f3890d518d197156bc5e2d8c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ContoursMeshAlignParams</name>
+        <qualifiedname>MR.Const_ContoursMeshAlignParams.Const_ContoursMeshAlignParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="120" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="120" bodyend="125"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for aligning 2d contours onto mesh surface Generated from class <computeroutput><ref refid="classMR_1_1ContoursMeshAlignParams" kindref="compound">MR.ContoursMeshAlignParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ContoursMeshAlignParams</label>
+        <link refid="classMR_1_1Const__ContoursMeshAlignParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ContoursMeshAlignParams</label>
+        <link refid="classMR_1_1ContoursMeshAlignParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_ContoursMeshAlignParams</label>
+        <link refid="classMR_1_1Const__ContoursMeshAlignParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_zDirection</edgelabel>
+          <edgelabel>__ref_storage_pivotPoint</edgelabel>
+          <edgelabel>__ref_storage_xDirection</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="9" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a79ca52ee853c78a21e779f4bf0bab8cf" prot="protected" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>__ptr_storage_zDirection</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a972f66ef473def597e02f14ed47afb6c" prot="protected" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>__ref_storage_extrusion</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a2f8ea9f6f590e78287517aaeec54e549" prot="protected" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>__ref_storage_maximumShift</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a56448e18c586725f821af96b29f6664e" prot="protected" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>__ref_storage_pivotPoint</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a09009b68da26673725b658e2472e500e" prot="protected" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>__ref_storage_xDirection</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a66ac9389f3890d518d197156bc5e2d8c" prot="package" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1aad12385b59c5df7edc24db6f06c1b026" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a695c194185df7b2af7bc8d601be07be5" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a3471b85122d59174c9b64c91d9172d64" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1aa97602526aa02e9d60d2efcfeeca0727" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a6dc223ee99215668ee0d3475981a1c44" prot="protected" virt="virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a4f42e3dddedf8181de79e47dd62d4ed2" prot="public" virt="virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a4c70f51ec7b986487db2441577fee912" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>extrusion</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a1666f8c16bdf1910e0d590ba0c36a45e" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>maximumShift</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1acf107fc7a6d236e85c1a8427160c6998" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>meshPoint</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a34bed7d9257725e6838c8cad3be5c24f" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>pivotPoint</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a7b24dbab8e2b5db9bd4201920a2a25ee" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>xDirection</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1aa872e01e8c0c4f3d07324cf50858034a" prot="public" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>zDirection</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a53d9aee141c12c2501dc6ab192d588f8" prot="private" virt="non-virtual"><scope>MR::Const_ContoursMeshAlignParams</scope><name>~Const_ContoursMeshAlignParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

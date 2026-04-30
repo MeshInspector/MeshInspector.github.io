@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CylinderObject" kind="class" language="C#" prot="public">
     <compoundname>MR::CylinderObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CylinderObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CylinderObject" prot="public" virt="non-virtual">MR.Const_CylinderObject</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1CylinderObject_1a5c3ac8cda1700d4e340aa2b674ef290a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -637,11 +637,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -660,11 +660,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.CylinderObject.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -683,11 +683,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.CylinderObject.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -725,7 +725,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.CylinderObject.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -748,12 +748,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ae9ea2d150c6a1fb2f4ee37031be2cce1" kindref="member">MR.CylinderObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ae9ea2d150c6a1fb2f4ee37031be2cce1" kindref="member">MR.CylinderObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -952,12 +952,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ada8050be5d141cee81fede1627d34678" kindref="member">MR.CylinderObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ada8050be5d141cee81fede1627d34678" kindref="member">MR.CylinderObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1182,12 +1182,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a354ef74224ce54d2ae3108e37ff1e3ed" kindref="member">MR.CylinderObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a354ef74224ce54d2ae3108e37ff1e3ed" kindref="member">MR.CylinderObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1384,12 +1384,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1aafe4f5862914d81b1ab8e8a2cb88a1d3" kindref="member">MR.CylinderObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1aafe4f5862914d81b1ab8e8a2cb88a1d3" kindref="member">MR.CylinderObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1404,7 +1404,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.CylinderObject.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1488,6 +1488,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CylinderObject</label>
+        <link refid="classMR_1_1Const__CylinderObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1509,6 +1510,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CylinderObject</label>
+        <link refid="classMR_1_1Const__CylinderObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1528,27 +1530,111 @@
       <member refid="classMR_1_1CylinderObject_1a92c13b9362f058a3a0562aa6b1bdf698" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1CylinderObject_1a6562e7506c9f1f65d793c07d31d9958e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1CylinderObject_1a0a0f3eac9796cbd18cfa5bfb3eb5d69c" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aa5a382955286b8f6252922baaabc7aae" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a81336d0eff52c89dcafe5b692196ee1c" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a885ad1f68ccac7e7a65fe5cf4b4ff051" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a3d3a9191f927426b24e3316092930616" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a01a3b2948ef0c905c5b156b33e64e067" prot="package" virt="non-virtual"><scope>MR::CylinderObject</scope><name>Const_CylinderObject</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aa1816fcfc7e59884543ae877775d1807" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>Const_CylinderObject</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a7bd4c667e2e3c90213b65c774296dcaa" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>Const_CylinderObject</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a389b60d0ffdabbca53bb3d3bb631a36f" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>Const_CylinderObject</name></member>
       <member refid="classMR_1_1CylinderObject_1a2e50825bb678ea524ed1aee670d582c6" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1CylinderObject_1a2d3b61df1e394d9d9da877f00390a4e3" prot="package" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
       <member refid="classMR_1_1CylinderObject_1a8f6397bbc69852d4a6a0d3104c7ab6c7" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
       <member refid="classMR_1_1CylinderObject_1afc069ea722422c8eb8e9c61c1c077f84" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
       <member refid="classMR_1_1CylinderObject_1a62df68a6f3d5c2af35fac6417049f4bd" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
       <member refid="classMR_1_1CylinderObject_1a3ebc5c0a61cf28777eafee70b778e65d" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aae7062e2f3b954e2846b07ac87f4d780" prot="protected" virt="virtual"><scope>MR::CylinderObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1afa05943c1f8903e6122ae75414406b48" prot="public" virt="virtual"><scope>MR::CylinderObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aad792f8473af5859d4885cbd2497467e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aee3325eeeafa94d806fab2d5a5fcb1bd" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a40ef08b304ae7fdde6e8e161466f498b" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a1983d1e2ad7e8cb1c0240f7c2f376886" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1adbfcc2fee2b80f94bfdbfa3b4610ffa1" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ac5d9f3612a689f89207eca60e7b3546d" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getBasePoint</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a0713dde78226c9156ae4594bd8ca7c1b" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a5cb5a66540dea0e5d72cc0207fa41ea8" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getCenter</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae72c0b64fc8ac5aae542f3d0ac1853d3" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae6cb1627f040d2cae1e1e96c8cf2ff15" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a345c331f38abcebd1f206f4df262a8bc" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1acd633a6c4d0eb90da9967f5ac67b4dd1" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getDirection</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1affd8fc014a96cc8a5627dfabd3a11296" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1af2c5d657b57c7780fe20b807c244a1af" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ac6500ed3db78821cae988ffea96746a8" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a43fe2052219cdb616f0ef4268fb4c84e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a557452cc51bfad9123a46ccc4e78a5e3" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aa3e02a2e1275f7b0ee3a2adb2d3f3337" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a3932cd4386e01b44670700ad9f0989b4" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getLength</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae0eec9763456bc18b6dbdae02f42b3ca" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a9a9b3f923379e93b76970e649d8ff10e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a7e609c9e1be7320c3dd1d209b642df95" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1af1283a35d7189927ba79e192610ab7f4" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getNormal</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae2add5ad4e3c1d1f305d85e0c9eae3f5" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1af7a01d327ab27d9e83826c1f8c0d3620" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getRadius</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1abdde843b3a4e24b96002e207011b1633" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a31eaa6db4c07e829a1b41fff02ab76dd" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aa9936749dbab62ca11048d6bacf74b06" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a1455f591c4ee74bc593160d766180248" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1afd448032cda8c86ec27ba7c50d02e8f5" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a009ea5c9eb6aea0c26b69d82cdcb34a1" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a37c1e627f064c901fd6eb68372adbcf7" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a4e6bbd9b017786af39d3066ec2449a4b" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1abb9f2fd21e08eb377c2e003ecb3e6323" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a558944ae9d70de8f4ec4f79576690750" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1afb0d3ac69f56bf9f8bd263bd10b05590" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a86ff1c0304fce8815732fec1c108e7d0" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a51090692ab75dd9230fc7dbd6901c23a" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a95b269c1661e4635503a8d3362860777" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aeeef83bae473d6454d3d7680701b7e6b" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ad5d1a75886e9474c42ab16163e47d81e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ad8af40ba1d0c1f144cd98c1cf3ad6f77" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a69e2422552e15e863ae3e5b6f512b840" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae2363698630fe10c5c784baf2d7e9c75" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aff3083651a69ca6ad8fb88447758d3bc" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ad130f34b7389613fab37c1631f07dc06" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a40580e429fbe165dfac96e1b2a546138" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a72f356986152106d961202b7fda0a435" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a08a8da6511eba343bfa000e66f8aed5f" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1acb9482df45b5db1733c3fb991bc00c84" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a4f72338cc9f30f9c8284ce58f27d94c4" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a3b4217dd8d613d72d4551b52390e3e6e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a95a878e9cf7a03ed0a51b65767a51b91" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1af7e389d1b2ea96fbea96c8bad379e815" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ad2abbe8ae0b50a6b89eedb69c9077d0a" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1acb274a0c3fdfad484690674a58109482" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a16ad77c40cadc701f500c68d7acf0b2b" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator Const_CylinderObject</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aa3399e2412d61a7248de22fdd93c5c6d" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator Const_CylinderObject?</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a07e6fd1d53b3388e9ebb4531bc98ea69" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator Const_CylinderObject?</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a8a713cbdad796817264739711997d4ef" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator Const_CylinderObject?</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aa9e55a96f9be069bb2ff7f06eb0162eb" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator Const_CylinderObject?</name></member>
       <member refid="classMR_1_1CylinderObject_1a2b8ff99859c020561122b268b0d0dc6e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject</name></member>
       <member refid="classMR_1_1CylinderObject_1af420d5ada88b57cbf980c97e1b740758" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject?</name></member>
       <member refid="classMR_1_1CylinderObject_1a47fa26959b1529d6ada9b325defa9116" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject?</name></member>
       <member refid="classMR_1_1CylinderObject_1a026341d1817724e4e840518cf4e3cf01" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject?</name></member>
       <member refid="classMR_1_1CylinderObject_1a3bfa43de7e1d9b0d4bc130d3a130d1f6" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject?</name></member>
       <member refid="classMR_1_1CylinderObject_1a17e91a6f1efdba33a803b9524f6383d4" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a166969c527e8630ed78d97806343fd39" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a67d031acc515362587ba8a4408f779b3" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.Const_FeatureObject</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a855c8771fe0f5a3bdade6c0fa480f276" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae55cf1732b6537c73b134494b7da8da9" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a2d434ac995b14083e9a2ba214f123c3e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1CylinderObject_1ab6de2dba51cedff59eb6065ebbaa22ee" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.FeatureObject</name></member>
       <member refid="classMR_1_1CylinderObject_1a80286dc51daf576346dc31538afda2c8" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1CylinderObject_1a5c3ac8cda1700d4e340aa2b674ef290a" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1CylinderObject_1abdfef4d8549f60e0481c7a3c1b48830d" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aff33d0a87d75e3d7ed63589c6945e0e1" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>projectPoint</name></member>
       <member refid="classMR_1_1CylinderObject_1a1c47a0922e8e2dda58083dd344eb5870" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1CylinderObject_1ae1eeee955153d33a7c00022076e16245" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a9180374e81f64aaf94ae44be792448e6" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a9c289e1762261967b66825b71a2b0b3d" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a9b480f883c1ce35ed60adedd3ce9c409" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>renderUi</name></member>
       <member refid="classMR_1_1CylinderObject_1a5056f292cf044dcaf40ade9acb8a3105" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae83e961e9a72abed180b4400232409c8" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ac6b7fd8772b2085c0b28845e436fe940" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1CylinderObject_1a3222a01f63041624515fdf6b28002cf2" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a349e4815c306985e575784d5c6565b62" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1CylinderObject_1a5938f54cd23a9d8c2a27d9641ddd09fb" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a69ff4f1529dcca4cdfd4c2458d45d156" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1CylinderObject_1a849e8fe4e79fee4e964df894b5ddd87a" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>select</name></member>
       <member refid="classMR_1_1CylinderObject_1a2c63d80708fc644089a4cf1490c9ffa9" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1CylinderObject_1a26ae7f51ef1b8195446a9e59872940ae" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setAmbientStrength</name></member>
@@ -1591,9 +1677,22 @@
       <member refid="classMR_1_1CylinderObject_1a5896ecc6143c300a1240491183fcb6ab" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1CylinderObject_1af72951f762f87e6c80a93c967ca31495" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1CylinderObject_1a467b8a953fdabf1523bae8e09c84aa50" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aefc8334f305a80ea433a42c0e0fc7401" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a1a70c8d78d76d99357951f92b3a2fd51" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1CylinderObject_1a362adc85f246801378d434abfcdb8319" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1aae22f152a41673048aec393fbc18892a" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a9858275f9d3ae507e04b6511a23c4ed6" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae9ef6950ea1749d734ce31aea8944386" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a7aac5ab9987b3f5e12ce30725061e46b" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1CylinderObject_1aa84160c73970a960e4fd3946f9718bc5" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1adf094b7f906f861a828829b7a03d8981" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>tags</name></member>
       <member refid="classMR_1_1CylinderObject_1a0853716de00210bff1aa2e87a6a59869" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a7697d96e878099d22377878e4d57765c" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a7aca39b70cd94fc327555d4adc35f29f" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ad55ecfb73626007a70330ef948e78ca7" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1afa28da3ddabf76cf5002147296a8a706" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1ae07b6995aaee262c9d70f666253f5dab" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__CylinderObject_1a53d4d6f43cefc54e28cc68e0c5231be9" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

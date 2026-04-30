@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsSave" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsSave</compoundname>
+    <innerclass refid="classMR_1_1VoxelsSave_1_1Const__SavingSettings" prot="public">MR::VoxelsSave::Const_SavingSettings</innerclass>
     <innerclass refid="classMR_1_1VoxelsSave_1_1SavingSettings" prot="public">MR::VoxelsSave::SavingSettings</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1VoxelsSave_1a56867aadf2bd62203ce5312a547d2b7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -11,7 +12,7 @@
         <name>toDicom</name>
         <qualifiedname>MR.VoxelsSave.toDicom</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -39,7 +40,7 @@
         <name>toDicom</name>
         <qualifiedname>MR.VoxelsSave.toDicom</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolumeU16</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeU16" kindref="compound">MR.Const_SimpleVolumeU16</ref></type>
           <declname>volume</declname>
         </param>
         <param>
@@ -72,7 +73,7 @@
         <name>toRawAutoname</name>
         <qualifiedname>MR.VoxelsSave.toRawAutoname</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -100,7 +101,7 @@
         <name>toRawAutoname</name>
         <qualifiedname>MR.VoxelsSave.toRawAutoname</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -128,7 +129,7 @@
         <name>gridToRawAutoname</name>
         <qualifiedname>MR.VoxelsSave.gridToRawAutoname</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -160,7 +161,7 @@
         <name>gridToRawFloat</name>
         <qualifiedname>MR.VoxelsSave.gridToRawFloat</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -192,7 +193,7 @@
         <name>toRawFloat</name>
         <qualifiedname>MR.VoxelsSave.toRawFloat</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -220,7 +221,7 @@
         <name>toRawFloat</name>
         <qualifiedname>MR.VoxelsSave.toRawFloat</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -248,7 +249,7 @@
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -276,7 +277,7 @@
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -304,7 +305,7 @@
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeMinMax" kindref="compound">MR.Const_SimpleVolumeMinMax</ref></type>
           <declname>simpleVolumeMinMax</declname>
         </param>
         <param>
@@ -332,7 +333,7 @@
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeMinMax" kindref="compound">MR.Const_SimpleVolumeMinMax</ref></type>
           <declname>simpleVolumeMinMax</declname>
         </param>
         <param>
@@ -360,7 +361,7 @@
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -388,7 +389,7 @@
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -416,7 +417,7 @@
         <name>gridToVdb</name>
         <qualifiedname>MR.VoxelsSave.gridToVdb</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -444,7 +445,7 @@
         <name>gridToVdb</name>
         <qualifiedname>MR.VoxelsSave.gridToVdb</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -472,7 +473,7 @@
         <name>toVdb</name>
         <qualifiedname>MR.VoxelsSave.toVdb</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -500,7 +501,7 @@
         <name>gridToAnySupportedFormat</name>
         <qualifiedname>MR.VoxelsSave.gridToAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -532,7 +533,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.VoxelsSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -564,7 +565,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -596,11 +597,11 @@
         <name>saveAllSlicesToImage</name>
         <qualifiedname>MR.VoxelsSave.saveAllSlicesToImage</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
-          <type>MR.VoxelsSave.Const_SavingSettings</type>
+          <type><ref refid="classMR_1_1VoxelsSave_1_1Const__SavingSettings" kindref="compound">MR.VoxelsSave.Const_SavingSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>

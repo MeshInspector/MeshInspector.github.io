@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__WatershedGraph" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_WatershedGraph</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1WatershedGraph" prot="public" virt="non-virtual">MR.WatershedGraph</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" prot="public">MR::Const_WatershedGraph::BasinInfo</innerclass>
+    <innerclass refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" prot="public">MR::Const_WatershedGraph::BdInfo</innerclass>
+    <innerclass refid="classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" prot="public">MR::Const_WatershedGraph::Const_BasinInfo</innerclass>
+    <innerclass refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" prot="public">MR::Const_WatershedGraph::Const_BdInfo</innerclass>
+    <innerclass refid="classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint" prot="public">MR::Const_WatershedGraph::Const_OverflowPoint</innerclass>
+    <innerclass refid="classMR_1_1Const__WatershedGraph_1_1OverflowPoint" prot="public">MR::Const_WatershedGraph::OverflowPoint</innerclass>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1ae0e567d149da049088a18666cd550e23" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_WatershedGraph.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_WatershedGraph.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a72791815064705f510688b22383b9953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_WatershedGraph.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_WatershedGraph.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1aeb1cb051e6714a412ccf296165153207" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WatershedGraph.Const_WatershedGraph</definition>
+        <argsstring>(MR._ByValue_WatershedGraph _other)</argsstring>
+        <name>Const_WatershedGraph</name>
+        <qualifiedname>MR.Const_WatershedGraph.Const_WatershedGraph</qualifiedname>
+        <param>
+          <type>MR._ByValue_WatershedGraph</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" kindref="member">MR.WatershedGraph.WatershedGraph</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1ae8139eea8f311009e9d50c09d4245927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WatershedGraph.Const_WatershedGraph</definition>
+        <argsstring>(Const_WatershedGraph _other)</argsstring>
+        <name>Const_WatershedGraph</name>
+        <qualifiedname>MR.Const_WatershedGraph.Const_WatershedGraph</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WatershedGraph" kindref="compound">Const_WatershedGraph</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" kindref="member">MR.WatershedGraph.WatershedGraph</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="42" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a5a745701f2b0040892037ac50eb7c74d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WatershedGraph.Const_WatershedGraph</definition>
+        <argsstring>(WatershedGraph _other)</argsstring>
+        <name>Const_WatershedGraph</name>
+        <qualifiedname>MR.Const_WatershedGraph.Const_WatershedGraph</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WatershedGraph" kindref="compound">WatershedGraph</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" kindref="member">MR.WatershedGraph.WatershedGraph</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="47" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1ac6a565acd1b0c77b8d1447280617d547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WatershedGraph.Const_WatershedGraph</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_Vector_Int_MRFaceId face2basin, int numBasins)</argsstring>
+        <name>Const_WatershedGraph</name>
+        <qualifiedname>MR.Const_WatershedGraph.Const_WatershedGraph</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__Int__MRFaceId" kindref="compound">MR.Const_Vector_Int_MRFaceId</ref></type>
+          <declname>face2basin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBasins</declname>
+        </param>
+        <briefdescription>
+<para>constructs the graph from given mesh, heights in z-coordinate, and initial subdivision on basins Generated from constructor <computeroutput><ref refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" kindref="member">MR.WatershedGraph.WatershedGraph</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="53" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="53" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a14c8053c624be37775ab5549a57cf95e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_WatershedGraph.getHeightAt</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>getHeightAt</name>
+        <qualifiedname>MR.Const_WatershedGraph.getHeightAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>returns height at given vertex or FLT_MAX if the vertex is invalid Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a14c8053c624be37775ab5549a57cf95e" kindref="member">MR.WatershedGraph.getHeightAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="66" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1ae7f5376508c0bde6308d303e14b1204f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Graph" kindref="compound">MR.Const_Graph</ref></type>
+        <definition>unsafe MR.Const_Graph MR.Const_WatershedGraph.graph</definition>
+        <argsstring>()</argsstring>
+        <name>graph</name>
+        <qualifiedname>MR.Const_WatershedGraph.graph</qualifiedname>
+        <briefdescription>
+<para>returns underlying graph where each basin is a vertex Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1ae7f5376508c0bde6308d303e14b1204f" kindref="member">MR.WatershedGraph.graph</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="77" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="77" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a4801421701431cce7b1d214ba556548a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_WatershedGraph.totalArea</definition>
+        <argsstring>()</argsstring>
+        <name>totalArea</name>
+        <qualifiedname>MR.Const_WatershedGraph.totalArea</qualifiedname>
+        <briefdescription>
+<para>returns total precipitation area Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a4801421701431cce7b1d214ba556548a" kindref="member">MR.WatershedGraph.totalArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="88" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1af37c810f1082a728251e5c978899a787" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_WatershedGraph.numBasins</definition>
+        <argsstring>()</argsstring>
+        <name>numBasins</name>
+        <qualifiedname>MR.Const_WatershedGraph.numBasins</qualifiedname>
+        <briefdescription>
+<para>returns the current number of basins (excluding special "outside" basin) Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1af37c810f1082a728251e5c978899a787" kindref="member">MR.WatershedGraph.numBasins</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="99" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1ac9447d809d9ef1d0aeff30227e686a8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" kindref="compound">MR.WatershedGraph.Const_BasinInfo</ref></type>
+        <definition>unsafe MR.WatershedGraph.Const_BasinInfo MR.Const_WatershedGraph.basinInfo</definition>
+        <argsstring>(MR.GraphVertId v)</argsstring>
+        <name>basinInfo</name>
+        <qualifiedname>MR.Const_WatershedGraph.basinInfo</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>returns data associated with given basin Generated from method <computeroutput><ref refid="classMR_1_1WatershedGraph_1a18232b2ebc524ead9718a678045ba03e" kindref="member">MR.WatershedGraph.basinInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="110" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="110" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a31de89c0a8cbc38b0ff147964c9e5a21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" kindref="compound">MR.WatershedGraph.Const_BdInfo</ref></type>
+        <definition>unsafe MR.WatershedGraph.Const_BdInfo MR.Const_WatershedGraph.bdInfo</definition>
+        <argsstring>(MR.GraphEdgeId e)</argsstring>
+        <name>bdInfo</name>
+        <qualifiedname>MR.Const_WatershedGraph.bdInfo</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns data associated with given boundary between basins Generated from method <computeroutput><ref refid="classMR_1_1WatershedGraph_1a5b2c2401848105a2680e58cd003d954c" kindref="member">MR.WatershedGraph.bdInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="121" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="121" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a2cbea7d60d2c4fa0528f8b1725b7e082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>unsafe MR.GraphVertId MR.Const_WatershedGraph.outsideId</definition>
+        <argsstring>()</argsstring>
+        <name>outsideId</name>
+        <qualifiedname>MR.Const_WatershedGraph.outsideId</qualifiedname>
+        <briefdescription>
+<para>returns special "basin" representing outside areas of the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a2cbea7d60d2c4fa0528f8b1725b7e082" kindref="member">MR.WatershedGraph.outsideId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="132" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="132" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1ae1e88197e97bb7bc1ac0915cfc120d79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>unsafe MR.GraphVertId MR.Const_WatershedGraph.getRootBasin</definition>
+        <argsstring>(MR.GraphVertId v)</argsstring>
+        <name>getRootBasin</name>
+        <qualifiedname>MR.Const_WatershedGraph.getRootBasin</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>for valid basin returns self id; for invalid basin returns the id of basin it was merged in Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1ae1e88197e97bb7bc1ac0915cfc120d79" kindref="member">MR.WatershedGraph.getRootBasin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="143" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="143" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1aa8306747f48a7b801fe22a6cde442403" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>unsafe MR.GraphVertId MR.Const_WatershedGraph.flowsTo</definition>
+        <argsstring>(MR.GraphVertId v)</argsstring>
+        <name>flowsTo</name>
+        <qualifiedname>MR.Const_WatershedGraph.flowsTo</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>returns the basin where the flow from this basin goes next (it can be self id if the basin is not full yet) Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1aa8306747f48a7b801fe22a6cde442403" kindref="member">MR.WatershedGraph.flowsTo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="154" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="154" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a333453a0138e87a3207bc017fdd93362" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>unsafe MR.GraphVertId MR.Const_WatershedGraph.flowsFinallyTo</definition>
+        <argsstring>(MR.GraphVertId v, bool? exceptOutside=null)</argsstring>
+        <name>flowsFinallyTo</name>
+        <qualifiedname>MR.Const_WatershedGraph.flowsFinallyTo</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>exceptOutside</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the basin where the flow from this basin finally goes (it can be self id if the basin is not full yet); </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exceptOutside</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then the method returns the basin that receives water flow from (v) just before outside Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a333453a0138e87a3207bc017fdd93362" kindref="member">MR.WatershedGraph.flowsFinallyTo</ref></computeroutput>. Parameter <computeroutput>exceptOutside</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="167" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="167" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a6d574a3eb3a2b48a58c68533612aaa81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_MRGraphEdgeId_Float</type>
+        <definition>unsafe MR.Std.Pair_MRGraphEdgeId_Float MR.Const_WatershedGraph.findLowestBd</definition>
+        <argsstring>()</argsstring>
+        <name>findLowestBd</name>
+        <qualifiedname>MR.Const_WatershedGraph.findLowestBd</qualifiedname>
+        <briefdescription>
+<para>finds the lowest boundary between basins and its height, which is defined as the minimal different between lowest boundary point and lowest point in a basin Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a6d574a3eb3a2b48a58c68533612aaa81" kindref="member">MR.WatershedGraph.findLowestBd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="180" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="180" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a4f5f908a520621e62cf4e620651f46e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>unsafe MR.FaceBitSet MR.Const_WatershedGraph.getBasinFaces</definition>
+        <argsstring>(MR.GraphVertId basin)</argsstring>
+        <name>getBasinFaces</name>
+        <qualifiedname>MR.Const_WatershedGraph.getBasinFaces</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>basin</declname>
+        </param>
+        <briefdescription>
+<para>returns the mesh faces of given basin Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a4f5f908a520621e62cf4e620651f46e4" kindref="member">MR.WatershedGraph.getBasinFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="191" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="191" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1abdbcab094783957ba5e82bfbae230513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId" kindref="compound">MR.Vector_MRFaceBitSet_MRGraphVertId</ref></type>
+        <definition>unsafe MR.Vector_MRFaceBitSet_MRGraphVertId MR.Const_WatershedGraph.getAllBasinFaces</definition>
+        <argsstring>(bool? joinOverflowBasins=null)</argsstring>
+        <name>getAllBasinFaces</name>
+        <qualifiedname>MR.Const_WatershedGraph.getAllBasinFaces</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>joinOverflowBasins</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the mesh faces of each valid basin; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>joinOverflowBasins</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then overflowing basins will be merged in the target basins (except for overflow in outside) Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1abdbcab094783957ba5e82bfbae230513" kindref="member">MR.WatershedGraph.getAllBasinFaces</ref></computeroutput>. Parameter <computeroutput>joinOverflowBasins</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="204" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="204" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a71dbf2e204d26bed43920221478e4480" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>unsafe MR.FaceBitSet MR.Const_WatershedGraph.getBasinFacesBelowLevel</definition>
+        <argsstring>(MR.GraphVertId basin, float waterLevel)</argsstring>
+        <name>getBasinFacesBelowLevel</name>
+        <qualifiedname>MR.Const_WatershedGraph.getBasinFacesBelowLevel</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>basin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>waterLevel</declname>
+        </param>
+        <briefdescription>
+<para>returns the mesh faces of given basin with at least one vertex below given level Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a71dbf2e204d26bed43920221478e4480" kindref="member">MR.WatershedGraph.getBasinFacesBelowLevel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="216" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="216" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a357cf3b382c4c5ccf698ff0880d49304" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_WatershedGraph.computeBasinVolume</definition>
+        <argsstring>(MR.GraphVertId basin, float waterLevel)</argsstring>
+        <name>computeBasinVolume</name>
+        <qualifiedname>MR.Const_WatershedGraph.computeBasinVolume</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>basin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>waterLevel</declname>
+        </param>
+        <briefdescription>
+<para>returns water volume in basin when its surface reaches given level, which must be in between the lowest basin level and the lowest level on basin's boundary Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a357cf3b382c4c5ccf698ff0880d49304" kindref="member">MR.WatershedGraph.computeBasinVolume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="228" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="228" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a9841184c1e4e8e34af28beb15732a8bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.Const_WatershedGraph.getInterBasinEdges</definition>
+        <argsstring>(bool? joinOverflowBasins=null)</argsstring>
+        <name>getInterBasinEdges</name>
+        <qualifiedname>MR.Const_WatershedGraph.getInterBasinEdges</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>joinOverflowBasins</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the mesh edges between current basins </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>joinOverflowBasins</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then overflowing basins will be merged in the target basins (except for overflow in outside) Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a9841184c1e4e8e34af28beb15732a8bc" kindref="member">MR.WatershedGraph.getInterBasinEdges</ref></computeroutput>. Parameter <computeroutput>joinOverflowBasins</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="241" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="241" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a16afbe1ca8ad763d08b77ba16d6f3883" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRWatershedGraphOverflowPoint</type>
+        <definition>unsafe MR.Std.Vector_MRWatershedGraphOverflowPoint MR.Const_WatershedGraph.getOverflowPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getOverflowPoints</name>
+        <qualifiedname>MR.Const_WatershedGraph.getOverflowPoints</qualifiedname>
+        <briefdescription>
+<para>returns all overflow points in the graph Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1a16afbe1ca8ad763d08b77ba16d6f3883" kindref="member">MR.WatershedGraph.getOverflowPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="253" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="253" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1aaea8e085cab532a1466a01ed93c5467f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId" kindref="compound">MR.Vector_MRGraphVertId_MRGraphVertId</ref></type>
+        <definition>unsafe MR.Vector_MRGraphVertId_MRGraphVertId MR.Const_WatershedGraph.iniBasin2Tgt</definition>
+        <argsstring>(bool? joinOverflowBasins=null)</argsstring>
+        <name>iniBasin2Tgt</name>
+        <qualifiedname>MR.Const_WatershedGraph.iniBasin2Tgt</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>joinOverflowBasins</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes a map from initial basin id to a valid basin in which it was merged </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>joinOverflowBasins</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then overflowing basins will be merged in the target basins (except for overflow in outside) Generated from method <computeroutput><ref refid="classMR_1_1Const__WatershedGraph_1aaea8e085cab532a1466a01ed93c5467f" kindref="member">MR.WatershedGraph.iniBasin2Tgt</ref></computeroutput>. Parameter <computeroutput>joinOverflowBasins</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="266" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="266" bodyend="272"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1a7c1d0c6dc49a0324a093489e7855abf0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WatershedGraph.~Const_WatershedGraph</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_WatershedGraph</name>
+        <qualifiedname>MR.Const_WatershedGraph.~Const_WatershedGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__WatershedGraph_1af8178cc3042ae36e547ab8948730cee4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WatershedGraph.Const_WatershedGraph</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_WatershedGraph</name>
+        <qualifiedname>MR.Const_WatershedGraph.Const_WatershedGraph</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>graphs representing rain basins on the mesh Generated from class <computeroutput><ref refid="classMR_1_1WatershedGraph" kindref="compound">MR.WatershedGraph</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_WatershedGraph</label>
+        <link refid="classMR_1_1Const__WatershedGraph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.WatershedGraph</label>
+        <link refid="classMR_1_1WatershedGraph"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_WatershedGraph</label>
+        <link refid="classMR_1_1Const__WatershedGraph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="9" bodyend="1052"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__WatershedGraph_1ac9447d809d9ef1d0aeff30227e686a8c" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>basinInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a31de89c0a8cbc38b0ff147964c9e5a21" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>bdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a357cf3b382c4c5ccf698ff0880d49304" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>computeBasinVolume</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1af8178cc3042ae36e547ab8948730cee4" prot="package" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1aeb1cb051e6714a412ccf296165153207" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ae8139eea8f311009e9d50c09d4245927" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a5a745701f2b0040892037ac50eb7c74d" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ac6a565acd1b0c77b8d1447280617d547" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ae0e567d149da049088a18666cd550e23" prot="protected" virt="virtual"><scope>MR::Const_WatershedGraph</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a72791815064705f510688b22383b9953" prot="public" virt="virtual"><scope>MR::Const_WatershedGraph</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a6d574a3eb3a2b48a58c68533612aaa81" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>findLowestBd</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a333453a0138e87a3207bc017fdd93362" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>flowsFinallyTo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1aa8306747f48a7b801fe22a6cde442403" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>flowsTo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1abdbcab094783957ba5e82bfbae230513" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>getAllBasinFaces</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a4f5f908a520621e62cf4e620651f46e4" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>getBasinFaces</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a71dbf2e204d26bed43920221478e4480" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>getBasinFacesBelowLevel</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a14c8053c624be37775ab5549a57cf95e" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>getHeightAt</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a9841184c1e4e8e34af28beb15732a8bc" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>getInterBasinEdges</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a16afbe1ca8ad763d08b77ba16d6f3883" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>getOverflowPoints</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ae1e88197e97bb7bc1ac0915cfc120d79" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>getRootBasin</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ae7f5376508c0bde6308d303e14b1204f" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>graph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1aaea8e085cab532a1466a01ed93c5467f" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>iniBasin2Tgt</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1af37c810f1082a728251e5c978899a787" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>numBasins</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a2cbea7d60d2c4fa0528f8b1725b7e082" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>outsideId</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a4801421701431cce7b1d214ba556548a" prot="public" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>totalArea</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a7c1d0c6dc49a0324a093489e7855abf0" prot="private" virt="non-virtual"><scope>MR::Const_WatershedGraph</scope><name>~Const_WatershedGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

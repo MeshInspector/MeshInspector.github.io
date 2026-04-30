@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ComputeSteepestDescentPathSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ComputeSteepestDescentPathSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ComputeSteepestDescentPathSettings" prot="public" virt="non-virtual">MR.ComputeSteepestDescentPathSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a04f88a085cca958e5b26cbca92fb4b52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+        <definition>unsafe MR.Const_MeshTriPoint MR.Const_ComputeSteepestDescentPathSettings.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.end</qualifiedname>
+        <briefdescription>
+<para>if valid, then the descent is stopped as soon as same triangle with (end) is reached </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="347" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="347" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a02b607ad524426b1c1f2d9c90cf96a82" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Box__VertId" kindref="compound">Box_VertId</ref></type>
+        <definition>unsafe MR.? Box_VertId MR.Const_ComputeSteepestDescentPathSettings.outVertexReached</definition>
+        <argsstring></argsstring>
+        <name>outVertexReached</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.outVertexReached</qualifiedname>
+        <briefdescription>
+<para>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="352" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="353" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a47b76f3ae0f19500716d802094a648fc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition>unsafe MR.? EdgePoint MR.Const_ComputeSteepestDescentPathSettings.outBdReached</definition>
+        <argsstring></argsstring>
+        <name>outBdReached</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.outBdReached</qualifiedname>
+        <briefdescription>
+<para>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="370" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="371" bodyend="382"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a6718773bfaba29fd22d59b4641726e54" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Box_VertId._Underlying **</type>
+        <definition>unsafe MR.Box_VertId._Underlying** MR.Const_ComputeSteepestDescentPathSettings.__ptr_storage_outVertexReached</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outVertexReached</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.__ptr_storage_outVertexReached</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="365" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1ad1a2229f509053d3268b649430ee6367" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.EdgePoint._Underlying **</type>
+        <definition>unsafe MR.EdgePoint._Underlying** MR.Const_ComputeSteepestDescentPathSettings.__ptr_storage_outBdReached</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outBdReached</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.__ptr_storage_outBdReached</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="383" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="383" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a83567992ee988201a4b336d292733004" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ComputeSteepestDescentPathSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="332" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="332" bodyend="340"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1af3ff24678191798e6f807bd17942b1ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ComputeSteepestDescentPathSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="341" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="341" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1ad103125ca89bf805a1c7eae01a126e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ComputeSteepestDescentPathSettings</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="423" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="423" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a2efc963246ccf11208dffa307b684560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</definition>
+        <argsstring>(MR.Const_MeshTriPoint end, MR.Misc.InOut&lt; MR.VertId &gt;? outVertexReached, MR.EdgePoint? outBdReached)</argsstring>
+        <name>Const_ComputeSteepestDescentPathSettings</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> &gt;?</type>
+          <declname>outVertexReached</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref>?</type>
+          <declname>outBdReached</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ComputeSteepestDescentPathSettings" kindref="compound">MR.ComputeSteepestDescentPathSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="434" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="434" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a33a5c9b53f8f05052dfebf75a6523f5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</definition>
+        <argsstring>(MR.Const_ComputeSteepestDescentPathSettings _other)</argsstring>
+        <name>Const_ComputeSteepestDescentPathSettings</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ComputeSteepestDescentPathSettings" kindref="compound">MR.Const_ComputeSteepestDescentPathSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ComputeSteepestDescentPathSettings_1a5d5816d5186fe8a08a9af93f7abbbba0" kindref="member">MR.ComputeSteepestDescentPathSettings.ComputeSteepestDescentPathSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="449" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="449" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1ae73a7347cbb35615a934b55d8de5d5a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</definition>
+        <argsstring>(ComputeSteepestDescentPathSettings _other)</argsstring>
+        <name>Const_ComputeSteepestDescentPathSettings</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ComputeSteepestDescentPathSettings" kindref="compound">ComputeSteepestDescentPathSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ComputeSteepestDescentPathSettings_1a5d5816d5186fe8a08a9af93f7abbbba0" kindref="member">MR.ComputeSteepestDescentPathSettings.ComputeSteepestDescentPathSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="461" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="461" bodyend="461"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a6e5611e204b0fc77b7c86a8617497011" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ComputeSteepestDescentPathSettings.~Const_ComputeSteepestDescentPathSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ComputeSteepestDescentPathSettings</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.~Const_ComputeSteepestDescentPathSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="342" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="342" bodyend="342"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a1956043ef0f94920b758c5c943c2b24c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ComputeSteepestDescentPathSettings</name>
+        <qualifiedname>MR.Const_ComputeSteepestDescentPathSettings.Const_ComputeSteepestDescentPathSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="412" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="412" bodyend="417"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ComputeSteepestDescentPathSettings" kindref="compound">MR.ComputeSteepestDescentPathSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ComputeSteepestDescentPathSettings</label>
+        <link refid="classMR_1_1Const__ComputeSteepestDescentPathSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ComputeSteepestDescentPathSettings</label>
+        <link refid="classMR_1_1ComputeSteepestDescentPathSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_ComputeSteepestDescentPathSettings</label>
+        <link refid="classMR_1_1Const__ComputeSteepestDescentPathSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_outBdReached</edgelabel>
+          <edgelabel>__ptr_storage_outVertexReached</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="326" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="327" bodyend="462"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1ad1a2229f509053d3268b649430ee6367" prot="protected" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>__ptr_storage_outBdReached</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a6718773bfaba29fd22d59b4641726e54" prot="protected" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>__ptr_storage_outVertexReached</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a1956043ef0f94920b758c5c943c2b24c" prot="package" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>Const_ComputeSteepestDescentPathSettings</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1ad103125ca89bf805a1c7eae01a126e22" prot="public" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>Const_ComputeSteepestDescentPathSettings</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a2efc963246ccf11208dffa307b684560" prot="public" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>Const_ComputeSteepestDescentPathSettings</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a33a5c9b53f8f05052dfebf75a6523f5f" prot="public" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>Const_ComputeSteepestDescentPathSettings</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1ae73a7347cbb35615a934b55d8de5d5a2" prot="public" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>Const_ComputeSteepestDescentPathSettings</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a83567992ee988201a4b336d292733004" prot="protected" virt="virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1af3ff24678191798e6f807bd17942b1ea" prot="public" virt="virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a04f88a085cca958e5b26cbca92fb4b52" prot="public" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a47b76f3ae0f19500716d802094a648fc" prot="public" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>outBdReached</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a02b607ad524426b1c1f2d9c90cf96a82" prot="public" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>outVertexReached</name></member>
+      <member refid="classMR_1_1Const__ComputeSteepestDescentPathSettings_1a6e5611e204b0fc77b7c86a8617497011" prot="private" virt="non-virtual"><scope>MR::Const_ComputeSteepestDescentPathSettings</scope><name>~Const_ComputeSteepestDescentPathSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportProperty__MRAffineXf3f" kind="class" language="C#" prot="public">
     <compoundname>MR::ViewportProperty_MRAffineXf3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRAffineXf3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRAffineXf3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a82fbc57250231db4ee3b62b8ac00112f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
@@ -86,7 +86,7 @@
         <name>ViewportProperty_MRAffineXf3f</name>
         <qualifiedname>MR.ViewportProperty_MRAffineXf3f.ViewportProperty_MRAffineXf3f</qualifiedname>
         <param>
-          <type>Const_ViewportProperty_MRAffineXf3f</type>
+          <type><ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">Const_ViewportProperty_MRAffineXf3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -282,6 +282,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportProperty_MRAffineXf3f</label>
+        <link refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -308,6 +309,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportProperty_MRAffineXf3f</label>
+        <link refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -328,8 +330,22 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="144" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="145" bodyend="278"/>
     <listofallmembers>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a2158485ccba518fefaae01ec72d94c98" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a1ec0985ee384c1e2a4f1e51d878eb6dc" prot="package" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1aca373fd015be82ddbfceb19dc49805aa" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1af9f030f995b789d44988d5a05053e88e" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1aa4f11c5c30499ed4b547d988ce839b28" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a1ab2112c4382ebf7706a556c81f54a99" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1ae6bdddcf957745eb032da7f7314e6856" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a82955e3ad237d818d803faca69f84062" prot="protected" virt="virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1ab5be76e7e4fe62116a304d580ab6b088" prot="public" virt="virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1af078205e0e153c0331b4e8f40532b331" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a89afe5c0f96b18877772f3f1bd27b01b" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Equals</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a05df621ad97946796f8bbd06614df7aa" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a1ae8b39ffb13d8543b21ff0e6429c0d0" prot="public" virt="non-virtual" ambiguityscope="MR::Const_ViewportProperty_MRAffineXf3f."><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a416d392a3901e2316585aa2f858b4635" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>operator Const_ViewportProperty_MRAffineXf3f</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a8e644adb0e2794a37364e227abb23ea7" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>operator ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1ac1e3d3f5e0406aff43be91736e22cea9" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1af4d1254ddc6a8ab2ecebb038a86ee244" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>operator==</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>reset</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a16cdd78cb7ebdd9a3a1161c610acbe79" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>reset</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>set</name></member>

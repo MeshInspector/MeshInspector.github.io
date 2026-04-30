@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__IRenderObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_IRenderObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1IRenderObject" prot="public" virt="non-virtual">MR.IRenderObject</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1af40afd425a3a8b4c870d576e19289d23" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_IRenderObject.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IRenderObject.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1584" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1584" bodyend="1592"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a9b872eff3e08fa1c83bf9bc654bbb738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_IRenderObject.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IRenderObject.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1593" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1593" bodyend="1593"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_IRenderObject.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_IRenderObject.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" kindref="member">MR.IRenderObject.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1602" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1602" bodyend="1607"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_IRenderObject.glBytes</definition>
+        <argsstring>()</argsstring>
+        <name>glBytes</name>
+        <qualifiedname>MR.Const_IRenderObject.glBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object allocated in OpenGL Generated from method <computeroutput><ref refid="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" kindref="member">MR.IRenderObject.glBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1613" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1613" bodyend="1618"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1ab81ba303b48a1bbf73faec687371a138" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_IRenderObject.~Const_IRenderObject</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_IRenderObject</name>
+        <qualifiedname>MR.Const_IRenderObject.~Const_IRenderObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1594" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1594" bodyend="1594"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__IRenderObject_1a8e04a1d2a4c9210f855d3c541b0209a8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IRenderObject.Const_IRenderObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_IRenderObject</name>
+        <qualifiedname>MR.Const_IRenderObject.Const_IRenderObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1596" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1596" bodyend="1596"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1IRenderObject" kindref="compound">MR.IRenderObject</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_IRenderObject</label>
+        <link refid="classMR_1_1Const__IRenderObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_IRenderObject</label>
+        <link refid="classMR_1_1Const__IRenderObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1578" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1579" bodyend="1619"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__IRenderObject_1a8e04a1d2a4c9210f855d3c541b0209a8" prot="package" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>Const_IRenderObject</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1af40afd425a3a8b4c870d576e19289d23" prot="protected" virt="virtual"><scope>MR::Const_IRenderObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1a9b872eff3e08fa1c83bf9bc654bbb738" prot="public" virt="virtual"><scope>MR::Const_IRenderObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1a3fe9eda9eaaf90614e3ba626e8dd7f39" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>glBytes</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1a8585c988623dfb5ffd23eb5ad75f4a5b" prot="public" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__IRenderObject_1ab81ba303b48a1bbf73faec687371a138" prot="private" virt="non-virtual"><scope>MR::Const_IRenderObject</scope><name>~Const_IRenderObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Line3Mesh__Double" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Line3Mesh_Double</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Line3Mesh__Double" prot="public" virt="non-virtual">MR.Line3Mesh_Double</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Line3Mesh__Double_1a08207f80caadf4f640865a71dbb8efef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Line3d" kindref="compound">MR.Const_Line3d</ref></type>
+        <definition>unsafe MR.Const_Line3d MR.Const_Line3Mesh_Double.line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.line</qualifiedname>
+        <briefdescription>
+<para>in the reference frame of mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1368" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1368" bodyend="1368"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Line3Mesh__Double_1a08bc719a73d7cf249ce969a1ee5b88d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1IntersectionPrecomputes__Double" kindref="compound">IntersectionPrecomputes_Double</ref></type>
+        <definition>unsafe MR.? IntersectionPrecomputes_Double MR.Const_Line3Mesh_Double.prec</definition>
+        <argsstring></argsstring>
+        <name>prec</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.prec</qualifiedname>
+        <briefdescription>
+<para>set it to a valid pointer for better performance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1373" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1374" bodyend="1385"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Line3Mesh__Double_1a645d4610ab7f938b01323191ae980fca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__Mesh" kindref="compound">Const_Mesh</ref></type>
+        <definition>unsafe MR.? Const_Mesh MR.Const_Line3Mesh_Double.mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.mesh</qualifiedname>
+        <briefdescription>
+<para>must be set a valid pointer before use </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1391" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1392" bodyend="1403"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Line3Mesh__Double_1a39c7048af73cb2e3b3f7e81247b84f86" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__AABBTree" kindref="compound">Const_AABBTree</ref></type>
+        <definition>unsafe MR.? Const_AABBTree MR.Const_Line3Mesh_Double.tree</definition>
+        <argsstring></argsstring>
+        <name>tree</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.tree</qualifiedname>
+        <briefdescription>
+<para>must be set a valid pointer before use </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1409" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1410" bodyend="1421"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Line3Mesh__Double_1a86a29324f644656c96e18b94da5d2521" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
+        <definition>unsafe MR.? Const_FaceBitSet MR.Const_Line3Mesh_Double.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.region</qualifiedname>
+        <briefdescription>
+<para>may remain nullptr, meaning all mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1427" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1428" bodyend="1439"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Line3Mesh__Double_1a2816c3cdc606dd4166719ff212a18a0c" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.IntersectionPrecomputes_Double._Underlying **</type>
+        <definition>unsafe MR.IntersectionPrecomputes_Double._Underlying** MR.Const_Line3Mesh_Double.__ptr_storage_prec</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_prec</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.__ptr_storage_prec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1386" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1386" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Line3Mesh__Double_1a431d08c21535dec1581545a54e73a433" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_Mesh._Underlying **</type>
+        <definition>unsafe MR.Const_Mesh._Underlying** MR.Const_Line3Mesh_Double.__ptr_storage_mesh</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_mesh</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.__ptr_storage_mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1404" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Line3Mesh__Double_1ad2bc2c415048cb8c38d1f48965903bcf" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_AABBTree._Underlying **</type>
+        <definition>unsafe MR.Const_AABBTree._Underlying** MR.Const_Line3Mesh_Double.__ptr_storage_tree</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_tree</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.__ptr_storage_tree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1422" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Line3Mesh__Double_1a83a4ef541b12831e0fa2f6efba190273" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_FaceBitSet._Underlying** MR.Const_Line3Mesh_Double.__ptr_storage_region</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_region</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.__ptr_storage_region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1440" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1440" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line3Mesh__Double_1a18748bddb21e54688282d44b2fabd8c8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Line3Mesh_Double.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1353" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1353" bodyend="1361"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line3Mesh__Double_1a783838ffa7c9667e629e1c29b66533fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Line3Mesh_Double.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1362" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1362" bodyend="1362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line3Mesh__Double_1aab55f64e192b13b47a0d127582d99645" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Line3Mesh_Double</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1492" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1492" bodyend="1498"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line3Mesh__Double_1aa9de8fbf06a2cc5f39b2714262865331" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</definition>
+        <argsstring>(MR.Const_Line3d line, MR.IntersectionPrecomputes_Double? prec, MR.Const_Mesh? mesh, MR.Const_AABBTree? tree, MR.Const_FaceBitSet? region)</argsstring>
+        <name>Const_Line3Mesh_Double</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Line3d" kindref="compound">MR.Const_Line3d</ref></type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1IntersectionPrecomputes__Double" kindref="compound">MR.IntersectionPrecomputes_Double</ref>?</type>
+          <declname>prec</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref>?</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__AABBTree" kindref="compound">MR.Const_AABBTree</ref>?</type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::Line3Mesh&amp;lt;double&amp;gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1503" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1503" bodyend="1514"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line3Mesh__Double_1a50fe8f57bac4b4a9b584a7413878f5f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</definition>
+        <argsstring>(MR.Const_Line3Mesh_Double _other)</argsstring>
+        <name>Const_Line3Mesh_Double</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Line3Mesh__Double" kindref="compound">MR.Const_Line3Mesh_Double</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Line3Mesh&amp;lt;double&amp;gt;::Line3Mesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1519" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1519" bodyend="1526"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Line3Mesh__Double_1a7c8e6883dd6adcccb9d2e93d129120bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</definition>
+        <argsstring>(Line3Mesh_Double _other)</argsstring>
+        <name>Const_Line3Mesh_Double</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Line3Mesh__Double" kindref="compound">Line3Mesh_Double</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Line3Mesh&amp;lt;double&amp;gt;::Line3Mesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1531" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1531" bodyend="1531"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line3Mesh__Double_1a5aa9e0afe92b3154e0c35694a8347416" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Line3Mesh_Double.~Const_Line3Mesh_Double</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Line3Mesh_Double</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.~Const_Line3Mesh_Double</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1363" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1363" bodyend="1363"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Line3Mesh__Double_1acdbb25ee47a1fcb0be2c31876db2b921" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Line3Mesh_Double</name>
+        <qualifiedname>MR.Const_Line3Mesh_Double.Const_Line3Mesh_Double</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1481" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1481" bodyend="1486"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::Line3Mesh&amp;lt;double&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Line3Mesh_Double</label>
+        <link refid="classMR_1_1Const__Line3Mesh__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Line3Mesh_Double</label>
+        <link refid="classMR_1_1Line3Mesh__Double"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_Line3Mesh_Double</label>
+        <link refid="classMR_1_1Const__Line3Mesh__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_mesh</edgelabel>
+          <edgelabel>__ptr_storage_prec</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_tree</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="1347" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="1348" bodyend="1532"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a431d08c21535dec1581545a54e73a433" prot="protected" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>__ptr_storage_mesh</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a2816c3cdc606dd4166719ff212a18a0c" prot="protected" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>__ptr_storage_prec</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a83a4ef541b12831e0fa2f6efba190273" prot="protected" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1ad2bc2c415048cb8c38d1f48965903bcf" prot="protected" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>__ptr_storage_tree</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1acdbb25ee47a1fcb0be2c31876db2b921" prot="package" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1aab55f64e192b13b47a0d127582d99645" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1aa9de8fbf06a2cc5f39b2714262865331" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a50fe8f57bac4b4a9b584a7413878f5f5" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a7c8e6883dd6adcccb9d2e93d129120bb" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>Const_Line3Mesh_Double</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a18748bddb21e54688282d44b2fabd8c8" prot="protected" virt="virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a783838ffa7c9667e629e1c29b66533fa" prot="public" virt="virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a08207f80caadf4f640865a71dbb8efef" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>line</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a645d4610ab7f938b01323191ae980fca" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>mesh</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a08bc719a73d7cf249ce969a1ee5b88d0" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>prec</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a86a29324f644656c96e18b94da5d2521" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a39c7048af73cb2e3b3f7e81247b84f86" prot="public" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>tree</name></member>
+      <member refid="classMR_1_1Const__Line3Mesh__Double_1a5aa9e0afe92b3154e0c35694a8347416" prot="private" virt="non-virtual"><scope>MR::Const_Line3Mesh_Double</scope><name>~Const_Line3Mesh_Double</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRUint64T__MRGraphVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRUint64T_MRGraphVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRUint64T_MRGraphVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId" prot="public" virt="non-virtual">MR.Const_Vector_MRUint64T_MRGraphVertId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRUint64T__MRGraphVertId_1ac6aead7f890a3b6ce4fafa92f1a1d20b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRUint64T_MRGraphVertId</name>
         <qualifiedname>MR.Vector_MRUint64T_MRGraphVertId.Vector_MRUint64T_MRGraphVertId</qualifiedname>
         <param>
-          <type>Const_Vector_MRUint64T_MRGraphVertId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId" kindref="compound">Const_Vector_MRUint64T_MRGraphVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -625,6 +625,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRUint64T_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -658,6 +659,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRUint64T_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -684,13 +686,34 @@
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1aedc9a5d19f549571a637d809eee677d2" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1adc22e8c97f05265bb0fbb267d57e3551" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a7ee2dd8046a221f5c455732e7ec6cd89" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a761076f1083a08448a83c5dd64ddd224" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a80de9caaf22be78526dec3f089672621" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1ae06841900ec6f299edd533f82b24dff4" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a474022ded47b70aca2b163b038140297" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a8aa95c03fea67c8e59e0dbc602c11331" prot="package" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Const_Vector_MRUint64T_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1aa86d9dc7572a6e1546aca382f1bb0e6c" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Const_Vector_MRUint64T_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a05ed2d90c4b16aa428e379348204ba82" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Const_Vector_MRUint64T_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a1b5ad6755fa00bb013fc57d37bb06ffe" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Const_Vector_MRUint64T_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a34e6df7243ebaca26b3f0e5f8e43f739" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Const_Vector_MRUint64T_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1af01c3acc0fd8225c76ecf933dd7c52ba" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Const_Vector_MRUint64T_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1aa5dfee073e3396a485aadd17a64081ec" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Const_Vector_MRUint64T_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a96e8bc2fdf4efbfe167ee6c55341651f" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Const_Vector_MRUint64T_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a875bb165f7fc68166a69dcdfa80842f4" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1afc569a51c8922994d8a1e927634cf0a0" prot="protected" virt="virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1aa3498e8c39c72e40a765bf3860ab9ceb" prot="public" virt="virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a45b083fb26b54012494784e766528474" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a2e8ad6fb8dcd81d37acec06462337a0c" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a98dbdb4547135c41c40962a4492fbde8" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1ac572b2305243b06392d6d3f23a7236f8" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a384a2f4dbb74bd8c8bfdcae673c13fc6" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a6c723fb4349d005076c6b991260b2b0a" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a8ba02068e5a6582c37512f42b33dee91" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1ac470a484929934a0fab53e329750275d" prot="private" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a4f78083b3953baef83e03a49c9dd8ff1" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a9e641812317228cf53c5103128c1f98d" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>operator Const_Vector_MRUint64T_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a2591772f6960a225982a7ba02ca65ee4" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>operator Vector_MRUint64T_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1aa28bcc457224e3a7eda3510c3bfe7b23" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1af00d58ba14d1b1dcac985ad5785453f3" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1aa306383b7350f636daa149a790e29846" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1aa2f01c53a3122b4329b1eae5d500a942" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a57f9a837d54ab4fb57d063c54c8e01e3" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>pushBack</name></member>
@@ -699,6 +722,7 @@
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1ac7b48d7ff030b141c005a230babad23c" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1aba65f6efb878572c54ae5698f5132471" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a2065a3f6107a25f7baf8bdf6b97351bd" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRUint64T__MRGraphVertId_1a36bad994d8bea018436cfcabb78ca3c9" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a10990339250599c7f25710901a3d17d8" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1a1a7cdb75a45d844135b10ce21baea4e8" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
       <member refid="classMR_1_1Vector__MRUint64T__MRGraphVertId_1ac6aead7f890a3b6ce4fafa92f1a1d20b" prot="public" virt="non-virtual"><scope>MR::Vector_MRUint64T_MRGraphVertId</scope><name>vec</name></member>

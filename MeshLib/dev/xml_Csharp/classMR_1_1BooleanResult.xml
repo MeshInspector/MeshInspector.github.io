@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BooleanResult" kind="struct" language="C#" prot="public">
     <compoundname>MR::BooleanResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BooleanResult" prot="public" virt="non-virtual">MR.Const_BooleanResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BooleanResult_1a31ec21694667fcf4dafde5f239438515" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -162,7 +162,7 @@
         <name>BooleanResult</name>
         <qualifiedname>MR.BooleanResult.BooleanResult</qualifiedname>
         <param>
-          <type>Const_BooleanResult</type>
+          <type><ref refid="classMR_1_1Const__BooleanResult" kindref="compound">Const_BooleanResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -260,6 +260,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanResult</label>
+        <link refid="classMR_1_1Const__BooleanResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -281,6 +282,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanResult</label>
+        <link refid="classMR_1_1Const__BooleanResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -303,11 +305,21 @@
       <member refid="classMR_1_1BooleanResult_1ab3e579a78e06614e2f223e3f3fa10926" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
       <member refid="classMR_1_1BooleanResult_1a1a645dde566da63488902dac7268b154" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
       <member refid="classMR_1_1BooleanResult_1a05a64e7103e627b2ab2eb63d14486fa5" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1a9e9c5d48e29485333079af7d012f3ef3" prot="package" virt="non-virtual"><scope>MR::BooleanResult</scope><name>Const_BooleanResult</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1a3b68ca57fe6112e8cc5cf00ae3a8e958" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>Const_BooleanResult</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1a568bbfe5f7ff99396907554751d1a38b" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>Const_BooleanResult</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1ae3a10abc369b67f6a04003dcf6eeb08a" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>Const_BooleanResult</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1a14004b38536bbb8f2218d7716f91a9b6" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>Const_BooleanResult</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1a6f885e5eb0f838d48ec4978d93582211" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>Const_BooleanResult</name></member>
       <member refid="classMR_1_1BooleanResult_1a412f8fe7a235d49219868927a8f9a637" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1a1e708df5ee397ff1f133fb9fe7083a02" prot="protected" virt="virtual"><scope>MR::BooleanResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1af4b1e71345bf2e5620fee87afece8797" prot="public" virt="virtual"><scope>MR::BooleanResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BooleanResult_1ab826749e2c635dbe71191b7d2b55f31c" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>errorString</name></member>
       <member refid="classMR_1_1BooleanResult_1a31ec21694667fcf4dafde5f239438515" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>mesh</name></member>
       <member refid="classMR_1_1BooleanResult_1a11cac39df7ddb1118bb5b19b8df941f1" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>meshABadContourFaces</name></member>
       <member refid="classMR_1_1BooleanResult_1a2f1240200e294a2c524ce78769a04bb2" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>meshBBadContourFaces</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1abe3d19b7af151f4ea70026cdd923d87e" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__BooleanResult_1a169555e9c8e0b83e7a269dc5b07f6e31" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshTexture" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshTexture</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshTexture</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshTexture" prot="public" virt="non-virtual">MR.Const_MeshTexture</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshTexture_1a6b67db714567b3e371f411123df06d82" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" kindref="member">MR.FilterType</ref></type>
@@ -147,7 +147,7 @@
         <name>MeshTexture</name>
         <qualifiedname>MR.MeshTexture.MeshTexture</qualifiedname>
         <param>
-          <type>Const_MeshTexture</type>
+          <type><ref refid="classMR_1_1Const__MeshTexture" kindref="compound">Const_MeshTexture</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -212,6 +212,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshTexture</label>
+        <link refid="classMR_1_1Const__MeshTexture"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -225,6 +226,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshTexture</label>
         <link refid="classMR_1_1MeshTexture"/>
@@ -233,9 +238,15 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshTexture</label>
+        <link refid="classMR_1_1Const__MeshTexture"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_filter</edgelabel>
+          <edgelabel>__ref_storage_resolution</edgelabel>
+          <edgelabel>__ref_storage_wrap</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -247,16 +258,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" line="187" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTexture.cs" bodystart="188" bodyend="275"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshTexture_1afb47a919577b95d858af349dba6424a3" prot="protected" virt="non-virtual"><scope>MR::MeshTexture</scope><name>__ref_storage_filter</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a955d1aa587ddf586d1dcb027cde3c8ff" prot="protected" virt="non-virtual"><scope>MR::MeshTexture</scope><name>__ref_storage_resolution</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a338f57be06d8f811cad45936fd5ad05b" prot="protected" virt="non-virtual"><scope>MR::MeshTexture</scope><name>__ref_storage_wrap</name></member>
       <member refid="classMR_1_1MeshTexture_1a354f98bc40300b98fd45b1a6b7cd2708" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a044e5e3fcfee47690271ebc366d9fb5b" prot="package" virt="non-virtual"><scope>MR::MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1ad463344ffe96785685a5af78849d9959" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1aeaa8772e22abfae0d665a57216c38430" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a772172c3d9d5850217e913b09b806974" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1ac06f53e6c03a9ba90c2aeef952518979" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>Const_MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a7122fa766a78d86bbae128d3b90a83b2" prot="protected" virt="virtual"><scope>MR::MeshTexture</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a269b677cee2fc1cab3af7b3c04fb23c2" prot="public" virt="virtual"><scope>MR::MeshTexture</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshTexture_1a6b67db714567b3e371f411123df06d82" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>filter</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1afa8216dabe6dfee0e119f2a5accd48ab" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1MeshTexture_1a3740c38e50605d279fface4e40f55928" prot="package" virt="non-virtual"><scope>MR::MeshTexture</scope><name>MeshTexture</name></member>
       <member refid="classMR_1_1MeshTexture_1ab15c60a201193db4373f406496231a31" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>MeshTexture</name></member>
       <member refid="classMR_1_1MeshTexture_1af1b87156b4b14e515348c6436dd02adf" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>MeshTexture</name></member>
       <member refid="classMR_1_1MeshTexture_1a2b00927c9cd74b02260c560a5b4a01af" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>MeshTexture</name></member>
       <member refid="classMR_1_1MeshTexture_1a5005bb704ce6c352baab5ba7fbcd991a" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>MeshTexture</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a0a335f1d81d67297ee8d077674886639" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>operator MR.Const_Image</name></member>
       <member refid="classMR_1_1MeshTexture_1aa2203541b5e5fa88408991918025ddc9" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>operator MR.Image</name></member>
       <member refid="classMR_1_1MeshTexture_1af4699389d26379de9a33716959f80fd1" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>pixels</name></member>
       <member refid="classMR_1_1MeshTexture_1a69231f615240107b12db5cb2bf5ffd1a" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>resolution</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a95113ff8ba265089756526f677c36e7d" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>sample</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a96f508ecaf919de1bb67967af5d1b4c3" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>sampleBilinear</name></member>
+      <member refid="classMR_1_1Const__MeshTexture_1a8f310ea980f24faac7244d030561df7b" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>sampleDiscrete</name></member>
       <member refid="classMR_1_1MeshTexture_1a8878c0505dac8f90522c38bb3eac2c7d" prot="public" virt="non-virtual"><scope>MR::MeshTexture</scope><name>wrap</name></member>
     </listofallmembers>
   </compounddef>

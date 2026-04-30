@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DecimatePolylineResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DecimatePolylineResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DecimatePolylineResult" prot="public" virt="non-virtual">MR.DecimatePolylineResult</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__DecimatePolylineResult_1a6680ace05d23c039e8c63cbb62b7fdfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_DecimatePolylineResult.vertsDeleted</definition>
+        <argsstring></argsstring>
+        <name>vertsDeleted</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.vertsDeleted</qualifiedname>
+        <briefdescription>
+<para>Number deleted verts. Same as the number of performed collapses. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1016" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DecimatePolylineResult_1a35b92d3ad7eac376c4af51488751bfd1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DecimatePolylineResult.errorIntroduced</definition>
+        <argsstring></argsstring>
+        <name>errorIntroduced</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.errorIntroduced</qualifiedname>
+        <briefdescription>
+<para>Max different (as distance) between original contour and result contour. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1022" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1022" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__DecimatePolylineResult_1a1557a98331bb4a45981eed10b2effcea" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_DecimatePolylineResult.__ref_storage_vertsDeleted</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_vertsDeleted</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.__ref_storage_vertsDeleted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1017" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1017" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DecimatePolylineResult_1aa32c4a42cb2002b4d8108f5ac89bb5c4" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DecimatePolylineResult.__ref_storage_errorIntroduced</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_errorIntroduced</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.__ref_storage_errorIntroduced</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1023" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1023" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DecimatePolylineResult_1aab00612441e530d0f28783b5d692b6df" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DecimatePolylineResult.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1001" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1001" bodyend="1009"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DecimatePolylineResult_1a838a8932a15cf6af466c1715e8e20748" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DecimatePolylineResult.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1010" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1010" bodyend="1010"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DecimatePolylineResult_1a3579ed9e4ba091c2ccce282047c72897" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DecimatePolylineResult</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1056" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1056" bodyend="1062"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DecimatePolylineResult_1a343f9cae890e5d9862999610ee0b0f5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</definition>
+        <argsstring>(int vertsDeleted, float errorIntroduced)</argsstring>
+        <name>Const_DecimatePolylineResult</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>vertsDeleted</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>errorIntroduced</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1067" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1067" bodyend="1073"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DecimatePolylineResult_1a14ba4019d18fbfe0f53e75f98657e3f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</definition>
+        <argsstring>(MR.Const_DecimatePolylineResult _other)</argsstring>
+        <name>Const_DecimatePolylineResult</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DecimatePolylineResult" kindref="compound">MR.Const_DecimatePolylineResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DecimatePolylineResult_1a7b610e6ff6bb17c3fe5917060054e0c9" kindref="member">MR.DecimatePolylineResult.DecimatePolylineResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1078" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1078" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DecimatePolylineResult_1ab86f810b7a756ea293d06ead7890cab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</definition>
+        <argsstring>(DecimatePolylineResult _other)</argsstring>
+        <name>Const_DecimatePolylineResult</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">DecimatePolylineResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DecimatePolylineResult_1a7b610e6ff6bb17c3fe5917060054e0c9" kindref="member">MR.DecimatePolylineResult.DecimatePolylineResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1090" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1090" bodyend="1090"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DecimatePolylineResult_1a509fcdb4b26e32a7e4f8f194bf055d76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DecimatePolylineResult.~Const_DecimatePolylineResult</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DecimatePolylineResult</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.~Const_DecimatePolylineResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1011" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1011" bodyend="1011"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DecimatePolylineResult_1ac88c28062ea772c2f25298dff18d9f37" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DecimatePolylineResult</name>
+        <qualifiedname>MR.Const_DecimatePolylineResult.Const_DecimatePolylineResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="1045" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="1045" bodyend="1050"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DecimatePolylineResult</label>
+        <link refid="classMR_1_1Const__DecimatePolylineResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DecimatePolylineResult</label>
+        <link refid="classMR_1_1DecimatePolylineResult"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_DecimatePolylineResult</label>
+        <link refid="classMR_1_1Const__DecimatePolylineResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" line="995" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineDecimate.cs" bodystart="996" bodyend="1091"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1aa32c4a42cb2002b4d8108f5ac89bb5c4" prot="protected" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>__ref_storage_errorIntroduced</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1a1557a98331bb4a45981eed10b2effcea" prot="protected" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>__ref_storage_vertsDeleted</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1ac88c28062ea772c2f25298dff18d9f37" prot="package" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>Const_DecimatePolylineResult</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1a3579ed9e4ba091c2ccce282047c72897" prot="public" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>Const_DecimatePolylineResult</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1a343f9cae890e5d9862999610ee0b0f5a" prot="public" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>Const_DecimatePolylineResult</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1a14ba4019d18fbfe0f53e75f98657e3f3" prot="public" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>Const_DecimatePolylineResult</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1ab86f810b7a756ea293d06ead7890cab0" prot="public" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>Const_DecimatePolylineResult</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1aab00612441e530d0f28783b5d692b6df" prot="protected" virt="virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1a838a8932a15cf6af466c1715e8e20748" prot="public" virt="virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1a35b92d3ad7eac376c4af51488751bfd1" prot="public" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>errorIntroduced</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1a6680ace05d23c039e8c63cbb62b7fdfa" prot="public" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>vertsDeleted</name></member>
+      <member refid="classMR_1_1Const__DecimatePolylineResult_1a509fcdb4b26e32a7e4f8f194bf055d76" prot="private" virt="non-virtual"><scope>MR::Const_DecimatePolylineResult</scope><name>~Const_DecimatePolylineResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeLabelAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeLabelAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeLabelAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeLabelAction" prot="public" virt="non-virtual">MR.Const_ChangeLabelAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeLabelAction_1a764c712c39760f57b1c7ce1968bc21f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeLabelAction</name>
         <qualifiedname>MR.ChangeLabelAction.ChangeLabelAction</qualifiedname>
         <param>
-          <type>Const_ChangeLabelAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeLabelAction" kindref="compound">Const_ChangeLabelAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeLabelAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeLabelAction</label>
+        <link refid="classMR_1_1Const__ChangeLabelAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeLabelAction</label>
+        <link refid="classMR_1_1Const__ChangeLabelAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,7 +243,18 @@
       <member refid="classMR_1_1ChangeLabelAction_1a0ba145e6a85bcfb552d93b31342f18da" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>ChangeLabelAction</name></member>
       <member refid="classMR_1_1ChangeLabelAction_1a6bcc083acb816e4faf85e33df952e237" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>ChangeLabelAction</name></member>
       <member refid="classMR_1_1ChangeLabelAction_1a24a940c119c00892c55506543ccb2290" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>ChangeLabelAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1abc20db5f8c598f029492790141fea862" prot="package" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>Const_ChangeLabelAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1aa1917d2c1078c3d4b7fc1d99d0472294" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>Const_ChangeLabelAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a40e9055ace17e355064faaa443f690ff" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>Const_ChangeLabelAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a24a3140c4ae6752ec3e27a7d4c0e1df7" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>Const_ChangeLabelAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a68f33cfe339fce1f19f8d4c531c3c82c" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>Const_ChangeLabelAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a47c670779aa88507e642ff6460ee4e7a" prot="protected" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a5dec1f635b0b87c721b71e9f88d9374e" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a594e6f590e6c0a176e87713579d2fb97" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a9783e740dbbc7abae7b7528a63e6d3e4" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeLabelAction_1acf91e8df684c4230ab82481988791a3b" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>operator ChangeLabelAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1a920af266c4b8c69024a11116940102c5" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>operator Const_ChangeLabelAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeLabelAction_1aa0696d179151e5f8b5aa18c76d9e571f" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeLabelAction_1a764c712c39760f57b1c7ce1968bc21f3" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__IteratorRange__MRChunkIterator" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_IteratorRange_MRChunkIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1IteratorRange__MRChunkIterator" prot="public" virt="non-virtual">MR.IteratorRange_MRChunkIterator</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a68156386fe282387b171af38683af18c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__ChunkIterator" kindref="compound">MR.Const_ChunkIterator</ref></type>
+        <definition>unsafe MR.Const_ChunkIterator MR.Const_IteratorRange_MRChunkIterator.begin</definition>
+        <argsstring></argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="90" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1aca11c6a5fffed451f5d3be4401c3328f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__ChunkIterator" kindref="compound">MR.Const_ChunkIterator</ref></type>
+        <definition>unsafe MR.Const_ChunkIterator MR.Const_IteratorRange_MRChunkIterator.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="92" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a8bc0a42d293b7fd41d1c9a8dcc5b74df" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_IteratorRange_MRChunkIterator.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a3e9c55f542a6d73e714744c3b1690c3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_IteratorRange_MRChunkIterator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a22279300ea70acef473369a32002991f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1Chunk" kindref="compound">MR.Chunk</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.Chunk &gt; MR.Const_IteratorRange_MRChunkIterator.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="80" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a9864cac0779eb7fcd82f2bd64ea6b76c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IteratorRange_MRChunkIterator.Const_IteratorRange_MRChunkIterator</definition>
+        <argsstring>(MR.Const_IteratorRange_MRChunkIterator _other)</argsstring>
+        <name>Const_IteratorRange_MRChunkIterator</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.Const_IteratorRange_MRChunkIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRChunkIterator" kindref="compound">MR.Const_IteratorRange_MRChunkIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="127" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="127" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a8d80fa856e407d8ea37b66a5d5cda53f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_IteratorRange_MRChunkIterator.Const_IteratorRange_MRChunkIterator</definition>
+        <argsstring>(IteratorRange_MRChunkIterator _other)</argsstring>
+        <name>Const_IteratorRange_MRChunkIterator</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.Const_IteratorRange_MRChunkIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1IteratorRange__MRChunkIterator" kindref="compound">IteratorRange_MRChunkIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="139" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a5f4e29ab9c3956b5b9ad580ee31eb01f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IteratorRange_MRChunkIterator.Const_IteratorRange_MRChunkIterator</definition>
+        <argsstring>(MR.Const_ChunkIterator begin, MR.Const_ChunkIterator end)</argsstring>
+        <name>Const_IteratorRange_MRChunkIterator</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.Const_IteratorRange_MRChunkIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChunkIterator" kindref="compound">MR.Const_ChunkIterator</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChunkIterator" kindref="compound">MR.Const_ChunkIterator</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="144" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="144" bodyend="152"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a14d64993755d9c0fcffeffcd1fc3f843" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_IteratorRange_MRChunkIterator.~Const_IteratorRange_MRChunkIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_IteratorRange_MRChunkIterator</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.~Const_IteratorRange_MRChunkIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a482dbabe98fa090d1382fa38bc19f566" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_IteratorRange_MRChunkIterator.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="85" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__IteratorRange__MRChunkIterator_1a1bebc88730b6c59b4e47e5623fb78677" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IteratorRange_MRChunkIterator.Const_IteratorRange_MRChunkIterator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_IteratorRange_MRChunkIterator</name>
+        <qualifiedname>MR.Const_IteratorRange_MRChunkIterator.Const_IteratorRange_MRChunkIterator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="116" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="116" bodyend="121"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_IteratorRange_MRChunkIterator</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRChunkIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.IteratorRange_MRChunkIterator</label>
+        <link refid="classMR_1_1IteratorRange__MRChunkIterator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_IteratorRange_MRChunkIterator</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRChunkIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="9" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a68156386fe282387b171af38683af18c" prot="public" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>begin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a1bebc88730b6c59b4e47e5623fb78677" prot="package" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>Const_IteratorRange_MRChunkIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a9864cac0779eb7fcd82f2bd64ea6b76c" prot="public" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>Const_IteratorRange_MRChunkIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a8d80fa856e407d8ea37b66a5d5cda53f" prot="public" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>Const_IteratorRange_MRChunkIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a5f4e29ab9c3956b5b9ad580ee31eb01f" prot="public" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>Const_IteratorRange_MRChunkIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a8bc0a42d293b7fd41d1c9a8dcc5b74df" prot="protected" virt="virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a3e9c55f542a6d73e714744c3b1690c3d" prot="public" virt="virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1aca11c6a5fffed451f5d3be4401c3328f" prot="public" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a22279300ea70acef473369a32002991f" prot="public" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a482dbabe98fa090d1382fa38bc19f566" prot="private" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a14d64993755d9c0fcffeffcd1fc3f843" prot="private" virt="non-virtual"><scope>MR::Const_IteratorRange_MRChunkIterator</scope><name>~Const_IteratorRange_MRChunkIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

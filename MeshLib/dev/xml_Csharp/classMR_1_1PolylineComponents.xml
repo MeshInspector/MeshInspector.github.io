@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineComponents" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineComponents</compoundname>
+    <innerclass refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings" prot="public">MR::PolylineComponents::Const_LargeByLengthComponentsSettings</innerclass>
     <innerclass refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public">MR::PolylineComponents::LargeByLengthComponentsSettings</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PolylineComponents_1aac8aa12d2aeaf6ac06db04990399c766" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -11,7 +12,7 @@
         <name>getNumComponents</name>
         <qualifiedname>MR.PolylineComponents.getNumComponents</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTopology</type>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -30,7 +31,7 @@
         <name>getComponent</name>
         <qualifiedname>MR.PolylineComponents.getComponent</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTopology</type>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -53,7 +54,7 @@
         <name>getAllComponents</name>
         <qualifiedname>MR.PolylineComponents.getAllComponents</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTopology</type>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -75,7 +76,7 @@
         <name>getAllComponents</name>
         <qualifiedname>MR.PolylineComponents.getAllComponents</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTopology</type>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -110,11 +111,11 @@
         <name>getNLargeByLengthComponents</name>
         <qualifiedname>MR.PolylineComponents.getNLargeByLengthComponents</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
-          <type>MR.PolylineComponents.Const_LargeByLengthComponentsSettings</type>
+          <type><ref refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings" kindref="compound">MR.PolylineComponents.Const_LargeByLengthComponentsSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -133,11 +134,11 @@
         <name>getNLargeByLengthComponents</name>
         <qualifiedname>MR.PolylineComponents.getNLargeByLengthComponents</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
-          <type>MR.PolylineComponents.Const_LargeByLengthComponentsSettings</type>
+          <type><ref refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings" kindref="compound">MR.PolylineComponents.Const_LargeByLengthComponentsSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -156,7 +157,7 @@
         <name>getUnionFindStructure</name>
         <qualifiedname>MR.PolylineComponents.getUnionFindStructure</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTopology</type>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -175,7 +176,7 @@
         <name>getLargestComponent</name>
         <qualifiedname>MR.PolylineComponents.getLargestComponent</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -204,7 +205,7 @@
         <name>getLargestComponent</name>
         <qualifiedname>MR.PolylineComponents.getLargestComponent</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>

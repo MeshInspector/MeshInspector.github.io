@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DetectTunnelSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::DetectTunnelSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DetectTunnelSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DetectTunnelSettings" prot="public" virt="non-virtual">MR.Const_DetectTunnelSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1a98dbdacb703cc7a992cbe17953669c9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -200,7 +200,7 @@
         <name>DetectTunnelSettings</name>
         <qualifiedname>MR.DetectTunnelSettings.DetectTunnelSettings</qualifiedname>
         <param>
-          <type>Const_DetectTunnelSettings</type>
+          <type><ref refid="classMR_1_1Const__DetectTunnelSettings" kindref="compound">Const_DetectTunnelSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -265,6 +265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DetectTunnelSettings</label>
+        <link refid="classMR_1_1Const__DetectTunnelSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -286,6 +287,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DetectTunnelSettings</label>
+        <link refid="classMR_1_1Const__DetectTunnelSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -300,14 +302,26 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="170" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="171" bodyend="296"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1a4561ab8596153cdf3890d5f815c1797c" prot="protected" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>__ref_storage_buildCoLoops</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1aa344b640d790c2195f30aaf7db7a6150" prot="protected" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>__ref_storage_filterEquivalentCoLoops</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1af6d0d386f12c321d2fd87dbb766beef4" prot="protected" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>__ref_storage_maxIters</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1a75b33d6b8f1984d430f59e58341d909f" prot="protected" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>__ref_storage_maxTunnelLength</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a24c5dc43275e330226c7422927cd463f" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1ab53170b70a40416d5373a5b135d2febe" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>buildCoLoops</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1a2ea2f107c29460c4b857310615528302" prot="package" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>Const_DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1a599301ceb9bf7a765bc429da174cc6a5" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>Const_DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1a7e0a0a5d4872c7f59dee3b3cf2a5554a" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>Const_DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1a18e2285bd2c1399cdcd56d626e8adea8" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>Const_DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1ac99650f22b9b759019bbb53193993c08" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>Const_DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1aac26d09c7b9ca0c32c9e8b2b16464586" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>Const_DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1aa649750de9bf5092ec161cf3dd6988d6" prot="package" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a4eb9d16445155cd8a7d77dd01d2d1655" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a7e084d9ac429a86056509d377e7792bc" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a467dc1cbc289ea1265d84dffbf2c55df" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1abbf27ef540bc596c47dfe83b9e461e61" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1aba83cb19b184c573ebceb9f84063547a" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1a764eda8262439cadb8a4b455e49a5a26" prot="protected" virt="virtual"><scope>MR::DetectTunnelSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DetectTunnelSettings_1acd5f32030ddad0c29d34dc4ba2224944" prot="public" virt="virtual"><scope>MR::DetectTunnelSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a68b007c4eb80865d90ec5a5cdc284098" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>filterEquivalentCoLoops</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1adc555b54ed2e8763296a62b1572e7a81" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>maxIters</name></member>
       <member refid="classMR_1_1DetectTunnelSettings_1a98dbdacb703cc7a992cbe17953669c9e" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>maxTunnelLength</name></member>

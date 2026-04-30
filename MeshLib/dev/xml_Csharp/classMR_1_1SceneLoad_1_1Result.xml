@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneLoad_1_1Result" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneLoad::Result</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.SceneLoad.Const_Result</basecompoundref>
+    <basecompoundref refid="classMR_1_1SceneLoad_1_1Const__Result" prot="public" virt="non-virtual">MR.SceneLoad.Const_Result</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Result_1ab0fa023ff7d38892dd872057805ff02b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.SharedPtr_MRSceneRootObject</type>
@@ -181,7 +181,7 @@
         <name>Result</name>
         <qualifiedname>MR.SceneLoad.Result.Result</qualifiedname>
         <param>
-          <type>Const_Result</type>
+          <type><ref refid="classMR_1_1SceneLoad_1_1Const__Result" kindref="compound">Const_Result</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -249,6 +249,7 @@
       </node>
       <node id="2">
         <label>MR.SceneLoad.Const_Result</label>
+        <link refid="classMR_1_1SceneLoad_1_1Const__Result"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -270,6 +271,7 @@
       </node>
       <node id="2">
         <label>MR.SceneLoad.Const_Result</label>
+        <link refid="classMR_1_1SceneLoad_1_1Const__Result"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -281,7 +283,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="459" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="460" bodyend="598"/>
     <listofallmembers>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1ac6452394b350ef7574a5a86aee1dbb4b" prot="protected" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>__ref_storage_isSceneConstructed</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1ac440617123485880c564f995d823c3db" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>assign</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1a67990506ed2267a2147b9a5cf71b9cb6" prot="package" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Const_Result</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1a6c0c8a627aa8b09ffe3f4874e36eea4c" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Const_Result</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1acfce59edade46569859cf55bcadea4ff" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Const_Result</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1a4626bef99ed466628e7dd98eaccc5b6d" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Const_Result</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1af8b370472fc50985119363a0def83aa1" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Const_Result</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1a582b88189da204b751e6dfcc616ff847" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>Const_Result</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1a5f6df42fdaf24503e794df634d4fde30" prot="protected" virt="virtual"><scope>MR::SceneLoad::Result</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Result_1a6525b0f831cef83eb769264024e3e2d8" prot="public" virt="virtual"><scope>MR::SceneLoad::Result</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a024360c5cd099114d615e6132fc38417" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>errorSummary</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a855c297979c605f02cc8728d452bb54e" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>isSceneConstructed</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Result_1a9c97791eb0999c3e657a6b1720c7f2e0" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>loadedFiles</name></member>

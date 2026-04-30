@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Nesting_1_1BoxNestingParams" kind="class" language="C#" prot="public">
     <compoundname>MR::Nesting::BoxNestingParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Nesting.Const_BoxNestingParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Nesting_1_1Const__BoxNestingParams" prot="public" virt="non-virtual">MR.Nesting.Const_BoxNestingParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Nesting_1_1BoxNestingParams_1a3d2731aacad3be2d48c54feb8cd03a38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Nesting_1_1NestingBaseParams" kindref="compound">MR.Nesting.NestingBaseParams</ref></type>
@@ -80,7 +80,7 @@
         <name>BoxNestingParams</name>
         <qualifiedname>MR.Nesting.BoxNestingParams.BoxNestingParams</qualifiedname>
         <param>
-          <type>MR.Nesting.Const_NestingBaseParams</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingBaseParams" kindref="compound">MR.Nesting.Const_NestingBaseParams</ref></type>
           <declname>baseParams</declname>
         </param>
         <param>
@@ -122,7 +122,7 @@
         <name>BoxNestingParams</name>
         <qualifiedname>MR.Nesting.BoxNestingParams.BoxNestingParams</qualifiedname>
         <param>
-          <type>Const_BoxNestingParams</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__BoxNestingParams" kindref="compound">Const_BoxNestingParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -190,6 +190,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_BoxNestingParams</label>
+        <link refid="classMR_1_1Nesting_1_1Const__BoxNestingParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -211,6 +212,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_BoxNestingParams</label>
+        <link refid="classMR_1_1Nesting_1_1Const__BoxNestingParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +232,14 @@
       <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a0cac6bf9b5103619d12661c36f30a588" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
       <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a33e29acd5e882ee07a3d6a40a57f1d75" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
       <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a27f5af093b663612b3f3cf5dae91ed98" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingParams_1aeee065543c2885f37a27507fe03a1f4b" prot="package" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>Const_BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingParams_1a281f0f9bf0bf005365bb337afb517c42" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>Const_BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingParams_1a9c6d609bc4f105332601b75ba5ffe500" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>Const_BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingParams_1ac0ad9158965f92a304e5d3609c0fd5ef" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>Const_BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingParams_1ac6a9922f949d0ea4c60f51acdcea73a1" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>Const_BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingParams_1a839816ed6c560097b6633f74f73b334f" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>Const_BoxNestingParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingParams_1a2f3823976880fe70170ccdad8bd4bdd5" prot="protected" virt="virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingParams_1a383e5d4225fcaa278bcbeb33c4975714" prot="public" virt="virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Nesting_1_1BoxNestingParams_1a623eb4fb95ae0cae3514889fa242155a" prot="public" virt="non-virtual"><scope>MR::Nesting::BoxNestingParams</scope><name>options</name></member>
     </listofallmembers>
   </compounddef>

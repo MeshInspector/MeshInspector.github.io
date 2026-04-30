@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertPathInfo" kind="class" language="C#" prot="public">
     <compoundname>MR::VertPathInfo</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertPathInfo</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VertPathInfo" prot="public" virt="non-virtual">MR.Const_VertPathInfo</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VertPathInfo_1a463666a9efad1dff3747430203b148e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -103,7 +103,7 @@
         <name>VertPathInfo</name>
         <qualifiedname>MR.VertPathInfo.VertPathInfo</qualifiedname>
         <param>
-          <type>MR.Const_VertPathInfo</type>
+          <type><ref refid="classMR_1_1Const__VertPathInfo" kindref="compound">MR.Const_VertPathInfo</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.VertPathInfo.assign</qualifiedname>
         <param>
-          <type>MR.Const_VertPathInfo</type>
+          <type><ref refid="classMR_1_1Const__VertPathInfo" kindref="compound">MR.Const_VertPathInfo</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertPathInfo</label>
+        <link refid="classMR_1_1Const__VertPathInfo"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VertPathInfo</label>
         <link refid="classMR_1_1VertPathInfo"/>
@@ -189,9 +194,13 @@
       </node>
       <node id="2">
         <label>MR.Const_VertPathInfo</label>
+        <link refid="classMR_1_1Const__VertPathInfo"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_back</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,8 +212,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="118" bodyend="184"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VertPathInfo_1a1c25583d9d5b95375d0a45814002d72a" prot="protected" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>__ref_storage_back</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1a530b61b7e59568eab221b5d8c292fcf1" prot="protected" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>__ref_storage_metric</name></member>
       <member refid="classMR_1_1VertPathInfo_1a840312fb2466652448d24f4fe812e795" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>assign</name></member>
       <member refid="classMR_1_1VertPathInfo_1a463666a9efad1dff3747430203b148e5" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1aeca526b3676db837877b2788f5ac87a3" prot="package" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>Const_VertPathInfo</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1a5c0e739fc4723723e6f6432277fbfd4a" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>Const_VertPathInfo</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1ac433439b516e2fc6243bbea6f85f13cf" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>Const_VertPathInfo</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1aeea15ffe1d94ec94d37b28617a5bf56f" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>Const_VertPathInfo</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1acfa23b994e1082711eb92db1f42440e4" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>Const_VertPathInfo</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1a97343898d63259d465100ba8f3a00d70" prot="protected" virt="virtual"><scope>MR::VertPathInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1ae60b5c735377d10267602e709686f622" prot="public" virt="virtual"><scope>MR::VertPathInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertPathInfo_1a65c52ca61232bcb1e2804fca8f914c8a" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>isStart</name></member>
       <member refid="classMR_1_1VertPathInfo_1a89b9c440de50f31f6e4fe0aa196e1226" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>metric</name></member>
       <member refid="classMR_1_1VertPathInfo_1a5d51e7cbb4d7d7df3780278a892c974e" prot="package" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>VertPathInfo</name></member>
       <member refid="classMR_1_1VertPathInfo_1a94d80fe6367bb3a99586795a480e1bef" prot="public" virt="non-virtual"><scope>MR::VertPathInfo</scope><name>VertPathInfo</name></member>

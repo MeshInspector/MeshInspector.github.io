@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IFastWindingNumber" kind="class" language="C#" prot="public">
     <compoundname>MR::IFastWindingNumber</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IFastWindingNumber</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IFastWindingNumber" prot="public" virt="non-virtual">MR.Const_IFastWindingNumber</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1IFastWindingNumber_1a7234c0f89d78a1236b3a4482360e6491" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -234,7 +234,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
           <declname>gridToMeshXf</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
           <declname>options</declname>
         </param>
         <param>
@@ -283,6 +283,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
       </node>
       <node id="2">
         <label>MR.Const_IFastWindingNumber</label>
+        <link refid="classMR_1_1Const__IFastWindingNumber"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -304,6 +305,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
       </node>
       <node id="2">
         <label>MR.Const_IFastWindingNumber</label>
+        <link refid="classMR_1_1Const__IFastWindingNumber"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -322,6 +324,9 @@ Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_
       <member refid="classMR_1_1IFastWindingNumber_1a3975d6faf2163a2966882ac4b54185a6" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
       <member refid="classMR_1_1IFastWindingNumber_1a4be4494442bb65e1540bd88a91f552a7" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromVector</name></member>
       <member refid="classMR_1_1IFastWindingNumber_1aec064322180d2377393218c4575950eb" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>calcSelfIntersections</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumber_1a81fd4743a5ee9cac3072aede86853037" prot="package" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>Const_IFastWindingNumber</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumber_1a846097ec72d3f85805131a0c51ffe61e" prot="protected" virt="virtual"><scope>MR::IFastWindingNumber</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumber_1a04b914fd85a4ba6cee47149f0fb5f48c" prot="public" virt="virtual"><scope>MR::IFastWindingNumber</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IFastWindingNumber_1a7234c0f89d78a1236b3a4482360e6491" prot="package" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>IFastWindingNumber</name></member>
     </listofallmembers>
   </compounddef>

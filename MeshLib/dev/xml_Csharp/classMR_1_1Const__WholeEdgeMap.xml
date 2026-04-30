@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__WholeEdgeMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_WholeEdgeMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1WholeEdgeMap" prot="public" virt="non-virtual">MR.WholeEdgeMap</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__WholeEdgeMap_1aabe1dafa6fcf4cd0d292bed584de1753" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MREdgeId</type>
+        <definition>unsafe MR.Std.Const_Vector_MREdgeId MR.Const_WholeEdgeMap.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7531" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7531" bodyend="7531"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__WholeEdgeMap_1a79b49f05759ce90af215181d10570c34" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_WholeEdgeMap.this[MR.UndirectedEdgeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.UndirectedEdgeId i]</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.this[MR.UndirectedEdgeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::WholeEdgeMap::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7683" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7684" bodyend="7691"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a3df9ebc95d914a5ea8c962ff127f7896" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_WholeEdgeMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7452" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7452" bodyend="7460"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1acd489f5caf37311c5deaef1ad9353c07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_WholeEdgeMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7461" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7461" bodyend="7461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aa44c24cbcdd3ab6d2d5d98c11c37e145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.EdgeId &gt; &gt; MR.Const_WholeEdgeMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7518" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7518" bodyend="7521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a9cb7934a3f293fc9c90d78c146f24c4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7559" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7559" bodyend="7565"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aedb4919fd9049a977cf70c410706af10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
+        <argsstring>(MR._ByValue_WholeEdgeMap _other)</argsstring>
+        <name>Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_WholeEdgeMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7570" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7570" bodyend="7577"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a9d78b5c5f2432384f745b11e45bb4f6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
+        <argsstring>(Const_WholeEdgeMap _other)</argsstring>
+        <name>Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WholeEdgeMap" kindref="compound">Const_WholeEdgeMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7582" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7582" bodyend="7582"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a131fba26df9a7ea9c93b5bf05db7d81b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
+        <argsstring>(WholeEdgeMap _other)</argsstring>
+        <name>Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7587" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7587" bodyend="7587"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1abdbb1ec11c92133534e384ed4b6e1d5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7593" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7593" bodyend="7599"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a9ef3bc70386a7b4c0d67f180c00a4bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
+        <argsstring>(ulong size, in MR.EdgeId val)</argsstring>
+        <name>Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7605" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7605" bodyend="7614"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a0d7fdf254e3bf81f98fe739cbf6fbce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; vec)</argsstring>
+        <name>Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7620" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7620" bodyend="7627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a7dcf1f4502600bf784b52e6e067a4815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_WholeEdgeMap.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__WholeEdgeMap_1a7dcf1f4502600bf784b52e6e067a4815" kindref="member">MR.WholeEdgeMap.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7653" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7653" bodyend="7658"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a432459105bded34f0fc23d8ec4466137" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_WholeEdgeMap.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__WholeEdgeMap_1a432459105bded34f0fc23d8ec4466137" kindref="member">MR.WholeEdgeMap.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7663" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7663" bodyend="7668"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ad98e0b294a42a7f77e5f842c3facfa88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_WholeEdgeMap.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__WholeEdgeMap_1ad98e0b294a42a7f77e5f842c3facfa88" kindref="member">MR.WholeEdgeMap.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7673" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7673" bodyend="7678"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a3c79a730b602e13e7b86b8da81a95529" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_WholeEdgeMap.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1ae45c2a26a07a3cf1484671badda40335" kindref="member">MR.WholeEdgeMap.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7696" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7696" bodyend="7701"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ad64f1de2b4e71a8f1b69173074367274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_WholeEdgeMap.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a83d166d2f4b10449b216e6686a225c2b" kindref="member">MR.WholeEdgeMap.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7706" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7706" bodyend="7711"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1af0b98ae7007c2253b3b2f1175260bfc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_WholeEdgeMap.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__WholeEdgeMap_1af0b98ae7007c2253b3b2f1175260bfc9" kindref="member">MR.WholeEdgeMap.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7717" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7717" bodyend="7722"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1afbe8717d5e5469130271bb3b3ff982af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_WholeEdgeMap.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__WholeEdgeMap_1ad64f1de2b4e71a8f1b69173074367274" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__WholeEdgeMap_1afbe8717d5e5469130271bb3b3ff982af" kindref="member">MR.WholeEdgeMap.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7728" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7728" bodyend="7733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1abf065206ac2a5c7aa5dc2cd929b85d06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_WholeEdgeMap.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__WholeEdgeMap_1afbe8717d5e5469130271bb3b3ff982af" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__WholeEdgeMap_1abf065206ac2a5c7aa5dc2cd929b85d06" kindref="member">MR.WholeEdgeMap.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7739" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7739" bodyend="7744"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ae52860420681932a7411d933985e3211" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition>unsafe MR.? EdgeId MR.Const_WholeEdgeMap.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1ad73f43069c41abb28cceafa4b46e1773" kindref="member">MR.WholeEdgeMap.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7749" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7749" bodyend="7755"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a1616b1e369dc73d20a6b47d124ccce32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_WholeEdgeMap.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__WholeEdgeMap_1a1616b1e369dc73d20a6b47d124ccce32" kindref="member">MR.WholeEdgeMap.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7761" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7761" bodyend="7766"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ab6e7d20e553bafdbebb8a16eaaca7007" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_WholeEdgeMap.Equals</definition>
+        <argsstring>(MR.Const_WholeEdgeMap? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WholeEdgeMap" kindref="compound">MR.Const_WholeEdgeMap</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7770" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7770" bodyend="7775"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aaee6e167f00b60127d6d75b6dc973896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_WholeEdgeMap.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7777" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7777" bodyend="7784"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a39af6f60e4425141838f1ac3bf2e7279" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WholeEdgeMap.~Const_WholeEdgeMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.~Const_WholeEdgeMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7462" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7462" bodyend="7462"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a096c7900ef97e2fccc93c52b3e2f4634" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_WholeEdgeMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7523" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7523" bodyend="7526"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a031c2ba1789dfe1c9436cdb72bb4a3f5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7548" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7548" bodyend="7553"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aec5965cd507feddbd4b9781d1a844303" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_WholeEdgeMap.operator Const_WholeEdgeMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; vec)</argsstring>
+        <name>operator Const_WholeEdgeMap</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.operator Const_WholeEdgeMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7633" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7633" bodyend="7633"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a6cef7865d8131ba3f9e66db600f5b3f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_WholeEdgeMap.operator==</definition>
+        <argsstring>(MR.Const_WholeEdgeMap _this, MR.Const_WholeEdgeMap b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WholeEdgeMap" kindref="compound">MR.Const_WholeEdgeMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__WholeEdgeMap" kindref="compound">MR.Const_WholeEdgeMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::WholeEdgeMap::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7638" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7638" bodyend="7643"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a18d54500ba6c35deec91ab4c70a9b320" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_WholeEdgeMap.operator!=</definition>
+        <argsstring>(MR.Const_WholeEdgeMap _this, MR.Const_WholeEdgeMap b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WholeEdgeMap" kindref="compound">MR.Const_WholeEdgeMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__WholeEdgeMap" kindref="compound">MR.Const_WholeEdgeMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7645" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7645" bodyend="7648"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1WholeEdgeMap" kindref="compound">MR.WholeEdgeMap</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_WholeEdgeMap</label>
+        <link refid="classMR_1_1Const__WholeEdgeMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.WholeEdgeMap</label>
+        <link refid="classMR_1_1WholeEdgeMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_WholeEdgeMap</label>
+        <link refid="classMR_1_1Const__WholeEdgeMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7446" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7447" bodyend="7785"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1ad64f1de2b4e71a8f1b69173074367274" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1afbe8717d5e5469130271bb3b3ff982af" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1af0b98ae7007c2253b3b2f1175260bfc9" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1ad98e0b294a42a7f77e5f842c3facfa88" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a031c2ba1789dfe1c9436cdb72bb4a3f5" prot="package" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a9cb7934a3f293fc9c90d78c146f24c4c" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1aedb4919fd9049a977cf70c410706af10" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a9d78b5c5f2432384f745b11e45bb4f6c" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a131fba26df9a7ea9c93b5bf05db7d81b" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1abdbb1ec11c92133534e384ed4b6e1d5a" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a9ef3bc70386a7b4c0d67f180c00a4bc5" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a0d7fdf254e3bf81f98fe739cbf6fbce3" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1ae52860420681932a7411d933985e3211" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a3df9ebc95d914a5ea8c962ff127f7896" prot="protected" virt="virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1acd489f5caf37311c5deaef1ad9353c07" prot="public" virt="virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a7dcf1f4502600bf784b52e6e067a4815" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1abf065206ac2a5c7aa5dc2cd929b85d06" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1ab6e7d20e553bafdbebb8a16eaaca7007" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1aaee6e167f00b60127d6d75b6dc973896" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a3c79a730b602e13e7b86b8da81a95529" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1aa44c24cbcdd3ab6d2d5d98c11c37e145" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a096c7900ef97e2fccc93c52b3e2f4634" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a1616b1e369dc73d20a6b47d124ccce32" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1aec5965cd507feddbd4b9781d1a844303" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a18d54500ba6c35deec91ab4c70a9b320" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a6cef7865d8131ba3f9e66db600f5b3f8" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a432459105bded34f0fc23d8ec4466137" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a79b49f05759ce90af215181d10570c34" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>this[MR.UndirectedEdgeId i]</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1aabe1dafa6fcf4cd0d292bed584de1753" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a39af6f60e4425141838f1ac3bf2e7279" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>~Const_WholeEdgeMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

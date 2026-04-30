@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointOnObject" kind="class" language="C#" prot="public">
     <compoundname>MR::PointOnObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointOnObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointOnObject" prot="public" virt="non-virtual">MR.Const_PointOnObject</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointOnObject_1a12060f5788fe3c0342730c3faaee328d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -82,7 +82,7 @@
         <name>PointOnObject</name>
         <qualifiedname>MR.PointOnObject.PointOnObject</qualifiedname>
         <param>
-          <type>MR.Const_PointOnObject</type>
+          <type><ref refid="classMR_1_1Const__PointOnObject" kindref="compound">MR.Const_PointOnObject</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -120,7 +120,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointOnObject.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointOnObject</type>
+          <type><ref refid="classMR_1_1Const__PointOnObject" kindref="compound">MR.Const_PointOnObject</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -147,6 +147,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointOnObject</label>
+        <link refid="classMR_1_1Const__PointOnObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -160,6 +161,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointOnObject</label>
         <link refid="classMR_1_1PointOnObject"/>
@@ -168,9 +173,13 @@
       </node>
       <node id="2">
         <label>MR.Const_PointOnObject</label>
+        <link refid="classMR_1_1Const__PointOnObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_point</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -182,7 +191,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="116" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="117" bodyend="176"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointOnObject_1a801c455bc3e18c4a29289671536dbd5d" prot="protected" virt="non-virtual"><scope>MR::PointOnObject</scope><name>__ref_storage_point</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a6b16d7b96338ef5586d313d2f5dc7811" prot="protected" virt="non-virtual"><scope>MR::PointOnObject</scope><name>__ref_storage_zBuffer</name></member>
       <member refid="classMR_1_1PointOnObject_1ac279d89361da83298b03221b6fb9e33a" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a8327e3fd2aa2e1ee11e44b72829a0e7f" prot="package" virt="non-virtual"><scope>MR::PointOnObject</scope><name>Const_PointOnObject</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a721a8bc3a605dc969e5cb8f1f8584f45" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>Const_PointOnObject</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1aec4a30eaf9a14b161835d76afb62b902" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>Const_PointOnObject</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a77d2c0538934e46543db556707ee23cd" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>Const_PointOnObject</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a840bc579fe8a0ff60e2e1230578b9f40" prot="protected" virt="virtual"><scope>MR::PointOnObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a09222de98ff2cd556225e7e309540621" prot="public" virt="virtual"><scope>MR::PointOnObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a240b37063938d503dc38cce5f6ed967e" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>operator MR.PointOnFace</name></member>
       <member refid="classMR_1_1PointOnObject_1a12060f5788fe3c0342730c3faaee328d" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>point</name></member>
       <member refid="classMR_1_1PointOnObject_1acd969ac77c7f5fbb6f04f7fb2f340af8" prot="package" virt="non-virtual"><scope>MR::PointOnObject</scope><name>PointOnObject</name></member>
       <member refid="classMR_1_1PointOnObject_1a03b69593c56f92a6b089e52e8013e0a6" prot="public" virt="non-virtual"><scope>MR::PointOnObject</scope><name>PointOnObject</name></member>

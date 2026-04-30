@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Quaternionf" kind="class" language="C#" prot="public">
     <compoundname>MR::Quaternionf</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Quaternionf</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Quaternionf" prot="public" virt="non-virtual">MR.Const_Quaternionf</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Quaternionf_1a1c8eb5a31f7c3065dbae7281fa403fac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -112,7 +112,7 @@
         <name>Quaternionf</name>
         <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
         <param>
-          <type>MR.Const_Quaternionf</type>
+          <type><ref refid="classMR_1_1Const__Quaternionf" kindref="compound">MR.Const_Quaternionf</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,7 +246,7 @@
         <name>assign</name>
         <qualifiedname>MR.Quaternionf.assign</qualifiedname>
         <param>
-          <type>MR.Const_Quaternionf</type>
+          <type><ref refid="classMR_1_1Const__Quaternionf" kindref="compound">MR.Const_Quaternionf</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -372,6 +372,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Quaternionf</label>
+        <link refid="classMR_1_1Const__Quaternionf"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -393,6 +394,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Quaternionf</label>
+        <link refid="classMR_1_1Const__Quaternionf"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -407,15 +409,43 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="384" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="385" bodyend="568"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Quaternionf_1a02a7729a186bb819897ed10f504123ac" prot="protected" virt="non-virtual"><scope>MR::Quaternionf</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a2b0a193ce05f44a3c56ad6fcf8cc95f1" prot="protected" virt="non-virtual"><scope>MR::Quaternionf</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a30d543171609311dbd1c342221dd46be" prot="protected" virt="non-virtual"><scope>MR::Quaternionf</scope><name>__ref_storage_c</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1aa2e08bdb5f53c6922df1321a17e26fb3" prot="protected" virt="non-virtual"><scope>MR::Quaternionf</scope><name>__ref_storage_d</name></member>
       <member refid="classMR_1_1Quaternionf_1a1c8eb5a31f7c3065dbae7281fa403fac" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1adf749588cbbdc65fc4093ad47c3d516b" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>angle</name></member>
       <member refid="classMR_1_1Quaternionf_1a3eac6b68243a34c8a66e0e1d3ed461f1" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1aa161cde902b2823477a5fad8e5d6cf33" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>axis</name></member>
       <member refid="classMR_1_1Quaternionf_1aa3b5180256e698ab23cbbe1108db7608" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>b</name></member>
       <member refid="classMR_1_1Quaternionf_1ab1a919c14244077ed44ac7b458ae5060" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>c</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a9e46e2b0128d88673e04889c83537c9b" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a99474ae49951e501c0aecba986ead6dd" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>conjugate</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1ad64e16845ce2f1751c30af140c76ae5e" prot="package" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1adf1bfe02d47b568f314b0147b0dd94a8" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a1f81f63ae8de752cdb7bbcdac8461786" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a152a1b53ef817afead9dd4b57dcc82be" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a11cde6c7e9440c25d1d8bb5ee79f77bf" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a57048a64f93c2ca4e98822bfeab6a40a" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a0bb33f1a5850af4f68e115f4b407eac9" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a7bb8fabf33cf342b5381c4bb0e2b9d4b" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a5a57d12636247db4852ef1c0feb76a8a" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Const_Quaternionf</name></member>
       <member refid="classMR_1_1Quaternionf_1ab8292b981d0b4697b9cbc6d5e44b604a" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>d</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a1ed31b5363f9a8a33158c400b9185a0e" prot="protected" virt="virtual"><scope>MR::Quaternionf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a69c51e80230a1849d3779f54db026e09" prot="public" virt="virtual"><scope>MR::Quaternionf</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Quaternionf_1a4bdcbddd11f2cdd7a3c2cc06ca4ce545" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1ad760c6cc1a125c4b3bcd74fd3107b9b7" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>im</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a7d52aead5064aa12bc105baa1f6d48b9" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>inverse</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a2a1ce343fe6da4a81020bada6b08b009" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>lerp</name></member>
       <member refid="classMR_1_1Quaternionf_1a14e55dab896e3c214bf9f93a2bb17aec" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a75943cc078d076a3aeebbe9178f9ac7b" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>norm</name></member>
       <member refid="classMR_1_1Quaternionf_1a685d834b77effa06517b9c7364bb156e" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>normalize</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1abbb129a9c0f11eb4916ce28065d7a47a" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>normalized</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a061bc96186e1472db072895438e6f005" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>normSq</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1af3620794539d047011e08e55c842671a" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>operator Const_Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a9b9b965301a23102754a6325eb371aeb" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>operator MR.Matrix3f</name></member>
       <member refid="classMR_1_1Quaternionf_1acd01d9ad3e9dbc50322ad641251d11c0" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>operator Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1abc8c1aedd9a98c56e609de2b8c30d417" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>operator-</name></member>
       <member refid="classMR_1_1Quaternionf_1a60bb1eb1d86c3f37ddd2bae0b30b8723" prot="package" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
       <member refid="classMR_1_1Quaternionf_1a7e353f8d18f2672c96a412a8667cc258" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
       <member refid="classMR_1_1Quaternionf_1abb24a7c6daaab950f7e699df2dcd7a9c" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
@@ -425,6 +455,9 @@
       <member refid="classMR_1_1Quaternionf_1aaa82bd5bb0a317e941b5b6cd292b17f2" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
       <member refid="classMR_1_1Quaternionf_1a1400ed3736d1f675bde151d8c624d310" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
       <member refid="classMR_1_1Quaternionf_1a89d5d6557140c2bfbe647bb7687daf1f" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a6f087c919498b60849a7b474dc3b4548" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>slerp</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a851554426a977f88d60f00fcedd0ef28" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>slerp</name></member>
+      <member refid="classMR_1_1Const__Quaternionf_1a5168b0e6a1d66730cd806c3a919171d9" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>slerp</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

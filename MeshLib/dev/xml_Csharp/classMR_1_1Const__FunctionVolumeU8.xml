@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FunctionVolumeU8" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FunctionVolumeU8</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FunctionVolumeU8" prot="public" virt="non-virtual">MR.FunctionVolumeU8</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FunctionVolumeU8_1a77828c0ac9b7686c0c058269e3c8f0cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_UnsignedChar_From_ConstMRVector3iRef</type>
+        <definition>unsafe MR.Std.Const_Function_UnsignedChar_From_ConstMRVector3iRef MR.Const_FunctionVolumeU8.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1942" column="80" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1942" bodyend="1942"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FunctionVolumeU8_1ab4cb718814e64d5294fe7fbe543f6bd3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe ref readonly MR.Vector3i MR.Const_FunctionVolumeU8.dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1944" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1944" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FunctionVolumeU8_1aa413f5b351abc7ccdfbc7b7d55ae0817" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_FunctionVolumeU8.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1947" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1947" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__FunctionVolumeU8_1a9bd0f4ad831df80d617977c578831b39" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+        <definition>unsafe MR.Vector3i* MR.Const_FunctionVolumeU8.__ref_storage_dims</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_dims</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.__ref_storage_dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1945" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1945" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__FunctionVolumeU8_1a5eafe1b4a105e9f7752a27bf9d7708f6" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_FunctionVolumeU8.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1948" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1948" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1a35130d0ad28565565a8e70c0bcd09482" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FunctionVolumeU8.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1930" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1930" bodyend="1938"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1ae767da65569430d3b48842654470dbcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FunctionVolumeU8.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1939" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1939" bodyend="1939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1ad96f82f28600f5af02a3c482a6f4f89e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FunctionVolumeU8</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1988" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1988" bodyend="1994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1ae4dfbadfa976e157c604c5382e937185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</definition>
+        <argsstring>(MR.Std._ByValue_Function_UnsignedChar_From_ConstMRVector3iRef data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
+        <name>Const_FunctionVolumeU8</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_UnsignedChar_From_ConstMRVector3iRef</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FunctionVolumeU8" kindref="compound">MR.FunctionVolumeU8</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1999" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1999" bodyend="2006"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1ac0073f2e8170fa831678d27e44a8c358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</definition>
+        <argsstring>(MR._ByValue_FunctionVolumeU8 _other)</argsstring>
+        <name>Const_FunctionVolumeU8</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</qualifiedname>
+        <param>
+          <type>MR._ByValue_FunctionVolumeU8</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FunctionVolumeU8_1ae2f51015525c50fd23d00f8c93d8f17c" kindref="member">MR.FunctionVolumeU8.FunctionVolumeU8</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2011" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2011" bodyend="2018"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1a40c538fdc94ced01501d4cbbfaaef2af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</definition>
+        <argsstring>(Const_FunctionVolumeU8 _other)</argsstring>
+        <name>Const_FunctionVolumeU8</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FunctionVolumeU8" kindref="compound">Const_FunctionVolumeU8</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FunctionVolumeU8_1ae2f51015525c50fd23d00f8c93d8f17c" kindref="member">MR.FunctionVolumeU8.FunctionVolumeU8</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2023" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2023" bodyend="2023"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1ac666f8682e91740da4eb4b4363dca474" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</definition>
+        <argsstring>(FunctionVolumeU8 _other)</argsstring>
+        <name>Const_FunctionVolumeU8</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FunctionVolumeU8" kindref="compound">FunctionVolumeU8</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FunctionVolumeU8_1ae2f51015525c50fd23d00f8c93d8f17c" kindref="member">MR.FunctionVolumeU8.FunctionVolumeU8</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2028" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2028" bodyend="2028"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1a2437ac2256d37bfcf672c2a33b2c25c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_FunctionVolumeU8.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FunctionVolumeU8_1a2437ac2256d37bfcf672c2a33b2c25c9" kindref="member">MR.FunctionVolumeU8.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2033" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2033" bodyend="2038"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1a01649331d36e9aa9d5f0ca5cf3143efe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FunctionVolumeU8.~Const_FunctionVolumeU8</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FunctionVolumeU8</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.~Const_FunctionVolumeU8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1940" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1940" bodyend="1940"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FunctionVolumeU8_1a25b1c25a69c77946e8340bd098d6ed4a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FunctionVolumeU8</name>
+        <qualifiedname>MR.Const_FunctionVolumeU8.Const_FunctionVolumeU8</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1977" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1977" bodyend="1982"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents a box in 3D space subdivided on voxels stored in T Generated from class <computeroutput><ref refid="classMR_1_1FunctionVolumeU8" kindref="compound">MR.FunctionVolumeU8</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FunctionVolumeU8</label>
+        <link refid="classMR_1_1Const__FunctionVolumeU8"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FunctionVolumeU8</label>
+        <link refid="classMR_1_1FunctionVolumeU8"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_FunctionVolumeU8</label>
+        <link refid="classMR_1_1Const__FunctionVolumeU8"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_dims</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1924" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1925" bodyend="2039"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a9bd0f4ad831df80d617977c578831b39" prot="protected" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>__ref_storage_dims</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a5eafe1b4a105e9f7752a27bf9d7708f6" prot="protected" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a25b1c25a69c77946e8340bd098d6ed4a" prot="package" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Const_FunctionVolumeU8</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1ad96f82f28600f5af02a3c482a6f4f89e" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Const_FunctionVolumeU8</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1ae4dfbadfa976e157c604c5382e937185" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Const_FunctionVolumeU8</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1ac0073f2e8170fa831678d27e44a8c358" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Const_FunctionVolumeU8</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a40c538fdc94ced01501d4cbbfaaef2af" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Const_FunctionVolumeU8</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1ac666f8682e91740da4eb4b4363dca474" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Const_FunctionVolumeU8</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a77828c0ac9b7686c0c058269e3c8f0cc" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1ab4cb718814e64d5294fe7fbe543f6bd3" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a35130d0ad28565565a8e70c0bcd09482" prot="protected" virt="virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1ae767da65569430d3b48842654470dbcb" prot="public" virt="virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a2437ac2256d37bfcf672c2a33b2c25c9" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1aa413f5b351abc7ccdfbc7b7d55ae0817" prot="public" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__FunctionVolumeU8_1a01649331d36e9aa9d5f0ca5cf3143efe" prot="private" virt="non-virtual"><scope>MR::Const_FunctionVolumeU8</scope><name>~Const_FunctionVolumeU8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

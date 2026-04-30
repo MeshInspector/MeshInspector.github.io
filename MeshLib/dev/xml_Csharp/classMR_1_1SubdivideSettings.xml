@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SubdivideSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SubdivideSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SubdivideSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SubdivideSettings" prot="public" virt="non-virtual">MR.Const_SubdivideSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SubdivideSettings_1a802975ae8408f88d0732cf26e73c144f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -466,7 +466,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         <name>SubdivideSettings</name>
         <qualifiedname>MR.SubdivideSettings.SubdivideSettings</qualifiedname>
         <param>
-          <type>Const_SubdivideSettings</type>
+          <type><ref refid="classMR_1_1Const__SubdivideSettings" kindref="compound">Const_SubdivideSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -531,6 +531,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
       </node>
       <node id="2">
         <label>MR.Const_SubdivideSettings</label>
+        <link refid="classMR_1_1Const__SubdivideSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -544,6 +545,10 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SubdivideSettings</label>
         <link refid="classMR_1_1SubdivideSettings"/>
@@ -552,9 +557,16 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
       </node>
       <node id="2">
         <label>MR.Const_SubdivideSettings</label>
+        <link refid="classMR_1_1Const__SubdivideSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_maintainRegion</edgelabel>
+          <edgelabel>__ptr_storage_newVerts</edgelabel>
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -566,10 +578,34 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="392" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="393" bodyend="648"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a098b85653e15883ddb0721844ba615c8" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ptr_storage_maintainRegion</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ac39d6804c45a7328fb13e1daefb4cc28" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ptr_storage_newVerts</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a437c7a3fac90b99934a08a339de96828" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a4fe96a0f5d438ed9abde58eb846cda23" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a35d30ecfa1ebe9be2afe0dc7bea8515c" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_criticalAspectRatioFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1af07f3985ef5452be346bc3e5c2e05d84" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_curvaturePriority</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a5e22d9aa1f62192db0154e218cf05a9e" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ad12b94f8a0963e2569c82d8c3631104e" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_maxDeviationAfterFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a8bd6fe6414315a8f7233bd6131be2b38" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_maxEdgeLen</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1afb69c4b68a294908a63fbc203bc6a716" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_maxEdgeSplits</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ac50521a8622ffe34542cc94707027181" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_maxSplittableTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a0ca39d0b6cba1bd765fe3fe5c8f3c50c" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_maxTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a2537bcaab1cd2df41d423b5cd010aadf" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_minSharpDihedralAngle</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a5ee447b8d5897946d1ec79bcef3f627a" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_projectOnOriginalMesh</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a80a38a2162cf1cdabdff53a2f1ff8258" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_smoothMode</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a2c00194c6d29c0a0efbd534dd7a4b6d9" prot="protected" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>__ref_storage_subdivideBorder</name></member>
       <member refid="classMR_1_1SubdivideSettings_1ac0725c0a8ca1e72ee28c30686ef32d02" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1SubdivideSettings_1adac3f7ef12797af17a598221cbcdb3de" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ada11d7fcec62ceccf62c36f926699306" prot="package" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a14fd7dd1a38583764e857562c06685a3" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ac71d211ccf0190830152c95eb3603e8b" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a188023ed4a15e58cb7783f4f1a85324d" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a3664ca2c880c12fcf523182869c4dc82" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1acc527c301f6bd4852405291464a392af" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
       <member refid="classMR_1_1SubdivideSettings_1a092d79fdac95176ce7e847dbddcad5d6" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>criticalAspectRatioFlip</name></member>
       <member refid="classMR_1_1SubdivideSettings_1a8d99f49dc37c6498272faa11636cf423" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>curvaturePriority</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1aa18a50333e2cfad6bea54eda05478d1f" prot="protected" virt="virtual"><scope>MR::SubdivideSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ad200f99ae39e2c98e04f0e26a621f6a2" prot="public" virt="virtual"><scope>MR::SubdivideSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SubdivideSettings_1aef7b0f16597505fa1847a9a38cb3164c" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maintainRegion</name></member>
       <member refid="classMR_1_1SubdivideSettings_1a578ede60bcf4fe7f86f15abbb22ae89d" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maxAngleChangeAfterFlip</name></member>
       <member refid="classMR_1_1SubdivideSettings_1a52c5c6b56c332b0fe279fcdb4b2bfeb8" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maxDeviationAfterFlip</name></member>

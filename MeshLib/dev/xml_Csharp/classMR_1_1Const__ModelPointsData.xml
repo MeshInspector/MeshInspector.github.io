@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ModelPointsData" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ModelPointsData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ModelPointsData" prot="public" virt="non-virtual">MR.ModelPointsData</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ModelPointsData_1a7e444493e284942a7f737a0857377f87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
+        <definition>unsafe MR.? Const_VertCoords MR.Const_ModelPointsData.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR.Const_ModelPointsData.points</qualifiedname>
+        <briefdescription>
+<para>all points of model </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="29" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="30" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ModelPointsData_1aa036136dadf90d96827b515accf8b347" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
+        <definition>unsafe MR.? Const_VertBitSet MR.Const_ModelPointsData.validPoints</definition>
+        <argsstring></argsstring>
+        <name>validPoints</name>
+        <qualifiedname>MR.Const_ModelPointsData.validPoints</qualifiedname>
+        <briefdescription>
+<para>bitset of valid points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="47" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="48" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ModelPointsData_1a62efbd6d1867dedb8f55c1a7f9da0493" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>unsafe MR.? ConstBox_AffineXf3f MR.Const_ModelPointsData.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_ModelPointsData.xf</qualifiedname>
+        <briefdescription>
+<para>model world xf </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="65" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="66" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ModelPointsData_1a647c881181bdccfc81e04d75e154dc24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe ref readonly MR.ObjId MR.Const_ModelPointsData.fakeObjId</definition>
+        <argsstring></argsstring>
+        <name>fakeObjId</name>
+        <qualifiedname>MR.Const_ModelPointsData.fakeObjId</qualifiedname>
+        <briefdescription>
+<para>if present this value will override <ref refid="structMR_1_1ObjId" kindref="compound">ObjId</ref> in result <ref refid="structMR_1_1ObjVertId" kindref="compound">ObjVertId</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="83" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ModelPointsData_1a774dbd4a22fc613b87f1db23fa8e03a5" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertCoords._Underlying **</type>
+        <definition>unsafe MR.Const_VertCoords._Underlying** MR.Const_ModelPointsData.__ptr_storage_points</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_points</name>
+        <qualifiedname>MR.Const_ModelPointsData.__ptr_storage_points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="42" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ModelPointsData_1afa4c563d67d03ca631eca61a3bf116b0" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_VertBitSet._Underlying** MR.Const_ModelPointsData.__ptr_storage_validPoints</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_validPoints</name>
+        <qualifiedname>MR.Const_ModelPointsData.__ptr_storage_validPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="60" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ModelPointsData_1aa8b796f8bcfcf8823bc99616c99fd56f" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
+        <definition>unsafe MR.ConstBox_AffineXf3f._Underlying** MR.Const_ModelPointsData.__ptr_storage_xf</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_xf</name>
+        <qualifiedname>MR.Const_ModelPointsData.__ptr_storage_xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="78" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ModelPointsData_1a79ad0167725166553b08de11cfe20da5" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref> *</type>
+        <definition>unsafe MR.ObjId* MR.Const_ModelPointsData.__ref_storage_fakeObjId</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_fakeObjId</name>
+        <qualifiedname>MR.Const_ModelPointsData.__ref_storage_fakeObjId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="84" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ModelPointsData_1ac546eeb188a78350b345ec308fbc9561" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ModelPointsData.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ModelPointsData.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ModelPointsData_1a9ab17382f7fc3bfaa62767dfe82b545a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ModelPointsData.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ModelPointsData.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ModelPointsData_1a7511a34c5df982c87a585aeb02a9a3c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ModelPointsData.Const_ModelPointsData</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ModelPointsData</name>
+        <qualifiedname>MR.Const_ModelPointsData.Const_ModelPointsData</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="129" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="129" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ModelPointsData_1a1b1869205f79899059e06d8cd0727288" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ModelPointsData.Const_ModelPointsData</definition>
+        <argsstring>(MR.Const_VertCoords? points, MR.Const_VertBitSet? validPoints, MR.AffineXf3f? xf, MR.ObjId fakeObjId)</argsstring>
+        <name>Const_ModelPointsData</name>
+        <qualifiedname>MR.Const_ModelPointsData.Const_ModelPointsData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
+          <declname>validPoints</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>fakeObjId</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="140" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="140" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ModelPointsData_1a4028d29dcc4e3a6999c84c9b9c78b2e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ModelPointsData.Const_ModelPointsData</definition>
+        <argsstring>(MR.Const_ModelPointsData _other)</argsstring>
+        <name>Const_ModelPointsData</name>
+        <qualifiedname>MR.Const_ModelPointsData.Const_ModelPointsData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ModelPointsData_1ada514182d1b922c21330857fe4d52179" kindref="member">MR.ModelPointsData.ModelPointsData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="154" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="154" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ModelPointsData_1ab6997d56c3a92ead8dfffe24a9093a6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ModelPointsData.Const_ModelPointsData</definition>
+        <argsstring>(ModelPointsData _other)</argsstring>
+        <name>Const_ModelPointsData</name>
+        <qualifiedname>MR.Const_ModelPointsData.Const_ModelPointsData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ModelPointsData" kindref="compound">ModelPointsData</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ModelPointsData_1ada514182d1b922c21330857fe4d52179" kindref="member">MR.ModelPointsData.ModelPointsData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="166" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="166" bodyend="166"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ModelPointsData_1a7a0d4bc5c940ae855eef7e8a9cf31224" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ModelPointsData.~Const_ModelPointsData</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ModelPointsData</name>
+        <qualifiedname>MR.Const_ModelPointsData.~Const_ModelPointsData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ModelPointsData_1aa02f42c9c9a8562642a13f98e751ecb5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ModelPointsData.Const_ModelPointsData</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ModelPointsData</name>
+        <qualifiedname>MR.Const_ModelPointsData.Const_ModelPointsData</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="118" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="118" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>structure to contain pointers to model data Generated from class <computeroutput><ref refid="classMR_1_1ModelPointsData" kindref="compound">MR.ModelPointsData</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ModelPointsData</label>
+        <link refid="classMR_1_1Const__ModelPointsData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ModelPointsData</label>
+        <link refid="classMR_1_1ModelPointsData"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_ModelPointsData</label>
+        <link refid="classMR_1_1Const__ModelPointsData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_points</edgelabel>
+          <edgelabel>__ptr_storage_validPoints</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+          <edgelabel>__ref_storage_fakeObjId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="9" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ModelPointsData_1a774dbd4a22fc613b87f1db23fa8e03a5" prot="protected" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>__ptr_storage_points</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1afa4c563d67d03ca631eca61a3bf116b0" prot="protected" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>__ptr_storage_validPoints</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1aa8b796f8bcfcf8823bc99616c99fd56f" prot="protected" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a79ad0167725166553b08de11cfe20da5" prot="protected" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>__ref_storage_fakeObjId</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1aa02f42c9c9a8562642a13f98e751ecb5" prot="package" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a7511a34c5df982c87a585aeb02a9a3c6" prot="public" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a1b1869205f79899059e06d8cd0727288" prot="public" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a4028d29dcc4e3a6999c84c9b9c78b2e0" prot="public" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1ab6997d56c3a92ead8dfffe24a9093a6f" prot="public" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1ac546eeb188a78350b345ec308fbc9561" prot="protected" virt="virtual"><scope>MR::Const_ModelPointsData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a9ab17382f7fc3bfaa62767dfe82b545a" prot="public" virt="virtual"><scope>MR::Const_ModelPointsData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a647c881181bdccfc81e04d75e154dc24" prot="public" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>fakeObjId</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a7e444493e284942a7f737a0857377f87" prot="public" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>points</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1aa036136dadf90d96827b515accf8b347" prot="public" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>validPoints</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a62efbd6d1867dedb8f55c1a7f9da0493" prot="public" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a7a0d4bc5c940ae855eef7e8a9cf31224" prot="private" virt="non-virtual"><scope>MR::Const_ModelPointsData</scope><name>~Const_ModelPointsData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

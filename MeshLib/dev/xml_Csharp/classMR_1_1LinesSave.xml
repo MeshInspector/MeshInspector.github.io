@@ -10,7 +10,7 @@
         <name>toMrLines</name>
         <qualifiedname>MR.LinesSave.toMrLines</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -18,7 +18,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -38,7 +38,7 @@
         <name>toMrLines</name>
         <qualifiedname>MR.LinesSave.toMrLines</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -46,7 +46,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -66,7 +66,7 @@
         <name>toPts</name>
         <qualifiedname>MR.LinesSave.toPts</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -74,7 +74,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -94,7 +94,7 @@
         <name>toPts</name>
         <qualifiedname>MR.LinesSave.toPts</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -102,7 +102,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -122,7 +122,7 @@
         <name>toDxf</name>
         <qualifiedname>MR.LinesSave.toDxf</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -130,7 +130,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -150,7 +150,7 @@
         <name>toDxf</name>
         <qualifiedname>MR.LinesSave.toDxf</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -158,7 +158,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -178,7 +178,7 @@
         <name>toPly</name>
         <qualifiedname>MR.LinesSave.toPly</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -186,7 +186,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -206,7 +206,7 @@
         <name>toPly</name>
         <qualifiedname>MR.LinesSave.toPly</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -214,7 +214,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -234,7 +234,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.LinesSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -242,7 +242,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -262,7 +262,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.LinesSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
@@ -274,7 +274,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

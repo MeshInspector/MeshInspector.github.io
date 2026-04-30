@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixUndercuts_1_1FixParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FixUndercuts::FixParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.FixUndercuts.Const_FixParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1FixUndercuts_1_1Const__FixParams" prot="public" virt="non-virtual">MR.FixUndercuts.Const_FixParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1FixParams_1af24dfe8f4b1d0b15ec63bdb8392b2d7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FixUndercuts_1_1FindParams" kindref="compound">MR.FixUndercuts.FindParams</ref></type>
@@ -50,7 +50,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="414" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="414" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1FixParams_1a085c11922282a52b9e318c989d48b04a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_FaceBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
         <definition>new unsafe MR.? Const_FaceBitSet MR.FixUndercuts.FixParams.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -141,7 +141,7 @@
         <name>FixParams</name>
         <qualifiedname>MR.FixUndercuts.FixParams.FixParams</qualifiedname>
         <param>
-          <type>MR.FixUndercuts.Const_FindParams</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__FindParams" kindref="compound">MR.FixUndercuts.Const_FindParams</ref></type>
           <declname>findParameters</declname>
         </param>
         <param>
@@ -153,7 +153,7 @@
           <declname>bottomExtension</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <param>
@@ -199,7 +199,7 @@
         <name>FixParams</name>
         <qualifiedname>MR.FixUndercuts.FixParams.FixParams</qualifiedname>
         <param>
-          <type>Const_FixParams</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__FixParams" kindref="compound">Const_FixParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -264,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.FixUndercuts.Const_FixParams</label>
+        <link refid="classMR_1_1FixUndercuts_1_1Const__FixParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -277,6 +278,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FixUndercuts.FixParams</label>
         <link refid="classMR_1_1FixUndercuts_1_1FixParams"/>
@@ -285,9 +290,13 @@
       </node>
       <node id="2">
         <label>MR.FixUndercuts.Const_FixParams</label>
+        <link refid="classMR_1_1FixUndercuts_1_1Const__FixParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -299,9 +308,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="399" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="400" bodyend="527"/>
     <listofallmembers>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1a772640e0e5f92729abbc952fa539c485" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1a643c63fc52cad92113f041a8ff2c25c2" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>__ref_storage_bottomExtension</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1a07550c94f45ef0b907e52569891c5f93" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>__ref_storage_smooth</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1a904cc7c68399527103e587631bd5e347" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FixParams_1a685b149e70b08995f64d2e9eba1f4536" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>assign</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FixParams_1a9a9a5fc1340288e9351b0d8398c15b9b" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>bottomExtension</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FixParams_1acee266d3797bc18adae5a6f4a9e1711f" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1ae617045fb144da8df6c251d0bf28768b" prot="package" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>Const_FixParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1ad98ee84f9460c29e2c0320d41061a180" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>Const_FixParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1a3eef53a12ea92c6716dc599b742e5f1b" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>Const_FixParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1a5a35ef48610636cbc68b3b93e4abeb4a" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>Const_FixParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1a166a2167d033a00194dc41c2485c6fca" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>Const_FixParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1ae21d4550f7b0d9ac4ce3b035876296ac" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>Const_FixParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1a18dc406028b945e6373cf522141e1eac" prot="protected" virt="virtual"><scope>MR::FixUndercuts::FixParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FixParams_1aa1209f77b87b1c14379eff363c3f03af" prot="public" virt="virtual"><scope>MR::FixUndercuts::FixParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FixParams_1af24dfe8f4b1d0b15ec63bdb8392b2d7c" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>findParameters</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FixParams_1ae0fe6f33147ace9728853e923c8e1f05" prot="package" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>FixParams</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FixParams_1a69615acd13b4a1a82cb9800996600d58" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>FixParams</name></member>

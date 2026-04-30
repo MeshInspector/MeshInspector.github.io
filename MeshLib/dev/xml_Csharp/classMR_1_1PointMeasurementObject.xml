@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointMeasurementObject" kind="class" language="C#" prot="public">
     <compoundname>MR::PointMeasurementObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointMeasurementObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointMeasurementObject" prot="public" virt="non-virtual">MR.Const_PointMeasurementObject</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a9677dcf503410e396543611a9465bf71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -304,7 +304,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.ObjectComparableWithReference.Const_ComparisonTolerance?</type>
+          <type><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance" kindref="compound">MR.ObjectComparableWithReference.Const_ComparisonTolerance</ref>?</type>
           <declname>newTolerance</declname>
         </param>
         <briefdescription>
@@ -350,11 +350,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -373,11 +373,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.PointMeasurementObject.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -396,11 +396,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.PointMeasurementObject.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -438,7 +438,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.PointMeasurementObject.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -461,12 +461,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ac0eaa081ff4430f6bab750675071d878" kindref="member">MR.PointMeasurementObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ac0eaa081ff4430f6bab750675071d878" kindref="member">MR.PointMeasurementObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -665,12 +665,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a5b4d72b9958b0f4419b7ce5cfd3b120d" kindref="member">MR.PointMeasurementObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a5b4d72b9958b0f4419b7ce5cfd3b120d" kindref="member">MR.PointMeasurementObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -939,12 +939,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a1f42cba795f60292fc578d6f23a52326" kindref="member">MR.PointMeasurementObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a1f42cba795f60292fc578d6f23a52326" kindref="member">MR.PointMeasurementObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1141,12 +1141,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a2c452328a07eb37f40e7a4a436e28e98" kindref="member">MR.PointMeasurementObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a2c452328a07eb37f40e7a4a436e28e98" kindref="member">MR.PointMeasurementObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1161,7 +1161,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.PointMeasurementObject.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1241,7 +1241,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.ObjectComparableWithReference.Const_ComparisonReferenceValue</type>
+          <type><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue" kindref="compound">MR.ObjectComparableWithReference.Const_ComparisonReferenceValue</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -1268,6 +1268,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointMeasurementObject</label>
+        <link refid="classMR_1_1Const__PointMeasurementObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1289,6 +1290,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointMeasurementObject</label>
+        <link refid="classMR_1_1Const__PointMeasurementObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1308,8 +1310,73 @@
       <member refid="classMR_1_1PointMeasurementObject_1a98a32353dfc0a24de617a11f613f9698" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1aab97c952c7fcb2a9d82ef269f7703b98" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a6d02c48584132c74fd2d1513155cd42c" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a53ee8ab3715a493adaac7539b8a04c7b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a7b91f77a2dfa3b7b58ebb931ba9168e8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a77c226e99d5d162fcfc7e12f9172c354" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a6c33163101f415360cf783b447d1985e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a27a6b3e0497b03894a137a8b9ff8ea54" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a88a84c9d9d72ff20341bc96ded82c1e9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>computeComparableProperty</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a6f4a573fd04d9ad0c2bfdc86ad15251f" prot="package" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Const_PointMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ab5deaf3a966a50000c59a6f98716649a" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Const_PointMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ad82e324ceba5423399a3454c7f70c1ed" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>Const_PointMeasurementObject</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1adbc9d894efaae94e910892cafa543338" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1aa1e773aec36a51592b97f13da62fe267" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1af616453898ae055ec23f6ab71339bd9e" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1adb84c9bd4e36225a663729109689f710" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a5dd0dad53195c0b2a0ed461cc14253f2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a20499d535fa522fc733fc9cd577f17cb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a2a7e567127e8541d511ad064b309e076" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a961dca1dfd84caa34d04be1bf75a9199" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a0bbf9821d7181a7f9acfc1d21aba3f0d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a1090ff8b7f49abed92cc1cce65409d06" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a927154b6a5334a097ca9c8a2d2aaaad7" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparablePropertyName</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1aafed92f90efbe64ad569e8ecd73c3b2e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a77650394c805714966ce819bf25a5ec4" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a9db499204b83ab2de183246579ba26c6" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getComparisonTolerence</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1aea9288613793d66ea174651c84499b8b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1acd58839dc7b62f74782feecffc8befcb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a383cbc27d7e31e60f5ea01e0b1dd7eaa" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a8f1952746ceaea3ad366bc89fb997fe3" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a4f294612a09877414d317a32968dcc19" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ae26c9bb707e1e9879f4a7d8c82af63b1" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a9e5c71c5d38259f446cc6f04ad78dd7b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a156dd119f62ab3df35757b66d24d4dfb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a2bd5a78631b7103d852b8841bd5331a9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ae7b10d503fc456d2da7a7e215a376aa4" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a90bc9de1380eb745fddd940613ef500b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ab2e8de6c61153cae63ff664df0258a84" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1adfd947b0ff68d424758ce60ce3b0fb9b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a17d6382dafffb99315d304fe565dfe6e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a20a8ed4e5135b82c48a4f05f696730c4" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a21adc1a54be75e17a20f2511748af628" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a6d129823b5f61a7abce8e8cc16c66640" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a4839cfd73be278105a9815ac2d187c93" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a60ac65512331825fc145828d2f320fb8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a572aceb3fa3ef5ce75aab37aab94b4b9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ab18802125fa29442774d6b9abe92bdd3" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a903edbb4ec37e9fd56fdf5673e536390" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1aa4567b3ab68dd9f8a33e24940b42958f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a0a3b950e4f768262728395e86fb76e17" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a51371a8aec2138a7b188d3fe2f6384a2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a05c6860e3453a263d85015a21336489d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1af08c303912cfbd070a0838836f1c087f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a7cdf40cf2f06cf388ff1364525c2e272" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1afc38767c9352053c19a5af741fee6a6c" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a82d4d138bbed619d7a73cbff5447367b" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1acabc21b3d32eca18ab5bafd00e86e3c5" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a7f7eaaa50cb77d4fda52008de9313328" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a3e613fb94057051bb92e0e25c55edd52" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1af5b93a33a64d3b8d01ae17ffc467d387" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>numComparableProperties</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a804941efd39486d76e62bfae7feb468f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a37d2429dc9ea36e21a2e30cc704826d5" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator Const_PointMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a8f26dc785beb0fc00094f3b6202752f1" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator Const_PointMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a82b41a7be9d99c7693bc267088f5fe83" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator Const_PointMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1aeaf066695c1a173656ebc1179a97b72e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator Const_PointMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1aa37dab846321f0067376d52301293063" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.Const_MeasurementObject</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a8fc492a9daf82e552ac89040aefc2293" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a1e2b2d54382e8c0071cc47d9117cd888" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a18dd8f9d2007d4b57c2da5e459424a2a" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.Const_ObjectComparableWithReference</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a386ebe3b7e2a23986f0339b46b3f65f2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1adf4a123c7138b9e554141125752b7265" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.MeasurementObject</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a8263670ae548a44b6f46d379344fc706" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a9677dcf503410e396543611a9465bf71" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
@@ -1324,9 +1391,16 @@
       <member refid="classMR_1_1PointMeasurementObject_1a54fc9b516dbcbbde5f47c545e1521c84" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a6e2100bee82267f293638a4292356a0f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1ae653d3bcea21ee7d81f4600928ebda37" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a1de78cc70ed5007af173a5b93428ebf1" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a11414f8654661ff390bc29e428d1dbcc" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a0165507422dbd46f503be5a5c7d89618" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>renderUi</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1ab0467fdc78deda56d06727d9adaac5e2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1aac4e5f983881c6895740c1c88766b631" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ae4607e2abbee63146f81944e54276c46" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1aaf7f3596264f3f459659ed182e2ea7ae" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ada43f2e32dd99d3b48398b046c301146" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1aa7a07b88fb01acae8b1d12b63aac369f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1aa4835b2160f096f3e6451cd51c665981" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a1e8897c00d2bbb9e0eee94af876086b8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>select</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a4be3ac1ef6b47643505c1955b5229bd4" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1ab013dd820787733e7b2ae5d24be95f59" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setAmbientStrength</name></member>
@@ -1360,9 +1434,22 @@
       <member refid="classMR_1_1PointMeasurementObject_1adc50b06334782cba5f837fffaed8b37e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a4c0766b00af5568cc3cdf2d3078a9b90" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a99b1d7b175252a2574e7acdb3862d114" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a75f1c39e5f172f820ed87dcd143f5aab" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a492896352859cd99e79106d6ef7d08c0" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1ab945d4a829047e50f3ed07c105fc75e3" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a08cbde8128ed9095443a99d01fe05a37" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a4d25029c7351f959e17a385ab66513bc" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ad2d4a57879efae79cc8b0ff7654e27ac" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a117790c559560b35e944b45d91bf2a0e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a03413ef882c3bb33b1e1213e196e2527" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a8e639710ba65b1c72615c2057fe48d03" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>tags</name></member>
       <member refid="classMR_1_1PointMeasurementObject_1a4c7eeca60200c44d4987ef1082b39fae" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ae34e196db728f977951d3454690dc7fd" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1acef5745b290967e0f1f8c98a885dcd02" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a1337a4e8b50b9ed7108e981b94a28ea8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1a1040b9e40fab36c651d663ea9fcfb57d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1ab3ed43bf7a8352b24399e533de06ad33" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__PointMeasurementObject_1acc067c0c6d5a7e41b20408e948fa1397" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

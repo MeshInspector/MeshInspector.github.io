@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LineInterpolationParams" kind="class" language="C#" prot="public">
     <compoundname>MR::LineInterpolationParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LineInterpolationParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LineInterpolationParams" prot="public" virt="non-virtual">MR.Const_LineInterpolationParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LineInterpolationParams_1a1db43807bc61db1747fdf2d0997c44c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -143,7 +143,7 @@
         <name>LineInterpolationParams</name>
         <qualifiedname>MR.LineInterpolationParams.LineInterpolationParams</qualifiedname>
         <param>
-          <type>Const_LineInterpolationParams</type>
+          <type><ref refid="classMR_1_1Const__LineInterpolationParams" kindref="compound">Const_LineInterpolationParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LineInterpolationParams</label>
+        <link refid="classMR_1_1Const__LineInterpolationParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -229,6 +230,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LineInterpolationParams</label>
+        <link refid="classMR_1_1Const__LineInterpolationParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -243,8 +245,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1517" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1518" bodyend="1614"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1abbaff537533541b9f7e8493013f67a70" prot="protected" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>__ref_storage_eps</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a85b5c0b60f204e1aa1e8156f692197ba" prot="protected" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>__ref_storage_maxLength</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a7307e96c23cbeccc7a4656d5a6e1694d" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>assign</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a0268ab329f3668e886e3259d122bac4b" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a0cd1aa08a6cf10629ddb1944fd80a962" prot="package" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a75374b8ae342285e0b4537b31e147d90" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1ad6822df85961cbdf85659c498b1624a2" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a1661555fa57cf1b96d2539155fdb8ddd" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a620ed3b07dfb6867548ca0647ba041d8" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a23e040451f6cfc96522e3a513c5a1eb6" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a59253487a0744eeb4f266dd4e8605f76" prot="protected" virt="virtual"><scope>MR::LineInterpolationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a5c4389f8b4dbb72b14fe7d299663bbf3" prot="public" virt="virtual"><scope>MR::LineInterpolationParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a1db43807bc61db1747fdf2d0997c44c9" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>eps</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a1f59ae9ebb9faf8b1af0ef778b79864c" prot="package" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>
       <member refid="classMR_1_1LineInterpolationParams_1a36dfa8dcd527827dc4c466d5ae8c50a7" prot="public" virt="non-virtual"><scope>MR::LineInterpolationParams</scope><name>LineInterpolationParams</name></member>

@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DenseBox" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DenseBox</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DenseBox" prot="public" virt="non-virtual">MR.DenseBox</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a9074e8f140c8dd6a2205333fe4d80e0a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DenseBox.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DenseBox.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a4316fd74195449e4121645b7ed40a207" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DenseBox.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DenseBox.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1ad424bc725ffca4bcb771bf3fa187b4ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenseBox.Const_DenseBox</definition>
+        <argsstring>(MR.Const_DenseBox _other)</argsstring>
+        <name>Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.Const_DenseBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DenseBox" kindref="compound">MR.Const_DenseBox</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="34" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="34" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1aa42ee4054663643664efe4a4f63abc97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DenseBox.Const_DenseBox</definition>
+        <argsstring>(DenseBox _other)</argsstring>
+        <name>Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.Const_DenseBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DenseBox" kindref="compound">DenseBox</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="45" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a1062e17ec2ffc347b71a41ff0583d6b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenseBox.Const_DenseBox</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f points, MR.AffineXf3f? xf=null)</argsstring>
+        <name>Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.Const_DenseBox</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Include given points into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="51" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a82f7a2ce0be88c7327751ceda7e7a2dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenseBox.Const_DenseBox</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f points, MR.Std.Const_Vector_Float weights, MR.AffineXf3f? xf=null)</argsstring>
+        <name>Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.Const_DenseBox</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_Float</type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Include given weighed points into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="70" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="70" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a0c95c1c9f460deab7c2cece2c524e61c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenseBox.Const_DenseBox</definition>
+        <argsstring>(MR.Const_MeshPart meshPart, MR.AffineXf3f? xf=null)</argsstring>
+        <name>Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.Const_DenseBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Include mesh part into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="84" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a439352cd60d3d19634fd81fe425f33a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenseBox.Const_DenseBox</definition>
+        <argsstring>(MR.Const_PointCloud points, MR.AffineXf3f? xf=null)</argsstring>
+        <name>Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.Const_DenseBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Include point into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="103" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="103" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a57741b40ff9a476c03dda3a7f43fc297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenseBox.Const_DenseBox</definition>
+        <argsstring>(MR.Const_Polyline3 line, MR.AffineXf3f? xf=null)</argsstring>
+        <name>Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.Const_DenseBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Include line into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="122" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="122" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a46c1352ef97744c3ac495b6c4d491855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_DenseBox.center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Const_DenseBox.center</qualifiedname>
+        <briefdescription>
+<para>returns center of dense box Generated from method <computeroutput><ref refid="classMR_1_1Const__DenseBox_1a46c1352ef97744c3ac495b6c4d491855" kindref="member">MR.DenseBox.center</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="141" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="141" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1aaa5be17482f663f6e218cac9bbc94e9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_DenseBox.corner</definition>
+        <argsstring>(in MR.Vector3b index)</argsstring>
+        <name>corner</name>
+        <qualifiedname>MR.Const_DenseBox.corner</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>returns corner of dense box, each index value means: false - min, true - max example: {false, false, flase} - min point, {true, true, true} - max point Generated from method <computeroutput><ref refid="classMR_1_1Const__DenseBox_1aaa5be17482f663f6e218cac9bbc94e9a" kindref="member">MR.DenseBox.corner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="153" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="153" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a667faf5dac5fa677ae881041f4cd16d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_DenseBox.contains</definition>
+        <argsstring>(in MR.Vector3f pt)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR.Const_DenseBox.contains</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns true if dense box contains given point Generated from method <computeroutput><ref refid="classMR_1_1Const__DenseBox_1a667faf5dac5fa677ae881041f4cd16d6" kindref="member">MR.DenseBox.contains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="167" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="167" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1af19b5fe30912ea230e8bb698c5da30bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe ref readonly MR.Box3f MR.Const_DenseBox.box</definition>
+        <argsstring>()</argsstring>
+        <name>box</name>
+        <qualifiedname>MR.Const_DenseBox.box</qualifiedname>
+        <briefdescription>
+<para>return box in its space Generated from method <computeroutput><ref refid="classMR_1_1Const__DenseBox_1af19b5fe30912ea230e8bb698c5da30bf" kindref="member">MR.DenseBox.box</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="181" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="181" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1ab405c359ea8d88f490d5572d6a9690d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_DenseBox.basisXf</definition>
+        <argsstring>()</argsstring>
+        <name>basisXf</name>
+        <qualifiedname>MR.Const_DenseBox.basisXf</qualifiedname>
+        <briefdescription>
+<para>transform box space to world space Generated from method <computeroutput><ref refid="classMR_1_1Const__DenseBox_1ab405c359ea8d88f490d5572d6a9690d6" kindref="member">MR.DenseBox.basisXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="192" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="192" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a4a9d78350da531acbfa586af5657c61f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_DenseBox.basisXfInv</definition>
+        <argsstring>()</argsstring>
+        <name>basisXfInv</name>
+        <qualifiedname>MR.Const_DenseBox.basisXfInv</qualifiedname>
+        <briefdescription>
+<para>transform world space to box space Generated from method <computeroutput><ref refid="classMR_1_1Const__DenseBox_1a4a9d78350da531acbfa586af5657c61f" kindref="member">MR.DenseBox.basisXfInv</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="203" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="203" bodyend="208"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1aabd11473abe70d4dfb60e924858ac011" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DenseBox.~Const_DenseBox</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.~Const_DenseBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1af83c59c1ad81d4c10b3cc8b62ac47c45" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DenseBox.Const_DenseBox</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.Const_DenseBox</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="29" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a2d35e8368b5076485978a141fd680480" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_DenseBox.operator Const_DenseBox</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f points)</argsstring>
+        <name>operator Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.operator Const_DenseBox</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+<para>Include given points into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="64" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1ab10566f60944ee8614b9bc3d862508d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_DenseBox.operator Const_DenseBox</definition>
+        <argsstring>(MR.Const_MeshPart meshPart)</argsstring>
+        <name>operator Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.operator Const_DenseBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
+          <declname>meshPart</declname>
+        </param>
+        <briefdescription>
+<para>Include mesh part into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="97" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a8e437c1bbbd4847a01f4ce082df0462e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_DenseBox.operator Const_DenseBox</definition>
+        <argsstring>(MR.Const_PointCloud points)</argsstring>
+        <name>operator Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.operator Const_DenseBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+<para>Include point into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="116" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DenseBox_1a3f775513202cbbf53d0e5a36d4956676" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_DenseBox.operator Const_DenseBox</definition>
+        <argsstring>(MR.Const_Polyline3 line)</argsstring>
+        <name>operator Const_DenseBox</name>
+        <qualifiedname>MR.Const_DenseBox.operator Const_DenseBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+<para>Include line into this dense box Generated from constructor <computeroutput><ref refid="classMR_1_1DenseBox_1a2f01b359ffb4eaec35d03e60d106656f" kindref="member">MR.DenseBox.DenseBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="135" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="135" bodyend="135"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure to hold and work with dense box. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Scalar operations that are not provided in this struct can be called via <computeroutput><ref refid="classMR_1_1Const__DenseBox_1af19b5fe30912ea230e8bb698c5da30bf" kindref="member">box()</ref></computeroutput> For example <computeroutput><ref refid="classMR_1_1Const__DenseBox_1af19b5fe30912ea230e8bb698c5da30bf" kindref="member">box()</ref>.size()</computeroutput>, <computeroutput><ref refid="classMR_1_1Const__DenseBox_1af19b5fe30912ea230e8bb698c5da30bf" kindref="member">box()</ref>.diagonal()</computeroutput> or <computeroutput><ref refid="classMR_1_1Const__DenseBox_1af19b5fe30912ea230e8bb698c5da30bf" kindref="member">box()</ref>.<ref refid="classMR_1a9746e4d2c8c0e87376f83e20494d4bfc" kindref="member">volume()</ref></computeroutput> Non const operations are not allowed for dense box because it can spoil density Generated from class <computeroutput><ref refid="classMR_1_1DenseBox" kindref="compound">MR.DenseBox</ref></computeroutput>. This is the const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DenseBox</label>
+        <link refid="classMR_1_1Const__DenseBox"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DenseBox</label>
+        <link refid="classMR_1_1DenseBox"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_DenseBox</label>
+        <link refid="classMR_1_1Const__DenseBox"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDenseBox.cs" bodystart="12" bodyend="209"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DenseBox_1ab405c359ea8d88f490d5572d6a9690d6" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>basisXf</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a4a9d78350da531acbfa586af5657c61f" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>basisXfInv</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1af19b5fe30912ea230e8bb698c5da30bf" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>box</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a46c1352ef97744c3ac495b6c4d491855" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1af83c59c1ad81d4c10b3cc8b62ac47c45" prot="package" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1ad424bc725ffca4bcb771bf3fa187b4ff" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1aa42ee4054663643664efe4a4f63abc97" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a1062e17ec2ffc347b71a41ff0583d6b6" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a82f7a2ce0be88c7327751ceda7e7a2dc" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a0c95c1c9f460deab7c2cece2c524e61c" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a439352cd60d3d19634fd81fe425f33a1" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a57741b40ff9a476c03dda3a7f43fc297" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a667faf5dac5fa677ae881041f4cd16d6" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>contains</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1aaa5be17482f663f6e218cac9bbc94e9a" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>corner</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a9074e8f140c8dd6a2205333fe4d80e0a" prot="protected" virt="virtual"><scope>MR::Const_DenseBox</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a4316fd74195449e4121645b7ed40a207" prot="public" virt="virtual"><scope>MR::Const_DenseBox</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a2d35e8368b5076485978a141fd680480" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>operator Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1ab10566f60944ee8614b9bc3d862508d4" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>operator Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a8e437c1bbbd4847a01f4ce082df0462e" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>operator Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1a3f775513202cbbf53d0e5a36d4956676" prot="public" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>operator Const_DenseBox</name></member>
+      <member refid="classMR_1_1Const__DenseBox_1aabd11473abe70d4dfb60e924858ac011" prot="private" virt="non-virtual"><scope>MR::Const_DenseBox</scope><name>~Const_DenseBox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

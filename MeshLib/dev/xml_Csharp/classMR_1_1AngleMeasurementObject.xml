@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AngleMeasurementObject" kind="class" language="C#" prot="public">
     <compoundname>MR::AngleMeasurementObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AngleMeasurementObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AngleMeasurementObject" prot="public" virt="non-virtual">MR.Const_AngleMeasurementObject</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1AngleMeasurementObject_1a0a700227180d90745fa4647da46515c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -304,11 +304,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -327,11 +327,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.AngleMeasurementObject.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -350,11 +350,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.AngleMeasurementObject.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -392,7 +392,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.AngleMeasurementObject.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -415,12 +415,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1afdced319e9d3fee8c61658df82158eb5" kindref="member">MR.AngleMeasurementObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1afdced319e9d3fee8c61658df82158eb5" kindref="member">MR.AngleMeasurementObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -619,12 +619,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1a3fca06007f4dffd95a592db4ea387ad3" kindref="member">MR.AngleMeasurementObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1a3fca06007f4dffd95a592db4ea387ad3" kindref="member">MR.AngleMeasurementObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -893,12 +893,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1a8f14b15d855851ef1724307bdb5214bc" kindref="member">MR.AngleMeasurementObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1a8f14b15d855851ef1724307bdb5214bc" kindref="member">MR.AngleMeasurementObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1095,12 +1095,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1a2419807815628e1563880f35d745b975" kindref="member">MR.AngleMeasurementObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1a2419807815628e1563880f35d745b975" kindref="member">MR.AngleMeasurementObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1115,7 +1115,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.AngleMeasurementObject.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1199,6 +1199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AngleMeasurementObject</label>
+        <link refid="classMR_1_1Const__AngleMeasurementObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1220,6 +1221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AngleMeasurementObject</label>
+        <link refid="classMR_1_1Const__AngleMeasurementObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1242,20 +1244,87 @@
       <member refid="classMR_1_1AngleMeasurementObject_1a8f983407082c41ce38f66c858bb6582a" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>AngleMeasurementObject</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a63999afe893007dbf06fd12fd4f55bc2" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a4274fd70736f6ad8fddabc96bf5df518" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ac11b669a15f6be4fd7c44095fa1092ff" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8c56f9d434d4f608da1c76ea64f8185c" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aba503b044b95472f19ae8f38000b3816" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a0aa4a283d423a063faa2c16e940cc560" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8e071f1462d52b87c43efb48a75c01d8" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>computeAngle</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1afd9c3f2ac3d838f1af781ee58c23571d" prot="package" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>Const_AngleMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aceadcda42eef5fe5720c16807087055f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>Const_AngleMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a049da5e68c22d02ff2f9543f700a5317" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>Const_AngleMeasurementObject</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1addf8e8e93f39514238b0f08ffe117a1d" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a3fbe4ac36f396c5ad6ae9a2b2ef053f2" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a5c0a0e775b488b4694916f0cc654baed" prot="protected" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a2a8df7467391bccedc23d69e812f4045" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1abee1f78a7287b4a92eb2cbbae57050ba" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a99269e28242066ab28ae482f8e281fd5" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ae9cd015ef39c91c5e2d4eb882f385e13" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ad80b2a7c700404d8e7c0b9c7fe9b1a13" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aeacac9a58475cda06067ba0be76fa6f0" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a4fc6fdf1c2cf7fdde664f1c2a24d5d52" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a1e54bd44188e32d359c9ebd09b28fe10" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1abf5adf0d9b8de110478b781940c63b62" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a1b85da8f89ea1be3eb3ac23e0c4e3f1b" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab18865811484aa9436461c5020181523" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8bee07dbac6ef2fd2ffb2828e5e3b762" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aefe8ed1cab8da77386e7c8e01d17a59e" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a9a3882437072d7f38c52c12f73eee30d" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getIsConical</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a7aa2154a3099fcbd8071d41f5cecc09f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa5df18e6bdf7b505fde5692da0f31144" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getLocalRay</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a95313d405f83b344b3bac7fbc4581e9d" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a6c56df1a75aa5fa48fb208b91e11e233" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1abc1200f2c4d85b28824c9e159003ac1a" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa7935356dc30759b90f2cb1a414cdac4" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a4f6e9fe0824b846116d29c98e4ada9c4" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getShouldVisualizeRay</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a5235a2ef6a51b7762fee8a0e839a8a57" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a4c54a906613dfbebaf7341ce8b02cce5" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a1975ddc6673ede2a0359676793ba8c7d" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8b0ee1c5343990678d2941fe96b75214" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab9d0515b84f6ba3abd11ae992ab8a28c" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a82d03731f3b09d867e6faca199a9bcda" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldRay</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a96f240137535e3e49cd9cc9961da0034" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8f3ab81dd86a89af19aa91473ce1ba6c" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1acfa69c0d35def3b037e22721842cf805" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a69379459b4271e856c183ed68886164b" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a83f87f597247431af6d4c63af063f8c6" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a71f3289fa04fe607056642a17985a1c2" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a353c2eedc7abd9247c5751710083a166" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a09a08506ea6eb2de19fffe228f80a9e9" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1af2356b2510685935417925d53639afed" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1acdb10518a4b1bc9c74865377931e58b3" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a4a3fc30ac34d9de1a468d17e9eaf2f64" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a01fb385345729e730e1592a53b3d436d" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aac5f7d50301817eda19ca80cd31e3b46" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab075d8a63601c97c0ae49101825c00e3" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a2d9eaafe315817373eea9117451ba2d5" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab2c3a4c147cbff912a83eae5038d6fbd" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a3bbdb09cbc44270397afbc6f045b004d" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>name</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a850579728dcb1fd8cb99b89c7c331fc7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator AngleMeasurementObject?</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a68fd9041c2e33a6cbd50726b49ca4cb0" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator AngleMeasurementObject?</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a5bde37f298be57b217a798fd76a18958" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator AngleMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a5cf8b262b80afadfaad945de4d2b016c" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator Const_AngleMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab44fc1e95f49f9f725fffd11ec948519" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator Const_AngleMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a0d89b7b0cbbee44b3f8800825bb94006" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator Const_AngleMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1af2dae94e2d479801b2ddba98df268577" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator MR.Const_MeasurementObject</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aecc842ea4d8b9929b400892ac65a5839" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a62c80c929df03a7d7e39acd27e0ac768" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a293e82493bd6106a38e153f5732a419f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a26fcf9e5e28f4054ca88fc4eb79592e5" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator MR.MeasurementObject</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1af96f8bf146ac0d1214f701d3fb0067e2" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a0a700227180d90745fa4647da46515c9" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1abf8ef887b0d1351940df9251aab60d96" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>operator MR.VisualObject</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a3d42a2b0e81308e7354fe180367a7b8c" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1ac9cbf9c9450320ba3c6a34bea0daee35" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ade6a1ac9e980e0a71fcac1d864898163" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a66bc3db7badecf38deb4b2f261477d78" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a6300ce188125aece964e838bfae55179" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>renderUi</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a033920e740b4622bc75d231114e3c8a5" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab340b053e7b8eb682ff32e53e26d62f7" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aef94b6bb4b96d3a580138b9d45e8286e" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1acb640cf9586b1b9be483c194fa810982" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a500d565df8636d3b5a28dd77efdfc18f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a311db1436022d843e4e871940537fbf0" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1af10375f344c2a0829f48643158152474" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a52bcb8e982fc53b78fb482c730896b17" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>select</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a365936652455eca4fc8851c2e258f0f9" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1ad4561dad529be9e6054b961735c206f6" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setAmbientStrength</name></member>
@@ -1288,9 +1357,22 @@
       <member refid="classMR_1_1AngleMeasurementObject_1aa8700b14e22604a9b1a3954f189bcf15" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a2a6163361c03630d5e9799bbb9f8ef49" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1ad3b4ee3c17de77f1dc14afc96c522d0a" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ad51bf4a578e709961d1006a533bd7d4d" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a73be91aae48ed82706836208901bf33f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a8a72b377d5709d041b5443b6585193d9" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a49efa27a9ecaec0236f0708a07a6020f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a452819bbe8c994a160177d0a95b73924" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa12a365c6ac950ce0d290ef67a2cc6e2" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1afe1dce4e6b752f6666590359ad82ad2e" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a872d60593778af06b23c0d77ca248d66" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ae0ae1c1555e7be7c4103adcea8bd8366" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>tags</name></member>
       <member refid="classMR_1_1AngleMeasurementObject_1a7fa63a198a000c5ef6eca4a133b4e640" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a94dffb6ff8993d79b83cf57f56bb9694" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a1b01174ce1af26cca72593e71626c937" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a888f501e1c1004eac15f0a18cbcfe995" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a60039ba059e5aee43efc5b5909ba050f" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa1a28a2a57f71865f285e1cc5d22e100" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa2fad1892491f8f78c21ffe617b167b1" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

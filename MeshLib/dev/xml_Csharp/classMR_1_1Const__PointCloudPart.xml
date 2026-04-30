@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PointCloudPart" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PointCloudPart</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PointCloudPart" prot="public" virt="non-virtual">MR.PointCloudPart</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PointCloudPart_1aad38fd2c083065cd0c92f329dbb8b9c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+        <definition>unsafe MR.Const_PointCloud MR.Const_PointCloudPart.cloud</definition>
+        <argsstring></argsstring>
+        <name>cloud</name>
+        <qualifiedname>MR.Const_PointCloudPart.cloud</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="26" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointCloudPart_1a86196681079be79f83490d075c0d2bd3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
+        <definition>unsafe MR.? Const_VertBitSet MR.Const_PointCloudPart.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.Const_PointCloudPart.region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="29" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="30" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__PointCloudPart_1a3eb9e87c4074a47b0cf19e3687d8bc53" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_VertBitSet._Underlying** MR.Const_PointCloudPart.__ptr_storage_region</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_region</name>
+        <qualifiedname>MR.Const_PointCloudPart.__ptr_storage_region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="42" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointCloudPart_1a1633fcb6184bd676d24eaa6e7c53edfb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PointCloudPart.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointCloudPart.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointCloudPart_1afdde52b46b7c9f5af4faf3c09854cff6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PointCloudPart.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointCloudPart.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloudPart_1a90a3d7821482cbe09e5f743f5ba44ba9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointCloudPart.Const_PointCloudPart</definition>
+        <argsstring>(MR.Const_PointCloudPart other)</argsstring>
+        <name>Const_PointCloudPart</name>
+        <qualifiedname>MR.Const_PointCloudPart.Const_PointCloudPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloudPart" kindref="compound">MR.Const_PointCloudPart</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointCloudPart_1a186cdd09153352462ff1dbc6184c0932" kindref="member">MR.PointCloudPart.PointCloudPart</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="77" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="77" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloudPart_1a7d5e2a63b78aebd3db1699de9d5f06bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointCloudPart.Const_PointCloudPart</definition>
+        <argsstring>(PointCloudPart other)</argsstring>
+        <name>Const_PointCloudPart</name>
+        <qualifiedname>MR.Const_PointCloudPart.Const_PointCloudPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointCloudPart" kindref="compound">PointCloudPart</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointCloudPart_1a186cdd09153352462ff1dbc6184c0932" kindref="member">MR.PointCloudPart.PointCloudPart</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="90" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointCloudPart_1a32fa79b257d5ac398f33be4054209988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointCloudPart.Const_PointCloudPart</definition>
+        <argsstring>(MR.Const_PointCloud c, MR.Const_VertBitSet? bs=null)</argsstring>
+        <name>Const_PointCloudPart</name>
+        <qualifiedname>MR.Const_PointCloudPart.Const_PointCloudPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
+          <declname>bs</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointCloudPart_1a186cdd09153352462ff1dbc6184c0932" kindref="member">MR.PointCloudPart.PointCloudPart</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="95" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="95" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointCloudPart_1abe7dfd40f460d853ff663aa479c1294c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointCloudPart.~Const_PointCloudPart</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PointCloudPart</name>
+        <qualifiedname>MR.Const_PointCloudPart.~Const_PointCloudPart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointCloudPart_1a79bf0cb82addb6718077ea9a57c079e8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointCloudPart.Const_PointCloudPart</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PointCloudPart</name>
+        <qualifiedname>MR.Const_PointCloudPart.Const_PointCloudPart</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="65" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="65" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointCloudPart_1a3b527514b908ba9d62546128e6158f3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_PointCloudPart.operator Const_PointCloudPart</definition>
+        <argsstring>(MR.Const_PointCloud c)</argsstring>
+        <name>operator Const_PointCloudPart</name>
+        <qualifiedname>MR.Const_PointCloudPart.operator Const_PointCloudPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointCloudPart_1a186cdd09153352462ff1dbc6184c0932" kindref="member">MR.PointCloudPart.PointCloudPart</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="108" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents full point cloud (if region is nullptr) or some portion of point cloud (if region pointer is valid) Generated from class <computeroutput><ref refid="classMR_1_1PointCloudPart" kindref="compound">MR.PointCloudPart</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PointCloudPart</label>
+        <link refid="classMR_1_1Const__PointCloudPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PointCloudPart</label>
+        <link refid="classMR_1_1PointCloudPart"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_PointCloudPart</label>
+        <link refid="classMR_1_1Const__PointCloudPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="9" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PointCloudPart_1a3eb9e87c4074a47b0cf19e3687d8bc53" prot="protected" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1aad38fd2c083065cd0c92f329dbb8b9c2" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>cloud</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a79bf0cb82addb6718077ea9a57c079e8" prot="package" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a90a3d7821482cbe09e5f743f5ba44ba9" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a7d5e2a63b78aebd3db1699de9d5f06bf" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a32fa79b257d5ac398f33be4054209988" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a1633fcb6184bd676d24eaa6e7c53edfb" prot="protected" virt="virtual"><scope>MR::Const_PointCloudPart</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1afdde52b46b7c9f5af4faf3c09854cff6" prot="public" virt="virtual"><scope>MR::Const_PointCloudPart</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a3b527514b908ba9d62546128e6158f3e" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>operator Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a86196681079be79f83490d075c0d2bd3" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1abe7dfd40f460d853ff663aa479c1294c" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudPart</scope><name>~Const_PointCloudPart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRVoxelId__MRVoxelId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRVoxelId_MRVoxelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRVoxelId_MRVoxelId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId" prot="public" virt="non-virtual">MR.Const_Vector_MRVoxelId_MRVoxelId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRVoxelId__MRVoxelId_1ab95dee55dad454c87e3daa7ec158b1fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRVoxelId_MRVoxelId</name>
         <qualifiedname>MR.Vector_MRVoxelId_MRVoxelId.Vector_MRVoxelId_MRVoxelId</qualifiedname>
         <param>
-          <type>Const_Vector_MRVoxelId_MRVoxelId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId" kindref="compound">Const_Vector_MRVoxelId_MRVoxelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRVoxelId_MRVoxelId</label>
+        <link refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRVoxelId_MRVoxelId</label>
+        <link refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a83edf05bc71fa65aed226e94a1f1c5e5" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1ae95102b946b69079013a003c2fdadcd4" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a9638d470a88e1fa53eba67ecd7c82569" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a1dd379d80841873bc1d8d3776e3b10f4" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a556182fcb2ab98bf2e8daa3bb0cf4449" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1ae17ceb62b5cbff2611fc941d33abbf5d" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a5e2b606e4a3d17698f0caefa350925a0" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a1ef08881fd78c528b8e389ed2d8b80e2" prot="package" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Const_Vector_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a5cb6998256bae6910e2c0d4f406676e8" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Const_Vector_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1adb2917d4eba19ead81812ee9c9f1436d" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Const_Vector_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a485919e84b6a741c7b5728659d075d84" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Const_Vector_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a7457de9f29c373ef7da508843912c4c3" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Const_Vector_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a7ebc51a697cc16cdadb9e6a3d9de5380" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Const_Vector_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a1aa005acc84df73b332b0ed667ef6fe5" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Const_Vector_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a4c33a06e9d1c00186c517170cc28a129" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Const_Vector_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a446de4ef1f4054643fc3d1d50892c260" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1abb60ffcdf1024265acca8e00a89bf059" prot="protected" virt="virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a51bec657687825004cd3409813336c8d" prot="public" virt="virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a61f7f33e0c0d88c879b5ba47f7dd27ba" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1aca7bd6704ceaa8a96081a7c8f6225800" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1aada5e8363685295d4021a6c2ac800e59" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a2ef05c24e07d2ef4b3d9eece383f1ec3" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a72a0cd7b7dceb90dc3995d28f4d8fc40" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a1d5828909188a7fbf3715b0a07424d46" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a712ee94f8efef97cd8bcb761c78b8825" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a4aa43ed82e106e3514d5221dd6c92800" prot="private" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a5f9ce846068af5d69f15f703b53a7496" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a0faab6bfd92a5d6484dc317a1ad17536" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>operator Const_Vector_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1aa5e68ff10318c3129656c369b55015e7" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>operator Vector_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1a1487a3cd587756159294ce2e76757a12" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1aaa80d6bbdf80ee30ba03bc0036d2429c" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1af2ac6d9c7f78ecd9abc03b813b99c8f7" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a232298adb02e422b16bbb59bfb18d50e" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a9871e3382c00d6d7ca22c9ba7bef4976" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a1a44432ed741956f34cedfdd0d270b86" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1aab450a017d0674426f0f12b37102adce" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a897c814cfd092cfca5f02165caed2d68" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId_1ad189c414e83221d0898174149ba08a3e" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a477441f7bb189c5a74d7a5a4a593a908" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a006800bbe892256a9a754c4c86fe7543" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>this[MR.VoxelId i]</name></member>
       <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1ab95dee55dad454c87e3daa7ec158b1fa" prot="public" virt="non-virtual"><scope>MR::Vector_MRVoxelId_MRVoxelId</scope><name>vec</name></member>

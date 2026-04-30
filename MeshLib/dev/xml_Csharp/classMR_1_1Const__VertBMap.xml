@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VertBMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VertBMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VertBMap" prot="public" virt="non-virtual">MR.VertBMap</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__VertBMap_1a1fe94159a6a912b7c35d16545a4ec8f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Buffer__MRVertId__MRVertId" kindref="compound">MR.Const_Buffer_MRVertId_MRVertId</ref></type>
+        <definition>unsafe MR.Const_Buffer_MRVertId_MRVertId MR.Const_VertBMap.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_VertBMap.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8844" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8844" bodyend="8844"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VertBMap_1a9c1d0636b0ddd52a7bc9bcc7ff8ed40b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VertBMap.tsize</definition>
+        <argsstring></argsstring>
+        <name>tsize</name>
+        <qualifiedname>MR.Const_VertBMap.tsize</qualifiedname>
+        <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8849" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8849" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__VertBMap_1a5c22c329bb917a817fc511a9eb8adc8a" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_VertBMap.__ref_storage_tsize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_tsize</name>
+        <qualifiedname>MR.Const_VertBMap.__ref_storage_tsize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8850" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8850" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertBMap_1ababbcd8bad4b48ab6429fbcb523134a3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VertBMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VertBMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8832" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8832" bodyend="8840"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertBMap_1acc678ccc3b027ef24e5b54ef1abc0d28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VertBMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VertBMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8841" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8841" bodyend="8841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertBMap_1a35cbbeed7a1e7a88d45de6472a8bfa69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertBMap.Const_VertBMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VertBMap</name>
+        <qualifiedname>MR.Const_VertBMap.Const_VertBMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8884" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8884" bodyend="8890"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertBMap_1a2a31ef091f9255a4d5fe1ce58b76c061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertBMap.Const_VertBMap</definition>
+        <argsstring>(MR._ByValue_Buffer_MRVertId_MRVertId b, ulong tsize)</argsstring>
+        <name>Const_VertBMap</name>
+        <qualifiedname>MR.Const_VertBMap.Const_VertBMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRVertId_MRVertId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1VertBMap" kindref="compound">MR.VertBMap</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8895" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8895" bodyend="8902"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertBMap_1a13ec46267efede2ef304e6bb6ac48379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertBMap.Const_VertBMap</definition>
+        <argsstring>(MR._ByValue_VertBMap _other)</argsstring>
+        <name>Const_VertBMap</name>
+        <qualifiedname>MR.Const_VertBMap.Const_VertBMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertBMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertBMap_1a6282e989efb6888fab64e811ae15f470" kindref="member">MR.VertBMap.VertBMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8907" bodyend="8914"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertBMap_1a07bad715e23eeaf18189c77abee6bd81" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertBMap.~Const_VertBMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VertBMap</name>
+        <qualifiedname>MR.Const_VertBMap.~Const_VertBMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8842" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8842" bodyend="8842"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertBMap_1a19b5d6e19e95df8d561c085518a9e988" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertBMap.Const_VertBMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VertBMap</name>
+        <qualifiedname>MR.Const_VertBMap.Const_VertBMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8873" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8873" bodyend="8878"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T Generated from class <computeroutput><ref refid="classMR_1_1VertBMap" kindref="compound">MR.VertBMap</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VertBMap</label>
+        <link refid="classMR_1_1Const__VertBMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VertBMap</label>
+        <link refid="classMR_1_1VertBMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_VertBMap</label>
+        <link refid="classMR_1_1Const__VertBMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8826" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8827" bodyend="8915"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VertBMap_1a5c22c329bb917a817fc511a9eb8adc8a" prot="protected" virt="non-virtual"><scope>MR::Const_VertBMap</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a1fe94159a6a912b7c35d16545a4ec8f5" prot="public" virt="non-virtual"><scope>MR::Const_VertBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a19b5d6e19e95df8d561c085518a9e988" prot="package" virt="non-virtual"><scope>MR::Const_VertBMap</scope><name>Const_VertBMap</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a35cbbeed7a1e7a88d45de6472a8bfa69" prot="public" virt="non-virtual"><scope>MR::Const_VertBMap</scope><name>Const_VertBMap</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a2a31ef091f9255a4d5fe1ce58b76c061" prot="public" virt="non-virtual"><scope>MR::Const_VertBMap</scope><name>Const_VertBMap</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a13ec46267efede2ef304e6bb6ac48379" prot="public" virt="non-virtual"><scope>MR::Const_VertBMap</scope><name>Const_VertBMap</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1ababbcd8bad4b48ab6429fbcb523134a3" prot="protected" virt="virtual"><scope>MR::Const_VertBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1acc678ccc3b027ef24e5b54ef1abc0d28" prot="public" virt="virtual"><scope>MR::Const_VertBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a9c1d0636b0ddd52a7bc9bcc7ff8ed40b" prot="public" virt="non-virtual"><scope>MR::Const_VertBMap</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a07bad715e23eeaf18189c77abee6bd81" prot="private" virt="non-virtual"><scope>MR::Const_VertBMap</scope><name>~Const_VertBMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

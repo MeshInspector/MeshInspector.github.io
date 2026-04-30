@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceSetBitIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceSetBitIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceSetBitIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FaceSetBitIterator" prot="public" virt="non-virtual">MR.Const_FaceSetBitIterator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1FaceSetBitIterator_1a602b2c97164200361da0519693ac3e98" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>FaceSetBitIterator</name>
         <qualifiedname>MR.FaceSetBitIterator.FaceSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_FaceSetBitIterator</type>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>FaceSetBitIterator</name>
         <qualifiedname>MR.FaceSetBitIterator.FaceSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>assign</name>
         <qualifiedname>MR.FaceSetBitIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_FaceSetBitIterator</type>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>operator FaceSetBitIterator</name>
         <qualifiedname>MR.FaceSetBitIterator.operator FaceSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceSetBitIterator</label>
+        <link refid="classMR_1_1Const__FaceSetBitIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceSetBitIterator</label>
+        <link refid="classMR_1_1Const__FaceSetBitIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,13 +218,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13670" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13671" bodyend="13739"/>
     <listofallmembers>
       <member refid="classMR_1_1FaceSetBitIterator_1afc91e923aa86ad5e646b0bf17fba453f" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a36d38dec5a735c9ecd326b5dba6916d7" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a67f90dc6d1ac4c7c69895a8a58ee1d04" prot="package" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a517293fd91dc5514d7ed7e67e4232ca7" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a466ecb28b98c5f2628ac2287429119a1" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a4ac15387e009d386933e0ffd5884ed1b" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a0eeda36eb5144b7327fc8ca9a9175e1e" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a589d0a471f0df5e6a7a1467dc0097915" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1ad39bdaea0f16a47e068bad9f7584b0e8" prot="protected" virt="virtual"><scope>MR::FaceSetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1aa351a0bcd85ff37ddf446e60233c7ed6" prot="public" virt="virtual"><scope>MR::FaceSetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1ad27b633532e76b6a117fa2757d80526e" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a84ba49c96ea472d3252c7727749b8b66" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1FaceSetBitIterator_1a602b2c97164200361da0519693ac3e98" prot="package" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>FaceSetBitIterator</name></member>
       <member refid="classMR_1_1FaceSetBitIterator_1ae4da90c5d90adb6d3f2539b31f202423" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>FaceSetBitIterator</name></member>
       <member refid="classMR_1_1FaceSetBitIterator_1a9774b4e76265fd909a79c8e4cb1dec73" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>FaceSetBitIterator</name></member>
       <member refid="classMR_1_1FaceSetBitIterator_1a24dfeedd92d7c64833321af8b6aac193" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>FaceSetBitIterator</name></member>
       <member refid="classMR_1_1FaceSetBitIterator_1a33cc8337540b5a96ed17ca31e1aa0dda" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>FaceSetBitIterator</name></member>
       <member refid="classMR_1_1FaceSetBitIterator_1a79cded9a146482a3456f9a91be564df0" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1af1cd5d8b7958dd62ac5603e09017baee" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>operator Const_FaceSetBitIterator</name></member>
       <member refid="classMR_1_1FaceSetBitIterator_1a76e31410796bbf2f51077fab355cad7a" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>operator FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1aa17e3653312ed62af5e73e6bbd835c0c" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a25221ce466622646e292d2be2b7a70ba" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a2e7ec4f88f66b1b35273241cae5f5630" prot="public" virt="non-virtual"><scope>MR::FaceSetBitIterator</scope><name>operator==</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

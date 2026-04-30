@@ -1,5 +1,6 @@
 var classMR_1_1VoxelsSave =
 [
+    [ "Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html", "classMR_1_1VoxelsSave_1_1Const__SavingSettings" ],
     [ "SavingSettings", "classMR_1_1VoxelsSave_1_1SavingSettings.html", "classMR_1_1VoxelsSave_1_1SavingSettings" ],
     [ "gridToAnySupportedFormat", "classMR_1_1VoxelsSave.html#a391d2aa641e6f2a8f4cd693419d45ab4", null ],
     [ "gridToRawAutoname", "classMR_1_1VoxelsSave.html#abb678afd096e1254695af4fe10843b42", null ],

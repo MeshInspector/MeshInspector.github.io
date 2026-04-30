@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__BooleanResultPoints" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_BooleanResultPoints</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1BooleanResultPoints" prot="public" virt="non-virtual">MR.BooleanResultPoints</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__BooleanResultPoints_1a13725e2635cb322c2f950ddc810f2236" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_BooleanResultPoints.meshAVerts</definition>
+        <argsstring></argsstring>
+        <name>meshAVerts</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.meshAVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1177" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1177" bodyend="1177"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BooleanResultPoints_1a0855d142d7bed318bfb41c87806b3c2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_BooleanResultPoints.meshBVerts</definition>
+        <argsstring></argsstring>
+        <name>meshBVerts</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.meshBVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1179" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1179" bodyend="1179"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BooleanResultPoints_1ad926aa1955a203ce7c202e3942ebca23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRVector3f</type>
+        <definition>unsafe MR.Std.Const_Vector_MRVector3f MR.Const_BooleanResultPoints.intersectionPoints</definition>
+        <argsstring></argsstring>
+        <name>intersectionPoints</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.intersectionPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1181" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1181" bodyend="1181"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1ac30e7846597e05df5638606e79ab4cf2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_BooleanResultPoints.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1165" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1165" bodyend="1173"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1a298c43c3b46e38650d9d8576e293b775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_BooleanResultPoints.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1174" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1174" bodyend="1174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1a86667bf2cc3b260bf6ac2a044a5749f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BooleanResultPoints.Const_BooleanResultPoints</definition>
+        <argsstring>()</argsstring>
+        <name>Const_BooleanResultPoints</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.Const_BooleanResultPoints</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1223" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1223" bodyend="1229"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1a5280d2e1229a50649bdcf197cdc76a91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BooleanResultPoints.Const_BooleanResultPoints</definition>
+        <argsstring>(MR._ByValue_VertBitSet meshAVerts, MR._ByValue_VertBitSet meshBVerts, MR.Std._ByValue_Vector_MRVector3f intersectionPoints)</argsstring>
+        <name>Const_BooleanResultPoints</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.Const_BooleanResultPoints</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertBitSet</type>
+          <declname>meshAVerts</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_VertBitSet</type>
+          <declname>meshBVerts</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRVector3f</type>
+          <declname>intersectionPoints</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1BooleanResultPoints" kindref="compound">MR.BooleanResultPoints</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1234" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1234" bodyend="1243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1a68a949210ec7871b19bff15281348ed8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BooleanResultPoints.Const_BooleanResultPoints</definition>
+        <argsstring>(MR._ByValue_BooleanResultPoints _other)</argsstring>
+        <name>Const_BooleanResultPoints</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.Const_BooleanResultPoints</qualifiedname>
+        <param>
+          <type>MR._ByValue_BooleanResultPoints</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultPoints_1a394d9f8c4a1db8abc4665b19675fed0f" kindref="member">MR.BooleanResultPoints.BooleanResultPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1248" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1248" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1af575020db033a71ade052e65160ff7b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BooleanResultPoints.Const_BooleanResultPoints</definition>
+        <argsstring>(Const_BooleanResultPoints _other)</argsstring>
+        <name>Const_BooleanResultPoints</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.Const_BooleanResultPoints</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultPoints" kindref="compound">Const_BooleanResultPoints</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultPoints_1a394d9f8c4a1db8abc4665b19675fed0f" kindref="member">MR.BooleanResultPoints.BooleanResultPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1260" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1260" bodyend="1260"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1ad0624f550af9d6ffc353ef61adb38122" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BooleanResultPoints.Const_BooleanResultPoints</definition>
+        <argsstring>(BooleanResultPoints _other)</argsstring>
+        <name>Const_BooleanResultPoints</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.Const_BooleanResultPoints</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BooleanResultPoints" kindref="compound">BooleanResultPoints</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultPoints_1a394d9f8c4a1db8abc4665b19675fed0f" kindref="member">MR.BooleanResultPoints.BooleanResultPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1265" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1265" bodyend="1265"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1acf40ce47e156b656c3e26ceedf82ae9d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BooleanResultPoints.~Const_BooleanResultPoints</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_BooleanResultPoints</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.~Const_BooleanResultPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1175" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1175" bodyend="1175"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultPoints_1a42ad765503f2c897b36595f2572e9dfc" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BooleanResultPoints.Const_BooleanResultPoints</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_BooleanResultPoints</name>
+        <qualifiedname>MR.Const_BooleanResultPoints.Const_BooleanResultPoints</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1212" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1212" bodyend="1217"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>vertices and points representing mesh intersection result Generated from class <computeroutput><ref refid="classMR_1_1BooleanResultPoints" kindref="compound">MR.BooleanResultPoints</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_BooleanResultPoints</label>
+        <link refid="classMR_1_1Const__BooleanResultPoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.BooleanResultPoints</label>
+        <link refid="classMR_1_1BooleanResultPoints"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_BooleanResultPoints</label>
+        <link refid="classMR_1_1Const__BooleanResultPoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1159" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1160" bodyend="1266"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a42ad765503f2c897b36595f2572e9dfc" prot="package" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a86667bf2cc3b260bf6ac2a044a5749f6" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a5280d2e1229a50649bdcf197cdc76a91" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a68a949210ec7871b19bff15281348ed8" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1af575020db033a71ade052e65160ff7b8" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1ad0624f550af9d6ffc353ef61adb38122" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1ac30e7846597e05df5638606e79ab4cf2" prot="protected" virt="virtual"><scope>MR::Const_BooleanResultPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a298c43c3b46e38650d9d8576e293b775" prot="public" virt="virtual"><scope>MR::Const_BooleanResultPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1ad926aa1955a203ce7c202e3942ebca23" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>intersectionPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a13725e2635cb322c2f950ddc810f2236" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>meshAVerts</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a0855d142d7bed318bfb41c87806b3c2c" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>meshBVerts</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1acf40ce47e156b656c3e26ceedf82ae9d" prot="private" virt="non-virtual"><scope>MR::Const_BooleanResultPoints</scope><name>~Const_BooleanResultPoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

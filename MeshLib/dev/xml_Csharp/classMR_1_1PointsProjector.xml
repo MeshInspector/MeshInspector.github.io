@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsProjector" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsProjector</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointsProjector</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointsProjector" prot="public" virt="non-virtual">MR.Const_PointsProjector</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PointsProjector_1ac967eb4f15ef52ae0c89e7f1ba464133" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -107,7 +107,7 @@
         <name>PointsProjector</name>
         <qualifiedname>MR.PointsProjector.PointsProjector</qualifiedname>
         <param>
-          <type>Const_PointsProjector</type>
+          <type><ref refid="classMR_1_1Const__PointsProjector" kindref="compound">Const_PointsProjector</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -164,7 +164,7 @@
         <name>setPointCloud</name>
         <qualifiedname>MR.PointsProjector.setPointCloud</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <briefdescription>
@@ -191,6 +191,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointsProjector</label>
+        <link refid="classMR_1_1Const__PointsProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -212,6 +213,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointsProjector</label>
+        <link refid="classMR_1_1Const__PointsProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +229,16 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="825" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="826" bodyend="906"/>
     <listofallmembers>
       <member refid="classMR_1_1PointsProjector_1a3809be8681b04e87e9aa74482758b5bf" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a10328508584a72f12464a46edfb96035" prot="package" virt="non-virtual"><scope>MR::PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a7f0ce976d1ebf992201a14a621c33593" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a6f7f2a1898730ba19b4a29466a02f09f" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1aa45dcda1e4d52607b88abe21323fd717" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a5d1e0e418b4c2be74fd261fca1e7166a" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1aaf57526e2b322ad9570cab42007d5f60" prot="protected" virt="virtual"><scope>MR::PointsProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a9eb9d65578f79ec4b0b450ba8e127b7a" prot="public" virt="virtual"><scope>MR::PointsProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1aad2be78ec7e5941b88ef149bea6c731b" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a775abb7b0924e706f18347b2dd76c22f" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>operator Const_PointsProjector?</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a4ac5bdcf36d705539e23318321fcfe27" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>operator MR.Const_IPointsProjector</name></member>
       <member refid="classMR_1_1PointsProjector_1ac967eb4f15ef52ae0c89e7f1ba464133" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>operator MR.IPointsProjector</name></member>
       <member refid="classMR_1_1PointsProjector_1af5ad43172425f94d2f9b4bf7d8dc6bbe" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>operator PointsProjector?</name></member>
       <member refid="classMR_1_1PointsProjector_1a4b0a59381f08d9ce81768ce3ce225ed8" prot="package" virt="non-virtual"><scope>MR::PointsProjector</scope><name>PointsProjector</name></member>
@@ -234,6 +246,7 @@
       <member refid="classMR_1_1PointsProjector_1a33f67c86c1eec53b6cefe1a97a695e1b" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>PointsProjector</name></member>
       <member refid="classMR_1_1PointsProjector_1a08ea3a7b4ff5c24d2ea51ca85db5382a" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>PointsProjector</name></member>
       <member refid="classMR_1_1PointsProjector_1aa1ba3439ca6f0e555db84954c6681976" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a63a2452d1996664251ef0688e944ef9a" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1PointsProjector_1a2a10ac52db9e5932b79ab4c2b09b3ab6" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>setPointCloud</name></member>
     </listofallmembers>
   </compounddef>

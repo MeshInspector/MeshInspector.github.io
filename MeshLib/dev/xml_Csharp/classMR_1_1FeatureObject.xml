@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FeatureObject" kind="class" language="C#" prot="public">
     <compoundname>MR::FeatureObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FeatureObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FeatureObject" prot="public" virt="non-virtual">MR.Const_FeatureObject</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1FeatureObject_1af08a90ac994f5181a5df71deb1bb57bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -378,11 +378,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -401,11 +401,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.FeatureObject.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -424,11 +424,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.FeatureObject.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -466,7 +466,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.FeatureObject.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -489,12 +489,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a6ed4bd6252b44285bd35a89b3e9845dd" kindref="member">MR.FeatureObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a6ed4bd6252b44285bd35a89b3e9845dd" kindref="member">MR.FeatureObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -693,12 +693,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a83eedbc52598e39ce1caf6f9836699bb" kindref="member">MR.FeatureObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a83eedbc52598e39ce1caf6f9836699bb" kindref="member">MR.FeatureObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -923,12 +923,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a2e5c1d9fd4a4486a72ee9e0b447993fe" kindref="member">MR.FeatureObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1a2e5c1d9fd4a4486a72ee9e0b447993fe" kindref="member">MR.FeatureObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1125,12 +1125,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ad2744b9b94fd80e67292d9a45c4e3ff5" kindref="member">MR.FeatureObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1FeatureObject_1ad2744b9b94fd80e67292d9a45c4e3ff5" kindref="member">MR.FeatureObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1145,7 +1145,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.FeatureObject.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1229,6 +1229,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FeatureObject</label>
+        <link refid="classMR_1_1Const__FeatureObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1250,6 +1251,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FeatureObject</label>
+        <link refid="classMR_1_1Const__FeatureObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1268,19 +1270,91 @@
       <member refid="classMR_1_1FeatureObject_1a9fa224a8838c07d822cdba536274411a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1FeatureObject_1a009794c403be9bc64e428957f74b25af" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1FeatureObject_1adc42a5edc37c4cacc9b3b217d7a3dd2c" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a397f6dd9bcdb2938a260a947adffe147" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a5b13b1b219b97620b20f3a796eb33b16" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1aa955e7c40c7d550be0b285bd2e32fa5c" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1af3f10e65a84e56212bfe1ce310714eb3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a885a8e8da9f3e88677417fca3abca1b6" prot="package" virt="non-virtual"><scope>MR::FeatureObject</scope><name>Const_FeatureObject</name></member>
       <member refid="classMR_1_1FeatureObject_1a850a9dfd6eb25aac130e9ab5d43a2afa" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1FeatureObject_1ae982784c56a7264c208461c471c40fb8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a6e09bcaac8d16893967f38359c4176b6" prot="protected" virt="virtual"><scope>MR::FeatureObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1abbf6c0c19dd7b952ea70ec3eefd36703" prot="public" virt="virtual"><scope>MR::FeatureObject</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FeatureObject_1a6d40e3b9cb86ec60980061928a7faf3e" prot="package" virt="non-virtual"><scope>MR::FeatureObject</scope><name>FeatureObject</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a118cc0a398bccf13c684707499b16b03" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a16fbc147499cd24c20e411eeac0b90f6" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a33e3558e7b28735951e0c398971a1c2e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a716f2bd024cc0f75f4e82adcf9d28879" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a22fcc567388b03c4b893d8636948d3a2" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1adfe373e4b6f32d75eb4bdbcb328d3533" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getBasePoint</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a9bc6180199873f64957e9ea86b7c2b77" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a386105e55f921d5d5b5deb22d8a780e0" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a3303e190fa94b9fa192a220071d15152" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a2f4ede588812194bc763d42be708cf5c" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a2347ee59e77840545d80091e9aecb916" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1af939c348b6bfcf6b4e2e99e62743e51a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a973d3060487676d7cbd64f3e73ef0f25" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1aff90fb46eb7a822a6d878d2df4d28f57" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a595e472244b1929dbd26d69dc2fe7b1a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ae0c0cc5f26a6bcaf5ef071439b453970" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a8369e2258a0dd458f6a9d9fdb8a231f3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a77404439121aab923faef2914e0cd76b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a6f729575f870731b313c11f4e6d6c115" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a0e26fa54cd48c1059267d49bae65c0d8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getNormal</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a6a7d86606bfcaaf8c14bf633da35685e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1af5700d7b558026e0eca469c724835b93" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a4ecd3801bb26643d1a9647b8a6d94873" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a5ceb37afacbd302517cbccb6d0d2cdba" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ae65a926575a762664e06bfa788e84c6d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ab2ea4a5e1d0b65cf401d88d66acc0b67" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a89e76055acd799de5f81628b263c1b78" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ad231493723e12bcd70340abb5f8ae4b8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a0ec120f93c49f00262eb8bd6605a0ce6" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a190a9974bea95adcaf79def010e574d6" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a06a046325dbb50b258916c7e7bc841be" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a1dbfd22ddf91d5cb665ec22988ba1d9c" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1aec26faca26989686460ae2fded9cc651" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a4ade89fa9f9c37690073c08fc183ee6e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a372ec6ff0c9e289b5497d926c45a5c95" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ac622622f2470d2eaf6e8f06045e2f945" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ac127fc4bd04ec55bced175d6ef2aff74" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a743a9e51ede70dbcd4b4aa80f1902800" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a61a1a48a5bfed891f02fb5e4db6705cd" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a3cb0d1b73825a3982005fef61ee4b32a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a19085d786e075e8e0a575577d1a42d9d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a14593ce8e089f1a5c6b10305ed074d70" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a26179c1a26c6c4903ff29e9ae491567a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1addd5769c6a78b2f54d37d46bd5ff0bd4" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a04f2acac8a03e091e12c68cfe48bc477" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a0aef299c124ede1f7e9834a683262340" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a205a72b68083a2cb61128124acc039ae" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a750807ab9ced1340e16770038209f70b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1aa10a1b0c29b326d64b6076939d9b9227" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a798013c4a42bd23865208c16baea298f" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a430bfd7c3998bf13338123116f8531f6" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1aa2a382111a134efea2ffec22421401a5" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a875a3e848c4ede5fca5ce95053c1d71a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator Const_FeatureObject?</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a06277fd3af2c8037719395f4e30f0c3f" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator Const_FeatureObject?</name></member>
       <member refid="classMR_1_1FeatureObject_1a42b2536ec3459cf7c5d96fee1c8f74ef" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator FeatureObject?</name></member>
       <member refid="classMR_1_1FeatureObject_1acffc30879ff6f502a78aff5ba0399c23" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator FeatureObject?</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a762a998ed16e4e40362ad2d72ae1939d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a145a18c94b086766fded4c8d9927baee" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a1db6d74da6246b588547333e56c38e5e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1FeatureObject_1aba28a7d76e8ca542a215110f748006a4" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1FeatureObject_1af08a90ac994f5181a5df71deb1bb57bf" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1FeatureObject_1aaa4628f4118af2bcec7ccdbcaad6488b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ac50d1a46be6f0236123d39100a77bc14" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>projectPoint</name></member>
       <member refid="classMR_1_1FeatureObject_1a3b4fa4afbe65da6ae45d4f2af4cd8b28" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1FeatureObject_1aae5fb85964a6d887d12b3f6e86f351b9" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ad7643173ea1765f901ec09e97badc99a" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1aba5c480e660713f3625f26259163a79f" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a714086b6a16fd5c7a29854b30ef45af8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>renderUi</name></member>
       <member refid="classMR_1_1FeatureObject_1aa75d3b4d43e669c688fd5c6e04fa7ffb" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a7b377002c768785415de1694a3f02d63" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a3e9f58decf26d68916618cecad750dae" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1FeatureObject_1a99e83e27e0ef25482b0e92b8a0a6d24d" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ac6aa5c3752b30a934ff9ef3ce658ee16" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1FeatureObject_1a743607bedd4fc3a2fce9e92d59f7bb1b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1ae12c1100ada68ed8e06760f788131097" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1FeatureObject_1abb2715074649c4a954baf33666ad7a3e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>select</name></member>
       <member refid="classMR_1_1FeatureObject_1ae3354759a7ab18da8ac30ec68dbec917" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1FeatureObject_1a18268df5128f936c58873a4a4e9da7e3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setAmbientStrength</name></member>
@@ -1319,9 +1393,22 @@
       <member refid="classMR_1_1FeatureObject_1aa976acc6997c1b8bddc207596f9f6937" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1FeatureObject_1a8218f796fd473130acb6aca98c7e673b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1FeatureObject_1aa39aa73f6c240eeb110ad7547920d198" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a0bb5710ea8d636d702ccb12d1525018b" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a6aed6e0318f8bde6b4560de9f40c25f8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1FeatureObject_1a93938c20cacd75c74fe91e5b9cddea2f" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a25eba28376a2d7b9d18948106c2f4cf0" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a07555889e69388587df920e56d926eb3" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a29d0b04f0f3e8f0bf0a1fa3c0008804e" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a2f98b5b0327349145a3f485ad039107c" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1FeatureObject_1aa837a05d89d749e91cef1a8361ec9376" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a4124d7b18c9b633cae2d23b9f24b8bbb" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>tags</name></member>
       <member refid="classMR_1_1FeatureObject_1a66aa5295788d65f303322a9afab93dfd" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1aaad176cf2eb1a5cc7325a3f203bd01d8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1adcc0794779818467d3e7fc4b190a40ca" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a72612750a1c1c2486e720774c7c149ab" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1aaa0bda662155a843286fe4cbbd5a2bd8" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a30a6e45ec15995726e9b8004611868ec" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__FeatureObject_1a262c70266ff66987f581b9d0c131d003" prot="public" virt="non-virtual"><scope>MR::FeatureObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

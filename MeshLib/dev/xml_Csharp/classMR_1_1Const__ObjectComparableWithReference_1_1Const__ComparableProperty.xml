@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparableProperty" prot="public" virt="non-virtual">MR.Const_ObjectComparableWithReference.ComparableProperty</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a2e78bc7d3235fd96bd87dd5bbc42a0cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectComparableWithReference.Const_ComparableProperty.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="150" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a3fba31ee706e2b18e797f5281d911000" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_Float</type>
+        <definition>unsafe MR.Std.Const_Optional_Float MR.Const_ObjectComparableWithReference.Const_ComparableProperty.referenceValue</definition>
+        <argsstring></argsstring>
+        <name>referenceValue</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.referenceValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="157" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a58b9660c75f20006e21eaabb983471b0" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ObjectComparableWithReference.Const_ComparableProperty.__ref_storage_value</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_value</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.__ref_storage_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="151" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a34d94b99fdbb544c7ec6e9ad7d2cf270" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="138" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="138" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1af67444cba7afcfac0bb47ed1ce96decd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="147" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a16ef24738299085118b73f8e235da135" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ComparableProperty</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="191" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a315cdf1466a7924561b8fc7d20a88ce7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</definition>
+        <argsstring>(float value, float? referenceValue)</argsstring>
+        <name>Const_ComparableProperty</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>referenceValue</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">MR.ObjectComparableWithReference.ComparableProperty</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="202" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="202" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a6a2bad3e543c9fb46f192256696bd917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</definition>
+        <argsstring>(MR.ObjectComparableWithReference.Const_ComparableProperty _other)</argsstring>
+        <name>Const_ComparableProperty</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty" kindref="compound">MR.ObjectComparableWithReference.Const_ComparableProperty</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::ObjectComparableWithReference::ComparableProperty::ComparableProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="214" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="214" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1ad76cfc880212e4509af96b4c23023427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</definition>
+        <argsstring>(ComparableProperty _other)</argsstring>
+        <name>Const_ComparableProperty</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ComparableProperty</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::ObjectComparableWithReference::ComparableProperty::ComparableProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="226" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="226" bodyend="226"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a555205cc572c496affc38dd0c1fac774" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.~Const_ComparableProperty</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ComparableProperty</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.~Const_ComparableProperty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="148" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="148" bodyend="148"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a3176639f8fa88392ed6f3bbf2858cdba" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ComparableProperty</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.Const_ComparableProperty.Const_ComparableProperty</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="180" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="180" bodyend="185"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">MR.ObjectComparableWithReference.ComparableProperty</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjectComparableWithReference.Const_ComparableProperty</label>
+        <link refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Const_ObjectComparableWithReference.ComparableProperty</label>
+        <link refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparableProperty"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ObjectComparableWithReference.Const_ComparableProperty</label>
+        <link refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="132" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="133" bodyend="227"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a58b9660c75f20006e21eaabb983471b0" prot="protected" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>__ref_storage_value</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a3176639f8fa88392ed6f3bbf2858cdba" prot="package" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>Const_ComparableProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a16ef24738299085118b73f8e235da135" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>Const_ComparableProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a315cdf1466a7924561b8fc7d20a88ce7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>Const_ComparableProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a6a2bad3e543c9fb46f192256696bd917" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>Const_ComparableProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1ad76cfc880212e4509af96b4c23023427" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>Const_ComparableProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a34d94b99fdbb544c7ec6e9ad7d2cf270" prot="protected" virt="virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1af67444cba7afcfac0bb47ed1ce96decd" prot="public" virt="virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a3fba31ee706e2b18e797f5281d911000" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>referenceValue</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a2e78bc7d3235fd96bd87dd5bbc42a0cb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>value</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparableProperty_1a555205cc572c496affc38dd0c1fac774" prot="private" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::Const_ComparableProperty</scope><name>~Const_ComparableProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

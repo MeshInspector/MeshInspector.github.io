@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangleSegmentIntersectResult" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangleSegmentIntersectResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriangleSegmentIntersectResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TriangleSegmentIntersectResult" prot="public" virt="non-virtual">MR.Const_TriangleSegmentIntersectResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TriangleSegmentIntersectResult_1abc0fa906139af0501505dea989aa973e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -105,7 +105,7 @@
         <name>TriangleSegmentIntersectResult</name>
         <qualifiedname>MR.TriangleSegmentIntersectResult.TriangleSegmentIntersectResult</qualifiedname>
         <param>
-          <type>MR.Const_TriangleSegmentIntersectResult</type>
+          <type><ref refid="classMR_1_1Const__TriangleSegmentIntersectResult" kindref="compound">MR.Const_TriangleSegmentIntersectResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.TriangleSegmentIntersectResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_TriangleSegmentIntersectResult</type>
+          <type><ref refid="classMR_1_1Const__TriangleSegmentIntersectResult" kindref="compound">MR.Const_TriangleSegmentIntersectResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TriangleSegmentIntersectResult</label>
+        <link refid="classMR_1_1Const__TriangleSegmentIntersectResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -191,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TriangleSegmentIntersectResult</label>
+        <link refid="classMR_1_1Const__TriangleSegmentIntersectResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -205,9 +207,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" line="332" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates3.cs" bodystart="333" bodyend="403"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1a0d8e48340252be543746b69430ff8fd9" prot="protected" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>__ref_storage_dIsLeftFromABC</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1aaa217d66a0d0745290382bdc7825f58c" prot="protected" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>__ref_storage_doIntersect</name></member>
       <member refid="classMR_1_1TriangleSegmentIntersectResult_1a4b5510afb50fbe36a5156783bd780e23" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1a1e65c9937e39d9d905540edf8118197c" prot="package" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>Const_TriangleSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1ac3ad793602c34182a643474d6444f2c7" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>Const_TriangleSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1ac4803f516c37e31eac602fc193983888" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>Const_TriangleSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1a2709b6fc6f0229b725daf69aa0be1550" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>Const_TriangleSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1a0aed1e0449b095a396b016e9095802ca" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>Const_TriangleSegmentIntersectResult</name></member>
       <member refid="classMR_1_1TriangleSegmentIntersectResult_1a6b71c9879583219fa589ab475fc677f0" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>dIsLeftFromABC</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1ada63789126823128a4aa1a3a5987f0c5" prot="protected" virt="virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1a91d19a20948dbb0282a57459ba1adb71" prot="public" virt="virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TriangleSegmentIntersectResult_1abc0fa906139af0501505dea989aa973e" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>doIntersect</name></member>
+      <member refid="classMR_1_1Const__TriangleSegmentIntersectResult_1ab7c287d6f80d6566ecc2c03a1c3a4a31" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>operator bool</name></member>
       <member refid="classMR_1_1TriangleSegmentIntersectResult_1a24d2111d80a2180be089877ddd8e00b3" prot="package" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>TriangleSegmentIntersectResult</name></member>
       <member refid="classMR_1_1TriangleSegmentIntersectResult_1a0c96d53bbe456c72fa0469b3e923f7a7" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>TriangleSegmentIntersectResult</name></member>
       <member refid="classMR_1_1TriangleSegmentIntersectResult_1a14ac2e42bae791ee30debfbaaa2beab4" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>TriangleSegmentIntersectResult</name></member>

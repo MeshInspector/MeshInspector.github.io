@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshTopologyDiff" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshTopologyDiff</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshTopologyDiff</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshTopologyDiff" prot="public" virt="non-virtual">MR.Const_MeshTopologyDiff</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MeshTopologyDiff_1a475d1f6307d2f26bfc68c3ff83f4109f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>MeshTopologyDiff</name>
         <qualifiedname>MR.MeshTopologyDiff.MeshTopologyDiff</qualifiedname>
         <param>
-          <type>Const_MeshTopologyDiff</type>
+          <type><ref refid="classMR_1_1Const__MeshTopologyDiff" kindref="compound">Const_MeshTopologyDiff</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -107,11 +107,11 @@
         <name>MeshTopologyDiff</name>
         <qualifiedname>MR.MeshTopologyDiff.MeshTopologyDiff</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>to</declname>
         </param>
         <briefdescription>
@@ -177,6 +177,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshTopologyDiff</label>
+        <link refid="classMR_1_1Const__MeshTopologyDiff"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -198,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshTopologyDiff</label>
+        <link refid="classMR_1_1Const__MeshTopologyDiff"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -212,8 +214,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopologyDiff.cs" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopologyDiff.cs" bodystart="105" bodyend="175"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1a3520f21988b9690968022b9ee272b605" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>any</name></member>
       <member refid="classMR_1_1MeshTopologyDiff_1a6e3b1493bfaaae3d2627bf665217722b" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>applyAndSwap</name></member>
       <member refid="classMR_1_1MeshTopologyDiff_1a326568e5c4c2cb80780c099d3b86ee66" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1ace6bf35ccd0c7da1cd5dde2edf7303b0" prot="package" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>Const_MeshTopologyDiff</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1a06d6468419afe06b29e02f19836acf17" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>Const_MeshTopologyDiff</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1a6e7095812b664a8b786f148ae308ac42" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>Const_MeshTopologyDiff</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1a9929d428ef55ceac50cda1d95384c005" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>Const_MeshTopologyDiff</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1af85e75e2d10ccd093ef722ae15b036bc" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>Const_MeshTopologyDiff</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1a4c61cef035dd1ecc5cab00f7b3027e39" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>Const_MeshTopologyDiff</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1ae42a366225e58daefa1a3f45b85220fa" prot="protected" virt="virtual"><scope>MR::MeshTopologyDiff</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1adca886bf69cbfbb95545a4742b73f61c" prot="public" virt="virtual"><scope>MR::MeshTopologyDiff</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshTopologyDiff_1a734c6810e403aeee51260ffd621d994b" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1MeshTopologyDiff_1a475d1f6307d2f26bfc68c3ff83f4109f" prot="package" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
       <member refid="classMR_1_1MeshTopologyDiff_1ab7d110cf7a7464a4d6b8531bdf6b7c0d" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>
       <member refid="classMR_1_1MeshTopologyDiff_1a60eb9ab95581ed9a56c7a101a7452acc" prot="public" virt="non-virtual"><scope>MR::MeshTopologyDiff</scope><name>MeshTopologyDiff</name></member>

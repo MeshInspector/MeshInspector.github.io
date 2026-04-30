@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ChangeActiveBoxAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ChangeActiveBoxAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeActiveBoxAction" prot="public" virt="non-virtual">MR.ChangeActiveBoxAction</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1acb1f0e8c59a25d76504494c04d887832" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ChangeActiveBoxAction.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="581" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="581" bodyend="589"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a916bb3e7c18d93bf906123cf35ff3c19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ChangeActiveBoxAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="590" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="590" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a7fadf4f97094161b2fc763d380dcc537" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</definition>
+        <argsstring>(MR._ByValue_ChangeActiveBoxAction _other)</argsstring>
+        <name>Const_ChangeActiveBoxAction</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeActiveBoxAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeActiveBoxAction_1ab661a546d55282b44356824921716d19" kindref="member">MR.ChangeActiveBoxAction.ChangeActiveBoxAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="620" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="620" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a1d46fd4d6ddf6ad1957bc377ba27f2e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</definition>
+        <argsstring>(Const_ChangeActiveBoxAction _other)</argsstring>
+        <name>Const_ChangeActiveBoxAction</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeActiveBoxAction" kindref="compound">Const_ChangeActiveBoxAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeActiveBoxAction_1ab661a546d55282b44356824921716d19" kindref="member">MR.ChangeActiveBoxAction.ChangeActiveBoxAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="631" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="631" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1ac860e5abdc36cd73be8caae21bf49404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</definition>
+        <argsstring>(ChangeActiveBoxAction _other)</argsstring>
+        <name>Const_ChangeActiveBoxAction</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeActiveBoxAction" kindref="compound">ChangeActiveBoxAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeActiveBoxAction_1ab661a546d55282b44356824921716d19" kindref="member">MR.ChangeActiveBoxAction.ChangeActiveBoxAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="636" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="636" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1ad4b1cbfc14370640e947d4b7876cd400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectVoxels obj)</argsstring>
+        <name>Const_ChangeActiveBoxAction</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectVoxels</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's active box before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeActiveBoxAction_1ab661a546d55282b44356824921716d19" kindref="member">MR.ChangeActiveBoxAction.ChangeActiveBoxAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="642" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="642" bodyend="652"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a900c470605d8bb8616a010c413d1c86f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ChangeActiveBoxAction.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeActiveBoxAction_1a900c470605d8bb8616a010c413d1c86f" kindref="member">MR.ChangeActiveBoxAction.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="657" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="657" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a8aeac4577ea8e55b91b27974edb074ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ChangeActiveBoxAction.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeActiveBoxAction_1a8aeac4577ea8e55b91b27974edb074ab" kindref="member">MR.ChangeActiveBoxAction.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="677" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="677" bodyend="682"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a23122d29276feeca6f82c5cb9598148e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeActiveBoxAction.~Const_ChangeActiveBoxAction</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ChangeActiveBoxAction</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.~Const_ChangeActiveBoxAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="591" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="591" bodyend="591"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a2d2f8b43245131e33a80062ddbe2aee4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ChangeActiveBoxAction.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_ChangeActiveBoxAction self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeActiveBoxAction" kindref="compound">Const_ChangeActiveBoxAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="594" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="594" bodyend="601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a3aa9ed95cce5c96b8b0e12c46fd320ca" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ChangeActiveBoxAction.operator Const_ChangeActiveBoxAction?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_ChangeActiveBoxAction?</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.operator Const_ChangeActiveBoxAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="604" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="604" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1ad97f3c24ac018ce601518f15544c9346" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_ChangeActiveBoxAction.setObjectDirty</definition>
+        <argsstring>(MR.Std.Const_SharedPtr_MRObjectVoxels _1)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectVoxels</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeActiveBoxAction_1ad97f3c24ac018ce601518f15544c9346" kindref="member">MR.ChangeActiveBoxAction.setObjectDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="667" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="667" bodyend="672"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeActiveBoxAction_1a15c327388ce69794e9074d6e8a291bd1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ChangeActiveBoxAction</name>
+        <qualifiedname>MR.Const_ChangeActiveBoxAction.Const_ChangeActiveBoxAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="615" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="615" bodyend="615"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ChangeActiveBoxAction" kindref="compound">MR.ChangeActiveBoxAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ChangeActiveBoxAction</label>
+        <link refid="classMR_1_1Const__ChangeActiveBoxAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ChangeActiveBoxAction</label>
+        <link refid="classMR_1_1ChangeActiveBoxAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ChangeActiveBoxAction</label>
+        <link refid="classMR_1_1Const__ChangeActiveBoxAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="575" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="576" bodyend="683"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a15c327388ce69794e9074d6e8a291bd1" prot="package" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a7fadf4f97094161b2fc763d380dcc537" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a1d46fd4d6ddf6ad1957bc377ba27f2e4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1ac860e5abdc36cd73be8caae21bf49404" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1ad4b1cbfc14370640e947d4b7876cd400" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1acb1f0e8c59a25d76504494c04d887832" prot="protected" virt="virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a916bb3e7c18d93bf906123cf35ff3c19" prot="public" virt="virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a8aeac4577ea8e55b91b27974edb074ab" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a900c470605d8bb8616a010c413d1c86f" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a3aa9ed95cce5c96b8b0e12c46fd320ca" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>operator Const_ChangeActiveBoxAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a2d2f8b43245131e33a80062ddbe2aee4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1ad97f3c24ac018ce601518f15544c9346" prot="public" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a23122d29276feeca6f82c5cb9598148e" prot="private" virt="non-virtual"><scope>MR::Const_ChangeActiveBoxAction</scope><name>~Const_ChangeActiveBoxAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

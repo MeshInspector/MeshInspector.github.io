@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BaseShellParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::BaseShellParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BaseShellParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BaseShellParameters" prot="public" virt="non-virtual">MR.Const_BaseShellParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BaseShellParameters_1ac584187fdf8b38b5b3b562c87dda82ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -124,7 +124,7 @@
         <name>BaseShellParameters</name>
         <qualifiedname>MR.BaseShellParameters.BaseShellParameters</qualifiedname>
         <param>
-          <type>Const_BaseShellParameters</type>
+          <type><ref refid="classMR_1_1Const__BaseShellParameters" kindref="compound">Const_BaseShellParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BaseShellParameters</label>
+        <link refid="classMR_1_1Const__BaseShellParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BaseShellParameters</label>
+        <link refid="classMR_1_1Const__BaseShellParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,6 +226,7 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="129" bodyend="221"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BaseShellParameters_1a765e584036168280e58ff1b4bf2f165a" prot="protected" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1BaseShellParameters_1ac648f6b557eb23825cd17ce101329683" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1BaseShellParameters_1a83dd5aac969b067fc635f3e7956b4f8e" prot="package" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
       <member refid="classMR_1_1BaseShellParameters_1acc9c2f01782d8623b620c73b988b29ff" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
@@ -232,6 +235,14 @@
       <member refid="classMR_1_1BaseShellParameters_1a8fa47c1084037d2a12e260b647d70408" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
       <member refid="classMR_1_1BaseShellParameters_1a6596f06f73ea940d7ef9aa895e7f5371" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
       <member refid="classMR_1_1BaseShellParameters_1a716f85afb02684c3708c7ff5924fbac7" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>callBack</name></member>
+      <member refid="classMR_1_1Const__BaseShellParameters_1a49829026ded1e6022de3c0a104478567" prot="package" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__BaseShellParameters_1a12f5bfaf93b336f279a524822633cdd8" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__BaseShellParameters_1a5b9195fdb1c50bc3c4b6c27e60a41b0a" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__BaseShellParameters_1a8f50b9f57241c45dc290414d48e43f32" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__BaseShellParameters_1a36f596be37c8e1e7d45327a338b68ce8" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__BaseShellParameters_1accaeeca1a96e36b4583f214bde7d7702" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__BaseShellParameters_1aaa6a19391d6ffd0872f5c4a53d26657e" prot="protected" virt="virtual"><scope>MR::BaseShellParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BaseShellParameters_1ac2c46c5d5ba0dbc79de11fe67322f744" prot="public" virt="virtual"><scope>MR::BaseShellParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BaseShellParameters_1ac584187fdf8b38b5b3b562c87dda82ed" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>

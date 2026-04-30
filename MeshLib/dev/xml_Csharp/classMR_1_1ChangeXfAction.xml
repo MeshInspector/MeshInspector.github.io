@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeXfAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeXfAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeXfAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeXfAction" prot="public" virt="non-virtual">MR.Const_ChangeXfAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a32c04adff33159441d7a6c0b3ae534d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeXfAction</name>
         <qualifiedname>MR.ChangeXfAction.ChangeXfAction</qualifiedname>
         <param>
-          <type>Const_ChangeXfAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeXfAction" kindref="compound">Const_ChangeXfAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeXfAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeXfAction</label>
+        <link refid="classMR_1_1Const__ChangeXfAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeXfAction</label>
+        <link refid="classMR_1_1Const__ChangeXfAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,7 +271,20 @@
       <member refid="classMR_1_1ChangeXfAction_1a1f5d629c923683c833982184b9a1228e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
       <member refid="classMR_1_1ChangeXfAction_1adacef6813545a8199662b0829cad1eed" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
       <member refid="classMR_1_1ChangeXfAction_1aac5d7e9c8ef49d27505f50738195d514" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1abcb5a617037a5870c62ab7f2a82f1c92" prot="package" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Const_ChangeXfAction</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1abbe96c19a77e569c2c6711dfe08a16cf" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Const_ChangeXfAction</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1abb5965a52ae30fb4b0333d7e64f3d10a" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Const_ChangeXfAction</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a35dd80cbbf8d7efcd0e81d63c9eaaae4" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Const_ChangeXfAction</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a23dc88a50ab6f51562e6c9123662ec8f" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Const_ChangeXfAction</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a25fb1f4e504bca751baaa39391a31138" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Const_ChangeXfAction</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a8bedfda542fac8ff8c09d2626eb53352" prot="protected" virt="virtual"><scope>MR::ChangeXfAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a7c9f25556464efb7a3472ecb600163b7" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1ad51bfa80f797677574394141e65421bc" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a563785b3458d78a6593eb034b6a4882e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a144fec1d859e8b569091e89827e2f7a8" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>obj</name></member>
       <member refid="classMR_1_1ChangeXfAction_1abf120721d809c85d756837ad21f16c81" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>operator ChangeXfAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a1f3a43d493e9c43b60a0bdfa42f67f18" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>operator Const_ChangeXfAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeXfAction_1a0b416863b612c6f96d9685add0901a12" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeXfAction_1a32c04adff33159441d7a6c0b3ae534d1" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>
   </compounddef>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeObjectSelectedAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeObjectSelectedAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeObjectSelectedAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeObjectSelectedAction" prot="public" virt="non-virtual">MR.Const_ChangeObjectSelectedAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeObjectSelectedAction_1a159ba91cdb0be9c9992637b8221d964e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeObjectSelectedAction</name>
         <qualifiedname>MR.ChangeObjectSelectedAction.ChangeObjectSelectedAction</qualifiedname>
         <param>
-          <type>Const_ChangeObjectSelectedAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeObjectSelectedAction" kindref="compound">Const_ChangeObjectSelectedAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeObjectSelectedAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeObjectSelectedAction</label>
+        <link refid="classMR_1_1Const__ChangeObjectSelectedAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeObjectSelectedAction</label>
+        <link refid="classMR_1_1Const__ChangeObjectSelectedAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,21 @@
       <member refid="classMR_1_1ChangeObjectSelectedAction_1a714f2af8d70c6f4e9a900d65eb167b6c" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>ChangeObjectSelectedAction</name></member>
       <member refid="classMR_1_1ChangeObjectSelectedAction_1adedec9a015ac8a30d6ac7c56877e7fee" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>ChangeObjectSelectedAction</name></member>
       <member refid="classMR_1_1ChangeObjectSelectedAction_1a4bc75f4e5179f8cdf8c1a7721833e78e" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a446239e0ecf60da9f4bf50a6cd32e630" prot="package" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Const_ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a5a417bda88ce3bc298dcd4cd333b7e45" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Const_ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1ac7d9972045358d2127f27041105e3c6a" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Const_ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a70f50411ab46c2271e27fcf15ec23655" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Const_ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a16e6ae6773ff9918f12c02c910230b80" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Const_ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1ab16f37e406e63792f30621ffe326606a" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Const_ChangeObjectSelectedAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a8fb609833a3a25294e9188be99741078" prot="protected" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a99eb7e0775d0428d8bbf8e4849589bb5" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1af7cc79ebadeea7511143bad9cbb13691" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a66a7948e248f62e72839352aeedce2af" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeObjectSelectedAction_1ae993cdbb5aff0a366310a615cd47fe69" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>operator ChangeObjectSelectedAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1aaba26b0e2bcdc72b59d389214fa464af" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>operator Const_ChangeObjectSelectedAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1aea71ff22395d9d5e72f65b3979766c6a" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeObjectSelectedAction_1a159ba91cdb0be9c9992637b8221d964e" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectSelectedAction_1a784b97db8309266316962a8975948809" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

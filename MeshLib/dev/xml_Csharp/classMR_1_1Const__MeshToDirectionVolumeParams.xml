@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeshToDirectionVolumeParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeshToDirectionVolumeParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshToDirectionVolumeParams" prot="public" virt="non-virtual">MR.MeshToDirectionVolumeParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MeshToDirectionVolumeParams_1aadf07834decc5e14f4a2d323a1d36e73" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__DistanceVolumeParams" kindref="compound">MR.Const_DistanceVolumeParams</ref></type>
+        <definition>unsafe MR.Const_DistanceVolumeParams MR.Const_MeshToDirectionVolumeParams.vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.vol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="607" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="607" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshToDirectionVolumeParams_1a210c934390d2f3bdef7aeb707baa6758" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
+        <definition>unsafe MR.Const_DistanceToMeshOptions MR.Const_MeshToDirectionVolumeParams.dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.dist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="610" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="610" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshToDirectionVolumeParams_1adfba683182f64d2379dd12f418384e97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_SharedPtr_MRIPointsToMeshProjector</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_MRIPointsToMeshProjector MR.Const_MeshToDirectionVolumeParams.projector</definition>
+        <argsstring></argsstring>
+        <name>projector</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.projector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="612" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="612" bodyend="612"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1a6601b5ed27eea32a2992281b4cf83e87" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MeshToDirectionVolumeParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="595" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="595" bodyend="603"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1aa359cc1d5953a699f1759d02fcfbba2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MeshToDirectionVolumeParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="604" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="604" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1a70b07bf1f86c117401ca46383e8aa49a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MeshToDirectionVolumeParams</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="654" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="654" bodyend="660"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1a3e7c023a85b645fce499908b67ff2df9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</definition>
+        <argsstring>(MR._ByValue_DistanceVolumeParams vol, MR.Const_DistanceToMeshOptions dist, MR.Std._ByValue_SharedPtr_MRIPointsToMeshProjector projector)</argsstring>
+        <name>Const_MeshToDirectionVolumeParams</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_DistanceVolumeParams</type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRIPointsToMeshProjector</type>
+          <declname>projector</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshToDirectionVolumeParams" kindref="compound">MR.MeshToDirectionVolumeParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="665" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="665" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1a153c503470995615f9ecb3053e0786ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</definition>
+        <argsstring>(MR._ByValue_MeshToDirectionVolumeParams _other)</argsstring>
+        <name>Const_MeshToDirectionVolumeParams</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshToDirectionVolumeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDirectionVolumeParams_1a276365cea822a1e4cc22ad06d13758b9" kindref="member">MR.MeshToDirectionVolumeParams.MeshToDirectionVolumeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="679" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="679" bodyend="686"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1aa954821546c6cd3a133e72d409d9dfe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</definition>
+        <argsstring>(Const_MeshToDirectionVolumeParams _other)</argsstring>
+        <name>Const_MeshToDirectionVolumeParams</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshToDirectionVolumeParams" kindref="compound">Const_MeshToDirectionVolumeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDirectionVolumeParams_1a276365cea822a1e4cc22ad06d13758b9" kindref="member">MR.MeshToDirectionVolumeParams.MeshToDirectionVolumeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="691" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="691" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1ab7bc01167e9a5933cb8793747d912f82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</definition>
+        <argsstring>(MeshToDirectionVolumeParams _other)</argsstring>
+        <name>Const_MeshToDirectionVolumeParams</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshToDirectionVolumeParams" kindref="compound">MeshToDirectionVolumeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDirectionVolumeParams_1a276365cea822a1e4cc22ad06d13758b9" kindref="member">MR.MeshToDirectionVolumeParams.MeshToDirectionVolumeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="696" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="696" bodyend="696"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1a3db5d4e74bf50fd483a3899b11a43b00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshToDirectionVolumeParams.~Const_MeshToDirectionVolumeParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MeshToDirectionVolumeParams</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.~Const_MeshToDirectionVolumeParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="605" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="605" bodyend="605"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshToDirectionVolumeParams_1a1311ba077ab859610833aa7acced8a41" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MeshToDirectionVolumeParams</name>
+        <qualifiedname>MR.Const_MeshToDirectionVolumeParams.Const_MeshToDirectionVolumeParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="643" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="643" bodyend="648"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshToDirectionVolumeParams" kindref="compound">MR.MeshToDirectionVolumeParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeshToDirectionVolumeParams</label>
+        <link refid="classMR_1_1Const__MeshToDirectionVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MeshToDirectionVolumeParams</label>
+        <link refid="classMR_1_1MeshToDirectionVolumeParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_MeshToDirectionVolumeParams</label>
+        <link refid="classMR_1_1Const__MeshToDirectionVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="589" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="590" bodyend="697"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a1311ba077ab859610833aa7acced8a41" prot="package" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a70b07bf1f86c117401ca46383e8aa49a" prot="public" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a3e7c023a85b645fce499908b67ff2df9" prot="public" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a153c503470995615f9ecb3053e0786ae" prot="public" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1aa954821546c6cd3a133e72d409d9dfe9" prot="public" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1ab7bc01167e9a5933cb8793747d912f82" prot="public" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a6601b5ed27eea32a2992281b4cf83e87" prot="protected" virt="virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1aa359cc1d5953a699f1759d02fcfbba2d" prot="public" virt="virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a210c934390d2f3bdef7aeb707baa6758" prot="public" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>dist</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1adfba683182f64d2379dd12f418384e97" prot="public" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>projector</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1aadf07834decc5e14f4a2d323a1d36e73" prot="public" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>vol</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a3db5d4e74bf50fd483a3899b11a43b00" prot="private" virt="non-virtual"><scope>MR::Const_MeshToDirectionVolumeParams</scope><name>~Const_MeshToDirectionVolumeParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

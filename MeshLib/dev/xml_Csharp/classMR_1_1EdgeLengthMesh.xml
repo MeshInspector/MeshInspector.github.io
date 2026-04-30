@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgeLengthMesh" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgeLengthMesh</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgeLengthMesh</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EdgeLengthMesh" prot="public" virt="non-virtual">MR.Const_EdgeLengthMesh</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1EdgeLengthMesh_1a045debb390ef5dc21b11133a6073bd62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
@@ -122,7 +122,7 @@
         <name>EdgeLengthMesh</name>
         <qualifiedname>MR.EdgeLengthMesh.EdgeLengthMesh</qualifiedname>
         <param>
-          <type>Const_EdgeLengthMesh</type>
+          <type><ref refid="classMR_1_1Const__EdgeLengthMesh" kindref="compound">Const_EdgeLengthMesh</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -206,6 +206,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeLengthMesh</label>
+        <link refid="classMR_1_1Const__EdgeLengthMesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +228,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeLengthMesh</label>
+        <link refid="classMR_1_1Const__EdgeLengthMesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -242,6 +244,16 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="177" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="178" bodyend="285"/>
     <listofallmembers>
       <member refid="classMR_1_1EdgeLengthMesh_1add454eb6806e41aed595b8efa5588839" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1a3f7686a8bb5c2501f4f663792bb68e86" prot="package" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>Const_EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1abbd94190ff06db9fbd7685d7e7ee9bd1" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>Const_EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1a886ee832cdd2d3bf3031cfb533bc52e8" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>Const_EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1a1710ef740ece223bee79f18867dd9cab" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>Const_EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1acedd09e0eb6ffb7096b2811d3fea449d" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>Const_EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1adab7d09a9378a16cf15c8cc1a0ba6395" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>Const_EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1ab2064d34831193f11f3487f704e90973" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>cotan</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1ac37ac7d9d8bcd4c8cb4c5b7d303d495b" prot="protected" virt="virtual"><scope>MR::EdgeLengthMesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1a9ab6dfd0e961f68bacbdfe0a709ecca1" prot="public" virt="virtual"><scope>MR::EdgeLengthMesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1aef1e8caf3c8151c6e6423873084ed65b" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>edgeLengthAfterFlip</name></member>
       <member refid="classMR_1_1EdgeLengthMesh_1ac0b5852f8e88dd644e74e5a93d2e2a29" prot="package" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
       <member refid="classMR_1_1EdgeLengthMesh_1ab55e99ba8a41f51b42eae0df368f7dc3" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
       <member refid="classMR_1_1EdgeLengthMesh_1a6838cc3c2aa187e386fd6e4a762418da" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
@@ -250,6 +262,9 @@
       <member refid="classMR_1_1EdgeLengthMesh_1a61bd9819b5683c378778a6a7e80d16bd" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
       <member refid="classMR_1_1EdgeLengthMesh_1a69d24808bd69bbcf0f1fd3a9f045bac5" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>edgeLengths</name></member>
       <member refid="classMR_1_1EdgeLengthMesh_1a475440e95dc0242144686642bb22ecad" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>flipEdge</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1acb006f3b4937faf8dcb58a0f74770e24" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>fromMesh</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1a35d39b0ccdc4f7f1ed3dab87062110d5" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>isDelone</name></member>
+      <member refid="classMR_1_1Const__EdgeLengthMesh_1a6d3c683ab4074ecb161548f483f2d58a" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>leftCotan</name></member>
       <member refid="classMR_1_1EdgeLengthMesh_1a045debb390ef5dc21b11133a6073bd62" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>topology</name></member>
     </listofallmembers>
   </compounddef>

@@ -4,6 +4,7 @@
     <compoundname>MRMCPGatewayBackend.h</compoundname>
     <includes refid="MRFastmcpp_8h" local="yes">MRMcp/MRFastmcpp.h</includes>
     <includes local="no">atomic</includes>
+    <includes local="no">mutex</includes>
     <includes local="no">string</includes>
     <incdepgraph>
       <node id="1">
@@ -14,6 +15,8 @@
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -54,6 +57,9 @@
         <label>fastmcpp/server/stdio_server.hpp</label>
       </node>
       <node id="10">
+        <label>mutex</label>
+      </node>
+      <node id="11">
         <label>string</label>
       </node>
     </incdepgraph>
@@ -69,22 +75,27 @@
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFastmcpp_8h" kindref="compound">MRMcp/MRFastmcpp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;atomic&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="namespaceMR_1_1McpGateway" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1McpGateway" kindref="compound">MR::McpGateway</ref></highlight></codeline>
-<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref>;</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" refkind="member"><highlight class="normal">std::atomic&lt;bool&gt;&amp;<sp/><ref refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" kindref="member">getBackendAlive</ref>();</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" kindref="member">probeBackendAlive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>targetUrl<sp/>);</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" kindref="member">probeAndTrackBackend</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>targetUrl<sp/>);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" kindref="member">registerLocalTools</ref>(<sp/>fastmcpp::ProxyApp&amp;<sp/>proxy,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref>&amp;<sp/>cfg<sp/>);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;mutex&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespaceMR_1_1McpGateway" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1McpGateway" kindref="compound">MR::McpGateway</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" refkind="member"><highlight class="normal">std::atomic&lt;bool&gt;&amp;<sp/><ref refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" kindref="member">getBackendAlive</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" kindref="member">probeBackendAlive</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>targetUrl<sp/>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="namespaceMR_1_1McpGateway_1a153505bbfb54eb994b1929e70f09d9f5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1a153505bbfb54eb994b1929e70f09d9f5" kindref="member">updateBackendAliveAndNotify</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>nowAlive<sp/>);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31" refid="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" kindref="member">probeAndTrackBackend</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>targetUrl<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="namespaceMR_1_1McpGateway_1a125af5dc97b6c00c8b23e57f661a1b96" refkind="member"><highlight class="normal">std::mutex&amp;<sp/><ref refid="namespaceMR_1_1McpGateway_1a125af5dc97b6c00c8b23e57f661a1b96" kindref="member">gatewayStdoutMutex</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" kindref="member">registerLocalTools</ref>(<sp/>fastmcpp::ProxyApp&amp;<sp/>proxy,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref>&amp;<sp/>cfg<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMCPGateway/MRMCPGatewayBackend.h"/>
   </compounddef>

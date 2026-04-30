@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Polynomial__Double__3" kind="class" language="C#" prot="public">
     <compoundname>MR::Polynomial_Double_3</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Polynomial_Double_3</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Polynomial__Double__3" prot="public" virt="non-virtual">MR.Const_Polynomial_Double_3</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Polynomial__Double__3_1a7b7a05b95098e00d1fdcb8d9c2421a2f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>Polynomial_Double_3</name>
         <qualifiedname>MR.Polynomial_Double_3.Polynomial_Double_3</qualifiedname>
         <param>
-          <type>Const_Polynomial_Double_3</type>
+          <type><ref refid="classMR_1_1Const__Polynomial__Double__3" kindref="compound">Const_Polynomial_Double_3</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -134,6 +134,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polynomial_Double_3</label>
+        <link refid="classMR_1_1Const__Polynomial__Double__3"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +156,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polynomial_Double_3</label>
+        <link refid="classMR_1_1Const__Polynomial__Double__3"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -169,12 +171,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2269" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2270" bodyend="2315"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1a9be8eb729d148c7ed6f7d0056793cafe" prot="protected" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>__ref_storage_N</name></member>
       <member refid="classMR_1_1Polynomial__Double__3_1a81ed32eff912c06427daa8b78fe543cb" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1af8ebde5d2ad5d44d13208ef6a6cb9952" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1a67df1aa7c92ac8e4b43a4444ab2a0495" prot="package" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Const_Polynomial_Double_3</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1a90d18911600cf2466fd75a55937bdc3e" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Const_Polynomial_Double_3</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1a9676d54768e08c5d4ecceeaae023e147" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Const_Polynomial_Double_3</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1aba538894b9a125628ba163b048f7d2aa" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Const_Polynomial_Double_3</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1ade2d261659b8a66eb700d6efb2eb685d" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Const_Polynomial_Double_3</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1ac4741c659d32615284016802e792a5ea" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>deriv</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1af2e12f2e529b809d57d61254ed2cdc24" prot="protected" virt="virtual"><scope>MR::Polynomial_Double_3</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1ae3ae664775c96d2fd6c03cfbcef57374" prot="public" virt="virtual"><scope>MR::Polynomial_Double_3</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1af48dcc4e4c32f332708bc7ae9f51b811" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>intervalMin</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1a1cbb3ee94fec2c0a5b9475bd2c1d779b" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>N</name></member>
       <member refid="classMR_1_1Polynomial__Double__3_1a7b7a05b95098e00d1fdcb8d9c2421a2f" prot="package" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Polynomial_Double_3</name></member>
       <member refid="classMR_1_1Polynomial__Double__3_1adcd627dc029b1b4e6421ef018587299d" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Polynomial_Double_3</name></member>
       <member refid="classMR_1_1Polynomial__Double__3_1afd201b7428bfa4b38105a1f0e76419c1" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Polynomial_Double_3</name></member>
       <member refid="classMR_1_1Polynomial__Double__3_1a7dba9c73ef677a7351ef2cd466a34eac" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Polynomial_Double_3</name></member>
       <member refid="classMR_1_1Polynomial__Double__3_1a2fa68cd8039db1bdb83c343d61663413" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>Polynomial_Double_3</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__3_1a54847ba9a9f09388927f85f83bd18c16" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_3</scope><name>solve</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

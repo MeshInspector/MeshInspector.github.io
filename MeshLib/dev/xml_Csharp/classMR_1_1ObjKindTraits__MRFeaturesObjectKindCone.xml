@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjKindTraits_MRFeaturesObjectKindCone</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindCone</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone" prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindCone</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a5e50bd4007e7373e5a838c5a9883927e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>ObjKindTraits_MRFeaturesObjectKindCone</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCone.ObjKindTraits_MRFeaturesObjectKindCone</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindCone</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindCone</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCone.assign</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindCone</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindCone</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindCone</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindCone</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="943" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="944" bodyend="984"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a0ba86e694bbe43c8933e456116ffed58" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1a4c1fae140970318aaf8fbe236db720c2" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCone</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1a88cbdb1cb5581b4740c6771674b30173" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCone</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1a5fb30146191e375777dd3e7462fe5522" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCone</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1af749f36b49a69343ac43015ead628758" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCone</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1a81ffa6e0e5036a203e151cf1066eceff" prot="protected" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1ad77ea1b8c65d264123c2bf795c25e181" prot="public" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone_1a89de2906d8328e9b124ce56154e1f00f" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>Name</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a5e50bd4007e7373e5a838c5a9883927e" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>ObjKindTraits_MRFeaturesObjectKindCone</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a2d4d3cc84c0982197e0e3cb4de95080c" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>ObjKindTraits_MRFeaturesObjectKindCone</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCone_1a228aabed5419f7985790f4538a14cf8f" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCone</scope><name>ObjKindTraits_MRFeaturesObjectKindCone</name></member>

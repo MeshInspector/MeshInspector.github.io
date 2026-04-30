@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ImproveSamplingSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ImproveSamplingSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ImproveSamplingSettings" prot="public" virt="non-virtual">MR.ImproveSamplingSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ImproveSamplingSettings_1ab5707cfdd893961c5e28550f1dba2459" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ImproveSamplingSettings.numIters</definition>
+        <argsstring></argsstring>
+        <name>numIters</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.numIters</qualifiedname>
+        <briefdescription>
+<para>the number of algorithm iterations to perform </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="28" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ImproveSamplingSettings_1a85eacbc740e6b63503e475a6bc155127" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ImproveSamplingSettings.minPointsInSample</definition>
+        <argsstring></argsstring>
+        <name>minPointsInSample</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.minPointsInSample</qualifiedname>
+        <briefdescription>
+<para>if a sample represents less than this number of input points then such sample will be discarded; it can be used to remove outliers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="35" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ImproveSamplingSettings_1ac2d3b32a8874cbdc88658fe074150ec1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition>unsafe MR.? VertMap MR.Const_ImproveSamplingSettings.pt2sm</definition>
+        <argsstring></argsstring>
+        <name>pt2sm</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.pt2sm</qualifiedname>
+        <briefdescription>
+<para>optional output: mapping from input point id to sample id </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="41" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="42" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ImproveSamplingSettings_1ac51a1249adfb36538ee1013bdaac8cf0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition>unsafe MR.? PointCloud MR.Const_ImproveSamplingSettings.cloudOfSamples</definition>
+        <argsstring></argsstring>
+        <name>cloudOfSamples</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.cloudOfSamples</qualifiedname>
+        <briefdescription>
+<para>optional output: new cloud containing averaged points and normals for each sample </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="59" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="60" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ImproveSamplingSettings_1a3e2fc40f8b669f3f7eb02cc57d80feee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Vector__Int__MRVertId" kindref="compound">Vector_Int_MRVertId</ref></type>
+        <definition>unsafe MR.? Vector_Int_MRVertId MR.Const_ImproveSamplingSettings.ptsInSm</definition>
+        <argsstring></argsstring>
+        <name>ptsInSm</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.ptsInSm</qualifiedname>
+        <briefdescription>
+<para>optional output: the number of points in each sample </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="77" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="78" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ImproveSamplingSettings_1a52d9d74cecf9d5dbb0cf1ea9d8c6495a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertColors" kindref="compound">Const_VertColors</ref></type>
+        <definition>unsafe MR.? Const_VertColors MR.Const_ImproveSamplingSettings.ptColors</definition>
+        <argsstring></argsstring>
+        <name>ptColors</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.ptColors</qualifiedname>
+        <briefdescription>
+<para>optional input: colors of input points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="95" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="96" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ImproveSamplingSettings_1af7f4aa5a36d4a1d978c131a8b7e89d38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition>unsafe MR.? VertColors MR.Const_ImproveSamplingSettings.smColors</definition>
+        <argsstring></argsstring>
+        <name>smColors</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.smColors</qualifiedname>
+        <briefdescription>
+<para>optional output: averaged colors of samples </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="113" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="114" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ImproveSamplingSettings_1a81361d71dcf839dd6f033a5e851a7baa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_ImproveSamplingSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.progress</qualifiedname>
+        <briefdescription>
+<para>output progress status and receive cancel signal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="131" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="131" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ImproveSamplingSettings_1ae8c516b138ca57a8267efaac3c702ea1" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_ImproveSamplingSettings.__ref_storage_numIters</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_numIters</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.__ref_storage_numIters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="29" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ImproveSamplingSettings_1aebd1c71bb3b7b2f1fa361b1917bc768f" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_ImproveSamplingSettings.__ref_storage_minPointsInSample</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minPointsInSample</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.__ref_storage_minPointsInSample</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="36" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ImproveSamplingSettings_1a4f23702b438401fae1c317d18534e7bf" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertMap._Underlying **</type>
+        <definition>unsafe MR.VertMap._Underlying** MR.Const_ImproveSamplingSettings.__ptr_storage_pt2sm</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_pt2sm</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.__ptr_storage_pt2sm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="54" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ImproveSamplingSettings_1a58724c74cb1129156b0a31c4bba90f95" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.PointCloud._Underlying **</type>
+        <definition>unsafe MR.PointCloud._Underlying** MR.Const_ImproveSamplingSettings.__ptr_storage_cloudOfSamples</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_cloudOfSamples</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.__ptr_storage_cloudOfSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="72" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ImproveSamplingSettings_1af2166415534def3f2c365791cd9b07e1" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Vector_Int_MRVertId._Underlying **</type>
+        <definition>unsafe MR.Vector_Int_MRVertId._Underlying** MR.Const_ImproveSamplingSettings.__ptr_storage_ptsInSm</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_ptsInSm</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.__ptr_storage_ptsInSm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="90" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ImproveSamplingSettings_1a6f3dc8eb01adfe3a485e0231e2a0fb5a" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertColors._Underlying **</type>
+        <definition>unsafe MR.Const_VertColors._Underlying** MR.Const_ImproveSamplingSettings.__ptr_storage_ptColors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_ptColors</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.__ptr_storage_ptColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="108" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ImproveSamplingSettings_1ac4d2a7d9e075c8d2e1ee8c63120bf802" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertColors._Underlying **</type>
+        <definition>unsafe MR.VertColors._Underlying** MR.Const_ImproveSamplingSettings.__ptr_storage_smColors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_smColors</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.__ptr_storage_smColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="126" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1af3af2ffd64d2449c2a29af160d1f1486" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ImproveSamplingSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1a10cbf7084cdc8264b6ac338cf5e79529" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ImproveSamplingSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1a38141b4ff7b6eac58b1a7dce9af615ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ImproveSamplingSettings</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="201" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="201" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1a48786be2478f0cd2a4c9c1d5299656f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</definition>
+        <argsstring>(int numIters, int minPointsInSample, MR.VertMap? pt2sm, MR.PointCloud? cloudOfSamples, MR.Vector_Int_MRVertId? ptsInSm, MR.Const_VertColors? ptColors, MR.VertColors? smColors, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
+        <name>Const_ImproveSamplingSettings</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minPointsInSample</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>pt2sm</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref>?</type>
+          <declname>cloudOfSamples</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Vector__Int__MRVertId" kindref="compound">MR.Vector_Int_MRVertId</ref>?</type>
+          <declname>ptsInSm</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref>?</type>
+          <declname>ptColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref>?</type>
+          <declname>smColors</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ImproveSamplingSettings" kindref="compound">MR.ImproveSamplingSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="212" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1a7466763b29259233f5f62e2b6629512b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</definition>
+        <argsstring>(MR._ByValue_ImproveSamplingSettings _other)</argsstring>
+        <name>Const_ImproveSamplingSettings</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_ImproveSamplingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ImproveSamplingSettings_1a1a447894c0c444baa26b9e469bb70550" kindref="member">MR.ImproveSamplingSettings.ImproveSamplingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="229" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="229" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1a830d5795104bbc9531e1ac72cc1de404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</definition>
+        <argsstring>(Const_ImproveSamplingSettings _other)</argsstring>
+        <name>Const_ImproveSamplingSettings</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ImproveSamplingSettings" kindref="compound">Const_ImproveSamplingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ImproveSamplingSettings_1a1a447894c0c444baa26b9e469bb70550" kindref="member">MR.ImproveSamplingSettings.ImproveSamplingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="241" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="241" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1a59ff9ded7ba43b6322b98147b4687137" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</definition>
+        <argsstring>(ImproveSamplingSettings _other)</argsstring>
+        <name>Const_ImproveSamplingSettings</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ImproveSamplingSettings" kindref="compound">ImproveSamplingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ImproveSamplingSettings_1a1a447894c0c444baa26b9e469bb70550" kindref="member">MR.ImproveSamplingSettings.ImproveSamplingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="246" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="246" bodyend="246"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1af7b2cd9e078650cbbf12afd3a2015d20" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ImproveSamplingSettings.~Const_ImproveSamplingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ImproveSamplingSettings</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.~Const_ImproveSamplingSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ImproveSamplingSettings_1a4ab7dd2f97e753009a2da59b947b0fa0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ImproveSamplingSettings</name>
+        <qualifiedname>MR.Const_ImproveSamplingSettings.Const_ImproveSamplingSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="190" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="190" bodyend="195"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ImproveSamplingSettings" kindref="compound">MR.ImproveSamplingSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ImproveSamplingSettings</label>
+        <link refid="classMR_1_1Const__ImproveSamplingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ImproveSamplingSettings</label>
+        <link refid="classMR_1_1ImproveSamplingSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_ImproveSamplingSettings</label>
+        <link refid="classMR_1_1Const__ImproveSamplingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_cloudOfSamples</edgelabel>
+          <edgelabel>__ptr_storage_pt2sm</edgelabel>
+          <edgelabel>__ptr_storage_ptColors</edgelabel>
+          <edgelabel>__ptr_storage_ptsInSm</edgelabel>
+          <edgelabel>__ptr_storage_smColors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImproveSampling.cs" bodystart="8" bodyend="247"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a58724c74cb1129156b0a31c4bba90f95" prot="protected" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>__ptr_storage_cloudOfSamples</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a4f23702b438401fae1c317d18534e7bf" prot="protected" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>__ptr_storage_pt2sm</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a6f3dc8eb01adfe3a485e0231e2a0fb5a" prot="protected" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>__ptr_storage_ptColors</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1af2166415534def3f2c365791cd9b07e1" prot="protected" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>__ptr_storage_ptsInSm</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1ac4d2a7d9e075c8d2e1ee8c63120bf802" prot="protected" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>__ptr_storage_smColors</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1aebd1c71bb3b7b2f1fa361b1917bc768f" prot="protected" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>__ref_storage_minPointsInSample</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1ae8c516b138ca57a8267efaac3c702ea1" prot="protected" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>__ref_storage_numIters</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1ac51a1249adfb36538ee1013bdaac8cf0" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>cloudOfSamples</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a4ab7dd2f97e753009a2da59b947b0fa0" prot="package" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>Const_ImproveSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a38141b4ff7b6eac58b1a7dce9af615ca" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>Const_ImproveSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a48786be2478f0cd2a4c9c1d5299656f1" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>Const_ImproveSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a7466763b29259233f5f62e2b6629512b" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>Const_ImproveSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a830d5795104bbc9531e1ac72cc1de404" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>Const_ImproveSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a59ff9ded7ba43b6322b98147b4687137" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>Const_ImproveSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1af3af2ffd64d2449c2a29af160d1f1486" prot="protected" virt="virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a10cbf7084cdc8264b6ac338cf5e79529" prot="public" virt="virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a85eacbc740e6b63503e475a6bc155127" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>minPointsInSample</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1ab5707cfdd893961c5e28550f1dba2459" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>numIters</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a81361d71dcf839dd6f033a5e851a7baa" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1ac2d3b32a8874cbdc88658fe074150ec1" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>pt2sm</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a52d9d74cecf9d5dbb0cf1ea9d8c6495a" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>ptColors</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1a3e2fc40f8b669f3f7eb02cc57d80feee" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>ptsInSm</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1af7f4aa5a36d4a1d978c131a8b7e89d38" prot="public" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>smColors</name></member>
+      <member refid="classMR_1_1Const__ImproveSamplingSettings_1af7b2cd9e078650cbbf12afd3a2015d20" prot="private" virt="non-virtual"><scope>MR::Const_ImproveSamplingSettings</scope><name>~Const_ImproveSamplingSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

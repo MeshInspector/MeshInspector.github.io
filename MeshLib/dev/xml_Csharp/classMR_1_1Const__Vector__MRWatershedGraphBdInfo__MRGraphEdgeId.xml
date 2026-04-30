@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId" prot="public" virt="non-virtual">MR.Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a884d8e8df73bcc0e5bf4ee800f0c0ce3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRWatershedGraphBdInfo</type>
+        <definition>unsafe MR.Std.Const_Vector_MRWatershedGraphBdInfo MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50426" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50426" bodyend="50426"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a2b4f04c7c8e6c60730af565639cd3742" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" kindref="compound">MR.WatershedGraph.Const_BdInfo</ref></type>
+        <definition>unsafe MR.WatershedGraph.Const_BdInfo MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.this[MR.GraphEdgeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.GraphEdgeId i]</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.this[MR.GraphEdgeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50561" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50562" bodyend="50572"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a9d5153b258d1e584c59b97c703314e90" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50347" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50347" bodyend="50355"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a11c7f0fd9574d31e88c505787182f8b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50356" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50356" bodyend="50356"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a3e558dd8c94c627be9dc22de18c5128f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" kindref="compound">MR.WatershedGraph.Const_BdInfo</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.WatershedGraph.Const_BdInfo &gt; MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50413" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50413" bodyend="50416"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a982d944f597f9707ffa80063d1fed05a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50454" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50454" bodyend="50460"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a249e7770d94813cdbf50c1531757d5f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>(MR._ByValue_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId _other)</argsstring>
+        <name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50465" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50465" bodyend="50472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a31af720ded4238958d19068a6b1f0b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>(Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId _other)</argsstring>
+        <name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId" kindref="compound">Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50477" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50477" bodyend="50477"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a3e12e1dfd1764de5b469fb770e6e65df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>(Vector_MRWatershedGraphBdInfo_MRGraphEdgeId _other)</argsstring>
+        <name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId" kindref="compound">Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50482" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50482" bodyend="50482"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a5d152cde6a0d6e81345cdd952d04bc2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50488" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50488" bodyend="50494"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a2613762a7c668678b5964b204e5109ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>(ulong size, MR.WatershedGraph.Const_BdInfo val)</argsstring>
+        <name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" kindref="compound">MR.WatershedGraph.Const_BdInfo</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50500" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50500" bodyend="50507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a31a2a3dc8a46bb55c9077b3d1580ac38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRWatershedGraphBdInfo &gt; vec)</argsstring>
+        <name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRWatershedGraphBdInfo &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50513" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50513" bodyend="50520"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a19b0214d0f95496e9fe206efa30d4300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a19b0214d0f95496e9fe206efa30d4300" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50531" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50531" bodyend="50536"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a0eb5383dfcfac725d1389e2a261ccfeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a0eb5383dfcfac725d1389e2a261ccfeb" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50541" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50541" bodyend="50546"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a68a8ea63a5d0ab376e76f24f80ba4ab5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a68a8ea63a5d0ab376e76f24f80ba4ab5" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50551" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50551" bodyend="50556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af7afab7853af3f680a79db5ba57c5d47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" kindref="compound">MR.WatershedGraph.Const_BdInfo</ref></type>
+        <definition>unsafe MR.WatershedGraph.Const_BdInfo MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af7afab7853af3f680a79db5ba57c5d47" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50577" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50577" bodyend="50585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a6bc35ade6f36e17c046fdc2ca4f4f0fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BdInfo" kindref="compound">MR.WatershedGraph.Const_BdInfo</ref></type>
+        <definition>unsafe MR.WatershedGraph.Const_BdInfo MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a6bc35ade6f36e17c046fdc2ca4f4f0fc" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50590" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50590" bodyend="50598"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a3be0372d42388072749ac2bf957d3734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a3be0372d42388072749ac2bf957d3734" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50604" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50604" bodyend="50609"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1abd369e1472a179886a7cbd2033a4090a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a6bc35ade6f36e17c046fdc2ca4f4f0fc" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1abd369e1472a179886a7cbd2033a4090a" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50615" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50615" bodyend="50620"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1aa7aa3f349cf1e03e5d335ae775ca99d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1abd369e1472a179886a7cbd2033a4090a" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1aa7aa3f349cf1e03e5d335ae775ca99d6" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50626" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50626" bodyend="50631"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a5f3b47517ded2a8547beb87a1af2fd0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.WatershedGraph.? Const_BdInfo</type>
+        <definition>unsafe MR.WatershedGraph.? Const_BdInfo MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a5f3b47517ded2a8547beb87a1af2fd0b" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50636" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50636" bodyend="50645"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af57ad2ff67d01e9d3da387be177eb52b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af57ad2ff67d01e9d3da387be177eb52b" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50651" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50651" bodyend="50656"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a13daae1eb07356384ba9a2a6c4b8cf9e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.~Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.~Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50357" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50357" bodyend="50357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1aba665b62adedf600a1c039d556ba58cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50418" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50418" bodyend="50421"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af6965fe75a4ee0ee739ebcd39882c33b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50443" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50443" bodyend="50448"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1aa109e8f771e9b73ecc926e3541c0616d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.operator Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRWatershedGraphBdInfo &gt; vec)</argsstring>
+        <name>operator Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId.operator Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRWatershedGraphBdInfo &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50526" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50526" bodyend="50526"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</label>
+        <link refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</label>
+        <link refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</label>
+        <link refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50341" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50342" bodyend="50657"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a6bc35ade6f36e17c046fdc2ca4f4f0fc" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1abd369e1472a179886a7cbd2033a4090a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a3be0372d42388072749ac2bf957d3734" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a68a8ea63a5d0ab376e76f24f80ba4ab5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af6965fe75a4ee0ee739ebcd39882c33b" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a982d944f597f9707ffa80063d1fed05a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a249e7770d94813cdbf50c1531757d5f3" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a31af720ded4238958d19068a6b1f0b6a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a3e12e1dfd1764de5b469fb770e6e65df" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a5d152cde6a0d6e81345cdd952d04bc2b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a2613762a7c668678b5964b204e5109ed" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a31a2a3dc8a46bb55c9077b3d1580ac38" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a5f3b47517ded2a8547beb87a1af2fd0b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a9d5153b258d1e584c59b97c703314e90" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a11c7f0fd9574d31e88c505787182f8b8" prot="public" virt="virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a19b0214d0f95496e9fe206efa30d4300" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1aa7aa3f349cf1e03e5d335ae775ca99d6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af7afab7853af3f680a79db5ba57c5d47" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a3e558dd8c94c627be9dc22de18c5128f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1aba665b62adedf600a1c039d556ba58cf" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af57ad2ff67d01e9d3da387be177eb52b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1aa109e8f771e9b73ecc926e3541c0616d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>operator Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a0eb5383dfcfac725d1389e2a261ccfeb" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a2b4f04c7c8e6c60730af565639cd3742" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>this[MR.GraphEdgeId i]</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a884d8e8df73bcc0e5bf4ee800f0c0ce3" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a13daae1eb07356384ba9a2a6c4b8cf9e" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</scope><name>~Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

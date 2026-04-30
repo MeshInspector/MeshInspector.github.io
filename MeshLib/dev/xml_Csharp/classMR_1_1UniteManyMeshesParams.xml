@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UniteManyMeshesParams" kind="class" language="C#" prot="public">
     <compoundname>MR::UniteManyMeshesParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UniteManyMeshesParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UniteManyMeshesParams" prot="public" virt="non-virtual">MR.Const_UniteManyMeshesParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1UniteManyMeshesParams_1aece2e697af868b81cee3b3b010c74b73" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -261,7 +261,7 @@
         <name>UniteManyMeshesParams</name>
         <qualifiedname>MR.UniteManyMeshesParams.UniteManyMeshesParams</qualifiedname>
         <param>
-          <type>Const_UniteManyMeshesParams</type>
+          <type><ref refid="classMR_1_1Const__UniteManyMeshesParams" kindref="compound">Const_UniteManyMeshesParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -326,6 +326,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UniteManyMeshesParams</label>
+        <link refid="classMR_1_1Const__UniteManyMeshesParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -339,6 +340,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.UniteManyMeshesParams</label>
         <link refid="classMR_1_1UniteManyMeshesParams"/>
@@ -347,9 +352,14 @@
       </node>
       <node id="2">
         <label>MR.Const_UniteManyMeshesParams</label>
+        <link refid="classMR_1_1Const__UniteManyMeshesParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_newFaces</edgelabel>
+          <edgelabel>__ref_storage_nestedComponentsMode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -361,7 +371,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" line="237" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniteManyMeshes.cs" bodystart="238" bodyend="379"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a07f463e3bd498825e7e085c3e509adfd" prot="protected" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>__ptr_storage_newFaces</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a5dd009648f7cbde220f04ce7e23de783" prot="protected" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>__ref_storage_fixDegenerations</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a8a079d436ca9f77ba324b9262fba86e2" prot="protected" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>__ref_storage_forceCut</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1aa2e372dffb9529923b9378c29629c098" prot="protected" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>__ref_storage_maxAllowedError</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1acfd4123361bae51e2abfdd2225d5925a" prot="protected" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>__ref_storage_mergeOnFail</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a185c3b41df1f0589acd588da448e750d" prot="protected" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>__ref_storage_nestedComponentsMode</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1af19aadcbec5afa48c8afecdc6d224e85" prot="protected" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>__ref_storage_randomShiftsSeed</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a0c1e4788c3022f3457214b3460262a13" prot="protected" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>__ref_storage_useRandomShifts</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1abbb81aab4b16d07b9becb1072530e145" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a957e807de0c372eb6fe43cefbb9e0c22" prot="package" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>Const_UniteManyMeshesParams</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1aeb04f4a9ec91884a25843d695207f939" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>Const_UniteManyMeshesParams</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a069cfc5baf1b970780958627e44db109" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>Const_UniteManyMeshesParams</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a46f685622e92b418a8de1ebc992b2674" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>Const_UniteManyMeshesParams</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a4c4e7eca5a20f0726a086c67cb62960c" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>Const_UniteManyMeshesParams</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a5e79e9ffdc2717cae983cf79342de836" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>Const_UniteManyMeshesParams</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1ad891d9608ff772c04836d07308ae595a" prot="protected" virt="virtual"><scope>MR::UniteManyMeshesParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniteManyMeshesParams_1a09ac4d62dbab072ef3859e9aa327c027" prot="public" virt="virtual"><scope>MR::UniteManyMeshesParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1af536d5a538ee8d6e0ad91c38723e40ac" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>fixDegenerations</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1ab85360fc04e5214a35a95f729e284611" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>forceCut</name></member>
       <member refid="classMR_1_1UniteManyMeshesParams_1a8a91c6fcf487572f2193c3c107618ec6" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>maxAllowedError</name></member>

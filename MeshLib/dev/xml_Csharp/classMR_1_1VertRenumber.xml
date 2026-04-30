@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertRenumber" kind="class" language="C#" prot="public">
     <compoundname>MR::VertRenumber</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertRenumber</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VertRenumber" prot="public" virt="non-virtual">MR.Const_VertRenumber</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VertRenumber_1ab06d0e2c7302c68a630d2c99c7c2abc1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>VertRenumber</name>
         <qualifiedname>MR.VertRenumber.VertRenumber</qualifiedname>
         <param>
-          <type>Const_VertRenumber</type>
+          <type><ref refid="classMR_1_1Const__VertRenumber" kindref="compound">Const_VertRenumber</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,7 +92,7 @@
         <name>VertRenumber</name>
         <qualifiedname>MR.VertRenumber.VertRenumber</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>validVerts</declname>
         </param>
         <param>
@@ -142,6 +142,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertRenumber</label>
+        <link refid="classMR_1_1Const__VertRenumber"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -163,6 +164,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertRenumber</label>
+        <link refid="classMR_1_1Const__VertRenumber"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -178,6 +180,16 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="704" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="705" bodyend="752"/>
     <listofallmembers>
       <member refid="classMR_1_1VertRenumber_1a9e94f668782c3f28619bb3f6b06a26c0" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1a2ed21fd07d879bd600e5a5cb59c9f09c" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1a5daf4cab3ba11c89399e737753594c7b" prot="package" virt="non-virtual"><scope>MR::VertRenumber</scope><name>Const_VertRenumber</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1aab49343b31008aebda8535fb7da5bdf6" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>Const_VertRenumber</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1af9c5bb144b45b29841a986b3ac427cf6" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>Const_VertRenumber</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1a322234fc48ef396cca04b41d788a857f" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>Const_VertRenumber</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1ab1c5e0d37cda8c71677416aaf02b6baf" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>Const_VertRenumber</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1a6a253faac0f8711fe847426b29b29034" prot="protected" virt="virtual"><scope>MR::VertRenumber</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1a97351fcd2ab4e758be68b7d2ef16c1fa" prot="public" virt="virtual"><scope>MR::VertRenumber</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1af01ecd2720697590727dc9c56bf1e3f4" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>saveValidOnly</name></member>
+      <member refid="classMR_1_1Const__VertRenumber_1acf3399c96109de9f69cb999bef158e5c" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>sizeVerts</name></member>
       <member refid="classMR_1_1VertRenumber_1ab06d0e2c7302c68a630d2c99c7c2abc1" prot="package" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
       <member refid="classMR_1_1VertRenumber_1aeed452c284c54dc70df0d8ef01384b8b" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
       <member refid="classMR_1_1VertRenumber_1a8e3374a5cb5764bb78512c8ac571f1c3" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>

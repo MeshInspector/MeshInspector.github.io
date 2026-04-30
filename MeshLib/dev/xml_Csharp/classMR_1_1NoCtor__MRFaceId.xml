@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoCtor__MRFaceId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoCtor_MRFaceId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoCtor_MRFaceId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoCtor__MRFaceId" prot="public" virt="non-virtual">MR.Const_NoCtor_MRFaceId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NoCtor__MRFaceId_1a478afbb72b13f9941910d2811e252ac1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>NoCtor_MRFaceId</name>
         <qualifiedname>MR.NoCtor_MRFaceId.NoCtor_MRFaceId</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRFaceId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRFaceId" kindref="compound">MR.Const_NoCtor_MRFaceId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.NoCtor_MRFaceId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRFaceId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRFaceId" kindref="compound">MR.Const_NoCtor_MRFaceId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRFaceId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRFaceId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12952" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12953" bodyend="12993"/>
     <listofallmembers>
       <member refid="classMR_1_1NoCtor__MRFaceId_1a9e9e73dd8dbae2cd061a3b57f3527e2a" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRFaceId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRFaceId_1a5d2af5517db55bf598954e3260ee364e" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRFaceId</scope><name>Const_NoCtor_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRFaceId_1a78ce8d809579944cb2e0f4e8fa9bb697" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRFaceId</scope><name>Const_NoCtor_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRFaceId_1aae5c1b04c9ec99223f8fc51534f57278" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRFaceId</scope><name>Const_NoCtor_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRFaceId_1ab9610a7bb9eb2b559d4be80b4f9140af" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRFaceId</scope><name>Const_NoCtor_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRFaceId_1a5e292f38932a4a2765a098b5a431bdd3" prot="protected" virt="virtual"><scope>MR::NoCtor_MRFaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRFaceId_1aa42c1707c4f1be2cc6728e79f0d7972d" prot="public" virt="virtual"><scope>MR::NoCtor_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NoCtor__MRFaceId_1a478afbb72b13f9941910d2811e252ac1" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRFaceId</scope><name>NoCtor_MRFaceId</name></member>
       <member refid="classMR_1_1NoCtor__MRFaceId_1ac410d5164cd081e5f6b2237084e0a3a1" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRFaceId</scope><name>NoCtor_MRFaceId</name></member>
       <member refid="classMR_1_1NoCtor__MRFaceId_1a0c064b684f2f201cedea049af212672e" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRFaceId</scope><name>NoCtor_MRFaceId</name></member>

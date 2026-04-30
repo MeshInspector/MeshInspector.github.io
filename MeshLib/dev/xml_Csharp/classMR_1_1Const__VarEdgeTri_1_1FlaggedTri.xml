@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VarEdgeTri::FlaggedTri</compoundname>
+    <basecompoundref refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri" prot="public" virt="non-virtual">MR.Const_VarEdgeTri.Const_FlaggedTri</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a4489f218889a86a79cb564f9bf808430" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VarEdgeTri.FlaggedTri.FlaggedTri</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FlaggedTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.FlaggedTri.FlaggedTri</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="503" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="503" bodyend="503"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a5422e0faa515aa4d37e94823fe99de8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VarEdgeTri.FlaggedTri.FlaggedTri</definition>
+        <argsstring>()</argsstring>
+        <name>FlaggedTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.FlaggedTri.FlaggedTri</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="508" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="508" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aeb39dbafbef566ebe2c39ecba7fc59f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VarEdgeTri.FlaggedTri.FlaggedTri</definition>
+        <argsstring>(MR.VarEdgeTri.Const_FlaggedTri _other)</argsstring>
+        <name>FlaggedTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.FlaggedTri.FlaggedTri</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri" kindref="compound">MR.VarEdgeTri.Const_FlaggedTri</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::VarEdgeTri::FlaggedTri::FlaggedTri</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="518" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="518" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aeaf20be1c7f10334cb061030066c5678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VarEdgeTri.FlaggedTri.FlaggedTri</definition>
+        <argsstring>(FlaggedTri _other)</argsstring>
+        <name>FlaggedTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.FlaggedTri.FlaggedTri</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri" kindref="compound">FlaggedTri</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::VarEdgeTri::FlaggedTri::FlaggedTri</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="529" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="529" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aff90ff44cb5eac528b1a5d83746f8f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri" kindref="compound">MR.VarEdgeTri.FlaggedTri</ref></type>
+        <definition>unsafe MR.VarEdgeTri.FlaggedTri MR.Const_VarEdgeTri.FlaggedTri.assign</definition>
+        <argsstring>(MR.VarEdgeTri.Const_FlaggedTri _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_VarEdgeTri.FlaggedTri.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri" kindref="compound">MR.VarEdgeTri.Const_FlaggedTri</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VarEdgeTri::FlaggedTri::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="534" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="534" bodyend="541"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri" kindref="compound">MR.VarEdgeTri.FlaggedTri</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VarEdgeTri.FlaggedTri</label>
+        <link refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_VarEdgeTri.Const_FlaggedTri</label>
+        <link refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_VarEdgeTri.FlaggedTri</label>
+        <link refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_VarEdgeTri.Const_FlaggedTri</label>
+        <link refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="501" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="502" bodyend="542"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aff90ff44cb5eac528b1a5d83746f8f31" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a2a7303e4038c958dfa8a86b076e056e3" prot="package" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Const_FlaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a5003af166895c9d459edf42545a0eace" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Const_FlaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a5163932a89910b4ee7b91974e4c6d7c0" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Const_FlaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1adddddc1417ae941b13b72882c6aa1314" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Const_FlaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a199b5f6fbcffba435e9b04ca5dc0456a" prot="protected" virt="virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a7105757335a30d979291a0ded06e93f2" prot="public" virt="virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1acc768c7c27ce6a12cef35fde5cb10b95" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1ae96bf82f6adff479802ce4f06930b08d" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a4489f218889a86a79cb564f9bf808430" prot="package" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>FlaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1a5422e0faa515aa4d37e94823fe99de8f" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>FlaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aeb39dbafbef566ebe2c39ecba7fc59f0" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>FlaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri_1aeaf20be1c7f10334cb061030066c5678" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>FlaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a3dfdd15962947b70c91fe2b620037826" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri_1a8d216fd6ca8c25999574131b59398551" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri::FlaggedTri</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

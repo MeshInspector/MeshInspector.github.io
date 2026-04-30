@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Matrix3__Float_1_1QR" kind="class" language="C#" prot="public">
     <compoundname>MR::Matrix3_Float::QR</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Matrix3_Float.Const_QR</basecompoundref>
+    <basecompoundref refid="classMR_1_1Matrix3__Float_1_1Const__QR" prot="public" virt="non-virtual">MR.Matrix3_Float.Const_QR</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Matrix3__Float_1_1QR_1abe209dea753f9bfbbf03b39bd3d33431" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
@@ -103,7 +103,7 @@
         <name>QR</name>
         <qualifiedname>MR.Matrix3_Float.QR.QR</qualifiedname>
         <param>
-          <type>MR.Matrix3_Float.Const_QR</type>
+          <type><ref refid="classMR_1_1Matrix3__Float_1_1Const__QR" kindref="compound">MR.Matrix3_Float.Const_QR</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.Matrix3_Float.QR.assign</qualifiedname>
         <param>
-          <type>MR.Matrix3_Float.Const_QR</type>
+          <type><ref refid="classMR_1_1Matrix3__Float_1_1Const__QR" kindref="compound">MR.Matrix3_Float.Const_QR</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Matrix3_Float.Const_QR</label>
+        <link refid="classMR_1_1Matrix3__Float_1_1Const__QR"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Matrix3_Float.QR</label>
         <link refid="classMR_1_1Matrix3__Float_1_1QR"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Matrix3_Float.Const_QR</label>
+        <link refid="classMR_1_1Matrix3__Float_1_1Const__QR"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_q</edgelabel>
+          <edgelabel>__ref_storage_r</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,7 +213,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="3819" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="3820" bodyend="3884"/>
     <listofallmembers>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1ad2448163cf6a18d76c1932238ceb20b1" prot="protected" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>__ref_storage_q</name></member>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1a62a4c46b2fee933989486952b74c6b2d" prot="protected" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>__ref_storage_r</name></member>
       <member refid="classMR_1_1Matrix3__Float_1_1QR_1a213ed83614ca458dd1e9aa3a5fcc9330" prot="public" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>assign</name></member>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1abfef1eba701ce9fd9b6be2e5f16065b9" prot="package" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1abc58478608db6863ec31fdf9e90c6d3e" prot="public" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1a14f312417e82b083e75fd5ce4a318d94" prot="public" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1a6174a8fdd7a8e5f72bb628d91c617389" prot="public" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1a52b752ab010ef6740fb8e3e0e447ae8f" prot="public" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>Const_QR</name></member>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1a65aef7e54d645116ec7c0ae5929e97fe" prot="protected" virt="virtual"><scope>MR::Matrix3_Float::QR</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Matrix3__Float_1_1Const__QR_1a338b9f08c94ccbeefb028584c62bc446" prot="public" virt="virtual"><scope>MR::Matrix3_Float::QR</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Matrix3__Float_1_1QR_1abe209dea753f9bfbbf03b39bd3d33431" prot="public" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>q</name></member>
       <member refid="classMR_1_1Matrix3__Float_1_1QR_1a3e9d98a2c2b401677dd15ed322d8b6f1" prot="package" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>QR</name></member>
       <member refid="classMR_1_1Matrix3__Float_1_1QR_1a70928b778dc72bccc1b30ed1c8bae9d4" prot="public" virt="non-virtual"><scope>MR::Matrix3_Float::QR</scope><name>QR</name></member>

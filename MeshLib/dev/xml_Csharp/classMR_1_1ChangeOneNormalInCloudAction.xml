@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeOneNormalInCloudAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeOneNormalInCloudAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeOneNormalInCloudAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeOneNormalInCloudAction" prot="public" virt="non-virtual">MR.Const_ChangeOneNormalInCloudAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1afdf8cc5955aa6d1c485aafce4472eac0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeOneNormalInCloudAction</name>
         <qualifiedname>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</qualifiedname>
         <param>
-          <type>Const_ChangeOneNormalInCloudAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeOneNormalInCloudAction" kindref="compound">Const_ChangeOneNormalInCloudAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -207,7 +207,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeOneNormalInCloudAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -234,6 +234,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeOneNormalInCloudAction</label>
+        <link refid="classMR_1_1Const__ChangeOneNormalInCloudAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -255,6 +256,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeOneNormalInCloudAction</label>
+        <link refid="classMR_1_1Const__ChangeOneNormalInCloudAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -277,8 +279,21 @@
       <member refid="classMR_1_1ChangeOneNormalInCloudAction_1aada2ec7704dccdf689aa2fab7bc4ac81" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
       <member refid="classMR_1_1ChangeOneNormalInCloudAction_1abfd3b4b49cf4f0d3cb2b2640e4b0dcaf" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
       <member refid="classMR_1_1ChangeOneNormalInCloudAction_1a99ee5d5dbaaab9bf993c746df0a2e8ac" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a11857ff86d03f4c93585badfc0720fec" prot="package" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>Const_ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1ac2227d714255eed99523fb723c069c83" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>Const_ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a06a3e8994fe7cbbd531f2ea5fb98b982" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>Const_ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1abc876a360740934c07dc6878c826a8ed" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>Const_ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a0baf019ca13dfa586e025e0cc4b60686" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>Const_ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a6e7aa6f6edf3799715336717786233d0" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>Const_ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a69a6f1927a1e6a25072875998f7028e6" prot="protected" virt="virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1aa41f433a7c26d08382fcb60b83ea97bc" prot="public" virt="virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a2915d045a3da29adf4c24fb89f51b7f0" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a1ea76d6c7a37a339c5de13f8229296d2" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeOneNormalInCloudAction_1a1549ee0bd584c7265aae9f2109e1d12d" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>operator ChangeOneNormalInCloudAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a2865687855eadcae18c773d115ea23d6" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>operator Const_ChangeOneNormalInCloudAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a01fe3ac49abfa5588373b3b4568f678b" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeOneNormalInCloudAction_1afdf8cc5955aa6d1c485aafce4472eac0" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOneNormalInCloudAction_1a3aecf6a5338a5aa62947e764d2913e55" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

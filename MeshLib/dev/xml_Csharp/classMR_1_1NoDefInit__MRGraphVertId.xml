@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MRGraphVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MRGraphVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRGraphVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoDefInit__MRGraphVertId" prot="public" virt="non-virtual">MR.Const_NoDefInit_MRGraphVertId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NoDefInit__MRGraphVertId_1a7c26565b83b9a92d631d3019100e82a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,7 +86,7 @@
         <name>NoDefInit_MRGraphVertId</name>
         <qualifiedname>MR.NoDefInit_MRGraphVertId.NoDefInit_MRGraphVertId</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRGraphVertId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRGraphVertId" kindref="compound">MR.Const_NoDefInit_MRGraphVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>assign</name>
         <qualifiedname>MR.NoDefInit_MRGraphVertId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRGraphVertId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRGraphVertId" kindref="compound">MR.Const_NoDefInit_MRGraphVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,16 +251,32 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1710" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1711" bodyend="1802"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a6aa7ebc889879f1e23949c53015642cc" prot="protected" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a61e8705572bf90aea0d704b009d5b0bf" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>addAssign</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a34d98e824ec203b849a363fe0ea6e1b3" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1afc2b06743dde692bc33dea0cbd4a41e2" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>Const_NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1abd78b9df51b76741a357c1807905d0f0" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>Const_NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a8091d6f61887054b9ac00f35f535643b" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>Const_NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a1a74a3a6509ac295c2f80a0ee1f72c38" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>Const_NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a87db6dff6ddd8a0e483b11bccbbac986" prot="protected" virt="virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a8efe67e8ae1ce3367eb026f9a226d387" prot="public" virt="virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a0427739988fdd17516a869d873861d5d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a334b06735d0a8d54d045fd8ea61e59f1" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>Equals</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1adf9b96b1345d079f608974ba70778560" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>get</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a7c26565b83b9a92d631d3019100e82a5" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1ab4f49d53a358896ff0d36f6a789d92ee" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>less</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a6a5e9d47d7594e5486035242f35dc07f" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>NoDefInit_MRGraphVertId</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a91555ce8ac44295b55102956a06deaf4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>NoDefInit_MRGraphVertId</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a0db606e081ca3a652a374be522630f24" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>NoDefInit_MRGraphVertId</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a7cda7df0970d66557440ecff2ccbc585" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>NoDefInit_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1ad5ccbde436d4e92b51e4717531d1e817" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a4751c267caeb7ce5390526aa6a14b72d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>operator int</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a168495f234ce8d299b3627e935868b06" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>operator MR.Box_GraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1a91d95c1ac0627c6dc55cf0e213d501df" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>operator MR.ConstBox_GraphVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1af558fd6b76d115ce8c01ad7dbf6d7fb0" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1afa98abd3cf216b98c42527d23289f675" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>operator==</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphVertId_1a81f988f2ab8d551b360102472a973d57" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphVertId_1aaf5b7b592c3c10d017111f07760353ed" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphVertId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

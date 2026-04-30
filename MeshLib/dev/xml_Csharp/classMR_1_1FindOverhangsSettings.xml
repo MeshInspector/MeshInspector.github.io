@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FindOverhangsSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::FindOverhangsSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindOverhangsSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FindOverhangsSettings" prot="public" virt="non-virtual">MR.Const_FindOverhangsSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1aea130257b78e8d7044701e45f8b1ccbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -199,7 +199,7 @@
         <name>FindOverhangsSettings</name>
         <qualifiedname>MR.FindOverhangsSettings.FindOverhangsSettings</qualifiedname>
         <param>
-          <type>Const_FindOverhangsSettings</type>
+          <type><ref refid="classMR_1_1Const__FindOverhangsSettings" kindref="compound">Const_FindOverhangsSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -264,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FindOverhangsSettings</label>
+        <link refid="classMR_1_1Const__FindOverhangsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -277,6 +278,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FindOverhangsSettings</label>
         <link refid="classMR_1_1FindOverhangsSettings"/>
@@ -285,9 +290,14 @@
       </node>
       <node id="2">
         <label>MR.Const_FindOverhangsSettings</label>
+        <link refid="classMR_1_1Const__FindOverhangsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_xf</edgelabel>
+          <edgelabel>__ref_storage_axis</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -299,8 +309,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="175" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="176" bodyend="295"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a6e7726954462cfd54d54833b71c05419" prot="protected" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a0d1f42ea11f862a6e2b397479115504a" prot="protected" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>__ref_storage_axis</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a545e9cb071df4d5fa243d7a88f965434" prot="protected" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>__ref_storage_hops</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1ada4f9e39d0781d182222c2690e136f02" prot="protected" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>__ref_storage_layerHeight</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1aac6a6e1e366902e463c9a42baecca142" prot="protected" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>__ref_storage_maxOverhangDistance</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1a667884d7e33bee2399813cd1e0b3eefd" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1aea130257b78e8d7044701e45f8b1ccbb" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>axis</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a61d1812db9007776ea26b68004b07a94" prot="package" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>Const_FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a0368635a3a912899184a86d8c3932a6d" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>Const_FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a5b92c1b1b8ccf0b7e144e1b13e1a806d" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>Const_FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a9b87cbcab09f430dcf51bd179a5d6f9c" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>Const_FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a3ad26f7471a8cf298891b7e91dcffa6b" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>Const_FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a7efe9fcb3e5ee3a2d59ca626bef78295" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>Const_FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1aa8f26295ce7b297313f32a80db5b9e92" prot="protected" virt="virtual"><scope>MR::FindOverhangsSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FindOverhangsSettings_1a6651321e4ee27d100173e536a6834fe9" prot="public" virt="virtual"><scope>MR::FindOverhangsSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1a66cac7e4844da9178ae4905cd7382534" prot="package" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1af4e93c106a07fbaa569be135e17299e1" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
       <member refid="classMR_1_1FindOverhangsSettings_1ad367385bc0ab90c434afe38185e57912" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>

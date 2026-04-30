@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Cone3ApproximationParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Cone3ApproximationParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Cone3ApproximationParams" prot="public" virt="non-virtual">MR.Cone3ApproximationParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Cone3ApproximationParams_1aff545eb21f3d2d55b87d2249cbb8b33a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Cone3ApproximationParams.levenbergMarquardtMaxIteration</definition>
+        <argsstring></argsstring>
+        <name>levenbergMarquardtMaxIteration</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.levenbergMarquardtMaxIteration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="33" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Cone3ApproximationParams_1ac5c025bffebfdc646cb83705a86b95a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a294c22b69e418098a4582556d50f25fc" kindref="member">MR.ConeFitterType</ref></type>
+        <definition>unsafe MR.ConeFitterType MR.Const_Cone3ApproximationParams.coneFitterType</definition>
+        <argsstring></argsstring>
+        <name>coneFitterType</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.coneFitterType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="36" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Cone3ApproximationParams_1ac81d5a765cba1e8f34da1c9da0ab4e81" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Cone3ApproximationParams.hemisphereSearchPhiResolution</definition>
+        <argsstring></argsstring>
+        <name>hemisphereSearchPhiResolution</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.hemisphereSearchPhiResolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="39" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Cone3ApproximationParams_1adea3c44adfa1cfa9de26af898cb09f94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Cone3ApproximationParams.hemisphereSearchThetaResolution</definition>
+        <argsstring></argsstring>
+        <name>hemisphereSearchThetaResolution</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.hemisphereSearchThetaResolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="42" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Cone3ApproximationParams_1aeda3a6f93465f1aa04801511d035527e" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_Cone3ApproximationParams.__ref_storage_levenbergMarquardtMaxIteration</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_levenbergMarquardtMaxIteration</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.__ref_storage_levenbergMarquardtMaxIteration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="34" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Cone3ApproximationParams_1a87d85e2aafa0c20c35a97213cced41df" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a294c22b69e418098a4582556d50f25fc" kindref="member">MR.ConeFitterType</ref> *</type>
+        <definition>unsafe MR.ConeFitterType* MR.Const_Cone3ApproximationParams.__ref_storage_coneFitterType</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_coneFitterType</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.__ref_storage_coneFitterType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="37" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Cone3ApproximationParams_1a79a4e09436947ea85447e16e3aa3d0b3" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_Cone3ApproximationParams.__ref_storage_hemisphereSearchPhiResolution</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_hemisphereSearchPhiResolution</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.__ref_storage_hemisphereSearchPhiResolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="40" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Cone3ApproximationParams_1aba36f80609bfcae7cbdfaf955fac923e" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_Cone3ApproximationParams.__ref_storage_hemisphereSearchThetaResolution</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_hemisphereSearchThetaResolution</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.__ref_storage_hemisphereSearchThetaResolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="43" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Cone3ApproximationParams_1ab81287e4d0fee031c4df8f02077c3021" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Cone3ApproximationParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="21" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="21" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Cone3ApproximationParams_1a4ad08ac3680725471927eb410a9ef5e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Cone3ApproximationParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3ApproximationParams_1a80b6c32ef93b00c6b8d26c12b0196215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Cone3ApproximationParams</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="88" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3ApproximationParams_1a6aa455b23f10e1f8d2125a2bceefd611" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</definition>
+        <argsstring>(int levenbergMarquardtMaxIteration, MR.ConeFitterType coneFitterType, int hemisphereSearchPhiResolution, int hemisphereSearchThetaResolution)</argsstring>
+        <name>Const_Cone3ApproximationParams</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>levenbergMarquardtMaxIteration</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a294c22b69e418098a4582556d50f25fc" kindref="member">MR.ConeFitterType</ref></type>
+          <declname>coneFitterType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hemisphereSearchPhiResolution</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hemisphereSearchThetaResolution</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Cone3ApproximationParams" kindref="compound">MR.Cone3ApproximationParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="99" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3ApproximationParams_1ad7a1e9bd73c625bc2468f1b1a5f379a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</definition>
+        <argsstring>(MR.Const_Cone3ApproximationParams _other)</argsstring>
+        <name>Const_Cone3ApproximationParams</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Cone3ApproximationParams" kindref="compound">MR.Const_Cone3ApproximationParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cone3ApproximationParams_1a7872d2972441854c7af23be6132187f7" kindref="member">MR.Cone3ApproximationParams.Cone3ApproximationParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="110" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="110" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3ApproximationParams_1acb380d43252a166f86c752a268488ac5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</definition>
+        <argsstring>(Cone3ApproximationParams _other)</argsstring>
+        <name>Const_Cone3ApproximationParams</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cone3ApproximationParams" kindref="compound">Cone3ApproximationParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cone3ApproximationParams_1a7872d2972441854c7af23be6132187f7" kindref="member">MR.Cone3ApproximationParams.Cone3ApproximationParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="122" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="122" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Cone3ApproximationParams_1a3a6a6c74720271083145dabfc1003fca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Cone3ApproximationParams.~Const_Cone3ApproximationParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Cone3ApproximationParams</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.~Const_Cone3ApproximationParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Cone3ApproximationParams_1a806a330f05664753f5de4f8644b09003" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Cone3ApproximationParams</name>
+        <qualifiedname>MR.Const_Cone3ApproximationParams.Const_Cone3ApproximationParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="77" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="77" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Cone3ApproximationParams" kindref="compound">MR.Cone3ApproximationParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Cone3ApproximationParams</label>
+        <link refid="classMR_1_1Const__Cone3ApproximationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Cone3ApproximationParams</label>
+        <link refid="classMR_1_1Cone3ApproximationParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_Cone3ApproximationParams</label>
+        <link refid="classMR_1_1Const__Cone3ApproximationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_coneFitterType</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeApproximator.cs" bodystart="16" bodyend="123"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a87d85e2aafa0c20c35a97213cced41df" prot="protected" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>__ref_storage_coneFitterType</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a79a4e09436947ea85447e16e3aa3d0b3" prot="protected" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>__ref_storage_hemisphereSearchPhiResolution</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1aba36f80609bfcae7cbdfaf955fac923e" prot="protected" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>__ref_storage_hemisphereSearchThetaResolution</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1aeda3a6f93465f1aa04801511d035527e" prot="protected" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>__ref_storage_levenbergMarquardtMaxIteration</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1ac5c025bffebfdc646cb83705a86b95a7" prot="public" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>coneFitterType</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a806a330f05664753f5de4f8644b09003" prot="package" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a80b6c32ef93b00c6b8d26c12b0196215" prot="public" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a6aa455b23f10e1f8d2125a2bceefd611" prot="public" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1ad7a1e9bd73c625bc2468f1b1a5f379a6" prot="public" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1acb380d43252a166f86c752a268488ac5" prot="public" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>Const_Cone3ApproximationParams</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1ab81287e4d0fee031c4df8f02077c3021" prot="protected" virt="virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a4ad08ac3680725471927eb410a9ef5e7" prot="public" virt="virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1ac81d5a765cba1e8f34da1c9da0ab4e81" prot="public" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>hemisphereSearchPhiResolution</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1adea3c44adfa1cfa9de26af898cb09f94" prot="public" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>hemisphereSearchThetaResolution</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1aff545eb21f3d2d55b87d2249cbb8b33a" prot="public" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>levenbergMarquardtMaxIteration</name></member>
+      <member refid="classMR_1_1Const__Cone3ApproximationParams_1a3a6a6c74720271083145dabfc1003fca" prot="private" virt="non-virtual"><scope>MR::Const_Cone3ApproximationParams</scope><name>~Const_Cone3ApproximationParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

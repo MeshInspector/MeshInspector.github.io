@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax" prot="public" virt="non-virtual">MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1a0e845412df410d9997749b41a0ac8bcb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,11 +35,11 @@
         <name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</name>
         <qualifiedname>MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeMinMax" kindref="compound">MR.Const_SimpleVolumeMinMax</ref></type>
           <declname>volume</declname>
         </param>
         <param>
-          <type>MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax" kindref="compound">MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</ref></type>
           <declname>accessor</declname>
         </param>
         <briefdescription>
@@ -58,11 +58,11 @@
         <name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</name>
         <qualifiedname>MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</qualifiedname>
         <param>
-          <type>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax" kindref="compound">MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</ref></type>
           <declname>other</declname>
         </param>
         <param>
-          <type>MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax" kindref="compound">MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</ref></type>
           <declname>accessor</declname>
         </param>
         <briefdescription>
@@ -89,6 +89,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -110,6 +111,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -124,6 +126,12 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="241" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="242" bodyend="271"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1a788fbabcc2a4c21fd679bb49dc22a29e" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1a1a2112889a5a2dad5a994cbd9478f99d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1a8bb86e859fee63c3583fcdbe30ced1f5" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1aad53df2bc7ec3675c3d58b0de6caa51c" prot="protected" virt="virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1ae0a153249d196a8e2888c62ba32bd97b" prot="public" virt="virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1a1c7ec321370e2827dcc58e670b29e983" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>get</name></member>
       <member refid="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1a0e845412df410d9997749b41a0ac8bcb" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1a834ccbd2d0d6944c16d2e2a11e9f12ca" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRSimpleVolumeMinMax_1acfa1e14acd0732da8650c14b58279854" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</scope><name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRSimpleVolumeMinMax</name></member>

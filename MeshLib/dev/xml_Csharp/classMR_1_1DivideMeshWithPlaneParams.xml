@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DivideMeshWithPlaneParams" kind="class" language="C#" prot="public">
     <compoundname>MR::DivideMeshWithPlaneParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DivideMeshWithPlaneParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DivideMeshWithPlaneParams" prot="public" virt="non-virtual">MR.Const_DivideMeshWithPlaneParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DivideMeshWithPlaneParams_1a408c5490b1bd90d1347fe877b24ccf34" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -162,7 +162,7 @@
         <name>DivideMeshWithPlaneParams</name>
         <qualifiedname>MR.DivideMeshWithPlaneParams.DivideMeshWithPlaneParams</qualifiedname>
         <param>
-          <type>MR.Const_DivideMeshWithPlaneParams</type>
+          <type><ref refid="classMR_1_1Const__DivideMeshWithPlaneParams" kindref="compound">MR.Const_DivideMeshWithPlaneParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -200,7 +200,7 @@
         <name>assign</name>
         <qualifiedname>MR.DivideMeshWithPlaneParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_DivideMeshWithPlaneParams</type>
+          <type><ref refid="classMR_1_1Const__DivideMeshWithPlaneParams" kindref="compound">MR.Const_DivideMeshWithPlaneParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DivideMeshWithPlaneParams</label>
+        <link refid="classMR_1_1Const__DivideMeshWithPlaneParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DivideMeshWithPlaneParams</label>
         <link refid="classMR_1_1DivideMeshWithPlaneParams"/>
@@ -248,9 +253,14 @@
       </node>
       <node id="2">
         <label>MR.Const_DivideMeshWithPlaneParams</label>
+        <link refid="classMR_1_1Const__DivideMeshWithPlaneParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_errors</edgelabel>
+          <edgelabel>__ptr_storage_otherPart</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,7 +272,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" line="171" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDivideWithPlane.cs" bodystart="172" bodyend="279"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1ade187b51101f4f99c6ac010b4d7b9b91" prot="protected" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>__ptr_storage_errors</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1afc392116bd2c72a6b30cdaa00868dfef" prot="protected" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>__ptr_storage_otherPart</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1a5e79a93eccb620c56a6b71e8616f52a0" prot="protected" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>__ref_storage_eps</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1aed2a325536ba4ccf965362331deb8887" prot="protected" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>__ref_storage_fillCut</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1a8631d8be0932bc24f23db331ea73ec2d" prot="protected" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>__ref_storage_subdivideFilling</name></member>
       <member refid="classMR_1_1DivideMeshWithPlaneParams_1a342b28d94ecfab96ca2c518df91eb054" prot="public" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1a635a73dce45eb76003952244339e0799" prot="package" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>Const_DivideMeshWithPlaneParams</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1aaa98aad6f7d42eb072e059829cfe563c" prot="public" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>Const_DivideMeshWithPlaneParams</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1a251a3bc718d73930ef7770dfa3679207" prot="public" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>Const_DivideMeshWithPlaneParams</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1a6483551f0e770047c8cc4f2ef05e1b40" prot="public" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>Const_DivideMeshWithPlaneParams</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1a3cb081f466f0c7bf5a8bfdc68fe83e50" prot="public" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>Const_DivideMeshWithPlaneParams</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1a3d7be8e12bcf5d9e69ceee3daa535832" prot="protected" virt="virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DivideMeshWithPlaneParams_1a6c2b31c9df096cfdd536713fe37ab308" prot="public" virt="virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DivideMeshWithPlaneParams_1a3bbec929349e67b49a7115f6723f9fe4" prot="package" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>DivideMeshWithPlaneParams</name></member>
       <member refid="classMR_1_1DivideMeshWithPlaneParams_1aae647a91251133c854985b77e9834781" prot="public" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>DivideMeshWithPlaneParams</name></member>
       <member refid="classMR_1_1DivideMeshWithPlaneParams_1a9aa87ef5d5b5b4a02dc4d4b09776ad62" prot="public" virt="non-virtual"><scope>MR::DivideMeshWithPlaneParams</scope><name>DivideMeshWithPlaneParams</name></member>

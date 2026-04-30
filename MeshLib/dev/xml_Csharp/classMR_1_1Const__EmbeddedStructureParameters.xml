@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__EmbeddedStructureParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_EmbeddedStructureParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1EmbeddedStructureParameters" prot="public" virt="non-virtual">MR.EmbeddedStructureParameters</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__EmbeddedStructureParameters_1a29680f5ba51967d26e63632bb0cfe0b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_EmbeddedStructureParameters.fillAngle</definition>
+        <argsstring></argsstring>
+        <name>fillAngle</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.fillAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="27" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EmbeddedStructureParameters_1a5e957b5885e80b07292d34a8bec32bd5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_EmbeddedStructureParameters.cutAngle</definition>
+        <argsstring></argsstring>
+        <name>cutAngle</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.cutAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="31" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EmbeddedStructureParameters_1a414ddeaf30ba73f1caa321624cb6c032" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_EmbeddedStructureParameters.minAnglePrecision</definition>
+        <argsstring></argsstring>
+        <name>minAnglePrecision</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.minAnglePrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="35" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EmbeddedStructureParameters_1afd75b80faad21cc86eb705253e3a2e28" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>unsafe MR.? FaceBitSet MR.Const_EmbeddedStructureParameters.outStructFaces</definition>
+        <argsstring></argsstring>
+        <name>outStructFaces</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.outStructFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="39" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="40" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EmbeddedStructureParameters_1ace3ae04ee3dfcb1f84a892250b711198" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>unsafe MR.? FaceBitSet MR.Const_EmbeddedStructureParameters.outFillFaces</definition>
+        <argsstring></argsstring>
+        <name>outFillFaces</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.outFillFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="55" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="56" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EmbeddedStructureParameters_1a0575eb7ce3990cacffd4f25fbbae9259" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>unsafe MR.? FaceBitSet MR.Const_EmbeddedStructureParameters.outCutFaces</definition>
+        <argsstring></argsstring>
+        <name>outCutFaces</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.outCutFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="71" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="72" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EmbeddedStructureParameters_1a432b40e611f9bec4b7768db67dbe4f48" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+        <definition>unsafe MR.? FaceMap MR.Const_EmbeddedStructureParameters.new2oldFaces</definition>
+        <argsstring></argsstring>
+        <name>new2oldFaces</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.new2oldFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="87" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="88" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__EmbeddedStructureParameters_1a0ba1b49f84cf14d4169bf9b04b54f6c9" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_EmbeddedStructureParameters.__ref_storage_fillAngle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_fillAngle</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.__ref_storage_fillAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="28" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EmbeddedStructureParameters_1a46b0f00ff55432797b36d6e7f3e3cf98" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_EmbeddedStructureParameters.__ref_storage_cutAngle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_cutAngle</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.__ref_storage_cutAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="32" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EmbeddedStructureParameters_1a13dfdb59c38bd674d14ac6ad9e597557" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_EmbeddedStructureParameters.__ref_storage_minAnglePrecision</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minAnglePrecision</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.__ref_storage_minAnglePrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="36" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EmbeddedStructureParameters_1a68c38338cbeb4a2e1d1a3d3108629c5a" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.FaceBitSet._Underlying** MR.Const_EmbeddedStructureParameters.__ptr_storage_outStructFaces</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outStructFaces</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.__ptr_storage_outStructFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="52" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EmbeddedStructureParameters_1a9e9da76f3411eb2107d19fb419bf9dd6" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.FaceBitSet._Underlying** MR.Const_EmbeddedStructureParameters.__ptr_storage_outFillFaces</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outFillFaces</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.__ptr_storage_outFillFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="68" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EmbeddedStructureParameters_1a550d666be000fe3ddb8dd236650a02a1" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.FaceBitSet._Underlying** MR.Const_EmbeddedStructureParameters.__ptr_storage_outCutFaces</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outCutFaces</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.__ptr_storage_outCutFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="84" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EmbeddedStructureParameters_1a653bbf055a2191768f320545960a51b2" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceMap._Underlying **</type>
+        <definition>unsafe MR.FaceMap._Underlying** MR.Const_EmbeddedStructureParameters.__ptr_storage_new2oldFaces</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_new2oldFaces</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.__ptr_storage_new2oldFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="100" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__EmbeddedStructureParameters_1ab382623ade505d63a317a57ba705e5df" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_EmbeddedStructureParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__EmbeddedStructureParameters_1a1338cba0a2c25c7b2ef9bd7360fdbabd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_EmbeddedStructureParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EmbeddedStructureParameters_1a566ad505b4ca0ea57c241a8277e16a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_EmbeddedStructureParameters</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="163" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="163" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EmbeddedStructureParameters_1a52987f588129b9fd7d048a823afb6e8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</definition>
+        <argsstring>(float fillAngle, float cutAngle, float minAnglePrecision, MR.FaceBitSet? outStructFaces, MR.FaceBitSet? outFillFaces, MR.FaceBitSet? outCutFaces, MR.FaceMap? new2oldFaces)</argsstring>
+        <name>Const_EmbeddedStructureParameters</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>fillAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cutAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAnglePrecision</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>outStructFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>outFillFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>outCutFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref>?</type>
+          <declname>new2oldFaces</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1EmbeddedStructureParameters" kindref="compound">MR.EmbeddedStructureParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="174" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EmbeddedStructureParameters_1a0e0c3d95da631f4678fc2fb033d707c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</definition>
+        <argsstring>(MR.Const_EmbeddedStructureParameters _other)</argsstring>
+        <name>Const_EmbeddedStructureParameters</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EmbeddedStructureParameters" kindref="compound">MR.Const_EmbeddedStructureParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EmbeddedStructureParameters_1a8aab7cac34585a5b6eeefef6d7f3d0fe" kindref="member">MR.EmbeddedStructureParameters.EmbeddedStructureParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="189" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EmbeddedStructureParameters_1ac534ecf6a026b1f329788f590ca5d86c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</definition>
+        <argsstring>(EmbeddedStructureParameters _other)</argsstring>
+        <name>Const_EmbeddedStructureParameters</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1EmbeddedStructureParameters" kindref="compound">EmbeddedStructureParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EmbeddedStructureParameters_1a8aab7cac34585a5b6eeefef6d7f3d0fe" kindref="member">MR.EmbeddedStructureParameters.EmbeddedStructureParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="201" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="201" bodyend="201"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__EmbeddedStructureParameters_1ad2a6b56cf54ebd10c09281f9c4d5a98a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EmbeddedStructureParameters.~Const_EmbeddedStructureParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_EmbeddedStructureParameters</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.~Const_EmbeddedStructureParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__EmbeddedStructureParameters_1a9d8bd478db209fbd3a38f49b145264f8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_EmbeddedStructureParameters</name>
+        <qualifiedname>MR.Const_EmbeddedStructureParameters.Const_EmbeddedStructureParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="152" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="152" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1EmbeddedStructureParameters" kindref="compound">MR.EmbeddedStructureParameters</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_EmbeddedStructureParameters</label>
+        <link refid="classMR_1_1Const__EmbeddedStructureParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.EmbeddedStructureParameters</label>
+        <link refid="classMR_1_1EmbeddedStructureParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_EmbeddedStructureParameters</label>
+        <link refid="classMR_1_1Const__EmbeddedStructureParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_new2oldFaces</edgelabel>
+          <edgelabel>__ptr_storage_outCutFaces</edgelabel>
+          <edgelabel>__ptr_storage_outFillFaces</edgelabel>
+          <edgelabel>__ptr_storage_outStructFaces</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="9" bodyend="202"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a653bbf055a2191768f320545960a51b2" prot="protected" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>__ptr_storage_new2oldFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a550d666be000fe3ddb8dd236650a02a1" prot="protected" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>__ptr_storage_outCutFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a9e9da76f3411eb2107d19fb419bf9dd6" prot="protected" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>__ptr_storage_outFillFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a68c38338cbeb4a2e1d1a3d3108629c5a" prot="protected" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>__ptr_storage_outStructFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a46b0f00ff55432797b36d6e7f3e3cf98" prot="protected" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>__ref_storage_cutAngle</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a0ba1b49f84cf14d4169bf9b04b54f6c9" prot="protected" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>__ref_storage_fillAngle</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a13dfdb59c38bd674d14ac6ad9e597557" prot="protected" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>__ref_storage_minAnglePrecision</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a9d8bd478db209fbd3a38f49b145264f8" prot="package" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a566ad505b4ca0ea57c241a8277e16a01" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a52987f588129b9fd7d048a823afb6e8a" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a0e0c3d95da631f4678fc2fb033d707c3" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1ac534ecf6a026b1f329788f590ca5d86c" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a5e957b5885e80b07292d34a8bec32bd5" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>cutAngle</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1ab382623ade505d63a317a57ba705e5df" prot="protected" virt="virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a1338cba0a2c25c7b2ef9bd7360fdbabd" prot="public" virt="virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a29680f5ba51967d26e63632bb0cfe0b1" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>fillAngle</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a414ddeaf30ba73f1caa321624cb6c032" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>minAnglePrecision</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a432b40e611f9bec4b7768db67dbe4f48" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>new2oldFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a0575eb7ce3990cacffd4f25fbbae9259" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>outCutFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1ace3ae04ee3dfcb1f84a892250b711198" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>outFillFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1afd75b80faad21cc86eb705253e3a2e28" prot="public" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>outStructFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1ad2a6b56cf54ebd10c09281f9c4d5a98a" prot="private" virt="non-virtual"><scope>MR::Const_EmbeddedStructureParameters</scope><name>~Const_EmbeddedStructureParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

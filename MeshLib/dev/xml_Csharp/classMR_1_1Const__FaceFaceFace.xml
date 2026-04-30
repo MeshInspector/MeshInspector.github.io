@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FaceFaceFace" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FaceFaceFace</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FaceFaceFace" prot="public" virt="non-virtual">MR.FaceFaceFace</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FaceFaceFace_1a1461854bdeb0eb2ed8411d2cee09255b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref readonly MR.FaceId MR.Const_FaceFaceFace.aFace</definition>
+        <argsstring></argsstring>
+        <name>aFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.aFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="26" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FaceFaceFace_1a0c3e3563048dbafdd1708586ea763a8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref readonly MR.FaceId MR.Const_FaceFaceFace.bFace</definition>
+        <argsstring></argsstring>
+        <name>bFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.bFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="29" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FaceFaceFace_1aad65e1d2084d9e3cd92f9fa426c2183d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref readonly MR.FaceId MR.Const_FaceFaceFace.cFace</definition>
+        <argsstring></argsstring>
+        <name>cFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.cFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="32" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__FaceFaceFace_1a15c0905f6ded601c8378cf841c39c842" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+        <definition>unsafe MR.FaceId* MR.Const_FaceFaceFace.__ref_storage_aFace</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_aFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.__ref_storage_aFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="27" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__FaceFaceFace_1ae28daab8d6edc923a0736f763ba53b61" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+        <definition>unsafe MR.FaceId* MR.Const_FaceFaceFace.__ref_storage_bFace</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_bFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.__ref_storage_bFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="30" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__FaceFaceFace_1a04ea267e59e3872063bbff68a0b04b64" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> *</type>
+        <definition>unsafe MR.FaceId* MR.Const_FaceFaceFace.__ref_storage_cFace</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_cFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.__ref_storage_cFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="33" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceFaceFace_1a09926e5421c37b4844c08c8e121475ee" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FaceFaceFace.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceFaceFace.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceFaceFace_1a605d9527c7528878348b02b0fcf48873" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FaceFaceFace.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceFaceFace.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceFaceFace_1af94ef0581a451d47f00a748d48a7c465" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceFaceFace.Const_FaceFaceFace</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FaceFaceFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.Const_FaceFaceFace</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="72" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceFaceFace_1ac4e98f59b7811013c0fc1e605e45380b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceFaceFace.Const_FaceFaceFace</definition>
+        <argsstring>(MR.Const_FaceFaceFace _other)</argsstring>
+        <name>Const_FaceFaceFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.Const_FaceFaceFace</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceFaceFace" kindref="compound">MR.Const_FaceFaceFace</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceFaceFace_1a1c2566fd35805a904022d5a80cf7a98b" kindref="member">MR.FaceFaceFace.FaceFaceFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="83" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="83" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceFaceFace_1aacc521e8fe3b951b65b029ceaffcf24b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceFaceFace.Const_FaceFaceFace</definition>
+        <argsstring>(FaceFaceFace _other)</argsstring>
+        <name>Const_FaceFaceFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.Const_FaceFaceFace</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceFaceFace" kindref="compound">FaceFaceFace</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceFaceFace_1a1c2566fd35805a904022d5a80cf7a98b" kindref="member">MR.FaceFaceFace.FaceFaceFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="95" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceFaceFace_1a2dc04ed7d5521dc00c2aee9efa85d05f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceFaceFace.Const_FaceFaceFace</definition>
+        <argsstring>(MR.FaceId a, MR.FaceId b, MR.FaceId c)</argsstring>
+        <name>Const_FaceFaceFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.Const_FaceFaceFace</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceFaceFace_1a1c2566fd35805a904022d5a80cf7a98b" kindref="member">MR.FaceFaceFace.FaceFaceFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="100" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="100" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceFaceFace_1a4678d7adaefb016d42b3fc1c4f0ddf63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceFaceFace.~Const_FaceFaceFace</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FaceFaceFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.~Const_FaceFaceFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceFaceFace_1a956c08d256bf05161a9067a8f47f96fe" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceFaceFace.Const_FaceFaceFace</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FaceFaceFace</name>
+        <qualifiedname>MR.Const_FaceFaceFace.Const_FaceFaceFace</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="61" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a triple of faces Generated from class <computeroutput><ref refid="classMR_1_1FaceFaceFace" kindref="compound">MR.FaceFaceFace</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FaceFaceFace</label>
+        <link refid="classMR_1_1Const__FaceFaceFace"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FaceFaceFace</label>
+        <link refid="classMR_1_1FaceFaceFace"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_FaceFaceFace</label>
+        <link refid="classMR_1_1Const__FaceFaceFace"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_aFace</edgelabel>
+          <edgelabel>__ref_storage_bFace</edgelabel>
+          <edgelabel>__ref_storage_cFace</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTripleFaceIntersections.cs" bodystart="9" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a15c0905f6ded601c8378cf841c39c842" prot="protected" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>__ref_storage_aFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1ae28daab8d6edc923a0736f763ba53b61" prot="protected" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>__ref_storage_bFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a04ea267e59e3872063bbff68a0b04b64" prot="protected" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>__ref_storage_cFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a1461854bdeb0eb2ed8411d2cee09255b" prot="public" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>aFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a0c3e3563048dbafdd1708586ea763a8f" prot="public" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>bFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1aad65e1d2084d9e3cd92f9fa426c2183d" prot="public" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>cFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a956c08d256bf05161a9067a8f47f96fe" prot="package" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>Const_FaceFaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1af94ef0581a451d47f00a748d48a7c465" prot="public" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>Const_FaceFaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1ac4e98f59b7811013c0fc1e605e45380b" prot="public" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>Const_FaceFaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1aacc521e8fe3b951b65b029ceaffcf24b" prot="public" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>Const_FaceFaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a2dc04ed7d5521dc00c2aee9efa85d05f" prot="public" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>Const_FaceFaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a09926e5421c37b4844c08c8e121475ee" prot="protected" virt="virtual"><scope>MR::Const_FaceFaceFace</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a605d9527c7528878348b02b0fcf48873" prot="public" virt="virtual"><scope>MR::Const_FaceFaceFace</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceFaceFace_1a4678d7adaefb016d42b3fc1c4f0ddf63" prot="private" virt="non-virtual"><scope>MR::Const_FaceFaceFace</scope><name>~Const_FaceFaceFace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

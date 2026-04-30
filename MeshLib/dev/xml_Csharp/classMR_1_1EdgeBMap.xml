@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgeBMap" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgeBMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgeBMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EdgeBMap" prot="public" virt="non-virtual">MR.Const_EdgeBMap</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1EdgeBMap_1a2d85c3e51e99b4816e1d082ac7d8d1ae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MREdgeId__MREdgeId" kindref="compound">MR.Buffer_MREdgeId_MREdgeId</ref></type>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeBMap</label>
+        <link refid="classMR_1_1Const__EdgeBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeBMap</label>
+        <link refid="classMR_1_1Const__EdgeBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,8 +187,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9158" bodyend="9236"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__EdgeBMap_1a3ab47a3cf0d2a7c0e917b292087da294" prot="protected" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1EdgeBMap_1ad43401d8ef915291ada3d9058ea2663a" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>assign</name></member>
       <member refid="classMR_1_1EdgeBMap_1a2d85c3e51e99b4816e1d082ac7d8d1ae" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__EdgeBMap_1a42e19ee69093be605d4e6e4b7aba43ce" prot="package" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
+      <member refid="classMR_1_1Const__EdgeBMap_1a490edd3d0481a6ac70d8c3707fbb38d8" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
+      <member refid="classMR_1_1Const__EdgeBMap_1aa7b02b158ee98127f3781c725861dd3f" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
+      <member refid="classMR_1_1Const__EdgeBMap_1ac14e467450864819a2abdadbee8081d4" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>Const_EdgeBMap</name></member>
+      <member refid="classMR_1_1Const__EdgeBMap_1a79d6e2ac2607c836a7468587b59695c8" prot="protected" virt="virtual"><scope>MR::EdgeBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeBMap_1a062b0388d90dad14b4ac950d1e349fbd" prot="public" virt="virtual"><scope>MR::EdgeBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EdgeBMap_1a52fe558d9df5da86090fe69a60dee3f1" prot="package" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>EdgeBMap</name></member>
       <member refid="classMR_1_1EdgeBMap_1abdde7071f6a05df9b79d8c3e39ef0670" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>EdgeBMap</name></member>
       <member refid="classMR_1_1EdgeBMap_1a5b1fd3ab18ffedb39a0488b790034d06" prot="public" virt="non-virtual"><scope>MR::EdgeBMap</scope><name>EdgeBMap</name></member>

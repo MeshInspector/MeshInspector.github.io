@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__UiRenderParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_UiRenderParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1UiRenderParams" prot="public" virt="non-virtual">MR.UiRenderParams</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__UiRenderParams_1_1__Underlying" prot="package">MR::Const_UiRenderParams::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__UiRenderParams_1a662dd62db7823625a19719e459167495" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Vector_StdSharedPtrMRBasicUiRenderTask</type>
+        <definition>unsafe MR.Std.? Vector_StdSharedPtrMRBasicUiRenderTask MR.Const_UiRenderParams.tasks</definition>
+        <argsstring></argsstring>
+        <name>tasks</name>
+        <qualifiedname>MR.Const_UiRenderParams.tasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1177" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1178" bodyend="1189"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UiRenderParams_1a974e6ae635cbbfa8cf21e8bc6cfb5e04" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref></type>
+        <definition>unsafe ref readonly MR.Matrix4f MR.Const_UiRenderParams.viewMatrix</definition>
+        <argsstring></argsstring>
+        <name>viewMatrix</name>
+        <qualifiedname>MR.Const_UiRenderParams.viewMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1192" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UiRenderParams_1adb1058e161b5e4b69a5fa19178bb906f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref></type>
+        <definition>unsafe ref readonly MR.Matrix4f MR.Const_UiRenderParams.projMatrix</definition>
+        <argsstring></argsstring>
+        <name>projMatrix</name>
+        <qualifiedname>MR.Const_UiRenderParams.projMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1195" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UiRenderParams_1a8fb8238d2deab5ce13b6170552b5baff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+        <definition>unsafe ref readonly MR.ViewportId MR.Const_UiRenderParams.viewportId</definition>
+        <argsstring></argsstring>
+        <name>viewportId</name>
+        <qualifiedname>MR.Const_UiRenderParams.viewportId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1199" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UiRenderParams_1a15940bfa3a93e001a4045ec2306e7019" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>unsafe ref readonly MR.Vector4i MR.Const_UiRenderParams.viewport</definition>
+        <argsstring></argsstring>
+        <name>viewport</name>
+        <qualifiedname>MR.Const_UiRenderParams.viewport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1203" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1203" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__UiRenderParams_1a4603c6ee9130565c7e0194604d3ce3b4" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Vector_StdSharedPtrMRBasicUiRenderTask._Underlying **</type>
+        <definition>unsafe MR.Std.Vector_StdSharedPtrMRBasicUiRenderTask._Underlying** MR.Const_UiRenderParams.__ptr_storage_tasks</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_tasks</name>
+        <qualifiedname>MR.Const_UiRenderParams.__ptr_storage_tasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1190" column="89" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UiRenderParams_1a5baf41ff5ee3be903f6912c8d5a36923" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref> *</type>
+        <definition>unsafe MR.Matrix4f* MR.Const_UiRenderParams.__ref_storage_viewMatrix</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_viewMatrix</name>
+        <qualifiedname>MR.Const_UiRenderParams.__ref_storage_viewMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1193" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UiRenderParams_1ad6aa54affa08367f439fae04d01ff56c" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Matrix4f" kindref="compound">MR.Matrix4f</ref> *</type>
+        <definition>unsafe MR.Matrix4f* MR.Const_UiRenderParams.__ref_storage_projMatrix</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_projMatrix</name>
+        <qualifiedname>MR.Const_UiRenderParams.__ref_storage_projMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1196" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UiRenderParams_1a74539ca33c478b1f242f093a840a2af3" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref> *</type>
+        <definition>unsafe MR.ViewportId* MR.Const_UiRenderParams.__ref_storage_viewportId</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_viewportId</name>
+        <qualifiedname>MR.Const_UiRenderParams.__ref_storage_viewportId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1200" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UiRenderParams_1a03423d879bda3e3258fb12c1b3456cb5" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref> *</type>
+        <definition>unsafe MR.Vector4i* MR.Const_UiRenderParams.__ref_storage_viewport</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_viewport</name>
+        <qualifiedname>MR.Const_UiRenderParams.__ref_storage_viewport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1204" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1204" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderParams_1a2481420490df6c53a134efde9447cb72" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_UiRenderParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UiRenderParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1154" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1154" bodyend="1162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderParams_1a5d6950ea498f05862ccd9b6d0ef07699" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_UiRenderParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UiRenderParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1163" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1163" bodyend="1163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderParams_1afeed344b045b2afe7accd804f5aa9bb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UiRenderParams.Const_UiRenderParams</definition>
+        <argsstring>(MR.Const_UiRenderParams _other)</argsstring>
+        <name>Const_UiRenderParams</name>
+        <qualifiedname>MR.Const_UiRenderParams.Const_UiRenderParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UiRenderParams_1a095b8513294ee19d3726673e82f31f32" kindref="member">MR.UiRenderParams.UiRenderParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1255" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1255" bodyend="1262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderParams_1a5fef55053db87a9b5dbfcd74f4dc6f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UiRenderParams.Const_UiRenderParams</definition>
+        <argsstring>(UiRenderParams _other)</argsstring>
+        <name>Const_UiRenderParams</name>
+        <qualifiedname>MR.Const_UiRenderParams.Const_UiRenderParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UiRenderParams_1a095b8513294ee19d3726673e82f31f32" kindref="member">MR.UiRenderParams.UiRenderParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1267" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1267" bodyend="1267"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderParams_1a785c35b6bec1fa87b0782d94be5d8f43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UiRenderParams.~Const_UiRenderParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_UiRenderParams</name>
+        <qualifiedname>MR.Const_UiRenderParams.~Const_UiRenderParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1164" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1164" bodyend="1164"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderParams_1ae4852596a280281eff4d90966060daeb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_UiRenderParams.operator MR.Const_BaseRenderParams</definition>
+        <argsstring>(Const_UiRenderParams self)</argsstring>
+        <name>operator MR.Const_BaseRenderParams</name>
+        <qualifiedname>MR.Const_UiRenderParams.operator MR.Const_BaseRenderParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">Const_UiRenderParams</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1167" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1167" bodyend="1174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderParams_1aa91c7aba1d5b2eeb1448dcdea5f185ac" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UiRenderParams.Const_UiRenderParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_UiRenderParams</name>
+        <qualifiedname>MR.Const_UiRenderParams.Const_UiRenderParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1244" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1244" bodyend="1249"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1UiRenderParams" kindref="compound">MR.UiRenderParams</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BaseRenderParams" kindref="compound">MR.BaseRenderParams</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_UiRenderParams</label>
+        <link refid="classMR_1_1Const__UiRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.UiRenderParams</label>
+        <link refid="classMR_1_1UiRenderParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_UiRenderParams</label>
+        <link refid="classMR_1_1Const__UiRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_tasks</edgelabel>
+          <edgelabel>__ref_storage_projMatrix</edgelabel>
+          <edgelabel>__ref_storage_viewMatrix</edgelabel>
+          <edgelabel>__ref_storage_viewport</edgelabel>
+          <edgelabel>__ref_storage_viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1148" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1149" bodyend="1268"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UiRenderParams_1a4603c6ee9130565c7e0194604d3ce3b4" prot="protected" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>__ptr_storage_tasks</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1ad6aa54affa08367f439fae04d01ff56c" prot="protected" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>__ref_storage_projMatrix</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a5baf41ff5ee3be903f6912c8d5a36923" prot="protected" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>__ref_storage_viewMatrix</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a03423d879bda3e3258fb12c1b3456cb5" prot="protected" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>__ref_storage_viewport</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a74539ca33c478b1f242f093a840a2af3" prot="protected" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>__ref_storage_viewportId</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1aa91c7aba1d5b2eeb1448dcdea5f185ac" prot="package" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>Const_UiRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1afeed344b045b2afe7accd804f5aa9bb6" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>Const_UiRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a5fef55053db87a9b5dbfcd74f4dc6f58" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>Const_UiRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a2481420490df6c53a134efde9447cb72" prot="protected" virt="virtual"><scope>MR::Const_UiRenderParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a5d6950ea498f05862ccd9b6d0ef07699" prot="public" virt="virtual"><scope>MR::Const_UiRenderParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1ae4852596a280281eff4d90966060daeb" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>operator MR.Const_BaseRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1adb1058e161b5e4b69a5fa19178bb906f" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>projMatrix</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a662dd62db7823625a19719e459167495" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>tasks</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a974e6ae635cbbfa8cf21e8bc6cfb5e04" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a15940bfa3a93e001a4045ec2306e7019" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>viewport</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a8fb8238d2deab5ce13b6170552b5baff" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>viewportId</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a785c35b6bec1fa87b0782d94be5d8f43" prot="private" virt="non-virtual"><scope>MR::Const_UiRenderParams</scope><name>~Const_UiRenderParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

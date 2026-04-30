@@ -10,7 +10,7 @@
         <name>getLargeComponentsUnion</name>
         <qualifiedname>MR.PointCloudComponents.getLargeComponentsUnion</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -64,7 +64,7 @@
           <declname>unionStructs</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>region</declname>
         </param>
         <param>
@@ -104,7 +104,7 @@
         <name>getLargeComponents</name>
         <qualifiedname>MR.PointCloudComponents.getLargeComponents</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -154,7 +154,7 @@
         <name>getAllComponents</name>
         <qualifiedname>MR.PointCloudComponents.getAllComponents</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -210,7 +210,7 @@
         <name>getUnionFindStructureVerts</name>
         <qualifiedname>MR.PointCloudComponents.getUnionFindStructureVerts</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -218,7 +218,7 @@
           <declname>maxDist</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Matrix4__UnsignedChar" kind="class" language="C#" prot="public">
     <compoundname>MR::Matrix4_UnsignedChar</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Matrix4_UnsignedChar</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Matrix4__UnsignedChar" prot="public" virt="non-virtual">MR.Const_Matrix4_UnsignedChar</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Matrix4__UnsignedChar_1adadd2e7a86d05b030ee51bb948d6795b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
@@ -124,7 +124,7 @@
         <name>Matrix4_UnsignedChar</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.Matrix4_UnsignedChar</qualifiedname>
         <param>
-          <type>MR.Const_Matrix4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Matrix4__UnsignedChar" kindref="compound">MR.Const_Matrix4_UnsignedChar</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,19 +162,19 @@
         <name>Matrix4_UnsignedChar</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.Matrix4_UnsignedChar</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>x</declname>
         </param>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>y</declname>
         </param>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>z</declname>
         </param>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>w</declname>
         </param>
         <briefdescription>
@@ -193,11 +193,11 @@
         <name>Matrix4_UnsignedChar</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.Matrix4_UnsignedChar</qualifiedname>
         <param>
-          <type>MR.Const_Matrix3_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
           <declname>r</declname>
         </param>
         <param>
-          <type>MR.Const_Vector3_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -216,7 +216,7 @@
         <name>assign</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.assign</qualifiedname>
         <param>
-          <type>MR.Const_Matrix4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Matrix4__UnsignedChar" kindref="compound">MR.Const_Matrix4_UnsignedChar</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -258,7 +258,7 @@
         <name>setRotation</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.setRotation</qualifiedname>
         <param>
-          <type>MR.Const_Matrix3_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
           <declname>rot</declname>
         </param>
         <briefdescription>
@@ -277,7 +277,7 @@
         <name>setTranslation</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.setTranslation</qualifiedname>
         <param>
-          <type>MR.Const_Vector3_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -311,7 +311,7 @@
         <name>addAssign</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.addAssign</qualifiedname>
         <param>
-          <type>MR.Const_Matrix4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Matrix4__UnsignedChar" kindref="compound">MR.Const_Matrix4_UnsignedChar</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -330,7 +330,7 @@
         <name>subAssign</name>
         <qualifiedname>MR.Matrix4_UnsignedChar.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_Matrix4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Matrix4__UnsignedChar" kindref="compound">MR.Const_Matrix4_UnsignedChar</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -395,6 +395,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Matrix4_UnsignedChar</label>
+        <link refid="classMR_1_1Const__Matrix4__UnsignedChar"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -421,6 +422,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Matrix4_UnsignedChar</label>
+        <link refid="classMR_1_1Const__Matrix4__UnsignedChar"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -443,8 +445,23 @@
       <member refid="classMR_1_1Matrix4__UnsignedChar_1ad781f2515915d6b971cff2b0c1e651c6" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>addAssign</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1ab2f17004cab5413dfdf33433786b3d02" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>assign</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a23e46983372ed5980506017b8da4901b" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a6fa322f92493b336d333a95b30d4926d" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>col</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a7f9d6dd4d89ad7c258e924ecb8997b52" prot="package" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Const_Matrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1ab004d98f141e5e338855e0b007e40bd9" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Const_Matrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a86899a248f7be8ca87614b87753de0ee" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Const_Matrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a3293b47f596eca75d217fa4a7303b8e7" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Const_Matrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a25ad5fd1e24ee3663c1bd4cf096a8ff3" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Const_Matrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1aa005c128169cca27bd74ef355811eafa" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Const_Matrix4_UnsignedChar</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a08e8d3a92cfb84cdac0bb729e9723b96" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a6d18fea8df9c52f0114ae4e84e65bf39" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>det</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a86d9950bf3d5eb1af07619c465143a90" prot="protected" virt="virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a3bcc5728c50f8c196b760f32f41f2efb" prot="public" virt="virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a627ae959e5e1cacb4e346b5af880d807" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a854d57dadc5abd9c51e356cf35a8d528" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1ad22bdd52e19e6a0b5f3f7d2b4bdc3612" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a837f331ef2988378b7d88c593459f5cc" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>getRotation</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a282a77ab93aae87f7c76f6cc549377ad" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>getTranslation</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a8d534583e408467690b3372618a0cbf5" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>identity</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a07ace4755008e18ee770fd87157e3490" prot="package" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Matrix4_UnsignedChar</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a8cfe49a4b6a7180c72931f96f56bc39a" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Matrix4_UnsignedChar</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1aae3886aa14a9963ccf149e55cf8c3385" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Matrix4_UnsignedChar</name></member>
@@ -452,14 +469,30 @@
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a7dd9db425e2f3854fcc7227c8adef470" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Matrix4_UnsignedChar</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1acfc0ae987818f071fbcf3072b3c85495" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>Matrix4_UnsignedChar</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a942f8e222ec4103cda3596c1fc8e5017" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a0ac5cf2cfea38bf440fe85d777956554" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>norm</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a4615a64eb363f2c838bb7061be703954" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>normSq</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a27015c0aa7057a341fcddef83f6d1a00" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1add95aa574922d57372de9d293ca54168" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a8eb71be42aa73d88afe9820d3c4c6f92" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a3b4e18b302c7f0a118664c74f8c2a670" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a422dc1e89c30679669dbb423261e5a2e" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1adf51790bf2691dc30ea24adc4fd597ef" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1ab0fb34623c620b5d35d6247f1db4bc8b" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a50b9ad6918e23e534faa81bcb2756c6b" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator/</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a6bfde1ba35865acdb54ca231dcb4a609" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a9e1dbe8ad6d7ea6a841bb9dde9ecfb05" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>scale</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1ad5aa739a120f8c8c075d32c1379a7097" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>setRotation</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1ac76d8e70444b508ad30d50bcc24b0d17" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>setTranslation</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1ae9c4b003ad8bc8069ca68046e2cf7e8f" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a69fbf8757e8e23b47e463fa2c61e8d4c" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>submatrix3</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a7b4d42113ce3aeefdf5ebe938b94b2b7" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>this[int row]</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a98d332744831901693908423bf4155fd" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>trace</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1a31c7045fa48924b658c6f0f553ef6792" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>transposed</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a62ef5f76655730efda49c0ab8d5518bc" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>w</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1adadd2e7a86d05b030ee51bb948d6795b" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>x</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a96100fc0468499b5482ba26dd7cc8707" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>y</name></member>
       <member refid="classMR_1_1Matrix4__UnsignedChar_1a8e80b425c5b220610e46ecbe987d93fc" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>z</name></member>
+      <member refid="classMR_1_1Const__Matrix4__UnsignedChar_1aa5ef3c8f6a4bbde174573171b6182219" prot="public" virt="non-virtual"><scope>MR::Matrix4_UnsignedChar</scope><name>zero</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

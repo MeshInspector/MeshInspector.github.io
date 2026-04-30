@@ -4,6 +4,8 @@
     <compoundname>MR::Parallel</compoundname>
     <innerclass refid="classMR_1_1Parallel_1_1CallSimply" prot="public">MR::Parallel::CallSimply</innerclass>
     <innerclass refid="classMR_1_1Parallel_1_1CallSimplyMaker" prot="public">MR::Parallel::CallSimplyMaker</innerclass>
+    <innerclass refid="classMR_1_1Parallel_1_1Const__CallSimply" prot="public">MR::Parallel::Const_CallSimply</innerclass>
+    <innerclass refid="classMR_1_1Parallel_1_1Const__CallSimplyMaker" prot="public">MR::Parallel::Const_CallSimplyMaker</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

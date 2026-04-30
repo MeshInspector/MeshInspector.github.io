@@ -2,6 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshLoad</compoundname>
+    <innerclass refid="classMR_1_1MeshLoad_1_1Const__NamedMesh" prot="public">MR::MeshLoad::Const_NamedMesh</innerclass>
+    <innerclass refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings" prot="public">MR::MeshLoad::Const_ObjLoadSettings</innerclass>
+    <innerclass refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings" prot="public">MR::MeshLoad::Const_StepLoadSettings</innerclass>
     <innerclass refid="classMR_1_1MeshLoad_1_1NamedMesh" prot="public">MR::MeshLoad::NamedMesh</innerclass>
     <innerclass refid="classMR_1_1MeshLoad_1_1ObjLoadSettings" prot="public">MR::MeshLoad::ObjLoadSettings</innerclass>
     <innerclass refid="classMR_1_1MeshLoad_1_1StepLoadSettings" prot="public">MR::MeshLoad::StepLoadSettings</innerclass>
@@ -17,7 +20,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -41,7 +44,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -65,12 +68,12 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.MeshLoad.Const_StepLoadSettings?</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings" kindref="compound">MR.MeshLoad.Const_StepLoadSettings</ref>?</type>
           <declname>stepSettings</declname>
           <defval>null</defval>
         </param>
@@ -94,12 +97,12 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.MeshLoad.Const_StepLoadSettings?</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings" kindref="compound">MR.MeshLoad.Const_StepLoadSettings</ref>?</type>
           <declname>stepSettings</declname>
           <defval>null</defval>
         </param>
@@ -123,12 +126,12 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.MeshLoad.Const_StepLoadSettings?</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings" kindref="compound">MR.MeshLoad.Const_StepLoadSettings</ref>?</type>
           <declname>stepSettings</declname>
           <defval>null</defval>
         </param>
@@ -152,12 +155,12 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.MeshLoad.Const_StepLoadSettings?</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings" kindref="compound">MR.MeshLoad.Const_StepLoadSettings</ref>?</type>
           <declname>stepSettings</declname>
           <defval>null</defval>
         </param>
@@ -181,7 +184,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -205,7 +208,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -229,7 +232,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -253,7 +256,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -277,7 +280,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -301,7 +304,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -325,7 +328,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -349,7 +352,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -373,7 +376,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -397,7 +400,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -421,7 +424,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -445,7 +448,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -469,7 +472,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -493,7 +496,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -517,7 +520,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -541,7 +544,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -565,7 +568,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -593,7 +596,7 @@
           <declname>extension</declname>
         </param>
         <param>
-          <type>MR.Const_MeshLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -621,7 +624,7 @@
           <declname>combineAllObjects</declname>
         </param>
         <param>
-          <type>MR.MeshLoad.Const_ObjLoadSettings?</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings" kindref="compound">MR.MeshLoad.Const_ObjLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -653,7 +656,7 @@
           <declname>dir</declname>
         </param>
         <param>
-          <type>MR.MeshLoad.Const_ObjLoadSettings?</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings" kindref="compound">MR.MeshLoad.Const_ObjLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -699,7 +702,7 @@
           <declname>dir</declname>
         </param>
         <param>
-          <type>MR.MeshLoad.Const_ObjLoadSettings?</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings" kindref="compound">MR.MeshLoad.Const_ObjLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

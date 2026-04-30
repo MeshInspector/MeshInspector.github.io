@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillHolesWithExtraPointsParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FillHolesWithExtraPointsParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FillHolesWithExtraPointsParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FillHolesWithExtraPointsParams" prot="public" virt="non-virtual">MR.Const_FillHolesWithExtraPointsParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FillHolesWithExtraPointsParams_1adf1e6ef6717a73027512b4b1b4916878" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1TriangulationParameters" kindref="compound">MR.TriangulationParameters</ref></type>
@@ -19,7 +19,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="487" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="487" bodyend="487"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FillHolesWithExtraPointsParams_1a03abae216e129db9a94f718cc8c1d417" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.FillHolesWithExtraPointsParams.modifyBdVertices</definition>
         <argsstring></argsstring>
         <name>modifyBdVertices</name>
@@ -81,11 +81,11 @@
         <name>FillHolesWithExtraPointsParams</name>
         <qualifiedname>MR.FillHolesWithExtraPointsParams.FillHolesWithExtraPointsParams</qualifiedname>
         <param>
-          <type>MR.Const_TriangulationParameters</type>
+          <type><ref refid="classMR_1_1Const__TriangulationParameters" kindref="compound">MR.Const_TriangulationParameters</ref></type>
           <declname>triangulation</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>modifyBdVertices</declname>
         </param>
         <briefdescription>
@@ -104,7 +104,7 @@
         <name>FillHolesWithExtraPointsParams</name>
         <qualifiedname>MR.FillHolesWithExtraPointsParams.FillHolesWithExtraPointsParams</qualifiedname>
         <param>
-          <type>MR.Const_FillHolesWithExtraPointsParams</type>
+          <type><ref refid="classMR_1_1Const__FillHolesWithExtraPointsParams" kindref="compound">MR.Const_FillHolesWithExtraPointsParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -142,7 +142,7 @@
         <name>assign</name>
         <qualifiedname>MR.FillHolesWithExtraPointsParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_FillHolesWithExtraPointsParams</type>
+          <type><ref refid="classMR_1_1Const__FillHolesWithExtraPointsParams" kindref="compound">MR.Const_FillHolesWithExtraPointsParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -169,6 +169,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FillHolesWithExtraPointsParams</label>
+        <link refid="classMR_1_1Const__FillHolesWithExtraPointsParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -182,6 +183,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FillHolesWithExtraPointsParams</label>
         <link refid="classMR_1_1FillHolesWithExtraPointsParams"/>
@@ -190,9 +195,13 @@
       </node>
       <node id="2">
         <label>MR.Const_FillHolesWithExtraPointsParams</label>
+        <link refid="classMR_1_1Const__FillHolesWithExtraPointsParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_modifyBdVertices</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -204,7 +213,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="485" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="486" bodyend="581"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a5cf34ed14ba9d28519c23a74e27da747" prot="protected" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>__ptr_storage_modifyBdVertices</name></member>
       <member refid="classMR_1_1FillHolesWithExtraPointsParams_1a8387644c3440c2bb337f9e9431626f52" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1afec2db4d18e9c1ab5cd5db808b99c86c" prot="package" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a37bdd3b6af28ecad77486acac2bae125" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1ac20d41004f3afc93e11f0f2df5ae0bdf" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1aecf1809f2c7f28caa387364acd8fe3e3" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1aa7c261256200337ed200b8f536193818" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a7eb45a0ac7bb7b0afe9ed2991ba81f8d" prot="protected" virt="virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1aa930c1bc12c55f757f33bbeee9fcc88d" prot="public" virt="virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FillHolesWithExtraPointsParams_1aeb435b5cd8cde9f9f08ed50efe6e7da6" prot="package" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>FillHolesWithExtraPointsParams</name></member>
       <member refid="classMR_1_1FillHolesWithExtraPointsParams_1a243d4517407cf1cc2ae5195ba7f4ae72" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>FillHolesWithExtraPointsParams</name></member>
       <member refid="classMR_1_1FillHolesWithExtraPointsParams_1accf1d090e45fdf31d05f62fe4686e887" prot="public" virt="non-virtual"><scope>MR::FillHolesWithExtraPointsParams</scope><name>FillHolesWithExtraPointsParams</name></member>

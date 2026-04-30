@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeActiveBoxAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeActiveBoxAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeActiveBoxAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeActiveBoxAction" prot="public" virt="non-virtual">MR.Const_ChangeActiveBoxAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeActiveBoxAction_1a2e3ba40f267d0d709e933ddb551bf5ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeActiveBoxAction</name>
         <qualifiedname>MR.ChangeActiveBoxAction.ChangeActiveBoxAction</qualifiedname>
         <param>
-          <type>Const_ChangeActiveBoxAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeActiveBoxAction" kindref="compound">Const_ChangeActiveBoxAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeActiveBoxAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeActiveBoxAction</label>
+        <link refid="classMR_1_1Const__ChangeActiveBoxAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeActiveBoxAction</label>
+        <link refid="classMR_1_1Const__ChangeActiveBoxAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,8 +243,20 @@
       <member refid="classMR_1_1ChangeActiveBoxAction_1a28c1f719cee74a43d273dbe58f70ccbd" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>ChangeActiveBoxAction</name></member>
       <member refid="classMR_1_1ChangeActiveBoxAction_1aa42ed921c92f6ee6d545be92ef1fd845" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>ChangeActiveBoxAction</name></member>
       <member refid="classMR_1_1ChangeActiveBoxAction_1aa2d06d9020a4467a04ed95baf68f887d" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a15c327388ce69794e9074d6e8a291bd1" prot="package" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a7fadf4f97094161b2fc763d380dcc537" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a1d46fd4d6ddf6ad1957bc377ba27f2e4" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1ac860e5abdc36cd73be8caae21bf49404" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1ad4b1cbfc14370640e947d4b7876cd400" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>Const_ChangeActiveBoxAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1acb1f0e8c59a25d76504494c04d887832" prot="protected" virt="virtual"><scope>MR::ChangeActiveBoxAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a916bb3e7c18d93bf906123cf35ff3c19" prot="public" virt="virtual"><scope>MR::ChangeActiveBoxAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a8aeac4577ea8e55b91b27974edb074ab" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a900c470605d8bb8616a010c413d1c86f" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeActiveBoxAction_1a56b330568e0b5cb3eaf403e91e430dfb" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>operator ChangeActiveBoxAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a3aa9ed95cce5c96b8b0e12c46fd320ca" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>operator Const_ChangeActiveBoxAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1a2d2f8b43245131e33a80062ddbe2aee4" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeActiveBoxAction_1a2e3ba40f267d0d709e933ddb551bf5ae" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeActiveBoxAction_1ad97f3c24ac018ce601518f15544c9346" prot="public" virt="non-virtual"><scope>MR::ChangeActiveBoxAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

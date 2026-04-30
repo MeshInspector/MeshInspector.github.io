@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoadedObjectT__MRObjectVoxels" kind="class" language="C#" prot="public">
     <compoundname>MR::LoadedObjectT_MRObjectVoxels</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectVoxels</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels" prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectVoxels</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LoadedObjectT__MRObjectVoxels_1abebba58a2ab022349659a339d4fa4107" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.SharedPtr_MRObjectVoxels</type>
@@ -141,7 +141,7 @@
         <name>LoadedObjectT_MRObjectVoxels</name>
         <qualifiedname>MR.LoadedObjectT_MRObjectVoxels.LoadedObjectT_MRObjectVoxels</qualifiedname>
         <param>
-          <type>Const_LoadedObjectT_MRObjectVoxels</type>
+          <type><ref refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels" kindref="compound">Const_LoadedObjectT_MRObjectVoxels</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -206,6 +206,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT_MRObjectVoxels</label>
+        <link refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +228,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT_MRObjectVoxels</label>
+        <link refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -242,6 +244,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="1309" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="1310" bodyend="1420"/>
     <listofallmembers>
       <member refid="classMR_1_1LoadedObjectT__MRObjectVoxels_1aa104320da0e649e4b07c635a77d3e25e" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a30ccda59f4278933b182e02762ff39b8" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>Const_LoadedObjectT_MRObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a683a06f01e4b3e2fb507208558f85adc" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>Const_LoadedObjectT_MRObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a69c8a023af99df7e02abbbee5131c426" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>Const_LoadedObjectT_MRObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a46100768ea74c5ae52e2611a3bcd473c" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>Const_LoadedObjectT_MRObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1aedb65bc686d04e3b20c96b4adb0d5fdb" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>Const_LoadedObjectT_MRObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a2169c7ed3b21ae6b2ac78315a56619be" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>Const_LoadedObjectT_MRObjectVoxels</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a8cc11348fec27e51b35e2f1c315861ac" prot="protected" virt="virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a9d592bec0ca19605035b5a85376597b1" prot="public" virt="virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectVoxels_1ab41eada6e217b23253d9407cff6e4496" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>lengthUnit</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectVoxels_1a47edcc33aa2b91b42112440303684c99" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>LoadedObjectT_MRObjectVoxels</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectVoxels_1a4f599f8f40b1157f4ea034f85e7600d5" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectVoxels</scope><name>LoadedObjectT_MRObjectVoxels</name></member>

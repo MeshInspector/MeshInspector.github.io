@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VolumeIndexer" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VolumeIndexer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VolumeIndexer" prot="public" virt="non-virtual">MR.VolumeIndexer</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a7862ab3a672d527a2b1e3c5f849f77d8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VolumeIndexer.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VolumeIndexer.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="239" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="239" bodyend="247"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a4a19aeca200e326b088b755683588db9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VolumeIndexer.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VolumeIndexer.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="248" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1aa1f4af9afe8c520c7c133161a3e8eb4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeIndexer.Const_VolumeIndexer</definition>
+        <argsstring>(MR.Const_VolumeIndexer _other)</argsstring>
+        <name>Const_VolumeIndexer</name>
+        <qualifiedname>MR.Const_VolumeIndexer.Const_VolumeIndexer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VolumeIndexer" kindref="compound">MR.Const_VolumeIndexer</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeIndexer_1a3aa8901144de8797fecd23bd8b823e58" kindref="member">MR.VolumeIndexer.VolumeIndexer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="256" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="256" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a822c55e40fb196909d4f2f8732ffd35f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VolumeIndexer.Const_VolumeIndexer</definition>
+        <argsstring>(VolumeIndexer _other)</argsstring>
+        <name>Const_VolumeIndexer</name>
+        <qualifiedname>MR.Const_VolumeIndexer.Const_VolumeIndexer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeIndexer_1a3aa8901144de8797fecd23bd8b823e58" kindref="member">MR.VolumeIndexer.VolumeIndexer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="267" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="267" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a14c109b658992d1cf556124fcb813e30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeIndexer.Const_VolumeIndexer</definition>
+        <argsstring>(in MR.Vector3i dims)</argsstring>
+        <name>Const_VolumeIndexer</name>
+        <qualifiedname>MR.Const_VolumeIndexer.Const_VolumeIndexer</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeIndexer_1a3aa8901144de8797fecd23bd8b823e58" kindref="member">MR.VolumeIndexer.VolumeIndexer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="272" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="272" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1adf2b07c9f0ae77fd72a933549c25aa28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe ref readonly MR.Vector3i MR.Const_VolumeIndexer.dims</definition>
+        <argsstring>()</argsstring>
+        <name>dims</name>
+        <qualifiedname>MR.Const_VolumeIndexer.dims</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1adf2b07c9f0ae77fd72a933549c25aa28" kindref="member">MR.VolumeIndexer.dims</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="290" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="290" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1abedddf9bb45836faedc6a39f2048f38f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VolumeIndexer.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_VolumeIndexer.size</qualifiedname>
+        <briefdescription>
+<para>returns the total number of voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1abedddf9bb45836faedc6a39f2048f38f" kindref="member">MR.VolumeIndexer.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="301" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="301" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1ae816a3989f7ac0fc5aa0bbbcdf13fc69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VolumeIndexer.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_VolumeIndexer.endId</qualifiedname>
+        <briefdescription>
+<para>returns the last plus one voxel Id for defining iteration range Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1ae816a3989f7ac0fc5aa0bbbcdf13fc69" kindref="member">MR.VolumeIndexer.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="312" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="312" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a5941a0e21f134945080595c8622bab53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VolumeIndexer.sizeXY</definition>
+        <argsstring>()</argsstring>
+        <name>sizeXY</name>
+        <qualifiedname>MR.Const_VolumeIndexer.sizeXY</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1a5941a0e21f134945080595c8622bab53" kindref="member">MR.VolumeIndexer.sizeXY</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="322" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="322" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1af8e4a0567748af44d1d568ca30cc4684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe MR.Vector3i MR.Const_VolumeIndexer.toPos</definition>
+        <argsstring>(MR.VoxelId id)</argsstring>
+        <name>toPos</name>
+        <qualifiedname>MR.Const_VolumeIndexer.toPos</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1af8e4a0567748af44d1d568ca30cc4684" kindref="member">MR.VolumeIndexer.toPos</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="332" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="332" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1acdab2decbb74eca5a9ba216ba8c936c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VolumeIndexer.toVoxelId</definition>
+        <argsstring>(in MR.Vector3i pos)</argsstring>
+        <name>toVoxelId</name>
+        <qualifiedname>MR.Const_VolumeIndexer.toVoxelId</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1acdab2decbb74eca5a9ba216ba8c936c3" kindref="member">MR.VolumeIndexer.toVoxelId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="342" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="342" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1ab0890157544e26e208bf707be93580d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelLocation" kindref="compound">MR.VoxelLocation</ref></type>
+        <definition>unsafe MR.VoxelLocation MR.Const_VolumeIndexer.toLoc</definition>
+        <argsstring>(MR.VoxelId id)</argsstring>
+        <name>toLoc</name>
+        <qualifiedname>MR.Const_VolumeIndexer.toLoc</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1ab0890157544e26e208bf707be93580d2" kindref="member">MR.VolumeIndexer.toLoc</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="355" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="355" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a4c0bbdac6be48faa116e330a70b9bee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelLocation" kindref="compound">MR.VoxelLocation</ref></type>
+        <definition>unsafe MR.VoxelLocation MR.Const_VolumeIndexer.toLoc</definition>
+        <argsstring>(in MR.Vector3i pos)</argsstring>
+        <name>toLoc</name>
+        <qualifiedname>MR.Const_VolumeIndexer.toLoc</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1ab0890157544e26e208bf707be93580d2" kindref="member">MR.VolumeIndexer.toLoc</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="365" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="365" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a7f5ab9653f4199c084a46281bba9afa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VolumeIndexer.isInDims</definition>
+        <argsstring>(in MR.Vector3i pos)</argsstring>
+        <name>isInDims</name>
+        <qualifiedname>MR.Const_VolumeIndexer.isInDims</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>returns true if this voxel is within dimensions Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1a7f5ab9653f4199c084a46281bba9afa8" kindref="member">MR.VolumeIndexer.isInDims</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="379" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="379" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1adbfa14b1b5b29acc6aa8aa7b830a3915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VolumeIndexer.isBdVoxel</definition>
+        <argsstring>(in MR.Vector3i pos)</argsstring>
+        <name>isBdVoxel</name>
+        <qualifiedname>MR.Const_VolumeIndexer.isBdVoxel</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>returns true if this voxel is on the boundary of the volume Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1adbfa14b1b5b29acc6aa8aa7b830a3915" kindref="member">MR.VolumeIndexer.isBdVoxel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="393" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="393" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a4b4487608965f92a8dfaa8871ca306b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VolumeIndexer.areNeigbors</definition>
+        <argsstring>(MR.VoxelId v0, MR.VoxelId v1)</argsstring>
+        <name>areNeigbors</name>
+        <qualifiedname>MR.Const_VolumeIndexer.areNeigbors</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+<para>returns true if v1 is within at most 6 neighbors of v0 Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1a4b4487608965f92a8dfaa8871ca306b6" kindref="member">MR.VolumeIndexer.areNeigbors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="407" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="407" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a9cb54cd5edb16fe9e3f9c90ed14d8c4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VolumeIndexer.areNeigbors</definition>
+        <argsstring>(in MR.Vector3i pos0, in MR.Vector3i pos1)</argsstring>
+        <name>areNeigbors</name>
+        <qualifiedname>MR.Const_VolumeIndexer.areNeigbors</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos0</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1a4b4487608965f92a8dfaa8871ca306b6" kindref="member">MR.VolumeIndexer.areNeigbors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="417" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="417" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1aec4346e63b673b4b2a2542dbc2fa1668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VolumeIndexer.hasNeighbour</definition>
+        <argsstring>(in MR.Vector3i pos, MR.OutEdge toNei)</argsstring>
+        <name>hasNeighbour</name>
+        <qualifiedname>MR.Const_VolumeIndexer.hasNeighbour</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a39258c58105fd8ff811bd0ddb3b28414" kindref="member">MR.OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>given existing voxel at (pos), returns whether it has valid neighbor specified by the edge (toNei) Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1aec4346e63b673b4b2a2542dbc2fa1668" kindref="member">MR.VolumeIndexer.hasNeighbour</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="434" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="434" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1abb67ae6670b7e5c049428af5957c2a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VolumeIndexer.getNeighbor</definition>
+        <argsstring>(MR.VoxelId v, MR.OutEdge toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>MR.Const_VolumeIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a39258c58105fd8ff811bd0ddb3b28414" kindref="member">MR.OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>returns id of v's neighbor specified by the edge Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1abb67ae6670b7e5c049428af5957c2a11" kindref="member">MR.VolumeIndexer.getNeighbor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="448" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="448" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1af66f86001654f8028368ca2e1386b329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VolumeIndexer.getNeighbor</definition>
+        <argsstring>(MR.VoxelId v, in MR.Vector3i pos, MR.OutEdge toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>MR.Const_VolumeIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a39258c58105fd8ff811bd0ddb3b28414" kindref="member">MR.OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1abb67ae6670b7e5c049428af5957c2a11" kindref="member">MR.VolumeIndexer.getNeighbor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="458" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="458" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a16adf8ec51f1be924db24397ca900f2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelLocation" kindref="compound">MR.VoxelLocation</ref></type>
+        <definition>unsafe MR.VoxelLocation MR.Const_VolumeIndexer.getNeighbor</definition>
+        <argsstring>(MR.Const_VoxelLocation loc, MR.OutEdge toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>MR.Const_VolumeIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelLocation" kindref="compound">MR.Const_VoxelLocation</ref></type>
+          <declname>loc</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a39258c58105fd8ff811bd0ddb3b28414" kindref="member">MR.OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>given existing voxel at (loc), returns its neighbor specified by the edge (toNei); if the neighbour does not exist (loc is on boundary), returns invalid <ref refid="classMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1abb67ae6670b7e5c049428af5957c2a11" kindref="member">MR.VolumeIndexer.getNeighbor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="473" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="473" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a747a2d9d06249bfb64ff258a6aaa2ac7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VolumeIndexer.getExistingNeighbor</definition>
+        <argsstring>(MR.VoxelId v, MR.OutEdge toNei)</argsstring>
+        <name>getExistingNeighbor</name>
+        <qualifiedname>MR.Const_VolumeIndexer.getExistingNeighbor</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a39258c58105fd8ff811bd0ddb3b28414" kindref="member">MR.OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>returns id of v's neighbor specified by the edge, which is known to exist (so skipping a lot of checks) Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1a747a2d9d06249bfb64ff258a6aaa2ac7" kindref="member">MR.VolumeIndexer.getExistingNeighbor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="484" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="484" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a2f3aba5079d1f6f6277d1247b274a050" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VolumeIndexer.getNeighbor</definition>
+        <argsstring>(MR.VoxelId v, in MR.Vector3i pos, bool bdPos, MR.OutEdge toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>MR.Const_VolumeIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bdPos</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a39258c58105fd8ff811bd0ddb3b28414" kindref="member">MR.OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeIndexer_1abb67ae6670b7e5c049428af5957c2a11" kindref="member">MR.VolumeIndexer.getNeighbor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="494" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="494" bodyend="502"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1ad92a4d31b1639bbf285564d239675baa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VolumeIndexer.~Const_VolumeIndexer</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VolumeIndexer</name>
+        <qualifiedname>MR.Const_VolumeIndexer.~Const_VolumeIndexer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="249" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="249" bodyend="249"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1a3a01980387b434f510ea861479f8785a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeIndexer.Const_VolumeIndexer</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VolumeIndexer</name>
+        <qualifiedname>MR.Const_VolumeIndexer.Const_VolumeIndexer</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="251" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="251" bodyend="251"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeIndexer_1ac375ffc0fd96c7737673802a634ffb51" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_VolumeIndexer.operator Const_VolumeIndexer</definition>
+        <argsstring>(in MR.Vector3i dims)</argsstring>
+        <name>operator Const_VolumeIndexer</name>
+        <qualifiedname>MR.Const_VolumeIndexer.operator Const_VolumeIndexer</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeIndexer_1a3aa8901144de8797fecd23bd8b823e58" kindref="member">MR.VolumeIndexer.VolumeIndexer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="285" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="285" bodyend="285"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1VolumeIndexer" kindref="compound">MR.VolumeIndexer</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VolumeIndexer</label>
+        <link refid="classMR_1_1Const__VolumeIndexer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VolumeIndexer</label>
+        <link refid="classMR_1_1VolumeIndexer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_VolumeIndexer</label>
+        <link refid="classMR_1_1Const__VolumeIndexer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="233" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="234" bodyend="503"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a4b4487608965f92a8dfaa8871ca306b6" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>areNeigbors</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a9cb54cd5edb16fe9e3f9c90ed14d8c4a" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>areNeigbors</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a3a01980387b434f510ea861479f8785a" prot="package" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1aa1f4af9afe8c520c7c133161a3e8eb4b" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a822c55e40fb196909d4f2f8732ffd35f" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a14c109b658992d1cf556124fcb813e30" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1adf2b07c9f0ae77fd72a933549c25aa28" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a7862ab3a672d527a2b1e3c5f849f77d8" prot="protected" virt="virtual"><scope>MR::Const_VolumeIndexer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a4a19aeca200e326b088b755683588db9" prot="public" virt="virtual"><scope>MR::Const_VolumeIndexer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ae816a3989f7ac0fc5aa0bbbcdf13fc69" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a747a2d9d06249bfb64ff258a6aaa2ac7" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>getExistingNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1abb67ae6670b7e5c049428af5957c2a11" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1af66f86001654f8028368ca2e1386b329" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a16adf8ec51f1be924db24397ca900f2b" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a2f3aba5079d1f6f6277d1247b274a050" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1aec4346e63b673b4b2a2542dbc2fa1668" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>hasNeighbour</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1adbfa14b1b5b29acc6aa8aa7b830a3915" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>isBdVoxel</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a7f5ab9653f4199c084a46281bba9afa8" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>isInDims</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ac375ffc0fd96c7737673802a634ffb51" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>operator Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1abedddf9bb45836faedc6a39f2048f38f" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a5941a0e21f134945080595c8622bab53" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>sizeXY</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ab0890157544e26e208bf707be93580d2" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>toLoc</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a4c0bbdac6be48faa116e330a70b9bee4" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>toLoc</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1af8e4a0567748af44d1d568ca30cc4684" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>toPos</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1acdab2decbb74eca5a9ba216ba8c936c3" prot="public" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>toVoxelId</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ad92a4d31b1639bbf285564d239675baa" prot="private" virt="non-virtual"><scope>MR::Const_VolumeIndexer</scope><name>~Const_VolumeIndexer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

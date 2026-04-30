@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectFactoryBase" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectFactoryBase</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectFactoryBase</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectFactoryBase" prot="public" virt="non-virtual">MR.Const_ObjectFactoryBase</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ObjectFactoryBase_1af5445be0773c0c9920acc582b1aef867" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>ObjectFactoryBase</name>
         <qualifiedname>MR.ObjectFactoryBase.ObjectFactoryBase</qualifiedname>
         <param>
-          <type>Const_ObjectFactoryBase</type>
+          <type><ref refid="classMR_1_1Const__ObjectFactoryBase" kindref="compound">Const_ObjectFactoryBase</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -119,6 +119,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectFactoryBase</label>
+        <link refid="classMR_1_1Const__ObjectFactoryBase"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -140,6 +141,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectFactoryBase</label>
+        <link refid="classMR_1_1Const__ObjectFactoryBase"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="53" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="54" bodyend="89"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjectFactoryBase_1a8aab95c7e854c318ffc3114965bdfe7b" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1a5a919a79c96d30e05f6d1a8d8c6e0d26" prot="package" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1a89b0c35ba933ea2dd03ebd04ca98c2be" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1a4ca53ebab4cbbef79d61c983c778bc9a" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1aa66934bdbd5f8149423b96b82588f43b" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1a01596031a5a07c8745d4bd541f6816b7" prot="protected" virt="virtual"><scope>MR::ObjectFactoryBase</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1a20e69363dd45828b5890a6cf84398550" prot="public" virt="virtual"><scope>MR::ObjectFactoryBase</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ObjectFactoryBase_1af5445be0773c0c9920acc582b1aef867" prot="package" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>ObjectFactoryBase</name></member>
       <member refid="classMR_1_1ObjectFactoryBase_1aa09e877be0fe92afb9cfcf29075cb9bc" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>ObjectFactoryBase</name></member>
       <member refid="classMR_1_1ObjectFactoryBase_1aa0bfd264e86b8981b0cd66906f56f696" prot="public" virt="non-virtual"><scope>MR::ObjectFactoryBase</scope><name>ObjectFactoryBase</name></member>

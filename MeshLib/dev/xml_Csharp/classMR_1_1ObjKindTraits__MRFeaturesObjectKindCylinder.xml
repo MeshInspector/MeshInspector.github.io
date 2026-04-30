@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder" prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1ab3e15d1988cb4994d8372f3fe8f1a549" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>ObjKindTraits_MRFeaturesObjectKindCylinder</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCylinder.assign</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="800" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="801" bodyend="841"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1a62c0a9c689bcc51d9a32d12cabd52cb0" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder_1a63e285d8a236c1b65303c1728d9eddbb" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder_1aedb293bda5b12e9ec81a9c300e327fa6" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder_1af890007bc1c036ff0e333a9e65cea8ad" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder_1ae921eb2458183059a558da584526f92c" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder_1a0f478ceb87559a462957eea59332f00d" prot="protected" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder_1aa6821b754a5c0c78d10c38c37d379d0b" prot="public" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCylinder_1af7f0bc02ceae4c589078a66feade2d4f" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>Name</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1ab3e15d1988cb4994d8372f3fe8f1a549" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1af353218fda0131ffdc592cdd04083c4c" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1a39edc53c45e537b17e01b966a094a58a" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>

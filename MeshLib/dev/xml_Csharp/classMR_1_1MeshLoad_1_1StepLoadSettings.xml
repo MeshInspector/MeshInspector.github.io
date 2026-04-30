@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshLoad_1_1StepLoadSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshLoad::StepLoadSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshLoad.Const_StepLoadSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings" prot="public" virt="non-virtual">MR.MeshLoad.Const_StepLoadSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshLoad_1_1StepLoadSettings_1a3ca13b8cd1782902f7d5bbf20d7dc9fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref double</type>
@@ -124,7 +124,7 @@
         <name>StepLoadSettings</name>
         <qualifiedname>MR.MeshLoad.StepLoadSettings.StepLoadSettings</qualifiedname>
         <param>
-          <type>MR.MeshLoad.Const_StepLoadSettings</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings" kindref="compound">MR.MeshLoad.Const_StepLoadSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshLoad.StepLoadSettings.assign</qualifiedname>
         <param>
-          <type>MR.MeshLoad.Const_StepLoadSettings</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings" kindref="compound">MR.MeshLoad.Const_StepLoadSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.MeshLoad.Const_StepLoadSettings</label>
+        <link refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.MeshLoad.Const_StepLoadSettings</label>
+        <link refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,8 +226,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" line="125" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRStep.cs" bodystart="126" bodyend="201"/>
     <listofallmembers>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a570c9146409fb66e713a9dedf4eed695" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>__ref_storage_angularDeflection</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a6d4246698cd2f3ec5db64b0cc302e8be" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>__ref_storage_linearDeflection</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ae853feef188a716d3873c7b974373797" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>__ref_storage_relative</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a3ca13b8cd1782902f7d5bbf20d7dc9fa" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>angularDeflection</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a23aad55ba101d29fff9a91b02470874d" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a6b5e535e4df305c3bb20f977d7794774" prot="package" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ab7d9714ecc4478ed6197f493376fd564" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1afbb556cc2546d7f4717a2e4fe4d4ad48" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a091ad9656ee8db82bc26addd45455c13" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a4ae144b7b49a97bbac0afa7c7c266923" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Const_StepLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1ae1c241a4e1ab3f1b53190916462b8755" prot="protected" virt="virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__StepLoadSettings_1a408c5f5ab25fccd623cc1a5249e71c1b" prot="public" virt="virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ae4790fcdb8aa3a49d815633be780a801" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>linearDeflection</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a939f803ec344832afe24fbc02206881c" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>relative</name></member>
       <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a89e200b5e06c8037d696333dcab7db48" prot="package" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>StepLoadSettings</name></member>

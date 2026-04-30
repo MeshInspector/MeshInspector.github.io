@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RigidXf3f" kind="class" language="C#" prot="public">
     <compoundname>MR::RigidXf3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RigidXf3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RigidXf3f" prot="public" virt="non-virtual">MR.Const_RigidXf3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1RigidXf3f_1a0b048cbf50efc9ffb7c5755cc99ca561" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -82,7 +82,7 @@
         <name>RigidXf3f</name>
         <qualifiedname>MR.RigidXf3f.RigidXf3f</qualifiedname>
         <param>
-          <type>MR.Const_RigidXf3f</type>
+          <type><ref refid="classMR_1_1Const__RigidXf3f" kindref="compound">MR.Const_RigidXf3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.RigidXf3f.assign</qualifiedname>
         <param>
-          <type>MR.Const_RigidXf3f</type>
+          <type><ref refid="classMR_1_1Const__RigidXf3f" kindref="compound">MR.Const_RigidXf3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RigidXf3f</label>
+        <link refid="classMR_1_1Const__RigidXf3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.RigidXf3f</label>
         <link refid="classMR_1_1RigidXf3f"/>
@@ -191,9 +196,14 @@
       </node>
       <node id="2">
         <label>MR.Const_RigidXf3f</label>
+        <link refid="classMR_1_1Const__RigidXf3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_a</edgelabel>
+          <edgelabel>__ref_storage_b</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,9 +215,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXf3.cs" line="141" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXf3.cs" bodystart="142" bodyend="218"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__RigidXf3f_1a1e2879056045e5384f485a993f21d535" prot="protected" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1a3f9ce894be46af194382bdc3c73baaf3" prot="protected" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>__ref_storage_b</name></member>
       <member refid="classMR_1_1RigidXf3f_1a0b048cbf50efc9ffb7c5755cc99ca561" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>a</name></member>
       <member refid="classMR_1_1RigidXf3f_1ad67c0c415a03ee93de55a4b80747c31e" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>assign</name></member>
       <member refid="classMR_1_1RigidXf3f_1a8fdf51539e6a6a0cac1dbe0e8123017a" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1a14c835f945b141f59388411bd62bf62c" prot="package" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>Const_RigidXf3f</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1a8bc3bcfbaa196769dba66202cbe98f12" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>Const_RigidXf3f</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1a8afbd900358e9be5f58999a5636a77ad" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>Const_RigidXf3f</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1a566cc0bfddc49b7b7813aa5cd398b08d" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>Const_RigidXf3f</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1a512a60450b1872be9c3c6e8f5f433b44" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>Const_RigidXf3f</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1adedf7e743c548d065be495df56a07a12" prot="protected" virt="virtual"><scope>MR::RigidXf3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1a31b4c4404f24466932cfd079940cfaaa" prot="public" virt="virtual"><scope>MR::RigidXf3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1a359eb93c2b22021f416e7125f84feec6" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>linearXf</name></member>
+      <member refid="classMR_1_1Const__RigidXf3f_1afc2736835130e1bb1b54da58f182cffa" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>rigidXf</name></member>
       <member refid="classMR_1_1RigidXf3f_1a081630f5392d33c7c71a8ab3f7342581" prot="package" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>RigidXf3f</name></member>
       <member refid="classMR_1_1RigidXf3f_1a34d45335b0e01eed3757a618a16e7b8a" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>RigidXf3f</name></member>
       <member refid="classMR_1_1RigidXf3f_1a048c668057e3000223c4b9b59601c2c9" prot="public" virt="non-virtual"><scope>MR::RigidXf3f</scope><name>RigidXf3f</name></member>

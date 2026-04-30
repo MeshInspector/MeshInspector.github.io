@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FillHolesWithExtraPointsParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FillHolesWithExtraPointsParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FillHolesWithExtraPointsParams" prot="public" virt="non-virtual">MR.FillHolesWithExtraPointsParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1a0e50e9d243e613f1ef85ddc926db1ec0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__TriangulationParameters" kindref="compound">MR.Const_TriangulationParameters</ref></type>
+        <definition>unsafe MR.Const_TriangulationParameters MR.Const_FillHolesWithExtraPointsParams.triangulation</definition>
+        <argsstring></argsstring>
+        <name>triangulation</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.triangulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="389" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="389" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1a0831d0eda514ecad61f23cdfb18d0dfc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
+        <definition>unsafe MR.? Const_VertBitSet MR.Const_FillHolesWithExtraPointsParams.modifyBdVertices</definition>
+        <argsstring></argsstring>
+        <name>modifyBdVertices</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.modifyBdVertices</qualifiedname>
+        <briefdescription>
+<para>if nullptr, then any boundary vertex of input mesh can get new triangles; otherwise only vertices from modifyBdVertices can get new triangles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="395" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="396" bodyend="407"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1a5cf34ed14ba9d28519c23a74e27da747" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_VertBitSet._Underlying** MR.Const_FillHolesWithExtraPointsParams.__ptr_storage_modifyBdVertices</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_modifyBdVertices</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.__ptr_storage_modifyBdVertices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="408" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="408" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1a7eb45a0ac7bb7b0afe9ed2991ba81f8d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FillHolesWithExtraPointsParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="377" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="377" bodyend="385"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1aa930c1bc12c55f757f33bbeee9fcc88d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FillHolesWithExtraPointsParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="386" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="386" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1a37bdd3b6af28ecad77486acac2bae125" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FillHolesWithExtraPointsParams</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="442" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="442" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1ac20d41004f3afc93e11f0f2df5ae0bdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</definition>
+        <argsstring>(MR.Const_TriangulationParameters triangulation, MR.Const_VertBitSet? modifyBdVertices)</argsstring>
+        <name>Const_FillHolesWithExtraPointsParams</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriangulationParameters" kindref="compound">MR.Const_TriangulationParameters</ref></type>
+          <declname>triangulation</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
+          <declname>modifyBdVertices</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FillHolesWithExtraPointsParams" kindref="compound">MR.FillHolesWithExtraPointsParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="453" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="453" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1aecf1809f2c7f28caa387364acd8fe3e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</definition>
+        <argsstring>(MR.Const_FillHolesWithExtraPointsParams _other)</argsstring>
+        <name>Const_FillHolesWithExtraPointsParams</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FillHolesWithExtraPointsParams" kindref="compound">MR.Const_FillHolesWithExtraPointsParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHolesWithExtraPointsParams_1a243d4517407cf1cc2ae5195ba7f4ae72" kindref="member">MR.FillHolesWithExtraPointsParams.FillHolesWithExtraPointsParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="466" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="466" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1aa7c261256200337ed200b8f536193818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</definition>
+        <argsstring>(FillHolesWithExtraPointsParams _other)</argsstring>
+        <name>Const_FillHolesWithExtraPointsParams</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillHolesWithExtraPointsParams" kindref="compound">FillHolesWithExtraPointsParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHolesWithExtraPointsParams_1a243d4517407cf1cc2ae5195ba7f4ae72" kindref="member">MR.FillHolesWithExtraPointsParams.FillHolesWithExtraPointsParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="478" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="478" bodyend="478"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1a5bc62c8b5fbdb901e93a81addb578a7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FillHolesWithExtraPointsParams.~Const_FillHolesWithExtraPointsParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FillHolesWithExtraPointsParams</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.~Const_FillHolesWithExtraPointsParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="387" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="387" bodyend="387"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHolesWithExtraPointsParams_1afec2db4d18e9c1ab5cd5db808b99c86c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FillHolesWithExtraPointsParams</name>
+        <qualifiedname>MR.Const_FillHolesWithExtraPointsParams.Const_FillHolesWithExtraPointsParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="431" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="431" bodyend="436"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FillHolesWithExtraPointsParams" kindref="compound">MR.FillHolesWithExtraPointsParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FillHolesWithExtraPointsParams</label>
+        <link refid="classMR_1_1Const__FillHolesWithExtraPointsParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FillHolesWithExtraPointsParams</label>
+        <link refid="classMR_1_1FillHolesWithExtraPointsParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_FillHolesWithExtraPointsParams</label>
+        <link refid="classMR_1_1Const__FillHolesWithExtraPointsParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_modifyBdVertices</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="371" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="372" bodyend="479"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a5cf34ed14ba9d28519c23a74e27da747" prot="protected" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>__ptr_storage_modifyBdVertices</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1afec2db4d18e9c1ab5cd5db808b99c86c" prot="package" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a37bdd3b6af28ecad77486acac2bae125" prot="public" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1ac20d41004f3afc93e11f0f2df5ae0bdf" prot="public" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1aecf1809f2c7f28caa387364acd8fe3e3" prot="public" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1aa7c261256200337ed200b8f536193818" prot="public" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>Const_FillHolesWithExtraPointsParams</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a7eb45a0ac7bb7b0afe9ed2991ba81f8d" prot="protected" virt="virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1aa930c1bc12c55f757f33bbeee9fcc88d" prot="public" virt="virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a0831d0eda514ecad61f23cdfb18d0dfc" prot="public" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>modifyBdVertices</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a0e50e9d243e613f1ef85ddc926db1ec0" prot="public" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>triangulation</name></member>
+      <member refid="classMR_1_1Const__FillHolesWithExtraPointsParams_1a5bc62c8b5fbdb901e93a81addb578a7e" prot="private" virt="non-virtual"><scope>MR::Const_FillHolesWithExtraPointsParams</scope><name>~Const_FillHolesWithExtraPointsParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

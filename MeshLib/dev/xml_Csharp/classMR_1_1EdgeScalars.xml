@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgeScalars" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgeScalars</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgeScalars</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EdgeScalars" prot="public" virt="non-virtual">MR.Const_EdgeScalars</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1EdgeScalars_1a904c0dceb69fa2719f34b15f1a1b8668" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>EdgeScalars</name>
         <qualifiedname>MR.EdgeScalars.EdgeScalars</qualifiedname>
         <param>
-          <type>Const_EdgeScalars</type>
+          <type><ref refid="classMR_1_1Const__EdgeScalars" kindref="compound">Const_EdgeScalars</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -625,6 +625,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeScalars</label>
+        <link refid="classMR_1_1Const__EdgeScalars"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -658,6 +659,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeScalars</label>
+        <link refid="classMR_1_1Const__EdgeScalars"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -684,8 +686,21 @@
       <member refid="classMR_1_1EdgeScalars_1afbc3597bb5f9333cc7899771ea71e0cb" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1EdgeScalars_1a359f1613434f51ea703f19ea84253fd9" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1EdgeScalars_1a1825dc5493dec148ddf5454519adaa58" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1ae2ac6fa052fcb2a03b91ad135e9708ff" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a64bb0caf29d6a3215daeae559abc2c6b" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a5d84e97fae8413d71f2105dd0815d63d" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>capacity</name></member>
       <member refid="classMR_1_1EdgeScalars_1a25c43f3566ed287c4425ba03f42dac4d" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1aa74571c70466f699841935350b54adbd" prot="package" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Const_EdgeScalars</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a48eb2ff7375b4822cc5d4fa3700e870a" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Const_EdgeScalars</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a07d22ab826ebdc65a29624615b285948" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Const_EdgeScalars</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1aaa4ef0a830aae5e226456feba9f6ad54" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Const_EdgeScalars</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1ac1eaeac3f8e1f55b1288b061fca1275c" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Const_EdgeScalars</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1ac4094662d38b430bbdaae978c71d7664" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Const_EdgeScalars</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a2188e484bf466397629de678a06f6a58" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Const_EdgeScalars</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a95f36c182f7edd870ba2210fd0f92dc2" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Const_EdgeScalars</name></member>
       <member refid="classMR_1_1EdgeScalars_1a1e542d683155bce7c60091526b397c67" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a82391a99e92e41ec279bc292790d5e56" prot="protected" virt="virtual"><scope>MR::EdgeScalars</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1af751ea02a4e630ab3240809d0be33006" prot="public" virt="virtual"><scope>MR::EdgeScalars</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EdgeScalars_1ac5f663e3bdf3cc2ba39c7d51091ae3ff" prot="package" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>EdgeScalars</name></member>
       <member refid="classMR_1_1EdgeScalars_1a01cec13e41e8c7d1f8b78ea66d2be658" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>EdgeScalars</name></member>
       <member refid="classMR_1_1EdgeScalars_1aafcf8c45acbd2eee3dd76a5ea8ea2276" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>EdgeScalars</name></member>
@@ -695,10 +710,18 @@
       <member refid="classMR_1_1EdgeScalars_1aa2ea179acade981aa7c71fe46b20a7bf" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>EdgeScalars</name></member>
       <member refid="classMR_1_1EdgeScalars_1ac09e1b97fae02e76bdb04f63810bc637" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>EdgeScalars</name></member>
       <member refid="classMR_1_1EdgeScalars_1a04f04ea130a72c4f59b3f6d0625dc645" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a7d3839ccd98d01ef43cab6c16f2b41b2" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a2e705c81a7da7891e480fa1ef195541a" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1ae0116555e35b3650fbf324f42c583fdb" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a1f73ba98bcddcf15dfed37f73f92cd1c" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>Equals</name></member>
       <member refid="classMR_1_1EdgeScalars_1ab0ea86b7441ac3b1f278b886d270311e" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>front</name></member>
       <member refid="classMR_1_1EdgeScalars_1a1e273d9174cbd39b378434369450c411" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1EdgeScalars_1a035f3ca1fed4655b0059760efd6cd7e8" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a58236dc76ff2f1d05e2152aa529fd2af" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1adeef7336a8fe90f376526f5d92819039" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>operator Const_EdgeScalars</name></member>
       <member refid="classMR_1_1EdgeScalars_1a485c5d72173f438542e4b599a24d9e86" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>operator EdgeScalars</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a855817d09e78b8523c4c370da582644a" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1ab7b84a092c884735f77a661fff16b681" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>operator==</name></member>
       <member refid="classMR_1_1EdgeScalars_1a1088953aa6577d346007db583940b57e" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>popBack</name></member>
       <member refid="classMR_1_1EdgeScalars_1a154187af4ddb9bee021a98a82631c7d3" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>pushBack</name></member>
       <member refid="classMR_1_1EdgeScalars_1ab96955a28278c530e944fe5b4f1b4e47" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>pushBack</name></member>
@@ -707,6 +730,7 @@
       <member refid="classMR_1_1EdgeScalars_1a32e801058a6f803298c6866eea9a5d81" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>resize</name></member>
       <member refid="classMR_1_1EdgeScalars_1a3bcb491ca909954a16321b9b7f1b0672" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1EdgeScalars_1aaa5c46300ed7baefe41846e1196df087" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__EdgeScalars_1a32202ed5755d3b147bab585346255dae" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>size</name></member>
       <member refid="classMR_1_1EdgeScalars_1a956ff4439c2e6520c4f0b8cfbf0d34da" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>swap</name></member>
       <member refid="classMR_1_1EdgeScalars_1abf30b355b28633d248518c0f2098a664" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>this[MR.EdgeId i]</name></member>
       <member refid="classMR_1_1EdgeScalars_1a904c0dceb69fa2719f34b15f1a1b8668" prot="public" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>vec</name></member>

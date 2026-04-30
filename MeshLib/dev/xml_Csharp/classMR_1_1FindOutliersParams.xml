@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FindOutliersParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FindOutliersParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindOutliersParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FindOutliersParams" prot="public" virt="non-virtual">MR.Const_FindOutliersParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FindOutliersParams_1a0a63ee3aba2a9eb01995a74cf11f7879" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1OutlierParams" kindref="compound">MR.OutlierParams</ref></type>
@@ -112,7 +112,7 @@
         <name>FindOutliersParams</name>
         <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
         <param>
-          <type>MR.Const_OutlierParams</type>
+          <type><ref refid="classMR_1_1Const__OutlierParams" kindref="compound">MR.Const_OutlierParams</ref></type>
           <declname>finderParams</declname>
         </param>
         <param>
@@ -162,7 +162,7 @@
         <name>FindOutliersParams</name>
         <qualifiedname>MR.FindOutliersParams.FindOutliersParams</qualifiedname>
         <param>
-          <type>Const_FindOutliersParams</type>
+          <type><ref refid="classMR_1_1Const__FindOutliersParams" kindref="compound">Const_FindOutliersParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FindOutliersParams</label>
+        <link refid="classMR_1_1Const__FindOutliersParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FindOutliersParams</label>
         <link refid="classMR_1_1FindOutliersParams"/>
@@ -248,9 +253,13 @@
       </node>
       <node id="2">
         <label>MR.Const_FindOutliersParams</label>
+        <link refid="classMR_1_1Const__FindOutliersParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_mask</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,7 +271,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="653" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="654" bodyend="763"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FindOutliersParams_1a3daa08cd68cc63fc631dfb670a80da62" prot="protected" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>__ref_storage_mask</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1a2c52ea120faeb91d944e0b6a2d5c144a" prot="protected" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>__ref_storage_radius</name></member>
       <member refid="classMR_1_1FindOutliersParams_1aa3cd77a83bc17aa334c98eb7ecff44c6" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1a2a6e9df07e0cdd4fee7e16f6fc4bfee5" prot="package" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>Const_FindOutliersParams</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1ab42a5ad487a10ce7ba10a57a0036b151" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>Const_FindOutliersParams</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1a6da91f903388e4154bfd888297a11f4d" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>Const_FindOutliersParams</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1a38ef6df7a2d5c3cdaf19ef423f0221f5" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>Const_FindOutliersParams</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1af26b1ff1860c411aaaf2d491abd1da48" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>Const_FindOutliersParams</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1a2cc40cdd3deed254f0072135f718dfec" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>Const_FindOutliersParams</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1a1aba7e851ef4043a7298f904f2beab1c" prot="protected" virt="virtual"><scope>MR::FindOutliersParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FindOutliersParams_1aefea13a690ec42b973734e06b9afa232" prot="public" virt="virtual"><scope>MR::FindOutliersParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FindOutliersParams_1a0a63ee3aba2a9eb01995a74cf11f7879" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>finderParams</name></member>
       <member refid="classMR_1_1FindOutliersParams_1a5456fda11b96280335149d5e754402aa" prot="package" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>
       <member refid="classMR_1_1FindOutliersParams_1a8e9974176d7f400b34e863ba309cf1b4" prot="public" virt="non-virtual"><scope>MR::FindOutliersParams</scope><name>FindOutliersParams</name></member>

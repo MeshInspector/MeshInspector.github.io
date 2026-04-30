@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AnyVisualizeMaskEnum" kind="class" language="C#" prot="public">
     <compoundname>MR::AnyVisualizeMaskEnum</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AnyVisualizeMaskEnum</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AnyVisualizeMaskEnum" prot="public" virt="non-virtual">MR.Const_AnyVisualizeMaskEnum</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1AnyVisualizeMaskEnum_1ab0767d2deeb53c9c0d0513978115c6e9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>AnyVisualizeMaskEnum</name>
         <qualifiedname>MR.AnyVisualizeMaskEnum.AnyVisualizeMaskEnum</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -130,7 +130,7 @@
         <name>assign</name>
         <qualifiedname>MR.AnyVisualizeMaskEnum.assign</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -216,6 +216,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AnyVisualizeMaskEnum</label>
+        <link refid="classMR_1_1Const__AnyVisualizeMaskEnum"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -237,6 +238,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AnyVisualizeMaskEnum</label>
+        <link refid="classMR_1_1Const__AnyVisualizeMaskEnum"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -258,9 +260,21 @@
       <member refid="classMR_1_1AnyVisualizeMaskEnum_1a1e18e2ea51a9e99f3ba6a8d17a7cd316" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>AnyVisualizeMaskEnum</name></member>
       <member refid="classMR_1_1AnyVisualizeMaskEnum_1a9fa373eda4efc82492a10721605d915e" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>AnyVisualizeMaskEnum</name></member>
       <member refid="classMR_1_1AnyVisualizeMaskEnum_1ae73a404f6a5bc6c704ee69053b0d5599" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1af92aa34c317524ee3a2748b0dd4fea49" prot="package" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1ad7f68e4a869adc75808ef44da38f2785" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a69296c8b34adc7f865d84366f30920fa" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a0fcd73ffdf10761802eea4334033f097" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a50def4421058e19132febe9001919434" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a350738b08061228516f0618698a4a9b6" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a432abd8a4e16233228a2bbdce3f6a660" prot="protected" virt="virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a8429a1d3f147845512a5b4af6aa406c8" prot="public" virt="virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>Dispose</name></member>
       <member refid="classMR_1_1AnyVisualizeMaskEnum_1a5693ba6774c6334fe2543d984cefb731" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>operator AnyVisualizeMaskEnum</name></member>
       <member refid="classMR_1_1AnyVisualizeMaskEnum_1a98a6f60d064da5455cab805e54d4e611" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>operator AnyVisualizeMaskEnum</name></member>
       <member refid="classMR_1_1AnyVisualizeMaskEnum_1a6804dae2ec9c8a6e6c45bcdd9d13ec59" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>operator AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a1989cff8f4eda80c1a1c36078498d08d" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>operator Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a91ff49923186bbfcc52204e7bab77bea" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>operator Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a93ab716b4976e59db730f93171ed5194" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>operator Const_AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__AnyVisualizeMaskEnum_1a5d33e795e54daa37afe67389ef71aec2" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>tryGet</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

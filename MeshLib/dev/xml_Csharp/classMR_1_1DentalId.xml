@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DentalId" kind="class" language="C#" prot="public">
     <compoundname>MR::DentalId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DentalId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DentalId" prot="public" virt="non-virtual">MR.Const_DentalId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1DentalId_1a8e180e1f6840b7319b0392473b79f3c9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>DentalId</name>
         <qualifiedname>MR.DentalId.DentalId</qualifiedname>
         <param>
-          <type>MR.Const_DentalId</type>
+          <type><ref refid="classMR_1_1Const__DentalId" kindref="compound">MR.Const_DentalId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -73,7 +73,7 @@
         <name>assign</name>
         <qualifiedname>MR.DentalId.assign</qualifiedname>
         <param>
-          <type>MR.Const_DentalId</type>
+          <type><ref refid="classMR_1_1Const__DentalId" kindref="compound">MR.Const_DentalId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -100,6 +100,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DentalId</label>
+        <link refid="classMR_1_1Const__DentalId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -121,6 +122,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DentalId</label>
+        <link refid="classMR_1_1Const__DentalId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,9 +138,16 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="72" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="73" bodyend="103"/>
     <listofallmembers>
       <member refid="classMR_1_1DentalId_1ab87c6e44f95f2235ccc9eb6ca079fcd1" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DentalId_1a3b47feb84e726838492b387eacb5175e" prot="package" virt="non-virtual"><scope>MR::DentalId</scope><name>Const_DentalId</name></member>
+      <member refid="classMR_1_1Const__DentalId_1a36b63ad35d3989385aba9d80df4da7c8" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>Const_DentalId</name></member>
+      <member refid="classMR_1_1Const__DentalId_1ace85e85ada2e87fab234bc005d057fde" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>Const_DentalId</name></member>
       <member refid="classMR_1_1DentalId_1a8e180e1f6840b7319b0392473b79f3c9" prot="package" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
       <member refid="classMR_1_1DentalId_1aca22899cb003a1846667491d9f34df6b" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
       <member refid="classMR_1_1DentalId_1a99aa357d14f15b07c0d7285b81f686e8" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>DentalId</name></member>
+      <member refid="classMR_1_1Const__DentalId_1aa2654226b684c1b86649b724017c701f" prot="protected" virt="virtual"><scope>MR::DentalId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DentalId_1a861dcf6466dfff40c48da89f0417a5ef" prot="public" virt="virtual"><scope>MR::DentalId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DentalId_1a6723accb31c0255f28ba170648c53943" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fdi</name></member>
+      <member refid="classMR_1_1Const__DentalId_1a578261e6da614fe8e8f205191bb0ee88" prot="public" virt="non-virtual"><scope>MR::DentalId</scope><name>fromFDI</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

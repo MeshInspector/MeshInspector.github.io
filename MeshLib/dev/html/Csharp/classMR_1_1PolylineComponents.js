@@ -1,5 +1,6 @@
 var classMR_1_1PolylineComponents =
 [
+    [ "Const_LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html", "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings" ],
     [ "LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" ],
     [ "getAllComponents", "classMR_1_1PolylineComponents.html#a2931ec5e8038519199dfc4935ae7a483", null ],
     [ "getAllComponents", "classMR_1_1PolylineComponents.html#a6813394e3bf30b7a6b26b4bffdde9160", null ],

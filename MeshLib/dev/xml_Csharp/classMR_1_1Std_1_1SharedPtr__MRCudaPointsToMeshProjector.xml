@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector" kind="class" language="C#" prot="public">
     <compoundname>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector</basecompoundref>
+    <basecompoundref refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector" prot="public" virt="non-virtual">MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a912df31b5b93c97c21d602678ffbf126" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>SharedPtr_MRCudaPointsToMeshProjector</name>
         <qualifiedname>MR.Std.SharedPtr_MRCudaPointsToMeshProjector.SharedPtr_MRCudaPointsToMeshProjector</qualifiedname>
         <param>
-          <type>Const_SharedPtr_MRCudaPointsToMeshProjector</type>
+          <type><ref refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector" kindref="compound">Const_SharedPtr_MRCudaPointsToMeshProjector</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -338,6 +338,7 @@
       </node>
       <node id="2">
         <label>MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector</label>
+        <link refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -359,6 +360,7 @@
       </node>
       <node id="2">
         <label>MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector</label>
+        <link refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -374,6 +376,22 @@
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1aa00aa4bf3e37df1838b955a8b8e26544" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>assign</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1af77e1964450d17302d65a09b6a0a5fe9" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>assign</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1aacfaec0c0e43801a9cbe7b7cc570daf8" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>assignAliasing</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a58056903fc13807c05fd21c9ce901ec2" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>assignToMRStdSharedPtrVoid</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a5c510d90e9b4521f38686bcb73c8a453" prot="package" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a578bf2284113104ad9d61fdbd12f063c" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a367e4a4d021e100ef928fc44d3641303" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a006a85c62af532a4b2da9fd44ceb5b13" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1adb72d695f058ffed7882ca33d876de0c" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a0f5e35c69124ae49c068348152320d1c" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1ab59528043a2f26a3b5147e55e0b81408" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a515842d8b3b0912def323e154fad13e2" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1ad9674fe01734870f35c8b93012930558" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a92055cb4f6992a5f0b55dc1ff123b8df" prot="protected" virt="virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a0909a4faea1ade853ab974e6778954bc" prot="public" virt="virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a17ea8775e3cd00b5a6d6835d56f11362" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>get</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1a376fb6b962ed2bfab1f821ac6486c1a3" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1ab5e3d81e2a009a98d82c85e31cc56652" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>operator Const_SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1ac4d19ab5aacf24bce132c3f9e52a36a4" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>operator MR.Std.SharedPtr_Void</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a1b7f8e5fae4078aa9f9a7d94a4c9067c" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>operator SharedPtr_MRCudaPointsToMeshProjector</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1aba943069a104fc5c4be4e0556e833341" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>reset</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a912df31b5b93c97c21d602678ffbf126" prot="package" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
@@ -385,6 +403,7 @@
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a8bfb519cb37c0c03c8fa0c1f061826bc" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a14016d11635cf0feaabecd0d8913bbde" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1af29cf2c87a900418e011693af6121770" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector_1acb894df0877880aff8abf1fe2be9b848" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</scope><name>useCount</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

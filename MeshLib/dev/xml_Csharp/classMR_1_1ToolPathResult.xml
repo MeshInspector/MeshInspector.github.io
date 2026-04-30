@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ToolPathResult" kind="class" language="C#" prot="public">
     <compoundname>MR::ToolPathResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ToolPathResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ToolPathResult" prot="public" virt="non-virtual">MR.Const_ToolPathResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ToolPathResult_1a167287ee16c313cf9cd4d83144a5552c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -143,7 +143,7 @@
         <name>ToolPathResult</name>
         <qualifiedname>MR.ToolPathResult.ToolPathResult</qualifiedname>
         <param>
-          <type>Const_ToolPathResult</type>
+          <type><ref refid="classMR_1_1Const__ToolPathResult" kindref="compound">Const_ToolPathResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ToolPathResult</label>
+        <link refid="classMR_1_1Const__ToolPathResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -229,6 +230,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ToolPathResult</label>
+        <link refid="classMR_1_1Const__ToolPathResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -245,6 +247,14 @@
     <listofallmembers>
       <member refid="classMR_1_1ToolPathResult_1ac072a453d6b0a0188de628bd5bcb0419" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>assign</name></member>
       <member refid="classMR_1_1ToolPathResult_1ac06ea1507435f9cab5d0cc83b95dd890" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>commands</name></member>
+      <member refid="classMR_1_1Const__ToolPathResult_1aa27f8e50635af2c0c33bc4a94014dc38" prot="package" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>Const_ToolPathResult</name></member>
+      <member refid="classMR_1_1Const__ToolPathResult_1aeee67b904d08e86d0a5e050172608190" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>Const_ToolPathResult</name></member>
+      <member refid="classMR_1_1Const__ToolPathResult_1a63a998fde3c9b6945e87fef0213faa75" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>Const_ToolPathResult</name></member>
+      <member refid="classMR_1_1Const__ToolPathResult_1a83d88cac2d571e91f8442e8bbb7ae8fe" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>Const_ToolPathResult</name></member>
+      <member refid="classMR_1_1Const__ToolPathResult_1a0b6b3a6004ecf18125f91b02dff2fe04" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>Const_ToolPathResult</name></member>
+      <member refid="classMR_1_1Const__ToolPathResult_1a5e5ed8d3790a55dd796891abcfc18306" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>Const_ToolPathResult</name></member>
+      <member refid="classMR_1_1Const__ToolPathResult_1aa11c48ab25e07b274d19c9e0a68d64b7" prot="protected" virt="virtual"><scope>MR::ToolPathResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ToolPathResult_1a3d0472c361279ca497813a71545c93d3" prot="public" virt="virtual"><scope>MR::ToolPathResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ToolPathResult_1a167287ee16c313cf9cd4d83144a5552c" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedMesh</name></member>
       <member refid="classMR_1_1ToolPathResult_1ae5ab3f685c93ea5c455b370d77bc1da0" prot="public" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>modifiedRegion</name></member>
       <member refid="classMR_1_1ToolPathResult_1a27632e6f29d9bdf2832d0ed89b8de325" prot="package" virt="non-virtual"><scope>MR::ToolPathResult</scope><name>ToolPathResult</name></member>

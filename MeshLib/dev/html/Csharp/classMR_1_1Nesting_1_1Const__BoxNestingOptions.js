@@ -1,0 +1,28 @@
+var classMR_1_1Nesting_1_1Const__BoxNestingOptions =
+[
+    [ "Const_BoxNestingOptions", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a6ee1f36a58124c7d48caca7cd393542c", null ],
+    [ "Const_BoxNestingOptions", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a9a8bd124445c72722b3506f5a106a8b6", null ],
+    [ "Const_BoxNestingOptions", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#ac32b40b9554bb103936429034fd5bb43", null ],
+    [ "Const_BoxNestingOptions", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a72498103cbf20dee2a9d90484c67e50b", null ],
+    [ "Const_BoxNestingOptions", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#ad87947720aeee55f3c68e1d9798aa5d0", null ],
+    [ "Dispose", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a4666d22f4df5edc3483185295aeaf4ec", null ],
+    [ "Dispose", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a75121cf6c0ba1559ee02ff4c8c1a9828", null ],
+    [ "__ptr_storage_additinalSocketCorners", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a5298b568fb53ba61021caa7913cb70c6", null ],
+    [ "__ptr_storage_expansionFactor", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a3675fe89a99c16ff00a39f58039ad91c", null ],
+    [ "__ptr_storage_preNestedVolumes", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#acd10541cb3b4a7926f820e50d1a4d75d", null ],
+    [ "__ref_storage_allow3dNesting", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a9158531616431576cfecf6906e6ae1e5", null ],
+    [ "__ref_storage_allowRotation", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#abd77955a14f1e470a07260c8620616c9", null ],
+    [ "__ref_storage_checkLessCombinations", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#acd959d499ee5f81fa62a0e5aefe48421", null ],
+    [ "__ref_storage_iterationLimit", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#ae154bc0e9a67563bf5069e761d26b5ea", null ],
+    [ "__ref_storage_volumeBasedOrder", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a389e17d0e4834ce3cc7e20850d4205f7", null ],
+    [ "additinalSocketCorners", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a4512b8e1139722cee2f88933f729571e", null ],
+    [ "allow3dNesting", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a0e69f15e14f2a64671ab71e509ee435a", null ],
+    [ "allowRotation", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#abb829cfe617664c0feb53e5c786d1308", null ],
+    [ "cb", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a1953441848b43d189c21419004ce71c9", null ],
+    [ "checkLessCombinations", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#ac7fa1ea1f7e0c32a8d902b221e369623", null ],
+    [ "expansionFactor", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#aa0aaafbc68724297f8e2c0b39e066dab", null ],
+    [ "iterationLimit", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a2a17127c54d4b25128faea2c9f8f311d", null ],
+    [ "preNestedVolumes", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a2ce727cb69dcd0b6ef4bf54697592118", null ],
+    [ "priorityMetric", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a95496de9208b36d0d3e16503fc82b3f1", null ],
+    [ "volumeBasedOrder", "classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a599fea5dbfbf58d669216ff13d8e9634", null ]
+];

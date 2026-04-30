@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f" prot="public" virt="non-virtual">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ae6fb681872c8085c8c06d9b3d95c1898" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -124,7 +124,7 @@
         <name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
         <qualifiedname>MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f" kindref="compound">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f.assign</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f" kindref="compound">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</label>
         <link refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f"/>
@@ -229,9 +234,15 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_box</edgelabel>
+          <edgelabel>__ref_storage_l</edgelabel>
+          <edgelabel>__ref_storage_r</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,6 +254,9 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="539" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="540" bodyend="625"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a7ba09c72a6159be68789ba2b5e1e594b" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>__ref_storage_box</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a61afb84b615f94b731cfc48cc441fc12" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>__ref_storage_l</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1af4567e168c7aba0e9fbe2b4eb5446c6c" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>__ref_storage_r</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ae03f898eb3a6e18d028ef393e57c3e11" prot="package" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a5619c4992c671cd28a979589b37eb1d2" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a60ed0d899724a23bb676442d63885da9" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
@@ -250,7 +264,16 @@
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a4d55e33831fdf767c96a39f293c7b9c7" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a10704047ba8fa2cba5c020e29343ed6e" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>assign</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ae6fb681872c8085c8c06d9b3d95c1898" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>box</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a52f1341c714a2d36cc7f1bfd832c657b" prot="package" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a268c3d5047e4b822869da675d4edbfe7" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ac7277bc8289c1ed7c455dd1770457d2e" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1aa0078b2989542b09258651559cbf78b0" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1adbe2f3ff3e33e006b68e40db1b8791d8" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ac5d27b04c7d9b827d3cbed8640356ee4" prot="protected" virt="virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a42bc29303c67efdb3117add593b04a60" prot="public" virt="virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a3716464cf250d2dcdbd7d8aacd66ffcd" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>l</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1adb0b88a05aa3b15eba8bc2914c3235bf" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>leaf</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a98befe21dffa40ca04dc2257260bb5e8" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>leafId</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a7f798455f0eb6c8f831a5b4aeff41043" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>r</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a9922a3acb95a6910aba5a09fae18b836" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>setLeafId</name></member>
     </listofallmembers>

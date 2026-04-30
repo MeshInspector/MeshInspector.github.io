@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FaceDistancesSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FaceDistancesSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FaceDistancesSettings" prot="public" virt="non-virtual">MR.FaceDistancesSettings</derivedcompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88ae" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>OutputFaceValues</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.OutputFaceValues</qualifiedname>
+        <enumvalue id="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88aeadcccbad6a160d87b883d166736919b6b" prot="public">
+          <name>Distances</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>each face will get its distance from start in the result </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88aeaa32d7ae8d0ab848262ba158d90d97527" prot="public">
+          <name>SeqOrder</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>each face will get its sequential order (1,2,...) from start in the result </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="133" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="134" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FaceDistancesSettings_1a375ce8a740a5c4ff059400b994f33794" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88ae" kindref="member">MR.FaceDistancesSettings.OutputFaceValues</ref></type>
+        <definition>unsafe MR.FaceDistancesSettings.OutputFaceValues MR.Const_FaceDistancesSettings.out_</definition>
+        <argsstring></argsstring>
+        <name>out_</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.out_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="25" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FaceDistancesSettings_1a76a1799e30788c84097259fea63cbcf0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Misc.? Box&lt; float &gt;</type>
+        <definition>unsafe MR.Misc.? Box&lt;float&gt; MR.Const_FaceDistancesSettings.maxDist</definition>
+        <argsstring></argsstring>
+        <name>maxDist</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.maxDist</qualifiedname>
+        <briefdescription>
+<para>optional output of the maximal distance to the most distant face </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="31" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FaceDistancesSettings_1af53be0004c8c90465a4ca7ff0ea4ec93" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_FaceDistancesSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.progress</qualifiedname>
+        <briefdescription>
+<para>for progress reporting and cancellation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="49" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__FaceDistancesSettings_1af88a1d97089b03c74c6aa8f3fdfc7bd3" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88ae" kindref="member">MR.FaceDistancesSettings.OutputFaceValues</ref> *</type>
+        <definition>unsafe MR.FaceDistancesSettings.OutputFaceValues* MR.Const_FaceDistancesSettings.__ref_storage_out_</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_out_</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.__ref_storage_out_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="26" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__FaceDistancesSettings_1a46466f10a622ef9b9bf95a8759687b3f" prot="protected" static="no" mutable="no">
+        <type>unsafe float **</type>
+        <definition>unsafe float** MR.Const_FaceDistancesSettings.__ptr_storage_maxDist</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_maxDist</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.__ptr_storage_maxDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="44" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1a62a3c2adee148ae295f55c8c3f71c98b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FaceDistancesSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1a94ce7a480cb62317da10b3894325c9f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FaceDistancesSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1a70118b01621bb2f0edbb9d12b9d37a3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FaceDistancesSettings</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="89" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="89" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1aeb51db8609f906c44f46b24113ab00c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</definition>
+        <argsstring>(MR.FaceDistancesSettings.OutputFaceValues out_, MR.Misc.InOut&lt; float &gt;? maxDist, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
+        <name>Const_FaceDistancesSettings</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88ae" kindref="member">MR.FaceDistancesSettings.OutputFaceValues</ref></type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; float &gt;?</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FaceDistancesSettings" kindref="compound">MR.FaceDistancesSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="100" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="100" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1af93d1bc60b64437a10ca414972f7bd9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</definition>
+        <argsstring>(MR._ByValue_FaceDistancesSettings _other)</argsstring>
+        <name>Const_FaceDistancesSettings</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceDistancesSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceDistancesSettings_1acdf5a30120f3135ef32e5971a88630e2" kindref="member">MR.FaceDistancesSettings.FaceDistancesSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="114" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="114" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1a184b436931b7fc781b33703ea8fa49d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</definition>
+        <argsstring>(Const_FaceDistancesSettings _other)</argsstring>
+        <name>Const_FaceDistancesSettings</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceDistancesSettings" kindref="compound">Const_FaceDistancesSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceDistancesSettings_1acdf5a30120f3135ef32e5971a88630e2" kindref="member">MR.FaceDistancesSettings.FaceDistancesSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="126" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1ac0d5651c40f9c6792d39beb94f1088ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</definition>
+        <argsstring>(FaceDistancesSettings _other)</argsstring>
+        <name>Const_FaceDistancesSettings</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceDistancesSettings" kindref="compound">FaceDistancesSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceDistancesSettings_1acdf5a30120f3135ef32e5971a88630e2" kindref="member">MR.FaceDistancesSettings.FaceDistancesSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="131" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="131" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1ab1e597bbd673d60e2a4c8f07f7262831" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceDistancesSettings.~Const_FaceDistancesSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FaceDistancesSettings</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.~Const_FaceDistancesSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceDistancesSettings_1aa6525d01768577f0586b44d04749ee73" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FaceDistancesSettings</name>
+        <qualifiedname>MR.Const_FaceDistancesSettings.Const_FaceDistancesSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="78" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="78" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FaceDistancesSettings" kindref="compound">MR.FaceDistancesSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FaceDistancesSettings</label>
+        <link refid="classMR_1_1Const__FaceDistancesSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FaceDistancesSettings</label>
+        <link refid="classMR_1_1FaceDistancesSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_FaceDistancesSettings</label>
+        <link refid="classMR_1_1Const__FaceDistancesSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_out_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceDistance.cs" bodystart="8" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a46466f10a622ef9b9bf95a8759687b3f" prot="protected" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>__ptr_storage_maxDist</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1af88a1d97089b03c74c6aa8f3fdfc7bd3" prot="protected" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>__ref_storage_out_</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1aa6525d01768577f0586b44d04749ee73" prot="package" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a70118b01621bb2f0edbb9d12b9d37a3b" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1aeb51db8609f906c44f46b24113ab00c3" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1af93d1bc60b64437a10ca414972f7bd9a" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a184b436931b7fc781b33703ea8fa49d6" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1ac0d5651c40f9c6792d39beb94f1088ac" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>Const_FaceDistancesSettings</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a62a3c2adee148ae295f55c8c3f71c98b" prot="protected" virt="virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a94ce7a480cb62317da10b3894325c9f5" prot="public" virt="virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a76a1799e30788c84097259fea63cbcf0" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>maxDist</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a375ce8a740a5c4ff059400b994f33794" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>out_</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1a8272946337330fd90df98f729a3c88ae" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>OutputFaceValues</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1af53be0004c8c90465a4ca7ff0ea4ec93" prot="public" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__FaceDistancesSettings_1ab1e597bbd673d60e2a4c8f07f7262831" prot="private" virt="non-virtual"><scope>MR::Const_FaceDistancesSettings</scope><name>~Const_FaceDistancesSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

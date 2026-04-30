@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Dipole" kind="class" language="C#" prot="public">
     <compoundname>MR::Dipole</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Dipole</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Dipole" prot="public" virt="non-virtual">MR.Const_Dipole</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Dipole_1a8a5ecdaacb9d43b4d1ec1d5ce6a31248" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -139,7 +139,7 @@
         <name>Dipole</name>
         <qualifiedname>MR.Dipole.Dipole</qualifiedname>
         <param>
-          <type>MR.Const_Dipole</type>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -177,7 +177,7 @@
         <name>assign</name>
         <qualifiedname>MR.Dipole.assign</qualifiedname>
         <param>
-          <type>MR.Const_Dipole</type>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Dipole</label>
+        <link refid="classMR_1_1Const__Dipole"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -217,6 +218,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Dipole</label>
         <link refid="classMR_1_1Dipole"/>
@@ -225,9 +230,14 @@
       </node>
       <node id="2">
         <label>MR.Const_Dipole</label>
+        <link refid="classMR_1_1Const__Dipole"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dirArea</edgelabel>
+          <edgelabel>__ref_storage_pos</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -239,14 +249,26 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" line="144" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDipole.cs" bodystart="145" bodyend="214"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Dipole_1a06b803c2be76c9abbb4b524b21476fdb" prot="protected" virt="non-virtual"><scope>MR::Dipole</scope><name>__ref_storage_area</name></member>
+      <member refid="classMR_1_1Const__Dipole_1a76aa63c6f5e16636f6a9997fa6f5576d" prot="protected" virt="non-virtual"><scope>MR::Dipole</scope><name>__ref_storage_dirArea</name></member>
+      <member refid="classMR_1_1Const__Dipole_1a4162ab5752f042dcadfc5b516e2661ba" prot="protected" virt="non-virtual"><scope>MR::Dipole</scope><name>__ref_storage_pos</name></member>
+      <member refid="classMR_1_1Const__Dipole_1a9d87dd890e480f04a141a1dfa57c37dc" prot="protected" virt="non-virtual"><scope>MR::Dipole</scope><name>__ref_storage_rr</name></member>
+      <member refid="classMR_1_1Const__Dipole_1ae0eff312f837e5aa799155732b63aae5" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>addIfGoodApprox</name></member>
       <member refid="classMR_1_1Dipole_1a91297c3509a06a99ba29e9038203f612" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>area</name></member>
       <member refid="classMR_1_1Dipole_1aade2fdc4de2654ed1c2e6580bf2e9ebe" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Dipole_1a80a9ab8cd79566f0853c4f9996eb3397" prot="package" virt="non-virtual"><scope>MR::Dipole</scope><name>Const_Dipole</name></member>
+      <member refid="classMR_1_1Const__Dipole_1a6e86942cd181f0a97cc4a28b54204846" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Const_Dipole</name></member>
+      <member refid="classMR_1_1Const__Dipole_1ad56270822f1262f47b44a266f9b0bbbe" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Const_Dipole</name></member>
+      <member refid="classMR_1_1Const__Dipole_1a56f6206e48e39077704e96fda91d5e0a" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Const_Dipole</name></member>
+      <member refid="classMR_1_1Const__Dipole_1a6796fed7e1913487d36fb8d6d0f62ac5" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Const_Dipole</name></member>
       <member refid="classMR_1_1Dipole_1abdc03a97b5c2d232ab8c485639e0e68c" prot="package" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
       <member refid="classMR_1_1Dipole_1a08300a16c049be264bf19428639bdbf6" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
       <member refid="classMR_1_1Dipole_1abc5fffb7c77410a7637df2c44e96dc5a" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
       <member refid="classMR_1_1Dipole_1aa40fb1b370d1f9ac4f18a4afed70acd5" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
       <member refid="classMR_1_1Dipole_1afaa805650aefcff0c54d890db0967666" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>Dipole</name></member>
       <member refid="classMR_1_1Dipole_1ae71aa75f960018d48ff55c3df491211c" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>dirArea</name></member>
+      <member refid="classMR_1_1Const__Dipole_1ab4932273f67b1be1501c6028b3899428" prot="protected" virt="virtual"><scope>MR::Dipole</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Dipole_1a6254aee6a32157e4ea6588a81f9ac2e6" prot="public" virt="virtual"><scope>MR::Dipole</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Dipole_1a8a5ecdaacb9d43b4d1ec1d5ce6a31248" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>pos</name></member>
       <member refid="classMR_1_1Dipole_1ae59d6648178b1e595328451e22a40f01" prot="public" virt="non-virtual"><scope>MR::Dipole</scope><name>rr</name></member>
     </listofallmembers>

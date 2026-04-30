@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineToDistanceVolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineToDistanceVolumeParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineToDistanceVolumeParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolylineToDistanceVolumeParams" prot="public" virt="non-virtual">MR.Const_PolylineToDistanceVolumeParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PolylineToDistanceVolumeParams_1aef01aa63ac14065a79f698cb6af647d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -177,7 +177,7 @@
         <name>PolylineToDistanceVolumeParams</name>
         <qualifiedname>MR.PolylineToDistanceVolumeParams.PolylineToDistanceVolumeParams</qualifiedname>
         <param>
-          <type>Const_PolylineToDistanceVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__PolylineToDistanceVolumeParams" kindref="compound">Const_PolylineToDistanceVolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -242,6 +242,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineToDistanceVolumeParams</label>
+        <link refid="classMR_1_1Const__PolylineToDistanceVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -255,6 +256,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PolylineToDistanceVolumeParams</label>
         <link refid="classMR_1_1PolylineToDistanceVolumeParams"/>
@@ -263,9 +268,15 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineToDistanceVolumeParams</label>
+        <link refid="classMR_1_1Const__PolylineToDistanceVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_outXf</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
+          <edgelabel>__ref_storage_worldXf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -277,8 +288,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="155" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="156" bodyend="264"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a447d3bce54d566e789fa5fbd685e05b4" prot="protected" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>__ptr_storage_outXf</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a68966b6b76a6d0908f650fcebb7e8f5e" prot="protected" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>__ref_storage_offsetCount</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a609d3c8fcafb580451a318807dde7ede" prot="protected" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a2134f85068e3c3a810e1ebbb4d6d5c1a" prot="protected" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>__ref_storage_worldXf</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a0642f195bcfe6b6c4002546ec9183ae2" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>assign</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1ad0c856fdaf7b796bbd954912f846d419" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a5939aa3bc8fb0c4999a43d5ba71eef2b" prot="package" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>Const_PolylineToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a3ae91caa069ea30687b1176f02a3c787" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>Const_PolylineToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1ae3daff78163c18bf93a51d61ad9928cf" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>Const_PolylineToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a882f5569857c56afd39b4cd8e9f520d9" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>Const_PolylineToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1aec9f87534237507843280576ed6d0dee" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>Const_PolylineToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a2f0b071549c004f0fe181eddab2c51a5" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>Const_PolylineToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1a0f86a0ce39f6ed9d38c4ded3c1d2b4a8" prot="protected" virt="virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineToDistanceVolumeParams_1aba91c02bef004a7ed0fe0bcddf7a64e8" prot="public" virt="virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a93a038c18ce7401e1f45290d45ef47f1" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>offsetCount</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a35d765f5d91360073e9a9b36c7e91548" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>outXf</name></member>
       <member refid="classMR_1_1PolylineToDistanceVolumeParams_1a3c979019c7e5106f34bf4f56a7f0382c" prot="package" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>PolylineToDistanceVolumeParams</name></member>

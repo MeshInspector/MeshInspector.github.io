@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectPoints" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectPoints</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectPoints</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectPoints" prot="public" virt="non-virtual">MR.Const_ObjectPoints</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ObjectPoints_1ac74353048ee0146e3f6d6da9912bdb0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -197,7 +197,7 @@
         <name>ObjectPoints</name>
         <qualifiedname>MR.ObjectPoints.ObjectPoints</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMesh</type>
+          <type><ref refid="classMR_1_1Const__ObjectMesh" kindref="compound">MR.Const_ObjectMesh</ref></type>
           <declname>objMesh</declname>
         </param>
         <param>
@@ -240,7 +240,7 @@
         <name>varPointCloud</name>
         <qualifiedname>MR.ObjectPoints.varPointCloud</qualifiedname>
         <briefdescription>
-<para>returns variable point cloud, if const point cloud is needed use <computeroutput>pointCloud()</computeroutput> instead Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a4daaf98c8ebfd08175a25b80f7f7bfd4" kindref="member">MR.ObjectPoints.varPointCloud</ref></computeroutput>. </para>
+<para>returns variable point cloud, if const point cloud is needed use <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1af1b459f391497fe3d041659f01944fa5" kindref="member">pointCloud()</ref></computeroutput> instead Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a4daaf98c8ebfd08175a25b80f7f7bfd4" kindref="member">MR.ObjectPoints.varPointCloud</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -417,7 +417,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.ObjectPoints.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectPointsHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectPointsHolder" kindref="compound">MR.Const_ObjectPointsHolder</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -474,15 +474,15 @@
         <name>copyColors</name>
         <qualifiedname>MR.ObjectPoints.copyColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectPointsHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectPointsHolder" kindref="compound">MR.Const_ObjectPointsHolder</ref></type>
           <declname>src</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>thisToSrc</declname>
         </param>
         <param>
-          <type>MR.Const_FaceMap?</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref>?</type>
           <declname>thisToSrcFaces</declname>
           <defval>null</defval>
         </param>
@@ -546,7 +546,7 @@
 <para>sets maximal number of points that will be rendered </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="see"><para>getRenderDiscretization, MaxRenderingPointsDefault, MaxRenderingPointsUnlimited Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a06160977b0c9264edc5fcc0f8fba2397" kindref="member">MR.ObjectPoints.setMaxRenderingPoints</ref></computeroutput>. </para>
+<para><simplesect kind="see"><para><ref refid="classMR_1_1Const__ObjectPoints_1a72483f8d86851d742ada83e9c3522aee" kindref="member">getRenderDiscretization</ref>, <ref refid="classMR_1_1Const__ObjectPoints_1a9b49fcf0689cfbc67091804419f592b8" kindref="member">MaxRenderingPointsDefault</ref>, <ref refid="classMR_1_1Const__ObjectPoints_1a5cf845884b47289d1a1dec9a8a65bf1d" kindref="member">MaxRenderingPointsUnlimited</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a06160977b0c9264edc5fcc0f8fba2397" kindref="member">MR.ObjectPoints.setMaxRenderingPoints</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -614,11 +614,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -637,11 +637,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.ObjectPoints.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -660,11 +660,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.ObjectPoints.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -706,12 +706,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a481a750a34c405d76c235e53c20c964b" kindref="member">MR.ObjectPoints.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a481a750a34c405d76c235e53c20c964b" kindref="member">MR.ObjectPoints.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -868,12 +868,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a611e4b5689b4c0653b156919a7853b88" kindref="member">MR.ObjectPoints.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a611e4b5689b4c0653b156919a7853b88" kindref="member">MR.ObjectPoints.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1093,12 +1093,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a03af0085eb5c20cb561399d3f10fdf66" kindref="member">MR.ObjectPoints.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a03af0085eb5c20cb561399d3f10fdf66" kindref="member">MR.ObjectPoints.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1295,12 +1295,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a9d8081811515b5ae259c7fae1129ed21" kindref="member">MR.ObjectPoints.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectPoints_1a9d8081811515b5ae259c7fae1129ed21" kindref="member">MR.ObjectPoints.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1315,7 +1315,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.ObjectPoints.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1399,6 +1399,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectPoints</label>
+        <link refid="classMR_1_1Const__ObjectPoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1420,6 +1421,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectPoints</label>
+        <link refid="classMR_1_1Const__ObjectPoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1434,18 +1436,87 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1025" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1026" bodyend="1801"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectPoints_1a96c6d413206954a08bbf81f3eb6acafb" prot="protected" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>__ref_storage_MaxRenderingPointsDefault</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5a741bc43916d8f04d57fba4d527b531" prot="protected" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>__ref_storage_MaxRenderingPointsUnlimited</name></member>
       <member refid="classMR_1_1ObjectPoints_1abb113afee60be9135f2946ea21ac50a7" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>addChild</name></member>
       <member refid="classMR_1_1ObjectPoints_1a134607002675fe42aaf5fc96d0a306b4" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1ObjectPoints_1a0a8ec99266cd9781d58cb8e4900d32eb" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>addTag</name></member>
       <member refid="classMR_1_1ObjectPoints_1ac86ac0249ac592420f49220ee9b211c0" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>applyScale</name></member>
       <member refid="classMR_1_1ObjectPoints_1a56dac0dab5698dcb731b16bf7d3387e3" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a0d20f03c81ed51939b29b87fe1f72d87" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a0939caa9f930cb58a33b3935a7d85aa6" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a94ab326a8128c3184f0dc21ca4e34c3f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a2163838bd8ccab67c97c94ce14154ec5" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a30733298edd546e33114d18056b10211" prot="package" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>Const_ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ac4815407b97acccf7f56344b2b7a75c0" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>Const_ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a8983795c69bda90c49af2c3aa5ecd2d1" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>Const_ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa6fd827226c6492fd56db71452adfcc4" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>Const_ObjectPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1aed4a1086a5e4359ab0f9f2711c586190" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1ObjectPoints_1ad2bdd7b531c2915704b809f44a9db6ea" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>copyColors</name></member>
       <member refid="classMR_1_1ObjectPoints_1ad995e078fe66021924368e85fc7efd1c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a77dc07825eab6250617bd861c0cd6ae8" prot="protected" virt="virtual"><scope>MR::ObjectPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1adba63b2b6bdd76cd521ab38757ec5515" prot="public" virt="virtual"><scope>MR::ObjectPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ab180649719ffe8355f9f040be22cae88" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a72b6990f6322552fd36e703f0979ea52" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a552eb6a2fb0be78389e5ba5fdfadc8de" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a99314bdcc5b419fb695a814065554733" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ac9db94426222a2656e23f25eabfbf6ad" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5079ea355fd634ffcfe71a2dc705e2b1" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a7b1abba2788bda3fbce765e262d0053b" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ab469317ad6a4baeed02c21fc3628fe75" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a7ef78fea3986c50f97e0157e3f5f3980" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5d019b90466ac418d2df3e326a2cd64a" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a69efc6d5b426e7188eda4533fc1fd83f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a66c74f553cc6bed75fea4930a049885c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aed6d673e3aad9901554567594548f31c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getMaxRenderingPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a62c9467805650115ddec90a3db2ecc97" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aba232619434b6f6c20cf0ca9222b5428" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1abfc0aacdb13addce6b380610cdba56c8" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a72483f8d86851d742ada83e9c3522aee" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getRenderDiscretization</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a783f726d11907bae1e0629a1f1c2cb40" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getSelectedPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ab7f0f3f306ca254f06ce51dd5732754f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getSelectedPointsOrAll</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5b980b25bc855461df16e01102ccdf39" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getSelectedVerticesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a2c96d2e7dffdaf7152b67ce1d2768209" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1abf8a99cdf52d6b8cd5a4baffe678e0e1" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a0471cb94cb2ce1b8dcb15e6138b27e55" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a24e1389c0bd0ab6efb6740b59a48399c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a6dfbfe8fd26688b5b1206b57a46bbe23" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ade8e5987ea4e1587b5c88ae50b1bf75a" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acee2602e637b4fd66ac185efb73a66ac" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a75d9d7bb9b7e61706201a111ffed6ca3" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a4085da299e52b80fa18c5ba72c4351cc" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af5b30c63ccf628c62556c365d3204cac" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa3c5fe7d50226349189cd7a93bf58f6f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a85855ec0d6d55759e161e46af160a566" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae22f8958282244573d0641ef39fd6633" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a19204f3ff0b07458f334eb36ef159918" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa2668c0c2ca62a4bca4d6086092fb0a0" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aeb6fdfd9e68890dd87f67bbb98cb9987" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a2056c144b38d9cf4f9c4afbb40862f33" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a75b80caa99ed1c4e102269b1c922952b" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa9fd63c98e8dc02845cd25d043dd6437" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1afb9362911c28430debd03920eef2d17f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae283ed1e219c18597f003c452fbe6773" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a9d29ec73e1bd6e084059f0893e315b6b" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1addcf994a7942f8ab9dbe67eabdcbfa5b" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a66b400ab0a6882cf09859067e7b78886" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a9b49fcf0689cfbc67091804419f592b8" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>MaxRenderingPointsDefault</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5cf845884b47289d1a1dec9a8a65bf1d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>MaxRenderingPointsUnlimited</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ab3e6768c7d2e0eb8419098c027e4c495" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>numRenderingValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae0ab8402ccb1a9ef81783a25e78b7174" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>numSelectedPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>numValidPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a999c748e8868b49835bb28109f525ed4" prot="package" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a2b413054c12867e04d326ba8ad50549d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a6f091b4fa2eeaa92bbeb7a6f0c08737d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a18650d21d71e643383ceef38d5f77903" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acebb78454de439a2e2863546c8740663" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a6da3fa6ca57e4b0453523dd8209b947c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a739ecb3348e390f666cea457c3c3b829" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ad6aea296b8834fa8ca7a4fd5d5ef8b71" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aecc00f7e1505d2eb697f30f6c1397009" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1abb89d2e8c6ebe6ed477c30e1cb3eabfc" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator MR.Const_ObjectPointsHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa4a91a4ff5bcc4fea2a2b76d059a28b4" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1ObjectPoints_1a6d483b9ab01a49b2ed7462a95661a6ed" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1ObjectPoints_1ac74353048ee0146e3f6d6da9912bdb0d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectPoints_1aaffdf12490233d564737304028248173" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator MR.ObjectPointsHolder</name></member>
@@ -1453,13 +1524,23 @@
       <member refid="classMR_1_1ObjectPoints_1a50e428121ef278719d3133e65ca01304" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator ObjectPoints?</name></member>
       <member refid="classMR_1_1ObjectPoints_1a208e3b233084e6448ed3995bd9c0e56a" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator ObjectPoints?</name></member>
       <member refid="classMR_1_1ObjectPoints_1a78318ee01a77d1f1cef4c3f44c588284" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>operator ObjectPoints?</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af1b459f391497fe3d041659f01944fa5" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>pointCloud</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a064c62da2a901465215a32b27e32b958" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>pointCloudPart</name></member>
       <member refid="classMR_1_1ObjectPoints_1ad444b2d6d6e221e94c2dad7f8bcd8b80" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1ObjectPoints_1acda7e03c16433bc22bf9a4df2b2b538e" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a101218aaa9034548237c9ba57f8f6d0a" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a6c872956cc89fbe0ffd94a7af5f1e18d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af56e9417c2d0aa87987e18191ced1789" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>renderUi</name></member>
       <member refid="classMR_1_1ObjectPoints_1a7f921fa08151b2ea6fdae91cf5513943" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af42994c942d80a12c29119aee87fff11" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa54c13dae9370cc9b3841f3de6bd301d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1ObjectPoints_1a1e4c85c784819ebe0f49ba378f021814" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ace3139f6dab54a588447089041d045b6" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectPoints_1a5649a7a2348c0ad0fc57a568a3c65d12" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae4c49fbe02de8f9449b4f367753c571a" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>sameModels</name></member>
       <member refid="classMR_1_1ObjectPoints_1a2f74c208c1b6e8f58410a16571a04cd6" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>select</name></member>
       <member refid="classMR_1_1ObjectPoints_1a8f04f2ab67d36810a0e49c546dbd9a1d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>selectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ac980555d96dbc8584f7e48d3dcea9c06" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>serializeFormat</name></member>
       <member refid="classMR_1_1ObjectPoints_1a8a6f281f6289998940afa17df9e8bec6" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1ObjectPoints_1a21e267ae6377a1818dace7fbe4f7de0b" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1ObjectPoints_1a3869ff103ad0ef06a0829c52288a59c2" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setAncillary</name></member>
@@ -1494,13 +1575,26 @@
       <member refid="classMR_1_1ObjectPoints_1a08a9a2cf979b7efe8d94e13734275dd1" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1ObjectPoints_1addf5d0e3d7944035bd22be67348865fe" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setXf</name></member>
       <member refid="classMR_1_1ObjectPoints_1ae1dec67e892d7ccdfbc28e97f4759ef1" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a6e6be1621a8be5b846f06e03c678265f" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acec46d1ca6d627960f6299815af7670e" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1ObjectPoints_1ad0f6f606fb59a841a1a5be8878d26d7c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af71dcccd07a366e94d43fe2ab46865c3" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a0473bea4ce98801cba43cb3209a66852" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acc52b76f481829dbb23255d5f5c6462b" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae0008463e0f5d7ea40919981b8cf3ebf" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1ObjectPoints_1a1f00172552a5a2808e061206cdd48ec7" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>swap</name></member>
       <member refid="classMR_1_1ObjectPoints_1ad3ebe0f2a207354d481eb8f7e22bb478" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>swapPointCloud</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a63e18221dca09ef2c3eab05c7931fb54" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>tags</name></member>
       <member refid="classMR_1_1ObjectPoints_1a8cce509a3d9de40a6c685b8919c35805" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a75fcbda37452a47c25486433982141c9" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>typeName</name></member>
       <member refid="classMR_1_1ObjectPoints_1a09a7bd540e183df9258e8961d288ee59" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>updateSelectedPoints</name></member>
       <member refid="classMR_1_1ObjectPoints_1a5e7e1323b3a2ea009503da07c53ccd3d" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>updateVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a478a7f4ef86bece28cd0d7da6f2ca0c3" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1ObjectPoints_1a4daaf98c8ebfd08175a25b80f7f7bfd4" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>varPointCloud</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1adbab0c1cfd376ac9f30792f2249bdda0" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a7b62d7c941afb40d2fd256b23c8b623b" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ad92adc5dbaf69d4dac7c805b72225512" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a44544db8bf41446acddbf02dae73cbf3" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

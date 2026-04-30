@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NextEdgeSameOrigin" kind="class" language="C#" prot="public">
     <compoundname>MR::NextEdgeSameOrigin</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NextEdgeSameOrigin</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NextEdgeSameOrigin" prot="public" virt="non-virtual">MR.Const_NextEdgeSameOrigin</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NextEdgeSameOrigin_1aa424da825cd01b2456cc90f0630d4233" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>NextEdgeSameOrigin</name>
         <qualifiedname>MR.NextEdgeSameOrigin.NextEdgeSameOrigin</qualifiedname>
         <param>
-          <type>MR.Const_NextEdgeSameOrigin</type>
+          <type><ref refid="classMR_1_1Const__NextEdgeSameOrigin" kindref="compound">MR.Const_NextEdgeSameOrigin</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -73,7 +73,7 @@
         <name>NextEdgeSameOrigin</name>
         <qualifiedname>MR.NextEdgeSameOrigin.NextEdgeSameOrigin</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -92,7 +92,7 @@
         <name>assign</name>
         <qualifiedname>MR.NextEdgeSameOrigin.assign</qualifiedname>
         <param>
-          <type>MR.Const_NextEdgeSameOrigin</type>
+          <type><ref refid="classMR_1_1Const__NextEdgeSameOrigin" kindref="compound">MR.Const_NextEdgeSameOrigin</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -113,7 +113,7 @@
         <name>operator NextEdgeSameOrigin</name>
         <qualifiedname>MR.NextEdgeSameOrigin.operator NextEdgeSameOrigin</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -140,6 +140,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NextEdgeSameOrigin</label>
+        <link refid="classMR_1_1Const__NextEdgeSameOrigin"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -161,6 +162,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NextEdgeSameOrigin</label>
+        <link refid="classMR_1_1Const__NextEdgeSameOrigin"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -176,10 +178,18 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="574" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="575" bodyend="621"/>
     <listofallmembers>
       <member refid="classMR_1_1NextEdgeSameOrigin_1aa561d54850b6f493a7727b50abe52d84" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameOrigin_1aa74c7dd7e322920009dee884e5ef0c9a" prot="package" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>Const_NextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameOrigin_1a3d14288892e77f65e6b29426e1914aa4" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>Const_NextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameOrigin_1af12be4e3ac2034027985568766507661" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>Const_NextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameOrigin_1a2a177c370194ba79d2e24638240492a6" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>Const_NextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameOrigin_1a7909683cad3bd32e8deeb2a11cbf4807" prot="protected" virt="virtual"><scope>MR::NextEdgeSameOrigin</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameOrigin_1a4c3d2b8d93dfcae133f1f452af168a52" prot="public" virt="virtual"><scope>MR::NextEdgeSameOrigin</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameOrigin_1ae64e0d35b527d3ce11a9bb5d21a60902" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>next</name></member>
       <member refid="classMR_1_1NextEdgeSameOrigin_1aa424da825cd01b2456cc90f0630d4233" prot="package" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>NextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1NextEdgeSameOrigin_1a932e9c8bf23b670fe84c0a3698121793" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>NextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1NextEdgeSameOrigin_1a35388d035fc57a59aa1597c0f1e85ecb" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>NextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1NextEdgeSameOrigin_1a28d6a18854bfc8e470b1ab5f3aa73b78" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>NextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameOrigin_1a896b8c7ba19bccd2667d4270dd2e217e" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>operator Const_NextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1NextEdgeSameOrigin_1a2b227c86553db109c307f4d730edab46" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>operator NextEdgeSameOrigin</name></member>
     </listofallmembers>
   </compounddef>

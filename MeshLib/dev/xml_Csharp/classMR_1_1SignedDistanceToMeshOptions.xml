@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SignedDistanceToMeshOptions" kind="class" language="C#" prot="public">
     <compoundname>MR::SignedDistanceToMeshOptions</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SignedDistanceToMeshOptions</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SignedDistanceToMeshOptions" prot="public" virt="non-virtual">MR.Const_SignedDistanceToMeshOptions</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SignedDistanceToMeshOptions_1aec5eafe75e5cdd99c6cdc985243c1410" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a616095899064d3af43a1861f0ae70fed" kindref="member">MR.SignDetectionMode</ref></type>
@@ -162,7 +162,7 @@
         <name>SignedDistanceToMeshOptions</name>
         <qualifiedname>MR.SignedDistanceToMeshOptions.SignedDistanceToMeshOptions</qualifiedname>
         <param>
-          <type>MR.Const_SignedDistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__SignedDistanceToMeshOptions" kindref="compound">MR.Const_SignedDistanceToMeshOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -200,7 +200,7 @@
         <name>assign</name>
         <qualifiedname>MR.SignedDistanceToMeshOptions.assign</qualifiedname>
         <param>
-          <type>MR.Const_SignedDistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__SignedDistanceToMeshOptions" kindref="compound">MR.Const_SignedDistanceToMeshOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SignedDistanceToMeshOptions</label>
+        <link refid="classMR_1_1Const__SignedDistanceToMeshOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SignedDistanceToMeshOptions</label>
         <link refid="classMR_1_1SignedDistanceToMeshOptions"/>
@@ -248,9 +253,13 @@
       </node>
       <node id="2">
         <label>MR.Const_SignedDistanceToMeshOptions</label>
+        <link refid="classMR_1_1Const__SignedDistanceToMeshOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_signMode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,10 +271,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="457" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="458" bodyend="554"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1a42f0193b523361ff06d8c09d785c73a3" prot="protected" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>__ref_storage_maxDistSq</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1a8b87f114802baf06c1b2df116ea850f1" prot="protected" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>__ref_storage_minDistSq</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1ae81f270cfbaa3eacfcad899131157701" prot="protected" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>__ref_storage_nullOutsideMinMax</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1aca2a83bbf12c0132deab51de3fa76e6b" prot="protected" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>__ref_storage_signMode</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1a3d22a979cd1649ca403fa2a98e8c7d3e" prot="protected" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1ab212e3aa307ab850a38aa2cc4487bc3d" prot="protected" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>__ref_storage_windingNumberThreshold</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshOptions_1a7b3c9fa8816801ba6fc1a22bc7bf62f5" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1ab66c8c85e682d3a5fdbaba6e1c88c711" prot="package" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>Const_SignedDistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1acee03c62d7ef6ff396a0bf8ef4757694" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>Const_SignedDistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1a04510a3a3ca747b368591d4caa7bacfa" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>Const_SignedDistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1abc2e405b288e2657f98f8fc4c8b68399" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>Const_SignedDistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1a5a235d90cb7cac98bff58837f23a8ebc" prot="protected" virt="virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1a023e7c0f32e10c7ce1327279073dddcc" prot="public" virt="virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshOptions_1a96eafe9f6028d482210c64d437f2415a" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>maxDistSq</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshOptions_1a4bbd9ab37f3f1c066a91dec2a53240a8" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>minDistSq</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshOptions_1a37149ba598cb2327ffcb803d6e56d75d" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>nullOutsideMinMax</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshOptions_1a89ee470012661e6d45ca43caa5f2d861" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>operator MR.Const_DistanceToMeshOptions</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshOptions_1a838e0a24d37d54f8894575aae28ac6a8" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>operator MR.DistanceToMeshOptions</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshOptions_1a8086f3dfe82919c5d4078f5a9f04cf81" prot="package" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>SignedDistanceToMeshOptions</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshOptions_1afbb6ca22069c28e5a565c0887f4bf8fc" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshOptions</scope><name>SignedDistanceToMeshOptions</name></member>

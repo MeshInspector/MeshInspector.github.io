@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GridSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::GridSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_GridSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__GridSettings" prot="public" virt="non-virtual">MR.Const_GridSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1GridSettings_1a7ed0fe2ab1ac607fa7e60d4e98a5944c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_GridSettings</label>
+        <link refid="classMR_1_1Const__GridSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.GridSettings</label>
         <link refid="classMR_1_1GridSettings"/>
@@ -210,9 +215,13 @@
       </node>
       <node id="2">
         <label>MR.Const_GridSettings</label>
+        <link refid="classMR_1_1Const__GridSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dim</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,13 +233,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="159" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="160" bodyend="273"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__GridSettings_1a5d62ab5a17c15aa5cc7ae24b9eb1ace0" prot="protected" virt="non-virtual"><scope>MR::GridSettings</scope><name>__ref_storage_dim</name></member>
       <member refid="classMR_1_1GridSettings_1a848adfd9dafe74353b736c27b4f9a110" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a6d8a5b00be9e97cec69f1755537b4375" prot="package" virt="non-virtual"><scope>MR::GridSettings</scope><name>Const_GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1af2a15a621a01d1bc9d7ff78a2ff01a96" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>Const_GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a7d428fbd57a9f0740d4e25f07c629976" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>Const_GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1acf6a6e408766abcbb970697fac4995e3" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>Const_GridSettings</name></member>
       <member refid="classMR_1_1GridSettings_1a7ed0fe2ab1ac607fa7e60d4e98a5944c" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>dim</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a1f5ca667333b1dc54e06f58a415bbf7e" prot="protected" virt="virtual"><scope>MR::GridSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1add21a49b4e8ec21647eb9e016b817db1" prot="public" virt="virtual"><scope>MR::GridSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a990ab8bc9bccb8d4ed8ad62bf9911d80" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>EdgeType</name></member>
       <member refid="classMR_1_1GridSettings_1ab9edc42ddf5c6bc26286e0f61060a90e" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>faceIds</name></member>
       <member refid="classMR_1_1GridSettings_1aef1effa1da603d078a2ebf5a1dd98ed5" prot="package" virt="non-virtual"><scope>MR::GridSettings</scope><name>GridSettings</name></member>
       <member refid="classMR_1_1GridSettings_1a09629deb2da7ea8ff2a9d5024ac5d174" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>GridSettings</name></member>
       <member refid="classMR_1_1GridSettings_1a118d92cd4a5688d895a96e84a88cff4b" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>GridSettings</name></member>
       <member refid="classMR_1_1GridSettings_1a4fda8dbc58d607f18a13cbcc7709693f" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a104c4cde9df4efe62412eb2b8cb11191" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>TriType</name></member>
       <member refid="classMR_1_1GridSettings_1aaf3aca14078c7bb490f00e05368a0e7b" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>uedgeIds</name></member>
       <member refid="classMR_1_1GridSettings_1a7816038624f48b1f2241327f296a7def" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>vertIds</name></member>
     </listofallmembers>

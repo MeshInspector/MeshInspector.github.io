@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart" kind="class" language="C#" prot="public">
+    <compoundname>MR::Features::Const_MeasureResult::Const_BasicPart</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart" prot="public" virt="non-virtual">MR.Features.Const_MeasureResult.BasicPart</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1aa042821dbcb8c328956c0841fb6f1222" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1a1695eaeaeb34bd746e9bfb7b150635c0" kindref="member">MR.Features.MeasureResult.Status</ref></type>
+        <definition>unsafe MR.Features.MeasureResult.Status MR.Features.Const_MeasureResult.Const_BasicPart.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1195" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1195" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a1dee50102daaabcd29764303b6b9719a" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1a1695eaeaeb34bd746e9bfb7b150635c0" kindref="member">MR.Features.MeasureResult.Status</ref> *</type>
+        <definition>unsafe MR.Features.MeasureResult.Status* MR.Features.Const_MeasureResult.Const_BasicPart.__ref_storage_status</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_status</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.__ref_storage_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1196" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1196" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1abccb6e43ef51024a69e7545287359ed4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Features.Const_MeasureResult.Const_BasicPart.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1183" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1183" bodyend="1191"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1accdc3f92ad7877c119bd084d6ecb2280" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Features.Const_MeasureResult.Const_BasicPart.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1192" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1192" bodyend="1192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a2e0ed8cbdd56a4d18562590df5dbbfae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</definition>
+        <argsstring>()</argsstring>
+        <name>Const_BasicPart</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1223" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1223" bodyend="1229"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a4f83e6489fcab87aa9f4dd9199405937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</definition>
+        <argsstring>(MR.Features.MeasureResult.Status status)</argsstring>
+        <name>Const_BasicPart</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1a1695eaeaeb34bd746e9bfb7b150635c0" kindref="member">MR.Features.MeasureResult.Status</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart" kindref="compound">MR.Features.MeasureResult.BasicPart</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1234" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1234" bodyend="1240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1ad5268dac0aa07b4dc34be2bd86e46b7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</definition>
+        <argsstring>(MR.Features.MeasureResult.Const_BasicPart _other)</argsstring>
+        <name>Const_BasicPart</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart" kindref="compound">MR.Features.MeasureResult.Const_BasicPart</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Features::MeasureResult::BasicPart::BasicPart</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1245" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1245" bodyend="1252"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a95520820c18e271c9957fc92550aefad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</definition>
+        <argsstring>(BasicPart _other)</argsstring>
+        <name>Const_BasicPart</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart" kindref="compound">BasicPart</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Features::MeasureResult::BasicPart::BasicPart</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1257" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1257" bodyend="1257"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1ae2e48eee9da3f0821ca1aaf3e95a39cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.Const_MeasureResult.Const_BasicPart.~Const_BasicPart</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_BasicPart</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.~Const_BasicPart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1193" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1193" bodyend="1193"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a18274b03c23fd0a3e72366552bd4f01f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_BasicPart</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.Const_BasicPart</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1212" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1212" bodyend="1217"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a0dc48c32e7ce4fa5b768c009e79a5953" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Features.Const_MeasureResult.Const_BasicPart.operator bool</definition>
+        <argsstring>(MR.Features.MeasureResult.Const_BasicPart _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Const_BasicPart.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart" kindref="compound">MR.Features.MeasureResult.Const_BasicPart</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::Features::MeasureResult::BasicPart::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1262" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1262" bodyend="1267"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart" kindref="compound">MR.Features.MeasureResult.BasicPart</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Angle" kindref="compound">MR.Features.MeasureResult.Angle</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" kindref="compound">MR.Features.MeasureResult.Distance</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Features.Const_MeasureResult.Const_BasicPart</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Features.Const_MeasureResult.BasicPart</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Features.Const_MeasureResult.Const_BasicPart</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_status</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1177" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1178" bodyend="1268"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a1dee50102daaabcd29764303b6b9719a" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>__ref_storage_status</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a18274b03c23fd0a3e72366552bd4f01f" prot="package" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>Const_BasicPart</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a2e0ed8cbdd56a4d18562590df5dbbfae" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>Const_BasicPart</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a4f83e6489fcab87aa9f4dd9199405937" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>Const_BasicPart</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1ad5268dac0aa07b4dc34be2bd86e46b7e" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>Const_BasicPart</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a95520820c18e271c9957fc92550aefad" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>Const_BasicPart</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1abccb6e43ef51024a69e7545287359ed4" prot="protected" virt="virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1accdc3f92ad7877c119bd084d6ecb2280" prot="public" virt="virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1a0dc48c32e7ce4fa5b768c009e79a5953" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1aa042821dbcb8c328956c0841fb6f1222" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>status</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart_1ae2e48eee9da3f0821ca1aaf3e95a39cf" prot="private" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Const_BasicPart</scope><name>~Const_BasicPart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

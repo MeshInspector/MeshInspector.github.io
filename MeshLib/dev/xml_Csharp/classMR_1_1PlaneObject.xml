@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PlaneObject" kind="class" language="C#" prot="public">
     <compoundname>MR::PlaneObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PlaneObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PlaneObject" prot="public" virt="non-virtual">MR.Const_PlaneObject</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PlaneObject_1abb9ad5312c4739eb83df1b3620d0f065" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -625,11 +625,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -648,11 +648,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.PlaneObject.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -671,11 +671,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.PlaneObject.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -713,7 +713,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.PlaneObject.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -736,12 +736,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aed48a1057a743d97ba97dbdc86727cdc" kindref="member">MR.PlaneObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1aed48a1057a743d97ba97dbdc86727cdc" kindref="member">MR.PlaneObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -940,12 +940,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a2b5b1c44b0a87f788daaa9cff0def18d" kindref="member">MR.PlaneObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a2b5b1c44b0a87f788daaa9cff0def18d" kindref="member">MR.PlaneObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1170,12 +1170,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a62fcdcff3f243f68b1cba4a9445e4d1b" kindref="member">MR.PlaneObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1a62fcdcff3f243f68b1cba4a9445e4d1b" kindref="member">MR.PlaneObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1372,12 +1372,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ac589d359a78bbb72ea7c5f3a1b3dfdb4" kindref="member">MR.PlaneObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1PlaneObject_1ac589d359a78bbb72ea7c5f3a1b3dfdb4" kindref="member">MR.PlaneObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1392,7 +1392,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.PlaneObject.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1476,6 +1476,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PlaneObject</label>
+        <link refid="classMR_1_1Const__PlaneObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1497,6 +1498,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PlaneObject</label>
+        <link refid="classMR_1_1Const__PlaneObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1516,8 +1518,83 @@
       <member refid="classMR_1_1PlaneObject_1ad375aedadee0297c78ebb6c9729911ff" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1PlaneObject_1a6415b2fd874251b918b15c1724c1be12" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1PlaneObject_1a4a781447008827b687d778f14f4af6c2" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a5ee2db817b78c6b23bfa92d30c50dd88" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>calcLocalBasis</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a8801ca8a7f72b176a988b2aa81fc94a5" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a76e60cddd03fcd71751c48f793887166" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a7648be889b45cdf92592ddfa9c950e96" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a7d2ff18f44fb413974908aa4879480e8" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a66f18af285d3cf865c792aa4aefd1e25" prot="package" virt="non-virtual"><scope>MR::PlaneObject</scope><name>Const_PlaneObject</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a6f5acfdf4c37445b5eaefba5e502751d" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>Const_PlaneObject</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a9066bfb63c26f06ff05f7af78e2b1fe1" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>Const_PlaneObject</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ae685958e7a32ccc16c7ec74a866c6666" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>Const_PlaneObject</name></member>
       <member refid="classMR_1_1PlaneObject_1aac88660c37308bc023ec31bcd49f070f" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1PlaneObject_1a9ed3841dc4cd9386670b2e2291689028" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aa30402ff712bdcca3d8b5ee1edbb7f4d" prot="protected" virt="virtual"><scope>MR::PlaneObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a7e0b83e370ccc532bc4016d58dbe3dd7" prot="public" virt="virtual"><scope>MR::PlaneObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aba5837498954b8ce3c33c7da2e4f4447" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aa2e34233236584fbae95db17a4894521" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aba6d4e9a965dc07185c1efe0008e5cda" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aec7a6216622bfe61cfb872e65385fca0" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a70bdbf25904e23f2f876b5a8c91fc7b0" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a26bf10605a8604676ce1b91534a7d509" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getBasePoint</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a90ac479f0b58bc4f1ca653d399c093c8" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ac92f9aac59093493727229a3a219ce2e" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getCenter</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a3cbb15f1471b6fca4fd9dc0b01b92dc8" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a32ab3ff5d91fc7683505cf94cc72b1c6" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a597896a10ddc217605e5d3b221b6a8e5" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a10b603ab505ce8cd299a53633980e7c6" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a0b4d8a689d58e0c347e398a283b73bc7" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a520940607924a96b084f346bc8bdaca4" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a3745693698e946689fdd9edc1bebfe63" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a12b871958a53920da9f3a29045f4352b" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1af4bfc2b32dbf24ec4951563aa3ed0393" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a79b57f3d7b1f2d9b5c5bd5156c71a4ce" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a4180b319a3c68b6668149d0b9c75a3e6" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ac31b12949ed7903a69404f5c70c8e926" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a4df906ee336aeacf2c07b60fd6ef5c06" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getNormal</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a0cefaa7ab2f9caf2143508fce8c3025c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1acf00f3424d3cab114b339970b1102fe2" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ad403b62ee4411fdf5603e2de0114f9b3" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aa14c06517184d9d36bb1d1c8508f4e5f" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a5e7858d7d8f5cb1d25fba88b475cc1f7" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a50133601892280d323108f0a5face253" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aba66151bebb1ab357c392e67d1668000" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSize</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a5b288b550383011c7c704d3744ebdac7" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSizeX</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a5e813177d1c83902757ca836276a0e50" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSizeY</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1acfa8ed338ab62465087ec5a536dda468" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a031272c5c6ed7c52bb15c5e4f1c50b0b" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a0e544917e2a5e388e4578db51afda3c1" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a71dc303f33efa2eb5473f53fdd8af91b" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a33439f44e6579f229ec998d0f1552796" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a06c4e14fc07cf47bdadabf4e5967c1d2" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a60d68a52eb50713c304640487d059945" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a3cf3d45c85a4525466591da710600ad7" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a914f2317d5b80cca1462c6f8dc5525cf" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1af4796da62e5435d0992afc90c749d3ab" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1afac7b4171f8a153a5076e5597099e975" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ad18cd615e58f43cb41f2dbb5ab5d7f37" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a2e5f1737d8da1ed4dfcfbfb12359f651" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ae2c9d7b1a093b552da7a140374173664" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a1d14609397d5228202f7e470241bcc78" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1abdafaa67e1660acc790c17d8d0710e03" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ae9a34c374fae117b15dd978b8ae132fb" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a9fedbbe8de6601c5e8942a18cefbcc2c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a364622a5c02a1e0847c08773cd2689bc" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a5ca99d847843510c10197b07925f1606" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1afeb3d3b6de8e1291334112cff3102f24" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a2552c1fe1a4a483c962d841616a6fee6" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a6b6f20a0c878b022d71408bef8714791" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aca9385269d28d1074b4e0987fee76275" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a7c1e7fa3184bde5ec1d2c21b96e5b17a" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a3a3fc67ca3c58c0b18a621627f6a6c0c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a8e12b3fd0b0aa83c6990a9dd80561973" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator Const_PlaneObject</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a51b7a7f2e4751417f09acfe857b69655" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator Const_PlaneObject?</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1afdab22cc365986d12b1ebaee8f5df816" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator Const_PlaneObject?</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a6a3fe0bbbadc4be4f36e6fca65b2ef59" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator Const_PlaneObject?</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ac08a4595154b202c76e3ef720d4b6d8c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.Const_FeatureObject</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1af6121ad9176f274bddd1ca3b6f4f24f3" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aae4e332bb29d3696b39849fabc847037" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a6904bf0233b6f8412cc2a2973c27668e" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1PlaneObject_1aa1c68e6cbd7f1c28f8a2343ca081807e" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.FeatureObject</name></member>
       <member refid="classMR_1_1PlaneObject_1a9796c0171f995bb5d8ccca08febae6ce" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1PlaneObject_1abb9ad5312c4739eb83df1b3620d0f065" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
@@ -1530,11 +1607,19 @@
       <member refid="classMR_1_1PlaneObject_1a873fb56b5f5008f7f9f33e1223ed4c4e" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>PlaneObject</name></member>
       <member refid="classMR_1_1PlaneObject_1aa4915d2900f6017a2e9711c153bbaac5" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>PlaneObject</name></member>
       <member refid="classMR_1_1PlaneObject_1a1e8f54fb913bad0074776619ab999177" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>PlaneObject</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aadb91d5c99fae3792af0c2d2873ee5ae" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>projectPoint</name></member>
       <member refid="classMR_1_1PlaneObject_1ab98f4d3c63a5d7c00066e5ed0326a33a" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1PlaneObject_1adcd5ab0d351cac2753a4b8e0c2258559" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ad5224fb3df216c9cde395e4fb5e7fe3a" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ab2715dc1f1bd4c5a461cd13a4428870f" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ab5ea985f275102ec2cab73d5899aaec7" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>renderUi</name></member>
       <member refid="classMR_1_1PlaneObject_1ae4f165da52c2e9b9a4d62a969b50533c" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a80f77a19377bd8a1f4011ed159405c52" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a5c91843f7c4e59d24a2c7596bd2a342f" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1PlaneObject_1a1a6ecc8ee15a6cd4fec4f7839f6745df" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a8e11ebac24f70fc13da7cb9b066b74b4" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1PlaneObject_1a173d06866ab579c10da1391d5cbb97f3" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a980ffb6f6804ab5c296c8a8eb2e1c4e3" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1PlaneObject_1a5d04ba60606fd33e4729b9666ca8d4fa" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>select</name></member>
       <member refid="classMR_1_1PlaneObject_1a859d34924fc987d12b67431f5773a9d1" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1PlaneObject_1a9ae277c65fe75bd2385740ff6e097293" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setAmbientStrength</name></member>
@@ -1578,9 +1663,22 @@
       <member refid="classMR_1_1PlaneObject_1ad18d6c0e9342aaaebea808fba8c5072d" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1PlaneObject_1a48be5b43e14f97352368acae3f7b63ba" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1PlaneObject_1a40198378be1fe7b83f782c7d9aa0ed9f" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a7cfdc5229b3864e69f2634339bbe4f4f" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ade393b86441a5f0cb00abb368b6558f9" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1PlaneObject_1a23fee4c0ec71579a0926fe8022704314" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a9a8943dae399cbeab1e171a6c25bcf8d" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a49ed59b86056d3d87262abade3ce629e" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1accab72c9c528ffc3461e8511424635b7" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ac64db19b17ebe2b26dfbb1dbfd5220c7" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1PlaneObject_1a2e49ae91ed8a21bb9b5260019efa53bd" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aebf6289ea735caae35cf9a885ef66d0b" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>tags</name></member>
       <member refid="classMR_1_1PlaneObject_1af71d80072a899b518c7bffd7462b30e4" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a1ff7d326abc220698cba91fc2e800179" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a3c380970c9007ce4e3415f8ef95d8be8" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a10bf060597b071131224cd12cd2323f6" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1aa2d8fbfc706bc28feeedd8ee9152ddc3" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1ac76e388b519ce0f274524c059e4c0b76" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__PlaneObject_1a473b7ac1139c7a95b5d88b66a645eeaa" prot="public" virt="non-virtual"><scope>MR::PlaneObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

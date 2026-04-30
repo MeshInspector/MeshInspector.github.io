@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UndirEdgeColorMapAggregator" kind="class" language="C#" prot="public">
     <compoundname>MR::UndirEdgeColorMapAggregator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirEdgeColorMapAggregator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UndirEdgeColorMapAggregator" prot="public" virt="non-virtual">MR.Const_UndirEdgeColorMapAggregator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1ab3be9704bd8d6387ddb751e5651e6e82" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>UndirEdgeColorMapAggregator</name>
         <qualifiedname>MR.UndirEdgeColorMapAggregator.UndirEdgeColorMapAggregator</qualifiedname>
         <param>
-          <type>Const_UndirEdgeColorMapAggregator</type>
+          <type><ref refid="classMR_1_1Const__UndirEdgeColorMapAggregator" kindref="compound">Const_UndirEdgeColorMapAggregator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -145,7 +145,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.UndirEdgeColorMapAggregator.pushBack</qualifiedname>
         <param>
-          <type>MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -168,7 +168,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -191,7 +191,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -234,7 +234,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1019" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1019" bodyend="1024"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UndirEdgeColorMapAggregator_1a3f36a0cab31c59c993b5c4a64a9d1637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</type>
+        <type>unsafe <ref refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</ref></type>
         <definition>unsafe MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap MR.UndirEdgeColorMapAggregator.getPartialColorMap</definition>
         <argsstring>(int i)</argsstring>
         <name>getPartialColorMap</name>
@@ -302,7 +302,7 @@
         <name>aggregate</name>
         <qualifiedname>MR.UndirEdgeColorMapAggregator.aggregate</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>elementBitSet</declname>
         </param>
         <briefdescription>
@@ -329,6 +329,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirEdgeColorMapAggregator</label>
+        <link refid="classMR_1_1Const__UndirEdgeColorMapAggregator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -350,6 +351,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirEdgeColorMapAggregator</label>
+        <link refid="classMR_1_1Const__UndirEdgeColorMapAggregator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -366,6 +368,13 @@
     <listofallmembers>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a303510aa3e1d0e9943bcf5b4c436fc69" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>aggregate</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a90c3a313a42c39684e68043d2e247d6c" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1aa14cf73e4ed4b0ca0866bafe7343371b" prot="package" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Const_UndirEdgeColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1ab03ae85f24926c0748a88c384bd89c2a" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Const_UndirEdgeColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1a443958c4c21c753228e1993a11878b81" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Const_UndirEdgeColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1ae952bc235b2757860fb85f871b70fbd9" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Const_UndirEdgeColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1a88dc4dffa42eb8b8bbf83511e76370a2" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Const_UndirEdgeColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1a489bb94861bd329455f5abe7d5276b2a" prot="protected" virt="virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirEdgeColorMapAggregator_1ac00fa555d80f01b7588e8c8cad7f2a48" prot="public" virt="virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a94a0070c9ce688b293ea11c9a18294b0" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>erase</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a6b081f89b7e8276d8f4d8107ffeaba33" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>getColorMapNumber</name></member>
       <member refid="classMR_1_1UndirEdgeColorMapAggregator_1a3f36a0cab31c59c993b5c4a64a9d1637" prot="public" virt="non-virtual"><scope>MR::UndirEdgeColorMapAggregator</scope><name>getPartialColorMap</name></member>

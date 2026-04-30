@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Parabolad" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Parabolad</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Parabolad" prot="public" virt="non-virtual">MR.Parabolad</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Parabolad_1a2fd9edc08bbc8d097a80fbd28872ea95" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Parabolad.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Const_Parabolad.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="273" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Parabolad_1a1198d5ce6687eb1ddf3b859ff73904b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Parabolad.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_Parabolad.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="276" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Parabolad_1abd5db1750e12bb70ca50f0bfc2a1fc19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Parabolad.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>MR.Const_Parabolad.c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="279" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Parabolad_1a11a8d18b6cc6259f2c9f423b6bd8ba94" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_Parabolad.__ref_storage_a</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_a</name>
+        <qualifiedname>MR.Const_Parabolad.__ref_storage_a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="274" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Parabolad_1a0d43661b4753d875aa17d972abdedefb" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_Parabolad.__ref_storage_b</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_b</name>
+        <qualifiedname>MR.Const_Parabolad.__ref_storage_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="277" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Parabolad_1aba67a477cd25735f36533c882fae692e" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_Parabolad.__ref_storage_c</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_c</name>
+        <qualifiedname>MR.Const_Parabolad.__ref_storage_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="280" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1af81bcc4b56ae779f0f50641cc8088a25" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Parabolad.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Parabolad.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="261" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="261" bodyend="269"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1aeab7722de743cb1ca66a02435f0967f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Parabolad.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Parabolad.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="270" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="270" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1a719871890f56c8ed5d13df3c93231a29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Parabolad.Const_Parabolad</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Parabolad</name>
+        <qualifiedname>MR.Const_Parabolad.Const_Parabolad</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="319" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="319" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1a40c15b864e22b787c85dc91f4a5738d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Parabolad.Const_Parabolad</definition>
+        <argsstring>(MR.Const_Parabolad _other)</argsstring>
+        <name>Const_Parabolad</name>
+        <qualifiedname>MR.Const_Parabolad.Const_Parabolad</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Parabolad" kindref="compound">MR.Const_Parabolad</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Parabolad_1a2a6995a6a0794b739ec896baf5667a8b" kindref="member">MR.Parabolad.Parabolad</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="330" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="330" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1adfe81f94497565b29463e73657f602cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Parabolad.Const_Parabolad</definition>
+        <argsstring>(Parabolad _other)</argsstring>
+        <name>Const_Parabolad</name>
+        <qualifiedname>MR.Const_Parabolad.Const_Parabolad</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Parabolad" kindref="compound">Parabolad</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Parabolad_1a2a6995a6a0794b739ec896baf5667a8b" kindref="member">MR.Parabolad.Parabolad</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="342" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="342" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1af08dfb1515717c31f1d81f3694914318" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Parabolad.Const_Parabolad</definition>
+        <argsstring>(double a, double b, double c)</argsstring>
+        <name>Const_Parabolad</name>
+        <qualifiedname>MR.Const_Parabolad.Const_Parabolad</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Parabolad_1a2a6995a6a0794b739ec896baf5667a8b" kindref="member">MR.Parabolad.Parabolad</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="347" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="347" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1a254e14b2c25b27158be13d5ba704e346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Parabolad.call</definition>
+        <argsstring>(double x)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_Parabolad.call</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>compute value of quadratic function at any x Generated from method <computeroutput>MR::Parabolad::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="359" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="359" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1a60fb68965a6f4bceb5b5a25cf946a0a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Parabolad.extremArg</definition>
+        <argsstring>()</argsstring>
+        <name>extremArg</name>
+        <qualifiedname>MR.Const_Parabolad.extremArg</qualifiedname>
+        <briefdescription>
+<para>argument (x) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 Generated from method <computeroutput><ref refid="classMR_1_1Const__Parabolad_1a60fb68965a6f4bceb5b5a25cf946a0a9" kindref="member">MR.Parabolad.extremArg</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="370" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="370" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1ab048ec81b23ec8457fb1eeaaca706b67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Parabolad.extremVal</definition>
+        <argsstring>()</argsstring>
+        <name>extremVal</name>
+        <qualifiedname>MR.Const_Parabolad.extremVal</qualifiedname>
+        <briefdescription>
+<para>value (y) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 Generated from method <computeroutput><ref refid="classMR_1_1Const__Parabolad_1ab048ec81b23ec8457fb1eeaaca706b67" kindref="member">MR.Parabolad.extremVal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="381" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="381" bodyend="386"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1a528f1bd4986392bdc583bcee907824d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Parabolad.~Const_Parabolad</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Parabolad</name>
+        <qualifiedname>MR.Const_Parabolad.~Const_Parabolad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="271" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="271" bodyend="271"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Parabolad_1a8025e0a62a911c26220115e6e001f59b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Parabolad.Const_Parabolad</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Parabolad</name>
+        <qualifiedname>MR.Const_Parabolad.Const_Parabolad</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="308" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="308" bodyend="313"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents quadratic function f(x) = a*x*x + b*x + c Generated from class <computeroutput><ref refid="classMR_1_1Parabolad" kindref="compound">MR.Parabolad</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Parabolad</label>
+        <link refid="classMR_1_1Const__Parabolad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.Parabolad</label>
+        <link refid="classMR_1_1Parabolad"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Parabolad</label>
+        <link refid="classMR_1_1Const__Parabolad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="255" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="256" bodyend="387"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Parabolad_1a11a8d18b6cc6259f2c9f423b6bd8ba94" prot="protected" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a0d43661b4753d875aa17d972abdedefb" prot="protected" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1aba67a477cd25735f36533c882fae692e" prot="protected" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>__ref_storage_c</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a2fd9edc08bbc8d097a80fbd28872ea95" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a1198d5ce6687eb1ddf3b859ff73904b0" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1abd5db1750e12bb70ca50f0bfc2a1fc19" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>c</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a254e14b2c25b27158be13d5ba704e346" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a8025e0a62a911c26220115e6e001f59b" prot="package" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a719871890f56c8ed5d13df3c93231a29" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a40c15b864e22b787c85dc91f4a5738d9" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1adfe81f94497565b29463e73657f602cc" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1af08dfb1515717c31f1d81f3694914318" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1af81bcc4b56ae779f0f50641cc8088a25" prot="protected" virt="virtual"><scope>MR::Const_Parabolad</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1aeab7722de743cb1ca66a02435f0967f4" prot="public" virt="virtual"><scope>MR::Const_Parabolad</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a60fb68965a6f4bceb5b5a25cf946a0a9" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>extremArg</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1ab048ec81b23ec8457fb1eeaaca706b67" prot="public" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>extremVal</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a528f1bd4986392bdc583bcee907824d9" prot="private" virt="non-virtual"><scope>MR::Const_Parabolad</scope><name>~Const_Parabolad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

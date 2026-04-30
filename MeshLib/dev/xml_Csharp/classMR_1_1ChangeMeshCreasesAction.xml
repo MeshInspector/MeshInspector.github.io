@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshCreasesAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshCreasesAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshCreasesAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeMeshCreasesAction" prot="public" virt="non-virtual">MR.Const_ChangeMeshCreasesAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeMeshCreasesAction_1addfe36295803f0c416f54ab64636e1b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeMeshCreasesAction</name>
         <qualifiedname>MR.ChangeMeshCreasesAction.ChangeMeshCreasesAction</qualifiedname>
         <param>
-          <type>Const_ChangeMeshCreasesAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeMeshCreasesAction" kindref="compound">Const_ChangeMeshCreasesAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeMeshCreasesAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshCreasesAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshCreasesAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshCreasesAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshCreasesAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,22 @@
       <member refid="classMR_1_1ChangeMeshCreasesAction_1aad0cf6bf0bc97bab8616546a359d4daa" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>ChangeMeshCreasesAction</name></member>
       <member refid="classMR_1_1ChangeMeshCreasesAction_1a4bc1e7c372bf04ac64ad80aaac0bbe48" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>ChangeMeshCreasesAction</name></member>
       <member refid="classMR_1_1ChangeMeshCreasesAction_1a0b2b0061cf2b1fef9778638f63eabf7d" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>ChangeMeshCreasesAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1adbe1fb79b20684b45f364166e35d3a29" prot="package" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Const_ChangeMeshCreasesAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a5b3b1b5a0cadee79aef0d497108f2c68" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Const_ChangeMeshCreasesAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a620c05d9e2db83941f8297e5f17e848e" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Const_ChangeMeshCreasesAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1ae8729da20f45b5578eb8444fbbb00b64" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Const_ChangeMeshCreasesAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a82a4984c576b504a4a6cf4a7ba4d7492" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Const_ChangeMeshCreasesAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1aa4ecc97b8e1b3986da44bf4362c7e5ed" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Const_ChangeMeshCreasesAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1aecc26fd1f2568c4739c8700a5ae46b6b" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>creases</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1ade31ef398adbe1283f7ba5cc2815a368" prot="protected" virt="virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1ac845e61b4ce71a62816c4c893683d434" prot="public" virt="virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a813e1da2e6952c36f7189d29910c828e" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a3989f250f79a38c2ec6437e89c5bab49" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeMeshCreasesAction_1a1c62bf61a6fd404b184fa34303e94d43" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>operator ChangeMeshCreasesAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a4cb9992266710eb01c804a5787a3fba9" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>operator Const_ChangeMeshCreasesAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1acfe7df5e58ff9771f3d4ad00247343a4" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeMeshCreasesAction_1addfe36295803f0c416f54ab64636e1b7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshCreasesAction_1a2f9c9787f92ed8c2a3fcd4fc6bb7db40" prot="public" virt="non-virtual"><scope>MR::ChangeMeshCreasesAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

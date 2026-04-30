@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FixUndercuts_1_1Const__FindParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::FixUndercuts::Const_FindParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FixUndercuts_1_1FindParams" prot="public" virt="non-virtual">MR.FixUndercuts.FindParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1af5ec068a9a29ee93b559e0baeb90669d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.FixUndercuts.Const_FindParams.upDirection</definition>
+        <argsstring></argsstring>
+        <name>upDirection</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.upDirection</qualifiedname>
+        <briefdescription>
+<para>Primitives that are not visible from up direction are considered as undercuts (fix undercuts is performed downwards (in <computeroutput>-direction</computeroutput>)) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="31" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1a1f782988baa79777e76e4cedba66bf1b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.FixUndercuts.Const_FindParams.wallAngle</definition>
+        <argsstring></argsstring>
+        <name>wallAngle</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.wallAngle</qualifiedname>
+        <briefdescription>
+<para>vertical angle of fixed undercut walls (note that this value is approximate - it defines "camera" position for internal projective transformation) 0 - strictly vertical walls of undercuts area positive - expanding downwards walls negative - shrinking downwards walls </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="40" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1ac3689214eb3e5aea2377c9683c096f6a" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.FixUndercuts.Const_FindParams.__ref_storage_upDirection</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_upDirection</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.__ref_storage_upDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="32" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1a1beed6bec25ce754aebb5fae59d01933" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.FixUndercuts.Const_FindParams.__ref_storage_wallAngle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_wallAngle</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.__ref_storage_wallAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="41" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1a6c11842af65799d2f7d8ad9499ab3405" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.FixUndercuts.Const_FindParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="16" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1a8949f6aafd9860b2bb1574be16ceb0d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.FixUndercuts.Const_FindParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="25" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1acc9106cf5c69957edfb80ce3ef9ce758" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixUndercuts.Const_FindParams.Const_FindParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FindParams</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.Const_FindParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="74" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1ad484195929b9d305643f1b3aff20bafa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixUndercuts.Const_FindParams.Const_FindParams</definition>
+        <argsstring>(MR.Vector3f upDirection, float wallAngle)</argsstring>
+        <name>Const_FindParams</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.Const_FindParams</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>upDirection</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>wallAngle</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1FindParams" kindref="compound">MR.FixUndercuts.FindParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="85" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1a8e1e2ebeb83d0bcc78b5d89b3658e264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixUndercuts.Const_FindParams.Const_FindParams</definition>
+        <argsstring>(MR.FixUndercuts.Const_FindParams _other)</argsstring>
+        <name>Const_FindParams</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.Const_FindParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__FindParams" kindref="compound">MR.FixUndercuts.Const_FindParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1FindParams_1af37954b1bc89aa05429516e6a4709f89" kindref="member">MR.FixUndercuts.FindParams.FindParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="96" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1ac9b44391fc2f6fdb9bec518b348390d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FixUndercuts.Const_FindParams.Const_FindParams</definition>
+        <argsstring>(FindParams _other)</argsstring>
+        <name>Const_FindParams</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.Const_FindParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1FindParams" kindref="compound">FindParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1FindParams_1af37954b1bc89aa05429516e6a4709f89" kindref="member">MR.FixUndercuts.FindParams.FindParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="108" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1a2818368131804a5044641b235e42be42" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FixUndercuts.Const_FindParams.~Const_FindParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FindParams</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.~Const_FindParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="26" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1_1Const__FindParams_1aad20161e6a2c52616b313ddace7a8609" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FixUndercuts.Const_FindParams.Const_FindParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FindParams</name>
+        <qualifiedname>MR.FixUndercuts.Const_FindParams.Const_FindParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="63" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters that is used to find undercuts Generated from class <computeroutput><ref refid="classMR_1_1FixUndercuts_1_1FindParams" kindref="compound">MR.FixUndercuts.FindParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.FixUndercuts.Const_FindParams</label>
+        <link refid="classMR_1_1FixUndercuts_1_1Const__FindParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FixUndercuts.FindParams</label>
+        <link refid="classMR_1_1FixUndercuts_1_1FindParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.FixUndercuts.Const_FindParams</label>
+        <link refid="classMR_1_1FixUndercuts_1_1Const__FindParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_upDirection</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="10" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="11" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1ac3689214eb3e5aea2377c9683c096f6a" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>__ref_storage_upDirection</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a1beed6bec25ce754aebb5fae59d01933" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>__ref_storage_wallAngle</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1aad20161e6a2c52616b313ddace7a8609" prot="package" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1acc9106cf5c69957edfb80ce3ef9ce758" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1ad484195929b9d305643f1b3aff20bafa" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a8e1e2ebeb83d0bcc78b5d89b3658e264" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1ac9b44391fc2f6fdb9bec518b348390d0" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a6c11842af65799d2f7d8ad9499ab3405" prot="protected" virt="virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a8949f6aafd9860b2bb1574be16ceb0d2" prot="public" virt="virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1af5ec068a9a29ee93b559e0baeb90669d" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>upDirection</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a1f782988baa79777e76e4cedba66bf1b" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>wallAngle</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a2818368131804a5044641b235e42be42" prot="private" virt="non-virtual"><scope>MR::FixUndercuts::Const_FindParams</scope><name>~Const_FindParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

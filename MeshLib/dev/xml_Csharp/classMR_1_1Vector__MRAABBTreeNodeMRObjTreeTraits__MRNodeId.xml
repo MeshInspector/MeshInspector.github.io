@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId" prot="public" virt="non-virtual">MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a73834c4de42828a3fefee0239a35c3a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</qualifiedname>
         <param>
-          <type>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId" kindref="compound">Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,7 +153,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Const_AABBTreeNode_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.Const_AABBTreeNode_MRObjTreeTraits</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_AABBTreeNode_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.Const_AABBTreeNode_MRObjTreeTraits</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -309,7 +309,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_AABBTreeNode_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.Const_AABBTreeNode_MRObjTreeTraits</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -336,7 +336,7 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.Const_AABBTreeNode_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.Const_AABBTreeNode_MRObjTreeTraits</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -359,7 +359,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.Const_AABBTreeNode_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.Const_AABBTreeNode_MRObjTreeTraits</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -397,7 +397,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.pushBack</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeNode_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.Const_AABBTreeNode_MRObjTreeTraits</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</label>
+        <link refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</label>
+        <link refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1aa6c2ab9c9c1dd9b4ef6d4babc1aeea46" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1af35c5658bcfb4aaf5474e6aab5a9b425" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1aca40cf42dbb183414abe8160f755f1c6" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a18cac28aaa10951ea5a0b5771947ac2a" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a6a6081a65dc42b823e1495c3ebea0eef" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a9252a94420d917cd2e2c005be8841a9e" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1af39c18d774c240ab42222ff1b816cf64" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1aa850a7e3e7784db2cc03eab071e27656" prot="package" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a57735755d77fa36d17637adbff4bce08" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1afe4fc9b1498bd53b6ed0e83ca9098f3d" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a86c6cfa4079a3eb96372a4e53fb0b8c4" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a5878a0fab89daceebea0c5237b7ca399" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a0b933ad5840b599192a4f36a1eb4aa2a" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a0ec9df7fcda3db980f34487e02ae491a" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a8f1a9c6edcac2f23d073b4fb75f4ec51" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a06a9dc51b828501f6c7199c0732b9102" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ac011952baa428bf83c64a21b9fc58bbc" prot="protected" virt="virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a106e26b8cceb94b4f3c249185c142f7b" prot="public" virt="virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a2a18b8b942a592dfeebf723844bba5a6" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a8d3cc880577e4c40b7b9655129b13ca8" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a892b2355be9d5232e209636dce73d167" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a9bfb333bde1f69af27efb7cd6bf68827" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1acc5f806ca0575ecc139accc75c6e9f5f" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ad0242d74fcff4dc98377b7994d246648" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a0343b0a0bab68a2af04ce2298f30190e" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a6f2e433b3eb7ace831da1fb34b9dcebe" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>operator Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a5103dee2b944b37c204dfb7fd20227f3" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>operator Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1aa31ceeb77cf3efb67b61047ef489e8d4" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a6c7e84a40f71c4eaa43b7a448702cbf8" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>pushBack</name></member>
@@ -685,6 +704,7 @@
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a9cb78af346396e5ef69267a3ebe75d66" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a14b96f6c9973c22454a47b0cebb3299a" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a1129e5365c674f243d82236b25e9d9ed" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a9dfe55fd919f429f04e1de4ec75da8c8" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1abc88f2b43cd2d54fec3cc0ddb85fa44e" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a739c11997ce4f0973252a00a05251533" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>this[MR.NodeId i]</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a73834c4de42828a3fefee0239a35c3a4" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>vec</name></member>

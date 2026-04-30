@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__OpenVdbFloatGrid" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_OpenVdbFloatGrid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1OpenVdbFloatGrid" prot="public" virt="non-virtual">MR.OpenVdbFloatGrid</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1af93614479cb34fb542e7cb53b0c77cad" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_OpenVdbFloatGrid.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1ae87e37797410e914f5af2141a3978870" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_OpenVdbFloatGrid.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1ae1623112193c7508b551a3567625ce17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</definition>
+        <argsstring>()</argsstring>
+        <name>Const_OpenVdbFloatGrid</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1a15bfeb6d8ca7688067becb130bfe4eb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</definition>
+        <argsstring>(MR._ByValue_OpenVdbFloatGrid _other)</argsstring>
+        <name>Const_OpenVdbFloatGrid</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</qualifiedname>
+        <param>
+          <type>MR._ByValue_OpenVdbFloatGrid</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid_1ae73a1bc0af44c763b4dbf8a0fe5101d0" kindref="member">MR.OpenVdbFloatGrid.OpenVdbFloatGrid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="41" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1aadbf3545c6e6e7f0bc42ee8ff669fbb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</definition>
+        <argsstring>(Const_OpenVdbFloatGrid _other)</argsstring>
+        <name>Const_OpenVdbFloatGrid</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__OpenVdbFloatGrid" kindref="compound">Const_OpenVdbFloatGrid</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid_1ae73a1bc0af44c763b4dbf8a0fe5101d0" kindref="member">MR.OpenVdbFloatGrid.OpenVdbFloatGrid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="52" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1ac704882825a90ec1123aaa8dd1fd5cce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</definition>
+        <argsstring>(OpenVdbFloatGrid _other)</argsstring>
+        <name>Const_OpenVdbFloatGrid</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid_1ae73a1bc0af44c763b4dbf8a0fe5101d0" kindref="member">MR.OpenVdbFloatGrid.OpenVdbFloatGrid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="57" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1a2e2b3aafef595f9aa8e5da48cefc4e07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_OpenVdbFloatGrid.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__OpenVdbFloatGrid_1a2e2b3aafef595f9aa8e5da48cefc4e07" kindref="member">MR.OpenVdbFloatGrid.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="62" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1a7c299ab996d5279edf4efba129d85e78" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OpenVdbFloatGrid.~Const_OpenVdbFloatGrid</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_OpenVdbFloatGrid</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.~Const_OpenVdbFloatGrid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__OpenVdbFloatGrid_1a95fac06ffffcc82411095cb1c79e469b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_OpenVdbFloatGrid</name>
+        <qualifiedname>MR.Const_OpenVdbFloatGrid.Const_OpenVdbFloatGrid</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this class just hides very complex type of typedef openvdb::FloatGrid Generated from class <computeroutput><ref refid="classMR_1_1OpenVdbFloatGrid" kindref="compound">MR.OpenVdbFloatGrid</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_OpenVdbFloatGrid</label>
+        <link refid="classMR_1_1Const__OpenVdbFloatGrid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.OpenVdbFloatGrid</label>
+        <link refid="classMR_1_1OpenVdbFloatGrid"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_OpenVdbFloatGrid</label>
+        <link refid="classMR_1_1Const__OpenVdbFloatGrid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="9" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a95fac06ffffcc82411095cb1c79e469b" prot="package" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1ae1623112193c7508b551a3567625ce17" prot="public" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a15bfeb6d8ca7688067becb130bfe4eb7" prot="public" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1aadbf3545c6e6e7f0bc42ee8ff669fbb7" prot="public" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1ac704882825a90ec1123aaa8dd1fd5cce" prot="public" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1af93614479cb34fb542e7cb53b0c77cad" prot="protected" virt="virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1ae87e37797410e914f5af2141a3978870" prot="public" virt="virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a2e2b3aafef595f9aa8e5da48cefc4e07" prot="public" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a7c299ab996d5279edf4efba129d85e78" prot="private" virt="non-virtual"><scope>MR::Const_OpenVdbFloatGrid</scope><name>~Const_OpenVdbFloatGrid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

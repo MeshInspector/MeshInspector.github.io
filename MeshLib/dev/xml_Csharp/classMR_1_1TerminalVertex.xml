@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TerminalVertex" kind="class" language="C#" prot="public">
     <compoundname>MR::TerminalVertex</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TerminalVertex</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TerminalVertex" prot="public" virt="non-virtual">MR.Const_TerminalVertex</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TerminalVertex_1ae18378732663c73099460edc080101d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -103,7 +103,7 @@
         <name>TerminalVertex</name>
         <qualifiedname>MR.TerminalVertex.TerminalVertex</qualifiedname>
         <param>
-          <type>MR.Const_TerminalVertex</type>
+          <type><ref refid="classMR_1_1Const__TerminalVertex" kindref="compound">MR.Const_TerminalVertex</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.TerminalVertex.assign</qualifiedname>
         <param>
-          <type>MR.Const_TerminalVertex</type>
+          <type><ref refid="classMR_1_1Const__TerminalVertex" kindref="compound">MR.Const_TerminalVertex</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TerminalVertex</label>
+        <link refid="classMR_1_1Const__TerminalVertex"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TerminalVertex</label>
         <link refid="classMR_1_1TerminalVertex"/>
@@ -189,9 +194,13 @@
       </node>
       <node id="2">
         <label>MR.Const_TerminalVertex</label>
+        <link refid="classMR_1_1Const__TerminalVertex"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_v</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,7 +212,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" line="107" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" bodystart="108" bodyend="172"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TerminalVertex_1af805c92ba2550f2b57f32802d7445996" prot="protected" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>__ref_storage_metric</name></member>
+      <member refid="classMR_1_1Const__TerminalVertex_1aab8cb00b920d911be21d8bfce47a220c" prot="protected" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>__ref_storage_v</name></member>
       <member refid="classMR_1_1TerminalVertex_1ace20d92284c3b50713cd1a6d360df74c" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TerminalVertex_1a48bf6f5a7239c413473fa880d5dd6d7b" prot="package" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>Const_TerminalVertex</name></member>
+      <member refid="classMR_1_1Const__TerminalVertex_1ad4cb281cad9663a37291d73ef9ba9770" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>Const_TerminalVertex</name></member>
+      <member refid="classMR_1_1Const__TerminalVertex_1aaf5c6e7c5227447efc253a0d6fc87bcc" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>Const_TerminalVertex</name></member>
+      <member refid="classMR_1_1Const__TerminalVertex_1a9e801578eb53a350ddbb39a740dfd2d9" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>Const_TerminalVertex</name></member>
+      <member refid="classMR_1_1Const__TerminalVertex_1aa60223d5e05df7ef14f65a8e1d430e23" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>Const_TerminalVertex</name></member>
+      <member refid="classMR_1_1Const__TerminalVertex_1abe54b45e9017a1a7d83850decc9e2ad7" prot="protected" virt="virtual"><scope>MR::TerminalVertex</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TerminalVertex_1a9e168ad26e34de8c1baa60e361b482fa" prot="public" virt="virtual"><scope>MR::TerminalVertex</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TerminalVertex_1aa7af4b813af06aededf24f58a0a58d1c" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>metric</name></member>
       <member refid="classMR_1_1TerminalVertex_1a79610407250d6ebc2dd13cf38c108eb5" prot="package" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>TerminalVertex</name></member>
       <member refid="classMR_1_1TerminalVertex_1ab2b3864a778536de7dd9531ab8a13ce7" prot="public" virt="non-virtual"><scope>MR::TerminalVertex</scope><name>TerminalVertex</name></member>

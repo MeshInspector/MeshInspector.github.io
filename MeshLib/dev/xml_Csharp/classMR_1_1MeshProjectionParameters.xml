@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshProjectionParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshProjectionParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshProjectionParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshProjectionParameters" prot="public" virt="non-virtual">MR.Const_MeshProjectionParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshProjectionParameters_1a5ecfd6ff957b6009e02ea2d46b094a45" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -143,7 +143,7 @@
         <name>MeshProjectionParameters</name>
         <qualifiedname>MR.MeshProjectionParameters.MeshProjectionParameters</qualifiedname>
         <param>
-          <type>MR.Const_MeshProjectionParameters</type>
+          <type><ref refid="classMR_1_1Const__MeshProjectionParameters" kindref="compound">MR.Const_MeshProjectionParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshProjectionParameters.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshProjectionParameters</type>
+          <type><ref refid="classMR_1_1Const__MeshProjectionParameters" kindref="compound">MR.Const_MeshProjectionParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshProjectionParameters</label>
+        <link refid="classMR_1_1Const__MeshProjectionParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshProjectionParameters</label>
         <link refid="classMR_1_1MeshProjectionParameters"/>
@@ -229,9 +234,14 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshProjectionParameters</label>
+        <link refid="classMR_1_1Const__MeshProjectionParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_refXf</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,7 +253,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="278" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="279" bodyend="383"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1aa58ba3be5f99b41702c9f22d21a32876" prot="protected" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>__ptr_storage_refXf</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1a0901d1eb69246bcd15e99b176693ae6e" prot="protected" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1a0c355c8d62b4c43d773fbaf9a20528bd" prot="protected" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>__ref_storage_loDistLimitSq</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1ac94eb017e666acbe0c23e11ec3bb515b" prot="protected" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>__ref_storage_upDistLimitSq</name></member>
       <member refid="classMR_1_1MeshProjectionParameters_1a074e1f05831d4a2f619f011459110b02" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1a61886839182a29da09dc602e2aca5278" prot="package" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>Const_MeshProjectionParameters</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1ad36473ad89ccf2386ea6fd8d9d57186c" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>Const_MeshProjectionParameters</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1a7dbec92a22074b3fd4fd971d18aa7a8f" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>Const_MeshProjectionParameters</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1ab2868a17701238d478c993e29e8284bb" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>Const_MeshProjectionParameters</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1a57e0bcea6b456309b8134f04932466ee" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>Const_MeshProjectionParameters</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1ab4c298bc7214fb8e1224ef2c405116cf" prot="protected" virt="virtual"><scope>MR::MeshProjectionParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionParameters_1a00350d104da152260e676b81f8f07b44" prot="public" virt="virtual"><scope>MR::MeshProjectionParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshProjectionParameters_1a5ecfd6ff957b6009e02ea2d46b094a45" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>loDistLimitSq</name></member>
       <member refid="classMR_1_1MeshProjectionParameters_1ae346e3eb38c794ca3ccfd15071ebd1a4" prot="package" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>MeshProjectionParameters</name></member>
       <member refid="classMR_1_1MeshProjectionParameters_1aaacc4df891b909316c0cbab9851f21b1" prot="public" virt="non-virtual"><scope>MR::MeshProjectionParameters</scope><name>MeshProjectionParameters</name></member>

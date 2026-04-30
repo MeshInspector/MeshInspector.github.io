@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SystemPath" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SystemPath</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SystemPath" prot="public" virt="non-virtual">MR.SystemPath</derivedcompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>Directory</name>
+        <qualifiedname>MR.Const_SystemPath.Directory</qualifiedname>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157addcf50c29294d4414f3f7c1bbc892cb5" prot="public">
+          <name>Resources</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>resources (.json, .png) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157a59c4ad3f3cb3d812d68fab7a354d4a63" prot="public">
+          <name>Fonts</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>fonts (.ttf, .otf) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157abb38096ab39160dc20d44f3ea6b44507" prot="public">
+          <name>Plugins</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>plugins (.dll, .so, .dylib) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157aa9b9ad9b15630bfc857db491ee781e53" prot="public">
+          <name>PythonModules</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Python modules (.pyd, .so, .dylib, .pyi) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Python modules (.pyd, .so, .dylib, .pyi) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>directory category </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="138" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="139" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1Const__SystemPath_1a56fc3d78b55ad4923ceadc215a50bbee" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>SystemFontType</name>
+        <qualifiedname>MR.Const_SystemPath.SystemFontType</qualifiedname>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a56fc3d78b55ad4923ceadc215a50bbeead2203cb1237cb6460cbad94564e39345" prot="public">
+          <name>Regular</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a56fc3d78b55ad4923ceadc215a50bbeea114c3050111d8b8ddd830b99ccebd246" prot="public">
+          <name>Bold</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a56fc3d78b55ad4923ceadc215a50bbeea1d874710ccdcd46b95397049d2e7500c" prot="public">
+          <name>Italic</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a56fc3d78b55ad4923ceadc215a50bbeea1e8fb6e2ee37a07189ff20a09cb4d6d5" prot="public">
+          <name>BoldItalic</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SystemPath_1a56fc3d78b55ad4923ceadc215a50bbeeae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="163" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="164" bodyend="170"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1a38e901eaa7968c1c892d61b2f72f47fa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SystemPath.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SystemPath.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1a4193da2f2a748d815fd4c3fe453c612c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SystemPath.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SystemPath.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1a5b57af9a2d3a5427f49edbbada019e14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SystemPath.Const_SystemPath</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SystemPath</name>
+        <qualifiedname>MR.Const_SystemPath.Const_SystemPath</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1a3add1dc44add2d932757a152c3bf7419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SystemPath.Const_SystemPath</definition>
+        <argsstring>(MR.Const_SystemPath _other)</argsstring>
+        <name>Const_SystemPath</name>
+        <qualifiedname>MR.Const_SystemPath.Const_SystemPath</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SystemPath" kindref="compound">MR.Const_SystemPath</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SystemPath_1a3d788aca4435006d0e0002dddb2b420f" kindref="member">MR.SystemPath.SystemPath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="41" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1ad795b3adc77387b3e679fa5ece3f7752" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SystemPath.Const_SystemPath</definition>
+        <argsstring>(SystemPath _other)</argsstring>
+        <name>Const_SystemPath</name>
+        <qualifiedname>MR.Const_SystemPath.Const_SystemPath</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SystemPath" kindref="compound">SystemPath</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SystemPath_1a3d788aca4435006d0e0002dddb2b420f" kindref="member">MR.SystemPath.SystemPath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="52" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1acd7247f1b368532ddbe5591f47144517" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SystemPath.~Const_SystemPath</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SystemPath</name>
+        <qualifiedname>MR.Const_SystemPath.~Const_SystemPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1aac7fdd03fef0ed74b3f12f7e04895843" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SystemPath.Const_SystemPath</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SystemPath</name>
+        <qualifiedname>MR.Const_SystemPath.Const_SystemPath</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1ae5866c6383cdcff01246ca971b269086" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Path</type>
+        <definition>static unsafe MR.Std.Filesystem.Path MR.Const_SystemPath.getDirectory</definition>
+        <argsstring>(MR.SystemPath.Directory dir)</argsstring>
+        <name>getDirectory</name>
+        <qualifiedname>MR.Const_SystemPath.getDirectory</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157" kindref="member">MR.SystemPath.Directory</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>get the directory path for specified category Generated from method <computeroutput><ref refid="classMR_1_1Const__SystemPath_1ae5866c6383cdcff01246ca971b269086" kindref="member">MR.SystemPath.getDirectory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="58" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1aaadb3ded390d06ec23a3ad1d24ae64e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_SystemPath.overrideDirectory</definition>
+        <argsstring>(MR.SystemPath.Directory dir, string path)</argsstring>
+        <name>overrideDirectory</name>
+        <qualifiedname>MR.Const_SystemPath.overrideDirectory</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157" kindref="member">MR.SystemPath.Directory</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>override the directory path for specified category, useful for custom configurations Generated from method <computeroutput><ref refid="classMR_1_1Const__SystemPath_1aaadb3ded390d06ec23a3ad1d24ae64e6" kindref="member">MR.SystemPath.overrideDirectory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="69" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="69" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1a1f22a3b4d3dba765a2eb6140601875d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Path</type>
+        <definition>static unsafe MR.Std.Filesystem.Path MR.Const_SystemPath.getResourcesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getResourcesDirectory</name>
+        <qualifiedname>MR.Const_SystemPath.getResourcesDirectory</qualifiedname>
+        <briefdescription>
+<para>get the resource files' directory path Generated from method <computeroutput><ref refid="classMR_1_1Const__SystemPath_1a1f22a3b4d3dba765a2eb6140601875d1" kindref="member">MR.SystemPath.getResourcesDirectory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="84" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="84" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1acfd58ee05390e051e2034d1a22d51a25" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Path</type>
+        <definition>static unsafe MR.Std.Filesystem.Path MR.Const_SystemPath.getFontsDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getFontsDirectory</name>
+        <qualifiedname>MR.Const_SystemPath.getFontsDirectory</qualifiedname>
+        <briefdescription>
+<para>get the font files' directory path Generated from method <computeroutput><ref refid="classMR_1_1Const__SystemPath_1acfd58ee05390e051e2034d1a22d51a25" kindref="member">MR.SystemPath.getFontsDirectory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="95" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1adf8289351297fd4a358da35a987b5537" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Path</type>
+        <definition>static unsafe MR.Std.Filesystem.Path MR.Const_SystemPath.getPluginsDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getPluginsDirectory</name>
+        <qualifiedname>MR.Const_SystemPath.getPluginsDirectory</qualifiedname>
+        <briefdescription>
+<para>get the plugin binaries' directory path Generated from method <computeroutput><ref refid="classMR_1_1Const__SystemPath_1adf8289351297fd4a358da35a987b5537" kindref="member">MR.SystemPath.getPluginsDirectory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="106" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="106" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1aee4d6f61a1848a19f9d41655af47723a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Path</type>
+        <definition>static unsafe MR.Std.Filesystem.Path MR.Const_SystemPath.getPythonModulesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getPythonModulesDirectory</name>
+        <qualifiedname>MR.Const_SystemPath.getPythonModulesDirectory</qualifiedname>
+        <briefdescription>
+<para>get the Python modules' binaries' directory path Generated from method <computeroutput><ref refid="classMR_1_1Const__SystemPath_1aee4d6f61a1848a19f9d41655af47723a" kindref="member">MR.SystemPath.getPythonModulesDirectory</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="117" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="117" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SystemPath_1a4864b48751a6d438d63dffa0ca9e7a44" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_StdArrayStdFilesystemPath4</type>
+        <definition>static unsafe MR.Std.Const_Vector_StdArrayStdFilesystemPath4 MR.Const_SystemPath.getSystemFonts</definition>
+        <argsstring>()</argsstring>
+        <name>getSystemFonts</name>
+        <qualifiedname>MR.Const_SystemPath.getSystemFonts</qualifiedname>
+        <briefdescription>
+<para>get name all system fonts that have italics, bold, bold italics Generated from method <computeroutput><ref refid="classMR_1_1Const__SystemPath_1a4864b48751a6d438d63dffa0ca9e7a44" kindref="member">MR.SystemPath.getSystemFonts</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="128" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="128" bodyend="133"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>system directory path manager Generated from class <computeroutput><ref refid="classMR_1_1SystemPath" kindref="compound">MR.SystemPath</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SystemPath</label>
+        <link refid="classMR_1_1Const__SystemPath"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SystemPath</label>
+        <link refid="classMR_1_1SystemPath"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_SystemPath</label>
+        <link refid="classMR_1_1Const__SystemPath"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="9" bodyend="171"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SystemPath_1aac7fdd03fef0ed74b3f12f7e04895843" prot="package" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>Const_SystemPath</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a5b57af9a2d3a5427f49edbbada019e14" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>Const_SystemPath</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a3add1dc44add2d932757a152c3bf7419" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>Const_SystemPath</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1ad795b3adc77387b3e679fa5ece3f7752" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>Const_SystemPath</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>Directory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a38e901eaa7968c1c892d61b2f72f47fa" prot="protected" virt="virtual"><scope>MR::Const_SystemPath</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a4193da2f2a748d815fd4c3fe453c612c" prot="public" virt="virtual"><scope>MR::Const_SystemPath</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1ae5866c6383cdcff01246ca971b269086" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>getDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1acfd58ee05390e051e2034d1a22d51a25" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>getFontsDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1adf8289351297fd4a358da35a987b5537" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>getPluginsDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1aee4d6f61a1848a19f9d41655af47723a" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>getPythonModulesDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a1f22a3b4d3dba765a2eb6140601875d1" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>getResourcesDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a4864b48751a6d438d63dffa0ca9e7a44" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>getSystemFonts</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1aaadb3ded390d06ec23a3ad1d24ae64e6" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>overrideDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a56fc3d78b55ad4923ceadc215a50bbee" prot="public" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>SystemFontType</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1acd7247f1b368532ddbe5591f47144517" prot="private" virt="non-virtual"><scope>MR::Const_SystemPath</scope><name>~Const_SystemPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

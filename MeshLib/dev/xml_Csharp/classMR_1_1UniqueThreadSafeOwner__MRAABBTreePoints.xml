@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints" kind="class" language="C#" prot="public">
     <compoundname>MR::UniqueThreadSafeOwner_MRAABBTreePoints</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints" prot="public" virt="non-virtual">MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a44c1d6f5f20467035397f08d2979fe48" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>UniqueThreadSafeOwner_MRAABBTreePoints</name>
         <qualifiedname>MR.UniqueThreadSafeOwner_MRAABBTreePoints.UniqueThreadSafeOwner_MRAABBTreePoints</qualifiedname>
         <param>
-          <type>Const_UniqueThreadSafeOwner_MRAABBTreePoints</type>
+          <type><ref refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints" kindref="compound">Const_UniqueThreadSafeOwner_MRAABBTreePoints</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -202,6 +202,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints</label>
+        <link refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -223,6 +224,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UniqueThreadSafeOwner_MRAABBTreePoints</label>
+        <link refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -238,8 +240,16 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" line="305" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueThreadSafeOwner.cs" bodystart="306" bodyend="399"/>
     <listofallmembers>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a0301c6be86c956efb4385be13cce9e2b" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1aee2e8770e87b447ff17024daf7b7a4e8" prot="package" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Const_UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a912cfdefd1fb1f9da5351e3b3338b903" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Const_UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1acfd1132bcc71f224e0bac17b4e0613b9" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Const_UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a4247c5610eed5332fba3271ac9859ab1" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Const_UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a3103ec2e3856bd19d08134d37ddcbb1d" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Const_UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1aa438c95dc55f6e9a938fc41fc514781b" prot="protected" virt="virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a55bbfc2784259214f485f36633315436" prot="public" virt="virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a897efe6fa045e20e7dfe5d0ffd8e8330" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>get</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a8e495c00181352d9c897c7dc2e7743b8" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>getOrCreate</name></member>
+      <member refid="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints_1a384c75682b37703cfa7c4885da88a915" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a8fe6d316a9e199472f0167de0ef8c35d" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>reset</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a44c1d6f5f20467035397f08d2979fe48" prot="package" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>UniqueThreadSafeOwner_MRAABBTreePoints</name></member>
       <member refid="classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints_1a71233dd249a625094860a0db9893156b" prot="public" virt="non-virtual"><scope>MR::UniqueThreadSafeOwner_MRAABBTreePoints</scope><name>UniqueThreadSafeOwner_MRAABBTreePoints</name></member>

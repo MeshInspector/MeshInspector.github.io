@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__GeneralOffsetParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_GeneralOffsetParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1GeneralOffsetParameters" prot="public" virt="non-virtual">MR.GeneralOffsetParameters</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1a0f282ba686b2b43ece071ff2329ad3a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">MR.OffsetMode</ref></type>
+        <definition>unsafe MR.OffsetMode MR.Const_GeneralOffsetParameters.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1273" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1a65f841e18abc1a4d176495abcf9349fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.? UndirectedEdgeBitSet MR.Const_GeneralOffsetParameters.outSharpEdges</definition>
+        <argsstring></argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.outSharpEdges</qualifiedname>
+        <briefdescription>
+<para>if non-null then created sharp edges will be saved here </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1279" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1280" bodyend="1291"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1a95cc77d86dbe1ba5d236786096258572" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GeneralOffsetParameters.minNewVertDev</definition>
+        <argsstring></argsstring>
+        <name>minNewVertDev</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.minNewVertDev</qualifiedname>
+        <briefdescription>
+<para>minimal surface deviation to introduce new vertex in a voxel, measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1297" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1a52fbaa1d8beb9b328041a10b265ad5a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GeneralOffsetParameters.maxNewRank2VertDev</definition>
+        <argsstring></argsstring>
+        <name>maxNewRank2VertDev</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.maxNewRank2VertDev</qualifiedname>
+        <briefdescription>
+<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes), measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1303" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1a05f9dfc080e23edceee53c09b820aa41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GeneralOffsetParameters.maxNewRank3VertDev</definition>
+        <argsstring></argsstring>
+        <name>maxNewRank3VertDev</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.maxNewRank3VertDev</qualifiedname>
+        <briefdescription>
+<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1309" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1aed08fcfa33f634d1b5ef520f8c75f2f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GeneralOffsetParameters.maxOldVertPosCorrection</definition>
+        <argsstring></argsstring>
+        <name>maxOldVertPosCorrection</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.maxOldVertPosCorrection</qualifiedname>
+        <briefdescription>
+<para>correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1316" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1ab9cb2d6be21aa773b4715f1ce7e50829" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a616095899064d3af43a1861f0ae70fed" kindref="member">MR.SignDetectionMode</ref></type>
+        <definition>unsafe MR.SignDetectionMode MR.Const_GeneralOffsetParameters.signDetectionMode</definition>
+        <argsstring></argsstring>
+        <name>signDetectionMode</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.signDetectionMode</qualifiedname>
+        <briefdescription>
+<para>determines the method to compute distance sign </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1322" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1a54e3e3b20a51882f072ae3dee69cad0b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GeneralOffsetParameters.closeHolesInHoleWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>closeHolesInHoleWindingNumber</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.closeHolesInHoleWindingNumber</qualifiedname>
+        <briefdescription>
+<para>whether to construct closed mesh in signMode = <ref refid="classMR_1aacd4e54997154b3fd8baece917df2044a748273fc30eaf6ab0c262df0bfb86f68" kindref="member">SignDetectionModeShort.HoleWindingNumber</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1328" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1af36ffc2bc8d00f14115894f123c78c70" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GeneralOffsetParameters.windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.windingNumberThreshold</qualifiedname>
+        <briefdescription>
+<para>only for <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1336" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1a1b1c57cfb2115ca331cd343ee65a94d4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GeneralOffsetParameters.windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.windingNumberBeta</qualifiedname>
+        <briefdescription>
+<para>only for <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1343" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1afb461c42c3dd8359fea10024e11f2738" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_SharedPtr_MRIFastWindingNumber</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_MRIFastWindingNumber MR.Const_GeneralOffsetParameters.fwn</definition>
+        <argsstring></argsstring>
+        <name>fwn</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.fwn</qualifiedname>
+        <briefdescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings. If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used this only used if signDetectionMode == <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>, otherwise it is ignored providing this will disable memoryEfficient (as if memoryEfficient == false) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1351" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1351" bodyend="1351"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1abe5fc4112cc92ccc25342e6696476141" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GeneralOffsetParameters.memoryEfficient</definition>
+        <argsstring></argsstring>
+        <name>memoryEfficient</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.memoryEfficient</qualifiedname>
+        <briefdescription>
+<para>use <ref refid="classMR_1_1FunctionVolume" kindref="compound">FunctionVolume</ref> for voxel grid representation: </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser</para>
+</listitem><listitem><para>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda011b949ced7ed48dafe7b08ae740dae9" kindref="member">SignDetectionMode.OpenVDB</ref>, or b) <ref refid="classMR_1_1Const__GeneralOffsetParameters_1afb461c42c3dd8359fea10024e11f2738" kindref="member">fwn</ref> is provided (CUDA computations require full memory storage) used only by <ref refid="classMR_1ae72f1f0048d06bd678b000a3c48b3e67" kindref="member">mcOffsetMesh</ref> and <ref refid="classMR_1a38ffb830955994b7e6a635b6aae21b26" kindref="member">sharpOffsetMesh</ref> methods </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1362" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1ab44c36675347879b08bf3937404ad3ae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GeneralOffsetParameters.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.voxelSize</qualifiedname>
+        <briefdescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1369" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeneralOffsetParameters_1a074c2b6addba893afd3a83b929485eda" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_GeneralOffsetParameters.callBack</definition>
+        <argsstring></argsstring>
+        <name>callBack</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.callBack</qualifiedname>
+        <briefdescription>
+<para>Progress callback. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1375" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1375" bodyend="1375"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a705b3e18c837b106c2c59bb000e1529f" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98" kindref="member">MR.OffsetMode</ref> *</type>
+        <definition>unsafe MR.OffsetMode* MR.Const_GeneralOffsetParameters.__ref_storage_mode</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_mode</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1274" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a7bd01649d50db041504268924f7f4cfa" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet._Underlying** MR.Const_GeneralOffsetParameters.__ptr_storage_outSharpEdges</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outSharpEdges</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ptr_storage_outSharpEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1292" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a96e7d8a7dc995c0df67f57366ce2cffd" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GeneralOffsetParameters.__ref_storage_minNewVertDev</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minNewVertDev</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_minNewVertDev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1298" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a4fe88f7a5c46b7c0e21b899df70ec3cb" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GeneralOffsetParameters.__ref_storage_maxNewRank2VertDev</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxNewRank2VertDev</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_maxNewRank2VertDev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1304" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a6d7d31fb5bf4e9d4d5a57e0a12216286" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GeneralOffsetParameters.__ref_storage_maxNewRank3VertDev</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxNewRank3VertDev</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_maxNewRank3VertDev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1310" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a26216db7172ecb89897ba4906ec9c2b4" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GeneralOffsetParameters.__ref_storage_maxOldVertPosCorrection</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxOldVertPosCorrection</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_maxOldVertPosCorrection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1317" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1aa0e6fddb2569e3a1e2a5c5d03437cd09" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a616095899064d3af43a1861f0ae70fed" kindref="member">MR.SignDetectionMode</ref> *</type>
+        <definition>unsafe MR.SignDetectionMode* MR.Const_GeneralOffsetParameters.__ref_storage_signDetectionMode</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_signDetectionMode</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_signDetectionMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1323" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a8ac7b19e5ee32e95bbcd74d359ea0380" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_GeneralOffsetParameters.__ref_storage_closeHolesInHoleWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_closeHolesInHoleWindingNumber</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_closeHolesInHoleWindingNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1329" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a04562d48653b2a21ff9ceb97dafff6dc" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GeneralOffsetParameters.__ref_storage_windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_windingNumberThreshold</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_windingNumberThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1337" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1abd640d792f728ecd7ec9ecdb460af415" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GeneralOffsetParameters.__ref_storage_windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_windingNumberBeta</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_windingNumberBeta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1344" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a78957df9dccf19dee967d56af9a952b9" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_GeneralOffsetParameters.__ref_storage_memoryEfficient</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_memoryEfficient</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_memoryEfficient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1363" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GeneralOffsetParameters_1a68cea14679b9b812cf99c9ce0ceb32bf" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GeneralOffsetParameters.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1370" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1370" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1ab4edc22bbde164f8518804c27805c458" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_GeneralOffsetParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1235" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1235" bodyend="1243"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1a7b00460aab1d250d8922e55ae383a2b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_GeneralOffsetParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1244" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1244" bodyend="1244"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1ab37b16c23d17c3104d6cf5d43b618a5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_GeneralOffsetParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1482" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1482" bodyend="1488"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1ac62711ebe07268883fa200a47c447d86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</definition>
+        <argsstring>(MR._ByValue_GeneralOffsetParameters _other)</argsstring>
+        <name>Const_GeneralOffsetParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</qualifiedname>
+        <param>
+          <type>MR._ByValue_GeneralOffsetParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GeneralOffsetParameters_1a3174f7ffd455fc609b29bff1269aeec7" kindref="member">MR.GeneralOffsetParameters.GeneralOffsetParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1493" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1493" bodyend="1500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1ac18a7f660c63a66cc6cb1c00f8e6f072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</definition>
+        <argsstring>(Const_GeneralOffsetParameters _other)</argsstring>
+        <name>Const_GeneralOffsetParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GeneralOffsetParameters" kindref="compound">Const_GeneralOffsetParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GeneralOffsetParameters_1a3174f7ffd455fc609b29bff1269aeec7" kindref="member">MR.GeneralOffsetParameters.GeneralOffsetParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1505" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1505" bodyend="1505"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1a3128d4e8203f39831ed06336c6ca7858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</definition>
+        <argsstring>(GeneralOffsetParameters _other)</argsstring>
+        <name>Const_GeneralOffsetParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GeneralOffsetParameters" kindref="compound">GeneralOffsetParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GeneralOffsetParameters_1a3174f7ffd455fc609b29bff1269aeec7" kindref="member">MR.GeneralOffsetParameters.GeneralOffsetParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1510" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1510" bodyend="1510"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1ab1b36257c8c114d2ef40c8403fe05d65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GeneralOffsetParameters.~Const_GeneralOffsetParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_GeneralOffsetParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.~Const_GeneralOffsetParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1245" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1245" bodyend="1245"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1a7c7b93bbdabc290085739609e57e4e79" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_GeneralOffsetParameters.operator MR.Const_BaseShellParameters</definition>
+        <argsstring>(Const_GeneralOffsetParameters self)</argsstring>
+        <name>operator MR.Const_BaseShellParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.operator MR.Const_BaseShellParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GeneralOffsetParameters" kindref="compound">Const_GeneralOffsetParameters</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1248" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1248" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1afb83781294cbbae09958799be3eb84db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_GeneralOffsetParameters.operator MR.Const_OffsetParameters</definition>
+        <argsstring>(Const_GeneralOffsetParameters self)</argsstring>
+        <name>operator MR.Const_OffsetParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.operator MR.Const_OffsetParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GeneralOffsetParameters" kindref="compound">Const_GeneralOffsetParameters</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1256" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1256" bodyend="1263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1af3a7008ca400049cfde8d550957abe10" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_GeneralOffsetParameters.operator MR.Const_SharpOffsetParameters</definition>
+        <argsstring>(Const_GeneralOffsetParameters self)</argsstring>
+        <name>operator MR.Const_SharpOffsetParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.operator MR.Const_SharpOffsetParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GeneralOffsetParameters" kindref="compound">Const_GeneralOffsetParameters</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1264" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1264" bodyend="1271"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeneralOffsetParameters_1a054f978690490f31e1dcac55f554d6fc" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_GeneralOffsetParameters</name>
+        <qualifiedname>MR.Const_GeneralOffsetParameters.Const_GeneralOffsetParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1471" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1471" bodyend="1476"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>allows the user to select in the parameters which offset algorithm to call Generated from class <computeroutput><ref refid="classMR_1_1GeneralOffsetParameters" kindref="compound">MR.GeneralOffsetParameters</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SharpOffsetParameters" kindref="compound">MR.SharpOffsetParameters</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1BaseShellParameters" kindref="compound">MR.BaseShellParameters</ref></computeroutput> <computeroutput><ref refid="classMR_1_1OffsetParameters" kindref="compound">MR.OffsetParameters</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_GeneralOffsetParameters</label>
+        <link refid="classMR_1_1Const__GeneralOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.GeneralOffsetParameters</label>
+        <link refid="classMR_1_1GeneralOffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_GeneralOffsetParameters</label>
+        <link refid="classMR_1_1Const__GeneralOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_outSharpEdges</edgelabel>
+          <edgelabel>__ref_storage_mode</edgelabel>
+          <edgelabel>__ref_storage_signDetectionMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="1229" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="1230" bodyend="1511"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a7bd01649d50db041504268924f7f4cfa" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ptr_storage_outSharpEdges</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a8ac7b19e5ee32e95bbcd74d359ea0380" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a4fe88f7a5c46b7c0e21b899df70ec3cb" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_maxNewRank2VertDev</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a6d7d31fb5bf4e9d4d5a57e0a12216286" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_maxNewRank3VertDev</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a26216db7172ecb89897ba4906ec9c2b4" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_maxOldVertPosCorrection</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a78957df9dccf19dee967d56af9a952b9" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_memoryEfficient</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a96e7d8a7dc995c0df67f57366ce2cffd" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_minNewVertDev</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a705b3e18c837b106c2c59bb000e1529f" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_mode</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1aa0e6fddb2569e3a1e2a5c5d03437cd09" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_signDetectionMode</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a68cea14679b9b812cf99c9ce0ceb32bf" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1abd640d792f728ecd7ec9ecdb460af415" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a04562d48653b2a21ff9ceb97dafff6dc" prot="protected" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>__ref_storage_windingNumberThreshold</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a074c2b6addba893afd3a83b929485eda" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>callBack</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a54e3e3b20a51882f072ae3dee69cad0b" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a054f978690490f31e1dcac55f554d6fc" prot="package" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>Const_GeneralOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1ab37b16c23d17c3104d6cf5d43b618a5a" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>Const_GeneralOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1ac62711ebe07268883fa200a47c447d86" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>Const_GeneralOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1ac18a7f660c63a66cc6cb1c00f8e6f072" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>Const_GeneralOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a3128d4e8203f39831ed06336c6ca7858" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>Const_GeneralOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1ab4edc22bbde164f8518804c27805c458" prot="protected" virt="virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a7b00460aab1d250d8922e55ae383a2b3" prot="public" virt="virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1afb461c42c3dd8359fea10024e11f2738" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>fwn</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a52fbaa1d8beb9b328041a10b265ad5a4" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a05f9dfc080e23edceee53c09b820aa41" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1aed08fcfa33f634d1b5ef520f8c75f2f7" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1abe5fc4112cc92ccc25342e6696476141" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a95cc77d86dbe1ba5d236786096258572" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>minNewVertDev</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a0f282ba686b2b43ece071ff2329ad3a1" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>mode</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a7c7b93bbdabc290085739609e57e4e79" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>operator MR.Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1afb83781294cbbae09958799be3eb84db" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>operator MR.Const_OffsetParameters</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1af3a7008ca400049cfde8d550957abe10" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>operator MR.Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a65f841e18abc1a4d176495abcf9349fa" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>outSharpEdges</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1ab9cb2d6be21aa773b4715f1ce7e50829" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1ab44c36675347879b08bf3937404ad3ae" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1a1b1c57cfb2115ca331cd343ee65a94d4" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1af36ffc2bc8d00f14115894f123c78c70" prot="public" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>windingNumberThreshold</name></member>
+      <member refid="classMR_1_1Const__GeneralOffsetParameters_1ab1b36257c8c114d2ef40c8403fe05d65" prot="private" virt="non-virtual"><scope>MR::Const_GeneralOffsetParameters</scope><name>~Const_GeneralOffsetParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

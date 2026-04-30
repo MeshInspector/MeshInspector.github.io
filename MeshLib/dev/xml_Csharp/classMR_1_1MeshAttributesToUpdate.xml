@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshAttributesToUpdate" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshAttributesToUpdate</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshAttributesToUpdate</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshAttributesToUpdate" prot="public" virt="non-virtual">MR.Const_MeshAttributesToUpdate</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshAttributesToUpdate_1a91502180133e531369333ee6e3fbe10f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
@@ -139,7 +139,7 @@
         <name>MeshAttributesToUpdate</name>
         <qualifiedname>MR.MeshAttributesToUpdate.MeshAttributesToUpdate</qualifiedname>
         <param>
-          <type>MR.Const_MeshAttributesToUpdate</type>
+          <type><ref refid="classMR_1_1Const__MeshAttributesToUpdate" kindref="compound">MR.Const_MeshAttributesToUpdate</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -177,7 +177,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshAttributesToUpdate.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshAttributesToUpdate</type>
+          <type><ref refid="classMR_1_1Const__MeshAttributesToUpdate" kindref="compound">MR.Const_MeshAttributesToUpdate</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshAttributesToUpdate</label>
+        <link refid="classMR_1_1Const__MeshAttributesToUpdate"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -217,6 +218,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshAttributesToUpdate</label>
         <link refid="classMR_1_1MeshAttributesToUpdate"/>
@@ -225,9 +230,16 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshAttributesToUpdate</label>
+        <link refid="classMR_1_1Const__MeshAttributesToUpdate"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_colorMap</edgelabel>
+          <edgelabel>__ptr_storage_faceColors</edgelabel>
+          <edgelabel>__ptr_storage_texturePerFace</edgelabel>
+          <edgelabel>__ptr_storage_uvCoords</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -239,8 +251,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" line="175" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshAttributesToUpdate.cs" bodystart="176" bodyend="288"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1a9fd3591853c6a6c3bb3e34e512b1018e" prot="protected" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>__ptr_storage_colorMap</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1a9e04354b8e1f666af331527a89ef1076" prot="protected" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>__ptr_storage_faceColors</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1afba0ea4749ae71e3daa5c3917891445f" prot="protected" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>__ptr_storage_texturePerFace</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1a124ec158017333213043c496f1e49df3" prot="protected" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>__ptr_storage_uvCoords</name></member>
       <member refid="classMR_1_1MeshAttributesToUpdate_1a2a39e0daddb8330ec094f3055b82e42c" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshAttributesToUpdate_1ad2913c54843bca4a36c61e3629682356" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>colorMap</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1afcba808e5bc7c43cd7e4701d97d73d70" prot="package" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>Const_MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1aad1e70552a75019c201221168170544d" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>Const_MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1ab8f5e3d7af05acf341ed87c93b6cec53" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>Const_MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1a273cfa32d924b06866bfe695a4afdd71" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>Const_MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1a63c446df1b6c8db75b0cc1370e187031" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>Const_MeshAttributesToUpdate</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1ae43661deb8fa3696e5e018f0e1b60a69" prot="protected" virt="virtual"><scope>MR::MeshAttributesToUpdate</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshAttributesToUpdate_1a8d48470826af692ae048391d041e63ec" prot="public" virt="virtual"><scope>MR::MeshAttributesToUpdate</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshAttributesToUpdate_1aa1faf6f123f79ee1c713c77ce65ac07e" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>faceColors</name></member>
       <member refid="classMR_1_1MeshAttributesToUpdate_1abfe3ddf3abd04ea248bf2c472bfec2d8" prot="package" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>MeshAttributesToUpdate</name></member>
       <member refid="classMR_1_1MeshAttributesToUpdate_1aa9a75c7696443619866dc2fe111d5285" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>MeshAttributesToUpdate</name></member>

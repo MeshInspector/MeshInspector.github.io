@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IsVisualizeMaskEnum__MRLinesVisualizePropertyType" kind="class" language="C#" prot="public">
     <compoundname>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType" prot="public" virt="non-virtual">MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a0c580d1fe19ef667b027b66195891f48" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>IsVisualizeMaskEnum_MRLinesVisualizePropertyType</name>
         <qualifiedname>MR.IsVisualizeMaskEnum_MRLinesVisualizePropertyType.IsVisualizeMaskEnum_MRLinesVisualizePropertyType</qualifiedname>
         <param>
-          <type>MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</type>
+          <type><ref refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType" kindref="compound">MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.IsVisualizeMaskEnum_MRLinesVisualizePropertyType.assign</qualifiedname>
         <param>
-          <type>MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</type>
+          <type><ref refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType" kindref="compound">MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</label>
+        <link refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</label>
+        <link refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="2462" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="2463" bodyend="2503"/>
     <listofallmembers>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a42854927ae46053effbe0dad90843733" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a2a97f97f8e2f2e6473270abd846d9b53" prot="package" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a86c9a4e2506738722d10a65c106ebfe4" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a3ef294fdcc7f17fc317a03ac3c91ac06" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1ab78192ee636838a7b4e77c74a86963e1" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>Const_IsVisualizeMaskEnum_MRLinesVisualizePropertyType</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a2549d8bc4877f0a210b41f91104ef90c" prot="protected" virt="virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a83d7236a5a64a99ddf8570bf99aeb37d" prot="public" virt="virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a0c580d1fe19ef667b027b66195891f48" prot="package" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>IsVisualizeMaskEnum_MRLinesVisualizePropertyType</name></member>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a563990daee3a40e26c80ae28c2b58d8c" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>IsVisualizeMaskEnum_MRLinesVisualizePropertyType</name></member>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRLinesVisualizePropertyType_1a72c64d17689dfb1fac1563b058deba9d" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRLinesVisualizePropertyType</scope><name>IsVisualizeMaskEnum_MRLinesVisualizePropertyType</name></member>

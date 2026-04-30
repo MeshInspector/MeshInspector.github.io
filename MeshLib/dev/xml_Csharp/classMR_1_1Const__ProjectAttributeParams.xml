@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ProjectAttributeParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ProjectAttributeParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ProjectAttributeParams" prot="public" virt="non-virtual">MR.ProjectAttributeParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ProjectAttributeParams_1acc5d799496584199b6351676f29158b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshProjectionTransforms" kindref="compound">MR.Const_MeshProjectionTransforms</ref></type>
+        <definition>unsafe MR.Const_MeshProjectionTransforms MR.Const_ProjectAttributeParams.xfs</definition>
+        <argsstring></argsstring>
+        <name>xfs</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.xfs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="26" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ProjectAttributeParams_1a02914db6d5afdeddabe4e90b19241ce9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_ProjectAttributeParams.progressCb</definition>
+        <argsstring></argsstring>
+        <name>progressCb</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.progressCb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="28" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1a6b3f74409afee1f2a1c5e5f148ac3f41" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ProjectAttributeParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1a02284a2cba5bba8744adfe01f85f84e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ProjectAttributeParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1a30e8ebb9ea4f48e078c6c5f866224a9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ProjectAttributeParams</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="63" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1ab1c835a0f020f848fddf2fe26b418232" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</definition>
+        <argsstring>(MR.Const_MeshProjectionTransforms xfs, MR.Std._ByValue_Function_Bool_From_Float progressCb)</argsstring>
+        <name>Const_ProjectAttributeParams</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshProjectionTransforms" kindref="compound">MR.Const_MeshProjectionTransforms</ref></type>
+          <declname>xfs</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progressCb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ProjectAttributeParams" kindref="compound">MR.ProjectAttributeParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="74" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="74" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1a14f971fb58efd0ea8f27ff0a483cf685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</definition>
+        <argsstring>(MR._ByValue_ProjectAttributeParams _other)</argsstring>
+        <name>Const_ProjectAttributeParams</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_ProjectAttributeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" kindref="member">MR.ProjectAttributeParams.ProjectAttributeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="87" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="87" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1ade07f3bf9bbd1b5273bd52a370066781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</definition>
+        <argsstring>(Const_ProjectAttributeParams _other)</argsstring>
+        <name>Const_ProjectAttributeParams</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ProjectAttributeParams" kindref="compound">Const_ProjectAttributeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" kindref="member">MR.ProjectAttributeParams.ProjectAttributeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="99" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1a215676621c573e664de813eba0890d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</definition>
+        <argsstring>(ProjectAttributeParams _other)</argsstring>
+        <name>Const_ProjectAttributeParams</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ProjectAttributeParams" kindref="compound">ProjectAttributeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ProjectAttributeParams_1a4b1031894caea857426e7ca8218954cb" kindref="member">MR.ProjectAttributeParams.ProjectAttributeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="104" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1a56bcb42b403123c47a60570a253f990a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ProjectAttributeParams.~Const_ProjectAttributeParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ProjectAttributeParams</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.~Const_ProjectAttributeParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ProjectAttributeParams_1a5c686ecae92a948a0987c61c6b24cbd1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ProjectAttributeParams</name>
+        <qualifiedname>MR.Const_ProjectAttributeParams.Const_ProjectAttributeParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="52" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this structure contains transformation for projection from one mesh to another and progress callback Generated from class <computeroutput><ref refid="classMR_1_1ProjectAttributeParams" kindref="compound">MR.ProjectAttributeParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ProjectAttributeParams</label>
+        <link refid="classMR_1_1Const__ProjectAttributeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ProjectAttributeParams</label>
+        <link refid="classMR_1_1ProjectAttributeParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ProjectAttributeParams</label>
+        <link refid="classMR_1_1Const__ProjectAttributeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProjectionMeshAttribute.cs" bodystart="9" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1a5c686ecae92a948a0987c61c6b24cbd1" prot="package" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>Const_ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1a30e8ebb9ea4f48e078c6c5f866224a9d" prot="public" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>Const_ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1ab1c835a0f020f848fddf2fe26b418232" prot="public" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>Const_ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1a14f971fb58efd0ea8f27ff0a483cf685" prot="public" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>Const_ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1ade07f3bf9bbd1b5273bd52a370066781" prot="public" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>Const_ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1a215676621c573e664de813eba0890d83" prot="public" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>Const_ProjectAttributeParams</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1a6b3f74409afee1f2a1c5e5f148ac3f41" prot="protected" virt="virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1a02284a2cba5bba8744adfe01f85f84e5" prot="public" virt="virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1a02914db6d5afdeddabe4e90b19241ce9" prot="public" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>progressCb</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1acc5d799496584199b6351676f29158b3" prot="public" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>xfs</name></member>
+      <member refid="classMR_1_1Const__ProjectAttributeParams_1a56bcb42b403123c47a60570a253f990a" prot="private" virt="non-virtual"><scope>MR::Const_ProjectAttributeParams</scope><name>~Const_ProjectAttributeParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

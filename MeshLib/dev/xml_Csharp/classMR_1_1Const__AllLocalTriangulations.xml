@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__AllLocalTriangulations" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_AllLocalTriangulations</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1AllLocalTriangulations" prot="public" virt="non-virtual">MR.AllLocalTriangulations</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__AllLocalTriangulations_1ae43a1c4ce9f1404e2cf578113833be62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Buffer__MRVertId" kindref="compound">MR.Const_Buffer_MRVertId</ref></type>
+        <definition>unsafe MR.Const_Buffer_MRVertId MR.Const_AllLocalTriangulations.neighbors</definition>
+        <argsstring></argsstring>
+        <name>neighbors</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.neighbors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="876" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="876" bodyend="876"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__AllLocalTriangulations_1a0188e398d18ad64b18d0e7571dd19146" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId" kindref="compound">MR.Const_Vector_MRFanRecord_MRVertId</ref></type>
+        <definition>unsafe MR.Const_Vector_MRFanRecord_MRVertId MR.Const_AllLocalTriangulations.fanRecords</definition>
+        <argsstring></argsstring>
+        <name>fanRecords</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.fanRecords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="878" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="878" bodyend="878"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1adfcbe19e861a19e5f0a7bbb3763797da" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_AllLocalTriangulations.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="864" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="864" bodyend="872"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1ac3233d1cbe782345aef9694878f5c840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_AllLocalTriangulations.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="873" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="873" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1ade530919e7eed86c3f38f9861327cb2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AllLocalTriangulations.Const_AllLocalTriangulations</definition>
+        <argsstring>()</argsstring>
+        <name>Const_AllLocalTriangulations</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.Const_AllLocalTriangulations</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="913" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="913" bodyend="919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1ad486c6d2a0c9df07eb05256bb3031ce7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AllLocalTriangulations.Const_AllLocalTriangulations</definition>
+        <argsstring>(MR._ByValue_Buffer_MRVertId neighbors, MR._ByValue_Vector_MRFanRecord_MRVertId fanRecords)</argsstring>
+        <name>Const_AllLocalTriangulations</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.Const_AllLocalTriangulations</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRVertId</type>
+          <declname>neighbors</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_Vector_MRFanRecord_MRVertId</type>
+          <declname>fanRecords</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1AllLocalTriangulations" kindref="compound">MR.AllLocalTriangulations</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="924" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="924" bodyend="932"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1a6e5de51511cce5fd478e60dbfd638591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AllLocalTriangulations.Const_AllLocalTriangulations</definition>
+        <argsstring>(MR._ByValue_AllLocalTriangulations _other)</argsstring>
+        <name>Const_AllLocalTriangulations</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.Const_AllLocalTriangulations</qualifiedname>
+        <param>
+          <type>MR._ByValue_AllLocalTriangulations</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AllLocalTriangulations_1a02101b315bbacacf59102283f2b6c21a" kindref="member">MR.AllLocalTriangulations.AllLocalTriangulations</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="937" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="937" bodyend="944"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1a64011c65bc2a427391254c68203df3c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AllLocalTriangulations.~Const_AllLocalTriangulations</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_AllLocalTriangulations</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.~Const_AllLocalTriangulations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="874" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="874" bodyend="874"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__AllLocalTriangulations_1ad876baa7aa1eee5e4ba6182cdd69c034" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AllLocalTriangulations.Const_AllLocalTriangulations</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_AllLocalTriangulations</name>
+        <qualifiedname>MR.Const_AllLocalTriangulations.Const_AllLocalTriangulations</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="902" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="902" bodyend="907"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>triangulations for all points, with easy access by <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref> Generated from class <computeroutput><ref refid="classMR_1_1AllLocalTriangulations" kindref="compound">MR.AllLocalTriangulations</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_AllLocalTriangulations</label>
+        <link refid="classMR_1_1Const__AllLocalTriangulations"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.AllLocalTriangulations</label>
+        <link refid="classMR_1_1AllLocalTriangulations"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_AllLocalTriangulations</label>
+        <link refid="classMR_1_1Const__AllLocalTriangulations"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="858" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="859" bodyend="945"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ad876baa7aa1eee5e4ba6182cdd69c034" prot="package" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ade530919e7eed86c3f38f9861327cb2f" prot="public" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ad486c6d2a0c9df07eb05256bb3031ce7" prot="public" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1a6e5de51511cce5fd478e60dbfd638591" prot="public" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1adfcbe19e861a19e5f0a7bbb3763797da" prot="protected" virt="virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ac3233d1cbe782345aef9694878f5c840" prot="public" virt="virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1a0188e398d18ad64b18d0e7571dd19146" prot="public" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>fanRecords</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ae43a1c4ce9f1404e2cf578113833be62" prot="public" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>neighbors</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1a64011c65bc2a427391254c68203df3c5" prot="private" virt="non-virtual"><scope>MR::Const_AllLocalTriangulations</scope><name>~Const_AllLocalTriangulations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

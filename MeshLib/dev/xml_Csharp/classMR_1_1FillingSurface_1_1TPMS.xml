@@ -2,6 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillingSurface_1_1TPMS" kind="class" language="C#" prot="public">
     <compoundname>MR::FillingSurface::TPMS</compoundname>
+    <innerclass refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__MeshParams" prot="public">MR::FillingSurface::TPMS::Const_MeshParams</innerclass>
+    <innerclass refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams" prot="public">MR::FillingSurface::TPMS::Const_VolumeParams</innerclass>
     <innerclass refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" prot="public">MR::FillingSurface::TPMS::MeshParams</innerclass>
     <innerclass refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" prot="public">MR::FillingSurface::TPMS::VolumeParams</innerclass>
     <sectiondef kind="public-type">
@@ -120,7 +122,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.FillingSurface.TPMS.Const_VolumeParams</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams" kindref="compound">MR.FillingSurface.TPMS.Const_VolumeParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -155,7 +157,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.FillingSurface.TPMS.Const_MeshParams</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__MeshParams" kindref="compound">MR.FillingSurface.TPMS.Const_MeshParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -179,11 +181,11 @@
         <name>fill</name>
         <qualifiedname>MR.FillingSurface.TPMS.fill</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.FillingSurface.TPMS.Const_MeshParams</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__MeshParams" kindref="compound">MR.FillingSurface.TPMS.Const_MeshParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -207,7 +209,7 @@
         <name>getNumberOfVoxels</name>
         <qualifiedname>MR.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>

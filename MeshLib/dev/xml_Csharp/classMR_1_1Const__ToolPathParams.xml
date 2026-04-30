@@ -1,0 +1,893 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ToolPathParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ToolPathParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ToolPathParams" prot="public" virt="non-virtual">MR.ToolPathParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a1273014c82a25b52b0bc696e098017f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.millRadius</definition>
+        <argsstring></argsstring>
+        <name>millRadius</name>
+        <qualifiedname>MR.Const_ToolPathParams.millRadius</qualifiedname>
+        <briefdescription>
+<para>radius of the milling tool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="47" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a05b01246466f1e570cb3eef742f565cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.Const_ToolPathParams.voxelSize</qualifiedname>
+        <briefdescription>
+<para>size of voxel needed to offset mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="53" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a02e11b252bc556bafdc8dcce4ebd0602" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.sectionStep</definition>
+        <argsstring></argsstring>
+        <name>sectionStep</name>
+        <qualifiedname>MR.Const_ToolPathParams.sectionStep</qualifiedname>
+        <briefdescription>
+<para>distance between sections built along Z axis; in Constant Cusp mode sectionStep should be bigger than voxelSize (x1.2 or more is recommended) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="60" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a5213c9671a04b9df2b4322baa50f945d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.critTransitionLength</definition>
+        <argsstring></argsstring>
+        <name>critTransitionLength</name>
+        <qualifiedname>MR.Const_ToolPathParams.critTransitionLength</qualifiedname>
+        <briefdescription>
+<para>if distance to the next section is smaller than it, transition will be performed along the surface; otherwise transition will be through the safe plane </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="67" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a23cfeec2c9dd129fcd1adab9e71c2db5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.plungeLength</definition>
+        <argsstring></argsstring>
+        <name>plungeLength</name>
+        <qualifiedname>MR.Const_ToolPathParams.plungeLength</qualifiedname>
+        <briefdescription>
+<para>when the mill is moving down, it will be slowed down in this distance from mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="73" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a6c02af22dd1f268bb363ab77219e876b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.retractLength</definition>
+        <argsstring></argsstring>
+        <name>retractLength</name>
+        <qualifiedname>MR.Const_ToolPathParams.retractLength</qualifiedname>
+        <briefdescription>
+<para>when the mill is moving up, it will be slowed down in this distance from mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="79" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a730bc87694561cfb62ad8b186af9bad2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.plungeFeed</definition>
+        <argsstring></argsstring>
+        <name>plungeFeed</name>
+        <qualifiedname>MR.Const_ToolPathParams.plungeFeed</qualifiedname>
+        <briefdescription>
+<para>speed of slow movement down </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="85" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a1b7f0ea99301978fbd82ae15ef5a3b99" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.retractFeed</definition>
+        <argsstring></argsstring>
+        <name>retractFeed</name>
+        <qualifiedname>MR.Const_ToolPathParams.retractFeed</qualifiedname>
+        <briefdescription>
+<para>speed of slow movement up </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="91" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a8be428472e9b8af3c0e74da3e3fde57f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.baseFeed</definition>
+        <argsstring></argsstring>
+        <name>baseFeed</name>
+        <qualifiedname>MR.Const_ToolPathParams.baseFeed</qualifiedname>
+        <briefdescription>
+<para>speed of regular milling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="97" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a67f477c2f672092c5878edcaf8c0bb44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.safeZ</definition>
+        <argsstring></argsstring>
+        <name>safeZ</name>
+        <qualifiedname>MR.Const_ToolPathParams.safeZ</qualifiedname>
+        <briefdescription>
+<para>z-coordinate of plane where tool can move in any direction without touching the object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="103" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1ac337c3884a9d54c9a781f49d0a367a54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a4c32f3ff80d7644f35d698296c9b8ca3" kindref="member">MR.BypassDirection</ref></type>
+        <definition>unsafe MR.BypassDirection MR.Const_ToolPathParams.bypassDir</definition>
+        <argsstring></argsstring>
+        <name>bypassDir</name>
+        <qualifiedname>MR.Const_ToolPathParams.bypassDir</qualifiedname>
+        <briefdescription>
+<para>which direction isolines or sections should be passed in </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="109" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a38f9bc5e4af5fd93194db26417831683" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>unsafe MR.? ConstBox_AffineXf3f MR.Const_ToolPathParams.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_ToolPathParams.xf</qualifiedname>
+        <briefdescription>
+<para>mesh can be transformed using xf parameter </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="115" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="116" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a3c7323c0af131ce08ee0a13c857f2c1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ToolPathParams.flatTool</definition>
+        <argsstring></argsstring>
+        <name>flatTool</name>
+        <qualifiedname>MR.Const_ToolPathParams.flatTool</qualifiedname>
+        <briefdescription>
+<para>if true then a tool path for a flat milling tool will be generated </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="133" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a3cd4d5a908be98a4bfb6ac476063b2af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_ToolPathParams.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.Const_ToolPathParams.cb</qualifiedname>
+        <briefdescription>
+<para>callback for reporting on progress </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="139" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1ae01107bea09e3d7e3702ad0f7866d34a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ToolPathParams.toolpathExpansion</definition>
+        <argsstring></argsstring>
+        <name>toolpathExpansion</name>
+        <qualifiedname>MR.Const_ToolPathParams.toolpathExpansion</qualifiedname>
+        <briefdescription>
+<para>if &gt; 0 - expand the trajectory creation area and create toolpath to mill excess material to make empty areas; the area has the shape of a box; lacing specific only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="145" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a36b411802d6c09e4873d278867743d90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Vector_StdVectorMRVector3f</type>
+        <definition>unsafe MR.Std.? Vector_StdVectorMRVector3f MR.Const_ToolPathParams.isolines</definition>
+        <argsstring></argsstring>
+        <name>isolines</name>
+        <qualifiedname>MR.Const_ToolPathParams.isolines</qualifiedname>
+        <briefdescription>
+<para>optional output, stores isolines without transits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="151" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="152" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a0496c97dbf81726db11a69e208ef70fc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Vector_StdVectorMRVector3f</type>
+        <definition>unsafe MR.Std.? Vector_StdVectorMRVector3f MR.Const_ToolPathParams.startContours</definition>
+        <argsstring></argsstring>
+        <name>startContours</name>
+        <qualifiedname>MR.Const_ToolPathParams.startContours</qualifiedname>
+        <briefdescription>
+<para>optional output, polyline containing start vertices for isolines </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="169" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="170" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1af27b5d76c6169ec5e2a9837f335a4add" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Vector_MRVector3f</type>
+        <definition>unsafe MR.Std.? Vector_MRVector3f MR.Const_ToolPathParams.startVertices</definition>
+        <argsstring></argsstring>
+        <name>startVertices</name>
+        <qualifiedname>MR.Const_ToolPathParams.startVertices</qualifiedname>
+        <briefdescription>
+<para>start vertices on the offset mesh used for calculating isolines </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="187" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="188" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ToolPathParams_1a1d48f7f99d1d016d669109af0388f6df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+        <definition>unsafe MR.? MeshPart MR.Const_ToolPathParams.offsetMesh</definition>
+        <argsstring></argsstring>
+        <name>offsetMesh</name>
+        <qualifiedname>MR.Const_ToolPathParams.offsetMesh</qualifiedname>
+        <briefdescription>
+<para>optional pre-computed offset mesh; if null, it will be computed internally </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="205" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="206" bodyend="217"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1acfeb822205e890a384f9ce2d3a9fb3df" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_millRadius</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_millRadius</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_millRadius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="48" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1afee1d497a41713b0f880bc53317f5c7b" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="54" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a36f02395eb1648f2aea41aec46bee55b" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_sectionStep</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_sectionStep</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_sectionStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="61" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a20567ac53c48dffb0cc7d316d3eb9cf5" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_critTransitionLength</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_critTransitionLength</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_critTransitionLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="68" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1ad56e148e23dca6dd52618bf18645cbc9" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_plungeLength</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_plungeLength</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_plungeLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="74" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1aa1d82c3ba62ca993760bac732965e2dd" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_retractLength</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_retractLength</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_retractLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="80" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a6fe41980bd7f6da6e70497aeb9a4983d" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_plungeFeed</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_plungeFeed</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_plungeFeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="86" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a159be748619e2d19d2ed399e23b313bb" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_retractFeed</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_retractFeed</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_retractFeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="92" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1ac73051aef75d35e2c29f79e8a4a406de" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_baseFeed</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_baseFeed</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_baseFeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="98" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a9b7dccb35477d484f2de2f3f076a6eeb" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_safeZ</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_safeZ</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_safeZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="104" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1ac52e2cfae26aecefc5fd203c8b0efbe1" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a4c32f3ff80d7644f35d698296c9b8ca3" kindref="member">MR.BypassDirection</ref> *</type>
+        <definition>unsafe MR.BypassDirection* MR.Const_ToolPathParams.__ref_storage_bypassDir</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_bypassDir</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_bypassDir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="110" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a015f79182a2310ea720cb98e4e3792a3" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
+        <definition>unsafe MR.ConstBox_AffineXf3f._Underlying** MR.Const_ToolPathParams.__ptr_storage_xf</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_xf</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ptr_storage_xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="128" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a5dfa8207d2a35dcb1bd2a8caaeab63a4" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_ToolPathParams.__ref_storage_flatTool</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_flatTool</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_flatTool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="134" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1ae4b3d83c27e36cfe85f42f8c4d2e9464" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ToolPathParams.__ref_storage_toolpathExpansion</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_toolpathExpansion</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ref_storage_toolpathExpansion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="146" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1aa2ee6e1870bb7ced36f8b22012717102" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Vector_StdVectorMRVector3f._Underlying **</type>
+        <definition>unsafe MR.Std.Vector_StdVectorMRVector3f._Underlying** MR.Const_ToolPathParams.__ptr_storage_isolines</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_isolines</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ptr_storage_isolines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="164" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1adf504a8b2fd4b1b879c94e6731508237" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Vector_StdVectorMRVector3f._Underlying **</type>
+        <definition>unsafe MR.Std.Vector_StdVectorMRVector3f._Underlying** MR.Const_ToolPathParams.__ptr_storage_startContours</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_startContours</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ptr_storage_startContours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="182" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a638377be519ef8c51f43d773c0b957c0" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Vector_MRVector3f._Underlying **</type>
+        <definition>unsafe MR.Std.Vector_MRVector3f._Underlying** MR.Const_ToolPathParams.__ptr_storage_startVertices</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_startVertices</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ptr_storage_startVertices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="200" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ToolPathParams_1a9f9e09fef4853aa1709a2c8e3daeee8a" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.MeshPart._Underlying **</type>
+        <definition>unsafe MR.MeshPart._Underlying** MR.Const_ToolPathParams.__ptr_storage_offsetMesh</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_offsetMesh</name>
+        <qualifiedname>MR.Const_ToolPathParams.__ptr_storage_offsetMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="218" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="218" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1a425739a518752427b714fcaf1c2d57d9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ToolPathParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ToolPathParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="32" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="32" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1a9bfdd835752449af9b7f7cec08d8c059" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ToolPathParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ToolPathParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="41" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1a699421b8c469bc54bf642ccc4db46f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ToolPathParams.Const_ToolPathParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ToolPathParams</name>
+        <qualifiedname>MR.Const_ToolPathParams.Const_ToolPathParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="354" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="354" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1a89f8988e9475d110a634972c47410864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ToolPathParams.Const_ToolPathParams</definition>
+        <argsstring>(float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, MR.BypassDirection bypassDir, MR.AffineXf3f? xf, bool flatTool, MR.Std._ByValue_Function_Bool_From_Float cb, float toolpathExpansion, MR.Std.Vector_StdVectorMRVector3f? isolines, MR.Std.Vector_StdVectorMRVector3f? startContours, MR.Std.Vector_MRVector3f? startVertices, MR.MeshPart? offsetMesh)</argsstring>
+        <name>Const_ToolPathParams</name>
+        <qualifiedname>MR.Const_ToolPathParams.Const_ToolPathParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>millRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sectionStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>critTransitionLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>plungeLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>retractLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>plungeFeed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>retractFeed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>baseFeed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>safeZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a4c32f3ff80d7644f35d698296c9b8ca3" kindref="member">MR.BypassDirection</ref></type>
+          <declname>bypassDir</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flatTool</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toolpathExpansion</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdVectorMRVector3f?</type>
+          <declname>isolines</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdVectorMRVector3f?</type>
+          <declname>startContours</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRVector3f?</type>
+          <declname>startVertices</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshPart" kindref="compound">MR.MeshPart</ref>?</type>
+          <declname>offsetMesh</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ToolPathParams" kindref="compound">MR.ToolPathParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="365" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="365" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1a089e0cab8c26f65a7cf5a419d3505764" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ToolPathParams.Const_ToolPathParams</definition>
+        <argsstring>(MR._ByValue_ToolPathParams _other)</argsstring>
+        <name>Const_ToolPathParams</name>
+        <qualifiedname>MR.Const_ToolPathParams.Const_ToolPathParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_ToolPathParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ToolPathParams_1a86ed3fd7077e03118a68c4c1ec191a85" kindref="member">MR.ToolPathParams.ToolPathParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="382" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="382" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1a702da4aded67090073655047a3976732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ToolPathParams.Const_ToolPathParams</definition>
+        <argsstring>(Const_ToolPathParams _other)</argsstring>
+        <name>Const_ToolPathParams</name>
+        <qualifiedname>MR.Const_ToolPathParams.Const_ToolPathParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ToolPathParams" kindref="compound">Const_ToolPathParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ToolPathParams_1a86ed3fd7077e03118a68c4c1ec191a85" kindref="member">MR.ToolPathParams.ToolPathParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="394" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="394" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1a70f9f88261b55c46ddfdb730c6668a74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ToolPathParams.Const_ToolPathParams</definition>
+        <argsstring>(ToolPathParams _other)</argsstring>
+        <name>Const_ToolPathParams</name>
+        <qualifiedname>MR.Const_ToolPathParams.Const_ToolPathParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ToolPathParams" kindref="compound">ToolPathParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ToolPathParams_1a86ed3fd7077e03118a68c4c1ec191a85" kindref="member">MR.ToolPathParams.ToolPathParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="399" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="399" bodyend="399"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1ac67ca804493d5f8ff24d4bbcbd067aff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ToolPathParams.~Const_ToolPathParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ToolPathParams</name>
+        <qualifiedname>MR.Const_ToolPathParams.~Const_ToolPathParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="42" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ToolPathParams_1a9e39a07320cefb3f6f9937c0758ec57d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ToolPathParams.Const_ToolPathParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ToolPathParams</name>
+        <qualifiedname>MR.Const_ToolPathParams.Const_ToolPathParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="343" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="343" bodyend="348"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters shared by all tool path generation functions Generated from class <computeroutput><ref refid="classMR_1_1ToolPathParams" kindref="compound">MR.ToolPathParams</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ConstantCuspParams" kindref="compound">MR.ConstantCuspParams</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ToolPathParams</label>
+        <link refid="classMR_1_1Const__ToolPathParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ToolPathParams</label>
+        <link refid="classMR_1_1ToolPathParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_ToolPathParams</label>
+        <link refid="classMR_1_1Const__ToolPathParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_isolines</edgelabel>
+          <edgelabel>__ptr_storage_offsetMesh</edgelabel>
+          <edgelabel>__ptr_storage_startContours</edgelabel>
+          <edgelabel>__ptr_storage_startVertices</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+          <edgelabel>__ref_storage_bypassDir</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="26" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="27" bodyend="400"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ToolPathParams_1aa2ee6e1870bb7ced36f8b22012717102" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ptr_storage_isolines</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9f9e09fef4853aa1709a2c8e3daeee8a" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ptr_storage_offsetMesh</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1adf504a8b2fd4b1b879c94e6731508237" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ptr_storage_startContours</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a638377be519ef8c51f43d773c0b957c0" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ptr_storage_startVertices</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a015f79182a2310ea720cb98e4e3792a3" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ac73051aef75d35e2c29f79e8a4a406de" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_baseFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ac52e2cfae26aecefc5fd203c8b0efbe1" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_bypassDir</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a20567ac53c48dffb0cc7d316d3eb9cf5" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_critTransitionLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a5dfa8207d2a35dcb1bd2a8caaeab63a4" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_flatTool</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1acfeb822205e890a384f9ce2d3a9fb3df" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_millRadius</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a6fe41980bd7f6da6e70497aeb9a4983d" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_plungeFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ad56e148e23dca6dd52618bf18645cbc9" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_plungeLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a159be748619e2d19d2ed399e23b313bb" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_retractFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1aa1d82c3ba62ca993760bac732965e2dd" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_retractLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9b7dccb35477d484f2de2f3f076a6eeb" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_safeZ</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a36f02395eb1648f2aea41aec46bee55b" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_sectionStep</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ae4b3d83c27e36cfe85f42f8c4d2e9464" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_toolpathExpansion</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1afee1d497a41713b0f880bc53317f5c7b" prot="protected" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a8be428472e9b8af3c0e74da3e3fde57f" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>baseFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ac337c3884a9d54c9a781f49d0a367a54" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>bypassDir</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a3cd4d5a908be98a4bfb6ac476063b2af" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9e39a07320cefb3f6f9937c0758ec57d" prot="package" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a699421b8c469bc54bf642ccc4db46f95" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a89f8988e9475d110a634972c47410864" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a089e0cab8c26f65a7cf5a419d3505764" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a702da4aded67090073655047a3976732" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a70f9f88261b55c46ddfdb730c6668a74" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a5213c9671a04b9df2b4322baa50f945d" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>critTransitionLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a425739a518752427b714fcaf1c2d57d9" prot="protected" virt="virtual"><scope>MR::Const_ToolPathParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9bfdd835752449af9b7f7cec08d8c059" prot="public" virt="virtual"><scope>MR::Const_ToolPathParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a3c7323c0af131ce08ee0a13c857f2c1f" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>flatTool</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a36b411802d6c09e4873d278867743d90" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>isolines</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a1273014c82a25b52b0bc696e098017f7" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>millRadius</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a1d48f7f99d1d016d669109af0388f6df" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>offsetMesh</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a730bc87694561cfb62ad8b186af9bad2" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>plungeFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a23cfeec2c9dd129fcd1adab9e71c2db5" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>plungeLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a1b7f0ea99301978fbd82ae15ef5a3b99" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>retractFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a6c02af22dd1f268bb363ab77219e876b" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>retractLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a67f477c2f672092c5878edcaf8c0bb44" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>safeZ</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a02e11b252bc556bafdc8dcce4ebd0602" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>sectionStep</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a0496c97dbf81726db11a69e208ef70fc" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>startContours</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1af27b5d76c6169ec5e2a9837f335a4add" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>startVertices</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ae01107bea09e3d7e3702ad0f7866d34a" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>toolpathExpansion</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a05b01246466f1e570cb3eef742f565cc" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a38f9bc5e4af5fd93194db26417831683" prot="public" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ac67ca804493d5f8ff24d4bbcbd067aff" prot="private" virt="non-virtual"><scope>MR::Const_ToolPathParams</scope><name>~Const_ToolPathParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

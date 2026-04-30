@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ViewportIterator" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ViewportIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ViewportIterator" prot="public" virt="non-virtual">MR.ViewportIterator</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a6f0ea7729099f263ff31537824631bce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ViewportIterator.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ViewportIterator.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="938" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="938" bodyend="946"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a4cd9c79f6f6cd4c5ee3386e0bd5e30b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ViewportIterator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ViewportIterator.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="947" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="947" bodyend="947"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a21ce4bdd6513367d6c492eeec536dfa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportIterator.Const_ViewportIterator</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ViewportIterator</name>
+        <qualifiedname>MR.Const_ViewportIterator.Const_ViewportIterator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="955" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="955" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1abc01ac83e2626b29425c85a1107aebe3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportIterator.Const_ViewportIterator</definition>
+        <argsstring>(MR.Const_ViewportIterator _other)</argsstring>
+        <name>Const_ViewportIterator</name>
+        <qualifiedname>MR.Const_ViewportIterator.Const_ViewportIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportIterator_1aef20c1a107f776c77076d1e133d0b56d" kindref="member">MR.ViewportIterator.ViewportIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="965" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="965" bodyend="971"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a598e0581a30bb23a00998c1ada226881" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ViewportIterator.Const_ViewportIterator</definition>
+        <argsstring>(ViewportIterator _other)</argsstring>
+        <name>Const_ViewportIterator</name>
+        <qualifiedname>MR.Const_ViewportIterator.Const_ViewportIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportIterator" kindref="compound">ViewportIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportIterator_1aef20c1a107f776c77076d1e133d0b56d" kindref="member">MR.ViewportIterator.ViewportIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="976" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="976" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a3fa62f3565035309276ef4a2914c0180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportIterator.Const_ViewportIterator</definition>
+        <argsstring>(MR.Const_ViewportMask mask)</argsstring>
+        <name>Const_ViewportIterator</name>
+        <qualifiedname>MR.Const_ViewportIterator.Const_ViewportIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportIterator_1aef20c1a107f776c77076d1e133d0b56d" kindref="member">MR.ViewportIterator.ViewportIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="982" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="982" bodyend="988"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a6d6b16e80d04e56618a0a9127bd85570" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ViewportIterator.mask</definition>
+        <argsstring>()</argsstring>
+        <name>mask</name>
+        <qualifiedname>MR.Const_ViewportIterator.mask</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ViewportIterator_1a6d6b16e80d04e56618a0a9127bd85570" kindref="member">MR.ViewportIterator.mask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="1011" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="1011" bodyend="1016"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a261fc1c42f4b254c3052cd39d5670d42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+        <definition>unsafe MR.ViewportId MR.Const_ViewportIterator.deref</definition>
+        <argsstring>()</argsstring>
+        <name>deref</name>
+        <qualifiedname>MR.Const_ViewportIterator.deref</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ViewportIterator::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="1021" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="1021" bodyend="1026"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a5a66971128e6f6f401761ffb2a55287d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_ViewportIterator.Equals</definition>
+        <argsstring>(MR.Const_ViewportIterator? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_ViewportIterator.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="1045" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="1045" bodyend="1050"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1ad2de2d2466129b192d8004c2a816893d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_ViewportIterator.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_ViewportIterator.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="1052" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="1052" bodyend="1059"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a879226b8e3afe1ee817ba2e33ba0934f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ViewportIterator.~Const_ViewportIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ViewportIterator</name>
+        <qualifiedname>MR.Const_ViewportIterator.~Const_ViewportIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="948" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="948" bodyend="948"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1ad5dfaa1e6acc191fe7bdf76e0f3d45df" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportIterator.Const_ViewportIterator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ViewportIterator</name>
+        <qualifiedname>MR.Const_ViewportIterator.Const_ViewportIterator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="950" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="950" bodyend="950"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a05a42c6e69f38c3b7b4d53fed809cbf0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ViewportIterator.operator Const_ViewportIterator</definition>
+        <argsstring>(MR.Const_ViewportMask mask)</argsstring>
+        <name>operator Const_ViewportIterator</name>
+        <qualifiedname>MR.Const_ViewportIterator.operator Const_ViewportIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportIterator_1aef20c1a107f776c77076d1e133d0b56d" kindref="member">MR.ViewportIterator.ViewportIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="994" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="994" bodyend="994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1ae745eb8bbd518ed88ddca009a6e7153a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportIterator" kindref="compound">ViewportIterator</ref></type>
+        <definition>static unsafe ViewportIterator MR.Const_ViewportIterator.operator++</definition>
+        <argsstring>(MR.Const_ViewportIterator _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.Const_ViewportIterator.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ViewportIterator::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="999" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="999" bodyend="1006"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a515a0ecfb29ea970056ea1644cd84e53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_ViewportIterator.operator==</definition>
+        <argsstring>(MR.Const_ViewportIterator a, MR.Const_ViewportIterator b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_ViewportIterator.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="1031" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="1031" bodyend="1036"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportIterator_1a969cdc8ccfaef3943b1088163da4e711" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_ViewportIterator.operator!=</definition>
+        <argsstring>(MR.Const_ViewportIterator a, MR.Const_ViewportIterator b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_ViewportIterator.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="1038" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="1038" bodyend="1041"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterates over all ViewportIds in given <ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref> Generated from class <computeroutput><ref refid="classMR_1_1ViewportIterator" kindref="compound">MR.ViewportIterator</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ViewportIterator</label>
+        <link refid="classMR_1_1Const__ViewportIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.ViewportIterator</label>
+        <link refid="classMR_1_1ViewportIterator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ViewportIterator</label>
+        <link refid="classMR_1_1Const__ViewportIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="932" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="933" bodyend="1060"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ViewportIterator_1ad5dfaa1e6acc191fe7bdf76e0f3d45df" prot="package" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a21ce4bdd6513367d6c492eeec536dfa3" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1abc01ac83e2626b29425c85a1107aebe3" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a598e0581a30bb23a00998c1ada226881" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a3fa62f3565035309276ef4a2914c0180" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a261fc1c42f4b254c3052cd39d5670d42" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a6f0ea7729099f263ff31537824631bce" prot="protected" virt="virtual"><scope>MR::Const_ViewportIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a4cd9c79f6f6cd4c5ee3386e0bd5e30b8" prot="public" virt="virtual"><scope>MR::Const_ViewportIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a5a66971128e6f6f401761ffb2a55287d" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1ad2de2d2466129b192d8004c2a816893d" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a6d6b16e80d04e56618a0a9127bd85570" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>mask</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a05a42c6e69f38c3b7b4d53fed809cbf0" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>operator Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a969cdc8ccfaef3943b1088163da4e711" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1ae745eb8bbd518ed88ddca009a6e7153a" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a515a0ecfb29ea970056ea1644cd84e53" prot="public" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a879226b8e3afe1ee817ba2e33ba0934f" prot="private" virt="non-virtual"><scope>MR::Const_ViewportIterator</scope><name>~Const_ViewportIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ToolPathParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ToolPathParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ToolPathParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ToolPathParams" prot="public" virt="non-virtual">MR.Const_ToolPathParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a7195a5a6a112d727d4027663b44689d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -447,7 +447,7 @@
         <name>ToolPathParams</name>
         <qualifiedname>MR.ToolPathParams.ToolPathParams</qualifiedname>
         <param>
-          <type>Const_ToolPathParams</type>
+          <type><ref refid="classMR_1_1Const__ToolPathParams" kindref="compound">Const_ToolPathParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -512,6 +512,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ToolPathParams</label>
+        <link refid="classMR_1_1Const__ToolPathParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -525,6 +526,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ToolPathParams</label>
         <link refid="classMR_1_1ToolPathParams"/>
@@ -533,9 +538,18 @@
       </node>
       <node id="2">
         <label>MR.Const_ToolPathParams</label>
+        <link refid="classMR_1_1Const__ToolPathParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_isolines</edgelabel>
+          <edgelabel>__ptr_storage_offsetMesh</edgelabel>
+          <edgelabel>__ptr_storage_startContours</edgelabel>
+          <edgelabel>__ptr_storage_startVertices</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+          <edgelabel>__ref_storage_bypassDir</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -547,11 +561,37 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="410" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="411" bodyend="645"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ToolPathParams_1aa2ee6e1870bb7ced36f8b22012717102" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_isolines</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9f9e09fef4853aa1709a2c8e3daeee8a" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_offsetMesh</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1adf504a8b2fd4b1b879c94e6731508237" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_startContours</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a638377be519ef8c51f43d773c0b957c0" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_startVertices</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a015f79182a2310ea720cb98e4e3792a3" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ac73051aef75d35e2c29f79e8a4a406de" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_baseFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ac52e2cfae26aecefc5fd203c8b0efbe1" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_bypassDir</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a20567ac53c48dffb0cc7d316d3eb9cf5" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_critTransitionLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a5dfa8207d2a35dcb1bd2a8caaeab63a4" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_flatTool</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1acfeb822205e890a384f9ce2d3a9fb3df" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_millRadius</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a6fe41980bd7f6da6e70497aeb9a4983d" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_plungeFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ad56e148e23dca6dd52618bf18645cbc9" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_plungeLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a159be748619e2d19d2ed399e23b313bb" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_retractFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1aa1d82c3ba62ca993760bac732965e2dd" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_retractLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9b7dccb35477d484f2de2f3f076a6eeb" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_safeZ</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a36f02395eb1648f2aea41aec46bee55b" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_sectionStep</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ae4b3d83c27e36cfe85f42f8c4d2e9464" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_toolpathExpansion</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1afee1d497a41713b0f880bc53317f5c7b" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1ToolPathParams_1a5bcf9f71d4d19db9bb2c550b17a85f3f" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>assign</name></member>
       <member refid="classMR_1_1ToolPathParams_1a9e42c852eca5bd424fbe5b64ddc271a9" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>baseFeed</name></member>
       <member refid="classMR_1_1ToolPathParams_1aed6c08d09f3c0117b0dc971b599306c2" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>bypassDir</name></member>
       <member refid="classMR_1_1ToolPathParams_1ad318da90823ea54913145fc3b441aef4" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9e39a07320cefb3f6f9937c0758ec57d" prot="package" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a699421b8c469bc54bf642ccc4db46f95" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a89f8988e9475d110a634972c47410864" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a089e0cab8c26f65a7cf5a419d3505764" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a702da4aded67090073655047a3976732" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a70f9f88261b55c46ddfdb730c6668a74" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1a80f060994654a40c5e161377d6ea6a8f" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>critTransitionLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a425739a518752427b714fcaf1c2d57d9" prot="protected" virt="virtual"><scope>MR::ToolPathParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9bfdd835752449af9b7f7cec08d8c059" prot="public" virt="virtual"><scope>MR::ToolPathParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ToolPathParams_1ac759b76e49fa12d353ee0523fb99d750" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>flatTool</name></member>
       <member refid="classMR_1_1ToolPathParams_1a8a27b8bd50ed333dc059140fcefb1774" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>isolines</name></member>
       <member refid="classMR_1_1ToolPathParams_1a7195a5a6a112d727d4027663b44689d0" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>millRadius</name></member>

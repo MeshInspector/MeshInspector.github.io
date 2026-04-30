@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectMeshData" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectMeshData</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectMeshData</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectMeshData" prot="public" virt="non-virtual">MR.Const_ObjectMeshData</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ObjectMeshData_1a4fe13f4c3106c3bda5fa8d18f61e643f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.SharedPtr_MRMesh</type>
@@ -231,7 +231,7 @@
         <name>ObjectMeshData</name>
         <qualifiedname>MR.ObjectMeshData.ObjectMeshData</qualifiedname>
         <param>
-          <type>Const_ObjectMeshData</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshData" kindref="compound">Const_ObjectMeshData</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -296,6 +296,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectMeshData</label>
+        <link refid="classMR_1_1Const__ObjectMeshData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -317,6 +318,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectMeshData</label>
+        <link refid="classMR_1_1Const__ObjectMeshData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -332,8 +334,18 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshData.cs" line="205" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshData.cs" bodystart="206" bodyend="364"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjectMeshData_1a117cb4c653626f1c12196e3588ff78df" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1aace9ffe61d673ae0b95bae7cce5c9ba2" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1a176c8b9f109842f424a888c8db2e187b" prot="package" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>Const_ObjectMeshData</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1aa9b6120341409d88f66d55d6ce82d845" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>Const_ObjectMeshData</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1aa4cabec76c2a768243b7c2ae980b4129" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>Const_ObjectMeshData</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1ab5ad5cadebf2fd32529d81848e6ff680" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>Const_ObjectMeshData</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1a0264319e853421245d30b7a3064bebd0" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>Const_ObjectMeshData</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1afd22ca33ce51b61286915f620e82e5dd" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>Const_ObjectMeshData</name></member>
       <member refid="classMR_1_1ObjectMeshData_1a6d2b636c4e1a6517e3640c5d1c52e53b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>creases</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1a677086d496741330262b21e7880e28e4" prot="protected" virt="virtual"><scope>MR::ObjectMeshData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1ac5c6031ada9d563aef61fab133bfb4e8" prot="public" virt="virtual"><scope>MR::ObjectMeshData</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ObjectMeshData_1a9b9270f596c4f8032bedab1827ccc8ff" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>faceColors</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshData_1a3d40508fa044d519a142f7f9aff65a5d" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1ObjectMeshData_1a4fe13f4c3106c3bda5fa8d18f61e643f" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>mesh</name></member>
       <member refid="classMR_1_1ObjectMeshData_1a2035d7d49014474292d177373a56a47b" prot="package" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>ObjectMeshData</name></member>
       <member refid="classMR_1_1ObjectMeshData_1abd69cad24f364a7c28bd7f66b64dd76a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>ObjectMeshData</name></member>

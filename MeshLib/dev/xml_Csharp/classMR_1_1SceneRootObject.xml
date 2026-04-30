@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneRootObject" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneRootObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SceneRootObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SceneRootObject" prot="public" virt="non-virtual">MR.Const_SceneRootObject</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1SceneRootObject_1a8e3b7a816af31ced451f3ac951d4d429" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -311,12 +311,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1SceneRootObject_1a1bdc8779676d5e8b6cce07cdabf54f5e" kindref="member">MR.SceneRootObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1SceneRootObject_1a1bdc8779676d5e8b6cce07cdabf54f5e" kindref="member">MR.SceneRootObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -475,12 +475,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1SceneRootObject_1a521e748a704c121d007b06e279ce8a95" kindref="member">MR.SceneRootObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1SceneRootObject_1a521e748a704c121d007b06e279ce8a95" kindref="member">MR.SceneRootObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -495,7 +495,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.SceneRootObject.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -579,6 +579,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SceneRootObject</label>
+        <link refid="classMR_1_1Const__SceneRootObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -600,6 +601,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SceneRootObject</label>
+        <link refid="classMR_1_1Const__SceneRootObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -619,13 +621,48 @@
       <member refid="classMR_1_1SceneRootObject_1acac7c9d4acd755d40779d07561b12e8e" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1SceneRootObject_1adc67ede704e8949ccdbd5c546ecd871b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1SceneRootObject_1a66e26600c68d8a1a26b90ec827bdabf3" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a429f61aa7f9d72fa3868f82fdb601ad3" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a71c47d95421c8b04ccec79569aa38244" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a207f189f98bf596f65d3ba00155ae81e" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1aa002274916839f2ae10d59248aa9244d" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>cloneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1ac3fa7ecddd0d3fd0905631d2c22b39f5" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a9ea5760a0ff16ded73bcb94e06dd93cc" prot="package" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>Const_SceneRootObject</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a808365ca04ba3ed4effe64f4c2830a78" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>Const_SceneRootObject</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1aa2ba264ea7e777db587cea7432d2c84b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>Const_SceneRootObject</name></member>
       <member refid="classMR_1_1SceneRootObject_1aaddbde878062d722b65f6c232b885c6e" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1acdfb90a06e77444310ec8da15295820b" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a776eb2ccb08f59405dc3bdf3b3595dfc" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a72dcfac9b6da41389f5d29a098ebc8b9" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1ab9b0bcde8775ad61e472d652ccfcd184" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1ae5aef1eca6fe7412b1a4503170703065" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1af3c59d77baecdc80bbd9675e602b888a" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a81d87c7f775fd4c81894af77a011e5db" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a9608817f8d7dfd2fddfccd85a21089c1" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a5fb11171ed4a2aab3cae22b3dcc011d9" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a5fed56a9d7a7773d1e4e8e1ab0f070e8" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1ad232a58aa0855b5b4d38bdfd1d16ae2c" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a4ae3a9f6f6ca7d94950845ff6d8a7608" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a07fc6b0c20997b0fe6e2851432b5bdcc" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a1a374f8254be2b6fd325d2b7516a8f86" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a28d48cae074ffda1d5d4bee9cb3c83ea" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a6e32d3b5d7879c89455564517d2f67e9" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a2cd450d7637eb9f5a23e28adbb60497c" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1accfe04d9c6f2363483b7d3f7bc02b22b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1af97da69bf1c65759d6a4cad04f346576" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a2b82795bb96a2577009e5246aa428b89" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a4ef3c16042a59a54d0ff4eaef3c123bd" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1aed3c52f1fad2ea9f3c96d103b5ef90cf" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator Const_SceneRootObject?</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1abee2207d50b91af35a1ebdcdc747ce11" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a9376b604c86507a7f5e4694f51f3173f" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1SceneRootObject_1ac913b843d923ce9e5d2adda944b305ea" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1SceneRootObject_1a8e3b7a816af31ced451f3ac951d4d429" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1SceneRootObject_1a8bf6ceda0a0fd5fbfa523e0b7ea273ce" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator SceneRootObject?</name></member>
       <member refid="classMR_1_1SceneRootObject_1ab6074c336c5ff89fa0136e489394f5d0" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1SceneRootObject_1a7a8efcb0ae6f7bed148d50c1cf0e4e01" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a4f57e180d9a66945dda9b36b1dd91ff9" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1SceneRootObject_1a8fb2d1396cf6aaccee3b1eda72f7eb49" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1aa4b971b6153ff19c612d55af7773e8c0" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>rootName</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a12942de94d357d5c5bf006cf55df66ae" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1SceneRootObject_1a96c17b4295a649398058d75336cc4b1c" prot="package" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
       <member refid="classMR_1_1SceneRootObject_1af6325fcb40947679c120f316dc644a67" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
       <member refid="classMR_1_1SceneRootObject_1a891be9b99880ed59bca7f1568cd17112" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
@@ -640,8 +677,19 @@
       <member refid="classMR_1_1SceneRootObject_1a67b55690a9b7f6bd2716d774335311cb" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1SceneRootObject_1a655c61a78a4205f54516ab57464256d5" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1SceneRootObject_1a6e22d1b33c3ded4b3218486761ccfc19" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1ad86955dc4fc8271742ed79a8c45ac3a9" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1af65a3a2cc80069f36467a30573c8eb43" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1SceneRootObject_1a8cd2798e781fe033ea7449feca751140" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a55495e5632693859c7ed2583394fa75c" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1abce81024eff810d6a7089f754e8cb1ea" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1aa46ef5bbb94c2f0db0b64035e8edd7d5" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>staticTypeName</name></member>
       <member refid="classMR_1_1SceneRootObject_1a5f98719a77f5200329af58f67ea51bb9" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a015dc2e9dc62c4b04f9176e9c37ddca5" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a27cc87728b22965e45a962d92f281cf0" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1aaee0de6be03488d56601fcfcd14d4a62" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1af4cf78e3109c88c73d07791950805b7c" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a4b51378a21b1fc82c5834f4ea9f070f7" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__SceneRootObject_1a76be3e303900716f148ff0963e246499" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

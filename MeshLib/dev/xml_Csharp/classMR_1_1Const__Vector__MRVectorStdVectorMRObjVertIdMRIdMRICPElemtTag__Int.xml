@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" prot="public" virt="non-virtual">MR.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1af1317eebdcdae5f4cec8d80fc4eb184b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag</type>
+        <definition>unsafe MR.Std.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43999" column="87" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43999" bodyend="43999"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a3e1dcb3fc6cb8bb72b5df9a1b7a45c25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" kindref="compound">MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.this[int i]</definition>
+        <argsstring></argsstring>
+        <name>this[int i]</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.this[int i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44149" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44150" bodyend="44160"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ada7aac17bfbd684f68c218a9513c2915" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43920" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43920" bodyend="43928"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ac8319a4bbc2de8975a52e5696173c90d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43929" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43929" bodyend="43929"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ac7ff5cecd36efc903288cfb9585404fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" kindref="compound">MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag &gt; MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43986" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43986" bodyend="43989"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1afcbf0c6a3d62b4342ddccb6084769986" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44027" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44027" bodyend="44033"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a84c9792980fb52d565063aa51235930a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>(MR._ByValue_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int _other)</argsstring>
+        <name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44038" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44038" bodyend="44045"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a88a37738c3e14f08f5b17f5d8c4c7334" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>(Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int _other)</argsstring>
+        <name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kindref="compound">Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44050" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44050" bodyend="44050"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a20736e48a0e6144cf18affae529d5da8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>(Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int _other)</argsstring>
+        <name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kindref="compound">Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44055" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44055" bodyend="44055"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a7f3934ceff94a0cd5dfdd6c47217b95f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44061" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44061" bodyend="44067"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a6ff0a543fd3d41a2df3ff1066cf7d74b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>(ulong size, MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag val)</argsstring>
+        <name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" kindref="compound">MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44073" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44073" bodyend="44080"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a012068e9b95e5eddf9ed6c49ba4b7c1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag &gt; vec)</argsstring>
+        <name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44086" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44086" bodyend="44093"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a04fd07c65df8eed41d7de78e5b9cfd75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a04fd07c65df8eed41d7de78e5b9cfd75" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44119" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44119" bodyend="44124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a44515b420ac07044b45be3831254a2fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a44515b420ac07044b45be3831254a2fd" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44129" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44129" bodyend="44134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a7a5b98e0b81bcbacbb7b52efea9a60ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a7a5b98e0b81bcbacbb7b52efea9a60ec" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44139" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44139" bodyend="44144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ad0aad90a590cdef66f0e6d1465e4e54e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" kindref="compound">MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ad0aad90a590cdef66f0e6d1465e4e54e" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44165" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44165" bodyend="44173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ad612a22c2204950f86e5a597753ddbcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" kindref="compound">MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ad612a22c2204950f86e5a597753ddbcc" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44178" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44178" bodyend="44186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1aaea0da173ceff8eea962ae683d37a00d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1aaea0da173ceff8eea962ae683d37a00d" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44192" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44192" bodyend="44197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a61637823a291c0edcef291bcf484c5cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ad612a22c2204950f86e5a597753ddbcc" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a61637823a291c0edcef291bcf484c5cd" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44203" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44203" bodyend="44208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a39dfd971fc5d7c42e59e6e2d3b0da479" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a61637823a291c0edcef291bcf484c5cd" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a39dfd971fc5d7c42e59e6e2d3b0da479" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44214" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44214" bodyend="44219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a859fa2881f148084892340dc59a31441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" kindref="compound">Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe MR.? Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a859fa2881f148084892340dc59a31441" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44224" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44224" bodyend="44233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a7a4aacf472cd15fcf4b4e62b1b8c4319" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a7a4aacf472cd15fcf4b4e62b1b8c4319" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44239" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44239" bodyend="44244"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a57da991e132a519cd9917aee96a0bbb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Equals</definition>
+        <argsstring>(MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kindref="compound">MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44248" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44248" bodyend="44253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a69fe45c3dee5566fbab72e57f5694119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44255" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44255" bodyend="44262"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a5034a42bd2a6b04be2a42f647526fa97" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.~Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.~Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43930" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43930" bodyend="43930"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ab2f3e5cd460839d38bbf72fd5570ec95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43991" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43991" bodyend="43994"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a38227b9d51dbcfb26be46ea43adefa1b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44016" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44016" bodyend="44021"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a3597efcb2c29e7624603b8e9d797c539" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.operator Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag &gt; vec)</argsstring>
+        <name>operator Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.operator Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44099" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44099" bodyend="44099"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a2c86ca8e0a8a4f2308b9e3eae93a1e8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.operator==</definition>
+        <argsstring>(MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int _this, MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kindref="compound">MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kindref="compound">MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a2c86ca8e0a8a4f2308b9e3eae93a1e8e" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44104" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44104" bodyend="44109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a0fefbeccbc96bf4acad1d1bffb001877" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.operator!=</definition>
+        <argsstring>(MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int _this, MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kindref="compound">MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kindref="compound">MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44111" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44111" bodyend="44114"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;, int&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</label>
+        <link refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</label>
+        <link refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</label>
+        <link refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43914" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43915" bodyend="44263"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ad612a22c2204950f86e5a597753ddbcc" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a61637823a291c0edcef291bcf484c5cd" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1aaea0da173ceff8eea962ae683d37a00d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a7a5b98e0b81bcbacbb7b52efea9a60ec" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a38227b9d51dbcfb26be46ea43adefa1b" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1afcbf0c6a3d62b4342ddccb6084769986" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a84c9792980fb52d565063aa51235930a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a88a37738c3e14f08f5b17f5d8c4c7334" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a20736e48a0e6144cf18affae529d5da8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a7f3934ceff94a0cd5dfdd6c47217b95f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a6ff0a543fd3d41a2df3ff1066cf7d74b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a012068e9b95e5eddf9ed6c49ba4b7c1e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a859fa2881f148084892340dc59a31441" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ada7aac17bfbd684f68c218a9513c2915" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ac8319a4bbc2de8975a52e5696173c90d" prot="public" virt="virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a04fd07c65df8eed41d7de78e5b9cfd75" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a39dfd971fc5d7c42e59e6e2d3b0da479" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a57da991e132a519cd9917aee96a0bbb9" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a69fe45c3dee5566fbab72e57f5694119" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ad0aad90a590cdef66f0e6d1465e4e54e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ac7ff5cecd36efc903288cfb9585404fa" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ab2f3e5cd460839d38bbf72fd5570ec95" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a7a4aacf472cd15fcf4b4e62b1b8c4319" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a3597efcb2c29e7624603b8e9d797c539" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>operator Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a0fefbeccbc96bf4acad1d1bffb001877" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a2c86ca8e0a8a4f2308b9e3eae93a1e8e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a44515b420ac07044b45be3831254a2fd" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a3e1dcb3fc6cb8bb72b5df9a1b7a45c25" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>this[int i]</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1af1317eebdcdae5f4cec8d80fc4eb184b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a5034a42bd2a6b04be2a42f647526fa97" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</scope><name>~Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

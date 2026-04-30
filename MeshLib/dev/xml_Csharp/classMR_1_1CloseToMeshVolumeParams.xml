@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CloseToMeshVolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::CloseToMeshVolumeParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CloseToMeshVolumeParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CloseToMeshVolumeParams" prot="public" virt="non-virtual">MR.Const_CloseToMeshVolumeParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1CloseToMeshVolumeParams_1ae4998130a4acabe4d52cf374cc0918e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -143,7 +143,7 @@
         <name>CloseToMeshVolumeParams</name>
         <qualifiedname>MR.CloseToMeshVolumeParams.CloseToMeshVolumeParams</qualifiedname>
         <param>
-          <type>Const_CloseToMeshVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__CloseToMeshVolumeParams" kindref="compound">Const_CloseToMeshVolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CloseToMeshVolumeParams</label>
+        <link refid="classMR_1_1Const__CloseToMeshVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.CloseToMeshVolumeParams</label>
         <link refid="classMR_1_1CloseToMeshVolumeParams"/>
@@ -229,9 +234,13 @@
       </node>
       <node id="2">
         <label>MR.Const_CloseToMeshVolumeParams</label>
+        <link refid="classMR_1_1Const__CloseToMeshVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_meshToWorld</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,6 +252,8 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="419" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="420" bodyend="527"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a31d139698b74bdc0527e3f0dd7e74b9e" prot="protected" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>__ptr_storage_meshToWorld</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a50c1a4ed9b21d4e4713704d487c0470e" prot="protected" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>__ref_storage_closeDist</name></member>
       <member refid="classMR_1_1CloseToMeshVolumeParams_1a0a3a5bdb5e58125f1313ef440c506c25" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>assign</name></member>
       <member refid="classMR_1_1CloseToMeshVolumeParams_1ae4998130a4acabe4d52cf374cc0918e2" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>closeDist</name></member>
       <member refid="classMR_1_1CloseToMeshVolumeParams_1a884477925cbb160d7e51fc125543edd4" prot="package" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>CloseToMeshVolumeParams</name></member>
@@ -251,6 +262,14 @@
       <member refid="classMR_1_1CloseToMeshVolumeParams_1a3d5a7c055b79caf5b9c39f4bb89e4bba" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>CloseToMeshVolumeParams</name></member>
       <member refid="classMR_1_1CloseToMeshVolumeParams_1ac0628d69be4ff0d1904eae279e3d6118" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>CloseToMeshVolumeParams</name></member>
       <member refid="classMR_1_1CloseToMeshVolumeParams_1aea33742fe5a60cd32418df1273577d7e" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>CloseToMeshVolumeParams</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a6548776f562d77c2e97c841ecb4379e4" prot="package" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>Const_CloseToMeshVolumeParams</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a4d90ad6e2520dd1c8c484d8b5661a3d1" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>Const_CloseToMeshVolumeParams</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a125c4ce203118727ed3096c2b945920c" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>Const_CloseToMeshVolumeParams</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1aac954ccb1fe9474b1433a0a58b75cb3f" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>Const_CloseToMeshVolumeParams</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a15a7aeea2a622ad0f64c32eab31d146d" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>Const_CloseToMeshVolumeParams</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1ac113b01680edd28b9f6031b5b5e5a75a" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>Const_CloseToMeshVolumeParams</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1a1cac40c0086d70756eb0f9d21b42d644" prot="protected" virt="virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CloseToMeshVolumeParams_1af6458f0bbcbfadc7ad6500f17e002b27" prot="public" virt="virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1CloseToMeshVolumeParams_1af88726df996731662d81949827908ade" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>meshToWorld</name></member>
       <member refid="classMR_1_1CloseToMeshVolumeParams_1ae2e1cc49ee1b16c4d04bb7ca1003606b" prot="public" virt="non-virtual"><scope>MR::CloseToMeshVolumeParams</scope><name>vol</name></member>
     </listofallmembers>

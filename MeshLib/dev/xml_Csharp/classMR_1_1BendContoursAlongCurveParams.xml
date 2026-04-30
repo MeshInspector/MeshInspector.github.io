@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BendContoursAlongCurveParams" kind="class" language="C#" prot="public">
     <compoundname>MR::BendContoursAlongCurveParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BendContoursAlongCurveParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BendContoursAlongCurveParams" prot="public" virt="non-virtual">MR.Const_BendContoursAlongCurveParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BendContoursAlongCurveParams_1a3c824b7075345ef3df51e74aab610548" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -162,7 +162,7 @@
         <name>BendContoursAlongCurveParams</name>
         <qualifiedname>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</qualifiedname>
         <param>
-          <type>MR.Const_BendContoursAlongCurveParams</type>
+          <type><ref refid="classMR_1_1Const__BendContoursAlongCurveParams" kindref="compound">MR.Const_BendContoursAlongCurveParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -200,7 +200,7 @@
         <name>assign</name>
         <qualifiedname>MR.BendContoursAlongCurveParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_BendContoursAlongCurveParams</type>
+          <type><ref refid="classMR_1_1Const__BendContoursAlongCurveParams" kindref="compound">MR.Const_BendContoursAlongCurveParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BendContoursAlongCurveParams</label>
+        <link refid="classMR_1_1Const__BendContoursAlongCurveParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.BendContoursAlongCurveParams</label>
         <link refid="classMR_1_1BendContoursAlongCurveParams"/>
@@ -248,9 +253,13 @@
       </node>
       <node id="2">
         <label>MR.Const_BendContoursAlongCurveParams</label>
+        <link refid="classMR_1_1Const__BendContoursAlongCurveParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_pivotBoxPoint</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,12 +271,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="477" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="478" bodyend="565"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1ada3cea868417b2ef438fe79d9cfa34ff" prot="protected" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>__ref_storage_extrusion</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a58c203fd3dea070ee6ce0475162b8c2c" prot="protected" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>__ref_storage_periodicCurve</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a200911c82c33cffdef85ec0ebb11fb78" prot="protected" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>__ref_storage_pivotBoxPoint</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1ad5e595ec1265ad8bcc1f27839e0ecf52" prot="protected" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>__ref_storage_pivotCurveTime</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a05413e88f1fc53477067a8e95ec40a24" prot="protected" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>__ref_storage_stretch</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1a7fae37282c7daa40cc4252c847235216" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>assign</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1ae25bd27a9ba86d72173cffe83e1c7191" prot="package" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1aa5b34ace57687a2babac885e0d1e297c" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1ae10a13038184558c7bdba9d5b8cd21aa" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1abe93d95165be81233cf4fc1b8ef42fa0" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1a803d276da8eaf33d063670dc89335c96" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a424bf6e4407b93cb1308673e63515385" prot="package" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>Const_BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a72032ed882dd8a4b8e6c1d8a529a79e0" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>Const_BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a9fc02e4697c873a029757e758f5f1eca" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>Const_BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a346997c57650f47c35bbfc94df150a14" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>Const_BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a5ae9c6e2a9d1535d3556f3297dd3757e" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>Const_BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1ac8673ead5f59be3f12ce1607ad263d1c" prot="protected" virt="virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BendContoursAlongCurveParams_1a4ca745e199ce2937e1ae664a32ff5091" prot="public" virt="virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1aa92397793a1bac277afba6a6ce582dfe" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>extrusion</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1aa4fbe8fa584d2180028d99300bc2ca16" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>periodicCurve</name></member>
       <member refid="classMR_1_1BendContoursAlongCurveParams_1ad158268a17977448f902d6dd7db9da15" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>pivotBoxPoint</name></member>

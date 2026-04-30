@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Sphere3f" kind="class" language="C#" prot="public">
     <compoundname>MR::Sphere3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Sphere3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Sphere3f" prot="public" virt="non-virtual">MR.Const_Sphere3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Sphere3f_1a44cc0cb4af6b628ffbb6d04261d497c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -80,7 +80,7 @@
         <name>Sphere3f</name>
         <qualifiedname>MR.Sphere3f.Sphere3f</qualifiedname>
         <param>
-          <type>MR.Const_Sphere3f</type>
+          <type><ref refid="classMR_1_1Const__Sphere3f" kindref="compound">MR.Const_Sphere3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.Sphere3f.assign</qualifiedname>
         <param>
-          <type>MR.Const_Sphere3f</type>
+          <type><ref refid="classMR_1_1Const__Sphere3f" kindref="compound">MR.Const_Sphere3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Sphere3f</label>
+        <link refid="classMR_1_1Const__Sphere3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -186,6 +187,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Sphere3f</label>
         <link refid="classMR_1_1Sphere3f"/>
@@ -194,11 +199,15 @@
       </node>
       <node id="2">
         <label>MR.Const_Sphere3f</label>
+        <link refid="classMR_1_1Const__Sphere3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_center</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -213,8 +222,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="748" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="749" bodyend="816"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Sphere3f_1ab2d73521d7df68751392d757773f3d8c" prot="protected" virt="non-virtual"><scope>MR::Sphere3f</scope><name>__ref_storage_center</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1af24fbf25565d6ce5b5a150d625885a90" prot="protected" virt="non-virtual"><scope>MR::Sphere3f</scope><name>__ref_storage_radius</name></member>
       <member refid="classMR_1_1Sphere3f_1a222e0d40ae0ba44d9c5e7f3684050d1e" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>assign</name></member>
       <member refid="classMR_1_1Sphere3f_1a44cc0cb4af6b628ffbb6d04261d497c6" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a62ecaa17678e5b492d6b8961905c341d" prot="package" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Const_Sphere3f</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a41703ba3059974a9b9dcea2e8dd73222" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Const_Sphere3f</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a98a37c30a9c1d74e3685fd73180e7aca" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Const_Sphere3f</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a273f5fdfbade42ca9b80439af2210769" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Const_Sphere3f</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a68ac1baff8822771de74e7282f9a66f3" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Const_Sphere3f</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a65c315b0e3c0ffd5bc8b39af773ca7e4" prot="protected" virt="virtual"><scope>MR::Sphere3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a5c72ad0cb0e17605eb672dc9992e203c" prot="public" virt="virtual"><scope>MR::Sphere3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1ac669399551cd35ba358991ae26f2807b" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>distance</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a223201c727d10383c212b396f98757a5" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>distanceSq</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a1f09a92dfae76eedd6cb8c242a702a0f" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1adc787d40c1486337f5c2a7b20f56985a" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a38225219c61c5ad9e09ef5a699750b60" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a2a9aeb1def9eb10d59224686647ac14c" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Sphere3f_1a9f7254ed43c8bf54a632a24ef5a3260c" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>project</name></member>
       <member refid="classMR_1_1Sphere3f_1ab44ea9ce5045109563f8b205d9d0c743" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>radius</name></member>
       <member refid="classMR_1_1Sphere3f_1acb6c9dbd55ae7622d82e211d953839f8" prot="package" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Sphere3f</name></member>
       <member refid="classMR_1_1Sphere3f_1aa973f0a19479c9b9a2ed4d80664a5264" prot="public" virt="non-virtual"><scope>MR::Sphere3f</scope><name>Sphere3f</name></member>

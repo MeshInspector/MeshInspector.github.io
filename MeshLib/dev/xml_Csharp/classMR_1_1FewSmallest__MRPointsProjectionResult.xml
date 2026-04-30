@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FewSmallest__MRPointsProjectionResult" kind="class" language="C#" prot="public">
     <compoundname>MR::FewSmallest_MRPointsProjectionResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FewSmallest_MRPointsProjectionResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult" prot="public" virt="non-virtual">MR.Const_FewSmallest_MRPointsProjectionResult</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1FewSmallest__MRPointsProjectionResult_1a128b5f32f49597c5230a172bde0cea45" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>FewSmallest_MRPointsProjectionResult</name>
         <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.FewSmallest_MRPointsProjectionResult</qualifiedname>
         <param>
-          <type>Const_FewSmallest_MRPointsProjectionResult</type>
+          <type><ref refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult" kindref="compound">Const_FewSmallest_MRPointsProjectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -164,7 +164,7 @@
         <name>push</name>
         <qualifiedname>MR.FewSmallest_MRPointsProjectionResult.push</qualifiedname>
         <param>
-          <type>MR.Const_PointsProjectionResult</type>
+          <type><ref refid="classMR_1_1Const__PointsProjectionResult" kindref="compound">MR.Const_PointsProjectionResult</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -206,6 +206,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FewSmallest_MRPointsProjectionResult</label>
+        <link refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +228,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FewSmallest_MRPointsProjectionResult</label>
+        <link refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -243,14 +245,29 @@
     <listofallmembers>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a95e0e62ce78763b764c06117e0f9e802" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>assign</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a42f9e24121eebfed83297a5cbbb93b26" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a32c308cf0cc4326b75a1cb019e097ec2" prot="package" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a333128e2c724faa7a202a014408812cc" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ad683cc7a5bff1147794209688bff124c" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1af9c092faecea3a54bfbd790469b6432b" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a0b721166ccf6bb3b9bc2af6e2d9d6f22" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a321a60b0310bba4eb21ade9fe9f4cc29" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>Const_FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a65ff99477641c3a1bad77a10807a2d30" prot="protected" virt="virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1aeb5aee3fa839796962df605f29545c3a" prot="public" virt="virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ab8d141144a19687526506effe647f1c8" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>empty</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a128b5f32f49597c5230a172bde0cea45" prot="package" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a833d3856af94cb66dfd101b6f6c30a66" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a006254d6bfd802bd084b351cb9c75726" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a17645e539761a6f83ec76f2fd277479d" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a15869337685e9891dba2e64ef4ccc33c" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a6061e0a60693c44da1bdbbb0258de4a2" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>FewSmallest_MRPointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1abf701d7538ddbefdeea86c1732d73ba9" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>full</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a0ec8da6e6fb7740d2386dceb74a3dba8" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a02b319ba26ec52a2b0b91cdf39781821" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>maxElms</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1abb8a5b7b216680dd1041777c54718b70" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>push</name></member>
       <member refid="classMR_1_1FewSmallest__MRPointsProjectionResult_1a96414153dbd63137f8c644077f045ad0" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>reset</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ac7a895fc643d2a933d1b58e7ee0ec062" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1ae1b33f32bb310e23f1342bb18f44ebd6" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>top</name></member>
+      <member refid="classMR_1_1Const__FewSmallest__MRPointsProjectionResult_1a2fa4b695cbe7c52bc0c1913e012321ba" prot="public" virt="non-virtual"><scope>MR::FewSmallest_MRPointsProjectionResult</scope><name>topOr</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

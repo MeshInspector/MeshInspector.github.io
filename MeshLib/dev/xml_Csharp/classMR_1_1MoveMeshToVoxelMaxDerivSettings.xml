@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MoveMeshToVoxelMaxDerivSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::MoveMeshToVoxelMaxDerivSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MoveMeshToVoxelMaxDerivSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings" prot="public" virt="non-virtual">MR.Const_MoveMeshToVoxelMaxDerivSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MoveMeshToVoxelMaxDerivSettings_1aee214e60b86574cce42ea6082cb275fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -181,7 +181,7 @@
         <name>MoveMeshToVoxelMaxDerivSettings</name>
         <qualifiedname>MR.MoveMeshToVoxelMaxDerivSettings.MoveMeshToVoxelMaxDerivSettings</qualifiedname>
         <param>
-          <type>MR.Const_MoveMeshToVoxelMaxDerivSettings</type>
+          <type><ref refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings" kindref="compound">MR.Const_MoveMeshToVoxelMaxDerivSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -219,7 +219,7 @@
         <name>assign</name>
         <qualifiedname>MR.MoveMeshToVoxelMaxDerivSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_MoveMeshToVoxelMaxDerivSettings</type>
+          <type><ref refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings" kindref="compound">MR.Const_MoveMeshToVoxelMaxDerivSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MoveMeshToVoxelMaxDerivSettings</label>
+        <link refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -267,6 +268,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MoveMeshToVoxelMaxDerivSettings</label>
+        <link refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -281,8 +283,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="161" bodyend="254"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aee0d00df88edc0fcd2ce349aec522ac6" prot="protected" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_degree</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aa20c8e8635ebbc30897debe1dab42a05" prot="protected" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_intermediateSmoothForce</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a1322d49c8fdfc608912725b6aa7aa10c" prot="protected" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_iters</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a7a10efec8705d7051d4c9b79e5563983" prot="protected" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_outlierThreshold</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a515b20b6f48e8453680775f3b6bfc928" prot="protected" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_preparationSmoothForce</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a8bd3af00d6d7a3996962da28f960b2bb" prot="protected" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_samplePoints</name></member>
       <member refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings_1a076e8e8cc12bef4017719ef314dd383b" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a34b8fb4124dad6fa59ac6c2150e4c121" prot="package" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1af8279b5278dd76be9d69d84053ca94f9" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a3bda3f34f1b1223a21259171de8a5c5d" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aacd09eb3d5d0475fc688d66a7578334c" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a4a5d34f8df513ccefd3a8f9a534e7434" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
       <member refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings_1acede1e05b9e7280577a5ff654bdcc96d" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>degree</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a4c5aaf0e370f06b1e4fe7bb14ee7d3a8" prot="protected" virt="virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a8d107936e1980ab272488653127d8219" prot="public" virt="virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings_1a60b22f506d394ae8c557011b43705da1" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>intermediateSmoothForce</name></member>
       <member refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings_1aee214e60b86574cce42ea6082cb275fa" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>iters</name></member>
       <member refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings_1a26e970c7db66985d4543172c5ef636bc" prot="package" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>MoveMeshToVoxelMaxDerivSettings</name></member>

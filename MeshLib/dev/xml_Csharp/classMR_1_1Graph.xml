@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Graph" kind="class" language="C#" prot="public">
     <compoundname>MR::Graph</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Graph</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Graph" prot="public" virt="non-virtual">MR.Const_Graph</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Graph_1aeb5ffcb2f2f66f2a8e026c5c9f13885d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>Graph</name>
         <qualifiedname>MR.Graph.Graph</qualifiedname>
         <param>
-          <type>Const_Graph</type>
+          <type><ref refid="classMR_1_1Const__Graph" kindref="compound">Const_Graph</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -215,6 +215,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Graph</label>
+        <link refid="classMR_1_1Const__Graph"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -236,6 +237,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Graph</label>
+        <link refid="classMR_1_1Const__Graph"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -250,15 +252,33 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="411" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="412" bodyend="491"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Graph_1aff0be28e4f7995a31545050f9b429812" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>areNeighbors</name></member>
       <member refid="classMR_1_1Graph_1af30df5b9d12c67bde3e201bc0f7b4c0d" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Graph_1a90cb9dadafe9c14b6b60866dd6ccdf10" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>checkValidity</name></member>
+      <member refid="classMR_1_1Const__Graph_1a36376706959bd7a620f81eb4813189f2" prot="package" virt="non-virtual"><scope>MR::Graph</scope><name>Const_Graph</name></member>
+      <member refid="classMR_1_1Const__Graph_1a9d934fbd9d6a5cff13ced6e5f1e0f82b" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Const_Graph</name></member>
+      <member refid="classMR_1_1Const__Graph_1adc75fa498d3893935d7eac9f29532d4b" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Const_Graph</name></member>
+      <member refid="classMR_1_1Const__Graph_1a6d8f674f384d7c34a293aba7190dc40c" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Const_Graph</name></member>
+      <member refid="classMR_1_1Const__Graph_1a1b7964780a67417f64a0817f8eee5e90" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Const_Graph</name></member>
       <member refid="classMR_1_1Graph_1aa914a46f9c4bf15627aa5b912341a47b" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
       <member refid="classMR_1_1Graph_1a6713cff0d540df99b36c9055e0fe22a5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>construct</name></member>
+      <member refid="classMR_1_1Const__Graph_1ad2dcaf9e392d309a6564c62dad6a809f" prot="protected" virt="virtual"><scope>MR::Graph</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Graph_1ac2f53079644763ca41317b4b1772fce4" prot="public" virt="virtual"><scope>MR::Graph</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Graph_1a2d024e5949cfb9637077a13e28feaec5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>edgeSize</name></member>
+      <member refid="classMR_1_1Const__Graph_1a68a9a41e505e2bbafd9ae2f696f9aac6" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>ends</name></member>
+      <member refid="classMR_1_1Const__Graph_1a8e516b1bb9f4f9ae171982e5d702dd05" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>findEdge</name></member>
       <member refid="classMR_1_1Graph_1aeb5ffcb2f2f66f2a8e026c5c9f13885d" prot="package" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1a0c4502a8250c814fe00a4a4767d8b2a5" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1a2d8a6bfa2beb3fac553dd930eb973e9c" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1ad2aa3bd387124a9b08188ba484a40811" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1aa1f730e5fd495318789eca6a3ab840dd" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>Graph</name></member>
       <member refid="classMR_1_1Graph_1ae686215337242b8e30ae8aa85c3514f8" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>merge</name></member>
+      <member refid="classMR_1_1Const__Graph_1ac5655dea9211de624ba202802396757d" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>neighbours</name></member>
+      <member refid="classMR_1_1Const__Graph_1af1f127cd2257994c9326d6792696dcb0" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__Graph_1a374e941fa2503ee59457bebbc65fb77e" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__Graph_1ad81924dec6c7c3525794921c35d5d41f" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>validEdges</name></member>
+      <member refid="classMR_1_1Const__Graph_1aabf7574bc73ad5efcdbe9b44a97616ca" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>validVerts</name></member>
+      <member refid="classMR_1_1Const__Graph_1aaff21e502a4b323c815ad051a79c0b57" prot="public" virt="non-virtual"><scope>MR::Graph</scope><name>vertSize</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

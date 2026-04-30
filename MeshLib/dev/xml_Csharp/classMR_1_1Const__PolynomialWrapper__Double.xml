@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PolynomialWrapper__Double" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PolynomialWrapper_Double</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PolynomialWrapper__Double" prot="public" virt="non-virtual">MR.PolynomialWrapper_Double</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PolynomialWrapper__Double_1ab505bc64da830c1efbdee501dc271725" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Variant_MRPolynomialDouble0_MRPolynomialDouble1_MRPolynomialDouble2_MRPolynomialDouble3_MRPolynomialDouble4_MRPolynomialDouble5_MRPolynomialDouble6</type>
+        <definition>unsafe MR.Std.Const_Variant_MRPolynomialDouble0_MRPolynomialDouble1_MRPolynomialDouble2_MRPolynomialDouble3_MRPolynomialDouble4_MRPolynomialDouble5_MRPolynomialDouble6 MR.Const_PolynomialWrapper_Double.poly</definition>
+        <argsstring></argsstring>
+        <name>poly</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.poly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3249" column="182" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3249" bodyend="3249"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1addf2239d4355a43bc89e4168f235d452" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PolynomialWrapper_Double.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3237" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3237" bodyend="3245"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1af44c18a46818de3137b42d633f6d466d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PolynomialWrapper_Double.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3246" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3246" bodyend="3246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1a23621e8bbdc627763369a5a5286ca87e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolynomialWrapper_Double.Const_PolynomialWrapper_Double</definition>
+        <argsstring>(MR._ByValue_PolynomialWrapper_Double _other)</argsstring>
+        <name>Const_PolynomialWrapper_Double</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.Const_PolynomialWrapper_Double</qualifiedname>
+        <param>
+          <type>MR._ByValue_PolynomialWrapper_Double</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;::PolynomialWrapper</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3277" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3277" bodyend="3284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1ae7b7ac0228343470e6562ce5a229d9cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PolynomialWrapper_Double.Const_PolynomialWrapper_Double</definition>
+        <argsstring>(Const_PolynomialWrapper_Double _other)</argsstring>
+        <name>Const_PolynomialWrapper_Double</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.Const_PolynomialWrapper_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PolynomialWrapper__Double" kindref="compound">Const_PolynomialWrapper_Double</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;::PolynomialWrapper</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3289" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3289" bodyend="3289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1ad677c931f39ac5f42d42bc5e979f7291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PolynomialWrapper_Double.Const_PolynomialWrapper_Double</definition>
+        <argsstring>(PolynomialWrapper_Double _other)</argsstring>
+        <name>Const_PolynomialWrapper_Double</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.Const_PolynomialWrapper_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolynomialWrapper__Double" kindref="compound">PolynomialWrapper_Double</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;::PolynomialWrapper</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3294" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3294" bodyend="3294"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1a5fe042b1ec436bf59052bd6dfe4572ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_PolynomialWrapper_Double.call</definition>
+        <argsstring>(double x)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.call</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3299" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3299" bodyend="3304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1ac06f0d83ed31cf79fb36a37fab673d81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PolynomialWrapper__Double" kindref="compound">MR.PolynomialWrapper_Double</ref></type>
+        <definition>unsafe MR.PolynomialWrapper_Double MR.Const_PolynomialWrapper_Double.deriv</definition>
+        <argsstring>()</argsstring>
+        <name>deriv</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.deriv</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;<ref refid="classMR_1_1Const__PolynomialWrapper__Double_1ac06f0d83ed31cf79fb36a37fab673d81" kindref="member">deriv</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3309" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3309" bodyend="3314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1a4739892854a821402c891bf98195a740" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_Double</type>
+        <definition>unsafe MR.Std.Optional_Double MR.Const_PolynomialWrapper_Double.intervalMin</definition>
+        <argsstring>(double a, double b)</argsstring>
+        <name>intervalMin</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.intervalMin</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;<ref refid="classMR_1_1Const__PolynomialWrapper__Double_1a4739892854a821402c891bf98195a740" kindref="member">intervalMin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3319" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3319" bodyend="3324"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1a6d9153c2eadaa02c58cf1635afa69f81" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PolynomialWrapper_Double.~Const_PolynomialWrapper_Double</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PolynomialWrapper_Double</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.~Const_PolynomialWrapper_Double</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3247" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3247" bodyend="3247"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolynomialWrapper__Double_1a8f48e6158c1e48704d88d347b89b235c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolynomialWrapper_Double.Const_PolynomialWrapper_Double</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PolynomialWrapper_Double</name>
+        <qualifiedname>MR.Const_PolynomialWrapper_Double.Const_PolynomialWrapper_Double</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3266" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3266" bodyend="3271"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This is a unifying interface for a polynomial of some degree, known only in runtime Generated from class <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PolynomialWrapper_Double</label>
+        <link refid="classMR_1_1Const__PolynomialWrapper__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PolynomialWrapper_Double</label>
+        <link refid="classMR_1_1PolynomialWrapper__Double"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_PolynomialWrapper_Double</label>
+        <link refid="classMR_1_1Const__PolynomialWrapper__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3231" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3232" bodyend="3325"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a5fe042b1ec436bf59052bd6dfe4572ae" prot="public" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a8f48e6158c1e48704d88d347b89b235c" prot="package" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>Const_PolynomialWrapper_Double</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a23621e8bbdc627763369a5a5286ca87e" prot="public" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>Const_PolynomialWrapper_Double</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ae7b7ac0228343470e6562ce5a229d9cd" prot="public" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>Const_PolynomialWrapper_Double</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ad677c931f39ac5f42d42bc5e979f7291" prot="public" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>Const_PolynomialWrapper_Double</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ac06f0d83ed31cf79fb36a37fab673d81" prot="public" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>deriv</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1addf2239d4355a43bc89e4168f235d452" prot="protected" virt="virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1af44c18a46818de3137b42d633f6d466d" prot="public" virt="virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a4739892854a821402c891bf98195a740" prot="public" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>intervalMin</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ab505bc64da830c1efbdee501dc271725" prot="public" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>poly</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a6d9153c2eadaa02c58cf1635afa69f81" prot="private" virt="non-virtual"><scope>MR::Const_PolynomialWrapper_Double</scope><name>~Const_PolynomialWrapper_Double</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

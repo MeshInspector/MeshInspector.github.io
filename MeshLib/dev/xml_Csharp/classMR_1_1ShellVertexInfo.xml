@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ShellVertexInfo" kind="class" language="C#" prot="public">
     <compoundname>MR::ShellVertexInfo</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ShellVertexInfo</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ShellVertexInfo" prot="public" virt="non-virtual">MR.Const_ShellVertexInfo</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ShellVertexInfo_1aca9cc2ddd7f032a8f961c23a63bcc9db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -124,7 +124,7 @@
         <name>ShellVertexInfo</name>
         <qualifiedname>MR.ShellVertexInfo.ShellVertexInfo</qualifiedname>
         <param>
-          <type>MR.Const_ShellVertexInfo</type>
+          <type><ref refid="classMR_1_1Const__ShellVertexInfo" kindref="compound">MR.Const_ShellVertexInfo</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.ShellVertexInfo.assign</qualifiedname>
         <param>
-          <type>MR.Const_ShellVertexInfo</type>
+          <type><ref refid="classMR_1_1Const__ShellVertexInfo" kindref="compound">MR.Const_ShellVertexInfo</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ShellVertexInfo</label>
+        <link refid="classMR_1_1Const__ShellVertexInfo"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ShellVertexInfo</label>
+        <link refid="classMR_1_1Const__ShellVertexInfo"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,7 +226,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="408" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="409" bodyend="484"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1a1b29d0a0696c3e977c2659b785bb0d0b" prot="protected" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>__ref_storage_inRange</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1ab316f6a03424df9d860873bd0b19b951" prot="protected" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>__ref_storage_projOnBd</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1abd56b12ef18d321cd84f13a892b242a9" prot="protected" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>__ref_storage_rightSide</name></member>
       <member refid="classMR_1_1ShellVertexInfo_1a2d4e6661d744a45562f0e5eef498d734" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1a94fd023f3de47869ffbeeb5d802fb199" prot="package" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>Const_ShellVertexInfo</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1a2ce1df189c5ae6c45e4d2ecf36d94c10" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>Const_ShellVertexInfo</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1a392b899f75c281057eaa910b51a25a2b" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>Const_ShellVertexInfo</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1a96a8c9c8917fc3107066448240e7719b" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>Const_ShellVertexInfo</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1a396b995d0ca86f26e7e1bd068e1cdc57" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>Const_ShellVertexInfo</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1a166eb0e4e4c69bda7a1024325f444657" prot="protected" virt="virtual"><scope>MR::ShellVertexInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1aca916d141ba86bceea717ec56f47d8c4" prot="public" virt="virtual"><scope>MR::ShellVertexInfo</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ShellVertexInfo_1aca9cc2ddd7f032a8f961c23a63bcc9db" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>inRange</name></member>
       <member refid="classMR_1_1ShellVertexInfo_1a4d7016911b00a4a1aaee7399886979a8" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>projOnBd</name></member>
       <member refid="classMR_1_1ShellVertexInfo_1a54791d3b610c18423ccdfc5cb8cdf01e" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>rightSide</name></member>
@@ -233,6 +245,7 @@
       <member refid="classMR_1_1ShellVertexInfo_1afb436060e4924e982bfa05d14b595141" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>ShellVertexInfo</name></member>
       <member refid="classMR_1_1ShellVertexInfo_1a5bc16f741e350ed1fcb2925ab0d68640" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>ShellVertexInfo</name></member>
       <member refid="classMR_1_1ShellVertexInfo_1a44383a10e7b570c44464be97bcb4dc8e" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>ShellVertexInfo</name></member>
+      <member refid="classMR_1_1Const__ShellVertexInfo_1aa3a1d60cf112e6da82a86f36acc08a8c" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

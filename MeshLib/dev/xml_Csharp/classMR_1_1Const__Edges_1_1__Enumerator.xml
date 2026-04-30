@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Edges_1_1__Enumerator" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Edges::_Enumerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerator</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Edges_1_1__Enumerator_1a0bcb0ac6b9f68b5894082f58d4352800" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Const__Edges" kindref="compound">Const_Edges</ref></type>
+        <definition>Const_Edges MR.Const_Edges._Enumerator._container</definition>
+        <argsstring></argsstring>
+        <name>_container</name>
+        <qualifiedname>MR.Const_Edges._Enumerator._container</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="30" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Edges_1_1__Enumerator_1af60ff485f2b5c2d4d2c971a156036023" prot="private" static="no" mutable="no">
+        <type>MR.Std.Vector_StdArrayMRVertId2.ConstIterator</type>
+        <definition>MR.Std.Vector_StdArrayMRVertId2.ConstIterator MR.Const_Edges._Enumerator._cur</definition>
+        <argsstring></argsstring>
+        <name>_cur</name>
+        <qualifiedname>MR.Const_Edges._Enumerator._cur</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="31" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Edges_1_1__Enumerator_1a705785a33dcccc73cd52c80d556976e3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR.Const_Edges._Enumerator._first</definition>
+        <argsstring></argsstring>
+        <name>_first</name>
+        <qualifiedname>MR.Const_Edges._Enumerator._first</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="32" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Edges_1_1__Enumerator_1a050c4b120e2886e14b82c958d3f5c273" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR.Const_Edges._Enumerator._done</definition>
+        <argsstring></argsstring>
+        <name>_done</name>
+        <qualifiedname>MR.Const_Edges._Enumerator._done</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="33" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Edges_1_1__Enumerator_1aa86d1bda33c32a3bea401b6dd22aec0f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>MR.Misc.ConstRef&lt; MR.Std.Array_MRVertId_2 &gt;</type>
+        <definition>MR.Misc.ConstRef&lt;MR.Std.Array_MRVertId_2&gt; MR.Const_Edges._Enumerator.Current</definition>
+        <argsstring></argsstring>
+        <name>Current</name>
+        <qualifiedname>MR.Const_Edges._Enumerator.Current</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="42" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Edges_1_1__Enumerator_1a5154551c49cf204d7bb32ad011a4ce0c" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>object System.Collections.IEnumerator.</type>
+        <definition>object System.Collections.IEnumerator. MR.Const_Edges._Enumerator.Current</definition>
+        <argsstring></argsstring>
+        <name>Current</name>
+        <qualifiedname>MR.Const_Edges._Enumerator.Current</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1_1__Enumerator_1a507655c054c532eea4d0f5ec755f1636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Edges._Enumerator.MoveNext</definition>
+        <argsstring>()</argsstring>
+        <name>MoveNext</name>
+        <qualifiedname>MR.Const_Edges._Enumerator.MoveNext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="54" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="54" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1_1__Enumerator_1a9bf0c1a23866f83c6dff45b2f5f355a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Const_Edges._Enumerator.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>MR.Const_Edges._Enumerator.Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="72" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="72" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1_1__Enumerator_1a4c1fc6691f47028708f85c486763cc8c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IDisposable.</type>
+        <definition>void IDisposable. MR.Const_Edges._Enumerator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Edges._Enumerator.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="79" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEnumerator</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Edges._Enumerator</label>
+        <link refid="classMR_1_1Const__Edges_1_1__Enumerator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEnumerator</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Edges._Enumerator</label>
+        <link refid="classMR_1_1Const__Edges_1_1__Enumerator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="29" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1a0bcb0ac6b9f68b5894082f58d4352800" prot="private" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>_container</name></member>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1af60ff485f2b5c2d4d2c971a156036023" prot="private" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>_cur</name></member>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1a050c4b120e2886e14b82c958d3f5c273" prot="private" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>_done</name></member>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1a705785a33dcccc73cd52c80d556976e3" prot="private" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>_first</name></member>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1aa86d1bda33c32a3bea401b6dd22aec0f" prot="public" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>Current</name></member>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1a5154551c49cf204d7bb32ad011a4ce0c" prot="private" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>Current</name></member>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1a4c1fc6691f47028708f85c486763cc8c" prot="private" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1a507655c054c532eea4d0f5ec755f1636" prot="public" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>MoveNext</name></member>
+      <member refid="classMR_1_1Const__Edges_1_1__Enumerator_1a9bf0c1a23866f83c6dff45b2f5f355a2" prot="public" virt="non-virtual"><scope>MR::Const_Edges::_Enumerator</scope><name>Reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

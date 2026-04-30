@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FaceSetBitIterator" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FaceSetBitIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FaceSetBitIterator" prot="public" virt="non-virtual">MR.FaceSetBitIterator</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1ad39bdaea0f16a47e068bad9f7584b0e8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FaceSetBitIterator.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13540" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13540" bodyend="13548"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1aa351a0bcd85ff37ddf446e60233c7ed6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FaceSetBitIterator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13549" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13549" bodyend="13549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a517293fd91dc5514d7ed7e67e4232ca7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FaceSetBitIterator</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13557" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13557" bodyend="13562"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a466ecb28b98c5f2628ac2287429119a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</definition>
+        <argsstring>(MR.Const_FaceSetBitIterator _other)</argsstring>
+        <name>Const_FaceSetBitIterator</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceSetBitIterator_1ae4da90c5d90adb6d3f2539b31f202423" kindref="member">MR.FaceSetBitIterator.FaceSetBitIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13567" bodyend="13573"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a4ac15387e009d386933e0ffd5884ed1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</definition>
+        <argsstring>(FaceSetBitIterator _other)</argsstring>
+        <name>Const_FaceSetBitIterator</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceSetBitIterator" kindref="compound">FaceSetBitIterator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceSetBitIterator_1ae4da90c5d90adb6d3f2539b31f202423" kindref="member">MR.FaceSetBitIterator.FaceSetBitIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13578" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13578" bodyend="13578"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a0eeda36eb5144b7327fc8ca9a9175e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</definition>
+        <argsstring>(MR.Const_FaceBitSet bitset)</argsstring>
+        <name>Const_FaceSetBitIterator</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput><ref refid="classMR_1_1FaceSetBitIterator_1ae4da90c5d90adb6d3f2539b31f202423" kindref="member">MR.FaceSetBitIterator.FaceSetBitIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13584" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13584" bodyend="13590"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a36d38dec5a735c9ecd326b5dba6916d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
+        <definition>unsafe MR.? Const_FaceBitSet MR.Const_FaceSetBitIterator.bitset</definition>
+        <argsstring>()</argsstring>
+        <name>bitset</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.bitset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceSetBitIterator_1a36d38dec5a735c9ecd326b5dba6916d7" kindref="member">MR.FaceSetBitIterator.bitset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13613" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13613" bodyend="13619"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a589d0a471f0df5e6a7a1467dc0097915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_FaceSetBitIterator.deref</definition>
+        <argsstring>()</argsstring>
+        <name>deref</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.deref</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::FaceSetBitIterator::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13624" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13624" bodyend="13629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1ad27b633532e76b6a117fa2757d80526e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_FaceSetBitIterator.Equals</definition>
+        <argsstring>(MR.Const_FaceSetBitIterator? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13648" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13648" bodyend="13653"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a84ba49c96ea472d3252c7727749b8b66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_FaceSetBitIterator.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13655" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13655" bodyend="13662"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1ada076caeef1a8caaaa3d203da1432994" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceSetBitIterator.~Const_FaceSetBitIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FaceSetBitIterator</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.~Const_FaceSetBitIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13550" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13550" bodyend="13550"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a67f90dc6d1ac4c7c69895a8a58ee1d04" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FaceSetBitIterator</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.Const_FaceSetBitIterator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13552" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13552" bodyend="13552"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1af1cd5d8b7958dd62ac5603e09017baee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_FaceSetBitIterator.operator Const_FaceSetBitIterator</definition>
+        <argsstring>(MR.Const_FaceBitSet bitset)</argsstring>
+        <name>operator Const_FaceSetBitIterator</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.operator Const_FaceSetBitIterator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator Generated from constructor <computeroutput><ref refid="classMR_1_1FaceSetBitIterator_1ae4da90c5d90adb6d3f2539b31f202423" kindref="member">MR.FaceSetBitIterator.FaceSetBitIterator</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13596" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13596" bodyend="13596"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a25221ce466622646e292d2be2b7a70ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceSetBitIterator" kindref="compound">FaceSetBitIterator</ref></type>
+        <definition>static unsafe FaceSetBitIterator MR.Const_FaceSetBitIterator.operator++</definition>
+        <argsstring>(MR.Const_FaceSetBitIterator _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::FaceSetBitIterator::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13601" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13601" bodyend="13608"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1a2e7ec4f88f66b1b35273241cae5f5630" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_FaceSetBitIterator.operator==</definition>
+        <argsstring>(MR.Const_FaceSetBitIterator a, MR.Const_FaceSetBitIterator b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13634" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13634" bodyend="13639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceSetBitIterator_1aa17e3653312ed62af5e73e6bbd835c0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_FaceSetBitIterator.operator!=</definition>
+        <argsstring>(MR.Const_FaceSetBitIterator a, MR.Const_FaceSetBitIterator b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_FaceSetBitIterator.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceSetBitIterator" kindref="compound">MR.Const_FaceSetBitIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13641" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13641" bodyend="13644"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput><ref refid="classMR_1_1FaceSetBitIterator" kindref="compound">MR.FaceSetBitIterator</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FaceSetBitIterator</label>
+        <link refid="classMR_1_1Const__FaceSetBitIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.FaceSetBitIterator</label>
+        <link refid="classMR_1_1FaceSetBitIterator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_FaceSetBitIterator</label>
+        <link refid="classMR_1_1Const__FaceSetBitIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13534" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13535" bodyend="13663"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a36d38dec5a735c9ecd326b5dba6916d7" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a67f90dc6d1ac4c7c69895a8a58ee1d04" prot="package" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a517293fd91dc5514d7ed7e67e4232ca7" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a466ecb28b98c5f2628ac2287429119a1" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a4ac15387e009d386933e0ffd5884ed1b" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a0eeda36eb5144b7327fc8ca9a9175e1e" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a589d0a471f0df5e6a7a1467dc0097915" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1ad39bdaea0f16a47e068bad9f7584b0e8" prot="protected" virt="virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1aa351a0bcd85ff37ddf446e60233c7ed6" prot="public" virt="virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1ad27b633532e76b6a117fa2757d80526e" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a84ba49c96ea472d3252c7727749b8b66" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1af1cd5d8b7958dd62ac5603e09017baee" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>operator Const_FaceSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1aa17e3653312ed62af5e73e6bbd835c0c" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a25221ce466622646e292d2be2b7a70ba" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1a2e7ec4f88f66b1b35273241cae5f5630" prot="public" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__FaceSetBitIterator_1ada076caeef1a8caaaa3d203da1432994" prot="private" virt="non-virtual"><scope>MR::Const_FaceSetBitIterator</scope><name>~Const_FaceSetBitIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

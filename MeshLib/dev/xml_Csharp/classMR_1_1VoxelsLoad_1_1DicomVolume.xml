@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsLoad_1_1DicomVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsLoad::DicomVolume</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.VoxelsLoad.Const_DicomVolume</basecompoundref>
+    <basecompoundref refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume" prot="public" virt="non-virtual">MR.VoxelsLoad.Const_DicomVolume</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1DicomVolume_1ac57e1552d3c9ee11cd98a863cf7defe4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref></type>
@@ -140,7 +140,7 @@
         <name>DicomVolume</name>
         <qualifiedname>MR.VoxelsLoad.DicomVolume.DicomVolume</qualifiedname>
         <param>
-          <type>Const_DicomVolume</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume" kindref="compound">Const_DicomVolume</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.VoxelsLoad.Const_DicomVolume</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,6 +219,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VoxelsLoad.DicomVolume</label>
         <link refid="classMR_1_1VoxelsLoad_1_1DicomVolume"/>
@@ -229,9 +234,13 @@
       </node>
       <node id="2">
         <label>MR.VoxelsLoad.Const_DicomVolume</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -240,13 +249,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="124" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="125" bodyend="223"/>
     <listofallmembers>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1a44f702c9ba5bacf2ff9d561a7f3a239f" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>__ref_storage_xf</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1aafe236ba8ce9ba482959c6e2c498a324" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1aa5c752fdfb1222576bf52450cfc7c3d7" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>Const_DicomVolume</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1a419b5f40c648a848cc7fe0511f5a595c" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>Const_DicomVolume</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1a5e28f655861cddeb23996d49f3f66cbc" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>Const_DicomVolume</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1a42cc1133b3c651e8df85dd3531b09a6b" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>Const_DicomVolume</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1aee4fd4f3dfbb307b3537249254abfdd5" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>Const_DicomVolume</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1a2b13e08c799030e4fe8ab33f1cc4843c" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>Const_DicomVolume</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1abaa98739a49327f46539c6998ea98a9e" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>DicomVolume</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1a8286e133990e0a3b26f4085baebe9a49" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>DicomVolume</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1ab2af87955f85db2837ee20c2695f000a" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>DicomVolume</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1a712b62a3917eff84ad9ffcc3ca45f95b" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>DicomVolume</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1abd7c795158f6de08b4970e0d8058b628" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>DicomVolume</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1abe0d90be31b0c0bf151c7448dfd5893b" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>DicomVolume</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1a6a2bdea3f5ea485a33a1d31eaf33a5e1" prot="protected" virt="virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume_1a697418ccd15d8ef2d6b7f9b1421e7f5f" prot="public" virt="virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1ad731c3b0afeac78179b3b58ec5ab498a" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>name</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1ac57e1552d3c9ee11cd98a863cf7defe4" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>vol</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1DicomVolume_1a195f2af4ac72d8a23bf87c9d27e765e7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolume</scope><name>xf</name></member>

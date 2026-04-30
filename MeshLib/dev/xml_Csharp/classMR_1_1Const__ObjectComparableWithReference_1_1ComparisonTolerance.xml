@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjectComparableWithReference::ComparisonTolerance</compoundname>
+    <basecompoundref refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance" prot="public" virt="non-virtual">MR.Const_ObjectComparableWithReference.Const_ComparisonTolerance</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1a784f6f1440c707e60f03b91a8626a1f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Const_ObjectComparableWithReference.ComparisonTolerance.positive</definition>
+        <argsstring></argsstring>
+        <name>positive</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.ComparisonTolerance.positive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="684" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="684" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1ad0cdf371dc2d8e54a2a92a0dda72da19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Const_ObjectComparableWithReference.ComparisonTolerance.negative</definition>
+        <argsstring></argsstring>
+        <name>negative</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.ComparisonTolerance.negative</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="688" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="688" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1a2a518f65f98e8146a0a6b3ac10fae5fe" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ComparisonTolerance</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="692" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="692" bodyend="696"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1a80b97d88ea5771277646c5c7c39702ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</definition>
+        <argsstring>()</argsstring>
+        <name>ComparisonTolerance</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="702" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="702" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1ab19317bb4f969534dac6aa47a3f622f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</definition>
+        <argsstring>(float positive, float negative)</argsstring>
+        <name>ComparisonTolerance</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>positive</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>negative</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">MR.ObjectComparableWithReference.ComparisonTolerance</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="713" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="713" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1ab578760d4f2bfb0df708450b6c14e921" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</definition>
+        <argsstring>(MR.ObjectComparableWithReference.Const_ComparisonTolerance _other)</argsstring>
+        <name>ComparisonTolerance</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance" kindref="compound">MR.ObjectComparableWithReference.Const_ComparisonTolerance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::ObjectComparableWithReference::ComparisonTolerance::ComparisonTolerance</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="724" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="724" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1ae46e2659d76f4f762637f74ebba8a863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</definition>
+        <argsstring>(ComparisonTolerance _other)</argsstring>
+        <name>ComparisonTolerance</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.ComparisonTolerance.ComparisonTolerance</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ComparisonTolerance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::ObjectComparableWithReference::ComparisonTolerance::ComparisonTolerance</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="736" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="736" bodyend="736"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1a6b5336677c6c6e9c1080dc57ea3d0217" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">MR.ObjectComparableWithReference.ComparisonTolerance</ref></type>
+        <definition>unsafe MR.ObjectComparableWithReference.ComparisonTolerance MR.Const_ObjectComparableWithReference.ComparisonTolerance.assign</definition>
+        <argsstring>(MR.ObjectComparableWithReference.Const_ComparisonTolerance _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_ObjectComparableWithReference.ComparisonTolerance.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance" kindref="compound">MR.ObjectComparableWithReference.Const_ComparisonTolerance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectComparableWithReference::ComparisonTolerance::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="741" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="741" bodyend="748"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">MR.ObjectComparableWithReference.ComparisonTolerance</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjectComparableWithReference.ComparisonTolerance</label>
+        <link refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ObjectComparableWithReference.Const_ComparisonTolerance</label>
+        <link refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ObjectComparableWithReference.ComparisonTolerance</label>
+        <link refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ObjectComparableWithReference.Const_ComparisonTolerance</label>
+        <link refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="681" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="682" bodyend="749"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1a30a78b337b7cf1746a0bbf0516f196be" prot="protected" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>__ref_storage_negative</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1a4a363a21da8cc65c2923b542f0f4aacc" prot="protected" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>__ref_storage_positive</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1a6b5336677c6c6e9c1080dc57ea3d0217" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1a2a518f65f98e8146a0a6b3ac10fae5fe" prot="package" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1a80b97d88ea5771277646c5c7c39702ad" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1ab19317bb4f969534dac6aa47a3f622f5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1ab578760d4f2bfb0df708450b6c14e921" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1ae46e2659d76f4f762637f74ebba8a863" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1a991442f6bd1676a7c31efd2bc3908096" prot="package" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>Const_ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1a446f2483076f035a2d90e0edf6692a74" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>Const_ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1aaea46fe923d18a6dd11d425ada2df36a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>Const_ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1a3e26121f703efffd444267736efe97e8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>Const_ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1a811bd30611103bd9a97f7a8c3ec0a38d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>Const_ComparisonTolerance</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1a0aff4ec1fb64a601f716bfcff07489b7" prot="protected" virt="virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonTolerance_1a22be7bef772f630614c5238545a9c299" prot="public" virt="virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1ad0cdf371dc2d8e54a2a92a0dda72da19" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>negative</name></member>
+      <member refid="classMR_1_1Const__ObjectComparableWithReference_1_1ComparisonTolerance_1a784f6f1440c707e60f03b91a8626a1f8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectComparableWithReference::ComparisonTolerance</scope><name>positive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VolumeSegmenter" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VolumeSegmenter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VolumeSegmenter" prot="public" virt="non-virtual">MR.VolumeSegmenter</derivedcompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3c" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>SeedType</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.SeedType</qualifiedname>
+        <enumvalue id="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3ca9b6d3000134648fc9f1e71094ae0847d" prot="public">
+          <name>Inside</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3ca76fbf0ccd7fcd64879c2ff2119dc15a4" prot="public">
+          <name>Outside</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3cae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="351" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="352" bodyend="356"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1af97f7445ff34004c81ce5f5a71ddc831" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VolumeSegmenter.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="253" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="253" bodyend="261"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1a4f466084334972d85ef384a940920a1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VolumeSegmenter.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="262" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="262" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1a56233c7958c6e4ff35e282244711fb8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeSegmenter.Const_VolumeSegmenter</definition>
+        <argsstring>(MR._ByValue_VolumeSegmenter _other)</argsstring>
+        <name>Const_VolumeSegmenter</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.Const_VolumeSegmenter</qualifiedname>
+        <param>
+          <type>MR._ByValue_VolumeSegmenter</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeSegmenter_1a557f727dbad7061d2d7f56635a3ad5da" kindref="member">MR.VolumeSegmenter.VolumeSegmenter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="270" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="270" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1abbcdb9ca90355528a0468672b0eb5f4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VolumeSegmenter.Const_VolumeSegmenter</definition>
+        <argsstring>(Const_VolumeSegmenter _other)</argsstring>
+        <name>Const_VolumeSegmenter</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.Const_VolumeSegmenter</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VolumeSegmenter" kindref="compound">Const_VolumeSegmenter</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeSegmenter_1a557f727dbad7061d2d7f56635a3ad5da" kindref="member">MR.VolumeSegmenter.VolumeSegmenter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="281" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="281" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1a78aedbd3f46f18865305e33bad218f69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VolumeSegmenter.Const_VolumeSegmenter</definition>
+        <argsstring>(VolumeSegmenter _other)</argsstring>
+        <name>Const_VolumeSegmenter</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.Const_VolumeSegmenter</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VolumeSegmenter" kindref="compound">VolumeSegmenter</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeSegmenter_1a557f727dbad7061d2d7f56635a3ad5da" kindref="member">MR.VolumeSegmenter.VolumeSegmenter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="286" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1ad1387100337aa1897a3cf7027590c836" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeSegmenter.Const_VolumeSegmenter</definition>
+        <argsstring>(MR.Const_VdbVolume volume)</argsstring>
+        <name>Const_VolumeSegmenter</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.Const_VolumeSegmenter</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeSegmenter_1a557f727dbad7061d2d7f56635a3ad5da" kindref="member">MR.VolumeSegmenter.VolumeSegmenter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="291" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="291" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1a0465dabdd71135131941d16f900f2245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRVector3i</type>
+        <definition>unsafe MR.Std.Const_Vector_MRVector3i MR.Const_VolumeSegmenter.getSeeds</definition>
+        <argsstring>(MR.VolumeSegmenter.SeedType seedType)</argsstring>
+        <name>getSeeds</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.getSeeds</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3c" kindref="member">MR.VolumeSegmenter.SeedType</ref></type>
+          <declname>seedType</declname>
+        </param>
+        <briefdescription>
+<para>Return currently stored seeds Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeSegmenter_1a0465dabdd71135131941d16f900f2245" kindref="member">MR.VolumeSegmenter.getSeeds</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="308" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="308" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1abc0c0cbfadd66f72be166ad669fac922" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>unsafe MR.Mesh MR.Const_VolumeSegmenter.createMeshFromSegmentation</definition>
+        <argsstring>(MR.Const_VoxelBitSet segmentation)</argsstring>
+        <name>createMeshFromSegmentation</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.createMeshFromSegmentation</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>segmentation</declname>
+        </param>
+        <briefdescription>
+<para>Returns mesh of given segment Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeSegmenter_1abc0c0cbfadd66f72be166ad669fac922" kindref="member">MR.VolumeSegmenter.createMeshFromSegmentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="319" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="319" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1a66b882e9668a4efaf81919c677d9c3d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe ref readonly MR.Vector3i MR.Const_VolumeSegmenter.getVolumePartDimensions</definition>
+        <argsstring>()</argsstring>
+        <name>getVolumePartDimensions</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.getVolumePartDimensions</qualifiedname>
+        <briefdescription>
+<para>Dimensions of volume part, filled after segmentation Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeSegmenter_1a66b882e9668a4efaf81919c677d9c3d3" kindref="member">MR.VolumeSegmenter.getVolumePartDimensions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="333" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="333" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1aefa08fb6291705b5849ad81364a8bfa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe ref readonly MR.Vector3i MR.Const_VolumeSegmenter.getMinVoxel</definition>
+        <argsstring>()</argsstring>
+        <name>getMinVoxel</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.getMinVoxel</qualifiedname>
+        <briefdescription>
+<para>Min voxel of volume part box in whole volume space, filled after segmentation Generated from method <computeroutput><ref refid="classMR_1_1Const__VolumeSegmenter_1aefa08fb6291705b5849ad81364a8bfa0" kindref="member">MR.VolumeSegmenter.getMinVoxel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="344" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="344" bodyend="349"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1a6d4153283b28b51225e8d3ed6252b37d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VolumeSegmenter.~Const_VolumeSegmenter</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VolumeSegmenter</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.~Const_VolumeSegmenter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="263" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="263" bodyend="263"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1a0d6c8f9b6017a270f748c90f80826ca8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeSegmenter.Const_VolumeSegmenter</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VolumeSegmenter</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.Const_VolumeSegmenter</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="265" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="265" bodyend="265"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmenter_1a92b915baaa2c0552f04dbe41b13c2e7e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_VolumeSegmenter.operator Const_VolumeSegmenter</definition>
+        <argsstring>(MR.Const_VdbVolume volume)</argsstring>
+        <name>operator Const_VolumeSegmenter</name>
+        <qualifiedname>MR.Const_VolumeSegmenter.operator Const_VolumeSegmenter</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeSegmenter_1a557f727dbad7061d2d7f56635a3ad5da" kindref="member">MR.VolumeSegmenter.VolumeSegmenter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="302" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="302" bodyend="302"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for voxels segmentation &lt;table border=0&gt; &lt;caption id="VolumeSegmenter_examples"&gt;&lt;/caption&gt; &lt;tr&gt; &lt;td&gt;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><image type="html" name="voxel_segmentation_0_0.png">"Before (a)" width = 350cm &lt;/td&gt;</image>
+ &lt;td&gt;<image type="html" name="voxel_segmentation_0_1.png">"Before (b)" width = 350cm &lt;/td&gt; &lt;/tr&gt;</image>
+ &lt;td&gt;<image type="html" name="voxel_segmentation_0_2.png">"After" width = 350cm &lt;/td&gt; &lt;/tr&gt;</image>
+ &lt;/table&gt; Generated from class <computeroutput><ref refid="classMR_1_1VolumeSegmenter" kindref="compound">MR.VolumeSegmenter</ref></computeroutput>. This is the const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VolumeSegmenter</label>
+        <link refid="classMR_1_1Const__VolumeSegmenter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VolumeSegmenter</label>
+        <link refid="classMR_1_1VolumeSegmenter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_VolumeSegmenter</label>
+        <link refid="classMR_1_1Const__VolumeSegmenter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="247" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="248" bodyend="357"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a0d6c8f9b6017a270f748c90f80826ca8" prot="package" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a56233c7958c6e4ff35e282244711fb8d" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1abbcdb9ca90355528a0468672b0eb5f4e" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a78aedbd3f46f18865305e33bad218f69" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1ad1387100337aa1897a3cf7027590c836" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1abc0c0cbfadd66f72be166ad669fac922" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>createMeshFromSegmentation</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1af97f7445ff34004c81ce5f5a71ddc831" prot="protected" virt="virtual"><scope>MR::Const_VolumeSegmenter</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a4f466084334972d85ef384a940920a1b" prot="public" virt="virtual"><scope>MR::Const_VolumeSegmenter</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1aefa08fb6291705b5849ad81364a8bfa0" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>getMinVoxel</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a0465dabdd71135131941d16f900f2245" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>getSeeds</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a66b882e9668a4efaf81919c677d9c3d3" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>getVolumePartDimensions</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a92b915baaa2c0552f04dbe41b13c2e7e" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>operator Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3c" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>SeedType</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a6d4153283b28b51225e8d3ed6252b37d" prot="private" virt="non-virtual"><scope>MR::Const_VolumeSegmenter</scope><name>~Const_VolumeSegmenter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

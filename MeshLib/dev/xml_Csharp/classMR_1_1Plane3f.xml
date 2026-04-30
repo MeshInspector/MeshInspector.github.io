@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Plane3f" kind="class" language="C#" prot="public">
     <compoundname>MR::Plane3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Plane3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Plane3f" prot="public" virt="non-virtual">MR.Const_Plane3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Plane3f_1a1e21a9f3865f2658401cbdb672106c2f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -80,7 +80,7 @@
         <name>Plane3f</name>
         <qualifiedname>MR.Plane3f.Plane3f</qualifiedname>
         <param>
-          <type>MR.Const_Plane3f</type>
+          <type><ref refid="classMR_1_1Const__Plane3f" kindref="compound">MR.Const_Plane3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>Plane3f</name>
         <qualifiedname>MR.Plane3f.Plane3f</qualifiedname>
         <param>
-          <type>MR.Const_Plane3d</type>
+          <type><ref refid="classMR_1_1Const__Plane3d" kindref="compound">MR.Const_Plane3d</ref></type>
           <declname>p</declname>
         </param>
         <briefdescription>
@@ -160,7 +160,7 @@
         <name>assign</name>
         <qualifiedname>MR.Plane3f.assign</qualifiedname>
         <param>
-          <type>MR.Const_Plane3f</type>
+          <type><ref refid="classMR_1_1Const__Plane3f" kindref="compound">MR.Const_Plane3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Plane3f</label>
+        <link refid="classMR_1_1Const__Plane3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -200,6 +201,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Plane3f</label>
         <link refid="classMR_1_1Plane3f"/>
@@ -208,9 +213,13 @@
       </node>
       <node id="2">
         <label>MR.Const_Plane3f</label>
+        <link refid="classMR_1_1Const__Plane3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_n</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -222,15 +231,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="199" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="200" bodyend="281"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Plane3f_1a12f34c07af5ed9472758d6ed25e34b7b" prot="protected" virt="non-virtual"><scope>MR::Plane3f</scope><name>__ref_storage_d</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a84ea41e6c1d1968ccd2aa1c80d378592" prot="protected" virt="non-virtual"><scope>MR::Plane3f</scope><name>__ref_storage_n</name></member>
       <member refid="classMR_1_1Plane3f_1a092dc0bdb0dd94c4e08e505ee5f69ecc" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a03dc785b945763cfff3a09f965f763fa" prot="package" virt="non-virtual"><scope>MR::Plane3f</scope><name>Const_Plane3f</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a4d9ac7d34b1bb83a124198f081368a68" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Const_Plane3f</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a875790ad650c7a35e35cec22aaeb88e9" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Const_Plane3f</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a80a1d5ab2e7b19906e2be51ffd5486ce" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Const_Plane3f</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a0e6d421251ab69f6b98cf5025c899e1a" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Const_Plane3f</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1ad386ba366d555812580a4fb00a3bc013" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Const_Plane3f</name></member>
       <member refid="classMR_1_1Plane3f_1a20a8c3e4841ce531858946a68586465c" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>d</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1ab3427289de677b2cabc5c95b81b504b5" prot="protected" virt="virtual"><scope>MR::Plane3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a9d03a18e6f869dbbdf277380c741000c" prot="public" virt="virtual"><scope>MR::Plane3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a606a201f6f53277e366aee15d4bc2d9b" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>distance</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1acf9b49d9ab29bca265ac20d844d026f3" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>fromDirAndPt</name></member>
       <member refid="classMR_1_1Plane3f_1a1e21a9f3865f2658401cbdb672106c2f" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>n</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1acba8491aa0b76bf417ac8f5b868b5609" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>normalized</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a0b0f825a851003c2b49a060ff364f9ad" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1ab9cbd5e9fa7ac1be461d15b759a28c6c" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>operator-</name></member>
       <member refid="classMR_1_1Plane3f_1a3f2758f7316e57a395392e6c362a6d96" prot="package" virt="non-virtual"><scope>MR::Plane3f</scope><name>Plane3f</name></member>
       <member refid="classMR_1_1Plane3f_1aaad7960a976c1146e872b02d609ab7d0" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Plane3f</name></member>
       <member refid="classMR_1_1Plane3f_1ab1c823a4ee6b55c4b921cc9f6974bea7" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Plane3f</name></member>
       <member refid="classMR_1_1Plane3f_1ab093c1655d56d96885533f562ea4c98b" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Plane3f</name></member>
       <member refid="classMR_1_1Plane3f_1a6ad6a8629d77efd4bc89854b6f53c2ac" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Plane3f</name></member>
       <member refid="classMR_1_1Plane3f_1a5967a8ec4a00fcfcf043fff616b95c5a" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>Plane3f</name></member>
+      <member refid="classMR_1_1Const__Plane3f_1a5da0a61605c9f8309f234886efcb3e7e" prot="public" virt="non-virtual"><scope>MR::Plane3f</scope><name>project</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

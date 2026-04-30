@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FaceBMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FaceBMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FaceBMap" prot="public" virt="non-virtual">MR.FaceBMap</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FaceBMap_1a56f574e831597c11a13b91b8f8259608" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Buffer__MRFaceId__MRFaceId" kindref="compound">MR.Const_Buffer_MRFaceId_MRFaceId</ref></type>
+        <definition>unsafe MR.Const_Buffer_MRFaceId_MRFaceId MR.Const_FaceBMap.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_FaceBMap.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8609" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8609" bodyend="8609"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FaceBMap_1a57e90846f498cd829196b3aa5419bcfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_FaceBMap.tsize</definition>
+        <argsstring></argsstring>
+        <name>tsize</name>
+        <qualifiedname>MR.Const_FaceBMap.tsize</qualifiedname>
+        <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8614" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8614" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__FaceBMap_1a1ab522ceba190103f8d5d38d52ca8a41" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_FaceBMap.__ref_storage_tsize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_tsize</name>
+        <qualifiedname>MR.Const_FaceBMap.__ref_storage_tsize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8615" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8615" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceBMap_1a2bb940abea8e45797d73f136aa432e35" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FaceBMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceBMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8597" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8597" bodyend="8605"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceBMap_1a63be60a68e4582818d0b8e2bb48011f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FaceBMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceBMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8606" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8606" bodyend="8606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceBMap_1a5ea0d2ed63946652e031c38fc728cbd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceBMap.Const_FaceBMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FaceBMap</name>
+        <qualifiedname>MR.Const_FaceBMap.Const_FaceBMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8649" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8649" bodyend="8655"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceBMap_1ae03ea14cf5e3829c6f7e585a7028506c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceBMap.Const_FaceBMap</definition>
+        <argsstring>(MR._ByValue_Buffer_MRFaceId_MRFaceId b, ulong tsize)</argsstring>
+        <name>Const_FaceBMap</name>
+        <qualifiedname>MR.Const_FaceBMap.Const_FaceBMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRFaceId_MRFaceId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FaceBMap" kindref="compound">MR.FaceBMap</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8660" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8660" bodyend="8667"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceBMap_1a875f18b321953850d79705b7c13ac26d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceBMap.Const_FaceBMap</definition>
+        <argsstring>(MR._ByValue_FaceBMap _other)</argsstring>
+        <name>Const_FaceBMap</name>
+        <qualifiedname>MR.Const_FaceBMap.Const_FaceBMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceBMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceBMap_1affde7c86b3163c2c13283caf790a8dc1" kindref="member">MR.FaceBMap.FaceBMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8672" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8672" bodyend="8679"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceBMap_1af504221ba253eea1d2edc6981f329615" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceBMap.~Const_FaceBMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FaceBMap</name>
+        <qualifiedname>MR.Const_FaceBMap.~Const_FaceBMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8607" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8607" bodyend="8607"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceBMap_1abb6c7824774ea4f60526bb68f797e8fe" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceBMap.Const_FaceBMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FaceBMap</name>
+        <qualifiedname>MR.Const_FaceBMap.Const_FaceBMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8638" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8638" bodyend="8643"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T Generated from class <computeroutput><ref refid="classMR_1_1FaceBMap" kindref="compound">MR.FaceBMap</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FaceBMap</label>
+        <link refid="classMR_1_1Const__FaceBMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FaceBMap</label>
+        <link refid="classMR_1_1FaceBMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_FaceBMap</label>
+        <link refid="classMR_1_1Const__FaceBMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8591" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8592" bodyend="8680"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FaceBMap_1a1ab522ceba190103f8d5d38d52ca8a41" prot="protected" virt="non-virtual"><scope>MR::Const_FaceBMap</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a56f574e831597c11a13b91b8f8259608" prot="public" virt="non-virtual"><scope>MR::Const_FaceBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1abb6c7824774ea4f60526bb68f797e8fe" prot="package" virt="non-virtual"><scope>MR::Const_FaceBMap</scope><name>Const_FaceBMap</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a5ea0d2ed63946652e031c38fc728cbd1" prot="public" virt="non-virtual"><scope>MR::Const_FaceBMap</scope><name>Const_FaceBMap</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1ae03ea14cf5e3829c6f7e585a7028506c" prot="public" virt="non-virtual"><scope>MR::Const_FaceBMap</scope><name>Const_FaceBMap</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a875f18b321953850d79705b7c13ac26d" prot="public" virt="non-virtual"><scope>MR::Const_FaceBMap</scope><name>Const_FaceBMap</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a2bb940abea8e45797d73f136aa432e35" prot="protected" virt="virtual"><scope>MR::Const_FaceBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a63be60a68e4582818d0b8e2bb48011f9" prot="public" virt="virtual"><scope>MR::Const_FaceBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a57e90846f498cd829196b3aa5419bcfa" prot="public" virt="non-virtual"><scope>MR::Const_FaceBMap</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1af504221ba253eea1d2edc6981f329615" prot="private" virt="non-virtual"><scope>MR::Const_FaceBMap</scope><name>~Const_FaceBMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

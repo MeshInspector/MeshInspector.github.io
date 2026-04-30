@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane</basecompoundref>
+    <basecompoundref refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane" prot="public" virt="non-virtual">MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1af1be905aa53616984804f97977780fa7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>Unary_MRFeaturesPrimitivesPlane</name>
         <qualifiedname>MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane.Unary_MRFeaturesPrimitivesPlane</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane" kindref="compound">MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.Features.Traits.Unary_MRFeaturesPrimitivesPlane.assign</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane" kindref="compound">MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Unary_MRFeaturesPrimitivesPlane</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="2212" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="2213" bodyend="2253"/>
     <listofallmembers>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1a8c0beb208a1fd0065a1136b603e97ad9" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>assign</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1a62822b260c0e73364b3b86c19f6e05e9" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Const_Unary_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1a05fd15cdfb52365995c7e2c126cae81e" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Const_Unary_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1ab8ee3c653c2171053b4abe8199e87e63" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Const_Unary_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1a30110e1ebb65e1950042fa0e7ec5324f" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Const_Unary_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1ae39be43567ac710eb05fdc7049bc6a08" prot="protected" virt="virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1ae444074c95b25ad1415fe2a9dc06c5ce" prot="public" virt="virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane_1ae9aea1ad5d5949b0d95bdf3e80d347fa" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>name</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1af1be905aa53616984804f97977780fa7" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Unary_MRFeaturesPrimitivesPlane</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1ac15a95ffd78e77d043c2786393948c02" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Unary_MRFeaturesPrimitivesPlane</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane_1aed1f20e1d6a7ef4b507241527ec32ba8" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</scope><name>Unary_MRFeaturesPrimitivesPlane</name></member>

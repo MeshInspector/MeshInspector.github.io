@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SomeLocalTriangulations" kind="class" language="C#" prot="public">
     <compoundname>MR::SomeLocalTriangulations</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SomeLocalTriangulations</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SomeLocalTriangulations" prot="public" virt="non-virtual">MR.Const_SomeLocalTriangulations</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SomeLocalTriangulations_1ad35531666dd9f585b9f5cec076d9a74d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRVertId</type>
@@ -140,7 +140,7 @@
         <name>SomeLocalTriangulations</name>
         <qualifiedname>MR.SomeLocalTriangulations.SomeLocalTriangulations</qualifiedname>
         <param>
-          <type>Const_SomeLocalTriangulations</type>
+          <type><ref refid="classMR_1_1Const__SomeLocalTriangulations" kindref="compound">Const_SomeLocalTriangulations</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SomeLocalTriangulations</label>
+        <link refid="classMR_1_1Const__SomeLocalTriangulations"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,6 +219,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SomeLocalTriangulations</label>
         <link refid="classMR_1_1SomeLocalTriangulations"/>
@@ -226,9 +231,13 @@
       </node>
       <node id="2">
         <label>MR.Const_SomeLocalTriangulations</label>
+        <link refid="classMR_1_1Const__SomeLocalTriangulations"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_maxCenterId</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -240,7 +249,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="698" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="699" bodyend="795"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1a2706cf7dbc157f5ed345cae58c3eeea9" prot="protected" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>__ref_storage_maxCenterId</name></member>
       <member refid="classMR_1_1SomeLocalTriangulations_1ac6411f90369ae7ad08cb75e39dea2588" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1a4740b2c00772602010ef5e10fbd42605" prot="package" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>Const_SomeLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1a51522985c6326fe27a126906e8be1f90" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>Const_SomeLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1ac2bb2456f57008c332569d948d9ab80b" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>Const_SomeLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1a30f241d4c70e85cde7e033be916b3062" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>Const_SomeLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1af67b29273f59fd819df68ddf268096ec" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>Const_SomeLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1a5b24103591967231d4894d6a866c311e" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>Const_SomeLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1a44e3b3f445d1546306ce51a65211cc9c" prot="protected" virt="virtual"><scope>MR::SomeLocalTriangulations</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SomeLocalTriangulations_1a8dd3bc2d3457155bfd30cd3122beb7b7" prot="public" virt="virtual"><scope>MR::SomeLocalTriangulations</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SomeLocalTriangulations_1aebeee680a02bb22554917b9e83ba3474" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>fanRecords</name></member>
       <member refid="classMR_1_1SomeLocalTriangulations_1aa455206b6dd90ed8aa6e32b24ee64f43" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>maxCenterId</name></member>
       <member refid="classMR_1_1SomeLocalTriangulations_1ad35531666dd9f585b9f5cec076d9a74d" prot="public" virt="non-virtual"><scope>MR::SomeLocalTriangulations</scope><name>neighbors</name></member>

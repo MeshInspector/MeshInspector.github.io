@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SurfaceDistanceBuilder" kind="class" language="C#" prot="public">
     <compoundname>MR::SurfaceDistanceBuilder</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SurfaceDistanceBuilder</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SurfaceDistanceBuilder" prot="public" virt="non-virtual">MR.Const_SurfaceDistanceBuilder</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ab697c3f512fe93be9605dd4ae237f378" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>SurfaceDistanceBuilder</name>
         <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
         <param>
-          <type>Const_SurfaceDistanceBuilder</type>
+          <type><ref refid="classMR_1_1Const__SurfaceDistanceBuilder" kindref="compound">Const_SurfaceDistanceBuilder</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,11 +92,11 @@
         <name>SurfaceDistanceBuilder</name>
         <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <briefdescription>
@@ -115,7 +115,7 @@
         <name>SurfaceDistanceBuilder</name>
         <qualifiedname>MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -123,7 +123,7 @@
           <declname>target</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <briefdescription>
@@ -142,7 +142,7 @@
         <name>addStartRegion</name>
         <qualifiedname>MR.SurfaceDistanceBuilder.addStartRegion</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>region</declname>
         </param>
         <param>
@@ -184,7 +184,7 @@
         <name>addStart</name>
         <qualifiedname>MR.SurfaceDistanceBuilder.addStart</qualifiedname>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>start</declname>
         </param>
         <briefdescription>
@@ -260,6 +260,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SurfaceDistanceBuilder</label>
+        <link refid="classMR_1_1Const__SurfaceDistanceBuilder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -281,6 +282,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SurfaceDistanceBuilder</label>
+        <link refid="classMR_1_1Const__SurfaceDistanceBuilder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -298,6 +300,16 @@
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ac143451e18c893f7e2fe051a14bcdd10" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStart</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ac7b35a0449debbc29aacef0410c9edc7" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartRegion</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1aa81a04b73d010dc88d1e51138e9e6bfe" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a99b0341ec88e7ef80ffc1de2c42be811" prot="package" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a39deef10f397eefc69d032bfa39ec6cf" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1ad60694713d832e686b4e0ee78e1388d9" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a94f75048cd9b2ff796e23f6cdf0161a4" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a876ccebac8e43c23e4fc8cd52450ef84" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a9539444769626459d19d71d9e4df2efd" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a274a59664e9d5c477718991908278e3f" prot="protected" virt="virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a097dc5313d3d09e396c1e4c1ab39c36e" prot="public" virt="virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a02f823d3e8f998898c6faf436e03d4af" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>done</name></member>
+      <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1ad4405aa45ff042fbf4674773c9e2c621" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>doneDistance</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1af7464bf0dd439f0b95d8cb0b82e711bd" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>growOne</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ae7c224f695e6ef1421a4fabaef34be54" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>setMaxVertUpdates</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ab697c3f512fe93be9605dd4ae237f378" prot="package" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>SurfaceDistanceBuilder</name></member>

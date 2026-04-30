@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Polynomial__Float__1" kind="class" language="C#" prot="public">
     <compoundname>MR::Polynomial_Float_1</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Polynomial_Float_1</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Polynomial__Float__1" prot="public" virt="non-virtual">MR.Const_Polynomial_Float_1</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Polynomial__Float__1_1a98764c96fe52fd63b2bed28c2ec3add6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>Polynomial_Float_1</name>
         <qualifiedname>MR.Polynomial_Float_1.Polynomial_Float_1</qualifiedname>
         <param>
-          <type>Const_Polynomial_Float_1</type>
+          <type><ref refid="classMR_1_1Const__Polynomial__Float__1" kindref="compound">Const_Polynomial_Float_1</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -134,6 +134,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polynomial_Float_1</label>
+        <link refid="classMR_1_1Const__Polynomial__Float__1"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +156,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polynomial_Float_1</label>
+        <link refid="classMR_1_1Const__Polynomial__Float__1"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -169,12 +171,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="329" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="330" bodyend="375"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a235505e73ec778867ae6446f81f85e81" prot="protected" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>__ref_storage_N</name></member>
       <member refid="classMR_1_1Polynomial__Float__1_1a0f6f22b05bf9b96db63b9e727f9d7380" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a20c37bb821a1394c6319555108c86e6c" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a4c470be51ee438ef287c5636d6acc63d" prot="package" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Const_Polynomial_Float_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a2961e6dfaae01ac9e791799e9d23a906" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Const_Polynomial_Float_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a744c11a93e6b7d965644904f34ca4b45" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Const_Polynomial_Float_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1aa5d80e86e32418d48c41afa291bbbbc1" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Const_Polynomial_Float_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a8ae9dfd97c9d9586be9e2ee4c0d01b02" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Const_Polynomial_Float_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a343995dd85a9818eba2782ff3f6664c5" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>deriv</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a2897abd1a39708339e9da84f00e349d4" prot="protected" virt="virtual"><scope>MR::Polynomial_Float_1</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a79fc876e52eae954c768967557eabcc4" prot="public" virt="virtual"><scope>MR::Polynomial_Float_1</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1a28aed6ba26ea4df2d99132a3162c86c2" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>intervalMin</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1af9cec5c29ff258250ea132624cec36fd" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>N</name></member>
       <member refid="classMR_1_1Polynomial__Float__1_1a98764c96fe52fd63b2bed28c2ec3add6" prot="package" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Polynomial_Float_1</name></member>
       <member refid="classMR_1_1Polynomial__Float__1_1a7b948dd9376ebfef314bec46beb14453" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Polynomial_Float_1</name></member>
       <member refid="classMR_1_1Polynomial__Float__1_1afd1d4e854b78f9d660b65b22a7025063" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Polynomial_Float_1</name></member>
       <member refid="classMR_1_1Polynomial__Float__1_1aaea4ca73caeecc054d0c93f5e4c8cdfe" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Polynomial_Float_1</name></member>
       <member refid="classMR_1_1Polynomial__Float__1_1ae6031e98221cecffe2700ea13038ee86" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>Polynomial_Float_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Float__1_1ad4bea4f52af1e6238d28963f21acfebb" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_1</scope><name>solve</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

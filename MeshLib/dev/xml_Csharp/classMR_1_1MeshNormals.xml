@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshNormals" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshNormals</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshNormals</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshNormals" prot="public" virt="non-virtual">MR.Const_MeshNormals</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshNormals_1a918d5b90e2e453eaf62f9dcf4e62d6c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FaceNormals" kindref="compound">MR.FaceNormals</ref></type>
@@ -122,7 +122,7 @@
         <name>MeshNormals</name>
         <qualifiedname>MR.MeshNormals.MeshNormals</qualifiedname>
         <param>
-          <type>Const_MeshNormals</type>
+          <type><ref refid="classMR_1_1Const__MeshNormals" kindref="compound">Const_MeshNormals</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshNormals</label>
+        <link refid="classMR_1_1Const__MeshNormals"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,6 +209,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshNormals</label>
+        <link refid="classMR_1_1Const__MeshNormals"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -223,6 +225,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="110" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="111" bodyend="204"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshNormals_1a632b69dea06c3caf604864bf8c2b9700" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1ae19749b5278f247b1e60fd04a8da37af" prot="package" virt="non-virtual"><scope>MR::MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a57f8612a8b28dd0021b2103580ddbac2" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a642b5a4d363da3e072f39ce7dbd0f97d" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a127ded8d667ee466a7300c2b92043689" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a5162f1e4ddcb9dde7019a1a64b3ddaa9" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a4b100ac9b3632ca6ffd55f3fe16af1fe" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1abb91ee9834d570641b0028b7ae749711" prot="protected" virt="virtual"><scope>MR::MeshNormals</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1af443043f12447007e453fb776502aa6f" prot="public" virt="virtual"><scope>MR::MeshNormals</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshNormals_1a918d5b90e2e453eaf62f9dcf4e62d6c4" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>faceNormals</name></member>
       <member refid="classMR_1_1MeshNormals_1a5866da730ca92271a29dfab554779367" prot="package" virt="non-virtual"><scope>MR::MeshNormals</scope><name>MeshNormals</name></member>
       <member refid="classMR_1_1MeshNormals_1a4f5a15fdc6f691d429242f20395e9bc5" prot="public" virt="non-virtual"><scope>MR::MeshNormals</scope><name>MeshNormals</name></member>

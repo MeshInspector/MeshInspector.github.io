@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectDistanceMap" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectDistanceMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectDistanceMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectDistanceMap" prot="public" virt="non-virtual">MR.Const_ObjectDistanceMap</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1af0ea4db10446a26239c3b91c263e853a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -545,7 +545,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.ObjectDistanceMap.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -959,15 +959,15 @@
         <name>copyTextureAndColors</name>
         <qualifiedname>MR.ObjectDistanceMap.copyTextureAndColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>src</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>thisToSrc</declname>
         </param>
         <param>
-          <type>MR.Const_FaceMap?</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref>?</type>
           <declname>thisToSrcFaces</declname>
           <defval>null</defval>
         </param>
@@ -1005,15 +1005,15 @@
         <name>copyColors</name>
         <qualifiedname>MR.ObjectDistanceMap.copyColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>src</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>thisToSrc</declname>
         </param>
         <param>
-          <type>MR.Const_FaceMap?</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref>?</type>
           <declname>thisToSrcFaces</declname>
           <defval>null</defval>
         </param>
@@ -1161,11 +1161,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1184,11 +1184,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.ObjectDistanceMap.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1207,11 +1207,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.ObjectDistanceMap.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1253,12 +1253,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a54eac39f6cd12dd6463dcc99c02b5c9f" kindref="member">MR.ObjectDistanceMap.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a54eac39f6cd12dd6463dcc99c02b5c9f" kindref="member">MR.ObjectDistanceMap.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1415,12 +1415,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ab02e7e7a0421122823218d3758270f6d" kindref="member">MR.ObjectDistanceMap.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ab02e7e7a0421122823218d3758270f6d" kindref="member">MR.ObjectDistanceMap.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1640,12 +1640,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2be41ec82f0823e81ee06590965073a1" kindref="member">MR.ObjectDistanceMap.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2be41ec82f0823e81ee06590965073a1" kindref="member">MR.ObjectDistanceMap.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1842,12 +1842,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1af3b48680544907dfebdeba05957f6231" kindref="member">MR.ObjectDistanceMap.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1af3b48680544907dfebdeba05957f6231" kindref="member">MR.ObjectDistanceMap.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1862,7 +1862,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.ObjectDistanceMap.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1946,6 +1946,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectDistanceMap</label>
+        <link refid="classMR_1_1Const__ObjectDistanceMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1967,6 +1968,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectDistanceMap</label>
+        <link refid="classMR_1_1Const__ObjectDistanceMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1981,21 +1983,115 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1305" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1306" bodyend="2369"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a137566ad0885a7094e82f33f9102ddab" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a9f664968b22ed0f6968109516a9e061b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>addChild</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ab61f9121e6f9fa4ffae582d8091b1e7a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a7dfb1e012d002aaf7130c3ed5b1f4478" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>addTag</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1abf7aa1dbf38884496702be974fed1d9e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>addTexture</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1af977c7ed500f3a841d4ecd825480b088" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>applyScale</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a0a373a02011ff51cfb7c6887909f0ac1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5c59780f80dd63918d57a7f1c694b4d0" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>avgEdgeLen</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aa13cdae8ac9975b978f29dc8eeb9f569" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>calculateMesh</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a4ad17154e6b51707df4583a34a6a4943" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5e3d28235230d1b3d350d7302a72bf03" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a543db60df579c3b66b760ba7961c41a6" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>clearAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a35f8ec3fb67b590575aed110e1e82b9d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5ba7b427904a8d21a5ba53ae765ed7e0" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a8072fd8caf64d07ea1a7a28f36d5d101" prot="package" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>Const_ObjectDistanceMap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ad84370f622b97333bd202363e246b5ed" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>Const_ObjectDistanceMap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1af6b674e6ba50e5b88f0aa270ccc4ea53" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>Const_ObjectDistanceMap</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ae58484545a00c75793b27b3d475952d7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a17980b3a3efe5b76fcfadbd6f9f7401f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>copyColors</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ae39c6425b8150d93129387c01c70a057" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>copyTextureAndColors</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a41b08ed1eba1a4e1f27ec760eb4009c0" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>creases</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aca975b6685c1d7a537a321fb4cd62929" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>data</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a99c020a3df1105f37a3b9b54f571916f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a0a4596f669ed52fa23c8b4bce1521202" prot="protected" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a535337cb002b3bac118a68133ce9b486" prot="public" virt="virtual"><scope>MR::ObjectDistanceMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ab7156fc1b5ec5d7b45ff0f14c738a795" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>flatShading</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a60c57ab0c620f804dc064e795cc6d2fe" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a8a75341b85c0257105e4f5b92cce538e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1adf270b78802434cee8eee21a21bc0c57" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a9ac7407cc16991c8446ca1f73328c69f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getAncillaryUVCoords</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aea1bd7b74d90ca062f57a602069f749a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aa3ddd6c3e8203c51b204ca71b43770e5" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a0e18f245bc4631643db8227178a0c37c" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getBordersColor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a385b445a1e4f8ef197a65d0a508c7538" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getBordersColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ab5c123b87da6e9eb9bb06fbd351cbe08" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6b09a48a3198d3dd5fe1152109cf5fe1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a59baff388e1af877e8103d2c626e7c92" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a7ea1584ec50c73214331a1a7b8a67c45" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getDistanceMap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a75eee4d7d63e20d58d7c783416b1eb5e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getEdgesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a11c59db5c8ce40e917ac5fa21b220499" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a373b4e53826c7a5da6f7625603988da5" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getEdgeWidth</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5ce82048e8e1cf0360958609a2ad2678" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getFacesColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a763cc0c270c9f0968de753bc2c7fe0da" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a631ded48a83b05c244a51a2691cf10c4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ae106501207ac17d5def2c34b0a0d22e4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a895bd51709f108f567d3bb35498b13ff" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a252f1244d5c559d455466d1a0213fe04" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a3ce2fe94f3ef6b80a481da684f1fe83a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a8095d9695e2662a57275105bbea983dc" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getPointsColor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1af32c35dfc53f090315cd915e0b92e720" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getPointsColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6a85443b0bd2a02118aca9e60f9c02b0" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a626fab883c405643fa07c1bf6e192686" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aa0b07b2086f47958d0e0d82730def14e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6ea2dd5d409325354772c884e55707ae" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getSelectedEdgesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a7edc6be0515fcaff2289895ad99697bf" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a44eab9ef5ce2d7d20db32c6afd89b2fa" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a23b02013f4324fcc411b94c5d6a14cf0" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getSelectedFacesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6048623b28f969ff0300a852cf9431bf" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getSelectedFacesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a560f39fe81b927be0f854f67c39005d4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a78b4378f83cc9fa6baeb58c01da430cd" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a75ddf238cc1b97a15ba3d862aee9fb66" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1abec9d9733c7ee863f9a578878196c35a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aba90a1db20d675a22e610a11ee9cf387" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getTexturePerFace</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a46a5723c9533b3f85d9056c8d1c0c976" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getTextures</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ad5aac1a9d0483fafa0a53e47ccaff26b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getToWorldParameters</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a4ee929e0ad669ee33534f25147882a1f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getUVCoords</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1adca90af176f59f8e9e7c4ba8c1037252" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a10f3cbaeedc652f68fc2ebed4c2ae5f7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aa898320f7ae6eeb0c8518d627e4795a4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a3bbddf81a4f62cf73a2849c0aaaf8fd6" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aa6aeb7bb841c5e10a9a7dbe27ea5cd49" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a7713d4de9bfa2223ddbda2bfe78eec7a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a8eb3aedd4642bd7bda1a468917c50c72" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a251398dd7e9e5fa3e29ef1633f3df9e8" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a32516a052409f19b1afdde9abd436e73" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a650fd01f994dea9fae0319fe38c234b2" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>hasAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ae003f4fabca85409c067a4d59765f06a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a2ff9a3ed3c068497e2e69ad4470092c3" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a61dd95b15d695079348e9489f837b34f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a48141dbc02dd38710a472c81d873613a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a87db11fb4855cb24a148a10ade34dfec" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a7ccf6f533362f9fccab6d00fbe15242d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a358a8f7687eddd76fd66ca2268d491b8" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a4d1f1769270aa5707cab5c385397dd2e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a66a4616bb6097247df6cc62cbd33ea62" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isMeshClosed</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a38713c617e0e6d97e62966bdcf527182" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a19c35a5be02f78d82a9a1ff55da24e3d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aa5c224d24a684434c99b801cd6cac16e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1adc9857c84c30a707f6ae34d7a0018f12" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6f0d2cd9a284557bd8815cc7281683ef" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>mesh</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a28519a43de1e0f6a60f8a2716aebcd8c" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>meshPart</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a4d8a3ee6e9492dfb70acb81711532249" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a10f763fe3db6d2376aff92e7f8ba7413" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6e3dddee88bbafd50c9f2b294c61fd86" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a001380c74b64ce5738cbd196e6b16bee" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numHandles</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a661a38f1b39594c3a0c123fdf9a513fa" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numHoles</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a8b65bc2212b1f84a8a2fef19567d17cf" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ac5399113a31f236fe5742e8d383f986d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a97144befb586532db2e9b9eed90630b7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a99d117e62d237d4d84ebeeda440f1ae3" prot="package" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a8c59e6596027c48b0131557895a5c706" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a27ebf4425f46b9ccc820f7bb0f2568ea" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aca3a5d5c8b4653775017daaf3599c449" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator Const_ObjectDistanceMap?</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a8b675c9f9524d3c81870787f2fe31fc2" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator Const_ObjectDistanceMap?</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a4c421f411b61ab15839a61e13abc679a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator Const_ObjectDistanceMap?</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ae518cbe994c48bf48e8e3fc006f86eeb" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ae68e09f5df9df975e4897672509785cd" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1aaaba11e11b4bb4f42d16e4db0921ded9" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.Const_ObjectMeshHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ac6a5b78bb5b50366ea7c24e85190ccdd" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ab7aa1bf02edbf2c6abd7f6c3b471c85d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1af0ea4db10446a26239c3b91c263e853a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a8155eb9dbe94fb4888e4f342a89917d5" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.ObjectMeshHolder</name></member>
@@ -2005,12 +2101,21 @@
       <member refid="classMR_1_1ObjectDistanceMap_1ac0f9472f7d0c9e463a12b931ce4b5def" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator ObjectDistanceMap?</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ac1d2b5d0b9505bc51345a734c3f005d2" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a0e8870df3b96eb7788ad999b2cbe9172" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a343ced4d1d2ca7eaf07d6e192c7c6097" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a42b6c78721dc82c204c48cd87b4798fb" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ad9112410de56bf519228dbbb0da5adf5" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>renderUi</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a262adcaa5c45c38abc8ce8844876e927" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a1c3b0fc637b9c3b44866c3b76dc03fa1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a2df347c1e7da6ca4759a19d1407ed283" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1adc5a126cf94576a0810f56e7b8807431" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6f47112014be1655db458e03bd862756" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a2ecd97e43812d497eda0c77996403be7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ae7e982a7d82fd831e6c263423cb82718" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>sameModels</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a1196e141bc146f171edabab51d274fe7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>select</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a6a07c12421832c848efc38d258e395a8" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>selectedArea</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a2a25b0e3951ca73c194fb18971e5bb3b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>selectEdges</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1aeb4dd84b066d70c118b0d2009877994e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>selectFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a9b7c38b67537c5ce32a8b166286b9211" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>serializeFormat</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ac85d94a620a777971c32a36d999a3014" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a585546d3a1546d0a23a275af9c19dc42" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1af347ef95f922c61f3b3cd30381ae1ecc" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setAncillary</name></member>
@@ -2063,9 +2168,18 @@
       <member refid="classMR_1_1ObjectDistanceMap_1abd8134cabc58eb53f997e7fd20b24080" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a00d6b40776d67e7c33784891445bea9b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setXf</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a567ed0d85e51eaa72e72aeb3037b875d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a2fa86bc1aa7f77cdbc73761102b2e508" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a7bab3751bed87da4e3aff54084398fd4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ad0e2a6f57444d27da8ceb285b91f0045" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a7a9d76f747f08aace989049321029f99" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ae0a2110b0c2a6a5c081c3c201c8340ac" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a577184fe9c6dc18ab96fecea84b0da61" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a5fde3d27c02f5bb7212a4f8fb91df48a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1a7ac157f6d7099b0a790fdcafbbd114a1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a76a724165b2d110ad1b7fdaf7d6e23a0" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>tags</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1aafe1d205fc13b617267fcd6f07f843f4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a377fa01e47bd05989f51c70a4b5795d6" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>totalArea</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1abff8016111b625a0304dbe4b1c1ab13e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>typeName</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1afd1db42af65e0d2693f57c197ab39451" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateAncillaryUVCoords</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1aa87a9b7baf7792d1f5cff01801e7136d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateData</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ac0c980ffaae06cd2bb69895180e4994c" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateFacesColorMap</name></member>
@@ -2074,6 +2188,12 @@
       <member refid="classMR_1_1ObjectDistanceMap_1a644a7b0663d932828acda2201e1dbced" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateTextures</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1adf95205409da41e8ba58428c8a1e9c74" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateUVCoords</name></member>
       <member refid="classMR_1_1ObjectDistanceMap_1ac9eb3803635a294323bd1b519166f83d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a700c73777c9280a0ea9927c4ab8106f7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a3e010be7dfa6afc38d88224543345abb" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1affd8d969252399a043b0866ba90d3d74" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>volume</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1acb4521cf3f75731dd8f908ff4c1c78a1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1ad2447eb724f28dd2ede279f7b37275b1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectDistanceMap_1a208f9c952c251f4df166bcb2e881c7e8" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

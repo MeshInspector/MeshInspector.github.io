@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__UniqueTemporaryFolder" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_UniqueTemporaryFolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1UniqueTemporaryFolder" prot="public" virt="non-virtual">MR.UniqueTemporaryFolder</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__UniqueTemporaryFolder_1_1__Underlying" prot="package">MR::Const_UniqueTemporaryFolder::_Underlying</innerclass>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1ab949b17d0c6b6379105aa064e42e20b8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_UniqueTemporaryFolder.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1a9093d657a1910098844e51a54190fac0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_UniqueTemporaryFolder.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1aa450c580ccfa9075b64daf925b14ba54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</definition>
+        <argsstring>(MR.Std._ByValue_Function_Void_From_ConstStdFilesystemPathRef? onPreTempFolderDelete=null)</argsstring>
+        <name>Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_ConstStdFilesystemPathRef?</type>
+          <declname>onPreTempFolderDelete</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates new folder in temp directory Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1a247d2c0fe2f1c194238ecc6fa34599b2" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. Parameter <computeroutput>onPreTempFolderDelete</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="33" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1a24cd2d59fee68ce865b7ee47ffb9764c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</definition>
+        <argsstring>(MR._ByValue_UniqueTemporaryFolder _other)</argsstring>
+        <name>Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type>MR._ByValue_UniqueTemporaryFolder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1a247d2c0fe2f1c194238ecc6fa34599b2" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="51" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1ab2bb858208c87930ba6dabd8c732ed3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</definition>
+        <argsstring>(Const_UniqueTemporaryFolder _other)</argsstring>
+        <name>Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniqueTemporaryFolder" kindref="compound">Const_UniqueTemporaryFolder</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1a247d2c0fe2f1c194238ecc6fa34599b2" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="62" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1af2c5d4d13ee74483a7678c4a277c15b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</definition>
+        <argsstring>(UniqueTemporaryFolder _other)</argsstring>
+        <name>Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UniqueTemporaryFolder" kindref="compound">UniqueTemporaryFolder</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1a247d2c0fe2f1c194238ecc6fa34599b2" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1a418f9237367395cb8af4a75777d73b41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniqueTemporaryFolder.~Const_UniqueTemporaryFolder</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.~Const_UniqueTemporaryFolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1a71c4b640c5dc47da15a51ce5a21baa24" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1ae640a0010dc50f99750b8f4024d01cde" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_UniqueTemporaryFolder.operator Const_UniqueTemporaryFolder</definition>
+        <argsstring>(MR.Std._ByValue_Function_Void_From_ConstStdFilesystemPathRef? onPreTempFolderDelete)</argsstring>
+        <name>operator Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.operator Const_UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_ConstStdFilesystemPathRef?</type>
+          <declname>onPreTempFolderDelete</declname>
+        </param>
+        <briefdescription>
+<para>creates new folder in temp directory Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1a247d2c0fe2f1c194238ecc6fa34599b2" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. Parameter <computeroutput>onPreTempFolderDelete</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="46" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1aa2cebbc5374859a95a707d534b067890" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_UniqueTemporaryFolder.operator bool</definition>
+        <argsstring>(MR.Const_UniqueTemporaryFolder _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniqueTemporaryFolder" kindref="compound">MR.Const_UniqueTemporaryFolder</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::UniqueTemporaryFolder::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="72" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1a4b4803a1f56cb8245e5caa0b604fede7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_UniqueTemporaryFolder.operator MR.Std.Filesystem.Const_Path</definition>
+        <argsstring>(MR.Const_UniqueTemporaryFolder _this)</argsstring>
+        <name>operator MR.Std.Filesystem.Const_Path</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.operator MR.Std.Filesystem.Const_Path</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniqueTemporaryFolder" kindref="compound">MR.Const_UniqueTemporaryFolder</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::UniqueTemporaryFolder::operator const std::filesystem::path &amp;amp;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="82" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1aea7b28ea14024bb74dc70b1ebdc1543c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Path</type>
+        <definition>static unsafe MR.Std.Filesystem.Path MR.Const_UniqueTemporaryFolder.operator/</definition>
+        <argsstring>(MR.Const_UniqueTemporaryFolder _this, string child)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.operator/</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniqueTemporaryFolder" kindref="compound">MR.Const_UniqueTemporaryFolder</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::UniqueTemporaryFolder::operator/</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="92" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="92" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>helper class to create a temporary folder; the folder will be removed on the object's destruction Generated from class <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder" kindref="compound">MR.UniqueTemporaryFolder</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_UniqueTemporaryFolder</label>
+        <link refid="classMR_1_1Const__UniqueTemporaryFolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.UniqueTemporaryFolder</label>
+        <link refid="classMR_1_1UniqueTemporaryFolder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_UniqueTemporaryFolder</label>
+        <link refid="classMR_1_1Const__UniqueTemporaryFolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="9" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1a71c4b640c5dc47da15a51ce5a21baa24" prot="package" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1aa450c580ccfa9075b64daf925b14ba54" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1a24cd2d59fee68ce865b7ee47ffb9764c" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1ab2bb858208c87930ba6dabd8c732ed3e" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1af2c5d4d13ee74483a7678c4a277c15b1" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1ab949b17d0c6b6379105aa064e42e20b8" prot="protected" virt="virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1a9093d657a1910098844e51a54190fac0" prot="public" virt="virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1aa2cebbc5374859a95a707d534b067890" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1ae640a0010dc50f99750b8f4024d01cde" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>operator Const_UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1a4b4803a1f56cb8245e5caa0b604fede7" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>operator MR.Std.Filesystem.Const_Path</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1aea7b28ea14024bb74dc70b1ebdc1543c" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>operator/</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1a418f9237367395cb8af4a75777d73b41" prot="private" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>~Const_UniqueTemporaryFolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

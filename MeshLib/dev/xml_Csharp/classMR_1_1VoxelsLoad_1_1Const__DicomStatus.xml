@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelsLoad::Const_DicomStatus</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VoxelsLoad_1_1DicomStatus" prot="public" virt="non-virtual">MR.VoxelsLoad.DicomStatus</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a657920f0c0f5f43f2f4d8157424b2b18" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">MR.VoxelsLoad.DicomStatusEnum</ref></type>
+        <definition>unsafe MR.VoxelsLoad.DicomStatusEnum MR.VoxelsLoad.Const_DicomStatus.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="589" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="589" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a47ba3df1a1ab622c0e05921c589ca73f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.VoxelsLoad.Const_DicomStatus.reason</definition>
+        <argsstring></argsstring>
+        <name>reason</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.reason</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="593" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="593" bodyend="593"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1abba626cef20402c5b16de7b889f44dfd" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">MR.VoxelsLoad.DicomStatusEnum</ref> *</type>
+        <definition>unsafe MR.VoxelsLoad.DicomStatusEnum* MR.VoxelsLoad.Const_DicomStatus.__ref_storage_status</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_status</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.__ref_storage_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="590" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="590" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1ae279415420bff39defda5ef069ed377d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.VoxelsLoad.Const_DicomStatus.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="577" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="577" bodyend="585"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a30bfb5b91b54a9881e78a779adc2b358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.VoxelsLoad.Const_DicomStatus.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="586" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="586" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aa8ff6a8d312263668e023f70f65049d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</definition>
+        <argsstring>(MR.VoxelsLoad._ByValue_DicomStatus _other)</argsstring>
+        <name>Const_DicomStatus</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</qualifiedname>
+        <param>
+          <type>MR.VoxelsLoad._ByValue_DicomStatus</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomStatus_1a3893ced0fc97cdf890ce1a6efcf2cff9" kindref="member">MR.VoxelsLoad.DicomStatus.DicomStatus</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="627" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="627" bodyend="634"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aaeb8523fd09c99307c60f5b558338e6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</definition>
+        <argsstring>(Const_DicomStatus _other)</argsstring>
+        <name>Const_DicomStatus</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus" kindref="compound">Const_DicomStatus</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomStatus_1a3893ced0fc97cdf890ce1a6efcf2cff9" kindref="member">MR.VoxelsLoad.DicomStatus.DicomStatus</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="639" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="639" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aaa7ef355d46f42e9109312a7c50d6025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</definition>
+        <argsstring>(DicomStatus _other)</argsstring>
+        <name>Const_DicomStatus</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1DicomStatus" kindref="compound">DicomStatus</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomStatus_1a3893ced0fc97cdf890ce1a6efcf2cff9" kindref="member">MR.VoxelsLoad.DicomStatus.DicomStatus</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="644" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="644" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a750e38111c196c43304a31138d0ffea9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</definition>
+        <argsstring>(MR.VoxelsLoad.DicomStatusEnum st, string? rs=null)</argsstring>
+        <name>Const_DicomStatus</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">MR.VoxelsLoad.DicomStatusEnum</ref></type>
+          <declname>st</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>rs</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomStatus_1a3893ced0fc97cdf890ce1a6efcf2cff9" kindref="member">MR.VoxelsLoad.DicomStatus.DicomStatus</ref></computeroutput>. Parameter <computeroutput>rs</computeroutput> defaults to <computeroutput>&amp;quot;&amp;quot;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="651" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="651" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aa8491d2464abae9bdb71db8d27e7bec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.VoxelsLoad.Const_DicomStatus.Equals</definition>
+        <argsstring>(MR.VoxelsLoad.DicomStatusEnum s)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">MR.VoxelsLoad.DicomStatusEnum</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="702" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="702" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aa6b6e47e316f54d88138ee7c070d202b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.VoxelsLoad.Const_DicomStatus.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="707" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="707" bodyend="714"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a6025c8dd0056fb117ff528a4da7b25a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.Const_DicomStatus.~Const_DicomStatus</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DicomStatus</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.~Const_DicomStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="587" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="587" bodyend="587"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aaf4340caa156886fce90a0f820141029" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DicomStatus</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.Const_DicomStatus</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="616" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="616" bodyend="621"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1ae478ae607f82bb36081027fabeeb32f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.VoxelsLoad.Const_DicomStatus.operator Const_DicomStatus</definition>
+        <argsstring>(MR.VoxelsLoad.DicomStatusEnum st)</argsstring>
+        <name>operator Const_DicomStatus</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.operator Const_DicomStatus</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">MR.VoxelsLoad.DicomStatusEnum</ref></type>
+          <declname>st</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomStatus_1a3893ced0fc97cdf890ce1a6efcf2cff9" kindref="member">MR.VoxelsLoad.DicomStatus.DicomStatus</ref></computeroutput>. Parameter <computeroutput>rs</computeroutput> defaults to <computeroutput>&amp;quot;&amp;quot;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="673" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="673" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a1ad780ebf61909d22b97eae80b4d775d" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.VoxelsLoad.Const_DicomStatus.operator bool</definition>
+        <argsstring>(MR.VoxelsLoad.Const_DicomStatus _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus" kindref="compound">MR.VoxelsLoad.Const_DicomStatus</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::VoxelsLoad::DicomStatus::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="678" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="678" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a4ef4871eb320e54061f68d1b47b9c57c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.VoxelsLoad.Const_DicomStatus.operator==</definition>
+        <argsstring>(MR.VoxelsLoad.Const_DicomStatus _this, MR.VoxelsLoad.DicomStatusEnum s)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus" kindref="compound">MR.VoxelsLoad.Const_DicomStatus</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">MR.VoxelsLoad.DicomStatusEnum</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelsLoad::DicomStatus::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="688" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="688" bodyend="693"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1af943618c5896c80a19a34be438c4094c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.VoxelsLoad.Const_DicomStatus.operator!=</definition>
+        <argsstring>(MR.VoxelsLoad.Const_DicomStatus _this, MR.VoxelsLoad.DicomStatusEnum s)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomStatus.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus" kindref="compound">MR.VoxelsLoad.Const_DicomStatus</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" kindref="member">MR.VoxelsLoad.DicomStatusEnum</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="695" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="695" bodyend="698"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomStatus" kindref="compound">MR.VoxelsLoad.DicomStatus</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.VoxelsLoad.Const_DicomStatus</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.VoxelsLoad.DicomStatus</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1DicomStatus"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.VoxelsLoad.Const_DicomStatus</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_status</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="571" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="572" bodyend="715"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1abba626cef20402c5b16de7b889f44dfd" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>__ref_storage_status</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aaf4340caa156886fce90a0f820141029" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Const_DicomStatus</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aa8ff6a8d312263668e023f70f65049d9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Const_DicomStatus</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aaeb8523fd09c99307c60f5b558338e6f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Const_DicomStatus</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aaa7ef355d46f42e9109312a7c50d6025" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Const_DicomStatus</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a750e38111c196c43304a31138d0ffea9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Const_DicomStatus</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1ae279415420bff39defda5ef069ed377d" prot="protected" virt="virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a30bfb5b91b54a9881e78a779adc2b358" prot="public" virt="virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aa8491d2464abae9bdb71db8d27e7bec8" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Equals</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1aa6b6e47e316f54d88138ee7c070d202b" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>Equals</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a1ad780ebf61909d22b97eae80b4d775d" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1ae478ae607f82bb36081027fabeeb32f7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>operator Const_DicomStatus</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1af943618c5896c80a19a34be438c4094c" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a4ef4871eb320e54061f68d1b47b9c57c" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>operator==</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a47ba3df1a1ab622c0e05921c589ca73f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>reason</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a657920f0c0f5f43f2f4d8157424b2b18" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>status</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus_1a6025c8dd0056fb117ff528a4da7b25a1" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomStatus</scope><name>~Const_DicomStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IntersectionPrecomputes__Float" kind="class" language="C#" prot="public">
     <compoundname>MR::IntersectionPrecomputes_Float</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IntersectionPrecomputes_Float</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IntersectionPrecomputes__Float" prot="public" virt="non-virtual">MR.Const_IntersectionPrecomputes_Float</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Float_1a02988191d02cb91c5a9e86402ff259dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -168,7 +168,7 @@
         <name>IntersectionPrecomputes_Float</name>
         <qualifiedname>MR.IntersectionPrecomputes_Float.IntersectionPrecomputes_Float</qualifiedname>
         <param>
-          <type>MR.Const_IntersectionPrecomputes_Float</type>
+          <type><ref refid="classMR_1_1Const__IntersectionPrecomputes__Float" kindref="compound">MR.Const_IntersectionPrecomputes_Float</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -225,7 +225,7 @@
         <name>assign</name>
         <qualifiedname>MR.IntersectionPrecomputes_Float.assign</qualifiedname>
         <param>
-          <type>MR.Const_IntersectionPrecomputes_Float</type>
+          <type><ref refid="classMR_1_1Const__IntersectionPrecomputes__Float" kindref="compound">MR.Const_IntersectionPrecomputes_Float</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -274,6 +274,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IntersectionPrecomputes_Float</label>
+        <link refid="classMR_1_1Const__IntersectionPrecomputes__Float"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -287,6 +288,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.IntersectionPrecomputes_Float</label>
         <link refid="classMR_1_1IntersectionPrecomputes__Float"/>
@@ -295,9 +300,14 @@
       </node>
       <node id="2">
         <label>MR.Const_IntersectionPrecomputes_Float</label>
+        <link refid="classMR_1_1Const__IntersectionPrecomputes__Float"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_invDir</edgelabel>
+          <edgelabel>__ref_storage_sign</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -309,7 +319,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="184" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="185" bodyend="284"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a7491fdba55301f225d998a2be56c3865" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>__ref_storage_idxX</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1aa13a2ee737c807ca667a1a1febba9b59" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>__ref_storage_idxY</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a6eb434252632d92f60d0b8b93042bcf8" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>__ref_storage_invDir</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a520e41ad449b47aa35c1277af045a3b0" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>__ref_storage_maxDimIdxZ</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a1c746b3a9ac36a3ea46ef420425f96d7" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>__ref_storage_sign</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1af6a730a43ae7ec667a8584ae72c2b826" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>__ref_storage_sx</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a74f56cde9a82f4a52f2848c4b26a3195" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>__ref_storage_sy</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a154eee214610a51f64f7dc190bf81b1a" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>__ref_storage_sz</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1a7397762caa88604c006fdd413d5407cb" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a6d469c8e773ff5b650c3b6e305ff8340" prot="package" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>Const_IntersectionPrecomputes_Float</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1aa8e8c2cea7b9f61d5fc2f887d87e0f4f" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>Const_IntersectionPrecomputes_Float</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1ac222d99917fa95c37be6b4477f6730b3" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>Const_IntersectionPrecomputes_Float</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a850f9ebe6b7ba9e795f4f3591f53970e" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>Const_IntersectionPrecomputes_Float</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1ac7c0bd68a5551da2bf807e8db42527a6" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>Const_IntersectionPrecomputes_Float</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1a7fe59676e88f0846ed820a660e445380" prot="protected" virt="virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1aac3aad0bad894a5989abe00923445bb5" prot="public" virt="virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1a778ee5bae3404f261b7e531044181beb" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>idxX</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1a51ad99292b1ff104101ec423c6fe53d3" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>idxY</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1a000c4196971966dca2c4b6ac97ba9257" prot="package" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>IntersectionPrecomputes_Float</name></member>
@@ -319,6 +344,7 @@
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1ab9cee6bc01801a7f935d44ee9706ba04" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>IntersectionPrecomputes_Float</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1a02988191d02cb91c5a9e86402ff259dc" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>invDir</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1aba27b278716acbce8525f12e8c9ad170" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>maxDimIdxZ</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Float_1aac3d8a3c12868c444fd5b431ebd3eeae" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>operator Const_IntersectionPrecomputes_Float</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1a434820577c70f1c9753755deb4b53ec0" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>operator IntersectionPrecomputes_Float</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1adcba46d62d8d8bc640d715694dc240c9" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>sign</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Float_1ae69872f1e2d4ee023c95a2455d33fe34" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Float</scope><name>sx</name></member>

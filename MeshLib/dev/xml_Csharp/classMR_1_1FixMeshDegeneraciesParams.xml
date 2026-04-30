@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixMeshDegeneraciesParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FixMeshDegeneraciesParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FixMeshDegeneraciesParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FixMeshDegeneraciesParams" prot="public" virt="non-virtual">MR.Const_FixMeshDegeneraciesParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a1f1577cb302417791ffc5946db7b6bf6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -95,7 +95,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="257" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="258" bodyend="267"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FixMeshDegeneraciesParams_1a25aacc89ccb14968d6cd430e6548dd96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.FixMeshDegeneraciesParams.Mode</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a3dd3870eb93ae71848370ead6b73c8d5" kindref="member">MR.FixMeshDegeneraciesParams.Mode</ref></type>
         <definition>new unsafe ref MR.FixMeshDegeneraciesParams.Mode MR.FixMeshDegeneraciesParams.mode</definition>
         <argsstring></argsstring>
         <name>mode</name>
@@ -209,7 +209,7 @@
           <declname>region</declname>
         </param>
         <param>
-          <type>MR.FixMeshDegeneraciesParams.Mode</type>
+          <type><ref refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a3dd3870eb93ae71848370ead6b73c8d5" kindref="member">MR.FixMeshDegeneraciesParams.Mode</ref></type>
           <declname>mode</declname>
         </param>
         <param>
@@ -255,7 +255,7 @@
         <name>FixMeshDegeneraciesParams</name>
         <qualifiedname>MR.FixMeshDegeneraciesParams.FixMeshDegeneraciesParams</qualifiedname>
         <param>
-          <type>Const_FixMeshDegeneraciesParams</type>
+          <type><ref refid="classMR_1_1Const__FixMeshDegeneraciesParams" kindref="compound">Const_FixMeshDegeneraciesParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -320,6 +320,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FixMeshDegeneraciesParams</label>
+        <link refid="classMR_1_1Const__FixMeshDegeneraciesParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -333,6 +334,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FixMeshDegeneraciesParams</label>
         <link refid="classMR_1_1FixMeshDegeneraciesParams"/>
@@ -341,9 +346,14 @@
       </node>
       <node id="2">
         <label>MR.Const_FixMeshDegeneraciesParams</label>
+        <link refid="classMR_1_1Const__FixMeshDegeneraciesParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ref_storage_mode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -355,9 +365,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="225" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="226" bodyend="360"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ac753029452e2336abd75ccdc770f16f2" prot="protected" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ab372aa1a0515c57f6b781504ae87efc3" prot="protected" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>__ref_storage_criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a4d67de01961ffc910fe00ce8ae4040bb" prot="protected" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>__ref_storage_maxAngleChange</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a052ab98356845d818ac9db4720d189db" prot="protected" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>__ref_storage_maxDeviation</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a403e6394e4848e64d962288673a26184" prot="protected" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>__ref_storage_mimicPatch</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a1f7adbf6131d6e2fd0003b5ce31f7e56" prot="protected" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>__ref_storage_mode</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1aba77e0617e57ed5155f8ed017e2aa9d9" prot="protected" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>__ref_storage_stabilizer</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a7e505a1eccf6614a9ddfcfd6caae9fb7" prot="protected" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>__ref_storage_tinyEdgeLength</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1afd7292ca48775e0ab94233157bde5f54" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>assign</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1a9b4f190d07dd759f7eaa047c7520aad5" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a9d8cdff7d595486f385364278f01ca68" prot="package" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a856e69fed4dbc0e9f18955062eaf0b7b" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1aad748e53b582104a5c56a4ed1e68a060" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a8297b179e9ea4e71524f4c771f46f210" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a4ed42362c83a078cabd8cb7e23e9ef5e" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a0a463aa3bee483acbd62fd902da9dfcf" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1ae34824faf9d7160cc8698775f5060672" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a291a86810571ea0136416d7e3d3a6197" prot="protected" virt="virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a246b5b45a6f435b22655f939ade88ea4" prot="public" virt="virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1ac6400b423961dedd5e93ab4ef4a0345c" prot="package" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3a6b16ace20842364e8050ea4978b4f2" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>FixMeshDegeneraciesParams</name></member>
@@ -367,6 +393,7 @@
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1a99d770ee3259c6f1bc5ba163f3910971" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxAngleChange</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1a1f1577cb302417791ffc5946db7b6bf6" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxDeviation</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1af56263c3a1a1183678e4e39be3507721" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>mimicPatch</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a3dd3870eb93ae71848370ead6b73c8d5" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Mode</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1a25aacc89ccb14968d6cd430e6548dd96" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>mode</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1a90621e659cd5be3a26daa4cfbd577895" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>region</name></member>
       <member refid="classMR_1_1FixMeshDegeneraciesParams_1aa23e1ba06c41baafef0c214a06ca2adc" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>stabilizer</name></member>

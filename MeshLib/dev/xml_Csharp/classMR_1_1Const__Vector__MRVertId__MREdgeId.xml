@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__MRVertId__MREdgeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_MRVertId_MREdgeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__MRVertId__MREdgeId" prot="public" virt="non-virtual">MR.Vector_MRVertId_MREdgeId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ab88d4f53f020746ddfb49871923265f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRVertId</type>
+        <definition>unsafe MR.Std.Const_Vector_MRVertId MR.Const_Vector_MRVertId_MREdgeId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27048" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27048" bodyend="27048"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1acd0e184dfc7e55696d43af9c1e8bcc6f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_Vector_MRVertId_MREdgeId.this[MR.EdgeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.EdgeId i]</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.this[MR.EdgeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27200" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27201" bodyend="27208"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1af566fb7d511633be2a312622acc99379" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_MRVertId_MREdgeId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26969" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26969" bodyend="26977"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a4e35d95daa5c8865ca2b41eb8a43c3c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_MRVertId_MREdgeId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26978" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26978" bodyend="26978"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aaad8ddcf2974858f08edb9781a095f8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.VertId &gt; &gt; MR.Const_Vector_MRVertId_MREdgeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27035" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27035" bodyend="27038"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa55d69378a3c70319c844730cb58db2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27076" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27076" bodyend="27082"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a62dce7eb702fa0f8abbca2913db3b409" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>(MR._ByValue_Vector_MRVertId_MREdgeId _other)</argsstring>
+        <name>Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRVertId_MREdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27087" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27087" bodyend="27094"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa229919949a118980809c5294aef5dd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>(Const_Vector_MRVertId_MREdgeId _other)</argsstring>
+        <name>Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId" kindref="compound">Const_Vector_MRVertId_MREdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27099" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27099" bodyend="27099"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ab491a46524b5592131b5d4532462209b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>(Vector_MRVertId_MREdgeId _other)</argsstring>
+        <name>Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRVertId__MREdgeId" kindref="compound">Vector_MRVertId_MREdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27104" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27104" bodyend="27104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ad03f35894d7b709ba04d93bd94c6f588" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27110" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27110" bodyend="27116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a5b1132611d07b2924593783e0474fcf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>(ulong size, in MR.VertId val)</argsstring>
+        <name>Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27122" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27122" bodyend="27131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a4029983904b25446fc3018e6d7d00a2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVertId &gt; vec)</argsstring>
+        <name>Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVertId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27137" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27137" bodyend="27144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa1cb9ae4d004e82141fe98d27431083d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_MRVertId_MREdgeId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa1cb9ae4d004e82141fe98d27431083d" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27170" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27170" bodyend="27175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa5b435a6a8d8081ec6d33f283a1b6fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVertId_MREdgeId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa5b435a6a8d8081ec6d33f283a1b6fb0" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27180" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27180" bodyend="27185"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ab03e9c0d1876b35d6a2b3ca87126e4a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVertId_MREdgeId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ab03e9c0d1876b35d6a2b3ca87126e4a6" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27190" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27190" bodyend="27195"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a61b3ab84d5c55fa387ffe1abc6112264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_Vector_MRVertId_MREdgeId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a61b3ab84d5c55fa387ffe1abc6112264" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27213" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27213" bodyend="27218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a91966901122845a2f4e2e7b6593c27ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_Vector_MRVertId_MREdgeId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a91966901122845a2f4e2e7b6593c27ea" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27223" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27223" bodyend="27228"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ad4aeb42175274f691825ad0dfcbbe6bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Const_Vector_MRVertId_MREdgeId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ad4aeb42175274f691825ad0dfcbbe6bc" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27234" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27234" bodyend="27239"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aeaa892d3edbbfc26d1f5aaf01ad3a69c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Const_Vector_MRVertId_MREdgeId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a91966901122845a2f4e2e7b6593c27ea" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aeaa892d3edbbfc26d1f5aaf01ad3a69c" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27245" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27245" bodyend="27250"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a5e7d32347e8ea5e3f66fd7ef9a403efa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Const_Vector_MRVertId_MREdgeId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aeaa892d3edbbfc26d1f5aaf01ad3a69c" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a5e7d32347e8ea5e3f66fd7ef9a403efa" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27256" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27256" bodyend="27261"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ac3f9f294d94c31227a5af3f8ec560270" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition>unsafe MR.? VertId MR.Const_Vector_MRVertId_MREdgeId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ac3f9f294d94c31227a5af3f8ec560270" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27266" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27266" bodyend="27272"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a9660730a5a709adce69bcb9a8244ce4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRVertId_MREdgeId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a9660730a5a709adce69bcb9a8244ce4f" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27278" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27278" bodyend="27283"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a91835eb942bec89829cd51767bb8fb3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Vector_MRVertId_MREdgeId.Equals</definition>
+        <argsstring>(MR.Const_Vector_MRVertId_MREdgeId? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId" kindref="compound">MR.Const_Vector_MRVertId_MREdgeId</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27287" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27287" bodyend="27292"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a567e71bd7d973203e3c3d2a18bb1cae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Vector_MRVertId_MREdgeId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27294" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27294" bodyend="27301"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a0803b9da146ae4900fbeacfc49ebd9b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRVertId_MREdgeId.~Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.~Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26979" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26979" bodyend="26979"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ae1180f251508d526399637012f705248" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_MRVertId_MREdgeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27040" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27040" bodyend="27043"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a2bac13af944568d05dd01c06bd7c68dd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27065" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27065" bodyend="27070"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a97a0f28cbd33da488dfc82e82dc6b0ef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_MRVertId_MREdgeId.operator Const_Vector_MRVertId_MREdgeId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVertId &gt; vec)</argsstring>
+        <name>operator Const_Vector_MRVertId_MREdgeId</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.operator Const_Vector_MRVertId_MREdgeId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVertId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27150" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27150" bodyend="27150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ae98d7c2a50e6ea1376f097e6c2009c2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_MRVertId_MREdgeId.operator==</definition>
+        <argsstring>(MR.Const_Vector_MRVertId_MREdgeId _this, MR.Const_Vector_MRVertId_MREdgeId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId" kindref="compound">MR.Const_Vector_MRVertId_MREdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId" kindref="compound">MR.Const_Vector_MRVertId_MREdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ae98d7c2a50e6ea1376f097e6c2009c2e" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27155" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27155" bodyend="27160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a4e1d550efdec747f6406d21d5135b679" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_MRVertId_MREdgeId.operator!=</definition>
+        <argsstring>(MR.Const_Vector_MRVertId_MREdgeId _this, MR.Const_Vector_MRVertId_MREdgeId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Vector_MRVertId_MREdgeId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId" kindref="compound">MR.Const_Vector_MRVertId_MREdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVertId__MREdgeId" kindref="compound">MR.Const_Vector_MRVertId_MREdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="27162" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="27162" bodyend="27165"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRVertId_MREdgeId</label>
+        <link refid="classMR_1_1Const__Vector__MRVertId__MREdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.Vector_MRVertId_MREdgeId</label>
+        <link refid="classMR_1_1Vector__MRVertId__MREdgeId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRVertId_MREdgeId</label>
+        <link refid="classMR_1_1Const__Vector__MRVertId__MREdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26963" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26964" bodyend="27302"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a91966901122845a2f4e2e7b6593c27ea" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aeaa892d3edbbfc26d1f5aaf01ad3a69c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ad4aeb42175274f691825ad0dfcbbe6bc" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ab03e9c0d1876b35d6a2b3ca87126e4a6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a2bac13af944568d05dd01c06bd7c68dd" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa55d69378a3c70319c844730cb58db2e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a62dce7eb702fa0f8abbca2913db3b409" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa229919949a118980809c5294aef5dd0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ab491a46524b5592131b5d4532462209b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ad03f35894d7b709ba04d93bd94c6f588" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a5b1132611d07b2924593783e0474fcf1" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a4029983904b25446fc3018e6d7d00a2a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ac3f9f294d94c31227a5af3f8ec560270" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1af566fb7d511633be2a312622acc99379" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a4e35d95daa5c8865ca2b41eb8a43c3c7" prot="public" virt="virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa1cb9ae4d004e82141fe98d27431083d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a5e7d32347e8ea5e3f66fd7ef9a403efa" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a91835eb942bec89829cd51767bb8fb3b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a567e71bd7d973203e3c3d2a18bb1cae3" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a61b3ab84d5c55fa387ffe1abc6112264" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aaad8ddcf2974858f08edb9781a095f8c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ae1180f251508d526399637012f705248" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a9660730a5a709adce69bcb9a8244ce4f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a97a0f28cbd33da488dfc82e82dc6b0ef" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>operator Const_Vector_MRVertId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a4e1d550efdec747f6406d21d5135b679" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ae98d7c2a50e6ea1376f097e6c2009c2e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1aa5b435a6a8d8081ec6d33f283a1b6fb0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1acd0e184dfc7e55696d43af9c1e8bcc6f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>this[MR.EdgeId i]</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1ab88d4f53f020746ddfb49871923265f0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertId__MREdgeId_1a0803b9da146ae4900fbeacfc49ebd9b6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertId_MREdgeId</scope><name>~Const_Vector_MRVertId_MREdgeId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

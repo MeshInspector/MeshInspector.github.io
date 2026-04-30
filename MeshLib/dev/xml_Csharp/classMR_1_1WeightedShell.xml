@@ -2,6 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WeightedShell" kind="class" language="C#" prot="public">
     <compoundname>MR::WeightedShell</compoundname>
+    <innerclass refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" prot="public">MR::WeightedShell::Const_DistanceVolumeCreationParams</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1Const__ParametersBase" prot="public">MR::WeightedShell::Const_ParametersBase</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric" prot="public">MR::WeightedShell::Const_ParametersMetric</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions" prot="public">MR::WeightedShell::Const_ParametersRegions</innerclass>
     <innerclass refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" prot="public">MR::WeightedShell::DistanceVolumeCreationParams</innerclass>
     <innerclass refid="classMR_1_1WeightedShell_1_1ParametersBase" prot="public">MR::WeightedShell::ParametersBase</innerclass>
     <innerclass refid="classMR_1_1WeightedShell_1_1ParametersMetric" prot="public">MR::WeightedShell::ParametersMetric</innerclass>
@@ -14,11 +18,11 @@
         <name>pointsToDistanceVolume</name>
         <qualifiedname>MR.WeightedShell.pointsToDistanceVolume</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_DistanceVolumeCreationParams</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" kindref="compound">MR.WeightedShell.Const_DistanceVolumeCreationParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -37,11 +41,11 @@
         <name>meshToDistanceVolume</name>
         <qualifiedname>MR.WeightedShell.meshToDistanceVolume</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_DistanceVolumeCreationParams</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" kindref="compound">MR.WeightedShell.Const_DistanceVolumeCreationParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -60,15 +64,15 @@
         <name>pointsShell</name>
         <qualifiedname>MR.WeightedShell.pointsShell</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.Const_VertScalars</type>
+          <type><ref refid="classMR_1_1Const__VertScalars" kindref="compound">MR.Const_VertScalars</ref></type>
           <declname>pointWeights</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_ParametersMetric</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric" kindref="compound">MR.WeightedShell.Const_ParametersMetric</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -87,15 +91,15 @@
         <name>meshShell</name>
         <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertScalars</type>
+          <type><ref refid="classMR_1_1Const__VertScalars" kindref="compound">MR.Const_VertScalars</ref></type>
           <declname>vertWeights</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_ParametersMetric</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric" kindref="compound">MR.WeightedShell.Const_ParametersMetric</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -114,7 +118,7 @@
         <name>calculateShellWeightsFromRegions</name>
         <qualifiedname>MR.WeightedShell.calculateShellWeightsFromRegions</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -141,11 +145,11 @@
         <name>meshShell</name>
         <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_ParametersRegions</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions" kindref="compound">MR.WeightedShell.Const_ParametersRegions</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -164,11 +168,11 @@
         <name>meshShell</name>
         <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_ParametersRegions</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions" kindref="compound">MR.WeightedShell.Const_ParametersRegions</ref></type>
           <declname>params_</declname>
         </param>
         <param>

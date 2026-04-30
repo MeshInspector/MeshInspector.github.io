@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07":[6,0,0,10,0,17],
+"structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61":[6,0,0,10,0,11],
 "structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[6,0,0,10,0,6],
 "structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[6,0,0,10,0,28],
 "structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[6,0,0,10,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1GcodeProcessor_1_1Command.html":[6,0,0,20,254],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,0,20,253],
 "structMR_1_1GeneralOffsetParameters.html":[6,0,0,20,828],
-"structMR_1_1GeodesicPath.html":[6,0,0,16,3,0],
-"structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d":[6,0,0,16,3,0,3],
-"structMR_1_1GeodesicPath.html#a500cd0125a04fdafa54081b9392409e4":[6,0,0,16,3,0,0]
+"structMR_1_1GeodesicPath.html":[6,0,0,16,3,0]
 };

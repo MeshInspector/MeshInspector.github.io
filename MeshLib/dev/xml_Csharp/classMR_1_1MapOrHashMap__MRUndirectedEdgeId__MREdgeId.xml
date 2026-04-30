@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId" prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa3c8e1c9925b5737ab5bcea7e559db5a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Variant_MRWholeEdgeMap_PhmapFlatHashMapMRUndirectedEdgeIdMREdgeId</type>
@@ -104,7 +104,7 @@
         <name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name>
         <qualifiedname>MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</qualifiedname>
         <param>
-          <type>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</type>
+          <type><ref refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -298,6 +298,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</label>
+        <link refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -319,6 +320,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</label>
+        <link refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -335,6 +337,16 @@
     <listofallmembers>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a01926e4c879095862475f21fb6221a7a" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>assign</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a9d68dadcda94cfdd66ccd6b6f1e32749" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a678501071e2d65778ef4967d77bbb031" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1af37e51e49c12a93cf1dda862021ff63f" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ae69a4f18e281baa8f5a6bf3a5a58c490" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ac806e2bebf0a4143c330122bc1fecd60" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3862b3a160c97ba3b0cb462f8deb9474" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a9d3dc00b22380687a2fc2d1ed18cd80b" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a6485cfef8d0277f8c600a884294b4fc1" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a90e2ee24510ec53e32a8f7c83550da26" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>createMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1aa18275718708cef5201f29a10bc7026c" prot="protected" virt="virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a965b58ec61db3af4e1bf184de398b43b" prot="public" virt="virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a114b015219189ec39566065bdf0033f1" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>getHashMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1ac7475a9298ab778e58ab34adeae7595e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>getMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId_1a3deb653c58c36d729899335f6c127718" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRUndirectedEdgeId_MREdgeId</scope><name>MapOrHashMap_MRUndirectedEdgeId_MREdgeId</name></member>

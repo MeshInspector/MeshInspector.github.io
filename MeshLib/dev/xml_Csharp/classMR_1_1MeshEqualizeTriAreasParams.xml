@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshEqualizeTriAreasParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshEqualizeTriAreasParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshEqualizeTriAreasParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshEqualizeTriAreasParams" prot="public" virt="non-virtual">MR.Const_MeshEqualizeTriAreasParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1af5841b71eb6b9c923a283caeef3aa586" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -35,7 +35,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="606" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="606" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a6f1292ae2f55809386e260ad626cb1f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertScalars</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertScalars" kindref="compound">Const_VertScalars</ref></type>
         <definition>new unsafe MR.? Const_VertScalars MR.MeshEqualizeTriAreasParams.weights</definition>
         <argsstring></argsstring>
         <name>weights</name>
@@ -65,7 +65,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="626" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="626" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a81f3754b3040a5da12e8e02b5a7081c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.MeshEqualizeTriAreasParams.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -210,7 +210,7 @@
         <name>MeshEqualizeTriAreasParams</name>
         <qualifiedname>MR.MeshEqualizeTriAreasParams.MeshEqualizeTriAreasParams</qualifiedname>
         <param>
-          <type>MR.Const_MeshEqualizeTriAreasParams</type>
+          <type><ref refid="classMR_1_1Const__MeshEqualizeTriAreasParams" kindref="compound">MR.Const_MeshEqualizeTriAreasParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshEqualizeTriAreasParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshEqualizeTriAreasParams</type>
+          <type><ref refid="classMR_1_1Const__MeshEqualizeTriAreasParams" kindref="compound">MR.Const_MeshEqualizeTriAreasParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -275,6 +275,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshEqualizeTriAreasParams</label>
+        <link refid="classMR_1_1Const__MeshEqualizeTriAreasParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -288,6 +289,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshEqualizeTriAreasParams</label>
         <link refid="classMR_1_1MeshEqualizeTriAreasParams"/>
@@ -296,9 +301,14 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshEqualizeTriAreasParams</label>
+        <link refid="classMR_1_1Const__MeshEqualizeTriAreasParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_weights</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -310,7 +320,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="577" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="578" bodyend="706"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a87665211a015d621e8c038895aee86eb" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ade74b199a3824af4dfd548fbbb324fb0" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ptr_storage_weights</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a6fdb4d847c516e0b954cb0b7a2c30494" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_force</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ae3c94892dea96f587aaf38a0a658c120" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_hardSmoothTetrahedrons</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a98efa52be1a033f538ffa5075e95c1e1" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_iterations</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a14cd65b4fd404db12dbb3216616b8089" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_limitNearInitial</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ae153027572a88406fa5c82d59633c166" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_maxInitialDist</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a3350feeae6d6c031272532f919eeccb3" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_noShrinkage</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a9c5a13d2757c4512b378c0eab99ef4a1" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a64935f2ffb562b3d3f66c5722e7c422c" prot="package" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>Const_MeshEqualizeTriAreasParams</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1af1c3c9e7a38a7a59a23cd046319a498f" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>Const_MeshEqualizeTriAreasParams</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ab3ff5ffa6f4a1684795ae5c86f2b0ec9" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>Const_MeshEqualizeTriAreasParams</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a2bac3b341005b673eef206ff2567cd7e" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>Const_MeshEqualizeTriAreasParams</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1aafb9669bec8bf19450c7fb9503ed67ac" prot="protected" virt="virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a3dcb658b64801a029d91e7a6005fcaba" prot="public" virt="virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1adbcaef58601f7c404b72267c05f07988" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>force</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1ab7e745f31e1561d212058f1d5f11c9f2" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>hardSmoothTetrahedrons</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1ac16cac43b7aee6645062e4bc905743dc" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>iterations</name></member>
@@ -321,6 +345,8 @@
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1ab2446c493737974b3c6a9a9339db8dea" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>MeshEqualizeTriAreasParams</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a4fb112503135759cf22128f08bb4d23e" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>MeshEqualizeTriAreasParams</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1af5841b71eb6b9c923a283caeef3aa586" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>noShrinkage</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ae18072904d710d913256796c96d2b01e" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>operator MR.Const_MeshRelaxParams</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a17f8676b1e65d6b2635fb289c1457627" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>operator MR.Const_RelaxParams</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0032d100d19a62734b15a9fa00ece630" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>operator MR.MeshRelaxParams</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0d7884a31c110e494ce2b39bb1adcfdc" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>operator MR.RelaxParams</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a81f3754b3040a5da12e8e02b5a7081c5" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>region</name></member>

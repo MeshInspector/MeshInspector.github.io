@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef" prot="public" virt="non-virtual">MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1abb55a384a69408671233ce80f720aa3f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name>
         <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef" kindref="compound">MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef.assign</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef" kindref="compound">MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</label>
+        <link refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</label>
+        <link refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3753" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3754" bodyend="3794"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a5111ee884965dfaba967706c86657a13" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a6205a034af9b0917804ee07fa8b92d82" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a1eb73d2f0f76e2cc9e07e91b8e483719" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a2aa63f5e5188bb01c142fc8a62efd4a4" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a5eed847729b64e91c87c21d7c47f1e86" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1af61122b9b82c84e234ec4bb1ed3fab1a" prot="protected" virt="virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a67a97f53a4bc91eddfb725a1167496ce" prot="public" virt="virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1abb55a384a69408671233ce80f720aa3f" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>
       <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1abca3a63a9b23c1967fc80b3483631af1" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>
       <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a23f9be322d1e18e9c01c9843c6f3ec6c" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>

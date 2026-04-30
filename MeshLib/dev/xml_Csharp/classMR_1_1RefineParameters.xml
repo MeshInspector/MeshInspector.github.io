@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RefineParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::RefineParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RefineParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RefineParameters" prot="public" virt="non-virtual">MR.Const_RefineParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1RefineParameters_1a94153af25978f9bf365b09cb3fde4d69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -35,7 +35,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="201" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RefineParameters_1aa8b988abbfbe287b960ec914c6fe7fa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_FaceBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
         <definition>new unsafe MR.? Const_FaceBitSet MR.RefineParameters.faceRegion</definition>
         <argsstring></argsstring>
         <name>faceRegion</name>
@@ -50,7 +50,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="206" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="207" bodyend="216"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RefineParameters_1a0741c98c6b3f2710adec7f384305d88a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.RefineParameters.vertRegion</definition>
         <argsstring></argsstring>
         <name>vertRegion</name>
@@ -150,11 +150,11 @@
           <declname>normalTolerance</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>faceRegion</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>vertRegion</declname>
         </param>
         <param>
@@ -200,7 +200,7 @@
         <name>RefineParameters</name>
         <qualifiedname>MR.RefineParameters.RefineParameters</qualifiedname>
         <param>
-          <type>Const_RefineParameters</type>
+          <type><ref refid="classMR_1_1Const__RefineParameters" kindref="compound">Const_RefineParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -265,6 +265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RefineParameters</label>
+        <link refid="classMR_1_1Const__RefineParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -278,6 +279,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.RefineParameters</label>
         <link refid="classMR_1_1RefineParameters"/>
@@ -286,9 +291,14 @@
       </node>
       <node id="2">
         <label>MR.Const_RefineParameters</label>
+        <link refid="classMR_1_1Const__RefineParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_faceRegion</edgelabel>
+          <edgelabel>__ptr_storage_vertRegion</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -300,8 +310,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" line="191" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureRefine.cs" bodystart="192" bodyend="325"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__RefineParameters_1a096a19f98f67a08c9065ee10a500bf2e" prot="protected" virt="non-virtual"><scope>MR::RefineParameters</scope><name>__ptr_storage_faceRegion</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1aa93dda15926e3fd62b904125b4a255ce" prot="protected" virt="non-virtual"><scope>MR::RefineParameters</scope><name>__ptr_storage_vertRegion</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a1a126801c64991c8a6129229cbb2f875" prot="protected" virt="non-virtual"><scope>MR::RefineParameters</scope><name>__ref_storage_distanceLimit</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1abb1ba572601e43d451e7e1afaf339182" prot="protected" virt="non-virtual"><scope>MR::RefineParameters</scope><name>__ref_storage_maxIterations</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a56f1fac5913a2b60a0e62788ea5a1179" prot="protected" virt="non-virtual"><scope>MR::RefineParameters</scope><name>__ref_storage_normalTolerance</name></member>
       <member refid="classMR_1_1RefineParameters_1a9d1d42433d6294dd61fd7b1836e2e2f1" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1RefineParameters_1a9726deb6c5675dfb14423c937cd2d7fa" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>callback</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a6058c9b35298ec9523c8c02ca707a8c5" prot="package" virt="non-virtual"><scope>MR::RefineParameters</scope><name>Const_RefineParameters</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a75ad4c0a71e76262a6f66ccfd25a7ce9" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>Const_RefineParameters</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a251ff7dc33690ea1218678027b4da3c4" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>Const_RefineParameters</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a93e6073e43c014f9f26265384f5bd3f2" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>Const_RefineParameters</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a90309a3d6846f51eb4ef97fa8c9c3bed" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>Const_RefineParameters</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a57e1608c03648847bcd51abb78291a53" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>Const_RefineParameters</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1ad01c61c9cb7289b7d1ae7594b92d4ea0" prot="protected" virt="virtual"><scope>MR::RefineParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RefineParameters_1a87303e022272f1b381acc0188f6adbf8" prot="public" virt="virtual"><scope>MR::RefineParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1RefineParameters_1a94153af25978f9bf365b09cb3fde4d69" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>distanceLimit</name></member>
       <member refid="classMR_1_1RefineParameters_1aa8b988abbfbe287b960ec914c6fe7fa2" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>faceRegion</name></member>
       <member refid="classMR_1_1RefineParameters_1acb842f8927db7effa85025af92d854aa" prot="public" virt="non-virtual"><scope>MR::RefineParameters</scope><name>maxIterations</name></member>

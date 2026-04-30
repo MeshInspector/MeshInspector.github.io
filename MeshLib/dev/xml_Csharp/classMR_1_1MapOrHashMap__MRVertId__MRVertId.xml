@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MapOrHashMap__MRVertId__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::MapOrHashMap_MRVertId_MRVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRVertId_MRVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId" prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRVertId_MRVertId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1adee2408d2238a0da0d0ec54e6faa7a6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId</type>
@@ -104,7 +104,7 @@
         <name>MapOrHashMap_MRVertId_MRVertId</name>
         <qualifiedname>MR.MapOrHashMap_MRVertId_MRVertId.MapOrHashMap_MRVertId_MRVertId</qualifiedname>
         <param>
-          <type>Const_MapOrHashMap_MRVertId_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId" kindref="compound">Const_MapOrHashMap_MRVertId_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -298,6 +298,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MapOrHashMap_MRVertId_MRVertId</label>
+        <link refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -319,6 +320,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MapOrHashMap_MRVertId_MRVertId</label>
+        <link refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -335,6 +337,16 @@
     <listofallmembers>
       <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1ac76562ee80097e086f68d0e3077224ba" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>assign</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a5cb09847b20e95d25829e145049a784e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a129fc965cfaf9b2d6783ddd29d1cfb12" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a504e1fef2581b136fdee76226949a44e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a464a5fc4003e93bccea47ce7bb63623a" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a8ffdf4ee47d53f0ef3742879167a4625" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a7a97cbafc42cc304f620797455042ddd" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1af201a30e6109971bcae849f89407bdc0" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ab4e85ca9d6385d9544b6f810e967c3c7" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>createHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ac9a7748a34225c10e521a46b83dd4d3f" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>createMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a4a476e1b69d39f2f3011c46200a5bebd" prot="protected" virt="virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a606d694650fe3597124723d763fb1132" prot="public" virt="virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a16c9a1f5b39cd868a563271c00a083dc" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>getHashMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1a6e1468a3a1e235418ad379b11baae7d5" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>getMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId_1afdb4700830b8b4530cb816b9004053bf" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRVertId_MRVertId</scope><name>MapOrHashMap_MRVertId_MRVertId</name></member>

@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ThickenParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ThickenParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ThickenParams" prot="public" virt="non-virtual">MR.ThickenParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ThickenParams_1a308afaa814e81d10f16b8b78d3d8b6db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ThickenParams.outsideOffset</definition>
+        <argsstring></argsstring>
+        <name>outsideOffset</name>
+        <qualifiedname>MR.Const_ThickenParams.outsideOffset</qualifiedname>
+        <briefdescription>
+<para>the amount of offset for original mesh vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ThickenParams_1ac5c290093762ae445139c0d59eca6762" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ThickenParams.insideOffset</definition>
+        <argsstring></argsstring>
+        <name>insideOffset</name>
+        <qualifiedname>MR.Const_ThickenParams.insideOffset</qualifiedname>
+        <briefdescription>
+<para>the amount of offset for cloned mirrored mesh vertices in the opposite direction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="34" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ThickenParams_1aa1b7317efa876502ec764866b2b7d834" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ThickenParams.normalsTrustFactor</definition>
+        <argsstring></argsstring>
+        <name>normalsTrustFactor</name>
+        <qualifiedname>MR.Const_ThickenParams.normalsTrustFactor</qualifiedname>
+        <briefdescription>
+<para>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but it will increase the probability of self-intersections as well; decreasing (to a positive value) will on the contrary make the field of shift directions smoother </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="42" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ThickenParams_1a54689a7837469d1df9265c12e9757707" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ThickenParams.__ref_storage_outsideOffset</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_outsideOffset</name>
+        <qualifiedname>MR.Const_ThickenParams.__ref_storage_outsideOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ThickenParams_1a4d744dd42e703103cadf063fb5fdb0e7" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ThickenParams.__ref_storage_insideOffset</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_insideOffset</name>
+        <qualifiedname>MR.Const_ThickenParams.__ref_storage_insideOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="35" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ThickenParams_1ae62141a9a7f9991175ba1c25441ab5ad" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_ThickenParams.__ref_storage_normalsTrustFactor</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_normalsTrustFactor</name>
+        <qualifiedname>MR.Const_ThickenParams.__ref_storage_normalsTrustFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="43" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ThickenParams_1a39ab72e2cb2a34ba73e2b1d82cbdd31a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ThickenParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ThickenParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ThickenParams_1a1708f365ee622a0efe83fc111ef2e431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ThickenParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ThickenParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ThickenParams_1afe54598202a9d798f9903db99c5bf5d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ThickenParams.Const_ThickenParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ThickenParams</name>
+        <qualifiedname>MR.Const_ThickenParams.Const_ThickenParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="82" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="82" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ThickenParams_1aa294f6ec435f59413cbab5fb6edcedde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ThickenParams.Const_ThickenParams</definition>
+        <argsstring>(float outsideOffset, float insideOffset, float normalsTrustFactor)</argsstring>
+        <name>Const_ThickenParams</name>
+        <qualifiedname>MR.Const_ThickenParams.Const_ThickenParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>outsideOffset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>insideOffset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>normalsTrustFactor</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ThickenParams" kindref="compound">MR.ThickenParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="93" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="93" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ThickenParams_1a03c1d5c141277798e0f38a061838190f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ThickenParams.Const_ThickenParams</definition>
+        <argsstring>(MR.Const_ThickenParams _other)</argsstring>
+        <name>Const_ThickenParams</name>
+        <qualifiedname>MR.Const_ThickenParams.Const_ThickenParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ThickenParams" kindref="compound">MR.Const_ThickenParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ThickenParams_1af87a29943e88c370696a9748c4f67c2d" kindref="member">MR.ThickenParams.ThickenParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="104" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ThickenParams_1a60a2c0f74c252939426a30a8ac725264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ThickenParams.Const_ThickenParams</definition>
+        <argsstring>(ThickenParams _other)</argsstring>
+        <name>Const_ThickenParams</name>
+        <qualifiedname>MR.Const_ThickenParams.Const_ThickenParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ThickenParams" kindref="compound">ThickenParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ThickenParams_1af87a29943e88c370696a9748c4f67c2d" kindref="member">MR.ThickenParams.ThickenParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="116" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ThickenParams_1aa03b9b39f7b4319fa61eb0895afc8e01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ThickenParams.~Const_ThickenParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ThickenParams</name>
+        <qualifiedname>MR.Const_ThickenParams.~Const_ThickenParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ThickenParams_1a72e32f6d09a2313045b64448455150e4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ThickenParams.Const_ThickenParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ThickenParams</name>
+        <qualifiedname>MR.Const_ThickenParams.Const_ThickenParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="71" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ThickenParams" kindref="compound">MR.ThickenParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ThickenParams</label>
+        <link refid="classMR_1_1Const__ThickenParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ThickenParams</label>
+        <link refid="classMR_1_1ThickenParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ThickenParams</label>
+        <link refid="classMR_1_1Const__ThickenParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetVerts.cs" bodystart="8" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ThickenParams_1a4d744dd42e703103cadf063fb5fdb0e7" prot="protected" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>__ref_storage_insideOffset</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1ae62141a9a7f9991175ba1c25441ab5ad" prot="protected" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>__ref_storage_normalsTrustFactor</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1a54689a7837469d1df9265c12e9757707" prot="protected" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>__ref_storage_outsideOffset</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1a72e32f6d09a2313045b64448455150e4" prot="package" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>Const_ThickenParams</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1afe54598202a9d798f9903db99c5bf5d4" prot="public" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>Const_ThickenParams</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1aa294f6ec435f59413cbab5fb6edcedde" prot="public" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>Const_ThickenParams</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1a03c1d5c141277798e0f38a061838190f" prot="public" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>Const_ThickenParams</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1a60a2c0f74c252939426a30a8ac725264" prot="public" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>Const_ThickenParams</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1a39ab72e2cb2a34ba73e2b1d82cbdd31a" prot="protected" virt="virtual"><scope>MR::Const_ThickenParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1a1708f365ee622a0efe83fc111ef2e431" prot="public" virt="virtual"><scope>MR::Const_ThickenParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1ac5c290093762ae445139c0d59eca6762" prot="public" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>insideOffset</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1aa1b7317efa876502ec764866b2b7d834" prot="public" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>normalsTrustFactor</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1a308afaa814e81d10f16b8b78d3d8b6db" prot="public" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>outsideOffset</name></member>
+      <member refid="classMR_1_1Const__ThickenParams_1aa03b9b39f7b4319fa61eb0895afc8e01" prot="private" virt="non-virtual"><scope>MR::Const_ThickenParams</scope><name>~Const_ThickenParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

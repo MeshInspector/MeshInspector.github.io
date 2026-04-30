@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SimpleBinaryVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::SimpleBinaryVolume</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SimpleBinaryVolume</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SimpleBinaryVolume" prot="public" virt="non-virtual">MR.Const_SimpleBinaryVolume</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SimpleBinaryVolume_1a56ce00c275e24b0194eaaee42e9bd579" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
@@ -140,7 +140,7 @@
         <name>SimpleBinaryVolume</name>
         <qualifiedname>MR.SimpleBinaryVolume.SimpleBinaryVolume</qualifiedname>
         <param>
-          <type>Const_SimpleBinaryVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleBinaryVolume" kindref="compound">Const_SimpleBinaryVolume</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SimpleBinaryVolume</label>
+        <link refid="classMR_1_1Const__SimpleBinaryVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,6 +219,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SimpleBinaryVolume</label>
         <link refid="classMR_1_1SimpleBinaryVolume"/>
@@ -226,9 +231,14 @@
       </node>
       <node id="2">
         <label>MR.Const_SimpleBinaryVolume</label>
+        <link refid="classMR_1_1Const__SimpleBinaryVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dims</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -240,9 +250,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2877" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2878" bodyend="2965"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1aa9fcfc6273ee764f68b9b91cb654ef92" prot="protected" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>__ref_storage_dims</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1aedd4a2ea3a23da174bb6d1ca08a390c6" prot="protected" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1SimpleBinaryVolume_1ac0cb4fb8e1d1cadf0abed66e9f7c8112" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a5f1561347a43dfd73215da2dd84677ef" prot="package" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>Const_SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1aa5b6460c5751a6807d8085ae09c5b812" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>Const_SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a396453558f5da0072f5229279dc32a75" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>Const_SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a598342e2936a3db2fe496f5a57764509" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>Const_SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1ad651a74257e2c8a2cd7b76c669df4398" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>Const_SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a24b55287d7ed25b12e7f375e521b8114" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>Const_SimpleBinaryVolume</name></member>
       <member refid="classMR_1_1SimpleBinaryVolume_1a56ce00c275e24b0194eaaee42e9bd579" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>data</name></member>
       <member refid="classMR_1_1SimpleBinaryVolume_1a899b1d0bfe3e4d335a183781f8072198" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a302f315bfea42852b2a1e9ae9d0ed389" prot="protected" virt="virtual"><scope>MR::SimpleBinaryVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a81be251d82a0a3af8d7691aac14af6fb" prot="public" virt="virtual"><scope>MR::SimpleBinaryVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SimpleBinaryVolume_1a88d659fa7465d770016ab5eae528a1f0" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1SimpleBinaryVolume_1aaf85b8ce26aa37f3ff7213fbf6b14bbe" prot="package" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>
       <member refid="classMR_1_1SimpleBinaryVolume_1a05f27d76f4fad9fe8f27ad36c787cb90" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>
       <member refid="classMR_1_1SimpleBinaryVolume_1ad9e31731391fdffd65fc94baa6316897" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>

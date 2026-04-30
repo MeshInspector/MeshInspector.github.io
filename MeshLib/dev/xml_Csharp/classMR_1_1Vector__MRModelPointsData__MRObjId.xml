@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRModelPointsData__MRObjId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRModelPointsData_MRObjId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRModelPointsData_MRObjId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId" prot="public" virt="non-virtual">MR.Const_Vector_MRModelPointsData_MRObjId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a874541fdfddb05a557b502b66a5f1f27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRModelPointsData_MRObjId</name>
         <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.Vector_MRModelPointsData_MRObjId</qualifiedname>
         <param>
-          <type>Const_Vector_MRModelPointsData_MRObjId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId" kindref="compound">Const_Vector_MRModelPointsData_MRObjId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,7 +153,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Const_ModelPointsData</type>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_ModelPointsData</type>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -309,7 +309,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_ModelPointsData</type>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -336,7 +336,7 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.Const_ModelPointsData</type>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -359,7 +359,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.Const_ModelPointsData</type>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -397,7 +397,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.pushBack</qualifiedname>
         <param>
-          <type>MR.Const_ModelPointsData</type>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRModelPointsData_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRModelPointsData_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a2bad4a08ed10ee20c2ecc743b2e7ff2b" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a34e4034fdc4fa8991b8d3224bde594ba" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a6f50f5b301d68b615c86919961c54c20" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1ab97bb99e935d7cc071cd8460620032a0" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a74e5ef63e1d283d5b8127ab1858ebe0f" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1abe57d359062469e0f57d4dd95a310162" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a0c8e9db26bd81fb3e25a74f88294a526" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a2576af55d2125dbe3bbd4cc9ab8a84c0" prot="package" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Const_Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a42add605c394e5f4817599990f8fd4fa" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Const_Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a747462229dc29649d25a9e4ffba35e17" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Const_Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a741470d73486cd2afd0ac1f94cc0d3f8" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Const_Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a9d53bfe3237a45c832270de22083753d" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Const_Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a25dd9bd94b89a3dc2f9d0993dd779e31" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Const_Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a0ad464ddf8496682b704a929a136d531" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Const_Vector_MRModelPointsData_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a34edb6094991aad2c0b62a710d041e66" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Const_Vector_MRModelPointsData_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1aabc1931f4d5f2b95656ef233f16507ca" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a454d17a539ba6ab7193a3f1c55ebd946" prot="protected" virt="virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a23257b4996f4601104750757ca945c93" prot="public" virt="virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a8b4ab461fefaa331b1c241e58d8413c2" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1ac2ad591ffe5888d2c5f2a3b9453a281f" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a19e49591b4290d4b370aa8d0cd190c08" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a3bc8e7e3788a419086829ad3012d0d04" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a24f04fba3c2d59475a2f5c6f2fcbba79" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a32ee0d6c13481d79f910ade8ea67079c" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a4099d09074cdbbfce4226b9eb72579af" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1a40612ef1f80a6d12323ede67d6027695" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>operator Const_Vector_MRModelPointsData_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ab2cce8a5f273ab55febc591c40024d61" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>operator Vector_MRModelPointsData_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a86de214a4158fb5156796ccbed229f18" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a597bc2c521327dce2a4c173403a3d3e7" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>pushBack</name></member>
@@ -685,6 +704,7 @@
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a2f994e76b226b29aec0b2a3a1f5a7f87" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a55a43e2ace2ee44ed01d106be792b36f" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ae29e13c37ccc13430167f40fd9dc26be" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1ac643dc35810437e7464e97308c8a4420" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a287960efa623ef51e478c33db4bfe718" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a846731aa58eb872bea3399c3d7145c83" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>this[MR.ObjId i]</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a874541fdfddb05a557b502b66a5f1f27" prot="public" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>vec</name></member>

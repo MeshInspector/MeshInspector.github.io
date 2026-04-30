@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsLoad_1_1E57LoadSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsLoad::E57LoadSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.PointsLoad.Const_E57LoadSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings" prot="public" virt="non-virtual">MR.PointsLoad.Const_E57LoadSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointsLoad_1_1E57LoadSettings_1a8bafbe80e2489d0df62df79696df2574" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -143,7 +143,7 @@
         <name>E57LoadSettings</name>
         <qualifiedname>MR.PointsLoad.E57LoadSettings.E57LoadSettings</qualifiedname>
         <param>
-          <type>Const_E57LoadSettings</type>
+          <type><ref refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings" kindref="compound">Const_E57LoadSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -211,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.PointsLoad.Const_E57LoadSettings</label>
+        <link refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -232,6 +233,7 @@
       </node>
       <node id="2">
         <label>MR.PointsLoad.Const_E57LoadSettings</label>
+        <link refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -243,8 +245,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="129" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="130" bodyend="226"/>
     <listofallmembers>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1a267e1fcdbba98dfcb664a3613e4432ec" prot="protected" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>__ref_storage_combineAllObjects</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1ad1497f93e5460bd7f9b0c0b136defa76" prot="protected" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>__ref_storage_identityXf</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1aa51c297a135d0f818bba7a1d6121386e" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a8bafbe80e2489d0df62df79696df2574" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>combineAllObjects</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1acb03bef66d7547f6f9dccad3c7157f73" prot="package" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>Const_E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1a05b60c0759a5edcdf91276af5ed0a073" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>Const_E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1af68c0470f62ac79c0acceef7611a882d" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>Const_E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1a70b1e07eb4aeac715eb1d62158dfbe91" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>Const_E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1a2535f30e369846ccae4a6a215f6e3944" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>Const_E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1afe23cd0ecb40d53371176c52b2342d51" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>Const_E57LoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1a1b666dcfffdaee4e74acc46dbcfd70c4" prot="protected" virt="virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1af0cff3210d326e568219ce676001ac5f" prot="public" virt="virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a6b432bf27761ea4e45bbec12fc0ad28a" prot="package" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a2a7b4284ac938087d0e8e0dec0b6b796" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>
       <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1ae1383fd7ebada916758930cca6df665e" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>E57LoadSettings</name></member>

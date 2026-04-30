@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DenoiseViaNormalsSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::DenoiseViaNormalsSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DenoiseViaNormalsSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DenoiseViaNormalsSettings" prot="public" virt="non-virtual">MR.Const_DenoiseViaNormalsSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DenoiseViaNormalsSettings_1a276f1682546966a08329b768ac50870c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -276,7 +276,7 @@
         <name>DenoiseViaNormalsSettings</name>
         <qualifiedname>MR.DenoiseViaNormalsSettings.DenoiseViaNormalsSettings</qualifiedname>
         <param>
-          <type>Const_DenoiseViaNormalsSettings</type>
+          <type><ref refid="classMR_1_1Const__DenoiseViaNormalsSettings" kindref="compound">Const_DenoiseViaNormalsSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -341,6 +341,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DenoiseViaNormalsSettings</label>
+        <link refid="classMR_1_1Const__DenoiseViaNormalsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -354,6 +355,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DenoiseViaNormalsSettings</label>
         <link refid="classMR_1_1DenoiseViaNormalsSettings"/>
@@ -362,9 +367,13 @@
       </node>
       <node id="2">
         <label>MR.Const_DenoiseViaNormalsSettings</label>
+        <link refid="classMR_1_1Const__DenoiseViaNormalsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_outCreases</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -376,15 +385,32 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="224" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" bodystart="225" bodyend="367"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a48f457319249edb03969a43d030ce96f" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ptr_storage_outCreases</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a36bbd76778c79ab51725b94060c98b3b" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ref_storage_beta</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a12f5e2ff9c2f609351b2f92505618530" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ref_storage_fastIndicatorComputation</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1acf357e2c710dcddfe6f46593a680bae3" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ref_storage_gamma</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a65e3c06361add3c85bff0247c62fec2f" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ref_storage_guideWeight</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1aab2f31a4dfc1c679522b794ca0d16de0" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ref_storage_limitNearInitial</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a4b6aa3d179ad410c246e489651ffe002" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ref_storage_maxInitialDist</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1aa3a4f6df613b6029bd8faa3909d0a9a9" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ref_storage_normalIters</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a114a8376c01d4374d058c6e6a1c03f34" prot="protected" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>__ref_storage_pointIters</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a1469aa8ace65ead884e64786b07d43a1" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1adb3af5a3ba12b28f690ec76e46a1a439" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>beta</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a08b4fe0295f03cbb4498ce4a78dd8478" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a953c080941c672b6a4ae8d7cb87a1e6d" prot="package" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>Const_DenoiseViaNormalsSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1ada08c71c90ae3f605c3bcede8e135979" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>Const_DenoiseViaNormalsSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a7b1b9f3e4a4dcff66c6542e65c353556" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>Const_DenoiseViaNormalsSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a7154fd358861636e8bd0932fe8064a8d" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>Const_DenoiseViaNormalsSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1ac7e021acb19fcaa6062ebfb493a139f1" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>Const_DenoiseViaNormalsSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a56dcb190e2d3deb42c63bcf5799c3e04" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>Const_DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a75052624bf05c14971df0f58c7087053" prot="package" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a25627dcab94d4cd126e432a1b9d8e469" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a07b9360cfc55d04883f2f72b2b875fad" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a4ac896a87625b20513873e18fdefc76b" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a4e7f82a601045c2809557bab8bb7adcf" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1aa969bb3f8ab3f04e2bce245b7133f138" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>DenoiseViaNormalsSettings</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a7688c259ceb0c6ed9b82aff33cdbd2b1" prot="protected" virt="virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DenoiseViaNormalsSettings_1a06e2c22d655a8a3bd00b02c81c96e5fb" prot="public" virt="virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a276f1682546966a08329b768ac50870c" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>fastIndicatorComputation</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a0917a9764b86db2266ddab1c0901f180" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>gamma</name></member>
       <member refid="classMR_1_1DenoiseViaNormalsSettings_1a5c58dc4b9f1323e4e71485556a37bfeb" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>guideWeight</name></member>

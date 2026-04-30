@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RebuildMeshSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::RebuildMeshSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RebuildMeshSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RebuildMeshSettings" prot="public" virt="non-virtual">MR.Const_RebuildMeshSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1RebuildMeshSettings_1af0dbcaf69ab86fdf8ff783a07dfd2ed0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -350,7 +350,7 @@
         <name>RebuildMeshSettings</name>
         <qualifiedname>MR.RebuildMeshSettings.RebuildMeshSettings</qualifiedname>
         <param>
-          <type>Const_RebuildMeshSettings</type>
+          <type><ref refid="classMR_1_1Const__RebuildMeshSettings" kindref="compound">Const_RebuildMeshSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -415,6 +415,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RebuildMeshSettings</label>
+        <link refid="classMR_1_1Const__RebuildMeshSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -428,6 +429,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.RebuildMeshSettings</label>
         <link refid="classMR_1_1RebuildMeshSettings"/>
@@ -436,9 +441,15 @@
       </node>
       <node id="2">
         <label>MR.Const_RebuildMeshSettings</label>
+        <link refid="classMR_1_1Const__RebuildMeshSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_outSharpEdges</edgelabel>
+          <edgelabel>__ref_storage_offsetMode</edgelabel>
+          <edgelabel>__ref_storage_signMode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -450,9 +461,28 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="281" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="282" bodyend="467"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a6c40aecfe32f5984e64f8ddce0216f9f" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ptr_storage_outSharpEdges</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a0b12eb44e2b744e9084cf9ed13125367" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a72a26d020ce4c1587650fc5b8d5b607d" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_decimate</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a17aad8b6d05a0760a4dd82db915c1b20" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_offsetMode</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1ac25b028fdbb6a1b557d2d67e5f056279" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_preSubdivide</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a36e0f095f6991cad3d3a0541cba5ade0" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_reduceAngleNumIters</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1ac53d97e029d3851c0ee4f40ed02c613c" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_signMode</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a57586fa4978e1e0e446590e5dd2fa9cb" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_tinyEdgeLength</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1aaba3717c4ef737cda4f4eee32b4b069f" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1ad282b366f65707d6441705d59a0c9f4d" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a2bcbea573a6a7b880323a1c9565f0636" prot="protected" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>__ref_storage_windingNumberThreshold</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a00c4275aef1b1248b44d74f526e34620" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a39c995357e466ff28935d7d5cb61080e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1ade982c9e65c62982a973d6392488f1fd" prot="package" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>Const_RebuildMeshSettings</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a92652d7cfce6e203f47b9fe202eb2b1a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>Const_RebuildMeshSettings</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a26433ab5cfade7368f443c6d868dd3a6" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>Const_RebuildMeshSettings</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a0e589ed785e706cfcb186dd6669f845a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>Const_RebuildMeshSettings</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a1e6ee2786b4e25efac58f410062ca79c" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>Const_RebuildMeshSettings</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a9e455586683d3eeecd45354a122d95cf" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>Const_RebuildMeshSettings</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a49327eee56e82fb22ef3b02746f46e81" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>decimate</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1ad7bd02e0f2d36576ba2be661aea63623" prot="protected" virt="virtual"><scope>MR::RebuildMeshSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RebuildMeshSettings_1a12cc0b5ff4d83b602d6dac053b439525" prot="public" virt="virtual"><scope>MR::RebuildMeshSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1afeabe32f7ac89c253e74ebda8bf33b9d" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>fwn</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1a17661a3ca4053eaf512af6316f5f8ddf" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>offsetMode</name></member>
       <member refid="classMR_1_1RebuildMeshSettings_1ad203d886815a40175d58c92989a41e3a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>

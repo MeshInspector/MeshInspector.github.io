@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshProjectionResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshProjectionResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshProjectionResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshProjectionResult" prot="public" virt="non-virtual">MR.Const_MeshProjectionResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshProjectionResult_1a230268380f9c969c05dd26c133b06a24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></type>
@@ -97,11 +97,11 @@
         <name>MeshProjectionResult</name>
         <qualifiedname>MR.MeshProjectionResult.MeshProjectionResult</qualifiedname>
         <param>
-          <type>MR.Const_PointOnFace</type>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
           <declname>proj</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>mtp</declname>
         </param>
         <param>
@@ -124,7 +124,7 @@
         <name>MeshProjectionResult</name>
         <qualifiedname>MR.MeshProjectionResult.MeshProjectionResult</qualifiedname>
         <param>
-          <type>MR.Const_MeshProjectionResult</type>
+          <type><ref refid="classMR_1_1Const__MeshProjectionResult" kindref="compound">MR.Const_MeshProjectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshProjectionResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshProjectionResult</type>
+          <type><ref refid="classMR_1_1Const__MeshProjectionResult" kindref="compound">MR.Const_MeshProjectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshProjectionResult</label>
+        <link refid="classMR_1_1Const__MeshProjectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshProjectionResult</label>
+        <link refid="classMR_1_1Const__MeshProjectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,7 +226,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="144" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="145" bodyend="244"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a9dc3f92f04a3efa5a50260558cf08e92" prot="protected" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>__ref_storage_distSq</name></member>
       <member refid="classMR_1_1MeshProjectionResult_1a91b59ecdd496936d210b4df438c383cc" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a70138ad39cc3d30478e10fc668350455" prot="package" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a69bbd2441e739b76e140b91f3a66ae28" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a49573dc4e0caa6e85b0270e0d14e2a7b" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a063369ecbc6feaed19ad54ee24d8207a" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1ad50c355bfc7b0e8424e7e257df4ff22f" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1ad0ad74fcc5d079d7d7a753c1c9763d91" prot="protected" virt="virtual"><scope>MR::MeshProjectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1abdf26409481e76f9e00b7f48ff17272f" prot="public" virt="virtual"><scope>MR::MeshProjectionResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshProjectionResult_1aef52dd6ef5ddadb01b688c2356eff839" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>distSq</name></member>
       <member refid="classMR_1_1MeshProjectionResult_1a9127e29b02498fa8600a298d789363bb" prot="package" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>MeshProjectionResult</name></member>
       <member refid="classMR_1_1MeshProjectionResult_1a751457aa2de847d39b666525bfb5c509" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>MeshProjectionResult</name></member>
@@ -232,7 +242,9 @@
       <member refid="classMR_1_1MeshProjectionResult_1a2a798a64b74f53686a57e8073f5caa31" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>MeshProjectionResult</name></member>
       <member refid="classMR_1_1MeshProjectionResult_1a273eb563b6c112e0efd8e95f80637219" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>MeshProjectionResult</name></member>
       <member refid="classMR_1_1MeshProjectionResult_1a57404b38a3dc6773fcd86e2fa3243911" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>mtp</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1abe59cdbaaf7f82d2322682ffe0795bb1" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>operator bool</name></member>
       <member refid="classMR_1_1MeshProjectionResult_1a230268380f9c969c05dd26c133b06a24" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>proj</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1ad2a44b0abc110154e62a998390200d44" prot="public" virt="non-virtual"><scope>MR::MeshProjectionResult</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

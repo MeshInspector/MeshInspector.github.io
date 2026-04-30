@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DihedralAngleProcessParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DihedralAngleProcessParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DihedralAngleProcessParams" prot="public" virt="non-virtual">MR.DihedralAngleProcessParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__DihedralAngleProcessParams_1adb0bb53b6b3bbcc41feb6376811f2b23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DihedralAngleProcessParams.convexFactor</definition>
+        <argsstring></argsstring>
+        <name>convexFactor</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.convexFactor</qualifiedname>
+        <briefdescription>
+<para>positive convex dihedral angles are returned multiplied on this factor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DihedralAngleProcessParams_1a18320f0a911ec35d7bd9379c62e6e6d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DihedralAngleProcessParams.concaveFactor</definition>
+        <argsstring></argsstring>
+        <name>concaveFactor</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.concaveFactor</qualifiedname>
+        <briefdescription>
+<para>negative concave dihedral angles are returned multiplied on this factor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="34" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DihedralAngleProcessParams_1a80f436f7378eed32fba78e010ccb61f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DihedralAngleProcessParams.boundaryValue</definition>
+        <argsstring></argsstring>
+        <name>boundaryValue</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.boundaryValue</qualifiedname>
+        <briefdescription>
+<para>this value will be returned as dihedral angle for boundary edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="40" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__DihedralAngleProcessParams_1a8314b942aae7a9b8f871f1f235a4bb25" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DihedralAngleProcessParams.__ref_storage_convexFactor</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_convexFactor</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.__ref_storage_convexFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DihedralAngleProcessParams_1a56d2176bc5bb6b1e5c77c00a0d6bbcbb" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DihedralAngleProcessParams.__ref_storage_concaveFactor</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_concaveFactor</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.__ref_storage_concaveFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="35" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DihedralAngleProcessParams_1acdc1484f6b0775cb87e4d1ce66f7e06e" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DihedralAngleProcessParams.__ref_storage_boundaryValue</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_boundaryValue</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.__ref_storage_boundaryValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="41" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DihedralAngleProcessParams_1abfa750ffc3e4b14ce2c3a4f916f4c36a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DihedralAngleProcessParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DihedralAngleProcessParams_1a6222e450458697a6b1021ee0d4339036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DihedralAngleProcessParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DihedralAngleProcessParams_1aee94fdfbaf7dea273d638c68b9d77bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DihedralAngleProcessParams</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DihedralAngleProcessParams_1af3caaaf1b61faa6257b94b31096425b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</definition>
+        <argsstring>(float convexFactor, float concaveFactor, float boundaryValue)</argsstring>
+        <name>Const_DihedralAngleProcessParams</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>convexFactor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>concaveFactor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>boundaryValue</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DihedralAngleProcessParams" kindref="compound">MR.DihedralAngleProcessParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DihedralAngleProcessParams_1a2085ed7c965deb74b520e1dc5c12777d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</definition>
+        <argsstring>(MR.Const_DihedralAngleProcessParams _other)</argsstring>
+        <name>Const_DihedralAngleProcessParams</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DihedralAngleProcessParams" kindref="compound">MR.Const_DihedralAngleProcessParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DihedralAngleProcessParams_1a8db664eafd1c06fbfd8d573e3ce397a2" kindref="member">MR.DihedralAngleProcessParams.DihedralAngleProcessParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="102" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="102" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DihedralAngleProcessParams_1a006d052a30247d6103a26dd833c3570a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</definition>
+        <argsstring>(DihedralAngleProcessParams _other)</argsstring>
+        <name>Const_DihedralAngleProcessParams</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DihedralAngleProcessParams" kindref="compound">DihedralAngleProcessParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DihedralAngleProcessParams_1a8db664eafd1c06fbfd8d573e3ce397a2" kindref="member">MR.DihedralAngleProcessParams.DihedralAngleProcessParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="114" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DihedralAngleProcessParams_1a6b6bcf5f7333d20b62d8a2fe8c401252" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DihedralAngleProcessParams.~Const_DihedralAngleProcessParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DihedralAngleProcessParams</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.~Const_DihedralAngleProcessParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DihedralAngleProcessParams_1acac7c91244ff1850aab826ef7552b6a4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DihedralAngleProcessParams</name>
+        <qualifiedname>MR.Const_DihedralAngleProcessParams.Const_DihedralAngleProcessParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1DihedralAngleProcessParams" kindref="compound">MR.DihedralAngleProcessParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DihedralAngleProcessParams</label>
+        <link refid="classMR_1_1Const__DihedralAngleProcessParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DihedralAngleProcessParams</label>
+        <link refid="classMR_1_1DihedralAngleProcessParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_DihedralAngleProcessParams</label>
+        <link refid="classMR_1_1Const__DihedralAngleProcessParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="8" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1acdc1484f6b0775cb87e4d1ce66f7e06e" prot="protected" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>__ref_storage_boundaryValue</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a56d2176bc5bb6b1e5c77c00a0d6bbcbb" prot="protected" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>__ref_storage_concaveFactor</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a8314b942aae7a9b8f871f1f235a4bb25" prot="protected" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>__ref_storage_convexFactor</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a80f436f7378eed32fba78e010ccb61f0" prot="public" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>boundaryValue</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a18320f0a911ec35d7bd9379c62e6e6d3" prot="public" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>concaveFactor</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1acac7c91244ff1850aab826ef7552b6a4" prot="package" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1aee94fdfbaf7dea273d638c68b9d77bd7" prot="public" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1af3caaaf1b61faa6257b94b31096425b4" prot="public" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a2085ed7c965deb74b520e1dc5c12777d" prot="public" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a006d052a30247d6103a26dd833c3570a" prot="public" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1adb0bb53b6b3bbcc41feb6376811f2b23" prot="public" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>convexFactor</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1abfa750ffc3e4b14ce2c3a4f916f4c36a" prot="protected" virt="virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a6222e450458697a6b1021ee0d4339036" prot="public" virt="virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a6b6bcf5f7333d20b62d8a2fe8c401252" prot="private" virt="non-virtual"><scope>MR::Const_DihedralAngleProcessParams</scope><name>~Const_DihedralAngleProcessParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TransformedMesh" kind="class" language="C#" prot="public">
     <compoundname>MR::TransformedMesh</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TransformedMesh</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TransformedMesh" prot="public" virt="non-virtual">MR.Const_TransformedMesh</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TransformedMesh_1a9fdf901154aaf2d47280c5be85bb50b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -99,7 +99,7 @@
         <name>TransformedMesh</name>
         <qualifiedname>MR.TransformedMesh.TransformedMesh</qualifiedname>
         <param>
-          <type>Const_TransformedMesh</type>
+          <type><ref refid="classMR_1_1Const__TransformedMesh" kindref="compound">Const_TransformedMesh</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -180,7 +180,7 @@
         <name>addAssign</name>
         <qualifiedname>MR.TransformedMesh.addAssign</qualifiedname>
         <param>
-          <type>MR.Const_TransformedMesh</type>
+          <type><ref refid="classMR_1_1Const__TransformedMesh" kindref="compound">MR.Const_TransformedMesh</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>subAssign</name>
         <qualifiedname>MR.TransformedMesh.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_TransformedMesh</type>
+          <type><ref refid="classMR_1_1Const__TransformedMesh" kindref="compound">MR.Const_TransformedMesh</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -218,7 +218,7 @@
         <name>mulAssign</name>
         <qualifiedname>MR.TransformedMesh.mulAssign</qualifiedname>
         <param>
-          <type>MR.Const_TransformedMesh</type>
+          <type><ref refid="classMR_1_1Const__TransformedMesh" kindref="compound">MR.Const_TransformedMesh</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -266,6 +266,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TransformedMesh</label>
+        <link refid="classMR_1_1Const__TransformedMesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -279,6 +280,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TransformedMesh</label>
         <link refid="classMR_1_1TransformedMesh"/>
@@ -287,9 +292,13 @@
       </node>
       <node id="2">
         <label>MR.Const_TransformedMesh</label>
+        <link refid="classMR_1_1Const__TransformedMesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -301,10 +310,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="120" bodyend="246"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TransformedMesh_1a7c29cc226a9e341161a63e2b4f758d78" prot="protected" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>__ref_storage_xf</name></member>
       <member refid="classMR_1_1TransformedMesh_1ab8aec3abfb0fb7eaaa3b1bb632b042e2" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>addAssign</name></member>
       <member refid="classMR_1_1TransformedMesh_1a5d04c7150fea0ea77af2250b5d28dd85" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1a1b3d5e363f9a176463369fe1a03a9954" prot="package" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>Const_TransformedMesh</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1a086a561e99a7ccd92bcfbcf7abde66a5" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>Const_TransformedMesh</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1abb7bdb30ba0244d23354f376d150c3a0" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>Const_TransformedMesh</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1a1a61a4a6ba50387dd691176e7e11ec9b" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>Const_TransformedMesh</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1afa388fb2399e51b1e0c531704b7f865c" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>Const_TransformedMesh</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1afd6ed7f415707824de685b3bfecae98b" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>Const_TransformedMesh</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1ae18defa6cb54888e14ff411277e22f4f" prot="protected" virt="virtual"><scope>MR::TransformedMesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1ae4db3cf368bbdfe3b4ef7c68c59e72f7" prot="public" virt="virtual"><scope>MR::TransformedMesh</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TransformedMesh_1a9fdf901154aaf2d47280c5be85bb50b1" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>mesh</name></member>
       <member refid="classMR_1_1TransformedMesh_1a762b3973ced15acffea985e78356cf41" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1Const__TransformedMesh_1a24e1e0329ddf84499aa6ee85e3abc6bc" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>operator Const_TransformedMesh</name></member>
       <member refid="classMR_1_1TransformedMesh_1a7706bac607d2a523df534e66b7fa4189" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>operator TransformedMesh</name></member>
       <member refid="classMR_1_1TransformedMesh_1a87a17c179f0b78cc82fcb3d17462a1bd" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>subAssign</name></member>
       <member refid="classMR_1_1TransformedMesh_1aa0d1d15288c3328f306ecb113e78e5ef" prot="package" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>

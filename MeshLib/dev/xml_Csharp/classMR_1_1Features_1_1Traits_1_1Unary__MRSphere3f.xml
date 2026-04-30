@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Traits::Unary_MRSphere3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Features.Traits.Const_Unary_MRSphere3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f" prot="public" virt="non-virtual">MR.Features.Traits.Const_Unary_MRSphere3f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1af127f2dc4b0d6e6ab1c307555ef4912f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>Unary_MRSphere3f</name>
         <qualifiedname>MR.Features.Traits.Unary_MRSphere3f.Unary_MRSphere3f</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Unary_MRSphere3f</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f" kindref="compound">MR.Features.Traits.Const_Unary_MRSphere3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.Features.Traits.Unary_MRSphere3f.assign</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Unary_MRSphere3f</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f" kindref="compound">MR.Features.Traits.Const_Unary_MRSphere3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Unary_MRSphere3f</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Unary_MRSphere3f</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1928" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1929" bodyend="1969"/>
     <listofallmembers>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1ad61298a74b71a3430a9f4cf05d56260d" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1a18d733da09e669dd891a4a51810147f0" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Const_Unary_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1a08897de76dd821fe5e5ddaafead84542" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Const_Unary_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1a71be47e13196cd32169f62159e0714eb" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Const_Unary_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1a73b3d869e258800de6c1d93d4cf69bd2" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Const_Unary_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1a163f3586ae9bfc4ee74aa457aa8cdfc0" prot="protected" virt="virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1a54f5844b7ceea8bf77af3b75a97d1cb1" prot="public" virt="virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f_1af9454f0191dfe593829132c296bde3b0" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>name</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1af127f2dc4b0d6e6ab1c307555ef4912f" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Unary_MRSphere3f</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1a03324aefa1e6c348ceee18970ee51490" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Unary_MRSphere3f</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f_1a886c4bc070dfa7fa2b04ab6d206c3edd" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Unary_MRSphere3f</scope><name>Unary_MRSphere3f</name></member>

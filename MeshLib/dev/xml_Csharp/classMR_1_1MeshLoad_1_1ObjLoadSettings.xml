@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshLoad_1_1ObjLoadSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshLoad::ObjLoadSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshLoad.Const_ObjLoadSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings" prot="public" virt="non-virtual">MR.MeshLoad.Const_ObjLoadSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshLoad_1_1ObjLoadSettings_1ab8ca00422df92b23690491c8596939f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -162,7 +162,7 @@
         <name>ObjLoadSettings</name>
         <qualifiedname>MR.MeshLoad.ObjLoadSettings.ObjLoadSettings</qualifiedname>
         <param>
-          <type>Const_ObjLoadSettings</type>
+          <type><ref refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings" kindref="compound">Const_ObjLoadSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.MeshLoad.Const_ObjLoadSettings</label>
+        <link refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -248,6 +249,7 @@
       </node>
       <node id="2">
         <label>MR.MeshLoad.Const_ObjLoadSettings</label>
+        <link refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -262,10 +264,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" line="141" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoadObj.cs" bodystart="142" bodyend="243"/>
     <listofallmembers>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a365b6061e2804ec2440a5469f5e7095d" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>__ref_storage_countSkippedFaces</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a43d602f4f0c6050e09993f0b1d3cdb2d" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>__ref_storage_customXf</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a6957eb393b2d41d634c7b5b80ed4f00c" prot="protected" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>__ref_storage_telemetrySignal</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a005338441b18696c7ca219c9fc855ace" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a440cfca2d3cf16590b2802d1e4b34713" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>callback</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a4f845c63dd13300f8073d822cf9c905a" prot="package" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>Const_ObjLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a0acfbde27627acd348f9fc77a4d25350" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>Const_ObjLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1aeb848408540e347fe2b5547855325528" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>Const_ObjLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a50c26f152029035dba77a46a20db5376" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>Const_ObjLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1ac9b7969dee2c283b39f97a8d493dfc60" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>Const_ObjLoadSettings</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1aa09e4babbe95da31be8545c5a8a25210" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>Const_ObjLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a2f3c90fc1ac9cdf841dc2f0b033d728a" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>countSkippedFaces</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1ab8ca00422df92b23690491c8596939f5" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>customXf</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a53e7fdf08da90474f620c2337d74b727" prot="protected" virt="virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1ad1dd91de873114494b6558a12e648f98" prot="public" virt="virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a140a31777d9800339bb996b516c98b15" prot="package" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1aacf4640ed66356a1e5d76800bb2f864d" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>
       <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a7b9c5697c135e7b11554101cfdfe8d0d" prot="public" virt="non-virtual"><scope>MR::MeshLoad::ObjLoadSettings</scope><name>ObjLoadSettings</name></member>

@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Polynomial__Double__1" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Polynomial_Double_1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Polynomial__Double__1" prot="public" virt="non-virtual">MR.Polynomial_Double_1</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Polynomial__Double__1_1a5abc1ff46194b47b371dba1c85bf7351" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Polynomial_Double_1.N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.N</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1737" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1737" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Polynomial__Double__1_1a4efa5365fd6f12333b68b64a6f730c25" prot="protected" static="yes" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_Polynomial_Double_1.__ref_storage_N</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_N</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.__ref_storage_N</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1738" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1738" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1aad4506a93c0a9b8e1e864fd6ba2419b7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Polynomial_Double_1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1725" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1725" bodyend="1733"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1ad7b79292ea412f55384bf5a288f8de72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Polynomial_Double_1.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1734" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1734" bodyend="1734"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1aa3be7fa6ead8dfcf0a2201f57e4eae7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Polynomial_Double_1</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1754" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1754" bodyend="1759"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1a76df3cb42f0e07f30dc011db1de5042a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</definition>
+        <argsstring>(MR._ByValue_Polynomial_Double_1 _other)</argsstring>
+        <name>Const_Polynomial_Double_1</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</qualifiedname>
+        <param>
+          <type>MR._ByValue_Polynomial_Double_1</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Polynomial&amp;lt;double, 1&amp;gt;::Polynomial</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1764" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1764" bodyend="1770"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1afc9d552c7865e0e92244c52f01356e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</definition>
+        <argsstring>(Const_Polynomial_Double_1 _other)</argsstring>
+        <name>Const_Polynomial_Double_1</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Polynomial__Double__1" kindref="compound">Const_Polynomial_Double_1</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Polynomial&amp;lt;double, 1&amp;gt;::Polynomial</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1775" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1775" bodyend="1775"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1a8849b20fba01da728d1950d40b94d08e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</definition>
+        <argsstring>(Polynomial_Double_1 _other)</argsstring>
+        <name>Const_Polynomial_Double_1</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Polynomial__Double__1" kindref="compound">Polynomial_Double_1</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Polynomial&amp;lt;double, 1&amp;gt;::Polynomial</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1780" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1780" bodyend="1780"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1a3d7508ef8d6de347239ec47026c5b28c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Polynomial_Double_1.call</definition>
+        <argsstring>(double x)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.call</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Polynomial&amp;lt;double, 1&amp;gt;::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1785" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1785" bodyend="1790"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1a075c175d5c5b11af0a42a1f8d09bfd7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Double</type>
+        <definition>unsafe MR.Std.Vector_Double MR.Const_Polynomial_Double_1.solve</definition>
+        <argsstring>(double tol)</argsstring>
+        <name>solve</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.solve</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Polynomial&amp;lt;double, 1&amp;gt;<ref refid="classMR_1_1Const__Polynomial__Double__1_1a075c175d5c5b11af0a42a1f8d09bfd7d" kindref="member">solve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1795" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1795" bodyend="1800"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1a0447cfe1bdacd25a414b1ad660cae5d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polynomial__Double__0" kindref="compound">MR.Polynomial_Double_0</ref></type>
+        <definition>unsafe MR.Polynomial_Double_0 MR.Const_Polynomial_Double_1.deriv</definition>
+        <argsstring>()</argsstring>
+        <name>deriv</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.deriv</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Polynomial&amp;lt;double, 1&amp;gt;<ref refid="classMR_1_1Const__Polynomial__Double__1_1a0447cfe1bdacd25a414b1ad660cae5d7" kindref="member">deriv</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1805" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1805" bodyend="1810"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1a5277f62e03ab3560c12d951f5942da5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Polynomial_Double_1.intervalMin</definition>
+        <argsstring>(double a, double b)</argsstring>
+        <name>intervalMin</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.intervalMin</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Polynomial&amp;lt;double, 1&amp;gt;<ref refid="classMR_1_1Const__Polynomial__Double__1_1a5277f62e03ab3560c12d951f5942da5f" kindref="member">intervalMin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1815" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1815" bodyend="1820"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1a486270e38efe80c879b7558b5b31b317" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Polynomial_Double_1.~Const_Polynomial_Double_1</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Polynomial_Double_1</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.~Const_Polynomial_Double_1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1735" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1735" bodyend="1735"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1a7e43ed685aabee09fe0c500b285bba9a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Polynomial_Double_1</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1740" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1740" bodyend="1747"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polynomial__Double__1_1acce44db4bf510b346f446764db01726c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Polynomial_Double_1</name>
+        <qualifiedname>MR.Const_Polynomial_Double_1.Const_Polynomial_Double_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1749" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1749" bodyend="1749"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::Polynomial&amp;lt;double, 1&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Polynomial_Double_1</label>
+        <link refid="classMR_1_1Const__Polynomial__Double__1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.Polynomial_Double_1</label>
+        <link refid="classMR_1_1Polynomial__Double__1"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Polynomial_Double_1</label>
+        <link refid="classMR_1_1Const__Polynomial__Double__1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1719" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1720" bodyend="1821"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a4efa5365fd6f12333b68b64a6f730c25" prot="protected" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>__ref_storage_N</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a3d7508ef8d6de347239ec47026c5b28c" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a7e43ed685aabee09fe0c500b285bba9a" prot="private" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>Const_Polynomial_Double_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1acce44db4bf510b346f446764db01726c" prot="package" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>Const_Polynomial_Double_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1aa3be7fa6ead8dfcf0a2201f57e4eae7c" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>Const_Polynomial_Double_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a76df3cb42f0e07f30dc011db1de5042a" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>Const_Polynomial_Double_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1afc9d552c7865e0e92244c52f01356e5e" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>Const_Polynomial_Double_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a8849b20fba01da728d1950d40b94d08e" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>Const_Polynomial_Double_1</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a0447cfe1bdacd25a414b1ad660cae5d7" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>deriv</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1aad4506a93c0a9b8e1e864fd6ba2419b7" prot="protected" virt="virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1ad7b79292ea412f55384bf5a288f8de72" prot="public" virt="virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a5277f62e03ab3560c12d951f5942da5f" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>intervalMin</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a5abc1ff46194b47b371dba1c85bf7351" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>N</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a075c175d5c5b11af0a42a1f8d09bfd7d" prot="public" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>solve</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__1_1a486270e38efe80c879b7558b5b31b317" prot="private" virt="non-virtual"><scope>MR::Const_Polynomial_Double_1</scope><name>~Const_Polynomial_Double_1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

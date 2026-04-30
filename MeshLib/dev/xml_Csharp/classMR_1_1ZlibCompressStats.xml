@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ZlibCompressStats" kind="class" language="C#" prot="public">
     <compoundname>MR::ZlibCompressStats</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ZlibCompressStats</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ZlibCompressStats" prot="public" virt="non-virtual">MR.Const_ZlibCompressStats</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ZlibCompressStats_1a50ff071fee6130ad90e1b360753e7cba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref uint</type>
@@ -124,7 +124,7 @@
         <name>ZlibCompressStats</name>
         <qualifiedname>MR.ZlibCompressStats.ZlibCompressStats</qualifiedname>
         <param>
-          <type>MR.Const_ZlibCompressStats</type>
+          <type><ref refid="classMR_1_1Const__ZlibCompressStats" kindref="compound">MR.Const_ZlibCompressStats</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.ZlibCompressStats.assign</qualifiedname>
         <param>
-          <type>MR.Const_ZlibCompressStats</type>
+          <type><ref refid="classMR_1_1Const__ZlibCompressStats" kindref="compound">MR.Const_ZlibCompressStats</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ZlibCompressStats</label>
+        <link refid="classMR_1_1Const__ZlibCompressStats"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ZlibCompressStats</label>
+        <link refid="classMR_1_1Const__ZlibCompressStats"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,9 +226,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="333" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="334" bodyend="409"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ac52c32b8bd567e7de1b83d0b965b92ca" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>__ref_storage_compressedSize</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a34d13d3fe075c04b879730d284065c4e" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>__ref_storage_crc32</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a89a72e1590166541e240e19ed3d28f85" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>__ref_storage_uncompressedSize</name></member>
       <member refid="classMR_1_1ZlibCompressStats_1a3a40db9de9a2df98ef64250d6aa5490a" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>assign</name></member>
       <member refid="classMR_1_1ZlibCompressStats_1ab89f0f9f1328b552962bc6a64fdf4bac" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>compressedSize</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ae30757bca4d37d7d84417a75ba91a53a" prot="package" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1aa5229b6f30a38de134efcec25ca3dc61" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1add4a482e82a67df7e67bd678e12b239d" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a690f3858ac28624bbac6943cb8d3604c" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1acf2e2562bd3124717f68cb64d8557bc7" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>Const_ZlibCompressStats</name></member>
       <member refid="classMR_1_1ZlibCompressStats_1a50ff071fee6130ad90e1b360753e7cba" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>crc32</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1ae0a2fa861092d1f0fc38c1474bb003a3" prot="protected" virt="virtual"><scope>MR::ZlibCompressStats</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressStats_1a3edd4f5927a4b1c43b871fefdd19e74e" prot="public" virt="virtual"><scope>MR::ZlibCompressStats</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ZlibCompressStats_1a22335a201e3435ada23e55a3583d4c7a" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>uncompressedSize</name></member>
       <member refid="classMR_1_1ZlibCompressStats_1adac6d6a37121518b24dcebfd7a80a1c7" prot="package" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>ZlibCompressStats</name></member>
       <member refid="classMR_1_1ZlibCompressStats_1aeff13ed3df9ea17067e802de3aa6cb03" prot="public" virt="non-virtual"><scope>MR::ZlibCompressStats</scope><name>ZlibCompressStats</name></member>

@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshVertPart" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshVertPart</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshVertPart</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshVertPart" prot="public" virt="non-virtual">MR.Const_MeshVertPart</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshVertPart_1aac084d72573cae7061247013c0ac8dbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.MeshVertPart.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -51,7 +51,7 @@
         <name>MeshVertPart</name>
         <qualifiedname>MR.MeshVertPart.MeshVertPart</qualifiedname>
         <param>
-          <type>MR.Const_MeshVertPart</type>
+          <type><ref refid="classMR_1_1Const__MeshVertPart" kindref="compound">MR.Const_MeshVertPart</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -89,11 +89,11 @@
         <name>MeshVertPart</name>
         <qualifiedname>MR.MeshVertPart.MeshVertPart</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>m</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>bs</declname>
           <defval>null</defval>
         </param>
@@ -113,7 +113,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshVertPart.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshVertPart</type>
+          <type><ref refid="classMR_1_1Const__MeshVertPart" kindref="compound">MR.Const_MeshVertPart</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -134,7 +134,7 @@
         <name>operator MeshVertPart</name>
         <qualifiedname>MR.MeshVertPart.operator MeshVertPart</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>m</declname>
         </param>
         <briefdescription>
@@ -161,6 +161,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshVertPart</label>
+        <link refid="classMR_1_1Const__MeshVertPart"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -174,6 +175,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshVertPart</label>
         <link refid="classMR_1_1MeshVertPart"/>
@@ -182,9 +187,13 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshVertPart</label>
+        <link refid="classMR_1_1Const__MeshVertPart"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -196,11 +205,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" line="345" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshPart.cs" bodystart="346" bodyend="420"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshVertPart_1a4a488cff2eb08504282f4022c4afe0b6" prot="protected" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>__ptr_storage_region</name></member>
       <member refid="classMR_1_1MeshVertPart_1acaa60e4e9726398eba08df904e8de9cf" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshVertPart_1af1cd111fc0afc71416bcc56492394f3b" prot="package" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>Const_MeshVertPart</name></member>
+      <member refid="classMR_1_1Const__MeshVertPart_1af24774272019e47c75150c09475c368e" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>Const_MeshVertPart</name></member>
+      <member refid="classMR_1_1Const__MeshVertPart_1a41dabcde4226b9f49f1d85dd6a88d995" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>Const_MeshVertPart</name></member>
+      <member refid="classMR_1_1Const__MeshVertPart_1a39d81513028b6c589c8c7d6dd9a144bc" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>Const_MeshVertPart</name></member>
+      <member refid="classMR_1_1Const__MeshVertPart_1a6c66d1074880cba4ecb7fe1a57bc2506" prot="protected" virt="virtual"><scope>MR::MeshVertPart</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshVertPart_1aa1b7cc794118559469f5c78cb6efa277" prot="public" virt="virtual"><scope>MR::MeshVertPart</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshVertPart_1a2f5c68d7730dc7e1e7079f9fc1f17a67" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>mesh</name></member>
       <member refid="classMR_1_1MeshVertPart_1a85c1a1c5bc077aae9baae0c25fbe8876" prot="package" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>MeshVertPart</name></member>
       <member refid="classMR_1_1MeshVertPart_1a0a84e6f5049258f462433b269f01c209" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>MeshVertPart</name></member>
       <member refid="classMR_1_1MeshVertPart_1a8fd348326ae5cf61d7378cce14e4c864" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>MeshVertPart</name></member>
       <member refid="classMR_1_1MeshVertPart_1ab2b22459441eff98cd7746ab1ba2bf13" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>MeshVertPart</name></member>
+      <member refid="classMR_1_1Const__MeshVertPart_1aaf744eb07a55cbe314f6cc16fd3d4ad4" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>operator Const_MeshVertPart</name></member>
       <member refid="classMR_1_1MeshVertPart_1a019eade036696907d195fac1013f9091" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>operator MeshVertPart</name></member>
       <member refid="classMR_1_1MeshVertPart_1aac084d72573cae7061247013c0ac8dbf" prot="public" virt="non-virtual"><scope>MR::MeshVertPart</scope><name>region</name></member>
     </listofallmembers>

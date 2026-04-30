@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Dirty" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Dirty</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Dirty" prot="public" virt="non-virtual">MR.Dirty</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Dirty_1a4fde2770f98603433a8130e93dd89a05" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_Dirty.f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <qualifiedname>MR.Const_Dirty.f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="583" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="583" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Dirty_1a33960066f07432bd5537d9f70ceaf1a9" prot="protected" static="no" mutable="no">
+        <type>unsafe uint *</type>
+        <definition>unsafe uint* MR.Const_Dirty.__ref_storage_f</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_f</name>
+        <qualifiedname>MR.Const_Dirty.__ref_storage_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="584" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="584" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dirty_1a6d03ba6806e1f8a1208b4d3c846b4897" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Dirty.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Dirty.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="571" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="571" bodyend="579"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dirty_1ae8e924b7b346aa540c05d4e69619b7a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Dirty.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Dirty.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="580" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="580" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dirty_1a9d74749b5f2f394e058363d7b6d7a24b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dirty.Const_Dirty</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Dirty</name>
+        <qualifiedname>MR.Const_Dirty.Const_Dirty</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="611" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="611" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dirty_1aae59ee1c145c2e5cfd00435b336a35f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dirty.Const_Dirty</definition>
+        <argsstring>(MR.Const_Dirty _other)</argsstring>
+        <name>Const_Dirty</name>
+        <qualifiedname>MR.Const_Dirty.Const_Dirty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Dirty" kindref="compound">MR.Const_Dirty</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dirty_1a0f210d9ad150a32bfbd850e6a6f5ba7f" kindref="member">MR.Dirty.Dirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="622" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="622" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dirty_1a6f9a4179fe03ee6befa041e5eff356bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Dirty.Const_Dirty</definition>
+        <argsstring>(Dirty _other)</argsstring>
+        <name>Const_Dirty</name>
+        <qualifiedname>MR.Const_Dirty.Const_Dirty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Dirty" kindref="compound">Dirty</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dirty_1a0f210d9ad150a32bfbd850e6a6f5ba7f" kindref="member">MR.Dirty.Dirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="634" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="634" bodyend="634"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dirty_1a026c5b4ee6d9a1e00f19e03667dc2fe8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Dirty.~Const_Dirty</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Dirty</name>
+        <qualifiedname>MR.Const_Dirty.~Const_Dirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="581" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="581" bodyend="581"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dirty_1a0b095c209097aaa152555cdff93f9e58" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dirty.Const_Dirty</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Dirty</name>
+        <qualifiedname>MR.Const_Dirty.Const_Dirty</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="600" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="600" bodyend="605"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dirty_1a6dd82cbda5b04f9828601a42b46872c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Dirty.operator uint</definition>
+        <argsstring>(MR.Const_Dirty _this)</argsstring>
+        <name>operator uint</name>
+        <qualifiedname>MR.Const_Dirty.operator uint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Dirty" kindref="compound">MR.Const_Dirty</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::Dirty::operator unsigned int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="639" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="639" bodyend="644"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Marks dirty buffers that need to be uploaded to OpenGL. <ref refid="classMR_1_1Dirty" kindref="compound">Dirty</ref> flags must be moved together with renderObj_, but not copied since renderObj_ is not copied as well Generated from class <computeroutput><ref refid="classMR_1_1Dirty" kindref="compound">MR.Dirty</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Dirty</label>
+        <link refid="classMR_1_1Const__Dirty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Dirty</label>
+        <link refid="classMR_1_1Dirty"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Dirty</label>
+        <link refid="classMR_1_1Const__Dirty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="565" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="566" bodyend="645"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Dirty_1a33960066f07432bd5537d9f70ceaf1a9" prot="protected" virt="non-virtual"><scope>MR::Const_Dirty</scope><name>__ref_storage_f</name></member>
+      <member refid="classMR_1_1Const__Dirty_1a0b095c209097aaa152555cdff93f9e58" prot="package" virt="non-virtual"><scope>MR::Const_Dirty</scope><name>Const_Dirty</name></member>
+      <member refid="classMR_1_1Const__Dirty_1a9d74749b5f2f394e058363d7b6d7a24b" prot="public" virt="non-virtual"><scope>MR::Const_Dirty</scope><name>Const_Dirty</name></member>
+      <member refid="classMR_1_1Const__Dirty_1aae59ee1c145c2e5cfd00435b336a35f1" prot="public" virt="non-virtual"><scope>MR::Const_Dirty</scope><name>Const_Dirty</name></member>
+      <member refid="classMR_1_1Const__Dirty_1a6f9a4179fe03ee6befa041e5eff356bc" prot="public" virt="non-virtual"><scope>MR::Const_Dirty</scope><name>Const_Dirty</name></member>
+      <member refid="classMR_1_1Const__Dirty_1a6d03ba6806e1f8a1208b4d3c846b4897" prot="protected" virt="virtual"><scope>MR::Const_Dirty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Dirty_1ae8e924b7b346aa540c05d4e69619b7a3" prot="public" virt="virtual"><scope>MR::Const_Dirty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Dirty_1a4fde2770f98603433a8130e93dd89a05" prot="public" virt="non-virtual"><scope>MR::Const_Dirty</scope><name>f</name></member>
+      <member refid="classMR_1_1Const__Dirty_1a6dd82cbda5b04f9828601a42b46872c5" prot="public" virt="non-virtual"><scope>MR::Const_Dirty</scope><name>operator uint</name></member>
+      <member refid="classMR_1_1Const__Dirty_1a026c5b4ee6d9a1e00f19e03667dc2fe8" prot="private" virt="non-virtual"><scope>MR::Const_Dirty</scope><name>~Const_Dirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SaveSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SaveSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SaveSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SaveSettings" prot="public" virt="non-virtual">MR.Const_SaveSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SaveSettings_1a035062075a5d478d4550b55b8488db94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -35,7 +35,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="336" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="336" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SaveSettings_1aaa4a6f1418f0d390c8e9fa5207cc4c41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertColors</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertColors" kindref="compound">Const_VertColors</ref></type>
         <definition>new unsafe MR.? Const_VertColors MR.SaveSettings.colors</definition>
         <argsstring></argsstring>
         <name>colors</name>
@@ -65,7 +65,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="356" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="357" bodyend="366"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SaveSettings_1a603cb9e64ff00f546275d30d0514c1c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertCoords2</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertCoords2" kindref="compound">Const_VertCoords2</ref></type>
         <definition>new unsafe MR.? Const_VertCoords2 MR.SaveSettings.uvMap</definition>
         <argsstring></argsstring>
         <name>uvMap</name>
@@ -95,7 +95,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="387" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="387" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1SaveSettings_1aa6cdc0dc8aba8a853203ec4d7358bd25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_MeshTexture</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__MeshTexture" kindref="compound">Const_MeshTexture</ref></type>
         <definition>new unsafe MR.? Const_MeshTexture MR.SaveSettings.texture</definition>
         <argsstring></argsstring>
         <name>texture</name>
@@ -240,7 +240,7 @@
           <declname>packPrimitives</declname>
         </param>
         <param>
-          <type>MR.Const_VertColors?</type>
+          <type><ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref>?</type>
           <declname>colors</declname>
         </param>
         <param>
@@ -248,7 +248,7 @@
           <declname>primitiveColors</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords2?</type>
+          <type><ref refid="classMR_1_1Const__VertCoords2" kindref="compound">MR.Const_VertCoords2</ref>?</type>
           <declname>uvMap</declname>
         </param>
         <param>
@@ -256,7 +256,7 @@
           <declname>saveTriCornerUVCoords</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTexture?</type>
+          <type><ref refid="classMR_1_1Const__MeshTexture" kindref="compound">MR.Const_MeshTexture</ref>?</type>
           <declname>texture</declname>
         </param>
         <param>
@@ -314,7 +314,7 @@
         <name>SaveSettings</name>
         <qualifiedname>MR.SaveSettings.SaveSettings</qualifiedname>
         <param>
-          <type>Const_SaveSettings</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">Const_SaveSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -379,6 +379,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SaveSettings</label>
+        <link refid="classMR_1_1Const__SaveSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -392,6 +393,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SaveSettings</label>
         <link refid="classMR_1_1SaveSettings"/>
@@ -400,9 +405,17 @@
       </node>
       <node id="2">
         <label>MR.Const_SaveSettings</label>
+        <link refid="classMR_1_1Const__SaveSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_colors</edgelabel>
+          <edgelabel>__ptr_storage_primitiveColors</edgelabel>
+          <edgelabel>__ptr_storage_texture</edgelabel>
+          <edgelabel>__ptr_storage_uvMap</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -414,8 +427,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="321" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="322" bodyend="550"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SaveSettings_1a5c1c9ea016c1fb2805d45b0d58b9c58d" prot="protected" virt="non-virtual"><scope>MR::SaveSettings</scope><name>__ptr_storage_colors</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a3f974a1c41528d04c5507b8fb2645f0e" prot="protected" virt="non-virtual"><scope>MR::SaveSettings</scope><name>__ptr_storage_primitiveColors</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a1b7b37741c8d81e40862d7b74fd783c6" prot="protected" virt="non-virtual"><scope>MR::SaveSettings</scope><name>__ptr_storage_texture</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a55343fb9b2629d8ab75faa9a32fbb8d0" prot="protected" virt="non-virtual"><scope>MR::SaveSettings</scope><name>__ptr_storage_uvMap</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1adb3a4884ed904a5de17afb6315e13cdd" prot="protected" virt="non-virtual"><scope>MR::SaveSettings</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a261715a00d47eda8ffb143a16c9576f1" prot="protected" virt="non-virtual"><scope>MR::SaveSettings</scope><name>__ref_storage_onlyValidPoints</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1ac6458550b586645841d71c61ebe3bd0a" prot="protected" virt="non-virtual"><scope>MR::SaveSettings</scope><name>__ref_storage_packPrimitives</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1ac84bcefa0757fda0fdd96544a4a22348" prot="protected" virt="non-virtual"><scope>MR::SaveSettings</scope><name>__ref_storage_saveTriCornerUVCoords</name></member>
       <member refid="classMR_1_1SaveSettings_1a58b76e1e39c101b87925043fb9c4f93e" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1SaveSettings_1aaa4a6f1418f0d390c8e9fa5207cc4c41" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>colors</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a9a878266da9fba3dd0b906038a2b74f5" prot="package" virt="non-virtual"><scope>MR::SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a74b9ca0113d8bede40794a2276790596" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1ac60faf9d62f23bd6f3198d9c609a9a77" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a4f2b9f60633d28351cade5aa4ebc96c2" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a506f91750aff9650135b9b0c05d8e27f" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1aafa05cfac60283d1f9d7aab90303711b" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a94d410b5a61ad03e5d0def3476959de7" prot="protected" virt="virtual"><scope>MR::SaveSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1abb442483fd854830392f030c2d8178df" prot="public" virt="virtual"><scope>MR::SaveSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SaveSettings_1a1eb9ec3042e1085c117217486a570efd" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>lengthUnit</name></member>
       <member refid="classMR_1_1SaveSettings_1ab4a8f94855513131d90009abf7dfcc2c" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>materialName</name></member>
       <member refid="classMR_1_1SaveSettings_1a035062075a5d478d4550b55b8488db94" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>onlyValidPoints</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SignedDistanceToMeshResult" kind="class" language="C#" prot="public">
     <compoundname>MR::SignedDistanceToMeshResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SignedDistanceToMeshResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SignedDistanceToMeshResult" prot="public" virt="non-virtual">MR.Const_SignedDistanceToMeshResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SignedDistanceToMeshResult_1ad3ef4b2068272ad11b76f453b09f16cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></type>
@@ -97,11 +97,11 @@
         <name>SignedDistanceToMeshResult</name>
         <qualifiedname>MR.SignedDistanceToMeshResult.SignedDistanceToMeshResult</qualifiedname>
         <param>
-          <type>MR.Const_PointOnFace</type>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
           <declname>proj</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>mtp</declname>
         </param>
         <param>
@@ -124,7 +124,7 @@
         <name>SignedDistanceToMeshResult</name>
         <qualifiedname>MR.SignedDistanceToMeshResult.SignedDistanceToMeshResult</qualifiedname>
         <param>
-          <type>MR.Const_SignedDistanceToMeshResult</type>
+          <type><ref refid="classMR_1_1Const__SignedDistanceToMeshResult" kindref="compound">MR.Const_SignedDistanceToMeshResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.SignedDistanceToMeshResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_SignedDistanceToMeshResult</type>
+          <type><ref refid="classMR_1_1Const__SignedDistanceToMeshResult" kindref="compound">MR.Const_SignedDistanceToMeshResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SignedDistanceToMeshResult</label>
+        <link refid="classMR_1_1Const__SignedDistanceToMeshResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SignedDistanceToMeshResult</label>
+        <link refid="classMR_1_1Const__SignedDistanceToMeshResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,7 +226,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="661" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="662" bodyend="761"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshResult_1afd725cb3987220cfb6866bcd2b81cbe5" prot="protected" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>__ref_storage_dist</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshResult_1ad282fb6dd98fc5a97112c0c8a282069a" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshResult_1a75ab7494ac0047dd6e1bcbef3477835e" prot="package" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>Const_SignedDistanceToMeshResult</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshResult_1a03c31ef61d792e699d95fd2ae15fe166" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>Const_SignedDistanceToMeshResult</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshResult_1aff0473c09a89e9cb3ae69c1870fdb287" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>Const_SignedDistanceToMeshResult</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshResult_1a43083afe57da57d76c2ec5a246b95659" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>Const_SignedDistanceToMeshResult</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshResult_1acd89be8504f8976075dfc083f548bbfb" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>Const_SignedDistanceToMeshResult</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshResult_1ad7997f12fbf481e3ccdb0a00c8e1e6d3" prot="protected" virt="virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SignedDistanceToMeshResult_1a7de6ce0d68dd38e38fdccde2ed6d0e46" prot="public" virt="virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshResult_1a415b41fda3e1bc40b38d77e78f5f997d" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>dist</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshResult_1a871d0acf87337aab71699f0bfd3b7af4" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>mtp</name></member>
       <member refid="classMR_1_1SignedDistanceToMeshResult_1ad3ef4b2068272ad11b76f453b09f16cc" prot="public" virt="non-virtual"><scope>MR::SignedDistanceToMeshResult</scope><name>proj</name></member>

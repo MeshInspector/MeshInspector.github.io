@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ContourToDistanceMapParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ContourToDistanceMapParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ContourToDistanceMapParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ContourToDistanceMapParams" prot="public" virt="non-virtual">MR.Const_ContourToDistanceMapParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ContourToDistanceMapParams_1ac1183185d61e4ea0a39694bc917f080c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
@@ -112,7 +112,7 @@
         <name>ContourToDistanceMapParams</name>
         <qualifiedname>MR.ContourToDistanceMapParams.ContourToDistanceMapParams</qualifiedname>
         <param>
-          <type>MR.Const_ContourToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__ContourToDistanceMapParams" kindref="compound">MR.Const_ContourToDistanceMapParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -274,7 +274,7 @@
         <name>ContourToDistanceMapParams</name>
         <qualifiedname>MR.ContourToDistanceMapParams.ContourToDistanceMapParams</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMapToWorld</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapToWorld" kindref="compound">MR.Const_DistanceMapToWorld</ref></type>
           <declname>toWorld</declname>
         </param>
         <briefdescription>
@@ -293,7 +293,7 @@
         <name>assign</name>
         <qualifiedname>MR.ContourToDistanceMapParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_ContourToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__ContourToDistanceMapParams" kindref="compound">MR.Const_ContourToDistanceMapParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -320,6 +320,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ContourToDistanceMapParams</label>
+        <link refid="classMR_1_1Const__ContourToDistanceMapParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -333,6 +334,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ContourToDistanceMapParams</label>
         <link refid="classMR_1_1ContourToDistanceMapParams"/>
@@ -341,9 +346,15 @@
       </node>
       <node id="2">
         <label>MR.Const_ContourToDistanceMapParams</label>
+        <link refid="classMR_1_1Const__ContourToDistanceMapParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_orgPoint</edgelabel>
+          <edgelabel>__ref_storage_pixelSize</edgelabel>
+          <edgelabel>__ref_storage_resolution</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -355,7 +366,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="932" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="933" bodyend="1090"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1a7f0c4cd65c274b9c8a9b35965513b2fb" prot="protected" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>__ref_storage_orgPoint</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1abc034dcba811219c245ae37f09a28174" prot="protected" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>__ref_storage_pixelSize</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1ac9a447ab0d828d270f47a5ef9135b045" prot="protected" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>__ref_storage_resolution</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1ab3211717d138840c89d243f8c31f88e6" prot="protected" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>__ref_storage_withSign</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1a03b605a0662efa22e68126a1b6a03e9f" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1abe7141f6637ef13415ac0fe95bb293b7" prot="package" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1a7d506679bd72b068f2ac889127726ab9" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1afdb0b6f48f8bddab87fdb95cbc23f8e2" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1ac5bb64514a8faae677ce851fb22cc104" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1a59a1c044e6657c76bbd78aef2533ddbc" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1a553d7aa33728b92f4d4d6a7521fd10f6" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1a5fa1a8a2104081473d2c35d85c3634ee" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1acb14318f271ea7698ffc914116c281a4" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1ad6cb3f4b60997048d83411bcd7fa1bf2" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Const_ContourToDistanceMapParams</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1a0924ca7ce8e18636cc1151aa414af3c8" prot="package" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1a6d4e4a4ddb48b883d15834467094dcf9" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1ae0869518ff159f541807e9f129be41cd" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
@@ -365,10 +389,15 @@
       <member refid="classMR_1_1ContourToDistanceMapParams_1a4ddfbc5d17e30d59bf1d5f0b71e9a267" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1a23af2ffa3353a4aa3e501ce48bffb64e" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1a5a3f206c1b2f9cc19a24210af74a8e77" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1a48825164dd3da05935b0182ee8ee21c1" prot="protected" virt="virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1adb5e5e2ab35208428e92fc8cc06c596a" prot="public" virt="virtual"><scope>MR::ContourToDistanceMapParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1aa71a278ca1174b9701c237ac107c4918" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>operator MR.AffineXf3f</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1a0e8fbf52ca697a54037361f5ad6f6a06" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>orgPoint</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1ac1183185d61e4ea0a39694bc917f080c" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>pixelSize</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1a4af2acf3c570e39c3ddc9fccf9e7c009" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>resolution</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1af42872f83e2f1246644985d112445bbf" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>toWorld</name></member>
       <member refid="classMR_1_1ContourToDistanceMapParams_1a4565543d30c56bde822dc6f34d9fb521" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>withSign</name></member>
+      <member refid="classMR_1_1Const__ContourToDistanceMapParams_1acd44a6f41ccdb138f532bb771ee4c712" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

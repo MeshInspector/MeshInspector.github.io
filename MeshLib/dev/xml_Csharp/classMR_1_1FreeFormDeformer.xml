@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FreeFormDeformer" kind="class" language="C#" prot="public">
     <compoundname>MR::FreeFormDeformer</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FreeFormDeformer</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FreeFormDeformer" prot="public" virt="non-virtual">MR.Const_FreeFormDeformer</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1FreeFormDeformer_1afa1873ccb001be5f0445e9dd4c3e20de" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>FreeFormDeformer</name>
         <qualifiedname>MR.FreeFormDeformer.FreeFormDeformer</qualifiedname>
         <param>
-          <type>Const_FreeFormDeformer</type>
+          <type><ref refid="classMR_1_1Const__FreeFormDeformer" kindref="compound">Const_FreeFormDeformer</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -96,7 +96,7 @@
           <declname>coords</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>valid</declname>
         </param>
         <briefdescription>
@@ -119,7 +119,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -236,6 +236,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FreeFormDeformer</label>
+        <link refid="classMR_1_1Const__FreeFormDeformer"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -257,6 +258,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FreeFormDeformer</label>
+        <link refid="classMR_1_1Const__FreeFormDeformer"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -271,13 +273,29 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="172" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="173" bodyend="269"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a0513856f97448c94da6623fd259f6f74" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>apply</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a607823be46dc30af691e575c8201eb4b" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>applySinglePoint</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a2ade058197a580c32a6ac57e919738a6" prot="package" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a16038d56628dcfe55a936f16ece6de70" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a72d8e76bca1da3d6fb7ccd70d11bbf08" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a0a821466170fe2131014c97ab117489e" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a255576839460763db0814a46f0c01bcb" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a7c8749fad303aabd4d3e67cd6525ae96" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1adfa34b2b5d6d38c7b69ce17758016a32" prot="protected" virt="virtual"><scope>MR::FreeFormDeformer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1afa07290a5db73c8ee40ad1d674688732" prot="public" virt="virtual"><scope>MR::FreeFormDeformer</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1afa1873ccb001be5f0445e9dd4c3e20de" prot="package" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>FreeFormDeformer</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1aa934589cbaacd8bfc80add6ec4c29df4" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>FreeFormDeformer</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1a4a1050ee2b76fdc6dba1c748fbeb80f4" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>FreeFormDeformer</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1aceede9f6cf87359ca66da3c58fad0a10" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>FreeFormDeformer</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1a70afc8fdee8afaf4255612fbdfaac6a4" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>FreeFormDeformer</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1abbf5d4aa246c275b2b46f4148819edd7" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a9fd98bb1e492b178aa619c3a8b72f5a0" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>getAllRefGridPositions</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a83df84a16059bbfa7f059ea5c4d6d680" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>getCoord</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a508990a3fdddb8a9a0716f001a81509e" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>getIndex</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a786e12a9407e50ec8502e5ca86c2fdd4" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>getRefGridPointPosition</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a611719a867e60c13b13c57f891fcfa2c" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>getResolution</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1ab94c93dceb8cea4bef1b9c13416aea40" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>init</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a6edfc7953d8f43a57281913ea6936ad5" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>operator Const_FreeFormDeformer</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1af073f4803ecc1d5875f4fd8eda442f8d" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>operator FreeFormDeformer</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1a13b3d6d781027ffc5610d3abf53f596a" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>setAllRefGridPositions</name></member>
       <member refid="classMR_1_1FreeFormDeformer_1a56f20f94c09251d39fc9b7802f5f7e4a" prot="public" virt="non-virtual"><scope>MR::FreeFormDeformer</scope><name>setRefGridPointPosition</name></member>

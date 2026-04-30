@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeFacesColorMapAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeFacesColorMapAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeFacesColorMapAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeFacesColorMapAction" prot="public" virt="non-virtual">MR.Const_ChangeFacesColorMapAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeFacesColorMapAction_1a8050ef02ab646038cda023135333fad4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeFacesColorMapAction</name>
         <qualifiedname>MR.ChangeFacesColorMapAction.ChangeFacesColorMapAction</qualifiedname>
         <param>
-          <type>Const_ChangeFacesColorMapAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeFacesColorMapAction" kindref="compound">Const_ChangeFacesColorMapAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeFacesColorMapAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeFacesColorMapAction</label>
+        <link refid="classMR_1_1Const__ChangeFacesColorMapAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeFacesColorMapAction</label>
+        <link refid="classMR_1_1Const__ChangeFacesColorMapAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,21 @@
       <member refid="classMR_1_1ChangeFacesColorMapAction_1add6ee427c035a6ea653b49123353065b" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>ChangeFacesColorMapAction</name></member>
       <member refid="classMR_1_1ChangeFacesColorMapAction_1a317208d392df2aae38bec641f3bf41df" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>ChangeFacesColorMapAction</name></member>
       <member refid="classMR_1_1ChangeFacesColorMapAction_1accf63441f877952cd6e080f078b06e1c" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1acc838f2b3514a677fc85e3568922c4e3" prot="package" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a9f23c020d68955b5a4d57d16f8e09ae8" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a9f7ffd6318ad7388d53af8d99b6d3ee0" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1adc0f49644503375793f2903fc691da85" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1afeefa5ea51daea609bb2e20311cd2c2b" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a496784a4f0bc4fba5c132ee25a9af142" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>Const_ChangeFacesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a71c8bd54bff0c4bfc9099a3c8d8df5c0" prot="protected" virt="virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a8e3c4841c31d272b1c93710f0c2ae1fe" prot="public" virt="virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a247d565418bba673e1ecb9d45ed76261" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a143731438d2d18973a4186608688494a" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeFacesColorMapAction_1a7e710197724aa25e6f868ef82a7866f8" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>operator ChangeFacesColorMapAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1ad375109e32a49d81f93b35c27242c6c7" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>operator Const_ChangeFacesColorMapAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a5c7c8d269ece6d589ea25d31f4ac4fb8" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeFacesColorMapAction_1a8050ef02ab646038cda023135333fad4" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeFacesColorMapAction_1a9ee512247427aa7b9769ca16d0aba1f2" prot="public" virt="non-virtual"><scope>MR::ChangeFacesColorMapAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

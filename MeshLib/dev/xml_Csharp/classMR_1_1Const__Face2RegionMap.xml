@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Face2RegionMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Face2RegionMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Face2RegionMap" prot="public" virt="non-virtual">MR.Face2RegionMap</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Face2RegionMap_1a9803688d779bf319edf5125fbecd82bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRRegionId</type>
+        <definition>unsafe MR.Std.Const_Vector_MRRegionId MR.Const_Face2RegionMap.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Face2RegionMap.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9177" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9177" bodyend="9177"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Face2RegionMap_1a600ee3393a142723c468f147f012cbf8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe ref readonly MR.RegionId MR.Const_Face2RegionMap.this[MR.FaceId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.FaceId i]</name>
+        <qualifiedname>MR.Const_Face2RegionMap.this[MR.FaceId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Face2RegionMap::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9329" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9330" bodyend="9337"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a869836ca138a2b08432688115d495547" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Face2RegionMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9098" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9098" bodyend="9106"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1aa2537d135ecef4f4c43c8cff12390036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Face2RegionMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9107" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9107" bodyend="9107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1aefef3b55559c37fa98768ef6b0403036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.RegionId &gt; &gt; MR.Const_Face2RegionMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Face2RegionMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9164" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9164" bodyend="9167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1abcc43723638466ef6b8de3a38adf409a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9205" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9205" bodyend="9211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1aeca8cda2e5de3f5d84d51f0a5544d97a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
+        <argsstring>(MR._ByValue_Face2RegionMap _other)</argsstring>
+        <name>Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_Face2RegionMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9216" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9216" bodyend="9223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1accad96d8ca102004ee2640b340558315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
+        <argsstring>(Const_Face2RegionMap _other)</argsstring>
+        <name>Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Face2RegionMap" kindref="compound">Const_Face2RegionMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9228" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9228" bodyend="9228"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a9eee2a4ab7fe76f27edb55e108f554af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
+        <argsstring>(Face2RegionMap _other)</argsstring>
+        <name>Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Face2RegionMap" kindref="compound">Face2RegionMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9233" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9233" bodyend="9233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a92c4ecfcacfed698e22e85d9591252bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9239" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9239" bodyend="9245"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a77bb5d512a1c9e0375739b4a8881ce63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
+        <argsstring>(ulong size, in MR.RegionId val)</argsstring>
+        <name>Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9251" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9251" bodyend="9260"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a1ba61f4a41ad85e7ff14e351ecd4ecb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <name>Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9266" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9266" bodyend="9273"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a1fe90c55667990b7711a3bc2ab3fe5e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Face2RegionMap.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Face2RegionMap.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Face2RegionMap_1a1fe90c55667990b7711a3bc2ab3fe5e4" kindref="member">MR.Face2RegionMap.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9299" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9299" bodyend="9304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1ac82cf342f8385509ada5bbe3d65424e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Face2RegionMap.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Face2RegionMap.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Face2RegionMap_1ac82cf342f8385509ada5bbe3d65424e1" kindref="member">MR.Face2RegionMap.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9309" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9309" bodyend="9314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a1a29cd25f289d7427429c1993792240b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Face2RegionMap.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Face2RegionMap.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Face2RegionMap_1a1a29cd25f289d7427429c1993792240b" kindref="member">MR.Face2RegionMap.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9319" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9319" bodyend="9324"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a23e0ae6006b52e6422a0e186c970b8e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe ref readonly MR.RegionId MR.Const_Face2RegionMap.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Face2RegionMap.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a665bfdb6f09299a5a8825d6438561f3e" kindref="member">MR.Face2RegionMap.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9342" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9342" bodyend="9347"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a52bed7fb4102a657fb98d29df7043086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref></type>
+        <definition>unsafe ref readonly MR.RegionId MR.Const_Face2RegionMap.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Face2RegionMap.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Face2RegionMap_1af3a56ef8eda7727b47eb469043ce3a94" kindref="member">MR.Face2RegionMap.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9352" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9352" bodyend="9357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1ad109ad427c2d6438ae7e8eea0b8db0c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_Face2RegionMap.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Face2RegionMap.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__Face2RegionMap_1ad109ad427c2d6438ae7e8eea0b8db0c2" kindref="member">MR.Face2RegionMap.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9363" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9363" bodyend="9368"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1aed02d0139db268c3731bba7a3a067c4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_Face2RegionMap.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Face2RegionMap.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Face2RegionMap_1a52bed7fb4102a657fb98d29df7043086" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__Face2RegionMap_1aed02d0139db268c3731bba7a3a067c4b" kindref="member">MR.Face2RegionMap.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9374" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9374" bodyend="9379"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a7f036395bb1889e778576783eec1e541" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_Face2RegionMap.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Face2RegionMap.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Face2RegionMap_1aed02d0139db268c3731bba7a3a067c4b" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__Face2RegionMap_1a7f036395bb1889e778576783eec1e541" kindref="member">MR.Face2RegionMap.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9385" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9385" bodyend="9390"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1abf70c366efece347f0ac6451ae2afbea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="structMR_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition>unsafe MR.? RegionId MR.Const_Face2RegionMap.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Face2RegionMap.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a7e15434bd78cee88d9b6f3c8f2c449db" kindref="member">MR.Face2RegionMap.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9395" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9395" bodyend="9401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1aff17751708241606e7bda64942332c9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Face2RegionMap.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Face2RegionMap.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Face2RegionMap_1aff17751708241606e7bda64942332c9d" kindref="member">MR.Face2RegionMap.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9407" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9407" bodyend="9412"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a9e0018cd3f775ca24d4831e3ae961e40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Face2RegionMap.Equals</definition>
+        <argsstring>(MR.Const_Face2RegionMap? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Face2RegionMap" kindref="compound">MR.Const_Face2RegionMap</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9416" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9416" bodyend="9421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1ae3c1a2c341cf4bef2be0c4114289bdc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Face2RegionMap.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9423" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9423" bodyend="9430"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1aa4751f4e2fb02b2d0e01cf0fe58439ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Face2RegionMap.~Const_Face2RegionMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.~Const_Face2RegionMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9108" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9108" bodyend="9108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a1f7d046505664ab38771653cdc562767" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Face2RegionMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Face2RegionMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9169" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9169" bodyend="9172"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1af541d68782d84c0a6d00ee1c6fb36bc4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9194" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9194" bodyend="9199"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1af7a6df683de93f9c4f004325899b0647" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Face2RegionMap.operator Const_Face2RegionMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <name>operator Const_Face2RegionMap</name>
+        <qualifiedname>MR.Const_Face2RegionMap.operator Const_Face2RegionMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9279" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9279" bodyend="9279"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1acdc4c9544f902f7d42118b0da4e34520" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Face2RegionMap.operator==</definition>
+        <argsstring>(MR.Const_Face2RegionMap _this, MR.Const_Face2RegionMap b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Face2RegionMap.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Face2RegionMap" kindref="compound">MR.Const_Face2RegionMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Face2RegionMap" kindref="compound">MR.Const_Face2RegionMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Face2RegionMap::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9284" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9284" bodyend="9289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a89b51c877c6dda4b513002e5afa6784c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Face2RegionMap.operator!=</definition>
+        <argsstring>(MR.Const_Face2RegionMap _this, MR.Const_Face2RegionMap b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Face2RegionMap.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Face2RegionMap" kindref="compound">MR.Const_Face2RegionMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Face2RegionMap" kindref="compound">MR.Const_Face2RegionMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9291" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9291" bodyend="9294"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1Face2RegionMap" kindref="compound">MR.Face2RegionMap</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Face2RegionMap</label>
+        <link refid="classMR_1_1Const__Face2RegionMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR.Face2RegionMap</label>
+        <link refid="classMR_1_1Face2RegionMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Face2RegionMap</label>
+        <link refid="classMR_1_1Const__Face2RegionMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9092" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9093" bodyend="9431"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a52bed7fb4102a657fb98d29df7043086" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1aed02d0139db268c3731bba7a3a067c4b" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1ad109ad427c2d6438ae7e8eea0b8db0c2" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a1a29cd25f289d7427429c1993792240b" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1af541d68782d84c0a6d00ee1c6fb36bc4" prot="package" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1abcc43723638466ef6b8de3a38adf409a" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1aeca8cda2e5de3f5d84d51f0a5544d97a" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1accad96d8ca102004ee2640b340558315" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a9eee2a4ab7fe76f27edb55e108f554af" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a92c4ecfcacfed698e22e85d9591252bf" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a77bb5d512a1c9e0375739b4a8881ce63" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a1ba61f4a41ad85e7ff14e351ecd4ecb1" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1abf70c366efece347f0ac6451ae2afbea" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a869836ca138a2b08432688115d495547" prot="protected" virt="virtual"><scope>MR::Const_Face2RegionMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1aa2537d135ecef4f4c43c8cff12390036" prot="public" virt="virtual"><scope>MR::Const_Face2RegionMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a1fe90c55667990b7711a3bc2ab3fe5e4" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a7f036395bb1889e778576783eec1e541" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a9e0018cd3f775ca24d4831e3ae961e40" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1ae3c1a2c341cf4bef2be0c4114289bdc4" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a23e0ae6006b52e6422a0e186c970b8e4" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1aefef3b55559c37fa98768ef6b0403036" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a1f7d046505664ab38771653cdc562767" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1aff17751708241606e7bda64942332c9d" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1af7a6df683de93f9c4f004325899b0647" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>operator Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a89b51c877c6dda4b513002e5afa6784c" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1acdc4c9544f902f7d42118b0da4e34520" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1ac82cf342f8385509ada5bbe3d65424e1" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a600ee3393a142723c468f147f012cbf8" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>this[MR.FaceId i]</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a9803688d779bf319edf5125fbecd82bf" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1aa4751f4e2fb02b2d0e01cf0fe58439ee" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>~Const_Face2RegionMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

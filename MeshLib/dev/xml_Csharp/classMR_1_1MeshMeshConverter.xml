@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshMeshConverter" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshMeshConverter</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshMeshConverter</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshMeshConverter" prot="public" virt="non-virtual">MR.Const_MeshMeshConverter</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MeshMeshConverter_1aa7b0c694b4997593004cb6cad72ee04c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>MeshMeshConverter</name>
         <qualifiedname>MR.MeshMeshConverter.MeshMeshConverter</qualifiedname>
         <param>
-          <type>MR.Const_MeshMeshConverter</type>
+          <type><ref refid="classMR_1_1Const__MeshMeshConverter" kindref="compound">MR.Const_MeshMeshConverter</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshMeshConverter.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshMeshConverter</type>
+          <type><ref refid="classMR_1_1Const__MeshMeshConverter" kindref="compound">MR.Const_MeshMeshConverter</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshMeshConverter</label>
+        <link refid="classMR_1_1Const__MeshMeshConverter"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshMeshConverter</label>
+        <link refid="classMR_1_1Const__MeshMeshConverter"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,16 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="417" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="418" bodyend="458"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshMeshConverter_1ab0938e02c132231426cf0aeadeb83822" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1a190dc72ee2f5f209cd6ecf832a89a461" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1a6c4de21cf404b81684a02dff66dc1bad" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1a113ac5a4b60d26de36cd269f66eed39a" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1ae61ab3215eb686e0024c5bc148e232de" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1aeba4c53e24e13529b94e3f45c6e952c6" prot="package" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>Const_MeshMeshConverter</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1af4b77cd39bd818b13fe0b1ea6450b6b7" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>Const_MeshMeshConverter</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1ab62d2ed9725156e4dc243b2a1e08e6ba" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>Const_MeshMeshConverter</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1a2f2df1637d0374124385d37c20ea4e05" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>Const_MeshMeshConverter</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1a01dcfb54a30933c0eedc0e2597a0a50e" prot="protected" virt="virtual"><scope>MR::MeshMeshConverter</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshMeshConverter_1a77faa9a19ada9690fd460ecdfc5239ef" prot="public" virt="virtual"><scope>MR::MeshMeshConverter</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshMeshConverter_1aa7b0c694b4997593004cb6cad72ee04c" prot="package" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>MeshMeshConverter</name></member>
       <member refid="classMR_1_1MeshMeshConverter_1afca3cb36befd87d3e17bb2b2bfe25966" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>MeshMeshConverter</name></member>
       <member refid="classMR_1_1MeshMeshConverter_1a036acc135fc9714754ae01d9fb50b337" prot="public" virt="non-virtual"><scope>MR::MeshMeshConverter</scope><name>MeshMeshConverter</name></member>

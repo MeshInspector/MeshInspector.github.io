@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OriginAndDimensions" kind="class" language="C#" prot="public">
     <compoundname>MR::OriginAndDimensions</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OriginAndDimensions</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OriginAndDimensions" prot="public" virt="non-virtual">MR.Const_OriginAndDimensions</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1OriginAndDimensions_1ac189af2392fd9d159190454d88b01d35" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -103,7 +103,7 @@
         <name>OriginAndDimensions</name>
         <qualifiedname>MR.OriginAndDimensions.OriginAndDimensions</qualifiedname>
         <param>
-          <type>MR.Const_OriginAndDimensions</type>
+          <type><ref refid="classMR_1_1Const__OriginAndDimensions" kindref="compound">MR.Const_OriginAndDimensions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.OriginAndDimensions.assign</qualifiedname>
         <param>
-          <type>MR.Const_OriginAndDimensions</type>
+          <type><ref refid="classMR_1_1Const__OriginAndDimensions" kindref="compound">MR.Const_OriginAndDimensions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OriginAndDimensions</label>
+        <link refid="classMR_1_1Const__OriginAndDimensions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.OriginAndDimensions</label>
         <link refid="classMR_1_1OriginAndDimensions"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_OriginAndDimensions</label>
+        <link refid="classMR_1_1Const__OriginAndDimensions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dimensions</edgelabel>
+          <edgelabel>__ref_storage_origin</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,8 +213,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" line="105" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRCalcDims.cs" bodystart="106" bodyend="170"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1ad660d46175bf3a3b8ad0d411198dea95" prot="protected" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>__ref_storage_dimensions</name></member>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1ac3fc8b850a65e311cff3b698e4c7f77e" prot="protected" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>__ref_storage_origin</name></member>
       <member refid="classMR_1_1OriginAndDimensions_1abb60cb039d74845e35c678d372562daa" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1a695e872192e6402d3177eff0731c537d" prot="package" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>Const_OriginAndDimensions</name></member>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1a6a3c0264ca31d381d2b40ffa42e6bc00" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>Const_OriginAndDimensions</name></member>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1ae5e7739070fb760206627465ffdab597" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>Const_OriginAndDimensions</name></member>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1a43e14a8246baf420096f284fdc1ff5c7" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>Const_OriginAndDimensions</name></member>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1a00b98cf4532a5fae60b9c3d3a462961a" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>Const_OriginAndDimensions</name></member>
       <member refid="classMR_1_1OriginAndDimensions_1aa653f55c2b9fb26999b42a40fc7b1ca0" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>dimensions</name></member>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1af79e08469cfa04140616e2e55fbf7022" prot="protected" virt="virtual"><scope>MR::OriginAndDimensions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OriginAndDimensions_1a35ab81e7f6a3f6aea21262f39939b219" prot="public" virt="virtual"><scope>MR::OriginAndDimensions</scope><name>Dispose</name></member>
       <member refid="classMR_1_1OriginAndDimensions_1ac189af2392fd9d159190454d88b01d35" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>origin</name></member>
       <member refid="classMR_1_1OriginAndDimensions_1a407de447a3efc78400bbda626b256ff3" prot="package" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>OriginAndDimensions</name></member>
       <member refid="classMR_1_1OriginAndDimensions_1a59f10e04f33255c90c7d43e712a92375" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>OriginAndDimensions</name></member>

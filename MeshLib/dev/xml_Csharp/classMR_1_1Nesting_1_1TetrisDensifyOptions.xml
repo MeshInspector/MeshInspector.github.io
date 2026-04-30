@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Nesting_1_1TetrisDensifyOptions" kind="class" language="C#" prot="public">
     <compoundname>MR::Nesting::TetrisDensifyOptions</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Nesting.Const_TetrisDensifyOptions</basecompoundref>
+    <basecompoundref refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions" prot="public" virt="non-virtual">MR.Nesting.Const_TetrisDensifyOptions</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Nesting_1_1TetrisDensifyOptions_1ab07e3569b2c7b7a7c1ef3f15f59c503b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -199,7 +199,7 @@
         <name>TetrisDensifyOptions</name>
         <qualifiedname>MR.Nesting.TetrisDensifyOptions.TetrisDensifyOptions</qualifiedname>
         <param>
-          <type>Const_TetrisDensifyOptions</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions" kindref="compound">Const_TetrisDensifyOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -267,6 +267,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_TetrisDensifyOptions</label>
+        <link refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -277,6 +278,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Nesting.TetrisDensifyOptions</label>
         <link refid="classMR_1_1Nesting_1_1TetrisDensifyOptions"/>
@@ -288,9 +293,15 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_TetrisDensifyOptions</label>
+        <link refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_nestDimensionsCache</edgelabel>
+          <edgelabel>__ptr_storage_nestVoxelsCache</edgelabel>
+          <edgelabel>__ptr_storage_occupiedVoxelsCache</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -299,9 +310,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="203" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="204" bodyend="354"/>
     <listofallmembers>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1a9133c19c2519c0af14dcd65520ca2251" prot="protected" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>__ptr_storage_nestDimensionsCache</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1a8a75bff1ea627015264c72be83ff3bc5" prot="protected" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>__ptr_storage_nestVoxelsCache</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1a21e1c469463ae744b46d2f6705519068" prot="protected" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>__ptr_storage_occupiedVoxelsCache</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1a3d2ea8a48cb527385b4bca97c72f4bf5" prot="protected" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a880dbe2e2cd0828c52327f6b5c7fa5ed" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>assign</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1ae58f6e394ef7a71f9537b7405ad467fd" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>cb</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1a6e1b69855f76abd2968a26291343779e" prot="package" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>Const_TetrisDensifyOptions</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1a186162c96c093697d64f260bf62d2fb8" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>Const_TetrisDensifyOptions</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1abb8e45114e1ee03f6629a5d90edc10a5" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>Const_TetrisDensifyOptions</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1a47319c4ce60e0bede8cc696127952115" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>Const_TetrisDensifyOptions</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1afae7b2386c66ad98f63f4e81319c84d9" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>Const_TetrisDensifyOptions</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1a510f8624707ee642553c54e8ad717f63" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>Const_TetrisDensifyOptions</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a8fa101ec2beb7dab2951fa11d0d50db2" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>densificationSequence</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1ac38e90b876ad434fe781c6ddbf590fd5" prot="protected" virt="virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions_1aca9951efc62cc6b4a342dff50b1549bd" prot="public" virt="virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a25a9e17a2ee233926e30b0049397a201" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>nestDimensionsCache</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1aa9d38b0bec85df7ee31ea80586273cb4" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>nestVoxelsCache</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyOptions_1a6b4588887d6fe86b61183fbf92b9c79d" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyOptions</scope><name>occupiedVoxelsCache</name></member>

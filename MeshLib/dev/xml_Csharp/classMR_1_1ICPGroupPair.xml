@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ICPGroupPair" kind="class" language="C#" prot="public">
     <compoundname>MR::ICPGroupPair</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ICPGroupPair</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ICPGroupPair" prot="public" virt="non-virtual">MR.Const_ICPGroupPair</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ICPGroupPair_1a6426ff58ac9cfcbad4841b0d8f819cad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref></type>
@@ -190,7 +190,7 @@
         <name>ICPGroupPair</name>
         <qualifiedname>MR.ICPGroupPair.ICPGroupPair</qualifiedname>
         <param>
-          <type>MR.Const_ICPGroupPair</type>
+          <type><ref refid="classMR_1_1Const__ICPGroupPair" kindref="compound">MR.Const_ICPGroupPair</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -228,7 +228,7 @@
         <name>assign</name>
         <qualifiedname>MR.ICPGroupPair.assign</qualifiedname>
         <param>
-          <type>MR.Const_ICPGroupPair</type>
+          <type><ref refid="classMR_1_1Const__ICPGroupPair" kindref="compound">MR.Const_ICPGroupPair</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -255,6 +255,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ICPGroupPair</label>
+        <link refid="classMR_1_1Const__ICPGroupPair"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -268,6 +269,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ICPGroupPair</label>
         <link refid="classMR_1_1ICPGroupPair"/>
@@ -276,9 +281,18 @@
       </node>
       <node id="2">
         <label>MR.Const_ICPGroupPair</label>
+        <link refid="classMR_1_1Const__ICPGroupPair"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_srcId</edgelabel>
+          <edgelabel>__ref_storage_srcNorm</edgelabel>
+          <edgelabel>__ref_storage_srcPoint</edgelabel>
+          <edgelabel>__ref_storage_tgtClosestId</edgelabel>
+          <edgelabel>__ref_storage_tgtNorm</edgelabel>
+          <edgelabel>__ref_storage_tgtPoint</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -290,12 +304,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="180" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="181" bodyend="274"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ICPGroupPair_1afd717df4f35a0bc8ea7d1769db07f4ab" prot="protected" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1a1fd5e5d921a1aeb702aa1b285bb8377d" prot="protected" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>__ref_storage_srcId</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1a12064d0633952ba1eaf7bb8eacfaa08a" prot="protected" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>__ref_storage_srcNorm</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1a69c19f79b92f8ad87ddaa4af9cea374c" prot="protected" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>__ref_storage_srcPoint</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1a125fa02a9dd9b81ece505f6a73011e7e" prot="protected" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>__ref_storage_tgtClosestId</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1ac9cc21210d0fd8bfe862216556f6b665" prot="protected" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>__ref_storage_tgtNorm</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1adb141c5d661cd4bbc76e1b618602495a" prot="protected" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>__ref_storage_tgtPoint</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1a28911d4c8334c0beb1b9ea6c48f103e4" prot="protected" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>__ref_storage_weight</name></member>
       <member refid="classMR_1_1ICPGroupPair_1a18f61e98e72078a93761b1f158d4ca91" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1ac5561ca4425f143e1d8f2657eeaf4b97" prot="package" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>Const_ICPGroupPair</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1ae7c8f42f0426f89b0f6cf00ef534faf8" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>Const_ICPGroupPair</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1af1f05bbb91e0089536a65bc311d05924" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>Const_ICPGroupPair</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1a47c66da527e36fc12bd591ea316d838a" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>Const_ICPGroupPair</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1a6a013f56b861f3516baeab5e366b0f05" prot="protected" virt="virtual"><scope>MR::ICPGroupPair</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1a4f4c851b18a2daaccab53358c7d36656" prot="public" virt="virtual"><scope>MR::ICPGroupPair</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ICPGroupPair_1a58b3bf00ddc34ca21a9a51d146a0c539" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>distSq</name></member>
       <member refid="classMR_1_1ICPGroupPair_1a534fb9639f79692555089430173f07e1" prot="package" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>ICPGroupPair</name></member>
       <member refid="classMR_1_1ICPGroupPair_1ae1a67d023d0332b6e4afa060c655104a" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>ICPGroupPair</name></member>
       <member refid="classMR_1_1ICPGroupPair_1a62e341b8a1ebab6090516b85b785a688" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>ICPGroupPair</name></member>
       <member refid="classMR_1_1ICPGroupPair_1abadefa8270b493fdc879057697708a02" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>ICPGroupPair</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPair_1aa10a41437581d4b97d73b0c3fc82f9a8" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>operator MR.Const_ICPPairData</name></member>
       <member refid="classMR_1_1ICPGroupPair_1a0e3cb3103d47b23395fbff2141f558fb" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>operator MR.ICPPairData</name></member>
       <member refid="classMR_1_1ICPGroupPair_1a6426ff58ac9cfcbad4841b0d8f819cad" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>srcId</name></member>
       <member refid="classMR_1_1ICPGroupPair_1a73e095820b7aef4d0a49cb148349f120" prot="public" virt="non-virtual"><scope>MR::ICPGroupPair</scope><name>srcNorm</name></member>

@@ -10,7 +10,7 @@
         <name>getAllComponents</name>
         <qualifiedname>MR.FloatGridComponents.getAllComponents</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>

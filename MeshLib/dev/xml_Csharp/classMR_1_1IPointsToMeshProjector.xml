@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IPointsToMeshProjector" kind="class" language="C#" prot="public">
     <compoundname>MR::IPointsToMeshProjector</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IPointsToMeshProjector</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IPointsToMeshProjector" prot="public" virt="non-virtual">MR.Const_IPointsToMeshProjector</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1IPointsToMeshProjector_1a92aaa33d689a7d7e32883dec5718b07d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>updateMeshData</name>
         <qualifiedname>MR.IPointsToMeshProjector.updateMeshData</qualifiedname>
         <param>
-          <type>MR.Const_Mesh?</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref>?</type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
@@ -105,6 +105,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IPointsToMeshProjector</label>
+        <link refid="classMR_1_1Const__IPointsToMeshProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -126,6 +127,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IPointsToMeshProjector</label>
+        <link refid="classMR_1_1Const__IPointsToMeshProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -140,8 +142,12 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="53" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="54" bodyend="84"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__IPointsToMeshProjector_1a3858f5e43c44feb7d5ee7304882a6ea5" prot="package" virt="non-virtual"><scope>MR::IPointsToMeshProjector</scope><name>Const_IPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Const__IPointsToMeshProjector_1a43fb66ffd31b0d0fa7fa06787a453402" prot="protected" virt="virtual"><scope>MR::IPointsToMeshProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IPointsToMeshProjector_1a44f7693285db5decbc90aa4a1f7b76ba" prot="public" virt="virtual"><scope>MR::IPointsToMeshProjector</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IPointsToMeshProjector_1a082e1c63993f0db3e6f7b0545b3b386e" prot="public" virt="non-virtual"><scope>MR::IPointsToMeshProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1IPointsToMeshProjector_1a92aaa33d689a7d7e32883dec5718b07d" prot="package" virt="non-virtual"><scope>MR::IPointsToMeshProjector</scope><name>IPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Const__IPointsToMeshProjector_1a143e03848fab0b962220943483fcabe1" prot="public" virt="non-virtual"><scope>MR::IPointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1IPointsToMeshProjector_1ab7fcb6b2a80777e1adbdcde0cd71cf93" prot="public" virt="non-virtual"><scope>MR::IPointsToMeshProjector</scope><name>updateMeshData</name></member>
     </listofallmembers>
   </compounddef>

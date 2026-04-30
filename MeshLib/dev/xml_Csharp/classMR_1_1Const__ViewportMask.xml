@@ -1,0 +1,620 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ViewportMask" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ViewportMask</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ViewportMask" prot="public" virt="non-virtual">MR.ViewportMask</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ViewportMask_1a119650e96e828bf68d8a53019e95def4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ViewportMask.mask</definition>
+        <argsstring></argsstring>
+        <name>mask</name>
+        <qualifiedname>MR.Const_ViewportMask.mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="536" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="536" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ViewportMask_1a481f6f5f36430e4d544bee166e5de1d0" prot="protected" static="no" mutable="no">
+        <type>unsafe uint *</type>
+        <definition>unsafe uint* MR.Const_ViewportMask.__ref_storage_mask</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_mask</name>
+        <qualifiedname>MR.Const_ViewportMask.__ref_storage_mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="537" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="537" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a27cc4fa3322a2dc118f9d7da2f5adf46" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ViewportMask.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ViewportMask.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="460" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="460" bodyend="468"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1ac85755db46ca2ac08b580a2c1f6d4054" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ViewportMask.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ViewportMask.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="469" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="469" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a4c9c1feb82e50eda20205cff8fbacc4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.ViewportId &gt; MR.Const_ViewportMask.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_ViewportMask.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="526" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="526" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a8fb0c2e5450c112c8a411817ec5a6b9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportMask.Const_ViewportMask</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ViewportMask</name>
+        <qualifiedname>MR.Const_ViewportMask.Const_ViewportMask</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="564" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="564" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1ab4987ce92d7bca9bd9037ade8d2a5e76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportMask.Const_ViewportMask</definition>
+        <argsstring>(MR.Const_ViewportMask _other)</argsstring>
+        <name>Const_ViewportMask</name>
+        <qualifiedname>MR.Const_ViewportMask.Const_ViewportMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportMask_1a0016ae3bac1ac1004fbcf31642637a60" kindref="member">MR.ViewportMask.ViewportMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="575" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="575" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a3d0617c5b8b85b573f1973fc827201fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ViewportMask.Const_ViewportMask</definition>
+        <argsstring>(ViewportMask _other)</argsstring>
+        <name>Const_ViewportMask</name>
+        <qualifiedname>MR.Const_ViewportMask.Const_ViewportMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportMask_1a0016ae3bac1ac1004fbcf31642637a60" kindref="member">MR.ViewportMask.ViewportMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="587" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="587" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1aa92d8dcd4d527acafdd7a64cf2c6671d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportMask.Const_ViewportMask</definition>
+        <argsstring>(uint i)</argsstring>
+        <name>Const_ViewportMask</name>
+        <qualifiedname>MR.Const_ViewportMask.Const_ViewportMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportMask_1a0016ae3bac1ac1004fbcf31642637a60" kindref="member">MR.ViewportMask.ViewportMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="592" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="592" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a8d4d52c9fcb90736e72b888244d73e9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportMask.Const_ViewportMask</definition>
+        <argsstring>(MR.ViewportId i)</argsstring>
+        <name>Const_ViewportMask</name>
+        <qualifiedname>MR.Const_ViewportMask.Const_ViewportMask</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportMask_1a0016ae3bac1ac1004fbcf31642637a60" kindref="member">MR.ViewportMask.ViewportMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="603" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="603" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1ad04a867277d97a3de2fdda475df07b92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ViewportMask.value</definition>
+        <argsstring>()</argsstring>
+        <name>value</name>
+        <qualifiedname>MR.Const_ViewportMask.value</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1ad04a867277d97a3de2fdda475df07b92" kindref="member">MR.ViewportMask.value</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="640" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="640" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a8c3ede4944a25c290be04a7a1ee876c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ViewportMask.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_ViewportMask.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a8c3ede4944a25c290be04a7a1ee876c7" kindref="member">MR.ViewportMask.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="650" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="650" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a338d22cc67ac2a7572634e57ef3ec940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ViewportMask.contains</definition>
+        <argsstring>(MR.ViewportId id)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR.Const_ViewportMask.contains</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a338d22cc67ac2a7572634e57ef3ec940" kindref="member">MR.ViewportMask.contains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="660" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="660" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1ab10959b6747d80cf5ef9871b980f2875" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ViewportMask.less</definition>
+        <argsstring>(MR.Const_ViewportMask b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.Const_ViewportMask.less</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ViewportMask::operator&amp;lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="685" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="685" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a3a64e9de02ef9c46d8be93bf07814518" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_ViewportMask.Equals</definition>
+        <argsstring>(MR.Const_ViewportMask? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_ViewportMask.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="734" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="734" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1ad57d7c5b54eb457e769cc1c84d7365af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_ViewportMask.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_ViewportMask.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="741" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="741" bodyend="748"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1aaf46a9587e2aad0e8f5417a2f460fd78" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ViewportMask.~Const_ViewportMask</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ViewportMask</name>
+        <qualifiedname>MR.Const_ViewportMask.~Const_ViewportMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="470" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="470" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a350a82d2677b31ad135f8f4077615d4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_ViewportMask.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_ViewportMask.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="531" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="531" bodyend="534"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a64725114e4238e1076889a132f16d59a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ViewportMask.Const_ViewportMask</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ViewportMask</name>
+        <qualifiedname>MR.Const_ViewportMask.Const_ViewportMask</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="553" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="553" bodyend="558"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a2094f03ae120b4f0d3e94b63dd78e97b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ViewportMask.operator Const_ViewportMask</definition>
+        <argsstring>(MR.ViewportId i)</argsstring>
+        <name>operator Const_ViewportMask</name>
+        <qualifiedname>MR.Const_ViewportMask.operator Const_ViewportMask</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ViewportMask_1a0016ae3bac1ac1004fbcf31642637a60" kindref="member">MR.ViewportMask.ViewportMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="614" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="614" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>static unsafe MR.ViewportMask MR.Const_ViewportMask.all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <qualifiedname>MR.Const_ViewportMask.all</qualifiedname>
+        <briefdescription>
+<para>mask meaning all or any viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">MR.ViewportMask.all</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="620" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="620" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>static unsafe MR.ViewportMask MR.Const_ViewportMask.any</definition>
+        <argsstring>()</argsstring>
+        <name>any</name>
+        <qualifiedname>MR.Const_ViewportMask.any</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">MR.ViewportMask.any</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="630" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="630" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1ac5aaae3f1ea1cc67aae6645d70c117d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_ViewportMask.operator==</definition>
+        <argsstring>(MR.Const_ViewportMask _this, MR.Const_ViewportMask b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_ViewportMask.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ViewportMask::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="670" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="670" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1ad2870bddb4eb8c3a8dfe3ab8f65ac8a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_ViewportMask.operator!=</definition>
+        <argsstring>(MR.Const_ViewportMask _this, MR.Const_ViewportMask b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_ViewportMask.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="677" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="677" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a90470a3307200b912e4d8a44c0a59ed5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>static unsafe MR.ViewportMask MR.Const_ViewportMask.operator~</definition>
+        <argsstring>(MR.Const_ViewportMask _this)</argsstring>
+        <name>operator~</name>
+        <qualifiedname>MR.Const_ViewportMask.operator~</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ViewportMask::operator~</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="695" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="695" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a3d1980d578881cf4a6113050206a52bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>static unsafe MR.ViewportMask MR.Const_ViewportMask.operator&amp;</definition>
+        <argsstring>(Const_ViewportMask a, MR.Const_ViewportMask b)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>MR.Const_ViewportMask.operator&amp;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">Const_ViewportMask</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator&amp;amp;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="705" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="705" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a53db719f4b7b9d1938b3053dde9bb100" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>static unsafe MR.ViewportMask MR.Const_ViewportMask.operator|</definition>
+        <argsstring>(Const_ViewportMask a, MR.Const_ViewportMask b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>MR.Const_ViewportMask.operator|</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">Const_ViewportMask</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator|</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="715" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="715" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ViewportMask_1a0b683ff02bc22c2b66666a7a093bfd6f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>static unsafe MR.ViewportMask MR.Const_ViewportMask.operator^</definition>
+        <argsstring>(Const_ViewportMask a, MR.Const_ViewportMask b)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>MR.Const_ViewportMask.operator^</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">Const_ViewportMask</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator^</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="725" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="725" bodyend="730"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores mask of viewport unique identifiers Generated from class <computeroutput><ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_ViewportMask</label>
+        <link refid="classMR_1_1Const__ViewportMask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_ViewportMask</label>
+        <link refid="classMR_1_1Const__ViewportMask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="454" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="455" bodyend="749"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ViewportMask_1a481f6f5f36430e4d544bee166e5de1d0" prot="protected" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>__ref_storage_mask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>all</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>any</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a64725114e4238e1076889a132f16d59a" prot="package" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a8fb0c2e5450c112c8a411817ec5a6b9b" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ab4987ce92d7bca9bd9037ade8d2a5e76" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a3d0617c5b8b85b573f1973fc827201fb" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1aa92d8dcd4d527acafdd7a64cf2c6671d" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a8d4d52c9fcb90736e72b888244d73e9d" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a338d22cc67ac2a7572634e57ef3ec940" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>contains</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a27cc4fa3322a2dc118f9d7da2f5adf46" prot="protected" virt="virtual"><scope>MR::Const_ViewportMask</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ac85755db46ca2ac08b580a2c1f6d4054" prot="public" virt="virtual"><scope>MR::Const_ViewportMask</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a8c3ede4944a25c290be04a7a1ee876c7" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a3a64e9de02ef9c46d8be93bf07814518" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ad57d7c5b54eb457e769cc1c84d7365af" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a4c9c1feb82e50eda20205cff8fbacc4e" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a350a82d2677b31ad135f8f4077615d4d" prot="private" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ab10959b6747d80cf5ef9871b980f2875" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>less</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a119650e96e828bf68d8a53019e95def4" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>mask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a2094f03ae120b4f0d3e94b63dd78e97b" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>operator Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ad2870bddb4eb8c3a8dfe3ab8f65ac8a7" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a3d1980d578881cf4a6113050206a52bf" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>operator&amp;</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ac5aaae3f1ea1cc67aae6645d70c117d3" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a0b683ff02bc22c2b66666a7a093bfd6f" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>operator^</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a53db719f4b7b9d1938b3053dde9bb100" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>operator|</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a90470a3307200b912e4d8a44c0a59ed5" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>operator~</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ad04a867277d97a3de2fdda475df07b92" prot="public" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>value</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1aaf46a9587e2aad0e8f5417a2f460fd78" prot="private" virt="non-virtual"><scope>MR::Const_ViewportMask</scope><name>~Const_ViewportMask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

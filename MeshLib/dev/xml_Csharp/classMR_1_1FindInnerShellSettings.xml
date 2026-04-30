@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FindInnerShellSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::FindInnerShellSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindInnerShellSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FindInnerShellSettings" prot="public" virt="non-virtual">MR.Const_FindInnerShellSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FindInnerShellSettings_1abe4a0691ca6a9530ffad0b6fe1ebc761" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kindref="member">MR.Side</ref></type>
@@ -162,7 +162,7 @@
         <name>FindInnerShellSettings</name>
         <qualifiedname>MR.FindInnerShellSettings.FindInnerShellSettings</qualifiedname>
         <param>
-          <type>MR.Const_FindInnerShellSettings</type>
+          <type><ref refid="classMR_1_1Const__FindInnerShellSettings" kindref="compound">MR.Const_FindInnerShellSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -200,7 +200,7 @@
         <name>assign</name>
         <qualifiedname>MR.FindInnerShellSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_FindInnerShellSettings</type>
+          <type><ref refid="classMR_1_1Const__FindInnerShellSettings" kindref="compound">MR.Const_FindInnerShellSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FindInnerShellSettings</label>
+        <link refid="classMR_1_1Const__FindInnerShellSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FindInnerShellSettings</label>
         <link refid="classMR_1_1FindInnerShellSettings"/>
@@ -248,9 +253,13 @@
       </node>
       <node id="2">
         <label>MR.Const_FindInnerShellSettings</label>
+        <link refid="classMR_1_1Const__FindInnerShellSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_side</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,7 +271,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="153" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="154" bodyend="241"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1a2eb01c39dd5e327bccd40eeb84361819" prot="protected" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>__ref_storage_maxDistSq</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1a05898eacfb7563d4e1a468a746c059b9" prot="protected" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>__ref_storage_minVertsInComp</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1a61e94910b2581e638029a72e6ad5d2fd" prot="protected" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>__ref_storage_side</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1a786ea2f9574fc93df530f224bcaacfc8" prot="protected" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>__ref_storage_useWindingNumber</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1a4317cb0e10340d371c839aaa068c38a8" prot="protected" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>__ref_storage_windingNumberThreshold</name></member>
       <member refid="classMR_1_1FindInnerShellSettings_1a262a4bbd5a8f519de828467caa1deb62" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1aca603dcc06ed141bccdab452a96376c6" prot="package" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>Const_FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1affc2cb68c9ae49a087a858733ee6424d" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>Const_FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1aa956b3fda8912e9e9ce9a345c7e99aaa" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>Const_FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1ab68c19d968c77a98abd790b604d4b3ca" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>Const_FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1ab1054b875be6df70c4496a4c04d0a81f" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>Const_FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1a25d6377e3d10f61c14207f03a6ade601" prot="protected" virt="virtual"><scope>MR::FindInnerShellSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FindInnerShellSettings_1a8a774a5309199504787a060a28fbc00f" prot="public" virt="virtual"><scope>MR::FindInnerShellSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FindInnerShellSettings_1aff0fac2a124c189c5e167e0610b38cbc" prot="package" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>FindInnerShellSettings</name></member>
       <member refid="classMR_1_1FindInnerShellSettings_1aafb04edc1a56f609d663c5fbac54dfce" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>FindInnerShellSettings</name></member>
       <member refid="classMR_1_1FindInnerShellSettings_1a63620d6533e113115ecd8948b9a0e2f3" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>FindInnerShellSettings</name></member>

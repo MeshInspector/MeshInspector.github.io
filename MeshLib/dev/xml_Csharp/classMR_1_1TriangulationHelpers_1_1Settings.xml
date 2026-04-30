@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangulationHelpers_1_1Settings" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangulationHelpers::Settings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.TriangulationHelpers.Const_Settings</basecompoundref>
+    <basecompoundref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" prot="public" virt="non-virtual">MR.TriangulationHelpers.Const_Settings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Settings_1ad06dc459a2e13fb0b20045c18d06d019" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -65,7 +65,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="911" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="911" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Settings_1a4a28c13edd719230af4d3fbd1c6b94a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertCoords</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
         <definition>new unsafe MR.? Const_VertCoords MR.TriangulationHelpers.Settings.orientedNormals</definition>
         <argsstring></argsstring>
         <name>orientedNormals</name>
@@ -80,7 +80,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="917" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="918" bodyend="927"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Settings_1a905444d0026391ea3dc367108f4120ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.TriangulationHelpers.Settings.untrustedNormals</definition>
         <argsstring></argsstring>
         <name>untrustedNormals</name>
@@ -154,7 +154,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="969" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="970" bodyend="979"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1Settings_1a8b74a1b99e7d145cb7e03237ccaf01c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_PointCloud</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__PointCloud" kindref="compound">Const_PointCloud</ref></type>
         <definition>new unsafe MR.? Const_PointCloud MR.TriangulationHelpers.Settings.searchNeighbors</definition>
         <argsstring></argsstring>
         <name>searchNeighbors</name>
@@ -232,11 +232,11 @@
           <declname>boundaryAngle</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords?</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
           <declname>orientedNormals</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>untrustedNormals</declname>
         </param>
         <param>
@@ -256,7 +256,7 @@
           <declname>actualRadius</declname>
         </param>
         <param>
-          <type>MR.Const_PointCloud?</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref>?</type>
           <declname>searchNeighbors</declname>
         </param>
         <briefdescription>
@@ -275,7 +275,7 @@
         <name>Settings</name>
         <qualifiedname>MR.TriangulationHelpers.Settings.Settings</qualifiedname>
         <param>
-          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" kindref="compound">MR.TriangulationHelpers.Const_Settings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -313,7 +313,7 @@
         <name>assign</name>
         <qualifiedname>MR.TriangulationHelpers.Settings.assign</qualifiedname>
         <param>
-          <type>MR.TriangulationHelpers.Const_Settings</type>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__Settings" kindref="compound">MR.TriangulationHelpers.Const_Settings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -343,6 +343,7 @@
       </node>
       <node id="2">
         <label>MR.TriangulationHelpers.Const_Settings</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1Const__Settings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -353,6 +354,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TriangulationHelpers.Settings</label>
         <link refid="classMR_1_1TriangulationHelpers_1_1Settings"/>
@@ -364,9 +369,16 @@
       </node>
       <node id="2">
         <label>MR.TriangulationHelpers.Const_Settings</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1Const__Settings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_allNeighbors</edgelabel>
+          <edgelabel>__ptr_storage_orientedNormals</edgelabel>
+          <edgelabel>__ptr_storage_searchNeighbors</edgelabel>
+          <edgelabel>__ptr_storage_untrustedNormals</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -375,12 +387,30 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="889" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="890" bodyend="1061"/>
     <listofallmembers>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a240f3b7f73bfde0d4a40bb5447b0edb5" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ptr_storage_actualRadius</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a5c44a5ae74af29301763e2820482213c" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ptr_storage_allNeighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a307ea2e5c0210e17b0620947f8214ebf" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ptr_storage_orientedNormals</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a42a9af82a3dc87e87acaf493f0060daf" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ptr_storage_searchNeighbors</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1af7ffc32465eae4ad1b0071d7b73b8846" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ptr_storage_untrustedNormals</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a6b21b0060636ad9c8c1380fc1e0e13ce" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ref_storage_automaticRadiusIncrease</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a16132115d1df54d4ef6abf07777d21b8" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ref_storage_boundaryAngle</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a3fcab6f2b66a5a403db890df2788e888" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ref_storage_critAngle</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1af2755aa9b4b5cc3a39d51e706a193d08" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ref_storage_maxRemoves</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1aa9e0641b64f15101ac9574eff955ef39" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ref_storage_numNeis</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1afea97b4c4c2d5c3922ed904b0705fe1a" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>__ref_storage_radius</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a9fe4e1ed045198a9e84c924303e5756b" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>actualRadius</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1ad86e782fdbd956554b5884d3dc58ac48" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>allNeighbors</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a56ff67ae9ed65ba1032d5f2a21708bb2" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>assign</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a2d94eeb30192add30f608bb2bb7cfe0d" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>automaticRadiusIncrease</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1aefd5a4ef2b60184ad54d49e43b1557a4" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>boundaryAngle</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ad61b72b56f2c1f8c2a75faa698f4e0b6" prot="package" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ad96539033b9f1b4d9a97d89f15460bf8" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ac146efa1afe22f0e270199b012738b5e" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a690b98dbd72486bd330cf5df4132fa2b" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a8722adffef6b1de7e08a6362b49a0cab" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>Const_Settings</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a9c91fa93640b65ccc8f87d254f523094" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>critAngle</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1a670cfb58585724ee59f8a33bf17af56d" prot="protected" virt="virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__Settings_1ac58ce7ec76e517c091d42a6449b1e658" prot="public" virt="virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a8027369cf42f96d2b3aada8202fe562c" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>maxRemoves</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a861338a3bc1c70dab69ad83127222cc0" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>numNeis</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a4a28c13edd719230af4d3fbd1c6b94a6" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::Settings</scope><name>orientedNormals</name></member>

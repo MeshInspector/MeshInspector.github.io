@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRFanRecord__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRFanRecord_MRVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRFanRecord_MRVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId" prot="public" virt="non-virtual">MR.Const_Vector_MRFanRecord_MRVertId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRFanRecord__MRVertId_1a3d296f30c8d80e371c79209431b64731" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRFanRecord_MRVertId</name>
         <qualifiedname>MR.Vector_MRFanRecord_MRVertId.Vector_MRFanRecord_MRVertId</qualifiedname>
         <param>
-          <type>Const_Vector_MRFanRecord_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId" kindref="compound">Const_Vector_MRFanRecord_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,7 +153,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Const_FanRecord</type>
+          <type><ref refid="classMR_1_1Const__FanRecord" kindref="compound">MR.Const_FanRecord</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_FanRecord</type>
+          <type><ref refid="classMR_1_1Const__FanRecord" kindref="compound">MR.Const_FanRecord</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -328,7 +328,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_FanRecord</type>
+          <type><ref refid="classMR_1_1Const__FanRecord" kindref="compound">MR.Const_FanRecord</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -355,7 +355,7 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.Const_FanRecord</type>
+          <type><ref refid="classMR_1_1Const__FanRecord" kindref="compound">MR.Const_FanRecord</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -378,7 +378,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.Const_FanRecord</type>
+          <type><ref refid="classMR_1_1Const__FanRecord" kindref="compound">MR.Const_FanRecord</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -416,7 +416,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRFanRecord_MRVertId.pushBack</qualifiedname>
         <param>
-          <type>MR.Const_FanRecord</type>
+          <type><ref refid="classMR_1_1Const__FanRecord" kindref="compound">MR.Const_FanRecord</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -640,6 +640,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRFanRecord_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -668,6 +669,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRFanRecord_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -689,12 +691,29 @@
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a8ec3f5f0639eac136a5e6e0c930d375b" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a0cc0f61c026b26a78d6fffe6227b7f2f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a9b94e031123324a473811b58fd016688" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a7dca682a6b0a64e7626c9cd3a6921928" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1ab0db89693ef138da91ce64d88c58a4b6" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a021c06a4b27a31b324abed24b9446997" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a66e7fdfedc4088775861443a83eb8e97" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1aa53988c77fdb0b47275f6693c9f8a72e" prot="package" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Const_Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a6739d20a86e1e2cd5a32ac61e082ee12" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Const_Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a8851ca0e122fe7848ea94d542ce3d911" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Const_Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a60a9205bddd4ab46a44bcb8f03725434" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Const_Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a798c544747ef2169ead501227aabc8a0" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Const_Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a598e233e72b3f34141dd122d5e97e3ac" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Const_Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a72d3a7b6775f49332b96c586baf44522" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Const_Vector_MRFanRecord_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1ac35e79c129400a93c9bccd6cd3d5cb51" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Const_Vector_MRFanRecord_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a0ba139d30b7fa5a76cd3bfe498b69226" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a7d4e2e0b3122a741c5381c88f24d3483" prot="protected" virt="virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a8c761545adf943f675bf0d1f8f10cec6" prot="public" virt="virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1ac3466cad922436ee2cd3163459bf0819" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a2486898669cf0acd7ff1b9fa6998c477" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1afbb29f2bf34e0817eb04d65c94137985" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1aabd7bc260ada3f8def282a75f1adf082" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1aa14dbc00e6b4fe904aa3e3af2c6f46b5" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1acacb26905a82c943321197cfc817edfa" prot="private" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a3a41204cd4f7183099d7228ccf527898" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1a95c3558772f2d47d59af0f715e519704" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>operator Const_Vector_MRFanRecord_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a7d0930d3b930476b97c414ab4456ae5a" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>operator Vector_MRFanRecord_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a5de0cfbe41245387caf79709649514c1" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1af5a75b34603cfc049a297c57e1b96278" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>pushBack</name></member>
@@ -705,6 +724,7 @@
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a1c50251c83dee046109711b4933a70c9" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a57a05b3b322d05ae51cb94fb9499430f" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1af8285789bf39d2d00a22cf77dd6ef55e" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFanRecord__MRVertId_1ab7569ca4a6c3fb04aa0596e6ba46289c" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a81241f3977f5c4b06129eaad07ae9a74" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1ad596271d4e2418f5b060d12d23371220" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a3d296f30c8d80e371c79209431b64731" prot="public" virt="non-virtual"><scope>MR::Vector_MRFanRecord_MRVertId</scope><name>vec</name></member>

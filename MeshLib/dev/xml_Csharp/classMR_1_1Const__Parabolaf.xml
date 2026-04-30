@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Parabolaf" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Parabolaf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Parabolaf" prot="public" virt="non-virtual">MR.Parabolaf</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Parabolaf_1a795833b2e045913289248fba24a3332c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Parabolaf.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Const_Parabolaf.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Parabolaf_1a29903dc74935fd0dfe00a648c65042c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Parabolaf.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_Parabolaf.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="29" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Parabolaf_1a4898c09f5201b14cfc2d1dc0b459b2ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Parabolaf.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>MR.Const_Parabolaf.c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="32" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Parabolaf_1a99f2badf236b04c2dd6b93074043ea84" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_Parabolaf.__ref_storage_a</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_a</name>
+        <qualifiedname>MR.Const_Parabolaf.__ref_storage_a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="27" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Parabolaf_1aff6052de1a26da389fa944d21cf7bb02" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_Parabolaf.__ref_storage_b</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_b</name>
+        <qualifiedname>MR.Const_Parabolaf.__ref_storage_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="30" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Parabolaf_1a44e6ff9c41fc89a2d86b873a5b82f11a" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_Parabolaf.__ref_storage_c</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_c</name>
+        <qualifiedname>MR.Const_Parabolaf.__ref_storage_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="33" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1abc67720aac650d6b5a29b546da284800" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Parabolaf.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Parabolaf.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1a32d7cc0fa40d83d1fe7c2a69c31b15e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Parabolaf.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Parabolaf.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1a2d0c2e30f59c82d86e08318ca69329d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Parabolaf.Const_Parabolaf</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Parabolaf</name>
+        <qualifiedname>MR.Const_Parabolaf.Const_Parabolaf</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="72" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1a23ca1ab12a8e67200a38de92ef12e17a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Parabolaf.Const_Parabolaf</definition>
+        <argsstring>(MR.Const_Parabolaf _other)</argsstring>
+        <name>Const_Parabolaf</name>
+        <qualifiedname>MR.Const_Parabolaf.Const_Parabolaf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Parabolaf" kindref="compound">MR.Const_Parabolaf</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Parabolaf_1a205aa0304480edab7bb9675dd34b1ff5" kindref="member">MR.Parabolaf.Parabolaf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="83" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="83" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1a351afb08d02246c5b2bb487b073293fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Parabolaf.Const_Parabolaf</definition>
+        <argsstring>(Parabolaf _other)</argsstring>
+        <name>Const_Parabolaf</name>
+        <qualifiedname>MR.Const_Parabolaf.Const_Parabolaf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Parabolaf" kindref="compound">Parabolaf</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Parabolaf_1a205aa0304480edab7bb9675dd34b1ff5" kindref="member">MR.Parabolaf.Parabolaf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="95" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1ad13b5a034a0d2fd1e2b27be4b887e3a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Parabolaf.Const_Parabolaf</definition>
+        <argsstring>(float a, float b, float c)</argsstring>
+        <name>Const_Parabolaf</name>
+        <qualifiedname>MR.Const_Parabolaf.Const_Parabolaf</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Parabolaf_1a205aa0304480edab7bb9675dd34b1ff5" kindref="member">MR.Parabolaf.Parabolaf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="100" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="100" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1ab39de5ca4a95e9ead8a78aff3cbb6e44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Parabolaf.call</definition>
+        <argsstring>(float x)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_Parabolaf.call</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>compute value of quadratic function at any x Generated from method <computeroutput>MR::Parabolaf::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="112" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1a5951ec64710211f40b13d2a4cae6b793" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Parabolaf.extremArg</definition>
+        <argsstring>()</argsstring>
+        <name>extremArg</name>
+        <qualifiedname>MR.Const_Parabolaf.extremArg</qualifiedname>
+        <briefdescription>
+<para>argument (x) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 Generated from method <computeroutput><ref refid="classMR_1_1Const__Parabolaf_1a5951ec64710211f40b13d2a4cae6b793" kindref="member">MR.Parabolaf.extremArg</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="123" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="123" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1ab38adfb52cc128fea353f332a7a03b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Parabolaf.extremVal</definition>
+        <argsstring>()</argsstring>
+        <name>extremVal</name>
+        <qualifiedname>MR.Const_Parabolaf.extremVal</qualifiedname>
+        <briefdescription>
+<para>value (y) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 Generated from method <computeroutput><ref refid="classMR_1_1Const__Parabolaf_1ab38adfb52cc128fea353f332a7a03b73" kindref="member">MR.Parabolaf.extremVal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="134" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="134" bodyend="139"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1a9f4d3f296e39d040aa4b45964717021d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Parabolaf.~Const_Parabolaf</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Parabolaf</name>
+        <qualifiedname>MR.Const_Parabolaf.~Const_Parabolaf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Parabolaf_1a46150bd23b63eed7dc3ed8d0d006a1f4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Parabolaf.Const_Parabolaf</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Parabolaf</name>
+        <qualifiedname>MR.Const_Parabolaf.Const_Parabolaf</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="61" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents quadratic function f(x) = a*x*x + b*x + c Generated from class <computeroutput><ref refid="classMR_1_1Parabolaf" kindref="compound">MR.Parabolaf</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Parabolaf</label>
+        <link refid="classMR_1_1Const__Parabolaf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.Parabolaf</label>
+        <link refid="classMR_1_1Parabolaf"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Parabolaf</label>
+        <link refid="classMR_1_1Const__Parabolaf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="9" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Parabolaf_1a99f2badf236b04c2dd6b93074043ea84" prot="protected" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1aff6052de1a26da389fa944d21cf7bb02" prot="protected" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a44e6ff9c41fc89a2d86b873a5b82f11a" prot="protected" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>__ref_storage_c</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a795833b2e045913289248fba24a3332c" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a29903dc74935fd0dfe00a648c65042c7" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a4898c09f5201b14cfc2d1dc0b459b2ac" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>c</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1ab39de5ca4a95e9ead8a78aff3cbb6e44" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a46150bd23b63eed7dc3ed8d0d006a1f4" prot="package" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>Const_Parabolaf</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a2d0c2e30f59c82d86e08318ca69329d2" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>Const_Parabolaf</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a23ca1ab12a8e67200a38de92ef12e17a" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>Const_Parabolaf</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a351afb08d02246c5b2bb487b073293fe" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>Const_Parabolaf</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1ad13b5a034a0d2fd1e2b27be4b887e3a4" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>Const_Parabolaf</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1abc67720aac650d6b5a29b546da284800" prot="protected" virt="virtual"><scope>MR::Const_Parabolaf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a32d7cc0fa40d83d1fe7c2a69c31b15e4" prot="public" virt="virtual"><scope>MR::Const_Parabolaf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a5951ec64710211f40b13d2a4cae6b793" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>extremArg</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1ab38adfb52cc128fea353f332a7a03b73" prot="public" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>extremVal</name></member>
+      <member refid="classMR_1_1Const__Parabolaf_1a9f4d3f296e39d040aa4b45964717021d" prot="private" virt="non-virtual"><scope>MR::Const_Parabolaf</scope><name>~Const_Parabolaf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

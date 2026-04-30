@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UndirectedEdgeSetBitIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::UndirectedEdgeSetBitIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirectedEdgeSetBitIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UndirectedEdgeSetBitIterator" prot="public" virt="non-virtual">MR.Const_UndirectedEdgeSetBitIterator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1UndirectedEdgeSetBitIterator_1af2dd1c4810130741a084ed70abd44c3c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>UndirectedEdgeSetBitIterator</name>
         <qualifiedname>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeSetBitIterator</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeSetBitIterator" kindref="compound">MR.Const_UndirectedEdgeSetBitIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>UndirectedEdgeSetBitIterator</name>
         <qualifiedname>MR.UndirectedEdgeSetBitIterator.UndirectedEdgeSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>assign</name>
         <qualifiedname>MR.UndirectedEdgeSetBitIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeSetBitIterator</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeSetBitIterator" kindref="compound">MR.Const_UndirectedEdgeSetBitIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>operator UndirectedEdgeSetBitIterator</name>
         <qualifiedname>MR.UndirectedEdgeSetBitIterator.operator UndirectedEdgeSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirectedEdgeSetBitIterator</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeSetBitIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirectedEdgeSetBitIterator</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeSetBitIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14426" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14427" bodyend="14495"/>
     <listofallmembers>
       <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1a91b2b513a64a02b3d7532a3c8280592b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a9185f47b6bfd341d5f43d1fa181734d6" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a065789d8884c5fd15ca7ff68c9308eaf" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Const_UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a8d035be9a289608789f5b0f77f539f95" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Const_UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a153053c3c5fee5dd3823c845eece1520" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Const_UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a2e749e4db564288d50f7942b9ca8e953" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Const_UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1ae0857c6eb8b4a37d3ac6e2ce7b7e4e1b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Const_UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1ac35bc25fcd8d9a6590d3e2debeec899d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a0616c9c5fc980071a95122f7e3b4c683" prot="protected" virt="virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a7feacca488e755db5172ab3ecad8af00" prot="public" virt="virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a1df7456652f2b0d690aa693e09e18ee7" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a9ad73d93197008ce47e803a5ef4b114f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1aca5fcfdf42a09a6ad3d8d7b9ff5ff204" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a442ed0463da517c98f5c6386bf90b6ea" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>operator Const_UndirectedEdgeSetBitIterator</name></member>
       <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1adbcbf6a3a24d0e6d2d78d46e8774915e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>operator UndirectedEdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a22eecb12817811a6116366c3f740068a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a2d311b3c1ff8feeead917054cf929161" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeSetBitIterator_1a4d22c2602080c9497530966efb0c1f2a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>operator==</name></member>
       <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1af2dd1c4810130741a084ed70abd44c3c" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>UndirectedEdgeSetBitIterator</name></member>
       <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1a9b1a1aa02b3be65b3af062d8898cbf2d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>UndirectedEdgeSetBitIterator</name></member>
       <member refid="classMR_1_1UndirectedEdgeSetBitIterator_1ac7a3fcf0989bcd598837def1ba22e884" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeSetBitIterator</scope><name>UndirectedEdgeSetBitIterator</name></member>

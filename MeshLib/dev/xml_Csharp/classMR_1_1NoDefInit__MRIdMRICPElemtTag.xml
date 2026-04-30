@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MRIdMRICPElemtTag</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRIdMRICPElemtTag</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag" prot="public" virt="non-virtual">MR.Const_NoDefInit_MRIdMRICPElemtTag</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a24b62a19bcd265f3661559acb9806133" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,7 +86,7 @@
         <name>NoDefInit_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag" kindref="compound">MR.Const_NoDefInit_MRIdMRICPElemtTag</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>assign</name>
         <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag" kindref="compound">MR.Const_NoDefInit_MRIdMRICPElemtTag</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,16 +251,32 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3791" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3792" bodyend="3889"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a32b3ae305bb82f6ed974b426da4ea285" prot="protected" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1ad8f44fcf3dc7ebf461149d8b3ca194db" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>addAssign</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a58cccecacdaa31edba025c3ce91b5c42" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a0ed3993a90df15a678442954a40ba6d2" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>Const_NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a71f8b5556b02b76077145803cee8c0ff" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>Const_NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a95d7187ed8f754d032a34c9199bc1a0b" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>Const_NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a00c8d1469c44faef3ad8306abd95e7ac" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>Const_NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a2153d7f3bb9a474bfed76f9280acb82e" prot="protected" virt="virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1ab6c25da75e7a471506533be28a9dd28c" prot="public" virt="virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a5d53439b3d9ac030a051010051bb85fc" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a28fbc8e8c48e56bee3f0712cd58612a7" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>Equals</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1abb69fd48d47e8afa10d9f9d7a3b11946" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>get</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a24b62a19bcd265f3661559acb9806133" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a0d366543dee8ba29a6a42c90920cd4af" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>less</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1aed029cfd963f5e58cbe9ade3f9d5efb9" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>NoDefInit_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1ad6cbf473007d12bd430cdde208390101" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>NoDefInit_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a41a3779e6a058899cfac30a3f6ef3839" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>NoDefInit_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1aabae7987b1fa56ed95f2ca46270098ba" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a0473e8f98368b6ba24d360942a1b75f3" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1acf9aa6b1b67ac9d3b0a23aebabbaf47f" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>operator int</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a605660fe35bbb304f208364227908512" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>operator MR.Const_Id_MRICPElemtTag</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a355475b9909a91d1aa60bdc56d241d5d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>operator MR.Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a538dff1ea74a7fbad9872cb45a9a377c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1ad850d1895c8361e3a0d8e5f49bfea447" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>operator==</name></member>
       <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a08c9a9feaff74ea330975cb54fe904f4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag_1a9ca5265af13588e93411867c5eef3075" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

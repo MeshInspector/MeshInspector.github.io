@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f" prot="public" virt="non-virtual">MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a00d1da5c811744e637189c17f3f5f094" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name>
         <qualifiedname>MR.AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</qualifiedname>
         <param>
-          <type>Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f" kindref="compound">Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,6 +153,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -174,6 +175,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -194,7 +196,24 @@
       <member refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a13ee03b0df1f5e186a1f738ec2de9fb2" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a5f02f0e25f2cc529d9d48a5c86ee12cb" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1ae21bc912821eadb53ccc1defb8645a48" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a7b5bddc50efcbeef5fd5bdde9c9fd512" prot="package" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1ae119ff65a78b841e437415bd113ef6b7" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a65ab0ad70e94f71390b0e57421ef8993" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1ad32000d1b1949064a1c64faf401e1a55" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a0572d1c771d690c94eb71b01d05d2c2f" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1ae9a5408f262ebb5d58b69658ca243142" prot="protected" virt="virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1af2049458e749524fc176e1a4d0b9de1c" prot="public" virt="virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a5681a4829ea59f863853688037e2a231" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1ab8cb1978e0646a49c267f1bf7a282c8a" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>getLeafOrder</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1acd213793c45dd3db51c0878f54ac1610" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1acdb43f4ed2b7b0d9578e95e3e114f977" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a509ba584c2cdde39125bfefe0afaa59e" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a29c6cec25c432b9d8e3f5e53af6d23cc" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>getSubtrees</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a792b1c99af9817f4265888f653f07926" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a335e52e6d45b72907ace3fe53533c054" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>nodes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a6c912dea4d666b81c1c86a125bf9f782" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1ac54ab52a31cb52d7ccf56b0c10f7fbf4" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_1a2b7dc868d55806f4d4a4765342632ea1" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</scope><name>this[MR.NodeId nid]</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

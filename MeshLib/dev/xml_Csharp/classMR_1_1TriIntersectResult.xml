@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriIntersectResult" kind="class" language="C#" prot="public">
     <compoundname>MR::TriIntersectResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriIntersectResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TriIntersectResult" prot="public" virt="non-virtual">MR.Const_TriIntersectResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TriIntersectResult_1a5b49cc9e41838a348de8e93f416dc13b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1TriPointf" kindref="compound">MR.TriPointf</ref></type>
@@ -65,7 +65,7 @@
         <name>TriIntersectResult</name>
         <qualifiedname>MR.TriIntersectResult.TriIntersectResult</qualifiedname>
         <param>
-          <type>MR.Const_TriIntersectResult</type>
+          <type><ref refid="classMR_1_1Const__TriIntersectResult" kindref="compound">MR.Const_TriIntersectResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -130,7 +130,7 @@
         <name>assign</name>
         <qualifiedname>MR.TriIntersectResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_TriIntersectResult</type>
+          <type><ref refid="classMR_1_1Const__TriIntersectResult" kindref="compound">MR.Const_TriIntersectResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -157,6 +157,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TriIntersectResult</label>
+        <link refid="classMR_1_1Const__TriIntersectResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -178,6 +179,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TriIntersectResult</label>
+        <link refid="classMR_1_1Const__TriIntersectResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -192,8 +194,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="94" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="95" bodyend="165"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TriIntersectResult_1ad83907be365acbf87e218d6cabd9e111" prot="protected" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>__ref_storage_t</name></member>
       <member refid="classMR_1_1TriIntersectResult_1ab9405d73aa12df2aaa88a3f4354fca55" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>assign</name></member>
       <member refid="classMR_1_1TriIntersectResult_1a5b49cc9e41838a348de8e93f416dc13b" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>bary</name></member>
+      <member refid="classMR_1_1Const__TriIntersectResult_1a5c078eab5b7b501a48a367c2c19a9fde" prot="package" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>Const_TriIntersectResult</name></member>
+      <member refid="classMR_1_1Const__TriIntersectResult_1a2545c1f2fd7598fc31d984ef62dac8e4" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>Const_TriIntersectResult</name></member>
+      <member refid="classMR_1_1Const__TriIntersectResult_1afc454e551924ea63b0d9fa95964f2d34" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>Const_TriIntersectResult</name></member>
+      <member refid="classMR_1_1Const__TriIntersectResult_1a99dd0b23c2adaa6f792da71e54a2d550" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>Const_TriIntersectResult</name></member>
+      <member refid="classMR_1_1Const__TriIntersectResult_1acca0962c369d23a62be2ce0e73364fbc" prot="protected" virt="virtual"><scope>MR::TriIntersectResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriIntersectResult_1a60540c93be7cf49b010ac90d8143ec10" prot="public" virt="virtual"><scope>MR::TriIntersectResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TriIntersectResult_1ac19596207dbd1d0021458e4589392f6f" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>t</name></member>
       <member refid="classMR_1_1TriIntersectResult_1ab8aa40a3df916bc6e58526898ae0640e" prot="package" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>TriIntersectResult</name></member>
       <member refid="classMR_1_1TriIntersectResult_1a85cf83c7e28f559b5b4642be1b6c767e" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>TriIntersectResult</name></member>

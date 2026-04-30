@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NormalsToPoints" kind="class" language="C#" prot="public">
     <compoundname>MR::NormalsToPoints</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NormalsToPoints</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NormalsToPoints" prot="public" virt="non-virtual">MR.Const_NormalsToPoints</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NormalsToPoints_1aaabf20693f284d295dc253a84b34eacd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -88,7 +88,7 @@
         <name>prepare</name>
         <qualifiedname>MR.NormalsToPoints.prepare</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -122,11 +122,11 @@
         <name>run</name>
         <qualifiedname>MR.NormalsToPoints.run</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>guide</declname>
         </param>
         <param>
-          <type>MR.Const_FaceNormals</type>
+          <type><ref refid="classMR_1_1Const__FaceNormals" kindref="compound">MR.Const_FaceNormals</ref></type>
           <declname>normals</declname>
         </param>
         <param>
@@ -183,11 +183,11 @@
         <name>run</name>
         <qualifiedname>MR.NormalsToPoints.run</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>guide</declname>
         </param>
         <param>
-          <type>MR.Const_FaceNormals</type>
+          <type><ref refid="classMR_1_1Const__FaceNormals" kindref="compound">MR.Const_FaceNormals</ref></type>
           <declname>normals</declname>
         </param>
         <param>
@@ -222,6 +222,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NormalsToPoints</label>
+        <link refid="classMR_1_1Const__NormalsToPoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -243,6 +244,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NormalsToPoints</label>
+        <link refid="classMR_1_1Const__NormalsToPoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -258,6 +260,11 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" line="147" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" bodystart="148" bodyend="223"/>
     <listofallmembers>
       <member refid="classMR_1_1NormalsToPoints_1a12e72fcbdbd12014159a34f8e893abbf" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1a326cd6a2dc3731dc8318e1c090e262f4" prot="package" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>Const_NormalsToPoints</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1aff10a31e44f5b141fb6c0f6c66167d1b" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>Const_NormalsToPoints</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1ab21611af8daf6485ffe6cc4ca0fc62d2" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>Const_NormalsToPoints</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1a0fa47af9f1bcefd965503bf67d2fe823" prot="protected" virt="virtual"><scope>MR::NormalsToPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1afebd290c6ba57124afda331e0b077005" prot="public" virt="virtual"><scope>MR::NormalsToPoints</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NormalsToPoints_1aaabf20693f284d295dc253a84b34eacd" prot="package" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>NormalsToPoints</name></member>
       <member refid="classMR_1_1NormalsToPoints_1af0ef4b1417f7e5fb4d3da37ed3bbd547" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>NormalsToPoints</name></member>
       <member refid="classMR_1_1NormalsToPoints_1ab504a2ac4cdbcfa35282cad8359543b6" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>NormalsToPoints</name></member>

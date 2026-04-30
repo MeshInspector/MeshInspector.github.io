@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OffsetContoursRestoreZParams" kind="class" language="C#" prot="public">
     <compoundname>MR::OffsetContoursRestoreZParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetContoursRestoreZParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OffsetContoursRestoreZParams" prot="public" virt="non-virtual">MR.Const_OffsetContoursRestoreZParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1OffsetContoursRestoreZParams_1ae6d8c64896790f543689b79710e3a0e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Float_From_ConstStdVectorStdVectorMRVector2fRef_ConstMROffsetContourIndexRef_ConstMROffsetContoursOriginsRef</type>
@@ -123,7 +123,7 @@
         <name>OffsetContoursRestoreZParams</name>
         <qualifiedname>MR.OffsetContoursRestoreZParams.OffsetContoursRestoreZParams</qualifiedname>
         <param>
-          <type>Const_OffsetContoursRestoreZParams</type>
+          <type><ref refid="classMR_1_1Const__OffsetContoursRestoreZParams" kindref="compound">Const_OffsetContoursRestoreZParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -188,6 +188,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OffsetContoursRestoreZParams</label>
+        <link refid="classMR_1_1Const__OffsetContoursRestoreZParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -209,6 +210,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OffsetContoursRestoreZParams</label>
+        <link refid="classMR_1_1Const__OffsetContoursRestoreZParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -223,7 +225,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="984" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="985" bodyend="1073"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1af52b2a2bb51124e09ae66035131e8606" prot="protected" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>__ref_storage_relaxIterations</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1ad49982a3cbaa30a2a68640f26fa949ab" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1a3946321eda7d978c56a16d5839a5a704" prot="package" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>Const_OffsetContoursRestoreZParams</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1a4e28a1bd4622b96b6ceb2b77ef3172b7" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>Const_OffsetContoursRestoreZParams</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1a770fa76b0989217b4b09271a6d6e7b06" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>Const_OffsetContoursRestoreZParams</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1a2c47be3d2c16342c91f9eacf6f629839" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>Const_OffsetContoursRestoreZParams</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1a35c3329ec38631b60328faad7e28d35b" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>Const_OffsetContoursRestoreZParams</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1a9e8eea6891730275134176bf271ad300" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>Const_OffsetContoursRestoreZParams</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1a4f0f6e68574c61eb33638614b88c4f34" prot="protected" virt="virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursRestoreZParams_1ab92386767f7a1d8b2a16405acfa94fbd" prot="public" virt="virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1ad8e3b8d97838b0496237b610132db6e2" prot="package" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OffsetContoursRestoreZParams</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1aa4f75c46da33daf7b4db0744e4d90218" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OffsetContoursRestoreZParams</name></member>
       <member refid="classMR_1_1OffsetContoursRestoreZParams_1a4c5fc62463e29ce33eff7823d072e228" prot="public" virt="non-virtual"><scope>MR::OffsetContoursRestoreZParams</scope><name>OffsetContoursRestoreZParams</name></member>

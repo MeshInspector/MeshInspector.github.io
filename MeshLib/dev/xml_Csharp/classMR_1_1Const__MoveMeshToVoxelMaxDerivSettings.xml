@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MoveMeshToVoxelMaxDerivSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings" prot="public" virt="non-virtual">MR.MoveMeshToVoxelMaxDerivSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a2410a256985ba65ed22d08b31e4bae95" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_MoveMeshToVoxelMaxDerivSettings.iters</definition>
+        <argsstring></argsstring>
+        <name>iters</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.iters</qualifiedname>
+        <briefdescription>
+<para>number of iterations. Each iteration moves vertex only slightly and smooths the vector field of shifts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="28" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a2cc86ade75c641ac44b371503a4b6272" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_MoveMeshToVoxelMaxDerivSettings.samplePoints</definition>
+        <argsstring></argsstring>
+        <name>samplePoints</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.samplePoints</qualifiedname>
+        <briefdescription>
+<para>number of points to sample for each vertex. Samples are used to get the picewice-linear function of density and estimate the derivative based on it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="35" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a5b7163f16baa11a48834c3b92319b62d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_MoveMeshToVoxelMaxDerivSettings.degree</definition>
+        <argsstring></argsstring>
+        <name>degree</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.degree</qualifiedname>
+        <briefdescription>
+<para>degree of the polynomial used to fit sampled points. Must be in range [3; 6] </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="41" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1afc3a37b9c025825ca0151ce87f088aad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MoveMeshToVoxelMaxDerivSettings.outlierThreshold</definition>
+        <argsstring></argsstring>
+        <name>outlierThreshold</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.outlierThreshold</qualifiedname>
+        <briefdescription>
+<para>for each iteration, if target position of the vertex is greater than this threshold, it is disregarded. For small degrees, this value should be small, for large degrees it may be larger. Measured in number of voxels. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="49" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a51effa6e2f077619eb48edcde27f0d0a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MoveMeshToVoxelMaxDerivSettings.intermediateSmoothForce</definition>
+        <argsstring></argsstring>
+        <name>intermediateSmoothForce</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.intermediateSmoothForce</qualifiedname>
+        <briefdescription>
+<para>force of the smoothing (relaxation) of vector field of shifts on each iteration </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="55" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a433bb1701347750fda5abdb55092037c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MoveMeshToVoxelMaxDerivSettings.preparationSmoothForce</definition>
+        <argsstring></argsstring>
+        <name>preparationSmoothForce</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.preparationSmoothForce</qualifiedname>
+        <briefdescription>
+<para>force of initial smoothing of vertices, before applying the algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="61" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a1322d49c8fdfc608912725b6aa7aa10c" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_iters</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_iters</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_iters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="29" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a8bd3af00d6d7a3996962da28f960b2bb" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_samplePoints</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_samplePoints</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_samplePoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="36" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aee0d00df88edc0fcd2ce349aec522ac6" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_degree</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_degree</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_degree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="42" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a7a10efec8705d7051d4c9b79e5563983" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_outlierThreshold</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_outlierThreshold</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_outlierThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="50" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aa20c8e8635ebbc30897debe1dab42a05" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_intermediateSmoothForce</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_intermediateSmoothForce</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_intermediateSmoothForce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="56" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a515b20b6f48e8453680775f3b6bfc928" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_preparationSmoothForce</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_preparationSmoothForce</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.__ref_storage_preparationSmoothForce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="62" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a4c5aaf0e370f06b1e4fe7bb14ee7d3a8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MoveMeshToVoxelMaxDerivSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a8d107936e1980ab272488653127d8219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MoveMeshToVoxelMaxDerivSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1af8279b5278dd76be9d69d84053ca94f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MoveMeshToVoxelMaxDerivSettings</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="119" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="119" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a3bda3f34f1b1223a21259171de8a5c5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</definition>
+        <argsstring>(int iters, int samplePoints, int degree, float outlierThreshold, float intermediateSmoothForce, float preparationSmoothForce)</argsstring>
+        <name>Const_MoveMeshToVoxelMaxDerivSettings</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>iters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samplePoints</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>degree</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>outlierThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>intermediateSmoothForce</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>preparationSmoothForce</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MR.MoveMeshToVoxelMaxDerivSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="130" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aacd09eb3d5d0475fc688d66a7578334c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</definition>
+        <argsstring>(MR.Const_MoveMeshToVoxelMaxDerivSettings _other)</argsstring>
+        <name>Const_MoveMeshToVoxelMaxDerivSettings</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings" kindref="compound">MR.Const_MoveMeshToVoxelMaxDerivSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings_1a714c1b37cfd9bcbbb8bcc3fd66b269b6" kindref="member">MR.MoveMeshToVoxelMaxDerivSettings.MoveMeshToVoxelMaxDerivSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="141" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a4a5d34f8df513ccefd3a8f9a534e7434" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</definition>
+        <argsstring>(MoveMeshToVoxelMaxDerivSettings _other)</argsstring>
+        <name>Const_MoveMeshToVoxelMaxDerivSettings</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings_1a714c1b37cfd9bcbbb8bcc3fd66b269b6" kindref="member">MR.MoveMeshToVoxelMaxDerivSettings.MoveMeshToVoxelMaxDerivSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="153" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="153" bodyend="153"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a9a6c92664052f300f5785abba14a104e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MoveMeshToVoxelMaxDerivSettings.~Const_MoveMeshToVoxelMaxDerivSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MoveMeshToVoxelMaxDerivSettings</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.~Const_MoveMeshToVoxelMaxDerivSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a34b8fb4124dad6fa59ac6c2150e4c121" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MoveMeshToVoxelMaxDerivSettings</name>
+        <qualifiedname>MR.Const_MoveMeshToVoxelMaxDerivSettings.Const_MoveMeshToVoxelMaxDerivSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="108" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="108" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MR.MoveMeshToVoxelMaxDerivSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MoveMeshToVoxelMaxDerivSettings</label>
+        <link refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.MoveMeshToVoxelMaxDerivSettings</label>
+        <link refid="classMR_1_1MoveMeshToVoxelMaxDerivSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_MoveMeshToVoxelMaxDerivSettings</label>
+        <link refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="8" bodyend="154"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aee0d00df88edc0fcd2ce349aec522ac6" prot="protected" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_degree</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aa20c8e8635ebbc30897debe1dab42a05" prot="protected" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_intermediateSmoothForce</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a1322d49c8fdfc608912725b6aa7aa10c" prot="protected" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_iters</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a7a10efec8705d7051d4c9b79e5563983" prot="protected" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_outlierThreshold</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a515b20b6f48e8453680775f3b6bfc928" prot="protected" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_preparationSmoothForce</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a8bd3af00d6d7a3996962da28f960b2bb" prot="protected" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>__ref_storage_samplePoints</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a34b8fb4124dad6fa59ac6c2150e4c121" prot="package" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1af8279b5278dd76be9d69d84053ca94f9" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a3bda3f34f1b1223a21259171de8a5c5d" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1aacd09eb3d5d0475fc688d66a7578334c" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a4a5d34f8df513ccefd3a8f9a534e7434" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a5b7163f16baa11a48834c3b92319b62d" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>degree</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a4c5aaf0e370f06b1e4fe7bb14ee7d3a8" prot="protected" virt="virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a8d107936e1980ab272488653127d8219" prot="public" virt="virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a51effa6e2f077619eb48edcde27f0d0a" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>intermediateSmoothForce</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a2410a256985ba65ed22d08b31e4bae95" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>iters</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1afc3a37b9c025825ca0151ce87f088aad" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>outlierThreshold</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a433bb1701347750fda5abdb55092037c" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>preparationSmoothForce</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a2cc86ade75c641ac44b371503a4b6272" prot="public" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>samplePoints</name></member>
+      <member refid="classMR_1_1Const__MoveMeshToVoxelMaxDerivSettings_1a9a6c92664052f300f5785abba14a104e" prot="private" virt="non-virtual"><scope>MR::Const_MoveMeshToVoxelMaxDerivSettings</scope><name>~Const_MoveMeshToVoxelMaxDerivSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

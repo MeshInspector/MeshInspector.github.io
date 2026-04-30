@@ -145,6 +145,7 @@ $(function(){initNavTree('MRMCPGatewayBackend_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRFastmcpp_8h_source.html">MRMcp/MRFastmcpp.h</a>&quot;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="MRMCPGatewayBackend_8h_source.html">Go to the source code of this file.</a></p>
@@ -159,7 +160,9 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a1865d391c5eaff99701877d104fb7266" id="r_a1865d391c5eaff99701877d104fb7266"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#a1865d391c5eaff99701877d104fb7266">MR::McpGateway::getBackendAlive</a> ()</td></tr>
 <tr class="memitem:a9ab308a9eb9041eb3bb4933a227f605c" id="r_a9ab308a9eb9041eb3bb4933a227f605c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#a9ab308a9eb9041eb3bb4933a227f605c">MR::McpGateway::probeBackendAlive</a> (const std::string &amp;targetUrl)</td></tr>
+<tr class="memitem:a153505bbfb54eb994b1929e70f09d9f5" id="r_a153505bbfb54eb994b1929e70f09d9f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#a153505bbfb54eb994b1929e70f09d9f5">MR::McpGateway::updateBackendAliveAndNotify</a> (bool nowAlive)</td></tr>
 <tr class="memitem:a7a95f3dc050ff3960ed8ad8918399289" id="r_a7a95f3dc050ff3960ed8ad8918399289"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#a7a95f3dc050ff3960ed8ad8918399289">MR::McpGateway::probeAndTrackBackend</a> (const std::string &amp;targetUrl)</td></tr>
+<tr class="memitem:a125af5dc97b6c00c8b23e57f661a1b96" id="r_a125af5dc97b6c00c8b23e57f661a1b96"><td class="memItemLeft" align="right" valign="top">std::mutex &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#a125af5dc97b6c00c8b23e57f661a1b96">MR::McpGateway::gatewayStdoutMutex</a> ()</td></tr>
 <tr class="memitem:aa850caecea2d15bbf4a28557f7c247b5" id="r_aa850caecea2d15bbf4a28557f7c247b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#aa850caecea2d15bbf4a28557f7c247b5">MR::McpGateway::registerLocalTools</a> (fastmcpp::ProxyApp &amp;proxy, const <a class="el" href="structMR_1_1McpGateway_1_1Config.html">Config</a> &amp;cfg)</td></tr>
 <tr class="memdesc:aa850caecea2d15bbf4a28557f7c247b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the gateway-local <span class="tt">launch</span> and <span class="tt">status</span> tools on <code class="param">proxy</code>.  <br /></td></tr>
 </table>

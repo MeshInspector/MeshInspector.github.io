@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DividePointCloudOptionalOutput" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DividePointCloudOptionalOutput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DividePointCloudOptionalOutput" prot="public" virt="non-virtual">MR.DividePointCloudOptionalOutput</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a752ddf08d49916a65e40392f0af0d8cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition>unsafe MR.? VertMap MR.Const_DividePointCloudOptionalOutput.outVmap</definition>
+        <argsstring></argsstring>
+        <name>outVmap</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.outVmap</qualifiedname>
+        <briefdescription>
+<para>optional out map from input points to output </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="28" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="29" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DividePointCloudOptionalOutput_1aca18008c3b83f531fcb97b9eddef8c16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition>unsafe MR.? PointCloud MR.Const_DividePointCloudOptionalOutput.otherPart</definition>
+        <argsstring></argsstring>
+        <name>otherPart</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.otherPart</qualifiedname>
+        <briefdescription>
+<para>optional out other part of the point cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="46" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="47" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a7fc43e2de30a983a093768d8a0651c21" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition>unsafe MR.? VertMap MR.Const_DividePointCloudOptionalOutput.otherOutVmap</definition>
+        <argsstring></argsstring>
+        <name>otherOutVmap</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.otherOutVmap</qualifiedname>
+        <briefdescription>
+<para>optional out map from input points to other part output </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="64" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="65" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a5f83de4284329c21ef9503d9e623af99" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertMap._Underlying **</type>
+        <definition>unsafe MR.VertMap._Underlying** MR.Const_DividePointCloudOptionalOutput.__ptr_storage_outVmap</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outVmap</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.__ptr_storage_outVmap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="41" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a67aef001a90e2f6590341d9f2fd76a7a" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.PointCloud._Underlying **</type>
+        <definition>unsafe MR.PointCloud._Underlying** MR.Const_DividePointCloudOptionalOutput.__ptr_storage_otherPart</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_otherPart</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.__ptr_storage_otherPart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="59" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DividePointCloudOptionalOutput_1aa55aec30ec0d253adc3326533d47bc36" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertMap._Underlying **</type>
+        <definition>unsafe MR.VertMap._Underlying** MR.Const_DividePointCloudOptionalOutput.__ptr_storage_otherOutVmap</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_otherOutVmap</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.__ptr_storage_otherOutVmap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="77" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a8bf24a7d1113f862b5e8f5aaabc577f3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DividePointCloudOptionalOutput.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a29776891891e2aceb832e9f476fe30b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DividePointCloudOptionalOutput.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a67b6f2a72167910ea3505b009e7b5f38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DividePointCloudOptionalOutput</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="116" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DividePointCloudOptionalOutput_1aa460a9e7103e74cd84b8d534b67eac82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</definition>
+        <argsstring>(MR.VertMap? outVmap, MR.PointCloud? otherPart, MR.VertMap? otherOutVmap)</argsstring>
+        <name>Const_DividePointCloudOptionalOutput</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>outVmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref>?</type>
+          <declname>otherPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>otherOutVmap</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DividePointCloudOptionalOutput" kindref="compound">MR.DividePointCloudOptionalOutput</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="127" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="127" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a157f07653ff632a3017d2711dda004ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</definition>
+        <argsstring>(MR.Const_DividePointCloudOptionalOutput _other)</argsstring>
+        <name>Const_DividePointCloudOptionalOutput</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DividePointCloudOptionalOutput" kindref="compound">MR.Const_DividePointCloudOptionalOutput</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DividePointCloudOptionalOutput_1aafd814b187f564ded2b8f586628f660d" kindref="member">MR.DividePointCloudOptionalOutput.DividePointCloudOptionalOutput</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="141" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a0898c909eff1a2bc7a3d16d7f46254d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</definition>
+        <argsstring>(DividePointCloudOptionalOutput _other)</argsstring>
+        <name>Const_DividePointCloudOptionalOutput</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DividePointCloudOptionalOutput" kindref="compound">DividePointCloudOptionalOutput</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DividePointCloudOptionalOutput_1aafd814b187f564ded2b8f586628f660d" kindref="member">MR.DividePointCloudOptionalOutput.DividePointCloudOptionalOutput</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="153" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="153" bodyend="153"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a3ca669bfbd83897f169450e216c3e12f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DividePointCloudOptionalOutput.~Const_DividePointCloudOptionalOutput</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DividePointCloudOptionalOutput</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.~Const_DividePointCloudOptionalOutput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DividePointCloudOptionalOutput_1a3bf16b93b7d48d80f401bf6baceb36ca" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DividePointCloudOptionalOutput</name>
+        <qualifiedname>MR.Const_DividePointCloudOptionalOutput.Const_DividePointCloudOptionalOutput</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="105" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="105" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1DividePointCloudOptionalOutput" kindref="compound">MR.DividePointCloudOptionalOutput</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DividePointCloudOptionalOutput</label>
+        <link refid="classMR_1_1Const__DividePointCloudOptionalOutput"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DividePointCloudOptionalOutput</label>
+        <link refid="classMR_1_1DividePointCloudOptionalOutput"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_DividePointCloudOptionalOutput</label>
+        <link refid="classMR_1_1Const__DividePointCloudOptionalOutput"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_otherOutVmap</edgelabel>
+          <edgelabel>__ptr_storage_otherPart</edgelabel>
+          <edgelabel>__ptr_storage_outVmap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="8" bodyend="154"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1aa55aec30ec0d253adc3326533d47bc36" prot="protected" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>__ptr_storage_otherOutVmap</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a67aef001a90e2f6590341d9f2fd76a7a" prot="protected" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>__ptr_storage_otherPart</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a5f83de4284329c21ef9503d9e623af99" prot="protected" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>__ptr_storage_outVmap</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a3bf16b93b7d48d80f401bf6baceb36ca" prot="package" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a67b6f2a72167910ea3505b009e7b5f38" prot="public" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1aa460a9e7103e74cd84b8d534b67eac82" prot="public" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a157f07653ff632a3017d2711dda004ee" prot="public" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a0898c909eff1a2bc7a3d16d7f46254d1" prot="public" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a8bf24a7d1113f862b5e8f5aaabc577f3" prot="protected" virt="virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a29776891891e2aceb832e9f476fe30b3" prot="public" virt="virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a7fc43e2de30a983a093768d8a0651c21" prot="public" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>otherOutVmap</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1aca18008c3b83f531fcb97b9eddef8c16" prot="public" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>otherPart</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a752ddf08d49916a65e40392f0af0d8cd" prot="public" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>outVmap</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a3ca669bfbd83897f169450e216c3e12f" prot="private" virt="non-virtual"><scope>MR::Const_DividePointCloudOptionalOutput</scope><name>~Const_DividePointCloudOptionalOutput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

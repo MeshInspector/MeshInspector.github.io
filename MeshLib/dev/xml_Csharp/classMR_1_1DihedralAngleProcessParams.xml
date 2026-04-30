@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DihedralAngleProcessParams" kind="class" language="C#" prot="public">
     <compoundname>MR::DihedralAngleProcessParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DihedralAngleProcessParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DihedralAngleProcessParams" prot="public" virt="non-virtual">MR.Const_DihedralAngleProcessParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DihedralAngleProcessParams_1a5e63a1b53e07d1e668b629ea51f9af86" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -124,7 +124,7 @@
         <name>DihedralAngleProcessParams</name>
         <qualifiedname>MR.DihedralAngleProcessParams.DihedralAngleProcessParams</qualifiedname>
         <param>
-          <type>MR.Const_DihedralAngleProcessParams</type>
+          <type><ref refid="classMR_1_1Const__DihedralAngleProcessParams" kindref="compound">MR.Const_DihedralAngleProcessParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.DihedralAngleProcessParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_DihedralAngleProcessParams</type>
+          <type><ref refid="classMR_1_1Const__DihedralAngleProcessParams" kindref="compound">MR.Const_DihedralAngleProcessParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DihedralAngleProcessParams</label>
+        <link refid="classMR_1_1Const__DihedralAngleProcessParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DihedralAngleProcessParams</label>
+        <link refid="classMR_1_1Const__DihedralAngleProcessParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,15 +226,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" line="121" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeMetric.cs" bodystart="122" bodyend="197"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1acdc1484f6b0775cb87e4d1ce66f7e06e" prot="protected" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>__ref_storage_boundaryValue</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a56d2176bc5bb6b1e5c77c00a0d6bbcbb" prot="protected" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>__ref_storage_concaveFactor</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a8314b942aae7a9b8f871f1f235a4bb25" prot="protected" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>__ref_storage_convexFactor</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1a92de62a7cd3442657b8d297ac11e38ef" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>assign</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1aa00e9ff6c218c75bce20ef40d489436a" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>boundaryValue</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1a59bb44c37f27bce2f1e1231ac78ce17d" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>concaveFactor</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1acac7c91244ff1850aab826ef7552b6a4" prot="package" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1aee94fdfbaf7dea273d638c68b9d77bd7" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1af3caaaf1b61faa6257b94b31096425b4" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a2085ed7c965deb74b520e1dc5c12777d" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a006d052a30247d6103a26dd833c3570a" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>Const_DihedralAngleProcessParams</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1a5e63a1b53e07d1e668b629ea51f9af86" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>convexFactor</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1a0e403beb61586a26541410897c28a371" prot="package" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>DihedralAngleProcessParams</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1a8db664eafd1c06fbfd8d573e3ce397a2" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>DihedralAngleProcessParams</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1aa634526513b47c405c3adfb78cfc04b3" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>DihedralAngleProcessParams</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1ab8ba17315adcebdfbb1ba120429df30e" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>DihedralAngleProcessParams</name></member>
       <member refid="classMR_1_1DihedralAngleProcessParams_1a9a0783894b207f8b6d3084984df0a282" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>DihedralAngleProcessParams</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1abfa750ffc3e4b14ce2c3a4f916f4c36a" prot="protected" virt="virtual"><scope>MR::DihedralAngleProcessParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DihedralAngleProcessParams_1a6222e450458697a6b1021ee0d4339036" prot="public" virt="virtual"><scope>MR::DihedralAngleProcessParams</scope><name>Dispose</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

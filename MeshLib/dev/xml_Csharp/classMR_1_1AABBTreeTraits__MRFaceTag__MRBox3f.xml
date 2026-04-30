@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeTraits_MRFaceTag_MRBox3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f" prot="public" virt="non-virtual">MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1adfa83b374fb1e39f5577b4df96dd813d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>AABBTreeTraits_MRFaceTag_MRBox3f</name>
         <qualifiedname>MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f" kindref="compound">MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.AABBTreeTraits_MRFaceTag_MRBox3f.assign</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f" kindref="compound">MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,12 @@
       <member refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1af2b904e6c5af812aeb080bb9aef8d15b" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1a3ba394d412447a4efcef62c9200141d6" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1a54a74dbb7178b5a49b70e26c05cba6b8" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f_1ace26a1e5b2018cf8a1746a91bfcd52aa" prot="package" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>Const_AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f_1aeaef4741eb5b5be43855edb1a6b139fd" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>Const_AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f_1a16d9243e536115e81db52e36381f0764" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>Const_AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f_1a6da23452a91644781ad5a9ef8b85df89" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>Const_AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f_1a6dcde5ec40a805e0a299df8561eab29d" prot="protected" virt="virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f_1a74a259d507eabae67bed852db5939b6a" prot="public" virt="virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>Dispose</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

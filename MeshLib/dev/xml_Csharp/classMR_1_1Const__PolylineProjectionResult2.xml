@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PolylineProjectionResult2" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PolylineProjectionResult2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PolylineProjectionResult2" prot="public" virt="non-virtual">MR.PolylineProjectionResult2</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PolylineProjectionResult2_1a5814e9c2aa99eeb69f17e034e80a823c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe ref readonly MR.UndirectedEdgeId MR.Const_PolylineProjectionResult2.line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.line</qualifiedname>
+        <briefdescription>
+<para>polyline's edge containing the closest point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="28" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PolylineProjectionResult2_1a09256ac302ad8392017d5acdc6ef1b17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref readonly MR.Vector2f MR.Const_PolylineProjectionResult2.point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.point</qualifiedname>
+        <briefdescription>
+<para>closest point on polyline, transformed by xf if it is given </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="34" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PolylineProjectionResult2_1ab4e1c71fcfee76fcffba85ca369ad410" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_PolylineProjectionResult2.distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.distSq</qualifiedname>
+        <briefdescription>
+<para>squared distance from pt to proj </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="40" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__PolylineProjectionResult2_1a4dd18d4e7eb849e0182036ce061b170d" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref> *</type>
+        <definition>unsafe MR.UndirectedEdgeId* MR.Const_PolylineProjectionResult2.__ref_storage_line</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_line</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.__ref_storage_line</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="29" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PolylineProjectionResult2_1aa611cf283e83b266e679ad9b287ec584" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref> *</type>
+        <definition>unsafe MR.Vector2f* MR.Const_PolylineProjectionResult2.__ref_storage_point</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_point</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.__ref_storage_point</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="35" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PolylineProjectionResult2_1a15f9f3c67f3fe0e65e49bbbf305bfe96" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_PolylineProjectionResult2.__ref_storage_distSq</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_distSq</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.__ref_storage_distSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="41" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1ac883771f2b70040a0fc53681c3c6f817" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PolylineProjectionResult2.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1a7aa73d3ec0d32b175371298b0f20cebb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PolylineProjectionResult2.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1ab5e27e7c27d3ed934d0fb8a00f01650d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PolylineProjectionResult2</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1af7070176ef25be70faf443bcb0228040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</definition>
+        <argsstring>(MR.UndirectedEdgeId line, MR.Vector2f point, float distSq)</argsstring>
+        <name>Const_PolylineProjectionResult2</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PolylineProjectionResult2" kindref="compound">MR.PolylineProjectionResult2</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1aa71c2599896fba14d406902989bf67b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</definition>
+        <argsstring>(MR.Const_PolylineProjectionResult2 _other)</argsstring>
+        <name>Const_PolylineProjectionResult2</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PolylineProjectionResult2" kindref="compound">MR.Const_PolylineProjectionResult2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineProjectionResult2_1a56d9e508d82e68dc0b5c1261e740fdeb" kindref="member">MR.PolylineProjectionResult2.PolylineProjectionResult2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="102" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="102" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1acd91d75681f4cefee97e07e94e3e5955" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</definition>
+        <argsstring>(PolylineProjectionResult2 _other)</argsstring>
+        <name>Const_PolylineProjectionResult2</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineProjectionResult2" kindref="compound">PolylineProjectionResult2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineProjectionResult2_1a56d9e508d82e68dc0b5c1261e740fdeb" kindref="member">MR.PolylineProjectionResult2.PolylineProjectionResult2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="114" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1adf99cf7275ffddae10fe441e14cb7d48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_PolylineProjectionResult2.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.valid</qualifiedname>
+        <briefdescription>
+<para>check for validity, otherwise the projection was not found Generated from method <computeroutput><ref refid="classMR_1_1Const__PolylineProjectionResult2_1adf99cf7275ffddae10fe441e14cb7d48" kindref="member">MR.PolylineProjectionResult2.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="130" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="130" bodyend="135"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1a6d565ed6d1408e5a8c3f93d18c166771" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PolylineProjectionResult2.~Const_PolylineProjectionResult2</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PolylineProjectionResult2</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.~Const_PolylineProjectionResult2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1ad6e257654fd66e379c20c644447fd2f3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PolylineProjectionResult2</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.Const_PolylineProjectionResult2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineProjectionResult2_1a929906bc6d66ad2d0f46fecd5d68bd24" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_PolylineProjectionResult2.operator bool</definition>
+        <argsstring>(MR.Const_PolylineProjectionResult2 _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_PolylineProjectionResult2.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PolylineProjectionResult2" kindref="compound">MR.Const_PolylineProjectionResult2</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::PolylineProjectionResult2::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="119" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="119" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PolylineProjectionResult2" kindref="compound">MR.PolylineProjectionResult2</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PolylineProjectionResult2</label>
+        <link refid="classMR_1_1Const__PolylineProjectionResult2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PolylineProjectionResult2</label>
+        <link refid="classMR_1_1PolylineProjectionResult2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_PolylineProjectionResult2</label>
+        <link refid="classMR_1_1Const__PolylineProjectionResult2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_line</edgelabel>
+          <edgelabel>__ref_storage_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="8" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1a15f9f3c67f3fe0e65e49bbbf305bfe96" prot="protected" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1a4dd18d4e7eb849e0182036ce061b170d" prot="protected" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>__ref_storage_line</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1aa611cf283e83b266e679ad9b287ec584" prot="protected" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>__ref_storage_point</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1ad6e257654fd66e379c20c644447fd2f3" prot="package" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>Const_PolylineProjectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1ab5e27e7c27d3ed934d0fb8a00f01650d" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>Const_PolylineProjectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1af7070176ef25be70faf443bcb0228040" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>Const_PolylineProjectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1aa71c2599896fba14d406902989bf67b7" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>Const_PolylineProjectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1acd91d75681f4cefee97e07e94e3e5955" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>Const_PolylineProjectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1ac883771f2b70040a0fc53681c3c6f817" prot="protected" virt="virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1a7aa73d3ec0d32b175371298b0f20cebb" prot="public" virt="virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1ab4e1c71fcfee76fcffba85ca369ad410" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>distSq</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1a5814e9c2aa99eeb69f17e034e80a823c" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>line</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1a929906bc6d66ad2d0f46fecd5d68bd24" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1a09256ac302ad8392017d5acdc6ef1b17" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>point</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1adf99cf7275ffddae10fe441e14cb7d48" prot="public" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__PolylineProjectionResult2_1a6d565ed6d1408e5a8c3f93d18c166771" prot="private" virt="non-virtual"><scope>MR::Const_PolylineProjectionResult2</scope><name>~Const_PolylineProjectionResult2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

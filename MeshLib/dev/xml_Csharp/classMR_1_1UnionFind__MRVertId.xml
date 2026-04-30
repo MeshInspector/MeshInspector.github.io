@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UnionFind__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::UnionFind_MRVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UnionFind_MRVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UnionFind__MRVertId" prot="public" virt="non-virtual">MR.Const_UnionFind_MRVertId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1af3f68d8657c22994231de7efcc5dd4d4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>UnionFind_MRVertId</name>
         <qualifiedname>MR.UnionFind_MRVertId.UnionFind_MRVertId</qualifiedname>
         <param>
-          <type>Const_UnionFind_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__UnionFind__MRVertId" kindref="compound">Const_UnionFind_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -253,7 +253,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="553" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="553" bodyend="558"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a48ff11afe2980aa15bd0bb0d59bfb28c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Const_VertMap</type>
+        <type>unsafe <ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
         <definition>unsafe MR.Const_VertMap MR.UnionFind_MRVertId.roots</definition>
         <argsstring>()</argsstring>
         <name>roots</name>
@@ -311,6 +311,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UnionFind_MRVertId</label>
+        <link refid="classMR_1_1Const__UnionFind__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -332,6 +333,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UnionFind_MRVertId</label>
+        <link refid="classMR_1_1Const__UnionFind__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -347,10 +349,22 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="446" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="447" bodyend="581"/>
     <listofallmembers>
       <member refid="classMR_1_1UnionFind__MRVertId_1a37dad81e6e407820d670beec30b81183" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1a7868ac8f4b9ee790800b0b371a330fb8" prot="package" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>Const_UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1a074d162af4f854f4014c985b95ec19a1" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>Const_UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1a37b8bb6c0ce2dab1740d080cc3dd14fb" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>Const_UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1a1b4dbfdbccd810238060904f8153180a" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>Const_UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1a04c639a220b085c14ef70a0d2f8022f3" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>Const_UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1ad779ba70f527eeaf0bacbffc5a3956e5" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>Const_UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1adf2309fd8df2432a6ace8ce279196ac2" prot="protected" virt="virtual"><scope>MR::UnionFind_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1a54dfd9da086512704ad5acf702225cec" prot="public" virt="virtual"><scope>MR::UnionFind_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UnionFind__MRVertId_1af4c8ee3038f1b4d00f11045489064ad5" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>find</name></member>
       <member refid="classMR_1_1UnionFind__MRVertId_1a3ad886a251ff7004bdafce9652d354cf" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>findUpdateRange</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1a95716eb31d029e792bef4db71dfc7044" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>isRoot</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1abdcda137489264c7f8088415f23b5adc" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>parent</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1ac29f4255211fe88af4ac0ca09fd99b3b" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>parents</name></member>
       <member refid="classMR_1_1UnionFind__MRVertId_1a0cc46af6b196ce67ee8747a5134b182c" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>reset</name></member>
       <member refid="classMR_1_1UnionFind__MRVertId_1a48ff11afe2980aa15bd0bb0d59bfb28c" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>roots</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRVertId_1a1a70c4aa9ff1b12ff3758573b98599b3" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>size</name></member>
       <member refid="classMR_1_1UnionFind__MRVertId_1a3c210c095f5f318a36b536b1a280ddf1" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>sizeOfComp</name></member>
       <member refid="classMR_1_1UnionFind__MRVertId_1af3f68d8657c22994231de7efcc5dd4d4" prot="package" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>UnionFind_MRVertId</name></member>
       <member refid="classMR_1_1UnionFind__MRVertId_1a91fba248b9fa3e793b74585adc289152" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>UnionFind_MRVertId</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRTextureId__MRTextureId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRTextureId_MRTextureId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRTextureId_MRTextureId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId" prot="public" virt="non-virtual">MR.Const_Buffer_MRTextureId_MRTextureId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRTextureId__MRTextureId_1acd3c975ad1b88e498870e630e36fb3d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -235,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRTextureId_MRTextureId</label>
+        <link refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRTextureId_MRTextureId</label>
+        <link refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -280,15 +282,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7918" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7919" bodyend="8078"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1af65de09b234204cec5361edf63d09500" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1a3f17b820a9a7c1b543dcc76a4c31a2dd" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1ab9b393ff12c6ea7a195a09a35427f3f6" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1aa32f2f736235f7c2552d5cee3ebf0776" prot="package" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Buffer_MRTextureId_MRTextureId</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1ae346b1fed8f1cb188f5ba465fe5d5aa8" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Buffer_MRTextureId_MRTextureId</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a53a9f7ba4c82fa39740d22ee222cca25" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Buffer_MRTextureId_MRTextureId</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a326690407c621410124cce9f38a3d419" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Buffer_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1a1abc5d69a2d3f9624a7e8896db522095" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1aa00418db9bdbd45f17bb3cbcaf3505a8" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1aadd8d7d9094c62d3cccbe6b48859830b" prot="package" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Const_Buffer_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1afaed4aa7b0f933d7111b595e680aa44b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Const_Buffer_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1ae237b9e91acac7c927a95355057231a2" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Const_Buffer_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1aefa386a283e4489692343dbb18369356" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Const_Buffer_MRTextureId_MRTextureId</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a0364c8a7d2c90ad5879fef887ce4116e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1afa66297d4f146cef3a8c719c07d7b168" prot="protected" virt="virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1ae3b194405995d57baf53e06ae1ec4c3e" prot="public" virt="virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1ab2a892ccfb53ff5dad67b936c73aeaf4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1ade130596e22e4f30cb8d29bf113d1213" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1afcbaf6131a0f41fec6f2ccbac838571b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a3a175c0c1b57acb971e58f1e47644d63" prot="private" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1a66894eae0f7a59851558934e71968347" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1a98840a44d0132956d474bb2fe4a1e80f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId_1a5f528c4d878a33cef9ca17ce1d313443" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRTextureId__MRTextureId_1acd3c975ad1b88e498870e630e36fb3d1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRTextureId_MRTextureId</scope><name>this[MR.TextureId i]</name></member>
     </listofallmembers>
   </compounddef>

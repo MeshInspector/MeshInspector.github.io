@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1WeightedShell_1_1Const__ParametersMetric" kind="class" language="C#" prot="public">
+    <compoundname>MR::WeightedShell::Const_ParametersMetric</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1WeightedShell_1_1ParametersMetric" prot="public" virt="non-virtual">MR.WeightedShell.ParametersMetric</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a529360dbef6f5081c9827886abf5ecbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__DistanceFromWeightedPointsParams" kindref="compound">MR.Const_DistanceFromWeightedPointsParams</ref></type>
+        <definition>unsafe MR.Const_DistanceFromWeightedPointsParams MR.WeightedShell.Const_ParametersMetric.dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.dist</qualifiedname>
+        <briefdescription>
+<para>parameters of distance finding </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="608" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="608" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1ae60db3c3f878bf4dfd9361c622bba85b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.WeightedShell.Const_ParametersMetric.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.offset</qualifiedname>
+        <briefdescription>
+<para>build iso-surface of minimal distance to points corresponding to this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="613" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="613" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a8b73a5abd81b493708a1ecfc95da5d8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.WeightedShell.Const_ParametersMetric.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.voxelSize</qualifiedname>
+        <briefdescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="620" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="620" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a8ad2632f00c6734d3bd6035f0e166077" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.WeightedShell.Const_ParametersMetric.numLayers</definition>
+        <argsstring></argsstring>
+        <name>numLayers</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.numLayers</qualifiedname>
+        <briefdescription>
+<para>number of voxels to compute near the offset (should be left default unless used for debugging) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="626" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="626" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a0b4fb42abdb816d86181ee436a6d89ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.WeightedShell.Const_ParametersMetric.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.progress</qualifiedname>
+        <briefdescription>
+<para>Progress callback. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="632" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="632" bodyend="632"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a7ac7ab2d8049811045ddeb5e0076e548" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.WeightedShell.Const_ParametersMetric.__ref_storage_offset</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_offset</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.__ref_storage_offset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="614" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="614" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a590082055967bf004265c76c1644f289" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.WeightedShell.Const_ParametersMetric.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="621" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="621" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a2be3838762bc89bd49f55d6fc2b18203" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.WeightedShell.Const_ParametersMetric.__ref_storage_numLayers</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_numLayers</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.__ref_storage_numLayers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="627" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="627" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a67ac2fe58ba121183066283b356e2dbf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.WeightedShell.Const_ParametersMetric.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="583" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="583" bodyend="591"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a3340917c90333e085c843dbcbe354ba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.WeightedShell.Const_ParametersMetric.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="592" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="592" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1ae7203ea67df7c591d5a20f2173f2f9c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ParametersMetric</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="685" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="685" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a9f0940194aa1a7d454301f6ae94a0502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</definition>
+        <argsstring>(MR.WeightedShell._ByValue_ParametersMetric _other)</argsstring>
+        <name>Const_ParametersMetric</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</qualifiedname>
+        <param>
+          <type>MR.WeightedShell._ByValue_ParametersMetric</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WeightedShell_1_1ParametersMetric_1a02a917f5d71a4830cfb1f5dd88a7e3b0" kindref="member">MR.WeightedShell.ParametersMetric.ParametersMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="696" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="696" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1aa3e71a3491926c73aca856efd0d3541d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</definition>
+        <argsstring>(Const_ParametersMetric _other)</argsstring>
+        <name>Const_ParametersMetric</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric" kindref="compound">Const_ParametersMetric</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WeightedShell_1_1ParametersMetric_1a02a917f5d71a4830cfb1f5dd88a7e3b0" kindref="member">MR.WeightedShell.ParametersMetric.ParametersMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="708" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="708" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a5726c6064213938d2fd46042a7f716b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</definition>
+        <argsstring>(ParametersMetric _other)</argsstring>
+        <name>Const_ParametersMetric</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WeightedShell_1_1ParametersMetric_1a02a917f5d71a4830cfb1f5dd88a7e3b0" kindref="member">MR.WeightedShell.ParametersMetric.ParametersMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="713" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="713" bodyend="713"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1afc739252dc9fad849101a5d91487d2fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WeightedShell.Const_ParametersMetric.~Const_ParametersMetric</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ParametersMetric</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.~Const_ParametersMetric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="593" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="593" bodyend="593"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a49a5f05047d9babdfc9fa06f63f4fd98" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.WeightedShell.Const_ParametersMetric.operator MR.WeightedShell.Const_ParametersBase</definition>
+        <argsstring>(Const_ParametersMetric self)</argsstring>
+        <name>operator MR.WeightedShell.Const_ParametersBase</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.operator MR.WeightedShell.Const_ParametersBase</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric" kindref="compound">Const_ParametersMetric</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="596" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="596" bodyend="603"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a0a6a7aa73887c9f8f741417978920491" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ParametersMetric</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersMetric.Const_ParametersMetric</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="674" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="674" bodyend="679"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">MR.WeightedShell.ParametersMetric</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1WeightedShell_1_1ParametersBase" kindref="compound">MR.WeightedShell.ParametersBase</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.WeightedShell.Const_ParametersMetric</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.WeightedShell.ParametersMetric</label>
+        <link refid="classMR_1_1WeightedShell_1_1ParametersMetric"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.WeightedShell.Const_ParametersMetric</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="577" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="578" bodyend="714"/>
+    <listofallmembers>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a2be3838762bc89bd49f55d6fc2b18203" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>__ref_storage_numLayers</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a7ac7ab2d8049811045ddeb5e0076e548" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>__ref_storage_offset</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a590082055967bf004265c76c1644f289" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a0a6a7aa73887c9f8f741417978920491" prot="package" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>Const_ParametersMetric</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1ae7203ea67df7c591d5a20f2173f2f9c3" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>Const_ParametersMetric</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a9f0940194aa1a7d454301f6ae94a0502" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>Const_ParametersMetric</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1aa3e71a3491926c73aca856efd0d3541d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>Const_ParametersMetric</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a5726c6064213938d2fd46042a7f716b8" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>Const_ParametersMetric</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a67ac2fe58ba121183066283b356e2dbf" prot="protected" virt="virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a3340917c90333e085c843dbcbe354ba2" prot="public" virt="virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a529360dbef6f5081c9827886abf5ecbb" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>dist</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a8ad2632f00c6734d3bd6035f0e166077" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>numLayers</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1ae60db3c3f878bf4dfd9361c622bba85b" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>offset</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a49a5f05047d9babdfc9fa06f63f4fd98" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>operator MR.WeightedShell.Const_ParametersBase</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a0b4fb42abdb816d86181ee436a6d89ca" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>progress</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1a8b73a5abd81b493708a1ecfc95da5d8b" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric_1afc739252dc9fad849101a5d91487d2fd" prot="private" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersMetric</scope><name>~Const_ParametersMetric</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

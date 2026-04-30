@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__InflateSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_InflateSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1InflateSettings" prot="public" virt="non-virtual">MR.InflateSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__InflateSettings_1ab217a96f11187dda7c4977e6161e8eb2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_InflateSettings.pressure</definition>
+        <argsstring></argsstring>
+        <name>pressure</name>
+        <qualifiedname>MR.Const_InflateSettings.pressure</qualifiedname>
+        <briefdescription>
+<para>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="761" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="761" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__InflateSettings_1a0bab9ceba4619fdbcbc41850831c4017" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_InflateSettings.iterations</definition>
+        <argsstring></argsstring>
+        <name>iterations</name>
+        <qualifiedname>MR.Const_InflateSettings.iterations</qualifiedname>
+        <briefdescription>
+<para>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="768" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__InflateSettings_1ac3dffcc1e02ebd472b3c25ab8f04c56e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_InflateSettings.preSmooth</definition>
+        <argsstring></argsstring>
+        <name>preSmooth</name>
+        <qualifiedname>MR.Const_InflateSettings.preSmooth</qualifiedname>
+        <briefdescription>
+<para>smooths the area before starting inflation; please set to false only if the region is known to be already smooth </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="775" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="775" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__InflateSettings_1aef109574f771eec9bc1ea243fb5b6497" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_InflateSettings.gradualPressureGrowth</definition>
+        <argsstring></argsstring>
+        <name>gradualPressureGrowth</name>
+        <qualifiedname>MR.Const_InflateSettings.gradualPressureGrowth</qualifiedname>
+        <briefdescription>
+<para>whether to increase the pressure gradually during the iterations (recommended for best quality) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="781" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="781" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__InflateSettings_1a8c309e649a5f11c327b76039c71c6cfc" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_InflateSettings.__ref_storage_pressure</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_pressure</name>
+        <qualifiedname>MR.Const_InflateSettings.__ref_storage_pressure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="762" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__InflateSettings_1a89df4979d2719fb9eb6154893711f8a6" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_InflateSettings.__ref_storage_iterations</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_iterations</name>
+        <qualifiedname>MR.Const_InflateSettings.__ref_storage_iterations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="769" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__InflateSettings_1af375296bd4aa47c7479995e5c5700f61" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_InflateSettings.__ref_storage_preSmooth</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_preSmooth</name>
+        <qualifiedname>MR.Const_InflateSettings.__ref_storage_preSmooth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="776" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="776" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__InflateSettings_1a5bc7a71920ab3411a3eb53fb78ecd9bc" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_InflateSettings.__ref_storage_gradualPressureGrowth</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_gradualPressureGrowth</name>
+        <qualifiedname>MR.Const_InflateSettings.__ref_storage_gradualPressureGrowth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="782" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="782" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__InflateSettings_1aeb62ded72e9346242365c3e8ba23b61c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_InflateSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_InflateSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="744" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="744" bodyend="752"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__InflateSettings_1ac37e43140e67410094c3c79b518d6e6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_InflateSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_InflateSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="753" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="753" bodyend="753"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__InflateSettings_1a2f91fd39c9c6fd0cee589d77d8b081e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_InflateSettings.Const_InflateSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_InflateSettings</name>
+        <qualifiedname>MR.Const_InflateSettings.Const_InflateSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="827" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="827" bodyend="833"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__InflateSettings_1ad0ba3e723c5623a3f645b027fe55644e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_InflateSettings.Const_InflateSettings</definition>
+        <argsstring>(float pressure, int iterations, bool preSmooth, bool gradualPressureGrowth)</argsstring>
+        <name>Const_InflateSettings</name>
+        <qualifiedname>MR.Const_InflateSettings.Const_InflateSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pressure</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preSmooth</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>gradualPressureGrowth</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1InflateSettings" kindref="compound">MR.InflateSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="838" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="838" bodyend="844"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__InflateSettings_1a1bd2f8db6fd66eacf86cb5a8e3f868a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_InflateSettings.Const_InflateSettings</definition>
+        <argsstring>(MR.Const_InflateSettings _other)</argsstring>
+        <name>Const_InflateSettings</name>
+        <qualifiedname>MR.Const_InflateSettings.Const_InflateSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__InflateSettings" kindref="compound">MR.Const_InflateSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1InflateSettings_1acd89a95a15f8846e897d05846e75ac5a" kindref="member">MR.InflateSettings.InflateSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="849" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="849" bodyend="856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__InflateSettings_1a350b45d631d51468c3950804ee586060" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_InflateSettings.Const_InflateSettings</definition>
+        <argsstring>(InflateSettings _other)</argsstring>
+        <name>Const_InflateSettings</name>
+        <qualifiedname>MR.Const_InflateSettings.Const_InflateSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1InflateSettings" kindref="compound">InflateSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1InflateSettings_1acd89a95a15f8846e897d05846e75ac5a" kindref="member">MR.InflateSettings.InflateSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="861" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="861" bodyend="861"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__InflateSettings_1ac36db6582ebeabd97542b17cf4e59abb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_InflateSettings.~Const_InflateSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_InflateSettings</name>
+        <qualifiedname>MR.Const_InflateSettings.~Const_InflateSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="754" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="754" bodyend="754"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__InflateSettings_1a9c07472ad8a1b69580c268bb6f9add98" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_InflateSettings.Const_InflateSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_InflateSettings</name>
+        <qualifiedname>MR.Const_InflateSettings.Const_InflateSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="816" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="816" bodyend="821"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1InflateSettings" kindref="compound">MR.InflateSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_InflateSettings</label>
+        <link refid="classMR_1_1Const__InflateSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.InflateSettings</label>
+        <link refid="classMR_1_1InflateSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_InflateSettings</label>
+        <link refid="classMR_1_1Const__InflateSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="738" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="739" bodyend="862"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__InflateSettings_1a5bc7a71920ab3411a3eb53fb78ecd9bc" prot="protected" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>__ref_storage_gradualPressureGrowth</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1a89df4979d2719fb9eb6154893711f8a6" prot="protected" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>__ref_storage_iterations</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1af375296bd4aa47c7479995e5c5700f61" prot="protected" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>__ref_storage_preSmooth</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1a8c309e649a5f11c327b76039c71c6cfc" prot="protected" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>__ref_storage_pressure</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1a9c07472ad8a1b69580c268bb6f9add98" prot="package" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>Const_InflateSettings</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1a2f91fd39c9c6fd0cee589d77d8b081e5" prot="public" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>Const_InflateSettings</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1ad0ba3e723c5623a3f645b027fe55644e" prot="public" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>Const_InflateSettings</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1a1bd2f8db6fd66eacf86cb5a8e3f868a2" prot="public" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>Const_InflateSettings</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1a350b45d631d51468c3950804ee586060" prot="public" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>Const_InflateSettings</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1aeb62ded72e9346242365c3e8ba23b61c" prot="protected" virt="virtual"><scope>MR::Const_InflateSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1ac37e43140e67410094c3c79b518d6e6c" prot="public" virt="virtual"><scope>MR::Const_InflateSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1aef109574f771eec9bc1ea243fb5b6497" prot="public" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>gradualPressureGrowth</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1a0bab9ceba4619fdbcbc41850831c4017" prot="public" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>iterations</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1ac3dffcc1e02ebd472b3c25ab8f04c56e" prot="public" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>preSmooth</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1ab217a96f11187dda7c4977e6161e8eb2" prot="public" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>pressure</name></member>
+      <member refid="classMR_1_1Const__InflateSettings_1ac36db6582ebeabd97542b17cf4e59abb" prot="private" virt="non-virtual"><scope>MR::Const_InflateSettings</scope><name>~Const_InflateSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

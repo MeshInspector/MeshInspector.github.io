@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kind="class" language="C#" prot="public">
     <compoundname>MR::WeightedShell::DistanceVolumeCreationParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.WeightedShell.Const_DistanceVolumeCreationParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" prot="public" virt="non-virtual">MR.WeightedShell.Const_DistanceVolumeCreationParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ac2def685bbbe61ccab09b3234b12755d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1DistanceVolumeParams" kindref="compound">MR.DistanceVolumeParams</ref></type>
@@ -122,7 +122,7 @@
         <name>DistanceVolumeCreationParams</name>
         <qualifiedname>MR.WeightedShell.DistanceVolumeCreationParams.DistanceVolumeCreationParams</qualifiedname>
         <param>
-          <type>Const_DistanceVolumeCreationParams</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" kindref="compound">Const_DistanceVolumeCreationParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -190,6 +190,7 @@
       </node>
       <node id="2">
         <label>MR.WeightedShell.Const_DistanceVolumeCreationParams</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -211,6 +212,7 @@
       </node>
       <node id="2">
         <label>MR.WeightedShell.Const_DistanceVolumeCreationParams</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -223,6 +225,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="112" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="113" bodyend="206"/>
     <listofallmembers>
       <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ad66f6050e65285128ae7c6b388c12190" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams_1a32a185d5dc2e3bef9d54179c3398c181" prot="package" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>Const_DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams_1abd23f4b090cb141388ea64caed91f467" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>Const_DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams_1ac0729486bcf1ac2caa465eb157fddb1f" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>Const_DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams_1a6dd740c546f0dcba747686bb5d36f4db" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>Const_DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams_1a4ffaba3d1a08405ce3e63e9de53c01db" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>Const_DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams_1a4d890a3c87b183a24b42a15204ec13f1" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>Const_DistanceVolumeCreationParams</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams_1a0a923f72230f10420125262396608f5b" prot="protected" virt="virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams_1aa8b304219f78858998d35909b09fc4ae" prot="public" virt="virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ad19111135621bab74fa2b1773f70bf55" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>dist</name></member>
       <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ab52e922c4ff2a1a3372b3ac7617a06d8" prot="package" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>DistanceVolumeCreationParams</name></member>
       <member refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a0c22f38220e879d0bcd2cb86ae4f849d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::DistanceVolumeCreationParams</scope><name>DistanceVolumeCreationParams</name></member>

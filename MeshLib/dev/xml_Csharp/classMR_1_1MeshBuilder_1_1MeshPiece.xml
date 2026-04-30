@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshBuilder_1_1MeshPiece" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshBuilder::MeshPiece</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshBuilder.Const_MeshPiece</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece" prot="public" virt="non-virtual">MR.MeshBuilder.Const_MeshPiece</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1MeshPiece_1a21f72d90a9a226245f83228584085476" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref></type>
@@ -158,7 +158,7 @@
         <name>MeshPiece</name>
         <qualifiedname>MR.MeshBuilder.MeshPiece.MeshPiece</qualifiedname>
         <param>
-          <type>Const_MeshPiece</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece" kindref="compound">Const_MeshPiece</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -223,6 +223,7 @@
       </node>
       <node id="2">
         <label>MR.MeshBuilder.Const_MeshPiece</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -244,6 +245,7 @@
       </node>
       <node id="2">
         <label>MR.MeshBuilder.Const_MeshPiece</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +261,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="342" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" bodystart="343" bodyend="459"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshBuilder_1_1MeshPiece_1a6895976075f242a4f9e8ee0b1b6e7f14" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a0ae94d5b8b4452838697e4d99751d350" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>Const_MeshPiece</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a772c2aa2b9600424a7346380831b248f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>Const_MeshPiece</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1aef31296835b518593184f85dfd949a57" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>Const_MeshPiece</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a9ea0c4649298f7aa2202235c1d454040" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>Const_MeshPiece</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1aed195e17c4a895f7ed4ccf86033cf6fe" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>Const_MeshPiece</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1ae50d2c07de468f7202adb4def43bedb9" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>Const_MeshPiece</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1abbac1f176d7a8653f8f2e7b78620edec" prot="protected" virt="virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece_1a03f6d256f563e4a7c0c0ce3078f204fa" prot="public" virt="virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1MeshPiece_1a21f72d90a9a226245f83228584085476" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>fmap</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1MeshPiece_1adfbc7cdadc1f2a2a0b78353bb7de3d3f" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>MeshPiece</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1MeshPiece_1ab002f169e0d57f763fa2b592baccf848" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::MeshPiece</scope><name>MeshPiece</name></member>

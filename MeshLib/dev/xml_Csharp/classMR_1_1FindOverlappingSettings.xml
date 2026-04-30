@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FindOverlappingSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::FindOverlappingSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindOverlappingSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FindOverlappingSettings" prot="public" virt="non-virtual">MR.Const_FindOverlappingSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FindOverlappingSettings_1a107828077696ab8e03547eda1f72c1b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -180,7 +180,7 @@
         <name>FindOverlappingSettings</name>
         <qualifiedname>MR.FindOverlappingSettings.FindOverlappingSettings</qualifiedname>
         <param>
-          <type>Const_FindOverlappingSettings</type>
+          <type><ref refid="classMR_1_1Const__FindOverlappingSettings" kindref="compound">Const_FindOverlappingSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -245,6 +245,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FindOverlappingSettings</label>
+        <link refid="classMR_1_1Const__FindOverlappingSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -266,6 +267,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FindOverlappingSettings</label>
+        <link refid="classMR_1_1Const__FindOverlappingSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -280,8 +282,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="150" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="151" bodyend="263"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a171698626ec9446e0bf30c603794b6c6" prot="protected" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>__ref_storage_maxDistSq</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a7f34b3ade6d3b8ec9d5c4a28b7cdbbe7" prot="protected" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>__ref_storage_maxNormalDot</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a40e8f8f89f05a26b9cf73f6a171564b5" prot="protected" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>__ref_storage_minAreaFraction</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1aa45d8b84680522000e4c77532d5efe8f" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1a3d5f0e2f904e8b8f1bcc65752219ff94" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a4d307860bdb30f2fbc3ebe005196aba7" prot="package" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a65b4f097a5d34cd8908eb20e254e3527" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a51cb329c99250488632e810132053bb0" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a8e4d8e4c014e4118a9c818a7c816b68e" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a67d4fd671e15f2f9a966744ada23b9f5" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1ae09cd55f1ccf63c9a2e26b9c87911889" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1aa06d4b25f76765507889ae6a10e2f9f7" prot="protected" virt="virtual"><scope>MR::FindOverlappingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a0bc2e7ba2781dffdfaee5e5d546a7fb4" prot="public" virt="virtual"><scope>MR::FindOverlappingSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1abf48777fdb7ed6b094e746de26a5ec5a" prot="package" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1af2341a3a1fd62d71b5932f6253dfac17" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>
       <member refid="classMR_1_1FindOverlappingSettings_1a19704b35707c206ce1b5cfb9fa0f4397" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>FindOverlappingSettings</name></member>

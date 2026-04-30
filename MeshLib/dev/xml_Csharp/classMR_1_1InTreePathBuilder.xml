@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1InTreePathBuilder" kind="class" language="C#" prot="public">
     <compoundname>MR::InTreePathBuilder</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_InTreePathBuilder</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__InTreePathBuilder" prot="public" virt="non-virtual">MR.Const_InTreePathBuilder</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1InTreePathBuilder_1a6f14e556706158cb2723b2d1e775b048" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>InTreePathBuilder</name>
         <qualifiedname>MR.InTreePathBuilder.InTreePathBuilder</qualifiedname>
         <param>
-          <type>Const_InTreePathBuilder</type>
+          <type><ref refid="classMR_1_1Const__InTreePathBuilder" kindref="compound">Const_InTreePathBuilder</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,11 +92,11 @@
         <name>InTreePathBuilder</name>
         <qualifiedname>MR.InTreePathBuilder.InTreePathBuilder</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>treeEdges</declname>
         </param>
         <briefdescription>
@@ -123,6 +123,7 @@
       </node>
       <node id="2">
         <label>MR.Const_InTreePathBuilder</label>
+        <link refid="classMR_1_1Const__InTreePathBuilder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -144,6 +145,7 @@
       </node>
       <node id="2">
         <label>MR.Const_InTreePathBuilder</label>
+        <link refid="classMR_1_1Const__InTreePathBuilder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -158,6 +160,14 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" line="80" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInTreePathBuilder.cs" bodystart="81" bodyend="116"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__InTreePathBuilder_1ae8d08f842395c646724000799496cc77" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>build</name></member>
+      <member refid="classMR_1_1Const__InTreePathBuilder_1a2400a6c31186c50ed25b525674808608" prot="package" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>Const_InTreePathBuilder</name></member>
+      <member refid="classMR_1_1Const__InTreePathBuilder_1a0f2d1d804772cbbc6eddceecdb14b979" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>Const_InTreePathBuilder</name></member>
+      <member refid="classMR_1_1Const__InTreePathBuilder_1abef6ccba84de9b1ab8d569e050c27634" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>Const_InTreePathBuilder</name></member>
+      <member refid="classMR_1_1Const__InTreePathBuilder_1a90544a07d28d5e0fdb1705caa2e8603b" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>Const_InTreePathBuilder</name></member>
+      <member refid="classMR_1_1Const__InTreePathBuilder_1aafc96311e2ec279630ad043b0e698965" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>Const_InTreePathBuilder</name></member>
+      <member refid="classMR_1_1Const__InTreePathBuilder_1a7b580d5496087a31774266dc1accde3d" prot="protected" virt="virtual"><scope>MR::InTreePathBuilder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__InTreePathBuilder_1a3625ee14f983b2eb26402ac4d20b52d5" prot="public" virt="virtual"><scope>MR::InTreePathBuilder</scope><name>Dispose</name></member>
       <member refid="classMR_1_1InTreePathBuilder_1a6f14e556706158cb2723b2d1e775b048" prot="package" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>InTreePathBuilder</name></member>
       <member refid="classMR_1_1InTreePathBuilder_1a054b9398562c6d6eeb75f681878610ef" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>InTreePathBuilder</name></member>
       <member refid="classMR_1_1InTreePathBuilder_1a1283b6d6888cdeea53af22e55bed4260" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>InTreePathBuilder</name></member>

@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_UnsignedShort_MRVoxelId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId" prot="public" virt="non-virtual">MR.Vector_UnsignedShort_MRVoxelId</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1_1__Underlying" prot="package">MR::Const_Vector_UnsignedShort_MRVoxelId::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3e111e33f45e607b660d818abec33efd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_UnsignedShort</type>
+        <definition>unsafe MR.Std.Const_Vector_UnsignedShort MR.Const_Vector_UnsignedShort_MRVoxelId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52009" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52009" bodyend="52009"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ae3bc690b8945e4fc2b7f306ba2c8f66c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Vector_UnsignedShort_MRVoxelId.this[MR.VoxelId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.VoxelId i]</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.this[MR.VoxelId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52158" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52159" bodyend="52166"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a528e09afd0c6c266e5c9e7e75db6ec4e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_UnsignedShort_MRVoxelId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51930" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51930" bodyend="51938"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a2d3965a148777f83192f59844e9637a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_UnsignedShort_MRVoxelId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51939" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51939" bodyend="51939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ace0526280f39811afe9eeff1272f5dc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; ushort &gt;</type>
+        <definition>IEnumerator&lt; ushort &gt; MR.Const_Vector_UnsignedShort_MRVoxelId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51996" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51996" bodyend="51999"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ada0d11fe10c80eea8ff38e97184eac7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52037" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52037" bodyend="52043"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3ab4fc173c0c0788773829e03e6164ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>(MR._ByValue_Vector_UnsignedShort_MRVoxelId _other)</argsstring>
+        <name>Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_UnsignedShort_MRVoxelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52048" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52048" bodyend="52055"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a03aa77bca513d883dd7da36aff58f427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>(Const_Vector_UnsignedShort_MRVoxelId _other)</argsstring>
+        <name>Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId" kindref="compound">Const_Vector_UnsignedShort_MRVoxelId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52060" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52060" bodyend="52060"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a73a5a914923231e660e2957559bbcf77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>(Vector_UnsignedShort_MRVoxelId _other)</argsstring>
+        <name>Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId" kindref="compound">Vector_UnsignedShort_MRVoxelId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52065" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52065" bodyend="52065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ae2ba249c96b06e656dc41466e1fddb09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52071" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52071" bodyend="52077"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ada62f81e72eeb90517395cdcdc270763" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>(ulong size, ushort val)</argsstring>
+        <name>Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52083" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52083" bodyend="52089"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a284caf6b04cc281f26be5f766007bf61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_UnsignedShort &gt; vec)</argsstring>
+        <name>Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_UnsignedShort &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52095" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52095" bodyend="52102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a6bb90544056db83b26379a30581ab52b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_UnsignedShort_MRVoxelId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a6bb90544056db83b26379a30581ab52b" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52128" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52128" bodyend="52133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a28c786ff6483c5afd57134665684a075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_UnsignedShort_MRVoxelId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a28c786ff6483c5afd57134665684a075" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52138" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52138" bodyend="52143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ab9e8e150606c86bed56a32497559ce2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_UnsignedShort_MRVoxelId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ab9e8e150606c86bed56a32497559ce2b" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52148" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52148" bodyend="52153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1aae6f510dae2c9cd6dc9c9a2e07490272" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Vector_UnsignedShort_MRVoxelId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1aae6f510dae2c9cd6dc9c9a2e07490272" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52171" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52171" bodyend="52176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1acdec88cf277e852b9d52cfc70b7dafe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Vector_UnsignedShort_MRVoxelId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1acdec88cf277e852b9d52cfc70b7dafe5" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52181" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52181" bodyend="52186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ab284bd62e970c067a8e03b6b90413247" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_Vector_UnsignedShort_MRVoxelId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ab284bd62e970c067a8e03b6b90413247" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52192" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52192" bodyend="52197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3b5eb255dc3c0d843a8d24ab4177a993" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_Vector_UnsignedShort_MRVoxelId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1acdec88cf277e852b9d52cfc70b7dafe5" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3b5eb255dc3c0d843a8d24ab4177a993" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52203" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52203" bodyend="52208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a7949a4fdb5090f5547c0318f6f7dcd71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_Vector_UnsignedShort_MRVoxelId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3b5eb255dc3c0d843a8d24ab4177a993" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a7949a4fdb5090f5547c0318f6f7dcd71" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52214" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52214" bodyend="52219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ac9ac7fea06f5d2acad0e693a8d1c9b96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? ushort</type>
+        <definition>unsafe? ushort MR.Const_Vector_UnsignedShort_MRVoxelId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ac9ac7fea06f5d2acad0e693a8d1c9b96" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52224" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52224" bodyend="52230"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a5772df03a870834299ef5bd7abb3d385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_UnsignedShort_MRVoxelId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a5772df03a870834299ef5bd7abb3d385" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52236" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52236" bodyend="52241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1acbc369bf5c808452b202e9ac9b48ab4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Vector_UnsignedShort_MRVoxelId.Equals</definition>
+        <argsstring>(MR.Const_Vector_UnsignedShort_MRVoxelId? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId" kindref="compound">MR.Const_Vector_UnsignedShort_MRVoxelId</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52245" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52245" bodyend="52250"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a90a03c7e34cc6186440c4bbbeb3597e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Vector_UnsignedShort_MRVoxelId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52252" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52252" bodyend="52259"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a9167cf38fa089efedb5f53243b7eba63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_UnsignedShort_MRVoxelId.~Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.~Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51940" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51940" bodyend="51940"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1abc934beda56cb90d38451f13e3ef344c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_UnsignedShort_MRVoxelId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52001" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52001" bodyend="52004"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a80dfff0f6ee102f513757142a460656c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52026" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52026" bodyend="52031"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1abda289e8ce539118de3872649ed75c49" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_UnsignedShort_MRVoxelId.operator Const_Vector_UnsignedShort_MRVoxelId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_UnsignedShort &gt; vec)</argsstring>
+        <name>operator Const_Vector_UnsignedShort_MRVoxelId</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.operator Const_Vector_UnsignedShort_MRVoxelId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_UnsignedShort &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52108" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52108" bodyend="52108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1af2658d86b8a9925ee44404378445aa82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_UnsignedShort_MRVoxelId.operator==</definition>
+        <argsstring>(MR.Const_Vector_UnsignedShort_MRVoxelId _this, MR.Const_Vector_UnsignedShort_MRVoxelId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId" kindref="compound">MR.Const_Vector_UnsignedShort_MRVoxelId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId" kindref="compound">MR.Const_Vector_UnsignedShort_MRVoxelId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1af2658d86b8a9925ee44404378445aa82" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52113" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52113" bodyend="52118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1aaa80e8b47300589ff2c4344eba6c9b41" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_UnsignedShort_MRVoxelId.operator!=</definition>
+        <argsstring>(MR.Const_Vector_UnsignedShort_MRVoxelId _this, MR.Const_Vector_UnsignedShort_MRVoxelId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Vector_UnsignedShort_MRVoxelId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId" kindref="compound">MR.Const_Vector_UnsignedShort_MRVoxelId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId" kindref="compound">MR.Const_Vector_UnsignedShort_MRVoxelId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="52120" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="52120" bodyend="52123"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_UnsignedShort_MRVoxelId</label>
+        <link refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.Vector_UnsignedShort_MRVoxelId</label>
+        <link refid="classMR_1_1Vector__UnsignedShort__MRVoxelId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_UnsignedShort_MRVoxelId</label>
+        <link refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51924" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51925" bodyend="52260"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1acdec88cf277e852b9d52cfc70b7dafe5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3b5eb255dc3c0d843a8d24ab4177a993" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ab284bd62e970c067a8e03b6b90413247" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ab9e8e150606c86bed56a32497559ce2b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a80dfff0f6ee102f513757142a460656c" prot="package" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ada0d11fe10c80eea8ff38e97184eac7f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3ab4fc173c0c0788773829e03e6164ff" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a03aa77bca513d883dd7da36aff58f427" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a73a5a914923231e660e2957559bbcf77" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ae2ba249c96b06e656dc41466e1fddb09" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ada62f81e72eeb90517395cdcdc270763" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a284caf6b04cc281f26be5f766007bf61" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ac9ac7fea06f5d2acad0e693a8d1c9b96" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a528e09afd0c6c266e5c9e7e75db6ec4e" prot="protected" virt="virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a2d3965a148777f83192f59844e9637a3" prot="public" virt="virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a6bb90544056db83b26379a30581ab52b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a7949a4fdb5090f5547c0318f6f7dcd71" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1acbc369bf5c808452b202e9ac9b48ab4d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a90a03c7e34cc6186440c4bbbeb3597e2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1aae6f510dae2c9cd6dc9c9a2e07490272" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ace0526280f39811afe9eeff1272f5dc1" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1abc934beda56cb90d38451f13e3ef344c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a5772df03a870834299ef5bd7abb3d385" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1abda289e8ce539118de3872649ed75c49" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>operator Const_Vector_UnsignedShort_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1aaa80e8b47300589ff2c4344eba6c9b41" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1af2658d86b8a9925ee44404378445aa82" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a28c786ff6483c5afd57134665684a075" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1ae3bc690b8945e4fc2b7f306ba2c8f66c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>this[MR.VoxelId i]</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a3e111e33f45e607b660d818abec33efd" prot="public" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__UnsignedShort__MRVoxelId_1a9167cf38fa089efedb5f53243b7eba63" prot="private" virt="non-virtual"><scope>MR::Const_Vector_UnsignedShort_MRVoxelId</scope><name>~Const_Vector_UnsignedShort_MRVoxelId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

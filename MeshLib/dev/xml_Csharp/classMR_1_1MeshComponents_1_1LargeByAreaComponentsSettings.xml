@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshComponents::LargeByAreaComponentsSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshComponents.Const_LargeByAreaComponentsSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" prot="public" virt="non-virtual">MR.MeshComponents.Const_LargeByAreaComponentsSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a66018ce08815ede109bc17985add9d40" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -50,7 +50,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="557" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="557" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1af03f604d99af5522a7dfda41cf4c7585" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_UndirectedEdgeBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">Const_UndirectedEdgeBitSet</ref></type>
         <definition>new unsafe MR.? Const_UndirectedEdgeBitSet MR.MeshComponents.LargeByAreaComponentsSettings.isCompBd</definition>
         <argsstring></argsstring>
         <name>isCompBd</name>
@@ -124,7 +124,7 @@
           <declname>minArea</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>isCompBd</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>LargeByAreaComponentsSettings</name>
         <qualifiedname>MR.MeshComponents.LargeByAreaComponentsSettings.LargeByAreaComponentsSettings</qualifiedname>
         <param>
-          <type>MR.MeshComponents.Const_LargeByAreaComponentsSettings</type>
+          <type><ref refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" kindref="compound">MR.MeshComponents.Const_LargeByAreaComponentsSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshComponents.LargeByAreaComponentsSettings.assign</qualifiedname>
         <param>
-          <type>MR.MeshComponents.Const_LargeByAreaComponentsSettings</type>
+          <type><ref refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" kindref="compound">MR.MeshComponents.Const_LargeByAreaComponentsSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.MeshComponents.Const_LargeByAreaComponentsSettings</label>
+        <link refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshComponents.LargeByAreaComponentsSettings</label>
         <link refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings"/>
@@ -229,9 +234,13 @@
       </node>
       <node id="2">
         <label>MR.MeshComponents.Const_LargeByAreaComponentsSettings</label>
+        <link refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_isCompBd</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,7 +252,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="532" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" bodystart="533" bodyend="636"/>
     <listofallmembers>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1a3682cf9778dce9b30f265367c84215a5" prot="protected" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>__ptr_storage_isCompBd</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1addb16d409edb48e451c88fe2ccb93646" prot="protected" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>__ptr_storage_numSmallerComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1a7ef36655fd817bd913b86872a9fe485b" prot="protected" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>__ref_storage_maxLargeComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1ac3ff22e56d6401c095d5682166d9b695" prot="protected" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>__ref_storage_minArea</name></member>
       <member refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1ade9f91e401677079178b8a9fed41c988" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1a44dc9e5c80538373a7792fa848ebb4d0" prot="package" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>Const_LargeByAreaComponentsSettings</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1a5a55989f9da6eee90f14dcf7f7799735" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>Const_LargeByAreaComponentsSettings</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1aeca708e7eb5888f867bf13371b7d7ca6" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>Const_LargeByAreaComponentsSettings</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1a3d07299fce6e986b87dc70141d628980" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>Const_LargeByAreaComponentsSettings</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1ac760be228f89c1193b860fddd12a6684" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>Const_LargeByAreaComponentsSettings</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1a0fa4484a9e0a40ef79273f24b1b5ba5e" prot="protected" virt="virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings_1ae3bd6911d1f19105fdf00815eed1d708" prot="public" virt="virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1af03f604d99af5522a7dfda41cf4c7585" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>isCompBd</name></member>
       <member refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a4a34ab2c7c21b6edf5ea8172613d3cef" prot="package" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>LargeByAreaComponentsSettings</name></member>
       <member refid="classMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1accc663d072f32a9f5925cf2864ce927f" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>LargeByAreaComponentsSettings</name></member>

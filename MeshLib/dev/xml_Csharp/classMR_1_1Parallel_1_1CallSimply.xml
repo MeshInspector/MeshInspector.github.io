@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Parallel_1_1CallSimply" kind="class" language="C#" prot="public">
     <compoundname>MR::Parallel::CallSimply</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Parallel.Const_CallSimply</basecompoundref>
+    <basecompoundref refid="classMR_1_1Parallel_1_1Const__CallSimply" prot="public" virt="non-virtual">MR.Parallel.Const_CallSimply</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimply_1a4e1e4293394b888187fd7f47a6b9b5f6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>CallSimply</name>
         <qualifiedname>MR.Parallel.CallSimply.CallSimply</qualifiedname>
         <param>
-          <type>MR.Parallel.Const_CallSimply</type>
+          <type><ref refid="classMR_1_1Parallel_1_1Const__CallSimply" kindref="compound">MR.Parallel.Const_CallSimply</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.Parallel.CallSimply.assign</qualifiedname>
         <param>
-          <type>MR.Parallel.Const_CallSimply</type>
+          <type><ref refid="classMR_1_1Parallel_1_1Const__CallSimply" kindref="compound">MR.Parallel.Const_CallSimply</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -118,6 +118,7 @@
       </node>
       <node id="2">
         <label>MR.Parallel.Const_CallSimply</label>
+        <link refid="classMR_1_1Parallel_1_1Const__CallSimply"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -139,6 +140,7 @@
       </node>
       <node id="2">
         <label>MR.Parallel.Const_CallSimply</label>
+        <link refid="classMR_1_1Parallel_1_1Const__CallSimply"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,12 @@
       <member refid="classMR_1_1Parallel_1_1CallSimply_1a573f9b62dba481f60d1e1b45cc790f15" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>CallSimply</name></member>
       <member refid="classMR_1_1Parallel_1_1CallSimply_1ad73250759aa3f3aedf9e6bffe2f4f8e9" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>CallSimply</name></member>
       <member refid="classMR_1_1Parallel_1_1CallSimply_1ab8df1c943258af96d8b69d08a9f919b2" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>CallSimply</name></member>
+      <member refid="classMR_1_1Parallel_1_1Const__CallSimply_1aa9adc3c2669eb7f83432e00cca4b0d89" prot="package" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>Const_CallSimply</name></member>
+      <member refid="classMR_1_1Parallel_1_1Const__CallSimply_1aeda3da2829b0579a7c4104f7cc7e16ee" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>Const_CallSimply</name></member>
+      <member refid="classMR_1_1Parallel_1_1Const__CallSimply_1a59209e6040ef21d34433deb5bf03bf4a" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>Const_CallSimply</name></member>
+      <member refid="classMR_1_1Parallel_1_1Const__CallSimply_1acb0b19ae5c1b1657803bfc1072c2e5f6" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>Const_CallSimply</name></member>
+      <member refid="classMR_1_1Parallel_1_1Const__CallSimply_1aada2c33dcc26e3a98abe5365bd31dbf8" prot="protected" virt="virtual"><scope>MR::Parallel::CallSimply</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Parallel_1_1Const__CallSimply_1a18fa7295d0b539238bb19b062c61983f" prot="public" virt="virtual"><scope>MR::Parallel::CallSimply</scope><name>Dispose</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

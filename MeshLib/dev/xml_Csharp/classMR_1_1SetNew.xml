@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetNew" kind="class" language="C#" prot="public">
     <compoundname>MR::SetNew</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetNew</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SetNew" prot="public" virt="non-virtual">MR.Const_SetNew</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SetNew_1ac128d2eedaa3047b848384416694346a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>SetNew</name>
         <qualifiedname>MR.SetNew.SetNew</qualifiedname>
         <param>
-          <type>MR.Const_SetNew</type>
+          <type><ref refid="classMR_1_1Const__SetNew" kindref="compound">MR.Const_SetNew</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.SetNew.assign</qualifiedname>
         <param>
-          <type>MR.Const_SetNew</type>
+          <type><ref refid="classMR_1_1Const__SetNew" kindref="compound">MR.Const_SetNew</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetNew</label>
+        <link refid="classMR_1_1Const__SetNew"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetNew</label>
+        <link refid="classMR_1_1Const__SetNew"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="194" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="195" bodyend="235"/>
     <listofallmembers>
       <member refid="classMR_1_1SetNew_1a84cd19e7b2373576caf4ae7c62514947" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SetNew_1ad56d6c9f08cb099e8c08e8284c678c45" prot="package" virt="non-virtual"><scope>MR::SetNew</scope><name>Const_SetNew</name></member>
+      <member refid="classMR_1_1Const__SetNew_1a777c70f1565cf3649b269ba56e3ae525" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>Const_SetNew</name></member>
+      <member refid="classMR_1_1Const__SetNew_1aba0c1c2078f993e93e6cc7ed2dd9d196" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>Const_SetNew</name></member>
+      <member refid="classMR_1_1Const__SetNew_1addf60cfdab596e7d1af4030b4b02086c" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>Const_SetNew</name></member>
+      <member refid="classMR_1_1Const__SetNew_1afa65e7c89c1d1e1dde01e14e9b5fc578" prot="protected" virt="virtual"><scope>MR::SetNew</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetNew_1ab954b73b3b6c8c2324f09ae9e74f4625" prot="public" virt="virtual"><scope>MR::SetNew</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SetNew_1ac128d2eedaa3047b848384416694346a" prot="package" virt="non-virtual"><scope>MR::SetNew</scope><name>SetNew</name></member>
       <member refid="classMR_1_1SetNew_1ae08f8d7caec2c64f01c1ea85707c06df" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>SetNew</name></member>
       <member refid="classMR_1_1SetNew_1afce5f6bb6bbbd0222b6aea6e7714a5d8" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>SetNew</name></member>

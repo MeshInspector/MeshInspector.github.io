@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UiRenderParams" kind="class" language="C#" prot="public">
     <compoundname>MR::UiRenderParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UiRenderParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UiRenderParams" prot="public" virt="non-virtual">MR.Const_UiRenderParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1UiRenderParams_1a2ecf1e38c8a16627899f47156a73ca21" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdSharedPtrMRBasicUiRenderTask</type>
@@ -99,7 +99,7 @@
         <name>UiRenderParams</name>
         <qualifiedname>MR.UiRenderParams.UiRenderParams</qualifiedname>
         <param>
-          <type>MR.Const_UiRenderParams</type>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -145,6 +145,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UiRenderParams</label>
+        <link refid="classMR_1_1Const__UiRenderParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -158,6 +159,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.UiRenderParams</label>
         <link refid="classMR_1_1UiRenderParams"/>
@@ -166,9 +171,17 @@
       </node>
       <node id="2">
         <label>MR.Const_UiRenderParams</label>
+        <link refid="classMR_1_1Const__UiRenderParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_tasks</edgelabel>
+          <edgelabel>__ref_storage_projMatrix</edgelabel>
+          <edgelabel>__ref_storage_viewMatrix</edgelabel>
+          <edgelabel>__ref_storage_viewport</edgelabel>
+          <edgelabel>__ref_storage_viewportId</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -180,11 +193,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1277" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1278" bodyend="1333"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__UiRenderParams_1a4603c6ee9130565c7e0194604d3ce3b4" prot="protected" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>__ptr_storage_tasks</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1ad6aa54affa08367f439fae04d01ff56c" prot="protected" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>__ref_storage_projMatrix</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a5baf41ff5ee3be903f6912c8d5a36923" prot="protected" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>__ref_storage_viewMatrix</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a03423d879bda3e3258fb12c1b3456cb5" prot="protected" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>__ref_storage_viewport</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a74539ca33c478b1f242f093a840a2af3" prot="protected" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>__ref_storage_viewportId</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1aa91c7aba1d5b2eeb1448dcdea5f185ac" prot="package" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>Const_UiRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1afeed344b045b2afe7accd804f5aa9bb6" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>Const_UiRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a5fef55053db87a9b5dbfcd74f4dc6f58" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>Const_UiRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a2481420490df6c53a134efde9447cb72" prot="protected" virt="virtual"><scope>MR::UiRenderParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a5d6950ea498f05862ccd9b6d0ef07699" prot="public" virt="virtual"><scope>MR::UiRenderParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UiRenderParams_1a0f11ddb8b83950159b150439cc633f4f" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>operator MR.BaseRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1ae4852596a280281eff4d90966060daeb" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>operator MR.Const_BaseRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1adb1058e161b5e4b69a5fa19178bb906f" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>projMatrix</name></member>
       <member refid="classMR_1_1UiRenderParams_1a2ecf1e38c8a16627899f47156a73ca21" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>tasks</name></member>
       <member refid="classMR_1_1UiRenderParams_1aa5d4f058089c3ed2bcd4c1c6b4be5951" prot="package" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>UiRenderParams</name></member>
       <member refid="classMR_1_1UiRenderParams_1a095b8513294ee19d3726673e82f31f32" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>UiRenderParams</name></member>
       <member refid="classMR_1_1UiRenderParams_1a9edf6ea51446ddab4ca0a174df0a38ae" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>UiRenderParams</name></member>
+      <member refid="classMR_1_1Const__UiRenderParams_1a974e6ae635cbbfa8cf21e8bc6cfb5e04" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewMatrix</name></member>
       <member refid="classMR_1_1UiRenderParams_1abbd231d338680f28161e6b49c77ea8ba" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewport</name></member>
       <member refid="classMR_1_1UiRenderParams_1a187638642bd51aac0e170618e64dcfa5" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewportId</name></member>
     </listofallmembers>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRRegionId__MRRegionId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRRegionId_MRRegionId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRRegionId_MRRegionId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId" prot="public" virt="non-virtual">MR.Const_Buffer_MRRegionId_MRRegionId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRRegionId__MRRegionId_1ab2462741c3057b8d69496e2093ab7f29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -235,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRRegionId_MRRegionId</label>
+        <link refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRRegionId_MRRegionId</label>
+        <link refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -280,15 +282,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7012" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7013" bodyend="7172"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1ae72df73982d2d1e87570f83b5f9917cf" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a02ab58ce2bb407fdf59568350ab2e02d" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aaef3a6cea6679d7d935a821bf7079ff0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1afdd28dbe7b6fb3c639c8783f66d6b594" prot="package" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Buffer_MRRegionId_MRRegionId</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1ab6ccd4131cddf663fca690c2e4f4cbd3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Buffer_MRRegionId_MRRegionId</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1a29bacacfb1e6a455729918aaa2bda70f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Buffer_MRRegionId_MRRegionId</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1aa257e3637aac4fa03a75526abe6a8af9" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Buffer_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1acf620621294b3a7b8c6d3b0e3e6df56a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1a6b3cb58efd3cd2901d879733868b556b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a7d6a9a05adc3738dbfc32f6d865623e8" prot="package" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Const_Buffer_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a0859ec1c8309867267f707381dc93443" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Const_Buffer_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a4921c00f2d1eb0a6d141d9fb87b157bd" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Const_Buffer_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ab163b8354ef9d171f1f37cf2e8c4aeda" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Const_Buffer_MRRegionId_MRRegionId</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1a9d56c906a4a367a0d1d94974c512407e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1aac3c95f8025a14d93c24d931523e68d1" prot="protected" virt="virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a1f8a5dbaf1135561b88e0c02880034c6" prot="public" virt="virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ae9a2dcf560295ce714875c7351d2f869" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1a5f406455471a63955c1b20c59ac3ead2" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1af7d8807f4d2b8a4ebfe23dc0f222b480" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1abd2527870592b223bf85773bd25f7482" prot="private" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ac6ed8f188b98bf22549257eacb5c2a7a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1a5572c0f2870f6dc26b05001fda1774e0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRRegionId__MRRegionId_1ae16cd6955e3e71c345c5b45a622c187a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRRegionId__MRRegionId_1ab2462741c3057b8d69496e2093ab7f29" prot="public" virt="non-virtual"><scope>MR::Buffer_MRRegionId_MRRegionId</scope><name>this[MR.RegionId i]</name></member>
     </listofallmembers>
   </compounddef>

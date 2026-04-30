@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VertCoordsDiff" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VertCoordsDiff</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VertCoordsDiff" prot="public" virt="non-virtual">MR.VertCoordsDiff</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a3f0df407df3965b6912068b59fe29171" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VertCoordsDiff.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a6423d5c4467bdb70da4e2770b2bd8735" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VertCoordsDiff.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1af2666a7533ca6f3db73adcea86ea943a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertCoordsDiff.Const_VertCoordsDiff</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VertCoordsDiff</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.Const_VertCoordsDiff</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="32" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1aa73a46c4218fe6d0d20f430d9cf0279f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertCoordsDiff.Const_VertCoordsDiff</definition>
+        <argsstring>(MR._ByValue_VertCoordsDiff _other)</argsstring>
+        <name>Const_VertCoordsDiff</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.Const_VertCoordsDiff</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoordsDiff</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" kindref="member">MR.VertCoordsDiff.VertCoordsDiff</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="42" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a1ea24ff9f9aebc2b44049a0bd2d3341e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertCoordsDiff.Const_VertCoordsDiff</definition>
+        <argsstring>(Const_VertCoordsDiff _other)</argsstring>
+        <name>Const_VertCoordsDiff</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.Const_VertCoordsDiff</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoordsDiff" kindref="compound">Const_VertCoordsDiff</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" kindref="member">MR.VertCoordsDiff.VertCoordsDiff</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="53" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a808085d8512ea50b529186c3a3445b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertCoordsDiff.Const_VertCoordsDiff</definition>
+        <argsstring>(VertCoordsDiff _other)</argsstring>
+        <name>Const_VertCoordsDiff</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.Const_VertCoordsDiff</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoordsDiff" kindref="compound">VertCoordsDiff</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" kindref="member">MR.VertCoordsDiff.VertCoordsDiff</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="58" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1af847c3e423d768a18e7066521571bcbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertCoordsDiff.Const_VertCoordsDiff</definition>
+        <argsstring>(MR.Const_VertCoords from, MR.Const_VertCoords to)</argsstring>
+        <name>Const_VertCoordsDiff</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.Const_VertCoordsDiff</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>computes the difference, that can be applied to vector-from in order to get vector-to Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoordsDiff_1a5102d8feec098f916e2c10d8be92db2b" kindref="member">MR.VertCoordsDiff.VertCoordsDiff</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="64" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a2075d548c150f715ba2c7ec586255f7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VertCoordsDiff.any</definition>
+        <argsstring>()</argsstring>
+        <name>any</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.any</qualifiedname>
+        <briefdescription>
+<para>returns true if this object does contain some difference in point coordinates; if (from) vector has just more points and the common elements are the same, then the method will return false since nothing is stored here Generated from method <computeroutput><ref refid="classMR_1_1Const__VertCoordsDiff_1a2075d548c150f715ba2c7ec586255f7c" kindref="member">MR.VertCoordsDiff.any</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="79" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a5c7cfb4203f2d369636c1fb9ff5ce5f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VertCoordsDiff.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VertCoordsDiff_1a5c7cfb4203f2d369636c1fb9ff5ce5f4" kindref="member">MR.VertCoordsDiff.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="90" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="90" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a418bb2dfe7d93bb77ae1e72a0c70fd4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertCoordsDiff.~Const_VertCoordsDiff</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VertCoordsDiff</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.~Const_VertCoordsDiff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertCoordsDiff_1a6a9e24f235e07123d7e394f0799d7fb1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertCoordsDiff.Const_VertCoordsDiff</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VertCoordsDiff</name>
+        <qualifiedname>MR.Const_VertCoordsDiff.Const_VertCoordsDiff</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="27" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this object stores a difference between two vectors with 3D coordinates </para>
+    </briefdescription>
+    <detaileddescription>
+<para>if the vectors are similar then this object is small, if the vectors are very distinct then this object will be even larger than one vector itself Generated from class <computeroutput><ref refid="classMR_1_1VertCoordsDiff" kindref="compound">MR.VertCoordsDiff</ref></computeroutput>. This is the const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VertCoordsDiff</label>
+        <link refid="classMR_1_1Const__VertCoordsDiff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VertCoordsDiff</label>
+        <link refid="classMR_1_1VertCoordsDiff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_VertCoordsDiff</label>
+        <link refid="classMR_1_1Const__VertCoordsDiff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVertCoordsDiff.cs" bodystart="10" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a2075d548c150f715ba2c7ec586255f7c" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>any</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a6a9e24f235e07123d7e394f0799d7fb1" prot="package" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1af2666a7533ca6f3db73adcea86ea943a" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1aa73a46c4218fe6d0d20f430d9cf0279f" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a1ea24ff9f9aebc2b44049a0bd2d3341e" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a808085d8512ea50b529186c3a3445b31" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1af847c3e423d768a18e7066521571bcbf" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Const_VertCoordsDiff</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a3f0df407df3965b6912068b59fe29171" prot="protected" virt="virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a6423d5c4467bdb70da4e2770b2bd8735" prot="public" virt="virtual"><scope>MR::Const_VertCoordsDiff</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a5c7cfb4203f2d369636c1fb9ff5ce5f4" prot="public" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertCoordsDiff_1a418bb2dfe7d93bb77ae1e72a0c70fd4f" prot="private" virt="non-virtual"><scope>MR::Const_VertCoordsDiff</scope><name>~Const_VertCoordsDiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ICP" kind="class" language="C#" prot="public">
     <compoundname>MR::ICP</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ICP</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ICP" prot="public" virt="non-virtual">MR.Const_ICP</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ICP_1a350d1d3bd3842d7fd1ce399eb0527171" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>ICP</name>
         <qualifiedname>MR.ICP.ICP</qualifiedname>
         <param>
-          <type>Const_ICP</type>
+          <type><ref refid="classMR_1_1Const__ICP" kindref="compound">Const_ICP</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,11 +92,11 @@
         <name>ICP</name>
         <qualifiedname>MR.ICP.ICP</qualifiedname>
         <param>
-          <type>MR.Const_MeshOrPoints</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPoints" kindref="compound">MR.Const_MeshOrPoints</ref></type>
           <declname>flt</declname>
         </param>
         <param>
-          <type>MR.Const_MeshOrPoints</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPoints" kindref="compound">MR.Const_MeshOrPoints</ref></type>
           <declname>ref_</declname>
         </param>
         <param>
@@ -108,12 +108,12 @@
           <declname>refXf</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>fltSamples</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>refSamples</declname>
           <defval>null</defval>
         </param>
@@ -183,20 +183,20 @@
         <name>ICP</name>
         <qualifiedname>MR.ICP.ICP</qualifiedname>
         <param>
-          <type>MR.Const_MeshOrPointsXf</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsXf" kindref="compound">MR.Const_MeshOrPointsXf</ref></type>
           <declname>flt</declname>
         </param>
         <param>
-          <type>MR.Const_MeshOrPointsXf</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsXf" kindref="compound">MR.Const_MeshOrPointsXf</ref></type>
           <declname>ref_</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>fltSamples</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>refSamples</declname>
           <defval>null</defval>
         </param>
@@ -216,11 +216,11 @@
         <name>ICP</name>
         <qualifiedname>MR.ICP.ICP</qualifiedname>
         <param>
-          <type>MR.Const_MeshOrPoints</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPoints" kindref="compound">MR.Const_MeshOrPoints</ref></type>
           <declname>flt</declname>
         </param>
         <param>
-          <type>MR.Const_MeshOrPoints</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPoints" kindref="compound">MR.Const_MeshOrPoints</ref></type>
           <declname>ref_</declname>
         </param>
         <param>
@@ -293,11 +293,11 @@
         <name>ICP</name>
         <qualifiedname>MR.ICP.ICP</qualifiedname>
         <param>
-          <type>MR.Const_MeshOrPointsXf</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsXf" kindref="compound">MR.Const_MeshOrPointsXf</ref></type>
           <declname>flt</declname>
         </param>
         <param>
-          <type>MR.Const_MeshOrPointsXf</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsXf" kindref="compound">MR.Const_MeshOrPointsXf</ref></type>
           <declname>ref_</declname>
         </param>
         <param>
@@ -339,7 +339,7 @@
         <name>setParams</name>
         <qualifiedname>MR.ICP.setParams</qualifiedname>
         <param>
-          <type>MR.Const_ICPProperties</type>
+          <type><ref refid="classMR_1_1Const__ICPProperties" kindref="compound">MR.Const_ICPProperties</ref></type>
           <declname>prop</declname>
         </param>
         <briefdescription>
@@ -434,7 +434,7 @@
         <name>setFltSamples</name>
         <qualifiedname>MR.ICP.setFltSamples</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>fltSamples</declname>
         </param>
         <briefdescription>
@@ -472,7 +472,7 @@
         <name>setRefSamples</name>
         <qualifiedname>MR.ICP.setRefSamples</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>refSamples</declname>
         </param>
         <briefdescription>
@@ -628,6 +628,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ICP</label>
+        <link refid="classMR_1_1Const__ICP"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ICP</label>
+        <link refid="classMR_1_1Const__ICP"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -666,6 +668,24 @@
       <member refid="classMR_1_1ICP_1adb64130fb34f494c2a32095b9661aee6" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>assign</name></member>
       <member refid="classMR_1_1ICP_1adf8378956bbccb614838b0a62626ce4f" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>autoSelectFloatXf</name></member>
       <member refid="classMR_1_1ICP_1ae32e7639f14ff2e67da6d281fdeb76b6" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>calculateTransformation</name></member>
+      <member refid="classMR_1_1Const__ICP_1ab603b5e56dcf99db5b753b78933dfabd" prot="package" virt="non-virtual"><scope>MR::ICP</scope><name>Const_ICP</name></member>
+      <member refid="classMR_1_1Const__ICP_1a961c5f91b15a68810f74575816e56681" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>Const_ICP</name></member>
+      <member refid="classMR_1_1Const__ICP_1ad7a0e8d1959132f2c80dab8b776b4c24" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>Const_ICP</name></member>
+      <member refid="classMR_1_1Const__ICP_1aa37c735f395dc50ad64cc50962bac1c3" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>Const_ICP</name></member>
+      <member refid="classMR_1_1Const__ICP_1a2c1b354fe4c7a6f5320bbad409508ff0" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>Const_ICP</name></member>
+      <member refid="classMR_1_1Const__ICP_1af287d5873bcb6650f925f64d6b706be1" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>Const_ICP</name></member>
+      <member refid="classMR_1_1Const__ICP_1a2c12ff1f17c72c5c34d23c191bafd21e" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>Const_ICP</name></member>
+      <member refid="classMR_1_1Const__ICP_1a64750361729c199e93884b318d94de8d" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>Const_ICP</name></member>
+      <member refid="classMR_1_1Const__ICP_1a18e996a748ba8e06e58ddfc34919d4f9" prot="protected" virt="virtual"><scope>MR::ICP</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ICP_1a890e6b3bc494a5b4834c7935a4018f82" prot="public" virt="virtual"><scope>MR::ICP</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ICP_1a05dbf3f2b64df3b8431e5104d5432f9c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getFlt2RefPairs</name></member>
+      <member refid="classMR_1_1Const__ICP_1a5c8306778695bf55ac7849b7da18f407" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPlane</name></member>
+      <member refid="classMR_1_1Const__ICP_1a993bf9b5b54573888c0fb8463adb44d0" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPoint</name></member>
+      <member refid="classMR_1_1Const__ICP_1a568feafeb3843306a0723f22951edf1f" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getNumActivePairs</name></member>
+      <member refid="classMR_1_1Const__ICP_1a686857449f5d2c6b28f7e4b359fbc5fe" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getNumSamples</name></member>
+      <member refid="classMR_1_1Const__ICP_1a4f2d5578d6e08ec63100e0f35f919a97" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getParams</name></member>
+      <member refid="classMR_1_1Const__ICP_1a9475a4521a6429f4615e87572bc7ace6" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getRef2FltPairs</name></member>
+      <member refid="classMR_1_1Const__ICP_1aecf1cb14aecbb61d3167462f1931f215" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getStatusInfo</name></member>
       <member refid="classMR_1_1ICP_1a350d1d3bd3842d7fd1ce399eb0527171" prot="package" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
       <member refid="classMR_1_1ICP_1a65b89f87dbb1cfd7a68672dfe0669900" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
       <member refid="classMR_1_1ICP_1a8fd0df105c07e86a40f9881be633d1c3" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>

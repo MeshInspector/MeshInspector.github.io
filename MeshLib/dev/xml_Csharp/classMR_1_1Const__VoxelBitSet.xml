@@ -1,0 +1,1055 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VoxelBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VoxelBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VoxelBitSet" prot="public" virt="non-virtual">MR.VoxelBitSet</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__VoxelBitSet_1a967e5bb29e3774c65b8181e0e72b37a8" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelBitSet.BitsPerBlock</definition>
+        <argsstring></argsstring>
+        <name>BitsPerBlock</name>
+        <qualifiedname>MR.Const_VoxelBitSet.BitsPerBlock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5266" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VoxelBitSet_1ae20a321573f4f42ddd0bea98b999cb31" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelBitSet.Npos</definition>
+        <argsstring></argsstring>
+        <name>Npos</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Npos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5269" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5269" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelBitSet_1a4598cb26efb8d907f4b21b6ffa1224ed" prot="protected" static="yes" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_VoxelBitSet.__ref_storage_BitsPerBlock</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_BitsPerBlock</name>
+        <qualifiedname>MR.Const_VoxelBitSet.__ref_storage_BitsPerBlock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5267" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelBitSet_1ae3489fea1dadcb486f7b91309e5dd6d5" prot="protected" static="yes" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_VoxelBitSet.__ref_storage_Npos</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Npos</name>
+        <qualifiedname>MR.Const_VoxelBitSet.__ref_storage_Npos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5270" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5270" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a08ed2d66ea780167e36032b1decec912" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VoxelBitSet.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5180" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5180" bodyend="5188"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a84240fd89d78cea84e9cee2f57350284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VoxelBitSet.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5189" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5189" bodyend="5189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a9d05f8d2e985c865e75ced4f2d0ba583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.VoxelId &gt; MR.Const_VoxelBitSet.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_VoxelBitSet.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5246" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5246" bodyend="5249"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a5c0038feff6d02506fb25f7f94a5d4d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5292" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5292" bodyend="5297"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a52194f2bf5b3ea81a5f7cae21b2895e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>(MR._ByValue_VoxelBitSet _other)</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <param>
+          <type>MR._ByValue_VoxelBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelBitSet_1a30bb3168a3fd49a53ebffb13d2fae585" kindref="member">MR.VoxelBitSet.VoxelBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5302" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5302" bodyend="5308"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1aea609381047d12c8f725f984784f5ec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>(Const_VoxelBitSet _other)</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">Const_VoxelBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelBitSet_1a30bb3168a3fd49a53ebffb13d2fae585" kindref="member">MR.VoxelBitSet.VoxelBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5313" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5313" bodyend="5313"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1aa4904c54395e4fc4e625cf5f47a3e88e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>(VoxelBitSet _other)</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelBitSet_1a30bb3168a3fd49a53ebffb13d2fae585" kindref="member">MR.VoxelBitSet.VoxelBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5318" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5318" bodyend="5318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a4d35f5c7541e34146d7c2d576f4cbc04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelBitSet_1a30bb3168a3fd49a53ebffb13d2fae585" kindref="member">MR.VoxelBitSet.VoxelBitSet</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5325" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5325" bodyend="5331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a7b23807a440ef0e2fb6d182ca1c9156d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>(MR.Const_BitSet src)</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&lt;U&gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelBitSet_1a30bb3168a3fd49a53ebffb13d2fae585" kindref="member">MR.VoxelBitSet.VoxelBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5337" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5337" bodyend="5343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1aecf0157d4010483222a2a9d98d65c8eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.BitSet &gt; src)</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref> &gt;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&lt;U&gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelBitSet_1a30bb3168a3fd49a53ebffb13d2fae585" kindref="member">MR.VoxelBitSet.VoxelBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5349" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5349" bodyend="5355"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a3edd01d406fdf330a1ecb4ef530f9e39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VoxelBitSet.test</definition>
+        <argsstring>(MR.VoxelId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>MR.Const_VoxelBitSet.test</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a3edd01d406fdf330a1ecb4ef530f9e39" kindref="member">MR.VoxelBitSet.test</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5360" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5360" bodyend="5365"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a465f4fd2e75fcfaf27eb5539d066d7b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.findFirst</definition>
+        <argsstring>()</argsstring>
+        <name>findFirst</name>
+        <qualifiedname>MR.Const_VoxelBitSet.findFirst</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelBitSet::find_first</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5370" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5370" bodyend="5375"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1af56ee6ebfbc1aa24779a4cd2e4405cd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.findNext</definition>
+        <argsstring>(MR.VoxelId pos)</argsstring>
+        <name>findNext</name>
+        <qualifiedname>MR.Const_VoxelBitSet.findNext</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelBitSet::find_next</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5380" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5380" bodyend="5385"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a4d53ff6d97ff5c42be0bfdcd12eb0b75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.findLast</definition>
+        <argsstring>()</argsstring>
+        <name>findLast</name>
+        <qualifiedname>MR.Const_VoxelBitSet.findLast</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelBitSet::find_last</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5390" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5390" bodyend="5395"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a80e3b054b008604ab08c8102f96aa43c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.findFirstNotSet</definition>
+        <argsstring>()</argsstring>
+        <name>findFirstNotSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.findFirstNotSet</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelBitSet::find_first_not_set</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5400" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5400" bodyend="5405"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1adf2cc795b0b9a82ba539f77e41f1c9bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.findNextNotSet</definition>
+        <argsstring>(MR.VoxelId pos)</argsstring>
+        <name>findNextNotSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.findNextNotSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelBitSet::find_next_not_set</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5410" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5410" bodyend="5415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a3955202d1737023f10f6b0b0b55d3ba7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.findLastNotSet</definition>
+        <argsstring>()</argsstring>
+        <name>findLastNotSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.findLastNotSet</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelBitSet::find_last_not_set</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5420" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5420" bodyend="5425"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a6ba612e4af75f6c250efc1ce5a6b455e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.nthSetBit</definition>
+        <argsstring>(ulong n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>MR.Const_VoxelBitSet.nthSetBit</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a6ba612e4af75f6c250efc1ce5a6b455e" kindref="member">MR.VoxelBitSet.nthSetBit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5431" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5431" bodyend="5436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a63c95e040ce8ea1cd1fb9e7c64f97ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VoxelBitSet.isSubsetOf</definition>
+        <argsstring>(MR.Const_VoxelBitSet a)</argsstring>
+        <name>isSubsetOf</name>
+        <qualifiedname>MR.Const_VoxelBitSet.isSubsetOf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false. Generated from method <computeroutput>MR::VoxelBitSet::is_subset_of</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5442" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5442" bodyend="5447"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a0b3522f54cdd74a72044a0b79c6e4241" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VoxelBitSet.intersects</definition>
+        <argsstring>(MR.Const_VoxelBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>MR.Const_VoxelBitSet.intersects</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false. Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a0b3522f54cdd74a72044a0b79c6e4241" kindref="member">MR.VoxelBitSet.intersects</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5453" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5453" bodyend="5458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1afc47ad5a31dcee608c8926853741dd2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.getMapping</definition>
+        <argsstring>(MR.Const_Vector_MRVoxelId_MRVoxelId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId" kindref="compound">MR.Const_Vector_MRVoxelId_MRVoxelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1afc47ad5a31dcee608c8926853741dd2b" kindref="member">MR.VoxelBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5463" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5463" bodyend="5468"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1aa2c5918d769527a4c08da27c30f98f65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.getMapping</definition>
+        <argsstring>(MR.Const_BMap_MRVoxelId_MRVoxelId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BMap__MRVoxelId__MRVoxelId" kindref="compound">MR.Const_BMap_MRVoxelId_MRVoxelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1afc47ad5a31dcee608c8926853741dd2b" kindref="member">MR.VoxelBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5473" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5473" bodyend="5478"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1aeb8622d978bef1a68fafafe13ba6a8c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.getMapping</definition>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1afc47ad5a31dcee608c8926853741dd2b" kindref="member">MR.VoxelBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5483" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5483" bodyend="5488"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a5f373212cf233a0b25635062df537f08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.getMapping</definition>
+        <argsstring>(MR.Const_Vector_MRVoxelId_MRVoxelId map, ulong resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRVoxelId__MRVoxelId" kindref="compound">MR.Const_Vector_MRVoxelId_MRVoxelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1afc47ad5a31dcee608c8926853741dd2b" kindref="member">MR.VoxelBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5493" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5493" bodyend="5498"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ab66fa6220f1af1490fef2899c57b87c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.getMapping</definition>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId map, ulong resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_VoxelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId</type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1afc47ad5a31dcee608c8926853741dd2b" kindref="member">MR.VoxelBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5503" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5503" bodyend="5508"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a3968fc495ebe87e9151f58a3e3af0a38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_VoxelBitSet.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the back() element Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a3968fc495ebe87e9151f58a3e3af0a38" kindref="member">MR.VoxelBitSet.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5514" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5514" bodyend="5519"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1af7448f21991467bab5ffca8f7d292aa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>unsafe MR.VoxelId MR.Const_VoxelBitSet.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_VoxelBitSet.endId</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1af7448f21991467bab5ffca8f7d292aa7" kindref="member">MR.VoxelBitSet.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5535" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5535" bodyend="5540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a0f2c57e5e83fd8b56746fa86ff3451fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VoxelBitSet.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_VoxelBitSet.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a0f2c57e5e83fd8b56746fa86ff3451fc" kindref="member">MR.VoxelBitSet.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5556" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5556" bodyend="5561"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ad4edfdb53d808dd1dc977608a4cc27e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelBitSet.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_VoxelBitSet.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1ad4edfdb53d808dd1dc977608a4cc27e3" kindref="member">MR.VoxelBitSet.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5566" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5566" bodyend="5571"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ab195ba97935f09d7ba16eec06cc3d25a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelBitSet.numBlocks</definition>
+        <argsstring>()</argsstring>
+        <name>numBlocks</name>
+        <qualifiedname>MR.Const_VoxelBitSet.numBlocks</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelBitSet::num_blocks</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5576" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5576" bodyend="5581"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ab3eaa358b4b504984ddf87b883662a9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelBitSet.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_VoxelBitSet.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1ab3eaa358b4b504984ddf87b883662a9f" kindref="member">MR.VoxelBitSet.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5586" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5586" bodyend="5591"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a7772a22a66cf7082ae6a9fb55b8220fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VoxelBitSet.uncheckedTest</definition>
+        <argsstring>(ulong n)</argsstring>
+        <name>uncheckedTest</name>
+        <qualifiedname>MR.Const_VoxelBitSet.uncheckedTest</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a7772a22a66cf7082ae6a9fb55b8220fa" kindref="member">MR.VoxelBitSet.uncheckedTest</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5596" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5596" bodyend="5601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a05d704c14a1756d589b2df693ee97b17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRUint64T</type>
+        <definition>unsafe MR.Std.Const_Vector_MRUint64T MR.Const_VoxelBitSet.bits</definition>
+        <argsstring>()</argsstring>
+        <name>bits</name>
+        <qualifiedname>MR.Const_VoxelBitSet.bits</qualifiedname>
+        <briefdescription>
+<para>read-only access to all bits stored as a vector of uint64 blocks Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a05d704c14a1756d589b2df693ee97b17" kindref="member">MR.VoxelBitSet.bits</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5607" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5607" bodyend="5612"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ac40eb06611a776d848eb5a818ab424e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VoxelBitSet.all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <qualifiedname>MR.Const_VoxelBitSet.all</qualifiedname>
+        <briefdescription>
+<para>returns true if all bits in this container are set Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1ac40eb06611a776d848eb5a818ab424e5" kindref="member">MR.VoxelBitSet.all</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5618" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5618" bodyend="5623"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a7990fa54eb68a014ab2f2859f18237c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VoxelBitSet.any</definition>
+        <argsstring>()</argsstring>
+        <name>any</name>
+        <qualifiedname>MR.Const_VoxelBitSet.any</qualifiedname>
+        <briefdescription>
+<para>returns true if at least one bits in this container is set Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a7990fa54eb68a014ab2f2859f18237c9" kindref="member">MR.VoxelBitSet.any</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5629" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5629" bodyend="5634"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a6c72866b57c2195e9a9fcae124e55c9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VoxelBitSet.none</definition>
+        <argsstring>()</argsstring>
+        <name>none</name>
+        <qualifiedname>MR.Const_VoxelBitSet.none</qualifiedname>
+        <briefdescription>
+<para>returns true if all bits in this container are reset Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a6c72866b57c2195e9a9fcae124e55c9f" kindref="member">MR.VoxelBitSet.none</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5640" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5640" bodyend="5645"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a717d5440e53ee98dc375013bc8c1cf9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelBitSet.count</definition>
+        <argsstring>()</argsstring>
+        <name>count</name>
+        <qualifiedname>MR.Const_VoxelBitSet.count</qualifiedname>
+        <briefdescription>
+<para>computes the number of set bits in the whole set Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a717d5440e53ee98dc375013bc8c1cf9b" kindref="member">MR.VoxelBitSet.count</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5651" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5651" bodyend="5656"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a598fa21920ab10251dde7e7c7e6bc9fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelBitSet.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_VoxelBitSet.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a598fa21920ab10251dde7e7c7e6bc9fa" kindref="member">MR.VoxelBitSet.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5662" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5662" bodyend="5667"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1abf1a5c54ea9c13640dd17d39ca98ec8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelBitSet.~Const_VoxelBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.~Const_VoxelBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5190" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5190" bodyend="5190"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ab7bb53ae062c810a2150db0f47a2032a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_VoxelBitSet.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_VoxelBitSet.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5251" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5251" bodyend="5254"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a771f8d961d8c603f0a2ad8e155b2a909" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_VoxelBitSet.operator MR.Const_BitSet</definition>
+        <argsstring>(Const_VoxelBitSet self)</argsstring>
+        <name>operator MR.Const_BitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.operator MR.Const_BitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">Const_VoxelBitSet</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5257" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5257" bodyend="5264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a6e8ebe5b180f20f6b95b2e31aa60d209" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+        <definition>static MR.VoxelId MR.Const_VoxelBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_VoxelBitSet.beginId</qualifiedname>
+        <briefdescription>
+<para>[<ref refid="classMR_1_1Const__VoxelBitSet_1a6e8ebe5b180f20f6b95b2e31aa60d209" kindref="member">beginId()</ref>, <ref refid="classMR_1_1Const__VoxelBitSet_1af7448f21991467bab5ffca8f7d292aa7" kindref="member">endId()</ref>) is the range of all bits in the set Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1a6e8ebe5b180f20f6b95b2e31aa60d209" kindref="member">MR.VoxelBitSet.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5525" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5525" bodyend="5530"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ae3e1c5e68eb17801b5b2312574136d2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></type>
+        <definition>static unsafe MR.BitSet MR.Const_VoxelBitSet.fromBlocks</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRUint64T &gt; blocks)</argsstring>
+        <name>fromBlocks</name>
+        <qualifiedname>MR.Const_VoxelBitSet.fromBlocks</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRUint64T &gt;</type>
+          <declname>blocks</declname>
+        </param>
+        <briefdescription>
+<para>creates bitset from the given blocks of bits Generated from method <computeroutput><ref refid="classMR_1_1Const__VoxelBitSet_1ae3e1c5e68eb17801b5b2312574136d2c" kindref="member">MR.VoxelBitSet.fromBlocks</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5546" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5546" bodyend="5551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a89750f47ff3381d8dc66fcf11242051d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>static unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.operator&amp;</definition>
+        <argsstring>(MR.Const_VoxelBitSet a, MR.Const_VoxelBitSet b)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>MR.Const_VoxelBitSet.operator&amp;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator&amp;amp;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5672" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5672" bodyend="5677"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a015a6b64da14354a0ffc844481984ecb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>static unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.operator|</definition>
+        <argsstring>(MR.Const_VoxelBitSet a, MR.Const_VoxelBitSet b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>MR.Const_VoxelBitSet.operator|</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator|</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5682" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5682" bodyend="5687"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a57732d2c51e98bfb468e5f00efc6557d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>static unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.operator^</definition>
+        <argsstring>(MR.Const_VoxelBitSet a, MR.Const_VoxelBitSet b)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>MR.Const_VoxelBitSet.operator^</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator^</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5692" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5692" bodyend="5697"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a5dcb41ee4731ccdfadf82e148dc41bca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>static unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.operator-</definition>
+        <argsstring>(MR.Const_VoxelBitSet a, MR.Const_VoxelBitSet b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Const_VoxelBitSet.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5702" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5702" bodyend="5707"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a6785276c4c949382f7a5e01e03ea99d6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5272" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5272" bodyend="5285"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a0681ac8501c06bf44279b5e48a14909d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelBitSet.Const_VoxelBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VoxelBitSet</name>
+        <qualifiedname>MR.Const_VoxelBitSet.Const_VoxelBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5287" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5287" bodyend="5287"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__VoxelBitSet_1ad4edfdb53d808dd1dc977608a4cc27e3" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_VoxelBitSet</label>
+        <link refid="classMR_1_1Const__VoxelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.VoxelBitSet</label>
+        <link refid="classMR_1_1VoxelBitSet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_VoxelBitSet</label>
+        <link refid="classMR_1_1Const__VoxelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5174" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5175" bodyend="5708"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a4598cb26efb8d907f4b21b6ffa1224ed" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ae3489fea1dadcb486f7b91309e5dd6d5" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ac40eb06611a776d848eb5a818ab424e5" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>all</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a7990fa54eb68a014ab2f2859f18237c9" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>any</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a3968fc495ebe87e9151f58a3e3af0a38" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a6e8ebe5b180f20f6b95b2e31aa60d209" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a05d704c14a1756d589b2df693ee97b17" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a967e5bb29e3774c65b8181e0e72b37a8" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ab3eaa358b4b504984ddf87b883662a9f" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a6785276c4c949382f7a5e01e03ea99d6" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a0681ac8501c06bf44279b5e48a14909d" prot="package" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a5c0038feff6d02506fb25f7f94a5d4d2" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a52194f2bf5b3ea81a5f7cae21b2895e0" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1aea609381047d12c8f725f984784f5ec3" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1aa4904c54395e4fc4e625cf5f47a3e88e" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a4d35f5c7541e34146d7c2d576f4cbc04" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a7b23807a440ef0e2fb6d182ca1c9156d" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1aecf0157d4010483222a2a9d98d65c8eb" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Const_VoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a717d5440e53ee98dc375013bc8c1cf9b" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a08ed2d66ea780167e36032b1decec912" prot="protected" virt="virtual"><scope>MR::Const_VoxelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a84240fd89d78cea84e9cee2f57350284" prot="public" virt="virtual"><scope>MR::Const_VoxelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a0f2c57e5e83fd8b56746fa86ff3451fc" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1af7448f21991467bab5ffca8f7d292aa7" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a465f4fd2e75fcfaf27eb5539d066d7b0" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>findFirst</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a80e3b054b008604ab08c8102f96aa43c" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>findFirstNotSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a4d53ff6d97ff5c42be0bfdcd12eb0b75" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>findLast</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a3955202d1737023f10f6b0b0b55d3ba7" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>findLastNotSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1af56ee6ebfbc1aa24779a4cd2e4405cd3" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>findNext</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1adf2cc795b0b9a82ba539f77e41f1c9bb" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>findNextNotSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ae3e1c5e68eb17801b5b2312574136d2c" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a9d05f8d2e985c865e75ced4f2d0ba583" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ab7bb53ae062c810a2150db0f47a2032a" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1afc47ad5a31dcee608c8926853741dd2b" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1aa2c5918d769527a4c08da27c30f98f65" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1aeb8622d978bef1a68fafafe13ba6a8c4" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a5f373212cf233a0b25635062df537f08" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ab66fa6220f1af1490fef2899c57b87c3" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a598fa21920ab10251dde7e7c7e6bc9fa" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a0b3522f54cdd74a72044a0b79c6e4241" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>intersects</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a63c95e040ce8ea1cd1fb9e7c64f97ca9" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>isSubsetOf</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a6c72866b57c2195e9a9fcae124e55c9f" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>none</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ae20a321573f4f42ddd0bea98b999cb31" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a6ba612e4af75f6c250efc1ce5a6b455e" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ab195ba97935f09d7ba16eec06cc3d25a" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>numBlocks</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a771f8d961d8c603f0a2ad8e155b2a909" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>operator MR.Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a89750f47ff3381d8dc66fcf11242051d" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>operator&amp;</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a5dcb41ee4731ccdfadf82e148dc41bca" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a57732d2c51e98bfb468e5f00efc6557d" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>operator^</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a015a6b64da14354a0ffc844481984ecb" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>operator|</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ad4edfdb53d808dd1dc977608a4cc27e3" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a3edd01d406fdf330a1ecb4ef530f9e39" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>test</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a7772a22a66cf7082ae6a9fb55b8220fa" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1abf1a5c54ea9c13640dd17d39ca98ec8a" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>~Const_VoxelBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

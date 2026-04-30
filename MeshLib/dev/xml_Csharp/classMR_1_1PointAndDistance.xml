@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointAndDistance" kind="class" language="C#" prot="public">
     <compoundname>MR::PointAndDistance</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointAndDistance</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointAndDistance" prot="public" virt="non-virtual">MR.Const_PointAndDistance</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointAndDistance_1a3f7d721bd4ff485d263894eeca7d96c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -105,7 +105,7 @@
         <name>PointAndDistance</name>
         <qualifiedname>MR.PointAndDistance.PointAndDistance</qualifiedname>
         <param>
-          <type>MR.Const_PointAndDistance</type>
+          <type><ref refid="classMR_1_1Const__PointAndDistance" kindref="compound">MR.Const_PointAndDistance</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointAndDistance.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointAndDistance</type>
+          <type><ref refid="classMR_1_1Const__PointAndDistance" kindref="compound">MR.Const_PointAndDistance</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointAndDistance</label>
+        <link refid="classMR_1_1Const__PointAndDistance"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointAndDistance</label>
         <link refid="classMR_1_1PointAndDistance"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.Const_PointAndDistance</label>
+        <link refid="classMR_1_1Const__PointAndDistance"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_vId</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,13 +214,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="130" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="131" bodyend="201"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointAndDistance_1a8f4a3555a2227b1909f2a371dc352be2" prot="protected" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>__ref_storage_dist</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1acac2df9a30cba00f6f4ef1c43579bedb" prot="protected" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>__ref_storage_vId</name></member>
       <member refid="classMR_1_1PointAndDistance_1acaebe3c26e33f19d177b2abb47023dc4" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1ab372943375eca0e838251da851ef443a" prot="package" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>Const_PointAndDistance</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1a1e4f8bcab72aad67d14495ecd4fafca0" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>Const_PointAndDistance</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1a69163e5d881eb2148e3898feab5a182a" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>Const_PointAndDistance</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1aade413fbc114fe6727fb8d366c9b3194" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>Const_PointAndDistance</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1a555b48f48adc15405bba1394c518617e" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>Const_PointAndDistance</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1aa36a3a6a0d9de7291cff3a5d10da11d2" prot="protected" virt="virtual"><scope>MR::PointAndDistance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1a1d5e20e08fbd8587cae88c6fe09fdf57" prot="public" virt="virtual"><scope>MR::PointAndDistance</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointAndDistance_1ae086a888578b485fb4a60126f6e5014a" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>dist</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1a8f41991c2b1235327a0f98f3668d863f" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>operator bool</name></member>
       <member refid="classMR_1_1PointAndDistance_1a3bfbd9fda2ed1a721529b49b2d8885e5" prot="package" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
       <member refid="classMR_1_1PointAndDistance_1a0c9922eac279b39cc5b2d7e065ea590a" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
       <member refid="classMR_1_1PointAndDistance_1a411e571f3a3d7ddf13b4182b20aa3a1f" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
       <member refid="classMR_1_1PointAndDistance_1a09b9eaa4df4bace14176e3ce0a0d15a7" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
       <member refid="classMR_1_1PointAndDistance_1a580b479573d0c84db07487ce054c8ed5" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>PointAndDistance</name></member>
+      <member refid="classMR_1_1Const__PointAndDistance_1a93b4a007debe4aa217e13b2e632c55b7" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>valid</name></member>
       <member refid="classMR_1_1PointAndDistance_1a3f7d721bd4ff485d263894eeca7d96c1" prot="public" virt="non-virtual"><scope>MR::PointAndDistance</scope><name>vId</name></member>
     </listofallmembers>
   </compounddef>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NewEdgesMap" kind="class" language="C#" prot="public">
     <compoundname>MR::NewEdgesMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NewEdgesMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NewEdgesMap" prot="public" virt="non-virtual">MR.Const_NewEdgesMap</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NewEdgesMap_1a0ade3d587a06a3ab61ee67b30cfb2929" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -124,7 +124,7 @@
         <name>NewEdgesMap</name>
         <qualifiedname>MR.NewEdgesMap.NewEdgesMap</qualifiedname>
         <param>
-          <type>Const_NewEdgesMap</type>
+          <type><ref refid="classMR_1_1Const__NewEdgesMap" kindref="compound">Const_NewEdgesMap</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NewEdgesMap</label>
+        <link refid="classMR_1_1Const__NewEdgesMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NewEdgesMap</label>
+        <link refid="classMR_1_1Const__NewEdgesMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -225,6 +227,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="121" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="122" bodyend="224"/>
     <listofallmembers>
       <member refid="classMR_1_1NewEdgesMap_1acd090fcf0bc89fe7e27bf8330cb0ea35" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1ab732c20d028b69f6469a1f6a71e549c7" prot="package" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1adfa1eef68043ec8e543bf69b9b309eca" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1a0550a951ade927b7a40ef828d88f4741" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1a31fd09eeea3ff3d383be42e40d950f55" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1a71d273bc39a84e27d8914a7bad63182e" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1a9fbff18d6e955fdcbaca833c210f2af0" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1a32ab90c9c75516de8dd54885b43ac5e1" prot="protected" virt="virtual"><scope>MR::NewEdgesMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1a244bd67ae8939185abfeefc82b5f0ad1" prot="public" virt="virtual"><scope>MR::NewEdgesMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NewEdgesMap_1ab7172e3d43dfedf26185e4da95d335d6" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>map</name></member>
       <member refid="classMR_1_1NewEdgesMap_1a0923f73d1f69c0d63f6e58bba3825f68" prot="package" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
       <member refid="classMR_1_1NewEdgesMap_1af1c83868539c57eaeeecccf03ff26738" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>

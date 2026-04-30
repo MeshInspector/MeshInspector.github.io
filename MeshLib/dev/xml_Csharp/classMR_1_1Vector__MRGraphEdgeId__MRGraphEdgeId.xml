@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId" prot="public" virt="non-virtual">MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1af844c03433d03250fce9c43c11e70ca1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRGraphEdgeId_MRGraphEdgeId</name>
         <qualifiedname>MR.Vector_MRGraphEdgeId_MRGraphEdgeId.Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
         <param>
-          <type>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">Const_Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</label>
+        <link refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</label>
+        <link refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6be7ae851307b488de70aea15ac2c082" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a42343dbe78bd06e49ccaa686e8122a73" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a0b389cfff556088c0fa440e21a7af985" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1acd4232224c3291e650e9d793f4400486" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a3ad0034facbfae1b6616174b6bf2adaa" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a78564865b628f94dd418cdc2d76ffc83" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a38635080ae33d2ff282bf72a570333da" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a2f9fadd88ddeb966e2d5eb2b2966bbfd" prot="package" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1af504d28e69a7d2d9e5f3d4881514a1f4" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a601426caf3ad8b09148ee416115144dc" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a418439a71d66dac73327f2fa8eda38d4" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1aacb76b14a6c468ebcfe72525a8d0d7e6" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a7da76c5e10edda017263f53e157e18ef" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a39e20a48418ad1b3e216d1e84aafddce" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a7a4e228155415b0f8d662e679509e466" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a300e5966132f78da13a52490741d0184" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a802da6ce05118b983b6292d53555db79" prot="protected" virt="virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a69025454efd7774b81de9ed4593783b4" prot="public" virt="virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a21d5a9be908bf3a28d4711674b788f4f" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a06ec92c7ee7d2a612379fed5143bab89" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a864dec82fdea887b11308f5d8a0d84a5" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a65b2e5d4cd8c8ab7311bf6171ed9373d" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1aa17fed60001b39d6c22afeb34d1860c5" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a51ddf1233f8ebe58bf44983d12293c5c" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a4b2e0371de81436bc203a09a3776f5e4" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aaa3dc8cdfed2d0565650475e6da33d6d" prot="private" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a691cce3098b56d333a177e75a6cb81cd" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a37fce52cbf1ae84fc7dabcb93c1b738f" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aceac198f5188597bb0252ed12c8fe3e4" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a5bcd5b1186cbdb2d7515646b7251cac0" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a4af605fa61b6c97abfc925d7bf916ea1" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a80836698a98ffba0d7b6e64172fabaec" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6279de622bddf525739a7302e236dcea" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a28b76ee1ba6b2db07ab75677540e59d2" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1acf138083d36400efd7fd9a96025d675e" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aec95de9f181c3cf81b4b532e532edcac" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a0dad1eeb7f257faab92f2a2dafb5f05b" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a3a996a3a8325bf0d0c9d831960059ad6" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a8105352dab376215574c500c94004591" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a90de1db03abaab916bede4d8ed8ee3d1" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>this[MR.GraphEdgeId i]</name></member>
       <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1af844c03433d03250fce9c43c11e70ca1" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>vec</name></member>

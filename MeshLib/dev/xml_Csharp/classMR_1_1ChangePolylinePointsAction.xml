@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangePolylinePointsAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangePolylinePointsAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangePolylinePointsAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangePolylinePointsAction" prot="public" virt="non-virtual">MR.Const_ChangePolylinePointsAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangePolylinePointsAction_1a4b4211106146431c15e6d5ae6499f533" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangePolylinePointsAction</name>
         <qualifiedname>MR.ChangePolylinePointsAction.ChangePolylinePointsAction</qualifiedname>
         <param>
-          <type>Const_ChangePolylinePointsAction</type>
+          <type><ref refid="classMR_1_1Const__ChangePolylinePointsAction" kindref="compound">Const_ChangePolylinePointsAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangePolylinePointsAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangePolylinePointsAction</label>
+        <link refid="classMR_1_1Const__ChangePolylinePointsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangePolylinePointsAction</label>
+        <link refid="classMR_1_1Const__ChangePolylinePointsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,8 +243,20 @@
       <member refid="classMR_1_1ChangePolylinePointsAction_1ade6d73dbb8cbe99f25a3771cf1018374" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1ab6a73882f83cde6b0e0ba918ad62127c" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1aed3d495bef2af410ca4fabf168c464cd" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>ChangePolylinePointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1a96b80436311241602ebe9ec804150f3a" prot="package" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>Const_ChangePolylinePointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1ae6d69c9e981b8ebef3abe7419dbb08a9" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>Const_ChangePolylinePointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1a3bd0071840f4ecc09f86ed20c1eb81c0" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>Const_ChangePolylinePointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1ac23b59cce86b973b6d1f9329df7c566d" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>Const_ChangePolylinePointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1a820f87343fa8a61c20fc45efc646ebe2" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>Const_ChangePolylinePointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1a2573cac620dec9424b4dba708c372963" prot="protected" virt="virtual"><scope>MR::ChangePolylinePointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1ae63126831eb0c66efcf2b85a9769d3b5" prot="public" virt="virtual"><scope>MR::ChangePolylinePointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1aa03e262fb643a9192923bdf14635d764" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1a88deb179ffad560d52c52a59352af7ae" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a058ff8630a457c84f319694838985ae6" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>operator ChangePolylinePointsAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1a15616beb50e94b76a6bf0489ceb034f7" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>operator Const_ChangePolylinePointsAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1a87f2c79bdcd7972ce3d0d82da0e9a924" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangePolylinePointsAction_1a4b4211106146431c15e6d5ae6499f533" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylinePointsAction_1af993d726757812b1d044f5713d0d67bc" prot="public" virt="non-virtual"><scope>MR::ChangePolylinePointsAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

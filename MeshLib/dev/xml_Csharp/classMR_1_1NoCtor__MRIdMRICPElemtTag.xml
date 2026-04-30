@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoCtor__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::NoCtor_MRIdMRICPElemtTag</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoCtor_MRIdMRICPElemtTag</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag" prot="public" virt="non-virtual">MR.Const_NoCtor_MRIdMRICPElemtTag</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NoCtor__MRIdMRICPElemtTag_1aaef892b1d69a60d13403cd41c486119c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>NoCtor_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.NoCtor_MRIdMRICPElemtTag.NoCtor_MRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag" kindref="compound">MR.Const_NoCtor_MRIdMRICPElemtTag</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.NoCtor_MRIdMRICPElemtTag.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag" kindref="compound">MR.Const_NoCtor_MRIdMRICPElemtTag</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14694" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14695" bodyend="14735"/>
     <listofallmembers>
       <member refid="classMR_1_1NoCtor__MRIdMRICPElemtTag_1aaddb6c72bbdda553362bc4774e801b2e" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag_1a2eb54bef68593315bda402e1f3642f99" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>Const_NoCtor_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag_1a09cd2e571232200c2a1ac4bcb8279bd7" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>Const_NoCtor_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag_1af8e1276ef1944c151c9f8ea356ec938a" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>Const_NoCtor_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag_1abc657c348e515b6921971d22506fe664" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>Const_NoCtor_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag_1af9d6144e121acadbf62b44a65445c68c" prot="protected" virt="virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRIdMRICPElemtTag_1ac8e5e7949977c383fdc1f426c4fb5d7b" prot="public" virt="virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NoCtor__MRIdMRICPElemtTag_1aaef892b1d69a60d13403cd41c486119c" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>NoCtor_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1NoCtor__MRIdMRICPElemtTag_1a8cd2bbf6c550e84d6f140d6780697dec" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>NoCtor_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1NoCtor__MRIdMRICPElemtTag_1adc82d13232b04d17dbcaee8f5e938749" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRIdMRICPElemtTag</scope><name>NoCtor_MRIdMRICPElemtTag</name></member>

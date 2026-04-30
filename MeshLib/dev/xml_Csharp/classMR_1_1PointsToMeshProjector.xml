@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsToMeshProjector" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsToMeshProjector</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointsToMeshProjector</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointsToMeshProjector" prot="public" virt="non-virtual">MR.Const_PointsToMeshProjector</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PointsToMeshProjector_1a7929091fbf4e2be6421d75c643857d45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -107,7 +107,7 @@
         <name>PointsToMeshProjector</name>
         <qualifiedname>MR.PointsToMeshProjector.PointsToMeshProjector</qualifiedname>
         <param>
-          <type>Const_PointsToMeshProjector</type>
+          <type><ref refid="classMR_1_1Const__PointsToMeshProjector" kindref="compound">Const_PointsToMeshProjector</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -164,7 +164,7 @@
         <name>updateMeshData</name>
         <qualifiedname>MR.PointsToMeshProjector.updateMeshData</qualifiedname>
         <param>
-          <type>MR.Const_Mesh?</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref>?</type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
@@ -280,6 +280,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProject
       </node>
       <node id="2">
         <label>MR.Const_PointsToMeshProjector</label>
+        <link refid="classMR_1_1Const__PointsToMeshProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -301,6 +302,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProject
       </node>
       <node id="2">
         <label>MR.Const_PointsToMeshProjector</label>
+        <link refid="classMR_1_1Const__PointsToMeshProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -316,7 +318,16 @@ Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProject
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="520" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="521" bodyend="618"/>
     <listofallmembers>
       <member refid="classMR_1_1PointsToMeshProjector_1a2729f1c4ba34ebee45dc2ccf5cd3ea8c" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1a94d919765b6f17c63e493c24d87f90d9" prot="package" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1aeee90c1b81433145c4f2e10d33dd2bb3" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1ac18f2e4ea8f60842294bca36e102ad86" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1a124def2caf23c9afd378c5dfff950daa" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1a1aac3a9b143a09b220be8490a132d2ba" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1a3a0ab182e0842ac441f59824f4eb2635" prot="protected" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1a00a06e3674a77d50ebd9d3095a4e667a" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a29369000efd674585234824e3bf04f44" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1a96ed7ca4369db6c94d1706e1e43ee9b0" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>operator Const_PointsToMeshProjector?</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1ac4016e7c0e7785c112b4ca7de1b2c33c" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>operator MR.Const_IPointsToMeshProjector</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a7929091fbf4e2be6421d75c643857d45" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>operator MR.IPointsToMeshProjector</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a35ab21abc99ae9c7c3e04fc005fc60a7" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>operator PointsToMeshProjector?</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1ad6d6bebdd2ecc121d312f408ad472df5" prot="package" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>PointsToMeshProjector</name></member>
@@ -324,6 +335,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProject
       <member refid="classMR_1_1PointsToMeshProjector_1a0af5d32bde4db88d396b14d034a34f90" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>PointsToMeshProjector</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1ae6f30d8ed3644fccc82ecee448675a00" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>PointsToMeshProjector</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a698956a04242d5c1041a17e1404355d6" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshProjector_1a57a8e872775148507bbd87957416f9b7" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a2df58658050abb7b4ee0857112ea8139" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>updateMeshData</name></member>
     </listofallmembers>
   </compounddef>

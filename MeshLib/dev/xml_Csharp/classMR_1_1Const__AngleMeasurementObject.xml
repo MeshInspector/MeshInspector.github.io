@@ -1,0 +1,1549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__AngleMeasurementObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_AngleMeasurementObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1AngleMeasurementObject" prot="public" virt="non-virtual">MR.AngleMeasurementObject</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a5c0a0e775b488b4694916f0cc654baed" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_AngleMeasurementObject.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="21" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="21" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a2a8df7467391bccedc23d69e812f4045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_AngleMeasurementObject.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aceadcda42eef5fe5720c16807087055f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AngleMeasurementObject.Const_AngleMeasurementObject</definition>
+        <argsstring>()</argsstring>
+        <name>Const_AngleMeasurementObject</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.Const_AngleMeasurementObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="104" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a049da5e68c22d02ff2f9543f700a5317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AngleMeasurementObject.Const_AngleMeasurementObject</definition>
+        <argsstring>(MR._ByValue_AngleMeasurementObject _other)</argsstring>
+        <name>Const_AngleMeasurementObject</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.Const_AngleMeasurementObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_AngleMeasurementObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AngleMeasurementObject_1acfa9bb846d637f4e32411dc1e4302035" kindref="member">MR.AngleMeasurementObject.AngleMeasurementObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="114" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="114" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a94dffb6ff8993d79b83cf57f56bb9694" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_AngleMeasurementObject.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a94dffb6ff8993d79b83cf57f56bb9694" kindref="member">MR.AngleMeasurementObject.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="136" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="136" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ac11b669a15f6be4fd7c44095fa1092ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_AngleMeasurementObject.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ac11b669a15f6be4fd7c44095fa1092ff" kindref="member">MR.AngleMeasurementObject.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="158" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a8c56f9d434d4f608da1c76ea64f8185c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_AngleMeasurementObject.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a8c56f9d434d4f608da1c76ea64f8185c" kindref="member">MR.AngleMeasurementObject.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="179" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="179" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aba503b044b95472f19ae8f38000b3816" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_AngleMeasurementObject.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.clone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aba503b044b95472f19ae8f38000b3816" kindref="member">MR.AngleMeasurementObject.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="189" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ad51bf4a578e709961d1006a533bd7d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_AngleMeasurementObject.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.shallowClone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ad51bf4a578e709961d1006a533bd7d4d" kindref="member">MR.AngleMeasurementObject.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="199" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="199" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ab9d0515b84f6ba3abd11ae992ab8a28c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_AngleMeasurementObject.getWorldPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getWorldPoint</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getWorldPoint</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ab9d0515b84f6ba3abd11ae992ab8a28c" kindref="member">MR.AngleMeasurementObject.getWorldPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="210" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="210" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a7aa2154a3099fcbd8071d41f5cecc09f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_AngleMeasurementObject.getLocalPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getLocalPoint</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getLocalPoint</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a7aa2154a3099fcbd8071d41f5cecc09f" kindref="member">MR.AngleMeasurementObject.getLocalPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="221" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="221" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a82d03731f3b09d867e6faca199a9bcda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_AngleMeasurementObject.getWorldRay</definition>
+        <argsstring>(bool second)</argsstring>
+        <name>getWorldRay</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getWorldRay</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a82d03731f3b09d867e6faca199a9bcda" kindref="member">MR.AngleMeasurementObject.getWorldRay</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="233" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="233" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aa5df18e6bdf7b505fde5692da0f31144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_AngleMeasurementObject.getLocalRay</definition>
+        <argsstring>(bool second)</argsstring>
+        <name>getLocalRay</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getLocalRay</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aa5df18e6bdf7b505fde5692da0f31144" kindref="member">MR.AngleMeasurementObject.getLocalRay</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="244" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="244" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a9a3882437072d7f38c52c12f73eee30d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.getIsConical</definition>
+        <argsstring>()</argsstring>
+        <name>getIsConical</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getIsConical</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a9a3882437072d7f38c52c12f73eee30d" kindref="member">MR.AngleMeasurementObject.getIsConical</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="255" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="255" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a4f6e9fe0824b846116d29c98e4ada9c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.getShouldVisualizeRay</definition>
+        <argsstring>(bool second)</argsstring>
+        <name>getShouldVisualizeRay</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getShouldVisualizeRay</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a4f6e9fe0824b846116d29c98e4ada9c4" kindref="member">MR.AngleMeasurementObject.getShouldVisualizeRay</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="266" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="266" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a8e071f1462d52b87c43efb48a75c01d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_AngleMeasurementObject.computeAngle</definition>
+        <argsstring>()</argsstring>
+        <name>computeAngle</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.computeAngle</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a8e071f1462d52b87c43efb48a75c01d8" kindref="member">MR.AngleMeasurementObject.computeAngle</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="277" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="277" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aefe8ed1cab8da77386e7c8e01d17a59e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_AngleMeasurementObject.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aefe8ed1cab8da77386e7c8e01d17a59e" kindref="member">MR.AngleMeasurementObject.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="287" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="287" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1afe1dce4e6b752f6666590359ad82ad2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this class supports the property <computeroutput>type</computeroutput>. Otherwise passing it to the functions below is illegal. Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1afe1dce4e6b752f6666590359ad82ad2e" kindref="member">MR.AngleMeasurementObject.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="298" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="298" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a4c54a906613dfbebaf7341ce8b02cce5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a4c54a906613dfbebaf7341ce8b02cce5" kindref="member">MR.AngleMeasurementObject.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="309" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="309" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a1975ddc6673ede2a0359676793ba8c7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_AngleMeasurementObject.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a1975ddc6673ede2a0359676793ba8c7d" kindref="member">MR.AngleMeasurementObject.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="320" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="320" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1abee1f78a7287b4a92eb2cbbae57050ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_AngleMeasurementObject.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>get all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1abee1f78a7287b4a92eb2cbbae57050ba" kindref="member">MR.AngleMeasurementObject.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="331" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="331" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1acfa69c0d35def3b037e22721842cf805" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_AngleMeasurementObject.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1acfa69c0d35def3b037e22721842cf805" kindref="member">MR.AngleMeasurementObject.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="342" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="342" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a8f3ab81dd86a89af19aa91473ce1ba6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a8f3ab81dd86a89af19aa91473ce1ba6c" kindref="member">MR.AngleMeasurementObject.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="354" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="354" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1abf5adf0d9b8de110478b781940c63b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_AngleMeasurementObject.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1abf5adf0d9b8de110478b781940c63b62" kindref="member">MR.AngleMeasurementObject.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="367" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="367" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a1b85da8f89ea1be3eb3ac23e0c4e3f1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_AngleMeasurementObject.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a1b85da8f89ea1be3eb3ac23e0c4e3f1b" kindref="member">MR.AngleMeasurementObject.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="380" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="380" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ad80b2a7c700404d8e7c0b9c7fe9b1a13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_AngleMeasurementObject.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ad80b2a7c700404d8e7c0b9c7fe9b1a13" kindref="member">MR.AngleMeasurementObject.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="392" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="392" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ae9cd015ef39c91c5e2d4eb882f385e13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_AngleMeasurementObject.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ae9cd015ef39c91c5e2d4eb882f385e13" kindref="member">MR.AngleMeasurementObject.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="404" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="404" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ab18865811484aa9436461c5020181523" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_AngleMeasurementObject.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ab18865811484aa9436461c5020181523" kindref="member">MR.AngleMeasurementObject.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="416" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="416" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a8bee07dbac6ef2fd2ffb2828e5e3b762" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_AngleMeasurementObject.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a8bee07dbac6ef2fd2ffb2828e5e3b762" kindref="member">MR.AngleMeasurementObject.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="427" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="427" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a1e54bd44188e32d359c9ebd09b28fe10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_AngleMeasurementObject.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a1e54bd44188e32d359c9ebd09b28fe10" kindref="member">MR.AngleMeasurementObject.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="438" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="438" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ab340b053e7b8eb682ff32e53e26d62f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_AngleMeasurementObject.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ab340b053e7b8eb682ff32e53e26d62f7" kindref="member">MR.AngleMeasurementObject.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="449" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="449" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aef94b6bb4b96d3a580138b9d45e8286e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_AngleMeasurementObject.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aef94b6bb4b96d3a580138b9d45e8286e" kindref="member">MR.AngleMeasurementObject.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="460" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="460" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aeacac9a58475cda06067ba0be76fa6f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_AngleMeasurementObject.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aeacac9a58475cda06067ba0be76fa6f0" kindref="member">MR.AngleMeasurementObject.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="471" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="471" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a8b0ee1c5343990678d2941fe96b75214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_AngleMeasurementObject.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns bounding box of this object in given viewport in world coordinates, to get world bounding box of the object with all child objects, please call <ref refid="classMR_1_1Const__Object_1adec896d2f7f19300a966a810c5ff0eb3" kindref="member">Object.getWorldTreeBox</ref> method Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a8b0ee1c5343990678d2941fe96b75214" kindref="member">MR.AngleMeasurementObject.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="484" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="484" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a6c56df1a75aa5fa48fb208b91e11e233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a6c56df1a75aa5fa48fb208b91e11e233" kindref="member">MR.AngleMeasurementObject.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="495" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="495" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ab075d8a63601c97c0ae49101825c00e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ab075d8a63601c97c0ae49101825c00e3" kindref="member">MR.AngleMeasurementObject.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="507" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="507" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a4fc6fdf1c2cf7fdde664f1c2a24d5d52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_AngleMeasurementObject.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a4fc6fdf1c2cf7fdde664f1c2a24d5d52" kindref="member">MR.AngleMeasurementObject.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="518" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="518" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aa7935356dc30759b90f2cb1a414cdac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_AngleMeasurementObject.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aa7935356dc30759b90f2cb1a414cdac4" kindref="member">MR.AngleMeasurementObject.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="529" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="529" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a5235a2ef6a51b7762fee8a0e839a8a57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_AngleMeasurementObject.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a5235a2ef6a51b7762fee8a0e839a8a57" kindref="member">MR.AngleMeasurementObject.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="540" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="540" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a99269e28242066ab28ae482f8e281fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_AngleMeasurementObject.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a99269e28242066ab28ae482f8e281fd5" kindref="member">MR.AngleMeasurementObject.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="551" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="551" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ade6a1ac9e980e0a71fcac1d864898163" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ade6a1ac9e980e0a71fcac1d864898163" kindref="member">MR.AngleMeasurementObject.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="563" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="563" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a66bc3db7badecf38deb4b2f261477d78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_AngleMeasurementObject.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a66bc3db7badecf38deb4b2f261477d78" kindref="member">MR.AngleMeasurementObject.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="574" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="574" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a6300ce188125aece964e838bfae55179" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_AngleMeasurementObject.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a6300ce188125aece964e838bfae55179" kindref="member">MR.AngleMeasurementObject.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="585" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="585" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a09a08506ea6eb2de19fffe228f80a9e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_AngleMeasurementObject.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a09a08506ea6eb2de19fffe228f80a9e9" kindref="member">MR.AngleMeasurementObject.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="596" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="596" bodyend="601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a1b01174ce1af26cca72593e71626c937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a1b01174ce1af26cca72593e71626c937" kindref="member">MR.AngleMeasurementObject.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="608" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="608" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a3bbdb09cbc44270397afbc6f045b004d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_AngleMeasurementObject.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a3bbdb09cbc44270397afbc6f045b004d" kindref="member">MR.AngleMeasurementObject.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="618" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="618" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aa1a28a2a57f71865f285e1cc5d22e100" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_AngleMeasurementObject.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__AngleMeasurementObject_1aa1a28a2a57f71865f285e1cc5d22e100" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aa1a28a2a57f71865f285e1cc5d22e100" kindref="member">MR.AngleMeasurementObject.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="631" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="631" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aa2fad1892491f8f78c21ffe617b167b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_AngleMeasurementObject.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aa2fad1892491f8f78c21ffe617b167b1" kindref="member">MR.AngleMeasurementObject.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="645" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="645" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a60039ba059e5aee43efc5b5909ba050f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_AngleMeasurementObject.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__AngleMeasurementObject_1a60039ba059e5aee43efc5b5909ba050f" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a60039ba059e5aee43efc5b5909ba050f" kindref="member">MR.AngleMeasurementObject.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="658" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="658" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a83f87f597247431af6d4c63af063f8c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_AngleMeasurementObject.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a83f87f597247431af6d4c63af063f8c6" kindref="member">MR.AngleMeasurementObject.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="672" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="672" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a69379459b4271e856c183ed68886164b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a69379459b4271e856c183ed68886164b" kindref="member">MR.AngleMeasurementObject.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="684" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="684" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a01fb385345729e730e1592a53b3d436d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a01fb385345729e730e1592a53b3d436d" kindref="member">MR.AngleMeasurementObject.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="695" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="695" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aac5f7d50301817eda19ca80cd31e3b46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1aac5f7d50301817eda19ca80cd31e3b46" kindref="member">MR.AngleMeasurementObject.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="707" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="707" bodyend="712"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1af2356b2510685935417925d53639afed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1af2356b2510685935417925d53639afed" kindref="member">MR.AngleMeasurementObject.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="718" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="718" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a2d9eaafe315817373eea9117451ba2d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a2d9eaafe315817373eea9117451ba2d5" kindref="member">MR.AngleMeasurementObject.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="728" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="728" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1acdb10518a4b1bc9c74865377931e58b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1acdb10518a4b1bc9c74865377931e58b3" kindref="member">MR.AngleMeasurementObject.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="738" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a4a3fc30ac34d9de1a468d17e9eaf2f64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a4a3fc30ac34d9de1a468d17e9eaf2f64" kindref="member">MR.AngleMeasurementObject.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="749" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="749" bodyend="754"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ab2c3a4c147cbff912a83eae5038d6fbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ab2c3a4c147cbff912a83eae5038d6fbd" kindref="member">MR.AngleMeasurementObject.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="761" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="761" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a888f501e1c1004eac15f0a18cbcfe995" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_AngleMeasurementObject.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a888f501e1c1004eac15f0a18cbcfe995" kindref="member">MR.AngleMeasurementObject.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="772" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="772" bodyend="777"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a500d565df8636d3b5a28dd77efdfc18f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_AngleMeasurementObject.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a500d565df8636d3b5a28dd77efdfc18f" kindref="member">MR.AngleMeasurementObject.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="782" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="782" bodyend="787"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a0aa4a283d423a063faa2c16e940cc560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_AngleMeasurementObject.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a0aa4a283d423a063faa2c16e940cc560" kindref="member">MR.AngleMeasurementObject.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="793" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="793" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a73be91aae48ed82706836208901bf33f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_AngleMeasurementObject.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a73be91aae48ed82706836208901bf33f" kindref="member">MR.AngleMeasurementObject.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="805" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="805" bodyend="810"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a96f240137535e3e49cd9cc9961da0034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_AngleMeasurementObject.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a96f240137535e3e49cd9cc9961da0034" kindref="member">MR.AngleMeasurementObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="818" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="818" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a353c2eedc7abd9247c5751710083a166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a353c2eedc7abd9247c5751710083a166" kindref="member">MR.AngleMeasurementObject.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="829" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="829" bodyend="834"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a71f3289fa04fe607056642a17985a1c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.hasModel</qualifiedname>
+        <briefdescription>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a71f3289fa04fe607056642a17985a1c2" kindref="member">MR.AngleMeasurementObject.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="841" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="841" bodyend="846"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ae0ae1c1555e7be7c4103adcea8bd8366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_AngleMeasurementObject.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1ae0ae1c1555e7be7c4103adcea8bd8366" kindref="member">MR.AngleMeasurementObject.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="853" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="853" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1af10375f344c2a0829f48643158152474" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_AngleMeasurementObject.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1af10375f344c2a0829f48643158152474" kindref="member">MR.AngleMeasurementObject.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="864" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="864" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a95313d405f83b344b3bac7fbc4581e9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_AngleMeasurementObject.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1a95313d405f83b344b3bac7fbc4581e9d" kindref="member">MR.AngleMeasurementObject.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="875" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="875" bodyend="880"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1abc1200f2c4d85b28824c9e159003ac1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_AngleMeasurementObject.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__AngleMeasurementObject_1abc1200f2c4d85b28824c9e159003ac1a" kindref="member">MR.AngleMeasurementObject.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="887" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="887" bodyend="892"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a94a6d71eca69aef35f254d3a15b62b2b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AngleMeasurementObject.~Const_AngleMeasurementObject</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_AngleMeasurementObject</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.~Const_AngleMeasurementObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a62c80c929df03a7d7e39acd27e0ac768" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_AngleMeasurementObject.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_AngleMeasurementObject self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AngleMeasurementObject" kindref="compound">Const_AngleMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="34" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aecc842ea4d8b9929b400892ac65a5839" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_AngleMeasurementObject.operator MR.Const_Object</definition>
+        <argsstring>(Const_AngleMeasurementObject self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AngleMeasurementObject" kindref="compound">Const_AngleMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="42" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a293e82493bd6106a38e153f5732a419f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_AngleMeasurementObject.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_AngleMeasurementObject self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AngleMeasurementObject" kindref="compound">Const_AngleMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="50" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1af2dae94e2d479801b2ddba98df268577" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_AngleMeasurementObject.operator MR.Const_MeasurementObject</definition>
+        <argsstring>(Const_AngleMeasurementObject self)</argsstring>
+        <name>operator MR.Const_MeasurementObject</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.operator MR.Const_MeasurementObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AngleMeasurementObject" kindref="compound">Const_AngleMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="58" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a5cf8b262b80afadfaad945de4d2b016c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_AngleMeasurementObject.operator Const_AngleMeasurementObject?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_AngleMeasurementObject?</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.operator Const_AngleMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="68" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1ab44fc1e95f49f9f725fffd11ec948519" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_AngleMeasurementObject.operator Const_AngleMeasurementObject?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_AngleMeasurementObject?</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.operator Const_AngleMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="78" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a0d89b7b0cbbee44b3f8800825bb94006" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_AngleMeasurementObject.operator Const_AngleMeasurementObject?</definition>
+        <argsstring>(MR.Const_MeasurementObject parent)</argsstring>
+        <name>operator Const_AngleMeasurementObject?</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.operator Const_AngleMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeasurementObject" kindref="compound">MR.Const_MeasurementObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="88" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="88" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1aa12a365c6ac950ce0d290ef67a2cc6e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_AngleMeasurementObject.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::AngleMeasurementObject::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="125" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a49efa27a9ecaec0236f0708a07a6020f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_AngleMeasurementObject.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::AngleMeasurementObject::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="147" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1a452819bbe8c994a160177d0a95b73924" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_AngleMeasurementObject.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::AngleMeasurementObject::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="168" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="168" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__AngleMeasurementObject_1afd9c3f2ac3d838f1af781ee58c23571d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AngleMeasurementObject.Const_AngleMeasurementObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_AngleMeasurementObject</name>
+        <qualifiedname>MR.Const_AngleMeasurementObject.Const_AngleMeasurementObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="99" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">MR.AngleMeasurementObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_AngleMeasurementObject</label>
+        <link refid="classMR_1_1Const__AngleMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.AngleMeasurementObject</label>
+        <link refid="classMR_1_1AngleMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_AngleMeasurementObject</label>
+        <link refid="classMR_1_1Const__AngleMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAngleMeasurementObject.cs" bodystart="16" bodyend="893"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ac11b669a15f6be4fd7c44095fa1092ff" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8c56f9d434d4f608da1c76ea64f8185c" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aba503b044b95472f19ae8f38000b3816" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a0aa4a283d423a063faa2c16e940cc560" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8e071f1462d52b87c43efb48a75c01d8" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>computeAngle</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1afd9c3f2ac3d838f1af781ee58c23571d" prot="package" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>Const_AngleMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aceadcda42eef5fe5720c16807087055f" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>Const_AngleMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a049da5e68c22d02ff2f9543f700a5317" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>Const_AngleMeasurementObject</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a5c0a0e775b488b4694916f0cc654baed" prot="protected" virt="virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a2a8df7467391bccedc23d69e812f4045" prot="public" virt="virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1abee1f78a7287b4a92eb2cbbae57050ba" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a99269e28242066ab28ae482f8e281fd5" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ae9cd015ef39c91c5e2d4eb882f385e13" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ad80b2a7c700404d8e7c0b9c7fe9b1a13" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aeacac9a58475cda06067ba0be76fa6f0" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a4fc6fdf1c2cf7fdde664f1c2a24d5d52" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a1e54bd44188e32d359c9ebd09b28fe10" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1abf5adf0d9b8de110478b781940c63b62" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a1b85da8f89ea1be3eb3ac23e0c4e3f1b" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab18865811484aa9436461c5020181523" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8bee07dbac6ef2fd2ffb2828e5e3b762" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aefe8ed1cab8da77386e7c8e01d17a59e" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a9a3882437072d7f38c52c12f73eee30d" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getIsConical</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a7aa2154a3099fcbd8071d41f5cecc09f" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa5df18e6bdf7b505fde5692da0f31144" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getLocalRay</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a95313d405f83b344b3bac7fbc4581e9d" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a6c56df1a75aa5fa48fb208b91e11e233" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1abc1200f2c4d85b28824c9e159003ac1a" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa7935356dc30759b90f2cb1a414cdac4" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a4f6e9fe0824b846116d29c98e4ada9c4" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getShouldVisualizeRay</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a5235a2ef6a51b7762fee8a0e839a8a57" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a4c54a906613dfbebaf7341ce8b02cce5" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a1975ddc6673ede2a0359676793ba8c7d" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8b0ee1c5343990678d2941fe96b75214" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab9d0515b84f6ba3abd11ae992ab8a28c" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a82d03731f3b09d867e6faca199a9bcda" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getWorldRay</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a96f240137535e3e49cd9cc9961da0034" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a8f3ab81dd86a89af19aa91473ce1ba6c" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1acfa69c0d35def3b037e22721842cf805" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a69379459b4271e856c183ed68886164b" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a83f87f597247431af6d4c63af063f8c6" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a71f3289fa04fe607056642a17985a1c2" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a353c2eedc7abd9247c5751710083a166" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a09a08506ea6eb2de19fffe228f80a9e9" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1af2356b2510685935417925d53639afed" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1acdb10518a4b1bc9c74865377931e58b3" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a4a3fc30ac34d9de1a468d17e9eaf2f64" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a01fb385345729e730e1592a53b3d436d" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aac5f7d50301817eda19ca80cd31e3b46" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab075d8a63601c97c0ae49101825c00e3" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a2d9eaafe315817373eea9117451ba2d5" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab2c3a4c147cbff912a83eae5038d6fbd" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a3bbdb09cbc44270397afbc6f045b004d" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a5cf8b262b80afadfaad945de4d2b016c" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>operator Const_AngleMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab44fc1e95f49f9f725fffd11ec948519" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>operator Const_AngleMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a0d89b7b0cbbee44b3f8800825bb94006" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>operator Const_AngleMeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1af2dae94e2d479801b2ddba98df268577" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>operator MR.Const_MeasurementObject</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aecc842ea4d8b9929b400892ac65a5839" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a62c80c929df03a7d7e39acd27e0ac768" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a293e82493bd6106a38e153f5732a419f" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ade6a1ac9e980e0a71fcac1d864898163" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a66bc3db7badecf38deb4b2f261477d78" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a6300ce188125aece964e838bfae55179" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ab340b053e7b8eb682ff32e53e26d62f7" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aef94b6bb4b96d3a580138b9d45e8286e" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a500d565df8636d3b5a28dd77efdfc18f" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1af10375f344c2a0829f48643158152474" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ad51bf4a578e709961d1006a533bd7d4d" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a73be91aae48ed82706836208901bf33f" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a49efa27a9ecaec0236f0708a07a6020f" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a452819bbe8c994a160177d0a95b73924" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa12a365c6ac950ce0d290ef67a2cc6e2" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1afe1dce4e6b752f6666590359ad82ad2e" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1ae0ae1c1555e7be7c4103adcea8bd8366" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a94dffb6ff8993d79b83cf57f56bb9694" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a1b01174ce1af26cca72593e71626c937" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a888f501e1c1004eac15f0a18cbcfe995" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a60039ba059e5aee43efc5b5909ba050f" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa1a28a2a57f71865f285e1cc5d22e100" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1aa2fad1892491f8f78c21ffe617b167b1" prot="public" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__AngleMeasurementObject_1a94a6d71eca69aef35f254d3a15b62b2b" prot="private" virt="non-virtual"><scope>MR::Const_AngleMeasurementObject</scope><name>~Const_AngleMeasurementObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

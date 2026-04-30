@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__IICPTreeIndexer" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_IICPTreeIndexer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1IICPTreeIndexer" prot="public" virt="non-virtual">MR.IICPTreeIndexer</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1ac21a369423c160fd95c6976c37da07ec" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_IICPTreeIndexer.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="646" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="646" bodyend="654"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1a1dd4806f7f6e87e220a53fc9be69765a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_IICPTreeIndexer.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="655" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="655" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1ab27985a9706df522c90d588e7ec21848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_IICPTreeIndexer.fromSameNode</definition>
+        <argsstring>(int l, MR.Const_Id_MRICPElemtTag eI, MR.Const_Id_MRICPElemtTag eJ)</argsstring>
+        <name>fromSameNode</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.fromSameNode</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>eI</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>eJ</declname>
+        </param>
+        <briefdescription>
+<para>returns true if eI and eJ are from same node Generated from method <computeroutput><ref refid="classMR_1_1Const__IICPTreeIndexer_1ab27985a9706df522c90d588e7ec21848" kindref="member">MR.IICPTreeIndexer.fromSameNode</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="664" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="664" bodyend="669"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1a33f0e8f26867680e9b9e356d7df50469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.Const_IICPTreeIndexer.getElementLeaves</definition>
+        <argsstring>(int l, MR.Const_Id_MRICPElemtTag eId)</argsstring>
+        <name>getElementLeaves</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.getElementLeaves</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>eId</declname>
+        </param>
+        <briefdescription>
+<para>returns bitset of leaves of given node Generated from method <computeroutput><ref refid="classMR_1_1Const__IICPTreeIndexer_1a33f0e8f26867680e9b9e356d7df50469" kindref="member">MR.IICPTreeIndexer.getElementLeaves</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="675" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="675" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1aff7dc4a20afc785cf6b685eab53c4f5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.TypedBitSet_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe MR.TypedBitSet_MRIdMRICPElemtTag MR.Const_IICPTreeIndexer.getElementNodes</definition>
+        <argsstring>(int l, MR.Const_Id_MRICPElemtTag eId)</argsstring>
+        <name>getElementNodes</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.getElementNodes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>eId</declname>
+        </param>
+        <briefdescription>
+<para>valid for l &gt; 0, returns bitset of subnodes that is associated with eId should be valid for l == <computeroutput>getNumLayers</computeroutput> Generated from method <computeroutput><ref refid="classMR_1_1Const__IICPTreeIndexer_1aff7dc4a20afc785cf6b685eab53c4f5b" kindref="member">MR.IICPTreeIndexer.getElementNodes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="687" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="687" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1a81c7805e487412edad29d721e7d468d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_IICPTreeIndexer.getNumElements</definition>
+        <argsstring>(int l)</argsstring>
+        <name>getNumElements</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.getNumElements</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>l == 0 - objs_.size() l == 1 - number of nodes one layer above objects l == 2 - number of nodes one layer above nodes lvl1 ... l == <computeroutput>getNumLayers</computeroutput> - 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__IICPTreeIndexer_1a81c7805e487412edad29d721e7d468d8" kindref="member">MR.IICPTreeIndexer.getNumElements</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="702" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="702" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1aa8a48b0ce6700228bd6129468fb12fe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_IICPTreeIndexer.getNumLayers</definition>
+        <argsstring>()</argsstring>
+        <name>getNumLayers</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.getNumLayers</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__IICPTreeIndexer_1aa8a48b0ce6700228bd6129468fb12fe6" kindref="member">MR.IICPTreeIndexer.getNumLayers</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="712" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="712" bodyend="717"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1ae3511c5efdccea9a0f154c87bc5d8fe1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_IICPTreeIndexer.~Const_IICPTreeIndexer</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_IICPTreeIndexer</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.~Const_IICPTreeIndexer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="656" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="656" bodyend="656"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__IICPTreeIndexer_1a851f6583a059e46ed38d7e538ce079e5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IICPTreeIndexer.Const_IICPTreeIndexer</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_IICPTreeIndexer</name>
+        <qualifiedname>MR.Const_IICPTreeIndexer.Const_IICPTreeIndexer</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="658" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="658" bodyend="658"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>structure to find leafs and groups of each in cascade mode Generated from class <computeroutput><ref refid="classMR_1_1IICPTreeIndexer" kindref="compound">MR.IICPTreeIndexer</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_IICPTreeIndexer</label>
+        <link refid="classMR_1_1Const__IICPTreeIndexer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.IICPTreeIndexer</label>
+        <link refid="classMR_1_1IICPTreeIndexer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_IICPTreeIndexer</label>
+        <link refid="classMR_1_1Const__IICPTreeIndexer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="640" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="641" bodyend="718"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1a851f6583a059e46ed38d7e538ce079e5" prot="package" virt="non-virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>Const_IICPTreeIndexer</name></member>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1ac21a369423c160fd95c6976c37da07ec" prot="protected" virt="virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1a1dd4806f7f6e87e220a53fc9be69765a" prot="public" virt="virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1ab27985a9706df522c90d588e7ec21848" prot="public" virt="non-virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>fromSameNode</name></member>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1a33f0e8f26867680e9b9e356d7df50469" prot="public" virt="non-virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>getElementLeaves</name></member>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1aff7dc4a20afc785cf6b685eab53c4f5b" prot="public" virt="non-virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>getElementNodes</name></member>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1a81c7805e487412edad29d721e7d468d8" prot="public" virt="non-virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>getNumElements</name></member>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1aa8a48b0ce6700228bd6129468fb12fe6" prot="public" virt="non-virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>getNumLayers</name></member>
+      <member refid="classMR_1_1Const__IICPTreeIndexer_1ae3511c5efdccea9a0f154c87bc5d8fe1" prot="private" virt="non-virtual"><scope>MR::Const_IICPTreeIndexer</scope><name>~Const_IICPTreeIndexer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

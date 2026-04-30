@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeSurfaceAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeSurfaceAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeSurfaceAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeSurfaceAction" prot="public" virt="non-virtual">MR.Const_ChangeSurfaceAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeSurfaceAction_1a15e09ec6ac71af7fac01302987afca36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeSurfaceAction</name>
         <qualifiedname>MR.ChangeSurfaceAction.ChangeSurfaceAction</qualifiedname>
         <param>
-          <type>Const_ChangeSurfaceAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeSurfaceAction" kindref="compound">Const_ChangeSurfaceAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeSurfaceAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeSurfaceAction</label>
+        <link refid="classMR_1_1Const__ChangeSurfaceAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeSurfaceAction</label>
+        <link refid="classMR_1_1Const__ChangeSurfaceAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,8 +243,20 @@
       <member refid="classMR_1_1ChangeSurfaceAction_1a52cca979d6de53736c44d474c97763d4" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>ChangeSurfaceAction</name></member>
       <member refid="classMR_1_1ChangeSurfaceAction_1a6fac4997d7535c9e3fc7c705a0f92e3e" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>ChangeSurfaceAction</name></member>
       <member refid="classMR_1_1ChangeSurfaceAction_1a16b04514e8401f0ef37e98dfd336afec" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>ChangeSurfaceAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a1f286cc97e05b07a0e6e42122c03f36b" prot="package" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>Const_ChangeSurfaceAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a23bf2adbc2a338c9b1f31e056ce6883d" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>Const_ChangeSurfaceAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a4b265c56c3ff6f5d282e59aa0c2aaed1" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>Const_ChangeSurfaceAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1af52b32d03552f92925b407cb5aa717b6" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>Const_ChangeSurfaceAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a6c8e2882e82f0074d395029a56b8736c" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>Const_ChangeSurfaceAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1aa70af8f59b4c973bf572024a896035ee" prot="protected" virt="virtual"><scope>MR::ChangeSurfaceAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1ac3819fab4550eb0cd17cbd49d158f1e7" prot="public" virt="virtual"><scope>MR::ChangeSurfaceAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a731c797ab22bc7a9e0993969d94007a7" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1ab558d00fd525472f63ba98882f1ea62a" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeSurfaceAction_1ab83537482142eead8ac2f42356ada11b" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>operator ChangeSurfaceAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1aeaf645983489f5279b686c096e4e3acc" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>operator Const_ChangeSurfaceAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a76e515fb81a5bbca4543a9dbc4c3c321" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeSurfaceAction_1a15e09ec6ac71af7fac01302987afca36" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSurfaceAction_1a44a392fdee74cf1100455ab4203404cb" prot="public" virt="non-virtual"><scope>MR::ChangeSurfaceAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoadedObjectT" kind="class" language="C#" prot="public">
     <compoundname>MR::LoadedObjectT</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedObjectT</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LoadedObjectT" prot="public" virt="non-virtual">MR.Const_LoadedObjectT</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LoadedObjectT_1a4703b8085df7b9d9bd73c708ee213a96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.SharedPtr_MRObject</type>
@@ -141,7 +141,7 @@
         <name>LoadedObjectT</name>
         <qualifiedname>MR.LoadedObjectT.LoadedObjectT</qualifiedname>
         <param>
-          <type>Const_LoadedObjectT</type>
+          <type><ref refid="classMR_1_1Const__LoadedObjectT" kindref="compound">Const_LoadedObjectT</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -206,6 +206,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT</label>
+        <link refid="classMR_1_1Const__LoadedObjectT"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +228,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT</label>
+        <link refid="classMR_1_1Const__LoadedObjectT"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -242,6 +244,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="129" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="130" bodyend="240"/>
     <listofallmembers>
       <member refid="classMR_1_1LoadedObjectT_1aeff1b7184db9f8cd34470b51a45ec757" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT_1a81d48f2b176ad903acff7eed78d36ad8" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>Const_LoadedObjectT</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT_1a25c63a47279508191e257f1806c02fcc" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>Const_LoadedObjectT</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT_1aa5c8e56374985d80b103e9a03660624f" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>Const_LoadedObjectT</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT_1a06a7de06e3b8e0d8f64cad69e857f935" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>Const_LoadedObjectT</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT_1adfcae7dded7e924920264ea20417f5cf" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>Const_LoadedObjectT</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT_1a3df471dfa3f11d4223f27cf594a92a7a" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>Const_LoadedObjectT</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT_1a5d444306436a85dec7d081a79bdd6875" prot="protected" virt="virtual"><scope>MR::LoadedObjectT</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT_1ae7530efc7cb8f67e853886b28fdb547e" prot="public" virt="virtual"><scope>MR::LoadedObjectT</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LoadedObjectT_1a210aa79f80cfd798aacbdc9e749a7177" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>lengthUnit</name></member>
       <member refid="classMR_1_1LoadedObjectT_1a929bff4730b962e0dd8bd144bad2cd33" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>LoadedObjectT</name></member>
       <member refid="classMR_1_1LoadedObjectT_1a7c0f2864525cd28bff390a3fd5b8391b" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT</scope><name>LoadedObjectT</name></member>

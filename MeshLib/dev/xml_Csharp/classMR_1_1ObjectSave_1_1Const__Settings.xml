@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectSave_1_1Const__Settings" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjectSave::Const_Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectSave_1_1Settings" prot="public" virt="non-virtual">MR.ObjectSave.Settings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ObjectSave_1_1Const__Settings_1a353191fb669ff3b0b9f82469084331f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_MRLengthUnit</type>
+        <definition>unsafe MR.Std.Const_Optional_MRLengthUnit MR.ObjectSave.Const_Settings.lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.lengthUnit</qualifiedname>
+        <briefdescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="325" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="325" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ObjectSave_1_1Const__Settings_1a77816a52552d695f65fc9a41837a3c9a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.ObjectSave.Const_Settings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.progress</qualifiedname>
+        <briefdescription>
+<para>to report loading progress and allow the user to cancel it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="330" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="330" bodyend="330"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1a918845c69465a2c8d03ed6d48cb85309" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ObjectSave.Const_Settings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="300" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="300" bodyend="308"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1abcacbba9bce32e96baf37d2c065cd553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ObjectSave.Const_Settings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="309" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="309" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1ad9108452d7ff25875a4f3d6d1745590d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectSave.Const_Settings.Const_Settings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.Const_Settings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="365" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="365" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1a153381288f220a2f2a4b2f261bda16a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectSave.Const_Settings.Const_Settings</definition>
+        <argsstring>(MR.ObjectSave._ByValue_Settings _other)</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.Const_Settings</qualifiedname>
+        <param>
+          <type>MR.ObjectSave._ByValue_Settings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectSave_1_1Settings_1a2282543d73724cbcd2f635a27e088564" kindref="member">MR.ObjectSave.Settings.Settings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="376" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="376" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1aaaaba52c609d2224cc6bf82aa27e8088" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjectSave.Const_Settings.Const_Settings</definition>
+        <argsstring>(Const_Settings _other)</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.Const_Settings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectSave_1_1Const__Settings" kindref="compound">Const_Settings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectSave_1_1Settings_1a2282543d73724cbcd2f635a27e088564" kindref="member">MR.ObjectSave.Settings.Settings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="388" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="388" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1af7fa82031df13f0a28c4fa541fea7a9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjectSave.Const_Settings.Const_Settings</definition>
+        <argsstring>(Settings _other)</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.Const_Settings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectSave_1_1Settings_1a2282543d73724cbcd2f635a27e088564" kindref="member">MR.ObjectSave.Settings.Settings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="393" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="393" bodyend="393"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1a14f8f73907ca6cefdb9c632447f75bee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjectSave.Const_Settings.~Const_Settings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Settings</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.~Const_Settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="310" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="310" bodyend="310"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1a524983c449a4a1d22d9ead3e59ccd0ab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectSave.Const_Settings.operator MR.SceneSave.Const_Settings</definition>
+        <argsstring>(Const_Settings self)</argsstring>
+        <name>operator MR.SceneSave.Const_Settings</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.operator MR.SceneSave.Const_Settings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectSave_1_1Const__Settings" kindref="compound">Const_Settings</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="313" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="313" bodyend="320"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjectSave_1_1Const__Settings_1a88ea417861e124dc22e5b3eaae6c261b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectSave.Const_Settings.Const_Settings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Settings</name>
+        <qualifiedname>MR.ObjectSave.Const_Settings.Const_Settings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="354" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="354" bodyend="359"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ObjectSave_1_1Settings" kindref="compound">MR.ObjectSave.Settings</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SceneSave_1_1Settings" kindref="compound">MR.SceneSave.Settings</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ObjectSave.Const_Settings</label>
+        <link refid="classMR_1_1ObjectSave_1_1Const__Settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ObjectSave.Settings</label>
+        <link refid="classMR_1_1ObjectSave_1_1Settings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ObjectSave.Const_Settings</label>
+        <link refid="classMR_1_1ObjectSave_1_1Const__Settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" line="294" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectSaveSettings.cs" bodystart="295" bodyend="394"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1a88ea417861e124dc22e5b3eaae6c261b" prot="package" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1ad9108452d7ff25875a4f3d6d1745590d" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1a153381288f220a2f2a4b2f261bda16a5" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1aaaaba52c609d2224cc6bf82aa27e8088" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1af7fa82031df13f0a28c4fa541fea7a9d" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1a918845c69465a2c8d03ed6d48cb85309" prot="protected" virt="virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1abcacbba9bce32e96baf37d2c065cd553" prot="public" virt="virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1a353191fb669ff3b0b9f82469084331f0" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>lengthUnit</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1a524983c449a4a1d22d9ead3e59ccd0ab" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>operator MR.SceneSave.Const_Settings</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1a77816a52552d695f65fc9a41837a3c9a" prot="public" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>progress</name></member>
+      <member refid="classMR_1_1ObjectSave_1_1Const__Settings_1a14f8f73907ca6cefdb9c632447f75bee" prot="private" virt="non-virtual"><scope>MR::ObjectSave::Const_Settings</scope><name>~Const_Settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

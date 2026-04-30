@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f" prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1a162aecb8bca90376462cd22721cdd104" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>Binary_MRSphere3f_MRSphere3f</name>
         <qualifiedname>MR.Features.Traits.Binary_MRSphere3f_MRSphere3f.Binary_MRSphere3f_MRSphere3f</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f" kindref="compound">MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.Features.Traits.Binary_MRSphere3f_MRSphere3f.assign</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f" kindref="compound">MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Binary_MRSphere3f_MRSphere3f</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,13 @@
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1a877825b50aac3f3393ed3d9e0c6337ff" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Binary_MRSphere3f_MRSphere3f</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1afe59d3c787d29df08d737ca4ad58bec5" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Binary_MRSphere3f_MRSphere3f</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f_1a9640b01c63cdbf74f5fd1df8d9c2b98d" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Binary_MRSphere3f_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f_1a73d54519e8f79fa1c8782531cb922816" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Const_Binary_MRSphere3f_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f_1acd52b81c1b35f29ebc1c31306605c7fd" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Const_Binary_MRSphere3f_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f_1a0e6fd061fbb38a2f1cd1ab76da2e4185" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Const_Binary_MRSphere3f_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f_1a66d54874a3d58ccbad859532bbfa4a16" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Const_Binary_MRSphere3f_MRSphere3f</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f_1a8f697e38ba3df44a5ede543e50d5b768" prot="protected" virt="virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f_1a85835dded9d291d992e3a6f2282c0174" prot="public" virt="virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f_1a534dc97dbf09e261ec53c0929403af9d" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</scope><name>measure</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

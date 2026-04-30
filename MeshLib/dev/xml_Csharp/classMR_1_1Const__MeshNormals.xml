@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeshNormals" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeshNormals</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshNormals" prot="public" virt="non-virtual">MR.MeshNormals</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MeshNormals_1ae4ff6d1c71b31b8e397e8cbd130f444c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__FaceNormals" kindref="compound">MR.Const_FaceNormals</ref></type>
+        <definition>unsafe MR.Const_FaceNormals MR.Const_MeshNormals.faceNormals</definition>
+        <argsstring></argsstring>
+        <name>faceNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.faceNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="25" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshNormals_1ab0f194fc14e8cc923b6ca622421c6afb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
+        <definition>unsafe MR.Const_VertCoords MR.Const_MeshNormals.vertNormals</definition>
+        <argsstring></argsstring>
+        <name>vertNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.vertNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="27" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1abb91ee9834d570641b0028b7ae749711" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MeshNormals.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshNormals.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1af443043f12447007e453fb776502aa6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MeshNormals.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshNormals.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1a57f8612a8b28dd0021b2103580ddbac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshNormals.Const_MeshNormals</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MeshNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.Const_MeshNormals</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="62" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1a642b5a4d363da3e072f39ce7dbd0f97d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshNormals.Const_MeshNormals</definition>
+        <argsstring>(MR._ByValue_FaceNormals faceNormals, MR._ByValue_VertCoords vertNormals)</argsstring>
+        <name>Const_MeshNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.Const_MeshNormals</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceNormals</type>
+          <declname>faceNormals</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_VertCoords</type>
+          <declname>vertNormals</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshNormals" kindref="compound">MR.MeshNormals</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="73" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="73" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1a127ded8d667ee466a7300c2b92043689" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshNormals.Const_MeshNormals</definition>
+        <argsstring>(MR._ByValue_MeshNormals _other)</argsstring>
+        <name>Const_MeshNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.Const_MeshNormals</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshNormals</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshNormals_1a4f5a15fdc6f691d429242f20395e9bc5" kindref="member">MR.MeshNormals.MeshNormals</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="86" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1a5162f1e4ddcb9dde7019a1a64b3ddaa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshNormals.Const_MeshNormals</definition>
+        <argsstring>(Const_MeshNormals _other)</argsstring>
+        <name>Const_MeshNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.Const_MeshNormals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshNormals" kindref="compound">Const_MeshNormals</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshNormals_1a4f5a15fdc6f691d429242f20395e9bc5" kindref="member">MR.MeshNormals.MeshNormals</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="98" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1a4b100ac9b3632ca6ffd55f3fe16af1fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshNormals.Const_MeshNormals</definition>
+        <argsstring>(MeshNormals _other)</argsstring>
+        <name>Const_MeshNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.Const_MeshNormals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshNormals" kindref="compound">MeshNormals</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshNormals_1a4f5a15fdc6f691d429242f20395e9bc5" kindref="member">MR.MeshNormals.MeshNormals</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1a4a1df36b51a6399b7da3bc572221b723" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshNormals.~Const_MeshNormals</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MeshNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.~Const_MeshNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshNormals_1ae19749b5278f247b1e60fd04a8da37af" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshNormals.Const_MeshNormals</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MeshNormals</name>
+        <qualifiedname>MR.Const_MeshNormals.Const_MeshNormals</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="51" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="51" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshNormals" kindref="compound">MR.MeshNormals</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeshNormals</label>
+        <link refid="classMR_1_1Const__MeshNormals"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MeshNormals</label>
+        <link refid="classMR_1_1MeshNormals"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_MeshNormals</label>
+        <link refid="classMR_1_1Const__MeshNormals"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" bodystart="8" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeshNormals_1ae19749b5278f247b1e60fd04a8da37af" prot="package" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a57f8612a8b28dd0021b2103580ddbac2" prot="public" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a642b5a4d363da3e072f39ce7dbd0f97d" prot="public" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a127ded8d667ee466a7300c2b92043689" prot="public" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a5162f1e4ddcb9dde7019a1a64b3ddaa9" prot="public" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a4b100ac9b3632ca6ffd55f3fe16af1fe" prot="public" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>Const_MeshNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1abb91ee9834d570641b0028b7ae749711" prot="protected" virt="virtual"><scope>MR::Const_MeshNormals</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1af443043f12447007e453fb776502aa6f" prot="public" virt="virtual"><scope>MR::Const_MeshNormals</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1ae4ff6d1c71b31b8e397e8cbd130f444c" prot="public" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>faceNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1ab0f194fc14e8cc923b6ca622421c6afb" prot="public" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>vertNormals</name></member>
+      <member refid="classMR_1_1Const__MeshNormals_1a4a1df36b51a6399b7da3bc572221b723" prot="private" virt="non-virtual"><scope>MR::Const_MeshNormals</scope><name>~Const_MeshNormals</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

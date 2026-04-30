@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WholeEdgeMap" kind="class" language="C#" prot="public">
     <compoundname>MR::WholeEdgeMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_WholeEdgeMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__WholeEdgeMap" prot="public" virt="non-virtual">MR.Const_WholeEdgeMap</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1WholeEdgeMap_1a008796987a36d50e7208da3175340570" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>WholeEdgeMap</name>
         <qualifiedname>MR.WholeEdgeMap.WholeEdgeMap</qualifiedname>
         <param>
-          <type>Const_WholeEdgeMap</type>
+          <type><ref refid="classMR_1_1Const__WholeEdgeMap" kindref="compound">Const_WholeEdgeMap</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_WholeEdgeMap</label>
+        <link refid="classMR_1_1Const__WholeEdgeMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_WholeEdgeMap</label>
+        <link refid="classMR_1_1Const__WholeEdgeMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1WholeEdgeMap_1a168ed50f04d5ed82f4a3ef40e1a649b6" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a0249fcc6ca4a8c9b99da642d1b3a00e7" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a83d166d2f4b10449b216e6686a225c2b" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1afbe8717d5e5469130271bb3b3ff982af" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1af0b98ae7007c2253b3b2f1175260bfc9" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1ad98e0b294a42a7f77e5f842c3facfa88" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a69ad651be7be8a11471cea42bea3b900" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a031c2ba1789dfe1c9436cdb72bb4a3f5" prot="package" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a9cb7934a3f293fc9c90d78c146f24c4c" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1aedb4919fd9049a977cf70c410706af10" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a9d78b5c5f2432384f745b11e45bb4f6c" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a131fba26df9a7ea9c93b5bf05db7d81b" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1abdbb1ec11c92133534e384ed4b6e1d5a" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a9ef3bc70386a7b4c0d67f180c00a4bc5" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a0d7fdf254e3bf81f98fe739cbf6fbce3" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ad73f43069c41abb28cceafa4b46e1773" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a3df9ebc95d914a5ea8c962ff127f7896" prot="protected" virt="virtual"><scope>MR::WholeEdgeMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1acd489f5caf37311c5deaef1ad9353c07" prot="public" virt="virtual"><scope>MR::WholeEdgeMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1aae675a8a6a57fce37b3ff2c57f7f340b" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a7dcf1f4502600bf784b52e6e067a4815" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1abf065206ac2a5c7aa5dc2cd929b85d06" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1ab6e7d20e553bafdbebb8a16eaaca7007" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1aaee6e167f00b60127d6d75b6dc973896" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>Equals</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ae45c2a26a07a3cf1484671badda40335" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>front</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ad8787278771c934f5cdb773c17eda187" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a965c8e11fb545aa6df25e4f5d9719c3a" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a1616b1e369dc73d20a6b47d124ccce32" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1aec5965cd507feddbd4b9781d1a844303" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>operator Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ae3eb7170a6129dbab7b55a5344ac67ba" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>operator WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a18d54500ba6c35deec91ab4c70a9b320" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a6cef7865d8131ba3f9e66db600f5b3f8" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a42aafbd828dd052c4daebb7c48a4e905" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>popBack</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a95fe221f09835be1f7496f7f5ccc4e25" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>pushBack</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a6871a293d40d211beace8defbfa5ecfc" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1WholeEdgeMap_1ab84ed812af7602905bb5afe6b205a8aa" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a25ece76b95f392d4a8133b8e05fe7dea" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a5f78a83e0daa4ff7027537704548f2fc" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a432459105bded34f0fc23d8ec4466137" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>size</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1aed5d2bc42d5329b8541b99b66cdf3c74" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>swap</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a1c93939f71c4238e59d7ecd35ab2febc" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>this[MR.UndirectedEdgeId i]</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a008796987a36d50e7208da3175340570" prot="public" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>vec</name></member>

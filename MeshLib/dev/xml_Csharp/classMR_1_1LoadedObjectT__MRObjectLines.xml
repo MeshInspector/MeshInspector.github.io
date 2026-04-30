@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoadedObjectT__MRObjectLines" kind="class" language="C#" prot="public">
     <compoundname>MR::LoadedObjectT_MRObjectLines</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectLines</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LoadedObjectT__MRObjectLines" prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectLines</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LoadedObjectT__MRObjectLines_1ad212dbebe65cbe360791ab7e987f23ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.SharedPtr_MRObjectLines</type>
@@ -141,7 +141,7 @@
         <name>LoadedObjectT_MRObjectLines</name>
         <qualifiedname>MR.LoadedObjectT_MRObjectLines.LoadedObjectT_MRObjectLines</qualifiedname>
         <param>
-          <type>Const_LoadedObjectT_MRObjectLines</type>
+          <type><ref refid="classMR_1_1Const__LoadedObjectT__MRObjectLines" kindref="compound">Const_LoadedObjectT_MRObjectLines</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -206,6 +206,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT_MRObjectLines</label>
+        <link refid="classMR_1_1Const__LoadedObjectT__MRObjectLines"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +228,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT_MRObjectLines</label>
+        <link refid="classMR_1_1Const__LoadedObjectT__MRObjectLines"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -242,6 +244,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="1014" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="1015" bodyend="1125"/>
     <listofallmembers>
       <member refid="classMR_1_1LoadedObjectT__MRObjectLines_1a50ec397c42df4d8dad05983784e16160" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectLines_1a7564f84e56f0fc6732c602697940935b" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>Const_LoadedObjectT_MRObjectLines</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectLines_1a29df154e747fb12b874d4d2eb22752e7" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>Const_LoadedObjectT_MRObjectLines</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectLines_1ab87d1afd5dbf0e371d06ac27557e8ea8" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>Const_LoadedObjectT_MRObjectLines</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectLines_1a379dcacbfeee7ada88693cb48785475b" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>Const_LoadedObjectT_MRObjectLines</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectLines_1a76a747720723765fa4a3a2d2fc233640" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>Const_LoadedObjectT_MRObjectLines</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectLines_1aaa19e97ddd4b50362ac3da48dbab4a9d" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>Const_LoadedObjectT_MRObjectLines</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectLines_1abb5f0d9f54188bcf929042d3a0ba59a7" prot="protected" virt="virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectLines_1a870cb42d4e0d79068675af2b544acc07" prot="public" virt="virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectLines_1a70099feaaef8426ba6088a670636abd3" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>lengthUnit</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectLines_1adbc34a537607222f5d485664f337c640" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>LoadedObjectT_MRObjectLines</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectLines_1afb6d0fd63ecf7f2cc29f1cdafd8c2c0f" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectLines</scope><name>LoadedObjectT_MRObjectLines</name></member>

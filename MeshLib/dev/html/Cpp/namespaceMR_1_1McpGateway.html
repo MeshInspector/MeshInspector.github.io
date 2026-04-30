@@ -153,7 +153,9 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a1865d391c5eaff99701877d104fb7266" id="r_a1865d391c5eaff99701877d104fb7266"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1865d391c5eaff99701877d104fb7266">getBackendAlive</a> ()</td></tr>
 <tr class="memitem:a9ab308a9eb9041eb3bb4933a227f605c" id="r_a9ab308a9eb9041eb3bb4933a227f605c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ab308a9eb9041eb3bb4933a227f605c">probeBackendAlive</a> (const std::string &amp;targetUrl)</td></tr>
+<tr class="memitem:a153505bbfb54eb994b1929e70f09d9f5" id="r_a153505bbfb54eb994b1929e70f09d9f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a153505bbfb54eb994b1929e70f09d9f5">updateBackendAliveAndNotify</a> (bool nowAlive)</td></tr>
 <tr class="memitem:a7a95f3dc050ff3960ed8ad8918399289" id="r_a7a95f3dc050ff3960ed8ad8918399289"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a95f3dc050ff3960ed8ad8918399289">probeAndTrackBackend</a> (const std::string &amp;targetUrl)</td></tr>
+<tr class="memitem:a125af5dc97b6c00c8b23e57f661a1b96" id="r_a125af5dc97b6c00c8b23e57f661a1b96"><td class="memItemLeft" align="right" valign="top">std::mutex &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a125af5dc97b6c00c8b23e57f661a1b96">gatewayStdoutMutex</a> ()</td></tr>
 <tr class="memitem:aa850caecea2d15bbf4a28557f7c247b5" id="r_aa850caecea2d15bbf4a28557f7c247b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa850caecea2d15bbf4a28557f7c247b5">registerLocalTools</a> (fastmcpp::ProxyApp &amp;proxy, const <a class="el" href="structMR_1_1McpGateway_1_1Config.html">Config</a> &amp;cfg)</td></tr>
 <tr class="memdesc:aa850caecea2d15bbf4a28557f7c247b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the gateway-local <span class="tt">launch</span> and <span class="tt">status</span> tools on <code class="param">proxy</code>.  <br /></td></tr>
 <tr class="memitem:a492feeb41d07c965ac23ee0076d73f14" id="r_a492feeb41d07c965ac23ee0076d73f14"><td class="memItemLeft" align="right" valign="top">std::vector&lt; nlohmann::json &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492feeb41d07c965ac23ee0076d73f14">getCachedTools</a> ()</td></tr>
@@ -183,6 +185,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a125af5dc97b6c00c8b23e57f661a1b96" name="a125af5dc97b6c00c8b23e57f661a1b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a125af5dc97b6c00c8b23e57f661a1b96">&#9670;&#160;</a></span>gatewayStdoutMutex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex &amp; MR::McpGateway::gatewayStdoutMutex </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutex held during direct gateway-side writes to stdout (notifications emitted from background threads). Protects against emit-vs-emit interleaving. Does NOT cover fastmcpp's own response writes — fastmcpp's stdio_server does not expose its writer mutex; treat emit-vs-response interleaving as a pre-existing fastmcpp limitation. </p>
+
+</div>
+</div>
 <a id="a1865d391c5eaff99701877d104fb7266" name="a1865d391c5eaff99701877d104fb7266"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1865d391c5eaff99701877d104fb7266">&#9670;&#160;</a></span>getBackendAlive()</h2>
 
@@ -197,7 +217,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Single source of truth for "is the backend currently alive?". Updated by <span class="tt">probeAndTrackBackend</span> and by the persistent transport's connection callbacks. </p>
+<p>Single source of truth for "is the backend currently alive?". Updated by <span class="tt">updateBackendAliveAndNotify</span> (from <span class="tt">probeAndTrackBackend</span> and from the persistent transport's SSE connect/error callbacks). </p>
 
 </div>
 </div>
@@ -287,7 +307,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Probes the backend, updates <span class="tt"><a class="el" href="#a1865d391c5eaff99701877d104fb7266">getBackendAlive()</a></span>, and on a state transition synchronously emits <span class="tt">notifications/tools/list_changed</span> so the connected MCP client surfaces / drops the proxied tool set without polling. </p>
+<p>Probes the backend and routes the result through <span class="tt">updateBackendAliveAndNotify</span>, so a state transition synchronously emits <span class="tt">notifications/tools/list_changed</span>. </p>
 
 </div>
 </div>
@@ -378,6 +398,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Spawns <code class="param">exe</code> with <code class="param">args</code> as a detached child process and returns immediately. The child survives this process exiting (Windows: DETACHED_PROCESS; POSIX: setsid + double-fork). Returns true if the child was launched successfully (does not verify it then ran to completion). </p>
+
+</div>
+</div>
+<a id="a153505bbfb54eb994b1929e70f09d9f5" name="a153505bbfb54eb994b1929e70f09d9f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a153505bbfb54eb994b1929e70f09d9f5">&#9670;&#160;</a></span>updateBackendAliveAndNotify()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::McpGateway::updateBackendAliveAndNotify </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>nowAlive</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Updates <span class="tt"><a class="el" href="#a1865d391c5eaff99701877d104fb7266">getBackendAlive()</a></span> and emits <span class="tt">notifications/tools/list_changed</span> on a real alive↔dead transition. Suppresses the very first call (baseline-set, not a transition the client cares about). Safe to call from any thread: emit goes through <span class="tt"><a class="el" href="#a125af5dc97b6c00c8b23e57f661a1b96">gatewayStdoutMutex()</a></span>. </p>
 
 </div>
 </div>

@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Id__MRICPElemtTag" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Id_MRICPElemtTag</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Id__MRICPElemtTag" prot="public" virt="non-virtual">MR.Id_MRICPElemtTag</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Id__MRICPElemtTag_1a663dcf0c0cbf927ebab38a8239ea2371" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Id_MRICPElemtTag.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7497" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7497" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Id__MRICPElemtTag_1af34eedfc28dc84d78e590be6fec759f3" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_Id_MRICPElemtTag.__ref_storage_id</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_id</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.__ref_storage_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7498" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7498" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1aa39ee9dd706fc06bf2474a05e04927eb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Id_MRICPElemtTag.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7485" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7485" bodyend="7493"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a7ba2f70ad9a2bb4756080f6126e7b1cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Id_MRICPElemtTag.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7494" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7494" bodyend="7494"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a3e057315892adb5c9948d4dad82cb127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Id_MRICPElemtTag</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7525" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7525" bodyend="7531"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a3974fc1d32391521efc8b768e47068fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag _other)</argsstring>
+        <name>Const_Id_MRICPElemtTag</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;::Id</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7536" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7536" bodyend="7543"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1add9585730713a8433760e68fec8b9a62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</definition>
+        <argsstring>(Id_MRICPElemtTag _other)</argsstring>
+        <name>Const_Id_MRICPElemtTag</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Id__MRICPElemtTag" kindref="compound">Id_MRICPElemtTag</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;::Id</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7548" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7548" bodyend="7548"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1ab83f526e92c81761fdf2337d7bf86ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Const_Id_MRICPElemtTag</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;::Id</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7553" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7553" bodyend="7560"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1ad12758c188d84bd10d9c0b96ff3c47bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</definition>
+        <argsstring>(int i)</argsstring>
+        <name>Const_Id_MRICPElemtTag</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;::Id</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7572" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7572" bodyend="7578"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a0bfe8872c091a66858907fa12564d4f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</definition>
+        <argsstring>(ulong i)</argsstring>
+        <name>Const_Id_MRICPElemtTag</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;::Id</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7590" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7590" bodyend="7596"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a50168092ce6b91da72897e3711c539f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Id_MRICPElemtTag.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;<ref refid="classMR_1_1Const__Id__MRICPElemtTag_1a50168092ce6b91da72897e3711c539f3" kindref="member">valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7621" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7621" bodyend="7626"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a3ba65d0b3205a72cb69d8bc09074d72d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Id_MRICPElemtTag.less</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.less</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;::operator&amp;lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7646" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7646" bodyend="7651"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1ac794d16968ae722890d14174ca71aa08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Id_MRICPElemtTag.Equals</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7679" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7679" bodyend="7684"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a32a2e4ec397e99c38fe9b679dbf2ccce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Id_MRICPElemtTag.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7686" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7686" bodyend="7693"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1af66d47ce288fd14cac8d4112633293b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Id_MRICPElemtTag.~Const_Id_MRICPElemtTag</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Id_MRICPElemtTag</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.~Const_Id_MRICPElemtTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7495" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7495" bodyend="7495"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a1cc46631a49a9ef5a30a69cfd41efa2e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Id_MRICPElemtTag</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.Const_Id_MRICPElemtTag</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7514" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7514" bodyend="7519"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1abe92119382f64c153ee9ede2a5f527e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Id_MRICPElemtTag.operator int</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.operator int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;::operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7601" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7601" bodyend="7606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a8e063c2700fb90fbfb32feb7e4c85e00" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_Id_MRICPElemtTag.operator bool</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7611" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7611" bodyend="7616"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a040ed37a3f732f61162f84117f23d0bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Id_MRICPElemtTag.operator==</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag _this, MR.Const_Id_MRICPElemtTag b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;<ref refid="classMR_1_1Const__Id__MRICPElemtTag_1a040ed37a3f732f61162f84117f23d0bf" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7631" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7631" bodyend="7636"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a1918b5ea9482f704980a328576940cdd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Id_MRICPElemtTag.operator!=</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag _this, MR.Const_Id_MRICPElemtTag b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7638" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7638" bodyend="7641"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1a88ae2cb3916d45805d39696eaf681f1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Id__MRICPElemtTag" kindref="compound">Id_MRICPElemtTag</ref></type>
+        <definition>static unsafe Id_MRICPElemtTag MR.Const_Id_MRICPElemtTag.operator--</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag _this)</argsstring>
+        <name>operator--</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.operator--</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;<ref refid="classMR_1_1Const__Id__MRICPElemtTag_1a88ae2cb3916d45805d39696eaf681f1a" kindref="member">operator--</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7656" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7656" bodyend="7663"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Id__MRICPElemtTag_1ae08a21e56b07328fed2577ec83b82ba6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Id__MRICPElemtTag" kindref="compound">Id_MRICPElemtTag</ref></type>
+        <definition>static unsafe Id_MRICPElemtTag MR.Const_Id_MRICPElemtTag.operator++</definition>
+        <argsstring>(MR.Const_Id_MRICPElemtTag _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.Const_Id_MRICPElemtTag.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;<ref refid="classMR_1_1Const__Id__MRICPElemtTag_1ae08a21e56b07328fed2577ec83b82ba6" kindref="member">operator++</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7668" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7668" bodyend="7675"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Id_MRICPElemtTag</label>
+        <link refid="classMR_1_1Const__Id__MRICPElemtTag"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Id_MRICPElemtTag</label>
+        <link refid="classMR_1_1Id__MRICPElemtTag"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Id_MRICPElemtTag</label>
+        <link refid="classMR_1_1Const__Id__MRICPElemtTag"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7479" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7480" bodyend="7694"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1af34eedfc28dc84d78e590be6fec759f3" prot="protected" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>__ref_storage_id</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a1cc46631a49a9ef5a30a69cfd41efa2e" prot="package" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Const_Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a3e057315892adb5c9948d4dad82cb127" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Const_Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a3974fc1d32391521efc8b768e47068fc" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Const_Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1add9585730713a8433760e68fec8b9a62" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Const_Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1ab83f526e92c81761fdf2337d7bf86ec8" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Const_Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1ad12758c188d84bd10d9c0b96ff3c47bf" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Const_Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a0bfe8872c091a66858907fa12564d4f5" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Const_Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1aa39ee9dd706fc06bf2474a05e04927eb" prot="protected" virt="virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a7ba2f70ad9a2bb4756080f6126e7b1cc" prot="public" virt="virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1ac794d16968ae722890d14174ca71aa08" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a32a2e4ec397e99c38fe9b679dbf2ccce" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a663dcf0c0cbf927ebab38a8239ea2371" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a3ba65d0b3205a72cb69d8bc09074d72d" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>less</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a8e063c2700fb90fbfb32feb7e4c85e00" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1abe92119382f64c153ee9ede2a5f527e1" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>operator int</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a1918b5ea9482f704980a328576940cdd" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1ae08a21e56b07328fed2577ec83b82ba6" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a88ae2cb3916d45805d39696eaf681f1a" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>operator--</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a040ed37a3f732f61162f84117f23d0bf" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1a50168092ce6b91da72897e3711c539f3" prot="public" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__Id__MRICPElemtTag_1af66d47ce288fd14cac8d4112633293b1" prot="private" virt="non-virtual"><scope>MR::Const_Id_MRICPElemtTag</scope><name>~Const_Id_MRICPElemtTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

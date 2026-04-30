@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FlowAggregator" kind="class" language="C#" prot="public">
     <compoundname>MR::FlowAggregator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FlowAggregator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FlowAggregator" prot="public" virt="non-virtual">MR.Const_FlowAggregator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1FlowAggregator_1ae488beef697ea710df141e5fa4c56d76" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>FlowAggregator</name>
         <qualifiedname>MR.FlowAggregator.FlowAggregator</qualifiedname>
         <param>
-          <type>Const_FlowAggregator</type>
+          <type><ref refid="classMR_1_1Const__FlowAggregator" kindref="compound">Const_FlowAggregator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,11 +92,11 @@
         <name>FlowAggregator</name>
         <qualifiedname>MR.FlowAggregator.FlowAggregator</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertScalars</type>
+          <type><ref refid="classMR_1_1Const__VertScalars" kindref="compound">MR.Const_VertScalars</ref></type>
           <declname>heights</declname>
         </param>
         <briefdescription>
@@ -123,6 +123,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FlowAggregator</label>
+        <link refid="classMR_1_1Const__FlowAggregator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -144,6 +145,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FlowAggregator</label>
+        <link refid="classMR_1_1Const__FlowAggregator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -158,6 +160,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="920" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="921" bodyend="957"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FlowAggregator_1abbd6da02e1b7471e023765f0c0cb920a" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeCatchmentDelineation</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a4179a8e86e6b26b558584461faf6cf5f" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a890c564a04f2ae65f1bef7c10c3486fe" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a15e22ffd943e0c1ec1b70756c5e9eb87" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1aa14d913917824917cc86636d3715353e" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a7e10e1c4fdfd6c13f97451b512894b22" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a1dd3b050dab43e891d31cf7d84775aab" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1ac27178295fcdf889dacf53be88b29f24" prot="package" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>Const_FlowAggregator</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a546e21e371eb42325e3d4963620fbcb2" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>Const_FlowAggregator</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1ad6b152a881e078f4c1c8fb37f20ba723" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>Const_FlowAggregator</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a98d28a2028ee4bfc8cb5fba2117f0b50" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>Const_FlowAggregator</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a36ecae1fd18ea971844121c14da3b593" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>Const_FlowAggregator</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a88861af303d067cd58001fa1e9d202ba" prot="protected" virt="virtual"><scope>MR::FlowAggregator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a8a748e7144160c6aaef3b982ca8958b7" prot="public" virt="virtual"><scope>MR::FlowAggregator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FlowAggregator_1ae488beef697ea710df141e5fa4c56d76" prot="package" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>FlowAggregator</name></member>
       <member refid="classMR_1_1FlowAggregator_1adfae61e01263aed18ad1d37cd41a7063" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>FlowAggregator</name></member>
       <member refid="classMR_1_1FlowAggregator_1a2ae07f646031807d5bd4243d5d73afa0" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>FlowAggregator</name></member>

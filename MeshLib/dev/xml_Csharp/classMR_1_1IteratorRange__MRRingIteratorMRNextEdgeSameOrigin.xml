@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin" kind="class" language="C#" prot="public">
     <compoundname>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin" prot="public" virt="non-virtual">MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a92442fac5eda76a7e3e6cb64ac9ad8af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin" kindref="compound">MR.RingIterator_MRNextEdgeSameOrigin</ref></type>
@@ -65,7 +65,7 @@
         <name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name>
         <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</qualifiedname>
         <param>
-          <type>MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</type>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin" kindref="compound">MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -103,11 +103,11 @@
         <name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name>
         <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</qualifiedname>
         <param>
-          <type>MR.Const_RingIterator_MRNextEdgeSameOrigin</type>
+          <type><ref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin" kindref="compound">MR.Const_RingIterator_MRNextEdgeSameOrigin</ref></type>
           <declname>begin</declname>
         </param>
         <param>
-          <type>MR.Const_RingIterator_MRNextEdgeSameOrigin</type>
+          <type><ref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin" kindref="compound">MR.Const_RingIterator_MRNextEdgeSameOrigin</ref></type>
           <declname>end</declname>
         </param>
         <briefdescription>
@@ -126,7 +126,7 @@
         <name>assign</name>
         <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.assign</qualifiedname>
         <param>
-          <type>MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</type>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin" kindref="compound">MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -156,6 +156,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -182,6 +183,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -200,7 +202,14 @@
     <listofallmembers>
       <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1ac4a12f33e8cee330cf2bff7c574c7d0d" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>assign</name></member>
       <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a92442fac5eda76a7e3e6cb64ac9ad8af" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>begin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a309d8602b5df65636f079c793ea043eb" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a94e2b796ae153be040d88a645fed1aa4" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1aec7b09ebcd2bb91f9a640541d10cd95a" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a7c7b76812aecc1b562925b9290dc6b58" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a2f749b8f441f24028839fa842ab7368d" prot="protected" virt="virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a0f123e42ffcaa989f3db327eae4c36ac" prot="public" virt="virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a68af47724bd99ec19dbe82dd51bee342" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a436f7cbd244ad2c2d809a294a0affde1" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1abbd282383145191bd61c2006310816cb" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1afaa1e7b1edbb4e03f3508eda4248f188" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a132c9de23f0a1dbdc6ff7e14e98d223c" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>

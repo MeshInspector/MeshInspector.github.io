@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PartialChangeMeshDataAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PartialChangeMeshDataAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshDataAction" prot="public" virt="non-virtual">MR.PartialChangeMeshDataAction</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1aed0ccfc9107de9fac91d9a2441282501" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PartialChangeMeshDataAction.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="337" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="337" bodyend="345"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1aa865febabdd182c6940d0d06caee35e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PartialChangeMeshDataAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="346" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="346" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1a386e83aa84f514298b3ab18654fe7989" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PartialChangeMeshDataAction.Const_PartialChangeMeshDataAction</definition>
+        <argsstring>(MR._ByValue_PartialChangeMeshDataAction _other)</argsstring>
+        <name>Const_PartialChangeMeshDataAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.Const_PartialChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_PartialChangeMeshDataAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshDataAction_1ae2cdd7997f342d4d349a4e36d92936c1" kindref="member">MR.PartialChangeMeshDataAction.PartialChangeMeshDataAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="376" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="376" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1aafe81948100dd34a4e2b9e1a43d8868b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PartialChangeMeshDataAction.Const_PartialChangeMeshDataAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObjectMesh obj, MR.Misc._Moved&lt; MR.ObjectMeshData &gt; newData)</argsstring>
+        <name>Const_PartialChangeMeshDataAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.Const_PartialChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectMesh</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1ObjectMeshData" kindref="compound">MR.ObjectMeshData</ref> &gt;</type>
+          <declname>newData</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's data and immediately set new data Generated from constructor <computeroutput><ref refid="classMR_1_1PartialChangeMeshDataAction_1ae2cdd7997f342d4d349a4e36d92936c1" kindref="member">MR.PartialChangeMeshDataAction.PartialChangeMeshDataAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="388" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="388" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1a74c6099c9c65df62ac0be57e3803067a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_PartialChangeMeshDataAction.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PartialChangeMeshDataAction_1a74c6099c9c65df62ac0be57e3803067a" kindref="member">MR.PartialChangeMeshDataAction.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="404" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="404" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1abba4207605cf719c764ade74c4a71d17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_PartialChangeMeshDataAction.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PartialChangeMeshDataAction_1abba4207605cf719c764ade74c4a71d17" kindref="member">MR.PartialChangeMeshDataAction.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="414" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="414" bodyend="419"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1a15d1ab39631045f6905301b1914eee4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PartialChangeMeshDataAction.~Const_PartialChangeMeshDataAction</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PartialChangeMeshDataAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.~Const_PartialChangeMeshDataAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="347" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="347" bodyend="347"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1a42e7f31e03e1271f3bdecc3c39143ce5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_PartialChangeMeshDataAction.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_PartialChangeMeshDataAction self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PartialChangeMeshDataAction" kindref="compound">Const_PartialChangeMeshDataAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="350" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="350" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1a873a6048aab6df852cfe81b72c35701b" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_PartialChangeMeshDataAction.operator Const_PartialChangeMeshDataAction?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_PartialChangeMeshDataAction?</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.operator Const_PartialChangeMeshDataAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="360" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="360" bodyend="369"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PartialChangeMeshDataAction_1a2c22663d8e901f91377942aa7a51357d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PartialChangeMeshDataAction.Const_PartialChangeMeshDataAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PartialChangeMeshDataAction</name>
+        <qualifiedname>MR.Const_PartialChangeMeshDataAction.Const_PartialChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="371" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="371" bodyend="371"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> change partially Generated from class <computeroutput><ref refid="classMR_1_1PartialChangeMeshDataAction" kindref="compound">MR.PartialChangeMeshDataAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PartialChangeMeshDataAction</label>
+        <link refid="classMR_1_1Const__PartialChangeMeshDataAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PartialChangeMeshDataAction</label>
+        <link refid="classMR_1_1PartialChangeMeshDataAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_PartialChangeMeshDataAction</label>
+        <link refid="classMR_1_1Const__PartialChangeMeshDataAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" line="331" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshDataAction.cs" bodystart="332" bodyend="420"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1a2c22663d8e901f91377942aa7a51357d" prot="package" virt="non-virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>Const_PartialChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1a386e83aa84f514298b3ab18654fe7989" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>Const_PartialChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1aafe81948100dd34a4e2b9e1a43d8868b" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>Const_PartialChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1aed0ccfc9107de9fac91d9a2441282501" prot="protected" virt="virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1aa865febabdd182c6940d0d06caee35e1" prot="public" virt="virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1abba4207605cf719c764ade74c4a71d17" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1a74c6099c9c65df62ac0be57e3803067a" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1a873a6048aab6df852cfe81b72c35701b" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>operator Const_PartialChangeMeshDataAction?</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1a42e7f31e03e1271f3bdecc3c39143ce5" prot="public" virt="non-virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshDataAction_1a15d1ab39631045f6905301b1914eee4a" prot="private" virt="non-virtual"><scope>MR::Const_PartialChangeMeshDataAction</scope><name>~Const_PartialChangeMeshDataAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

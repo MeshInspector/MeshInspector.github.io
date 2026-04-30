@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRPixelId__MRPixelId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRPixelId_MRPixelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRPixelId_MRPixelId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId" prot="public" virt="non-virtual">MR.Const_Vector_MRPixelId_MRPixelId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRPixelId__MRPixelId_1adb198b03ce6d9d1a45a585fc6b971b58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRPixelId_MRPixelId</name>
         <qualifiedname>MR.Vector_MRPixelId_MRPixelId.Vector_MRPixelId_MRPixelId</qualifiedname>
         <param>
-          <type>Const_Vector_MRPixelId_MRPixelId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId" kindref="compound">Const_Vector_MRPixelId_MRPixelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRPixelId_MRPixelId</label>
+        <link refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRPixelId_MRPixelId</label>
+        <link refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a5f15bb6f3ab66df324d27771634faf9f" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ad8a1f5dffd93348db2520401b617fee0" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a5df72f936f3ccc378cf44b786d8e536a" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1af9313982f737fb660ef0f769f5c85daa" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a7add568b478e833f1418182ad35774e7" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a74636eaf5491619e83b3a896c49cadf8" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1aca552544578d8114f45cc85fe3eeec4a" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1ac4814edffb1eecd02bbbf83cc5c0472c" prot="package" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1adf6a8199edb4e212bcda442a81ded036" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a68d49fe9963d3afaa7e5244b5910b66f" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a2c1e89e8b4f5c60fca7c6cb57cde05d7" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a1fa51761a1cbed0013c235187622c83a" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a410f5260a785982ac8afede3791aa64a" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a281fa50199ecff066b578c77ab421ab6" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a9053a39882be7471ef5c12893afbfdb1" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a82cd27f097ea3d388ad51a7855df11e7" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1ae01cc2b1771010c014bc3ef54870e53e" prot="protected" virt="virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a2b7a0e1650043acb5628d5a945ea3569" prot="public" virt="virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a8674d6d7c8418afff8c4851cf7d6bd51" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a746502319c002d8db0af690540c714d3" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1ae267f6bf38edfb5525613ae1dcb99092" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a474b1556900ec1333afa505c0cec3525" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1abc8553eb4703b08f30abde7e819b84d7" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1acd55ef84e7a7766268957da6544f6e86" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a954e7d9375c46292837ccb9602f92970" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ae4409de8f9906e9d0b49af7411b8ef96" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1af18b3b9f13b6b0ba2b4137063d77c209" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1aeb598871e30f68f4b6a7209cf2707f5d" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>operator Const_Vector_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a78bfa4638a28cc17d2b7856dd02d8082" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>operator Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a74a3726beadb889aca9a1dad07f3c1eb" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a30f32d226d479adeff41de6afb3f3b38" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a332ed88b75754eed7568e3131aec0fcd" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a7a1e96f529406e0916ad8a71319dd84c" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a8ef208f1dc7a6771422c035277c1d7df" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a755bc4ba184687230f9645e09f270713" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a8bff8dc7cfd1c3dae8cf74d2d6efe1d8" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a9798fdc5d5f66ddc55afaf98b329dc94" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a17aaf4b5026330f92535faa878725666" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a902e704fa8613cb57aaaaf784267f87b" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a8e7bf9761b170968bd11d25226df826f" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>this[MR.PixelId i]</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1adb198b03ce6d9d1a45a585fc6b971b58" prot="public" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>vec</name></member>

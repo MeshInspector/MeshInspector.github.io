@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TypedBitSet__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::TypedBitSet_MRIdMRICPElemtTag</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TypedBitSet_MRIdMRICPElemtTag</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" prot="public" virt="non-virtual">MR.Const_TypedBitSet_MRIdMRICPElemtTag</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3a737ac17bbd8fa3cfd9a055cae87872" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -89,7 +89,7 @@
         <name>TypedBitSet_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.TypedBitSet_MRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" kindref="compound">Const_TypedBitSet_MRIdMRICPElemtTag</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -151,7 +151,7 @@
         <name>TypedBitSet_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.TypedBitSet_MRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>src</declname>
         </param>
         <briefdescription>
@@ -208,7 +208,7 @@
         <name>set</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.set</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>n</declname>
         </param>
         <param>
@@ -235,7 +235,7 @@
         <name>set</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.set</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>n</declname>
         </param>
         <param>
@@ -258,7 +258,7 @@
         <name>set</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.set</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>n</declname>
         </param>
         <briefdescription>
@@ -292,7 +292,7 @@
         <name>reset</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.reset</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>n</declname>
         </param>
         <param>
@@ -315,7 +315,7 @@
         <name>reset</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.reset</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>n</declname>
         </param>
         <briefdescription>
@@ -349,7 +349,7 @@
         <name>flip</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.flip</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>n</declname>
         </param>
         <param>
@@ -372,7 +372,7 @@
         <name>flip</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.flip</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>n</declname>
         </param>
         <briefdescription>
@@ -406,7 +406,7 @@
         <name>testSet</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.testSet</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>n</declname>
         </param>
         <param>
@@ -430,7 +430,7 @@
         <name>bitandAssign</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.bitandAssign</qualifiedname>
         <param>
-          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.Const_TypedBitSet_MRIdMRICPElemtTag</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -449,7 +449,7 @@
         <name>bitorAssign</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.bitorAssign</qualifiedname>
         <param>
-          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.Const_TypedBitSet_MRIdMRICPElemtTag</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -468,7 +468,7 @@
         <name>xorAssign</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.xorAssign</qualifiedname>
         <param>
-          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.Const_TypedBitSet_MRIdMRICPElemtTag</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -487,7 +487,7 @@
         <name>subAssign</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.Const_TypedBitSet_MRIdMRICPElemtTag</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -506,7 +506,7 @@
         <name>subtract</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.subtract</qualifiedname>
         <param>
-          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.Const_TypedBitSet_MRIdMRICPElemtTag</ref></type>
           <declname>b</declname>
         </param>
         <param>
@@ -529,7 +529,7 @@
         <name>autoResizeSet</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.autoResizeSet</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>pos</declname>
         </param>
         <param>
@@ -557,7 +557,7 @@
         <name>autoResizeSet</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.autoResizeSet</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>pos</declname>
         </param>
         <param>
@@ -581,7 +581,7 @@
         <name>autoResizeTestSet</name>
         <qualifiedname>MR.TypedBitSet_MRIdMRICPElemtTag.autoResizeTestSet</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>pos</declname>
         </param>
         <param>
@@ -765,7 +765,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aeedb22cc63590ed550d0d2d0552c6960" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -781,6 +781,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TypedBitSet_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -807,6 +808,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TypedBitSet_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -823,17 +825,64 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12817" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12818" bodyend="13219"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a880705073c7548f73859c2d3c274f1bd" prot="protected" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1afc73d63c382dcdbc90fe70cbf4c01bdc" prot="protected" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad72dd5810910eb861e816f8d0f1b95fe" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>all</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9790e216ed69a8e9070570deca51e55e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>any</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1ad066a1d5409247f4b9a311096d76226e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>assign</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3a4b72d44340a69f59a386f25aa1d4b2" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a63ce9c414b4e3ddd72a3372ee7e7cc16" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a341567d4fca7b4d9d81a0e689fa3fc46" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>autoResizeTestSet</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a5db68dfc518388f2a2eba527ab0c694e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a176bbdb0b668b0c380d9e2914b517e01" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>beginId</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a09bfab59967a01727247b54eb66b138f" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>bitandAssign</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1ad517ff6ab98475fc220d1a5eade714da" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>bitorAssign</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a181d0afcef2152527acf611d37776ff0" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af38718d449814499d2c58544424b1c33" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a12b4f3187e56c2eeb6c09981f75fec1a" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>capacity</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a52bb38f7f524156c235c9bedd19b083c" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1abf5b87f9d439b7cf80228234c5185c4e" prot="package" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aa37f86306d3fc21fce778077ad80dc81" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a4a3c3d1020d3c0f453d5cca551792ee2" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a453bf313d91d720c113065c9b7e335db" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aca875c606c2f4d0912b475fa443bdabc" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1cc266b998df3225c872455f92d42ec9" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af682e3df7243fdc05a9e595897cec48c" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a2b8282f1e377e3fb2a40cd2f4eda299e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad4b27fa593f3e302c71b1b04a7e556cf" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a0e227fcb7568a095c010fdbf46b965f1" prot="protected" virt="virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a011c8421acf891515d5d69140cfe61d7" prot="public" virt="virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a21093fe82d70f64efe6d6d9eb54fb486" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab34cb152acdea1c1697b9cedc2ec91ca" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a626873cba0adf444dfbfd1dc69424be5" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>findFirst</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aab83193aa47d1088f2598cde08787cb1" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>findFirstNotSet</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8533cc190e41351713d5388d1edf5072" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>findLast</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a52c37a3e9b2bf917e914507f1cf7247c" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>findLastNotSet</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a13755992ad8f61248426773200b4ad1b" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>findNext</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ac8cc40d931b9c1419017d91ff5f1b13c" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>findNextNotSet</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3214b3770fd8fc261fa94960db5f158f" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>flip</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a75dd89443667b9e87a5cc88d5671ddb1" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>flip</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1ab6877e6d1d3bbcb487bbea25e116e9fc" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>flip</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aa84ba4d6f8dcb3a48b9ec2fc4869d9cc" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a41a1bccc7334e72930fb769d188f8944" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad9320dbb8203c8d813d8932172e3b56e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aaa9f962e32ba06cdf2d96b11f9d0e9f9" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af9f911cabd11a68d241bd19eaf6ed164" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a6f23fb452a8d705bb1241c0e6cfbd991" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a1b615c99dbaaf6f7053fcce2c11fd7d5" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aef8235b232d4ee9d4e990d3fb7177916" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a6d142611eb230ae859eaf688387f62e2" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>intersects</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab0f2dd61d063f665c1426fe54a304af0" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>isSubsetOf</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab325830ee7d5e4c118d657a76d7e9d49" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>none</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ad0df17ff347d2ecb6bc64f8ddd19f3c0" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8226bea9cd54c441f84ce047dbf2dd88" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a0363394f7b7f5e8ad267d912eeded19d" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>numBlocks</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3a737ac17bbd8fa3cfd9a055cae87872" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>operator MR.BitSet</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a54a1327a11e88fecd97112f853b52303" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>operator MR.Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a737b59c237c71f9ec7594ae146a50eb8" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>operator&amp;</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af556caf59de938f5afffeb45f66c6bc3" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af1eae5cf3b60711cbf153ec92f8eefe5" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>operator^</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aee83c37831ae54c84c866dc38864f928" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>operator|</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a986f12c01585ca16d0d03c4eee81aae9" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>popBack</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1af7b66f6a7d436780b90151e67523a157" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>pushBack</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1aa52ad31ec2395f696ffcca7386971b23" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>reserve</name></member>
@@ -848,8 +897,10 @@
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a4a2d80cd8cba6fcabbca99429de2189e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>set</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a83a3f8f0abc17003ecd7334cc917a575" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>set</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1aee2efa293702312e984b586bdefa5973" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aeedb22cc63590ed550d0d2d0552c6960" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>size</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1acb64cb46f43473e749e5c14dd22d130d" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>subAssign</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a8f5cf7d2c5947493bac1bb998a4255f2" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>subtract</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1aceab113219c4ee4bbf623006bd430264" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>test</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a675e7a33365c85fcbe50b72649f282b4" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>testSet</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a3a26527f1db77c9bff52abbada3206aa" prot="package" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a71e4f4c8af156acd9b8fd706ea1ed7a7" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>TypedBitSet_MRIdMRICPElemtTag</name></member>
@@ -859,6 +910,7 @@
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a819fecb4f2cf8946316318fb7fd9e1f3" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1ad86eafbb4594284da14c8e2e47caee64" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>TypedBitSet_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1ad54c84653e6d058ff1295ae79cea04c9" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>TypedBitSet_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a296461af910c2f51596d67cf0be53456" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>uncheckedTest</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1aac6d242435f78ffc930d221d295b8733" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>uncheckedTestSet</name></member>
       <member refid="classMR_1_1TypedBitSet__MRIdMRICPElemtTag_1a18673d02448264e6814389633edd4092" prot="public" virt="non-virtual"><scope>MR::TypedBitSet_MRIdMRICPElemtTag</scope><name>xorAssign</name></member>
     </listofallmembers>

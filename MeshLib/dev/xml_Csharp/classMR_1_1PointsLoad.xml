@@ -2,6 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsLoad</compoundname>
+    <innerclass refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings" prot="public">MR::PointsLoad::Const_E57LoadSettings</innerclass>
+    <innerclass refid="classMR_1_1PointsLoad_1_1Const__NamedCloud" prot="public">MR::PointsLoad::Const_NamedCloud</innerclass>
     <innerclass refid="classMR_1_1PointsLoad_1_1E57LoadSettings" prot="public">MR::PointsLoad::E57LoadSettings</innerclass>
     <innerclass refid="classMR_1_1PointsLoad_1_1NamedCloud" prot="public">MR::PointsLoad::NamedCloud</innerclass>
     <sectiondef kind="public-static-func">
@@ -16,7 +18,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -40,7 +42,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -64,7 +66,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.PointsLoad.Const_E57LoadSettings?</type>
+          <type><ref refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings" kindref="compound">MR.PointsLoad.Const_E57LoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -88,7 +90,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -112,7 +114,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -160,7 +162,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -184,7 +186,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -208,7 +210,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -232,7 +234,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -256,7 +258,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -280,7 +282,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -304,7 +306,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -328,7 +330,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -352,7 +354,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -376,7 +378,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -400,7 +402,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -424,7 +426,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -448,7 +450,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -476,7 +478,7 @@
           <declname>extension</declname>
         </param>
         <param>
-          <type>MR.Const_PointsLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

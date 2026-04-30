@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SymMatrix4f" kind="class" language="C#" prot="public">
     <compoundname>MR::SymMatrix4f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SymMatrix4f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SymMatrix4f" prot="public" virt="non-virtual">MR.Const_SymMatrix4f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SymMatrix4f_1a58ac91bc8397b19e180e379cde00a5cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -202,7 +202,7 @@
         <name>SymMatrix4f</name>
         <qualifiedname>MR.SymMatrix4f.SymMatrix4f</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix4f</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix4f" kindref="compound">MR.Const_SymMatrix4f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -240,7 +240,7 @@
         <name>assign</name>
         <qualifiedname>MR.SymMatrix4f.assign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix4f</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix4f" kindref="compound">MR.Const_SymMatrix4f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -259,7 +259,7 @@
         <name>addAssign</name>
         <qualifiedname>MR.SymMatrix4f.addAssign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix4f</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix4f" kindref="compound">MR.Const_SymMatrix4f</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -278,7 +278,7 @@
         <name>subAssign</name>
         <qualifiedname>MR.SymMatrix4f.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix4f</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix4f" kindref="compound">MR.Const_SymMatrix4f</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -343,6 +343,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SymMatrix4f</label>
+        <link refid="classMR_1_1Const__SymMatrix4f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -369,6 +370,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SymMatrix4f</label>
+        <link refid="classMR_1_1Const__SymMatrix4f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -388,15 +390,39 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="1639" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="1640" bodyend="1791"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a3db2c75227cab4243d9cc80011f35145" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_ww</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a81a5fb2ea3bbca3d201abd4fab74e6b1" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_xw</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a71a50a9fcf1cfd2ca67d4c70632c6f8d" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_xx</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a727cd4a0b0fcf5feb3d2ec244a217131" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_xy</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1ad16b1fc1d791be74e942b8a18378c092" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_xz</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1af30e9f028baac358b19b17cba6be6afa" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_yw</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1ae9165004085c93eb73433475390a826c" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_yy</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1abfbda1d18baca3a55bcb948c3dcdd0b9" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_yz</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a38ffad61e0584b9f1bdc9eb8245c9fda" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_zw</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a2da5484562eae8a02afebad1a4a7a76c" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>__ref_storage_zz</name></member>
       <member refid="classMR_1_1SymMatrix4f_1acb65def4e74d71cb7dbe43f596e5700b" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>addAssign</name></member>
       <member refid="classMR_1_1SymMatrix4f_1ac5dfe95b0a6f09f2f237fed0f3dfb4f8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1afec9894e31be15058f1502fa182187bc" prot="package" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>Const_SymMatrix4f</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a2232cb16d377cf417ac7507fc4b9af76" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>Const_SymMatrix4f</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1abd8803ffda0a24486c93a39f9d7bfcbd" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>Const_SymMatrix4f</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1aec49f72277fe978836bf70543c985c54" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>Const_SymMatrix4f</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a92b9df306dedbfacde5260f446081907" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a3b3986e31917042912efde571f2a6e08" prot="protected" virt="virtual"><scope>MR::SymMatrix4f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a1aa73f2b19675179808a8281cee2cd2e" prot="public" virt="virtual"><scope>MR::SymMatrix4f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SymMatrix4f_1a304b41cd98bff1e6f92cae5b29d96d7f" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a8fca4f7b639ad7a31acaed9176fc0bda" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a89e7fe7f7a2cd242520286d3c9259b50" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a6776165c838479f95d028c5e464323e8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>identity</name></member>
       <member refid="classMR_1_1SymMatrix4f_1a27b107dcfe29464555cf615423864750" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a10c63014e70191432ca7946e4582addf" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>normSq</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a3d98ef159387ef496ab3b4797dc5edc5" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1add347409013c0439fe218199289aa413" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>operator==</name></member>
       <member refid="classMR_1_1SymMatrix4f_1a056e1239a414c966e951ae2a906dfba9" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>subAssign</name></member>
       <member refid="classMR_1_1SymMatrix4f_1aada98123aa676adcd24989b7989fb260" prot="package" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>SymMatrix4f</name></member>
       <member refid="classMR_1_1SymMatrix4f_1addc1f69f79ea99599a559580ed120432" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>SymMatrix4f</name></member>
       <member refid="classMR_1_1SymMatrix4f_1af2cf3e47531ae001ea41fa15d6469bad" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>SymMatrix4f</name></member>
       <member refid="classMR_1_1SymMatrix4f_1a1c0402da413f0479cc1c94e4d52d6893" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>SymMatrix4f</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4f_1a6d44ef7264d5cb6ce8a5c0c22e47cbda" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>trace</name></member>
       <member refid="classMR_1_1SymMatrix4f_1a25508415c4e59a5b75923a1dda387c04" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>ww</name></member>
       <member refid="classMR_1_1SymMatrix4f_1a3593e2d769061ce505adbdb5c115a3ba" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>xw</name></member>
       <member refid="classMR_1_1SymMatrix4f_1a58ac91bc8397b19e180e379cde00a5cd" prot="public" virt="non-virtual"><scope>MR::SymMatrix4f</scope><name>xx</name></member>

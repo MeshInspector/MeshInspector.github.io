@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BMap__MRPixelId__MRPixelId" kind="class" language="C#" prot="public">
     <compoundname>MR::BMap_MRPixelId_MRPixelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BMap_MRPixelId_MRPixelId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId" prot="public" virt="non-virtual">MR.Const_BMap_MRPixelId_MRPixelId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BMap__MRPixelId__MRPixelId_1a2a0fac056cfb06abedf7e8a1964488d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MRPixelId__MRPixelId" kindref="compound">MR.Buffer_MRPixelId_MRPixelId</ref></type>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BMap_MRPixelId_MRPixelId</label>
+        <link refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BMap_MRPixelId_MRPixelId</label>
+        <link refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,12 +187,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11507" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11508" bodyend="11586"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a53ebf8add526c74a69e9bc40ef95f3a3" prot="protected" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1a8e70127bfc2c9e86a4a31bdb92f20010" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1a2a0fac056cfb06abedf7e8a1964488d0" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>b</name></member>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1a6f5ba7207c06e6e39504f5c52be5d990" prot="package" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>BMap_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1a3d3fabb7806bfafb7338dff3f89ba514" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>BMap_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1acdaab16756fa5338ff0be5fed18a35b5" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>BMap_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1af9857e5c908b070e8b57872381b1f2fb" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>BMap_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1ae08f4afd9202809d7c98575091c5ee01" prot="package" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a4811f146e328179b96c0e0f3075d62eb" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a6bc253b70f3c7dd0ad5d78f567283df5" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a91b8c2610c7c1cec82e09d4687ecd268" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>Const_BMap_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1abdf70b00a3ad38ad8b5723cd824a26f5" prot="protected" virt="virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BMap__MRPixelId__MRPixelId_1a8ec5bbaece53dd244d9adbdce37bf9f4" prot="public" virt="virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BMap__MRPixelId__MRPixelId_1a7eb924e37cdfd748419946c9ccc84a05" prot="public" virt="non-virtual"><scope>MR::BMap_MRPixelId_MRPixelId</scope><name>tsize</name></member>
     </listofallmembers>
   </compounddef>

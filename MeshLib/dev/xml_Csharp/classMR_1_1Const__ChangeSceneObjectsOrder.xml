@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ChangeSceneObjectsOrder" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ChangeSceneObjectsOrder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeSceneObjectsOrder" prot="public" virt="non-virtual">MR.ChangeSceneObjectsOrder</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1a950f346bcebb85bc3766ee641437fab5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ChangeSceneObjectsOrder.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1a94cc3ee8bda4b073798f39aae907a6a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ChangeSceneObjectsOrder.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1a1706571c619e286b30a82ddd9fcb18fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</definition>
+        <argsstring>(MR._ByValue_ChangeSceneObjectsOrder _other)</argsstring>
+        <name>Const_ChangeSceneObjectsOrder</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeSceneObjectsOrder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeSceneObjectsOrder_1ae081a547586e38a6c26918ef7db27619" kindref="member">MR.ChangeSceneObjectsOrder.ChangeSceneObjectsOrder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="56" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1aefe9c6155d8e650c5f70fae915bdb713" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</definition>
+        <argsstring>(Const_ChangeSceneObjectsOrder _other)</argsstring>
+        <name>Const_ChangeSceneObjectsOrder</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeSceneObjectsOrder" kindref="compound">Const_ChangeSceneObjectsOrder</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeSceneObjectsOrder_1ae081a547586e38a6c26918ef7db27619" kindref="member">MR.ChangeSceneObjectsOrder.ChangeSceneObjectsOrder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1a550cd4578a2c4be84d613e020ab33c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</definition>
+        <argsstring>(ChangeSceneObjectsOrder _other)</argsstring>
+        <name>Const_ChangeSceneObjectsOrder</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeSceneObjectsOrder" kindref="compound">ChangeSceneObjectsOrder</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeSceneObjectsOrder_1ae081a547586e38a6c26918ef7db27619" kindref="member">MR.ChangeSceneObjectsOrder.ChangeSceneObjectsOrder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="72" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1ab085f832bd764ca17233f9cbc4640d68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObject obj)</argsstring>
+        <name>Const_ChangeSceneObjectsOrder</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Constructed before change order Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeSceneObjectsOrder_1ae081a547586e38a6c26918ef7db27619" kindref="member">MR.ChangeSceneObjectsOrder.ChangeSceneObjectsOrder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="78" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="78" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1a103f163cb2b59dfefa69f8155118f541" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ChangeSceneObjectsOrder.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a103f163cb2b59dfefa69f8155118f541" kindref="member">MR.ChangeSceneObjectsOrder.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="93" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1a7ba9015bdac03f1c33366bd6524b043d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ChangeSceneObjectsOrder.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a7ba9015bdac03f1c33366bd6524b043d" kindref="member">MR.ChangeSceneObjectsOrder.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="103" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="103" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1a51b7c6aba8be8b44d0811cc78490beb1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeSceneObjectsOrder.~Const_ChangeSceneObjectsOrder</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ChangeSceneObjectsOrder</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.~Const_ChangeSceneObjectsOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1aea3a7acbb2dabb03311f139a720e75ea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ChangeSceneObjectsOrder.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_ChangeSceneObjectsOrder self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeSceneObjectsOrder" kindref="compound">Const_ChangeSceneObjectsOrder</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="30" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1affb63c8eb214fbb3f6b8a7b2ee60ce9d" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ChangeSceneObjectsOrder.operator Const_ChangeSceneObjectsOrder?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_ChangeSceneObjectsOrder?</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.operator Const_ChangeSceneObjectsOrder?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="40" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="40" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeSceneObjectsOrder_1a9bedf93453332b58c6ec610647e0a9f3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ChangeSceneObjectsOrder</name>
+        <qualifiedname>MR.Const_ChangeSceneObjectsOrder.Const_ChangeSceneObjectsOrder</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="51" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>History action for scene objects order change Generated from class <computeroutput><ref refid="classMR_1_1ChangeSceneObjectsOrder" kindref="compound">MR.ChangeSceneObjectsOrder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1Const__ChangeSceneObjectsOrder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1ChangeSceneObjectsOrder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1Const__ChangeSceneObjectsOrder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="12" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a9bedf93453332b58c6ec610647e0a9f3" prot="package" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a1706571c619e286b30a82ddd9fcb18fc" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1aefe9c6155d8e650c5f70fae915bdb713" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a550cd4578a2c4be84d613e020ab33c01" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1ab085f832bd764ca17233f9cbc4640d68" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a950f346bcebb85bc3766ee641437fab5" prot="protected" virt="virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a94cc3ee8bda4b073798f39aae907a6a2" prot="public" virt="virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a7ba9015bdac03f1c33366bd6524b043d" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a103f163cb2b59dfefa69f8155118f541" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1affb63c8eb214fbb3f6b8a7b2ee60ce9d" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>operator Const_ChangeSceneObjectsOrder?</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1aea3a7acbb2dabb03311f139a720e75ea" prot="public" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a51b7c6aba8be8b44d0811cc78490beb1" prot="private" virt="non-virtual"><scope>MR::Const_ChangeSceneObjectsOrder</scope><name>~Const_ChangeSceneObjectsOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FeatureObjectProjectPointResult" kind="class" language="C#" prot="public">
     <compoundname>MR::FeatureObjectProjectPointResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FeatureObjectProjectPointResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FeatureObjectProjectPointResult" prot="public" virt="non-virtual">MR.Const_FeatureObjectProjectPointResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FeatureObjectProjectPointResult_1a7463e73a8b728a4da13fc3833190723e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -103,7 +103,7 @@
         <name>FeatureObjectProjectPointResult</name>
         <qualifiedname>MR.FeatureObjectProjectPointResult.FeatureObjectProjectPointResult</qualifiedname>
         <param>
-          <type>MR.Const_FeatureObjectProjectPointResult</type>
+          <type><ref refid="classMR_1_1Const__FeatureObjectProjectPointResult" kindref="compound">MR.Const_FeatureObjectProjectPointResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.FeatureObjectProjectPointResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_FeatureObjectProjectPointResult</type>
+          <type><ref refid="classMR_1_1Const__FeatureObjectProjectPointResult" kindref="compound">MR.Const_FeatureObjectProjectPointResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FeatureObjectProjectPointResult</label>
+        <link refid="classMR_1_1Const__FeatureObjectProjectPointResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FeatureObjectProjectPointResult</label>
         <link refid="classMR_1_1FeatureObjectProjectPointResult"/>
@@ -189,9 +194,13 @@
       </node>
       <node id="2">
         <label>MR.Const_FeatureObjectProjectPointResult</label>
+        <link refid="classMR_1_1Const__FeatureObjectProjectPointResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_point</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,7 +212,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" line="377" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureObject.cs" bodystart="378" bodyend="457"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1a53adf71b0063bdcc946bb6fae2d404d1" prot="protected" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>__ref_storage_point</name></member>
       <member refid="classMR_1_1FeatureObjectProjectPointResult_1aa84eb930d7da8ebf51660296de502d5a" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1acc806d2f79ac3ff6d5b130a324e859fe" prot="package" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>Const_FeatureObjectProjectPointResult</name></member>
+      <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1a98529114ab8304061622c08168f262fc" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>Const_FeatureObjectProjectPointResult</name></member>
+      <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1a4bb7f9c09a459b58e10ce47e73a8871d" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>Const_FeatureObjectProjectPointResult</name></member>
+      <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1a0cddaed9aaa496ae2ac4e8c6d5031382" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>Const_FeatureObjectProjectPointResult</name></member>
+      <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1a12c72eb4ef1463aa8a52dd80a5dfe99c" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>Const_FeatureObjectProjectPointResult</name></member>
+      <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1a2c69cbf58a0c5262bb30a2da4ee0f233" prot="protected" virt="virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FeatureObjectProjectPointResult_1af2af3ca989d0627c2008db8b8e66b331" prot="public" virt="virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FeatureObjectProjectPointResult_1a6d524fc80a7d05784a92f6d84aa4bce0" prot="package" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>FeatureObjectProjectPointResult</name></member>
       <member refid="classMR_1_1FeatureObjectProjectPointResult_1af11cf19e3e3eb99c8c7b1ff1be05d4c6" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>FeatureObjectProjectPointResult</name></member>
       <member refid="classMR_1_1FeatureObjectProjectPointResult_1a41f895392e9a94f3225baabd7ae00bdb" prot="public" virt="non-virtual"><scope>MR::FeatureObjectProjectPointResult</scope><name>FeatureObjectProjectPointResult</name></member>

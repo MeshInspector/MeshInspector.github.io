@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ArcInterpolationParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ArcInterpolationParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ArcInterpolationParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ArcInterpolationParams" prot="public" virt="non-virtual">MR.Const_ArcInterpolationParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ArcInterpolationParams_1a843a6b500f0606b83fafbe1db975a602" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -143,7 +143,7 @@
         <name>ArcInterpolationParams</name>
         <qualifiedname>MR.ArcInterpolationParams.ArcInterpolationParams</qualifiedname>
         <param>
-          <type>Const_ArcInterpolationParams</type>
+          <type><ref refid="classMR_1_1Const__ArcInterpolationParams" kindref="compound">Const_ArcInterpolationParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ArcInterpolationParams</label>
+        <link refid="classMR_1_1Const__ArcInterpolationParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -229,6 +230,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ArcInterpolationParams</label>
+        <link refid="classMR_1_1Const__ArcInterpolationParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -243,6 +245,8 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1798" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1799" bodyend="1895"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1a6036a7c10d8554d9a00164f833d722cb" prot="protected" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>__ref_storage_eps</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1acc55ec06cd7ca8ec0a347b083b3a517c" prot="protected" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>__ref_storage_maxRadius</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a56275122fab5c59f96f0776a5665390b" prot="package" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a32c219d9906b1344bf8ac1d3751a7a87" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a36c3727ea3ddfbdc73c8ed9fd0b16308" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
@@ -251,6 +255,14 @@
       <member refid="classMR_1_1ArcInterpolationParams_1ad06499cf2e874e125456b92cf2d73894" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>ArcInterpolationParams</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1ab5feeb59997872df7436810d1425635c" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>assign</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a87503d9b19229b126798623351d003d8" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1a75239d8e47ab48c331678b1307e69a76" prot="package" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>Const_ArcInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1a6f505da6c91cbdc92de67b8eae9c1ca3" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>Const_ArcInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1aaf1e942f8b1fa048ff24a1db72d07cad" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>Const_ArcInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1ab7c2f69cc5daf95ee0b2d58687e2abdc" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>Const_ArcInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1a2aba3944b6c1b315f03e7e37acef9834" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>Const_ArcInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1aade67aea3671b6e241144a5cd4555550" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>Const_ArcInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1a52b5d17319dfbe2afcaa9ab6e348c11c" prot="protected" virt="virtual"><scope>MR::ArcInterpolationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ArcInterpolationParams_1af428e107cbb61cfadb7dce7b514271e4" prot="public" virt="virtual"><scope>MR::ArcInterpolationParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a843a6b500f0606b83fafbe1db975a602" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>eps</name></member>
       <member refid="classMR_1_1ArcInterpolationParams_1a7b08becbaf0a29e247c7f1a0e3741cb5" prot="public" virt="non-virtual"><scope>MR::ArcInterpolationParams</scope><name>maxRadius</name></member>
     </listofallmembers>

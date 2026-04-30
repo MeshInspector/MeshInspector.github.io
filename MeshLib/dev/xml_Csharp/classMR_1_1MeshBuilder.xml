@@ -3,6 +3,14 @@
   <compounddef id="classMR_1_1MeshBuilder" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshBuilder</compoundname>
     <innerclass refid="classMR_1_1MeshBuilder_1_1BuildSettings" prot="public">MR::MeshBuilder::BuildSettings</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" prot="public">MR::MeshBuilder::Const_BuildSettings</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f" prot="public">MR::MeshBuilder::Const_EqualVector3f</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1Const__MeshPiece" prot="public">MR::MeshBuilder::Const_MeshPiece</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1Const__Triangle" prot="public">MR::MeshBuilder::Const_Triangle</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" prot="public">MR::MeshBuilder::Const_UniteCloseParams</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1Const__VertDuplication" prot="public">MR::MeshBuilder::Const_VertDuplication</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1Const__VertexIdentifier" prot="public">MR::MeshBuilder::Const_VertexIdentifier</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1Const__VertSpan" prot="public">MR::MeshBuilder::Const_VertSpan</innerclass>
     <innerclass refid="classMR_1_1MeshBuilder_1_1EqualVector3f" prot="public">MR::MeshBuilder::EqualVector3f</innerclass>
     <innerclass refid="classMR_1_1MeshBuilder_1_1MeshPiece" prot="public">MR::MeshBuilder::MeshPiece</innerclass>
     <innerclass refid="classMR_1_1MeshBuilder_1_1Triangle" prot="public">MR::MeshBuilder::Triangle</innerclass>
@@ -18,11 +26,11 @@
         <name>fromTriangles</name>
         <qualifiedname>MR.MeshBuilder.fromTriangles</qualifiedname>
         <param>
-          <type>MR.Const_Triangulation</type>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
           <declname>t</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_BuildSettings?</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -90,7 +98,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_BuildSettings?</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -129,7 +137,7 @@
         <name>fromDisjointMeshPieces</name>
         <qualifiedname>MR.MeshBuilder.fromDisjointMeshPieces</qualifiedname>
         <param>
-          <type>MR.Const_Triangulation</type>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
           <declname>t</declname>
         </param>
         <param>
@@ -141,7 +149,7 @@
           <declname>pieces</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_BuildSettings?</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -165,11 +173,11 @@
           <declname>res</declname>
         </param>
         <param>
-          <type>MR.Const_Triangulation</type>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
           <declname>t</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_BuildSettings?</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -221,11 +229,11 @@
           <declname>verts</declname>
         </param>
         <param>
-          <type>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
           <declname>faces</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_BuildSettings?</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -316,7 +324,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_UniteCloseParams?</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" kindref="compound">MR.MeshBuilder.Const_UniteCloseParams</ref>?</type>
           <declname>params_</declname>
           <defval>null</defval>
         </param>

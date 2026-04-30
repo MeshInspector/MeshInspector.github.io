@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap" kind="class" language="C#" prot="public">
     <compoundname>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap" prot="public" virt="non-virtual">MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1acf8312de152dc4dd0cdab5719424027f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref></type>
@@ -122,7 +122,7 @@
         <name>PartialColorMap</name>
         <qualifiedname>MR.ColorMapAggregator_MRFaceTag.PartialColorMap.PartialColorMap</qualifiedname>
         <param>
-          <type>Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap" kindref="compound">Const_PartialColorMap</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</label>
+        <link refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,6 +209,7 @@
       </node>
       <node id="2">
         <label>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</label>
+        <link refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,6 +226,14 @@
     <listofallmembers>
       <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1a99d8a3e1887ed2bf7a1220c967caccba" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>assign</name></member>
       <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1acf8312de152dc4dd0cdab5719424027f" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>colorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap_1a261c1968e56ce6ae0fd2d2587dbfb3e9" prot="package" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap_1a9afd6c57b8711988a6b4197f86ffe785" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap_1a9b63f679ec9b75bc662f4d3ccb9559bd" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap_1af7770f04f8526a35f4e30f3dc0f2f08b" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap_1a45ff1f6fc31ce189d783be29cd31a8b0" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap_1af47d4c90e89be5fef1a8e1203f2339fa" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap_1a3688555871c99e38c3baa06060c1dc45" prot="protected" virt="virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap_1a2a4b1724a968a89f15b7485b61b9658e" prot="public" virt="virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1a1580900b339baa604ef682f42ed7f643" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>elements</name></member>
       <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1a60ec56adc755f973ea88fe21b4c3fc15" prot="package" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>PartialColorMap</name></member>
       <member refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap_1aadb13cb8e2853a286f5f77173eba17fd" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRFaceTag::PartialColorMap</scope><name>PartialColorMap</name></member>

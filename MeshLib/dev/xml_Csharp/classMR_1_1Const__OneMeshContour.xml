@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__OneMeshContour" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_OneMeshContour</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1OneMeshContour" prot="public" virt="non-virtual">MR.OneMeshContour</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__OneMeshContour_1a1d6b36df9a491d96a91d48a51c627633" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MROneMeshIntersection</type>
+        <definition>unsafe MR.Std.Const_Vector_MROneMeshIntersection MR.Const_OneMeshContour.intersections</definition>
+        <argsstring></argsstring>
+        <name>intersections</name>
+        <qualifiedname>MR.Const_OneMeshContour.intersections</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="530" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="530" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__OneMeshContour_1ae111db9379e3cd3eb03c35a9d97f8e64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_OneMeshContour.closed</definition>
+        <argsstring></argsstring>
+        <name>closed</name>
+        <qualifiedname>MR.Const_OneMeshContour.closed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="532" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="532" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__OneMeshContour_1a696ab7d04ab2a24dac3ae9d9a1243e21" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_OneMeshContour.__ref_storage_closed</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_closed</name>
+        <qualifiedname>MR.Const_OneMeshContour.__ref_storage_closed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="533" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="533" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1a0d60953788205c2670952e2b1e5d9321" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_OneMeshContour.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_OneMeshContour.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="518" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="518" bodyend="526"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1aad5789f897fbf87958e455c0c13ae869" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_OneMeshContour.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_OneMeshContour.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="527" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="527" bodyend="527"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1a0f6ac9883c83cf63b5915247e3154e6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OneMeshContour.Const_OneMeshContour</definition>
+        <argsstring>()</argsstring>
+        <name>Const_OneMeshContour</name>
+        <qualifiedname>MR.Const_OneMeshContour.Const_OneMeshContour</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="567" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1a4a9eea9f500b848ffb354cafaa6f1739" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OneMeshContour.Const_OneMeshContour</definition>
+        <argsstring>(MR.Std._ByValue_Vector_MROneMeshIntersection intersections, bool closed)</argsstring>
+        <name>Const_OneMeshContour</name>
+        <qualifiedname>MR.Const_OneMeshContour.Const_OneMeshContour</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Vector_MROneMeshIntersection</type>
+          <declname>intersections</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>closed</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="578" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="578" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1a9148bebc60b096370ba7d38a61e1834e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OneMeshContour.Const_OneMeshContour</definition>
+        <argsstring>(MR._ByValue_OneMeshContour _other)</argsstring>
+        <name>Const_OneMeshContour</name>
+        <qualifiedname>MR.Const_OneMeshContour.Const_OneMeshContour</qualifiedname>
+        <param>
+          <type>MR._ByValue_OneMeshContour</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OneMeshContour_1a9c23def4e384c8691f85dc8052708697" kindref="member">MR.OneMeshContour.OneMeshContour</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="590" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="590" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1a0078a88fe5dcf9d13cbc3b22f1b8e777" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OneMeshContour.Const_OneMeshContour</definition>
+        <argsstring>(Const_OneMeshContour _other)</argsstring>
+        <name>Const_OneMeshContour</name>
+        <qualifiedname>MR.Const_OneMeshContour.Const_OneMeshContour</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__OneMeshContour" kindref="compound">Const_OneMeshContour</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OneMeshContour_1a9c23def4e384c8691f85dc8052708697" kindref="member">MR.OneMeshContour.OneMeshContour</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="602" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="602" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1a394277411e16485aed2f30535edeca1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OneMeshContour.Const_OneMeshContour</definition>
+        <argsstring>(OneMeshContour _other)</argsstring>
+        <name>Const_OneMeshContour</name>
+        <qualifiedname>MR.Const_OneMeshContour.Const_OneMeshContour</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1OneMeshContour" kindref="compound">OneMeshContour</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OneMeshContour_1a9c23def4e384c8691f85dc8052708697" kindref="member">MR.OneMeshContour.OneMeshContour</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="607" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="607" bodyend="607"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1a5074e4f8ba36244d7f3fcb13725bf776" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OneMeshContour.~Const_OneMeshContour</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_OneMeshContour</name>
+        <qualifiedname>MR.Const_OneMeshContour.~Const_OneMeshContour</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="528" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="528" bodyend="528"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__OneMeshContour_1aef558ae2f644c69954e3c20bfafa99b0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OneMeshContour.Const_OneMeshContour</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_OneMeshContour</name>
+        <qualifiedname>MR.Const_OneMeshContour.Const_OneMeshContour</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="556" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="556" bodyend="561"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_OneMeshContour</label>
+        <link refid="classMR_1_1Const__OneMeshContour"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.OneMeshContour</label>
+        <link refid="classMR_1_1OneMeshContour"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_OneMeshContour</label>
+        <link refid="classMR_1_1Const__OneMeshContour"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="512" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="513" bodyend="608"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__OneMeshContour_1a696ab7d04ab2a24dac3ae9d9a1243e21" prot="protected" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>__ref_storage_closed</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1ae111db9379e3cd3eb03c35a9d97f8e64" prot="public" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>closed</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1aef558ae2f644c69954e3c20bfafa99b0" prot="package" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>Const_OneMeshContour</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1a0f6ac9883c83cf63b5915247e3154e6c" prot="public" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>Const_OneMeshContour</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1a4a9eea9f500b848ffb354cafaa6f1739" prot="public" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>Const_OneMeshContour</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1a9148bebc60b096370ba7d38a61e1834e" prot="public" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>Const_OneMeshContour</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1a0078a88fe5dcf9d13cbc3b22f1b8e777" prot="public" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>Const_OneMeshContour</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1a394277411e16485aed2f30535edeca1e" prot="public" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>Const_OneMeshContour</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1a0d60953788205c2670952e2b1e5d9321" prot="protected" virt="virtual"><scope>MR::Const_OneMeshContour</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1aad5789f897fbf87958e455c0c13ae869" prot="public" virt="virtual"><scope>MR::Const_OneMeshContour</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1a1d6b36df9a491d96a91d48a51c627633" prot="public" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>intersections</name></member>
+      <member refid="classMR_1_1Const__OneMeshContour_1a5074e4f8ba36244d7f3fcb13725bf776" prot="private" virt="non-virtual"><scope>MR::Const_OneMeshContour</scope><name>~Const_OneMeshContour</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

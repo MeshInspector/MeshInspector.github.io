@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DistanceFromWeightedPointsComputeParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DistanceFromWeightedPointsComputeParams" prot="public" virt="non-virtual">MR.DistanceFromWeightedPointsComputeParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a9c633c154e4070a51acdd06fc81930c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DistanceFromWeightedPointsComputeParams.minBidirDist</definition>
+        <argsstring></argsstring>
+        <name>minBidirDist</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.minBidirDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="936" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="936" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a6cd58e1f3503ddce248c6689c7cb1d1e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DistanceFromWeightedPointsComputeParams.maxBidirDist</definition>
+        <argsstring></argsstring>
+        <name>maxBidirDist</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.maxBidirDist</qualifiedname>
+        <briefdescription>
+<para>find the closest point only if weighted bidirectional distance to it is less than given value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="942" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="942" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1aa458b84fc26ac41b58377376b623dff4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Float_From_MRVertId</type>
+        <definition>unsafe MR.Std.Const_Function_Float_From_MRVertId MR.Const_DistanceFromWeightedPointsComputeParams.pointWeight</definition>
+        <argsstring></argsstring>
+        <name>pointWeight</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.pointWeight</qualifiedname>
+        <briefdescription>
+<para>function returning the weight of each point, must be set by the user </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="948" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="948" bodyend="948"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a5990271a4c0a677d5a5c3cc2aa581562" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DistanceFromWeightedPointsComputeParams.minWeight</definition>
+        <argsstring></argsstring>
+        <name>minWeight</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.minWeight</qualifiedname>
+        <briefdescription>
+<para>minimal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="954" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="954" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a42aa6a577f3163667914a6577348742d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DistanceFromWeightedPointsComputeParams.maxWeight</definition>
+        <argsstring></argsstring>
+        <name>maxWeight</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.maxWeight</qualifiedname>
+        <briefdescription>
+<para>maximal weight among all points in the cloud; if this value is imprecise, then more computations will be made by algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="961" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="961" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a0b4c00660350f23015603f72587cf176" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DistanceFromWeightedPointsComputeParams.maxWeightGrad</definition>
+        <argsstring></argsstring>
+        <name>maxWeightGrad</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.maxWeightGrad</qualifiedname>
+        <briefdescription>
+<para>maximal magnitude of gradient of points' weight in the cloud, &gt;=0; if maxWeightGrad &lt; 1 then more search optimizations can be done </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="968" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="968" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a414868c0c1d77634ee8a9afaa791f3c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_DistanceFromWeightedPointsComputeParams.bidirectionalMode</definition>
+        <argsstring></argsstring>
+        <name>bidirectionalMode</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.bidirectionalMode</qualifiedname>
+        <briefdescription>
+<para>for points, it must always true; for triangles: if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle's normals, and decrease to minus infinity in the opposite direction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="977" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="977" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1af2c1845f631fde9e1d53a153b72be4f0" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_minBidirDist</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minBidirDist</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_minBidirDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="937" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="937" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a3b8808a81dd3c54328eb9c0dedfb3d74" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_maxBidirDist</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxBidirDist</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_maxBidirDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="943" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="943" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a862fca281f2a0963b0579396aef418ad" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_minWeight</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minWeight</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_minWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="955" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="955" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1ac8947cb4a539f59a185ffb0be50fb7cd" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_maxWeight</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxWeight</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_maxWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="962" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="962" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a45fb06dc81c8c984c2bc0d5031fbd651" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_maxWeightGrad</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxWeightGrad</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_maxWeightGrad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="969" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="969" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a1f9f88e1c18eafb317448236e1b4240a" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_bidirectionalMode</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_bidirectionalMode</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.__ref_storage_bidirectionalMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="978" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="978" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a836b52b5560febb1e2e534deae249e56" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DistanceFromWeightedPointsComputeParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="913" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="913" bodyend="921"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a3aef63ab7d21822ed81ff642cc810a91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DistanceFromWeightedPointsComputeParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="922" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="922" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a41806ca6bf76b6b95c02869349014d94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DistanceFromWeightedPointsComputeParams</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="1042" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="1042" bodyend="1048"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a97b960b084d36a377c5582692a7316a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</definition>
+        <argsstring>(MR._ByValue_DistanceFromWeightedPointsComputeParams _other)</argsstring>
+        <name>Const_DistanceFromWeightedPointsComputeParams</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_DistanceFromWeightedPointsComputeParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams_1a702c49035bcabfe26e379f4a6c82fa14" kindref="member">MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="1053" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="1053" bodyend="1060"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a72d509c4837f72433254aa8a911e5594" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</definition>
+        <argsstring>(Const_DistanceFromWeightedPointsComputeParams _other)</argsstring>
+        <name>Const_DistanceFromWeightedPointsComputeParams</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams" kindref="compound">Const_DistanceFromWeightedPointsComputeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams_1a702c49035bcabfe26e379f4a6c82fa14" kindref="member">MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="1065" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="1065" bodyend="1065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a35471abdb46329fad5ad29dd56bdd123" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</definition>
+        <argsstring>(DistanceFromWeightedPointsComputeParams _other)</argsstring>
+        <name>Const_DistanceFromWeightedPointsComputeParams</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams_1a702c49035bcabfe26e379f4a6c82fa14" kindref="member">MR.DistanceFromWeightedPointsComputeParams.DistanceFromWeightedPointsComputeParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="1070" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="1070" bodyend="1070"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a6e22b9b15a838b8116ae1a9e761522a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DistanceFromWeightedPointsComputeParams.~Const_DistanceFromWeightedPointsComputeParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DistanceFromWeightedPointsComputeParams</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.~Const_DistanceFromWeightedPointsComputeParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="923" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="923" bodyend="923"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a0b9b2bdee31bc68af3fa229833ce2928" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_DistanceFromWeightedPointsComputeParams.operator MR.Const_DistanceFromWeightedPointsParams</definition>
+        <argsstring>(Const_DistanceFromWeightedPointsComputeParams self)</argsstring>
+        <name>operator MR.Const_DistanceFromWeightedPointsParams</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.operator MR.Const_DistanceFromWeightedPointsParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams" kindref="compound">Const_DistanceFromWeightedPointsComputeParams</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="926" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="926" bodyend="933"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a03a00f74de646f7e65e8a45e77cdffcd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DistanceFromWeightedPointsComputeParams</name>
+        <qualifiedname>MR.Const_DistanceFromWeightedPointsComputeParams.Const_DistanceFromWeightedPointsComputeParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="1031" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="1031" bodyend="1036"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">MR.DistanceFromWeightedPointsComputeParams</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1DistanceFromWeightedPointsParams" kindref="compound">MR.DistanceFromWeightedPointsParams</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DistanceFromWeightedPointsComputeParams</label>
+        <link refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DistanceFromWeightedPointsComputeParams</label>
+        <link refid="classMR_1_1DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_DistanceFromWeightedPointsComputeParams</label>
+        <link refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" line="907" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRClosestWeightedPoint.cs" bodystart="908" bodyend="1071"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a1f9f88e1c18eafb317448236e1b4240a" prot="protected" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>__ref_storage_bidirectionalMode</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a3b8808a81dd3c54328eb9c0dedfb3d74" prot="protected" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>__ref_storage_maxBidirDist</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1ac8947cb4a539f59a185ffb0be50fb7cd" prot="protected" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>__ref_storage_maxWeight</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a45fb06dc81c8c984c2bc0d5031fbd651" prot="protected" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>__ref_storage_maxWeightGrad</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1af2c1845f631fde9e1d53a153b72be4f0" prot="protected" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>__ref_storage_minBidirDist</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a862fca281f2a0963b0579396aef418ad" prot="protected" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>__ref_storage_minWeight</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a414868c0c1d77634ee8a9afaa791f3c4" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>bidirectionalMode</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a03a00f74de646f7e65e8a45e77cdffcd" prot="package" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>Const_DistanceFromWeightedPointsComputeParams</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a41806ca6bf76b6b95c02869349014d94" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>Const_DistanceFromWeightedPointsComputeParams</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a97b960b084d36a377c5582692a7316a6" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>Const_DistanceFromWeightedPointsComputeParams</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a72d509c4837f72433254aa8a911e5594" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>Const_DistanceFromWeightedPointsComputeParams</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a35471abdb46329fad5ad29dd56bdd123" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>Const_DistanceFromWeightedPointsComputeParams</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a836b52b5560febb1e2e534deae249e56" prot="protected" virt="virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a3aef63ab7d21822ed81ff642cc810a91" prot="public" virt="virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a6cd58e1f3503ddce248c6689c7cb1d1e" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>maxBidirDist</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a42aa6a577f3163667914a6577348742d" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>maxWeight</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a0b4c00660350f23015603f72587cf176" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>maxWeightGrad</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a9c633c154e4070a51acdd06fc81930c1" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>minBidirDist</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a5990271a4c0a677d5a5c3cc2aa581562" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>minWeight</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a0b9b2bdee31bc68af3fa229833ce2928" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>operator MR.Const_DistanceFromWeightedPointsParams</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1aa458b84fc26ac41b58377376b623dff4" prot="public" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>pointWeight</name></member>
+      <member refid="classMR_1_1Const__DistanceFromWeightedPointsComputeParams_1a6e22b9b15a838b8116ae1a9e761522a6" prot="private" virt="non-virtual"><scope>MR::Const_DistanceFromWeightedPointsComputeParams</scope><name>~Const_DistanceFromWeightedPointsComputeParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region" kind="class" language="C#" prot="public">
+    <compoundname>MR::WeightedShell::Const_ParametersRegions::Const_Region</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region" prot="public" virt="non-virtual">MR.WeightedShell.Const_ParametersRegions.Region</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a2721d05bb325cef11ee432b0a6072a56" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.WeightedShell.Const_ParametersRegions.Const_Region.verts</definition>
+        <argsstring></argsstring>
+        <name>verts</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.verts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1088" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1088" bodyend="1088"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a50ed9666713ee6fa34700f0a46fb10e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.WeightedShell.Const_ParametersRegions.Const_Region.weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.weight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1090" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1090" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1ab21d2603f494c7d2f37fefdc7b203e9c" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.WeightedShell.Const_ParametersRegions.Const_Region.__ref_storage_weight</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_weight</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.__ref_storage_weight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1091" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1091" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a22a6153a76b15736169f0fdfeee2b671" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.WeightedShell.Const_ParametersRegions.Const_Region.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1076" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1076" bodyend="1084"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a1c2f881c9be2823ea7c68fd626961359" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.WeightedShell.Const_ParametersRegions.Const_Region.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1085" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1085" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1acf80df5e4f0d0669583fea185371371a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Region</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1125" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1125" bodyend="1131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a2ed4842b2560f1cdd40aafc915027af2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</definition>
+        <argsstring>(MR._ByValue_VertBitSet verts, float weight)</argsstring>
+        <name>Const_Region</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertBitSet</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region" kindref="compound">MR.WeightedShell.ParametersRegions.Region</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1136" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1136" bodyend="1143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1aeae01825964d0dc68f8f541ee506344d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</definition>
+        <argsstring>(MR.WeightedShell.ParametersRegions._ByValue_Region _other)</argsstring>
+        <name>Const_Region</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</qualifiedname>
+        <param>
+          <type>MR.WeightedShell.ParametersRegions._ByValue_Region</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::WeightedShell::ParametersRegions::Region::Region</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1148" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1148" bodyend="1155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a31de3ea2360b02ac50b1b8a05e73fb57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</definition>
+        <argsstring>(Const_Region _other)</argsstring>
+        <name>Const_Region</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region" kindref="compound">Const_Region</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::WeightedShell::ParametersRegions::Region::Region</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1160" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1160" bodyend="1160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a3b37fc1f80514af58643a9f3f1387114" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</definition>
+        <argsstring>(Region _other)</argsstring>
+        <name>Const_Region</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region" kindref="compound">Region</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::WeightedShell::ParametersRegions::Region::Region</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1165" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1165" bodyend="1165"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1ac546fb66f4a2a1c20a47b0a2957f8ec4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WeightedShell.Const_ParametersRegions.Const_Region.~Const_Region</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Region</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.~Const_Region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1086" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1086" bodyend="1086"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a577d015c4d5827bd420132b2503cc3f6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Region</name>
+        <qualifiedname>MR.WeightedShell.Const_ParametersRegions.Const_Region.Const_Region</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1114" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1114" bodyend="1119"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region" kindref="compound">MR.WeightedShell.ParametersRegions.Region</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.WeightedShell.Const_ParametersRegions.Const_Region</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.WeightedShell.Const_ParametersRegions.Region</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.WeightedShell.Const_ParametersRegions.Const_Region</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1070" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1071" bodyend="1166"/>
+    <listofallmembers>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1ab21d2603f494c7d2f37fefdc7b203e9c" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>__ref_storage_weight</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a577d015c4d5827bd420132b2503cc3f6" prot="package" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>Const_Region</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1acf80df5e4f0d0669583fea185371371a" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>Const_Region</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a2ed4842b2560f1cdd40aafc915027af2" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>Const_Region</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1aeae01825964d0dc68f8f541ee506344d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>Const_Region</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a31de3ea2360b02ac50b1b8a05e73fb57" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>Const_Region</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a3b37fc1f80514af58643a9f3f1387114" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>Const_Region</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a22a6153a76b15736169f0fdfeee2b671" prot="protected" virt="virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a1c2f881c9be2823ea7c68fd626961359" prot="public" virt="virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a2721d05bb325cef11ee432b0a6072a56" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>verts</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1a50ed9666713ee6fa34700f0a46fb10e2" prot="public" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>weight</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region_1ac546fb66f4a2a1c20a47b0a2957f8ec4" prot="private" virt="non-virtual"><scope>MR::WeightedShell::Const_ParametersRegions::Const_Region</scope><name>~Const_Region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

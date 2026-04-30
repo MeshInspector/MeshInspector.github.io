@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VolumeIndexer" kind="class" language="C#" prot="public">
     <compoundname>MR::VolumeIndexer</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VolumeIndexer</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VolumeIndexer" prot="public" virt="non-virtual">MR.Const_VolumeIndexer</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VolumeIndexer_1a1969410513691b8129e74e4f7b1671cf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>VolumeIndexer</name>
         <qualifiedname>MR.VolumeIndexer.VolumeIndexer</qualifiedname>
         <param>
-          <type>MR.Const_VolumeIndexer</type>
+          <type><ref refid="classMR_1_1Const__VolumeIndexer" kindref="compound">MR.Const_VolumeIndexer</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,7 +92,7 @@
         <name>assign</name>
         <qualifiedname>MR.VolumeIndexer.assign</qualifiedname>
         <param>
-          <type>MR.Const_VolumeIndexer</type>
+          <type><ref refid="classMR_1_1Const__VolumeIndexer" kindref="compound">MR.Const_VolumeIndexer</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -140,6 +140,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VolumeIndexer</label>
+        <link refid="classMR_1_1Const__VolumeIndexer"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -161,6 +162,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VolumeIndexer</label>
+        <link refid="classMR_1_1Const__VolumeIndexer"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -175,8 +177,33 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="509" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="510" bodyend="558"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a4b4487608965f92a8dfaa8871ca306b6" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>areNeigbors</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a9cb54cd5edb16fe9e3f9c90ed14d8c4a" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>areNeigbors</name></member>
       <member refid="classMR_1_1VolumeIndexer_1a4ca65ec170656a162716e3387ccb62dd" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a3a01980387b434f510ea861479f8785a" prot="package" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1aa1f4af9afe8c520c7c133161a3e8eb4b" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a822c55e40fb196909d4f2f8732ffd35f" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a14c109b658992d1cf556124fcb813e30" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>Const_VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1adf2b07c9f0ae77fd72a933549c25aa28" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a7862ab3a672d527a2b1e3c5f849f77d8" prot="protected" virt="virtual"><scope>MR::VolumeIndexer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a4a19aeca200e326b088b755683588db9" prot="public" virt="virtual"><scope>MR::VolumeIndexer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ae816a3989f7ac0fc5aa0bbbcdf13fc69" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a747a2d9d06249bfb64ff258a6aaa2ac7" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>getExistingNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1abb67ae6670b7e5c049428af5957c2a11" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1af66f86001654f8028368ca2e1386b329" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a16adf8ec51f1be924db24397ca900f2b" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a2f3aba5079d1f6f6277d1247b274a050" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1aec4346e63b673b4b2a2542dbc2fa1668" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>hasNeighbour</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1adbfa14b1b5b29acc6aa8aa7b830a3915" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>isBdVoxel</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a7f5ab9653f4199c084a46281bba9afa8" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>isInDims</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ac375ffc0fd96c7737673802a634ffb51" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>operator Const_VolumeIndexer</name></member>
       <member refid="classMR_1_1VolumeIndexer_1a3718014ba635ce574343bf8d07e75974" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>operator VolumeIndexer</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1abedddf9bb45836faedc6a39f2048f38f" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a5941a0e21f134945080595c8622bab53" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>sizeXY</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1ab0890157544e26e208bf707be93580d2" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>toLoc</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1a4c0bbdac6be48faa116e330a70b9bee4" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>toLoc</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1af8e4a0567748af44d1d568ca30cc4684" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>toPos</name></member>
+      <member refid="classMR_1_1Const__VolumeIndexer_1acdab2decbb74eca5a9ba216ba8c936c3" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>toVoxelId</name></member>
       <member refid="classMR_1_1VolumeIndexer_1a1969410513691b8129e74e4f7b1671cf" prot="package" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>VolumeIndexer</name></member>
       <member refid="classMR_1_1VolumeIndexer_1a3aa8901144de8797fecd23bd8b823e58" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>VolumeIndexer</name></member>
       <member refid="classMR_1_1VolumeIndexer_1aa64488fedc04a3eacd82d7a14e24c4ee" prot="public" virt="non-virtual"><scope>MR::VolumeIndexer</scope><name>VolumeIndexer</name></member>

@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__LineSegm3d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_LineSegm3d</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1LineSegm3d" prot="public" virt="non-virtual">MR.LineSegm3d</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__LineSegm3d_1a35736a55032a362c4c9fbe3fba5c8040" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe ref readonly MR.Vector3d MR.Const_LineSegm3d.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Const_LineSegm3d.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="803" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="803" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__LineSegm3d_1a66b25fbe9f5a13fc1db5bd11419a7cd5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe ref readonly MR.Vector3d MR.Const_LineSegm3d.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_LineSegm3d.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="806" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="806" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__LineSegm3d_1a1e0a7525a0d0751be219079e322ac415" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+        <definition>unsafe MR.Vector3d* MR.Const_LineSegm3d.__ref_storage_a</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_a</name>
+        <qualifiedname>MR.Const_LineSegm3d.__ref_storage_a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="804" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="804" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__LineSegm3d_1a7a8ce7c12ce9ac8b036c1b01589b1387" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+        <definition>unsafe MR.Vector3d* MR.Const_LineSegm3d.__ref_storage_b</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_b</name>
+        <qualifiedname>MR.Const_LineSegm3d.__ref_storage_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="807" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="807" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1a6f80af1d2fe8da2bcb6cda039194efd4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_LineSegm3d.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_LineSegm3d.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="791" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="791" bodyend="799"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1a9327143f76982e17a266aec2c4f17f77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_LineSegm3d.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_LineSegm3d.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="800" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="800" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1a9be8b49c6e17c5277b0f600bae813e30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LineSegm3d.Const_LineSegm3d</definition>
+        <argsstring>()</argsstring>
+        <name>Const_LineSegm3d</name>
+        <qualifiedname>MR.Const_LineSegm3d.Const_LineSegm3d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="840" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="840" bodyend="846"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1af3f1893eb3a526068fa5e09fc21ed6ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LineSegm3d.Const_LineSegm3d</definition>
+        <argsstring>(MR.Const_LineSegm3d _other)</argsstring>
+        <name>Const_LineSegm3d</name>
+        <qualifiedname>MR.Const_LineSegm3d.Const_LineSegm3d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__LineSegm3d" kindref="compound">MR.Const_LineSegm3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LineSegm3d_1a87c09300bde0e6444363482fd1c8fb0d" kindref="member">MR.LineSegm3d.LineSegm3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="851" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="851" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1af26b82205b20ccc1b1ab3e8d71dfd664" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_LineSegm3d.Const_LineSegm3d</definition>
+        <argsstring>(LineSegm3d _other)</argsstring>
+        <name>Const_LineSegm3d</name>
+        <qualifiedname>MR.Const_LineSegm3d.Const_LineSegm3d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LineSegm3d" kindref="compound">LineSegm3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LineSegm3d_1a87c09300bde0e6444363482fd1c8fb0d" kindref="member">MR.LineSegm3d.LineSegm3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="863" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="863" bodyend="863"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1afa97cf8fa3ad9a11bafdc01be83b55b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LineSegm3d.Const_LineSegm3d</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b)</argsstring>
+        <name>Const_LineSegm3d</name>
+        <qualifiedname>MR.Const_LineSegm3d.Const_LineSegm3d</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LineSegm3d_1a87c09300bde0e6444363482fd1c8fb0d" kindref="member">MR.LineSegm3d.LineSegm3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="868" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="868" bodyend="880"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1a11a9fffdaf802a27acec21447b0db903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe MR.Vector3d MR.Const_LineSegm3d.dir</definition>
+        <argsstring>()</argsstring>
+        <name>dir</name>
+        <qualifiedname>MR.Const_LineSegm3d.dir</qualifiedname>
+        <briefdescription>
+<para>returns directional vector of the line Generated from method <computeroutput><ref refid="classMR_1_1Const__LineSegm3d_1a11a9fffdaf802a27acec21447b0db903" kindref="member">MR.LineSegm3d.dir</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="886" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="886" bodyend="891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1a5a368d6aafe61612a75a0efd0b773b97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_LineSegm3d.lengthSq</definition>
+        <argsstring>()</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>MR.Const_LineSegm3d.lengthSq</qualifiedname>
+        <briefdescription>
+<para>returns squared length of this line segment Generated from method <computeroutput><ref refid="classMR_1_1Const__LineSegm3d_1a5a368d6aafe61612a75a0efd0b773b97" kindref="member">MR.LineSegm3d.lengthSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="897" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="897" bodyend="902"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1a24ec5baf99dd973c3a07ce9c5177169f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_LineSegm3d.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <qualifiedname>MR.Const_LineSegm3d.length</qualifiedname>
+        <briefdescription>
+<para>returns the length of this line segment Generated from method <computeroutput><ref refid="classMR_1_1Const__LineSegm3d_1a24ec5baf99dd973c3a07ce9c5177169f" kindref="member">MR.LineSegm3d.length</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="908" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="908" bodyend="913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1a9f6f84612c6bb613dbab737a0122d530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe MR.Vector3d MR.Const_LineSegm3d.call</definition>
+        <argsstring>(double param)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_LineSegm3d.call</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+<para>returns point on the line, where param=0 returns a and param=1 returns b Generated from method <computeroutput>MR::LineSegm3d::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="919" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="919" bodyend="924"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1ab4fb212afe97e4cbd0a30a1f63277b21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_LineSegm3d.~Const_LineSegm3d</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_LineSegm3d</name>
+        <qualifiedname>MR.Const_LineSegm3d.~Const_LineSegm3d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="801" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="801" bodyend="801"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__LineSegm3d_1a47532326654cbf5094e719348ce50ab2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LineSegm3d.Const_LineSegm3d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_LineSegm3d</name>
+        <qualifiedname>MR.Const_LineSegm3d.Const_LineSegm3d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="829" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="829" bodyend="834"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1LineSegm3d" kindref="compound">MR.LineSegm3d</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_LineSegm3d</label>
+        <link refid="classMR_1_1Const__LineSegm3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.LineSegm3d</label>
+        <link refid="classMR_1_1LineSegm3d"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_LineSegm3d</label>
+        <link refid="classMR_1_1Const__LineSegm3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_a</edgelabel>
+          <edgelabel>__ref_storage_b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="785" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="786" bodyend="925"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__LineSegm3d_1a1e0a7525a0d0751be219079e322ac415" prot="protected" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a7a8ce7c12ce9ac8b036c1b01589b1387" prot="protected" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a35736a55032a362c4c9fbe3fba5c8040" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a66b25fbe9f5a13fc1db5bd11419a7cd5" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a9f6f84612c6bb613dbab737a0122d530" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a47532326654cbf5094e719348ce50ab2" prot="package" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>Const_LineSegm3d</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a9be8b49c6e17c5277b0f600bae813e30" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>Const_LineSegm3d</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1af3f1893eb3a526068fa5e09fc21ed6ff" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>Const_LineSegm3d</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1af26b82205b20ccc1b1ab3e8d71dfd664" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>Const_LineSegm3d</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1afa97cf8fa3ad9a11bafdc01be83b55b2" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>Const_LineSegm3d</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a11a9fffdaf802a27acec21447b0db903" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>dir</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a6f80af1d2fe8da2bcb6cda039194efd4" prot="protected" virt="virtual"><scope>MR::Const_LineSegm3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a9327143f76982e17a266aec2c4f17f77" prot="public" virt="virtual"><scope>MR::Const_LineSegm3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a24ec5baf99dd973c3a07ce9c5177169f" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>length</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1a5a368d6aafe61612a75a0efd0b773b97" prot="public" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>lengthSq</name></member>
+      <member refid="classMR_1_1Const__LineSegm3d_1ab4fb212afe97e4cbd0a30a1f63277b21" prot="private" virt="non-virtual"><scope>MR::Const_LineSegm3d</scope><name>~Const_LineSegm3d</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

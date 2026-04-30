@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BooleanInternalParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::BooleanInternalParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanInternalParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BooleanInternalParameters" prot="public" virt="non-virtual">MR.Const_BooleanInternalParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BooleanInternalParameters_1aa53b1edbd97c6cd9e657eff0c7bf484f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_Mesh</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__Mesh" kindref="compound">Const_Mesh</ref></type>
         <definition>new unsafe MR.? Const_Mesh MR.BooleanInternalParameters.originalMeshA</definition>
         <argsstring></argsstring>
         <name>originalMeshA</name>
@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="879" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="880" bodyend="889"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BooleanInternalParameters_1ad159d3c04fa90a979e44c70f419922d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_Mesh</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__Mesh" kindref="compound">Const_Mesh</ref></type>
         <definition>new unsafe MR.? Const_Mesh MR.BooleanInternalParameters.originalMeshB</definition>
         <argsstring></argsstring>
         <name>originalMeshB</name>
@@ -112,11 +112,11 @@
         <name>BooleanInternalParameters</name>
         <qualifiedname>MR.BooleanInternalParameters.BooleanInternalParameters</qualifiedname>
         <param>
-          <type>MR.Const_Mesh?</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref>?</type>
           <declname>originalMeshA</declname>
         </param>
         <param>
-          <type>MR.Const_Mesh?</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref>?</type>
           <declname>originalMeshB</declname>
         </param>
         <param>
@@ -143,7 +143,7 @@
         <name>BooleanInternalParameters</name>
         <qualifiedname>MR.BooleanInternalParameters.BooleanInternalParameters</qualifiedname>
         <param>
-          <type>MR.Const_BooleanInternalParameters</type>
+          <type><ref refid="classMR_1_1Const__BooleanInternalParameters" kindref="compound">MR.Const_BooleanInternalParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>assign</name>
         <qualifiedname>MR.BooleanInternalParameters.assign</qualifiedname>
         <param>
-          <type>MR.Const_BooleanInternalParameters</type>
+          <type><ref refid="classMR_1_1Const__BooleanInternalParameters" kindref="compound">MR.Const_BooleanInternalParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanInternalParameters</label>
+        <link refid="classMR_1_1Const__BooleanInternalParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.BooleanInternalParameters</label>
         <link refid="classMR_1_1BooleanInternalParameters"/>
@@ -229,9 +234,15 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanInternalParameters</label>
+        <link refid="classMR_1_1Const__BooleanInternalParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_optionalOutCut</edgelabel>
+          <edgelabel>__ptr_storage_originalMeshA</edgelabel>
+          <edgelabel>__ptr_storage_originalMeshB</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,12 +254,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="874" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="875" bodyend="988"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1ada6cd240ed881cb247535a06e90f3d1c" prot="protected" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>__ptr_storage_optionalOutCut</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a594fea0a53b1bd5e99fd95631e6bd669" prot="protected" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>__ptr_storage_originalMeshA</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1af342d425cc4696b1b0bf5aed8e8817e4" prot="protected" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>__ptr_storage_originalMeshB</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a59d122cf51d65badb46f57c2f6235627" prot="protected" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>__ref_storage_graphCutSeparation</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1a40469601d1e1f038cac4f91f99c02d3f" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1a7c7e1e92e247f07389e06325187b0925" prot="package" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>BooleanInternalParameters</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1ad2883b0992b59d222f1157ace89dd4ef" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>BooleanInternalParameters</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1a6b411890780f96f2a98f755e3e398e35" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>BooleanInternalParameters</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1a833c0f6ee14231909d415891b69a7851" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>BooleanInternalParameters</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1a2d47ecf9fd1f635559cdf74cc7600cb6" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>BooleanInternalParameters</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1aa89a1e4fcd82054e43e0fc45b45de19a" prot="package" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a7a9f9a732fbf234830628939107e2dd4" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a8710a01439f2a880ada057b6cff28c74" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1abceb3c472537163d4b086d7018721b3c" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a524daf1f0b9372021514908b55dfe16c" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>Const_BooleanInternalParameters</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a12b863334feb6d54567327ef849ab4e4" prot="protected" virt="virtual"><scope>MR::BooleanInternalParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanInternalParameters_1a4e35788fe8fa3ae44c754047f705ad7f" prot="public" virt="virtual"><scope>MR::BooleanInternalParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1aa9cf8f8d10ebc8167b089d0250d05dc2" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>graphCutSeparation</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1a559037667f33f13759dd15407667f9e1" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>optionalOutCut</name></member>
       <member refid="classMR_1_1BooleanInternalParameters_1aa53b1edbd97c6cd9e657eff0c7bf484f" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>originalMeshA</name></member>

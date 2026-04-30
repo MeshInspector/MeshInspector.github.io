@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Polyline2ProjectionWithOffsetResult" kind="class" language="C#" prot="public">
     <compoundname>MR::Polyline2ProjectionWithOffsetResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Polyline2ProjectionWithOffsetResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult" prot="public" virt="non-virtual">MR.Const_Polyline2ProjectionWithOffsetResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Polyline2ProjectionWithOffsetResult_1a1d9ab17c14b17b26f6debe5d0fcd4ee0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -124,7 +124,7 @@
         <name>Polyline2ProjectionWithOffsetResult</name>
         <qualifiedname>MR.Polyline2ProjectionWithOffsetResult.Polyline2ProjectionWithOffsetResult</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2ProjectionWithOffsetResult</type>
+          <type><ref refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult" kindref="compound">MR.Const_Polyline2ProjectionWithOffsetResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.Polyline2ProjectionWithOffsetResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2ProjectionWithOffsetResult</type>
+          <type><ref refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult" kindref="compound">MR.Const_Polyline2ProjectionWithOffsetResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polyline2ProjectionWithOffsetResult</label>
+        <link refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Polyline2ProjectionWithOffsetResult</label>
         <link refid="classMR_1_1Polyline2ProjectionWithOffsetResult"/>
@@ -210,9 +215,14 @@
       </node>
       <node id="2">
         <label>MR.Const_Polyline2ProjectionWithOffsetResult</label>
+        <link refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_line</edgelabel>
+          <edgelabel>__ref_storage_point</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,7 +234,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" line="629" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineProject.cs" bodystart="630" bodyend="705"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1a27728bb4e587fc710e91b7cdaa77f7d3" prot="protected" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>__ref_storage_dist</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1abc351411d39187bd7d00e94ae0b6b952" prot="protected" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>__ref_storage_line</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1a565f4c4d8273fc9c733481e8bd1c5a80" prot="protected" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>__ref_storage_point</name></member>
       <member refid="classMR_1_1Polyline2ProjectionWithOffsetResult_1a6699f30bd05d97ffd2a2587b15207e7c" prot="public" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1a8b4b095430a8abd4d3cf8484a4d4d128" prot="package" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>Const_Polyline2ProjectionWithOffsetResult</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1a46bf33c5abd373a62036b7faad8a1030" prot="public" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>Const_Polyline2ProjectionWithOffsetResult</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1af1241b8e8df6ef1b39fb556065691419" prot="public" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>Const_Polyline2ProjectionWithOffsetResult</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1ad91c1fde0f39ff2b322141ff58f5a6b5" prot="public" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>Const_Polyline2ProjectionWithOffsetResult</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1ae8ab6ca1693d2a5c5ba66ef969ed81af" prot="public" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>Const_Polyline2ProjectionWithOffsetResult</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1ae795aeaa1eb8a9b8b9302d4e54f5e08b" prot="protected" virt="virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polyline2ProjectionWithOffsetResult_1a72fec54dde2b24b9c56799dd04e5ee9a" prot="public" virt="virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Polyline2ProjectionWithOffsetResult_1a1ae9c210e43362347bdc6f6b8184526a" prot="public" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>dist</name></member>
       <member refid="classMR_1_1Polyline2ProjectionWithOffsetResult_1a1d9ab17c14b17b26f6debe5d0fcd4ee0" prot="public" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>line</name></member>
       <member refid="classMR_1_1Polyline2ProjectionWithOffsetResult_1a3df86d907f5fab912616597b789a9fb4" prot="public" virt="non-virtual"><scope>MR::Polyline2ProjectionWithOffsetResult</scope><name>point</name></member>

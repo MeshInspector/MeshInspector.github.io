@@ -14,12 +14,12 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceMapLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapLoadSettings" kindref="compound">MR.Const_DistanceMapLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Load <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> from binary file Format: 2 integer - DistanceMap.resX &amp; DistanceMap.resY [resX * resY] float - matrix of values Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapLoad_1ab8f7534506e4b5989d5ae1a76738abba" kindref="member">MR.DistanceMapLoad.fromRaw</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Load <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> from binary file Format: 2 integer - <ref refid="classMR_1_1Const__DistanceMap_1a74756a855a7427158fc45ad3590a4ee9" kindref="member">DistanceMap.resX</ref> &amp; <ref refid="classMR_1_1Const__DistanceMap_1a7fde80d9d4f1916be2cbe1cea1c6c454" kindref="member">DistanceMap.resY</ref> [resX * resY] float - matrix of values Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapLoad_1ab8f7534506e4b5989d5ae1a76738abba" kindref="member">MR.DistanceMapLoad.fromRaw</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -38,7 +38,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceMapLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapLoadSettings" kindref="compound">MR.Const_DistanceMapLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -62,7 +62,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceMapLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapLoadSettings" kindref="compound">MR.Const_DistanceMapLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -86,7 +86,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceMapLoadSettings?</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapLoadSettings" kindref="compound">MR.Const_DistanceMapLoadSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

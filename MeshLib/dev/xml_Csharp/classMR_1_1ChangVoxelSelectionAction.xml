@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangVoxelSelectionAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangVoxelSelectionAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangVoxelSelectionAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangVoxelSelectionAction" prot="public" virt="non-virtual">MR.Const_ChangVoxelSelectionAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangVoxelSelectionAction_1a8f405534dcab72dc38cebaca7f2ecfd7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangVoxelSelectionAction</name>
         <qualifiedname>MR.ChangVoxelSelectionAction.ChangVoxelSelectionAction</qualifiedname>
         <param>
-          <type>Const_ChangVoxelSelectionAction</type>
+          <type><ref refid="classMR_1_1Const__ChangVoxelSelectionAction" kindref="compound">Const_ChangVoxelSelectionAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangVoxelSelectionAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangVoxelSelectionAction</label>
+        <link refid="classMR_1_1Const__ChangVoxelSelectionAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangVoxelSelectionAction</label>
+        <link refid="classMR_1_1Const__ChangVoxelSelectionAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,8 +243,21 @@
       <member refid="classMR_1_1ChangVoxelSelectionAction_1aa9634997ae77d0208ea81d116feef5d9" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>ChangVoxelSelectionAction</name></member>
       <member refid="classMR_1_1ChangVoxelSelectionAction_1a20eff995d8d74dfb6ad01d9b0aa118eb" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>ChangVoxelSelectionAction</name></member>
       <member refid="classMR_1_1ChangVoxelSelectionAction_1a97a67c67f038d7820b2fada16e598053" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>ChangVoxelSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a6a5f89b20fb51105f6dd0998f5746f40" prot="package" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Const_ChangVoxelSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a0f7618865b7cad0346b62d6f708636b7" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Const_ChangVoxelSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a2d7235c548c198a9b53103978acb620f" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Const_ChangVoxelSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1aa69297a48a9ca945c12f36b7667020e4" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Const_ChangVoxelSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a23efb972e04bda38b2381a2f4447d990" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Const_ChangVoxelSelectionAction</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a5c8ec335d83cf8ff86427219366a8938" prot="protected" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a17c6002ce157e121dbe48b159c851412" prot="public" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1aed4b63990c0b4167e30effc6380b93a2" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a7fe7dcc7e5ab5eeb8ccfb6d4710ffd65" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangVoxelSelectionAction_1a1c6478bba64fd8e47256e3103d945106" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>operator ChangVoxelSelectionAction?</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a2205cac0b620a1a8de20cb0137279006" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>operator Const_ChangVoxelSelectionAction?</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a5080ca34535d5564d4481b5bdc71f4d9" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangVoxelSelectionAction_1a8f405534dcab72dc38cebaca7f2ecfd7" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a6532656c3c201c8c9044381a99664f52" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>selection</name></member>
+      <member refid="classMR_1_1Const__ChangVoxelSelectionAction_1a187c1a9897cd18242db3f5c233bc6f3a" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

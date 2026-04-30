@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TrimOptionalOutput" kind="class" language="C#" prot="public">
     <compoundname>MR::TrimOptionalOutput</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TrimOptionalOutput</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TrimOptionalOutput" prot="public" virt="non-virtual">MR.Const_TrimOptionalOutput</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a797e41111e3eb4a1deacf86a8f72ef99" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -175,7 +175,7 @@
         <name>TrimOptionalOutput</name>
         <qualifiedname>MR.TrimOptionalOutput.TrimOptionalOutput</qualifiedname>
         <param>
-          <type>MR.Const_TrimOptionalOutput</type>
+          <type><ref refid="classMR_1_1Const__TrimOptionalOutput" kindref="compound">MR.Const_TrimOptionalOutput</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -213,7 +213,7 @@
         <name>assign</name>
         <qualifiedname>MR.TrimOptionalOutput.assign</qualifiedname>
         <param>
-          <type>MR.Const_TrimOptionalOutput</type>
+          <type><ref refid="classMR_1_1Const__TrimOptionalOutput" kindref="compound">MR.Const_TrimOptionalOutput</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -240,6 +240,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TrimOptionalOutput</label>
+        <link refid="classMR_1_1Const__TrimOptionalOutput"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -253,6 +254,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TrimOptionalOutput</label>
         <link refid="classMR_1_1TrimOptionalOutput"/>
@@ -261,9 +266,18 @@
       </node>
       <node id="2">
         <label>MR.Const_TrimOptionalOutput</label>
+        <link refid="classMR_1_1Const__TrimOptionalOutput"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_new2Old</edgelabel>
+          <edgelabel>__ptr_storage_otherNew2Old</edgelabel>
+          <edgelabel>__ptr_storage_otherOutCutContours</edgelabel>
+          <edgelabel>__ptr_storage_otherPart</edgelabel>
+          <edgelabel>__ptr_storage_outCutContours</edgelabel>
+          <edgelabel>__ptr_storage_outCutEdges</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -275,7 +289,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="503" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="504" bodyend="648"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a06cacbf642afc7f8f3d4ed583788336c" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_new2Old</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a3457a18fccf87a787804a205ba72d936" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_otherNew2Old</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a84f7be5c8076bc9836b5bd623de32942" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_otherOutCutContours</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a844324c1eba056837e28395d69bf236c" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_otherPart</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a641bf8e80cb3c5ddc98697fd9d157fef" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_outCutContours</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1acb2bcd3a10be442f33f62dc580ce648f" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_outCutEdges</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a4467f960e9ea495226c48319a4b7a9bf" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a08f548a81db8a2b01ce76c84811bcaab" prot="package" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1aeb1c0fd32cffa92b242edb58b06c51bf" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a35cf86c7fb5ffa3b0c9a129a490d766c" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a73085fe71841473046301ce5a586db57" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a1cde6d94469ce14ad1ce31d070dab42c" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1af4778143ec5fb6776f962171e38cbbdb" prot="protected" virt="virtual"><scope>MR::TrimOptionalOutput</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a92171d49421b872f0d782085708405c9" prot="public" virt="virtual"><scope>MR::TrimOptionalOutput</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a5258262b34c251d220341a24da233659" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>new2Old</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1af0920bb10e4bd005c6ab5233e2073ccc" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherNew2Old</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a1d902491a5bfd553857cba4384e33dcc" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherOutCutContours</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TexturePerFace" kind="class" language="C#" prot="public">
     <compoundname>MR::TexturePerFace</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TexturePerFace</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TexturePerFace" prot="public" virt="non-virtual">MR.Const_TexturePerFace</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TexturePerFace_1a932d432fed296fa3b51da3f0059a959f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>TexturePerFace</name>
         <qualifiedname>MR.TexturePerFace.TexturePerFace</qualifiedname>
         <param>
-          <type>Const_TexturePerFace</type>
+          <type><ref refid="classMR_1_1Const__TexturePerFace" kindref="compound">Const_TexturePerFace</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TexturePerFace</label>
+        <link refid="classMR_1_1Const__TexturePerFace"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TexturePerFace</label>
+        <link refid="classMR_1_1Const__TexturePerFace"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1TexturePerFace_1ad022fa8a3de1157963559962eb75ee69" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1TexturePerFace_1a1cec02d9312a6f075f253b8d1e764a41" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1TexturePerFace_1af1883dded0d9ef3929e1e92246698b39" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1aad45b2f47a5a5ef2fe416849046df826" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1acd3a55a100ff566a92dfc18a6d564410" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a70308d01277ff0852b1e1dab47549ddf" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>capacity</name></member>
       <member refid="classMR_1_1TexturePerFace_1a15062329676f30123e07f50a2c346753" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a5fb8acbb8e8ac1a1e2e1dde917630f03" prot="package" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a2f5fd79be006bf890cf679fc0b16888a" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a2b70846cd87ad44a7606a59ad665d90c" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1ae855165c82cd2b3d3ef5357eec1259ba" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a896a6796b3a959985b0438d7ef4de9a2" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1ae7dd7b4391c8458f3f041a32a03b54de" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a1175fbd2b319c3511a083026e92cf126" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a5180b7d4ca576a75a6b7a74fedda7088" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
       <member refid="classMR_1_1TexturePerFace_1ad14ede97c649d215be69923950796feb" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a5996f1b03981f83ef820ca2f68246552" prot="protected" virt="virtual"><scope>MR::TexturePerFace</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1aec426953f98ee25d134809ed8f3e3618" prot="public" virt="virtual"><scope>MR::TexturePerFace</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TexturePerFace_1a03e269a62d5fd07e6cf2fcb667442c6a" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a4ae077eb98f9fe3fab1b13cb80fe1576" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1aef4038c9ba297c680a85d487fa1f7433" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1aed0edf05243d33a804a4292f44d883c9" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a92da021fe7579f361ade4c0b4c2dfa46" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Equals</name></member>
       <member refid="classMR_1_1TexturePerFace_1a51814e16ab4996c06395449486808cd9" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>front</name></member>
       <member refid="classMR_1_1TexturePerFace_1a7bbd39f74f34c16f4268431cf41482be" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1TexturePerFace_1af7f0e04115be5d81ef369692e3754669" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1ad6226a842f4db9564d9e0b0e292b8b7d" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1affcc9c24212986200048081694a256b7" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator Const_TexturePerFace</name></member>
       <member refid="classMR_1_1TexturePerFace_1aaf52e05da43d4c25a6192da4dce90da1" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1af30a8ccaaeed0ade6a2d66f05da267b2" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a990b1345b4771c94125cc9e9c14f4b8a" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator==</name></member>
       <member refid="classMR_1_1TexturePerFace_1a339877572eb13ce38ab6b98af46f3982" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>popBack</name></member>
       <member refid="classMR_1_1TexturePerFace_1ab8fee625453ab317aa2a8c980aa844b5" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>pushBack</name></member>
       <member refid="classMR_1_1TexturePerFace_1ab0dde7c38953c6213ee0df935aa9a101" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1TexturePerFace_1a7b7bb2f6e19d7869025ad037ed9e2c9a" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1TexturePerFace_1a00c90065d5659f753cce7d26c86196f6" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1TexturePerFace_1a72a97a0e539b48cad0a603f9c9c26671" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1ab0973fd6ca5ee33d493937a160c9f96b" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>size</name></member>
       <member refid="classMR_1_1TexturePerFace_1a545668a468becaf9c0d3239d1aa0a724" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>swap</name></member>
       <member refid="classMR_1_1TexturePerFace_1a735d5cf17b4a3f6c0ddae3763d6778bc" prot="package" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>TexturePerFace</name></member>
       <member refid="classMR_1_1TexturePerFace_1ac6f7f3429fc913d4f574436660e2947d" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>TexturePerFace</name></member>

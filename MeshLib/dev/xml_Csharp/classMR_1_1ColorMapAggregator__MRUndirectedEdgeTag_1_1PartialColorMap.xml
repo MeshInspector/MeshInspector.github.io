@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap" kind="class" language="C#" prot="public">
     <compoundname>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap" prot="public" virt="non-virtual">MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap_1a34d5a89031d9b3fa8246685288c30b0d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeColors" kindref="compound">MR.UndirectedEdgeColors</ref></type>
@@ -122,7 +122,7 @@
         <name>PartialColorMap</name>
         <qualifiedname>MR.ColorMapAggregator_MRUndirectedEdgeTag.PartialColorMap.PartialColorMap</qualifiedname>
         <param>
-          <type>Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap" kindref="compound">Const_PartialColorMap</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</label>
+        <link refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,6 +209,7 @@
       </node>
       <node id="2">
         <label>MR.ColorMapAggregator_MRUndirectedEdgeTag.Const_PartialColorMap</label>
+        <link refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,6 +226,14 @@
     <listofallmembers>
       <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap_1a873f94ebba7769b887a2c26611ab92e6" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>assign</name></member>
       <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap_1a34d5a89031d9b3fa8246685288c30b0d" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>colorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap_1af0135b70aad5c5f2375d1e90571a17ef" prot="package" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap_1acc59cc519b7fbe89a48d3824855191b5" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap_1a3d66b62f7db3390651aad85e50e712d4" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap_1a7055590da9c140b038ec793a9262e5cd" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap_1a700c498b403574234b6c32e1bb1d99d4" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap_1a650d949cb0b04635da1a89e4438badf6" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap_1ab0a6ea69731958a8b8159b04b4d64b3c" prot="protected" virt="virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1Const__PartialColorMap_1af707248e4b5ae084570bd683675b461a" prot="public" virt="virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap_1a9a4240f443dfb2445fc2e8b4cb979a69" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>elements</name></member>
       <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap_1a39221bf971020209213963f93c3ded66" prot="package" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>PartialColorMap</name></member>
       <member refid="classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag_1_1PartialColorMap_1aea25a9fa68a01e0329905753e7bcc8de" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRUndirectedEdgeTag::PartialColorMap</scope><name>PartialColorMap</name></member>

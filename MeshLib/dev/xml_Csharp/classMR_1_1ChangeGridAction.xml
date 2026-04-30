@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeGridAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeGridAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeGridAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeGridAction" prot="public" virt="non-virtual">MR.Const_ChangeGridAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeGridAction_1a33d5d7862a38697e6cd575cc17373e64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeGridAction</name>
         <qualifiedname>MR.ChangeGridAction.ChangeGridAction</qualifiedname>
         <param>
-          <type>Const_ChangeGridAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeGridAction" kindref="compound">Const_ChangeGridAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeGridAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>obj</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeGridAction</label>
+        <link refid="classMR_1_1Const__ChangeGridAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeGridAction</label>
+        <link refid="classMR_1_1Const__ChangeGridAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,8 +243,20 @@
       <member refid="classMR_1_1ChangeGridAction_1a22c11892a15e1a1e40612520376b3ec2" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a13c90781d6a04d5f167c6cbd763933cf" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
       <member refid="classMR_1_1ChangeGridAction_1abbbdafb6df2f96b7d4e9833c84d6a6ad" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>ChangeGridAction</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a1e4b3233fe33b7022d0e90fcf945684e" prot="package" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>Const_ChangeGridAction</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a221efa8990bd2c900f97a0df27eed795" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>Const_ChangeGridAction</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a4cb93206120f64a6917c0549ece5660f" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>Const_ChangeGridAction</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a75408e7c0c31cceb45ad2b7d700761c3" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>Const_ChangeGridAction</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1ab47fcb764b3b413cf92d36d5c003941d" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>Const_ChangeGridAction</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a2bd2c6df6d74b4f1c73dc55e7be35271" prot="protected" virt="virtual"><scope>MR::ChangeGridAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a2ff0cb2d31c52d47229ed2fd3b2e7d68" prot="public" virt="virtual"><scope>MR::ChangeGridAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a00afed445455edbc2ac28d9c5d40766d" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1ac3ed49ff8878fb7ad32a240ec6e694ca" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a7fdde77db4b81edbfc9bdc64bfa408a1" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>operator ChangeGridAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1af5b4e9e142c3fbbf1efcea45d0ea6d1b" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>operator Const_ChangeGridAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a22d8e3e4c47c5a0e1f2ef3512352c7a1" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeGridAction_1a33d5d7862a38697e6cd575cc17373e64" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeGridAction_1a83206d6bfc89ebd16de604ec53a17e5c" prot="public" virt="non-virtual"><scope>MR::ChangeGridAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

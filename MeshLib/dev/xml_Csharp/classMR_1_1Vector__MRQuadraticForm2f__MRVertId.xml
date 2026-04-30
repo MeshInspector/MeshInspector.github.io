@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRQuadraticForm2f__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRQuadraticForm2f_MRVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRQuadraticForm2f_MRVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId" prot="public" virt="non-virtual">MR.Const_Vector_MRQuadraticForm2f_MRVertId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a3cc191cc3631e55057d89b34586e6426" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRQuadraticForm2f_MRVertId</name>
         <qualifiedname>MR.Vector_MRQuadraticForm2f_MRVertId.Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
         <param>
-          <type>Const_Vector_MRQuadraticForm2f_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId" kindref="compound">Const_Vector_MRQuadraticForm2f_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,7 +153,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm2f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -248,7 +248,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm2f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -309,7 +309,7 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm2f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -336,7 +336,7 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm2f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -359,7 +359,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm2f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
@@ -397,7 +397,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRQuadraticForm2f_MRVertId.pushBack</qualifiedname>
         <param>
-          <type>MR.Const_QuadraticForm2f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRQuadraticForm2f_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRQuadraticForm2f_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1abc971d08a2d1f87e1426a55be9d8455b" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1aefbb89de296120ccb0060711b07312d0" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a3ec38f152177ba4ab5064d3931c6795e" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ab7cd5ae673595ab2ba963645cfcde1a9" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa10e7e980e0f3b524f8beefe0e271543" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a12858dbf276337107b2c62b66af5d530" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a7d75b49d5ec26a1feff03a13776b3790" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a59d9a28c309d08981a572e3a90d28fee" prot="package" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a2240bce36c0d709b252fb81a4e09adad" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7913575b2e0ebfd3d7be71fcb27c3321" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ac7271ece20fb0cba4029e68a05570096" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a536a62d324542d565e39081e834e8ab2" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a9b2c976eff231736073bf77ad527a1b3" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a962501443576b8695b5f912f5f44729d" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a5af54f8f9a53cdc858749090854e6aed" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a9fa0f42f5af767f954735b8c172e71a0" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a2e7086e1617f134527a56a2e416f5780" prot="protected" virt="virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a742ba0a7a472aab374f35b7689d6ed24" prot="public" virt="virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1acd9160d6b8403fb274636a8c0dddfce1" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a62cea17f0e23516c58d12c936668994c" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aecc940df801cf556d91a800d1c6357a2" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1aab0b70636d141fad5ee836a37aae3de9" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a47678ba70aee29e9fe98c012fad38ea7" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a3118f6cbfd61fe61b714a704c807e132" prot="private" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1af9f8200430a4cd391ed7ca706ea8422b" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a597b638e3a4d7a73346ffa38bf7a79b5" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>operator Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1aa69e8bdfaaeb9c39b0ee3c393bf58fe6" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>operator Vector_MRQuadraticForm2f_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a40375845f7addf5fdf7188fb1b779f20" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a0df014523586e9d21f20998d390b9cc7" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>pushBack</name></member>
@@ -685,6 +704,7 @@
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1af0f5912c9c70f3701b9d16ad2825413c" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a49dfb46b31a58654223b2ec934fb69fc" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a87b883e0d442618a0f08babba27f830f" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a30ba2c8a825bbb0120f6a9a87ed11628" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1aa302ba5fae42bfc788551a3d11ea205d" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a12f04988dd2c30e1d84d8da57f119b40" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a3cc191cc3631e55057d89b34586e6426" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm2f_MRVertId</scope><name>vec</name></member>

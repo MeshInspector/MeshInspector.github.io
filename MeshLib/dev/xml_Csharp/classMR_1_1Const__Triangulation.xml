@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Triangulation" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Triangulation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Triangulation" prot="public" virt="non-virtual">MR.Triangulation</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Triangulation_1a277bfa165bce6079f4dd295439501b6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_StdArrayMRVertId3</type>
+        <definition>unsafe MR.Std.Const_Vector_StdArrayMRVertId3 MR.Const_Triangulation.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Triangulation.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="939" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="939" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Triangulation_1a2e2ec3acd1b6e3c4b48abeba6292bef0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly MR.Std.Array_MRVertId_3</type>
+        <definition>unsafe ref readonly MR.Std.Array_MRVertId_3 MR.Const_Triangulation.this[MR.FaceId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.FaceId i]</name>
+        <qualifiedname>MR.Const_Triangulation.this[MR.FaceId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Triangulation::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1091" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1092" bodyend="1099"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a1bb7ebd40071b1f2b8525e8f2ff12d05" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Triangulation.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Triangulation.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="860" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="860" bodyend="868"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1aac372780bef0b65d5d66497c7bf44a05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Triangulation.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Triangulation.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="869" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="869" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1adcb3952328ce50fdb40faa3f0a0d20d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.Std.Array_MRVertId_3 &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.Std.Array_MRVertId_3 &gt; &gt; MR.Const_Triangulation.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Triangulation.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="926" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="926" bodyend="929"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1aef81bb30334e9496650d8883191cf8b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Triangulation.Const_Triangulation</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.Const_Triangulation</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="967" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="967" bodyend="973"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a119b089974d93773e2c81efe086448d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Triangulation.Const_Triangulation</definition>
+        <argsstring>(MR._ByValue_Triangulation _other)</argsstring>
+        <name>Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.Const_Triangulation</qualifiedname>
+        <param>
+          <type>MR._ByValue_Triangulation</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Triangulation_1a211dfd68e26313760d65585cc9cbf19f" kindref="member">MR.Triangulation.Triangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="978" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="978" bodyend="985"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1af9aebb6e937d2a1e3b4e918761d392f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Triangulation.Const_Triangulation</definition>
+        <argsstring>(Const_Triangulation _other)</argsstring>
+        <name>Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.Const_Triangulation</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">Const_Triangulation</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Triangulation_1a211dfd68e26313760d65585cc9cbf19f" kindref="member">MR.Triangulation.Triangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="990" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="990" bodyend="990"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a9ad0ac790ec93a88d55e72365ee33635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Triangulation.Const_Triangulation</definition>
+        <argsstring>(Triangulation _other)</argsstring>
+        <name>Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.Const_Triangulation</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Triangulation" kindref="compound">Triangulation</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Triangulation_1a211dfd68e26313760d65585cc9cbf19f" kindref="member">MR.Triangulation.Triangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="995" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="995" bodyend="995"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1ac4e9508bf566a137f7c7bb64b94b5466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Triangulation.Const_Triangulation</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.Const_Triangulation</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1Triangulation_1a211dfd68e26313760d65585cc9cbf19f" kindref="member">MR.Triangulation.Triangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1001" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1001" bodyend="1007"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a0fec9b0886db84273e85df3ca6aee324" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Triangulation.Const_Triangulation</definition>
+        <argsstring>(ulong size, in MR.Std.Array_MRVertId_3 val)</argsstring>
+        <name>Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.Const_Triangulation</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_MRVertId_3</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1Triangulation_1a211dfd68e26313760d65585cc9cbf19f" kindref="member">MR.Triangulation.Triangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1013" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1013" bodyend="1022"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1aa4341e3ff4b18674528bfea972893789" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Triangulation.Const_Triangulation</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId3 &gt; vec)</argsstring>
+        <name>Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.Const_Triangulation</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId3 &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Triangulation_1a211dfd68e26313760d65585cc9cbf19f" kindref="member">MR.Triangulation.Triangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1028" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1028" bodyend="1035"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a95ebe235d988e0d0a789cd66bc92b8f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Triangulation.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Triangulation.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Triangulation_1a95ebe235d988e0d0a789cd66bc92b8f4" kindref="member">MR.Triangulation.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1061" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1061" bodyend="1066"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1af677078c75699ca620499abebb03bd00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Triangulation.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Triangulation.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Triangulation_1af677078c75699ca620499abebb03bd00" kindref="member">MR.Triangulation.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1071" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1071" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1adba749dc86bc636554a165e6af20b00b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Triangulation.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Triangulation.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Triangulation_1adba749dc86bc636554a165e6af20b00b" kindref="member">MR.Triangulation.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1081" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1081" bodyend="1086"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a4b50d26fd62467b2f1ee275d2383cf96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly MR.Std.Array_MRVertId_3</type>
+        <definition>unsafe ref readonly MR.Std.Array_MRVertId_3 MR.Const_Triangulation.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Triangulation.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1afb73ceaa588c35df81c37b0c3d9392e7" kindref="member">MR.Triangulation.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1104" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1104" bodyend="1109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a2b1760e881dc6233f19e909ca624e15b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly MR.Std.Array_MRVertId_3</type>
+        <definition>unsafe ref readonly MR.Std.Array_MRVertId_3 MR.Const_Triangulation.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Triangulation.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1a87c15e79c4b75b38fd508e2991ed92ed" kindref="member">MR.Triangulation.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1114" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1114" bodyend="1119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a0bc80d632dfc888b4b1cfb822ea07814" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_Triangulation.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Triangulation.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__Triangulation_1a0bc80d632dfc888b4b1cfb822ea07814" kindref="member">MR.Triangulation.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1125" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1125" bodyend="1130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a86d458fb73ad93939df866eda7eda4f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_Triangulation.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Triangulation.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Triangulation_1a2b1760e881dc6233f19e909ca624e15b" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__Triangulation_1a86d458fb73ad93939df866eda7eda4f6" kindref="member">MR.Triangulation.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1136" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1136" bodyend="1141"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1ac79e0ddef93511c73f5fb54c0cb4264e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_Triangulation.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Triangulation.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Triangulation_1a86d458fb73ad93939df866eda7eda4f6" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__Triangulation_1ac79e0ddef93511c73f5fb54c0cb4264e" kindref="member">MR.Triangulation.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1147" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1147" bodyend="1152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a56a2ee4a68191de116aba5b0274ade20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.? Array_MRVertId_3</type>
+        <definition>unsafe MR.Std.? Array_MRVertId_3 MR.Const_Triangulation.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Triangulation.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Triangulation_1a509d2efa68cf3f0b726ab85689607c6e" kindref="member">MR.Triangulation.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1157" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1157" bodyend="1163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a9f85abd94bda19776b643087cf688f5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Triangulation.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Triangulation.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Triangulation_1a9f85abd94bda19776b643087cf688f5a" kindref="member">MR.Triangulation.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1169" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1169" bodyend="1174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1ab7fedf775219eb938851b8462c2a9048" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Triangulation.Equals</definition>
+        <argsstring>(MR.Const_Triangulation? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Triangulation.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1178" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1178" bodyend="1183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a79c6b5efb76eb2ab1b8d738e35f23bf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Triangulation.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Triangulation.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1185" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1185" bodyend="1192"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a8c2e1712e3a4570789c004e5e7c120ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Triangulation.~Const_Triangulation</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.~Const_Triangulation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="870" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="870" bodyend="870"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a4925b88c0d5b330fb549971b3c70dee6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Triangulation.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Triangulation.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="931" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="931" bodyend="934"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a3de37ffcf52f01269634506f566d70d3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Triangulation.Const_Triangulation</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.Const_Triangulation</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="956" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="956" bodyend="961"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1af4f0d1b92dcd354e3f04d9759474f72b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Triangulation.operator Const_Triangulation</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId3 &gt; vec)</argsstring>
+        <name>operator Const_Triangulation</name>
+        <qualifiedname>MR.Const_Triangulation.operator Const_Triangulation</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId3 &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Triangulation_1a211dfd68e26313760d65585cc9cbf19f" kindref="member">MR.Triangulation.Triangulation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1041" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1041" bodyend="1041"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a3aee9c6ad04d3b626e15c9a828448ade" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Triangulation.operator==</definition>
+        <argsstring>(MR.Const_Triangulation _this, MR.Const_Triangulation b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Triangulation.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Triangulation::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1046" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1046" bodyend="1051"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Triangulation_1a6cf019c0550f5bdb44ac413e5a3a7629" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Triangulation.operator!=</definition>
+        <argsstring>(MR.Const_Triangulation _this, MR.Const_Triangulation b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Triangulation.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1053" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1053" bodyend="1056"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1Triangulation" kindref="compound">MR.Triangulation</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Triangulation</label>
+        <link refid="classMR_1_1Const__Triangulation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.Triangulation</label>
+        <link refid="classMR_1_1Triangulation"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Triangulation</label>
+        <link refid="classMR_1_1Const__Triangulation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="854" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="855" bodyend="1193"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Triangulation_1a2b1760e881dc6233f19e909ca624e15b" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a86d458fb73ad93939df866eda7eda4f6" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a0bc80d632dfc888b4b1cfb822ea07814" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1adba749dc86bc636554a165e6af20b00b" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a3de37ffcf52f01269634506f566d70d3" prot="package" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1aef81bb30334e9496650d8883191cf8b9" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a119b089974d93773e2c81efe086448d5" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1af9aebb6e937d2a1e3b4e918761d392f4" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a9ad0ac790ec93a88d55e72365ee33635" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1ac4e9508bf566a137f7c7bb64b94b5466" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a0fec9b0886db84273e85df3ca6aee324" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1aa4341e3ff4b18674528bfea972893789" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a56a2ee4a68191de116aba5b0274ade20" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a1bb7ebd40071b1f2b8525e8f2ff12d05" prot="protected" virt="virtual"><scope>MR::Const_Triangulation</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1aac372780bef0b65d5d66497c7bf44a05" prot="public" virt="virtual"><scope>MR::Const_Triangulation</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a95ebe235d988e0d0a789cd66bc92b8f4" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1ac79e0ddef93511c73f5fb54c0cb4264e" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1ab7fedf775219eb938851b8462c2a9048" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a79c6b5efb76eb2ab1b8d738e35f23bf4" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a4b50d26fd62467b2f1ee275d2383cf96" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1adcb3952328ce50fdb40faa3f0a0d20d5" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a4925b88c0d5b330fb549971b3c70dee6" prot="private" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a9f85abd94bda19776b643087cf688f5a" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1af4f0d1b92dcd354e3f04d9759474f72b" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>operator Const_Triangulation</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a6cf019c0550f5bdb44ac413e5a3a7629" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a3aee9c6ad04d3b626e15c9a828448ade" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1af677078c75699ca620499abebb03bd00" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a2e2ec3acd1b6e3c4b48abeba6292bef0" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>this[MR.FaceId i]</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a277bfa165bce6079f4dd295439501b6e" prot="public" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Triangulation_1a8c2e1712e3a4570789c004e5e7c120ec" prot="private" virt="non-virtual"><scope>MR::Const_Triangulation</scope><name>~Const_Triangulation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

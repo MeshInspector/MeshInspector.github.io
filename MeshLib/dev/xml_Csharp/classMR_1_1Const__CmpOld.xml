@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__CmpOld" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_CmpOld</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1CmpOld" prot="public" virt="non-virtual">MR.CmpOld</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__CmpOld_1ade9e4938cbf4d1e19278ea3e8336f849" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_CmpOld.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CmpOld.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__CmpOld_1a9d1c52ae812f4c97767a6624e09e8a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_CmpOld.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CmpOld.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CmpOld_1a9ffa5fd6a3d821169f6c2d065f957046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CmpOld.Const_CmpOld</definition>
+        <argsstring>()</argsstring>
+        <name>Const_CmpOld</name>
+        <qualifiedname>MR.Const_CmpOld.Const_CmpOld</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CmpOld_1a5ad605c13362ab92b7cdd7024c41112e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CmpOld.Const_CmpOld</definition>
+        <argsstring>(MR.Const_CmpOld _other)</argsstring>
+        <name>Const_CmpOld</name>
+        <qualifiedname>MR.Const_CmpOld.Const_CmpOld</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__CmpOld" kindref="compound">MR.Const_CmpOld</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CmpOld_1a4d6411890e1690d764794e3c796a3319" kindref="member">MR.CmpOld.CmpOld</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="41" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CmpOld_1a765ce07efebc3602ef377472af7dcb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CmpOld.Const_CmpOld</definition>
+        <argsstring>(CmpOld _other)</argsstring>
+        <name>Const_CmpOld</name>
+        <qualifiedname>MR.Const_CmpOld.Const_CmpOld</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CmpOld" kindref="compound">CmpOld</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CmpOld_1a4d6411890e1690d764794e3c796a3319" kindref="member">MR.CmpOld.CmpOld</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="52" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__CmpOld_1a2d4824c8ab93e751d6b8fe08015bc254" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CmpOld.~Const_CmpOld</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_CmpOld</name>
+        <qualifiedname>MR.Const_CmpOld.~Const_CmpOld</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__CmpOld_1a364a9ca49f3aaa4ae38414acf729932b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CmpOld.Const_CmpOld</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_CmpOld</name>
+        <qualifiedname>MR.Const_CmpOld.Const_CmpOld</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>argument of this type indicates that the object is already in new state, and the following argument is old state Generated from class <computeroutput><ref refid="classMR_1_1CmpOld" kindref="compound">MR.CmpOld</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_CmpOld</label>
+        <link refid="classMR_1_1Const__CmpOld"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.CmpOld</label>
+        <link refid="classMR_1_1CmpOld"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_CmpOld</label>
+        <link refid="classMR_1_1Const__CmpOld"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="9" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__CmpOld_1a364a9ca49f3aaa4ae38414acf729932b" prot="package" virt="non-virtual"><scope>MR::Const_CmpOld</scope><name>Const_CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a9ffa5fd6a3d821169f6c2d065f957046" prot="public" virt="non-virtual"><scope>MR::Const_CmpOld</scope><name>Const_CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a5ad605c13362ab92b7cdd7024c41112e" prot="public" virt="non-virtual"><scope>MR::Const_CmpOld</scope><name>Const_CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a765ce07efebc3602ef377472af7dcb01" prot="public" virt="non-virtual"><scope>MR::Const_CmpOld</scope><name>Const_CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1ade9e4938cbf4d1e19278ea3e8336f849" prot="protected" virt="virtual"><scope>MR::Const_CmpOld</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a9d1c52ae812f4c97767a6624e09e8a0b" prot="public" virt="virtual"><scope>MR::Const_CmpOld</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a2d4824c8ab93e751d6b8fe08015bc254" prot="private" virt="non-virtual"><scope>MR::Const_CmpOld</scope><name>~Const_CmpOld</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

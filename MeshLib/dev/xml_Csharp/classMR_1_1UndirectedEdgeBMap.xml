@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UndirectedEdgeBMap" kind="class" language="C#" prot="public">
     <compoundname>MR::UndirectedEdgeBMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirectedEdgeBMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UndirectedEdgeBMap" prot="public" virt="non-virtual">MR.Const_UndirectedEdgeBMap</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1UndirectedEdgeBMap_1af4d289dc8143db5ef30ffc80b8b54e22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MRUndirectedEdgeId__MRUndirectedEdgeId" kindref="compound">MR.Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId</ref></type>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirectedEdgeBMap</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirectedEdgeBMap</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,8 +187,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9392" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9393" bodyend="9471"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a4536a5442aeb4d2af79522dd0768f117" prot="protected" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1UndirectedEdgeBMap_1ac9fbd80b1e6a35e7555918f6f22e21a5" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>assign</name></member>
       <member refid="classMR_1_1UndirectedEdgeBMap_1af4d289dc8143db5ef30ffc80b8b54e22" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ada42d234c9cbf14aac6d6168ec9b6c47" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ad4f8ff7dafe18bb42c119f1875d05d7d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ae5290dd8d46a0b3c38f012cd04e0dd37" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a974e3339c090d5481e10590a580b8aa6" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1aa717b457ebf5f33e34014062abf098e0" prot="protected" virt="virtual"><scope>MR::UndirectedEdgeBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ad3e220ff67db79f6d76405cb3a94de8e" prot="public" virt="virtual"><scope>MR::UndirectedEdgeBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UndirectedEdgeBMap_1a674ea557e273260184fc55351e608146" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>tsize</name></member>
       <member refid="classMR_1_1UndirectedEdgeBMap_1a80dcb5d1d07413e9e183f9371d18d60b" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>UndirectedEdgeBMap</name></member>
       <member refid="classMR_1_1UndirectedEdgeBMap_1adaec44cb7dede089dae717ba427c9aa9" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeBMap</scope><name>UndirectedEdgeBMap</name></member>

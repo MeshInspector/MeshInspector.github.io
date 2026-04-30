@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertBMap" kind="class" language="C#" prot="public">
     <compoundname>MR::VertBMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertBMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VertBMap" prot="public" virt="non-virtual">MR.Const_VertBMap</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VertBMap_1ac8d788f99f698716451fd24b128c73a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MRVertId__MRVertId" kindref="compound">MR.Buffer_MRVertId_MRVertId</ref></type>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertBMap</label>
+        <link refid="classMR_1_1Const__VertBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertBMap</label>
+        <link refid="classMR_1_1Const__VertBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,8 +187,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8922" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8923" bodyend="9001"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VertBMap_1a5c22c329bb917a817fc511a9eb8adc8a" prot="protected" virt="non-virtual"><scope>MR::VertBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1VertBMap_1abd3f56f9bee8d896c2b54bb19c7f74d5" prot="public" virt="non-virtual"><scope>MR::VertBMap</scope><name>assign</name></member>
       <member refid="classMR_1_1VertBMap_1ac8d788f99f698716451fd24b128c73a1" prot="public" virt="non-virtual"><scope>MR::VertBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a19b5d6e19e95df8d561c085518a9e988" prot="package" virt="non-virtual"><scope>MR::VertBMap</scope><name>Const_VertBMap</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a35cbbeed7a1e7a88d45de6472a8bfa69" prot="public" virt="non-virtual"><scope>MR::VertBMap</scope><name>Const_VertBMap</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a2a31ef091f9255a4d5fe1ce58b76c061" prot="public" virt="non-virtual"><scope>MR::VertBMap</scope><name>Const_VertBMap</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1a13ec46267efede2ef304e6bb6ac48379" prot="public" virt="non-virtual"><scope>MR::VertBMap</scope><name>Const_VertBMap</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1ababbcd8bad4b48ab6429fbcb523134a3" prot="protected" virt="virtual"><scope>MR::VertBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertBMap_1acc678ccc3b027ef24e5b54ef1abc0d28" prot="public" virt="virtual"><scope>MR::VertBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VertBMap_1ac5727f7b120183490e1aa905dfb68efb" prot="public" virt="non-virtual"><scope>MR::VertBMap</scope><name>tsize</name></member>
       <member refid="classMR_1_1VertBMap_1acf77ad533608a8106823ec71591018ff" prot="package" virt="non-virtual"><scope>MR::VertBMap</scope><name>VertBMap</name></member>
       <member refid="classMR_1_1VertBMap_1a6282e989efb6888fab64e811ae15f470" prot="public" virt="non-virtual"><scope>MR::VertBMap</scope><name>VertBMap</name></member>

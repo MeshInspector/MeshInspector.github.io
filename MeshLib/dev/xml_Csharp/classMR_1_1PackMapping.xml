@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PackMapping" kind="class" language="C#" prot="public">
     <compoundname>MR::PackMapping</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PackMapping</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PackMapping" prot="public" virt="non-virtual">MR.Const_PackMapping</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PackMapping_1a627c673cd35f0547d6170771be90ac13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeBMap" kindref="compound">MR.UndirectedEdgeBMap</ref></type>
@@ -167,6 +167,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PackMapping</label>
+        <link refid="classMR_1_1Const__PackMapping"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -188,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PackMapping</label>
+        <link refid="classMR_1_1Const__PackMapping"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -203,6 +205,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14882" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14883" bodyend="14976"/>
     <listofallmembers>
       <member refid="classMR_1_1PackMapping_1ae0be90fc6e8e7acc2f8c0be5c4ab0cf2" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PackMapping_1a09be76f430e96b41379737954bd692cb" prot="package" virt="non-virtual"><scope>MR::PackMapping</scope><name>Const_PackMapping</name></member>
+      <member refid="classMR_1_1Const__PackMapping_1ad05962c55a1eac297cde36b588005c1c" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>Const_PackMapping</name></member>
+      <member refid="classMR_1_1Const__PackMapping_1a7d4f972ecf7f8f7345cd2904d1e84b62" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>Const_PackMapping</name></member>
+      <member refid="classMR_1_1Const__PackMapping_1afd2d8e79b8ef3cc6577aeff4c7d4d965" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>Const_PackMapping</name></member>
+      <member refid="classMR_1_1Const__PackMapping_1a302f94bba984000fa8fa48ade286c239" prot="protected" virt="virtual"><scope>MR::PackMapping</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PackMapping_1a33e0190fc97eca7f66c80b6d50d41a64" prot="public" virt="virtual"><scope>MR::PackMapping</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PackMapping_1a627c673cd35f0547d6170771be90ac13" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>e</name></member>
       <member refid="classMR_1_1PackMapping_1a4a1b0ce47a274292f2dbd3ecaade1176" prot="public" virt="non-virtual"><scope>MR::PackMapping</scope><name>f</name></member>
       <member refid="classMR_1_1PackMapping_1ad715c2a72706c3eff7d74a32b6a0f248" prot="package" virt="non-virtual"><scope>MR::PackMapping</scope><name>PackMapping</name></member>

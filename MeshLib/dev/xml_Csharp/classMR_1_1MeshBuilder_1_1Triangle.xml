@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshBuilder_1_1Triangle" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshBuilder::Triangle</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshBuilder.Const_Triangle</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshBuilder_1_1Const__Triangle" prot="public" virt="non-virtual">MR.MeshBuilder.Const_Triangle</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Triangle_1abf4ddcfcec5822124e234eb43f2a5cba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref MR.Std.Array_MRVertId_3</type>
@@ -80,7 +80,7 @@
         <name>Triangle</name>
         <qualifiedname>MR.MeshBuilder.Triangle.Triangle</qualifiedname>
         <param>
-          <type>MR.MeshBuilder.Const_Triangle</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__Triangle" kindref="compound">MR.MeshBuilder.Const_Triangle</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -149,7 +149,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshBuilder.Triangle.assign</qualifiedname>
         <param>
-          <type>MR.MeshBuilder.Const_Triangle</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__Triangle" kindref="compound">MR.MeshBuilder.Const_Triangle</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -176,6 +176,7 @@
       </node>
       <node id="2">
         <label>MR.MeshBuilder.Const_Triangle</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__Triangle"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -194,6 +195,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshBuilder.Triangle</label>
         <link refid="classMR_1_1MeshBuilder_1_1Triangle"/>
@@ -202,11 +207,16 @@
       </node>
       <node id="2">
         <label>MR.MeshBuilder.Const_Triangle</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__Triangle"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_f</edgelabel>
+          <edgelabel>__ref_storage_v</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -221,8 +231,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="140" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="141" bodyend="205"/>
     <listofallmembers>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1ae032514324eecd1f1ac35d6d8bc0f5f3" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>__ref_storage_f</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a0bd3ef85f0b7bed2b84af3c33d520e7c" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>__ref_storage_v</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a09f6d4d2c2c690a789ee7dc987c2a5f0" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a080257bfe327aece2aafb32db0a89ee3" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Const_Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a3b97caf50d36b40f20254063d1e2a1f8" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Const_Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a41f2d0024c58426a6809f21a73ceb41e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Const_Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a0b16d00486ddb828c617f2e6e77e1a81" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Const_Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a539510978293c26a6f0a19613ad6543f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Const_Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a053b9c6f956165a98021d7e3d8856ff5" prot="protected" virt="virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a599881ea9efccc2d75a85289c8ec4bc2" prot="public" virt="virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a1d751b53f8bd5069e69580137aa59fe3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Equals</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a639711f78e96c15e819d08c631f92514" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Equals</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a876e2211a37fca9e551ce1de5195855b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>f</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1a7a9de46fb22f99f248648a7ecd44ac9c" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__Triangle_1abba3397e3630d20b1a383e7e0862cac4" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>operator==</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a6774125a18e7f2b2c0ed88ada50f220d" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Triangle</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a504123c86663628d55f0a704dbf7b05e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Triangle</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1Triangle_1ad86c2980ea276d1598664375a625137d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Triangle</name></member>

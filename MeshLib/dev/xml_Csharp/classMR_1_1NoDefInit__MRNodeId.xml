@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MRNodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MRNodeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRNodeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoDefInit__MRNodeId" prot="public" virt="non-virtual">MR.Const_NoDefInit_MRNodeId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NoDefInit__MRNodeId_1a86f64d2c55482877afaa9a4b3bf61741" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,7 +86,7 @@
         <name>NoDefInit_MRNodeId</name>
         <qualifiedname>MR.NoDefInit_MRNodeId.NoDefInit_MRNodeId</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRNodeId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRNodeId" kindref="compound">MR.Const_NoDefInit_MRNodeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>assign</name>
         <qualifiedname>MR.NoDefInit_MRNodeId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRNodeId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRNodeId" kindref="compound">MR.Const_NoDefInit_MRNodeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRNodeId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRNodeId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,16 +251,32 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3195" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3196" bodyend="3287"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a6cb3b49a5d024cc12b186cacd2f7a755" prot="protected" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1a660c8bad93258e2a16a7567a8aad58b8" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>addAssign</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1ad159a90dcba32a5059213a4ef182c353" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a9d4b3d8eb7ad62d51da3b926a874cb12" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>Const_NoDefInit_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1aaa1d70c74221e96c2efee6eff6fa3a21" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>Const_NoDefInit_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1aa7ce925b584447afa5635a7d02f261d3" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>Const_NoDefInit_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1ac0180c5228b381af4e10db5952d713d5" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>Const_NoDefInit_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1aac9508bf7a8a19f1b35999b6413fac9f" prot="protected" virt="virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1ab76be4c199544ad8d774036ef853091c" prot="public" virt="virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1af4fc85583fd595ac3da7faea668d5dd3" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a8507abbd14199a59152ff02fecf675c7" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>Equals</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1a28c892348a382cbfa13780da22c1c291" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>get</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1a86f64d2c55482877afaa9a4b3bf61741" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a10ec3c9d9eccf0d127ff9c78360bd28f" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>less</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1aefcc45471729ddaae7d639d1f22aef22" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>NoDefInit_MRNodeId</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1a74b2860e4503e4c2664136188bb8872f" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>NoDefInit_MRNodeId</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1a8802833cfd5d7edf98a07321e86e49f8" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>NoDefInit_MRNodeId</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1a7b7e91869cb68a4c53ba9b5d382ac230" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>NoDefInit_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1aecac9abbee5691bed47c37218320279e" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a802585c4c2eff730cd55fe2965eac2bd" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>operator int</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1a4d6d5aee7430c5bb0f04297a969d2176" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>operator MR.Box_NodeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a4ac0f3abf924059be7eced1f3c391c98" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>operator MR.ConstBox_NodeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a01f73d57981fd960d6115d7d0468bf86" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a138dbfe635b3ff58752ddbf9f5f98a0c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>operator==</name></member>
       <member refid="classMR_1_1NoDefInit__MRNodeId_1a057f76825c630eb1eb4a79e864280dbc" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRNodeId_1a58df36def8f677089fcdea51439cb2bb" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRNodeId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

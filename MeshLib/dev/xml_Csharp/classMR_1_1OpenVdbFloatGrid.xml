@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OpenVdbFloatGrid" kind="class" language="C#" prot="public">
     <compoundname>MR::OpenVdbFloatGrid</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OpenVdbFloatGrid</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OpenVdbFloatGrid" prot="public" virt="non-virtual">MR.Const_OpenVdbFloatGrid</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1OpenVdbFloatGrid_1a351f74110953fa80fb2eaa9bfec22e1f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>OpenVdbFloatGrid</name>
         <qualifiedname>MR.OpenVdbFloatGrid.OpenVdbFloatGrid</qualifiedname>
         <param>
-          <type>Const_OpenVdbFloatGrid</type>
+          <type><ref refid="classMR_1_1Const__OpenVdbFloatGrid" kindref="compound">Const_OpenVdbFloatGrid</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OpenVdbFloatGrid</label>
+        <link refid="classMR_1_1Const__OpenVdbFloatGrid"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OpenVdbFloatGrid</label>
+        <link refid="classMR_1_1Const__OpenVdbFloatGrid"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -150,6 +152,14 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" line="75" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBFloatGrid.cs" bodystart="76" bodyend="109"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a95fac06ffffcc82411095cb1c79e469b" prot="package" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1ae1623112193c7508b551a3567625ce17" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a15bfeb6d8ca7688067becb130bfe4eb7" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1aadbf3545c6e6e7f0bc42ee8ff669fbb7" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1ac704882825a90ec1123aaa8dd1fd5cce" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>Const_OpenVdbFloatGrid</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1af93614479cb34fb542e7cb53b0c77cad" prot="protected" virt="virtual"><scope>MR::OpenVdbFloatGrid</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1ae87e37797410e914f5af2141a3978870" prot="public" virt="virtual"><scope>MR::OpenVdbFloatGrid</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OpenVdbFloatGrid_1a2e2b3aafef595f9aa8e5da48cefc4e07" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1OpenVdbFloatGrid_1a351f74110953fa80fb2eaa9bfec22e1f" prot="package" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>OpenVdbFloatGrid</name></member>
       <member refid="classMR_1_1OpenVdbFloatGrid_1ae73a1bc0af44c763b4dbf8a0fe5101d0" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>OpenVdbFloatGrid</name></member>
       <member refid="classMR_1_1OpenVdbFloatGrid_1a985904eca89f87d0e9d106b5ecdf7212" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>OpenVdbFloatGrid</name></member>

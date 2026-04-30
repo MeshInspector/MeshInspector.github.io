@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UndirectedEdgeUndirectedEdge" kind="class" language="C#" prot="public">
     <compoundname>MR::UndirectedEdgeUndirectedEdge</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirectedEdgeUndirectedEdge</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge" prot="public" virt="non-virtual">MR.Const_UndirectedEdgeUndirectedEdge</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1UndirectedEdgeUndirectedEdge_1ab11c0cd2478877033ab4a9b2cba86501" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -80,7 +80,7 @@
         <name>UndirectedEdgeUndirectedEdge</name>
         <qualifiedname>MR.UndirectedEdgeUndirectedEdge.UndirectedEdgeUndirectedEdge</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeUndirectedEdge</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge" kindref="compound">MR.Const_UndirectedEdgeUndirectedEdge</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.UndirectedEdgeUndirectedEdge.assign</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeUndirectedEdge</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge" kindref="compound">MR.Const_UndirectedEdgeUndirectedEdge</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirectedEdgeUndirectedEdge</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.UndirectedEdgeUndirectedEdge</label>
         <link refid="classMR_1_1UndirectedEdgeUndirectedEdge"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirectedEdgeUndirectedEdge</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_aUndirEdge</edgelabel>
+          <edgelabel>__ref_storage_bUndirEdge</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,9 +213,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceFace.cs" line="308" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceFace.cs" bodystart="309" bodyend="373"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1a0e8f57b1edc62d460d3acb605fd6c055" prot="protected" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>__ref_storage_aUndirEdge</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1a17ebf9e5027c762f350f7d33a67fea38" prot="protected" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>__ref_storage_bUndirEdge</name></member>
       <member refid="classMR_1_1UndirectedEdgeUndirectedEdge_1a0cd51293bf36075a34ce50abb426b91c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>assign</name></member>
       <member refid="classMR_1_1UndirectedEdgeUndirectedEdge_1ab11c0cd2478877033ab4a9b2cba86501" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>aUndirEdge</name></member>
       <member refid="classMR_1_1UndirectedEdgeUndirectedEdge_1a66a631be0176d0a43027a995b82c7175" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>bUndirEdge</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1ad6e84873f6e4d2058ebdb6e2f2af06c3" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>Const_UndirectedEdgeUndirectedEdge</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1aab8865e3bcf5597379779755529e3ead" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>Const_UndirectedEdgeUndirectedEdge</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1a193c325ae94f8e3456a2740e6eac1105" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>Const_UndirectedEdgeUndirectedEdge</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1a5f7be222bad317ab9a034776203c1345" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>Const_UndirectedEdgeUndirectedEdge</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1a1720cd2f47372b6aba71e78219354e1e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>Const_UndirectedEdgeUndirectedEdge</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1a82309440c2fc5a23a25686e85da29150" prot="protected" virt="virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeUndirectedEdge_1ac73a8c05875a4e9502e04b83d1ec5061" prot="public" virt="virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UndirectedEdgeUndirectedEdge_1a573f3ebbc383e9fb2a338dc244008487" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>UndirectedEdgeUndirectedEdge</name></member>
       <member refid="classMR_1_1UndirectedEdgeUndirectedEdge_1ad4b51f8fdbf04e308dc4f054434a68b3" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>UndirectedEdgeUndirectedEdge</name></member>
       <member refid="classMR_1_1UndirectedEdgeUndirectedEdge_1a285e8092d1ceb14d6c242949b9aed61a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeUndirectedEdge</scope><name>UndirectedEdgeUndirectedEdge</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Polyline2" kind="class" language="C#" prot="public">
     <compoundname>MR::Polyline2</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Polyline2</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Polyline2" prot="public" virt="non-virtual">MR.Const_Polyline2</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Polyline2_1a9d6c96b4b8f6bdad3169c12e10bd2f8e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1PolylineTopology" kindref="compound">MR.PolylineTopology</ref></type>
@@ -99,7 +99,7 @@
         <name>Polyline2</name>
         <qualifiedname>MR.Polyline2.Polyline2</qualifiedname>
         <param>
-          <type>Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">Const_Polyline2</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -291,7 +291,7 @@
         <name>addPart</name>
         <qualifiedname>MR.Polyline2.addPart</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>from</declname>
         </param>
         <param>
@@ -331,11 +331,11 @@
         <name>addPartByMask</name>
         <qualifiedname>MR.Polyline2.addPartByMask</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>mask</declname>
         </param>
         <param>
@@ -465,7 +465,7 @@
         <name>addFromEdgePath</name>
         <qualifiedname>MR.Polyline2.addFromEdgePath</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -491,7 +491,7 @@
         <name>addFromSurfacePath</name>
         <qualifiedname>MR.Polyline2.addFromSurfacePath</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -517,11 +517,11 @@
         <name>addFromGeneralSurfacePath</name>
         <qualifiedname>MR.Polyline2.addFromGeneralSurfacePath</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>start</declname>
         </param>
         <param>
@@ -529,7 +529,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>end</declname>
         </param>
         <briefdescription>
@@ -599,6 +599,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polyline2</label>
+        <link refid="classMR_1_1Const__Polyline2"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -620,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polyline2</label>
+        <link refid="classMR_1_1Const__Polyline2"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -642,9 +644,39 @@
       <member refid="classMR_1_1Polyline2_1af177a1d423bc1ab0e96db95c60e141da" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addPart</name></member>
       <member refid="classMR_1_1Polyline2_1adf9b1648f5f6c218f0bb0b6753317f47" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>addPartByMask</name></member>
       <member refid="classMR_1_1Polyline2_1a3637282cbebed5dcfbb5ad0e20db3abe" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1acce3f0e4eddc1a3c141cba591e54f27e" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>averageEdgeLength</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9b4019ef6c19060e06379e1297ed7f12" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9267dab1ef6a45cdb172f5604a9a665e" prot="package" virt="non-virtual"><scope>MR::Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a55dd17be7cf445b97fdbbd3f922865da" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ab29662e0443cb68762b87e0e066cc47d" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ae9e74c614269084d31194d9d056429ec" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9a4b9cda5f50b8b580bf659fa81c2fc5" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aa5baa2987450efcbebaeab9c0bb85d21" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a4f86626285b78a592bc563aa70cc90c9" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1af8a6b4be403c4a4f21efbf22a83ae914" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aef328151ee1d3890f90deaea46739b8a" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>contours</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9c78d41452db4c1b4514a0cbab735bf2" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>destPnt</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a1d711afb50b231e938198f1a4b5ef2c3" prot="protected" virt="virtual"><scope>MR::Polyline2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a51d3d58fd329009c4cb9a486ce57dc07" prot="public" virt="virtual"><scope>MR::Polyline2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a3cf6877996d6fa01650afe71065c633c" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>edgeCenter</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a1e9f595e48da0451758ed5ccd4bef25d" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>edgeLength</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a431add856352467734a2229395dc045e" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>edgeLengthSq</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ad6b95d0299d0fc542b6001e5429d3d28" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aad104b179ee69b525c423dc9f2eb7394" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ae642d2248b997c2e94c810aba741f346" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>edgeSegment</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a4dd63a789d5e69d1c25b51ad11450759" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>edgeVector</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9aae770cf4ac19a8476b1012a465985b" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>findCenterFromPoints</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a3b1a544a507a0d0bcc8ee635d88b4114" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>getAABBTree</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1acff97915ea8d242a9b072e8c4a754a4b" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>getAABBTreeNotCreate</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a7b9ec48f8ad6f6f560d44840d5641faf" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a75c583f7f78627ad4e35c71edb0641bb" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Polyline2_1af1a2fdbf3dd496e48a8eefb55e750978" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>invalidateCaches</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aff73db1834d59d57a99adff17f31bd6d" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>loopDirArea</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a72efe2f5f4b1dcd1bc48cf912373fc82" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>operator Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a33cac904d276929634f67da2c6592946" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>operator Const_Polyline2</name></member>
       <member refid="classMR_1_1Polyline2_1a9f8c2d5d1aeef637de3512837f974b80" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>operator Polyline2</name></member>
       <member refid="classMR_1_1Polyline2_1ad9a3c1bc9ce57d1d403d7fd745e8cc79" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>operator Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9073f4d565fbea8805ef6a68db987971" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>orgPnt</name></member>
       <member refid="classMR_1_1Polyline2_1a31388521b351a304f6e9fa9b584564fd" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>pack</name></member>
       <member refid="classMR_1_1Polyline2_1a89bcfd98b68973c6be897541eb95ee63" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>points</name></member>
       <member refid="classMR_1_1Polyline2_1a7ceed4bdb619fca202b5aa34ec12d195" prot="package" virt="non-virtual"><scope>MR::Polyline2</scope><name>Polyline2</name></member>
@@ -657,7 +689,10 @@
       <member refid="classMR_1_1Polyline2_1af186a27466c1bce310a8cc139bce3c01" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>Polyline2</name></member>
       <member refid="classMR_1_1Polyline2_1a612547f8f4260560f117f537b9454cb0" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>splitEdge</name></member>
       <member refid="classMR_1_1Polyline2_1a276e2327b62d8a8d780494459cba6228" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>splitEdge</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a76feae005da2e0424f357d5fce108e9d" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>toEdgePoint</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a35fda8d7c226504ce1732795c63f5ddd" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>toEdgePoint</name></member>
       <member refid="classMR_1_1Polyline2_1a9d6c96b4b8f6bdad3169c12e10bd2f8e" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>topology</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1acf1dbc5888bee9e01248f6418ca58eb0" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>totalLength</name></member>
       <member refid="classMR_1_1Polyline2_1a53085936c2c9f12cf26fa2b4051f1232" prot="public" virt="non-virtual"><scope>MR::Polyline2</scope><name>transform</name></member>
     </listofallmembers>
   </compounddef>

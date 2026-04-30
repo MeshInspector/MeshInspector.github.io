@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsVolumeAccessor_MRFunctionVolume</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume" prot="public" virt="non-virtual">MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a67041dbcf4cbb4e4fe1262d301b51e91" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>VoxelsVolumeAccessor_MRFunctionVolume</name>
         <qualifiedname>MR.VoxelsVolumeAccessor_MRFunctionVolume.VoxelsVolumeAccessor_MRFunctionVolume</qualifiedname>
         <param>
-          <type>MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume" kindref="compound">MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -73,7 +73,7 @@
         <name>VoxelsVolumeAccessor_MRFunctionVolume</name>
         <qualifiedname>MR.VoxelsVolumeAccessor_MRFunctionVolume.VoxelsVolumeAccessor_MRFunctionVolume</qualifiedname>
         <param>
-          <type>MR.Const_FunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__FunctionVolume" kindref="compound">MR.Const_FunctionVolume</ref></type>
           <declname>volume</declname>
         </param>
         <briefdescription>
@@ -100,6 +100,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -121,6 +122,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -135,6 +137,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="465" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="466" bodyend="495"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1acb5ca7b3ee2515675d01ccc61fcf110f" prot="protected" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>__ref_storage_CacheEffective</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1af1ef9ad7e84870c7c0feb3364144cb5d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>CacheEffective</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1adc283d6689cc55feb1ce7c909dafe8ca" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>Const_VoxelsVolumeAccessor_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1ae06413e4712f8091de8efc6020501101" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>Const_VoxelsVolumeAccessor_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1a0e2284cb8dc3097acf99d975d03b0230" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>Const_VoxelsVolumeAccessor_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1af635b4a16632e320912db38accdf769f" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>Const_VoxelsVolumeAccessor_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1a6ca0a55ac8d4def0e5226e20cbb8eef7" prot="protected" virt="virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1a4565f3f620b5098b5916600ee7899498" prot="public" virt="virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1a35121e314aa96f94a71b1d3c13f4827e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1a636bb6599bf4a7ffb5ebff3cb3663f95" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume_1a4c0b76bb7c70dcb1b1fb7b933d81cf68" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>shift</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a67041dbcf4cbb4e4fe1262d301b51e91" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>VoxelsVolumeAccessor_MRFunctionVolume</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a9537dfd533201c039b283e0c93ab3c0d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>VoxelsVolumeAccessor_MRFunctionVolume</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume_1a8b6a791e91a424665b76ed12e04c6897" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRFunctionVolume</scope><name>VoxelsVolumeAccessor_MRFunctionVolume</name></member>

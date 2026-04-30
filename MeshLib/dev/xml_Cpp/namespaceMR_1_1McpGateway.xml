@@ -14,11 +14,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Single source of truth for &quot;is the backend currently alive?&quot;. Updated by <computeroutput>probeAndTrackBackend</computeroutput> and by the persistent transport&apos;s connection callbacks. </para>
+<para>Single source of truth for &quot;is the backend currently alive?&quot;. Updated by <computeroutput>updateBackendAliveAndNotify</computeroutput> (from <computeroutput>probeAndTrackBackend</computeroutput> and from the persistent transport&apos;s SSE connect/error callbacks). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="15" column="13" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="15" declcolumn="13"/>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="17" column="13" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="17" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -37,7 +37,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="19" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="19" declcolumn="6"/>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="21" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a153505bbfb54eb994b1929e70f09d9f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::McpGateway::updateBackendAliveAndNotify</definition>
+        <argsstring>(bool nowAlive)</argsstring>
+        <name>updateBackendAliveAndNotify</name>
+        <qualifiedname>MR::McpGateway::updateBackendAliveAndNotify</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>nowAlive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates <computeroutput><ref refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" kindref="member">getBackendAlive()</ref></computeroutput> and emits <computeroutput>notifications/tools/list_changed</computeroutput> on a real alive↔dead transition. Suppresses the very first call (baseline-set, not a transition the client cares about). Safe to call from any thread: emit goes through <computeroutput><ref refid="namespaceMR_1_1McpGateway_1a125af5dc97b6c00c8b23e57f661a1b96" kindref="member">gatewayStdoutMutex()</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="27" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="27" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -52,11 +71,26 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Probes the backend, updates <computeroutput><ref refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" kindref="member">getBackendAlive()</ref></computeroutput>, and on a state transition synchronously emits <computeroutput>notifications/tools/list_changed</computeroutput> so the connected MCP client surfaces / drops the proxied tool set without polling. </para>
+<para>Probes the backend and routes the result through <computeroutput>updateBackendAliveAndNotify</computeroutput>, so a state transition synchronously emits <computeroutput>notifications/tools/list_changed</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="24" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="24" declcolumn="6"/>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="31" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a125af5dc97b6c00c8b23e57f661a1b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::mutex &amp;</type>
+        <definition>std::mutex &amp; MR::McpGateway::gatewayStdoutMutex</definition>
+        <argsstring>()</argsstring>
+        <name>gatewayStdoutMutex</name>
+        <qualifiedname>MR::McpGateway::gatewayStdoutMutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutex held during direct gateway-side writes to stdout (notifications emitted from background threads). Protects against emit-vs-emit interleaving. Does NOT cover fastmcpp&apos;s own response writes — fastmcpp&apos;s stdio_server does not expose its writer mutex; treat emit-vs-response interleaving as a pre-existing fastmcpp limitation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="38" column="12" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="38" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -79,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="27" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="27" declcolumn="6"/>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="41" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="41" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a492feeb41d07c965ac23ee0076d73f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; nlohmann::json &gt; &amp;</type>
@@ -227,6 +261,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="8" column="1"/>
+    <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="9" column="1"/>
   </compounddef>
 </doxygen>

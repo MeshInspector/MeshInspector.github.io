@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PointOnObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PointOnObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PointOnObject" prot="public" virt="non-virtual">MR.PointOnObject</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PointOnObject_1aef1a2873654cf4f822e24d6fb7232f07" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_PointOnObject.point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>MR.Const_PointOnObject.point</qualifiedname>
+        <briefdescription>
+<para>3D location on the object in local coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="32" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointOnObject_1af36e8c62e4264ec4b9b2e0526a4a1395" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_PointOnObject.zBuffer</definition>
+        <argsstring></argsstring>
+        <name>zBuffer</name>
+        <qualifiedname>MR.Const_PointOnObject.zBuffer</qualifiedname>
+        <briefdescription>
+<para>z buffer value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="38" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__PointOnObject_1a801c455bc3e18c4a29289671536dbd5d" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_PointOnObject.__ref_storage_point</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_point</name>
+        <qualifiedname>MR.Const_PointOnObject.__ref_storage_point</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="33" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PointOnObject_1a6b16d7b96338ef5586d313d2f5dc7811" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_PointOnObject.__ref_storage_zBuffer</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_zBuffer</name>
+        <qualifiedname>MR.Const_PointOnObject.__ref_storage_zBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="39" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnObject_1a840bc579fe8a0ff60e2e1230578b9f40" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PointOnObject.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointOnObject.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnObject_1a09222de98ff2cd556225e7e309540621" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PointOnObject.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointOnObject.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointOnObject_1a721a8bc3a605dc969e5cb8f1f8584f45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointOnObject.Const_PointOnObject</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PointOnObject</name>
+        <qualifiedname>MR.Const_PointOnObject.Const_PointOnObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="72" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointOnObject_1aec4a30eaf9a14b161835d76afb62b902" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointOnObject.Const_PointOnObject</definition>
+        <argsstring>(MR.Const_PointOnObject _other)</argsstring>
+        <name>Const_PointOnObject</name>
+        <qualifiedname>MR.Const_PointOnObject.Const_PointOnObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnObject" kindref="compound">MR.Const_PointOnObject</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointOnObject_1a03b69593c56f92a6b089e52e8013e0a6" kindref="member">MR.PointOnObject.PointOnObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="83" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="83" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointOnObject_1a77d2c0538934e46543db556707ee23cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointOnObject.Const_PointOnObject</definition>
+        <argsstring>(PointOnObject _other)</argsstring>
+        <name>Const_PointOnObject</name>
+        <qualifiedname>MR.Const_PointOnObject.Const_PointOnObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointOnObject" kindref="compound">PointOnObject</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointOnObject_1a03b69593c56f92a6b089e52e8013e0a6" kindref="member">MR.PointOnObject.PointOnObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="95" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnObject_1a6b88197f4f920053edf032c136f982d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointOnObject.~Const_PointOnObject</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PointOnObject</name>
+        <qualifiedname>MR.Const_PointOnObject.~Const_PointOnObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnObject_1a8327e3fd2aa2e1ee11e44b72829a0e7f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointOnObject.Const_PointOnObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PointOnObject</name>
+        <qualifiedname>MR.Const_PointOnObject.Const_PointOnObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="61" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointOnObject_1a240b37063938d503dc38cce5f6ed967e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_PointOnObject.operator MR.PointOnFace</definition>
+        <argsstring>(MR.Const_PointOnObject _this)</argsstring>
+        <name>operator MR.PointOnFace</name>
+        <qualifiedname>MR.Const_PointOnObject.operator MR.PointOnFace</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnObject" kindref="compound">MR.Const_PointOnObject</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::PointOnObject::operator <ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="100" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="100" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PointOnObject" kindref="compound">MR.PointOnObject</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PointOnObject</label>
+        <link refid="classMR_1_1Const__PointOnObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PointOnObject</label>
+        <link refid="classMR_1_1PointOnObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_PointOnObject</label>
+        <link refid="classMR_1_1Const__PointOnObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnObject.cs" bodystart="12" bodyend="106"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PointOnObject_1a801c455bc3e18c4a29289671536dbd5d" prot="protected" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>__ref_storage_point</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a6b16d7b96338ef5586d313d2f5dc7811" prot="protected" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>__ref_storage_zBuffer</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a8327e3fd2aa2e1ee11e44b72829a0e7f" prot="package" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>Const_PointOnObject</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a721a8bc3a605dc969e5cb8f1f8584f45" prot="public" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>Const_PointOnObject</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1aec4a30eaf9a14b161835d76afb62b902" prot="public" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>Const_PointOnObject</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a77d2c0538934e46543db556707ee23cd" prot="public" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>Const_PointOnObject</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a840bc579fe8a0ff60e2e1230578b9f40" prot="protected" virt="virtual"><scope>MR::Const_PointOnObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a09222de98ff2cd556225e7e309540621" prot="public" virt="virtual"><scope>MR::Const_PointOnObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a240b37063938d503dc38cce5f6ed967e" prot="public" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>operator MR.PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1aef1a2873654cf4f822e24d6fb7232f07" prot="public" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>point</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1af36e8c62e4264ec4b9b2e0526a4a1395" prot="public" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>zBuffer</name></member>
+      <member refid="classMR_1_1Const__PointOnObject_1a6b88197f4f920053edf032c136f982d5" prot="private" virt="non-virtual"><scope>MR::Const_PointOnObject</scope><name>~Const_PointOnObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

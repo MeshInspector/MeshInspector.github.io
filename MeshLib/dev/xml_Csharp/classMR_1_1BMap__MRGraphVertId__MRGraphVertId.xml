@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BMap__MRGraphVertId__MRGraphVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::BMap_MRGraphVertId_MRGraphVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BMap_MRGraphVertId_MRGraphVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId" prot="public" virt="non-virtual">MR.Const_BMap_MRGraphVertId_MRGraphVertId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BMap__MRGraphVertId__MRGraphVertId_1af63d7a902aca103c6bd4979cd32f9637" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId" kindref="compound">MR.Buffer_MRGraphVertId_MRGraphVertId</ref></type>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BMap_MRGraphVertId_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BMap_MRGraphVertId_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,12 +187,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10097" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10098" bodyend="10176"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId_1ada43d560af7894c03aa0cd33639d7ae6" prot="protected" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1BMap__MRGraphVertId__MRGraphVertId_1a8599bf55b59c0da4452f37c57d415679" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRGraphVertId__MRGraphVertId_1af63d7a902aca103c6bd4979cd32f9637" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>b</name></member>
       <member refid="classMR_1_1BMap__MRGraphVertId__MRGraphVertId_1a523cf0f383218bddd284a76fb5a157aa" prot="package" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>BMap_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1BMap__MRGraphVertId__MRGraphVertId_1a622f75a6dc0e9b4a3b537f2c80cb2592" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>BMap_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1BMap__MRGraphVertId__MRGraphVertId_1a94748c4768bbc83b91146bd336982f57" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>BMap_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1BMap__MRGraphVertId__MRGraphVertId_1ab42f661d0b06939a21c05ec4f8c998e8" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>BMap_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId_1aa37ccc5d9a21d76ac54a580e8a788094" prot="package" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>Const_BMap_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId_1a58dcc9caaec5ceffbbd3f35c4cf393a4" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>Const_BMap_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId_1a53ee6a3209a8fce00c09486ee915ff68" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>Const_BMap_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId_1aa9c339f50c3d99fb80b50f6fb88048bd" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>Const_BMap_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId_1ad21c73628b0f27524eed3df51499898a" prot="protected" virt="virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId_1ae84260a077498c3e7a100fb172ad8665" prot="public" virt="virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BMap__MRGraphVertId__MRGraphVertId_1a72e40143d80367b0861de9c2daff2de4" prot="public" virt="non-virtual"><scope>MR::BMap_MRGraphVertId_MRGraphVertId</scope><name>tsize</name></member>
     </listofallmembers>
   </compounddef>

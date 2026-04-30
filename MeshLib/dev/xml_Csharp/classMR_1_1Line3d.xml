@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Line3d" kind="class" language="C#" prot="public">
     <compoundname>MR::Line3d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Line3d</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Line3d" prot="public" virt="non-virtual">MR.Const_Line3d</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Line3d_1a361235a1ec326ee5c50e99cfffe7c983" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -80,7 +80,7 @@
         <name>Line3d</name>
         <qualifiedname>MR.Line3d.Line3d</qualifiedname>
         <param>
-          <type>MR.Const_Line3d</type>
+          <type><ref refid="classMR_1_1Const__Line3d" kindref="compound">MR.Const_Line3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.Line3d.assign</qualifiedname>
         <param>
-          <type>MR.Const_Line3d</type>
+          <type><ref refid="classMR_1_1Const__Line3d" kindref="compound">MR.Const_Line3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Line3d</label>
+        <link refid="classMR_1_1Const__Line3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Line3d</label>
         <link refid="classMR_1_1Line3d"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_Line3d</label>
+        <link refid="classMR_1_1Const__Line3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_d</edgelabel>
+          <edgelabel>__ref_storage_p</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,14 +213,29 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" line="1068" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLine.cs" bodystart="1069" bodyend="1139"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Line3d_1a463219dee6afed97c68f3ab98a1b0e13" prot="protected" virt="non-virtual"><scope>MR::Line3d</scope><name>__ref_storage_d</name></member>
+      <member refid="classMR_1_1Const__Line3d_1acada8a4386203ee66ccf92cae792b50d" prot="protected" virt="non-virtual"><scope>MR::Line3d</scope><name>__ref_storage_p</name></member>
       <member refid="classMR_1_1Line3d_1a53efd3e1cece17d00c0c2c69cd7f214e" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Line3d_1afc6631103c940177b8390c9330e9de5f" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Line3d_1a827d57ac27c0fe7ae5396de84ea38f2f" prot="package" virt="non-virtual"><scope>MR::Line3d</scope><name>Const_Line3d</name></member>
+      <member refid="classMR_1_1Const__Line3d_1a56caac4773ab3efad51f68ab03b57a84" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>Const_Line3d</name></member>
+      <member refid="classMR_1_1Const__Line3d_1ae5d7fc37855297ee04afc46c651b686d" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>Const_Line3d</name></member>
+      <member refid="classMR_1_1Const__Line3d_1ae718237708c3664f2278ec6b80aac257" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>Const_Line3d</name></member>
+      <member refid="classMR_1_1Const__Line3d_1ade323aa5bfdfc33e26106d2458930a7a" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>Const_Line3d</name></member>
       <member refid="classMR_1_1Line3d_1ac9898a526e69dba32de9eb8e3893dcf4" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>d</name></member>
+      <member refid="classMR_1_1Const__Line3d_1a56d6e19308d6168063164597f156f3d2" prot="protected" virt="virtual"><scope>MR::Line3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Line3d_1ab684571f99fcf561b081ea51a4e25c1f" prot="public" virt="virtual"><scope>MR::Line3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Line3d_1ae871d62ff116897f67e72239ec843b81" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>distanceSq</name></member>
       <member refid="classMR_1_1Line3d_1a9ed7ee318755b9650a8e0a856c3a7add" prot="package" virt="non-virtual"><scope>MR::Line3d</scope><name>Line3d</name></member>
       <member refid="classMR_1_1Line3d_1ac8dcf2d4ebba52b4f45a6c76b551515d" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>Line3d</name></member>
       <member refid="classMR_1_1Line3d_1a88f047bcbe50b0106ec9508e8115a12c" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>Line3d</name></member>
       <member refid="classMR_1_1Line3d_1af7d5e1867961e5f85e25c33e01350b54" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>Line3d</name></member>
       <member refid="classMR_1_1Line3d_1a0549e357dcf71f815c8bcaf02dd4d2ac" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>Line3d</name></member>
+      <member refid="classMR_1_1Const__Line3d_1ada67bab03a1d5817be9d06d37e6da939" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>normalized</name></member>
+      <member refid="classMR_1_1Const__Line3d_1ae70fa2145c1b68c85a18c41ca2eabeb0" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Line3d_1ac2e95f3eabcfd63903f4664410206f57" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>operator-</name></member>
       <member refid="classMR_1_1Line3d_1a361235a1ec326ee5c50e99cfffe7c983" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>p</name></member>
+      <member refid="classMR_1_1Const__Line3d_1aa615a00c8262c3f6b2f1b2696630899a" prot="public" virt="non-virtual"><scope>MR::Line3d</scope><name>project</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

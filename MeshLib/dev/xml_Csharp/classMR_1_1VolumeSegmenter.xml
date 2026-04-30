@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VolumeSegmenter" kind="class" language="C#" prot="public">
     <compoundname>MR::VolumeSegmenter</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VolumeSegmenter</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VolumeSegmenter" prot="public" virt="non-virtual">MR.Const_VolumeSegmenter</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VolumeSegmenter_1ae43dc152ee4f41859d0384993ed0473e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>VolumeSegmenter</name>
         <qualifiedname>MR.VolumeSegmenter.VolumeSegmenter</qualifiedname>
         <param>
-          <type>Const_VolumeSegmenter</type>
+          <type><ref refid="classMR_1_1Const__VolumeSegmenter" kindref="compound">Const_VolumeSegmenter</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,7 +92,7 @@
         <name>VolumeSegmenter</name>
         <qualifiedname>MR.VolumeSegmenter.VolumeSegmenter</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>volume</declname>
         </param>
         <briefdescription>
@@ -111,11 +111,11 @@
         <name>addPathSeeds</name>
         <qualifiedname>MR.VolumeSegmenter.addPathSeeds</qualifiedname>
         <param>
-          <type>MR.Const_VoxelMetricParameters</type>
+          <type><ref refid="classMR_1_1Const__VoxelMetricParameters" kindref="compound">MR.Const_VoxelMetricParameters</ref></type>
           <declname>metricParameters</declname>
         </param>
         <param>
-          <type>MR.VolumeSegmenter.SeedType</type>
+          <type><ref refid="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3c" kindref="member">MR.VolumeSegmenter.SeedType</ref></type>
           <declname>seedType</declname>
         </param>
         <param>
@@ -143,7 +143,7 @@
           <declname>seeds</declname>
         </param>
         <param>
-          <type>MR.VolumeSegmenter.SeedType</type>
+          <type><ref refid="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3c" kindref="member">MR.VolumeSegmenter.SeedType</ref></type>
           <declname>seedType</declname>
         </param>
         <briefdescription>
@@ -166,7 +166,7 @@
           <declname>seeds</declname>
         </param>
         <param>
-          <type>MR.VolumeSegmenter.SeedType</type>
+          <type><ref refid="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3c" kindref="member">MR.VolumeSegmenter.SeedType</ref></type>
           <declname>seedType</declname>
         </param>
         <briefdescription>
@@ -217,7 +217,7 @@
         <name>operator VolumeSegmenter</name>
         <qualifiedname>MR.VolumeSegmenter.operator VolumeSegmenter</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>volume</declname>
         </param>
         <briefdescription>
@@ -248,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VolumeSegmenter</label>
+        <link refid="classMR_1_1Const__VolumeSegmenter"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,6 +270,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VolumeSegmenter</label>
+        <link refid="classMR_1_1Const__VolumeSegmenter"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -285,7 +287,20 @@
     <listofallmembers>
       <member refid="classMR_1_1VolumeSegmenter_1adc0bd50d7fa7c1bd55a15e014bd98633" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>addPathSeeds</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1a52e42c1f2611d2737f4df69b42a66ed0" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>addSeeds</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a0d6c8f9b6017a270f748c90f80826ca8" prot="package" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a56233c7958c6e4ff35e282244711fb8d" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1abbcdb9ca90355528a0468672b0eb5f4e" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a78aedbd3f46f18865305e33bad218f69" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1ad1387100337aa1897a3cf7027590c836" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>Const_VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1abc0c0cbfadd66f72be166ad669fac922" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>createMeshFromSegmentation</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1af97f7445ff34004c81ce5f5a71ddc831" prot="protected" virt="virtual"><scope>MR::VolumeSegmenter</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a4f466084334972d85ef384a940920a1b" prot="public" virt="virtual"><scope>MR::VolumeSegmenter</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1aefa08fb6291705b5849ad81364a8bfa0" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>getMinVoxel</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a0465dabdd71135131941d16f900f2245" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>getSeeds</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a66b882e9668a4efaf81919c677d9c3d3" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>getVolumePartDimensions</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a92b915baaa2c0552f04dbe41b13c2e7e" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>operator Const_VolumeSegmenter</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1aca5e093ace0c9beeeb2ac827ed76d8df" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>operator VolumeSegmenter</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmenter_1a3d7ea7e88a3dd56e2960d0276b18ed3c" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>SeedType</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1a04d16dcdfb30aa222e40e8bb8a4e5b0e" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>segmentVolume</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1a1a656944440414b0aab1aad3ca1aa741" prot="public" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>setSeeds</name></member>
       <member refid="classMR_1_1VolumeSegmenter_1ae43dc152ee4f41859d0384993ed0473e" prot="package" virt="non-virtual"><scope>MR::VolumeSegmenter</scope><name>VolumeSegmenter</name></member>

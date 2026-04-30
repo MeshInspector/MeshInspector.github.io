@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MetricToAStarPenalty" kind="class" language="C#" prot="public">
     <compoundname>MR::MetricToAStarPenalty</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MetricToAStarPenalty</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MetricToAStarPenalty" prot="public" virt="non-virtual">MR.Const_MetricToAStarPenalty</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MetricToAStarPenalty_1a6c00066f5fe1a710fbd2c0eb964871c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertCoords</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
         <definition>new unsafe MR.? Const_VertCoords MR.MetricToAStarPenalty.points</definition>
         <argsstring></argsstring>
         <name>points</name>
@@ -80,7 +80,7 @@
         <name>MetricToAStarPenalty</name>
         <qualifiedname>MR.MetricToAStarPenalty.MetricToAStarPenalty</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords?</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
           <declname>points</declname>
         </param>
         <param>
@@ -103,7 +103,7 @@
         <name>MetricToAStarPenalty</name>
         <qualifiedname>MR.MetricToAStarPenalty.MetricToAStarPenalty</qualifiedname>
         <param>
-          <type>MR.Const_MetricToAStarPenalty</type>
+          <type><ref refid="classMR_1_1Const__MetricToAStarPenalty" kindref="compound">MR.Const_MetricToAStarPenalty</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.MetricToAStarPenalty.assign</qualifiedname>
         <param>
-          <type>MR.Const_MetricToAStarPenalty</type>
+          <type><ref refid="classMR_1_1Const__MetricToAStarPenalty" kindref="compound">MR.Const_MetricToAStarPenalty</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MetricToAStarPenalty</label>
+        <link refid="classMR_1_1Const__MetricToAStarPenalty"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MetricToAStarPenalty</label>
         <link refid="classMR_1_1MetricToAStarPenalty"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_MetricToAStarPenalty</label>
+        <link refid="classMR_1_1Const__MetricToAStarPenalty"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_points</edgelabel>
+          <edgelabel>__ref_storage_target</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,7 +213,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1595" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1596" bodyend="1671"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1acc20dc4b6120920a4157488482c0a5d0" prot="protected" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>__ptr_storage_points</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a04858f5470ceb49d41da5d34b5c469fe" prot="protected" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>__ref_storage_target</name></member>
       <member refid="classMR_1_1MetricToAStarPenalty_1aeb354313a616b6d16b23c7b409051852" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1acef9039f69981994dac07f2e8a378903" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a768d55e8f8f18977928694a448beb141" prot="package" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a51990eacd7961f703d8e0f6b03c190b0" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1ab56e863910dced01a5b7ccf17c0e745c" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a4463b763006a35451f059364c66fa594" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a6e48618f3fffa5d322678c14de6c2707" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a902055d534f2cd761486d1aa049cdf74" prot="protected" virt="virtual"><scope>MR::MetricToAStarPenalty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1ab352ee1dbc977e526ec867655424779e" prot="public" virt="virtual"><scope>MR::MetricToAStarPenalty</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MetricToAStarPenalty_1acdce4664f80e953b04dcfb7fe07f5b77" prot="package" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>MetricToAStarPenalty</name></member>
       <member refid="classMR_1_1MetricToAStarPenalty_1af3ba5376cee8adf2478cca78a3dff7c3" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>MetricToAStarPenalty</name></member>
       <member refid="classMR_1_1MetricToAStarPenalty_1ae4202eee3295d05f0a24456879473567" prot="public" virt="non-virtual"><scope>MR::MetricToAStarPenalty</scope><name>MetricToAStarPenalty</name></member>

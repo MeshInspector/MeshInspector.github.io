@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRAABBTreePointsNode_MRNodeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRAABBTreePointsNode_MRNodeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId" prot="public" virt="non-virtual">MR.Const_Vector_MRAABBTreePointsNode_MRNodeId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a1e5c18c21628af3ce76782cb96fce744" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -21,13 +21,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24133" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24133" bodyend="24133"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ae68683473030666d07f82d7f4bf36518" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe new MR.AABBTreePoints.Node</type>
+        <type>unsafe new <ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref></type>
         <definition>unsafe new MR.AABBTreePoints.Node MR.Vector_MRAABBTreePointsNode_MRNodeId.this[MR.NodeId i]</definition>
         <argsstring></argsstring>
         <name>this[MR.NodeId i]</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.this[MR.NodeId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -38,7 +38,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1acaa2a077890a99a5489d2b5855b617d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>new IEnumerator&lt; MR.AABBTreePoints.Node &gt;</type>
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref> &gt;</type>
         <definition>new IEnumerator&lt; MR.AABBTreePoints.Node &gt; MR.Vector_MRAABBTreePointsNode_MRNodeId.GetEnumerator</definition>
         <argsstring>()</argsstring>
         <name>GetEnumerator</name>
@@ -77,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,11 +92,11 @@
         <name>Vector_MRAABBTreePointsNode_MRNodeId</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
         <param>
-          <type>Const_Vector_MRAABBTreePointsNode_MRNodeId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId" kindref="compound">Const_Vector_MRAABBTreePointsNode_MRNodeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -153,11 +153,11 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.AABBTreePoints.Const_Node</type>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ac5322a904b63bccb5aa2873733e92ec4" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ac5322a904b63bccb5aa2873733e92ec4" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +229,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a358b8a6e2d10f604728eae1b740a25fd" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a358b8a6e2d10f604728eae1b740a25fd" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -248,11 +248,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.AABBTreePoints.Const_Node</type>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a358b8a6e2d10f604728eae1b740a25fd" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a358b8a6e2d10f604728eae1b740a25fd" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -271,7 +271,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a6aa27f06fb9708f386db37a7c79056ce" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a6aa27f06fb9708f386db37a7c79056ce" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -290,7 +290,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a4725c7143983cb55c4f684703addd2c3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a4725c7143983cb55c4f684703addd2c3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -309,11 +309,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.AABBTreePoints.Const_Node</type>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a4725c7143983cb55c4f684703addd2c3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a4725c7143983cb55c4f684703addd2c3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -336,11 +336,11 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.AABBTreePoints.Const_Node</type>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa1311ac96012d8076b5f4769f78e5b7e" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa1311ac96012d8076b5f4769f78e5b7e" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -359,11 +359,11 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.AABBTreePoints.Const_Node</type>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa1311ac96012d8076b5f4769f78e5b7e" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa1311ac96012d8076b5f4769f78e5b7e" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -372,7 +372,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24342" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24342" bodyend="24347"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a02634bc9f121f1aa982963bf15ddff89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.AABBTreePoints.Node</type>
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref></type>
         <definition>unsafe MR.AABBTreePoints.Node MR.Vector_MRAABBTreePointsNode_MRNodeId.autoResizeAt</definition>
         <argsstring>(MR.NodeId i)</argsstring>
         <name>autoResizeAt</name>
@@ -382,7 +382,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a02634bc9f121f1aa982963bf15ddff89" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a02634bc9f121f1aa982963bf15ddff89" kindref="member">autoResizeAt</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -397,11 +397,11 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.pushBack</qualifiedname>
         <param>
-          <type>MR.AABBTreePoints.Const_Node</type>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -416,11 +416,11 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.pushBack</qualifiedname>
         <param>
-          <type>MR.Misc._Moved&lt; MR.AABBTreePoints.Node &gt;</type>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref> &gt;</type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -435,7 +435,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -444,13 +444,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24385" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24385" bodyend="24390"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a50a0def2c7510c91097bdb8d30765e39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.AABBTreePoints.Node</type>
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref></type>
         <definition>unsafe MR.AABBTreePoints.Node MR.Vector_MRAABBTreePointsNode_MRNodeId.emplaceBack</definition>
         <argsstring>()</argsstring>
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -459,13 +459,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24395" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24395" bodyend="24400"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1abf5a87a518e630f83104e8a0d790ee7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.AABBTreePoints.Node</type>
+        <type>unsafe new <ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref></type>
         <definition>unsafe new MR.AABBTreePoints.Node MR.Vector_MRAABBTreePointsNode_MRNodeId.front</definition>
         <argsstring>()</argsstring>
         <name>front</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1abf5a87a518e630f83104e8a0d790ee7d" kindref="member">front</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1abf5a87a518e630f83104e8a0d790ee7d" kindref="member">front</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -474,13 +474,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24405" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24405" bodyend="24413"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a7394249f98ae11c9ceb69a2c25633413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.AABBTreePoints.Node</type>
+        <type>unsafe new <ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref></type>
         <definition>unsafe new MR.AABBTreePoints.Node MR.Vector_MRAABBTreePointsNode_MRNodeId.back</definition>
         <argsstring>()</argsstring>
         <name>back</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a7394249f98ae11c9ceb69a2c25633413" kindref="member">back</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a7394249f98ae11c9ceb69a2c25633413" kindref="member">back</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -495,7 +495,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a0f6a8292517f3834f5d9c92e94724bee" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a0f6a8292517f3834f5d9c92e94724bee" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -514,7 +514,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1af022db9b79d52d0b4ec10278cf018fb6" kindref="member">swap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1af022db9b79d52d0b4ec10278cf018fb6" kindref="member">swap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -575,7 +575,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -601,7 +601,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;MR::AABBTreePoints::Node, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId</label>
+        <link refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId</label>
+        <link refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa1311ac96012d8076b5f4769f78e5b7e" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a1e62cd95215cc5d9b8deb875a789f2a2" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a7394249f98ae11c9ceb69a2c25633413" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9ca90a1fc7c9f23eab63fe5cffabe4bc" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9dd71b732b13d1c5c583932dc9e01f13" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a766415540f0834a8d69484621a1e2a89" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ac5322a904b63bccb5aa2873733e92ec4" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a67970aeb2bd4c2b59b5f3742d33be580" prot="package" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a4fbb9334f12f37642f986e4ed9bd533a" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ae62d8ca26168c5ef37d0f69ec6aace9d" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a6262ab025b1ed4426e572bbb2f67575d" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a139de44f07e89951a8f6c954410e231b" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ad020850d60047fa88d1f97fea91c8b90" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1acbbf39b83a157ba88b9af8140eecc098" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ac217198c76466767194c838561d48642" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a0f6a8292517f3834f5d9c92e94724bee" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a3fe9aa8e64a3343130d3a8ee9a4d829f" prot="protected" virt="virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1aa56ccff44168e1a8e8f5850b00557d16" prot="public" virt="virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a50a0def2c7510c91097bdb8d30765e39" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ac45a2eb803766b349f9e2ffef59260b4" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a14af90477da8f7c01e715e394968ad5c" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1abf5a87a518e630f83104e8a0d790ee7d" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1acaa2a077890a99a5489d2b5855b617d4" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ad316adf5d9a35f4016f54fd41e0ac722" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a115d918ce2a1e46fcacb8a70af5a2e22" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1abc5ec2d42637e64be1a80e5ccff5b4d4" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>operator Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ad76a2f8e07af6ddbf72a728a37c30c62" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>operator Vector_MRAABBTreePointsNode_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a654c4edbe40e794a896368d3dcaeff28" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ab5e112ac0c1a07e4784d941c5e5a0417" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>pushBack</name></member>
@@ -685,6 +704,7 @@
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a3dd0565ea000877d6042079dcb5227c5" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a4725c7143983cb55c4f684703addd2c3" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a66e49184e346ec12d5c435735ba5d30f" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1aa538ef073e18fab52ea6ac8ee303c08d" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1af022db9b79d52d0b4ec10278cf018fb6" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ae68683473030666d07f82d7f4bf36518" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>this[MR.NodeId i]</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a1e5c18c21628af3ce76782cb96fce744" prot="public" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>vec</name></member>

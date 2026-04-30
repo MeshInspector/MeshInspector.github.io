@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshDiff" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshDiff</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshDiff</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshDiff" prot="public" virt="non-virtual">MR.Const_MeshDiff</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MeshDiff_1a69cc6359b400f72291a4b68c1a53bd25" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>MeshDiff</name>
         <qualifiedname>MR.MeshDiff.MeshDiff</qualifiedname>
         <param>
-          <type>Const_MeshDiff</type>
+          <type><ref refid="classMR_1_1Const__MeshDiff" kindref="compound">Const_MeshDiff</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -107,11 +107,11 @@
         <name>MeshDiff</name>
         <qualifiedname>MR.MeshDiff.MeshDiff</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>to</declname>
         </param>
         <briefdescription>
@@ -177,6 +177,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshDiff</label>
+        <link refid="classMR_1_1Const__MeshDiff"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -198,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshDiff</label>
+        <link refid="classMR_1_1Const__MeshDiff"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -212,8 +214,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" line="104" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDiff.cs" bodystart="105" bodyend="175"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshDiff_1a5c5baf8e4a9cd1f8e48f0b4341d4ec10" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>any</name></member>
       <member refid="classMR_1_1MeshDiff_1a81527234b7da2d1b541ba756bf43881a" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>applyAndSwap</name></member>
       <member refid="classMR_1_1MeshDiff_1a2969ef471c11d299873c5859e13824c2" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1a9a7b2cefe35310599497cdb65fcc3830" prot="package" virt="non-virtual"><scope>MR::MeshDiff</scope><name>Const_MeshDiff</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1ae24894350fd82ae93bb8aefda0c3a93c" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>Const_MeshDiff</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1aebe920eaa104029be725c045f548e2f7" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>Const_MeshDiff</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1ae3afd89b2286082d2589ab3b123f3805" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>Const_MeshDiff</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1a7c4f850499bf73bce8999a754ba45e8c" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>Const_MeshDiff</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1a75c08afa60c817bb25988e337052fd0a" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>Const_MeshDiff</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1a8176028f27679647a1074d08e1f7b9dc" prot="protected" virt="virtual"><scope>MR::MeshDiff</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1a7bec2731898fa42b13e2d134b347a06f" prot="public" virt="virtual"><scope>MR::MeshDiff</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshDiff_1abeed933f54b1f2008aa8180f37024744" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1MeshDiff_1a69cc6359b400f72291a4b68c1a53bd25" prot="package" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
       <member refid="classMR_1_1MeshDiff_1a4f205e4e1fd57fb2dd050915d9d607da" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>
       <member refid="classMR_1_1MeshDiff_1aaf6526c557c92b3f5b3e9fc5bce095f1" prot="public" virt="non-virtual"><scope>MR::MeshDiff</scope><name>MeshDiff</name></member>

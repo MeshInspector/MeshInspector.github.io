@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ReduceTotalAngleParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ReduceTotalAngleParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ReduceTotalAngleParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ReduceTotalAngleParams" prot="public" virt="non-virtual">MR.Const_ReduceTotalAngleParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1a94c6e31579bf0c669014716b940be6e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -50,7 +50,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="219" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="219" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1a5d41804a8d8e6624a94e518d6f041943" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_FaceBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
         <definition>new unsafe MR.? Const_FaceBitSet MR.ReduceTotalAngleParams.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -65,7 +65,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="224" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="225" bodyend="234"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1ae109ddf97cb06466a3f3e9f14f4b4668" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_UndirectedEdgeBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">Const_UndirectedEdgeBitSet</ref></type>
         <definition>new unsafe MR.? Const_UndirectedEdgeBitSet MR.ReduceTotalAngleParams.notFlippable</definition>
         <argsstring></argsstring>
         <name>notFlippable</name>
@@ -80,7 +80,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="239" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="240" bodyend="249"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ReduceTotalAngleParams_1afe71b8d78ae7d29647b2ff5c9f8c67f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.ReduceTotalAngleParams.vertRegion</definition>
         <argsstring></argsstring>
         <name>vertRegion</name>
@@ -154,15 +154,15 @@
           <declname>factorDelone</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>notFlippable</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>vertRegion</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>ReduceTotalAngleParams</name>
         <qualifiedname>MR.ReduceTotalAngleParams.ReduceTotalAngleParams</qualifiedname>
         <param>
-          <type>MR.Const_ReduceTotalAngleParams</type>
+          <type><ref refid="classMR_1_1Const__ReduceTotalAngleParams" kindref="compound">MR.Const_ReduceTotalAngleParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -219,7 +219,7 @@
         <name>assign</name>
         <qualifiedname>MR.ReduceTotalAngleParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_ReduceTotalAngleParams</type>
+          <type><ref refid="classMR_1_1Const__ReduceTotalAngleParams" kindref="compound">MR.Const_ReduceTotalAngleParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ReduceTotalAngleParams</label>
+        <link refid="classMR_1_1Const__ReduceTotalAngleParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ReduceTotalAngleParams</label>
         <link refid="classMR_1_1ReduceTotalAngleParams"/>
@@ -267,9 +272,15 @@
       </node>
       <node id="2">
         <label>MR.Const_ReduceTotalAngleParams</label>
+        <link refid="classMR_1_1Const__ReduceTotalAngleParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_vertRegion</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -281,8 +292,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" line="200" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTotalAngle.cs" bodystart="201" bodyend="328"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1a7da5241150d3aebaaa4c8d76da9acf5a" prot="protected" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1a6b6825d750b66787b57d9560cd3c5d82" prot="protected" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1ad0ad204ad905a5d607b06360c56acdc6" prot="protected" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>__ptr_storage_vertRegion</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1ac61c406a3c6ef41f8a82fa54cd12fb3a" prot="protected" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>__ref_storage_criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1a1733e11743aedc7fb3c2477914d2fcaa" prot="protected" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>__ref_storage_factorDelone</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1ac6545424c41b395c1d925a258260ebdf" prot="protected" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>__ref_storage_maxAngleChange</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1a0d3717c4e63362acdbe4a9544bca2119" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1a6d7afde7ec830b639a80b846991f01ba" prot="package" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>Const_ReduceTotalAngleParams</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1a7a8cd843a3f8982fe6e43151a8678b53" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>Const_ReduceTotalAngleParams</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1aeb9754b17031bc28f23f3e96fb3c397d" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>Const_ReduceTotalAngleParams</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1a7951cb5f027ddd4174cae6b9a952713b" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>Const_ReduceTotalAngleParams</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1a469187699c8a3543e13819215e49eb0b" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>Const_ReduceTotalAngleParams</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1acce5d68435309024c53144954dc7336a" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1a9470db635ec0c810c4c9ed53a140a066" prot="protected" virt="virtual"><scope>MR::ReduceTotalAngleParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ReduceTotalAngleParams_1ad9c8a9e85f7a3c211254f3cc03494594" prot="public" virt="virtual"><scope>MR::ReduceTotalAngleParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1aa4fbedc47bc492a14531c4bc1635e8d8" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>factorDelone</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1a94c6e31579bf0c669014716b940be6e0" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>maxAngleChange</name></member>
       <member refid="classMR_1_1ReduceTotalAngleParams_1ae109ddf97cb06466a3f3e9f14f4b4668" prot="public" virt="non-virtual"><scope>MR::ReduceTotalAngleParams</scope><name>notFlippable</name></member>

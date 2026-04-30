@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeshIntersectionResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeshIntersectionResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshIntersectionResult" prot="public" virt="non-virtual">MR.MeshIntersectionResult</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MeshIntersectionResult_1aef508d49dbd944465b2c73ddb7d63c35" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+        <definition>unsafe MR.Const_PointOnFace MR.Const_MeshIntersectionResult.proj</definition>
+        <argsstring></argsstring>
+        <name>proj</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.proj</qualifiedname>
+        <briefdescription>
+<para>stores intersected face and global coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="31" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshIntersectionResult_1a658c47c6eecc0b0cb0ae5e33baf04ac9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+        <definition>unsafe MR.Const_MeshTriPoint MR.Const_MeshIntersectionResult.mtp</definition>
+        <argsstring></argsstring>
+        <name>mtp</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.mtp</qualifiedname>
+        <briefdescription>
+<para>stores barycentric coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="36" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshIntersectionResult_1ad40c8fee90a9f32fd9ec593e67105920" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MeshIntersectionResult.distanceAlongLine</definition>
+        <argsstring></argsstring>
+        <name>distanceAlongLine</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.distanceAlongLine</qualifiedname>
+        <briefdescription>
+<para>stores the distance from ray origin to the intersection point in direction units </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="41" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MeshIntersectionResult_1a842167ec8cd53fa858941130256059eb" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MeshIntersectionResult.__ref_storage_distanceAlongLine</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_distanceAlongLine</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.__ref_storage_distanceAlongLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="42" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1ad1204266ee7d8967baa97bf75ed0ece5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MeshIntersectionResult.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1a2fcffcc7f7b801e0e2e109f24e4dcf56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MeshIntersectionResult.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1a8afab89aca0b9d71998e2ee345b6a8de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MeshIntersectionResult</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="83" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="83" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1a7c8603f7d3671b1cbccabd76cef3f186" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</definition>
+        <argsstring>(MR.Const_PointOnFace proj, MR.Const_MeshTriPoint mtp, float distanceAlongLine)</argsstring>
+        <name>Const_MeshIntersectionResult</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+          <declname>proj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>mtp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distanceAlongLine</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MR.MeshIntersectionResult</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="94" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="94" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1a171bf2c7069932ca4fc99473035ecaab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</definition>
+        <argsstring>(MR.Const_MeshIntersectionResult _other)</argsstring>
+        <name>Const_MeshIntersectionResult</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshIntersectionResult" kindref="compound">MR.Const_MeshIntersectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshIntersectionResult_1aa60d379fecec6f15aa6155f210070548" kindref="member">MR.MeshIntersectionResult.MeshIntersectionResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="107" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="107" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1a8e9bcc27880423beded46e243038e922" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</definition>
+        <argsstring>(MeshIntersectionResult _other)</argsstring>
+        <name>Const_MeshIntersectionResult</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshIntersectionResult_1aa60d379fecec6f15aa6155f210070548" kindref="member">MR.MeshIntersectionResult.MeshIntersectionResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="119" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1a20804879866d130a2edc3dccf68ab337" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshIntersectionResult.~Const_MeshIntersectionResult</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MeshIntersectionResult</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.~Const_MeshIntersectionResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1ad9db76d60c7ede388dc46800c293dab9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MeshIntersectionResult</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.Const_MeshIntersectionResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="72" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="72" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshIntersectionResult_1a858b019d158385d3a2e5721512557062" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_MeshIntersectionResult.operator bool</definition>
+        <argsstring>(MR.Const_MeshIntersectionResult _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_MeshIntersectionResult.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshIntersectionResult" kindref="compound">MR.Const_MeshIntersectionResult</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>check for validity Generated from conversion operator <computeroutput>MR::MeshIntersectionResult::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="125" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="125" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MR.MeshIntersectionResult</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MultiMeshIntersectionResult" kindref="compound">MR.MultiMeshIntersectionResult</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeshIntersectionResult</label>
+        <link refid="classMR_1_1Const__MeshIntersectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MeshIntersectionResult</label>
+        <link refid="classMR_1_1MeshIntersectionResult"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_MeshIntersectionResult</label>
+        <link refid="classMR_1_1Const__MeshIntersectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="11" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a842167ec8cd53fa858941130256059eb" prot="protected" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>__ref_storage_distanceAlongLine</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1ad9db76d60c7ede388dc46800c293dab9" prot="package" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a8afab89aca0b9d71998e2ee345b6a8de" prot="public" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a7c8603f7d3671b1cbccabd76cef3f186" prot="public" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a171bf2c7069932ca4fc99473035ecaab" prot="public" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a8e9bcc27880423beded46e243038e922" prot="public" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1ad1204266ee7d8967baa97bf75ed0ece5" prot="protected" virt="virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a2fcffcc7f7b801e0e2e109f24e4dcf56" prot="public" virt="virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1ad40c8fee90a9f32fd9ec593e67105920" prot="public" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>distanceAlongLine</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a658c47c6eecc0b0cb0ae5e33baf04ac9" prot="public" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>mtp</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a858b019d158385d3a2e5721512557062" prot="public" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1aef508d49dbd944465b2c73ddb7d63c35" prot="public" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>proj</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a20804879866d130a2edc3dccf68ab337" prot="private" virt="non-virtual"><scope>MR::Const_MeshIntersectionResult</scope><name>~Const_MeshIntersectionResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

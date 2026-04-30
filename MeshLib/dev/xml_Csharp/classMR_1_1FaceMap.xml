@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceMap" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FaceMap" prot="public" virt="non-virtual">MR.Const_FaceMap</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FaceMap_1a15e35732541e9c6ff240fc56023a06e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>FaceMap</name>
         <qualifiedname>MR.FaceMap.FaceMap</qualifiedname>
         <param>
-          <type>Const_FaceMap</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">Const_FaceMap</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceMap</label>
+        <link refid="classMR_1_1Const__FaceMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceMap</label>
+        <link refid="classMR_1_1Const__FaceMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,9 +705,26 @@
       <member refid="classMR_1_1FaceMap_1a9584e8288709877011f08a4d4b06debf" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1FaceMap_1aab3451c9f1a0962314ad05af47610ade" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1FaceMap_1ac083eb7dd6053de665fc2de240007a33" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a60f2f79b77aafba2ec24798ed8f9b685" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a21edbe76fb59538119a2ac7b3fbf9ad4" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ab6b2770d2b4ab8b04cfa61f0f90b68c5" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1FaceMap_1a53a9c4f072c7758b4b493b4e5ccf6b71" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1abd8b2cb3ca87188ae6297007e5c8c8db" prot="package" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a644f471c91221107bb150071c24985c8" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a1612cdf9fe3ddef02462daa81424b593" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1afc185effd9c7eb33b15d09c605dfb269" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a7fb3cf9e38bc050497c2476fe8ac7563" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a9cbdf6cd38573b36b28ae3085f2d835f" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1af9b894703c6b4f82d24e430126f21fc8" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a83954d181b04fd92a5ffc9bd3b394cef" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a6d617c5184a6a30b3471936c0e51224c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1abb5074d3e609821d18a28f56cb2218a6" prot="protected" virt="virtual"><scope>MR::FaceMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1adaeafcbc17a24e8386941262dc361bcf" prot="public" virt="virtual"><scope>MR::FaceMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FaceMap_1a093fc4e591393d5b823c623b7490eab5" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a4009b06d165dbc5ca7a29bfa842e934c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a0f639ccac663b02dce05e1817789f086" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ab34ed5ff9d22e013b1bb49203784ce51" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a2830861fddfd88f40d6694fe1b902d44" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Equals</name></member>
       <member refid="classMR_1_1FaceMap_1a5af00c1e48dc847ab4dcef6062f4faed" prot="package" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1ae2c21331b4562f75b14feeca9cb4ca10" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
@@ -717,7 +736,11 @@
       <member refid="classMR_1_1FaceMap_1a5881716a99854db1af85c349bdadc23f" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>front</name></member>
       <member refid="classMR_1_1FaceMap_1a9535c204484b8e19927f5821fb3cac81" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1FaceMap_1a779fa103f7c5b7041a8329b9693faaaa" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a6ab425157706fe6b4b520cfc2b0f36b0" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a24eee0052d14f1f1f1d42f0a3e9660b3" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator Const_FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1ae15e6d3092529b1097b8d2e5ce6b5afb" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a17953370b2e3c17de64e4165420423f7" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ac18d7e9a389e5eb320a2c50879b4040e" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1FaceMap_1abdc7722e4456670870c948ab9cdf566c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>popBack</name></member>
       <member refid="classMR_1_1FaceMap_1aa4c3dcea5fd1ceec105774266ca510e4" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>pushBack</name></member>
       <member refid="classMR_1_1FaceMap_1abadf19f58611f4558ba756bd64a8ee7a" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>pushBack</name></member>
@@ -727,6 +750,7 @@
       <member refid="classMR_1_1FaceMap_1a15be41511cd01520322bd37de5b2d242" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1FaceMap_1a06e33eaddbdbc0d243d0ac60754f900e" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1FaceMap_1a4b55052057445dedd79143e766ee2fcb" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a360d49c4a4995733d1381be525557324" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>size</name></member>
       <member refid="classMR_1_1FaceMap_1a438351715fa0a72b2ee1075281244fe2" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>swap</name></member>
       <member refid="classMR_1_1FaceMap_1af4e2ca05f25592cd71eab3fe82b01e25" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1FaceMap_1a15e35732541e9c6ff240fc56023a06e6" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>vec</name></member>

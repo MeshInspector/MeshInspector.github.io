@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EndMillCutter" kind="class" language="C#" prot="public">
     <compoundname>MR::EndMillCutter</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EndMillCutter</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EndMillCutter" prot="public" virt="non-virtual">MR.Const_EndMillCutter</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1EndMillCutter_1a0f55ee8934569f4a625f5c55c8a7daaa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.EndMillCutter.Type</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__EndMillCutter_1a7ae3d32b6b5049de7b79bc0a42e1b398" kindref="member">MR.EndMillCutter.Type</ref></type>
         <definition>new unsafe ref MR.EndMillCutter.Type MR.EndMillCutter.type</definition>
         <argsstring></argsstring>
         <name>type</name>
@@ -111,7 +111,7 @@
         <name>EndMillCutter</name>
         <qualifiedname>MR.EndMillCutter.EndMillCutter</qualifiedname>
         <param>
-          <type>MR.EndMillCutter.Type</type>
+          <type><ref refid="classMR_1_1Const__EndMillCutter_1a7ae3d32b6b5049de7b79bc0a42e1b398" kindref="member">MR.EndMillCutter.Type</ref></type>
           <declname>type</declname>
         </param>
         <param>
@@ -142,7 +142,7 @@
         <name>EndMillCutter</name>
         <qualifiedname>MR.EndMillCutter.EndMillCutter</qualifiedname>
         <param>
-          <type>MR.Const_EndMillCutter</type>
+          <type><ref refid="classMR_1_1Const__EndMillCutter" kindref="compound">MR.Const_EndMillCutter</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -180,7 +180,7 @@
         <name>assign</name>
         <qualifiedname>MR.EndMillCutter.assign</qualifiedname>
         <param>
-          <type>MR.Const_EndMillCutter</type>
+          <type><ref refid="classMR_1_1Const__EndMillCutter" kindref="compound">MR.Const_EndMillCutter</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -207,6 +207,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EndMillCutter</label>
+        <link refid="classMR_1_1Const__EndMillCutter"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.EndMillCutter</label>
         <link refid="classMR_1_1EndMillCutter"/>
@@ -228,9 +233,13 @@
       </node>
       <node id="2">
         <label>MR.Const_EndMillCutter</label>
+        <link refid="classMR_1_1Const__EndMillCutter"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_type</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -242,15 +251,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="159" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="160" bodyend="237"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__EndMillCutter_1ad19000c2e872f0225208d1199209ac91" prot="protected" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>__ref_storage_cornerRadius</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1a0d87af6298db507007ad7a12642d6062" prot="protected" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>__ref_storage_cuttingAngle</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1ab781b011aa3fac727002a84141dcabef" prot="protected" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>__ref_storage_endDiameter</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1a6d9f0b9af1a833f33c492d51047732de" prot="protected" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>__ref_storage_type</name></member>
       <member refid="classMR_1_1EndMillCutter_1ad250715df37020cc93635a37eb8ce8c9" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1a897c0cde787ca8c218b58f909ef998e2" prot="package" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Const_EndMillCutter</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1abd3be45b833bb128aa6c2962dc827843" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Const_EndMillCutter</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1a53e7026b1ab89910bad7a4c9c04522c2" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Const_EndMillCutter</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1a1696791260e818be3d2b5d0d0eb52533" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Const_EndMillCutter</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1a29e83218f967f0e4a2a1adedd82c230a" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Const_EndMillCutter</name></member>
       <member refid="classMR_1_1EndMillCutter_1a38930705af7bd082649093fcbb879993" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>cornerRadius</name></member>
       <member refid="classMR_1_1EndMillCutter_1ae8bed9c7b17f6dd36739f6e26c497003" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>cuttingAngle</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1a780edb0142409cc5245caf9c67cacef4" prot="protected" virt="virtual"><scope>MR::EndMillCutter</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1ad10e2024e51f24d6186a5e11647d4da1" prot="public" virt="virtual"><scope>MR::EndMillCutter</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EndMillCutter_1aed5a92ed836230f436b83cc9fadf3ff7" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>endDiameter</name></member>
       <member refid="classMR_1_1EndMillCutter_1a6fbb3caa13674867c07df4830a708cde" prot="package" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>EndMillCutter</name></member>
       <member refid="classMR_1_1EndMillCutter_1a22dcb599a092b8e581628d6319418ad2" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>EndMillCutter</name></member>
       <member refid="classMR_1_1EndMillCutter_1a6206e156a5ae23e146a92dd7dab405d8" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>EndMillCutter</name></member>
       <member refid="classMR_1_1EndMillCutter_1afcf70fe34821d5192a11c08655a56041" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>EndMillCutter</name></member>
       <member refid="classMR_1_1EndMillCutter_1a2ae7df5f8c116d7d27c6be74d2fc8ee7" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>EndMillCutter</name></member>
+      <member refid="classMR_1_1Const__EndMillCutter_1a7ae3d32b6b5049de7b79bc0a42e1b398" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Type</name></member>
       <member refid="classMR_1_1EndMillCutter_1a0f55ee8934569f4a625f5c55c8a7daaa" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>

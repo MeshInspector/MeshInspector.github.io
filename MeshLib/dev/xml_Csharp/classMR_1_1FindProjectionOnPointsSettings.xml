@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FindProjectionOnPointsSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::FindProjectionOnPointsSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindProjectionOnPointsSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FindProjectionOnPointsSettings" prot="public" virt="non-virtual">MR.Const_FindProjectionOnPointsSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1abef84fb0f410d26d99d8a886d1c0a0b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_BitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__BitSet" kindref="compound">Const_BitSet</ref></type>
         <definition>new unsafe MR.? Const_BitSet MR.FindProjectionOnPointsSettings.valid</definition>
         <argsstring></argsstring>
         <name>valid</name>
@@ -142,7 +142,7 @@
         <name>FindProjectionOnPointsSettings</name>
         <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
         <param>
-          <type>MR.Const_BitSet?</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref>?</type>
           <declname>valid</declname>
         </param>
         <param>
@@ -200,7 +200,7 @@
         <name>FindProjectionOnPointsSettings</name>
         <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
         <param>
-          <type>Const_FindProjectionOnPointsSettings</type>
+          <type><ref refid="classMR_1_1Const__FindProjectionOnPointsSettings" kindref="compound">Const_FindProjectionOnPointsSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -252,7 +252,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>settings for IPointsProjector::findProjections Generated from class <computeroutput><ref refid="classMR_1_1FindProjectionOnPointsSettings" kindref="compound">MR.FindProjectionOnPointsSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>settings for <ref refid="classMR_1_1Const__IPointsProjector_1a3844568c46ff6a673f8dbe057a7838b0" kindref="member">IPointsProjector.findProjections</ref> Generated from class <computeroutput><ref refid="classMR_1_1FindProjectionOnPointsSettings" kindref="compound">MR.FindProjectionOnPointsSettings</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -265,6 +265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FindProjectionOnPointsSettings</label>
+        <link refid="classMR_1_1Const__FindProjectionOnPointsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -278,6 +279,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FindProjectionOnPointsSettings</label>
         <link refid="classMR_1_1FindProjectionOnPointsSettings"/>
@@ -286,9 +291,14 @@
       </node>
       <node id="2">
         <label>MR.Const_FindProjectionOnPointsSettings</label>
+        <link refid="classMR_1_1Const__FindProjectionOnPointsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_valid</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -300,8 +310,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="404" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="405" bodyend="538"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1aeb74fc30b895fa54ffb113570a375264" prot="protected" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>__ptr_storage_valid</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1a3ae4a379c2eabecd53757ac554144bb1" prot="protected" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1a96f4c59a873e14ca89a461599bcf9652" prot="protected" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>__ref_storage_loDistLimitSq</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1a77a520357872ab7aacf9e7c3f7dbddfa" prot="protected" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>__ref_storage_skipSameIndex</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1a6a94f43a2a62803ba7f592712888e02a" prot="protected" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>__ref_storage_upDistLimitSq</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1aaefefdbe5255b54029b22a1788375642" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a17b406f9dd2aac6ba9f0b7ae38292a82" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1a8892554f459a75646828c0eea345c54b" prot="package" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>Const_FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1a6f5ef1af6b1ad1d8871d165f36c1a2c0" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>Const_FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1a181b0615367e8dcff7bd9ab10ae00dd5" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>Const_FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1aaeb4a0f612f71ddd244a2fe396bb493c" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>Const_FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1ac97e338584e10277b50eaaf3a7f0bb68" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>Const_FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1afbf445411a620cdfef7b9fdaa05b4d45" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>Const_FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1ab0d7556798254fa93d00bdf56ea385d0" prot="protected" virt="virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FindProjectionOnPointsSettings_1aff776183d72b9d88c68e19503d882a86" prot="public" virt="virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a9834066b76b6cffd2a1d95aeabfe35c7" prot="package" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1a8e4de168dc26fe7e4710894323b55cb8" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
       <member refid="classMR_1_1FindProjectionOnPointsSettings_1abb60a27acf66c938fc50a52bda2eb266" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>

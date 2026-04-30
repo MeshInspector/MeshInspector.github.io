@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneLoad_1_1Settings" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneLoad::Settings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.SceneLoad.Const_Settings</basecompoundref>
+    <basecompoundref refid="classMR_1_1SceneLoad_1_1Const__Settings" prot="public" virt="non-virtual">MR.SceneLoad.Const_Settings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SceneLoad_1_1Settings_1a1162079414ff023c4bdfbfd38e3608d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Optional_MRLengthUnit</type>
@@ -142,7 +142,7 @@
         <name>Settings</name>
         <qualifiedname>MR.SceneLoad.Settings.Settings</qualifiedname>
         <param>
-          <type>Const_Settings</type>
+          <type><ref refid="classMR_1_1SceneLoad_1_1Const__Settings" kindref="compound">Const_Settings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -210,6 +210,7 @@
       </node>
       <node id="2">
         <label>MR.SceneLoad.Const_Settings</label>
+        <link refid="classMR_1_1SceneLoad_1_1Const__Settings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -231,6 +232,7 @@
       </node>
       <node id="2">
         <label>MR.SceneLoad.Const_Settings</label>
+        <link refid="classMR_1_1SceneLoad_1_1Const__Settings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -243,6 +245,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="129" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="130" bodyend="240"/>
     <listofallmembers>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1aa01bde15ff72db69df54ea78fed1e74c" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>assign</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Settings_1ac943a866ab2b3bc88cafb4ddbcb81432" prot="package" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Settings_1ab577a3549f3d58027398f51e7e336a50" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Settings_1af214c52667206511648feeea77dfebc3" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Settings_1aca40635e5476a4e128711556b4215e27" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Settings_1a071dc7492ee190b7745dceb739d3cf9a" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Settings_1a937bf08a910d0f13ecee56e0ba4d1fa0" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Const_Settings</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Settings_1a3008145279f9c19721cb9cbc42ce406a" prot="protected" virt="virtual"><scope>MR::SceneLoad::Settings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1SceneLoad_1_1Const__Settings_1a59292674153ddffffa0fdb608494f8bc" prot="public" virt="virtual"><scope>MR::SceneLoad::Settings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1a8504c186ad858ebc3bbd41eb0decdfed" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>openFolder</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1a2c1bfc7f4068995138b8bd6fad728953" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>progress</name></member>
       <member refid="classMR_1_1SceneLoad_1_1Settings_1aa5dce7799b76500abc6183846914f749" prot="package" virt="non-virtual"><scope>MR::SceneLoad::Settings</scope><name>Settings</name></member>

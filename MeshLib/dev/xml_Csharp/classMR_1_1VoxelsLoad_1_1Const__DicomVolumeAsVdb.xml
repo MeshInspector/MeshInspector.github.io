@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelsLoad::Const_DicomVolumeAsVdb</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" prot="public" virt="non-virtual">MR.VoxelsLoad.DicomVolumeAsVdb</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a9277d3a2de72158f078ef0e693f7fd2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
+        <definition>unsafe MR.Const_VdbVolume MR.VoxelsLoad.Const_DicomVolumeAsVdb.vol</definition>
+        <argsstring></argsstring>
+        <name>vol</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.vol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="303" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="303" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1adb3553e6272d9f9bf3a5d203a3bb0cfd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.VoxelsLoad.Const_DicomVolumeAsVdb.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="305" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="305" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a9cbdec9ba51438389c8cc847692e8d72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.VoxelsLoad.Const_DicomVolumeAsVdb.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="307" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="307" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1af303b4d732aaea25b05e10ae89bdeb32" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+        <definition>unsafe MR.AffineXf3f* MR.VoxelsLoad.Const_DicomVolumeAsVdb.__ref_storage_xf</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_xf</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.__ref_storage_xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="308" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="308" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a73735be89507d2dcf60de46e3044af8d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.VoxelsLoad.Const_DicomVolumeAsVdb.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="291" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="291" bodyend="299"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a8c0841bb22f532a9271675e768c764a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.VoxelsLoad.Const_DicomVolumeAsVdb.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="300" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ae7e14823e3767114e8969a57e7ca12da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DicomVolumeAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="349" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="349" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a0564e06ceeb43b4697f12a5c2acd5068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</definition>
+        <argsstring>(MR._ByValue_VdbVolume vol, string name, MR.AffineXf3f xf)</argsstring>
+        <name>Const_DicomVolumeAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</qualifiedname>
+        <param>
+          <type>MR._ByValue_VdbVolume</type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kindref="compound">MR.VoxelsLoad.DicomVolumeAsVdb</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="360" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="360" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1aafd573e477ef6af5a66e735ab8f2089f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</definition>
+        <argsstring>(MR.VoxelsLoad._ByValue_DicomVolumeAsVdb _other)</argsstring>
+        <name>Const_DicomVolumeAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</qualifiedname>
+        <param>
+          <type>MR.VoxelsLoad._ByValue_DicomVolumeAsVdb</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb_1a311a2140e4a3e0194b657cdd065f35c3" kindref="member">MR.VoxelsLoad.DicomVolumeAsVdb.DicomVolumeAsVdb</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="376" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="376" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a4a7d1600452679316f20f1983d6bb86d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</definition>
+        <argsstring>(Const_DicomVolumeAsVdb _other)</argsstring>
+        <name>Const_DicomVolumeAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb" kindref="compound">Const_DicomVolumeAsVdb</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb_1a311a2140e4a3e0194b657cdd065f35c3" kindref="member">MR.VoxelsLoad.DicomVolumeAsVdb.DicomVolumeAsVdb</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="388" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="388" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a31867f7e870ddbfd45beaa11ba928553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</definition>
+        <argsstring>(DicomVolumeAsVdb _other)</argsstring>
+        <name>Const_DicomVolumeAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kindref="compound">DicomVolumeAsVdb</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb_1a311a2140e4a3e0194b657cdd065f35c3" kindref="member">MR.VoxelsLoad.DicomVolumeAsVdb.DicomVolumeAsVdb</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="393" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="393" bodyend="393"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ae66d86b97c916464fe19cebf9184440a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.Const_DicomVolumeAsVdb.~Const_DicomVolumeAsVdb</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DicomVolumeAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.~Const_DicomVolumeAsVdb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="301" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="301" bodyend="301"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ac81ef58ec5e66fea41bbe159da5a5560" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DicomVolumeAsVdb</name>
+        <qualifiedname>MR.VoxelsLoad.Const_DicomVolumeAsVdb.Const_DicomVolumeAsVdb</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="338" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="338" bodyend="343"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" kindref="compound">MR.VoxelsLoad.DicomVolumeAsVdb</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.VoxelsLoad.Const_DicomVolumeAsVdb</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VoxelsLoad.DicomVolumeAsVdb</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.VoxelsLoad.Const_DicomVolumeAsVdb</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="285" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="286" bodyend="394"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1af303b4d732aaea25b05e10ae89bdeb32" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>__ref_storage_xf</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ac81ef58ec5e66fea41bbe159da5a5560" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Const_DicomVolumeAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ae7e14823e3767114e8969a57e7ca12da" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Const_DicomVolumeAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a0564e06ceeb43b4697f12a5c2acd5068" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Const_DicomVolumeAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1aafd573e477ef6af5a66e735ab8f2089f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Const_DicomVolumeAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a4a7d1600452679316f20f1983d6bb86d" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Const_DicomVolumeAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a31867f7e870ddbfd45beaa11ba928553" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Const_DicomVolumeAsVdb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a73735be89507d2dcf60de46e3044af8d" prot="protected" virt="virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a8c0841bb22f532a9271675e768c764a1" prot="public" virt="virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1adb3553e6272d9f9bf3a5d203a3bb0cfd" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>name</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a9277d3a2de72158f078ef0e693f7fd2d" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>vol</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1a9cbdec9ba51438389c8cc847692e8d72" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>xf</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb_1ae66d86b97c916464fe19cebf9184440a" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_DicomVolumeAsVdb</scope><name>~Const_DicomVolumeAsVdb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

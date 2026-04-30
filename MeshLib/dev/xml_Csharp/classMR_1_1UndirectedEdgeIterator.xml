@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UndirectedEdgeIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::UndirectedEdgeIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirectedEdgeIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UndirectedEdgeIterator" prot="public" virt="non-virtual">MR.Const_UndirectedEdgeIterator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1UndirectedEdgeIterator_1a22ad3b57eb705084f8464e8309cf4d3a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>UndirectedEdgeIterator</name>
         <qualifiedname>MR.UndirectedEdgeIterator.UndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>UndirectedEdgeIterator</name>
         <qualifiedname>MR.UndirectedEdgeIterator.UndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>assign</name>
         <qualifiedname>MR.UndirectedEdgeIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>operator UndirectedEdgeIterator</name>
         <qualifiedname>MR.UndirectedEdgeIterator.operator UndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,22 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" line="133" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeIterator.cs" bodystart="134" bodyend="202"/>
     <listofallmembers>
       <member refid="classMR_1_1UndirectedEdgeIterator_1a168f1a55364f062dd2cd5e122ff6309c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a4d1600e30287d58bed5458d95739d06a" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a46a61b60de2b7addc8570bb307030400" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1afc7cf37339002fd2aa06cd5f18a9e6a5" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1abc4f9ed915e7fde4d45c815ff1cbf847" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a10587764efbe1f34b9e2c14f90cf12f3" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Const_UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a8c2578e30d1fa5e845716b5478c95628" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1ae73128e2a3b9ac58c388a67e7d62a389" prot="protected" virt="virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a088f88e9586649bd0307308c1deafc74" prot="public" virt="virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1ae135c8b8013adbf4f369f36187f15bdd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a999cc7da4661feb91fc7dad06fc17bd1" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1UndirectedEdgeIterator_1a10332c483375f3dbf7b2c5fbcd8bb93b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1aa1ea80ae311628d5f5479ab1b67f33cf" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator Const_UndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1UndirectedEdgeIterator_1aa86fb3f350eaadcc6f0f76c17e1873ec" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator UndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1a91437466be22cf34e6484d456b0f90d9" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1af46c798a3ee84bacdbe8426c3e8976e7" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeIterator_1aa7fceead374fd26f82083fedb721435b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator==</name></member>
       <member refid="classMR_1_1UndirectedEdgeIterator_1a22ad3b57eb705084f8464e8309cf4d3a" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>UndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1UndirectedEdgeIterator_1a9e1f81ee6baf3189b15421033f6930f1" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>UndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1UndirectedEdgeIterator_1a05a9f011a5b5d804d8572bda5eb4f9a1" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>UndirectedEdgeIterator</name></member>

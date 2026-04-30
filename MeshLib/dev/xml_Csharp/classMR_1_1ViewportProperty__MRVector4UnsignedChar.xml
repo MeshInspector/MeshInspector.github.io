@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportProperty__MRVector4UnsignedChar" kind="class" language="C#" prot="public">
     <compoundname>MR::ViewportProperty_MRVector4UnsignedChar</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRVector4UnsignedChar</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar" prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRVector4UnsignedChar</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a9af26d5e01d103191dd4caa5975ef05f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
@@ -86,7 +86,7 @@
         <name>ViewportProperty_MRVector4UnsignedChar</name>
         <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</qualifiedname>
         <param>
-          <type>Const_ViewportProperty_MRVector4UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar" kindref="compound">Const_ViewportProperty_MRVector4UnsignedChar</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>ViewportProperty_MRVector4UnsignedChar</name>
         <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>def</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>set</name>
         <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.set</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>def</declname>
         </param>
         <briefdescription>
@@ -196,7 +196,7 @@
         <name>set</name>
         <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.set</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>v</declname>
         </param>
         <param>
@@ -255,7 +255,7 @@
         <name>operator ViewportProperty_MRVector4UnsignedChar</name>
         <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.operator ViewportProperty_MRVector4UnsignedChar</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>def</declname>
         </param>
         <briefdescription>
@@ -282,6 +282,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportProperty_MRVector4UnsignedChar</label>
+        <link refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -308,6 +309,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportProperty_MRVector4UnsignedChar</label>
+        <link refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -328,8 +330,22 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1471" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1472" bodyend="1603"/>
     <listofallmembers>
       <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1aea7f43fee584b29e817d52e04f8f0757" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a93de14268d4cd700073c706cde4888ce" prot="package" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Const_ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1af362c54d125eae0c21bb45ffb505de96" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Const_ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a517a20a94e06f29732a705e5b24fe086" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Const_ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a8f7dac0a26ebc5ca1390f907d0859b6b" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Const_ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a9b10f61f431c6eb206732a764a03f1e0" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Const_ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a44f857959f56b87b4de823a543775747" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Const_ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1aa89bbe30ebe7b4fd1cbb15a17a78eaef" prot="protected" virt="virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a6e823f08cb2821fed99ede86642f323a" prot="public" virt="virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a2722289e990e4f139169e85a5668e28b" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a5a77a873e8c84bef5489e420c38ea005" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>Equals</name></member>
       <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1af8a714c8ea679555937920699b2a1e1e" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a9b742e9ca398c8c2abf46c8cc981a88e" prot="public" virt="non-virtual" ambiguityscope="MR::Const_ViewportProperty_MRVector4UnsignedChar."><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a21a8fcf0101ffb86fd72d8cb9535b295" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>operator Const_ViewportProperty_MRVector4UnsignedChar</name></member>
       <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1aa67aff98331c0e10291c370c6219f16f" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>operator ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1a569ebcc5dd3543c07421f3a514fa11b3" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar_1aea7777fb443921a71aa4c1a9060dceb9" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>operator==</name></member>
       <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a478fc0230ca35d6d379ce89aa758efc9" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>reset</name></member>
       <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a2e9c584e81c649159394ab43229cab11" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>reset</name></member>
       <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a58d7b672fdb78d4a67dd946de034a6d3" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>set</name></member>

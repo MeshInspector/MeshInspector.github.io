@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillHoleParams" kind="struct" language="C#" prot="public">
     <compoundname>MR::FillHoleParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FillHoleParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FillHoleParams" prot="public" virt="non-virtual">MR.Const_FillHoleParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FillHoleParams_1a238b95687d6651d2f4714aa4d7abb636" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -55,7 +55,7 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="253" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="254" bodyend="263"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FillHoleParams_1a15717d3256161f0c69e468709f5c8a2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.FillHoleParams.MultipleEdgesResolveMode</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__FillHoleParams_1a9e0df5971ea7b6db68f1d737caae2f09" kindref="member">MR.FillHoleParams.MultipleEdgesResolveMode</ref></type>
         <definition>new unsafe ref MR.FillHoleParams.MultipleEdgesResolveMode MR.FillHoleParams.multipleEdgesResolveMode</definition>
         <argsstring></argsstring>
         <name>multipleEdgesResolveMode</name>
@@ -176,7 +176,7 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
           <declname>outNewFaces</declname>
         </param>
         <param>
-          <type>MR.FillHoleParams.MultipleEdgesResolveMode</type>
+          <type><ref refid="classMR_1_1Const__FillHoleParams_1a9e0df5971ea7b6db68f1d737caae2f09" kindref="member">MR.FillHoleParams.MultipleEdgesResolveMode</ref></type>
           <declname>multipleEdgesResolveMode</declname>
         </param>
         <param>
@@ -226,7 +226,7 @@ default for <ref refid="classMR_1a62bc429ce182f953c2f0db902be80f4d" kindref="mem
         <name>FillHoleParams</name>
         <qualifiedname>MR.FillHoleParams.FillHoleParams</qualifiedname>
         <param>
-          <type>Const_FillHoleParams</type>
+          <type><ref refid="classMR_1_1Const__FillHoleParams" kindref="compound">Const_FillHoleParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -301,6 +301,7 @@ Structure has some options to control <ref refid="classMR_1a62bc429ce182f953c2f0
       </node>
       <node id="2">
         <label>MR.Const_FillHoleParams</label>
+        <link refid="classMR_1_1Const__FillHoleParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -314,6 +315,10 @@ Structure has some options to control <ref refid="classMR_1a62bc429ce182f953c2f0
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FillHoleParams</label>
         <link refid="classMR_1_1FillHoleParams"/>
@@ -322,9 +327,14 @@ Structure has some options to control <ref refid="classMR_1a62bc429ce182f953c2f0
       </node>
       <node id="2">
         <label>MR.Const_FillHoleParams</label>
+        <link refid="classMR_1_1Const__FillHoleParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_outNewFaces</edgelabel>
+          <edgelabel>__ref_storage_multipleEdgesResolveMode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -336,7 +346,21 @@ Structure has some options to control <ref refid="classMR_1a62bc429ce182f953c2f0
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="233" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="234" bodyend="380"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FillHoleParams_1ae625e856f83777c221c0f0c3774c6a01" prot="protected" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>__ptr_storage_outNewFaces</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a85159468e29d1ef2c036e10352f4f2ae" prot="protected" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>__ptr_storage_stopBeforeBadTriangulation</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1acecf71c7a28474a1655a53ab141d053e" prot="protected" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>__ref_storage_makeDegenerateBand</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a9ea9352c0f007f773dd7aa03037704d0" prot="protected" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>__ref_storage_maxPolygonSubdivisions</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a6e456f0d737a0ee798182f1066178038" prot="protected" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>__ref_storage_multipleEdgesResolveMode</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a1aeff9b557d137337530a544ef8a2f87" prot="protected" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>__ref_storage_smoothBd</name></member>
       <member refid="classMR_1_1FillHoleParams_1a4710791165568eff0693dfbd561f9dde" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1ae1d09233241727a3b672c268237b0ebc" prot="package" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>Const_FillHoleParams</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1aa4aadc8bdf9a4bff488da9d2cfdb698e" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>Const_FillHoleParams</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1aeb97acbf79f4b30d512cfb0b3c04967e" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>Const_FillHoleParams</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a207f10f3f2b47c8cf81895a2ff61c253" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>Const_FillHoleParams</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a2a7d050569b3914564f6d61820bd2f18" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>Const_FillHoleParams</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a4a558358310515678bf7b69e674f26b1" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>Const_FillHoleParams</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a33ae9664024d96025d1bace827dc593f" prot="protected" virt="virtual"><scope>MR::FillHoleParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a90408748738558b53693cf14187096c3" prot="public" virt="virtual"><scope>MR::FillHoleParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FillHoleParams_1a2d1c0445bee676d959e83bb1ca013ecf" prot="package" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
       <member refid="classMR_1_1FillHoleParams_1a46a1af49fc62424e921655fdf575c3cf" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
       <member refid="classMR_1_1FillHoleParams_1ac81bf5744eb55bef9212ffc3acc1f916" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>FillHoleParams</name></member>
@@ -346,6 +370,7 @@ Structure has some options to control <ref refid="classMR_1a62bc429ce182f953c2f0
       <member refid="classMR_1_1FillHoleParams_1a9d0f4d7c8a3642008f2b21651929fa75" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>makeDegenerateBand</name></member>
       <member refid="classMR_1_1FillHoleParams_1ac51dc8a6227d48485ba26359354505ab" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>maxPolygonSubdivisions</name></member>
       <member refid="classMR_1_1FillHoleParams_1a238b95687d6651d2f4714aa4d7abb636" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>metric</name></member>
+      <member refid="classMR_1_1Const__FillHoleParams_1a9e0df5971ea7b6db68f1d737caae2f09" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>MultipleEdgesResolveMode</name></member>
       <member refid="classMR_1_1FillHoleParams_1a15717d3256161f0c69e468709f5c8a2b" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>multipleEdgesResolveMode</name></member>
       <member refid="classMR_1_1FillHoleParams_1a1772afb629afe7982250629b28329952" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>outNewFaces</name></member>
       <member refid="classMR_1_1FillHoleParams_1aa210a2ddcc147781549d86a306b6a56b" prot="public" virt="non-virtual"><scope>MR::FillHoleParams</scope><name>smoothBd</name></member>

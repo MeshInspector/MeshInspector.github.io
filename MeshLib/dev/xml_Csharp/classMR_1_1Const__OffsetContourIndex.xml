@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__OffsetContourIndex" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_OffsetContourIndex</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1OffsetContourIndex" prot="public" virt="non-virtual">MR.OffsetContourIndex</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__OffsetContourIndex_1a4c7989c82a905e7c6ddc2f355fe9dc95" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_OffsetContourIndex.contourId</definition>
+        <argsstring></argsstring>
+        <name>contourId</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.contourId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="26" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__OffsetContourIndex_1a836f7fa86e98d9657f2db2139474d767" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_OffsetContourIndex.vertId</definition>
+        <argsstring></argsstring>
+        <name>vertId</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.vertId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="30" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__OffsetContourIndex_1a94d1809882c36ae61969736a6b927ce3" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_OffsetContourIndex.__ref_storage_contourId</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_contourId</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.__ref_storage_contourId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="27" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__OffsetContourIndex_1a9127a5cfed0f7b6b7edf5e934532a36f" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_OffsetContourIndex.__ref_storage_vertId</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_vertId</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.__ref_storage_vertId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="31" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1a2290cbff9e1bcc01e5c78aed33bed94e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_OffsetContourIndex.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1a846fd0db378da6c92c29edc5732c39a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_OffsetContourIndex.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1a4d784f30684c7dd908049ca9664b91f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OffsetContourIndex.Const_OffsetContourIndex</definition>
+        <argsstring>()</argsstring>
+        <name>Const_OffsetContourIndex</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.Const_OffsetContourIndex</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="64" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="64" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1ae565b496c397f3321a3b024cf26bd0a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OffsetContourIndex.Const_OffsetContourIndex</definition>
+        <argsstring>(int contourId, int vertId)</argsstring>
+        <name>Const_OffsetContourIndex</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.Const_OffsetContourIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>contourId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vertId</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1OffsetContourIndex" kindref="compound">MR.OffsetContourIndex</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1a782077083d24b076daf56889ec9d7e9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OffsetContourIndex.Const_OffsetContourIndex</definition>
+        <argsstring>(MR.Const_OffsetContourIndex _other)</argsstring>
+        <name>Const_OffsetContourIndex</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.Const_OffsetContourIndex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__OffsetContourIndex" kindref="compound">MR.Const_OffsetContourIndex</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContourIndex_1a925758e57ede0dcdd8f66afcd4f5e14d" kindref="member">MR.OffsetContourIndex.OffsetContourIndex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="86" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1a8fe1d87273c0ce3410c3740a91fb0b12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OffsetContourIndex.Const_OffsetContourIndex</definition>
+        <argsstring>(OffsetContourIndex _other)</argsstring>
+        <name>Const_OffsetContourIndex</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.Const_OffsetContourIndex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1OffsetContourIndex" kindref="compound">OffsetContourIndex</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OffsetContourIndex_1a925758e57ede0dcdd8f66afcd4f5e14d" kindref="member">MR.OffsetContourIndex.OffsetContourIndex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="98" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1a16e1f9a9c4f42f85e3b2d501e7f59037" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_OffsetContourIndex.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__OffsetContourIndex_1a16e1f9a9c4f42f85e3b2d501e7f59037" kindref="member">MR.OffsetContourIndex.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="103" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="103" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1aa645f5693259ddd25140bb88518005f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OffsetContourIndex.~Const_OffsetContourIndex</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_OffsetContourIndex</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.~Const_OffsetContourIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__OffsetContourIndex_1a63c44d8cfd64f64d66e2a4bb4409d4dd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OffsetContourIndex.Const_OffsetContourIndex</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_OffsetContourIndex</name>
+        <qualifiedname>MR.Const_OffsetContourIndex.Const_OffsetContourIndex</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="53" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="53" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1OffsetContourIndex" kindref="compound">MR.OffsetContourIndex</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_OffsetContourIndex</label>
+        <link refid="classMR_1_1Const__OffsetContourIndex"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.OffsetContourIndex</label>
+        <link refid="classMR_1_1OffsetContourIndex"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_OffsetContourIndex</label>
+        <link refid="classMR_1_1Const__OffsetContourIndex"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="8" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a94d1809882c36ae61969736a6b927ce3" prot="protected" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>__ref_storage_contourId</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a9127a5cfed0f7b6b7edf5e934532a36f" prot="protected" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>__ref_storage_vertId</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a63c44d8cfd64f64d66e2a4bb4409d4dd" prot="package" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a4d784f30684c7dd908049ca9664b91f0" prot="public" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1ae565b496c397f3321a3b024cf26bd0a9" prot="public" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a782077083d24b076daf56889ec9d7e9f" prot="public" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a8fe1d87273c0ce3410c3740a91fb0b12" prot="public" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a4c7989c82a905e7c6ddc2f355fe9dc95" prot="public" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>contourId</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a2290cbff9e1bcc01e5c78aed33bed94e" prot="protected" virt="virtual"><scope>MR::Const_OffsetContourIndex</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a846fd0db378da6c92c29edc5732c39a1" prot="public" virt="virtual"><scope>MR::Const_OffsetContourIndex</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a16e1f9a9c4f42f85e3b2d501e7f59037" prot="public" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a836f7fa86e98d9657f2db2139474d767" prot="public" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>vertId</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1aa645f5693259ddd25140bb88518005f7" prot="private" virt="non-virtual"><scope>MR::Const_OffsetContourIndex</scope><name>~Const_OffsetContourIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

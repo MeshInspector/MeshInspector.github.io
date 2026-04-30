@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1HoleFillPlan" kind="class" language="C#" prot="public">
     <compoundname>MR::HoleFillPlan</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_HoleFillPlan</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__HoleFillPlan" prot="public" virt="non-virtual">MR.Const_HoleFillPlan</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1HoleFillPlan_1aea3d4b461e370e3b086ff883f1ae6855" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRFillHoleItem</type>
@@ -122,7 +122,7 @@
         <name>HoleFillPlan</name>
         <qualifiedname>MR.HoleFillPlan.HoleFillPlan</qualifiedname>
         <param>
-          <type>Const_HoleFillPlan</type>
+          <type><ref refid="classMR_1_1Const__HoleFillPlan" kindref="compound">Const_HoleFillPlan</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.Const_HoleFillPlan</label>
+        <link refid="classMR_1_1Const__HoleFillPlan"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,6 +209,7 @@
       </node>
       <node id="2">
         <label>MR.Const_HoleFillPlan</label>
+        <link refid="classMR_1_1Const__HoleFillPlan"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -222,7 +224,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1056" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1057" bodyend="1143"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__HoleFillPlan_1ad54cbe4fed74682b8363cc2e71cf5952" prot="protected" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>__ref_storage_numTris</name></member>
       <member refid="classMR_1_1HoleFillPlan_1a635d6b9767b9151f3b8fb7ad79d1c7b6" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__HoleFillPlan_1aa8af23566607717991ca677abfd11371" prot="package" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>Const_HoleFillPlan</name></member>
+      <member refid="classMR_1_1Const__HoleFillPlan_1a47e582d995bcf4856dbd6741847b7ecc" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>Const_HoleFillPlan</name></member>
+      <member refid="classMR_1_1Const__HoleFillPlan_1a96c57602d033cc34c8ab1056d647d38d" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>Const_HoleFillPlan</name></member>
+      <member refid="classMR_1_1Const__HoleFillPlan_1ab63c4efda4bc1eb0c9da30cc7f551f8f" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>Const_HoleFillPlan</name></member>
+      <member refid="classMR_1_1Const__HoleFillPlan_1a0268e4ead7081abaf0f899db277e082f" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>Const_HoleFillPlan</name></member>
+      <member refid="classMR_1_1Const__HoleFillPlan_1ac451c0a2f7d3a02a449f7272114ccb58" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>Const_HoleFillPlan</name></member>
+      <member refid="classMR_1_1Const__HoleFillPlan_1a556062787f07ccc560ec68413ee407ed" prot="protected" virt="virtual"><scope>MR::HoleFillPlan</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__HoleFillPlan_1a6abd562710c0f932e92253f6a9ae2bb8" prot="public" virt="virtual"><scope>MR::HoleFillPlan</scope><name>Dispose</name></member>
       <member refid="classMR_1_1HoleFillPlan_1a9036e94b820152bf5cea6686bca1d1d6" prot="package" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>
       <member refid="classMR_1_1HoleFillPlan_1a29d8e66ba2fe6237505716aa89048294" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>
       <member refid="classMR_1_1HoleFillPlan_1af23ed8e6d4f9447fefddfd0b5f69e90a" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>

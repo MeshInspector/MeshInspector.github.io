@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MakeSignedByWindingNumberSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MakeSignedByWindingNumberSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MakeSignedByWindingNumberSettings" prot="public" virt="non-virtual">MR.MakeSignedByWindingNumberSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a9fc9d485a2cc67805cbab3723aacaffb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_MakeSignedByWindingNumberSettings.meshToGridXf</definition>
+        <argsstring></argsstring>
+        <name>meshToGridXf</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.meshToGridXf</qualifiedname>
+        <briefdescription>
+<para>defines the mapping from mesh reference from to grid reference frame </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="708" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="708" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a7dcdb7714588902d458f56d84a50702b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_SharedPtr_MRIFastWindingNumber</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_MRIFastWindingNumber MR.Const_MakeSignedByWindingNumberSettings.fwn</definition>
+        <argsstring></argsstring>
+        <name>fwn</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.fwn</qualifiedname>
+        <briefdescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings. If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="714" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="714" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1ac7b0e14acabf5bfc77a1408cb4f384d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MakeSignedByWindingNumberSettings.windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.windingNumberThreshold</qualifiedname>
+        <briefdescription>
+<para>positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="720" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1abff679a0c9a0918ed787b9ab9126afe1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MakeSignedByWindingNumberSettings.windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.windingNumberBeta</qualifiedname>
+        <briefdescription>
+<para>determines the precision of fast approximation: the more the better, minimum value is 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="726" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a60601ccd68c2d0eff6ec718988ba4c46" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_MakeSignedByWindingNumberSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.progress</qualifiedname>
+        <briefdescription>
+<para>to report algorithm's progress and to cancel it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="732" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="732" bodyend="732"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a1e15fcddbc6fb6c01aed32a0670e2590" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+        <definition>unsafe MR.AffineXf3f* MR.Const_MakeSignedByWindingNumberSettings.__ref_storage_meshToGridXf</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_meshToGridXf</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.__ref_storage_meshToGridXf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="709" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="709" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a772504f5df7bfd60eb80e99333524d95" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MakeSignedByWindingNumberSettings.__ref_storage_windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_windingNumberThreshold</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.__ref_storage_windingNumberThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="721" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1af9b8443cf2d771439f9ac8e52974b09b" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MakeSignedByWindingNumberSettings.__ref_storage_windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_windingNumberBeta</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.__ref_storage_windingNumberBeta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="727" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="727" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1adb193f6599e528e987dca0322f961e47" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MakeSignedByWindingNumberSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="693" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="693" bodyend="701"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a0993cd1183f93ae1a052f21f1056086e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MakeSignedByWindingNumberSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="702" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="702" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a7f8fb86b426f8ecd975d6f517f615eba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MakeSignedByWindingNumberSettings</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="785" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="785" bodyend="791"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a3a834f70f58e9f8ca3ca770f533ed40a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</definition>
+        <argsstring>(MR.AffineXf3f meshToGridXf, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
+        <name>Const_MakeSignedByWindingNumberSettings</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>meshToGridXf</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRIFastWindingNumber</type>
+          <declname>fwn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberBeta</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MakeSignedByWindingNumberSettings" kindref="compound">MR.MakeSignedByWindingNumberSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="796" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="796" bodyend="804"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a4585efd4f8d52327cea48d24b953f94f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</definition>
+        <argsstring>(MR._ByValue_MakeSignedByWindingNumberSettings _other)</argsstring>
+        <name>Const_MakeSignedByWindingNumberSettings</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_MakeSignedByWindingNumberSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MakeSignedByWindingNumberSettings_1a99eb76059a021ad2082beddffdd4158d" kindref="member">MR.MakeSignedByWindingNumberSettings.MakeSignedByWindingNumberSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="809" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="809" bodyend="816"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a1b394f8f3299dd6a65ba41b0b13c46e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</definition>
+        <argsstring>(Const_MakeSignedByWindingNumberSettings _other)</argsstring>
+        <name>Const_MakeSignedByWindingNumberSettings</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MakeSignedByWindingNumberSettings" kindref="compound">Const_MakeSignedByWindingNumberSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MakeSignedByWindingNumberSettings_1a99eb76059a021ad2082beddffdd4158d" kindref="member">MR.MakeSignedByWindingNumberSettings.MakeSignedByWindingNumberSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="821" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="821" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a281b516529036e240e806687b5fd874a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</definition>
+        <argsstring>(MakeSignedByWindingNumberSettings _other)</argsstring>
+        <name>Const_MakeSignedByWindingNumberSettings</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MakeSignedByWindingNumberSettings" kindref="compound">MakeSignedByWindingNumberSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MakeSignedByWindingNumberSettings_1a99eb76059a021ad2082beddffdd4158d" kindref="member">MR.MakeSignedByWindingNumberSettings.MakeSignedByWindingNumberSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="826" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="826" bodyend="826"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1acbdd765710cfcae366e36537bc127975" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MakeSignedByWindingNumberSettings.~Const_MakeSignedByWindingNumberSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MakeSignedByWindingNumberSettings</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.~Const_MakeSignedByWindingNumberSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="703" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="703" bodyend="703"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a3f1f372b18c76ee80739f61119950cc1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MakeSignedByWindingNumberSettings</name>
+        <qualifiedname>MR.Const_MakeSignedByWindingNumberSettings.Const_MakeSignedByWindingNumberSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="774" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="774" bodyend="779"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MakeSignedByWindingNumberSettings" kindref="compound">MR.MakeSignedByWindingNumberSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MakeSignedByWindingNumberSettings</label>
+        <link refid="classMR_1_1Const__MakeSignedByWindingNumberSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MakeSignedByWindingNumberSettings</label>
+        <link refid="classMR_1_1MakeSignedByWindingNumberSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_MakeSignedByWindingNumberSettings</label>
+        <link refid="classMR_1_1Const__MakeSignedByWindingNumberSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_meshToGridXf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="687" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="688" bodyend="827"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a1e15fcddbc6fb6c01aed32a0670e2590" prot="protected" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>__ref_storage_meshToGridXf</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1af9b8443cf2d771439f9ac8e52974b09b" prot="protected" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a772504f5df7bfd60eb80e99333524d95" prot="protected" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>__ref_storage_windingNumberThreshold</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a3f1f372b18c76ee80739f61119950cc1" prot="package" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a7f8fb86b426f8ecd975d6f517f615eba" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a3a834f70f58e9f8ca3ca770f533ed40a" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a4585efd4f8d52327cea48d24b953f94f" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a1b394f8f3299dd6a65ba41b0b13c46e8" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a281b516529036e240e806687b5fd874a" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1adb193f6599e528e987dca0322f961e47" prot="protected" virt="virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a0993cd1183f93ae1a052f21f1056086e" prot="public" virt="virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a7dcdb7714588902d458f56d84a50702b" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>fwn</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a9fc9d485a2cc67805cbab3723aacaffb" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>meshToGridXf</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a60601ccd68c2d0eff6ec718988ba4c46" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1abff679a0c9a0918ed787b9ab9126afe1" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1ac7b0e14acabf5bfc77a1408cb4f384d1" prot="public" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>windingNumberThreshold</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1acbdd765710cfcae366e36537bc127975" prot="private" virt="non-virtual"><scope>MR::Const_MakeSignedByWindingNumberSettings</scope><name>~Const_MakeSignedByWindingNumberSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

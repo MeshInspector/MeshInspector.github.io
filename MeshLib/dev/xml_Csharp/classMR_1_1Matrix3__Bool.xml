@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Matrix3__Bool" kind="class" language="C#" prot="public">
     <compoundname>MR::Matrix3_Bool</compoundname>
+    <innerclass refid="classMR_1_1Matrix3__Bool_1_1Const__QR" prot="public">MR::Matrix3_Bool::Const_QR</innerclass>
     <innerclass refid="classMR_1_1Matrix3__Bool_1_1QR" prot="public">MR::Matrix3_Bool::QR</innerclass>
     <briefdescription>
     </briefdescription>

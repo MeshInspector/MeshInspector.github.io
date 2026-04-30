@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PartialChangeMeshPointsAction" kind="class" language="C#" prot="public">
     <compoundname>MR::PartialChangeMeshPointsAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PartialChangeMeshPointsAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PartialChangeMeshPointsAction" prot="public" virt="non-virtual">MR.Const_PartialChangeMeshPointsAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshPointsAction_1a204205039ab0cfd9d09e8a6e9e787693" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>PartialChangeMeshPointsAction</name>
         <qualifiedname>MR.PartialChangeMeshPointsAction.PartialChangeMeshPointsAction</qualifiedname>
         <param>
-          <type>Const_PartialChangeMeshPointsAction</type>
+          <type><ref refid="classMR_1_1Const__PartialChangeMeshPointsAction" kindref="compound">Const_PartialChangeMeshPointsAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -138,11 +138,11 @@
           <declname>obj</declname>
         </param>
         <param>
-          <type>MR.Const_CmpOld</type>
+          <type><ref refid="classMR_1_1Const__CmpOld" kindref="compound">MR.Const_CmpOld</ref></type>
           <declname>_3</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>oldPoints</declname>
         </param>
         <briefdescription>
@@ -169,7 +169,7 @@
           <declname>obj</declname>
         </param>
         <param>
-          <type>MR.Const_SetNew</type>
+          <type><ref refid="classMR_1_1Const__SetNew" kindref="compound">MR.Const_SetNew</ref></type>
           <declname>_3</declname>
         </param>
         <param>
@@ -211,7 +211,7 @@
         <name>action</name>
         <qualifiedname>MR.PartialChangeMeshPointsAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -238,6 +238,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PartialChangeMeshPointsAction</label>
+        <link refid="classMR_1_1Const__PartialChangeMeshPointsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PartialChangeMeshPointsAction</label>
+        <link refid="classMR_1_1Const__PartialChangeMeshPointsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -275,6 +277,18 @@
     <listofallmembers>
       <member refid="classMR_1_1PartialChangeMeshPointsAction_1a972de5014bbf59a4e6f50ae0bb2a0be7" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>action</name></member>
       <member refid="classMR_1_1PartialChangeMeshPointsAction_1a00bc088134919ea3d5c4718c68457efd" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ac3280c70be6f60c66fc8ba70ab5e7aaf" prot="package" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ad82007210940279afdaac809d6273095" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a97c3e7a6af2ec1c137cf2cdc4340837e" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a55efe5001a7c98dab4bf20151fd14eca" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ac0c1c7277e28cf88aafbedb50070e229" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ad68089190ea7468ed1506174a5a3c3ae" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>Const_PartialChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a41902444e863133b4db180398f28bdf8" prot="protected" virt="virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ae92022862495fbb1820c7437b69dadf9" prot="public" virt="virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a4cb8ff34b06b96deee18c9a9f455d20c" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a29134ce95ed2b7f2807ed11be04802e7" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1ace8d960c58db6fe0726fb8cc343e4c76" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>operator Const_PartialChangeMeshPointsAction?</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshPointsAction_1a829721bf1f7a521505dd6ded5dc66ebe" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshPointsAction_1a204205039ab0cfd9d09e8a6e9e787693" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>operator MR.HistoryAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshPointsAction_1ad6a1f98fde2d9242cff37d8595be44ba" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>operator PartialChangeMeshPointsAction?</name></member>
       <member refid="classMR_1_1PartialChangeMeshPointsAction_1ad7abeafcb6132a6f390b1fbd98600eb7" prot="package" virt="non-virtual"><scope>MR::PartialChangeMeshPointsAction</scope><name>PartialChangeMeshPointsAction</name></member>

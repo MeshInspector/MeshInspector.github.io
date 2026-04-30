@@ -25,11 +25,15 @@
 <para><itemizedlist>
 <listitem><para>Pass <computeroutput>null</computeroutput> to use the default argument.</para>
 </listitem><listitem><para>Pass <computeroutput>new()</computeroutput> to pass no object.</para>
-</listitem><listitem><para>Pass an instance of <computeroutput><ref refid="classMR_1_1Matrix3__Int_1_1QR" kindref="compound">QR</ref></computeroutput>/<computeroutput>Const_QR</computeroutput> directly. </para>
+</listitem><listitem><para>Pass an instance of <computeroutput><ref refid="classMR_1_1Matrix3__Int_1_1QR" kindref="compound">QR</ref></computeroutput>/<computeroutput><ref refid="classMR_1_1Matrix3__Int_1_1Const__QR" kindref="compound">Const_QR</ref></computeroutput> directly. </para>
 </listitem></itemizedlist>
 </para>
     </detaileddescription>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Matrix3_Int._InOptMut_QR</label>
         <link refid="classMR_1_1Matrix3__Int_1_1__InOptMut__QR"/>
@@ -39,9 +43,14 @@
       </node>
       <node id="3">
         <label>MR.Matrix3_Int.Const_QR</label>
+        <link refid="classMR_1_1Matrix3__Int_1_1Const__QR"/>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_q</edgelabel>
+          <edgelabel>__ref_storage_r</edgelabel>
         </childnode>
       </node>
       <node id="2">

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_EdgeBitSet::_Enumerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerator</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1aaeaeabfc8c51944914757975972bab65" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Const__EdgeBitSet" kindref="compound">Const_EdgeBitSet</ref></type>
+        <definition>Const_EdgeBitSet MR.Const_EdgeBitSet._Enumerator._container</definition>
+        <argsstring></argsstring>
+        <name>_container</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator._container</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2152" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1a8b054f222acd441a0168aea82893c224" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1EdgeSetBitIterator" kindref="compound">MR.EdgeSetBitIterator</ref></type>
+        <definition>MR.EdgeSetBitIterator MR.Const_EdgeBitSet._Enumerator._cur</definition>
+        <argsstring></argsstring>
+        <name>_cur</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator._cur</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2153" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1a6d148583ca27d53a5a510bfeb94c76eb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR.Const_EdgeBitSet._Enumerator._first</definition>
+        <argsstring></argsstring>
+        <name>_first</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator._first</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2154" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1afd1cbd1c34c129479dce713ff25d927a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR.Const_EdgeBitSet._Enumerator._done</definition>
+        <argsstring></argsstring>
+        <name>_done</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator._done</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2155" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2155" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1a3c89c1e393f41d91823f9658f9f40e35" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>MR.EdgeId MR.Const_EdgeBitSet._Enumerator.Current</definition>
+        <argsstring></argsstring>
+        <name>Current</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator.Current</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2164" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2165" bodyend="2172"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1a8d6a8937350730cda07abde90c9f5d9a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>object System.Collections.IEnumerator.</type>
+        <definition>object System.Collections.IEnumerator. MR.Const_EdgeBitSet._Enumerator.Current</definition>
+        <argsstring></argsstring>
+        <name>Current</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator.Current</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2174" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2174" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1ae8e094f2f302d700a5c72c6781e03c85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_EdgeBitSet._Enumerator.MoveNext</definition>
+        <argsstring>()</argsstring>
+        <name>MoveNext</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator.MoveNext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2176" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2176" bodyend="2192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1aef2805705e069ef70f503e0332ff1946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Const_EdgeBitSet._Enumerator.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator.Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2194" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2194" bodyend="2199"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1ae7561de4a73a4d58515f8496a1bca633" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IDisposable.</type>
+        <definition>void IDisposable. MR.Const_EdgeBitSet._Enumerator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EdgeBitSet._Enumerator.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2201" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2201" bodyend="2201"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEnumerator</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_EdgeBitSet._Enumerator</label>
+        <link refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEnumerator</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_EdgeBitSet._Enumerator</label>
+        <link refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2150" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2151" bodyend="2202"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1aaeaeabfc8c51944914757975972bab65" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>_container</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1a8b054f222acd441a0168aea82893c224" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>_cur</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1afd1cbd1c34c129479dce713ff25d927a" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>_done</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1a6d148583ca27d53a5a510bfeb94c76eb" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>_first</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1a3c89c1e393f41d91823f9658f9f40e35" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>Current</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1a8d6a8937350730cda07abde90c9f5d9a" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>Current</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1ae7561de4a73a4d58515f8496a1bca633" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1ae8e094f2f302d700a5c72c6781e03c85" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>MoveNext</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1_1__Enumerator_1aef2805705e069ef70f503e0332ff1946" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet::_Enumerator</scope><name>Reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

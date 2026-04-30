@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRGraphVertId_MRGraphVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRGraphVertId_MRGraphVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId" prot="public" virt="non-virtual">MR.Const_Buffer_MRGraphVertId_MRGraphVertId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab268b5bc42d760d3dc1b1f8a24b24d1b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -235,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRGraphVertId_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRGraphVertId_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -280,15 +282,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="5200" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="5201" bodyend="5360"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a2962f432bd711b425b5ca86382be1c1a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1af111ab589eb26508f5f55c6448a7b819" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a10d5214fab73d7c760bb7e3f01f16dd1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a5782bf032e938ef480033d8aafea779a" prot="package" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a27cfd9dcdfea3fed409abc504158feab" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a951cba82ef92d8364374154f6098dce3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a1e73e4cbd9f20149f6b7d0b28b7fa1f1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Buffer_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a6d408421281a2fb6a7d8857169a71b26" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab2e0a7f21351da0ab3c70d7b0a3914a6" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a700ebad8599f1cbd80a0505aa03d3aa5" prot="package" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1ab3c01b610bad809564964b6aeee7b75b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a9e9a176fd7f828dbf0aec2d32573e69a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a6ffd60fe94d5b24a33e7fcac5fb576f4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Const_Buffer_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a05f34ef83f74f5fc4efc70056a1ecad0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a62c04e24d1594523b5a1b7b7054498ac" prot="protected" virt="virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a8e12a43420b861ab1ca010e674c7d384" prot="public" virt="virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1aa758146e90c2cecab7c9c5efa32fec32" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a98ee35866cebbc0587ea7d732281ff74" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4f4c8cc2691507b40de6bcd8ea96fa4b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab011033799d30971d6ecf27dc40bde3e" prot="private" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a700f1ad3a425ceb38829f63c378825a5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1a4c0f25fe97f4aa6dd24ba69d50086a11" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId_1a38e55ca739a872f5cdf26d89d7c70133" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRGraphVertId__MRGraphVertId_1ab268b5bc42d760d3dc1b1f8a24b24d1b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRGraphVertId_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
     </listofallmembers>
   </compounddef>

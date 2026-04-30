@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VarEdgeTri" kind="class" language="C#" prot="public">
     <compoundname>MR::VarEdgeTri</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VarEdgeTri</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VarEdgeTri" prot="public" virt="non-virtual">MR.Const_VarEdgeTri</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VarEdgeTri_1afa5ab5347dc38bbc21af8303e1d956e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -19,7 +19,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="605" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="605" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1VarEdgeTri_1a1f28e0d3c4c306611e585de5f4eb85a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.VarEdgeTri.FlaggedTri</type>
+        <type>new unsafe <ref refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri" kindref="compound">MR.VarEdgeTri.FlaggedTri</ref></type>
         <definition>new unsafe MR.VarEdgeTri.FlaggedTri MR.VarEdgeTri.flaggedTri</definition>
         <argsstring></argsstring>
         <name>flaggedTri</name>
@@ -80,7 +80,7 @@
         <name>VarEdgeTri</name>
         <qualifiedname>MR.VarEdgeTri.VarEdgeTri</qualifiedname>
         <param>
-          <type>MR.Const_VarEdgeTri</type>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -149,7 +149,7 @@
           <declname>isEdgeATriB</declname>
         </param>
         <param>
-          <type>MR.Const_EdgeTri</type>
+          <type><ref refid="classMR_1_1Const__EdgeTri" kindref="compound">MR.Const_EdgeTri</ref></type>
           <declname>et</declname>
         </param>
         <briefdescription>
@@ -168,7 +168,7 @@
         <name>assign</name>
         <qualifiedname>MR.VarEdgeTri.assign</qualifiedname>
         <param>
-          <type>MR.Const_VarEdgeTri</type>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -182,7 +182,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>if isEdgeATriB() == true, then stores edge from mesh A and triangle from mesh B if isEdgeATriB() == false, then stores edge from mesh B and triangle from mesh A Generated from class <computeroutput><ref refid="classMR_1_1VarEdgeTri" kindref="compound">MR.VarEdgeTri</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>if <ref refid="classMR_1_1Const__VarEdgeTri_1a78c8aec0b3dad7471d4800eb391176db" kindref="member">isEdgeATriB()</ref> == true, then stores edge from mesh A and triangle from mesh B if <ref refid="classMR_1_1Const__VarEdgeTri_1a78c8aec0b3dad7471d4800eb391176db" kindref="member">isEdgeATriB()</ref> == false, then stores edge from mesh B and triangle from mesh A Generated from class <computeroutput><ref refid="classMR_1_1VarEdgeTri" kindref="compound">MR.VarEdgeTri</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -195,6 +195,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VarEdgeTri</label>
+        <link refid="classMR_1_1Const__VarEdgeTri"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -213,6 +214,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VarEdgeTri</label>
         <link refid="classMR_1_1VarEdgeTri"/>
@@ -221,11 +226,15 @@
       </node>
       <node id="2">
         <label>MR.Const_VarEdgeTri</label>
+        <link refid="classMR_1_1Const__VarEdgeTri"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_edge</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -240,9 +249,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="603" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="604" bodyend="695"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a16f50b79d85fe1c977a076af9395aa9c" prot="protected" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>__ref_storage_edge</name></member>
       <member refid="classMR_1_1VarEdgeTri_1a4b070376c2ab8c71bb9ddf6000c9707f" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1aa320296aa8ce7abbf6771aa36b1c8ba7" prot="package" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1ae1a67a1de019ff1f1c9bb328a9e93d83" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1aceab15a9b4b6d1b7036e9c11420e32ef" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a2e8bb75c701824b1a5b19b2a3c6b6a2b" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a5a7cd3aa3c5720dd27df9787cef024eb" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a07041d76d5e0bc62975913805a759daa" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a5ef07e0de663519da991e85b0e36e682" prot="protected" virt="virtual"><scope>MR::VarEdgeTri</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a7346908917b44a2600e39df83aa1ecd4" prot="public" virt="virtual"><scope>MR::VarEdgeTri</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VarEdgeTri_1afa5ab5347dc38bbc21af8303e1d956e7" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>edge</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a73e2f4853e00a096632228e4368af89f" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>edgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a577d58e8ea6645221ad14e02ed58da04" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a20c8ad042e10bc1fc6b198b339acfc60" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>Equals</name></member>
       <member refid="classMR_1_1VarEdgeTri_1a1f28e0d3c4c306611e585de5f4eb85a1" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>flaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a78c8aec0b3dad7471d4800eb391176db" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>isEdgeATriB</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1acf090ba15d5944ff40fb32692aa4a673" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1ad61264ed5a9917995f0b92713a54aa28" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1ae4772e5c6c7443cd39cfeb7759ee5930" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a0415489018f0bf746d29be2a0919f64e" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>tri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a67bdf7a682543a88f7af16589f207356" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>valid</name></member>
       <member refid="classMR_1_1VarEdgeTri_1aa6c63897685cd031c3beef8418f49e27" prot="package" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>VarEdgeTri</name></member>
       <member refid="classMR_1_1VarEdgeTri_1a937042cd5f21708e75c60cce7d2a8efe" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>VarEdgeTri</name></member>
       <member refid="classMR_1_1VarEdgeTri_1a64b96b9c400abce05a4b1311d6695f44" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>VarEdgeTri</name></member>

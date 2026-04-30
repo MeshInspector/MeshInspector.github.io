@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CombinedHistoryAction" kind="class" language="C#" prot="public">
     <compoundname>MR::CombinedHistoryAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CombinedHistoryAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CombinedHistoryAction" prot="public" virt="non-virtual">MR.Const_CombinedHistoryAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a0d3a6d4cefc8d1d0490713cf45ecfbd5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>CombinedHistoryAction</name>
         <qualifiedname>MR.CombinedHistoryAction.CombinedHistoryAction</qualifiedname>
         <param>
-          <type>Const_CombinedHistoryAction</type>
+          <type><ref refid="classMR_1_1Const__CombinedHistoryAction" kindref="compound">Const_CombinedHistoryAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.CombinedHistoryAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>type</declname>
         </param>
         <briefdescription>
@@ -233,6 +233,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CombinedHistoryAction</label>
+        <link refid="classMR_1_1Const__CombinedHistoryAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -254,6 +255,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CombinedHistoryAction</label>
+        <link refid="classMR_1_1Const__CombinedHistoryAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -275,9 +277,21 @@
       <member refid="classMR_1_1CombinedHistoryAction_1a2c7d0e924364b90b431fd3ab200657aa" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a021de2ac1529160ed4f49e1d82e581ca" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1aee0c2b74bb5b1590616ea67a38a34884" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1aa8a42f515f350ed99de5c0b0d7f2add8" prot="package" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>Const_CombinedHistoryAction</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1aedcfe7e1bbb8473b742623d8ae738169" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>Const_CombinedHistoryAction</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1aa6f59a368476ad0c643073508274f5ba" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>Const_CombinedHistoryAction</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1a0af11c1039853d8c5ae32dbdc4ba9421" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>Const_CombinedHistoryAction</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1a1fa16e35943b8678dcce76813b87cd3f" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>Const_CombinedHistoryAction</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1a291819f843127726449caa10e39d20d8" prot="protected" virt="virtual"><scope>MR::CombinedHistoryAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1a1b0b1c4c85f3b7c6e80dc4f8b279b01e" prot="public" virt="virtual"><scope>MR::CombinedHistoryAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1a7a9deda165fba9c9098c4466052085be" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>empty</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a90fd5fe8930164bcbb34442c2905749e" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>filter</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a85b30407745962bc5a2675fb77325ef9" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>getStack</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1afcfc1cf6b45e0de2f58c5ef54586905a" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1aa9e92924d668b733eadfef4536ddd5b8" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>name</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a2938f49edeee08cfe10804d89af8d3f9" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator CombinedHistoryAction?</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1a0a8e5e4d015750cf78d44cba216defdf" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator Const_CombinedHistoryAction?</name></member>
+      <member refid="classMR_1_1Const__CombinedHistoryAction_1aa6ed99ff4dae60b13d556c2697fd0fc0" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a0d3a6d4cefc8d1d0490713cf45ecfbd5" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>
   </compounddef>

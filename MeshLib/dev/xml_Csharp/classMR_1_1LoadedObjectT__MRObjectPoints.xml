@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoadedObjectT__MRObjectPoints" kind="class" language="C#" prot="public">
     <compoundname>MR::LoadedObjectT_MRObjectPoints</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectPoints</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints" prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectPoints</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LoadedObjectT__MRObjectPoints_1af7dc46c5ee2d0fdb265090db8637477f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.SharedPtr_MRObjectPoints</type>
@@ -141,7 +141,7 @@
         <name>LoadedObjectT_MRObjectPoints</name>
         <qualifiedname>MR.LoadedObjectT_MRObjectPoints.LoadedObjectT_MRObjectPoints</qualifiedname>
         <param>
-          <type>Const_LoadedObjectT_MRObjectPoints</type>
+          <type><ref refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints" kindref="compound">Const_LoadedObjectT_MRObjectPoints</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -206,6 +206,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT_MRObjectPoints</label>
+        <link refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +228,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT_MRObjectPoints</label>
+        <link refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -242,6 +244,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="719" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="720" bodyend="830"/>
     <listofallmembers>
       <member refid="classMR_1_1LoadedObjectT__MRObjectPoints_1a7c6f081b9efe51fff5a1a67710f1380d" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints_1aa4b258e910f11a35634096be02bf61c6" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>Const_LoadedObjectT_MRObjectPoints</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints_1a26363831d2facc8cc0c4f955bcecc208" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>Const_LoadedObjectT_MRObjectPoints</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints_1aef222694e3a789b31f84804fdc2a5189" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>Const_LoadedObjectT_MRObjectPoints</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints_1a88ed83ba75b27f9791b7d9e3689e6667" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>Const_LoadedObjectT_MRObjectPoints</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints_1ad197d9dc970713c2dabee0c853c69407" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>Const_LoadedObjectT_MRObjectPoints</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints_1a50549773fdb0bbcbf9022ae79a56a831" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>Const_LoadedObjectT_MRObjectPoints</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints_1a32a37d4143a5bb00f4e2b189a1873495" prot="protected" virt="virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectPoints_1a94d798b76e40f3abbf9f62465d82c147" prot="public" virt="virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectPoints_1a0bbeb4099ee1853edc1709a5ae65fba7" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>lengthUnit</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectPoints_1aad0999a877477f1ecea5b80f4ec26b79" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>LoadedObjectT_MRObjectPoints</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectPoints_1a5e9c4eecc8151ab74cd9e91516e9feec" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectPoints</scope><name>LoadedObjectT_MRObjectPoints</name></member>

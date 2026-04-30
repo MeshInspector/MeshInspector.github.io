@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector4__UnsignedChar" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector4_UnsignedChar</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector4_UnsignedChar</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector4__UnsignedChar" prot="public" virt="non-virtual">MR.Const_Vector4_UnsignedChar</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector4__UnsignedChar_1ad33f20dea10648e3abbd04508a5ce340" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref byte</type>
@@ -123,7 +123,7 @@
         <name>Vector4_UnsignedChar</name>
         <qualifiedname>MR.Vector4_UnsignedChar.Vector4_UnsignedChar</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -161,7 +161,7 @@
         <name>Vector4_UnsignedChar</name>
         <qualifiedname>MR.Vector4_UnsignedChar.Vector4_UnsignedChar</qualifiedname>
         <param>
-          <type>MR.Const_NoInit</type>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -211,7 +211,7 @@
         <name>assign</name>
         <qualifiedname>MR.Vector4_UnsignedChar.assign</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -230,7 +230,7 @@
         <name>addAssign</name>
         <qualifiedname>MR.Vector4_UnsignedChar.addAssign</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -249,7 +249,7 @@
         <name>subAssign</name>
         <qualifiedname>MR.Vector4_UnsignedChar.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_Vector4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -314,6 +314,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector4_UnsignedChar</label>
+        <link refid="classMR_1_1Const__Vector4__UnsignedChar"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -340,6 +341,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector4_UnsignedChar</label>
+        <link refid="classMR_1_1Const__Vector4__UnsignedChar"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -359,10 +361,38 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4220" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4221" bodyend="4354"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a8a8472aec9fae1e45b04b3f99c599935" prot="protected" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a6d7d4bed6a14d2722e40f251d7acc48a" prot="protected" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>__ref_storage_w</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a9cadd6f04b329a2e0ad30f1a49951ab8" prot="protected" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>__ref_storage_x</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7204cea2aba7a144ade094477142f060" prot="protected" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>__ref_storage_y</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a800f98a041c8a3a1a3ef4af1f2c1e116" prot="protected" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>__ref_storage_z</name></member>
       <member refid="classMR_1_1Vector4__UnsignedChar_1a44e26b593f3df7beac9e919f5f7e0819" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>addAssign</name></member>
       <member refid="classMR_1_1Vector4__UnsignedChar_1a9aa71c421f8cd35594674dc587596e20" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a5474088ee7673b5528add67d6d76b151" prot="package" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a57c3fc2aa06d5523ce1a8736458dacc0" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a8103618271cb01d0f1247e94ad4a2034" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7ff8e8c4167ffd25b1ba351c1e291d90" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a126561ea5257762f689c078a7b4987ce" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a33b0d662655c71967d44bbeda29719e5" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a5082e21de56a225670e1ae9a842d156a" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a67dc734a66fdff0bb96b5860b267132f" prot="protected" virt="virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a298188c9fd32ab3c4bcc49cad5840ebc" prot="public" virt="virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector4__UnsignedChar_1a99669e132266081b350999a3b6c305ae" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ac6d4fb5241a0f933fc300e482b0b3c7b" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ad0352c2c55b684861f7de519b61d5804" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7097c79f6975686c05bc77a97a239fac" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a92d83f9714e14ec01350eee1e359c3af" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>length</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a4472533ed3d7f9e0ea0497874b1b1910" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>lengthSq</name></member>
       <member refid="classMR_1_1Vector4__UnsignedChar_1a8fd4fa724e43aac5915bef69694934c8" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1af5ef7463c9e043356adf3e464cb752c7" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a56be296dc594f6b3852d817a1fc276cb" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a2003afde627a56f108e712c28213fc8f" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1aaa727959edf63ab7bcea0adf3a15763e" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7d275a679fcf04f346c4ef7270d8e67d" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ab7c123afc4e1fb68c537fc95afa5c5af" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ab9e3cedcd6f60668b127e6397b181bc4" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a096bb4ea7f035d7c0a3ddf6dd7dfc71a" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator/</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7aebd2dc8eaf98ae37799419268ab784" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector4__UnsignedChar_1a9bb75c578874a65ff7fd0646b10e0d35" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>subAssign</name></member>
       <member refid="classMR_1_1Vector4__UnsignedChar_1a643c6878b20f6a6d39961fd8407da895" prot="public" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>this[int e]</name></member>
       <member refid="classMR_1_1Vector4__UnsignedChar_1a119bec65820ed0d32344197a9f5d0690" prot="package" virt="non-virtual"><scope>MR::Vector4_UnsignedChar</scope><name>Vector4_UnsignedChar</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RingIterator__MRNextEdgeSameLeft" kind="class" language="C#" prot="public">
     <compoundname>MR::RingIterator_MRNextEdgeSameLeft</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RingIterator_MRNextEdgeSameLeft</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft" prot="public" virt="non-virtual">MR.Const_RingIterator_MRNextEdgeSameLeft</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameLeft_1af03db6ae8bb39817b6151302b516541f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -55,7 +55,7 @@
         <name>RingIterator_MRNextEdgeSameLeft</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</qualifiedname>
         <param>
-          <type>MR.Const_RingIterator_MRNextEdgeSameLeft</type>
+          <type><ref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft" kindref="compound">MR.Const_RingIterator_MRNextEdgeSameLeft</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -93,7 +93,7 @@
         <name>RingIterator_MRNextEdgeSameLeft</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.RingIterator_MRNextEdgeSameLeft</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -120,7 +120,7 @@
         <name>assign</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.assign</qualifiedname>
         <param>
-          <type>MR.Const_RingIterator_MRNextEdgeSameLeft</type>
+          <type><ref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft" kindref="compound">MR.Const_RingIterator_MRNextEdgeSameLeft</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -139,7 +139,7 @@
         <name>incr</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameLeft.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&amp;gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&amp;gt;<ref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a5314462999ec7d4783574e1b3a008136" kindref="member">operator++</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,6 +162,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RingIterator_MRNextEdgeSameLeft</label>
+        <link refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -188,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RingIterator_MRNextEdgeSameLeft</label>
+        <link refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,8 +210,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="399" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="400" bodyend="461"/>
     <listofallmembers>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1aba8c28ef75f1e2fc3dfe61bffae7fe77" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a740bdc8446e6cb28fb57d07a858d8be3" prot="package" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>Const_RingIterator_MRNextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1aefb94255e174945588adcb73cafff06f" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>Const_RingIterator_MRNextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a6ec8c02bd14628e618f686796e101e67" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>Const_RingIterator_MRNextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a3ea686b78610af57816d70600dc0954c" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>Const_RingIterator_MRNextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1aa46842eb338d78a8b21c2da3c22377a9" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1ab0c323ebde3ee4d870c82ffa34163a9d" prot="protected" virt="virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a33f66431d8c7fcf89bee4fdabf0ced92" prot="public" virt="virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1ab254f3036bbd66465b89b2727605f42e" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a89c9842893d1acafd41169505f822f9c" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1acf64a46b738f9c727eac5c3ef7cd7af9" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>first</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a9bafc467c0c98fd3a782a97fac937b71" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a787a6070e5fd4961019fbbb8df4d1106" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>next</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1aba4e8dcda212ce8ed2b044f5fe763f9d" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>operator MR.Const_NextEdgeSameLeft</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1af03db6ae8bb39817b6151302b516541f" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>operator MR.NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a36355aa85feb7f8b9414d304f60094e7" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a5314462999ec7d4783574e1b3a008136" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameLeft_1a8f7ab9c1aecda4b8037af6a60bfa2e98" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>operator==</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a922f1015cab88fecfcdd780a9453dc71" prot="package" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>RingIterator_MRNextEdgeSameLeft</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a911a32456b2233ff9eef353741724118" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>RingIterator_MRNextEdgeSameLeft</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameLeft_1a52162cb83ff6dbc36867fe908b395e71" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameLeft</scope><name>RingIterator_MRNextEdgeSameLeft</name></member>

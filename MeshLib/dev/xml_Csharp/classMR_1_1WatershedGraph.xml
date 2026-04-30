@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WatershedGraph" kind="class" language="C#" prot="public">
     <compoundname>MR::WatershedGraph</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_WatershedGraph</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__WatershedGraph" prot="public" virt="non-virtual">MR.Const_WatershedGraph</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1aff87abe442bfe29ca615661400ba52f8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>WatershedGraph</name>
         <qualifiedname>MR.WatershedGraph.WatershedGraph</qualifiedname>
         <param>
-          <type>Const_WatershedGraph</type>
+          <type><ref refid="classMR_1_1Const__WatershedGraph" kindref="compound">Const_WatershedGraph</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -92,11 +92,11 @@
         <name>WatershedGraph</name>
         <qualifiedname>MR.WatershedGraph.WatershedGraph</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_Vector_Int_MRFaceId</type>
+          <type><ref refid="classMR_1_1Const__Vector__Int__MRFaceId" kindref="compound">MR.Const_Vector_Int_MRFaceId</ref></type>
           <declname>face2basin</declname>
         </param>
         <param>
@@ -113,7 +113,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1088" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1088" bodyend="1095"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1a18232b2ebc524ead9718a678045ba03e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.WatershedGraph.BasinInfo</type>
+        <type>unsafe new <ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref></type>
         <definition>unsafe new MR.WatershedGraph.BasinInfo MR.WatershedGraph.basinInfo</definition>
         <argsstring>(MR.GraphVertId v)</argsstring>
         <name>basinInfo</name>
@@ -132,7 +132,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" line="1100" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRWatershedGraph.cs" bodystart="1100" bodyend="1105"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WatershedGraph_1a5b2c2401848105a2680e58cd003d954c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.WatershedGraph.BdInfo</type>
+        <type>unsafe new <ref refid="classMR_1_1Const__WatershedGraph_1_1BdInfo" kindref="compound">MR.WatershedGraph.BdInfo</ref></type>
         <definition>unsafe new MR.WatershedGraph.BdInfo MR.WatershedGraph.bdInfo</definition>
         <argsstring>(MR.GraphEdgeId e)</argsstring>
         <name>bdInfo</name>
@@ -157,7 +157,7 @@
         <name>setParentsToRoots</name>
         <qualifiedname>MR.WatershedGraph.setParentsToRoots</qualifiedname>
         <briefdescription>
-<para>replaces parent of each basin with its computed root; this speeds up following calls to getRootBasin() Generated from method <computeroutput><ref refid="classMR_1_1WatershedGraph_1a23d6b3bc273652e246115fee49451b6a" kindref="member">MR.WatershedGraph.setParentsToRoots</ref></computeroutput>. </para>
+<para>replaces parent of each basin with its computed root; this speeds up following calls to <ref refid="classMR_1_1Const__WatershedGraph_1ae1e88197e97bb7bc1ac0915cfc120d79" kindref="member">getRootBasin()</ref> Generated from method <computeroutput><ref refid="classMR_1_1WatershedGraph_1a23d6b3bc273652e246115fee49451b6a" kindref="member">MR.WatershedGraph.setParentsToRoots</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -222,6 +222,7 @@
       </node>
       <node id="2">
         <label>MR.Const_WatershedGraph</label>
+        <link refid="classMR_1_1Const__WatershedGraph"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -243,6 +244,7 @@
       </node>
       <node id="2">
         <label>MR.Const_WatershedGraph</label>
+        <link refid="classMR_1_1Const__WatershedGraph"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,9 +261,32 @@
     <listofallmembers>
       <member refid="classMR_1_1WatershedGraph_1a18232b2ebc524ead9718a678045ba03e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>basinInfo</name></member>
       <member refid="classMR_1_1WatershedGraph_1a5b2c2401848105a2680e58cd003d954c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>bdInfo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a357cf3b382c4c5ccf698ff0880d49304" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>computeBasinVolume</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1af8178cc3042ae36e547ab8948730cee4" prot="package" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1aeb1cb051e6714a412ccf296165153207" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ae8139eea8f311009e9d50c09d4245927" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a5a745701f2b0040892037ac50eb7c74d" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ac6a565acd1b0c77b8d1447280617d547" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>Const_WatershedGraph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ae0e567d149da049088a18666cd550e23" prot="protected" virt="virtual"><scope>MR::WatershedGraph</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a72791815064705f510688b22383b9953" prot="public" virt="virtual"><scope>MR::WatershedGraph</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a6d574a3eb3a2b48a58c68533612aaa81" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>findLowestBd</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a333453a0138e87a3207bc017fdd93362" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsFinallyTo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1aa8306747f48a7b801fe22a6cde442403" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>flowsTo</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1abdbcab094783957ba5e82bfbae230513" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getAllBasinFaces</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a4f5f908a520621e62cf4e620651f46e4" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFaces</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a71dbf2e204d26bed43920221478e4480" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getBasinFacesBelowLevel</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a14c8053c624be37775ab5549a57cf95e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getHeightAt</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a9841184c1e4e8e34af28beb15732a8bc" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getInterBasinEdges</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a16afbe1ca8ad763d08b77ba16d6f3883" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getOverflowPoints</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ae1e88197e97bb7bc1ac0915cfc120d79" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>getRootBasin</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1ae7f5376508c0bde6308d303e14b1204f" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>graph</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1aaea8e085cab532a1466a01ed93c5467f" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>iniBasin2Tgt</name></member>
       <member refid="classMR_1_1WatershedGraph_1aba8155ec71a26aeb3390e5f25c3f4a6c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>merge</name></member>
       <member refid="classMR_1_1WatershedGraph_1a1e2e6c34cf43ba93e15747e4705abe48" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>mergeViaBd</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1af37c810f1082a728251e5c978899a787" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>numBasins</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a2cbea7d60d2c4fa0528f8b1725b7e082" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>outsideId</name></member>
       <member refid="classMR_1_1WatershedGraph_1a23d6b3bc273652e246115fee49451b6a" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>setParentsToRoots</name></member>
+      <member refid="classMR_1_1Const__WatershedGraph_1a4801421701431cce7b1d214ba556548a" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>totalArea</name></member>
       <member refid="classMR_1_1WatershedGraph_1aff87abe442bfe29ca615661400ba52f8" prot="package" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>WatershedGraph</name></member>
       <member refid="classMR_1_1WatershedGraph_1a07aec7776521671ca5286c8e878abc8c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>WatershedGraph</name></member>
       <member refid="classMR_1_1WatershedGraph_1aba4bc53a0ef298617141d5668abd953c" prot="public" virt="non-virtual"><scope>MR::WatershedGraph</scope><name>WatershedGraph</name></member>

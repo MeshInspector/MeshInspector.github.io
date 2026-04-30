@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceScalars" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceScalars</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceScalars</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FaceScalars" prot="public" virt="non-virtual">MR.Const_FaceScalars</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FaceScalars_1a962d8abe6b93816b8cf06ac90ee5de2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>FaceScalars</name>
         <qualifiedname>MR.FaceScalars.FaceScalars</qualifiedname>
         <param>
-          <type>Const_FaceScalars</type>
+          <type><ref refid="classMR_1_1Const__FaceScalars" kindref="compound">Const_FaceScalars</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -625,6 +625,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceScalars</label>
+        <link refid="classMR_1_1Const__FaceScalars"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -658,6 +659,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceScalars</label>
+        <link refid="classMR_1_1Const__FaceScalars"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -684,9 +686,26 @@
       <member refid="classMR_1_1FaceScalars_1a000170016b307433926914a4e0e9b772" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1FaceScalars_1a8ec37b736329cc61ebb33bc5d5d7e328" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1FaceScalars_1a5b56bd4c9f7edbfc078508e525ebe4cd" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a1b1e0edaf64953f9dffcd5d2cb2e4dab" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a10ea7d63b1be29c46bfedde211fe3e40" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1ad03bc43ec181d7e04e422a911a0cc861" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>capacity</name></member>
       <member refid="classMR_1_1FaceScalars_1a188e21c351bc066d6edf948bc33002a4" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a20f2e1bfed21b0c2a6be8de750582a96" prot="package" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a835d9b2698130ef5dee71f813f3d216e" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a22f61b6bc79f27a11b99634dce33c13c" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a705c07b0a713f0715bf4744b0ef5ec94" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1af97c4a585c0833386402794ec74c0f0d" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a8638326dddc1a4b39d01bb8379972b1f" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a3581732d1825799eed3b8572c0cb023e" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1aa7c7102eb2e1331f56183d70c6ab0f53" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Const_FaceScalars</name></member>
       <member refid="classMR_1_1FaceScalars_1a0a73cf2569c040a302191fbf29f7d68c" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a216d6630e57d80ded5430c266ca7ee79" prot="protected" virt="virtual"><scope>MR::FaceScalars</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a86881029b6522f116ddfc71f6e069e22" prot="public" virt="virtual"><scope>MR::FaceScalars</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FaceScalars_1a3b02b8caf3c18559d6de6afa525b6d7e" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a39409e98cc59cb53a3bcc470b8129a2c" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1aa3019c2be18e1041eac624af0d1200e8" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1adaf10b70c04ca2ac14512294eff0f478" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a345bf640b1ef3f64df49325e785b7b68" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>Equals</name></member>
       <member refid="classMR_1_1FaceScalars_1a8729d21df4308f87c7e6c6d0500cbbbd" prot="package" virt="non-virtual"><scope>MR::FaceScalars</scope><name>FaceScalars</name></member>
       <member refid="classMR_1_1FaceScalars_1ad7b9129509e24d9b954eb3b44a24ab30" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>FaceScalars</name></member>
       <member refid="classMR_1_1FaceScalars_1a973851cdec86d274e2f1ea420466ebfc" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>FaceScalars</name></member>
@@ -698,7 +717,11 @@
       <member refid="classMR_1_1FaceScalars_1a907a28536445b210e50f8900de62ef70" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>front</name></member>
       <member refid="classMR_1_1FaceScalars_1ac0c0bc0c3cfa0fd6dac3e07753e4ac4d" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1FaceScalars_1ade5815ae06f1f9a03bbfd58b6eff91fb" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a86b3e2e20a81e55236e249d59ed8112e" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a416caada32a15089db1d9572e5e01342" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>operator Const_FaceScalars</name></member>
       <member refid="classMR_1_1FaceScalars_1a4e2e3df388b7c1901eddcb8402da84df" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>operator FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a7c6c1cce96ec8d18e03334842f03692d" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1abb020408dbf31a1468511e3584ed6590" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>operator==</name></member>
       <member refid="classMR_1_1FaceScalars_1abd41ba966f3ddf2a75dda3fa6c1636e0" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>popBack</name></member>
       <member refid="classMR_1_1FaceScalars_1a3064a343a80b5ff30f9a37bf5df00d23" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>pushBack</name></member>
       <member refid="classMR_1_1FaceScalars_1a1ceb58948ecd2cfa1b8be80da5c00a61" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>pushBack</name></member>
@@ -707,6 +730,7 @@
       <member refid="classMR_1_1FaceScalars_1a538e58980c85305354dc198c2422a8af" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>resize</name></member>
       <member refid="classMR_1_1FaceScalars_1a48be9161b3f65dfb13dd58488a4990c9" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1FaceScalars_1a63933ffad41435354e3691d3170715bc" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1ac42041c7e3c8a8309d6b3b5ffadc501f" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>size</name></member>
       <member refid="classMR_1_1FaceScalars_1ab6cc0246dd7aac16e9ef100c7aebe1d1" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>swap</name></member>
       <member refid="classMR_1_1FaceScalars_1ae7788c0d53c051bb4c385fdcf8bdf872" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1FaceScalars_1a962d8abe6b93816b8cf06ac90ee5de2a" prot="public" virt="non-virtual"><scope>MR::FaceScalars</scope><name>vec</name></member>

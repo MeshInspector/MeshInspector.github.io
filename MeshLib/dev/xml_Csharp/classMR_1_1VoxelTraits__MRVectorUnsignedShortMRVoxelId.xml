@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId" prot="public" virt="non-virtual">MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1ac32b10be952b0b202b0512b0ed9992fd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name>
         <qualifiedname>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId" kindref="compound">MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.assign</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId" kindref="compound">MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</label>
+        <link refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</label>
+        <link refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3489" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3490" bodyend="3530"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a1610910b6b8a76a0845b6621058cf346" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a693f256f22b8cfc930b704fe1607fcba" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a80f70eaf58153dde622535eb00cd262c" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a56fa4f0849e06546b372af8e933de580" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a6460ace4c50dd7c8e89e29e2e051ba9a" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a84891885315a7d332010359a987c51fa" prot="protected" virt="virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a5427bdc3e07daaceb152229ed5d661c3" prot="public" virt="virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1ac32b10be952b0b202b0512b0ed9992fd" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a52dc862895d7c60032907687e83f8fb8" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1aac854af743f76fdf5252dec35b88c614" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshPoint" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshPoint</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshPoint</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshPoint" prot="public" virt="non-virtual">MR.Const_MeshPoint</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshPoint_1a2f1d929f6942b4a573467aa3b4760be1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
@@ -112,7 +112,7 @@
         <name>MeshPoint</name>
         <qualifiedname>MR.MeshPoint.MeshPoint</qualifiedname>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>triPoint</declname>
         </param>
         <param>
@@ -162,7 +162,7 @@
         <name>MeshPoint</name>
         <qualifiedname>MR.MeshPoint.MeshPoint</qualifiedname>
         <param>
-          <type>Const_MeshPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshPoint" kindref="compound">Const_MeshPoint</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -219,11 +219,11 @@
         <name>set</name>
         <qualifiedname>MR.MeshPoint.set</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>p</declname>
         </param>
         <briefdescription>
@@ -250,6 +250,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshPoint</label>
+        <link refid="classMR_1_1Const__MeshPoint"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +264,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshPoint</label>
         <link refid="classMR_1_1MeshPoint"/>
@@ -271,9 +276,14 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshPoint</label>
+        <link refid="classMR_1_1Const__MeshPoint"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_inDir</edgelabel>
+          <edgelabel>__ref_storage_pt</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -285,7 +295,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="142" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="143" bodyend="262"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshPoint_1a106f6ba20e8be4b8aba16d52b86184e6" prot="protected" virt="non-virtual"><scope>MR::MeshPoint</scope><name>__ref_storage_inDir</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1a8796ab9ebbea25eb205ace95f93071a0" prot="protected" virt="non-virtual"><scope>MR::MeshPoint</scope><name>__ref_storage_pt</name></member>
       <member refid="classMR_1_1MeshPoint_1a425b76b838c8d022bd75509e5ddb2338" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1a0023a1143ee76189f9cb6efcf30c8ed2" prot="package" virt="non-virtual"><scope>MR::MeshPoint</scope><name>Const_MeshPoint</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1abb3b89f3d7699df7dd59f951180fdedc" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>Const_MeshPoint</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1ae1f792d8e02ddb65c9bc433f86e42cf6" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>Const_MeshPoint</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1ae3b4b7f24171c9f736966e82fedcea10" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>Const_MeshPoint</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1a4ab3303d40562b6beb9c86846da4369b" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>Const_MeshPoint</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1a966e55ccc10f60977c5d3cde1589d860" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>Const_MeshPoint</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1ad4f104658129cfc833dbe1a6b630c2b9" prot="protected" virt="virtual"><scope>MR::MeshPoint</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshPoint_1a5638df009ce39b3dfbb8a74608106a4e" prot="public" virt="virtual"><scope>MR::MeshPoint</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshPoint_1a25f475704ab8ef2a027d8a60ead91985" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>inDir</name></member>
       <member refid="classMR_1_1MeshPoint_1aa8b1e60c5d754836314613ba778ab76d" prot="package" virt="non-virtual"><scope>MR::MeshPoint</scope><name>MeshPoint</name></member>
       <member refid="classMR_1_1MeshPoint_1a7d0c2aa7fe205c6b33c63e8eda3d2a50" prot="public" virt="non-virtual"><scope>MR::MeshPoint</scope><name>MeshPoint</name></member>

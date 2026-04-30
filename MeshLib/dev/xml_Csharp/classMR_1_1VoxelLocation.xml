@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelLocation" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelLocation</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelLocation</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelLocation" prot="public" virt="non-virtual">MR.Const_VoxelLocation</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VoxelLocation_1a99c8e937e49625bd95ba2385cb4ea12a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
@@ -103,7 +103,7 @@
         <name>VoxelLocation</name>
         <qualifiedname>MR.VoxelLocation.VoxelLocation</qualifiedname>
         <param>
-          <type>MR.Const_VoxelLocation</type>
+          <type><ref refid="classMR_1_1Const__VoxelLocation" kindref="compound">MR.Const_VoxelLocation</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.VoxelLocation.assign</qualifiedname>
         <param>
-          <type>MR.Const_VoxelLocation</type>
+          <type><ref refid="classMR_1_1Const__VoxelLocation" kindref="compound">MR.Const_VoxelLocation</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelLocation</label>
+        <link refid="classMR_1_1Const__VoxelLocation"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VoxelLocation</label>
         <link refid="classMR_1_1VoxelLocation"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelLocation</label>
+        <link refid="classMR_1_1Const__VoxelLocation"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_id</edgelabel>
+          <edgelabel>__ref_storage_pos</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,8 +213,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVolumeIndexer.cs" bodystart="129" bodyend="193"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelLocation_1ad506f8198014173c00b8d9b4b5d5c11b" prot="protected" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>__ref_storage_id</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1a01b9474e2bee38790ad6500a0f4ede8d" prot="protected" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>__ref_storage_pos</name></member>
       <member refid="classMR_1_1VoxelLocation_1ab31f0ba991ada68471a8ca077c5be635" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1a23dd3f1755793081896c3a49bdcf168d" prot="package" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>Const_VoxelLocation</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1abeb1d847309d11f30594accb8ba162db" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>Const_VoxelLocation</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1a87886d46c450fd7d134ef0d19678eab4" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>Const_VoxelLocation</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1a84b864e7d16530bb27e4508d4f1e3387" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>Const_VoxelLocation</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1ac6a387596376cff4070d1cb82e74099e" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>Const_VoxelLocation</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1a355423683c831f0714ab8266e281ea7c" prot="protected" virt="virtual"><scope>MR::VoxelLocation</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1ab43d3bde574cd965d30114b48dc0830f" prot="public" virt="virtual"><scope>MR::VoxelLocation</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelLocation_1a99c8e937e49625bd95ba2385cb4ea12a" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__VoxelLocation_1a369df2293583c21022e71fa130c556d0" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>operator bool</name></member>
       <member refid="classMR_1_1VoxelLocation_1affb2b57503ac3e10c48ed5f6fd912b1f" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>pos</name></member>
       <member refid="classMR_1_1VoxelLocation_1aeb7b5e0c480cba4416a2d7ba433f3b23" prot="package" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>VoxelLocation</name></member>
       <member refid="classMR_1_1VoxelLocation_1a9d6bec591eb54357cab1e49c77c97762" prot="public" virt="non-virtual"><scope>MR::VoxelLocation</scope><name>VoxelLocation</name></member>

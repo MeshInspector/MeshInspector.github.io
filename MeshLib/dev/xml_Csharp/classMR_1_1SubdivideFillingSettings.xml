@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SubdivideFillingSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SubdivideFillingSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SubdivideFillingSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SubdivideFillingSettings" prot="public" virt="non-virtual">MR.Const_SubdivideFillingSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SubdivideFillingSettings_1adaec9be12a253b1a260be3022f3ac435" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -200,7 +200,7 @@
         <name>SubdivideFillingSettings</name>
         <qualifiedname>MR.SubdivideFillingSettings.SubdivideFillingSettings</qualifiedname>
         <param>
-          <type>Const_SubdivideFillingSettings</type>
+          <type><ref refid="classMR_1_1Const__SubdivideFillingSettings" kindref="compound">Const_SubdivideFillingSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -265,6 +265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SubdivideFillingSettings</label>
+        <link refid="classMR_1_1Const__SubdivideFillingSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -278,6 +279,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SubdivideFillingSettings</label>
         <link refid="classMR_1_1SubdivideFillingSettings"/>
@@ -286,9 +291,13 @@
       </node>
       <node id="2">
         <label>MR.Const_SubdivideFillingSettings</label>
+        <link refid="classMR_1_1Const__SubdivideFillingSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -300,8 +309,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="177" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="178" bodyend="308"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1ad086d26f45425487941f26221f0a9fc4" prot="protected" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1a92c212fc25e99ead31fc48d3e493d910" prot="protected" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>__ref_storage_maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1a9557f30d73596090c075a32d017c5f23" prot="protected" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>__ref_storage_maxEdgeLen</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1acf58f661eaa704ce46d3ee95043312b6" prot="protected" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>__ref_storage_maxEdgeSplits</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1ad2e65b46e2f116a7860cdf379b727728" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1ac37da172f330f3e052931eb23839af5c" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1af130791d5769c835a411240d7675fb05" prot="package" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>Const_SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1a30c451adc17246a823cb78bd43debd4c" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>Const_SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1adb5f32b45eae1204b744c52612fe4cc9" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>Const_SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1a7ec9ffc28deec5517341787c5d8207c4" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>Const_SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1a706cb5fdfb05f60d5a4b0f1eb038a0ad" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>Const_SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1afca3d09307dfeda5920218523cdfb9e9" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>Const_SubdivideFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1a2e4e77e924d30ad05dd66702667a502e" prot="protected" virt="virtual"><scope>MR::SubdivideFillingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SubdivideFillingSettings_1a245af1aaeac44b2937632f35e31c586d" prot="public" virt="virtual"><scope>MR::SubdivideFillingSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1ac8d79015901dd1d039820ca164d564c9" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxAngleChangeAfterFlip</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1add6104ebc126a14aa4516b0906a8d432" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxEdgeLen</name></member>
       <member refid="classMR_1_1SubdivideFillingSettings_1ad938bd807028981dfa116d8d3b0ee0d1" prot="public" virt="non-virtual"><scope>MR::SubdivideFillingSettings</scope><name>maxEdgeSplits</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectMeshMergeOptions" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectMeshMergeOptions</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectMeshMergeOptions</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectMeshMergeOptions" prot="public" virt="non-virtual">MR.Const_ObjectMeshMergeOptions</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ObjectMeshMergeOptions_1aee85a9f96517ee11ef1d4a87168f47b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Const_Vector_MRAffineXf3f</type>
@@ -86,7 +86,7 @@
         <name>ObjectMeshMergeOptions</name>
         <qualifiedname>MR.ObjectMeshMergeOptions.ObjectMeshMergeOptions</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshMergeOptions</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshMergeOptions" kindref="compound">MR.Const_ObjectMeshMergeOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>assign</name>
         <qualifiedname>MR.ObjectMeshMergeOptions.assign</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshMergeOptions</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshMergeOptions" kindref="compound">MR.Const_ObjectMeshMergeOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -151,6 +151,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectMeshMergeOptions</label>
+        <link refid="classMR_1_1Const__ObjectMeshMergeOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -164,6 +165,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ObjectMeshMergeOptions</label>
         <link refid="classMR_1_1ObjectMeshMergeOptions"/>
@@ -172,9 +177,13 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectMeshMergeOptions</label>
+        <link refid="classMR_1_1Const__ObjectMeshMergeOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_overrideXfs</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -186,7 +195,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2516" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2517" bodyend="2593"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1adcd4a5aeaf6e8495e87acc64592c332e" prot="protected" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>__ptr_storage_overrideXfs</name></member>
       <member refid="classMR_1_1ObjectMeshMergeOptions_1abbd218837a567e97d1d794bf07c9ca8b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1a622fde1c3301bc303f459ce4f10e5d79" prot="package" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1afcb9a3ea0d4d041bb39fda419789ba45" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1a6f5e5e5e21a4d60a972b31bda8ef3f32" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1abcfc2a74eceb51898d30d92ee2c413f0" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1a7a0c736408f6d0c6bea6ea9f13d67615" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1ae73aad72d31b1d28358a30462292ff80" prot="protected" virt="virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1ab961425d9f893579acd69d43e0bdb504" prot="public" virt="virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ObjectMeshMergeOptions_1a4f9b6a22ced51ebdee89793366a03598" prot="package" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>ObjectMeshMergeOptions</name></member>
       <member refid="classMR_1_1ObjectMeshMergeOptions_1ac70509712a19d710bbbbca44fd43c50c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>ObjectMeshMergeOptions</name></member>
       <member refid="classMR_1_1ObjectMeshMergeOptions_1a299c331b79f7216e4bc2071a130edc2a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshMergeOptions</scope><name>ObjectMeshMergeOptions</name></member>

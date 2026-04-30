@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ZlibCompressParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ZlibCompressParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ZlibCompressParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ZlibCompressParams" prot="public" virt="non-virtual">MR.Const_ZlibCompressParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ZlibCompressParams_1a3760542dc197e6688e3674f1ae2907dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -117,7 +117,7 @@
         <name>ZlibCompressParams</name>
         <qualifiedname>MR.ZlibCompressParams.ZlibCompressParams</qualifiedname>
         <param>
-          <type>MR.Const_ZlibCompressParams</type>
+          <type><ref refid="classMR_1_1Const__ZlibCompressParams" kindref="compound">MR.Const_ZlibCompressParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -155,7 +155,7 @@
         <name>assign</name>
         <qualifiedname>MR.ZlibCompressParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_ZlibCompressParams</type>
+          <type><ref refid="classMR_1_1Const__ZlibCompressParams" kindref="compound">MR.Const_ZlibCompressParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -182,6 +182,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ZlibCompressParams</label>
+        <link refid="classMR_1_1Const__ZlibCompressParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -195,6 +196,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ZlibCompressParams</label>
         <link refid="classMR_1_1ZlibCompressParams"/>
@@ -203,9 +208,13 @@
       </node>
       <node id="2">
         <label>MR.Const_ZlibCompressParams</label>
+        <link refid="classMR_1_1Const__ZlibCompressParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_stats</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -217,8 +226,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="586" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="587" bodyend="675"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1afd6ecd044729758225401d2f46e620df" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__ptr_storage_stats</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1aafb0a3119eedaddcb0e7a56157ef6355" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__ref_storage_level</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1ad5f64d88b3ec1b791ae32b8b2a4cc8f2" prot="protected" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>__ref_storage_rawDeflate</name></member>
       <member refid="classMR_1_1ZlibCompressParams_1a014da28c3e6e66f13f3ba5e1180ba2ac" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1a8a6d341fcb287f73f634fab80707f5ea" prot="package" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>Const_ZlibCompressParams</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1a07838910415bbcf105f2de1c420118e6" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>Const_ZlibCompressParams</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1ab2d7e4ec4d1c142cf22b0cd855e8e3a6" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>Const_ZlibCompressParams</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1a124bf8bdbc9a9f7ad208dfda90b99c98" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>Const_ZlibCompressParams</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1a5f8b992389adc7d0e616f6f92b5601ce" prot="protected" virt="virtual"><scope>MR::ZlibCompressParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1aa03ae0f0674ce3823e6148136cb1a662" prot="public" virt="virtual"><scope>MR::ZlibCompressParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ZlibCompressParams_1a3760542dc197e6688e3674f1ae2907dc" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>level</name></member>
+      <member refid="classMR_1_1Const__ZlibCompressParams_1ad51bdb6693f293155e7bf7a18b1f2d29" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>operator MR.Const_ZlibParams</name></member>
       <member refid="classMR_1_1ZlibCompressParams_1a99aaa36257bff2997597a788e5b93e84" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>operator MR.ZlibParams</name></member>
       <member refid="classMR_1_1ZlibCompressParams_1aa1e161dc2d19a9ddfa6c5e39aef30309" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>rawDeflate</name></member>
       <member refid="classMR_1_1ZlibCompressParams_1a10dead263b76029ca5ca5e60f99f3658" prot="public" virt="non-virtual"><scope>MR::ZlibCompressParams</scope><name>stats</name></member>

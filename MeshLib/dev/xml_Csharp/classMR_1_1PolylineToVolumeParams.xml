@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineToVolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineToVolumeParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineToVolumeParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolylineToVolumeParams" prot="public" virt="non-virtual">MR.Const_PolylineToVolumeParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PolylineToVolumeParams_1a20d7b400d76738bf61baac3e707ecff8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1DistanceVolumeParams" kindref="compound">MR.DistanceVolumeParams</ref></type>
@@ -84,7 +84,7 @@
           <declname>vol</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
           <declname>dist</declname>
         </param>
         <briefdescription>
@@ -122,7 +122,7 @@
         <name>PolylineToVolumeParams</name>
         <qualifiedname>MR.PolylineToVolumeParams.PolylineToVolumeParams</qualifiedname>
         <param>
-          <type>Const_PolylineToVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__PolylineToVolumeParams" kindref="compound">Const_PolylineToVolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineToVolumeParams</label>
+        <link refid="classMR_1_1Const__PolylineToVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,6 +209,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineToVolumeParams</label>
+        <link refid="classMR_1_1Const__PolylineToVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -223,6 +225,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" line="431" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPolylineToVoxels.cs" bodystart="432" bodyend="525"/>
     <listofallmembers>
       <member refid="classMR_1_1PolylineToVolumeParams_1a495c915c75b27f6a306a6008bc00bd12" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PolylineToVolumeParams_1ad66191033f58d533e7044b24df690463" prot="package" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>Const_PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToVolumeParams_1a661bd53db0c1dec08728ceeed715ed3d" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>Const_PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToVolumeParams_1a8a760b6d4bfda555b283b9e07d3d767a" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>Const_PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToVolumeParams_1a40cf5c087ea1e6d054d1e780a431eb68" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>Const_PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToVolumeParams_1a890ce46dc2157ad45e1852592fc96ad8" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>Const_PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToVolumeParams_1a32dcc5ff6276e3897d184e86b96af80f" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>Const_PolylineToVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PolylineToVolumeParams_1a90ab02741240358cfa7e77f774ff99cc" prot="protected" virt="virtual"><scope>MR::PolylineToVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineToVolumeParams_1a20f5df878e49c8abdd435d3e050a91b7" prot="public" virt="virtual"><scope>MR::PolylineToVolumeParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PolylineToVolumeParams_1a9232689f1bb30d1ff175ff8c39c298bb" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>dist</name></member>
       <member refid="classMR_1_1PolylineToVolumeParams_1a7bc6152c8856adc255f87c77e3eab42f" prot="package" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>PolylineToVolumeParams</name></member>
       <member refid="classMR_1_1PolylineToVolumeParams_1a11a91eb488db80bccf9ad2cf249357e8" prot="public" virt="non-virtual"><scope>MR::PolylineToVolumeParams</scope><name>PolylineToVolumeParams</name></member>

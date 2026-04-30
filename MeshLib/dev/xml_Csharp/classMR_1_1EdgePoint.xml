@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgePoint" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgePoint</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgePoint</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EdgePoint" prot="public" virt="non-virtual">MR.Const_EdgePoint</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1EdgePoint_1ae5f75fe64f2411d7350e562e7ca200a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -81,7 +81,7 @@
         <name>EdgePoint</name>
         <qualifiedname>MR.EdgePoint.EdgePoint</qualifiedname>
         <param>
-          <type>MR.Const_EdgePoint</type>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -142,7 +142,7 @@
         <name>EdgePoint</name>
         <qualifiedname>MR.EdgePoint.EdgePoint</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -165,7 +165,7 @@
         <name>EdgePoint</name>
         <qualifiedname>MR.EdgePoint.EdgePoint</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTopology</type>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -188,7 +188,7 @@
         <name>assign</name>
         <qualifiedname>MR.EdgePoint.assign</qualifiedname>
         <param>
-          <type>MR.Const_EdgePoint</type>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -230,6 +230,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgePoint</label>
+        <link refid="classMR_1_1Const__EdgePoint"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -248,6 +249,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.EdgePoint</label>
         <link refid="classMR_1_1EdgePoint"/>
@@ -256,11 +261,15 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgePoint</label>
+        <link refid="classMR_1_1Const__EdgePoint"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_e</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -275,8 +284,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="264" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="265" bodyend="382"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__EdgePoint_1ac15283cca41be20ec5492879caea104b" prot="protected" virt="non-virtual"><scope>MR::EdgePoint</scope><name>__ref_storage_e</name></member>
       <member refid="classMR_1_1EdgePoint_1a48da1c16fa0f6986199ff440bdfa8dfc" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>a</name></member>
       <member refid="classMR_1_1EdgePoint_1a5e0a95b62e036b305c97582404c64981" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1ad51657c8440d845074d2b60d6bc278d1" prot="package" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1af495331488c1a8345a2bf789dd5e788c" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1addcdfde71c8b354d78c3b116a4e439a5" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a557ea9fad901b3f57d06f8ea4354e5d8" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1af831aece7589101cf6ecf63c0eb348d0" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1ae1cddc19a2b936d8690160b8b2a9feec" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1aff94ef6b354e565e0aab8832de7fb32c" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Const_EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a77a4648229d2b1d26f7560fad9c823a7" prot="protected" virt="virtual"><scope>MR::EdgePoint</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1adeebaa61f15be178b9983963bf6d8384" prot="public" virt="virtual"><scope>MR::EdgePoint</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EdgePoint_1ae5f75fe64f2411d7350e562e7ca200a8" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>e</name></member>
       <member refid="classMR_1_1EdgePoint_1a380f49548be33c322fb3f2335891f0b0" prot="package" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
       <member refid="classMR_1_1EdgePoint_1a90f457fffa0b69bbeae7421a033f2bbe" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
@@ -285,7 +304,20 @@
       <member refid="classMR_1_1EdgePoint_1a516ef5f472c5216f0048787ae3a4e1e3" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
       <member refid="classMR_1_1EdgePoint_1a5f7172d14fff7bb8cbd1b092576bf405" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
       <member refid="classMR_1_1EdgePoint_1a95e3ddd0151cac739884a28894cd425d" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1ae1e2c85350e128c8e34dff4c1f28db4a" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a6e5f01339dd218a36a6ea68534dc81fb" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a4055bc4de109cb5883493ad118ccd2cc" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a279684181c8c6e0166ff0d88b037b5c4" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a09cf280366bfdb166fa7fcfa970b6281" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a03993a04be1f5c19b9ddb5b92f21c5b3" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a5f43e85d482f91d3c7450194e75d22b8" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a4f6c995084940dfb01e6bb2391827636" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>isBd</name></member>
       <member refid="classMR_1_1EdgePoint_1a14c52358111de479d6d6dd4ff1e26d54" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>moveToClosestVertex</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a1910719d541cd9f76905c4f5a6fd8b20" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1a15c2e101e9b3c2ba1d019f4a355b956e" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1ac10c1e6d23b91a7d864fab57f32aca89" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1aa8b153b552e13ee1301ecc5a2a9591aa" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>sym</name></member>
+      <member refid="classMR_1_1Const__EdgePoint_1aac4ac1e98fd7fa90d129d59261451beb" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Primitives_1_1Plane" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Primitives::Plane</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Features.Primitives.Const_Plane</basecompoundref>
+    <basecompoundref refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane" prot="public" virt="non-virtual">MR.Features.Primitives.Const_Plane</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Features_1_1Primitives_1_1Plane_1ad50b6d44de919d8523077d1603d9dc16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -103,7 +103,7 @@
         <name>Plane</name>
         <qualifiedname>MR.Features.Primitives.Plane.Plane</qualifiedname>
         <param>
-          <type>MR.Features.Primitives.Const_Plane</type>
+          <type><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane" kindref="compound">MR.Features.Primitives.Const_Plane</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.Features.Primitives.Plane.assign</qualifiedname>
         <param>
-          <type>MR.Features.Primitives.Const_Plane</type>
+          <type><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane" kindref="compound">MR.Features.Primitives.Const_Plane</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Primitives.Const_Plane</label>
+        <link refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -186,6 +187,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Features.Primitives.Plane</label>
         <link refid="classMR_1_1Features_1_1Primitives_1_1Plane"/>
@@ -194,11 +199,16 @@
       </node>
       <node id="2">
         <label>MR.Features.Primitives.Const_Plane</label>
+        <link refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_center</edgelabel>
+          <edgelabel>__ref_storage_normal</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -213,9 +223,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="165" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="166" bodyend="231"/>
     <listofallmembers>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1ae824370343069458f099617627d09086" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>__ref_storage_center</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a86247eaa6ebd7a61f04cee7aab904cc5" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>__ref_storage_normal</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1Plane_1a82b234c50b36c5d8626a24737af4c885" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>assign</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1Plane_1ad50b6d44de919d8523077d1603d9dc16" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>center</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a3b3d32ce17563cbb3388abd7b1a42602" prot="package" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Const_Plane</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a77f37fb57259000d399c22b9479aa3ef" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Const_Plane</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1af6919e286dd5cda13ba8317cffb452d9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Const_Plane</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a39043d8a5ad24d65b5542e32f01cc2dc" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Const_Plane</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a2f5cc55fd63a55b8025ae9a40589ccae" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Const_Plane</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1aa566e540fcc8e441166652ce3e0606e0" prot="protected" virt="virtual"><scope>MR::Features::Primitives::Plane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a1b1811b0b6c4c0fda618903c8480f0c8" prot="public" virt="virtual"><scope>MR::Features::Primitives::Plane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1ab9ef7c01cdc22b658ac2368885a519fc" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a982727b3248326720eed945bbd00f630" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a968a0bb6046381eb622d57291f7beb9b" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithLine</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a2eec5bd3d9648aa8b04b0a86362c0c79" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>intersectWithPlane</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1Plane_1a9c4115e549061af8be5bcaf700d05395" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>normal</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a1946c166310670393ae32d07dc24a360" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane_1a7d8fd071d4158ebbf9c4e05c7581ce67" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>operator==</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1Plane_1aa7e3c0caa29eff577f5f5b34927e30cc" prot="package" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Plane</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1Plane_1ad78317ab165f6c9364d9067ca62b29c0" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Plane</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1Plane_1a17e0c2236ba76028239be6629f375cf8" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::Plane</scope><name>Plane</name></member>

@@ -1,0 +1,1857 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SphereObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SphereObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SphereObject" prot="public" virt="non-virtual">MR.SphereObject</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a24a4ae82705e47baf828a763cf6d01eb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SphereObject.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SphereObject.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="22" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1af47a5fb641ebe4ced920ec30f811cf73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SphereObject.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SphereObject.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="31" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ad80d564fe636a761614222e8f5412d13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SphereObject.Const_SphereObject</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SphereObject</name>
+        <qualifiedname>MR.Const_SphereObject.Const_SphereObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="123" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a775817dfe8475d05819bec22857e300e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SphereObject.Const_SphereObject</definition>
+        <argsstring>(MR._ByValue_SphereObject _other)</argsstring>
+        <name>Const_SphereObject</name>
+        <qualifiedname>MR.Const_SphereObject.Const_SphereObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_SphereObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SphereObject_1aa329d42ed1ece62bd48684cad84b127b" kindref="member">MR.SphereObject.SphereObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="133" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="133" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a945783bca12866a8816848ba88728cbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SphereObject.Const_SphereObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>Const_SphereObject</name>
+        <qualifiedname>MR.Const_SphereObject.Const_SphereObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best sphere to approx given points Generated from constructor <computeroutput><ref refid="classMR_1_1SphereObject_1aa329d42ed1ece62bd48684cad84b127b" kindref="member">MR.SphereObject.SphereObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="145" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="145" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a8811ad3057b4974512b723cb3fc098c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_SphereObject.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_SphereObject.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a8811ad3057b4974512b723cb3fc098c9" kindref="member">MR.SphereObject.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="173" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="173" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1abebeec0085bf06bb373d598e7da8fd5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_SphereObject.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_SphereObject.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1abebeec0085bf06bb373d598e7da8fd5a" kindref="member">MR.SphereObject.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="195" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="195" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a3ba59408cbff1956f8057e26e9ca85d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_SphereObject.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_SphereObject.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a3ba59408cbff1956f8057e26e9ca85d5" kindref="member">MR.SphereObject.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="216" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="216" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a827938904f87f62e3da62faa4e2ae563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_SphereObject.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_SphereObject.clone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a827938904f87f62e3da62faa4e2ae563" kindref="member">MR.SphereObject.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="226" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="226" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a7f295ffc412dd04cc22108c3a5befd36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_SphereObject.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_SphereObject.shallowClone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a7f295ffc412dd04cc22108c3a5befd36" kindref="member">MR.SphereObject.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="236" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="236" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ac7f94d01312bc91398ee00af4b21af40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getRadius</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getRadius</name>
+        <qualifiedname>MR.Const_SphereObject.getRadius</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>calculates radius from xf Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ac7f94d01312bc91398ee00af4b21af40" kindref="member">MR.SphereObject.getRadius</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="248" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="248" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1abb2d9179bf384d57c573ed69ca7118b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_SphereObject.getCenter</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getCenter</name>
+        <qualifiedname>MR.Const_SphereObject.getCenter</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>calculates center from xf Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1abb2d9179bf384d57c573ed69ca7118b5" kindref="member">MR.SphereObject.getCenter</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="260" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="260" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ad9888df40bdc955a669a0d0127926f7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRFeatureObjectSharedProperty</type>
+        <definition>unsafe MR.Std.Const_Vector_MRFeatureObjectSharedProperty MR.Const_SphereObject.getAllSharedProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>MR.Const_SphereObject.getAllSharedProperties</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ad9888df40bdc955a669a0d0127926f7e" kindref="member">MR.SphereObject.getAllSharedProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="270" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="270" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a2be91766362ff64499795bb08a4d32a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FeatureObjectProjectPointResult" kindref="compound">MR.FeatureObjectProjectPointResult</ref></type>
+        <definition>unsafe MR.FeatureObjectProjectPointResult MR.Const_SphereObject.projectPoint</definition>
+        <argsstring>(in MR.Vector3f point, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>MR.Const_SphereObject.projectPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a2be91766362ff64499795bb08a4d32a9" kindref="member">MR.SphereObject.projectPoint</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="281" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="281" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a53530f2292b570b064a6360af7051b2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_SphereObject.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a53530f2292b570b064a6360af7051b2e" kindref="member">MR.SphereObject.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="294" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="294" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ab201abb2a088caf3134f36d360b07ff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_SphereObject.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_SphereObject.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ab201abb2a088caf3134f36d360b07ff4" kindref="member">MR.SphereObject.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="304" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="304" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ac2dd7800fc41a25a4a9587f4acc5f85f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_SphereObject.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_SphereObject.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ac2dd7800fc41a25a4a9587f4acc5f85f" kindref="member">MR.SphereObject.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="314" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="314" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a4909d3d141a78b3767d1d33e866208b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3f</type>
+        <definition>unsafe MR.Std.Optional_MRVector3f MR.Const_SphereObject.getNormal</definition>
+        <argsstring>(in MR.Vector3f point)</argsstring>
+        <name>getNormal</name>
+        <qualifiedname>MR.Const_SphereObject.getNormal</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a4909d3d141a78b3767d1d33e866208b1" kindref="member">MR.SphereObject.getNormal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="324" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="324" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a23c50d4a747187ffce523bb7a21a1877" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_SphereObject.getBasePoint</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getBasePoint</name>
+        <qualifiedname>MR.Const_SphereObject.getBasePoint</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a23c50d4a747187ffce523bb7a21a1877" kindref="member">MR.SphereObject.getBasePoint</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="339" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="339" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a8ac0661734b749cba0e439702e4d20f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+        <definition>unsafe MR.Matrix3f MR.Const_SphereObject.getRotationMatrix</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>getRotationMatrix</name>
+        <qualifiedname>MR.Const_SphereObject.getRotationMatrix</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a8ac0661734b749cba0e439702e4d20f0" kindref="member">MR.SphereObject.getRotationMatrix</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="352" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="352" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a8a6f6a7d3e3a23c35fa3ef7365dac885" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+        <definition>unsafe MR.Matrix3f MR.Const_SphereObject.getScaleShearMatrix</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>getScaleShearMatrix</name>
+        <qualifiedname>MR.Const_SphereObject.getScaleShearMatrix</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a8a6f6a7d3e3a23c35fa3ef7365dac885" kindref="member">MR.SphereObject.getScaleShearMatrix</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="368" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="368" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a03777eb2fe6c35a5f7c8652e06abb8f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_SphereObject.getDecorationsColor</definition>
+        <argsstring>(bool selected, MR._InOpt_ViewportId viewportId=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>getDecorationsColor</name>
+        <qualifiedname>MR.Const_SphereObject.getDecorationsColor</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a03777eb2fe6c35a5f7c8652e06abb8f1" kindref="member">MR.SphereObject.getDecorationsColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="384" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="384" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a43de82f771d74898b22f4fd2a10f2296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_SphereObject.getDecorationsColorForAllViewports</definition>
+        <argsstring>(bool selected)</argsstring>
+        <name>getDecorationsColorForAllViewports</name>
+        <qualifiedname>MR.Const_SphereObject.getDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a43de82f771d74898b22f4fd2a10f2296" kindref="member">MR.SphereObject.getDecorationsColorForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="397" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="397" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ae8679f120c2d6e233a522098445735a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getPointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>MR.Const_SphereObject.getPointSize</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ae8679f120c2d6e233a522098445735a7" kindref="member">MR.SphereObject.getPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="408" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="408" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a0c170d9508dcecbeda73fe2d04c6017f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getLineWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getLineWidth</name>
+        <qualifiedname>MR.Const_SphereObject.getLineWidth</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a0c170d9508dcecbeda73fe2d04c6017f" kindref="member">MR.SphereObject.getLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="418" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="418" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a979b57724b372dc1c9c13a7d38010a6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getSubfeaturePointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeaturePointSize</name>
+        <qualifiedname>MR.Const_SphereObject.getSubfeaturePointSize</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a979b57724b372dc1c9c13a7d38010a6f" kindref="member">MR.SphereObject.getSubfeaturePointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="429" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="429" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1af59ae526374557817cb0177ce5b2a1e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getSubfeatureLineWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeatureLineWidth</name>
+        <qualifiedname>MR.Const_SphereObject.getSubfeatureLineWidth</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1af59ae526374557817cb0177ce5b2a1e1" kindref="member">MR.SphereObject.getSubfeatureLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="439" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="439" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1afe1b71d0339f26edfd849e6f1b75b8a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getMainFeatureAlpha</definition>
+        <argsstring>()</argsstring>
+        <name>getMainFeatureAlpha</name>
+        <qualifiedname>MR.Const_SphereObject.getMainFeatureAlpha</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1afe1b71d0339f26edfd849e6f1b75b8a4" kindref="member">MR.SphereObject.getMainFeatureAlpha</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="450" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="450" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a219c0f4cb8e8ae1571a70f572cb6f818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getSubfeatureAlphaPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeatureAlphaPoints</name>
+        <qualifiedname>MR.Const_SphereObject.getSubfeatureAlphaPoints</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a219c0f4cb8e8ae1571a70f572cb6f818" kindref="member">MR.SphereObject.getSubfeatureAlphaPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="460" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="460" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a59812d62ed3501d86f191f2882ee09e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getSubfeatureAlphaLines</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeatureAlphaLines</name>
+        <qualifiedname>MR.Const_SphereObject.getSubfeatureAlphaLines</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a59812d62ed3501d86f191f2882ee09e6" kindref="member">MR.SphereObject.getSubfeatureAlphaLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="470" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="470" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a008db8817bf951613f3b55d213339466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getSubfeatureAlphaMesh</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeatureAlphaMesh</name>
+        <qualifiedname>MR.Const_SphereObject.getSubfeatureAlphaMesh</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a008db8817bf951613f3b55d213339466" kindref="member">MR.SphereObject.getSubfeatureAlphaMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="480" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="480" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ae47353933e347112dbc74c71893df564" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_SphereObject.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ae47353933e347112dbc74c71893df564" kindref="member">MR.SphereObject.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="491" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="491" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a788464c2b9c4a2ec22fe9b03bd8b4996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_SphereObject.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_SphereObject.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a788464c2b9c4a2ec22fe9b03bd8b4996" kindref="member">MR.SphereObject.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="502" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="502" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aa50034a2853a62e98c86d4d0c01740d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_SphereObject.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa50034a2853a62e98c86d4d0c01740d6" kindref="member">MR.SphereObject.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="514" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="514" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ae4241ac386a1d0f54db7adc559e8a48b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_SphereObject.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_SphereObject.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ae4241ac386a1d0f54db7adc559e8a48b" kindref="member">MR.SphereObject.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="527" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="527" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a212ff52fa8e4dace9b7af2f1d42d7fb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_SphereObject.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_SphereObject.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a212ff52fa8e4dace9b7af2f1d42d7fb4" kindref="member">MR.SphereObject.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="540" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="540" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a478743719c7fbeb7bbfce09bce745abf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_SphereObject.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_SphereObject.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a478743719c7fbeb7bbfce09bce745abf" kindref="member">MR.SphereObject.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="552" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="552" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aa242084063022f4ea259d685eff56692" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_SphereObject.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_SphereObject.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa242084063022f4ea259d685eff56692" kindref="member">MR.SphereObject.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="564" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="564" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1af4af71f1581ce7bfd731dcdd8e87c8cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_SphereObject.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_SphereObject.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1af4af71f1581ce7bfd731dcdd8e87c8cd" kindref="member">MR.SphereObject.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="576" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="576" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a458eac8fe10ad90c76c0ef62d192d891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_SphereObject.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_SphereObject.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a458eac8fe10ad90c76c0ef62d192d891" kindref="member">MR.SphereObject.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="587" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="587" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a112d60b61d046b477d8ab1be0a797bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_SphereObject.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_SphereObject.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a112d60b61d046b477d8ab1be0a797bcd" kindref="member">MR.SphereObject.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="598" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="598" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ad57d861740b46ccae2518a739a618db6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_SphereObject.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_SphereObject.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ad57d861740b46ccae2518a739a618db6" kindref="member">MR.SphereObject.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="609" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="609" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a347a810367c38e4d912b5ab5c0715dc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_SphereObject.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_SphereObject.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a347a810367c38e4d912b5ab5c0715dc4" kindref="member">MR.SphereObject.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="620" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="620" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a203efab821718a75ab7a99ef0c870a1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_SphereObject.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_SphereObject.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a203efab821718a75ab7a99ef0c870a1c" kindref="member">MR.SphereObject.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="631" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="631" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aa650dea7f2a8b04f160ac3ec93abb65b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_SphereObject.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_SphereObject.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns bounding box of this object in given viewport in world coordinates, to get world bounding box of the object with all child objects, please call <ref refid="classMR_1_1Const__Object_1adec896d2f7f19300a966a810c5ff0eb3" kindref="member">Object.getWorldTreeBox</ref> method Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa650dea7f2a8b04f160ac3ec93abb65b" kindref="member">MR.SphereObject.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="644" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="644" bodyend="649"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a943f7e5a857d1e1916168909dac579b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_SphereObject.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a943f7e5a857d1e1916168909dac579b0" kindref="member">MR.SphereObject.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="655" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="655" bodyend="660"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aad220a08597cc02443f74f4fa6760c7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_SphereObject.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aad220a08597cc02443f74f4fa6760c7b" kindref="member">MR.SphereObject.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="667" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="667" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a0cd085ce8e691244b72763f58be9b7fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_SphereObject.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_SphereObject.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a0cd085ce8e691244b72763f58be9b7fd" kindref="member">MR.SphereObject.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="678" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="678" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a33608f231703d527d8b7f51a86b39cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_SphereObject.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a33608f231703d527d8b7f51a86b39cd0" kindref="member">MR.SphereObject.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="689" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="689" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a54fc6cec504ec2d402ddcf2df5e532fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_SphereObject.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a54fc6cec504ec2d402ddcf2df5e532fa" kindref="member">MR.SphereObject.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="700" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="700" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a03dfc6f99fb5f2012b358361787492b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SphereObject.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_SphereObject.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a03dfc6f99fb5f2012b358361787492b2" kindref="member">MR.SphereObject.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="711" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="711" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a5b464498ec9f490ee52b64a2628fa680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_SphereObject.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a5b464498ec9f490ee52b64a2628fa680" kindref="member">MR.SphereObject.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="723" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="723" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a2d8ea8b2d10d83c7e522785c0c9547d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_SphereObject.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_SphereObject.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a2d8ea8b2d10d83c7e522785c0c9547d9" kindref="member">MR.SphereObject.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="734" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="734" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ae06b0a9f269ad669d263d10955e24ad0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_SphereObject.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_SphereObject.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ae06b0a9f269ad669d263d10955e24ad0" kindref="member">MR.SphereObject.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="745" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="745" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aa70173d6660325cb8856c3bc488443e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_SphereObject.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_SphereObject.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa70173d6660325cb8856c3bc488443e7" kindref="member">MR.SphereObject.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="756" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="756" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1af55f757e6b6feffa9eff8c0426ce5c1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_SphereObject.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_SphereObject.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>return several info lines that can better describe the object in the UI Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1af55f757e6b6feffa9eff8c0426ce5c1c" kindref="member">MR.SphereObject.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="767" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="767" bodyend="772"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a3846fba95e70bdad546245bc47938e59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_SphereObject.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a3846fba95e70bdad546245bc47938e59" kindref="member">MR.SphereObject.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="779" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="779" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a08bd1199f33666a23dcab2e8b97743fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_SphereObject.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_SphereObject.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a08bd1199f33666a23dcab2e8b97743fb" kindref="member">MR.SphereObject.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="789" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="789" bodyend="794"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a9ee23c422ec08029a201ad1baacb69fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_SphereObject.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_SphereObject.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__SphereObject_1a9ee23c422ec08029a201ad1baacb69fd" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a9ee23c422ec08029a201ad1baacb69fd" kindref="member">MR.SphereObject.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="802" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="802" bodyend="810"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a6f0c2f82be91c82e2acb729aef750a77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_SphereObject.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_SphereObject.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a6f0c2f82be91c82e2acb729aef750a77" kindref="member">MR.SphereObject.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="816" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="816" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aa9a856c4fc6d93676a9982fe4594ae41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_SphereObject.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_SphereObject.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__SphereObject_1aa9a856c4fc6d93676a9982fe4594ae41" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa9a856c4fc6d93676a9982fe4594ae41" kindref="member">MR.SphereObject.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="829" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="829" bodyend="837"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ae7bd043ada38b34052f7f28d5bfdba05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_SphereObject.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_SphereObject.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ae7bd043ada38b34052f7f28d5bfdba05" kindref="member">MR.SphereObject.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="843" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="843" bodyend="848"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a611821c9cdf7e07866e72830a57fbcd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_SphereObject.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a611821c9cdf7e07866e72830a57fbcd0" kindref="member">MR.SphereObject.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="855" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="855" bodyend="860"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a388a1e6a130aa8aad25e37e63bcd7d19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_SphereObject.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a388a1e6a130aa8aad25e37e63bcd7d19" kindref="member">MR.SphereObject.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="866" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="866" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ae4215ee486391cdecf1332bbbc0aea3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_SphereObject.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ae4215ee486391cdecf1332bbbc0aea3b" kindref="member">MR.SphereObject.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="878" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="878" bodyend="883"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a990472978c65061586fea3c969dd078d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_SphereObject.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a990472978c65061586fea3c969dd078d" kindref="member">MR.SphereObject.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="889" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="889" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aefda9fc0fb5f43157ee7564a060822ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_SphereObject.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aefda9fc0fb5f43157ee7564a060822ad" kindref="member">MR.SphereObject.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="899" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="899" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a8de65b7a92fa90cae0cb025677769689" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_SphereObject.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a8de65b7a92fa90cae0cb025677769689" kindref="member">MR.SphereObject.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="909" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="909" bodyend="914"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1afe97931a6f0e7cefa70ee838fcb41e37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_SphereObject.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1afe97931a6f0e7cefa70ee838fcb41e37" kindref="member">MR.SphereObject.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="920" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="920" bodyend="925"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a8278cac84e25999a434916b5bb6e000d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_SphereObject.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a8278cac84e25999a434916b5bb6e000d" kindref="member">MR.SphereObject.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="932" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="932" bodyend="937"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a444aa2b517cc1a0b034fbf871bbacfa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_SphereObject.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_SphereObject.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a444aa2b517cc1a0b034fbf871bbacfa1" kindref="member">MR.SphereObject.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="943" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="943" bodyend="948"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aeabd7aabc754dccbbe514f370e7ff57a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_SphereObject.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_SphereObject.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aeabd7aabc754dccbbe514f370e7ff57a" kindref="member">MR.SphereObject.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="953" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="953" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a30453973965dbf4d9e2fe97695d93747" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_SphereObject.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_SphereObject.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a30453973965dbf4d9e2fe97695d93747" kindref="member">MR.SphereObject.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="964" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="964" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a780167c6cd076fe53cf9d7dfdf5fd090" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_SphereObject.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_SphereObject.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a780167c6cd076fe53cf9d7dfdf5fd090" kindref="member">MR.SphereObject.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="976" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="976" bodyend="981"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ab68b5225aaef0dd9193377ed69af15a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_SphereObject.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_SphereObject.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1ab68b5225aaef0dd9193377ed69af15a0" kindref="member">MR.SphereObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="989" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="989" bodyend="994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a9a937b624657ca65f2e6d04e03af0b71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_SphereObject.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a9a937b624657ca65f2e6d04e03af0b71" kindref="member">MR.SphereObject.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="1000" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="1000" bodyend="1005"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aa8a7fa2c327b2ed381a72807c6a9d409" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_SphereObject.hasModel</qualifiedname>
+        <briefdescription>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa8a7fa2c327b2ed381a72807c6a9d409" kindref="member">MR.SphereObject.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="1012" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="1012" bodyend="1017"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aeb00233019a2ba7ceeefa4b2559a6eba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_SphereObject.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_SphereObject.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aeb00233019a2ba7ceeefa4b2559a6eba" kindref="member">MR.SphereObject.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="1024" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="1024" bodyend="1029"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a06384d26b1ada2f94ebfb7f1ae8d79a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SphereObject.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_SphereObject.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a06384d26b1ada2f94ebfb7f1ae8d79a1" kindref="member">MR.SphereObject.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="1035" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="1035" bodyend="1040"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a0cc07301b61198d3b8f2716a63fd2b3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_SphereObject.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_SphereObject.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1a0cc07301b61198d3b8f2716a63fd2b3d" kindref="member">MR.SphereObject.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="1046" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="1046" bodyend="1051"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aa2fcc2cd2436490c052f54f201e04dba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_SphereObject.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_SphereObject.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SphereObject_1aa2fcc2cd2436490c052f54f201e04dba" kindref="member">MR.SphereObject.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="1058" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="1058" bodyend="1063"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a57fff1ee8cfc8f79d95c4137463775dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SphereObject.~Const_SphereObject</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SphereObject</name>
+        <qualifiedname>MR.Const_SphereObject.~Const_SphereObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="32" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1af9d9b0cc0198d438abeb6c8dd351a9e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SphereObject.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_SphereObject self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_SphereObject.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SphereObject" kindref="compound">Const_SphereObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="35" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a7705c859f4df181381973324e66bd911" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SphereObject.operator MR.Const_Object</definition>
+        <argsstring>(Const_SphereObject self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_SphereObject.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SphereObject" kindref="compound">Const_SphereObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="43" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1aef3b205fc12bee18607629fd4e8b10b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SphereObject.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_SphereObject self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_SphereObject.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SphereObject" kindref="compound">Const_SphereObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="51" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1af8ee6c8907d241cef17c732c63f0ca1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SphereObject.operator MR.Const_FeatureObject</definition>
+        <argsstring>(Const_SphereObject self)</argsstring>
+        <name>operator MR.Const_FeatureObject</name>
+        <qualifiedname>MR.Const_SphereObject.operator MR.Const_FeatureObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SphereObject" kindref="compound">Const_SphereObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="59" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a303b48d196e72323bec767f5d717b1f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SphereObject.operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</definition>
+        <argsstring>(Const_SphereObject self)</argsstring>
+        <name>operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</name>
+        <qualifiedname>MR.Const_SphereObject.operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SphereObject" kindref="compound">Const_SphereObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="67" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="67" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a525a7be8138b22d610aa0ef35acdb2a2" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_SphereObject.operator Const_SphereObject?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_SphereObject?</name>
+        <qualifiedname>MR.Const_SphereObject.operator Const_SphereObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="77" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="77" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a0ba74498c5028a4f9f80bfd14175654f" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_SphereObject.operator Const_SphereObject?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_SphereObject?</name>
+        <qualifiedname>MR.Const_SphereObject.operator Const_SphereObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="87" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="87" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ad4d413b7390875278e50a1974a653b20" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_SphereObject.operator Const_SphereObject?</definition>
+        <argsstring>(MR.Const_FeatureObject parent)</argsstring>
+        <name>operator Const_SphereObject?</name>
+        <qualifiedname>MR.Const_SphereObject.operator Const_SphereObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FeatureObject" kindref="compound">MR.Const_FeatureObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="97" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="97" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a24d83318e2b8e01f178229e7fcc55482" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_SphereObject.operator Const_SphereObject?</definition>
+        <argsstring>(MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter parent)</argsstring>
+        <name>operator Const_SphereObject?</name>
+        <qualifiedname>MR.Const_SphereObject.operator Const_SphereObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter" kindref="compound">MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="107" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="107" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a60adb6f58d7537cab211e79bc8601016" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SphereObject.operator Const_SphereObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>operator Const_SphereObject</name>
+        <qualifiedname>MR.Const_SphereObject.operator Const_SphereObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best sphere to approx given points Generated from constructor <computeroutput><ref refid="classMR_1_1SphereObject_1aa329d42ed1ece62bd48684cad84b127b" kindref="member">MR.SphereObject.SphereObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="157" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a7f19bf3d4f9d3902d59458fecd07d3d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_SphereObject.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_SphereObject.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SphereObject::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="162" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1a6eae78395a8148c33ef0c25b3d859402" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_SphereObject.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_SphereObject.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SphereObject::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="184" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="184" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ad7401fe5104c9e252f85c989bfdc85df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_SphereObject.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_SphereObject.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::SphereObject::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="205" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="205" bodyend="211"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SphereObject_1ad2115211f6f440460df13e0198bb4ab8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SphereObject.Const_SphereObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SphereObject</name>
+        <qualifiedname>MR.Const_SphereObject.Const_SphereObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="118" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="118" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show sphere feature, position and radius are controlled by xf Generated from class <computeroutput><ref refid="classMR_1_1SphereObject" kindref="compound">MR.SphereObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter&amp;gt;</computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SphereObject</label>
+        <link refid="classMR_1_1Const__SphereObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SphereObject</label>
+        <link refid="classMR_1_1SphereObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_SphereObject</label>
+        <link refid="classMR_1_1Const__SphereObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphereObject.cs" bodystart="17" bodyend="1064"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SphereObject_1abebeec0085bf06bb373d598e7da8fd5a" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a3ba59408cbff1956f8057e26e9ca85d5" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a827938904f87f62e3da62faa4e2ae563" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a30453973965dbf4d9e2fe97695d93747" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ad2115211f6f440460df13e0198bb4ab8" prot="package" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>Const_SphereObject</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ad80d564fe636a761614222e8f5412d13" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>Const_SphereObject</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a775817dfe8475d05819bec22857e300e" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>Const_SphereObject</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a945783bca12866a8816848ba88728cbb" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>Const_SphereObject</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a24a4ae82705e47baf828a763cf6d01eb" prot="protected" virt="virtual"><scope>MR::Const_SphereObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1af47a5fb641ebe4ced920ec30f811cf73" prot="public" virt="virtual"><scope>MR::Const_SphereObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ad9888df40bdc955a669a0d0127926f7e" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ab201abb2a088caf3134f36d360b07ff4" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a03dfc6f99fb5f2012b358361787492b2" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aa242084063022f4ea259d685eff56692" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a478743719c7fbeb7bbfce09bce745abf" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a23c50d4a747187ffce523bb7a21a1877" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getBasePoint</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a203efab821718a75ab7a99ef0c870a1c" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1abb2d9179bf384d57c573ed69ca7118b5" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getCenter</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a0cd085ce8e691244b72763f58be9b7fd" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a03777eb2fe6c35a5f7c8652e06abb8f1" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a43de82f771d74898b22f4fd2a10f2296" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a112d60b61d046b477d8ab1be0a797bcd" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ae4241ac386a1d0f54db7adc559e8a48b" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a212ff52fa8e4dace9b7af2f1d42d7fb4" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1af4af71f1581ce7bfd731dcdd8e87c8cd" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a458eac8fe10ad90c76c0ef62d192d891" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1af55f757e6b6feffa9eff8c0426ce5c1c" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a0c170d9508dcecbeda73fe2d04c6017f" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1afe1b71d0339f26edfd849e6f1b75b8a4" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a0cc07301b61198d3b8f2716a63fd2b3d" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a4909d3d141a78b3767d1d33e866208b1" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getNormal</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ae8679f120c2d6e233a522098445735a7" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ac7f94d01312bc91398ee00af4b21af40" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getRadius</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a943f7e5a857d1e1916168909dac579b0" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a8ac0661734b749cba0e439702e4d20f0" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a8a6f6a7d3e3a23c35fa3ef7365dac885" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aa2fcc2cd2436490c052f54f201e04dba" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a33608f231703d527d8b7f51a86b39cd0" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a54fc6cec504ec2d402ddcf2df5e532fa" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a59812d62ed3501d86f191f2882ee09e6" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a008db8817bf951613f3b55d213339466" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a219c0f4cb8e8ae1571a70f572cb6f818" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1af59ae526374557817cb0177ce5b2a1e1" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a979b57724b372dc1c9c13a7d38010a6f" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ae47353933e347112dbc74c71893df564" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ac2dd7800fc41a25a4a9587f4acc5f85f" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aa650dea7f2a8b04f160ac3ec93abb65b" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ab68b5225aaef0dd9193377ed69af15a0" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aa50034a2853a62e98c86d4d0c01740d6" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a788464c2b9c4a2ec22fe9b03bd8b4996" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a611821c9cdf7e07866e72830a57fbcd0" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ae7bd043ada38b34052f7f28d5bfdba05" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aa8a7fa2c327b2ed381a72807c6a9d409" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a9a937b624657ca65f2e6d04e03af0b71" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aa70173d6660325cb8856c3bc488443e7" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a990472978c65061586fea3c969dd078d" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a8de65b7a92fa90cae0cb025677769689" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1afe97931a6f0e7cefa70ee838fcb41e37" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a388a1e6a130aa8aad25e37e63bcd7d19" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ae4215ee486391cdecf1332bbbc0aea3b" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aad220a08597cc02443f74f4fa6760c7b" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aefda9fc0fb5f43157ee7564a060822ad" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a8278cac84e25999a434916b5bb6e000d" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a08bd1199f33666a23dcab2e8b97743fb" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a60adb6f58d7537cab211e79bc8601016" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator Const_SphereObject</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a525a7be8138b22d610aa0ef35acdb2a2" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator Const_SphereObject?</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a0ba74498c5028a4f9f80bfd14175654f" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator Const_SphereObject?</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ad4d413b7390875278e50a1974a653b20" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator Const_SphereObject?</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a24d83318e2b8e01f178229e7fcc55482" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator Const_SphereObject?</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a303b48d196e72323bec767f5d717b1f5" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1af8ee6c8907d241cef17c732c63f0ca1a" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator MR.Const_FeatureObject</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a7705c859f4df181381973324e66bd911" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1af9d9b0cc0198d438abeb6c8dd351a9e6" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aef3b205fc12bee18607629fd4e8b10b1" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a2be91766362ff64499795bb08a4d32a9" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a5b464498ec9f490ee52b64a2628fa680" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a2d8ea8b2d10d83c7e522785c0c9547d9" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ae06b0a9f269ad669d263d10955e24ad0" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ad57d861740b46ccae2518a739a618db6" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a347a810367c38e4d912b5ab5c0715dc4" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aeabd7aabc754dccbbe514f370e7ff57a" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a06384d26b1ada2f94ebfb7f1ae8d79a1" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a7f295ffc412dd04cc22108c3a5befd36" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a780167c6cd076fe53cf9d7dfdf5fd090" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a6eae78395a8148c33ef0c25b3d859402" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1ad7401fe5104c9e252f85c989bfdc85df" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a7f19bf3d4f9d3902d59458fecd07d3d8" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a53530f2292b570b064a6360af7051b2e" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aeb00233019a2ba7ceeefa4b2559a6eba" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a8811ad3057b4974512b723cb3fc098c9" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a3846fba95e70bdad546245bc47938e59" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a444aa2b517cc1a0b034fbf871bbacfa1" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1aa9a856c4fc6d93676a9982fe4594ae41" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a9ee23c422ec08029a201ad1baacb69fd" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a6f0c2f82be91c82e2acb729aef750a77" prot="public" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__SphereObject_1a57fff1ee8cfc8f79d95c4137463775dd" prot="private" virt="non-virtual"><scope>MR::Const_SphereObject</scope><name>~Const_SphereObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

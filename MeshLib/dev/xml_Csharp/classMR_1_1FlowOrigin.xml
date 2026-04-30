@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FlowOrigin" kind="class" language="C#" prot="public">
     <compoundname>MR::FlowOrigin</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FlowOrigin</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FlowOrigin" prot="public" virt="non-virtual">MR.Const_FlowOrigin</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FlowOrigin_1a3692c42d79ae9584e8cd093ab67d2a03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
@@ -82,7 +82,7 @@
         <name>FlowOrigin</name>
         <qualifiedname>MR.FlowOrigin.FlowOrigin</qualifiedname>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>point</declname>
         </param>
         <param>
@@ -105,7 +105,7 @@
         <name>FlowOrigin</name>
         <qualifiedname>MR.FlowOrigin.FlowOrigin</qualifiedname>
         <param>
-          <type>MR.Const_FlowOrigin</type>
+          <type><ref refid="classMR_1_1Const__FlowOrigin" kindref="compound">MR.Const_FlowOrigin</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.FlowOrigin.assign</qualifiedname>
         <param>
-          <type>MR.Const_FlowOrigin</type>
+          <type><ref refid="classMR_1_1Const__FlowOrigin" kindref="compound">MR.Const_FlowOrigin</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FlowOrigin</label>
+        <link refid="classMR_1_1Const__FlowOrigin"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -191,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FlowOrigin</label>
+        <link refid="classMR_1_1Const__FlowOrigin"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -205,8 +207,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="110" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="111" bodyend="197"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FlowOrigin_1a666cac774814134672fb5d4dd2d702a2" prot="protected" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>__ref_storage_amount</name></member>
       <member refid="classMR_1_1FlowOrigin_1a15fa5600549d1f24c4149b379cae905e" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>amount</name></member>
       <member refid="classMR_1_1FlowOrigin_1aed3b952a7d7f8c75a9723db96cc7f80c" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FlowOrigin_1a1cbefe6e9ea47844ffd86f804b450ffb" prot="package" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>Const_FlowOrigin</name></member>
+      <member refid="classMR_1_1Const__FlowOrigin_1a617439919a5ffa333148347231f105e9" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>Const_FlowOrigin</name></member>
+      <member refid="classMR_1_1Const__FlowOrigin_1a572f82b699db3134e5c8221e12a51b3a" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>Const_FlowOrigin</name></member>
+      <member refid="classMR_1_1Const__FlowOrigin_1a24cfc431fc6c58fb35f786982056c291" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>Const_FlowOrigin</name></member>
+      <member refid="classMR_1_1Const__FlowOrigin_1a88e042d10eb9652b061ad8dd5f56f28d" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>Const_FlowOrigin</name></member>
+      <member refid="classMR_1_1Const__FlowOrigin_1a9ceb3b1253edd4ce676aedc1ad84dad7" prot="protected" virt="virtual"><scope>MR::FlowOrigin</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FlowOrigin_1a73004bdc9b27067f2f4e736297baed0c" prot="public" virt="virtual"><scope>MR::FlowOrigin</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FlowOrigin_1a8052a00f7ba24a1b3fa3abd2a2b7b544" prot="package" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>FlowOrigin</name></member>
       <member refid="classMR_1_1FlowOrigin_1a6d8a6bad9cd0cad606d492bf392d73d3" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>FlowOrigin</name></member>
       <member refid="classMR_1_1FlowOrigin_1ab31dffeba06034f54bde6ebd3c7c17b4" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>FlowOrigin</name></member>

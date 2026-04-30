@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Nesting_1_1TetrisDensifyParams" kind="class" language="C#" prot="public">
     <compoundname>MR::Nesting::TetrisDensifyParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Nesting.Const_TetrisDensifyParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams" prot="public" virt="non-virtual">MR.Nesting.Const_TetrisDensifyParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Nesting_1_1TetrisDensifyParams_1af50a5326b81065d257a03ababfa2b83e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Nesting_1_1NestingBaseParams" kindref="compound">MR.Nesting.NestingBaseParams</ref></type>
@@ -80,7 +80,7 @@
         <name>TetrisDensifyParams</name>
         <qualifiedname>MR.Nesting.TetrisDensifyParams.TetrisDensifyParams</qualifiedname>
         <param>
-          <type>MR.Nesting.Const_NestingBaseParams</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingBaseParams" kindref="compound">MR.Nesting.Const_NestingBaseParams</ref></type>
           <declname>baseParams</declname>
         </param>
         <param>
@@ -122,7 +122,7 @@
         <name>TetrisDensifyParams</name>
         <qualifiedname>MR.Nesting.TetrisDensifyParams.TetrisDensifyParams</qualifiedname>
         <param>
-          <type>Const_TetrisDensifyParams</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams" kindref="compound">Const_TetrisDensifyParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -190,6 +190,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_TetrisDensifyParams</label>
+        <link refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -211,6 +212,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_TetrisDensifyParams</label>
+        <link refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,6 +226,14 @@
     <listofallmembers>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a085e979da48d157f56ae9daecc8ac464" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>assign</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1af50a5326b81065d257a03ababfa2b83e" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>baseParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a2948e6ce46fcc8f9bfd643de65e9105c" prot="package" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a893d4c6d8062794a7fcda05e62751ecc" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a9f3bdccc48d8bdc83fb26818e4fa0481" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a17364324fb84a3e7944a9ce3654291a9" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a98552bcfdad844fba022aef1071c61ae" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a34f844ca7b31c13eeec10bc5149aeefc" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a66026e784aff8a3c3a65285746e3dc09" prot="protected" virt="virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a2e1bd4c0b9abdad032d792bf8680dad7" prot="public" virt="virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a681ed82a6123a927423ad06e5fe39561" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>options</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1ad4f7198b586c41ac83aac79ac49b53f1" prot="package" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>TetrisDensifyParams</name></member>
       <member refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a3800bb9a04399416f5b017d043c53f20" prot="public" virt="non-virtual"><scope>MR::Nesting::TetrisDensifyParams</scope><name>TetrisDensifyParams</name></member>

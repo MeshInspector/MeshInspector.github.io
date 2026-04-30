@@ -34,7 +34,6 @@ var hierarchy =
     [ "MR::Mcp::Schema::Base", "structMR_1_1Mcp_1_1Schema_1_1Base.html", [
       [ "MR::Mcp::Schema::Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", null ],
       [ "MR::Mcp::Schema::Bool", "structMR_1_1Mcp_1_1Schema_1_1Bool.html", null ],
-      [ "MR::Mcp::Schema::Empty", "structMR_1_1Mcp_1_1Schema_1_1Empty.html", null ],
       [ "MR::Mcp::Schema::Number", "structMR_1_1Mcp_1_1Schema_1_1Number.html", null ],
       [ "MR::Mcp::Schema::Object", "structMR_1_1Mcp_1_1Schema_1_1Object.html", null ],
       [ "MR::Mcp::Schema::String", "structMR_1_1Mcp_1_1Schema_1_1String.html", null ]

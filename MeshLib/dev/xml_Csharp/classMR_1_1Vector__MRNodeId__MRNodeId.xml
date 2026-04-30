@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRNodeId__MRNodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRNodeId_MRNodeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRNodeId_MRNodeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId" prot="public" virt="non-virtual">MR.Const_Vector_MRNodeId_MRNodeId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRNodeId__MRNodeId_1a7cd47abdc648e06e6eaba627e5279a57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vector_MRNodeId_MRNodeId</name>
         <qualifiedname>MR.Vector_MRNodeId_MRNodeId.Vector_MRNodeId_MRNodeId</qualifiedname>
         <param>
-          <type>Const_Vector_MRNodeId_MRNodeId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId" kindref="compound">Const_Vector_MRNodeId_MRNodeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRNodeId_MRNodeId</label>
+        <link refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRNodeId_MRNodeId</label>
+        <link refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a40d5aa36da0661109dd4d19a69b9290c" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1ac6d6ca36e11b6048898e586e005b4799" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a8f3d2f8f4feb07e1c0eb2a830746abd8" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1ae926342a3bb63d10c4585da448ad240e" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a32e5859e75e0bdcb25282ebd05b66ca4" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1ae08a2ad20933a31302807846869c0671" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a4ee9e2fceb0fe510955e4f8b870f3fbb" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a360386c2a35d91ae65072f8b9a1e34aa" prot="package" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Const_Vector_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1ac48370ef097c58fe4cddb198c0209e0a" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Const_Vector_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1aab0b02f0be6e16ed351600aa8c49cf1b" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Const_Vector_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a054a4349f8127df2249c2b4e487336b6" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Const_Vector_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a88bbb0cffbd5954471f6103d96a47245" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Const_Vector_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a3838988626f78d47347f99410e1dd82f" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Const_Vector_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a4bd10d9b06fe6adeef778faa33064435" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Const_Vector_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a8648280f013eb568f0b4f5bc1c618e9b" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Const_Vector_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a4d1d38ae135618f51932096a3e8fdb97" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a3d972cd86f8748236267b18eb80d339a" prot="protected" virt="virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a35b70bdd5108ca481358aba6931cc670" prot="public" virt="virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a41b5cfa1c58461783a8b1e80ccf67fb3" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a215ed5524e050cea7fa1cca41c5591b1" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a4f3848a39c24414543ca90655d4502e0" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a82eb9a560d232ce170355384d4f830e2" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a8a6cf8e6cb0f4e4ddd04f92c830386b3" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a05017e758b0bb7967c0a01254ba1fc4a" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a94dc223566a2a00de2e7e46240e5f6d8" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a7ace7a8347870791aeb025a5929b9b82" prot="private" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a580a726ddf113d39f00a03920b802d3b" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a25b4e7ca2de72f0766adee7a6012ff65" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>operator Const_Vector_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a851a9c4a0dd1428eca25892cd771a6b1" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>operator Vector_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1acf5b5725e6e5d17fb112b446376c3267" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a6ca9692050ecc006715508d2bed3af3d" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a97b33aa9321c51ad90a22e7eabb62025" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a95085023c6fc33028ad7c31ff93f13b0" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1aa9a68a85c2468647ef8607b72d334da2" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a052949c12415c64405466b125b2ddced" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a383daf2fe0df5e518594f22467635924" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a73138dd09ea14effbc9ca9c0791715cc" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNodeId__MRNodeId_1a6ca4acadef4dcd22334230077fe81287" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a0c6b4f9a820a00244629b2d6d86c42b4" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a405ca400bfc9a3ae53477cf80152df87" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>this[MR.NodeId i]</name></member>
       <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a7cd47abdc648e06e6eaba627e5279a57" prot="public" virt="non-virtual"><scope>MR::Vector_MRNodeId_MRNodeId</scope><name>vec</name></member>

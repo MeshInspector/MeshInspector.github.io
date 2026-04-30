@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WeightedVertex" kind="class" language="C#" prot="public">
     <compoundname>MR::WeightedVertex</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_WeightedVertex</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__WeightedVertex" prot="public" virt="non-virtual">MR.Const_WeightedVertex</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1WeightedVertex_1aa080ce7f5f91bafe3a2e10fbd8cf0b60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -103,7 +103,7 @@
         <name>WeightedVertex</name>
         <qualifiedname>MR.WeightedVertex.WeightedVertex</qualifiedname>
         <param>
-          <type>MR.Const_WeightedVertex</type>
+          <type><ref refid="classMR_1_1Const__WeightedVertex" kindref="compound">MR.Const_WeightedVertex</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.WeightedVertex.assign</qualifiedname>
         <param>
-          <type>MR.Const_WeightedVertex</type>
+          <type><ref refid="classMR_1_1Const__WeightedVertex" kindref="compound">MR.Const_WeightedVertex</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_WeightedVertex</label>
+        <link refid="classMR_1_1Const__WeightedVertex"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.WeightedVertex</label>
         <link refid="classMR_1_1WeightedVertex"/>
@@ -189,9 +194,13 @@
       </node>
       <node id="2">
         <label>MR.Const_WeightedVertex</label>
+        <link refid="classMR_1_1Const__WeightedVertex"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_v</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,7 +212,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="103" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="104" bodyend="168"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__WeightedVertex_1a73257b8abe8e685622eb4f38a929b02b" prot="protected" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>__ref_storage_v</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1aba1151986ee120f644f810234889e2ff" prot="protected" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>__ref_storage_weight</name></member>
       <member refid="classMR_1_1WeightedVertex_1a5f7f26324334752a9d6e361702c32e08" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1af35917972428a8bb85f3fbbda69f06f4" prot="package" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1aeba73ec193569e52da7074047f0f3ee2" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1a1665ba4a968594c97a255017e9757c28" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1abbe7c180fe0036197873e6f2241edc9d" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1aa8aa9889238e777c66c0beffa0318581" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1aa1f350000948f212c66ac1894bbb7781" prot="protected" virt="virtual"><scope>MR::WeightedVertex</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1a6daea963c73f1aff302ecd484d90f21e" prot="public" virt="virtual"><scope>MR::WeightedVertex</scope><name>Dispose</name></member>
       <member refid="classMR_1_1WeightedVertex_1aa080ce7f5f91bafe3a2e10fbd8cf0b60" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>v</name></member>
       <member refid="classMR_1_1WeightedVertex_1af33a56c635ecca5917e6df42542cca0d" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>weight</name></member>
       <member refid="classMR_1_1WeightedVertex_1a42f6a1b0710770097a44a3b9a7106a60" prot="package" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>WeightedVertex</name></member>

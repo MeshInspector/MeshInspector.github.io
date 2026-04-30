@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__GeodesicPath" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_GeodesicPath</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1GeodesicPath" prot="public" virt="non-virtual">MR.GeodesicPath</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__GeodesicPath_1a92700fcb0dee2021014674ff8524cafc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+        <definition>unsafe MR.Const_MeshTriPoint MR.Const_GeodesicPath.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>MR.Const_GeodesicPath.start</qualifiedname>
+        <briefdescription>
+<para>can be invalid, then the path starts in mids.front() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="31" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeodesicPath_1a1e33d1ccd63e690ba4cad14240d27c8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MREdgePoint</type>
+        <definition>unsafe MR.Std.Const_Vector_MREdgePoint MR.Const_GeodesicPath.mids</definition>
+        <argsstring></argsstring>
+        <name>mids</name>
+        <qualifiedname>MR.Const_GeodesicPath.mids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="33" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GeodesicPath_1a1c5369f2c6e90a2acc1add69da2d2709" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+        <definition>unsafe MR.Const_MeshTriPoint MR.Const_GeodesicPath.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>MR.Const_GeodesicPath.end</qualifiedname>
+        <briefdescription>
+<para>can be invalid, then the path ends in mids.back() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="38" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1ad7057835f676c93eed1c1a4a6492677d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_GeodesicPath.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GeodesicPath.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1a83c00c5d04df0c3c262adbc0d20cd04f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_GeodesicPath.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GeodesicPath.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1aa186d87792636255f34391f3dfb5fd9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GeodesicPath.Const_GeodesicPath</definition>
+        <argsstring>()</argsstring>
+        <name>Const_GeodesicPath</name>
+        <qualifiedname>MR.Const_GeodesicPath.Const_GeodesicPath</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1a7dc22cedf755b785cfb074c38d5f795e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GeodesicPath.Const_GeodesicPath</definition>
+        <argsstring>(MR.Const_MeshTriPoint start, MR.Std._ByValue_Vector_MREdgePoint mids, MR.Const_MeshTriPoint end)</argsstring>
+        <name>Const_GeodesicPath</name>
+        <qualifiedname>MR.Const_GeodesicPath.Const_GeodesicPath</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_MREdgePoint</type>
+          <declname>mids</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1GeodesicPath" kindref="compound">MR.GeodesicPath</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="91" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1a7bf955b81c1a402a9cb45b9d6e1fad49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GeodesicPath.Const_GeodesicPath</definition>
+        <argsstring>(MR._ByValue_GeodesicPath _other)</argsstring>
+        <name>Const_GeodesicPath</name>
+        <qualifiedname>MR.Const_GeodesicPath.Const_GeodesicPath</qualifiedname>
+        <param>
+          <type>MR._ByValue_GeodesicPath</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GeodesicPath_1a1041cebba080b5c874e56aabda054194" kindref="member">MR.GeodesicPath.GeodesicPath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="105" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="105" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1a00fea748b8f95df3f68d5e8c3fdcd969" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GeodesicPath.Const_GeodesicPath</definition>
+        <argsstring>(Const_GeodesicPath _other)</argsstring>
+        <name>Const_GeodesicPath</name>
+        <qualifiedname>MR.Const_GeodesicPath.Const_GeodesicPath</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GeodesicPath" kindref="compound">Const_GeodesicPath</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GeodesicPath_1a1041cebba080b5c874e56aabda054194" kindref="member">MR.GeodesicPath.GeodesicPath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="117" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1afbf090635eb5e28ec60571eb160977fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GeodesicPath.Const_GeodesicPath</definition>
+        <argsstring>(GeodesicPath _other)</argsstring>
+        <name>Const_GeodesicPath</name>
+        <qualifiedname>MR.Const_GeodesicPath.Const_GeodesicPath</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GeodesicPath" kindref="compound">GeodesicPath</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GeodesicPath_1a1041cebba080b5c874e56aabda054194" kindref="member">MR.GeodesicPath.GeodesicPath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="122" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1a28eff7ed1d1013726e4f87b5eaa57683" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_GeodesicPath.numVertices</definition>
+        <argsstring>()</argsstring>
+        <name>numVertices</name>
+        <qualifiedname>MR.Const_GeodesicPath.numVertices</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GeodesicPath_1a28eff7ed1d1013726e4f87b5eaa57683" kindref="member">MR.GeodesicPath.numVertices</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="127" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="127" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1af25dd8474303f25078c308e668efc338" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GeodesicPath.~Const_GeodesicPath</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_GeodesicPath</name>
+        <qualifiedname>MR.Const_GeodesicPath.~Const_GeodesicPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__GeodesicPath_1af8e148bb1e5a188b14553bb61e7c0d6c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GeodesicPath.Const_GeodesicPath</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_GeodesicPath</name>
+        <qualifiedname>MR.Const_GeodesicPath.Const_GeodesicPath</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>in the most general form, geodesic path can start in any mesh location (<ref refid="classMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>), then pass triangles along straight lines, making turns on edges (MeshEdgePoint), and finish in any mesh location (<ref refid="classMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>) Generated from class <computeroutput><ref refid="classMR_1_1GeodesicPath" kindref="compound">MR.GeodesicPath</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_GeodesicPath</label>
+        <link refid="classMR_1_1Const__GeodesicPath"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.GeodesicPath</label>
+        <link refid="classMR_1_1GeodesicPath"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_GeodesicPath</label>
+        <link refid="classMR_1_1Const__GeodesicPath"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfacePath.cs" bodystart="11" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__GeodesicPath_1af8e148bb1e5a188b14553bb61e7c0d6c" prot="package" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>Const_GeodesicPath</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1aa186d87792636255f34391f3dfb5fd9b" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>Const_GeodesicPath</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a7dc22cedf755b785cfb074c38d5f795e" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>Const_GeodesicPath</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a7bf955b81c1a402a9cb45b9d6e1fad49" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>Const_GeodesicPath</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a00fea748b8f95df3f68d5e8c3fdcd969" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>Const_GeodesicPath</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1afbf090635eb5e28ec60571eb160977fe" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>Const_GeodesicPath</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1ad7057835f676c93eed1c1a4a6492677d" prot="protected" virt="virtual"><scope>MR::Const_GeodesicPath</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a83c00c5d04df0c3c262adbc0d20cd04f" prot="public" virt="virtual"><scope>MR::Const_GeodesicPath</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a1c5369f2c6e90a2acc1add69da2d2709" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a1e33d1ccd63e690ba4cad14240d27c8f" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>mids</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a28eff7ed1d1013726e4f87b5eaa57683" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>numVertices</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1a92700fcb0dee2021014674ff8524cafc" prot="public" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>start</name></member>
+      <member refid="classMR_1_1Const__GeodesicPath_1af25dd8474303f25078c308e668efc338" prot="private" virt="non-virtual"><scope>MR::Const_GeodesicPath</scope><name>~Const_GeodesicPath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_MRQuadraticForm2f_MRVertId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId" prot="public" virt="non-virtual">MR.Vector_MRQuadraticForm2f_MRVertId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa5b3e3b8f077dec5da3766ba4bf57321" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRQuadraticForm2f</type>
+        <definition>unsafe MR.Std.Const_Vector_MRQuadraticForm2f MR.Const_Vector_MRQuadraticForm2f_MRVertId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44821" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44821" bodyend="44821"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a6c15e9e381ed385c2cb846680e74f71b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
+        <definition>unsafe MR.Const_QuadraticForm2f MR.Const_Vector_MRQuadraticForm2f_MRVertId.this[MR.VertId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.VertId i]</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.this[MR.VertId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44956" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44957" bodyend="44967"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a2e7086e1617f134527a56a2e416f5780" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_MRQuadraticForm2f_MRVertId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44742" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44742" bodyend="44750"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a742ba0a7a472aab374f35b7689d6ed24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_MRQuadraticForm2f_MRVertId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44751" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44751" bodyend="44751"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a3c39387ee90488b5d584f4222fb85fd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.Const_QuadraticForm2f &gt; MR.Const_Vector_MRQuadraticForm2f_MRVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44808" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44808" bodyend="44811"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a2240bce36c0d709b252fb81a4e09adad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44849" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44849" bodyend="44855"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7913575b2e0ebfd3d7be71fcb27c3321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>(MR._ByValue_Vector_MRQuadraticForm2f_MRVertId _other)</argsstring>
+        <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRQuadraticForm2f_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44860" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44860" bodyend="44867"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ac7271ece20fb0cba4029e68a05570096" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>(Const_Vector_MRQuadraticForm2f_MRVertId _other)</argsstring>
+        <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId" kindref="compound">Const_Vector_MRQuadraticForm2f_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44872" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44872" bodyend="44872"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a536a62d324542d565e39081e834e8ab2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>(Vector_MRQuadraticForm2f_MRVertId _other)</argsstring>
+        <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId" kindref="compound">Vector_MRQuadraticForm2f_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44877" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44877" bodyend="44877"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a9b2c976eff231736073bf77ad527a1b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44883" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44883" bodyend="44889"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a962501443576b8695b5f912f5f44729d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>(ulong size, MR.Const_QuadraticForm2f val)</argsstring>
+        <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44895" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44895" bodyend="44902"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a5af54f8f9a53cdc858749090854e6aed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt; vec)</argsstring>
+        <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44908" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44908" bodyend="44915"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a62cea17f0e23516c58d12c936668994c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_MRQuadraticForm2f_MRVertId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a62cea17f0e23516c58d12c936668994c" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44926" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44926" bodyend="44931"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a30ba2c8a825bbb0120f6a9a87ed11628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRQuadraticForm2f_MRVertId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a30ba2c8a825bbb0120f6a9a87ed11628" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44936" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44936" bodyend="44941"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a12858dbf276337107b2c62b66af5d530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRQuadraticForm2f_MRVertId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a12858dbf276337107b2c62b66af5d530" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44946" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44946" bodyend="44951"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a6d87e90544755a7f7a97e4540c08e9ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
+        <definition>unsafe MR.Const_QuadraticForm2f MR.Const_Vector_MRQuadraticForm2f_MRVertId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a6d87e90544755a7f7a97e4540c08e9ce" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44972" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44972" bodyend="44980"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7f32b3d4cd0e85b50c799c6e3d5ff47a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">MR.Const_QuadraticForm2f</ref></type>
+        <definition>unsafe MR.Const_QuadraticForm2f MR.Const_Vector_MRQuadraticForm2f_MRVertId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7f32b3d4cd0e85b50c799c6e3d5ff47a" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44985" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44985" bodyend="44993"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa10e7e980e0f3b524f8beefe0e271543" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_Vector_MRQuadraticForm2f_MRVertId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa10e7e980e0f3b524f8beefe0e271543" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44999" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44999" bodyend="45004"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ab7cd5ae673595ab2ba963645cfcde1a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_Vector_MRQuadraticForm2f_MRVertId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7f32b3d4cd0e85b50c799c6e3d5ff47a" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ab7cd5ae673595ab2ba963645cfcde1a9" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="45010" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="45010" bodyend="45015"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aecc940df801cf556d91a800d1c6357a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_Vector_MRQuadraticForm2f_MRVertId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ab7cd5ae673595ab2ba963645cfcde1a9" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aecc940df801cf556d91a800d1c6357a2" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="45021" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="45021" bodyend="45026"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a9661a245b5d7dffa455818192e6bc75d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__QuadraticForm2f" kindref="compound">Const_QuadraticForm2f</ref></type>
+        <definition>unsafe MR.? Const_QuadraticForm2f MR.Const_Vector_MRQuadraticForm2f_MRVertId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a9661a245b5d7dffa455818192e6bc75d" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="45031" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="45031" bodyend="45040"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1af9f8200430a4cd391ed7ca706ea8422b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRQuadraticForm2f_MRVertId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1af9f8200430a4cd391ed7ca706ea8422b" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="45046" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="45046" bodyend="45051"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa924c74fb21617b1c065a30abf64bcd2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRQuadraticForm2f_MRVertId.~Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.~Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44752" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44752" bodyend="44752"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a0d30d07f699a53973567fa89b03f3f72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_MRQuadraticForm2f_MRVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44813" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44813" bodyend="44816"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a59d9a28c309d08981a572e3a90d28fee" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44838" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44838" bodyend="44843"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a597b638e3a4d7a73346ffa38bf7a79b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_MRQuadraticForm2f_MRVertId.operator Const_Vector_MRQuadraticForm2f_MRVertId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt; vec)</argsstring>
+        <name>operator Const_Vector_MRQuadraticForm2f_MRVertId</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.operator Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44921" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44921" bodyend="44921"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRQuadraticForm2f_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.Vector_MRQuadraticForm2f_MRVertId</label>
+        <link refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRQuadraticForm2f_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="44736" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="44737" bodyend="45052"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7f32b3d4cd0e85b50c799c6e3d5ff47a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ab7cd5ae673595ab2ba963645cfcde1a9" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa10e7e980e0f3b524f8beefe0e271543" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a12858dbf276337107b2c62b66af5d530" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a59d9a28c309d08981a572e3a90d28fee" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a2240bce36c0d709b252fb81a4e09adad" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7913575b2e0ebfd3d7be71fcb27c3321" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ac7271ece20fb0cba4029e68a05570096" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a536a62d324542d565e39081e834e8ab2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a9b2c976eff231736073bf77ad527a1b3" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a962501443576b8695b5f912f5f44729d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a5af54f8f9a53cdc858749090854e6aed" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a9661a245b5d7dffa455818192e6bc75d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a2e7086e1617f134527a56a2e416f5780" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a742ba0a7a472aab374f35b7689d6ed24" prot="public" virt="virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a62cea17f0e23516c58d12c936668994c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aecc940df801cf556d91a800d1c6357a2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a6d87e90544755a7f7a97e4540c08e9ce" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a3c39387ee90488b5d584f4222fb85fd2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a0d30d07f699a53973567fa89b03f3f72" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1af9f8200430a4cd391ed7ca706ea8422b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a597b638e3a4d7a73346ffa38bf7a79b5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>operator Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a30ba2c8a825bbb0120f6a9a87ed11628" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a6c15e9e381ed385c2cb846680e74f71b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>this[MR.VertId i]</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa5b3e3b8f077dec5da3766ba4bf57321" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa924c74fb21617b1c065a30abf64bcd2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>~Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

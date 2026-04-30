@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertColors" kind="class" language="C#" prot="public">
     <compoundname>MR::VertColors</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertColors</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VertColors" prot="public" virt="non-virtual">MR.Const_VertColors</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VertColors_1a3ec8d4a17d9f15871ec4be3794ddd814" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>VertColors</name>
         <qualifiedname>MR.VertColors.VertColors</qualifiedname>
         <param>
-          <type>Const_VertColors</type>
+          <type><ref refid="classMR_1_1Const__VertColors" kindref="compound">Const_VertColors</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertColors</label>
+        <link refid="classMR_1_1Const__VertColors"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertColors</label>
+        <link refid="classMR_1_1Const__VertColors"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1VertColors_1aece47ec62c9217c3f32fbef256aa85d3" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1VertColors_1aa3cbbbb7f200f3176133da739be105c1" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1VertColors_1ac87b11c83827c0c6046415b5d79b72c2" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a2ead85801f55a2cdf9ae15e6cba315a6" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a59ee5fa96beb7728a9c054ffc948d59d" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a5db1dbce851ee595b5e55450b7d40e82" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>capacity</name></member>
       <member refid="classMR_1_1VertColors_1aca7ce46ce17a2634d67866db8811ed95" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a193525e3ae79979b5826bbc23313077b" prot="package" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a86d22fb3287a940e529be28c6557a906" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1ab2b373224b01a25100e1259c5e83c994" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a31bbaee93de12beb469d261d86501d3c" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a1f92e3f9e7fa94c361e75e830d2541ee" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1ac736b2bb10df45b0c08d89b7968e38da" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a6a2a897b78ec81f3440a652bc93a8ed5" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1aa92ff0e09d23d1f38e276c96132037d8" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a819475399037335c0aedca5047ae2973" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a6b538fcc9681ff742614b4ac237e4040" prot="protected" virt="virtual"><scope>MR::VertColors</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a0b2086b3482bbcb6a00e73a5e1635ef6" prot="public" virt="virtual"><scope>MR::VertColors</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VertColors_1af9e95d4aae4c58876deec83ef5108bcf" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a08116a08194e16c45d62895ee8661233" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__VertColors_1aa43c4b236dc86052b0471f19274d2326" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a25192d280849b61d48b87966832eac2d" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VertColors_1af7e069f57a25693d657662dd1d5bf2de" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Equals</name></member>
       <member refid="classMR_1_1VertColors_1aeeb763073cc748252841352587f922ef" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>front</name></member>
       <member refid="classMR_1_1VertColors_1aa53951f0ce8eb3b29f151127ac1e1422" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1VertColors_1aaff0867cf201fc01768ae9926d911644" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a11ed576a4e1c28d4cd1dbfcd2ef3bfd7" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertColors_1ac5b39ac511b863df1b2fbe48ed3739cf" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator Const_VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a7ce69885d3d70e526dc3bebb78a0b113" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a185fc92a777168cba200cf1f2962ad43" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a46116e192e48847d7d6bda4806363634" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator==</name></member>
       <member refid="classMR_1_1VertColors_1a3fd4b75759e9535814f50af401073df4" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>popBack</name></member>
       <member refid="classMR_1_1VertColors_1af03c356e55aa7a456501ad5ee54854fa" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>pushBack</name></member>
       <member refid="classMR_1_1VertColors_1af384437afa67236d37dd1e3c1ab69cd3" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1VertColors_1a95c2b8279afaab5f64228a75a4a8c0fd" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1VertColors_1a32d29ac64b12814d968dbc2d473aff1c" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1VertColors_1afb1e7e5a5bd9e1b05710abe9110af3ed" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a0e452c3a8426f6173b35f34179a762b3" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>size</name></member>
       <member refid="classMR_1_1VertColors_1ae963429afaf0c6f510029d1d71db91ca" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>swap</name></member>
       <member refid="classMR_1_1VertColors_1aa3af49275ed92626a7771bc8349cd23a" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1VertColors_1a3ec8d4a17d9f15871ec4be3794ddd814" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>vec</name></member>

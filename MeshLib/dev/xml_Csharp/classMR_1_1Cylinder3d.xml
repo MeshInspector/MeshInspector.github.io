@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cylinder3d" kind="class" language="C#" prot="public">
     <compoundname>MR::Cylinder3d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Cylinder3d</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Cylinder3d" prot="public" virt="non-virtual">MR.Const_Cylinder3d</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Cylinder3d_1abc2e0b28a147fbe1e57abf7df49c7ffe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Line3d" kindref="compound">MR.Line3d</ref></type>
@@ -94,7 +94,7 @@
         <name>Cylinder3d</name>
         <qualifiedname>MR.Cylinder3d.Cylinder3d</qualifiedname>
         <param>
-          <type>MR.Const_Cylinder3d</type>
+          <type><ref refid="classMR_1_1Const__Cylinder3d" kindref="compound">MR.Const_Cylinder3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -163,7 +163,7 @@
         <name>Cylinder3d</name>
         <qualifiedname>MR.Cylinder3d.Cylinder3d</qualifiedname>
         <param>
-          <type>MR.Const_Line3d</type>
+          <type><ref refid="classMR_1_1Const__Line3d" kindref="compound">MR.Const_Line3d</ref></type>
           <declname>inAxis</declname>
         </param>
         <param>
@@ -190,7 +190,7 @@
         <name>assign</name>
         <qualifiedname>MR.Cylinder3d.assign</qualifiedname>
         <param>
-          <type>MR.Const_Cylinder3d</type>
+          <type><ref refid="classMR_1_1Const__Cylinder3d" kindref="compound">MR.Const_Cylinder3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -247,6 +247,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Cylinder3d</label>
+        <link refid="classMR_1_1Const__Cylinder3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -268,6 +269,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Cylinder3d</label>
+        <link refid="classMR_1_1Const__Cylinder3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -282,8 +284,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="461" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="462" bodyend="581"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Cylinder3d_1aa3ae7af39b9fb24567315554bd7a50a3" prot="protected" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>__ref_storage_length</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1a9934f269e0ee59e3fab808db2f93aa11" prot="protected" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>__ref_storage_radius</name></member>
       <member refid="classMR_1_1Cylinder3d_1a75529765ef3a6950a65ee8f32b0a5fd2" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>assign</name></member>
       <member refid="classMR_1_1Cylinder3d_1aee3cf39d56d854ac71eab43fa1332ade" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1ae0a8fe7b48f883d4ccc7ab4e05f845fe" prot="package" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Const_Cylinder3d</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1a38c1a6b58aca5653bf900ac59eebfc9b" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Const_Cylinder3d</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1a5f886d43f40e883b62f8013f1314cd3b" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Const_Cylinder3d</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1a83ebd77c1078ae7a9ae5ff22a0ea6d5e" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Const_Cylinder3d</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1a5d3b466bbf027eb63cb8015c51103346" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Const_Cylinder3d</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1a3b021f78ae5ff19aef0b35b743b0b36e" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Const_Cylinder3d</name></member>
       <member refid="classMR_1_1Cylinder3d_1a9c08207ea881d545d9a41fefc07c6f6f" prot="package" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Cylinder3d</name></member>
       <member refid="classMR_1_1Cylinder3d_1ae470bbdef2c35b5e5d480c48d7c5b097" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Cylinder3d</name></member>
       <member refid="classMR_1_1Cylinder3d_1a9c3f95895c1fb611ac9bcc7ee57a9e83" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Cylinder3d</name></member>
@@ -291,6 +301,8 @@
       <member refid="classMR_1_1Cylinder3d_1a024a59d124e2c65ada7cce247eb7e0bd" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Cylinder3d</name></member>
       <member refid="classMR_1_1Cylinder3d_1a51645ded4b7b8d786f63d5719c87e833" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>Cylinder3d</name></member>
       <member refid="classMR_1_1Cylinder3d_1aaa5346b7b1b3468002a61455cf41dcc0" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>direction</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1ae9878085d7f10ebbac8c5f0841bd9778" prot="protected" virt="virtual"><scope>MR::Cylinder3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Cylinder3d_1a2fa619d0b4fec6f2e30213eb5dfe7bd8" prot="public" virt="virtual"><scope>MR::Cylinder3d</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Cylinder3d_1a96053e47fd1754eecd013acc5f82940d" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>length</name></member>
       <member refid="classMR_1_1Cylinder3d_1abc2e0b28a147fbe1e57abf7df49c7ffe" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>mainAxis</name></member>
       <member refid="classMR_1_1Cylinder3d_1ab7ef46cbbe331b183eeb846e509c5c89" prot="public" virt="non-virtual"><scope>MR::Cylinder3d</scope><name>radius</name></member>

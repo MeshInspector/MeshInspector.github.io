@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__UiRenderManager" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_UiRenderManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1UiRenderManager" prot="public" virt="non-virtual">MR.UiRenderManager</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__UiRenderManager_1_1__Underlying" prot="package">MR::Const_UiRenderManager::_Underlying</innerclass>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderManager_1a759f9ce4bc2cfdad9022735d3a4581ff" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_UiRenderManager.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UiRenderManager.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1379" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1379" bodyend="1387"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderManager_1a9714eada8c121877bee230f7bec8352f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_UiRenderManager.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UiRenderManager.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1388" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1388" bodyend="1388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderManager_1a977b1da1a53627718fafa8aeca10bbf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UiRenderManager.Const_UiRenderManager</definition>
+        <argsstring>()</argsstring>
+        <name>Const_UiRenderManager</name>
+        <qualifiedname>MR.Const_UiRenderManager.Const_UiRenderManager</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1396" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1396" bodyend="1401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderManager_1a2454ecae814c2534c9a2276629d81ae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UiRenderManager.Const_UiRenderManager</definition>
+        <argsstring>(MR._ByValue_UiRenderManager _other)</argsstring>
+        <name>Const_UiRenderManager</name>
+        <qualifiedname>MR.Const_UiRenderManager.Const_UiRenderManager</qualifiedname>
+        <param>
+          <type>MR._ByValue_UiRenderManager</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UiRenderManager_1ae0b88ce3c6ee04ee0eb27560ad0da8a0" kindref="member">MR.UiRenderManager.UiRenderManager</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1406" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1406" bodyend="1412"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderManager_1a623a8209b99cec5a1aa59cbb481adb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UiRenderManager.Const_UiRenderManager</definition>
+        <argsstring>(Const_UiRenderManager _other)</argsstring>
+        <name>Const_UiRenderManager</name>
+        <qualifiedname>MR.Const_UiRenderManager.Const_UiRenderManager</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderManager" kindref="compound">Const_UiRenderManager</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UiRenderManager_1ae0b88ce3c6ee04ee0eb27560ad0da8a0" kindref="member">MR.UiRenderManager.UiRenderManager</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1417" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1417" bodyend="1417"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderManager_1a15f3271c53d6c45188df4d4cbba79231" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UiRenderManager.Const_UiRenderManager</definition>
+        <argsstring>(UiRenderManager _other)</argsstring>
+        <name>Const_UiRenderManager</name>
+        <qualifiedname>MR.Const_UiRenderManager.Const_UiRenderManager</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UiRenderManager" kindref="compound">UiRenderManager</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UiRenderManager_1ae0b88ce3c6ee04ee0eb27560ad0da8a0" kindref="member">MR.UiRenderManager.UiRenderManager</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1422" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1422" bodyend="1422"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderManager_1a8a4a98a05597e01eabf6f23e5d160e55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UiRenderManager.~Const_UiRenderManager</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_UiRenderManager</name>
+        <qualifiedname>MR.Const_UiRenderManager.~Const_UiRenderManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1389" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1389" bodyend="1389"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__UiRenderManager_1a438b51222fb602af83dfe148655c6514" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UiRenderManager.Const_UiRenderManager</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_UiRenderManager</name>
+        <qualifiedname>MR.Const_UiRenderManager.Const_UiRenderManager</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1391" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1391" bodyend="1391"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1UiRenderManager" kindref="compound">MR.UiRenderManager</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_UiRenderManager</label>
+        <link refid="classMR_1_1Const__UiRenderManager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.UiRenderManager</label>
+        <link refid="classMR_1_1UiRenderManager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_UiRenderManager</label>
+        <link refid="classMR_1_1Const__UiRenderManager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1373" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1374" bodyend="1423"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UiRenderManager_1a438b51222fb602af83dfe148655c6514" prot="package" virt="non-virtual"><scope>MR::Const_UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a977b1da1a53627718fafa8aeca10bbf0" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a2454ecae814c2534c9a2276629d81ae3" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a623a8209b99cec5a1aa59cbb481adb01" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a15f3271c53d6c45188df4d4cbba79231" prot="public" virt="non-virtual"><scope>MR::Const_UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a759f9ce4bc2cfdad9022735d3a4581ff" prot="protected" virt="virtual"><scope>MR::Const_UiRenderManager</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a9714eada8c121877bee230f7bec8352f" prot="public" virt="virtual"><scope>MR::Const_UiRenderManager</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a8a4a98a05597e01eabf6f23e5d160e55" prot="private" virt="non-virtual"><scope>MR::Const_UiRenderManager</scope><name>~Const_UiRenderManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

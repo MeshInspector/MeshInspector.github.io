@@ -3010,9 +3010,6 @@
   </compound>
   <compound refid="structMR_1_1detail_1_1Units_1_1Empty" kind="struct"><name>MR::detail::Units::Empty</name>
   </compound>
-  <compound refid="structMR_1_1Mcp_1_1Schema_1_1Empty" kind="struct"><name>MR::Mcp::Schema::Empty</name>
-    <member refid="structMR_1_1Mcp_1_1Schema_1_1Empty_1a50e1fc9f7b38d8b430a78685dd6a0a92" kind="function"><name>Empty</name></member>
-  </compound>
   <compound refid="structMR_1_1Pdf_1_1Cell_1_1Empty" kind="struct"><name>MR::Pdf::Cell::Empty</name>
   </compound>
   <compound refid="structMR_1_1EndMillCutter" kind="struct"><name>MR::EndMillCutter</name>
@@ -16097,7 +16094,9 @@
   <compound refid="namespaceMR_1_1McpGateway" kind="namespace"><name>MR::McpGateway</name>
     <member refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" kind="function"><name>getBackendAlive</name></member>
     <member refid="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" kind="function"><name>probeBackendAlive</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a153505bbfb54eb994b1929e70f09d9f5" kind="function"><name>updateBackendAliveAndNotify</name></member>
     <member refid="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" kind="function"><name>probeAndTrackBackend</name></member>
+    <member refid="namespaceMR_1_1McpGateway_1a125af5dc97b6c00c8b23e57f661a1b96" kind="function"><name>gatewayStdoutMutex</name></member>
     <member refid="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" kind="function"><name>registerLocalTools</name></member>
     <member refid="namespaceMR_1_1McpGateway_1a492feeb41d07c965ac23ee0076d73f14" kind="function"><name>getCachedTools</name></member>
     <member refid="namespaceMR_1_1McpGateway_1a7233b4a48f42fac23e3288ae84c19ed8" kind="function"><name>ensureFreshCache</name></member>

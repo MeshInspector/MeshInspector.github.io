@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId" prot="public" virt="non-virtual">MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a20a62466499d9c0d96f8b293d8a54391" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -21,13 +21,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="49946" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="49946" bodyend="49946"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a413b6f9ebc032cf3cd84149da6761e8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe new MR.WatershedGraph.BasinInfo</type>
+        <type>unsafe new <ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref></type>
         <definition>unsafe new MR.WatershedGraph.BasinInfo MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.this[MR.GraphVertId i]</definition>
         <argsstring></argsstring>
         <name>this[MR.GraphVertId i]</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.this[MR.GraphVertId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -38,7 +38,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a2fb539c85f3fec36d58dc0aeb34057f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>new IEnumerator&lt; MR.WatershedGraph.BasinInfo &gt;</type>
+        <type>new IEnumerator&lt; <ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref> &gt;</type>
         <definition>new IEnumerator&lt; MR.WatershedGraph.BasinInfo &gt; MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.GetEnumerator</definition>
         <argsstring>()</argsstring>
         <name>GetEnumerator</name>
@@ -77,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,11 +92,11 @@
         <name>Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.Vector_MRWatershedGraphBasinInfo_MRGraphVertId</qualifiedname>
         <param>
-          <type>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId" kindref="compound">Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -153,11 +153,11 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.WatershedGraph.Const_BasinInfo</type>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" kindref="compound">MR.WatershedGraph.Const_BasinInfo</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a044193e042bd1b7ad9983f33ea535ed6" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a044193e042bd1b7ad9983f33ea535ed6" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +229,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aeb636b5a33eff825366573657f12c579" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aeb636b5a33eff825366573657f12c579" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -248,11 +248,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.WatershedGraph.Const_BasinInfo</type>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" kindref="compound">MR.WatershedGraph.Const_BasinInfo</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aeb636b5a33eff825366573657f12c579" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aeb636b5a33eff825366573657f12c579" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -271,7 +271,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ae9de2f0bd2c3f686604720e93296ece5" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ae9de2f0bd2c3f686604720e93296ece5" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -290,7 +290,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a97f55b82d7c7b6cb89724f1ce4fdcb4f" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a97f55b82d7c7b6cb89724f1ce4fdcb4f" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -309,11 +309,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.WatershedGraph.Const_BasinInfo</type>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" kindref="compound">MR.WatershedGraph.Const_BasinInfo</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a97f55b82d7c7b6cb89724f1ce4fdcb4f" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a97f55b82d7c7b6cb89724f1ce4fdcb4f" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -336,11 +336,11 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.WatershedGraph.Const_BasinInfo</type>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" kindref="compound">MR.WatershedGraph.Const_BasinInfo</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a0cde0dd30993dc8a2b3412b54cbf5c2c" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a0cde0dd30993dc8a2b3412b54cbf5c2c" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -359,11 +359,11 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.WatershedGraph.Const_BasinInfo</type>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" kindref="compound">MR.WatershedGraph.Const_BasinInfo</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a0cde0dd30993dc8a2b3412b54cbf5c2c" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a0cde0dd30993dc8a2b3412b54cbf5c2c" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -372,7 +372,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50155" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50155" bodyend="50160"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a96f12dfff52ec9cfca47bd37fca0941d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.WatershedGraph.BasinInfo</type>
+        <type>unsafe <ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref></type>
         <definition>unsafe MR.WatershedGraph.BasinInfo MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.autoResizeAt</definition>
         <argsstring>(MR.GraphVertId i)</argsstring>
         <name>autoResizeAt</name>
@@ -382,7 +382,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a96f12dfff52ec9cfca47bd37fca0941d" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a96f12dfff52ec9cfca47bd37fca0941d" kindref="member">autoResizeAt</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -397,11 +397,11 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.pushBack</qualifiedname>
         <param>
-          <type>MR.WatershedGraph.Const_BasinInfo</type>
+          <type><ref refid="classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo" kindref="compound">MR.WatershedGraph.Const_BasinInfo</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -416,11 +416,11 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.pushBack</qualifiedname>
         <param>
-          <type>MR.Misc._Moved&lt; MR.WatershedGraph.BasinInfo &gt;</type>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref> &gt;</type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -435,7 +435,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -444,13 +444,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50198" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50198" bodyend="50203"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ace13f1ccad64b82b43f0aa1522a5d9d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.WatershedGraph.BasinInfo</type>
+        <type>unsafe <ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref></type>
         <definition>unsafe MR.WatershedGraph.BasinInfo MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.emplaceBack</definition>
         <argsstring>()</argsstring>
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -459,13 +459,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50208" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50208" bodyend="50213"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aa0690e45dcd3a78f6f9ba70598876e02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.WatershedGraph.BasinInfo</type>
+        <type>unsafe new <ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref></type>
         <definition>unsafe new MR.WatershedGraph.BasinInfo MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.front</definition>
         <argsstring>()</argsstring>
         <name>front</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aa0690e45dcd3a78f6f9ba70598876e02" kindref="member">front</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aa0690e45dcd3a78f6f9ba70598876e02" kindref="member">front</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -474,13 +474,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="50218" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="50218" bodyend="50226"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a976d387df176b3a75a751e586ffe0f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe new MR.WatershedGraph.BasinInfo</type>
+        <type>unsafe new <ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref></type>
         <definition>unsafe new MR.WatershedGraph.BasinInfo MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.back</definition>
         <argsstring>()</argsstring>
         <name>back</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a976d387df176b3a75a751e586ffe0f31" kindref="member">back</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a976d387df176b3a75a751e586ffe0f31" kindref="member">back</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -495,7 +495,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a36a895723dfd8dda97f8521094135b10" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a36a895723dfd8dda97f8521094135b10" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -514,7 +514,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aada0cb2b3bfb2e0520cbb8038a23096f" kindref="member">swap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aada0cb2b3bfb2e0520cbb8038a23096f" kindref="member">swap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -575,7 +575,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -601,7 +601,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;MR::WatershedGraph::BasinInfo, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__WatershedGraph_1_1BasinInfo" kindref="compound">MR.WatershedGraph.BasinInfo</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a0cde0dd30993dc8a2b3412b54cbf5c2c" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aabcd2b48d5541dd7cfdfe554693e4a5e" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a976d387df176b3a75a751e586ffe0f31" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1addac982cdb936fbf11b390505a2edc45" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1af34d59579c34652905ebdad4564fc930" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a798eb964d368b495447aacb382576a77" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a044193e042bd1b7ad9983f33ea535ed6" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a2a1e1f36e526838c6c9c1f4f7d12616e" prot="package" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a9a2ababfaa527a263f48f3c358f7fc6a" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a63a9906033dff7c4734a6d47b3743cde" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a07798fd5bd6592294c9557178dcbfe54" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a544c55843925c1973cde0be238067858" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a65c0af1bf8b43d7c0ac74b1b88636ef0" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a1ed682728690d0360dfb89e46bbc87d0" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aa648ba720cc57b29118fb701abe58189" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a36a895723dfd8dda97f8521094135b10" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ab7ec5dd066b5a1033987bb5c796cd031" prot="protected" virt="virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aa6da9c3099cacb8c9cec4741df310f2a" prot="public" virt="virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ace13f1ccad64b82b43f0aa1522a5d9d3" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aed8a764b3f1b933cdcec89dd89e96fdb" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a5c016916f0f7392c2af5232de85ceb3a" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aa0690e45dcd3a78f6f9ba70598876e02" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a2fb539c85f3fec36d58dc0aeb34057f8" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1af0c8bcc9efb4bafa9c9804b9b72a1952" prot="private" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1afd51ce6011830b22e21286cb4599dd1f" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a2e5afaf2b446f80b6dfbf89e18ba322f" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>operator Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a26e5c710a78c1ed51b68e06b9593ba02" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>operator Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aff46f98e40d1fab4f4c69a5dd2cfa5ed" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aad6048d300353ed71a358badce60d4c4" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>pushBack</name></member>
@@ -685,6 +704,7 @@
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ad02dd7b07415f50aa48e321549a93dac" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a97f55b82d7c7b6cb89724f1ce4fdcb4f" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a9e986c9cb548393b15e526fcff4d8d1c" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a662df87447d5a91087288956f0efe12c" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aada0cb2b3bfb2e0520cbb8038a23096f" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a413b6f9ebc032cf3cd84149da6761e8b" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
       <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a20a62466499d9c0d96f8b293d8a54391" prot="public" virt="non-virtual"><scope>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>vec</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</basecompoundref>
+    <basecompoundref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a66fa317a70eb6e3ec7137bd18e1d5e97" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name>
         <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" kindref="compound">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.assign</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" kindref="compound">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,13 @@
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ace35db2b29de5370752303c6432341c1" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1afe23bb04d4248d1dd7d53569a13230aa" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a04645095f42e9eacde2dc92be08e464a" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1acdbcbefc667b1c3487c296741726f6e7" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a88960e1c768968c518491d6647c186cd" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ab206bbf26c06fcda0741c1b8c0b7d23e" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a55b0e622f466d65d03f682d24800f7ca" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ace49c2a29737796e9bb1dfd2cdaeec0e" prot="protected" virt="virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a17798037592d9c5d77702b7c3014524a" prot="public" virt="virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a21e10db2a0c0e0a67dae4b03763a7dfa" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>measure</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>
