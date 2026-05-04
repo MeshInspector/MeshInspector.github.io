@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa":[6,0,0,10,0,23],
 "structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0":[6,0,0,10,0,12],
 "structMR_1_1DecimateSettings.html#abb741e47d580e75e37b13adcad8a362e":[6,0,0,10,0,10],
 "structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66":[6,0,0,10,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FlowAggregator_1_1Flows.html":[6,0,0,20,109],
 "structMR_1_1FlowOrigin.html":[6,0,0,20,106],
 "structMR_1_1FramebufferData_1_1DrawParams.html":[6,0,0,20,625],
-"structMR_1_1GCommand.html":[6,0,0,20,855],
-"structMR_1_1GcodeProcessor_1_1BaseAction.html":[6,0,0,20,252]
+"structMR_1_1GCommand.html":[6,0,0,20,855]
 };

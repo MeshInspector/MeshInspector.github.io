@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1UiRenderManager.html":[6,0,0,20,287],
 "structMR_1_1UiRenderParams.html":[6,0,0,20,286],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html":[6,0,0,1,13],
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6":[6,0,0,1,13,4],

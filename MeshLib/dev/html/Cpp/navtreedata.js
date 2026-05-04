@@ -207,14 +207,14 @@ var NAVTREEINDEX =
 "namespaceMR_1_1FillingSurface.html#a3ff060a54d2569204983c0341bc857d8a71e49f0a64aa14c31736b028670cacf3",
 "namespaceMR_1_1SpaceMouse.html#af8da66a1778b1276a2273cce6aa25df1",
 "structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6",
-"structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0",
-"structMR_1_1GcodeProcessor_1_1Command.html",
+"structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa",
+"structMR_1_1GcodeProcessor_1_1BaseAction.html",
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1",
 "structMR_1_1Mcp_1_1Schema_1_1Bool.html#a61f76b4db5d73139516c6d838a4c7ec7",
 "structMR_1_1MeshSave_1_1MeshSaverCapabilities.html",
-"structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a",
-"structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc",
-"structMR_1_1UiRenderParams.html"
+"structMR_1_1Polyline.html#a403ab94ad27b1766b1ef3043546ee01d",
+"structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30",
+"structMR_1_1UiRenderManager.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

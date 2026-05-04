@@ -24,6 +24,7 @@ var MRUITestEngine_8h =
     [ "MR::UI::TestEngine::detail::createValueLow", "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a2e73c8ebc73460f3aa834d31f6cb8d3d", null ],
     [ "MR::UI::TestEngine::createValueTentative", "namespaceMR_1_1UI_1_1TestEngine.html#a3ece6ea22acf01690ed3716ed07f7c76", null ],
     [ "MR::UI::TestEngine::getRootEntry", "namespaceMR_1_1UI_1_1TestEngine.html#a0b6a21c2491075e840bb5fa053992dc9", null ],
+    [ "MR::UI::TestEngine::markFrameTriggered", "namespaceMR_1_1UI_1_1TestEngine.html#aa9c0fbddfb4fd7dd0a7148852e27e6f4", null ],
     [ "MR::UI::TestEngine::popTree", "namespaceMR_1_1UI_1_1TestEngine.html#ab05a3802e2ed1ab9f8a55c8a8d55ef6a", null ],
     [ "MR::UI::TestEngine::pushTree", "namespaceMR_1_1UI_1_1TestEngine.html#ad12d929394733bbfd78765262fec48b8", null ],
     [ "MR::UI::TestEngine::stageFileDialogPaths", "namespaceMR_1_1UI_1_1TestEngine.html#a1965dae3999cda8a8a172d8892fa66d6", null ],

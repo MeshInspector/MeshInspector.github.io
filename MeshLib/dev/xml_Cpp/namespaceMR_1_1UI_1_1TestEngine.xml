@@ -223,11 +223,26 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>True if a TestEngine-driven action ran during the current <ref refid="namespaceImGui" kindref="compound">ImGui</ref> frame: either a <computeroutput>createButton(...)</computeroutput> call returned a simulated click, or a <computeroutput>createValueLow(...)</computeroutput> call consumed a value override. Cleared at frame boundary. Read by code that wants to behave differently under TE control — e.g. file dialogs that should bypass the OS modal. </para>
+<para>True if a TestEngine-driven action ran during the current <ref refid="namespaceImGui" kindref="compound">ImGui</ref> frame: either a <computeroutput>createButton(...)</computeroutput> call returned a simulated click, a <computeroutput>createValueLow(...)</computeroutput> call consumed a value override, or a caller explicitly invoked <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1aa9c0fbddfb4fd7dd0a7148852e27e6f4" kindref="member">markFrameTriggered()</ref></computeroutput>. Cleared at frame boundary. Read by code that wants to behave differently under TE control — e.g. file dialogs that should bypass the OS modal. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="216" column="8" declfile="MRViewer/MRUITestEngine.h" declline="216" declcolumn="8"/>
+        <location file="MRViewer/MRUITestEngine.h" line="217" column="8" declfile="MRViewer/MRUITestEngine.h" declline="217" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1aa9c0fbddfb4fd7dd0a7148852e27e6f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::UI::TestEngine::markFrameTriggered</definition>
+        <argsstring>()</argsstring>
+        <name>markFrameTriggered</name>
+        <qualifiedname>MR::UI::TestEngine::markFrameTriggered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Explicitly mark the current frame as TestEngine-driven. Use from MCP tool handlers that fire plugin actions on a path that does NOT go through <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1abe0944f31ec6c1e531ceca7b6394001b" kindref="member">createButton()</ref></computeroutput> (e.g. <computeroutput>tools.action</computeroutput>) but should still trigger TE-gated hooks (file-dialog bypass, etc.). Call from the GUI thread before invoking the action. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngine.h" line="224" column="7" declfile="MRViewer/MRUITestEngine.h" declline="224" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a1965dae3999cda8a8a172d8892fa66d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -246,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="221" column="7" declfile="MRViewer/MRUITestEngine.h" declline="221" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="229" column="7" declfile="MRViewer/MRUITestEngine.h" declline="229" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1abd61ada83790c186718b68279ecbe280" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::filesystem::path &gt;</type>
@@ -261,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="225" column="15" declfile="MRViewer/MRUITestEngine.h" declline="225" declcolumn="15"/>
+        <location file="MRViewer/MRUITestEngine.h" line="233" column="15" declfile="MRViewer/MRUITestEngine.h" declline="233" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1aff532e343b167be1078babd8b983109a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -280,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="230" column="7" declfile="MRViewer/MRUITestEngine.h" declline="230" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="238" column="7" declfile="MRViewer/MRUITestEngine.h" declline="238" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1aeac65226aaa734d22d20311ecf18baf8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::string &gt;</type>
@@ -295,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="233" column="15" declfile="MRViewer/MRUITestEngine.h" declline="233" declcolumn="15"/>
+        <location file="MRViewer/MRUITestEngine.h" line="241" column="15" declfile="MRViewer/MRUITestEngine.h" declline="241" declcolumn="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

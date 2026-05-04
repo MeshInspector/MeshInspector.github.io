@@ -181,6 +181,7 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 <tr class="memitem:a0b6a21c2491075e840bb5fa053992dc9" id="r_a0b6a21c2491075e840bb5fa053992dc9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b6a21c2491075e840bb5fa053992dc9">getRootEntry</a> ()</td></tr>
 <tr class="memdesc:a0b6a21c2491075e840bb5fa053992dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current entry tree.  <br /></td></tr>
 <tr class="memitem:a2078fdbfbec22964aecff13ad7a4404f" id="r_a2078fdbfbec22964aecff13ad7a4404f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2078fdbfbec22964aecff13ad7a4404f">wasFrameTriggered</a> ()</td></tr>
+<tr class="memitem:aa9c0fbddfb4fd7dd0a7148852e27e6f4" id="r_aa9c0fbddfb4fd7dd0a7148852e27e6f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9c0fbddfb4fd7dd0a7148852e27e6f4">markFrameTriggered</a> ()</td></tr>
 <tr class="memitem:a1965dae3999cda8a8a172d8892fa66d6" id="r_a1965dae3999cda8a8a172d8892fa66d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1965dae3999cda8a8a172d8892fa66d6">stageFileDialogPaths</a> (std::vector&lt; std::filesystem::path &gt; paths)</td></tr>
 <tr class="memitem:abd61ada83790c186718b68279ecbe280" id="r_abd61ada83790c186718b68279ecbe280"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd61ada83790c186718b68279ecbe280">consumeStagedFileDialogPaths</a> ()</td></tr>
 <tr class="memitem:aff532e343b167be1078babd8b983109a" id="r_aff532e343b167be1078babd8b983109a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff532e343b167be1078babd8b983109a">appendStatusMessage</a> (std::string msg)</td></tr>
@@ -459,6 +460,24 @@ template&lt;AllowedValueType T&gt; </div>
 
 </div>
 </div>
+<a id="aa9c0fbddfb4fd7dd0a7148852e27e6f4" name="aa9c0fbddfb4fd7dd0a7148852e27e6f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9c0fbddfb4fd7dd0a7148852e27e6f4">&#9670;&#160;</a></span>markFrameTriggered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::UI::TestEngine::markFrameTriggered </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Explicitly mark the current frame as TestEngine-driven. Use from MCP tool handlers that fire plugin actions on a path that does NOT go through <span class="tt"><a class="el" href="#abe0944f31ec6c1e531ceca7b6394001b">createButton()</a></span> (e.g. <span class="tt">tools.action</span>) but should still trigger TE-gated hooks (file-dialog bypass, etc.). Call from the GUI thread before invoking the action. </p>
+
+</div>
+</div>
 <a id="ab05a3802e2ed1ab9f8a55c8a8d55ef6a" name="ab05a3802e2ed1ab9f8a55c8a8d55ef6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab05a3802e2ed1ab9f8a55c8a8d55ef6a">&#9670;&#160;</a></span>popTree()</h2>
 
@@ -535,7 +554,7 @@ template&lt;AllowedValueType T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>True if a TestEngine-driven action ran during the current <a class="el" href="namespaceImGui.html">ImGui</a> frame: either a <span class="tt">createButton(...)</span> call returned a simulated click, or a <span class="tt">createValueLow(...)</span> call consumed a value override. Cleared at frame boundary. Read by code that wants to behave differently under TE control — e.g. file dialogs that should bypass the OS modal. </p>
+<p>True if a TestEngine-driven action ran during the current <a class="el" href="namespaceImGui.html">ImGui</a> frame: either a <span class="tt">createButton(...)</span> call returned a simulated click, a <span class="tt">createValueLow(...)</span> call consumed a value override, or a caller explicitly invoked <span class="tt"><a class="el" href="#aa9c0fbddfb4fd7dd0a7148852e27e6f4">markFrameTriggered()</a></span>. Cleared at frame boundary. Read by code that wants to behave differently under TE control — e.g. file dialogs that should bypass the OS modal. </p>
 
 </div>
 </div>
