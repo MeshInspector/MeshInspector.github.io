@@ -206,15 +206,15 @@ var NAVTREEINDEX =
 "group__TupleBindingsGroup.html",
 "namespaceMR_1_1FillingSurface.html#a3ff060a54d2569204983c0341bc857d8",
 "namespaceMR_1_1SpaceMouse.html#abf82e89e6fb5b9737517cfd1d6f69e18",
-"structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9",
-"structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07",
-"structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc",
-"structMR_1_1Mcp_1_1Schema_1_1Number.html#a45136972f310c0f3d455ad7a147b44c0",
-"structMR_1_1MeshSave_1_1NamedXfMesh.html#a29db5926f11ff21b3d1cb3b4162e228a",
-"structMR_1_1Polyline.html#a64df04a94a707f0ac6075f909e5e9d2a",
-"structMR_1_1SubdivideSettings.html#acfa476aa1e7c9c2507f12fde82a81f8f",
-"structMR_1_1UndirectedEdgeUndirectedEdge.html#a86370e0ca44ce18760320f63faac8aa1"
+"structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6",
+"structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa",
+"structMR_1_1GcodeProcessor_1_1BaseAction.html",
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1",
+"structMR_1_1Mcp_1_1Schema_1_1Bool.html#a61f76b4db5d73139516c6d838a4c7ec7",
+"structMR_1_1MeshSave_1_1MeshSaverCapabilities.html",
+"structMR_1_1Polyline.html#a403ab94ad27b1766b1ef3043546ee01d",
+"structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30",
+"structMR_1_1UiRenderManager.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

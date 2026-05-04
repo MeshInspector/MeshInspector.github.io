@@ -11,6 +11,9 @@ var MRUITestEngine_8h =
     [ "MR::UI::TestEngine::Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],
     [ "MR::UI::TestEngine::AllowedValueType", "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html", null ],
     [ "MR::UI::TestEngine::detail::UnderlyingValueType", "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#ab897ec83d6544cb895ed73a8330cfe6e", null ],
+    [ "MR::UI::TestEngine::appendStatusMessage", "namespaceMR_1_1UI_1_1TestEngine.html#aff532e343b167be1078babd8b983109a", null ],
+    [ "MR::UI::TestEngine::consumeStagedFileDialogPaths", "namespaceMR_1_1UI_1_1TestEngine.html#abd61ada83790c186718b68279ecbe280", null ],
+    [ "MR::UI::TestEngine::consumeStatusMessages", "namespaceMR_1_1UI_1_1TestEngine.html#aeac65226aaa734d22d20311ecf18baf8", null ],
     [ "MR::UI::TestEngine::createButton", "namespaceMR_1_1UI_1_1TestEngine.html#abe0944f31ec6c1e531ceca7b6394001b", null ],
     [ "MR::UI::TestEngine::createValue", "namespaceMR_1_1UI_1_1TestEngine.html#aadf08b798c27eed5ca7828629bf08e9e", null ],
     [ "MR::UI::TestEngine::createValue", "namespaceMR_1_1UI_1_1TestEngine.html#a57753ccce62ab6e3ddf31a2d5e980198", null ],
@@ -22,5 +25,7 @@ var MRUITestEngine_8h =
     [ "MR::UI::TestEngine::createValueTentative", "namespaceMR_1_1UI_1_1TestEngine.html#a3ece6ea22acf01690ed3716ed07f7c76", null ],
     [ "MR::UI::TestEngine::getRootEntry", "namespaceMR_1_1UI_1_1TestEngine.html#a0b6a21c2491075e840bb5fa053992dc9", null ],
     [ "MR::UI::TestEngine::popTree", "namespaceMR_1_1UI_1_1TestEngine.html#ab05a3802e2ed1ab9f8a55c8a8d55ef6a", null ],
-    [ "MR::UI::TestEngine::pushTree", "namespaceMR_1_1UI_1_1TestEngine.html#ad12d929394733bbfd78765262fec48b8", null ]
+    [ "MR::UI::TestEngine::pushTree", "namespaceMR_1_1UI_1_1TestEngine.html#ad12d929394733bbfd78765262fec48b8", null ],
+    [ "MR::UI::TestEngine::stageFileDialogPaths", "namespaceMR_1_1UI_1_1TestEngine.html#a1965dae3999cda8a8a172d8892fa66d6", null ],
+    [ "MR::UI::TestEngine::wasFrameTriggered", "namespaceMR_1_1UI_1_1TestEngine.html#a2078fdbfbec22964aecff13ad7a4404f", null ]
 ];

@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa":[6,0,0,10,0,23],
+"structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0":[6,0,0,10,0,12],
+"structMR_1_1DecimateSettings.html#abb741e47d580e75e37b13adcad8a362e":[6,0,0,10,0,10],
+"structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66":[6,0,0,10,0,2],
+"structMR_1_1DecimateSettings.html#ac0e97c22838e162343661fd588f7a326":[6,0,0,10,0,26],
 "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07":[6,0,0,10,0,17],
 "structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61":[6,0,0,10,0,11],
 "structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[6,0,0,10,0,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FlowAggregator_1_1Flows.html":[6,0,0,20,109],
 "structMR_1_1FlowOrigin.html":[6,0,0,20,106],
 "structMR_1_1FramebufferData_1_1DrawParams.html":[6,0,0,20,625],
-"structMR_1_1GCommand.html":[6,0,0,20,855],
-"structMR_1_1GcodeProcessor_1_1BaseAction.html":[6,0,0,20,252],
-"structMR_1_1GcodeProcessor_1_1Command.html":[6,0,0,20,254],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,0,20,253],
-"structMR_1_1GeneralOffsetParameters.html":[6,0,0,20,828],
-"structMR_1_1GeodesicPath.html":[6,0,0,16,3,0]
+"structMR_1_1GCommand.html":[6,0,0,20,855]
 };

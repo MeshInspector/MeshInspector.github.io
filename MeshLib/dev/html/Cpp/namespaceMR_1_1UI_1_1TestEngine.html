@@ -180,10 +180,87 @@ requires std::is_arithmetic_v&lt;T&gt;</td></tr>
 <tr class="memitem:ab05a3802e2ed1ab9f8a55c8a8d55ef6a" id="r_ab05a3802e2ed1ab9f8a55c8a8d55ef6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05a3802e2ed1ab9f8a55c8a8d55ef6a">popTree</a> ()</td></tr>
 <tr class="memitem:a0b6a21c2491075e840bb5fa053992dc9" id="r_a0b6a21c2491075e840bb5fa053992dc9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html">GroupEntry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b6a21c2491075e840bb5fa053992dc9">getRootEntry</a> ()</td></tr>
 <tr class="memdesc:a0b6a21c2491075e840bb5fa053992dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current entry tree.  <br /></td></tr>
+<tr class="memitem:a2078fdbfbec22964aecff13ad7a4404f" id="r_a2078fdbfbec22964aecff13ad7a4404f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2078fdbfbec22964aecff13ad7a4404f">wasFrameTriggered</a> ()</td></tr>
+<tr class="memitem:a1965dae3999cda8a8a172d8892fa66d6" id="r_a1965dae3999cda8a8a172d8892fa66d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1965dae3999cda8a8a172d8892fa66d6">stageFileDialogPaths</a> (std::vector&lt; std::filesystem::path &gt; paths)</td></tr>
+<tr class="memitem:abd61ada83790c186718b68279ecbe280" id="r_abd61ada83790c186718b68279ecbe280"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd61ada83790c186718b68279ecbe280">consumeStagedFileDialogPaths</a> ()</td></tr>
+<tr class="memitem:aff532e343b167be1078babd8b983109a" id="r_aff532e343b167be1078babd8b983109a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff532e343b167be1078babd8b983109a">appendStatusMessage</a> (std::string msg)</td></tr>
+<tr class="memitem:aeac65226aaa734d22d20311ecf18baf8" id="r_aeac65226aaa734d22d20311ecf18baf8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeac65226aaa734d22d20311ecf18baf8">consumeStatusMessages</a> ()</td></tr>
+<tr class="memdesc:aeac65226aaa734d22d20311ecf18baf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drain and return all status messages accumulated since the last drain.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is a low-level header for implementing GUIs that can be interacted with programmatically. Most likely you don't need to touch this, just use widgets from <span class="tt"><a class="el" href="MRUIStyle_8h.html">MRUIStyle.h</a></span>. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="aff532e343b167be1078babd8b983109a" name="aff532e343b167be1078babd8b983109a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff532e343b167be1078babd8b983109a">&#9670;&#160;</a></span>appendStatusMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::UI::TestEngine::appendStatusMessage </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Append a status message describing a problem during a TE-driven action (e.g. "file dialog triggered but no paths staged"). MCP tool handlers drain these after dispatching input and surface them to the LLM. </p>
+
+</div>
+</div>
+<a id="abd61ada83790c186718b68279ecbe280" name="abd61ada83790c186718b68279ecbe280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd61ada83790c186718b68279ecbe280">&#9670;&#160;</a></span>consumeStagedFileDialogPaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::filesystem::path &gt; MR::UI::TestEngine::consumeStagedFileDialogPaths </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Consume the staged paths. Returns empty if nothing is staged. File-dialog code calls this; not normally called by user code. </p>
+
+</div>
+</div>
+<a id="aeac65226aaa734d22d20311ecf18baf8" name="aeac65226aaa734d22d20311ecf18baf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac65226aaa734d22d20311ecf18baf8">&#9670;&#160;</a></span>consumeStatusMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; MR::UI::TestEngine::consumeStatusMessages </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Drain and return all status messages accumulated since the last drain. </p>
+
+</div>
+</div>
 <a id="abe0944f31ec6c1e531ceca7b6394001b" name="abe0944f31ec6c1e531ceca7b6394001b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe0944f31ec6c1e531ceca7b6394001b">&#9670;&#160;</a></span>createButton()</h2>
 
@@ -415,6 +492,50 @@ template&lt;AllowedValueType T&gt; </div>
 </div><div class="memdoc">
 
 <p>Use those to group buttons into named groups. </p>
+
+</div>
+</div>
+<a id="a1965dae3999cda8a8a172d8892fa66d6" name="a1965dae3999cda8a8a172d8892fa66d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1965dae3999cda8a8a172d8892fa66d6">&#9670;&#160;</a></span>stageFileDialogPaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::UI::TestEngine::stageFileDialogPaths </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::filesystem::path &gt;</td>          <td class="paramname"><span class="paramname"><em>paths</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stage the path(s) that the next TE-triggered file dialog should return. Replaces any previously staged value; empty vector is treated as "not staged". Single-shot: consumed by the next file dialog opened during a TE-triggered frame. </p>
+
+</div>
+</div>
+<a id="a2078fdbfbec22964aecff13ad7a4404f" name="a2078fdbfbec22964aecff13ad7a4404f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2078fdbfbec22964aecff13ad7a4404f">&#9670;&#160;</a></span>wasFrameTriggered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::TestEngine::wasFrameTriggered </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>True if a TestEngine-driven action ran during the current <a class="el" href="namespaceImGui.html">ImGui</a> frame: either a <span class="tt">createButton(...)</span> call returned a simulated click, or a <span class="tt">createValueLow(...)</span> call consumed a value override. Cleared at frame boundary. Read by code that wants to behave differently under TE control — e.g. file dialogs that should bypass the OS modal. </p>
 
 </div>
 </div>
