@@ -1,6 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"classMR_1_1CylinderObject.html#a9df33785b4b6ff1138cfddf1a0ffb0c9":[6,3,0,0,0,1087,40],
 "classMR_1_1CylinderObject.html#a9f82e220c152f446d01458f1bc7a9477":[6,3,0,0,0,1087,43],
 "classMR_1_1CylinderObject.html#aa055eb6e78ffbeb48f535a3534f59b65":[6,3,0,0,0,1087,29],
 "classMR_1_1CylinderObject.html#aa84160c73970a960e4fd3946f9718bc5":[6,3,0,0,0,1087,68],
@@ -249,5 +248,6 @@ var NAVTREEINDEX96 =
 "classMR_1_1DistanceFromWeightedPointsParams.html#a09c6b1e913e89992a040d8607e4e711b":[6,3,0,0,0,1103,2],
 "classMR_1_1DistanceFromWeightedPointsParams.html#a142e598a8cdd337004a5b90670da0180":[6,3,0,0,0,1103,10],
 "classMR_1_1DistanceFromWeightedPointsParams.html#a1d3e30c44af5d8e004a587ed0fd6d426":[6,3,0,0,0,1103,7],
-"classMR_1_1DistanceFromWeightedPointsParams.html#a509e33eff17cab61bfd25bf7171a5302":[6,3,0,0,0,1103,4]
+"classMR_1_1DistanceFromWeightedPointsParams.html#a509e33eff17cab61bfd25bf7171a5302":[6,3,0,0,0,1103,4],
+"classMR_1_1DistanceFromWeightedPointsParams.html#a64db16a580c1ff65fd51c0da05ca1687":[6,3,0,0,0,1103,6]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"classMR_1_1VoxelsVolume__MRFloatGrid.html":[6,3,0,0,0,1782],
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#a3bb43f44960235cb340a41d5ecdfd813":[6,3,0,0,0,1782,5],
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#a459dcbadf6ef50c05e1870e705cf8fe7":[6,3,0,0,0,1782,3],
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#a46d206acd2da9a815f6da057c90bbb19":[6,3,0,0,0,1782,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX143 =
 "classMR_1_1ZlibCompressStats.html#a3a40db9de9a2df98ef64250d6aa5490a":[6,3,0,0,0,1806,4],
 "classMR_1_1ZlibCompressStats.html#a50ff071fee6130ad90e1b360753e7cba":[6,3,0,0,0,1806,6],
 "classMR_1_1ZlibCompressStats.html#a595252081a34cd9a7e6198684900ede8":[6,3,0,0,0,1806,1],
-"classMR_1_1ZlibCompressStats.html#a83b45dab611d40a293bd7d5ccd4d2964":[6,3,0,0,0,1806,2]
+"classMR_1_1ZlibCompressStats.html#a83b45dab611d40a293bd7d5ccd4d2964":[6,3,0,0,0,1806,2],
+"classMR_1_1ZlibCompressStats.html#ab89f0f9f1328b552962bc6a64fdf4bac":[6,3,0,0,0,1806,5]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"classMR_1_1Const__DistanceVolumeParams.html#a622e0c95f99a6575cae787f73e4ddd2b":[6,3,0,0,0,389,6],
 "classMR_1_1Const__DistanceVolumeParams.html#a88155ebf69b5c84c8b7a0cdf12afaf32":[6,3,0,0,0,389,8],
 "classMR_1_1Const__DistanceVolumeParams.html#a8a93885ee743f7137dce39ee8a591c3a":[6,3,0,0,0,389,13],
 "classMR_1_1Const__DistanceVolumeParams.html#abd0f62d90f01715fb98b4f918e0df9a5":[6,3,0,0,0,389,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#aaf6a010d10ba3c43aff99e03dcece285":[6,3,0,0,0,400,12],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#abdd18c7dc92b7e586b7bc886c75592b5":[6,3,0,0,0,400,4],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#aceb5040caaca6ac09e4d29512868f6cf":[6,3,0,0,0,400,7],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#ad6d14ef88bd19db6f05d3040bfa7276b":[6,3,0,0,0,400,3]
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#ad6d14ef88bd19db6f05d3040bfa7276b":[6,3,0,0,0,400,3],
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#afa54041713018310d38d6a851333969c":[6,3,0,0,0,400,14]
 };

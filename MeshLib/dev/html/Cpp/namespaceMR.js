@@ -1796,7 +1796,6 @@ var namespaceMR =
     [ "BMap< VertId, VertId >", "group__GeneralGroup.html#gabf67c17ae441516a38345057213cc4c9", null ],
     [ "boolean", "group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729", null ],
     [ "boolean", "group__BooleanGroup.html#gafdc7b5669facb509c577f29284ddfb9a", null ],
-    [ "boolean", "group__BooleanGroup.html#ga39d92839525374ba15a2557ed8f93b8f", null ],
     [ "boolean", "group__BooleanGroup.html#ga6ed597bf8c9350700adae2b23fed4f74", null ],
     [ "Box< float >", "group__GeneralGroup.html#ga52d4c73dd39cffe01830b2bb1f53a190", null ],
     [ "Box< int >", "group__GeneralGroup.html#gaf5b0ec84ea59f10e217ab60af8c3fa08", null ],

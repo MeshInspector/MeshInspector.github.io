@@ -1,6 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a3ddda262c93a902b5b3780fe471161b4":[6,3,0,0,0,995,2,9],
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a48fbc9e7a2d42e607d6d70189ec3645c":[6,3,0,0,0,995,2,10],
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a59420b0481b5a5e17a8cbf383577195f":[6,3,0,0,0,995,2,16],
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a6211d4fe206b45a0e28ce8e396772d59":[6,3,0,0,0,995,2,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX94 =
 "classMR_1_1CoordinateConverters.html#a4bf5c448b046107bc09a556141037570":[6,3,0,0,0,1073,2],
 "classMR_1_1CoordinateConverters.html#a6f873ef5d48c124baf61313b29e986da":[6,3,0,0,0,1073,6],
 "classMR_1_1CoordinateConverters.html#aa292c81be2e7d3a6e66dd2a8a641c2e2":[6,3,0,0,0,1073,4],
-"classMR_1_1CoordinateConverters.html#aa4dadd6d2e82a791a23b873ad8398a48":[6,3,0,0,0,1073,7]
+"classMR_1_1CoordinateConverters.html#aa4dadd6d2e82a791a23b873ad8398a48":[6,3,0,0,0,1073,7],
+"classMR_1_1CoordinateConverters.html#aa5937293de5580dc556c4703a075d46f":[6,3,0,0,0,1073,1]
 };

@@ -207,7 +207,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga16435c813b6198ecc337b3023c2cc729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <br /></td></tr>
 <tr class="memitem:gac5ed86269f5cf1022e94d272e28f73b7" id="r_gac5ed86269f5cf1022e94d272e28f73b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac5ed86269f5cf1022e94d272e28f73b7">MR::getBooleanPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const AffineXf3f *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:gac5ed86269f5cf1022e94d272e28f73b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the points of mesh boolean's result mesh.  <br /></td></tr>
-<tr class="memitem:ga39d92839525374ba15a2557ed8f93b8f" id="r_ga39d92839525374ba15a2557ed8f93b8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga39d92839525374ba15a2557ed8f93b8f">MR::boolean</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshA, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const AffineXf3f *rigidB2A, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *mapper=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memitem:gafdc7b5669facb509c577f29284ddfb9a" id="r_gafdc7b5669facb509c577f29284ddfb9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafdc7b5669facb509c577f29284ddfb9a">MR::boolean</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="structMR_1_1BooleanParameters.html">BooleanParameters</a> &amp;params={})</td></tr>
 <tr class="memitem:ga6ed597bf8c9350700adae2b23fed4f74" id="r_ga6ed597bf8c9350700adae2b23fed4f74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6ed597bf8c9350700adae2b23fed4f74">MR::boolean</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshA, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="structMR_1_1BooleanParameters.html">BooleanParameters</a> &amp;params={})</td></tr>
 <tr class="memitem:ga52bfb35f8321bd4301244ba7f839bbdc" id="r_ga52bfb35f8321bd4301244ba7f839bbdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52bfb35f8321bd4301244ba7f839bbdc">MR::forceBoolean</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const <a class="el" href="structMR_1_1BooleanParameters.html">BooleanParameters</a> &amp;params={})</td></tr>
@@ -316,7 +315,7 @@ Difference A-B</div></div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ga16435c813b6198ecc337b3023c2cc729" name="ga16435c813b6198ecc337b3023c2cc729"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga16435c813b6198ecc337b3023c2cc729">&#9670;&#160;</a></span>boolean() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga16435c813b6198ecc337b3023c2cc729">&#9670;&#160;</a></span>boolean() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,7 +373,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </div>
 </div>
 <a id="gafdc7b5669facb509c577f29284ddfb9a" name="gafdc7b5669facb509c577f29284ddfb9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafdc7b5669facb509c577f29284ddfb9a">&#9670;&#160;</a></span>boolean() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafdc7b5669facb509c577f29284ddfb9a">&#9670;&#160;</a></span>boolean() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,51 +405,8 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 
 </div>
 </div>
-<a id="ga39d92839525374ba15a2557ed8f93b8f" name="ga39d92839525374ba15a2557ed8f93b8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga39d92839525374ba15a2557ed8f93b8f">&#9670;&#160;</a></span>boolean() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a> MR::boolean </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>meshA</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>meshB</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a></td>          <td class="paramname"><span class="paramname"><em>operation</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *</td>          <td class="paramname"><span class="paramname"><em>mapper</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRMeshBoolean_8h.html">MRMesh/MRMeshBoolean.h</a>&gt;</code></p>
-
-</div>
-</div>
 <a id="ga6ed597bf8c9350700adae2b23fed4f74" name="ga6ed597bf8c9350700adae2b23fed4f74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6ed597bf8c9350700adae2b23fed4f74">&#9670;&#160;</a></span>boolean() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6ed597bf8c9350700adae2b23fed4f74">&#9670;&#160;</a></span>boolean() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

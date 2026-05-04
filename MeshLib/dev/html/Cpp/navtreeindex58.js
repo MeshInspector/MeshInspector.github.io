@@ -1,6 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"namespaceMR_1_1SpaceMouse.html#abf82e89e6fb5b9737517cfd1d6f69e18":[6,0,1,0,1,46,8],
 "namespaceMR_1_1SpaceMouse.html#af8da66a1778b1276a2273cce6aa25df1":[6,0,1,0,1,46,10],
 "namespaceMR_1_1SpaceMouse.html#afea9877496a4f6098c6687dbbae1ac62":[6,0,1,0,1,46,6],
 "namespaceMR_1_1StyleConsts.html":[6,0,0,20,24],
@@ -249,5 +248,6 @@ var NAVTREEINDEX58 =
 "structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,1,0,0,3,1],
 "structImGui_1_1SavedWindowPosParams.html#a9d92babd36fa8c3689b01e4759f1c777":[6,0,2,0,1,3,1],
 "structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,1,0,0,3,2],
-"structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,2,0,1,3,2]
+"structImGui_1_1SavedWindowPosParams.html#abec52796b93dfc05ed43a9d1ba21b070":[6,0,2,0,1,3,2],
+"structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6":[6,0,1,0,0,3,0]
 };

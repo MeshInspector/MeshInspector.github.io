@@ -1,6 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a4f163f40ac08dd2c4e96e7cd44e63925":[6,3,0,0,0,369,15],
 "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a55cfd7df97fa41ccb2c7baf56faaedff":[6,3,0,0,0,369,20],
 "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a5f55e0880f908d4f453717b2f50485d6":[6,3,0,0,0,369,5],
 "classMR_1_1Const__DecimatePolylineSettings__MRVector3f.html#a606291bbd88230aae90743b3536c334b":[6,3,0,0,0,369,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX40 =
 "classMR_1_1Const__Dirty.html#a4fde2770f98603433a8130e93dd89a05":[6,3,0,0,0,380,7],
 "classMR_1_1Const__Dirty.html#a6d03ba6806e1f8a1208b4d3c846b4897":[6,3,0,0,0,380,4],
 "classMR_1_1Const__Dirty.html#a6dd82cbda5b04f9828601a42b46872c5":[6,3,0,0,0,380,5],
-"classMR_1_1Const__Dirty.html#a6f9a4179fe03ee6befa041e5eff356bc":[6,3,0,0,0,380,2]
+"classMR_1_1Const__Dirty.html#a6f9a4179fe03ee6befa041e5eff356bc":[6,3,0,0,0,380,2],
+"classMR_1_1Const__Dirty.html#a9d74749b5f2f394e058363d7b6d7a24b":[6,3,0,0,0,380,0]
 };

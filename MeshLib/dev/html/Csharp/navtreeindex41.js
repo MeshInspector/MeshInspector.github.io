@@ -1,6 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"classMR_1_1Const__Dirty.html#a9d74749b5f2f394e058363d7b6d7a24b":[6,3,0,0,0,380,0],
 "classMR_1_1Const__Dirty.html#aae59ee1c145c2e5cfd00435b336a35f1":[6,3,0,0,0,380,1],
 "classMR_1_1Const__Dirty.html#ae8e924b7b346aa540c05d4e69619b7a3":[6,3,0,0,0,380,3],
 "classMR_1_1Const__DistanceFromWeightedPointsComputeParams.html":[6,3,0,0,0,381],
@@ -249,5 +248,6 @@ var NAVTREEINDEX41 =
 "classMR_1_1Const__DistanceVolumeParams.html#a31df5655321a1a39dd5ffb0586b7f412":[6,3,0,0,0,389,2],
 "classMR_1_1Const__DistanceVolumeParams.html#a4984c5544d2df48a62396a9c0d6eb960":[6,3,0,0,0,389,11],
 "classMR_1_1Const__DistanceVolumeParams.html#a5ae45faabb6f59ddfb9f4ba26750ee20":[6,3,0,0,0,389,1],
-"classMR_1_1Const__DistanceVolumeParams.html#a60b98040eefa8c9df9f55536b6de61ed":[6,3,0,0,0,389,12]
+"classMR_1_1Const__DistanceVolumeParams.html#a60b98040eefa8c9df9f55536b6de61ed":[6,3,0,0,0,389,12],
+"classMR_1_1Const__DistanceVolumeParams.html#a622e0c95f99a6575cae787f73e4ddd2b":[6,3,0,0,0,389,6]
 };

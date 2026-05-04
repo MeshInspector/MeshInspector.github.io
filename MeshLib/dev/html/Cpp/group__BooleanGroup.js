@@ -74,7 +74,6 @@ var group__BooleanGroup =
     ] ],
     [ "MR::boolean", "group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729", null ],
     [ "MR::boolean", "group__BooleanGroup.html#gafdc7b5669facb509c577f29284ddfb9a", null ],
-    [ "MR::boolean", "group__BooleanGroup.html#ga39d92839525374ba15a2557ed8f93b8f", null ],
     [ "MR::boolean", "group__BooleanGroup.html#ga6ed597bf8c9350700adae2b23fed4f74", null ],
     [ "MR::convertIntFloatAllVerts", "group__BooleanGroup.html#gaea2a58b1c675ac131f93a0785e7d7ec1", null ],
     [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#ga8f2f47f6c859930c9c0252e4bc28944e", null ],

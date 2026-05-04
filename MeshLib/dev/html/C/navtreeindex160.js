@@ -1,6 +1,5 @@
 var NAVTREEINDEX160 =
 {
-"std__shared__ptr__const__MR__Polyline3_8h.html#a532a58efbaffac388e90a93a17386ab0":[6,2,1,0,0,0,0,2,287,9],
 "std__shared__ptr__const__MR__Polyline3_8h.html#a5916693fe80e5311719d532edb8e3c4c":[6,2,1,0,0,0,0,2,287,8],
 "std__shared__ptr__const__MR__Polyline3_8h.html#a63b09d9569f207b44ef62f48534be08c":[6,2,1,0,0,0,0,2,287,3],
 "std__shared__ptr__const__MR__Polyline3_8h.html#a7aa506e0c2a69592a758013f4bc02729":[6,2,1,0,0,0,0,2,287,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX160 =
 "std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#ad3a643ec615023491d94df651ca12e21":[6,2,1,0,0,0,0,2,392,12],
 "std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#ae3de003afb9b0d9a0ce459bc457f07a6":[6,2,1,0,0,0,0,2,392,14],
 "std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#ae98c6446c415e938e34e3566ec383afd":[6,2,1,0,0,0,0,2,392,16],
-"std__variant__MR__PdfBuildinFont__std__filesystem__path_8h_source.html":[6,2,1,0,0,0,0,2,392]
+"std__variant__MR__PdfBuildinFont__std__filesystem__path_8h_source.html":[6,2,1,0,0,0,0,2,392],
+"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html":[6,2,1,0,0,0,0,2,393]
 };
