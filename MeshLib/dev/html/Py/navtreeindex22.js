@@ -1,13 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a48a5b8264b9d2979206f7073cd48f94b":[6,1,1,0,1,206,2],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a4e6474e3c1c9ebbcccbc5685399f3918":[6,1,0,0,2,206,5],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a4e6474e3c1c9ebbcccbc5685399f3918":[6,1,1,0,1,206,5],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a9610d76812b720cef09ac8c763ce0f76":[6,1,0,0,2,206,3],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a9610d76812b720cef09ac8c763ce0f76":[6,1,1,0,1,206,3],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a9bb485f7c22748c0b80b7609224df2c9":[6,1,0,0,2,206,12],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a9bb485f7c22748c0b80b7609224df2c9":[6,1,1,0,1,206,12],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ab0bc383b2248ab02b44d177eb0d7b95b":[6,1,0,0,2,206,4],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ab0bc383b2248ab02b44d177eb0d7b95b":[6,1,1,0,1,206,4],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ab2b6d6ecf08b3e0c2fd86f81b0159050":[6,1,0,0,2,206,1],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ab2b6d6ecf08b3e0c2fd86f81b0159050":[6,1,1,0,1,206,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX22 =
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#a87f07f2128b2714d3ba235e59e16a779":[6,1,1,0,1,213,0,8],
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#a9511c7bbe7e1ac488b8d4619b8a21d15":[6,1,0,0,2,213,0,11],
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#a9511c7bbe7e1ac488b8d4619b8a21d15":[6,1,1,0,1,213,0,11],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ab9a6813278ee4d56534ff51946d73f7d":[6,1,0,0,2,213,0,1]
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ab9a6813278ee4d56534ff51946d73f7d":[6,1,0,0,2,213,0,1],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ab9a6813278ee4d56534ff51946d73f7d":[6,1,1,0,1,213,0,1],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ac32127e095f56a276fcef775f39c6422":[6,1,0,0,2,213,0,4],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ac32127e095f56a276fcef775f39c6422":[6,1,1,0,1,213,0,4],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ac4d5f8f0b8a7d57e7d71a284094a2386":[6,1,0,0,2,213,0,5],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ac4d5f8f0b8a7d57e7d71a284094a2386":[6,1,1,0,1,213,0,5],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ad8f68618fafc33d2fdeb69b26acbba8a":[6,1,0,0,2,213,0,0],
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ad8f68618fafc33d2fdeb69b26acbba8a":[6,1,1,0,1,213,0,0],
+"classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,0,0,2,214]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX160 =
 {
+"std__shared__ptr__const__MR__Polyline3_8h.html#a190855cafc8ef48b7af8760d1fc482a1":[6,2,1,0,0,0,0,2,287,15],
+"std__shared__ptr__const__MR__Polyline3_8h.html#a1ae94453933b773226672af6d228c627":[6,2,1,0,0,0,0,2,287,19],
+"std__shared__ptr__const__MR__Polyline3_8h.html#a3a7dc5de0dd4f2e8f312d4083931b7c6":[6,2,1,0,0,0,0,2,287,14],
+"std__shared__ptr__const__MR__Polyline3_8h.html#a532a58efbaffac388e90a93a17386ab0":[6,2,1,0,0,0,0,2,287,9],
 "std__shared__ptr__const__MR__Polyline3_8h.html#a5916693fe80e5311719d532edb8e3c4c":[6,2,1,0,0,0,0,2,287,8],
 "std__shared__ptr__const__MR__Polyline3_8h.html#a63b09d9569f207b44ef62f48534be08c":[6,2,1,0,0,0,0,2,287,3],
 "std__shared__ptr__const__MR__Polyline3_8h.html#a7aa506e0c2a69592a758013f4bc02729":[6,2,1,0,0,0,0,2,287,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX160 =
 "std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#a8d6281bb26d0915318497b2a25198d37":[6,2,1,0,0,0,0,2,392,3],
 "std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#ac931a0696f17e1a2479baa840b94c088":[6,2,1,0,0,0,0,2,392,6],
 "std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#accfeba517fdc5c95cfc14b0cdba91c54":[6,2,1,0,0,0,0,2,392,2],
-"std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#ad3a643ec615023491d94df651ca12e21":[6,2,1,0,0,0,0,2,392,12],
-"std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#ae3de003afb9b0d9a0ce459bc457f07a6":[6,2,1,0,0,0,0,2,392,14],
-"std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#ae98c6446c415e938e34e3566ec383afd":[6,2,1,0,0,0,0,2,392,16],
-"std__variant__MR__PdfBuildinFont__std__filesystem__path_8h_source.html":[6,2,1,0,0,0,0,2,392],
-"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html":[6,2,1,0,0,0,0,2,393]
+"std__variant__MR__PdfBuildinFont__std__filesystem__path_8h.html#ad3a643ec615023491d94df651ca12e21":[6,2,1,0,0,0,0,2,392,12]
 };

@@ -1408,7 +1408,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_UndirectedEdgeId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -1751,7 +1751,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_FaceId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -2112,7 +2112,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_VertId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -2455,7 +2455,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_PixelId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -2798,7 +2798,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_RegionId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -3141,7 +3141,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_NodeId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -3484,7 +3484,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_ObjId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -3827,7 +3827,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_TextureId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -4170,7 +4170,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_GraphVertId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -4513,7 +4513,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_GraphEdgeId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -4856,7 +4856,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_LocaleDomainId_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -5301,7 +5301,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Id_MR_ICPElemtTag_Construct</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -6187,7 +6187,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_EdgeId_Construct_MR_NoInit</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -6656,7 +6656,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_VoxelId_Construct_MR_NoInit</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -7222,7 +7222,7 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>stores<sp/>index<sp/>of<sp/>some<sp/>element,<sp/>it<sp/>is<sp/>made<sp/>as<sp/>template<sp/>class<sp/>to<sp/>avoid<sp/>mixing<sp/>faces,<sp/>edges<sp/>and<sp/>vertices</highlight><highlight class="normal"></highlight></codeline>
@@ -7313,7 +7313,7 @@
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
 <codeline lineno="166" refid="MRId_8h_1a9f0aaa519e178542c3a0847371b2f204" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRId_8h_1a9f0aaa519e178542c3a0847371b2f204" kindref="member">MR_UndirectedEdgeId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRId_8h_1ad71695167614218af0acdff479616b6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRId_8h_1ad71695167614218af0acdff479616b6b" kindref="member">MR_UndirectedEdgeId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="171" refid="MRId_8h_1ad71695167614218af0acdff479616b6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRId_8h_1ad71695167614218af0acdff479616b6b" kindref="member">MR_UndirectedEdgeId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7363,7 +7363,7 @@
 <codeline lineno="255"><highlight class="normal"></highlight></codeline>
 <codeline lineno="259" refid="MRId_8h_1a8256cb40f1530d1c0f6b9a82e2fa36b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRId_8h_1a8256cb40f1530d1c0f6b9a82e2fa36b9" kindref="member">MR_FaceId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="264" refid="MRId_8h_1a9a463c5e8954275746c5606476fc71bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/><ref refid="MRId_8h_1a9a463c5e8954275746c5606476fc71bc" kindref="member">MR_FaceId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="264" refid="MRId_8h_1a9a463c5e8954275746c5606476fc71bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/><ref refid="MRId_8h_1a9a463c5e8954275746c5606476fc71bc" kindref="member">MR_FaceId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="265"><highlight class="normal"></highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7422,7 +7422,7 @@
 <codeline lineno="359"><highlight class="normal"></highlight></codeline>
 <codeline lineno="363" refid="MRId_8h_1a19c8d3f0058b24178238610cae657eb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRId_8h_1a19c8d3f0058b24178238610cae657eb5" kindref="member">MR_VertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="364"><highlight class="normal"></highlight></codeline>
-<codeline lineno="368" refid="MRId_8h_1a3ad9fc2e3d4174d2c40f1e8f12c0deab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRId_8h_1a3ad9fc2e3d4174d2c40f1e8f12c0deab" kindref="member">MR_VertId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="368" refid="MRId_8h_1a3ad9fc2e3d4174d2c40f1e8f12c0deab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRId_8h_1a3ad9fc2e3d4174d2c40f1e8f12c0deab" kindref="member">MR_VertId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="369"><highlight class="normal"></highlight></codeline>
 <codeline lineno="370"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="371"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7472,7 +7472,7 @@
 <codeline lineno="452"><highlight class="normal"></highlight></codeline>
 <codeline lineno="456" refid="MRId_8h_1a1c472947bf7882f36e2a0f865b42de84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>*<ref refid="MRId_8h_1a1c472947bf7882f36e2a0f865b42de84" kindref="member">MR_PixelId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="457"><highlight class="normal"></highlight></codeline>
-<codeline lineno="461" refid="MRId_8h_1a86a569e76ec494aacc5281b615802c0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRId_8h_1a86a569e76ec494aacc5281b615802c0c" kindref="member">MR_PixelId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="461" refid="MRId_8h_1a86a569e76ec494aacc5281b615802c0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRId_8h_1a86a569e76ec494aacc5281b615802c0c" kindref="member">MR_PixelId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="462"><highlight class="normal"></highlight></codeline>
 <codeline lineno="463"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="464"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7522,7 +7522,7 @@
 <codeline lineno="545"><highlight class="normal"></highlight></codeline>
 <codeline lineno="549" refid="MRId_8h_1ac91f5d679ac2702115e6ec243318bcdd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__RegionId" kindref="compound">MR_RegionId</ref><sp/>*<ref refid="MRId_8h_1ac91f5d679ac2702115e6ec243318bcdd" kindref="member">MR_RegionId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="550"><highlight class="normal"></highlight></codeline>
-<codeline lineno="554" refid="MRId_8h_1a0b4b96ffd59364c5d1a4261326564f1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__RegionId" kindref="compound">MR_RegionId</ref><sp/><ref refid="MRId_8h_1a0b4b96ffd59364c5d1a4261326564f1a" kindref="member">MR_RegionId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="554" refid="MRId_8h_1a0b4b96ffd59364c5d1a4261326564f1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__RegionId" kindref="compound">MR_RegionId</ref><sp/><ref refid="MRId_8h_1a0b4b96ffd59364c5d1a4261326564f1a" kindref="member">MR_RegionId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="555"><highlight class="normal"></highlight></codeline>
 <codeline lineno="556"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="557"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7572,7 +7572,7 @@
 <codeline lineno="638"><highlight class="normal"></highlight></codeline>
 <codeline lineno="642" refid="MRId_8h_1a1d936d727b469713b2485b89db8c0b3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="MRId_8h_1a1d936d727b469713b2485b89db8c0b3e" kindref="member">MR_NodeId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="643"><highlight class="normal"></highlight></codeline>
-<codeline lineno="647" refid="MRId_8h_1add9363d87082ebf4216ff608e742ba9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRId_8h_1add9363d87082ebf4216ff608e742ba9d" kindref="member">MR_NodeId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="647" refid="MRId_8h_1add9363d87082ebf4216ff608e742ba9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/><ref refid="MRId_8h_1add9363d87082ebf4216ff608e742ba9d" kindref="member">MR_NodeId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="648"><highlight class="normal"></highlight></codeline>
 <codeline lineno="649"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="650"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7622,7 +7622,7 @@
 <codeline lineno="731"><highlight class="normal"></highlight></codeline>
 <codeline lineno="735" refid="MRId_8h_1ada5937f66f327d3aed8a0f99d6bff7ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="MRId_8h_1ada5937f66f327d3aed8a0f99d6bff7ac" kindref="member">MR_ObjId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="736"><highlight class="normal"></highlight></codeline>
-<codeline lineno="740" refid="MRId_8h_1a4b6943bd3f05342681fa6c15a9e49b4c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/><ref refid="MRId_8h_1a4b6943bd3f05342681fa6c15a9e49b4c" kindref="member">MR_ObjId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="740" refid="MRId_8h_1a4b6943bd3f05342681fa6c15a9e49b4c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/><ref refid="MRId_8h_1a4b6943bd3f05342681fa6c15a9e49b4c" kindref="member">MR_ObjId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="741"><highlight class="normal"></highlight></codeline>
 <codeline lineno="742"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="743"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7672,7 +7672,7 @@
 <codeline lineno="824"><highlight class="normal"></highlight></codeline>
 <codeline lineno="828" refid="MRId_8h_1a62a14c78eb9b16930c6f0dc34a80f5b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__TextureId" kindref="compound">MR_TextureId</ref><sp/>*<ref refid="MRId_8h_1a62a14c78eb9b16930c6f0dc34a80f5b9" kindref="member">MR_TextureId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="829"><highlight class="normal"></highlight></codeline>
-<codeline lineno="833" refid="MRId_8h_1ae6b7abde6c6341786b81f0080ff8e0cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__TextureId" kindref="compound">MR_TextureId</ref><sp/><ref refid="MRId_8h_1ae6b7abde6c6341786b81f0080ff8e0cd" kindref="member">MR_TextureId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="833" refid="MRId_8h_1ae6b7abde6c6341786b81f0080ff8e0cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__TextureId" kindref="compound">MR_TextureId</ref><sp/><ref refid="MRId_8h_1ae6b7abde6c6341786b81f0080ff8e0cd" kindref="member">MR_TextureId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="834"><highlight class="normal"></highlight></codeline>
 <codeline lineno="835"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="836"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7722,7 +7722,7 @@
 <codeline lineno="917"><highlight class="normal"></highlight></codeline>
 <codeline lineno="921" refid="MRId_8h_1ad266a4a5f87ecc34125f299a0adf85e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRId_8h_1ad266a4a5f87ecc34125f299a0adf85e9" kindref="member">MR_GraphVertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="922"><highlight class="normal"></highlight></codeline>
-<codeline lineno="926" refid="MRId_8h_1aec49145014dd046695772a227e0039a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/><ref refid="MRId_8h_1aec49145014dd046695772a227e0039a8" kindref="member">MR_GraphVertId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="926" refid="MRId_8h_1aec49145014dd046695772a227e0039a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/><ref refid="MRId_8h_1aec49145014dd046695772a227e0039a8" kindref="member">MR_GraphVertId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="927"><highlight class="normal"></highlight></codeline>
 <codeline lineno="928"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="929"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7772,7 +7772,7 @@
 <codeline lineno="1010"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1014" refid="MRId_8h_1a30761597a1b3d999e4ed7061da9d086f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/>*<ref refid="MRId_8h_1a30761597a1b3d999e4ed7061da9d086f" kindref="member">MR_GraphEdgeId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1015"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1019" refid="MRId_8h_1a9e72bf100be397709af585a370c9d015" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/><ref refid="MRId_8h_1a9e72bf100be397709af585a370c9d015" kindref="member">MR_GraphEdgeId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1019" refid="MRId_8h_1a9e72bf100be397709af585a370c9d015" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__GraphEdgeId" kindref="compound">MR_GraphEdgeId</ref><sp/><ref refid="MRId_8h_1a9e72bf100be397709af585a370c9d015" kindref="member">MR_GraphEdgeId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1020"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1021"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1022"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7822,7 +7822,7 @@
 <codeline lineno="1103"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1107" refid="MRId_8h_1a3d7197c44df8ac9db9a349aa092da408" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__LocaleDomainId" kindref="compound">MR_LocaleDomainId</ref><sp/>*<ref refid="MRId_8h_1a3d7197c44df8ac9db9a349aa092da408" kindref="member">MR_LocaleDomainId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1112" refid="MRId_8h_1ac3bfa654077c25515ea1068921730035" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__LocaleDomainId" kindref="compound">MR_LocaleDomainId</ref><sp/><ref refid="MRId_8h_1ac3bfa654077c25515ea1068921730035" kindref="member">MR_LocaleDomainId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1112" refid="MRId_8h_1ac3bfa654077c25515ea1068921730035" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__LocaleDomainId" kindref="compound">MR_LocaleDomainId</ref><sp/><ref refid="MRId_8h_1ac3bfa654077c25515ea1068921730035" kindref="member">MR_LocaleDomainId_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1113"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1115"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7875,7 +7875,7 @@
 <codeline lineno="1216"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1221" refid="MRId_8h_1a2d6e341124e2de79c9b3bbb1867d71b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/>*<ref refid="MRId_8h_1a2d6e341124e2de79c9b3bbb1867d71b3" kindref="member">MR_Id_MR_ICPElemtTag_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1227" refid="MRId_8h_1a32ed7d3a4eb4176a349a1e57f3a6eec7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/>*<ref refid="MRId_8h_1a32ed7d3a4eb4176a349a1e57f3a6eec7" kindref="member">MR_Id_MR_ICPElemtTag_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1227" refid="MRId_8h_1a32ed7d3a4eb4176a349a1e57f3a6eec7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1af8cfbacc0df87971b8455177e0d07815" kindref="member">MR_Id_MR_ICPElemtTag</ref><sp/>*<ref refid="MRId_8h_1a32ed7d3a4eb4176a349a1e57f3a6eec7" kindref="member">MR_Id_MR_ICPElemtTag_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1228"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1229"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Allow<sp/>constructing<sp/>from<sp/>`int`<sp/>and<sp/>other<sp/>integral<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1230"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>constructor<sp/>is<sp/>written<sp/>like<sp/>this<sp/>instead<sp/>of<sp/>a<sp/>plain<sp/>`Id(int)`,<sp/>because<sp/>we<sp/>also<sp/>wish<sp/>to<sp/>disable<sp/>construction</highlight><highlight class="normal"></highlight></codeline>
@@ -7981,7 +7981,7 @@
 <codeline lineno="1452"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1456" refid="MRId_8h_1a311dbccfff5436db688702bf22f5a0a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRId_8h_1a311dbccfff5436db688702bf22f5a0a6" kindref="member">MR_EdgeId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1457"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1461" refid="MRId_8h_1a4f05ca1466466b7f99722bf09223fde4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/><ref refid="MRId_8h_1a4f05ca1466466b7f99722bf09223fde4" kindref="member">MR_EdgeId_Construct_MR_NoInit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1461" refid="MRId_8h_1a4f05ca1466466b7f99722bf09223fde4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/><ref refid="MRId_8h_1a4f05ca1466466b7f99722bf09223fde4" kindref="member">MR_EdgeId_Construct_MR_NoInit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1462"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1465" refid="MRId_8h_1a5c19bb285028bb59b0cc5af47e42a242" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/><ref refid="MRId_8h_1a5c19bb285028bb59b0cc5af47e42a242" kindref="member">MR_EdgeId_Construct_MR_UndirectedEdgeId</ref>(<ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>u);</highlight></codeline>
 <codeline lineno="1466"><highlight class="normal"></highlight></codeline>
@@ -8034,7 +8034,7 @@
 <codeline lineno="1562"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1566" refid="MRId_8h_1aab51ba6afadd21344de14f2752982c87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="MRId_8h_1aab51ba6afadd21344de14f2752982c87" kindref="member">MR_VoxelId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1567"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1571" refid="MRId_8h_1a5f1fb72a53f67a6a027bb8dcec8c4fa3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRId_8h_1a5f1fb72a53f67a6a027bb8dcec8c4fa3" kindref="member">MR_VoxelId_Construct_MR_NoInit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1571" refid="MRId_8h_1a5f1fb72a53f67a6a027bb8dcec8c4fa3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRId_8h_1a5f1fb72a53f67a6a027bb8dcec8c4fa3" kindref="member">MR_VoxelId_Construct_MR_NoInit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1572"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1575" refid="MRId_8h_1a9a95824ce9c69fb5e7193b50bd2ebfbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/><ref refid="MRId_8h_1a9a95824ce9c69fb5e7193b50bd2ebfbb" kindref="member">MR_VoxelId_Construct_uint64_t</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>i);</highlight></codeline>
 <codeline lineno="1576"><highlight class="normal"></highlight></codeline>

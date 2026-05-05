@@ -1,13 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"classmrmeshpy_1_1SceneRootObject.html#a60b09d1c936f0f0d1f51416aba331b0d":[6,1,1,0,1,804,2],
-"classmrmeshpy_1_1SceneRootObject.html#a776b02e225f7200264afd891034828f4":[6,1,0,0,2,804,4],
-"classmrmeshpy_1_1SceneRootObject.html#a776b02e225f7200264afd891034828f4":[6,1,1,0,1,804,4],
-"classmrmeshpy_1_1SceneSave.html":[6,1,0,0,2,805],
-"classmrmeshpy_1_1SceneSave.html":[6,1,1,0,1,805],
-"classmrmeshpy_1_1SceneSave_1_1Settings.html":[6,1,0,0,2,805,0],
-"classmrmeshpy_1_1SceneSave_1_1Settings.html":[6,1,1,0,1,805,0],
-"classmrmeshpy_1_1SceneSave_1_1Settings.html#a11ce025d443ba060c19e3be2354e9217":[6,1,0,0,2,805,0,6],
 "classmrmeshpy_1_1SceneSave_1_1Settings.html#a11ce025d443ba060c19e3be2354e9217":[6,1,1,0,1,805,0,6],
 "classmrmeshpy_1_1SceneSave_1_1Settings.html#a36839d179bc5efd019169c8a6ca3f1c8":[6,1,0,0,2,805,0,5],
 "classmrmeshpy_1_1SceneSave_1_1Settings.html#a36839d179bc5efd019169c8a6ca3f1c8":[6,1,1,0,1,805,0,5],
@@ -249,5 +241,13 @@ var NAVTREEINDEX83 =
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#afcf8f45e2a9bb4c014ae6024ff219f8a":[6,1,1,0,1,811,0,0,4],
 "classmrmeshpy_1_1SeparationPointStorage.html":[6,1,0,0,2,812],
 "classmrmeshpy_1_1SeparationPointStorage.html":[6,1,1,0,1,812],
-"classmrmeshpy_1_1SeparationPointStorage.html#a33eb8da5427e35ce2d98de40a3ad7350":[6,1,0,0,2,812,5]
+"classmrmeshpy_1_1SeparationPointStorage.html#a33eb8da5427e35ce2d98de40a3ad7350":[6,1,0,0,2,812,5],
+"classmrmeshpy_1_1SeparationPointStorage.html#a33eb8da5427e35ce2d98de40a3ad7350":[6,1,1,0,1,812,5],
+"classmrmeshpy_1_1SeparationPointStorage.html#a5f0d3d5f6a4e74e2f88ab3250c3d4695":[6,1,0,0,2,812,8],
+"classmrmeshpy_1_1SeparationPointStorage.html#a5f0d3d5f6a4e74e2f88ab3250c3d4695":[6,1,1,0,1,812,8],
+"classmrmeshpy_1_1SeparationPointStorage.html#a97c7d1642b280611a403f5490e0a0a67":[6,1,0,0,2,812,7],
+"classmrmeshpy_1_1SeparationPointStorage.html#a97c7d1642b280611a403f5490e0a0a67":[6,1,1,0,1,812,7],
+"classmrmeshpy_1_1SeparationPointStorage.html#aa803ef66f115a61a971c0a585f5d81f2":[6,1,0,0,2,812,2],
+"classmrmeshpy_1_1SeparationPointStorage.html#aa803ef66f115a61a971c0a585f5d81f2":[6,1,1,0,1,812,2],
+"classmrmeshpy_1_1SeparationPointStorage.html#ab7d7ebcc7d1469d9301e82fe5270ddad":[6,1,0,0,2,812,3]
 };

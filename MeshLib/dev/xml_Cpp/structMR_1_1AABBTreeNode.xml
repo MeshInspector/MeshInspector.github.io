@@ -133,13 +133,46 @@
         </inbodydescription>
         <location file="MRMesh/MRAABBTreeNode.h" line="41" column="10" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="41" bodyend="41"/>
       </memberdef>
+      <memberdef kind="function" id="structMR_1_1AABBTreeNode_1a469e81976a96eb65cbae42aebe1a7bc4" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::AABBTreeNode&lt; T &gt;::AABBTreeNode</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>AABBTreeNode</name>
+        <qualifiedname>MR::AABBTreeNode::AABBTreeNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAABBTreeNode.h" line="43" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AABBTreeNode_1aa27862e8db20e0df70b99484c093d43d" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::AABBTreeNode&lt; T &gt;::AABBTreeNode</definition>
+        <argsstring>(NoInit) noexcept</argsstring>
+        <name>AABBTreeNode</name>
+        <qualifiedname>MR::AABBTreeNode::AABBTreeNode</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NoInit" kindref="compound">NoInit</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRAABBTreeNode.h" line="44" column="14" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="44" bodyend="44"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRAABBTreeNode.h" line="30" column="1" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="31" bodyend="42"/>
+    <location file="MRMesh/MRAABBTreeNode.h" line="30" column="1" bodyfile="MRMesh/MRAABBTreeNode.h" bodystart="31" bodyend="45"/>
     <listofallmembers>
+      <member refid="structMR_1_1AABBTreeNode_1a469e81976a96eb65cbae42aebe1a7bc4" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode</scope><name>AABBTreeNode</name></member>
+      <member refid="structMR_1_1AABBTreeNode_1aa27862e8db20e0df70b99484c093d43d" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode</scope><name>AABBTreeNode</name></member>
       <member refid="structMR_1_1AABBTreeNode_1a5c90c7ee746d8e3f67062655f733dea0" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode</scope><name>box</name></member>
       <member refid="structMR_1_1AABBTreeNode_1af92cbed18c9ddfbf28d0e86385fc6e01" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode</scope><name>BoxT</name></member>
       <member refid="structMR_1_1AABBTreeNode_1a3cbbf05afde5b58b37ff42812595cef9" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode</scope><name>l</name></member>

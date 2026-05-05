@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52603" bodyend="52604"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52599" bodyend="52600"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneLoad_1a4c0ef9f59676836ea8cde44af680ba71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SceneLoad_1_1Result" kindref="compound">SceneLoad.Result</ref></type>
@@ -56,7 +56,7 @@ if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts tra
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52606" bodyend="52610"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52602" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52602" bodyend="52606"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -65,7 +65,7 @@ if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts tra
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52470" bodyend="52610"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52466" bodyend="52606"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SceneLoad_1a03d8af34684b1c53203f68ccd9058413" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad</scope><name>asyncFromAnySupportedFormat</name></member>
       <member refid="classmrmeshpy_1_1SceneLoad_1a4c0ef9f59676836ea8cde44af680ba71" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneLoad</scope><name>fromAnySupportedFormat</name></member>

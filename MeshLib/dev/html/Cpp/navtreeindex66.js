@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa":[6,0,0,9,7,0,17],
+"structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0":[6,0,0,9,7,0,18],
 "structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30":[6,0,0,9,7,0,1],
 "structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc":[6,0,0,9,7,0,19],
 "structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111":[6,0,0,9,7,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714":[6,0,1,0,1,49,2,1,0,0],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714":[6,0,2,0,2,33,0,1,0,0],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#ad64f2e2f9194fde2222f1ecc5cb37a47":[6,0,1,0,1,49,2,1,0,2],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#ad64f2e2f9194fde2222f1ecc5cb37a47":[6,0,2,0,2,33,0,1,0,2],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html":[6,0,1,0,1,49,2,1,1],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html":[6,0,2,0,2,33,0,1,1]
+"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#ad64f2e2f9194fde2222f1ecc5cb37a47":[6,0,2,0,2,33,0,1,0,2]
 };

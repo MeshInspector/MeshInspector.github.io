@@ -1,13 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a95a0d844dc1524c47b6292d74970cee9":[6,1,1,0,1,475,11],
-"classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#abfe3e865a1fdd13e50a948eccba911d9":[6,1,0,0,2,475,9],
-"classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#abfe3e865a1fdd13e50a948eccba911d9":[6,1,1,0,1,475,9],
-"classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#acc1fc26d40a2cb847c109eeb2a1c4822":[6,1,0,0,2,475,1],
-"classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#acc1fc26d40a2cb847c109eeb2a1c4822":[6,1,1,0,1,475,1],
-"classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#af7357225c87d9ec69cf1c385c68af66d":[6,1,0,0,2,475,0],
-"classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#af7357225c87d9ec69cf1c385c68af66d":[6,1,1,0,1,475,0],
-"classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html":[6,1,0,0,2,476],
 "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html":[6,1,1,0,1,476],
 "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a1df56d56e19dd954beac5b29185cdf9b":[6,1,0,0,2,476,12],
 "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a1df56d56e19dd954beac5b29185cdf9b":[6,1,1,0,1,476,12],
@@ -249,5 +241,13 @@ var NAVTREEINDEX44 =
 "classmrmeshpy_1_1Matrix2b.html#afefe151ad6906f2fee2f1b77606aa4f2":[6,1,1,0,1,482,29],
 "classmrmeshpy_1_1Matrix2b.html#aff9879edbb6bb6d4035c29399b3c5564":[6,1,0,0,2,482,17],
 "classmrmeshpy_1_1Matrix2b.html#aff9879edbb6bb6d4035c29399b3c5564":[6,1,1,0,1,482,17],
-"classmrmeshpy_1_1Matrix2d.html":[6,1,0,0,2,483]
+"classmrmeshpy_1_1Matrix2d.html":[6,1,0,0,2,483],
+"classmrmeshpy_1_1Matrix2d.html":[6,1,1,0,1,483],
+"classmrmeshpy_1_1Matrix2d.html#a0089b4de6bc9ff16440ce9322b3adf77":[6,1,0,0,2,483,18],
+"classmrmeshpy_1_1Matrix2d.html#a0089b4de6bc9ff16440ce9322b3adf77":[6,1,1,0,1,483,18],
+"classmrmeshpy_1_1Matrix2d.html#a0fc0cce4dba1a018a7d2462dbab0459d":[6,1,0,0,2,483,5],
+"classmrmeshpy_1_1Matrix2d.html#a0fc0cce4dba1a018a7d2462dbab0459d":[6,1,0,0,2,483,6],
+"classmrmeshpy_1_1Matrix2d.html#a0fc0cce4dba1a018a7d2462dbab0459d":[6,1,1,0,1,483,5],
+"classmrmeshpy_1_1Matrix2d.html#a0fc0cce4dba1a018a7d2462dbab0459d":[6,1,1,0,1,483,6],
+"classmrmeshpy_1_1Matrix2d.html#a100e174834574ccc0ce5047081fd0178":[6,1,0,0,2,483,20]
 };

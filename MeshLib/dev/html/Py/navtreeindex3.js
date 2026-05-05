@@ -1,13 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classmrmeshpy_1_1AngleMeasurementObject.html#ab3f5cf518233a4bc32df8c58c986e52e":[6,1,1,0,1,25,9],
-"classmrmeshpy_1_1AngleMeasurementObject.html#aca8b9bd9f8ce5672f4daecf15560aa88":[6,1,0,0,2,25,14],
-"classmrmeshpy_1_1AngleMeasurementObject.html#aca8b9bd9f8ce5672f4daecf15560aa88":[6,1,1,0,1,25,14],
-"classmrmeshpy_1_1AngleMeasurementObject.html#ae62583f8e8b4d989fe0a4a03fdc9bda7":[6,1,0,0,2,25,11],
-"classmrmeshpy_1_1AngleMeasurementObject.html#ae62583f8e8b4d989fe0a4a03fdc9bda7":[6,1,1,0,1,25,11],
-"classmrmeshpy_1_1AngleMeasurementObject.html#af6317585adff94b2762a4f8ba04ca286":[6,1,0,0,2,25,8],
-"classmrmeshpy_1_1AngleMeasurementObject.html#af6317585adff94b2762a4f8ba04ca286":[6,1,1,0,1,25,8],
-"classmrmeshpy_1_1AngleUnit.html":[6,1,0,0,2,26],
 "classmrmeshpy_1_1AngleUnit.html":[6,1,1,0,1,26],
 "classmrmeshpy_1_1AngleUnit.html#a0f0c248225e41926bdb054e7495d22dd":[6,1,0,0,2,26,7],
 "classmrmeshpy_1_1AngleUnit.html#a0f0c248225e41926bdb054e7495d22dd":[6,1,1,0,1,26,7],
@@ -249,5 +241,13 @@ var NAVTREEINDEX3 =
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html#a48c4e40e1c580b3594957d130b4db20e":[6,1,1,0,1,59,3],
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ab30fce9b41ebac5efda5e74047f9f039":[6,1,0,0,2,59,2],
 "classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ab30fce9b41ebac5efda5e74047f9f039":[6,1,1,0,1,59,2],
-"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ad78aa145808090070ed7fea4086b1db5":[6,1,0,0,2,59,1]
+"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ad78aa145808090070ed7fea4086b1db5":[6,1,0,0,2,59,1],
+"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#ad78aa145808090070ed7fea4086b1db5":[6,1,1,0,1,59,1],
+"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#adadc30d4e7a504a882c236b85c8d4b6b":[6,1,0,0,2,59,0],
+"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#adadc30d4e7a504a882c236b85c8d4b6b":[6,1,1,0,1,59,0],
+"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html":[6,1,0,0,2,60],
+"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html":[6,1,1,0,1,60],
+"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a0115fecd53a3a8fe5da6f301801e8374":[6,1,0,0,2,60,2],
+"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a0115fecd53a3a8fe5da6f301801e8374":[6,1,1,0,1,60,2],
+"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a2c1ed26487f54df4dca3181b3dc92681":[6,1,0,0,2,60,3]
 };

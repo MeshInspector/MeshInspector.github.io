@@ -25,7 +25,6 @@ var MRBox_8h =
     [ "MR_Box3i", "MRBox_8h.html#aef38c2356795f5ec9c47c717985eda63", null ],
     [ "MR_Box3i64", "MRBox_8h.html#ae4a0c2c261c0d3fe45e74181a0761050", null ],
     [ "MR_Box_unsigned_short", "MRBox_8h.html#abe64e8fa15f4ca0ae7f2f0074b58a89f", null ],
-    [ "MR_NoInit", "MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c", null ],
     [ "MR_Box1d_center", "MRBox_8h.html#ae156533f0883a47496fd1e826e88b1d0", null ],
     [ "MR_Box1d_Construct_1", "MRBox_8h.html#aee6e4991cb77078ac8949ad05e6768e3", null ],
     [ "MR_Box1d_Construct_2", "MRBox_8h.html#a311e693e1945453ef72532fa41f1c419", null ],

@@ -181,6 +181,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad4e36a1b01df31816b8e69569f2e61e0" id="r_ad4e36a1b01df31816b8e69569f2e61e0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4e36a1b01df31816b8e69569f2e61e0">reserve</a> (self, int <a class="el" href="#a6a76c1e39e54d499346868b01f0242ed">capacity</a>)</td></tr>
 <tr class="memitem:a106c085b224897ad95be78dfdb6a8703" id="r_a106c085b224897ad95be78dfdb6a8703"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a106c085b224897ad95be78dfdb6a8703">resize</a> (self, int newSize)</td></tr>
 <tr class="memitem:a93bae5fb42ec3a5af3751ecbab87fb21" id="r_a93bae5fb42ec3a5af3751ecbab87fb21"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93bae5fb42ec3a5af3751ecbab87fb21">resize</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html">AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f</a> t)</td></tr>
+<tr class="memitem:a97d308d2b5f93ad1d1cefe72c78626f5" id="r_a97d308d2b5f93ad1d1cefe72c78626f5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d308d2b5f93ad1d1cefe72c78626f5">resizeNoInit</a> (self, int targetSize)</td></tr>
 <tr class="memitem:aa2286c2b817f815e273f7fd373385a65" id="r_aa2286c2b817f815e273f7fd373385a65"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2286c2b817f815e273f7fd373385a65">resizeWithReserve</a> (self, int newSize)</td></tr>
 <tr class="memitem:aef8014c8dcbfa4dc240bcc85b8aecee8" id="r_aef8014c8dcbfa4dc240bcc85b8aecee8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef8014c8dcbfa4dc240bcc85b8aecee8">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html">AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f</a> value)</td></tr>
 <tr class="memitem:a6d08eb8671b42eed7058c08c700bc57f" id="r_a6d08eb8671b42eed7058c08c700bc57f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d08eb8671b42eed7058c08c700bc57f">size</a> (self)</td></tr>
@@ -946,6 +947,28 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a97d308d2b5f93ad1d1cefe72c78626f5" name="a97d308d2b5f93ad1d1cefe72c78626f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97d308d2b5f93ad1d1cefe72c78626f5">&#9670;&#160;</a></span>resizeNoInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId.resizeNoInit </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )
+</pre> 
 </div>
 </div>
 <a id="aa2286c2b817f815e273f7fd373385a65" name="aa2286c2b817f815e273f7fd373385a65"></a>

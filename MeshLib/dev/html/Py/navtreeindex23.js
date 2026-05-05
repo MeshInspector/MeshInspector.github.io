@@ -1,13 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ab9a6813278ee4d56534ff51946d73f7d":[6,1,1,0,1,213,0,1],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ac32127e095f56a276fcef775f39c6422":[6,1,0,0,2,213,0,4],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ac32127e095f56a276fcef775f39c6422":[6,1,1,0,1,213,0,4],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ac4d5f8f0b8a7d57e7d71a284094a2386":[6,1,0,0,2,213,0,5],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ac4d5f8f0b8a7d57e7d71a284094a2386":[6,1,1,0,1,213,0,5],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ad8f68618fafc33d2fdeb69b26acbba8a":[6,1,0,0,2,213,0,0],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#ad8f68618fafc33d2fdeb69b26acbba8a":[6,1,1,0,1,213,0,0],
-"classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,0,0,2,214],
 "classmrmeshpy_1_1DistanceToMeshOptions.html":[6,1,1,0,1,214],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,0,0,2,214,11],
 "classmrmeshpy_1_1DistanceToMeshOptions.html#a0b0ea7eed543ddf956334e99c053fc4f":[6,1,1,0,1,214,11],
@@ -249,5 +241,13 @@ var NAVTREEINDEX23 =
 "classmrmeshpy_1_1EdgeBitSet.html#a8c112cf26e723b8ec96ed7f0cc8f9d64":[6,1,1,0,1,221,10],
 "classmrmeshpy_1_1EdgeBitSet.html#a95d582222ce006e74451031fb5c33747":[6,1,0,0,2,221,21],
 "classmrmeshpy_1_1EdgeBitSet.html#a95d582222ce006e74451031fb5c33747":[6,1,1,0,1,221,21],
-"classmrmeshpy_1_1EdgeBitSet.html#a98ba5256522047d802f2a29c537a7767":[6,1,0,0,2,221,32]
+"classmrmeshpy_1_1EdgeBitSet.html#a98ba5256522047d802f2a29c537a7767":[6,1,0,0,2,221,32],
+"classmrmeshpy_1_1EdgeBitSet.html#a98ba5256522047d802f2a29c537a7767":[6,1,1,0,1,221,32],
+"classmrmeshpy_1_1EdgeBitSet.html#aa5f88268a9c5ccb918ea5a1fed62e084":[6,1,0,0,2,221,30],
+"classmrmeshpy_1_1EdgeBitSet.html#aa5f88268a9c5ccb918ea5a1fed62e084":[6,1,1,0,1,221,30],
+"classmrmeshpy_1_1EdgeBitSet.html#aa76d89e7e28b7478b2a7e2da2724567f":[6,1,0,0,2,221,42],
+"classmrmeshpy_1_1EdgeBitSet.html#aa76d89e7e28b7478b2a7e2da2724567f":[6,1,1,0,1,221,42],
+"classmrmeshpy_1_1EdgeBitSet.html#ab8a205697e01da822b6e5b80086f7563":[6,1,0,0,2,221,44],
+"classmrmeshpy_1_1EdgeBitSet.html#ab8a205697e01da822b6e5b80086f7563":[6,1,1,0,1,221,44],
+"classmrmeshpy_1_1EdgeBitSet.html#ab9420efe1dab09afb7a7ad4a6c14200b":[6,1,0,0,2,221,40]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1FramebufferData_1_1DrawParams.html":[6,0,0,20,625],
+"structMR_1_1GCommand.html":[6,0,0,20,855],
 "structMR_1_1GcodeProcessor_1_1BaseAction.html":[6,0,0,20,252],
 "structMR_1_1GcodeProcessor_1_1Command.html":[6,0,0,20,254],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,0,20,253],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe015e8f2eefbaf7c0afec0d91912ec8":[6,0,1,0,1,16,10,6],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe015e8f2eefbaf7c0afec0d91912ec8":[6,0,2,0,2,7,10,6],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe8531c1f5fdb8d1d8d3a8d69a64d2b5":[6,0,1,0,1,16,10,9],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe8531c1f5fdb8d1d8d3a8d69a64d2b5":[6,0,2,0,2,7,10,9],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[6,0,1,0,1,16,10,14],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[6,0,2,0,2,7,10,14]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe8531c1f5fdb8d1d8d3a8d69a64d2b5":[6,0,2,0,2,7,10,9]
 };

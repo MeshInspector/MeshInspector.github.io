@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="544" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="544" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="545" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="545" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a3716464cf250d2dcdbd7d8aacd66ffcd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="549" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="549" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="550" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="550" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a7f798455f0eb6c8f831a5b4aeff41043" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="554" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="554" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="555" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="555" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="558" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="558" bodyend="562"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="559" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="559" bodyend="563"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,34 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="568" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="568" bodyend="574"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a60ed0d899724a23bb676442d63885da9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</definition>
-        <argsstring>(MR.Box3f box, MR.NodeId l, MR.NodeId r)</argsstring>
-        <name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
-        <qualifiedname>MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
-          <declname>box</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>l</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>r</declname>
-        </param>
-        <briefdescription>
-<para>Constructs <computeroutput>MR::AABBTreeNode&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;</computeroutput> elementwise. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="579" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="579" bodyend="585"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="569" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="569" bodyend="575"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a6c5756972f4bfab5165e581c7f0bcac9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -134,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="590" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="590" bodyend="597"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="580" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="580" bodyend="587"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a4d55e33831fdf767c96a39f293c7b9c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -153,7 +126,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="602" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="602" bodyend="602"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="592" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="592" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1aff8687bea81225e1936a01174f12dc85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
+        <qualifiedname>MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreeNode&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::AABBTreeNode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="597" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="597" bodyend="604"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a10704047ba8fa2cba5c020e29343ed6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f" kindref="compound">MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</ref></type>
@@ -172,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="607" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="607" bodyend="614"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="609" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="609" bodyend="616"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a9922a3acb95a6910aba5a09fae18b836" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -191,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="619" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="619" bodyend="624"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="621" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="621" bodyend="626"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -252,23 +244,23 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="539" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="540" bodyend="625"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="540" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="541" bodyend="627"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a7ba09c72a6159be68789ba2b5e1e594b" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>__ref_storage_box</name></member>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a61afb84b615f94b731cfc48cc441fc12" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>__ref_storage_l</name></member>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1af4567e168c7aba0e9fbe2b4eb5446c6c" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>__ref_storage_r</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ae03f898eb3a6e18d028ef393e57c3e11" prot="package" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a5619c4992c671cd28a979589b37eb1d2" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
-      <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a60ed0d899724a23bb676442d63885da9" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a6c5756972f4bfab5165e581c7f0bcac9" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a4d55e33831fdf767c96a39f293c7b9c7" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1aff8687bea81225e1936a01174f12dc85" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a10704047ba8fa2cba5c020e29343ed6e" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>assign</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ae6fb681872c8085c8c06d9b3d95c1898" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>box</name></member>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a52f1341c714a2d36cc7f1bfd832c657b" prot="package" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a268c3d5047e4b822869da675d4edbfe7" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
-      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ac7277bc8289c1ed7c455dd1770457d2e" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1aa0078b2989542b09258651559cbf78b0" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1adbe2f3ff3e33e006b68e40db1b8791d8" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a656e757f4f1d5402881ec0b187d32db9" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1ac5d27b04c7d9b827d3cbed8640356ee4" prot="protected" virt="virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a42bc29303c67efdb3117add593b04a60" prot="public" virt="virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f_1a3716464cf250d2dcdbd7d8aacd66ffcd" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>l</name></member>
