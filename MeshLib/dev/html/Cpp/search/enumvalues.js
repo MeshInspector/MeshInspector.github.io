@@ -384,7 +384,7 @@ var searchData=
   ['rect_6',['Rect',['../namespaceMR_1_1FillingSurface_1_1CellularSurface.html#af4d9ef943b24a672c1140baa211a3819a69ad58d91eec91b5c152d21ca117dc81',1,'MR::FillingSurface::CellularSurface']]],
   ['redo_7',['Redo',['../group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6',1,'MR::HistoryAction']]],
   ['regular_8',['Regular',['../group__GeneralGroup.html#gga0cf7d55377d8e831c45ed8aa549b7ac8ad2203cb1237cb6460cbad94564e39345',1,'MR::SystemPath::Regular'],['../group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345',1,'MR::RibbonFontManager::Regular']]],
-  ['regularsc_9',['RegularSC',['../group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccba6baffa563c9451d327bc3b3db0ef717e',1,'MR::RibbonFontManager']]],
+  ['regularcjk_9',['RegularCJK',['../group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccba2b30d0fdf6dc76a494319a16d169dd06',1,'MR::RibbonFontManager']]],
   ['relax_10',['Relax',['../group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4',1,'MR::SelfIntersections::Settings::Relax'],['../group__GeneralGroup.html#ggaaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4',1,'MR::SurfaceManipulationWidget::Relax']]],
   ['remesh_11',['Remesh',['../structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10',1,'MR::FixMeshDegeneraciesParams']]],
   ['remeshpatch_12',['RemeshPatch',['../structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7',1,'MR::FixMeshDegeneraciesParams']]],
