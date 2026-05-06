@@ -161,6 +161,10 @@ List of dependencies</h1>
 <td class="markdownTableBodyNone">MRCuda  </td><td class="markdownTableBodyNone">GPU acceleration  </td><td class="markdownTableBodyNone">MRMesh and MRVoxels  </td><td class="markdownTableBodyNone">Yes  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">MRViewer  </td><td class="markdownTableBodyNone">Rendering and user interface  </td><td class="markdownTableBodyNone">MRMesh, MRVoxels, MRSymbolMesh and MRIOExtras  </td><td class="markdownTableBodyNone">Yes  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">MRMcp  </td><td class="markdownTableBodyNone">MCP server / REST API  </td><td class="markdownTableBodyNone">MRMesh  </td><td class="markdownTableBodyNone">Yes  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">MRMCPGateway  </td><td class="markdownTableBodyNone">stdio MCP proxy executable  </td><td class="markdownTableBodyNone">-  </td><td class="markdownTableBodyNone">Yes  </td></tr>
 </table>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md148"></a>
 MRMesh</h3>
@@ -185,7 +189,7 @@ MRMesh</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://libzip.org" rel="nofollow">libzip</a>  </td><td class="markdownTableBodyNone">libzip - reading, creating, and modifying zip archives  </td><td class="markdownTableBodyNone">BSD-3-Clause  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><a href="https://www.zlib.net" rel="nofollow">zlib</a>  </td><td class="markdownTableBodyNone">A Massively Spiffy Yet Delicately Unobtrusive Compression Library  </td><td class="markdownTableBodyNone">zlib  </td></tr>
+<td class="markdownTableBodyNone"><a href="https://github.com/zlib-ng/zlib-ng" rel="nofollow">zlib-ng</a>  </td><td class="markdownTableBodyNone">zlib data compression library for the next generation systems  </td><td class="markdownTableBodyNone">zlib  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://github.com/vilya/miniply" rel="nofollow">minply</a>  </td><td class="markdownTableBodyNone">a simple and fast parser for PLY files  </td><td class="markdownTableBodyNone">MIT  </td></tr>
 <tr class="markdownTableRowOdd">
@@ -221,6 +225,8 @@ MRIOExtras</h3>
 <td class="markdownTableBodyNone"><a href="https://github.com/asmaloney/libE57Format" rel="nofollow">libe57format</a>  </td><td class="markdownTableBodyNone">library for reading &amp; writing the E57 file format  </td><td class="markdownTableBodyNone">Boost Software License  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a href="https://leethomason.github.io/tinyxml2/" rel="nofollow">tinyxml2</a>  </td><td class="markdownTableBodyNone">an efficient, C++ XML parser  </td><td class="markdownTableBodyNone">zlib  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/nlohmann/json" rel="nofollow">nlohmann-json</a>  </td><td class="markdownTableBodyNone">JSON for Modern C++ — used by the glTF reader/writer  </td><td class="markdownTableBodyNone">MIT  </td></tr>
 </table>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md150"></a>
 MRSymbolMesh</h3>
@@ -284,6 +290,30 @@ MRViewer</h3>
 <td class="markdownTableBodyNone"><a href="https://fontawesome.com" rel="nofollow">Fontawesome</a>  </td><td class="markdownTableBodyNone">is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators  </td><td class="markdownTableBodyNone"><a href="https://fontawesome.com/license/free" rel="nofollow">Fontawesome License</a>  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://fonts.google.com/noto/specimen/Noto+Sans" rel="nofollow">NotoSans</a>  </td><td class="markdownTableBodyNone">is a global font collection for writing in all modern and ancient languages  </td><td class="markdownTableBodyNone">OPEN FONT  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md155"></a>
+MRMcp</h3>
+<p><b>MRMcp</b> exposes MeshLib functionality through the Model Context Protocol (HTTP + SSE) and a parallel REST API. It depends on MRMesh and:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">License  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/MeshInspector/fastmcpp" rel="nofollow">fastmcpp</a>  </td><td class="markdownTableBodyNone">a C++ implementation of the Model Context Protocol  </td><td class="markdownTableBodyNone">Apache-2.0  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/yhirose/cpp-httplib" rel="nofollow">cpp-httplib</a>  </td><td class="markdownTableBodyNone">single-file C++ HTTP/HTTPS server and client library  </td><td class="markdownTableBodyNone">MIT  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/nlohmann/json" rel="nofollow">nlohmann-json</a>  </td><td class="markdownTableBodyNone">JSON for Modern C++  </td><td class="markdownTableBodyNone">MIT  </td></tr>
+</table>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md156"></a>
+MRMCPGateway</h3>
+<p><b>MRMCPGateway</b> is a small standalone executable (<span class="tt">McpGateway[.exe]</span>) that proxies stdio-based MCP clients onto the HTTP MCP server hosted by MeshInspector. It has no MeshLib dependencies and pulls in:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">License  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><a href="https://github.com/MeshInspector/fastmcpp" rel="nofollow">fastmcpp</a>  </td><td class="markdownTableBodyNone">a C++ implementation of the Model Context Protocol  </td><td class="markdownTableBodyNone">Apache-2.0  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><a href="https://github.com/yhirose/cpp-httplib" rel="nofollow">cpp-httplib</a>  </td><td class="markdownTableBodyNone">single-file C++ HTTP/HTTPS server and client library  </td><td class="markdownTableBodyNone">MIT  </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
