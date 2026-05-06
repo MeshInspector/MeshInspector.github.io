@@ -11703,6 +11703,16 @@
     <member refid="classMR_1_1TypedBitSet_1a1149b2c32a22288cf8377b471b828dfc" kind="friend"><name>operator|</name></member>
     <member refid="classMR_1_1TypedBitSet_1a9a6311d580354711cb0ba92d6491c58d" kind="friend"><name>operator^</name></member>
     <member refid="classMR_1_1TypedBitSet_1a5c12d2b38ae2d0cc432992afdaa37ebf" kind="friend"><name>operator-</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a35d6c1a18382e2eec41b07e5c44ee35a" kind="friend"><name>operator&amp;</name></member>
+    <member refid="classMR_1_1TypedBitSet_1ab32551e7f814d853dfedb129958bee90" kind="friend"><name>operator|</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a6ed789452650bae035623621a508114d" kind="friend"><name>operator^</name></member>
+    <member refid="classMR_1_1TypedBitSet_1afc84308efc351b72ad68e77e60868d82" kind="friend"><name>operator-</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a9e5e2a5bb0b9bd31a7945dcda1a49595" kind="friend"><name>operator&amp;</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a465682f97ad801485e2cfd87a1797135" kind="friend"><name>operator|</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a4cc8e898f3725b3e0b7cf1f271c9b568" kind="friend"><name>operator^</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a0ccc260c93d360570f71ef0db07f5c97" kind="friend"><name>operator&amp;</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a5f4049a12a6c1e78af87ce14f4987616" kind="friend"><name>operator|</name></member>
+    <member refid="classMR_1_1TypedBitSet_1af3870964560b551472f23be2db43d0c3" kind="friend"><name>operator^</name></member>
     <member refid="classMR_1_1TypedBitSet_1a7431dbea0877010d6fe6071a4079e4f0" kind="friend"><name>begin</name></member>
     <member refid="classMR_1_1TypedBitSet_1a46316815dacca975fffa963f1041957a" kind="friend"><name>end</name></member>
     <member refid="classMR_1_1TypedBitSet_1a14519da8a9492a4f7bfa687489218f29" kind="function"><name>beginId</name></member>
@@ -14269,6 +14279,16 @@
     <member refid="group__BasicGroup_1ga8e5910c21dd8d185e8c21a9691826314" kind="function"><name>operator|</name></member>
     <member refid="group__BasicGroup_1gace45a71e6bdb315750cbd38f5e648a56" kind="function"><name>operator^</name></member>
     <member refid="group__BasicGroup_1ga042aeb0c2011b3bc175a13e96a447a5f" kind="function"><name>operator-</name></member>
+    <member refid="group__BasicGroup_1ga47b9283cad2f5af1e37735f4bb0a4743" kind="function"><name>operator&amp;</name></member>
+    <member refid="group__BasicGroup_1ga1c310e782792a068bd03c0968f9b09cb" kind="function"><name>operator|</name></member>
+    <member refid="group__BasicGroup_1ga249233ba252cf2a2c7944527eb96fc6b" kind="function"><name>operator^</name></member>
+    <member refid="group__BasicGroup_1ga48b0a2d71fce7c488d814cdca78fad26" kind="function"><name>operator-</name></member>
+    <member refid="group__BasicGroup_1ga5e449db96e7e177d2b7550d75b5b712d" kind="function"><name>operator&amp;</name></member>
+    <member refid="group__BasicGroup_1ga463851dec13846ff7907d8ff9652f019" kind="function"><name>operator|</name></member>
+    <member refid="group__BasicGroup_1gae42ff4495cb664d0ca8c550d1df8a6c5" kind="function"><name>operator^</name></member>
+    <member refid="group__BasicGroup_1gaaba83a018f0d973756bc09c9ad1c2919" kind="function"><name>operator&amp;</name></member>
+    <member refid="group__BasicGroup_1ga55dcfbbedd72e400762f933c187e5167" kind="function"><name>operator|</name></member>
+    <member refid="group__BasicGroup_1ga20dba298583085400b413482e6f960af" kind="function"><name>operator^</name></member>
     <member refid="group__BasicGroup_1ga33e26ce0b4711944b757408b0ab339a5" kind="function"><name>BitSetParallelForAllRanged</name></member>
     <member refid="group__BasicGroup_1ga82bab0dac0d1604747ecff512e8a091a" kind="function"><name>BitSetParallelForAllRanged</name></member>
     <member refid="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" kind="function"><name>BitSetParallelForAll</name></member>
@@ -18539,6 +18559,16 @@
     <member refid="group__BasicGroup_1ga8e5910c21dd8d185e8c21a9691826314" kind="function"><name>operator|</name></member>
     <member refid="group__BasicGroup_1gace45a71e6bdb315750cbd38f5e648a56" kind="function"><name>operator^</name></member>
     <member refid="group__BasicGroup_1ga042aeb0c2011b3bc175a13e96a447a5f" kind="function"><name>operator-</name></member>
+    <member refid="group__BasicGroup_1ga47b9283cad2f5af1e37735f4bb0a4743" kind="function"><name>operator&amp;</name></member>
+    <member refid="group__BasicGroup_1ga1c310e782792a068bd03c0968f9b09cb" kind="function"><name>operator|</name></member>
+    <member refid="group__BasicGroup_1ga249233ba252cf2a2c7944527eb96fc6b" kind="function"><name>operator^</name></member>
+    <member refid="group__BasicGroup_1ga48b0a2d71fce7c488d814cdca78fad26" kind="function"><name>operator-</name></member>
+    <member refid="group__BasicGroup_1ga5e449db96e7e177d2b7550d75b5b712d" kind="function"><name>operator&amp;</name></member>
+    <member refid="group__BasicGroup_1ga463851dec13846ff7907d8ff9652f019" kind="function"><name>operator|</name></member>
+    <member refid="group__BasicGroup_1gae42ff4495cb664d0ca8c550d1df8a6c5" kind="function"><name>operator^</name></member>
+    <member refid="group__BasicGroup_1gaaba83a018f0d973756bc09c9ad1c2919" kind="function"><name>operator&amp;</name></member>
+    <member refid="group__BasicGroup_1ga55dcfbbedd72e400762f933c187e5167" kind="function"><name>operator|</name></member>
+    <member refid="group__BasicGroup_1ga20dba298583085400b413482e6f960af" kind="function"><name>operator^</name></member>
     <member refid="group__BasicGroup_1ga33e26ce0b4711944b757408b0ab339a5" kind="function"><name>BitSetParallelForAllRanged</name></member>
     <member refid="group__BasicGroup_1ga82bab0dac0d1604747ecff512e8a091a" kind="function"><name>BitSetParallelForAllRanged</name></member>
     <member refid="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" kind="function"><name>BitSetParallelForAll</name></member>
